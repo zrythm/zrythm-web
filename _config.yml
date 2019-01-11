@@ -47,10 +47,22 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _support
+    type: support
+  values:
+    layout: simple
+    sectionid: support
+    seo:
+      type: "WebPage"
+
 collections:
   docs:
     permalink: /:collection/:path/
     output: true
   posts:
     permalink: /blog/:year/:month/:day/:title/
+    output: true
+  support:
+    permalink: /support/
     output: true
