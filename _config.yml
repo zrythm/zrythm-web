@@ -8,7 +8,7 @@ lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://www.zrythm.org # the base hostname & protocol for your site
-git_address: https://gitlab.com/alextee/zrythm
+git_address: https://git.zrythm.org/zrythm/zrythm
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
