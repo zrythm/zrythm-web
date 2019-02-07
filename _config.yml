@@ -3,7 +3,7 @@ title: Zrythm
 email: alex@zrythm.org
 description: >
   A free GNU/Linux music production system (DAW)
-  focused on electronic music and high modularity.
+  focused on electronic music
 lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -37,15 +37,6 @@ defaults:
   values:
     layout: post
     sectionid: blog
-
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: docs
-    sectionid: docs
-    seo:
-      type: "WebPage"
 
 - scope:
     path: _support
