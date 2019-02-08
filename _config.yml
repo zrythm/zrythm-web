@@ -39,11 +39,11 @@ defaults:
     sectionid: blog
 
 - scope:
-    path: _support
-    type: support
+    path: _donate
+    type: donate
   values:
     layout: simple
-    sectionid: support
+    sectionid: donate
     seo:
       type: "WebPage"
 
@@ -54,6 +54,6 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
-  support:
-    permalink: /support/
+  donate:
+    permalink: /donate/
     output: true
