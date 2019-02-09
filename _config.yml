@@ -47,6 +47,15 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _download
+    type: download
+  values:
+    layout: simple
+    sectionid: download
+    seo:
+      type: "WebPage"
+
 collections:
   docs:
     permalink: /:collection/:path/
@@ -56,4 +65,7 @@ collections:
     output: true
   donate:
     permalink: /donate/
+    output: true
+  download:
+    permalink: /download/
     output: true
