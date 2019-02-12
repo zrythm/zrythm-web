@@ -15,8 +15,9 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='download' %} class="active" {% endif %}><a href="{{ "/download/" | prepend: site.baseurl }}">Download</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
-                <li><a href="https://docs.zrythm.org/">Develop</a></li>
-                <li><a href="https://manual.zrythm.org/">Manual</a></li>
+                <li><a href="https://manual.zrythm.org/" target="_blank">Manual</a></li>
+                <li><a href="https://docs.zrythm.org/" target="_blank">Develop</a></li>
+                <li {% if page.sectionid=='contribute' %} class="active" {% endif %}><a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a></li>
                 <li {% if page.sectionid=='donate' %} class="active" {% endif %}><a href="{{ "/donate/" | prepend: site.baseurl }}">Donate</a></li>
             </ul>
             <div class="navbar-right">

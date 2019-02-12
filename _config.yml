@@ -48,6 +48,15 @@ defaults:
       type: "WebPage"
 
 - scope:
+    path: _contribute
+    type: contribute
+  values:
+    layout: simple
+    sectionid: contribute
+    seo:
+      type: "WebPage"
+
+- scope:
     path: _download
     type: download
   values:
@@ -65,6 +74,9 @@ collections:
     output: true
   donate:
     permalink: /donate/
+    output: true
+  contribute:
+    permalink: /contribute/
     output: true
   download:
     permalink: /download/
