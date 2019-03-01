@@ -3,6 +3,6 @@ title: Download Zrythm
 permalink: /download/
 ---
 
-Download a pre-built standard package for free or get the full version (with extras like MP3 support) for a minimum fee of $5.
+See [Installation](https://git.zrythm.org/zrythm/zrythm#installation) for installation instructions.
 
-Coming soon
+Packages will be available here once officially released.
