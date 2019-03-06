@@ -13,12 +13,12 @@ currentver: 0.1.009
 ```bash
 # Ubuntu 18.10
 wget https://download.opensuse.org/repositories/home:/alextee/xUbuntu_18.10/amd64/zrythm_{{ currentver }}-1_amd64.deb
-sudo apt install zrythm_{{ currentver }}-1_amd64.deb
+sudo apt install ./zrythm_{{ currentver }}-1_amd64.deb
 rm zrythm_{{ currentver }}-1_amd64.deb
 
 # Ubuntu 18.04
 wget https://download.opensuse.org/repositories/home:/alextee/xUbuntu_18.04/amd64/zrythm_{{ currentver }}-1_amd64.deb
-sudo apt install zrythm_{{ currentver }}-1_amd64.deb
+sudo apt install ./zrythm_{{ currentver }}-1_amd64.deb
 rm zrythm_{{ currentver }}-1_amd64.deb
 
 # Note: does not work on older versions
@@ -31,7 +31,7 @@ rm zrythm_{{ currentver }}-1_amd64.deb
 ```bash
 # Debian 10 (buster)
 wget https://download.opensuse.org/repositories/home:/alextee/Debian_Testing/amd64/zrythm_{{ currentver }}-1_amd64.deb
-sudo apt install zrythm_{{ currentver }}-1_amd64.deb
+sudo apt install ./zrythm_{{ currentver }}-1_amd64.deb
 rm zrythm_{{ currentver }}-1_amd64.deb
 
 # Note: does not work on older versions
