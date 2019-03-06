@@ -2,8 +2,7 @@
 title: Zrythm
 email: alex@zrythm.org
 description: >
-  A free GNU/Linux music production system (DAW)
-  focused on electronic music
+  An highly automated, intuitive, Digital Audio Workstation (DAW)
 lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
