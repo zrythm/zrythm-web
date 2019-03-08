@@ -1,13 +1,15 @@
 ---
 title: Download
 permalink: /download/
-currentver: 0.1.009
+currentver: 0.1.019
 ---
 
 {% assign currentver = page.currentver %}
 
-# Official Release (v{{ currentver }})
-[Release Info](https://git.zrythm.org/zrythm/zrythm/releases)
+# Current Release (v{{ currentver }}) - [Release Info](https://git.zrythm.org/zrythm/zrythm/releases)
+
+#### Download package for...
+[Ubuntu](#ubuntu) [Debian](#debian) [Arch](#arch) [Fedora](#fedora) [openSUSE](#opensuse)
 
 ## Ubuntu
 ```bash
@@ -58,19 +60,24 @@ yaourt -S zrythm-git
 
 ## Fedora
 ```bash
+# Fedora 27
+wget https://download.opensuse.org/repositories/home:/alextee/Fedora_27/x86_64/zrythm-{{ currentver }}-13.1.x86_64.rpm
+sudo dnf install zrythm-{{ currentver }}-2.1.x86_64
+rm zrythm-{{ currentver }}-13.1.x86_64
+
 # Fedora 28
 wget https://download.opensuse.org/repositories/home:/alextee/Fedora_28/x86_64/zrythm-{{ currentver }}-13.1.x86_64.rpm
-sudo dnf install zrythm-{{ currentver }}-13.1.x86_64
+sudo dnf install zrythm-{{ currentver }}-2.1.x86_64
 rm zrythm-{{ currentver }}-13.1.x86_64
 
 # Fedora 29
 wget https://download.opensuse.org/repositories/home:/alextee/Fedora_29/x86_64/zrythm-{{ currentver }}-13.1.x86_64.rpm
-sudo dnf install zrythm-{{ currentver }}-13.1.x86_64
+sudo dnf install zrythm-{{ currentver }}-2.1.x86_64
 rm zrythm-{{ currentver }}-13.1.x86_64
 
 # Fedora Rawhide
 wget https://download.opensuse.org/repositories/home:/alextee/Fedora_Rawhide/x86_64/zrythm-{{ currentver }}-13.1.x86_64.rpm
-sudo dnf install zrythm-{{ currentver }}-13.1.x86_64
+sudo dnf install zrythm-{{ currentver }}-2.1.x86_64
 rm zrythm-{{ currentver }}-13.1.x86_64
 ```
 #### Repositories

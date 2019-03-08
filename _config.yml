@@ -55,15 +55,6 @@ defaults:
     seo:
       type: "WebPage"
 
-- scope:
-    path: _download
-    type: download
-  values:
-    layout: simple
-    sectionid: download
-    seo:
-      type: "WebPage"
-
 collections:
   docs:
     permalink: /:collection/:path/
