@@ -1,0 +1,71 @@
+==============
+GNUnet Website
+==============
+
+Sourcecode for https://gnunet.org created from the https://taler.net code base.
+
+Requires python3-jinja2, python3-babel, and gettext.
+
+The currently supported python3 version is python 3.7.
+
+Run "make" to build the HTML.
+If you experience a failure related to a python module, run
+"make" again.
+
+Expect it to show up in rendered/en/ and other language folders.
+
+Layout / how this comes to be
+=============================
+
+config.mk		local variables for values in the Makefile
+static/			contains images, css, PDFs, robots.txt, team-images
+static/navbar.css	CSS for the navigation bar (common/navigation.j2.inc)
+static/styles.css	CSS for the rest of the website
+template/		the flat namespace of html.j2 files
+dist/			3rd party content (bootstrap 4, font-awesome)
+common/			jinja2 templates.
+template.py		operates on template directory and produces
+			output in 'rendered/' directory
+
+The 'dist' and 'static' directories will be copied to the output
+directory ('rendered/') in the 'all' phase of make. robots.txt
+is copied to relevant folders.
+
+Developing with GNU Guix
+========================
+
+Creating an ad-hoc development environment containing all of the necessary
+software needed to build the HTML files can be easily done using the GNU 
+Guix functional package manager.
+
+This can be achieved with the following command:
+
+`guix environment --ad-hoc coreutils bash python python-babel python-jinja2 gettext-minimal make -- bash`
+
+After installing the packages, this will drop you into a bash environment
+from which you can proceed to run "make".
+
+Alternative Build Method: Docker
+================================
+
+Run "make docker" to generate the HTML using a docker container-image (which 
+will be built from the included ./Dockerfile).
+
+This could be useful if, for example, you are unable to install the required 
+packages on your system, because it will use the container to install and run
+all of the required packages.
+
+Additional Notes
+================
+
+Please use HTML codes, not international signs as found on your keyboard.
+
+This website has been tested with:
+* python 3.6.5 and jinja2 2.9.6.
+* python 3.7.1, Babel 2.6.0, py-jinja2 2.10 (pkgsrc, NetBSD 8.0)
+Since python development in collaborative environments with
+a whole range of possibilities in what your environment looks
+like, please state problems on the mailinglist instead of just
+fixing what *could* work for you.
+
+Thanks!

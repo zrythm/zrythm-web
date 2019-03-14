@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<author>Author's name</author</author>
+	<title>Feed title</title>
+	{% for item in items %}
+	<entry>
+		<title>{{ item[0] }}</title>
+		<link href="{{ item[1] }}" />
+		<content type="html">{{ item[2] }}</content>
+	</entry>
+	{% endfor %}
+</feed> 

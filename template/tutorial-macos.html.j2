@@ -1,0 +1,192 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<div class="container">
+
+  <h2>{{ _("Tutorial: GNUnet on macOS 10.14 (Mojave)") }}</h2>
+
+  <p>
+    Welcome to the hopefully painless GNUnet tutorial for macOS Mojave! It provides
+    concrete instructions on how to install a current
+    version of GNUnet. The goal is to support newcomers, either end users or
+    developers, who want to get in touch with GNUnet for the first time.
+  </p>
+
+  <h3>{{ _("Requirements") }}</h3>
+
+  <p>
+    As a bare minimum, we recommend you install <a href="https://brew.sh">homebrew</a> and <a href="https://developer.apple.com/xcode/">XCode</a> before reading any further.
+  </p>
+
+
+  <h3>{{ _("Installation") }}</h3>
+  <p>
+    GNUnet is available through homebrew:
+  </p>
+  <br/>
+  <p>
+  <code>
+    $ brew install gnunet
+  </code>
+  </p>
+
+  <p>And you're done!. <br/>
+  GNUnet has a number of services and features.
+  Please check <a href="https://docs.gnunet.org">our documentation</a>
+  to learn how to use them. If you find anything odd or bugs, please
+  <a href="https://gnunet.org/bugs">let us know</a>.
+  </p>
+
+  <h3>{{_("First steps")}}</h3>
+  <p>
+  Congratulations! GNUnet is now installed! Before starting it you
+  may create a configuration file. By default GNUnet looks in
+  our home directory for the file `~/.gnunet/gnunet.conf`.
+  Creating the configuation file is optional. For now just create an empty
+  file which will remind you of the location later if needed:
+  </p>
+  <p>
+  <code>
+  $ touch ~/.config/gnunet.conf
+  </code>
+  </p>
+
+  <p>
+  GNUnet and its services are managed using the command line tool  `gnunet-arm`
+  (Automatic Restart Manager).
+  <br/>
+  To start GNUnet with its default services execute:
+  </p>
+  <p>
+  <code>
+  $ gnunet-arm -s
+  </code>
+  </p>
+
+  <p>
+  To list the running services use:
+  </p>
+  <p>
+  <code>
+  $ gnunet-arm -I<br>
+  Running services:<br>
+  ats (gnunet-service-ats)<br>
+  revocation (gnunet-service-revocation)<br>
+  set (gnunet-service-set)<br>
+  nat (gnunet-service-nat)<br>
+  transport (gnunet-service-transport)<br>
+  peerstore (gnunet-service-peerstore)<br>
+  hostlist (gnunet-daemon-hostlist)<br>
+  identity (gnunet-service-identity)<br>
+  namecache (gnunet-service-namecache)<br>
+  peerinfo (gnunet-service-peerinfo)<br>
+  datastore (gnunet-service-datastore)<br>
+  zonemaster (gnunet-service-zonemaster)<br>
+  zonemaster-monitor (gnunet-service-zonemaster-monitor)<br>
+  nse (gnunet-service-nse)<br>
+  cadet (gnunet-service-cadet)<br>
+  dht (gnunet-service-dht)<br>
+  core (gnunet-service-core)<br>
+  gns (gnunet-service-gns)<br>
+  statistics (gnunet-service-statistics)<br>
+  topology (gnunet-daemon-topology)<br>
+  fs (gnunet-service-fs)<br>
+namestore (gnunet-service-namestore)<br>
+vpn (gnunet-service-vpn)
+  </code>
+  </p>
+  <p>
+  To stop all services, use the `-e` option.
+  </p>
+  <p>
+  <code>
+  $ gnunet-arm -e
+  </code>
+  </p>
+
+  <h3>{{ _("Alternative: Installation from source") }}</h3>
+
+  <p>
+    The following instructions are only really interesting for developers
+    or if you need special build switches as you can install from git
+    using homebrew (see above).<br/>
+    First, install the dependencies:
+  </p>
+  <p>
+  <code>
+    $ brew install git autoconf automake glpk gettext gnutls jansson libextractor libgcrypt libffi libidn2 libmicrohttpd libmpc libtool libunistring pkg-config unbound
+  </code>
+  </p>
+  <p>
+    Next, create a directory in your home in order to store
+    the source code later. You should keep this directory after
+    installation because it contains Makefiles that can be used for
+    uninstalling GNUnet again.
+  </p>
+  <p>
+  <code>
+    $ mkdir ~/gnunet
+  </code>
+  </p>
+
+  <h4>{{ _("Get the source code") }}</h4>
+  <p>
+  <code>
+    $ cd ~<br>
+    $ git clone --depth 1 https://gnunet.org/git/gnunet.git gnunet_src<br>
+  </code>
+  </p>
+
+  <h4>{{ _("Compile and Install") }}</h4>
+
+
+  <p>
+    You have a choice between two options:
+    build the *production version* or *development version*. If
+    you want to start writing GNUnet applications or join the GNUnet development
+    choose the development version (it will print more debug output and contains
+    debug symbols that can be displayed with a debugger). Otherwise choose the
+    production version.
+  </p>
+  
+  <h5>{{ _("Option 1: GNUnet for production / usage") }}</h5>
+
+  <p>
+  <code>
+  $ cd ~/gnunet_src<br>
+  $ ./bootstrap<br>
+  $ export GNUNET_PREFIX=~/gnunet<br>
+  $ ./configure --prefix=$GNUNET_PREFIX --disable-documentation<br>
+  </code>
+  </p>
+  <p>
+  You might see configure failing telling you that it ``cannot run C compiled programs.''.
+  In this case, you might need to open/run Xcode once and you will be prompted to
+  install additonal packages.
+  Then, you might have to manually install the command line tools from here https://developer.apple.com/download/more/ (you need an Apple ID for this).
+  Install those and execute
+  </p>
+  <p>
+  <code>
+  $ open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
+  </code>
+  </p>
+  <p>
+    After configure passes, you need to add a 'gnunetdns' group using the macOS system preferences.
+  Further, you need to add a user 'gnunet'. Then:
+  </p>
+  <p>
+  <code>
+  $ make<br>
+  $ sudo make install
+  </code>
+  </p>
+
+  <h5>{{ _("Option 2: GNUnet experimental") }}</h5>
+
+  <p>
+  Perform the same steps as for Option 1, but add the configure flat '--enable-experimental'
+  </p>
+
+
+</div>
+{% endblock body_content %}

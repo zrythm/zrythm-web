@@ -1,0 +1,22 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<article class="d-flex flex-column p-5 bd-highlight">
+    <header>
+      <h1>{{ _("Tutorials") }}</h1>
+    </header>
+    <p>
+      {% trans %}
+      This page holds various tutorials for Zrythm. Some of them are not
+      complete, but we find them useful regardless of their state.
+      {% endtrans %}
+    </p>
+    <p>
+      {% trans %}
+      Zrythm installation instructions:
+      <ul>
+        <li>TODO</li>
+      </ul>
+      {% endtrans %}
+    </p>
+</article>
+{% endblock body_content %}

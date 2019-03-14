@@ -1,0 +1,150 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<div class="container">
+
+<h2>{{ _("Tutorial: GNUnet on Archlinux/Pi") }}</h2>
+
+Welcome to this GNUnet tutorial for Archlinux on a Raspberry Pi 3. If you want
+to run a GNUnet node on a separte system, permanently online, with low energy
+consumption, this might be the thing for you. This tutorial shows you how to
+install, run, and operate it. 
+
+<h3>{{ _("Requirements") }}</h3>
+
+<p>First you need the hardware. This tutorial works with a Raspberry Pi 3. The
+other Pi versions I haven't tested, but they should probably work, too. To
+install Archlinux on the Pi3, follow the instructions from <a
+href="https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3">archlinuxarm.org</a>.</p>
+
+<p>That was easy, right? Our goal now is to build GNUnet from source. So, let's
+install the tools for building new software.</p>
+
+<p><code>
+> sudo pacman -S base-devel
+</code></p>
+
+<p>Now we can continue to install the following Archlinux dependencies to
+compile GNUnet on our Pi.</p>
+
+<p><code>
+$ pacman -Su libmicrohttpd libgcrypt gnurl libunistring gnutls libidn
+libextractor openssl libltdl sqlite texinfo which gettext zlib
+pkg-config git miniupnpc libextractor jansson nim
+</code></p>
+
+<h3>{{ _("Get the Source Code") }}</h3>
+
+<p>We are getting closer. Download the GNUnet source code which we will build
+in the next step:<p>
+
+<p><code>
+> git clone https://gnunet.org/git/gnunet.git<br> 
+</code></p>
+
+<p>Now it's time to compile GNUnet.</p>
+
+<p><code>
+> cd gnunet<br>
+> ./bootstrap # Run this to generate the configure files.<br>
+> ./configure # Use --help to see the various flags available to you.<br>
+> make -j$(nproc || echo -n 1)<br>
+> sudo make install<br>
+</code></p>
+
+<p>Congrats! GNUnet is now installed!</p>
+
+<h3>{{ _("Run") }}</h3>
+
+<p>By default GNUnet looks in our home directory for the file
+~/.gnunet/gnunet.conf. We can start with an empty file for now:</p>
+
+<p><code>
+> touch ~/.config/gnunet.conf
+</code></p>
+
+<p>Now we can start it with the commandline tool gnunet-arm (Automatic Restart
+Manager).</p>
+
+<p><code>
+> gnunet-arm -s 
+</code></p>
+
+<p>It starts the default GNUnet services. We can list them with the -I option:</p>
+
+<p><code>
+> gnunet-arm -I<br>
+Running services:<br>
+ats (gnunet-service-ats)<br>
+revocation (gnunet-service-revocation)<br>
+set (gnunet-service-set)<br>
+nat (gnunet-service-nat)<br>
+transport (gnunet-service-transport)<br>
+peerstore (gnunet-service-peerstore)<br>
+hostlist (gnunet-daemon-hostlist)<br>
+identity (gnunet-service-identity)<br>
+namecache (gnunet-service-namecache)<br>
+peerinfo (gnunet-service-peerinfo)<br>
+datastore (gnunet-service-datastore)<br>
+zonemaster (gnunet-service-zonemaster)<br>
+zonemaster-monitor (gnunet-service-zonemaster-monitor)<br>
+nse (gnunet-service-nse)<br>
+cadet (gnunet-service-cadet)<br>
+dht (gnunet-service-dht)<br>
+core (gnunet-service-core)<br>
+gns (gnunet-service-gns)<br>
+statistics (gnunet-service-statistics)<br>
+topology (gnunet-daemon-topology)<br>
+fs (gnunet-service-fs)<br>
+namestore (gnunet-service-namestore)<br>
+vpn (gnunet-service-vpn)<br>
+</code></p>
+
+<p>For stopping GNUnet again we can use the -e option.</p>
+
+<p><code>
+> gnunet-arm -e
+</code></p>
+
+<h3>{{ _("Make sure, it works!") }}</h3>
+
+After starting GNUnet you should make sure that your peer is connecting to the
+P2P-network. By typing gnunet-core you should see something like this:
+
+<p><code>
+> gnunet-core<br>
+Tue Oct 30 19:58:48 2018: connection established         DSTJ (timeout in  293 s)<br>
+Tue Oct 30 19:58:48 2018: connection established         A4MK (timeout in  292 s)<br>
+Tue Oct 30 19:58:48 2018: connection established         7WRD (timeout in  299 s)<br>
+Tue Oct 30 19:58:48 2018: connection established         5WBG (timeout in  299 s)<br>
+</code></p>
+
+<h3>{{ _("Chat the cat") }}</h3>
+
+<p>To be able to chat, we need to install and compile additional
+software.</p>
+
+<p><code>
+> git clone https://gnunet.org/git/gnunet-nim.git<br>
+> cd gnunet-nim/examples<br>
+> nim c groupchat.nim
+</code></p>
+
+<p>Fine! We can now try to enter a chat server running on another GNUnet node. 
+
+<p><code>
+> LD_LIBRARY_PATH=/path/to/gnunetlibs ./groupchat --config=/path/to/gnunet.conf --server=YV6G9EP9K3X41BM3FJ3D29BDZR6358XNZ6KDZVV7DFW729YB0KCG --port=welcome --nick=YOURNICK
+</code></p>
+
+<p>You should now see something like this:</p>
+
+<p><code>
+> 2018-10-30 19:50:10 Welcome 8Q2T! participants: @[] <br>
+Hello GNUnet!<br>
+2018-10-30 19:52:53 [8Q2T] Hello GNUnet!
+</code></p>
+
+<p>Here we have typed "Hello gnunet!" to standard in which is then written out
+to standard out after having been sent back from GNUnet.</p>
+
+</div>
+{% endblock body_content %}

@@ -1,0 +1,27 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>{{ _("Older News") }}</h1>
+    <div class="col-lg-12">
+      <p>
+        {% trans %}
+          This page documents the Zrythm history.
+        {% endtrans %}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+<!--{% include "news/2018-06.inc" %}
+{% include "news/2018-08.inc" %}
+{% include "news/2017-10.inc" %}-->
+    </div>
+  </div>
+</div> <!-- /container -->
+
+{% endblock body_content %}

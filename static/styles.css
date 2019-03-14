@@ -1,0 +1,324 @@
+.static-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.skip {
+    display:none!important;
+}
+
+.skip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: .857143em;
+}
+
+.skip li {
+    position:absolute;
+    z-index:1;
+    margin:0;
+}
+.skip a {
+    position:absolute;
+    left:-9999px;
+}
+.skip a:active,
+.skip a:focus {
+    display:block;
+    position:static;
+    left:0;
+    padding:.25em 1em;
+}
+
+code {
+    margin-bottom: 1em;
+}
+
+/* hyperlinks and buttons */
+#body_content a,
+#body_content a:link,
+#body_content a:visited {
+    text-decoration: underline;
+    color: black;
+}
+a.btn,
+a.btn:link,
+a.btn:visited {
+    text-decoration: none !important;
+    color: white !important;
+}
+/* For reference if bootstrap does not cover the main-Element issue in IE9-11 */
+/*
+main {
+	display:block;
+}
+*/
+/* There's a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+}
+
+/* 
+   Hover effects with this color don't work out!
+   See https://gnunet.org/bugs/view.php?id=5570
+*/
+/*
+#body_content a:hover {
+	transition: background-color 0.7s;
+	background-color: #d00;
+	border-color: #fff;
+	color: white !important;
+}
+*/
+.team {
+    padding: 75px 0;
+}
+h6.description {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+.profile {
+    margin-top: 25px;
+}
+.profile h1{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+.profile h2{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.profile .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+    min-height: 160px;
+}
+.profile .img-box:after{
+    content:"";
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.profile .img-none {
+    text-align: center;
+}
+
+.profile .img-none i.fa {
+    color: #eee;
+    font-size: 8em;
+}
+
+.img-box ul{
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+    height: 0px;
+    margin: 0px;
+    opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li {
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.img-box ul li{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    /*border: 1px solid #88C425;*/
+    color: #88C425;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+.img-box a {
+    color: #fff;
+}
+.img-box:hover:after{
+    opacity: 1;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box ul a {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+    border-color: #fff;
+    color: #88C425;
+}
+i.red {
+    color: #BC0213;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #678;
+    border-color: #68a;
+}
+a.btn:hover {
+    transition: background-color 0.7s;
+    background-color: #d00;
+    border-color: #fff;
+    color: white !important;
+}
+
+
+body .banner {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#body_content .banner a {
+    color: white;
+}
+
+
+.lang-slector {
+    float: right;
+    padding-top: 2mm;
+    padding-bottom: 4mm;
+    margin-left:  15px;
+    margin-right: 15px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.dark {
+    background-color: #333;
+}
+
+.c_acronym {
+    background-color: #68a;
+    color: white;
+}
+
+
+footer a,
+footer a:link,
+footer a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+footer a:hover {
+    transition: background-color 0.3s;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.c_intro {
+    min-height: 97vh;
+}
+
+/* don't show the language selector in the dropdown on mobile devices,
+ * since it's in the top bar already.
+ */
+.in .nav-lang {
+    display: none;
+}
+
+.mobile-lang {
+    margin-left:5px;
+    margin-top: 8px;
+}
+
+#mybody {
+    /* override ugly bootstrap defaults */
+    color: black;
+}
+
+.btn-dark {
+    background-color: #999;
+}
+
+
+#mybody nav {
+    border-radius: 0px;
+    padding: 10px;
+}
+.index-logo {
+    text-align: center;
+}
+
+footer {
+    padding-top: 2em;
+    margin-top: 2em;
+    background-color: #333;
+    color: white;
+}
+
+#body_content .container-wide {
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left:  2em;
+    padding-right: 2em;
+}
+#body_content .container {
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left:  2em;
+    padding-right: 2em;
+    max-width: 80em;
+}
+
+#body_content {
+    /* push footer down */
+    min-height: 80vh;
+    /* space for the nav */
+    padding-top: 70px;
+}
+
+.adorn_h3_bracket h3::before {
+    content: "⊛";
+    color: #d00;
+    margin-right: 1em;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.cushion-above {
+    padding-top: 2em;
+}
+
+.cushion-below {
+    padding-bottom: 2em;
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#body_content .jumbotron {
+    background-color: white;
+}

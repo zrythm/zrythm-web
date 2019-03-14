@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>{{ _("Zrythm") }}</title>
+    <meta name="description" content="{{ _('An highly automated, intuitive, Digital Audio Workstation (DAW)') }}" />
+    {% include "common/header.j2.inc" %}
+    {% block head_content %}{% endblock %}
+  </head>
+  <body id="mybody">
+    {% include "common/navigation.j2.inc" %}
+    <div id="body_content">
+    {% block body_content %}{% endblock %}
+    </div>
+    {% include "common/footer.j2.inc" %}
+  </body>
+</html>

@@ -1,0 +1,195 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<!-- Jumbotron -->
+<div class="container-logo banner dark text-center" id="frontpagefront">
+    <h1>
+      <img src="{{ url('static/images/z.svg') }}" 
+      alt="Zrythm" height="320" />
+    </h1>
+</div>
+<article>
+<div class="jumbotron">
+  <div class="container text-center">
+    <p>
+      {% trans %}
+      Zrythm is a highly automated Digital Audio Workstation (DAW) designed to be featureful and intuitive to use. Zrythm sets itself apart from other DAWs by allowing extensive automation via built-in LFOs and envelopes and intuitive MIDI or audio editing and arranging via clips.
+      {% endtrans %}
+      <br><br>
+      {% trans %}
+In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most focus on the Composing part. It allows musicians to quickly lay down and process their musical ideas without taking too much time for unnecessary work.
+      {% endtrans %}
+      <br><br>
+      {% trans %}
+      Zrythm is <a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>aa licensed under the GPLv3+.
+      {% endtrans %}
+    </p>
+    <p> 
+      <a class="btn btn-primary btn-lg" href="https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm">
+      {% trans %}
+      Download Zrythm
+      {% endtrans %}
+      </a>
+      <a class="btn btn-primary btn-lg" href="ev.html">
+      {% trans %}
+      Join &amp; support us!
+      {% endtrans %}
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="container-fluid adorn_h3_bracket c_acronym">
+  <div class="container">
+    <div class="row">
+      <div class="container text-center">
+          <h2>{% trans %}An highly automated, intuitive, Digital Audio Workstation (DAW){% endtrans %}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <section>
+        <h3>{{ _("Automated") }}</h3>
+        <p>
+        {% trans %}
+        Built-in LFOs and envelopes to use for automating controls. Automation 
+        curves for more detailed automation. Clips to loop your MIDI notes and 
+        audio. And more.
+        {% endtrans %}
+        </section>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <section>
+        <h3>{{ _("Intuitive") }}</h3>
+        <p>
+          {% trans %}
+          Zrythm tries to keep the interface clean and pleasant to work with, 
+          with intuitive ways of getting work done enabling a faster workflow.
+          {% endtrans %}
+        </p>
+        </section>
+      </div>
+      <div class="col-lg-4">
+        <section>
+        <h3>{{ _("Featureful") }}</h3>
+
+        <p>
+          {% trans %}
+          Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, 
+          Arranger Minimap, etc.
+          {% endtrans %}
+        </section>
+      </div>
+    </div>
+  </div>
+  <!--
+  <div class="container">
+    <div class="row">
+      <div class="container text-center bg-primary">
+        <h3>
+          {% trans %}
+          GNUnet aims to enable a secure and ethical Internet.
+          {% endtrans %}
+        </h3>
+      </div>
+    </div>
+  </div>
+  //-->
+</div>
+
+
+
+<div class="container adorn_h3_bracket">
+  <div class="row">
+    <div class="container text-center">
+      <h2>
+        {% trans %}
+        Features
+        {% endtrans %}
+      </h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <section>
+      <h3>{{ _("Feature 0") }}</h3>
+      
+      <p>
+        {% trans %}
+        Cool.
+        {% endtrans %}
+      </p>
+      </section>
+    </div>
+    
+    <div class="col-lg-4">
+      <section>
+      <h3>{{ _("Feature 1") }}</h3>
+
+      <p>
+        {% trans %}
+        Cool.
+        {% endtrans %}
+      </p>
+      </section>
+    </div>
+    <div class="col-lg-4">
+      <section>
+      <h3>{{ _("Feature 2") }}</h3>
+      <p>
+        {% trans %}
+        Cool.
+        {% endtrans %}
+      </p>
+      </section>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-4">
+      <section>
+      <h3>{{ _("Feature 3") }}</h3>
+      <p>
+        {% trans %}
+        Cool.
+        {% endtrans %}
+      </p>
+      </section>
+    </div>
+    <div class="col-lg-4">
+      <section>
+      <h3>{{ _("Feature 4") }}</h3>
+      <p>
+        {% trans %}
+        Cool.
+        {% endtrans %}
+      </p>
+      </section>
+    </div>
+    <div class="col-lg-4">
+      <section>
+      <h3>{{ _("Feature 5") }}</h3>
+      <p>
+        {% trans %}
+	      Cool.
+        {% endtrans %}
+      </p>
+      </section>
+    </div>
+  </div>
+</div>
+</article>
+
+<div class="container adorn_h3_bracket">
+  <div class="row">
+    <div class="container text-center">
+      <h2>{{ _("News") }}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      {% include "template/news.html.j2.inc" %}
+    </div>
+  </div>
+</div> <!-- /container -->
+{% endblock body_content %}

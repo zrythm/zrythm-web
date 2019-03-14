@@ -1,0 +1,23 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<div class="container">
+  <article>
+    <section>
+      <h3>{{ _("Question") }}</h3>
+      <p>
+	{% trans %}
+	A: Answer.
+	{% endtrans %}
+      </p>
+    </section>
+  </article>
+<!--
+<h2>{{ ("Q?") }}</h2>
+
+<h2>{{ ("Q?") }}</h2>
+
+<h2>{{ ("Q?") }}</h2>
+-->
+
+</div>
+{% endblock body_content %}

@@ -1,0 +1,12 @@
+[extractors]
+jinja2 = i18nfix:babel_extract
+
+[jinja2: **.j2]
+encoding = utf-8
+lstrip_blocks = True
+trim_blocks = True
+
+[jinja2: **.j2.inc]
+encoding = utf-8
+lstrip_blocks = True
+ltrim_blocks = True

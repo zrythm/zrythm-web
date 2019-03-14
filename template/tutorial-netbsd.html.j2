@@ -1,0 +1,265 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<div class="container">
+
+  <h2>{{ _("Tutorial: GNUnet on NetBSD 8.0 CURRENT") }}</h2>
+
+  <p>
+    Welcome to the GNUnet tutorial for NetBSD!
+  </p>
+  <p>
+    It provides
+    concrete instructions on how to install a current
+    version of GNUnet. The goal is to support newcomers, either end users or
+    developers, who want to get in touch with GNUnet for the first time.
+  </p>
+
+  <h3>{{ _("Requirements") }}</h3>
+
+  <p>
+    As a bare minimum, we recommend you install <a href="http://pkgsrc.org">pkgsrc</a>. This tutorial assumes you have the CURRENT version checked out. Additionally you might want to install <code>devel/git-base</code> and git clone <a href="http://pkgsrc.org/wip/">pkgsrc-wip</a> into the <code>wip</code> folder in your pkgsrc folder:
+  </p>
+  <p>
+    <code>
+      $ cd /usr/pkgsrc<br>
+      $ git clone git://wip.pkgsrc.org/pkgsrc-wip.git wip
+    </code>
+  </p>
+  <h3>{{ _("Installation") }}</h3>
+  <p>
+  Note: $ stands for commands run as unprivileged user, # for commands run as root user.
+  </p>
+  <p>
+    GNUnet is not yet in the pkgsrc tree, it's still in the pkgsrc-wip repository. So if you checked out pkgsrc-wip into <code>/usr/pksrc/wip</code>:
+  </p>
+  <p>
+  <code>
+    $ cd /usr/pkgsrc/wip/gnunet
+  </code>
+  </p>
+  <p>
+   Before you start building, you might want to review your <code>/etc/mk.conf</code>. I suggest to consider:
+  </p>
+  <ul>
+   <li>WRKOBJDIR=/usr/work
+   <li>DISTDIR=/usr/distfiles
+   <li>DEPENDS_TARGET=package
+   <li>UPDATE_TARGET=bin-install
+   <li>ACCEPTABLE_LICENSES+= gnu-agpl-v3
+   <li>MKREPRO=yes
+  </ul>
+  <p>
+    As we rely on ImageMagick somewhere down our dependency chain
+    (it is one of libextractor's dependencies), you need to set
+    the following (as of 2019-03-06) as well:
+  </p>
+  <ul>
+    <li>IGNORE_URL+=https://nvd.nist.gov/vuln/detail/CVE-2018-15607
+  </ul>
+  <p>
+    You could however just <code>env ALLOW_VULNERABLE_PACKAGES=1</code>
+  </p>
+  <p>
+   The build process can involve manual installation interruptions for
+   dependencies!
+  </p> 
+  <p>
+    Then start building:
+  <p>
+  <code>
+    $ make package
+  </code>
+  </p>
+  <p>
+    Once you are done, type as root:
+  </p>
+  <p>
+  <code>
+    # make install
+  </code>
+  </p>
+  <p>
+    or alternatively:
+  <p>
+  <p>
+  <code>
+    # pkg_add /usr/pkgsrc/packages/All/gnunet-0.11.0.tgz
+  </code>
+  </p>
+  <p>
+  And you're done!.<br>
+  GNUnet has a number of services and features.
+  Please check <a href="https://docs.gnunet.org">our documentation</a>
+  to learn how to use them. If you find anything odd or bugs, please
+  <a href="https://bugs.gnunet.org">let us know</a>.
+  </p>
+  <p>
+  Note that the rc.d file which is installed is not yet functional.
+  </p>
+
+  <h3>{{_("First steps")}}</h3>
+  <p>
+  Congratulations! GNUnet is now installed! Before starting it you
+  may create a configuration file. By default GNUnet looks in
+  our home directory for the file `~/.gnunet/gnunet.conf`.
+  Creating the configuation file is optional. For now just create an empty
+  file which will remind you of the location later if needed:
+  </p>
+  <p>
+  <code>
+  $ touch ~/.config/gnunet.conf
+  </code>
+  </p>
+
+  <p>
+  GNUnet and its services are managed using the command line tool  `gnunet-arm`
+  (Automatic Restart Manager).
+  <br/>
+  To start GNUnet with its default services execute:
+  </p>
+  <p>
+  <code>
+  $ gnunet-arm -s
+  </code>
+  </p>
+
+  <p>
+  To list the running services use:
+  </p>
+  <p>
+  <code>
+  $ gnunet-arm -I<br>
+  Running services:<br>
+  ats (gnunet-service-ats)<br>
+  revocation (gnunet-service-revocation)<br>
+  set (gnunet-service-set)<br>
+  nat (gnunet-service-nat)<br>
+  transport (gnunet-service-transport)<br>
+  peerstore (gnunet-service-peerstore)<br>
+  hostlist (gnunet-daemon-hostlist)<br>
+  identity (gnunet-service-identity)<br>
+  namecache (gnunet-service-namecache)<br>
+  peerinfo (gnunet-service-peerinfo)<br>
+  datastore (gnunet-service-datastore)<br>
+  zonemaster (gnunet-service-zonemaster)<br>
+  zonemaster-monitor (gnunet-service-zonemaster-monitor)<br>
+  nse (gnunet-service-nse)<br>
+  cadet (gnunet-service-cadet)<br>
+  dht (gnunet-service-dht)<br>
+  core (gnunet-service-core)<br>
+  gns (gnunet-service-gns)<br>
+  statistics (gnunet-service-statistics)<br>
+  topology (gnunet-daemon-topology)<br>
+  fs (gnunet-service-fs)<br>
+  namestore (gnunet-service-namestore)<br>
+  vpn (gnunet-service-vpn)
+  </code>
+  </p>
+  <p>
+  To stop all services, use the `-e` option.
+  </p>
+  <p>
+  <code>
+  $ gnunet-arm -e
+  </code>
+  </p>
+
+  <h3>{{ _("Alternative: Installation from source") }}</h3>
+
+  <p>
+    The following instructions are only really interesting for developers
+    or if you need special build switches.
+    First, install the dependencies from pkgsrc. You can use binary built
+    packages, but since we are using CURRENT of pkgsrc, this is more direct.
+    For the binary built version, use pkg_add or pkgin (and read into pkgsrc
+    CURRENT with pkgin or pkg_add).
+  </p>
+  <p>
+  <ul>
+    <li>audio/libopus
+    <li>databases/sqlite3
+    <li>devel/gettext-lib (maybe?)
+    <li>devel/gmp
+    <li>devel/nss
+    <li>devel/zlib
+    <li>devel/libgsf
+    <li>devel/libltdl
+    <li>devel/git-base
+    <li>devel/autoconf
+    <li>devel/automake
+    <li>devel/libtool
+    <li>devel/pkgconf (required for some of the dependencies, not GNUnet)
+    <li>devel/py-future (for the testsuite, py37 version required)
+    <li>devel/libffi
+    <li>devel/libidn2
+    <li>devel/libextractor
+    <li>lang/python37 (for the testsuite)
+    <li>math/glpk (only for experimental features)
+    <li>multimedia/gstreamer1
+    <li>multimedia/gst-plugins1-base
+    <li>multimedia/libogg
+    <li>textproc/jansson
+    <li>textproc/libunistring
+    <li>security/libgcrypt
+    <li>security/gnutls
+    <li>www/gnurl
+    <li>www/libmicrohttpd
+  </ul>
+  </p>
+
+  <h4>{{ _("Get the source code") }}</h4>
+  <p>
+  <code>
+    $ cd ~<br>
+    $ git clone https://gnunet.org/git/gnunet.git ~/src/gnunet/gnunet
+  </code>
+  </p>
+
+  <h4>{{ _("Compile and Install") }}</h4>
+  <p>
+    You have a choice between two options:
+    build the *production version* or *development version*. If
+    you want to start writing GNUnet applications or join the GNUnet development
+    choose the development version (it will print more debug output and contains
+    debug symbols that can be displayed with a debugger). Otherwise choose the
+    production version.
+  </p>
+  
+  <h5>{{ _("Option 1: GNUnet for production / usage") }}</h5>
+
+  <p>
+  <code>
+  $ cd ~/src/gnunet/gnunet<br>
+  $ sh ./bootstrap<br>
+  $ LDFLAGS=-L/usr/pkg/lib ./configure --prefix=~/gnunet
+  </code>
+  </p>
+  <p>
+  After configure passes, you need to add a 'gnunetdns' group to your system.
+  Further, you need to add a user 'gnunet' which is part of the group 'gnunet'.
+  Then:
+  </p>
+  <p>
+  <code>
+  $ make<br>
+  # make install
+  </code>
+  </p>
+
+  <h5>{{ _("Option 2: GNUnet experimental") }}</h5>
+
+  <p>
+  Perform the same steps as for Option 1, but add the configure switch
+  <code>--enable-experimental</code>. For even more verbosity you could
+  configure gnunet like this:
+  </p>
+  <p>
+  <code>
+  $ LDFLAGS=-L/usr/pkg/lib CFLAGS="-g -O0" ./configure --prefix=~/gnunet --enable-logging=verbose
+  </code>
+  </p>
+  <p>
+  This allows you to get more verbose logs when you export GNUNET_FORCE_LOG=";;;;DEBUG" before you run tests.
+  </p>
+</div>
+{% endblock body_content %}

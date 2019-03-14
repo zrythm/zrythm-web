@@ -1,0 +1,63 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>{{ _("Contact information") }}</h1>
+  </div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-lg-6">
+    <h2>{{ _("The mailing list") }}</h2>
+      <p>
+        {% trans %}
+            Archived, public mailing lists for Zrythm are
+            hosted at
+            <a href="https://lists.nongnu.org/mailman/listinfo/zrythm-dev">https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a>
+            and <a href="https://lists.nongnu.org/mailman/listinfo/zrythm-user">https://lists.nongnu.org/mailman/listinfo/zrythm-user</a>.
+            You can send messages to the lists
+            at <a href="mailto:zrythm-dev@nongnu.org">zrythm-dev@nongnu.org</a> and <a href="mailto:zrythm-user@nongnu.org">zrythm-user@nongnu.org</a>.
+        {% endtrans %}
+      </p>
+  </div>
+
+  <div class="col-lg-6">
+    <h2>{{ _("The IRC/Matrix channel") }}</h2>
+      <p>
+        {% trans %}
+            #zrythm is reachable via irc.freenode.net. Matrix users can use #freenode_#zrythm:matrix.org.
+        {% endtrans %}
+      </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h2>{{ _("Contacting individuals") }}</h2>
+    <p>
+        {% trans %}
+             Zrythm developers are generally reachable at
+             <tt>PSEUDONYM@zrythm.org</tt>.  Most of us
+             support receiving GnuPG encrypted Emails.
+        {% endtrans %}
+    </p>
+  </div>
+
+  <div class="col-lg-6">
+    <h2>{{ _("Reporting bugs") }}</h2>
+    <p>
+        {% trans %}
+             We track open feature requests and bugs for projects
+             within Zrythm in our
+             <a href="https://git.zrythm.org/zrythm/zrythm/issues">Bug tracker</a>.
+             You can also report bugs or feature requests to the
+             <a href="https://lists.nongnu.org/mailman/listinfo/zrythm-user">zrythm-user</a>
+             mailing list.  The mailinglist requires no subscription.
+        {% endtrans %}
+    </p>
+  </div>
+</div>
+</div>
+{% endblock body_content %}

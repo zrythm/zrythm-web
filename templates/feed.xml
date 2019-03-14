@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>{{ title }}</title>
+		<link>{{ site_url }}</link>
+		<description>gnunet.org feed</description>
+		{% for item in items %}
+		<item>
+			<title>{{ item[0] }}</title>
+			<link href="{{ item[1] }}" />
+			<content type="html">{{ item[2] }}</content>
+		</item>
+		{% endfor %}
+	</channel>
+</rss> 

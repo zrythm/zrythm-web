@@ -1,0 +1,41 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+  <article class="d-flex flex-column p-2 bd-highlight">
+    <div class="container">
+      <div class="text-center">
+        <header>
+          <h1>{{ _("Talk With Us") }}</h1>
+        </header>
+        <br />
+        <p>
+          {% trans %}
+            Use the mailing lists, and join our
+            <a href="ircs://chat.freenode.net:6697/#zrythm">IRC channel</a> 
+            to keep up with development, find technical help, and
+            discuss Zrythm.
+          {% endtrans %}
+        </p>
+      </div>
+      <p>
+        {% trans %}
+          <i class="fas fa-at"></i>
+          <a href="https://lists.nongnu.org/mailman/listinfo/zrythm-user">General Help Mailing List</a>
+        {% endtrans %}
+      </p>
+      <p>
+        {% trans %}
+          <i class="fas fa-at"></i>
+          <a href="https://lists.nongnu.org/mailman/listinfo/zrythm-dev">Development Mailing List</a>
+        {% endtrans %}
+      </p>
+      <p>
+        {% trans %}
+          <i class="far fa-comments"></i>
+          Available on <a href="https://freenode.net">irc.freenode.net</a>
+          in the channel
+          <a href="ircs://chat.freenode.net:6697/#zrythm">#zrythm</a>.
+        {% endtrans %}
+      </p>
+    </div>
+  </article>
+{% endblock body_content %}

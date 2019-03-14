@@ -1,0 +1,28 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<section class="team">
+  <!-- list alphabetical, first those with images, then those without -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+	<div class="col-lg-12">
+	  <h6 class="description">The developer team working on Zrythm</h6>
+	  <div class="row pt-md">
+	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
+	      <!-- <div class="col-6 col-md-4 profile"> -->
+		<div class="img-box">
+		  <!-- was: height="240" -->
+		  <img src="{{ url('static/images/z.svg') }}" alt="Alexandros Theodotou" class="img-fluid">
+		  <ul class="text-center">
+		    <li><a href="https://www.alextee.org/"><i class="fas fa-home"></i></a></li>
+		  </ul>
+		</div>
+		<h1><a href="https://www.alextee.org/">Alexandros Theodotou</a></h1>
+		<h2>{{ _("Zrythm maintainer.") }}</h2>
+		<p></p>
+	      </div>
+	    </div>
+	  </div>
+<!--	</div> -->
+</section>
+{% endblock body_content %}

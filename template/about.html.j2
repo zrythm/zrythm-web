@@ -1,0 +1,21 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<div class="container">
+  <article>
+    <section>
+      <h3>{{ _("About Zrythm") }}</h3>
+      <p>
+	{% trans %}
+	Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit and borrows ideas, concepts and code from other projects such as Ardour 
+  and Jalv. It is designed to be intuitive to use and is built with the intention to provide GNU/Linux users a full-featured alternative to proprietary 
+  DAWs, while offering a unique approach to workflow that other GNU/Linux DAWs lack.
+  {% endtrans %}
+	<br>
+	{% trans %}
+	Zrythm is free software licensed under the GPLv3+ and its source code is available on our GitLab instance.
+	{% endtrans %}
+	    </p>
+    </section>
+  </article>
+</div>
+{% endblock body_content %}
