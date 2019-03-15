@@ -63,7 +63,7 @@ body {
     padding-top: 3.5rem;
 }
 
-/* 
+/*
    Hover effects with this color don't work out!
    See https://gnunet.org/bugs/view.php?id=5570
 */
@@ -183,7 +183,7 @@ i.red {
 a.btn:hover {
     transition: background-color 0.7s;
     background-color: #d00;
-    border-color: #fff;
+    border-color: #444444;
     color: white !important;
 }
 
@@ -215,7 +215,7 @@ html {
 }
 
 .c_acronym {
-    background-color: #68a;
+    background-color: #202020;
     color: white;
 }
 
@@ -251,6 +251,7 @@ footer a:hover {
 #mybody {
     /* override ugly bootstrap defaults */
     color: black;
+    background-color: #444444;
 }
 
 .btn-dark {
@@ -320,5 +321,16 @@ footer {
 }
 
 #body_content .jumbotron {
-    background-color: white;
+    background-color: #444444;
+}
+
+#body_content {
+    background-color: #444444;
+    color: white;
+}
+
+img.news_img {
+    display: block;
+    margin: 0 auto;
+    height: 256px;
 }
