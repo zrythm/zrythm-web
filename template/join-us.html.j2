@@ -1,0 +1,99 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<article>
+<div class="container-fluid">
+  <div class="container text-center">
+  <header>
+    <h1>{{ _("Join the Zrythm Team") }}</h1>
+  </header>
+    <p>
+      {% trans %}
+      Zrythm is free software. This means that anyone can work on and improve it.
+      If you are a designer, programmer, speak a foreign language or have any ideas about
+      improving Zrythm please come join us at <code>#zrythm</code> on freenode (IRC) or
+      <code>#freenode_#zrythm:matrix.org</code> on Matrix. You can join via web chat
+      <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org">here</a>.
+      {% endtrans %}
+    </p>
+  </div>
+</div>
+
+<div class="container adorn_h3_bracket">
+  <div class="row">
+    <div class="col-lg-6">
+      <h3>{{ _("Develop") }}</h3>
+      <p>
+        {% trans %}
+          Patches are welcome in the <a href="https://git.zrythm.org/zrythm/zrythm">
+          main repository</a>. It would be beneficial if you talked with us before working on a
+          task. We have plenty of beginner-friendly issues so please ask. You can have
+          a look at the <a href=""https://git.zrythm.org/zrythm/zrythm/blob/master/CONTRIBUTING.md>Contributing Guide</a> for
+          more info on how to get involved.
+        {% endtrans %}
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <h3>{{ _("Translate") }}</h3>
+      <p>
+        {% trans %}
+          We are looking for translators to translate Zrythm itself, the website and the manual. If
+          you can speak a foreign language and want to help, please get in touch with us.
+          Translating is mainly a task of editing PO files. PO files look like this:
+        {% endtrans %}
+          <br/>
+          <code>
+#: resources/ui/first_run_assistant.ui:88 resources/ui/preferences.ui:294
+          <br/>
+msgid "Language"
+          <br/>
+msgstr "言語"
+</code>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h3>{{ _("Support Us!") }}</h3>
+      <p>
+        {% trans %}
+          Everybody is welcome to support us via donations. For
+          financial contributions, Europeans are able to donate via
+          SEPA through LiberaPay. Major Credit/Debit cards are also
+          accepted. Alternatively, you can donate via Bitcoin or
+          PayPal.  Please note that we are unable to
+          provide receipts for your donations.  If you are planning to
+          donate a significant amount of money, please contact us first
+          as it might be better to come to a custom arrangement.
+
+          <dl><dt>LiberaPay</dt>
+            <dd><a href="https://liberapay.com/Zrythm/donate">https://liberapay.com/Zrythm/donate</a></dd>
+            <dt>BitCoin</dt>
+            <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd>
+          <dt>Paypal</dt>
+            <dd><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</a></dd>
+                    </dl>
+        {% endtrans %}
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <h3>{{ _("Design") }}</h3>
+      <p>
+        {% trans %}
+        If you are a web designer, icon designer or graphic designer and want to help, please get
+        in touch with us. Things that you might want to do are logos, icons and other graphics,
+        CSS, etc. 
+        {% endtrans %}
+      </p>
+      <p>
+        {% trans %}
+        Zrythm itself is fully CSS themeable so it's easy to change its design without
+        knowing much about the code. Have a look <a href="https://git.zrythm.org/zrythm/zrythm/blob/master/resources/theme.css">here</a>.
+        {% endtrans %}
+      </p>
+    </div>
+  </div>
+</div>
+
+</div> <!-- /container -->
+</article>
+{% endblock body_content %}

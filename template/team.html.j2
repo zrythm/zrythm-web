@@ -10,19 +10,33 @@
 	  <div class="row pt-md">
 	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
 	      <!-- <div class="col-6 col-md-4 profile"> -->
-		<div class="img-box">
-		  <!-- was: height="240" -->
-		  <img src="{{ url('static/images/z.svg') }}" alt="Alexandros Theodotou" class="img-fluid">
-		  <ul class="text-center">
-		    <li><a href="https://www.alextee.org/"><i class="fas fa-home"></i></a></li>
-		  </ul>
-		</div>
-		<h1><a href="https://www.alextee.org/">Alexandros Theodotou</a></h1>
-		<h2>{{ _("Zrythm maintainer.") }}</h2>
-		<p></p>
-	      </div>
-	    </div>
-	  </div>
+        <div class="img-box">
+          <!-- was: height="240" -->
+          <img src="{{ url('static/images/z.svg') }}" alt="Alexandros Theodotou" class="img-fluid">
+          <ul class="text-center">
+            <li><a href="https://www.alextee.org"><font color="white"><i class="fa fa-home"></i></font></a></li>
+            <li><a href="https://liberapay.com/alextee/"><font color="white"><i class="fa fa-liberapay"></i></font></a></li>
+          </ul>
+        </div>
+        <h1><a href="https://www.alextee.org/">Alexandros Theodotou</a></h1>
+        <h2>{{ _("Zrythm maintainer") }}</h2>
+        <p></p>
+      </div>
+	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
+	      <!-- <div class="col-6 col-md-4 profile"> -->
+        <div class="img-box">
+          <!-- was: height="240" -->
+          <img src="{{ url('static/images/z.svg') }}" alt="Sascha Bast" class="img-fluid">
+          <ul class="text-center">
+            <li><a href="mailto:sash@mischkonsum.org"><font color="white"><i class="fa fa-envelope-o"></i></font></a></li>
+          </ul>
+        </div>
+        <h1><a href="mailto:sash@mischkonsum.org">Sascha Bast</a></h1>
+        <h2>{{ _("Developer") }}</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
 <!--	</div> -->
 </section>
 {% endblock body_content %}

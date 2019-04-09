@@ -1,11 +1,41 @@
 {% extends "common/base.j2" %}
 {% block body_content %}
+
+<!-- Hook up the slideshow -->
+<script>
+ $(function() {
+
+  $(".rslides").responsiveSlides({
+    auto: true,             /* Boolean: Animate automatically, true or false
+    speed: 500,            /* Integer: Speed of the transition, in milliseconds */
+    timeout: 4000,          /* Integer: Time between slide transitions, in milliseconds */
+    pager: false,           /* Boolean: Show pager, true or false */
+    nav: false,             /* Boolean: Show navigation, true or false */
+    random: false,          /* Boolean: Randomize the order of the slides, true or false */
+    pause: false,           /* Boolean: Pause on hover, true or false */
+    pauseControls: true,    /* Boolean: Pause when hovering controls, true or false */
+    prevText: "Previous",   /* String: Text for the "previous" button */
+    nextText: "Next",       /* String: Text for the "next" button */
+    maxwidth: "",           /* Integer: Max-width of the slideshow, in pixels */
+    navContainer: "",       /* Selector: Where controls should be appended to, default is after the 'ul' */
+    manualControls: "",     /* Selector: Declare custom pager navigation */
+    namespace: "rslides",   /* String: Change the default namespace used */
+    before: function(){},   /* Function: Before callback */
+    after: function(){}     /* Function: After callback */
+  });
+  });
+</script>
+
 <!-- Jumbotron -->
 <div class="container-logo banner dark text-center" id="frontpagefront">
-    <h1>
+    <!-- <h1>
       <img src="{{ url('static/images/z.svg') }}" 
       alt="Zrythm" height="320" />
-    </h1>
+    </h1> -->
+      <ul class="rslides">
+        <li><img src="{{ url('static/images/apr_9_2019.png') }}" alt=""></li>
+        <li><img src="{{ url('static/images/apr_9_2019_2.png') }}" alt=""></li>
+      </ul>
 </div>
 <article>
 <div class="jumbotron">
@@ -25,11 +55,13 @@ In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most foc
     </p>
     <p> 
       <a class="btn btn-primary btn-lg" href="https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm">
+      <i class="fa fa-download"></i>
       {% trans %}
       Download Zrythm
       {% endtrans %}
       </a>
       <a class="btn btn-primary btn-lg" href="ev.html">
+      <i class="fa fa-hand-peace-o"></i>
       {% trans %}
       Join &amp; support us!
       {% endtrans %}

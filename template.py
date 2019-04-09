@@ -32,7 +32,7 @@ env = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__
 if (os.getenv("DEBUG")):
     print(sys.path)
 
-langs_full = {"en": "English", "fr": "Français", "it": "Italiano", "es": "Español", "de": "Deutsch"}
+langs_full = {"en": "English", "fr": "Français", "it": "Italiano", "es": "Español", "de": "Deutsch", "ja": "日本語"}
 
 for in_file in glob.glob("template/*.j2"):
     name, ext = re.match(r"(.*)\.([^.]+)$", in_file.rstrip(".j2")).groups()

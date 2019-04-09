@@ -22,6 +22,7 @@ all: locale template
 	cp rendered/static/robots.txt rendered/es/robots.txt
 	cp rendered/static/robots.txt rendered/fr/robots.txt
 	cp rendered/static/robots.txt rendered/it/robots.txt
+	cp rendered/static/robots.txt rendered/ja/robots.txt
 	/bin/sh make_sitemap.sh
 	cp rendered/sitemap.xml rendered/en/sitemap.xml
 	cp rss.xml rendered/rss.xml
@@ -30,6 +31,7 @@ all: locale template
 	cp rss.xml rendered/es/rss.xml
 	cp rss.xml rendered/fr/rss.xml
 	cp rss.xml rendered/it/rss.xml
+	cp rss.xml rendered/ja/rss.xml
 	cp static/moved.html rendered/frontpage.html
 	cd rendered; ln -fs frontpage.html frontpage
 
@@ -46,6 +48,7 @@ locale-update: locale/messages.pot
 	msgmerge -U -m --previous locale/fr/LC_MESSAGES/messages.po locale/messages.pot
 	msgmerge -U -m --previous locale/es/LC_MESSAGES/messages.po locale/messages.pot
 	msgmerge -U -m --previous locale/it/LC_MESSAGES/messages.po locale/messages.pot
+	msgmerge -U -m --previous locale/ja/LC_MESSAGES/messages.po locale/messages.pot
 
 	if grep -nA1 '#-#-#-#-#' locale/*/LC_MESSAGES/messages.po; then echo -e "\nERROR: Conflicts encountered in PO files.\n"; exit 1; fi
 
@@ -56,6 +59,7 @@ locale-compile:
 	$(BABEL) -v compile -d locale -l fr --use-fuzzy
 	$(BABEL) -v compile -d locale -l it --use-fuzzy
 	$(BABEL) -v compile -d locale -l es --use-fuzzy
+	$(BABEL) -v compile -d locale -l ja --use-fuzzy
 
 # Process everything related to gettext translations.
 locale: locale-update locale-compile
@@ -81,7 +85,7 @@ docker: docker-all
 
 docker-all:
 	docker build -t gnunet-www-builder .
-	# Importing via the shell like this is hacky, 
+	# Importing via the shell like this is hacky,
 	# but after trying lots of other ways, this works most reliably...
 	$(PYTHON) -c 'import i18nfix'
 	docker run --rm -v $$(pwd):/tmp/ --user $$(id -u):$$(id -g) gnunet-www-builder
