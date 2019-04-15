@@ -9,12 +9,12 @@ videos/grothoff2014fossa.webm
 videos/grothoff2014fossa.ogv
 
 rendered/
-en/
-de/
-fr/
-it/
-es/
-ru/
+#en/
+#de/
+#fr/
+#it/
+#es/
+#ru/
 
 __pycache__
 *.pyc
