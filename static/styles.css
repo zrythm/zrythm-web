@@ -40,9 +40,9 @@ code {
 }
 
 /* hyperlinks and buttons */
-#body_content a,
-#body_content a:link,
-#body_content a:visited {
+#body_content a:not(.dropdown-link),
+#body_content a:link:not(.dropdown-link),
+#body_content a:visited:not(.dropdown-link) {
     text-decoration: underline;
     color: black;
 }
@@ -61,6 +61,17 @@ main {
 /* There's a fixed navbar that is 3.5rem tall */
 body {
     padding-top: 3.5rem;
+}
+
+/* Added because there was some space between the button and the dropdown
+ * causing the dropdown to hide before hovering it */
+.dropdown-menu {
+  margin-top: 0;
+}
+
+/* For the download button to go in the same line as the support us button */
+.dropdown {
+    display: inline-block;
 }
 
 /*

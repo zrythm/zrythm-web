@@ -53,13 +53,41 @@ In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most foc
       Zrythm is <a href="http://www.gnu.org/philosophy/free-sw.html">free software</a> licensed under the GPLv3+.
       {% endtrans %}
     </p>
-    <p> 
-      <a class="btn btn-primary btn-lg" href="https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm">
-      <i class="fa fa-download"></i>
-      {% trans %}
-      Download Zrythm
-      {% endtrans %}
-      </a>
+    <p>
+      <div class="dropdown">
+        <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+          <i class="fa fa-download"></i>
+          {% trans %}
+          Download
+          {% endtrans %}
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="https://git.zrythm.org/zrythm/zrythm/-/jobs/1151/artifacts/raw/build/win/Install_v0.4.003.exe" class="dropdown-link">
+              <button class="dropdown-item" >
+              <i class="fa fa-fw fa-windows"></i>
+              Windows 64-bit
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm" class="dropdown-link">
+              <button class="dropdown-item" >
+              <i class="fa fa-fw fa-linux"></i>
+              GNU/Linux
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-link">
+              <button class="dropdown-item" >
+              <i class="fa fa-fw fa-apple"></i>
+              Mac OS
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
       <a class="btn btn-primary btn-lg" href="join-us.html">
       <i class="fa fa-hand-peace-o"></i>
       {% trans %}

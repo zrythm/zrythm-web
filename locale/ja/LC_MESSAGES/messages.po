@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-09 13:33+0100\n"
+"POT-Creation-Date: 2019-04-15 07:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:77
+#: common/base.j2:6 template/index.html.j2:105
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 
@@ -547,84 +547,86 @@ msgid ""
 "software</a> licensed under the GPLv3+."
 msgstr ""
 
-#: template/index.html.j2:59
-msgid "Download Zrythm"
+#: template/index.html.j2:60
+#, fuzzy
+#| msgid "Download Zrythm"
+msgid "Download"
 msgstr "ダウンロード"
 
-#: template/index.html.j2:65
+#: template/index.html.j2:93
 msgid "Join &amp; support us!"
 msgstr "応援する！"
 
-#: template/index.html.j2:83
+#: template/index.html.j2:111
 msgid "Automated"
 msgstr "自動化された"
 
-#: template/index.html.j2:85
+#: template/index.html.j2:113
 msgid ""
 "Built-in LFOs and envelopes to use for automating controls. Automation "
 "curves for more detailed automation. Clips to loop your MIDI notes and "
 "audio. And more."
 msgstr ""
 
-#: template/index.html.j2:95
+#: template/index.html.j2:123
 msgid "Intuitive"
 msgstr "直感的"
 
-#: template/index.html.j2:97
+#: template/index.html.j2:125
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 
-#: template/index.html.j2:106
+#: template/index.html.j2:134
 msgid "Featureful"
 msgstr "機能満々"
 
-#: template/index.html.j2:109
+#: template/index.html.j2:137
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:122
+#: template/index.html.j2:150
 msgid "GNUnet aims to enable a secure and ethical Internet."
 msgstr ""
 
-#: template/index.html.j2:138
+#: template/index.html.j2:166
 msgid "Features"
 msgstr "機能"
 
-#: template/index.html.j2:147
+#: template/index.html.j2:175
 msgid "Feature 0"
 msgstr ""
 
-#: template/index.html.j2:150 template/index.html.j2:162
-#: template/index.html.j2:172 template/index.html.j2:185
-#: template/index.html.j2:195 template/index.html.j2:205
+#: template/index.html.j2:178 template/index.html.j2:190
+#: template/index.html.j2:200 template/index.html.j2:213
+#: template/index.html.j2:223 template/index.html.j2:233
 msgid "Cool."
 msgstr "すごい。"
 
-#: template/index.html.j2:159
+#: template/index.html.j2:187
 msgid "Feature 1"
 msgstr ""
 
-#: template/index.html.j2:170
+#: template/index.html.j2:198
 msgid "Feature 2"
 msgstr ""
 
-#: template/index.html.j2:183
+#: template/index.html.j2:211
 msgid "Feature 3"
 msgstr ""
 
-#: template/index.html.j2:193
+#: template/index.html.j2:221
 msgid "Feature 4"
 msgstr ""
 
-#: template/index.html.j2:203
+#: template/index.html.j2:231
 msgid "Feature 5"
 msgstr ""
 
-#: template/index.html.j2:218
+#: template/index.html.j2:246
 msgid "News"
 msgstr "ニュース"
 
