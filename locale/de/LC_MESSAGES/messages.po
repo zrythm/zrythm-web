@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-15 09:44+0100\n"
+"POT-Creation-Date: 2019-04-15 22:51+0100\n"
 "PO-Revision-Date: 2018-02-24 17:42\n"
 "Last-Translator: Torsten Grothoff <torsten@grothoff.org>\n"
 "Language-Team: German <LL@li.org>\n"
@@ -284,11 +284,13 @@ msgid ""
 msgstr ""
 
 #: template/faq.html.j2:6
-msgid "Question"
+msgid "I'm building from source and I want to run Zrythm without installing"
 msgstr ""
 
 #: template/faq.html.j2:8
-msgid "A: Answer."
+msgid ""
+"A: Run <code>glib-compile-schemas data/</code> and then run zrythm using "
+"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
 
 #: template/glossary.html.j2:5

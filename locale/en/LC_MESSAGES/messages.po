@@ -249,11 +249,13 @@ msgid ""
 msgstr ""
 
 #: template/faq.html.j2:6
-msgid "Question"
+msgid "I'm building from source and I want to run Zrythm without installing"
 msgstr ""
 
 #: template/faq.html.j2:8
-msgid "A: Answer."
+msgid ""
+"A: Run <code>glib-compile-schemas data/</code> and then run zrythm using "
+"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
 
 #: template/glossary.html.j2:5

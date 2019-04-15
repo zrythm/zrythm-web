@@ -3,10 +3,10 @@
 <div class="container">
   <article>
     <section>
-      <h3>{{ _("Question") }}</h3>
+      <h3>Q: {{ _("I'm building from source and I want to run Zrythm without installing") }}</h3>
       <p>
 	{% trans %}
-	A: Answer.
+	A: Run <code>glib-compile-schemas data/</code> and then run zrythm using <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>
 	{% endtrans %}
       </p>
     </section>
