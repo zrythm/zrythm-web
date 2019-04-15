@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-15 08:05+0100\n"
+"POT-Creation-Date: 2019-04-15 09:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:105
+#: common/base.j2:6 template/index.html.j2:113
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 
@@ -561,80 +561,84 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: template/index.html.j2:93
+#: template/index.html.j2:101
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:111
+#: template/index.html.j2:119
 msgid "Automated"
 msgstr ""
 
-#: template/index.html.j2:113
+#: template/index.html.j2:121
 msgid ""
 "Built-in LFOs and envelopes to use for automating controls. Automation "
 "curves for more detailed automation. Clips to loop your MIDI notes and "
 "audio. And more."
 msgstr ""
 
-#: template/index.html.j2:123
+#: template/index.html.j2:131
 msgid "Intuitive"
 msgstr ""
 
-#: template/index.html.j2:125
+#: template/index.html.j2:133
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 
-#: template/index.html.j2:134
+#: template/index.html.j2:142
 msgid "Featureful"
 msgstr ""
 
-#: template/index.html.j2:137
+#: template/index.html.j2:145
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:150
+#: template/index.html.j2:158
 msgid "GNUnet aims to enable a secure and ethical Internet."
 msgstr ""
 
-#: template/index.html.j2:166
+#: template/index.html.j2:174
 msgid "Features"
 msgstr ""
 
-#: template/index.html.j2:175
+#: template/index.html.j2:183
 msgid "Feature 0"
 msgstr ""
 
-#: template/index.html.j2:178 template/index.html.j2:190
-#: template/index.html.j2:200 template/index.html.j2:213
-#: template/index.html.j2:223 template/index.html.j2:233
+#: template/index.html.j2:186 template/index.html.j2:198
+#: template/index.html.j2:208 template/index.html.j2:221
+#: template/index.html.j2:241
 msgid "Cool."
 msgstr ""
 
-#: template/index.html.j2:187
+#: template/index.html.j2:195
 msgid "Feature 1"
 msgstr ""
 
-#: template/index.html.j2:198
+#: template/index.html.j2:206
 msgid "Feature 2"
 msgstr ""
 
-#: template/index.html.j2:211
+#: template/index.html.j2:219
 msgid "Feature 3"
 msgstr ""
 
-#: template/index.html.j2:221
-msgid "Feature 4"
+#: template/index.html.j2:229
+msgid "Cross-platform"
 msgstr ""
 
 #: template/index.html.j2:231
+msgid "Zrythm works on Windows, GNU/Linux and Mac OS"
+msgstr ""
+
+#: template/index.html.j2:239
 msgid "Feature 5"
 msgstr ""
 
-#: template/index.html.j2:246
+#: template/index.html.j2:254
 msgid "News"
 msgstr ""
 
