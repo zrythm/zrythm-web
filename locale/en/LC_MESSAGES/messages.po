@@ -254,8 +254,28 @@ msgstr ""
 
 #: template/faq.html.j2:8
 msgid ""
-"A: Run <code>glib-compile-schemas data/</code> and then run zrythm using "
+"Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+msgstr ""
+
+#: template/faq.html.j2:12
+msgid ""
+"Why does my program start in the background on OS X if I run from the "
+"command line?"
+msgstr ""
+
+#: template/faq.html.j2:14
+msgid ""
+"tl;dr: OSX normally uses some mechanism to coordinate the launching of a "
+"program between various parts of the system and the loading of info from an ."
+"app bundle. One of these coordination tasks is responsible for bringing a "
+"newly launched app into the foreground. When you run a binary directly from "
+"the Terminal you are running it directly, not through <a href=\"https://"
+"developer.apple.com/reference/coreservices/1658613-launch_services?"
+"language=objc\">Launch Services</a>, so the program starts in the "
+"background. See <a href=\"https://github.com/andlabs/libui#why-does-my-"
+"program-start-in-the-background-on-os-x-if-i-run-from-the-command-line"
+"\">this</a>"
 msgstr ""
 
 #: template/glossary.html.j2:5
