@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-17 00:38+0100\n"
+"POT-Creation-Date: 2019-04-24 02:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,23 +281,19 @@ msgid ""
 msgstr ""
 
 #: template/faq.html.j2:12
-msgid ""
-"Why does my program start in the background on OS X if I run from the "
-"command line?"
+msgid "I get unmet dependencies when installing on Ubuntu"
 msgstr ""
 
 #: template/faq.html.j2:14
-msgid ""
-"tl;dr: OSX normally uses some mechanism to coordinate the launching of a "
-"program between various parts of the system and the loading of info from an ."
-"app bundle. One of these coordination tasks is responsible for bringing a "
-"newly launched app into the foreground. When you run a binary directly from "
-"the Terminal you are running it directly, not through <a href=\"https://"
-"developer.apple.com/reference/coreservices/1658613-launch_services?"
-"language=objc\">Launch Services</a>, so the program starts in the "
-"background. See <a href=\"https://github.com/andlabs/libui#why-does-my-"
-"program-start-in-the-background-on-os-x-if-i-run-from-the-command-line"
-"\">this</a>"
+msgid "Enable the universe repository:"
+msgstr ""
+
+#: template/faq.html.j2:19
+msgid "What plugin protocols are supported?"
+msgstr ""
+
+#: template/faq.html.j2:21
+msgid "LV2 at the moment. VST2 and VST3 coming soon."
 msgstr ""
 
 #: template/glossary.html.j2:5
@@ -551,15 +547,14 @@ msgid ""
 "Zrythm is a highly automated Digital Audio Workstation (DAW) designed to be "
 "featureful and intuitive to use. Zrythm sets itself apart from other DAWs by "
 "allowing extensive automation via built-in LFOs and envelopes and intuitive "
-"MIDI or audio editing and arranging via clips."
+"MIDI/audio editing and arranging via clips."
 msgstr ""
 
 #: template/index.html.j2:48
 msgid ""
-"In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most "
-"focus on the Composing part. It allows musicians to quickly lay down and "
-"process their musical ideas without taking too much time for unnecessary "
-"work."
+"Zrythm puts its main focus on composing using MIDI and synths and it allows "
+"musicians to quickly lay down and process their musical ideas without taking "
+"too much time for unnecessary work."
 msgstr ""
 
 #: template/index.html.j2:52
@@ -616,25 +611,35 @@ msgid "Features"
 msgstr ""
 
 #: template/index.html.j2:183
-msgid "Feature 0"
+msgid "Limitless Automation"
 msgstr ""
 
-#: template/index.html.j2:186 template/index.html.j2:198
-#: template/index.html.j2:208 template/index.html.j2:221
-#: template/index.html.j2:241
-msgid "Cool."
+#: template/index.html.j2:186
+msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr ""
 
 #: template/index.html.j2:195
-msgid "Feature 1"
-msgstr ""
-
-#: template/index.html.j2:206
 msgid "Feature 2"
 msgstr ""
 
+#: template/index.html.j2:198 template/index.html.j2:241
+msgid "Cool."
+msgstr ""
+
+#: template/index.html.j2:206
+msgid "LV2 Plugins"
+msgstr ""
+
+#: template/index.html.j2:208
+msgid "Works with LV2, the open standard for audio plugins."
+msgstr ""
+
 #: template/index.html.j2:219
-msgid "Feature 3"
+msgid "Speaks Your Language"
+msgstr ""
+
+#: template/index.html.j2:221
+msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgstr ""
 
 #: template/index.html.j2:229
@@ -642,7 +647,7 @@ msgid "Cross-platform"
 msgstr ""
 
 #: template/index.html.j2:231
-msgid "Zrythm works on Windows, GNU/Linux and Mac OS"
+msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr ""
 
 #: template/index.html.j2:239
