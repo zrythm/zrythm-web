@@ -90,15 +90,12 @@
 	<a class="nav-link dropdown-toggle" href="#"
            data-toggle="dropdown" role="button"
            aria-haspopup="true" aria-expanded="false">
-           {{ lang_full }} [{{ lang }}]
+           {{ lang_full }} {{ lang_flag }}
         </a>
         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarMain">
-          <li><a class="dropdown-item" href="{{ self_localized('en') }}">English [en]</a></li>
-          <li><a class="dropdown-item" href="{{ self_localized('de') }}">Deutsch [de]</a></li>
-          <li><a class="dropdown-item" href="{{ self_localized('fr') }}">Fran&ccedil;ais [fr]</a></li>
-          <li><a class="dropdown-item" href="{{ self_localized('it') }}">Italiano [it]</a></li>
-          <li><a class="dropdown-item" href="{{ self_localized('es') }}">Espa&ntilde;ol [es]</a></li>
-          <li><a class="dropdown-item" href="{{ self_localized('ja') }}">日本語 [ja]</a></li>
+	  {% for key in langs_full.keys() %}
+          <li><a class="dropdown-item" href="{{ self_localized(key) }}">{{ lang_flags[key] }} {{ langs_full[key] }}</a></li>
+	  {% endfor %}
         </ul>
       </li> <!-- /navbar-right dropdown -->
     </ul> <!-- /navbar-right -->

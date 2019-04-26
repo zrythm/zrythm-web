@@ -23,3 +23,5 @@ __pycache__
 \#*\#
 futility_engine_loader.sh
 
+# vim files
+*.swp

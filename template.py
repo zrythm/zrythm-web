@@ -33,6 +33,7 @@ if (os.getenv("DEBUG")):
     print(sys.path)
 
 langs_full = {"en": "English", "fr": "Français", "it": "Italiano", "es": "Español", "de": "Deutsch", "ja": "日本語"}
+lang_flags = {"en": "🇬🇧", "fr": "🇫🇷", "it": "🇮🇹", "es": "🇪🇸", "de": "🇩🇪", "ja": "🇯🇵"}
 
 for in_file in glob.glob("template/*.j2"):
     name, ext = re.match(r"(.*)\.([^.]+)$", in_file.rstrip(".j2")).groups()
@@ -71,7 +72,10 @@ for in_file in glob.glob("template/*.j2"):
         env.install_gettext_translations(tr, newstyle=True)
 
         content = tmpl.render(lang=locale,
+                              lang_flag=lang_flags[locale],
+                              lang_flags=lang_flags,
                               lang_full=langs_full[locale],
+                              langs_full=langs_full,
                               url=url,
                               self_localized=self_localized,
                               url_localized=url_localized,
