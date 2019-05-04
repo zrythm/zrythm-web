@@ -2,62 +2,66 @@
 # Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
-#, fuzzy
+# Nicolas Faure <sub26nico@laposte.net>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-04 11:57+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-05-04 23:30+0000\n"
+"Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
+"Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:113
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
+"Une Station de Travail Audio Numérique (STAN) hautement automatisé et "
+"intuitive"
 
 #: common/footer.j2.inc:7
 msgid "Developer Team"
-msgstr ""
+msgstr "Équipe de développement"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
-msgstr ""
+msgstr "À propos de Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:66
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Suivi des bogues"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:67
 #: template/gnurl.html.j2:124
 msgid "Source Code"
-msgstr ""
+msgstr "Code source"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:83
 msgid "Manual"
-msgstr ""
+msgstr "Manuel"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
-msgstr ""
+msgstr "Soutenez-nous"
 
 #: common/footer.j2.inc:30
 msgid ""
@@ -65,46 +69,51 @@ msgid ""
 "<a href='https://www.gnu.org/'>Free Software</a> only.<br> Report issues "
 "with this website to <a href='contact.html'>us</a>."
 msgstr ""
+"Copyright &copy; Alexandros Theodotou 2019<br> Cette page a été créée en "
+"utilisant \"\n"
+"\"<a href='https://www.gnu.org/'>Free Software</a> seulement.<br> Signaler "
+"les problèmes \"\n"
+"\"avec ce site pour <a href='contact.html'>us</a>."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "Communauté"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: common/navigation.j2.inc:53 template/developers.html.j2:34
 msgid "Discussion"
-msgstr ""
+msgstr "Discussion"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "Rejoignez nous"
 
 #: common/navigation.j2.inc:61
 msgid "Development"
-msgstr ""
+msgstr "Développement"
 
 #: common/navigation.j2.inc:64
 msgid "System Architecture"
-msgstr ""
+msgstr "Architecture du système"
 
 #: common/navigation.j2.inc:65
 msgid "Code Documentation"
-msgstr ""
+msgstr "Documentation du code"
 
 #: common/navigation.j2.inc:78
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: common/navigation.j2.inc:81 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriels"
 
 #: common/navigation.j2.inc:82
 msgid "Glossary"
-msgstr ""
+msgstr "Glossaire"
 
 #: template/about.html.j2:8
 msgid ""
@@ -114,22 +123,31 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
+"Zrythm est une application native GNU/Linux construite en C et avec la boîte "
+"à outils GTK+3 et emprunte des idées, des concepts et du code à d'autres "
+"projets tels qu'Ardour et Jalv. Il est conçu pour être intuitif à utiliser "
+"et est construit avec l'intention de fournir aux utilisateurs de GNU/Linux "
+"une alternative complète aux DAWs propriétaires, tout en offrant une "
+"approche unique de l'ergonomie que les autres DAW GNU/Linux n'ont pas."
 
 #: template/about.html.j2:14
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Zrythm est un logiciel libre sous licence GPLv3+ et son code source est "
+"disponible sur notre instance GitLab."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "Coordonnées de contact"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
-msgstr ""
+msgstr "La liste de diffusion"
 
 #: template/contact.html.j2:15
+#, fuzzy
 msgid ""
 "Archived, public mailing lists for Zrythm are hosted at <a href=\"https://"
 "lists.nongnu.org/mailman/listinfo/zrythm-dev\">https://lists.nongnu.org/"
@@ -139,32 +157,46 @@ msgid ""
 "zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> and <a href=\"mailto:"
 "zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
 msgstr ""
+"Les listes de diffusion publiques et archivées de Zrythm sont hébergées à "
+"l'adresse suivante at <a href=\\\"https://lists.nongnu.org/mailman/listinfo/"
+"zrythm-dev\\\">https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a> and <"
+"a href=\\\"https://lists.nongnu.org/mailman/listinfo/zrythm-user\\\""
+">https://lists.nongnu.org/mailman/listinfo/zrythm-user</a>. Vous pouvez "
+"envoyer des messages aux listes à l'adresse suivante <a href=\\\"mailto"
+":zrythm-dev@nongnu.org\\\">zrythm-dev@nongnu.org</a> and <a href=\\\"mailto"
+":zrythm-user@nongnu.org\\\">zrythm-user@nongnu.org</a>."
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
-msgstr ""
+msgstr "Le canal IRC/Matrix"
 
 #: template/contact.html.j2:29
 msgid ""
 "#zrythm is reachable via irc.freenode.net. Matrix users can use "
 "#freenode_#zrythm:matrix.org."
 msgstr ""
+"#zrythm est joignable via irc.freenode.net. Les utilisateurs de la Matrix "
+"peuvent utiliser #freenode_#zrythm:matrix.org."
 
 #: template/contact.html.j2:38
 msgid "Contacting individuals"
-msgstr ""
+msgstr "Contacter des individus"
 
 #: template/contact.html.j2:40
 msgid ""
 "Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</tt>. "
 "Most of us support receiving GnuPG encrypted Emails."
 msgstr ""
+"Les développeurs de Zrythm sont généralement joignables à "
+"<tt>PSEUDONYM@zrythm.org</tt>. La plupart d'entre nous supportent la "
+"réception de courriels cryptés GnuPG."
 
 #: template/contact.html.j2:49
 msgid "Reporting bugs"
-msgstr ""
+msgstr "Rapporter les bogues"
 
 #: template/contact.html.j2:51
+#, fuzzy
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -172,30 +204,42 @@ msgid ""
 "nongnu.org/mailman/listinfo/zrythm-user\">zrythm-user</a> mailing list. The "
 "mailinglist requires no subscription."
 msgstr ""
+"Nous suivons les demandes de fonctionnalités ouvertes et les bogues pour les "
+"projets au sein de Zrythm dans notre <a href=\\\"https://git.zrythm.org/"
+"zrythm/zrythm/issues\\\">Suivi des bogues</a>. Vous pouvez également "
+"signaler des bogues ou des demandes de fonctionnalités à cette adresse <a "
+"href=\\\"https://lists.nongnu.org/mailman/listinfo/zrythm-user\\\">zrythm-"
+"user</a> liste de diffusion. La liste de diffusion ne nécessite pas "
+"d'abonnement."
 
 #: template/developers.html.j2:5
 msgid "GNUnet for developers"
-msgstr ""
+msgstr "GNUnet pour les développeurs"
 
 #: template/developers.html.j2:13
 msgid "Repositories"
-msgstr ""
+msgstr "Dépôts"
 
 #: template/developers.html.j2:16
+#, fuzzy
 msgid ""
 "A list of our Git repositories can be found on our our <a href=\"https://git."
 "gnunet.org/\">Git Server</a>."
 msgstr ""
+"Une liste de nos dépôts Git peut être consultée sur notre <a href=\""
+"https://git.gnunet.org/\">Serveur Git</a>."
 
 #: template/developers.html.j2:24
 msgid "Bibliography"
-msgstr ""
+msgstr "Bibliographie"
 
 #: template/developers.html.j2:27
 msgid ""
 "Technical papers can be found in our <a href=\"https://old.gnunet.org/"
 "bibliography\">bibliography</a>."
 msgstr ""
+"Technical papers can be found in our <a href=\"https://old.gnunet.org/"
+"bibliography\">bibliography</a>."
 
 #: template/developers.html.j2:37
 msgid ""
@@ -204,10 +248,14 @@ msgid ""
 "gnunet-developers\">http://lists.gnu.org/mailman/listinfo/gnunet-developers</"
 "a>."
 msgstr ""
+"Nous avons une liste de diffusion pour les discussions de développeurs. Vous "
+"pouvez vous abonner ou consulter les archives de la liste à l'adresse "
+"suivante <a href=\"http://lists.gnu.org/mailman/listinfo/gnunet-developers\""
+">http://lists.gnu.org/mailman/listinfo/gnunet-developers</a>."
 
 #: template/developers.html.j2:47
 msgid "Regression Testing"
-msgstr ""
+msgstr "Test de régression"
 
 #: template/developers.html.j2:50
 msgid ""
@@ -218,7 +266,7 @@ msgstr ""
 
 #: template/developers.html.j2:59
 msgid "Code Coverage Analysis"
-msgstr ""
+msgstr "Analyse de la couverture du code"
 
 #: template/developers.html.j2:62
 msgid ""
@@ -229,7 +277,7 @@ msgstr ""
 
 #: template/developers.html.j2:72
 msgid "Performance Analysis"
-msgstr ""
+msgstr "Analyse des performances"
 
 #: template/developers.html.j2:75
 msgid ""
@@ -240,7 +288,7 @@ msgstr ""
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
-msgstr ""
+msgstr "Discuter avec nous"
 
 #: template/engage.html.j2:11
 msgid ""
