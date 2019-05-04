@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-30 11:43+0100\n"
+"POT-Creation-Date: 2019-05-04 09:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,6 +268,13 @@ msgid ""
 "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode.net"
 "\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
 "net:6697/#zrythm\">#zrythm</a>."
+msgstr ""
+
+#: template/engage.html.j2:40
+msgid ""
+"<i class=\"fa fa-comments\"></i> Available on <a href=\"https://matrix.org/"
+"\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
+"#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
 msgstr ""
 
 #: template/faq.html.j2:6
@@ -665,19 +672,20 @@ msgstr ""
 
 #: template/join-us.html.j2:10
 msgid ""
-"Zrythm is free software. This means that anyone can work on and improve it. "
-"If you are a designer, programmer, speak a foreign language or have any "
-"ideas about improving Zrythm please come join us at <code>#zrythm</code> on "
-"freenode (IRC) or <code>#freenode_#zrythm:matrix.org</code> on Matrix. You "
-"can join via web chat <a href=\"https://riot.im/app/#/room/#freenode_#zrythm:"
-"matrix.org\">here</a>."
+"Zrythm is free software. This means that everyone is free to use, study, "
+"share and improve it. If you are a designer, programmer, speak a foreign "
+"language or have any ideas about improving Zrythm please come join us at "
+"<code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:matrix."
+"org</code> on Matrix. You can join via Matrix web chat <a href=\"https://"
+"riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC web chat "
+"<a href=\"webchat.freenode.net/?channels=zrythm\">here</a>."
 msgstr ""
 
-#: template/join-us.html.j2:24
+#: template/join-us.html.j2:25
 msgid "Develop"
 msgstr ""
 
-#: template/join-us.html.j2:26
+#: template/join-us.html.j2:27
 msgid ""
 "Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm\"> "
 "main repository</a>. It would be beneficial if you talked with us before "
@@ -687,23 +695,25 @@ msgid ""
 "get involved."
 msgstr ""
 
-#: template/join-us.html.j2:36
+#: template/join-us.html.j2:37
 msgid "Translate"
 msgstr ""
 
-#: template/join-us.html.j2:38
+#: template/join-us.html.j2:39
 msgid ""
-"We are looking for translators to translate Zrythm itself, the website and "
-"the manual. If you can speak a foreign language and want to help, please get "
-"in touch with us. Translating is mainly a task of editing PO files. PO files "
-"look like this:"
+"If you can speak a foreign language and want to help, please take a look at "
+"the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
+"\">translation instructions</a>. Translating Zrythm and its components is "
+"done via <a href=\"https://translate.zrythm.org/projects/zrythm\"> a simple "
+"web interface</a> so no coding experience is needed. All you need is a web "
+"browser."
 msgstr ""
 
-#: template/join-us.html.j2:56
+#: template/join-us.html.j2:52
 msgid "Support Us!"
 msgstr ""
 
-#: template/join-us.html.j2:58
+#: template/join-us.html.j2:54
 msgid ""
 "Everybody is welcome to support us via donations. For financial "
 "contributions, Europeans are able to donate via SEPA through LiberaPay. "
@@ -720,18 +730,18 @@ msgid ""
 "dd> </dl>"
 msgstr ""
 
-#: template/join-us.html.j2:79
+#: template/join-us.html.j2:75
 msgid "Design"
 msgstr ""
 
-#: template/join-us.html.j2:81
+#: template/join-us.html.j2:77
 msgid ""
 "If you are a web designer, icon designer or graphic designer and want to "
 "help, please get in touch with us. Things that you might want to do are "
 "logos, icons and other graphics, CSS, etc."
 msgstr ""
 
-#: template/join-us.html.j2:88
+#: template/join-us.html.j2:84
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
 "without knowing much about the code. Have a look <a href=\"https://git."
