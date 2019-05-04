@@ -539,7 +539,5 @@ msgid "Zrythm maintainer"
 msgstr ""
 
 #: template/team.html.j2:35
-#, fuzzy
-#| msgid "Development"
 msgid "Developer"
 msgstr ""
