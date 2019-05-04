@@ -1,22 +1,21 @@
 # Translations template for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-04 11:57+0100\n"
+"POT-Creation-Date: 2019-04-26 11:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
 msgid "Zrythm"
@@ -199,10 +198,10 @@ msgstr ""
 
 #: template/developers.html.j2:37
 msgid ""
-"We have a mailing list for developer discussions. You can subscribe to or "
-"read the list archive at <a href=\"http://lists.gnu.org/mailman/listinfo/"
-"gnunet-developers\">http://lists.gnu.org/mailman/listinfo/gnunet-developers</"
-"a>."
+"We have a mailing list for developer discussions. You can subscribe to or"
+" read the list archive at <a href=\"http://lists.gnu.org/mailman/listinfo"
+"/gnunet-developers\">http://lists.gnu.org/mailman/listinfo/gnunet-"
+"developers</a>."
 msgstr ""
 
 #: template/developers.html.j2:47
@@ -211,9 +210,9 @@ msgstr ""
 
 #: template/developers.html.j2:50
 msgid ""
-"We have <a href=\"https://buildbot.net/\">Buildbot</a> automation tests to "
-"detect regressions and check for portability at <a href=\"https://old.gnunet."
-"org/buildbot/gnunet/\">https://old.gnunet.org/buildbot/gnunet/</a>."
+"We have <a href=\"https://buildbot.net/\">Buildbot</a> automation tests "
+"to detect regressions and check for portability at <a "
+"href=\"https://old.gnunet.org/buildbot/gnunet/\">https://old.gnunet.org/buildbot/gnunet/</a>."
 msgstr ""
 
 #: template/developers.html.j2:59
@@ -222,9 +221,10 @@ msgstr ""
 
 #: template/developers.html.j2:62
 msgid ""
-"We use <a href=\"http://ltp.sourceforge.net/coverage/lcov.php\">LCOV</a> to "
-"analyze the code coverage of our tests, the results are available at <a href="
-"\"https://old.gnunet.org/coverage/\">https://old.gnunet.org/coverage/</a>."
+"We use <a href=\"http://ltp.sourceforge.net/coverage/lcov.php\">LCOV</a> "
+"to analyze the code coverage of our tests, the results are available at "
+"<a "
+"href=\"https://old.gnunet.org/coverage/\">https://old.gnunet.org/coverage/</a>."
 msgstr ""
 
 #: template/developers.html.j2:72
@@ -233,9 +233,9 @@ msgstr ""
 
 #: template/developers.html.j2:75
 msgid ""
-"We use <a href=\"https://old.gnunet.org/gauger\">Gauger</a> for performance "
-"regression analysis of the exchange backend at <a href=\"https://old.gnunet."
-"org/gauger/\">https://old.gnunet.org/gauger/</a>."
+"We use <a href=\"https://old.gnunet.org/gauger\">Gauger</a> for "
+"performance regression analysis of the exchange backend at <a "
+"href=\"https://old.gnunet.org/gauger/\">https://old.gnunet.org/gauger/</a>."
 msgstr ""
 
 #: template/engage.html.j2:7
@@ -244,21 +244,23 @@ msgstr ""
 
 #: template/engage.html.j2:11
 msgid ""
-"Use the mailing lists, and join our <a href=\"ircs://chat.freenode.net:6697/"
-"#zrythm\">IRC channel</a> to keep up with development, find technical help, "
-"and discuss Zrythm."
+"Use the mailing lists, and join our <a "
+"href=\"ircs://chat.freenode.net:6697/#zrythm\">IRC channel</a> to keep up"
+" with development, find technical help, and discuss Zrythm."
 msgstr ""
 
 #: template/engage.html.j2:20
 msgid ""
-"<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/mailman/"
-"listinfo/zrythm-user\">General Help Mailing List</a>"
+"<i class=\"fa fa-envelope\"></i> <a "
+"href=\"https://lists.nongnu.org/mailman/listinfo/zrythm-user\">General "
+"Help Mailing List</a>"
 msgstr ""
 
 #: template/engage.html.j2:26
 msgid ""
-"<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/mailman/"
-"listinfo/zrythm-dev\">Development Mailing List</a>"
+"<i class=\"fa fa-envelope\"></i> <a "
+"href=\"https://lists.nongnu.org/mailman/listinfo/zrythm-dev\">Development"
+" Mailing List</a>"
 msgstr ""
 
 #: template/engage.html.j2:32
