@@ -11,27 +11,23 @@
 
 include config.mk
 
+LANGUAGES = en de es fr it ja pt ru zh
+
 all: locale template
 	# Consider using pax instead of cp.
 	cp -R dist rendered/
 	cp -R static rendered/
 	cp rendered/static/robots.txt rendered/robots.txt
 	cp rendered/static/robots.txt rendered/dist/robots.txt
-	cp rendered/static/robots.txt rendered/en/robots.txt
-	cp rendered/static/robots.txt rendered/de/robots.txt
-	cp rendered/static/robots.txt rendered/es/robots.txt
-	cp rendered/static/robots.txt rendered/fr/robots.txt
-	cp rendered/static/robots.txt rendered/it/robots.txt
-	cp rendered/static/robots.txt rendered/ja/robots.txt
+	for lang in $(LANGUAGES); do \
+		cp rendered/static/robots.txt rendered/$$lang/robots.txt; \
+	done
 	/bin/sh make_sitemap.sh
 	cp rendered/sitemap.xml rendered/en/sitemap.xml
 	cp rss.xml rendered/rss.xml
-	cp rss.xml rendered/en/rss.xml
-	cp rss.xml rendered/de/rss.xml
-	cp rss.xml rendered/es/rss.xml
-	cp rss.xml rendered/fr/rss.xml
-	cp rss.xml rendered/it/rss.xml
-	cp rss.xml rendered/ja/rss.xml
+	for lang in $(LANGUAGES); do \
+		cp rss.xml rendered/$$lang/rss.xml ; \
+	done
 	cp static/moved.html rendered/frontpage.html
 	cd rendered; ln -fs frontpage.html frontpage
 
@@ -43,23 +39,17 @@ locale/messages.pot: common/*.j2.inc template/*.j2
 
 # Update translation (.po) files with new strings.
 locale-update: locale/messages.pot
-	msgmerge -U -m --previous locale/en/LC_MESSAGES/messages.po locale/messages.pot
-	msgmerge -U -m --previous locale/de/LC_MESSAGES/messages.po locale/messages.pot
-	msgmerge -U -m --previous locale/fr/LC_MESSAGES/messages.po locale/messages.pot
-	msgmerge -U -m --previous locale/es/LC_MESSAGES/messages.po locale/messages.pot
-	msgmerge -U -m --previous locale/it/LC_MESSAGES/messages.po locale/messages.pot
-	msgmerge -U -m --previous locale/ja/LC_MESSAGES/messages.po locale/messages.pot
+	for lang in $(LANGUAGES); do \
+		msgmerge -U -m --previous locale/$$lang/LC_MESSAGES/messages.po locale/messages.pot ; \
+	done
 
 	if grep -nA1 '#-#-#-#-#' locale/*/LC_MESSAGES/messages.po; then echo -e "\nERROR: Conflicts encountered in PO files.\n"; exit 1; fi
 
 # Compile translation files for use.
 locale-compile:
-	$(BABEL) -v compile -d locale -l en --use-fuzzy
-	$(BABEL) -v compile -d locale -l de --use-fuzzy
-	$(BABEL) -v compile -d locale -l fr --use-fuzzy
-	$(BABEL) -v compile -d locale -l it --use-fuzzy
-	$(BABEL) -v compile -d locale -l es --use-fuzzy
-	$(BABEL) -v compile -d locale -l ja --use-fuzzy
+	for lang in $(LANGUAGES); do \
+		$(BABEL) -v compile -d locale -l $$lang --use-fuzzy ; \
+	done
 
 # Process everything related to gettext translations.
 locale: locale-update locale-compile
@@ -92,6 +82,6 @@ docker-all:
 
 clean:
 	rm -rf __pycache__
-	rm -rf en/ de/ fr/ it/ es/ ru/
+	rm -rf en/ de/ fr/ it/ es/ ru/ zh/ pt/
 	rm -rf rendered/
 	rm -rf *.pyc *~ \.*~ \#*\#
