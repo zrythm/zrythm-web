@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-24 02:32+0100\n"
+"POT-Creation-Date: 2019-04-30 11:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -552,9 +552,10 @@ msgstr ""
 
 #: template/index.html.j2:48
 msgid ""
-"Zrythm puts its main focus on composing using MIDI and synths and it allows "
-"musicians to quickly lay down and process their musical ideas without taking "
-"too much time for unnecessary work."
+"In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most "
+"focus on the Composing part. It allows musicians to quickly lay down and "
+"process their musical ideas without taking too much time for unnecessary "
+"work."
 msgstr ""
 
 #: template/index.html.j2:52

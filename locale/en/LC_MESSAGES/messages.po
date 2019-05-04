@@ -530,9 +530,10 @@ msgstr ""
 
 #: template/index.html.j2:48
 msgid ""
-"Zrythm puts its main focus on composing using MIDI and synths and it allows "
-"musicians to quickly lay down and process their musical ideas without taking "
-"too much time for unnecessary work."
+"In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most "
+"focus on the Composing part. It allows musicians to quickly lay down and "
+"process their musical ideas without taking too much time for unnecessary "
+"work."
 msgstr ""
 
 #: template/index.html.j2:52
