@@ -2,28 +2,32 @@
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# Weblate Admin <weblate.admin@zrythm.org>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-09 10:49+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: pt\n"
+"POT-Creation-Date: 2019-05-09 01:44+0100\n"
+"PO-Revision-Date: 2019-05-09 09:52+0000\n"
+"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
+"Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/"
+"hi/>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:113
+#, fuzzy
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
-msgstr ""
+msgstr "एक अत्यधिक स्वचालित, सहज ज्ञान युक्त, डिजिटल ऑडियो वर्कस्टेशन (DAW)"
 
 #: common/footer.j2.inc:7
 msgid "Developer Team"
@@ -31,11 +35,11 @@ msgstr ""
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "संपर्क"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
-msgstr ""
+msgstr "Zrythm के बारे में"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:66
 msgid "Bug Tracker"
@@ -43,7 +47,7 @@ msgstr ""
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:67
 msgid "Source Code"
-msgstr ""
+msgstr "सोर्स कोड"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:83
 msgid "Manual"
@@ -51,7 +55,7 @@ msgstr ""
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "FAQ"
-msgstr ""
+msgstr "सामान्य प्रश्न"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
@@ -63,14 +67,17 @@ msgid ""
 "<a href='https://www.gnu.org/'>Free Software</a> only.<br> Report issues "
 "with this website to <a href='contact.html'>us</a>."
 msgstr ""
+"Copyright © Alexandros Theodotou 2019 <br> यह पेज केवल <a "
+"href='https://www.gnu.org/'>फ्री सॉफ्टवेयर</a> का उपयोग करके बनाया गया था। "
+"<br> इस वेबसाइट के साथ समस्याओं की रिपोर्ट <a href='contact.html'>करें</a> ।"
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "कम्युनिटी"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "मंच"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
@@ -78,7 +85,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "हमसे जुड़ें"
 
 #: common/navigation.j2.inc:61
 msgid "Development"
@@ -98,13 +105,14 @@ msgstr ""
 
 #: common/navigation.j2.inc:81 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "ट्यूटोरियल"
 
 #: common/navigation.j2.inc:82
 msgid "Glossary"
-msgstr ""
+msgstr "शब्दावली"
 
 #: template/about.html.j2:8
+#, fuzzy
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
 "and borrows ideas, concepts and code from other projects such as Ardour and "
@@ -112,12 +120,18 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
+"Zrythm एक देशी GNU / Linux अनुप्रयोग है, जो C और GTK +3 टूलकिट के उपयोग से "
+"बनाया गया है और अन्य परियोजनाओं जैसे कि अरदोर और जलव से विचारों, अवधारणाओं "
+"और कोड को उधार लेता है।"
 
 #: template/about.html.j2:14
+#, fuzzy
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Zrythm GPLv3 + के तहत लाइसेंस प्राप्त मुफ्त सॉफ्टवेयर है और इसका स्रोत कोड "
+"हमारे GitLab उदाहरण पर उपलब्ध है।"
 
 #: template/contact.html.j2:6
 msgid "Contact information"
