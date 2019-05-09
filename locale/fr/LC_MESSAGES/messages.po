@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-09 01:44+0100\n"
-"PO-Revision-Date: 2019-05-08 23:56+0000\n"
+"PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
 "fr/>\n"
@@ -27,7 +27,7 @@ msgstr "Zrythm"
 #: common/base.j2:6 template/index.html.j2:113
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
-"Une Station de Travail Audio Numérique (STAN) hautement automatisé et "
+"Une Station de Travail Audio Numérique (STAN) hautement automatisée et "
 "intuitive"
 
 #: common/footer.j2.inc:7
@@ -68,8 +68,8 @@ msgid ""
 "<a href='https://www.gnu.org/'>Free Software</a> only.<br> Report issues "
 "with this website to <a href='contact.html'>us</a>."
 msgstr ""
-"Copyright &copy; Alexandros Theodotou 2019<br> Cette page a été créée en "
-"utilisant \"\n"
+"Droits d'auteur et copie; Alexandros Theodotou 2019<br> Cette page a été "
+"créée en utilisant \"\n"
 "\"<a href='https://www.gnu.org/'>Free Software</a> seulement.<br> Signaler "
 "les problèmes \"\n"
 "\"avec ce site pour <a href='contact.html'>us</a>."
@@ -155,13 +155,15 @@ msgid ""
 "zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> and <a href=\"mailto:"
 "zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
 msgstr ""
-"Les listes de diffusion publiques et archivées de Zrythm sont hébergées à "
+"Archivées, les listes de diffusion publiques de Zrythm sont hébergées à "
 "l'adresse suivante <a href=\"https://lists.nongnu.org/mailman/listinfo/"
-"zrythm-dev\"> et <a href=\\\"https://lists.nongnu.org/mailman/listinfo/"
-"zrythm-user\\\">https://lists.nongnu.org/mailman/listinfo/zrythm-user</a>. "
-"Vous pouvez envoyer des messages aux listes à l'adresse suivante <a href=\\"
-"\"mailto:zrythm-dev@nongnu.org\\\">zrythm-dev@nongnu.org</a> et <a href=\\"
-"\"mailto:zrythm-user@nongnu.org\\\">zrythm-user@nongnu.org</a>."
+"zrythm-dev\">\n"
+"https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a> et <a href=\""
+"https://lists.nongnu.org/mailman/listinfo/zrythm-user\">\n"
+"https://lists.nongnu.org/mailman/listinfo/zrythm-user</a>. Vous pouvez "
+"envoyer des messages aux listes à l'adresse suivante \n"
+"<a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> et <a "
+"href=\"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
@@ -201,12 +203,12 @@ msgid ""
 "mailinglist requires no subscription."
 msgstr ""
 "Nous suivons les demandes de fonctionnalités ouvertes et les bogues pour les "
-"projets au sein de Zrythm dans notre <a href=\\\"https://git.zrythm.org/"
-"zrythm/zrythm/issues\\\">Suivi des bogues</a>. Vous pouvez également "
-"signaler des bogues ou des demandes de fonctionnalités à cette adresse <a "
-"href=\\\"https://lists.nongnu.org/mailman/listinfo/zrythm-user\\\">zrythm-"
-"user</a> liste de diffusion. La liste de diffusion ne nécessite pas "
-"d'abonnement."
+"projets au sein de Zrythm dans notre \n"
+"<a href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Suivi des bogues</a>"
+". Vous pouvez également signaler des bogues ou des demandes de "
+"fonctionnalités à cette adresse <a href=\"https://lists.nongnu.org/mailman/"
+"listinfo/zrythm-user\">zrythm-user</a> liste de diffusion. La liste de "
+"diffusion ne nécessite pas d'abonnement."
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
@@ -261,16 +263,16 @@ msgstr ""
 #: template/faq.html.j2:6
 msgid "I'm building from source and I want to run Zrythm without installing"
 msgstr ""
-"Je suis en train de construire à partir de la source et je veux utiliser "
-"Zrythm sans installer"
+"Je suis en train de construire à partir des sources et je veux utiliser "
+"Zrythm sans l'installer"
 
 #: template/faq.html.j2:8
 msgid ""
 "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
-"Exécutez <code>glib-compile-schemas data/</code> , puis zrythm en utilisant "
-"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+"Exécutez <code>glib-compile-schemas data/</code> , puis lancez zrythm en "
+"utilisant <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 
 #: template/faq.html.j2:12
 msgid "I get unmet dependencies when installing on Ubuntu"
@@ -279,7 +281,7 @@ msgstr ""
 
 #: template/faq.html.j2:14
 msgid "Enable the universe repository:"
-msgstr "Activer le dépôt univers:"
+msgstr "Activer le dépôt universel:"
 
 #: template/faq.html.j2:19
 msgid "What plugin protocols are supported?"
@@ -291,7 +293,7 @@ msgstr "les LV2 à l’heure actuelle. Les VST2 et VST3 prochainement."
 
 #: template/glossary.html.j2:53
 msgid "Namespaces"
-msgstr ""
+msgstr "espaces de nommage"
 
 #: template/index.html.j2:44
 msgid ""
@@ -300,9 +302,11 @@ msgid ""
 "allowing extensive automation via built-in LFOs and envelopes and intuitive "
 "MIDI/audio editing and arranging via clips."
 msgstr ""
-"Zrythm se distingue des autres logiciels STANs en permettant une "
-"automatisation poussée via des LFO et des enveloppes intégrés, ainsi qu'un "
-"montage et un arrangement MIDI/audio intuitifs via les clips."
+"Zrythm est une Station de Travail Audio Numérique (STAN) hautement "
+"automatisée, conçue pour une utilisation fonctionnelle et intuitive. Zrythm "
+"se distingue des autres STANs en permettant une automation poussée via des "
+"LFOs et des enveloppes intégrées, ainsi qu'une édition et un arrangement "
+"MIDI/audio intuitifs via les clips."
 
 #: template/index.html.j2:48
 msgid ""
@@ -313,8 +317,8 @@ msgid ""
 msgstr ""
 "Dans l'habituel flux de travail Composer -> Mixer -> Masteriser, Zrythm met "
 "l'accent sur la partie composition. Il permet aux musiciens de traiter "
-"rapidement leurs idées musicales sans prendre trop de temps pour un travail "
-"inutile."
+"rapidement leurs idées musicales sans prendre trop de temps pour les tâches "
+"inutiles."
 
 #: template/index.html.j2:52
 msgid ""
@@ -330,7 +334,7 @@ msgstr "Téléchargement"
 
 #: template/index.html.j2:101
 msgid "Join &amp; support us!"
-msgstr "Rejoignez et soutenez nous!"
+msgstr "Rejoignez nous et soutenez nous!"
 
 #: template/index.html.j2:119
 msgid "Automated"
@@ -342,9 +346,9 @@ msgid ""
 "curves for more detailed automation. Clips to loop your MIDI notes and "
 "audio. And more."
 msgstr ""
-"LFO et enveloppes intégrés à utiliser pour automatiser les contrôles.  Des "
-"courbes d'automatisation pour une automatisation plus détaillée. Des clips "
-"pour boucler vos notes MIDI et audio. Et plus."
+"Des LFOs et des enveloppes intégrés à utiliser pour automatiser les "
+"contrôles.  Des courbes d'automation pour une automation plus détaillée. Des "
+"clips pour boucler vos notes MIDI et Audio. Et plus encore."
 
 #: template/index.html.j2:131
 msgid "Intuitive"
@@ -355,7 +359,7 @@ msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
-"Zrythm essaie de garder l'interface propre et agréable, avec des méthodes "
+"Zrythm essaie de garder une interface propre et agréable, avec des méthodes "
 "intuitives pour effectuer le travail, permettant ainsi un flux de travail "
 "plus rapide."
 
@@ -368,8 +372,8 @@ msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
-"Les courbes d'automatisation, busses, glisser-déposer des greffons LV2 et "
-"des fichiers audio, Minimap arrangeur, etc."
+"Des courbes d'automation, des busses, glisser-déposer des greffons LV2 et "
+"des fichiers audio, des Minimap dans l'arrangeur, etc."
 
 #: template/index.html.j2:161
 msgid "Features"
@@ -382,7 +386,7 @@ msgstr "Automation sans limites"
 #: template/index.html.j2:173
 msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr ""
-"Automatisez presque tout avec des enveloppes et des courbes d'automatisation "
+"Automatisez presque tout avec des enveloppes et des courbes d'automation "
 "intégrées."
 
 #: template/index.html.j2:182
@@ -399,7 +403,8 @@ msgstr "Greffons LV2"
 
 #: template/index.html.j2:195
 msgid "Works with LV2, the open standard for audio plugins."
-msgstr "Fonctionne avec le LV2, le standard ouvert pour les greffons audio."
+msgstr ""
+"Fonctionne avec les greffons LV2, le standard libre pour les greffons audio."
 
 #: template/index.html.j2:206
 msgid "Speaks Your Language"
@@ -431,15 +436,6 @@ msgid "Join the Zrythm Team"
 msgstr "Rejoignez l'équipe de Zrythm"
 
 #: template/join-us.html.j2:10
-#, fuzzy
-#| msgid ""
-#| "Zrythm is free software. This means that everyone is free to use, study, "
-#| "share and improve it. If you are a designer, programmer, speak a foreign "
-#| "language or have any ideas about improving Zrythm please come join us at "
-#| "<code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:matrix."
-#| "org</code> on Matrix. You can join via Matrix web chat <a href=\"https://"
-#| "riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC web "
-#| "chat <a href=\"webchat.freenode.net/?channels=zrythm\">here</a>."
 msgid ""
 "Zrythm is free software. This means that everyone is free to use, study, "
 "share and improve it. If you are a graphic designer, programmer, speak a "
@@ -586,42 +582,44 @@ msgid ""
 "This page holds various tutorials for Zrythm. Some of them are not complete, "
 "but we find them useful regardless of their state."
 msgstr ""
+"Cette page contient divers tutoriels pour Zrythm. Certains d'entre eux ne "
+"sont pas complets, mais nous les trouvons utiles quel que soit leur état."
 
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
-msgstr ""
+msgstr "Instructions d'installation de Zrythm :<ul> <li>À FAIRE</li> </ul>"
 
 #: template/video.html.j2:19
 msgid "2017"
-msgstr ""
+msgstr "2017"
 
 #: template/video.html.j2:20
 msgid "2016"
-msgstr ""
+msgstr "2016"
 
 #: template/video.html.j2:21
 msgid "2015"
-msgstr ""
+msgstr "2015"
 
 #: template/video.html.j2:22
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #: template/video.html.j2:23
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #: template/video.html.j2:24
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #: template/video.html.j2:25
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #: template/video.html.j2:26
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #~ msgid "GNUnet for developers"
 #~ msgstr "GNUnet pour les développeurs"
