@@ -2,28 +2,34 @@
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# Weblate Admin <weblate.admin@zrythm.org>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-09 01:44+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: pt\n"
+"PO-Revision-Date: 2019-05-09 09:52+0000\n"
+"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
+"Language-Team: Arabic <https://translate.zrythm.org/projects/zrythm/website/"
+"ar/>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
+#, fuzzy
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:113
+#, fuzzy
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
-msgstr ""
+msgstr "محطة عمل صوتية رقمية عالية الدقة وبديهية (DAW)"
 
 #: common/footer.j2.inc:7
 msgid "Developer Team"
@@ -31,11 +37,11 @@ msgstr ""
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "الاتصال"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
-msgstr ""
+msgstr "حول Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:66
 msgid "Bug Tracker"
@@ -43,15 +49,15 @@ msgstr ""
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:67
 msgid "Source Code"
-msgstr ""
+msgstr "كود المصدر"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:83
 msgid "Manual"
-msgstr ""
+msgstr "يدوي"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "FAQ"
-msgstr ""
+msgstr "سؤال شائع"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
@@ -66,11 +72,11 @@ msgstr ""
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "المجتمع"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "المنتدى"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
@@ -78,15 +84,15 @@ msgstr ""
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "انضم الينا"
 
 #: common/navigation.j2.inc:61
 msgid "Development"
-msgstr ""
+msgstr "التنمية"
 
 #: common/navigation.j2.inc:64
 msgid "System Architecture"
-msgstr ""
+msgstr "مدير هندسة النظام"
 
 #: common/navigation.j2.inc:65
 msgid "Code Documentation"
@@ -94,17 +100,18 @@ msgstr ""
 
 #: common/navigation.j2.inc:78
 msgid "Documentation"
-msgstr ""
+msgstr "التوثيق"
 
 #: common/navigation.j2.inc:81 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "دروس"
 
 #: common/navigation.j2.inc:82
 msgid "Glossary"
-msgstr ""
+msgstr "مسرد"
 
 #: template/about.html.j2:8
+#, fuzzy
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
 "and borrows ideas, concepts and code from other projects such as Ardour and "
@@ -112,20 +119,25 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
+"Zrythm هو تطبيق GNU / Linux أصلي تم إنشاؤه باستخدام C ومجموعة أدوات GTK +3 "
+"ويستعير الأفكار والمفاهيم والكود من مشاريع أخرى مثل Ardour و Jalv"
 
 #: template/about.html.j2:14
+#, fuzzy
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Zrythm هو برنامج مجاني مرخص بموجب GPLv3 + وكود المصدر الخاص به متاح على مثيل "
+"GitLab الخاص بنا."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "معلومات التواصل"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
-msgstr ""
+msgstr "القائمة البريدية"
 
 #: template/contact.html.j2:15
 msgid ""
