@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-09 01:44+0100\n"
+"POT-Creation-Date: 2019-05-09 10:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -327,7 +327,7 @@ msgid "LV2 Plugins"
 msgstr ""
 
 #: template/index.html.j2:195
-msgid "Works with LV2, the open standard for audio plugins."
+msgid "Works with LV2, the free standard for audio plugins."
 msgstr ""
 
 #: template/index.html.j2:206
@@ -448,12 +448,16 @@ msgstr ""
 msgid "This page documents the Zrythm history."
 msgstr ""
 
-#: template/team.html.j2:22
+#: template/team.html.j2:23
 msgid "Zrythm maintainer"
 msgstr ""
 
-#: template/team.html.j2:35
+#: template/team.html.j2:36
 msgid "Developer"
+msgstr ""
+
+#: template/team.html.j2:51
+msgid "French translator"
 msgstr ""
 
 #: template/tutorial.html.j2:8

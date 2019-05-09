@@ -115,6 +115,13 @@ h6.description {
     position: relative;
     min-height: 160px;
 }
+
+.img-box img {
+  max-height: 160px;
+  display: block;
+  margin: auto;
+}
+
 .profile .img-box:after{
     content:"";
     opacity: 0;
@@ -183,6 +190,7 @@ h6.description {
     border-color: #fff;
     color: #88C425;
 }
+
 i.red {
     color: #BC0213;
 }

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-09 01:44+0100\n"
+"POT-Creation-Date: 2019-05-09 10:49+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
@@ -374,7 +374,9 @@ msgid "LV2 Plugins"
 msgstr "LV2插件"
 
 #: template/index.html.j2:195
-msgid "Works with LV2, the open standard for audio plugins."
+#, fuzzy
+#| msgid "Works with LV2, the open standard for audio plugins."
+msgid "Works with LV2, the free standard for audio plugins."
 msgstr "适用于音频插件的开放标准LV2。"
 
 #: template/index.html.j2:206
@@ -510,15 +512,21 @@ msgstr "旧新闻"
 msgid "This page documents the Zrythm history."
 msgstr "该页面记录了Zrythm的历史。"
 
-#: template/team.html.j2:22
+#: template/team.html.j2:23
 msgid "Zrythm maintainer"
 msgstr "Zrythm维护者"
 
-#: template/team.html.j2:35
+#: template/team.html.j2:36
 #, fuzzy
 #| msgid "Development"
 msgid "Developer"
 msgstr "开发商"
+
+#: template/team.html.j2:51
+#, fuzzy
+#| msgid "Translate"
+msgid "French translator"
+msgstr "翻译"
 
 #: template/tutorial.html.j2:8
 msgid ""
