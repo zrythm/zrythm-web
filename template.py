@@ -38,10 +38,14 @@ langs_full = {
         "it": "Italiano",
         "es": "Español",
         "de": "Deutsch",
+        "nl": "Nederlands",
         "pt": "Português",
         "ru": "русский",
         "ja": "日本語",
-        "zh": "中文"}
+        "zh": "中文",
+        "ko": "한국어",
+        "ar": "العربية",
+        "hi": "हिन्दी"}
 lang_flags = {
         "en": "[en]",
         "fr": "[fr]",
@@ -51,7 +55,11 @@ lang_flags = {
         "pt": "[pt]",
         "ru": "[ru]",
         "ja": "[ja]",
-        "zh": "[zh]"}
+        "zh": "[zh]",
+        "nl": "[nl]",
+        "ko": "[ko]",
+        "ar": "[ar]",
+        "hi": "[hi]"}
 
 for in_file in glob.glob("template/*.j2"):
     name, ext = re.match(r"(.*)\.([^.]+)$", in_file.rstrip(".j2")).groups()

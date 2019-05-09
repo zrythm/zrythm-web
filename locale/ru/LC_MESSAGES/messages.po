@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-04 11:57+0100\n"
+"POT-Creation-Date: 2019-05-09 01:21+0100\n"
 "PO-Revision-Date: 2019-05-04 23:30+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Russian <https://translate.zrythm.org/projects/zrythm/website/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.4.0\n"
 
@@ -158,10 +158,10 @@ msgid ""
 "zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
 msgstr ""
 "Архивные публичные списки рассылки для Zrythm размещаются по адресу <a href="
-"\"https://lists.nongnu.org/mailman/listinfo/zrythm-dev\""
-">https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a> и <a href=\""
-"https://lists.nongnu.org/mailman/listinfo/zrythm-user\">https://lists.nongnu."
-"org/mailman/listinfo/zrythm-user</a>."
+"\"https://lists.nongnu.org/mailman/listinfo/zrythm-dev\">https://lists."
+"nongnu.org/mailman/listinfo/zrythm-dev</a> и <a href=\"https://lists.nongnu."
+"org/mailman/listinfo/zrythm-user\">https://lists.nongnu.org/mailman/listinfo/"
+"zrythm-user</a>."
 
 #: template/contact.html.j2:27
 #, fuzzy
@@ -278,9 +278,9 @@ msgid ""
 "#zrythm\">IRC channel</a> to keep up with development, find technical help, "
 "and discuss Zrythm."
 msgstr ""
-"Используйте списки рассылки и присоединяйтесь к нашему <a href=\""
-"ircs://chat.freenode.net:6697/#zrythm\">IRC-каналу,</a> чтобы быть в курсе "
-"разработки, найти техническую помощь и обсудить Zrythm."
+"Используйте списки рассылки и присоединяйтесь к нашему <a href=\"ircs://chat."
+"freenode.net:6697/#zrythm\">IRC-каналу,</a> чтобы быть в курсе разработки, "
+"найти техническую помощь и обсудить Zrythm."
 
 #: template/engage.html.j2:20
 msgid ""
@@ -304,9 +304,9 @@ msgid ""
 "\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
 "net:6697/#zrythm\">#zrythm</a>."
 msgstr ""
-"<i class=\"fa fa-comments\"></i> Доступно на <a href=\"https://freenode.net\""
-">irc.freenode.net</a> в канале <a href=\"ircs://chat.freenode.net:6697/#"
-"zrythm\">#zrythm</a> ."
+"<i class=\"fa fa-comments\"></i> Доступно на <a href=\"https://freenode.net"
+"\">irc.freenode.net</a> в канале <a href=\"ircs://chat.freenode.net:6697/"
+"#zrythm\">#zrythm</a> ."
 
 #: template/engage.html.j2:40
 msgid ""
@@ -314,8 +314,8 @@ msgid ""
 "\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
 "#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
 msgstr ""
-"<i class=\"fa fa-comments\"></i> Доступно по <a href=\"https://matrix.org/\""
-">матрице</a> на канале <a href=\"https://riot.im/app/#/room/"
+"<i class=\"fa fa-comments\"></i> Доступно по <a href=\"https://matrix.org/"
+"\">матрице</a> на канале <a href=\"https://riot.im/app/#/room/"
 "#freenode_#zrythm:matrix.org\"># freenode_ # zrythm: matrix.org</a> ."
 
 #: template/faq.html.j2:6
@@ -346,6 +346,258 @@ msgstr "Какие протоколы плагинов поддерживают�
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
 msgstr "LV2 на данный момент. VST2 and VST3 coming soon."
 
+#: template/glossary.html.j2:5
+msgid "Ego"
+msgstr ""
+
+#: template/glossary.html.j2:7
+msgid ""
+"We use the term \"Ego\" to refer to the fact that users in GNUnet can have "
+"multiple unlinkable identities, in the sense of alter egos. The ability to "
+"have more than one identity is crucial, as we may want to keep our egos for "
+"business separate from those we use for political activities or romance.<br> "
+"Egos in GNUnet are technically equivalent to identities (and the code does "
+"not distinguish between them). We simply sometimes use the term \"ego\" to "
+"stress that you can have more than one."
+msgstr ""
+
+#: template/glossary.html.j2:20
+msgid "Identity"
+msgstr ""
+
+#: template/glossary.html.j2:22
+msgid ""
+"In GNUnet users are identified via a public key, and that public key is then "
+"often referred to as the \"Identity\" of the user. However, the concept is "
+"not as draconian as it often is in real life where many are forced to have "
+"one name, one passport and one unique identification number. <br> As long as "
+"identities in GNUnet are simply public keys, users are free to create any "
+"number of identities, and we call those egos to emphasize the difference. "
+"Even though users can create such egos freely, it is possible to have an ego "
+"certified by some certification authority, resulting in something that more "
+"closely resembles the traditional concept of an identity.<br> For example, a "
+"university may certify the identities of its students such that they can "
+"prove that they are studying. Students may keep their (certified) student "
+"identity separate from other egos that they use for other activities in life."
+msgstr ""
+
+#: template/glossary.html.j2:43
+msgid "Pseudonym"
+msgstr ""
+
+#: template/glossary.html.j2:45
+msgid ""
+"A pseudonym is an ego that is specifically intended to not be linked to "
+"one's real name. GNUnet users can create many egos, and thus also many "
+"pseudonyms. <br> Repeated uses of the same pseudonym are linkable by "
+"definition, as they involve the same public key. Anonymity requires the use "
+"of either the special \"anonymous\" pseudonym (for GNUnet, this is the "
+"neutral element on the elliptic curve) or a throw-away pseudonym that is "
+"only used once."
+msgstr ""
+
+#: template/glossary.html.j2:59
+msgid "Namespaces"
+msgstr ""
+
+#: template/glossary.html.j2:61
+msgid ""
+"The GNU Name System allows every ego (or identity) to securely and privately "
+"associate any number of label-value pairs with an ego. The values are called "
+"record sets following the terminology of the Domain Name System (DNS). The "
+"mapping of labels to record sets for a given ego is called a namespace. <br> "
+"If records are made public and thus published, it is possible for other "
+"users to lookup the record given the ego's public key and the label. Here, "
+"not only the label can thus act as a passphrase but also the public key -- "
+"which despite its name may not be public knowledge and is never disclosed by "
+"the GNS protocol itself."
+msgstr ""
+
+#: template/glossary.html.j2:77
+msgid "Peer"
+msgstr ""
+
+#: template/glossary.html.j2:79
+msgid ""
+"A \"peer\" is an instance of GNUnet with its own per-instance public key and "
+"network addresses. Technically, it is possible to run multiple peers on the "
+"same host, but this only makes sense for testing. <br> By design GNUnet "
+"supports multiple users to share the same peer, just as UNIX is a multi-user "
+"system. A \"peer\" typically consists of a set of foundational GNUnet "
+"services running as the \"gnunet\" user and allowing all users in the "
+"\"gnunet\" group to utilize the API. On multi-user systems, additional "
+"\"personalized\" services may be required per user. <br> While peers are "
+"also identified by public keys, these public keys are completely unrelated "
+"to egos or identities. Namespaces cannot be associated with a peer, only "
+"with egos."
+msgstr ""
+
+#: template/gnurl.html.j2:7
+msgid ""
+"libgnurl is a micro fork of libcurl. The goal of libgnurl is to support only "
+"HTTP and HTTPS (and only HTTP 1.x) with a single crypto backend (GnuTLS) to "
+"ensure a small footprint and uniform experience for developers regardless of "
+"how libcurl was compiled.<br> Our main usecase is for GNUnet, but it might "
+"be usable for others, hence we're releasing the code to the general public."
+"<br> libgnurl is released under the same license as libcurl. Please read the "
+"README for instructions, as you must supply the correct options to configure "
+"to get a proper build of libgnurl."
+msgstr ""
+
+#: template/gnurl.html.j2:22
+#, fuzzy
+#| msgid "Documentation"
+msgid "Motivation"
+msgstr "Документация"
+
+#: template/gnurl.html.j2:24
+msgid ""
+"cURL supports many crypto backends. GNUnet requires the use of GnuTLS, but "
+"other variants are used by some distributions. Supporting other crypto "
+"backends would again expose us to a wider array of security issues, may "
+"create licensing issues and most importantly introduce new bugs as some "
+"crypto backends are known to introduce subtle runtime issues. While it is "
+"possible to have two versions of libcurl installed on the same system, this "
+"is error-prone, especially as if we are linked against the wrong version, "
+"the bugs that arise might be rather subtle."
+msgstr ""
+
+#: template/gnurl.html.j2:37
+msgid ""
+"For GNUnet, we also need a particularly modern version of GnuTLS. Thus, it "
+"would anyway be necessary to recompile cURL for GNUnet. But what happens if "
+"one links cURL against this version of GnuTLS? Well, first one would install "
+"GnuTLS by hand in the system. Then, we build cURL. cURL will build against "
+"it just fine, but the linker will eventually complain bitterly. The reason "
+"is that cURL also links against a bunch of other system libraries (gssapi, "
+"ldap, ssh2, rtmp, krb5, sasl2, see discussion on obscure protocols above), "
+"which --- as they are part of the distribution --- were linked against an "
+"older version of GnuTLS. As a result, the same binary would be linked "
+"against two different versions of GnuTLS. That is typically a recipe for "
+"disaster. Thus, in order to avoid updating a dozen system libraries (and "
+"having two versions of those installed), it is necessary to disable all of "
+"those cURL features that GNUnet does not use, and there are many of those. "
+"For GNUnet, the more obscure protocols supported by cURL are close to dead "
+"code --- mostly harmless, but not useful. However, as some application may "
+"use one of those features, distributions are typically forced to enable all "
+"of those features, and thus including security issues that might arise from "
+"that code."
+msgstr ""
+
+#: template/gnurl.html.j2:61
+msgid ""
+"So to use a modern version of GnuTLS, a sane approach is to disable all of "
+"the \"optional\" features of cURL that drag in system libraries that link "
+"against the older GnuTLS. That works, except that one should then NEVER "
+"install that version of libcurl in say /usr or /usr/local, as that may break "
+"other parts of the system that might depend on these features that we just "
+"disabled. Libtool versioning doesn't help here, as it is not intended to "
+"deal with libraries that have optional features. Naturally, installing cURL "
+"somewhere else is also problematic, as we now need to be really careful that "
+"the linker will link GNUnet against the right version. Note that none of "
+"this can really be trivially fixed by the cURL developers."
+msgstr ""
+
+#: template/gnurl.html.j2:75
+msgid "Rename to fix"
+msgstr ""
+
+#: template/gnurl.html.j2:77
+#, python-format
+msgid ""
+"How does forking fix it? Easy. First, we can get rid of all of the "
+"compatibility issues --- if you use libgnurl, you state that you don't need "
+"anything but HTTP/HTTPS. Those applications that need more, should stick "
+"with the original cURL. Those that do not, can choose to move to something "
+"simpler. As the library gets a new name, we do not have to worry about tons "
+"of packages breaking as soon as one rebuilds it. So renaming itself and "
+"saying that \"libgnurl = libcurl with only HTTP/HTTPS support and GnuTLS\" "
+"fixes 99%% of the problems that darkened my mood. Note that this pretty much "
+"CANNOT be done without a fork, as renaming is an essential part of the fix. "
+"Now, there might be creative solutions to achieve the same thing within the "
+"standard cURL build system, but I'm not happy to wait for a decade for "
+"Daniel to review the patches. The changes libgnurl makes to curl are "
+"miniscule and can easily be applied again and again whenever libcurl makes a "
+"new release."
+msgstr ""
+
+#: template/gnurl.html.j2:95
+msgid "Using libgnurl"
+msgstr ""
+
+#: template/gnurl.html.j2:97
+msgid ""
+"Projects that use cURL only for HTTP/HTTPS and that would work with GnuTLS "
+"should be able to switch to libgnurl by changing \"-lcurl\" to \"-lgnurl\". "
+"That's it. No changes to the source code should be required, as libgnurl "
+"strives for bug-for-bug compatibility with the HTTP/HTTPS/GnuTLS subset of "
+"cURL. We might add new features relating to this core subset if they are "
+"proposed, but so far we have kept our changes minimal and no additions to "
+"the original curl source have been written."
+msgstr ""
+
+#: template/gnurl.html.j2:109
+msgid "Gotchas"
+msgstr ""
+
+#: template/gnurl.html.j2:111
+msgid ""
+"libgnurl and gnurl are not intended to be used as a replacement for curl for "
+"users. Since no conflicts in filenames should occur you are not expected to "
+"remove curl to make use of gnurl and viceversa."
+msgstr ""
+
+#: template/gnurl.html.j2:126
+msgid ""
+"You can get the Gnurl Git repository using: <!-- https://bugs.gnunet.org/"
+"view.php?id=5483 ! <code>git clone https://git.taler.net/gnurl.git</code> --"
+"> <code>git clone git://git.taler.net/gnurl.git</code> The versions are "
+"checked in as signed git tags."
+msgstr ""
+
+#: template/gnurl.html.j2:138
+#, fuzzy
+#| msgid "Downloads"
+msgid "Downloads"
+msgstr "Скачать"
+
+#: template/gnurl.html.j2:140
+msgid ""
+"Releases are published on <a href=\"https://ftp.gnu.org/gnu/gnunet/\">ftp."
+"gnu.org/gnu/gnunet</a>. gnURL is available from within a variety of "
+"distributions and package managers. Package Managers which include gnurl "
+"are: <a href=\"https://www.gnu.org/software/guix/\">GNU Guix</a> (available "
+"as \"gnurl\"), <a href=\"https://gentoo.org\">Gentoo</a> through the "
+"collaborative ebuild collection <a href=\"https://git.gnunet.org/"
+"youbroketheinternet-overlay.git/\">youbroketheinternet</a>, <a href="
+"\"https://nixos.org/nix/\">Nix</a>, and <a href=\"http://pkgsrc.org"
+"\">pkgsrc</a>."
+msgstr ""
+
+#: template/gnurl.html.j2:154
+#, fuzzy
+#| msgid "Reporting bugs"
+msgid "Reporting Bugs"
+msgstr "Сообщения об ошибках"
+
+#: template/gnurl.html.j2:156
+msgid ""
+"You can report bugs on our bug tracker: <a href=\"https://bugs.gnunet.org/"
+"\">bugs.gnunet.org</a>. Alternatively you can use our bug mailinglist, but "
+"we prefer to track bugs on the bugtracker."
+msgstr ""
+
+#: template/gnurl.html.j2:165
+msgid "Maintainer and Cryptographic signatures"
+msgstr ""
+
+#: template/gnurl.html.j2:167
+msgid ""
+"gnurl/libgnurl is maintained by ng0. Releases are signed with the OpenPG Key "
+"<b>A88C8ADD129828D7EAC02E52E22F9BBFEE348588</b>, with the key fingerprint "
+"<b>A88C 8ADD 1298 28D7 EAC0 2E52 E22F 9BBF EE34 8588</b>."
+msgstr ""
+
 #: template/index.html.j2:44
 msgid ""
 "Zrythm is a highly automated Digital Audio Workstation (DAW) designed to be "
@@ -353,8 +605,8 @@ msgid ""
 "allowing extensive automation via built-in LFOs and envelopes and intuitive "
 "MIDI/audio editing and arranging via clips."
 msgstr ""
-"Zrythm - это высокоавтоматизированная цифровая звуковая рабочая станция (DAW)"
-", разработанная, чтобы быть функциональной и интуитивно понятной в "
+"Zrythm - это высокоавтоматизированная цифровая звуковая рабочая станция "
+"(DAW), разработанная, чтобы быть функциональной и интуитивно понятной в "
 "использовании."
 
 #: template/index.html.j2:48
@@ -372,8 +624,8 @@ msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the GPLv3+."
 msgstr ""
-"Zrythm - это <a href=\"http://www.gnu.org/philosophy/free-sw.html\">"
-"бесплатное программное обеспечение,</a> лицензируемое по лицензии GPLv3 +."
+"Zrythm - это <a href=\"http://www.gnu.org/philosophy/free-sw.html"
+"\">бесплатное программное обеспечение,</a> лицензируемое по лицензии GPLv3 +."
 
 #: template/index.html.j2:60
 #, fuzzy
@@ -489,23 +741,31 @@ msgid "Join the Zrythm Team"
 msgstr "Присоединяйтесь к команде Zrythm"
 
 #: template/join-us.html.j2:10
+#, fuzzy
+#| msgid ""
+#| "Zrythm is free software. This means that everyone is free to use, study, "
+#| "share and improve it. If you are a designer, programmer, speak a foreign "
+#| "language or have any ideas about improving Zrythm please come join us at "
+#| "<code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:matrix."
+#| "org</code> on Matrix. You can join via Matrix web chat <a href=\"https://"
+#| "riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC web "
+#| "chat <a href=\"webchat.freenode.net/?channels=zrythm\">here</a>."
 msgid ""
 "Zrythm is free software. This means that everyone is free to use, study, "
-"share and improve it. If you are a designer, programmer, speak a foreign "
-"language or have any ideas about improving Zrythm please come join us at "
-"<code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:matrix."
-"org</code> on Matrix. You can join via Matrix web chat <a href=\"https://"
-"riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC web chat "
-"<a href=\"webchat.freenode.net/?channels=zrythm\">here</a>."
+"share and improve it. If you are a graphic designer, programmer, speak a "
+"foreign language or have any ideas about improving Zrythm please come join "
+"us at <code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:"
+"matrix.org</code> on Matrix. You can join via Matrix web chat <a href="
+"\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC "
+"web chat <a href=\"webchat.freenode.net/?channels=zrythm\">here</a>."
 msgstr ""
 "Zrythm является свободным ПО. This means that everyone is free to use, "
 "study, share and improve it. If you are a designer, programmer, speak a "
 "foreign language or have any ideas about improving Zrythm please come join "
-"us at <code>#zrythm</code> on freenode (IRC) or "
-"<code>#freenode_#zrythm:matrix.org</code> on Matrix. You can join via Matrix "
-"web chat <a href=\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org\""
-">here</a> or IRC web chat <a href=\"webchat.freenode.net/?channels=zrythm\""
-">here</a>."
+"us at <code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:"
+"matrix.org</code> on Matrix. You can join via Matrix web chat <a href="
+"\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC "
+"web chat <a href=\"webchat.freenode.net/?channels=zrythm\">here</a>."
 
 #: template/join-us.html.j2:25
 #, fuzzy
@@ -522,8 +782,8 @@ msgid ""
 "blob/master/CONTRIBUTING.md>Contributing Guide</a> for more info on how to "
 "get involved."
 msgstr ""
-"Патчи приветствуются в <a href=\"https://git.zrythm.org/zrythm/zrythm\">"
-"основном репозитории</a>. It would be beneficial if you talked with us "
+"Патчи приветствуются в <a href=\"https://git.zrythm.org/zrythm/zrythm"
+"\">основном репозитории</a>. It would be beneficial if you talked with us "
 "before working on a task. We have plenty of beginner-friendly issues so "
 "please ask. You can have a look at the <a href=\"\"https://git.zrythm.org/"
 "zrythm/zrythm/blob/master/CONTRIBUTING.md>Contributing Guide</a> for more "
@@ -544,8 +804,8 @@ msgid ""
 "browser."
 msgstr ""
 "Если вы можете говорить на иностранном языке и хотите помочь, ознакомьтесь с "
-"<a href=\"https://manual.zrythm.org/en/contributing/translating.html\""
-">инструкциями</a> по <a href=\"https://manual.zrythm.org/en/contributing/"
+"<a href=\"https://manual.zrythm.org/en/contributing/translating.html"
+"\">инструкциями</a> по <a href=\"https://manual.zrythm.org/en/contributing/"
 "translating.html\">переводу.</a>"
 
 #: template/join-us.html.j2:52
@@ -575,12 +835,12 @@ msgstr ""
 "for your donations. If you are planning to donate a significant amount of "
 "money, please contact us first as it might be better to come to a custom "
 "arrangement. <dl><dt>LiberaPay</dt> <dd><a href=\"https://liberapay.com/"
-"Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></dd> <dt>BitCoin</dt>"
-" <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> <dt>Paypal</dt> <dd><a "
-"href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
+"Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></dd> <dt>BitCoin</"
+"dt> <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> <dt>Paypal</dt> "
+"<dd><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
 "xclick&hosted_button_id=LZWVK6228PQGE&source=url\">https://www.paypal.com/"
-"cgi-bin/webscr?cmd=_s-"
-"xclick&hosted_button_id=LZWVK6228PQGE&source=url</a></dd> </dl>"
+"cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</a></"
+"dd> </dl>"
 
 #: template/join-us.html.j2:75
 msgid "Design"
@@ -626,3 +886,219 @@ msgstr "Zrythm сопровождающий"
 #| msgid "Development"
 msgid "Developer"
 msgstr "Разработчик"
+
+#: template/tutorial-archpi.html.j2:5
+msgid "Tutorial: GNUnet on Archlinux/Pi"
+msgstr ""
+
+#: template/tutorial-archpi.html.j2:12 template/tutorial-debian9.html.j2:28
+#: template/tutorial-macos.html.j2:14 template/tutorial-netbsd.html.j2:17
+#: template/tutorial-ubuntu1804.html.j2:28
+msgid "Requirements"
+msgstr ""
+
+#: template/tutorial-archpi.html.j2:35
+#, fuzzy
+#| msgid "Source Code"
+msgid "Get the Source Code"
+msgstr "Исходный код"
+
+#: template/tutorial-archpi.html.j2:56
+msgid "Run"
+msgstr ""
+
+#: template/tutorial-archpi.html.j2:108
+msgid "Make sure, it works!"
+msgstr ""
+
+#: template/tutorial-archpi.html.j2:121
+msgid "Chat the cat"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:5
+msgid "Tutorial: GNUnet on Debian 9"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:7 template/tutorial-ubuntu1804.html.j2:9
+msgid "Introduction"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:40 template/tutorial-ubuntu1804.html.j2:43
+msgid "Make an installation directory"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:54 template/tutorial-macos.html.j2:131
+#: template/tutorial-netbsd.html.j2:210 template/tutorial-ubuntu1804.html.j2:56
+#, fuzzy
+#| msgid "Source Code"
+msgid "Get the source code"
+msgstr "Исходный код"
+
+#: template/tutorial-debian9.html.j2:73 template/tutorial-macos.html.j2:139
+#: template/tutorial-netbsd.html.j2:218 template/tutorial-ubuntu1804.html.j2:66
+msgid "Compile and Install"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:98 template/tutorial-macos.html.j2:151
+#: template/tutorial-netbsd.html.j2:228 template/tutorial-ubuntu1804.html.j2:77
+msgid "Option 1: GNUnet for production / usage"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:111
+#: template/tutorial-ubuntu1804.html.j2:90
+#, fuzzy
+#| msgid "GNUnet for developers"
+msgid "Option 2: GNUnet for development"
+msgstr "GNUNet für Entwickeler"
+
+#: template/tutorial-debian9.html.j2:123
+msgid "Option 3: gnunet-gtk"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:140
+#: template/tutorial-ubuntu1804.html.j2:103
+msgid "Install GNUnet plugin for name resolution"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:194
+#: template/tutorial-ubuntu1804.html.j2:142
+#, fuzzy
+#| msgid "Contact information"
+msgid "Configuration"
+msgstr "Контактная информация"
+
+#: template/tutorial-debian9.html.j2:258
+#: template/tutorial-ubuntu1804.html.j2:205
+msgid "Make sure it works"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:273
+#: template/tutorial-ubuntu1804.html.j2:220
+msgid "filesharing"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:305
+#: template/tutorial-ubuntu1804.html.j2:254
+msgid "CADET (and Chat)"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:336
+#: template/tutorial-ubuntu1804.html.j2:282
+msgid "Name resolution using GNS on the command line"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:412
+#: template/tutorial-ubuntu1804.html.j2:349
+msgid "Name resolution using GNS with a browser"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:493
+#: template/tutorial-ubuntu1804.html.j2:423
+msgid "VPN"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:499
+#: template/tutorial-ubuntu1804.html.j2:430
+msgid "Uninstall GNUnet and its dependencies"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:515
+#: template/tutorial-ubuntu1804.html.j2:447
+msgid "Appendix A: Optional GNUnet features"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:521
+#: template/tutorial-ubuntu1804.html.j2:454
+msgid "Troubleshooting"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:523
+#: template/tutorial-ubuntu1804.html.j2:457
+msgid "You can't reach other people's nodes"
+msgstr ""
+
+#: template/tutorial-debian9.html.j2:560
+#: template/tutorial-ubuntu1804.html.j2:488
+msgid "OMG you guys broke my internet"
+msgstr ""
+
+#: template/tutorial-macos.html.j2:5
+msgid "Tutorial: GNUnet on macOS 10.14 (Mojave)"
+msgstr ""
+
+#: template/tutorial-macos.html.j2:21 template/tutorial-netbsd.html.j2:28
+msgid "Installation"
+msgstr ""
+
+#: template/tutorial-macos.html.j2:39 template/tutorial-netbsd.html.j2:100
+msgid "First steps"
+msgstr ""
+
+#: template/tutorial-macos.html.j2:106 template/tutorial-netbsd.html.j2:167
+msgid "Alternative: Installation from source"
+msgstr ""
+
+#: template/tutorial-macos.html.j2:184 template/tutorial-netbsd.html.j2:249
+msgid "Option 2: GNUnet experimental"
+msgstr ""
+
+#: template/tutorial-netbsd.html.j2:5
+msgid "Tutorial: GNUnet on NetBSD 8.0 CURRENT"
+msgstr ""
+
+#: template/tutorial-ubuntu1804.html.j2:6
+msgid "Tutorial: GNUnet on Ubuntu 18.04"
+msgstr ""
+
+#: template/tutorial.html.j2:8
+msgid ""
+"This page holds various tutorials for Zrythm. Some of them are not complete, "
+"but we find them useful regardless of their state."
+msgstr ""
+
+#: template/tutorial.html.j2:14
+msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
+msgstr ""
+
+#: template/video.html.j2:5
+msgid "Media related to GNUnet"
+msgstr ""
+
+#: template/video.html.j2:8
+msgid ""
+"Over the years we've given a couple of talks, workshops and other "
+"presentations which have been recorded. The list below is neither "
+"chronological in order, nor complete."
+msgstr ""
+
+#: template/video.html.j2:21
+msgid "2017"
+msgstr ""
+
+#: template/video.html.j2:22
+msgid "2016"
+msgstr ""
+
+#: template/video.html.j2:23
+msgid "2015"
+msgstr ""
+
+#: template/video.html.j2:24
+msgid "2014"
+msgstr ""
+
+#: template/video.html.j2:25
+msgid "2013"
+msgstr ""
+
+#: template/video.html.j2:26
+msgid "2012"
+msgstr ""
+
+#: template/video.html.j2:27
+msgid "2011"
+msgstr ""
+
+#: template/video.html.j2:28
+msgid "2010"
+msgstr ""

@@ -11,7 +11,7 @@
 
 include config.mk
 
-LANGUAGES = en de es fr it ja pt ru zh
+LANGUAGES = en de es fr it nl ja pt ru zh hi ar ko
 
 all: locale template
 	# Consider using pax instead of cp.
