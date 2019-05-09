@@ -3,7 +3,7 @@
 	<channel>
 		<title>{{ title }}</title>
 		<link>{{ site_url }}</link>
-		<description>gnunet.org feed</description>
+		<description>zrythm.org feed</description>
 		{% for item in items %}
 		<item>
 			<title>{{ item[0] }}</title>
@@ -12,4 +12,4 @@
 		</item>
 		{% endfor %}
 	</channel>
-</rss> 
+</rss>

@@ -2,9 +2,8 @@
 {% block body_content %}
 <div class="container">
 <dl>
-<dt>{{ _("Ego") }}</dt>
+<dt>Ego</dt>
   <dd>
-    {% trans %}
       We use the term "Ego" to refer to the fact that users in GNUnet
       can have multiple unlinkable identities, in the sense of alter egos.
       The ability to have more than one identity is crucial, as we may
@@ -14,12 +13,10 @@
       equivalent to identities (and the code does not distinguish
       between them). We simply sometimes use the term "ego" to stress
       that you can have more than one.
-    {% endtrans %}
   </dd>
 </dt>
-<dt>{{ _("Identity") }}</dt>
+<dt>Identity</dt>
   <dd>
-    {% trans %}
       In GNUnet users are identified via a public key, and that public
       key is then often referred to as the "Identity" of the user.
       However, the concept is not as draconian as it often is in real
@@ -37,12 +34,10 @@
       such that they can prove that they are studying.  Students may
       keep their (certified) student identity separate from other egos
       that they use for other activities in life.
-    {% endtrans %}
   </dd>
 </dt>
-<dt>{{ _("Pseudonym") }}</dt>
+<dt>Pseudonym</dt>
   <dd>
-    {% trans %}
       A pseudonym is an ego that is specifically intended
       to not be linked to one's real name.  GNUnet users can create
       many egos, and thus also many pseudonyms.
@@ -53,12 +48,10 @@
       special "anonymous" pseudonym (for GNUnet, this is the neutral
       element on the elliptic curve) or a throw-away pseudonym that
       is only used once.      
-    {% endtrans %}
   </dd>
 </dt>
 <dt>{{ _("Namespaces") }}</dt>
   <dd>
-    {% trans %}
       The GNU Name System allows every ego (or identity) to
       securely and privately associate any number of label-value pairs
       with an ego. The values are called record sets following the
@@ -71,12 +64,10 @@
       passphrase but also the public key -- which despite its name
       may not be public knowledge and is never disclosed by the GNS
       protocol itself.  
-    {% endtrans %}
   </dd>
 </dt>
-<dt>{{ _("Peer") }}</dt>
+<dt>Peer</dt>
   <dd>
-    {% trans %}
       A "peer" is an instance of GNUnet with its own per-instance
       public key and network addresses.  Technically, it is possible
       to run multiple peers on the same host, but this only makes
@@ -94,7 +85,6 @@
       public keys are completely unrelated to egos or
       identities.  Namespaces cannot be associated with a
       peer, only with egos.
-    {% endtrans %}
   </dd>
 </dt>
 </div>
