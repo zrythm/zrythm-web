@@ -92,7 +92,7 @@
            aria-haspopup="true" aria-expanded="false">
            {{ lang_full }} {{ lang_flag }}
         </a>
-        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarMain">
+        <ul class="dropdown-menu dropdown-menu-right scrollable-menu" aria-labelledby="navbarMain">
 	  {% for key in langs_full.keys() %}
           <li><a class="dropdown-item" href="{{ self_localized(key) }}">{{ lang_flags[key] }} {{ langs_full[key] }}</a></li>
 	  {% endfor %}

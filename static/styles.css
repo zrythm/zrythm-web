@@ -74,6 +74,23 @@ body {
     display: inline-block;
 }
 
+/* Show scrollbar in language selection */
+@media (min-width: 768px) {
+  .scrollable-menu {
+      height: auto;
+      max-height: calc(100vh - 60px);
+      overflow-x: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .scrollable-menu {
+    height: auto;
+    max-height: calc(100vh - 240px);
+    overflow-x: hidden;
+  }
+}
+
 /*
    Hover effects with this color don't work out!
    See https://gnunet.org/bugs/view.php?id=5570
