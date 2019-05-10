@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-09 01:44+0100\n"
-"PO-Revision-Date: 2019-05-10 18:34+0000\n"
+"PO-Revision-Date: 2019-05-10 23:28+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
 "fr/>\n"
@@ -69,10 +69,9 @@ msgid ""
 "with this website to <a href='contact.html'>us</a>."
 msgstr ""
 "Droits d'auteur et copie; Alexandros Theodotou 2019<br> Cette page a été "
-"créée en utilisant \"\n"
-"\"<a href='https://www.gnu.org/'>Free Software</a> seulement.<br> Signaler "
-"les problèmes \"\n"
-"\"avec ce site pour <a href='contact.html'>us</a>."
+"créée en utilisant uniquement des <a href='https://www.gnu.org/'>Logiciels "
+"Libres</a>.<br> Pour signaler les problèmes \n"
+"avec ce site, contactez <a href='contact.html'>nous</a>."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
@@ -126,8 +125,8 @@ msgstr ""
 "à outils GTK+3 et emprunte des idées, des concepts et du code à d'autres "
 "projets tels qu'Ardour et Jalv. Il est conçu pour être intuitif à utiliser "
 "et est construit avec l'intention de fournir aux utilisateurs de GNU/Linux "
-"une alternative complète aux DAWs propriétaires, tout en offrant une "
-"approche unique de l'ergonomie que les autres DAW GNU/Linux n'ont pas."
+"une alternative complète aux STANs propriétaires, tout en offrant une "
+"approche unique de l'ergonomie que les autres STANs GNU/Linux n'ont pas."
 
 #: template/about.html.j2:14
 msgid ""
@@ -285,7 +284,7 @@ msgstr "Activer le dépôt universel:"
 
 #: template/faq.html.j2:19
 msgid "What plugin protocols are supported?"
-msgstr "Quels protocoles de greffons sont  pris en charge?"
+msgstr "Quels formats de greffons sont  pris en charge?"
 
 #: template/faq.html.j2:21
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
@@ -325,7 +324,7 @@ msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the GPLv3+."
 msgstr ""
-"Zrythm est <a href=\"http://www.gnu.org/philosophy/free-sw.html\">un "
+"Zrythm est un <a href=\"http://www.gnu.org/philosophy/free-sw.html\"> "
 "logiciel libre </a> sous licence GPLv3 +."
 
 #: template/index.html.j2:60
@@ -360,7 +359,7 @@ msgid ""
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 "Zrythm essaie de garder une interface propre et agréable, avec des méthodes "
-"intuitives pour effectuer le travail, permettant ainsi un flux de travail "
+"intuitives pour effectuer les tâches, permettant ainsi un flux de travail "
 "plus rapide."
 
 #: template/index.html.j2:142
@@ -381,7 +380,7 @@ msgstr "Fonctionnalités"
 
 #: template/index.html.j2:170
 msgid "Limitless Automation"
-msgstr "Automation sans limites"
+msgstr "Automation sans limite"
 
 #: template/index.html.j2:173
 msgid "Automate almost anything with built-in envelopes and automation curves."
