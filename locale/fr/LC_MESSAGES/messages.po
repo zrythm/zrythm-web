@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-09 01:44+0100\n"
-"PO-Revision-Date: 2019-05-09 09:52+0000\n"
+"PO-Revision-Date: 2019-05-10 18:34+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
 "fr/>\n"
@@ -578,10 +578,8 @@ msgid "Developer"
 msgstr "Développeur"
 
 #: template/team.html.j2:51
-#, fuzzy
-#| msgid "Translate"
 msgid "French translator"
-msgstr "Traduire"
+msgstr "Traducteur français"
 
 #: template/tutorial.html.j2:8
 msgid ""
