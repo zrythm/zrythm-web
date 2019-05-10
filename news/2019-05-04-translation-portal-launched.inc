@@ -6,6 +6,7 @@
 <h4>Translation Made Easy</h4>
 <p>
 <img class="news_img" src="/static/images/translate.png" alt="Translation Portal"/>
+<br>
 Zrythm and all its components are now easily translatable via a
 <a href="https://translate.zrythm.org/projects/zrythm">simple web interface</a>.
 All you need to do is make an account there and start translating!

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-09 01:44+0100\n"
+"POT-Creation-Date: 2019-05-11 00:40+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/"
@@ -67,9 +67,9 @@ msgid ""
 "<a href='https://www.gnu.org/'>Free Software</a> only.<br> Report issues "
 "with this website to <a href='contact.html'>us</a>."
 msgstr ""
-"Copyright © Alexandros Theodotou 2019 <br> यह पेज केवल <a "
-"href='https://www.gnu.org/'>फ्री सॉफ्टवेयर</a> का उपयोग करके बनाया गया था। "
-"<br> इस वेबसाइट के साथ समस्याओं की रिपोर्ट <a href='contact.html'>करें</a> ।"
+"Copyright © Alexandros Theodotou 2019 <br> यह पेज केवल <a href='https://www."
+"gnu.org/'>फ्री सॉफ्टवेयर</a> का उपयोग करके बनाया गया था। <br> इस वेबसाइट के साथ "
+"समस्याओं की रिपोर्ट <a href='contact.html'>करें</a> ।"
 
 #: common/navigation.j2.inc:49
 msgid "Community"
@@ -120,9 +120,9 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
-"Zrythm एक देशी GNU / Linux अनुप्रयोग है, जो C और GTK +3 टूलकिट के उपयोग से "
-"बनाया गया है और अन्य परियोजनाओं जैसे कि अरदोर और जलव से विचारों, अवधारणाओं "
-"और कोड को उधार लेता है।"
+"Zrythm एक देशी GNU / Linux अनुप्रयोग है, जो C और GTK +3 टूलकिट के उपयोग से बनाया "
+"गया है और अन्य परियोजनाओं जैसे कि अरदोर और जलव से विचारों, अवधारणाओं और कोड को उधार "
+"लेता है।"
 
 #: template/about.html.j2:14
 #, fuzzy
@@ -130,8 +130,8 @@ msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
-"Zrythm GPLv3 + के तहत लाइसेंस प्राप्त मुफ्त सॉफ्टवेयर है और इसका स्रोत कोड "
-"हमारे GitLab उदाहरण पर उपलब्ध है।"
+"Zrythm GPLv3 + के तहत लाइसेंस प्राप्त मुफ्त सॉफ्टवेयर है और इसका स्रोत कोड हमारे GitLab "
+"उदाहरण पर उपलब्ध है।"
 
 #: template/contact.html.j2:6
 msgid "Contact information"
@@ -168,15 +168,15 @@ msgstr ""
 
 #: template/contact.html.j2:40
 msgid ""
-"Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</tt>. "
-"Most of us support receiving GnuPG encrypted Emails."
+"See the <a href=\"team.html\">Team</a> page for contact information of each "
+"person."
 msgstr ""
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr ""
 
-#: template/contact.html.j2:51
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -329,7 +329,7 @@ msgstr ""
 msgid "Feature 2"
 msgstr ""
 
-#: template/index.html.j2:185 template/index.html.j2:228
+#: template/index.html.j2:185 template/index.html.j2:229
 msgid "Cool."
 msgstr ""
 
@@ -346,22 +346,24 @@ msgid "Speaks Your Language"
 msgstr ""
 
 #: template/index.html.j2:208
-msgid "Available in English, German, French, Italian, Spanish and Japanese."
+msgid ""
+"Available in English, German, French, Italian, Spanish, Japanese and many "
+"more languages."
 msgstr ""
 
-#: template/index.html.j2:216
+#: template/index.html.j2:217
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:218
+#: template/index.html.j2:219
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr ""
 
-#: template/index.html.j2:226
+#: template/index.html.j2:227
 msgid "Feature 5"
 msgstr ""
 
-#: template/index.html.j2:241
+#: template/index.html.j2:242
 msgid "News"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-09 10:49+0100\n"
+"POT-Creation-Date: 2019-05-11 00:40+0100\n"
 "PO-Revision-Date: 2019-05-04 23:30+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Russian <https://translate.zrythm.org/projects/zrythm/website/"
@@ -182,15 +182,15 @@ msgstr "Связаться с людьми"
 
 #: template/contact.html.j2:40
 msgid ""
-"Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</tt>. "
-"Most of us support receiving GnuPG encrypted Emails."
-msgstr "Разработчики Zrythm обычно доступны на <tt>PSEUDONYM@zrythm.org</tt>."
+"See the <a href=\"team.html\">Team</a> page for contact information of each "
+"person."
+msgstr ""
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr "Сообщения об ошибках"
 
-#: template/contact.html.j2:51
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -380,7 +380,7 @@ msgstr ""
 msgid "Feature 2"
 msgstr "Характиристика2"
 
-#: template/index.html.j2:185 template/index.html.j2:228
+#: template/index.html.j2:185 template/index.html.j2:229
 msgid "Cool."
 msgstr "Супер."
 
@@ -399,24 +399,28 @@ msgid "Speaks Your Language"
 msgstr "Говорит на вашем языке"
 
 #: template/index.html.j2:208
-msgid "Available in English, German, French, Italian, Spanish and Japanese."
+#, fuzzy
+#| msgid "Available in English, German, French, Italian, Spanish and Japanese."
+msgid ""
+"Available in English, German, French, Italian, Spanish, Japanese and many "
+"more languages."
 msgstr ""
 "Доступно на английском, немецком, французском, итальянском, испанском и "
 "японском языках."
 
-#: template/index.html.j2:216
+#: template/index.html.j2:217
 msgid "Cross-platform"
 msgstr "Кроссплатформенность"
 
-#: template/index.html.j2:218
+#: template/index.html.j2:219
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr "Работает на Windows, GNU / Linux и Mac OS"
 
-#: template/index.html.j2:226
+#: template/index.html.j2:227
 msgid "Feature 5"
 msgstr "Характиристика 5"
 
-#: template/index.html.j2:241
+#: template/index.html.j2:242
 msgid "News"
 msgstr "Новости"
 
@@ -617,3 +621,9 @@ msgstr ""
 #: template/video.html.j2:26
 msgid "2010"
 msgstr ""
+
+#~ msgid ""
+#~ "Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</"
+#~ "tt>. Most of us support receiving GnuPG encrypted Emails."
+#~ msgstr ""
+#~ "Разработчики Zrythm обычно доступны на <tt>PSEUDONYM@zrythm.org</tt>."

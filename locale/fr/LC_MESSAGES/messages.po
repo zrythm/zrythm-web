@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-09 01:44+0100\n"
+"POT-Creation-Date: 2019-05-11 00:40+0100\n"
 "PO-Revision-Date: 2019-05-10 23:28+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
@@ -157,8 +157,8 @@ msgstr ""
 "Archivées, les listes de diffusion publiques de Zrythm sont hébergées à "
 "l'adresse suivante <a href=\"https://lists.nongnu.org/mailman/listinfo/"
 "zrythm-dev\">\n"
-"https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a> et <a href=\""
-"https://lists.nongnu.org/mailman/listinfo/zrythm-user\">\n"
+"https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a> et <a href="
+"\"https://lists.nongnu.org/mailman/listinfo/zrythm-user\">\n"
 "https://lists.nongnu.org/mailman/listinfo/zrythm-user</a>. Vous pouvez "
 "envoyer des messages aux listes à l'adresse suivante \n"
 "<a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> et <a "
@@ -182,18 +182,15 @@ msgstr "Contacter des individus"
 
 #: template/contact.html.j2:40
 msgid ""
-"Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</tt>. "
-"Most of us support receiving GnuPG encrypted Emails."
+"See the <a href=\"team.html\">Team</a> page for contact information of each "
+"person."
 msgstr ""
-"Les développeurs de Zrythm sont généralement joignables à "
-"<tt>PSEUDONYM@zrythm.org</tt>. La plupart d'entre nous supportent la "
-"réception de courriels cryptés GnuPG."
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr "Rapporter les bogues"
 
-#: template/contact.html.j2:51
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -203,8 +200,8 @@ msgid ""
 msgstr ""
 "Nous suivons les demandes de fonctionnalités ouvertes et les bogues pour les "
 "projets au sein de Zrythm dans notre \n"
-"<a href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Suivi des bogues</a>"
-". Vous pouvez également signaler des bogues ou des demandes de "
+"<a href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Suivi des bogues</"
+"a>. Vous pouvez également signaler des bogues ou des demandes de "
 "fonctionnalités à cette adresse <a href=\"https://lists.nongnu.org/mailman/"
 "listinfo/zrythm-user\">zrythm-user</a> liste de diffusion. La liste de "
 "diffusion ne nécessite pas d'abonnement."
@@ -392,7 +389,7 @@ msgstr ""
 msgid "Feature 2"
 msgstr "Fonctionnalités 2"
 
-#: template/index.html.j2:185 template/index.html.j2:228
+#: template/index.html.j2:185 template/index.html.j2:229
 msgid "Cool."
 msgstr "Sympa."
 
@@ -410,23 +407,27 @@ msgid "Speaks Your Language"
 msgstr "Parlez votre langue"
 
 #: template/index.html.j2:208
-msgid "Available in English, German, French, Italian, Spanish and Japanese."
+#, fuzzy
+#| msgid "Available in English, German, French, Italian, Spanish and Japanese."
+msgid ""
+"Available in English, German, French, Italian, Spanish, Japanese and many "
+"more languages."
 msgstr ""
 "Disponible en anglais, allemand, français, italien, espagnol et japonais."
 
-#: template/index.html.j2:216
+#: template/index.html.j2:217
 msgid "Cross-platform"
 msgstr "Multi-plateforme"
 
-#: template/index.html.j2:218
+#: template/index.html.j2:219
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr "Fonctionne sous Windows, GNU / Linux et Mac OS"
 
-#: template/index.html.j2:226
+#: template/index.html.j2:227
 msgid "Feature 5"
 msgstr "Fonctionnalité 5"
 
-#: template/index.html.j2:241
+#: template/index.html.j2:242
 msgid "News"
 msgstr "Actualités"
 
@@ -623,6 +624,14 @@ msgstr "2011"
 #: template/video.html.j2:26
 msgid "2010"
 msgstr "2010"
+
+#~ msgid ""
+#~ "Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</"
+#~ "tt>. Most of us support receiving GnuPG encrypted Emails."
+#~ msgstr ""
+#~ "Les développeurs de Zrythm sont généralement joignables à "
+#~ "<tt>PSEUDONYM@zrythm.org</tt>. La plupart d'entre nous supportent la "
+#~ "réception de courriels cryptés GnuPG."
 
 #~ msgid "GNUnet for developers"
 #~ msgstr "GNUnet pour les développeurs"

@@ -135,15 +135,15 @@ msgstr ""
 
 #: template/contact.html.j2:40
 msgid ""
-"Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</tt>. "
-"Most of us support receiving GnuPG encrypted Emails."
+"See the <a href=\"team.html\">Team</a> page for contact information of each "
+"person."
 msgstr ""
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr ""
 
-#: template/contact.html.j2:51
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -296,7 +296,7 @@ msgstr ""
 msgid "Feature 2"
 msgstr ""
 
-#: template/index.html.j2:185 template/index.html.j2:228
+#: template/index.html.j2:185 template/index.html.j2:229
 msgid "Cool."
 msgstr ""
 
@@ -313,22 +313,24 @@ msgid "Speaks Your Language"
 msgstr ""
 
 #: template/index.html.j2:208
-msgid "Available in English, German, French, Italian, Spanish and Japanese."
+msgid ""
+"Available in English, German, French, Italian, Spanish, Japanese and many "
+"more languages."
 msgstr ""
 
-#: template/index.html.j2:216
+#: template/index.html.j2:217
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:218
+#: template/index.html.j2:219
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr ""
 
-#: template/index.html.j2:226
+#: template/index.html.j2:227
 msgid "Feature 5"
 msgstr ""
 
-#: template/index.html.j2:241
+#: template/index.html.j2:242
 msgid "News"
 msgstr ""
 
