@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-11 00:40+0100\n"
-"PO-Revision-Date: 2019-05-10 23:28+0000\n"
+"PO-Revision-Date: 2019-05-18 15:48+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
 "fr/>\n"
@@ -185,6 +185,8 @@ msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
 msgstr ""
+"Voir la page de l&#39; <a href=\"team.html\">équipe</a> pour les "
+"informations de contact de chaque personne."
 
 #: template/contact.html.j2:47
 msgid "Reporting bugs"
@@ -407,13 +409,12 @@ msgid "Speaks Your Language"
 msgstr "Parlez votre langue"
 
 #: template/index.html.j2:208
-#, fuzzy
-#| msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
-"Disponible en anglais, allemand, français, italien, espagnol et japonais."
+"Disponible en anglais, allemand, français, italien, espagnol, japonais et "
+"dans de nombreuses autres langues."
 
 #: template/index.html.j2:217
 msgid "Cross-platform"
