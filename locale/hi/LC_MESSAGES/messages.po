@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-11 00:40+0100\n"
+"POT-Creation-Date: 2019-05-23 23:01+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:113
+#: common/base.j2:6 template/index.html.j2:121
 #, fuzzy
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "एक अत्यधिक स्वचालित, सहज ज्ञान युक्त, डिजिटल ऑडियो वर्कस्टेशन (DAW)"
@@ -278,92 +278,92 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: template/index.html.j2:101
+#: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:119
+#: template/index.html.j2:127
 msgid "Automated"
 msgstr ""
 
-#: template/index.html.j2:121
+#: template/index.html.j2:129
 msgid ""
 "Built-in LFOs and envelopes to use for automating controls. Automation "
 "curves for more detailed automation. Clips to loop your MIDI notes and "
 "audio. And more."
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:139
 msgid "Intuitive"
 msgstr ""
 
-#: template/index.html.j2:133
+#: template/index.html.j2:141
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 
-#: template/index.html.j2:142
+#: template/index.html.j2:150
 msgid "Featureful"
 msgstr ""
 
-#: template/index.html.j2:145
+#: template/index.html.j2:153
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid "Features"
 msgstr ""
 
-#: template/index.html.j2:170
+#: template/index.html.j2:178
 msgid "Limitless Automation"
 msgstr ""
 
-#: template/index.html.j2:173
+#: template/index.html.j2:181
 msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr ""
 
-#: template/index.html.j2:182
+#: template/index.html.j2:190
 msgid "Feature 2"
 msgstr ""
 
-#: template/index.html.j2:185 template/index.html.j2:229
+#: template/index.html.j2:193 template/index.html.j2:237
 msgid "Cool."
 msgstr ""
 
-#: template/index.html.j2:193
+#: template/index.html.j2:201
 msgid "LV2 Plugins"
 msgstr ""
 
-#: template/index.html.j2:195
+#: template/index.html.j2:203
 msgid "Works with LV2, the free standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:206
+#: template/index.html.j2:214
 msgid "Speaks Your Language"
 msgstr ""
 
-#: template/index.html.j2:208
+#: template/index.html.j2:216
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
 
-#: template/index.html.j2:217
+#: template/index.html.j2:225
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:219
+#: template/index.html.j2:227
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr ""
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Feature 5"
 msgstr ""
 
-#: template/index.html.j2:242
+#: template/index.html.j2:250
 msgid "News"
 msgstr ""
 

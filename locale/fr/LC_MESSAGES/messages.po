@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-11 00:40+0100\n"
+"POT-Creation-Date: 2019-05-23 23:01+0100\n"
 "PO-Revision-Date: 2019-05-18 15:48+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:113
+#: common/base.j2:6 template/index.html.j2:121
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 "Une Station de Travail Audio Numérique (STAN) hautement automatisée et "
@@ -330,15 +330,15 @@ msgstr ""
 msgid "Download"
 msgstr "Téléchargement"
 
-#: template/index.html.j2:101
+#: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr "Rejoignez nous et soutenez nous!"
 
-#: template/index.html.j2:119
+#: template/index.html.j2:127
 msgid "Automated"
 msgstr "Automatisé"
 
-#: template/index.html.j2:121
+#: template/index.html.j2:129
 msgid ""
 "Built-in LFOs and envelopes to use for automating controls. Automation "
 "curves for more detailed automation. Clips to loop your MIDI notes and "
@@ -348,11 +348,11 @@ msgstr ""
 "contrôles.  Des courbes d'automation pour une automation plus détaillée. Des "
 "clips pour boucler vos notes MIDI et Audio. Et plus encore."
 
-#: template/index.html.j2:131
+#: template/index.html.j2:139
 msgid "Intuitive"
 msgstr "Intuitif"
 
-#: template/index.html.j2:133
+#: template/index.html.j2:141
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -361,11 +361,11 @@ msgstr ""
 "intuitives pour effectuer les tâches, permettant ainsi un flux de travail "
 "plus rapide."
 
-#: template/index.html.j2:142
+#: template/index.html.j2:150
 msgid "Featureful"
 msgstr "Caractéristique"
 
-#: template/index.html.j2:145
+#: template/index.html.j2:153
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
@@ -373,42 +373,42 @@ msgstr ""
 "Des courbes d'automation, des busses, glisser-déposer des greffons LV2 et "
 "des fichiers audio, des Minimap dans l'arrangeur, etc."
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: template/index.html.j2:170
+#: template/index.html.j2:178
 msgid "Limitless Automation"
 msgstr "Automation sans limite"
 
-#: template/index.html.j2:173
+#: template/index.html.j2:181
 msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr ""
 "Automatisez presque tout avec des enveloppes et des courbes d'automation "
 "intégrées."
 
-#: template/index.html.j2:182
+#: template/index.html.j2:190
 msgid "Feature 2"
 msgstr "Fonctionnalités 2"
 
-#: template/index.html.j2:185 template/index.html.j2:229
+#: template/index.html.j2:193 template/index.html.j2:237
 msgid "Cool."
 msgstr "Sympa."
 
-#: template/index.html.j2:193
+#: template/index.html.j2:201
 msgid "LV2 Plugins"
 msgstr "Greffons LV2"
 
-#: template/index.html.j2:195
+#: template/index.html.j2:203
 msgid "Works with LV2, the free standard for audio plugins."
 msgstr ""
 "Fonctionne avec les greffons LV2, le standard libre pour les greffons audio."
 
-#: template/index.html.j2:206
+#: template/index.html.j2:214
 msgid "Speaks Your Language"
 msgstr "Parlez votre langue"
 
-#: template/index.html.j2:208
+#: template/index.html.j2:216
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
@@ -416,19 +416,19 @@ msgstr ""
 "Disponible en anglais, allemand, français, italien, espagnol, japonais et "
 "dans de nombreuses autres langues."
 
-#: template/index.html.j2:217
+#: template/index.html.j2:225
 msgid "Cross-platform"
 msgstr "Multi-plateforme"
 
-#: template/index.html.j2:219
+#: template/index.html.j2:227
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr "Fonctionne sous Windows, GNU / Linux et Mac OS"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Feature 5"
 msgstr "Fonctionnalité 5"
 
-#: template/index.html.j2:242
+#: template/index.html.j2:250
 msgid "News"
 msgstr "Actualités"
 

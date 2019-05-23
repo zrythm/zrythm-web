@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-11 00:40+0100\n"
+"POT-Creation-Date: 2019-05-23 23:01+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:113
+#: common/base.j2:6 template/index.html.j2:121
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "高度自动化，直观的数字音频工作站（DAW）"
 
@@ -312,26 +312,26 @@ msgstr ""
 msgid "Download"
 msgstr "下载"
 
-#: template/index.html.j2:101
+#: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr "加入并支持我们！"
 
-#: template/index.html.j2:119
+#: template/index.html.j2:127
 msgid "Automated"
 msgstr "一个自动化的"
 
-#: template/index.html.j2:121
+#: template/index.html.j2:129
 msgid ""
 "Built-in LFOs and envelopes to use for automating controls. Automation "
 "curves for more detailed automation. Clips to loop your MIDI notes and "
 "audio. And more."
 msgstr "内置LFO和信封，用于自动控制"
 
-#: template/index.html.j2:131
+#: template/index.html.j2:139
 msgid "Intuitive"
 msgstr "直觀"
 
-#: template/index.html.j2:133
+#: template/index.html.j2:141
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -339,51 +339,51 @@ msgstr ""
 "Zrythm尝试保持界面清洁和愉快，使用直观的方式完成工作，从而实现更快的工作流"
 "程。"
 
-#: template/index.html.j2:142
+#: template/index.html.j2:150
 msgid "Featureful"
 msgstr "特性吧"
 
-#: template/index.html.j2:145
+#: template/index.html.j2:153
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr "自动化曲线，总线，拖放LV2插件和音频文件，Arranger Minimap等。"
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid "Features"
 msgstr "功能"
 
-#: template/index.html.j2:170
+#: template/index.html.j2:178
 msgid "Limitless Automation"
 msgstr "无限自动化"
 
-#: template/index.html.j2:173
+#: template/index.html.j2:181
 msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr "使用内置信封和自动化曲线自动化几乎所有内容。"
 
-#: template/index.html.j2:182
+#: template/index.html.j2:190
 msgid "Feature 2"
 msgstr "特征 2"
 
-#: template/index.html.j2:185 template/index.html.j2:229
+#: template/index.html.j2:193 template/index.html.j2:237
 msgid "Cool."
 msgstr "酷。"
 
-#: template/index.html.j2:193
+#: template/index.html.j2:201
 msgid "LV2 Plugins"
 msgstr "LV2插件"
 
-#: template/index.html.j2:195
+#: template/index.html.j2:203
 #, fuzzy
 #| msgid "Works with LV2, the open standard for audio plugins."
 msgid "Works with LV2, the free standard for audio plugins."
 msgstr "适用于音频插件的开放标准LV2。"
 
-#: template/index.html.j2:206
+#: template/index.html.j2:214
 msgid "Speaks Your Language"
 msgstr "说你的语言"
 
-#: template/index.html.j2:208
+#: template/index.html.j2:216
 #, fuzzy
 #| msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgid ""
@@ -391,19 +391,19 @@ msgid ""
 "more languages."
 msgstr "提供英语，德语，法语，意大利语，西班牙语和日语。"
 
-#: template/index.html.j2:217
+#: template/index.html.j2:225
 msgid "Cross-platform"
 msgstr "跨平台"
 
-#: template/index.html.j2:219
+#: template/index.html.j2:227
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr "它运行在Windows、GNU/Linux和Mac OS上。"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Feature 5"
 msgstr "特征 5"
 
-#: template/index.html.j2:242
+#: template/index.html.j2:250
 msgid "News"
 msgstr "新闻"
 

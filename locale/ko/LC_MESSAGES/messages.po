@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-11 00:40+0100\n"
+"POT-Creation-Date: 2019-05-23 23:01+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:113
+#: common/base.j2:6 template/index.html.j2:121
 #, fuzzy
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "고도로 자동화되고 직관적 인 DAW (Digital Audio Workstation)"
@@ -330,27 +330,27 @@ msgstr ""
 msgid "Download"
 msgstr "다운로드"
 
-#: template/index.html.j2:101
+#: template/index.html.j2:109
 #, fuzzy
 msgid "Join &amp; support us!"
 msgstr "가입하고 지원하십시오!"
 
-#: template/index.html.j2:119
+#: template/index.html.j2:127
 msgid "Automated"
 msgstr "자동화 됨"
 
-#: template/index.html.j2:121
+#: template/index.html.j2:129
 msgid ""
 "Built-in LFOs and envelopes to use for automating controls. Automation "
 "curves for more detailed automation. Clips to loop your MIDI notes and "
 "audio. And more."
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:139
 msgid "Intuitive"
 msgstr "직관적인"
 
-#: template/index.html.j2:133
+#: template/index.html.j2:141
 #, fuzzy
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
@@ -359,71 +359,71 @@ msgstr ""
 "Zrythm은 인터페이스를 깨끗하고 쾌적하게 유지하려고 노력하며 직관적 인 작업 방"
 "식으로 더 빠른 워크 플로우를 가능하게합니다."
 
-#: template/index.html.j2:142
+#: template/index.html.j2:150
 #, fuzzy
 msgid "Featureful"
 msgstr "특색있는"
 
-#: template/index.html.j2:145
+#: template/index.html.j2:153
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid "Features"
 msgstr "특징 설명"
 
-#: template/index.html.j2:170
+#: template/index.html.j2:178
 #, fuzzy
 msgid "Limitless Automation"
 msgstr "무한 자동화"
 
-#: template/index.html.j2:173
+#: template/index.html.j2:181
 #, fuzzy
 msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr "내장 된 봉투 및 자동화 커브로 거의 모든 것을 자동화하십시오."
 
-#: template/index.html.j2:182
+#: template/index.html.j2:190
 msgid "Feature 2"
 msgstr ""
 
-#: template/index.html.j2:185 template/index.html.j2:229
+#: template/index.html.j2:193 template/index.html.j2:237
 msgid "Cool."
 msgstr ""
 
-#: template/index.html.j2:193
+#: template/index.html.j2:201
 #, fuzzy
 msgid "LV2 Plugins"
 msgstr "LV2 플러그인"
 
-#: template/index.html.j2:195
+#: template/index.html.j2:203
 msgid "Works with LV2, the free standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:206
+#: template/index.html.j2:214
 msgid "Speaks Your Language"
 msgstr ""
 
-#: template/index.html.j2:208
+#: template/index.html.j2:216
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
 
-#: template/index.html.j2:217
+#: template/index.html.j2:225
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:219
+#: template/index.html.j2:227
 msgid "Works on Windows, GNU/Linux and Mac OS"
 msgstr ""
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Feature 5"
 msgstr ""
 
-#: template/index.html.j2:242
+#: template/index.html.j2:250
 msgid "News"
 msgstr ""
 
