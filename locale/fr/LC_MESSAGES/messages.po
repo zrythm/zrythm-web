@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-23 23:01+0100\n"
+"POT-Creation-Date: 2019-05-28 18:03+0100\n"
 "PO-Revision-Date: 2019-05-18 15:48+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
@@ -112,6 +112,21 @@ msgstr "Tutoriels"
 #: common/navigation.j2.inc:82
 msgid "Glossary"
 msgstr "Glossaire"
+
+#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
+msgid "Zrythm has migrated to self-hosted GitLab"
+msgstr ""
+
+#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
+msgid ""
+"Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
+"zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
+"to update your git repositories."
+msgstr ""
+
+#: news/2019-02-17-release-schedule.j2.inc:3
+msgid "Release Schedule"
+msgstr ""
 
 #: template/about.html.j2:8
 msgid ""
@@ -339,10 +354,14 @@ msgid "Automated"
 msgstr "Automatisé"
 
 #: template/index.html.j2:129
+#, fuzzy
+#| msgid ""
+#| "Built-in LFOs and envelopes to use for automating controls. Automation "
+#| "curves for more detailed automation. Clips to loop your MIDI notes and "
+#| "audio. And more."
 msgid ""
-"Built-in LFOs and envelopes to use for automating controls. Automation "
-"curves for more detailed automation. Clips to loop your MIDI notes and "
-"audio. And more."
+"Built-in LFOs and envelopes for automating controls, automation curves for "
+"more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 "Des LFOs et des enveloppes intégrés à utiliser pour automatiser les "
 "contrôles.  Des courbes d'automation pour une automation plus détaillée. Des "
@@ -625,123 +644,3 @@ msgstr "2011"
 #: template/video.html.j2:26
 msgid "2010"
 msgstr "2010"
-
-#~ msgid ""
-#~ "Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</"
-#~ "tt>. Most of us support receiving GnuPG encrypted Emails."
-#~ msgstr ""
-#~ "Les développeurs de Zrythm sont généralement joignables à "
-#~ "<tt>PSEUDONYM@zrythm.org</tt>. La plupart d'entre nous supportent la "
-#~ "réception de courriels cryptés GnuPG."
-
-#~ msgid "GNUnet for developers"
-#~ msgstr "GNUnet pour les développeurs"
-
-#~ msgid "Repositories"
-#~ msgstr "Dépôts"
-
-#~ msgid ""
-#~ "A list of our Git repositories can be found on our our <a href=\"https://"
-#~ "git.gnunet.org/\">Git Server</a>."
-#~ msgstr ""
-#~ "Une liste de nos dépôts Git peut être consultée sur notre <a href="
-#~ "\"https://git.gnunet.org/\">Serveur Git</a>."
-
-#~ msgid "Bibliography"
-#~ msgstr "Bibliographie"
-
-#~ msgid ""
-#~ "Technical papers can be found in our <a href=\"https://old.gnunet.org/"
-#~ "bibliography\">bibliography</a>."
-#~ msgstr ""
-#~ "Les documents techniques peuvent être consultés dans notre <a href="
-#~ "\"https://old.gnunet.org/bibliography\">bibliographie</a>."
-
-#~ msgid ""
-#~ "We have a mailing list for developer discussions. You can subscribe to or "
-#~ "read the list archive at <a href=\"http://lists.gnu.org/mailman/listinfo/"
-#~ "gnunet-developers\">http://lists.gnu.org/mailman/listinfo/gnunet-"
-#~ "developers</a>."
-#~ msgstr ""
-#~ "Nous avons une liste de diffusion pour les discussions de développeurs. "
-#~ "Vous pouvez vous abonner ou consulter les archives de la liste à "
-#~ "l'adresse suivante <a href=\"http://lists.gnu.org/mailman/listinfo/gnunet-"
-#~ "developers\">http://lists.gnu.org/mailman/listinfo/gnunet-developers</a>."
-
-#~ msgid "Regression Testing"
-#~ msgstr "Test de régression"
-
-#~ msgid ""
-#~ "We have <a href=\"https://buildbot.net/\">Buildbot</a> automation tests "
-#~ "to detect regressions and check for portability at <a href=\"https://old."
-#~ "gnunet.org/buildbot/gnunet/\">https://old.gnunet.org/buildbot/gnunet/</a>."
-#~ msgstr ""
-#~ "Nous avons des tests d’automatisation <a href=\"https://buildbot.net/"
-#~ "\">Buildbot</a> pour détecter les régressions et vérifier la portabilité "
-#~ "à l’ <a href=\"https://old.gnunet.org/buildbot/gnunet/\">adresse https://"
-#~ "old.gnunet.org/buildbot/gnunet/</a> ."
-
-#~ msgid "Code Coverage Analysis"
-#~ msgstr "Analyse de la couverture du code"
-
-#~ msgid ""
-#~ "We use <a href=\"http://ltp.sourceforge.net/coverage/lcov.php\">LCOV</a> "
-#~ "to analyze the code coverage of our tests, the results are available at "
-#~ "<a href=\"https://old.gnunet.org/coverage/\">https://old.gnunet.org/"
-#~ "coverage/</a>."
-#~ msgstr ""
-#~ "Nous utilisons <a href=\"http://ltp.sourceforge.net/coverage/lcov.php"
-#~ "\">LCOV</a> pour analyser la couverture de code de nos tests. Les "
-#~ "résultats sont disponibles sur <a href=\"https://old.gnunet.org/coverage/"
-#~ "\">https://old.gnunet.org/coverage/</a> ."
-
-#~ msgid "Performance Analysis"
-#~ msgstr "Analyse des performances"
-
-#~ msgid ""
-#~ "We use <a href=\"https://old.gnunet.org/gauger\">Gauger</a> for "
-#~ "performance regression analysis of the exchange backend at <a href="
-#~ "\"https://old.gnunet.org/gauger/\">https://old.gnunet.org/gauger/</a>."
-#~ msgstr ""
-#~ "Nous utilisons <a href=\"https://old.gnunet.org/gauger\">Gauger</a> pour "
-#~ "l’analyse de régression des performances du système d’échange à l’ <a "
-#~ "href=\"https://old.gnunet.org/gauger/\">https://old.gnunet.org/gauger/</"
-#~ "a> ."
-
-#~ msgid "GNUnet aims to enable a secure and ethical Internet."
-#~ msgstr "GNUnet vise à permettre un Internet sécurisé et éthique."
-
-#, fuzzy
-#~| msgid "Documentation"
-#~ msgid "Motivation"
-#~ msgstr "Documentation"
-
-#, fuzzy
-#~| msgid "Download"
-#~ msgid "Downloads"
-#~ msgstr "Téléchargement"
-
-#, fuzzy
-#~| msgid "Reporting bugs"
-#~ msgid "Reporting Bugs"
-#~ msgstr "Rapporter les bogues"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the Source Code"
-#~ msgstr "Code source"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the source code"
-#~ msgstr "Code source"
-
-#, fuzzy
-#~| msgid "GNUnet for developers"
-#~ msgid "Option 2: GNUnet for development"
-#~ msgstr "GNUnet pour les développeurs"
-
-#, fuzzy
-#~| msgid "Contact information"
-#~ msgid "Configuration"
-#~ msgstr "Coordonnées de contact"

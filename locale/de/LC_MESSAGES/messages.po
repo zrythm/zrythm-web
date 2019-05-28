@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-23 23:01+0100\n"
+"POT-Creation-Date: 2019-05-28 18:03+0100\n"
 "PO-Revision-Date: 2018-02-24 17:42\n"
 "Last-Translator: Torsten Grothoff <torsten@grothoff.org>\n"
 "Language-Team: German <LL@li.org>\n"
@@ -117,6 +117,21 @@ msgstr "Anleitungen"
 #: common/navigation.j2.inc:82
 msgid "Glossary"
 msgstr "Glossar"
+
+#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
+msgid "Zrythm has migrated to self-hosted GitLab"
+msgstr ""
+
+#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
+msgid ""
+"Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
+"zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
+"to update your git repositories."
+msgstr ""
+
+#: news/2019-02-17-release-schedule.j2.inc:3
+msgid "Release Schedule"
+msgstr ""
 
 #: template/about.html.j2:8
 msgid ""
@@ -292,9 +307,8 @@ msgstr ""
 
 #: template/index.html.j2:129
 msgid ""
-"Built-in LFOs and envelopes to use for automating controls. Automation "
-"curves for more detailed automation. Clips to loop your MIDI notes and "
-"audio. And more."
+"Built-in LFOs and envelopes for automating controls, automation curves for "
+"more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 
 #: template/index.html.j2:139

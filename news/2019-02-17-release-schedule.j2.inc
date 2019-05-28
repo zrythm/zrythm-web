@@ -1,6 +1,6 @@
 <article>
 <h3>
-<a name="release-schedule">Release Schedule</a>
+<a name="release-schedule">{{ _("Release Schedule") }}</a>
 </h3>
 
 <h4>An introduction to the project</h4>

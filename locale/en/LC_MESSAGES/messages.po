@@ -85,6 +85,21 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
+#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
+msgid "Zrythm has migrated to self-hosted GitLab"
+msgstr ""
+
+#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
+msgid ""
+"Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
+"zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
+"to update your git repositories."
+msgstr ""
+
+#: news/2019-02-17-release-schedule.j2.inc:3
+msgid "Release Schedule"
+msgstr ""
+
 #: template/about.html.j2:8
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
@@ -255,9 +270,8 @@ msgstr ""
 
 #: template/index.html.j2:129
 msgid ""
-"Built-in LFOs and envelopes to use for automating controls. Automation "
-"curves for more detailed automation. Clips to loop your MIDI notes and "
-"audio. And more."
+"Built-in LFOs and envelopes for automating controls, automation curves for "
+"more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 
 #: template/index.html.j2:139
@@ -481,6 +495,3 @@ msgstr ""
 #: template/video.html.j2:26
 msgid "2010"
 msgstr ""
-
-#~ msgid "_project_title"
-#~ msgstr "GNUnet is the Next Generation Internet"
