@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-28 18:10+0100\n"
-"PO-Revision-Date: 2019-05-18 15:48+0000\n"
+"PO-Revision-Date: 2019-05-30 15:32+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
 "fr/>\n"
@@ -115,7 +115,7 @@ msgstr "Glossaire"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr ""
+msgstr "Zrythm a migré vers un dépôt GitLab auto-hébergé"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
 msgid ""
@@ -123,10 +123,13 @@ msgid ""
 "zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
 "to update your git repositories."
 msgstr ""
+"Zrythm a récemment migré de GitLab.com vers une <a href=\"https://git.zrythm."
+"org/zrythm/zrythm\">instance auto-hébergée de GitLab</a>. S'il vous plaît "
+"assurez-vous de mettre à jour vos dépôts git."
 
 #: news/2019-02-17-release-schedule.j2.inc:3
 msgid "Release Schedule"
-msgstr ""
+msgstr "Calendrier de sortie"
 
 #: template/about.html.j2:8
 msgid ""
@@ -354,18 +357,13 @@ msgid "Automated"
 msgstr "Automatisé"
 
 #: template/index.html.j2:129
-#, fuzzy
-#| msgid ""
-#| "Built-in LFOs and envelopes to use for automating controls. Automation "
-#| "curves for more detailed automation. Clips to loop your MIDI notes and "
-#| "audio. And more."
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
-"Des LFOs et des enveloppes intégrés à utiliser pour automatiser les "
-"contrôles.  Des courbes d'automation pour une automation plus détaillée. Des "
-"clips pour boucler vos notes MIDI et Audio. Et plus encore."
+"Des LFOs et des enveloppes intégrés pour automatiser les contrôles, des "
+"courbes d'automation pour une automation plus détaillée, des clips pour "
+"boucler vos notes MIDI et Audio, et plus encore."
 
 #: template/index.html.j2:139
 msgid "Intuitive"
@@ -456,16 +454,6 @@ msgid "Join the Zrythm Team"
 msgstr "Rejoignez l'équipe de Zrythm"
 
 #: template/join-us.html.j2:10
-#, fuzzy
-#| msgid ""
-#| "Zrythm is free software. This means that everyone is free to use, study, "
-#| "share and improve it. If you are a graphic designer, programmer, speak a "
-#| "foreign language or have any ideas about improving Zrythm please come "
-#| "join us at <code>#zrythm</code> on freenode (IRC) or "
-#| "<code>#freenode_#zrythm:matrix.org</code> on Matrix. You can join via "
-#| "Matrix web chat <a href=\"https://riot.im/app/#/room/#freenode_#zrythm:"
-#| "matrix.org\">here</a> or IRC web chat <a href=\"webchat.freenode.net/?"
-#| "channels=zrythm\">here</a>."
 msgid ""
 "Zrythm is free software. This means that everyone is free to use, study, "
 "share and improve it. If you are a graphic designer, programmer, speak a "
@@ -482,7 +470,7 @@ msgstr ""
 "(IRC) ou <code>#freenode_#zrythm:matrix.org</code> sur Matrix. Vous pouvez "
 "rejoindre via le chat Matrix <a href=\"https://riot.im/app/#/room/"
 "#freenode_#zrythm:matrix.org\">ici</a> ou sur le canal IRC \n"
-"<a href=\"webchat.freenode.net/?channels=zrythm\">ici</a>."
+"<a href=\"https://webchat.freenode.net/?channels=zrythm\">ici</a>."
 
 #: template/join-us.html.j2:25
 msgid "Develop"
