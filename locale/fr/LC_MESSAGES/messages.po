@@ -369,7 +369,7 @@ msgstr ""
 msgid "Automated"
 msgstr "Automatisé"
 
-#: template/index.html.j2:129
+#: template/index.html.j2:137
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
