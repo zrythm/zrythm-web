@@ -1,6 +1,6 @@
 <article>
 <h3>
-<a NAME="migrated-self-hosted"></a>{{ _("Zrythm has migrated to self-hosted GitLab") }}
+<a href="#migrated-self-hosted" id="migrated-self-hosted">{{ _("Zrythm has migrated to self-hosted GitLab") }}</a>
 </h3>
 <section>
 <p>

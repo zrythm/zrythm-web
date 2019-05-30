@@ -44,7 +44,7 @@ code {
 #body_content a:link:not(.dropdown-link),
 #body_content a:visited:not(.dropdown-link) {
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 a.btn,
 a.btn:link,

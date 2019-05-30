@@ -25,12 +25,12 @@
       </div>
     </div>
   </div>
-  <div class="container text-center">
+  <div class="container text-center small">
     <p>
     {% trans %}
     Copyright &copy; Alexandros Theodotou 2019<br>
     This page was created using <a href='https://www.gnu.org/'>Free Software</a> only.<br>
-    Report issues with this website to <a href='contact.html'>us</a>.
+    Report issues with this website to <a href='https://git.zrythm.org/zrythm/zrythm-web/issues'>us</a>.
     {% endtrans %}
     </p>
   </div>

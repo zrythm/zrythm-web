@@ -1,6 +1,6 @@
 <article>
 <h3>
-<a name="early-alpha-release">Release v0.4.003 (early alpha)</a>
+<a href="#early-alpha-release" id="early-alpha-release">Release v0.4.003 (early alpha)</a>
 </h3>
 
 <h4>It's here!</h4>
@@ -50,7 +50,7 @@ See <a href="join-us.html">Join Us</a> for IRC rooms, Matrix rooms, mailing list
 
 <h5>Donate</h5>
 <p>
-If you like Zrythm or would like to support development, please consider <a href="https://liberapay.com/Zrythm/donate">donating</a>. We use LiberaPay, PayPal and Bitcoin. See <a href="join-us">Support Us</a> for more info.
+If you like Zrythm or would like to support development, please consider <a href="https://liberapay.com/Zrythm/donate">donating</a>. We use LiberaPay, PayPal and Bitcoin. See <a href="join-us.html">Support Us</a> for more info.
 </p>
 
 </article>

@@ -61,11 +61,9 @@
            {{ _("Development") }}
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarMain">
-          <!-- <li><a class="dropdown-item" href="architecture.html">{{ _("System Architecture") }}</a></li> -->
-          <li><a class="dropdown-item" href="https://docs.zrythm.org">{{ _("Code Documentation") }}</a></li>
+          <li><a class="dropdown-item" href="https://docs.zrythm.org">{{ _("Developer Docs") }}</a></li>
           <li><a class="dropdown-item" href="https://git.zrythm.org/zrythm/zrythm/issues">{{ _("Bug Tracker") }}</a></li>
           <li><a class="dropdown-item" href="https://git.zrythm.org/zrythm/zrythm">{{ _("Source Code") }}</a></li>
-	  <!-- <li><a class="dropdown-item" href="gnurl.html">libgnurl</a></li> -->
         </ul>
       </li>
       <li class="nav-item dropdown">
