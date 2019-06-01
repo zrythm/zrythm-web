@@ -3,59 +3,65 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # Weblate <noreply@weblate.org>, 2019.
+# Weblate Admin <weblate.admin@zrythm.org>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-30 16:10+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: nl\n"
+"PO-Revision-Date: 2019-06-01 22:01+0000\n"
+"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
+"Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/"
+"el/>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:129
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
+"Ένας ιδιαίτερα αυτοματοποιημένος, διαισθητικός Σταθμός εργασίας ψηφιακού "
+"ήχου (DAW)"
 
 #: common/footer.j2.inc:7
 msgid "Developer Team"
-msgstr ""
+msgstr "Ομάδα προγραμματιστών"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "Επικοινωνία"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
-msgstr ""
+msgstr "Σχετικά με το Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:65
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Ιχνηλάτης Σφαλμάτων"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:66
 msgid "Source Code"
-msgstr ""
+msgstr "Πηγαίος Κώδικας"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:81
 msgid "Manual"
-msgstr ""
+msgstr "Εγχειρίδιο Χρήσης"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:82
 msgid "FAQ"
-msgstr ""
+msgstr "Συχνές ερωτήσεις"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
-msgstr ""
+msgstr "Υποστήριξε μας"
 
 #: common/footer.j2.inc:30
 msgid ""
@@ -64,22 +70,26 @@ msgid ""
 "with this website to <a href='https://git.zrythm.org/zrythm/zrythm-web/"
 "issues'>us</a>."
 msgstr ""
+"Copyright &copy; Alexandros Theodotou 2019<br> Αυτή η σελίδα δημιουργήθηκε "
+"μόνο με χρήση <a href='https://www.gnu.org/'>Ελεύθερου Λογισμικού</a>.<br> "
+"Αναφέρετε σφάλματα με αυτόν τον ιστότοπο σε <a href='https://git.zrythm.org/"
+"zrythm/zrythm-web/issues'>εμάς</a>."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "Κοινότητα"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "Φόρουμ"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr ""
+msgstr "Συζήτηση"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "Γίνε μέλος μας"
 
 #: common/navigation.j2.inc:61
 msgid "Development"
@@ -87,7 +97,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:64
 msgid "Developer Docs"
-msgstr ""
+msgstr "Έγγραφα  για developers"
 
 #: common/navigation.j2.inc:76
 msgid "Documentation"
@@ -95,11 +105,11 @@ msgstr ""
 
 #: common/navigation.j2.inc:79 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "Εγχειρίδια"
 
 #: common/navigation.j2.inc:80
 msgid "Glossary"
-msgstr ""
+msgstr "Γλωσσάριο"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
@@ -124,20 +134,28 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
+"Το Zrythm είναι μια εγγενής εφαρμογή GNU / Linux που κατασκευάστηκε με τη "
+"χρήση εργαλείων C και GTK +3 και δανείζεται ιδέες, έννοιες και κώδικα από "
+"άλλα έργα όπως Ardour και Jalv.  It is designed to be intuitive to use and "
+"is built with the intention to provide GNU/Linux users a full-featured "
+"alternative to proprietary DAWs, while offering a unique approach to "
+"workflow that other GNU/Linux DAWs lack."
 
 #: template/about.html.j2:14
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Το Zrythm είναι ελεύθερο λογισμικό με άδεια χρήσης στο GPLv3+ και ο πηγαίος "
+"κώδικας του είναι διαθέσιμος στο GitLab instance μας."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "Στοιχεία επικοινωνίας"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
-msgstr ""
+msgstr "Η λίστα αλληλογραφίας"
 
 #: template/contact.html.j2:15
 msgid ""
@@ -152,27 +170,31 @@ msgstr ""
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
-msgstr ""
+msgstr "Το κανάλι IRC / Matrix"
 
 #: template/contact.html.j2:29
 msgid ""
 "#zrythm is reachable via irc.freenode.net. Matrix users can use "
 "#freenode_#zrythm:matrix.org."
 msgstr ""
+"Το #zrythm είναι προσβάσιμο μέσω irc.freenode.net. Matrix users can use "
+"#freenode_#zrythm:matrix.org."
 
 #: template/contact.html.j2:38
 msgid "Contacting individuals"
-msgstr ""
+msgstr "Επικοινωνία με άτομα"
 
 #: template/contact.html.j2:40
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
 msgstr ""
+"Δείτε τη σελίδα της <a href=\"team.html\">Ομάδας</a> για τα στοιχεία "
+"επικοινωνίας κάθε ατόμου."
 
 #: template/contact.html.j2:47
 msgid "Reporting bugs"
-msgstr ""
+msgstr "Αναφορά σφαλμάτων"
 
 #: template/contact.html.j2:49
 msgid ""
@@ -185,7 +207,7 @@ msgstr ""
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
-msgstr ""
+msgstr "Μιλήστε μαζί μας"
 
 #: template/engage.html.j2:11
 msgid ""
@@ -193,6 +215,10 @@ msgid ""
 "#zrythm\">IRC channel</a> to keep up with development, find technical help, "
 "and discuss Zrythm."
 msgstr ""
+"Χρησιμοποιήστε τις λίστες αλληλογραφίας και συμμετέχετε στο <a href=\""
+"ircs://chat.freenode.net:6697/#zrythm\">κανάλι μας στο IRC</a> για να "
+"παρακολουθείτε την ανάπτυξη, να βρείτε τεχνική βοήθεια και να συζητάτε για "
+"το Zrythm."
 
 #: template/engage.html.j2:20
 msgid ""
@@ -222,13 +248,16 @@ msgstr ""
 
 #: template/faq.html.j2:6
 msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr ""
+msgstr "Κτίζω από την πηγή και θέλω να τρέξω Zrythm χωρίς εγκατάσταση"
 
 #: template/faq.html.j2:8
 msgid ""
 "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
+"Εκτελέστε <code>glib-compile-schemas data/</code> και στη συνέχεια εκτελέστε "
+"το zrythm χρησιμοποιώντας <code>GSETTINGS_SCHEMA_DIR=data ./build/"
+"zrythm</code>"
 
 #: template/faq.html.j2:12
 msgid "I get unmet dependencies when installing on Ubuntu"
@@ -257,6 +286,11 @@ msgid ""
 "allowing extensive automation via built-in LFOs and envelopes and intuitive "
 "MIDI/audio editing and arranging via clips."
 msgstr ""
+"Το Zrythm είναι ιδιαίτερα αυτοματοποιημένος Σταθμός Εργασίας Ψηφιακού Ήχου "
+"(DAW) σχεδιασμένος για να είναι πλούσια σε χαρακτηρικά και διαισθητικό να "
+"χρησιμοποιήσετε. Zrythm sets itself apart from other DAWs by allowing "
+"extensive automation via built-in LFOs and envelopes and intuitive MIDI/"
+"audio editing and arranging via clips."
 
 #: template/index.html.j2:48
 msgid ""
@@ -271,14 +305,16 @@ msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the GPLv3+."
 msgstr ""
+"Το Zrythm είναι <a href=\"http://www.gnu.org/philosophy/free-sw.html\">"
+"ελεύθερο λογισμικό</a> με άδεια χρήσης του GPLv3 +."
 
 #: template/index.html.j2:60
 msgid "Download"
-msgstr ""
+msgstr "Λήψη"
 
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
-msgstr ""
+msgstr "Συμμετάσχετε &amp; υποστηρίξτε μας!"
 
 #: template/index.html.j2:115
 msgid ""
@@ -291,7 +327,7 @@ msgstr ""
 
 #: template/index.html.j2:135
 msgid "Automated"
-msgstr ""
+msgstr "Αυτοματοποιημένο"
 
 #: template/index.html.j2:137
 msgid ""
@@ -301,13 +337,16 @@ msgstr ""
 
 #: template/index.html.j2:147
 msgid "Intuitive"
-msgstr ""
+msgstr "Διαισθητικό"
 
 #: template/index.html.j2:149
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
+"Το Zrythm προσπαθεί να διατηρήσει τη διεπαφή καθαρή και ευχάριστη για να "
+"δουλέψει, με διαισθητικούς τρόπους να γίνει δουλειά, επιτρέποντας ταχύτερη "
+"ροή εργασιών."
 
 #: template/index.html.j2:158
 msgid "Featureful"
@@ -321,23 +360,25 @@ msgstr ""
 
 #: template/index.html.j2:177
 msgid "Features"
-msgstr ""
+msgstr "Χαρακτηριστικά"
 
 #: template/index.html.j2:186
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Απεριόριστος Αυτοματισμός"
 
 #: template/index.html.j2:189
 msgid "Automate almost anything with built-in envelopes and automation curves."
 msgstr ""
+"Αυτοματοποιήστε σχεδόν οτιδήποτε με ενσωματωμένα envelopes και curves "
+"αυτοματισμού."
 
 #: template/index.html.j2:198
 msgid "Feature 2"
-msgstr ""
+msgstr "Χαρακτηριστικό 2"
 
 #: template/index.html.j2:201 template/index.html.j2:245
 msgid "Cool."
-msgstr ""
+msgstr "Μέσα."
 
 #: template/index.html.j2:209
 msgid "LV2 Plugins"
@@ -349,33 +390,35 @@ msgstr ""
 
 #: template/index.html.j2:222
 msgid "Speaks Your Language"
-msgstr ""
+msgstr "Μιλάει τη γλώσσα σας"
 
 #: template/index.html.j2:224
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
+"Διατίθεται στα αγγλικά, γερμανικά, γαλλικά, ιταλικά, ισπανικά, ιαπωνικά και "
+"πολλές άλλες γλώσσες."
 
 #: template/index.html.j2:233
 msgid "Cross-platform"
-msgstr ""
+msgstr "Ανεξάρτητο πλατφόρμας"
 
 #: template/index.html.j2:235
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
-msgstr ""
+msgstr "Λειτουργεί σε Windows, GNU / Linux, FreeBSD και MacOS"
 
 #: template/index.html.j2:243
 msgid "Feature 5"
-msgstr ""
+msgstr "Χαρακτηριστικό 5"
 
 #: template/index.html.j2:258
 msgid "News"
-msgstr ""
+msgstr "Νέα"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
-msgstr ""
+msgstr "Συμμετοχή στην ομάδα του Zrythm"
 
 #: template/join-us.html.j2:10
 msgid ""
@@ -409,7 +452,7 @@ msgstr ""
 
 #: template/join-us.html.j2:36
 msgid "Translate"
-msgstr ""
+msgstr "Μετάφρασε"
 
 #: template/join-us.html.j2:38
 msgid ""
@@ -423,7 +466,7 @@ msgstr ""
 
 #: template/join-us.html.j2:51
 msgid "Test"
-msgstr ""
+msgstr "Δοκιμή"
 
 #: template/join-us.html.j2:53
 msgid ""
@@ -431,10 +474,14 @@ msgid ""
 "providing feedback or report bugs. Please get in touch with us and we will "
 "guide you through the process."
 msgstr ""
+"Μπορείτε πάντα να βοηθήσετε προσφέροντάς να δοκιμάσετε τις εκδόσεις του "
+"Zrythm που έχουν κυκλοφορήσει και παρέχοντας ανατροφοδότηση ή αναφορές "
+"σφαλμάτων. Please get in touch with us and we will guide you through the "
+"process."
 
 #: template/join-us.html.j2:61
 msgid "Design"
-msgstr ""
+msgstr "Σχεδιασμός"
 
 #: template/join-us.html.j2:63
 msgid ""
@@ -442,6 +489,9 @@ msgid ""
 "help, please get in touch with us. Things that you might want to do are "
 "logos, icons and other graphics, CSS, etc."
 msgstr ""
+"Εάν είστε σχεδιαστής ιστοσελίδων, σχεδιαστής εικονιδίων ή σχεδιαστής "
+"γραφικών και θέλετε να βοηθήσετε, παρακαλούμε επικοινωνήστε μαζί μας. Things "
+"that you might want to do are logos, icons and other graphics, CSS, etc."
 
 #: template/join-us.html.j2:70
 msgid ""
@@ -449,10 +499,14 @@ msgid ""
 "without knowing much about the code. Have a look <a href=\"https://git."
 "zrythm.org/zrythm/zrythm/blob/master/resources/theme.css\">here</a>."
 msgstr ""
+"Το ίδιο το Zrythm είναι πλήρως CSS, έτσι είναι εύκολο να αλλάξει το σχέδιό "
+"του χωρίς να γνωρίζει κάποιος πολλά για τον κώδικα. Have a look <a href=\""
+"https://git.zrythm.org/zrythm/zrythm/blob/master/resources/theme.css\""
+">here</a>."
 
 #: template/join-us.html.j2:82
 msgid "Donate"
-msgstr ""
+msgstr "Κάντε δωρεά"
 
 #: template/join-us.html.j2:85
 msgid ""
@@ -461,6 +515,11 @@ msgid ""
 "Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
 "cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
 msgstr ""
+"Εκτιμούμε τις συνεισφορές οποιουδήποτε μεγέθους - οι δωρεές μας επιτρέπουν "
+"να αφιερώνουμε περισσότερο χρόνο στο έργο και να καλύψουμε τα έξοδα υποδομής "
+"μας. Europeans are able to donate via SEPA through LiberaPay. Major Credit/"
+"Debit cards are also accepted. Alternatively, you can donate via Bitcoin or "
+"PayPal."
 
 #: template/join-us.html.j2:93
 msgid ""
@@ -469,6 +528,10 @@ msgid ""
 "your contribution on <a href='https://www.zrythm.org/en/thanks'>Supporters "
 "[TODO]</a>."
 msgstr ""
+"Εφόσον το project μας δεν είναι ένας οργανισμός απαλλαγμένος από φόρους, δεν "
+"μπορούμε να σας προσφέρουμε φορολογική έκπτωση, αλλά για όλες τις δωρεές άνω "
+"των 50 USD, θα χαρούμε να αναγνωρίσουμε την συνεισφορά σας στους <a "
+"href='https://www.zrythm.org/en/thanks'>Υποστηρικτές [TODO]</a> ."
 
 #: template/join-us.html.j2:100
 msgid ""
@@ -477,34 +540,39 @@ msgid ""
 "over 200 USD. If you would like to discuss this possibility, write to us at "
 "<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 msgstr ""
+"Είμαστε επίσης στην ευχάριστη θέση να εξετάσουμε το ενδεχόμενο να επιφέρουμε "
+"συγκεκριμένες βελτιώσεις ή αλλαγές ή να παρέχουμε ειδική τεχνική βοήθεια σε "
+"αντάλλαγμα για μια σημαντική δωρεά άνω των 200 USD. If you would like to "
+"discuss this possibility, write to us at <a "
+"href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "Σας ευχαριστούμε για την υποστήριξή σας!"
 
 #: template/news.html.j2.inc:3
 msgid "More news"
-msgstr ""
+msgstr "Περισσότερα νέα"
 
 #: template/old-news.html.j2:6
 msgid "Older News"
-msgstr ""
+msgstr "Παλαιότερα νέα"
 
 #: template/old-news.html.j2:9
 msgid "This page documents the Zrythm history."
-msgstr ""
+msgstr "Αυτή η σελίδα τεκμηριώνει το ιστορικό του Zrythm."
 
 #: template/team.html.j2:23
 msgid "Zrythm maintainer"
-msgstr ""
+msgstr "Συντηρητής Zrythm"
 
 #: template/team.html.j2:36
 msgid "Developer"
-msgstr ""
+msgstr "Προγραμματιστής"
 
 #: template/team.html.j2:51
 msgid "French translator"
-msgstr ""
+msgstr "Γάλλος μεταφραστής"
 
 #: template/tutorial.html.j2:8
 msgid ""
@@ -514,7 +582,7 @@ msgstr ""
 
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
-msgstr ""
+msgstr "Οδηγίες εγκατάστασης Zrythm: <ul><li> ΝΑ ΚΑΝΩ </li></ul>"
 
 #: template/video.html.j2:19
 msgid "2017"
@@ -547,4 +615,3 @@ msgstr ""
 #: template/video.html.j2:26
 msgid "2010"
 msgstr ""
-
