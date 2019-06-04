@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-30 16:10+0100\n"
+"POT-Creation-Date: 2019-06-04 01:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,14 +284,12 @@ msgstr ""
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:115
+#: template/index.html.j2:116
 msgid ""
-"<em>Zrythm respects your freedom, but some platforms do not. To have "
-"freedom, you need to stop using Windows or other software that denies "
-"your freedom. For more information see <a "
+"Zrythm respects your freedom, but some platforms do not. More info at <a "
 "href='https://www.gnu.org/philosophy/free-software-even-more-"
 "important.html'> https://www.gnu.org/philosophy/free-software-even-more-"
-"important.html</a></em>"
+"important.html</a>"
 msgstr ""
 
 #: template/index.html.j2:135

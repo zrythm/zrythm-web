@@ -68,32 +68,47 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle"
-	   href="#"
-	   data-toggle="dropdown"
-	   role="button"
-	   aria-haspopup="true"
-	   aria-expanded="false">
-	   {{ _("Documentation") }}
-	</a>
-	<ul class="dropdown-menu" aria-labelledby="navbarMain">
-	  <li><a class="dropdown-item" href="tutorial.html">{{ _("Tutorials") }}</a></li>
-          <li><a class="dropdown-item" href="https://manual.zrythm.org/introduction-to-zrythm/basic-concepts-and-terminology.html">{{ _("Glossary") }}</a></li>
-	  <li><a class="dropdown-item" target="_blank" href="https://manual.zrythm.org">{{ _("Manual") }}</a></li>
-          <li><a class="dropdown-item" href="faq.html">{{ _("FAQ") }}</a></li>
-	</ul>
+           href="#"
+           data-toggle="dropdown"
+           role="button"
+           aria-haspopup="true"
+           aria-expanded="false">
+           {{ _("Documentation") }}
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarMain">
+          <li><a class="dropdown-item" href="tutorial.html">{{ _("Tutorials") }}</a></li>
+                <li><a class="dropdown-item" href="https://manual.zrythm.org/introduction-to-zrythm/basic-concepts-and-terminology.html">{{ _("Glossary") }}</a></li>
+          <li><a class="dropdown-item" target="_blank" href="https://manual.zrythm.org">{{ _("Manual") }}</a></li>
+                <li><a class="dropdown-item" href="faq.html">{{ _("FAQ") }}</a></li>
+        </ul>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://translate.zrythm.org/projects/zrythm/"><img src="https://translate.zrythm.org/widgets/zrythm/-/zrythm/svg-badge.svg" alt="Translate"></img></a>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></img></a>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://git.zrythm.org/zrythm/zrythm"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/coverage.svg" alt="Coverage"></img></a>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></img></a>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://liberapay.com/Zrythm"><img src="http://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></img></a>
       </li>
     </ul>
     <ul class="navbar-nav navbar-right nav">
       <li class="nav-item dropdown">
-	<a class="nav-link dropdown-toggle" href="#"
+        <a class="nav-link dropdown-toggle" href="#"
            data-toggle="dropdown" role="button"
            aria-haspopup="true" aria-expanded="false">
            {{ lang_full }} {{ lang_flag }}
         </a>
         <ul class="dropdown-menu dropdown-menu-right scrollable-menu" aria-labelledby="navbarMain">
-	  {% for key in langs_full.keys() %}
+        {% for key in langs_full.keys() %}
           <li><a class="dropdown-item" href="{{ self_localized(key) }}">{{ lang_flags[key] }} {{ langs_full[key] }}</a></li>
-	  {% endfor %}
+        {% endfor %}
         </ul>
       </li> <!-- /navbar-right dropdown -->
     </ul> <!-- /navbar-right -->

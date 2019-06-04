@@ -25,7 +25,7 @@
       </div>
     </div>
   </div>
-  <div class="container text-center small">
+  <div class="container text-center">
     <p>
     {% trans %}
     Copyright &copy; Alexandros Theodotou 2019<br>

@@ -261,13 +261,12 @@ msgstr ""
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:115
+#: template/index.html.j2:116
 msgid ""
-"<em>Zrythm respects your freedom, but some platforms do not. To have "
-"freedom, you need to stop using Windows or other software that denies your "
-"freedom. For more information see <a href='https://www.gnu.org/philosophy/"
-"free-software-even-more-important.html'> https://www.gnu.org/philosophy/free-"
-"software-even-more-important.html</a></em>"
+"Zrythm respects your freedom, but some platforms do not. More info at <a "
+"href='https://www.gnu.org/philosophy/free-software-even-more-important."
+"html'> https://www.gnu.org/philosophy/free-software-even-more-important."
+"html</a>"
 msgstr ""
 
 #: template/index.html.j2:135
