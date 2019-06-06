@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 # Weblate Admin <weblate.admin@zrythm.org>, 2019.
+# Alexandros Theodotou <alextee@posteo.net>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-05-30 16:10+0100\n"
-"PO-Revision-Date: 2019-05-04 23:30+0000\n"
-"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
+"PO-Revision-Date: 2019-06-06 06:25+0000\n"
+"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://translate.zrythm.org/projects/zrythm/"
 "website/ja/>\n"
 "Language: ja\n"
@@ -98,10 +99,8 @@ msgid "Development"
 msgstr "開発"
 
 #: common/navigation.j2.inc:64
-#, fuzzy
-#| msgid "Developer"
 msgid "Developer Docs"
-msgstr "開発者"
+msgstr "開発者向けドキュメント"
 
 #: common/navigation.j2.inc:76
 msgid "Documentation"
@@ -117,7 +116,7 @@ msgstr "用語集"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr ""
+msgstr "Zrythmは自己ホスト型GitLabに移行しました"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
 msgid ""
@@ -125,10 +124,12 @@ msgid ""
 "zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
 "to update your git repositories."
 msgstr ""
+"Zrythmは最近GitLab.comから<a href=\"https://git.zrythm.org/zrythm/zrythm\""
+">自己ホスト型GitLabインスタンスに</a>移行しました。"
 
 #: news/2019-02-17-release-schedule.j2.inc:3
 msgid "Release Schedule"
-msgstr ""
+msgstr "リリーススケジュール"
 
 #: template/about.html.j2:8
 msgid ""
@@ -199,7 +200,7 @@ msgstr "連絡先"
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
-msgstr ""
+msgstr "各自の連絡先については、 <a href=\"team.html\">チーム</a>ページを参照してください。"
 
 #: template/contact.html.j2:47
 msgid "Reporting bugs"
@@ -333,8 +334,6 @@ msgstr ""
 "philosophy/free-sw.html\">フリーソフトウェア</a>です。"
 
 #: template/index.html.j2:60
-#, fuzzy
-#| msgid "Download Zrythm"
 msgid "Download"
 msgstr "ダウンロード"
 
@@ -343,6 +342,7 @@ msgid "Join &amp; support us!"
 msgstr "参加して支援する！"
 
 #: template/index.html.j2:115
+#, fuzzy
 msgid ""
 "<em>Zrythm respects your freedom, but some platforms do not. To have "
 "freedom, you need to stop using Windows or other software that denies your "
@@ -350,23 +350,23 @@ msgid ""
 "free-software-even-more-important.html'> https://www.gnu.org/philosophy/free-"
 "software-even-more-important.html</a></em>"
 msgstr ""
+"<em>Zrythmはあなたの自由を尊重します、しかしいくつかのプラットフォームはそうしません. To have freedom, you need "
+"to stop using Windows or other software that denies your freedom. For more "
+"information see <a href='https://www.gnu.org/philosophy/free-software-even-"
+"more-important.html'> https://www.gnu.org/philosophy/free-software-even-more-"
+"important.html</a></em>"
 
 #: template/index.html.j2:135
 msgid "Automated"
 msgstr "自動化された"
 
 #: template/index.html.j2:137
-#, fuzzy
-#| msgid ""
-#| "Built-in LFOs and envelopes to use for automating controls. Automation "
-#| "curves for more detailed automation. Clips to loop your MIDI notes and "
-#| "audio. And more."
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
-"コントロールの自動化に使用する内蔵LFOとエンベロープ、より詳細な自動化のための"
-"自動化曲線、MIDIノートとオーディオをループするクリップ、などなど。"
+"コントロールをオートメートするための内蔵LFOとエンベロープ、より詳細なオートメーションのためのオートメーションカーブ、あなたのMIDIノート/オーディオ"
+"をループさせるためのクリップなど。"
 
 #: template/index.html.j2:147
 msgid "Intuitive"
@@ -418,8 +418,6 @@ msgid "LV2 Plugins"
 msgstr "LV2プラグイン"
 
 #: template/index.html.j2:211
-#, fuzzy
-#| msgid "Works with LV2, the open standard for audio plugins."
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr "オーディオプラグインのオープンスタンダードであるLV2で動作します。"
 
@@ -433,18 +431,15 @@ msgstr "あなたの言語を話す"
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
-msgstr ""
-"英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語で利用できます。"
+msgstr "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言語で利用可能です。"
 
 #: template/index.html.j2:233
 msgid "Cross-platform"
 msgstr "クロスプラットフォーム"
 
 #: template/index.html.j2:235
-#, fuzzy
-#| msgid "Works on Windows, GNU/Linux and Mac OS"
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
-msgstr "Windows、GNU / LinuxおよびMac OSで動作します"
+msgstr "Windows、GNU / Linux、FreeBSD、およびMacOSで動作します"
 
 #: template/index.html.j2:243
 msgid "Feature 5"
@@ -538,7 +533,7 @@ msgstr ""
 
 #: template/join-us.html.j2:51
 msgid "Test"
-msgstr ""
+msgstr "テストする"
 
 #: template/join-us.html.j2:53
 msgid ""
@@ -546,6 +541,8 @@ msgid ""
 "providing feedback or report bugs. Please get in touch with us and we will "
 "guide you through the process."
 msgstr ""
+"あなたはいつでもZrythmのプレリリース版をテストすることを申し出ることによってフィードバックを提供するかまたはバグを報告することによって助けることがで"
+"きます。"
 
 #: template/join-us.html.j2:61
 msgid "Design"
@@ -573,15 +570,20 @@ msgstr ""
 
 #: template/join-us.html.j2:82
 msgid "Donate"
-msgstr ""
+msgstr "支援する"
 
 #: template/join-us.html.j2:85
+#, fuzzy
 msgid ""
 "We appreciate contributions of any size -- donations enable us to spend more "
 "time working on the project, and help cover our infrastructure expenses. "
 "Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
 "cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
 msgstr ""
+"私たちはどんな規模の貢献でも感謝します - "
+"寄付は私たちがプロジェクトにより多くの時間を費やすことを可能にし、私たちのインフラストラクチャー費用をまかなうのを助けます。Europeans are "
+"able to donate via SEPA through LiberaPay. Major Credit/Debit cards are also "
+"accepted. Alternatively, you can donate via Bitcoin or PayPal."
 
 #: template/join-us.html.j2:93
 msgid ""
@@ -590,18 +592,24 @@ msgid ""
 "your contribution on <a href='https://www.zrythm.org/en/thanks'>Supporters "
 "[TODO]</a>."
 msgstr ""
+"私たちのプロジェクトは非課税組織ではないので、私たちはあなたに税控除を提供することはできませんが、50米ドルを超えるすべての寄付に対して、私たちは<a "
+"href='https://www.zrythm.org/en/thanks'>サポーター</a>へのあなたの貢献を認めてうれしいです 。"
 
 #: template/join-us.html.j2:100
+#, fuzzy
 msgid ""
 "We are also happy to consider making particular improvements or changes, or "
 "giving specific technical assistance, in return for a substantial donation "
 "over 200 USD. If you would like to discuss this possibility, write to us at "
 "<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 msgstr ""
+"また、200米ドル以上の多額の寄付と引き換えに、特別な改善や変更を加えること、または特定の技術支援を行うことを検討させていただきます。If you "
+"would like to discuss this possibility, write to us at <a "
+"href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "ご支援いただきありがとうございます！"
 
 #: template/news.html.j2.inc:3
 msgid "More news"
@@ -627,49 +635,49 @@ msgstr "開発者"
 #, fuzzy
 #| msgid "Translate"
 msgid "French translator"
-msgstr "翻訳する"
+msgstr "フランス語翻訳者"
 
 #: template/tutorial.html.j2:8
 msgid ""
 "This page holds various tutorials for Zrythm. Some of them are not complete, "
 "but we find them useful regardless of their state."
-msgstr ""
+msgstr "このページにはZrythmの様々なチュートリアルがあります。"
 
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
-msgstr ""
+msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 
 #: template/video.html.j2:19
 msgid "2017"
-msgstr ""
+msgstr "2017"
 
 #: template/video.html.j2:20
 msgid "2016"
-msgstr ""
+msgstr "2016年"
 
 #: template/video.html.j2:21
 msgid "2015"
-msgstr ""
+msgstr "2015年"
 
 #: template/video.html.j2:22
 msgid "2014"
-msgstr ""
+msgstr "2014年"
 
 #: template/video.html.j2:23
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #: template/video.html.j2:24
 msgid "2012"
-msgstr ""
+msgstr "2012年"
 
 #: template/video.html.j2:25
 msgid "2011"
-msgstr ""
+msgstr "2011年"
 
 #: template/video.html.j2:26
 msgid "2010"
-msgstr ""
+msgstr "2010年"
 
 #~ msgid "System Architecture"
 #~ msgstr "システム構成"
