@@ -97,6 +97,25 @@ msgstr ""
 msgid "Release Schedule"
 msgstr ""
 
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+msgid "Translations Now Hosted at Weblate.org"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+msgid ""
+"Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
+"can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
+"zrythm/\"> Click Here</a> to get started."
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+msgid "Note: We will be taking down the self-hosted version soon."
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+msgid "Happy translating!"
+msgstr ""
+
 #: template/about.html.j2:8
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
@@ -396,8 +415,8 @@ msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
 "\">translation instructions</a>. Translating Zrythm and its components is "
-"done via <a href=\"https://translate.zrythm.org/projects/zrythm\"> a simple "
-"web interface</a> so no coding experience is needed. All you need is a web "
+"done via <a href=\"https://hosted.weblate.org/engage/zrythm/\"> a simple web "
+"interface</a> so no coding experience is needed. All you need is a web "
 "browser."
 msgstr ""
 
@@ -462,7 +481,7 @@ msgstr ""
 msgid "Thank you for your support!"
 msgstr ""
 
-#: template/news.html.j2.inc:3
+#: template/news.html.j2.inc:4
 msgid "More news"
 msgstr ""
 

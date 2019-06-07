@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-30 16:10+0100\n"
+"POT-Creation-Date: 2019-06-07 16:43+0100\n"
 "PO-Revision-Date: 2019-06-06 06:25+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
@@ -128,6 +128,25 @@ msgstr ""
 #: news/2019-02-17-release-schedule.j2.inc:3
 msgid "Release Schedule"
 msgstr "Calendrier de sortie"
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+msgid "Translations Now Hosted at Weblate.org"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+msgid ""
+"Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
+"can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
+"zrythm/\"> Click Here</a> to get started."
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+msgid "Note: We will be taking down the self-hosted version soon."
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+msgid "Happy translating!"
+msgstr ""
 
 #: template/about.html.j2:8
 msgid ""
@@ -360,9 +379,9 @@ msgstr ""
 "<em>Zrythm respecte vos libertés, mais certaines plateformes ne le font pas. "
 "Pour être libre, vous devez arrêter d'utiliser Windows ou les autres "
 "logiciels vous privent de vos libertés.  Pour plus d'informations, voir <a "
-"href='https://www.gnu.org/philosophy/free-software-even-more-important.html'>"
-" https://www.gnu.org/philosophy/free-software-even-more-"
-"important.html</a></em>"
+"href='https://www.gnu.org/philosophy/free-software-even-more-important."
+"html'> https://www.gnu.org/philosophy/free-software-even-more-important."
+"html</a></em>"
 
 #: template/index.html.j2:135
 msgid "Automated"
@@ -502,29 +521,37 @@ msgid ""
 "start there. Please review the <a href=\"https://docs.zrythm.org/"
 "md_CONTRIBUTING.html\">Contributing Guidelines</a> before you start."
 msgstr ""
-"Les correctifs sont les bienvenus dans la section<a href=\""
-"https://git.zrythm.org/zrythm/zrythm\"> dépôt principal</a>. Nous avons "
-"beaucoup de <a href=\"https://git.zrythm.org/zrythm/zrythm/"
-"issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=beginner\">tâches "
-"pour les débutants </a> et nous offrons même <a href=\"https://git.zrythm."
-"org/zrythm/zrythm/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=%"
-"2420\">des primes</a> pour certaines. Il y a <a href=\"http://docs.zrythm."
-"org/\">une documentation du code bien entretenue et consultable </a> "
-"disponible, donc ce serait une bonne idée de commencer par là. Veuillez "
-"consulter les <a href=\"https://docs.zrythm.org/md_CONTRIBUTING.html\">"
-"lignes directrices sur les contributions</a> avant de commencer."
+"Les correctifs sont les bienvenus dans la section<a href=\"https://git."
+"zrythm.org/zrythm/zrythm\"> dépôt principal</a>. Nous avons beaucoup de <a "
+"href=\"https://git.zrythm.org/zrythm/zrythm/issues?scope=all&utf8=%E2%9C"
+"%93&state=opened&label_name[]=beginner\">tâches pour les débutants </a> et "
+"nous offrons même <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
+"scope=all&utf8=%E2%9C%93&state=opened&label_name[]=%2420\">des primes</a> "
+"pour certaines. Il y a <a href=\"http://docs.zrythm.org/\">une documentation "
+"du code bien entretenue et consultable </a> disponible, donc ce serait une "
+"bonne idée de commencer par là. Veuillez consulter les <a href=\"https://"
+"docs.zrythm.org/md_CONTRIBUTING.html\">lignes directrices sur les "
+"contributions</a> avant de commencer."
 
 #: template/join-us.html.j2:36
 msgid "Translate"
 msgstr "Traduire"
 
 #: template/join-us.html.j2:38
+#, fuzzy
+#| msgid ""
+#| "If you can speak a foreign language and want to help, please take a look "
+#| "at the <a href=\"https://manual.zrythm.org/en/contributing/translating."
+#| "html\">translation instructions</a>. Translating Zrythm and its "
+#| "components is done via <a href=\"https://translate.zrythm.org/projects/"
+#| "zrythm\"> a simple web interface</a> so no coding experience is needed. "
+#| "All you need is a web browser."
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
 "\">translation instructions</a>. Translating Zrythm and its components is "
-"done via <a href=\"https://translate.zrythm.org/projects/zrythm\"> a simple "
-"web interface</a> so no coding experience is needed. All you need is a web "
+"done via <a href=\"https://hosted.weblate.org/engage/zrythm/\"> a simple web "
+"interface</a> so no coding experience is needed. All you need is a web "
 "browser."
 msgstr ""
 "Si vous parlez une langue étrangère et que vous souhaitez nous aider, "
@@ -614,14 +641,14 @@ msgstr ""
 "Nous sommes également heureux d’envisager d’apporter des améliorations ou "
 "des changements particuliers, ou de fournir une assistance technique "
 "spécifique, en échange d’un don important de plus de 200 USD.  Si vous "
-"souhaitez discuter de cette possibilité, écrivez-nous à <a "
-"href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
+"souhaitez discuter de cette possibilité, écrivez-nous à <a href='mailto:"
+"support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
 msgstr "Merci de votre soutien !"
 
-#: template/news.html.j2.inc:3
+#: template/news.html.j2.inc:4
 msgid "More news"
 msgstr "Plus d'actualités"
 

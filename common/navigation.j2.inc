@@ -83,7 +83,9 @@
         </ul>
       </li>
       <li class="nav-item badge">
-        <a href="https://translate.zrythm.org/projects/zrythm/"><img src="https://translate.zrythm.org/widgets/zrythm/-/zrythm/svg-badge.svg" alt="Translate"></img></a>
+        <a href="https://hosted.weblate.org/engage/zrythm/?utm_source=widget">
+          <img src="https://hosted.weblate.org/widgets/zrythm/-/svg-badge.svg" alt="Translation status" />
+        </a>
       </li>
       <li class="nav-item badge">
         <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></img></a>

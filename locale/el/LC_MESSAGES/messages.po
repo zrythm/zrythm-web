@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-04 01:17+0100\n"
+"POT-Creation-Date: 2019-06-07 16:43+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/"
@@ -126,6 +126,25 @@ msgstr ""
 msgid "Release Schedule"
 msgstr ""
 
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+msgid "Translations Now Hosted at Weblate.org"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+msgid ""
+"Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
+"can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
+"zrythm/\"> Click Here</a> to get started."
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+msgid "Note: We will be taking down the self-hosted version soon."
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+msgid "Happy translating!"
+msgstr ""
+
 #: template/about.html.j2:8
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
@@ -215,8 +234,8 @@ msgid ""
 "#zrythm\">IRC channel</a> to keep up with development, find technical help, "
 "and discuss Zrythm."
 msgstr ""
-"Χρησιμοποιήστε τις λίστες αλληλογραφίας και συμμετέχετε στο <a href=\""
-"ircs://chat.freenode.net:6697/#zrythm\">κανάλι μας στο IRC</a> για να "
+"Χρησιμοποιήστε τις λίστες αλληλογραφίας και συμμετέχετε στο <a href=\"ircs://"
+"chat.freenode.net:6697/#zrythm\">κανάλι μας στο IRC</a> για να "
 "παρακολουθείτε την ανάπτυξη, να βρείτε τεχνική βοήθεια και να συζητάτε για "
 "το Zrythm."
 
@@ -256,8 +275,8 @@ msgid ""
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
 "Εκτελέστε <code>glib-compile-schemas data/</code> και στη συνέχεια εκτελέστε "
-"το zrythm χρησιμοποιώντας <code>GSETTINGS_SCHEMA_DIR=data ./build/"
-"zrythm</code>"
+"το zrythm χρησιμοποιώντας <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</"
+"code>"
 
 #: template/faq.html.j2:12
 msgid "I get unmet dependencies when installing on Ubuntu"
@@ -305,8 +324,8 @@ msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the GPLv3+."
 msgstr ""
-"Το Zrythm είναι <a href=\"http://www.gnu.org/philosophy/free-sw.html\">"
-"ελεύθερο λογισμικό</a> με άδεια χρήσης του GPLv3 +."
+"Το Zrythm είναι <a href=\"http://www.gnu.org/philosophy/free-sw.html"
+"\">ελεύθερο λογισμικό</a> με άδεια χρήσης του GPLv3 +."
 
 #: template/index.html.j2:60
 msgid "Download"
@@ -458,8 +477,8 @@ msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
 "\">translation instructions</a>. Translating Zrythm and its components is "
-"done via <a href=\"https://translate.zrythm.org/projects/zrythm\"> a simple "
-"web interface</a> so no coding experience is needed. All you need is a web "
+"done via <a href=\"https://hosted.weblate.org/engage/zrythm/\"> a simple web "
+"interface</a> so no coding experience is needed. All you need is a web "
 "browser."
 msgstr ""
 
@@ -499,9 +518,9 @@ msgid ""
 "zrythm.org/zrythm/zrythm/blob/master/resources/theme.css\">here</a>."
 msgstr ""
 "Το ίδιο το Zrythm είναι πλήρως CSS, έτσι είναι εύκολο να αλλάξει το σχέδιό "
-"του χωρίς να γνωρίζει κάποιος πολλά για τον κώδικα. Have a look <a href=\""
-"https://git.zrythm.org/zrythm/zrythm/blob/master/resources/theme.css\""
-">here</a>."
+"του χωρίς να γνωρίζει κάποιος πολλά για τον κώδικα. Have a look <a href="
+"\"https://git.zrythm.org/zrythm/zrythm/blob/master/resources/theme.css"
+"\">here</a>."
 
 #: template/join-us.html.j2:82
 msgid "Donate"
@@ -542,14 +561,14 @@ msgstr ""
 "Είμαστε επίσης στην ευχάριστη θέση να εξετάσουμε το ενδεχόμενο να επιφέρουμε "
 "συγκεκριμένες βελτιώσεις ή αλλαγές ή να παρέχουμε ειδική τεχνική βοήθεια σε "
 "αντάλλαγμα για μια σημαντική δωρεά άνω των 200 USD. If you would like to "
-"discuss this possibility, write to us at <a "
-"href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
+"discuss this possibility, write to us at <a href='mailto:support_AT_zrythm."
+"org'>support_AT_zrythm.org</a>."
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
 msgstr "Σας ευχαριστούμε για την υποστήριξή σας!"
 
-#: template/news.html.j2.inc:3
+#: template/news.html.j2.inc:4
 msgid "More news"
 msgstr "Περισσότερα νέα"
 
