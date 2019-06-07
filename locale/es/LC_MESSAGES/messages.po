@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-07 17:53+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-11 22:43+0000\n"
+"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
@@ -23,38 +24,43 @@ msgid "Zrythm"
 msgstr "Zrythm es"
 
 #: common/base.j2:6 template/index.html.j2:129
+#, fuzzy
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
+"Un altamente automatizado, intuitivo, estacion de trabajo de audio digital "
+"(DAW)"
 
 #: common/footer.j2.inc:7
+#, fuzzy
 msgid "Developer Team"
-msgstr ""
+msgstr "Equipo Desarrollador"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 #, fuzzy
 #| msgid "Zrythm"
 msgid "About Zrythm"
-msgstr "Zrythm es"
+msgstr "Acerca de Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:65
+#, fuzzy
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Sistema de Incidencias"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:66
 msgid "Source Code"
-msgstr ""
+msgstr "Código Fuente"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:81
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:82
 msgid "FAQ"
-msgstr ""
+msgstr "Preguntas Frecuentes"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
@@ -70,15 +76,15 @@ msgstr ""
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "Comunidad"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "Foro"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr ""
+msgstr "Discusión"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
@@ -86,27 +92,28 @@ msgstr ""
 
 #: common/navigation.j2.inc:61
 msgid "Development"
-msgstr ""
+msgstr "Desarrollo"
 
 #: common/navigation.j2.inc:64
 msgid "Developer Docs"
-msgstr ""
+msgstr "Documentos de Desarrollador"
 
 #: common/navigation.j2.inc:76
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: common/navigation.j2.inc:79 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriales"
 
 #: common/navigation.j2.inc:80
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
+#, fuzzy
 msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr ""
+msgstr "Zrythm ha migrado a GitLab autohospedado"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
 msgid ""
@@ -135,8 +142,9 @@ msgid "Note: We will be taking down the self-hosted version soon."
 msgstr ""
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+#, fuzzy
 msgid "Happy translating!"
-msgstr ""
+msgstr "¡ Feliz traducción!"
 
 #: template/about.html.j2:8
 msgid ""
@@ -148,14 +156,17 @@ msgid ""
 msgstr ""
 
 #: template/about.html.j2:14
+#, fuzzy
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Zrythm es software libre bajo la licencia GPLv3 + y su código fuente está "
+"disponible en nuestro GitLab ejemplo."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "Información de Contacto"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
@@ -174,7 +185,7 @@ msgstr ""
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
-msgstr ""
+msgstr "El Canal IRC/Matrix"
 
 #: template/contact.html.j2:29
 msgid ""
