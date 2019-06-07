@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-07 16:43+0100\n"
+"POT-Creation-Date: 2019-06-07 17:53+0100\n"
 "PO-Revision-Date: 2019-06-06 06:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://translate.zrythm.org/projects/zrythm/"
@@ -421,31 +421,48 @@ msgid "Limitless Automation"
 msgstr "無限のオートメーション"
 
 #: template/index.html.j2:189
-msgid "Automate almost anything with built-in envelopes and automation curves."
+#, fuzzy
+#| msgid ""
+#| "Automate almost anything with built-in envelopes and automation curves."
+msgid ""
+"Automate almost anything with automation tracks using straight lines, ramps "
+"and curves."
 msgstr ""
 "内蔵エンベロープとオートメーションカーブを使って、ほとんどすべてを自動化。"
 
-#: template/index.html.j2:198
-msgid "Feature 2"
-msgstr "機能2"
+#: template/index.html.j2:199
+msgid "Built-in Modulators"
+msgstr ""
 
-#: template/index.html.j2:201 template/index.html.j2:245
-msgid "Cool."
-msgstr "かっこいい。"
+#: template/index.html.j2:202
+msgid ""
+"Modulate plugin controls using built-in LFOs, envelopes and other modulators "
+"in the modulators tab."
+msgstr ""
 
-#: template/index.html.j2:209
+#: template/index.html.j2:211
+msgid "Chord Assistance"
+msgstr ""
+
+#: template/index.html.j2:213
+msgid ""
+"A chord pad for quickly trying out chords in a scale and a chord track to "
+"help with chord progressions."
+msgstr ""
+
+#: template/index.html.j2:225
 msgid "LV2 Plugins"
 msgstr "LV2プラグイン"
 
-#: template/index.html.j2:211
+#: template/index.html.j2:227
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr "オーディオプラグインのオープンスタンダードであるLV2で動作します。"
 
-#: template/index.html.j2:222
+#: template/index.html.j2:235
 msgid "Speaks Your Language"
 msgstr "あなたの言語を話す"
 
-#: template/index.html.j2:224
+#: template/index.html.j2:237
 #, fuzzy
 #| msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgid ""
@@ -455,19 +472,17 @@ msgstr ""
 "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言語"
 "で利用可能です。"
 
-#: template/index.html.j2:233
+#: template/index.html.j2:246
 msgid "Cross-platform"
 msgstr "クロスプラットフォーム"
 
-#: template/index.html.j2:235
-msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
+#: template/index.html.j2:248
+#, fuzzy
+#| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
+msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
 msgstr "Windows、GNU / Linux、FreeBSD、およびMacOSで動作します"
 
-#: template/index.html.j2:243
-msgid "Feature 5"
-msgstr "機能５"
-
-#: template/index.html.j2:258
+#: template/index.html.j2:261
 msgid "News"
 msgstr "ニュース"
 
@@ -713,6 +728,15 @@ msgstr "2011年"
 #: template/video.html.j2:26
 msgid "2010"
 msgstr "2010年"
+
+#~ msgid "Feature 2"
+#~ msgstr "機能2"
+
+#~ msgid "Cool."
+#~ msgstr "かっこいい。"
+
+#~ msgid "Feature 5"
+#~ msgstr "機能５"
 
 #~ msgid "System Architecture"
 #~ msgstr "システム構成"

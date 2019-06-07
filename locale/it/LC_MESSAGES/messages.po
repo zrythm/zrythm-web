@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-07 16:43+0100\n"
+"POT-Creation-Date: 2019-06-07 17:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -347,48 +347,58 @@ msgid "Limitless Automation"
 msgstr ""
 
 #: template/index.html.j2:189
-msgid "Automate almost anything with built-in envelopes and automation curves."
+msgid ""
+"Automate almost anything with automation tracks using straight lines, ramps "
+"and curves."
 msgstr ""
 
-#: template/index.html.j2:198
-msgid "Feature 2"
+#: template/index.html.j2:199
+msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:201 template/index.html.j2:245
-msgid "Cool."
-msgstr ""
-
-#: template/index.html.j2:209
-msgid "LV2 Plugins"
+#: template/index.html.j2:202
+msgid ""
+"Modulate plugin controls using built-in LFOs, envelopes and other modulators "
+"in the modulators tab."
 msgstr ""
 
 #: template/index.html.j2:211
+msgid "Chord Assistance"
+msgstr ""
+
+#: template/index.html.j2:213
+msgid ""
+"A chord pad for quickly trying out chords in a scale and a chord track to "
+"help with chord progressions."
+msgstr ""
+
+#: template/index.html.j2:225
+msgid "LV2 Plugins"
+msgstr ""
+
+#: template/index.html.j2:227
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:222
+#: template/index.html.j2:235
 msgid "Speaks Your Language"
 msgstr ""
 
-#: template/index.html.j2:224
+#: template/index.html.j2:237
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
 
-#: template/index.html.j2:233
+#: template/index.html.j2:246
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:235
-msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
+#: template/index.html.j2:248
+msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
 msgstr ""
 
-#: template/index.html.j2:243
-msgid "Feature 5"
-msgstr ""
-
-#: template/index.html.j2:258
+#: template/index.html.j2:261
 msgid "News"
 msgstr ""
 
