@@ -7,19 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-07 17:53+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-05-30 16:10+0100\n"
+"PO-Revision-Date: 2019-06-07 18:20+0000\n"
+"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
+"web/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:129
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
@@ -31,27 +34,27 @@ msgstr ""
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
-msgstr ""
+msgstr "Om"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:65
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Feilsporer"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:66
 msgid "Source Code"
-msgstr ""
+msgstr "Kildekode"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:81
 msgid "Manual"
-msgstr ""
+msgstr "Manuell"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:82
 msgid "FAQ"
-msgstr ""
+msgstr "O-S-S"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
@@ -67,11 +70,11 @@ msgstr ""
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "Fellesskap"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
@@ -83,7 +86,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:61
 msgid "Development"
-msgstr ""
+msgstr "Utvikling"
 
 #: common/navigation.j2.inc:64
 msgid "Developer Docs"
@@ -91,7 +94,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:76
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasjon"
 
 #: common/navigation.j2.inc:79 template/tutorial.html.j2:5
 msgid "Tutorials"
@@ -99,7 +102,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:80
 msgid "Glossary"
-msgstr ""
+msgstr "Ordliste"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
@@ -152,11 +155,11 @@ msgstr ""
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "Kontaktinformasjon"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
-msgstr ""
+msgstr "E-postliste"
 
 #: template/contact.html.j2:15
 msgid ""
