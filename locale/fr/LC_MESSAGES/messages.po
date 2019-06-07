@@ -8,16 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-07 17:53+0100\n"
-"PO-Revision-Date: 2019-06-06 06:25+0000\n"
-"Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
-"Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
-"fr/>\n"
+"PO-Revision-Date: 2019-06-11 22:43+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
@@ -131,7 +130,7 @@ msgstr "Calendrier de sortie"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
 msgid "Translations Now Hosted at Weblate.org"
-msgstr ""
+msgstr "Traductions maintenant hébergées sur Weblate.org"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
 msgid ""
@@ -139,14 +138,17 @@ msgid ""
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
+"Grâce au généreux hébergement fourni par les gars de weblate.org, Zrythm "
+"peut maintenant y être traduit ! <a href=\"https://hosted.weblate.org/engage/"
+"zrythm/\"> Cliquez ici </a> pour commencer."
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
 msgid "Note: We will be taking down the self-hosted version soon."
-msgstr ""
+msgstr "Note : nous retirerons bientôt la version hébergée par nos soins."
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
 msgid "Happy translating!"
-msgstr ""
+msgstr "Bonne traduction !"
 
 #: template/about.html.j2:8
 msgid ""
@@ -160,8 +162,8 @@ msgstr ""
 "à outils GTK+3 et emprunte des idées, des concepts et du code à d'autres "
 "projets tels qu'Ardour et Jalv. Il est conçu pour être intuitif à utiliser "
 "et est construit avec l'intention de fournir aux utilisateurs de GNU/Linux "
-"une alternative complète aux STANs propriétaires, tout en offrant une "
-"approche unique de l'ergonomie que les autres STANs GNU/Linux n'ont pas."
+"une alternative complète aux STAN propriétaires, tout en offrant une "
+"approche unique de l'ergonomie que les autres STAN GNU/Linux n'ont pas."
 
 #: template/about.html.j2:14
 msgid ""
@@ -314,11 +316,11 @@ msgstr ""
 
 #: template/faq.html.j2:14
 msgid "Enable the universe repository:"
-msgstr "Activer le dépôt universel:"
+msgstr "Activer le dépôt universel :"
 
 #: template/faq.html.j2:19
 msgid "What plugin protocols are supported?"
-msgstr "Quels formats de greffons sont  pris en charge?"
+msgstr "Quels formats de greffons sont pris en charge ?"
 
 #: template/faq.html.j2:21
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
@@ -337,7 +339,7 @@ msgid ""
 msgstr ""
 "Zrythm est une Station de Travail Audio Numérique (STAN) hautement "
 "automatisée, conçue pour une utilisation fonctionnelle et intuitive. Zrythm "
-"se distingue des autres STANs en permettant une automation poussée via des "
+"se distingue des autres STAN en permettant une automation poussée via des "
 "LFOs et des enveloppes intégrées, ainsi qu'une édition et un arrangement "
 "MIDI/audio intuitifs via les clips."
 
@@ -367,7 +369,7 @@ msgstr "Téléchargement"
 
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
-msgstr "Rejoignez nous et soutenez nous!"
+msgstr "Rejoignez nous et soutenez nous !"
 
 #: template/index.html.j2:116
 msgid ""
@@ -376,12 +378,10 @@ msgid ""
 "html'> https://www.gnu.org/philosophy/free-software-even-more-important."
 "html</a>"
 msgstr ""
-"<em>Zrythm respecte vos libertés, mais certaines plateformes ne le font pas. "
-"Pour être libre, vous devez arrêter d'utiliser Windows ou les autres "
-"logiciels vous privent de vos libertés.  Pour plus d'informations, voir <a "
-"href='https://www.gnu.org/philosophy/free-software-even-more-important."
-"html'> https://www.gnu.org/philosophy/free-software-even-more-important."
-"html</a></em>"
+"Zrythm respecte votre liberté, mais certaines plateformes ne le font pas. "
+"Plus d'informations : <a href='https://www.gnu.org/philosophy/free-software-"
+"even-more-important.html'> https://www.gnu.org/philosophy/free-software-even-"
+"more-important.html</a>"
 
 #: template/index.html.j2:135
 msgid "Automated"
@@ -430,35 +430,36 @@ msgid "Limitless Automation"
 msgstr "Automation sans limite"
 
 #: template/index.html.j2:189
-#, fuzzy
-#| msgid ""
-#| "Automate almost anything with built-in envelopes and automation curves."
 msgid ""
 "Automate almost anything with automation tracks using straight lines, ramps "
 "and curves."
 msgstr ""
-"Automatisez presque tout avec des enveloppes et des courbes d'automation "
-"intégrées."
+"Automatisez presque tout avec des pistes d'automatisation à l'aide de lignes "
+"droites, de rampes et de courbes."
 
 #: template/index.html.j2:199
 msgid "Built-in Modulators"
-msgstr ""
+msgstr "Modulateurs intégrés"
 
 #: template/index.html.j2:202
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
+"Moduler les contrôles des greffons à l'aide des LFOs, enveloppes et autres "
+"modulateurs intégrés dans l'onglet des modulateurs."
 
 #: template/index.html.j2:211
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Assistance aux accords"
 
 #: template/index.html.j2:213
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
+"Un pad d'accords pour essayer rapidement des accords dans une gamme et une "
+"piste d'accords pour vous aider avec les progressions d'accords."
 
 #: template/index.html.j2:225
 msgid "LV2 Plugins"
@@ -474,26 +475,20 @@ msgid "Speaks Your Language"
 msgstr "Parlez votre langue"
 
 #: template/index.html.j2:237
-#, fuzzy
-#| msgid ""
-#| "Available in English, German, French, Italian, Spanish, Japanese and many "
-#| "more languages."
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
-"Disponible en anglais, allemand, français, italien, espagnol, japonais et "
-"dans de nombreuses autres langues."
+"Disponible en anglais, allemand, français, italien, espagnol, japonais et de "
+"nombreuses autres langues."
 
 #: template/index.html.j2:246
 msgid "Cross-platform"
 msgstr "Multi-plateforme"
 
 #: template/index.html.j2:248
-#, fuzzy
-#| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
-msgstr "Fonctionne sous Windows, GNU / Linux, FreeBSD et MacOS"
+msgstr "Fonctionne sous Windows, GNU / Linux, FreeBSD et MacOS."
 
 #: template/index.html.j2:261
 msgid "News"
@@ -557,14 +552,6 @@ msgid "Translate"
 msgstr "Traduire"
 
 #: template/join-us.html.j2:38
-#, fuzzy
-#| msgid ""
-#| "If you can speak a foreign language and want to help, please take a look "
-#| "at the <a href=\"https://manual.zrythm.org/en/contributing/translating."
-#| "html\">translation instructions</a>. Translating Zrythm and its "
-#| "components is done via <a href=\"https://translate.zrythm.org/projects/"
-#| "zrythm\"> a simple web interface</a> so no coding experience is needed. "
-#| "All you need is a web browser."
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
@@ -576,10 +563,10 @@ msgstr ""
 "Si vous parlez une langue étrangère et que vous souhaitez nous aider, "
 "veuillez consulter les rubriques suivantes<a href=\"https://manual.zrythm."
 "org/en/contributing/translating.html\">instructions de traduction</a>. La "
-"traduction de Zrythm et de ses composants se fait par <a href=\"https://"
-"translate.zrythm.org/projects/zrythm\">  une interface web simple</a> donc "
-"aucune expérience de codage n'est nécessaire. Tout ce dont vous avez besoin, "
-"c'est d'un navigateur Web."
+"traduction de Zrythm et de ses composants se fait par <a href=\""
+"https://hosted.weblate.org/engage/zrythm/\">  une interface web simple</a> "
+"donc aucune expérience de codage n'est nécessaire. Tout ce dont vous avez "
+"besoin, c'est d'un navigateur Web."
 
 #: template/join-us.html.j2:51
 msgid "Test"
