@@ -3,36 +3,38 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-07 17:53+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-06-11 22:43+0000\n"
+"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
+#, fuzzy
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:129
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
-msgstr ""
+msgstr "Un altamente automatizzato, intuitivo, Digital Audio Workstation (DAW)"
 
 #: common/footer.j2.inc:7
 msgid "Developer Team"
-msgstr ""
+msgstr "Team di sviluppatori"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "Contatto"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
@@ -40,19 +42,19 @@ msgstr ""
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:65
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Problemi Segnalati"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:66
 msgid "Source Code"
-msgstr ""
+msgstr "Codice Sorgente"
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:81
 msgid "Manual"
-msgstr ""
+msgstr "Manuale"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:82
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
@@ -68,39 +70,39 @@ msgstr ""
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "Comunità"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr ""
+msgstr "Discussione"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "Unisciti a Noi"
 
 #: common/navigation.j2.inc:61
 msgid "Development"
-msgstr ""
+msgstr "Sviluppo"
 
 #: common/navigation.j2.inc:64
 msgid "Developer Docs"
-msgstr ""
+msgstr "Documenti per Sviluppatori"
 
 #: common/navigation.j2.inc:76
 msgid "Documentation"
-msgstr ""
+msgstr "Documentazione"
 
 #: common/navigation.j2.inc:79 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutorial"
 
 #: common/navigation.j2.inc:80
 msgid "Glossary"
-msgstr ""
+msgstr "Glossario"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
@@ -137,6 +139,7 @@ msgid "Happy translating!"
 msgstr ""
 
 #: template/about.html.j2:8
+#, fuzzy
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
 "and borrows ideas, concepts and code from other projects such as Ardour and "
@@ -144,20 +147,29 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
+"Zrythm è un'applicazione nativa GNU/Linux costruita utilizzando C e il "
+"toolkit GTK + 3 e prende in prestito idee, concetti e codice da altri "
+"progetti come Ardour e Jalv. È progettato per essere intuitivo da usare ed è "
+"costruito con l'intenzione di fornire agli utenti GNU/Linux un'alternativa "
+"completa alle DAW proprietarie, offrendo al contempo un approccio unico al "
+"flusso di lavoro che altri GNU/Linux DAWs mancano."
 
 #: template/about.html.j2:14
+#, fuzzy
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Zrythm è software libero rilasciato sotto licenza GPLv3+ e il suo codice "
+"sorgente è disponibile sul nostro GitLab istanza."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "Informazioni di Contatto"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
-msgstr ""
+msgstr "La mailing list"
 
 #: template/contact.html.j2:15
 msgid ""
@@ -172,7 +184,7 @@ msgstr ""
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
-msgstr ""
+msgstr "Il canale IRC/Matrix"
 
 #: template/contact.html.j2:29
 msgid ""
@@ -271,30 +283,42 @@ msgid "Namespaces"
 msgstr ""
 
 #: template/index.html.j2:44
+#, fuzzy
 msgid ""
 "Zrythm is a highly automated Digital Audio Workstation (DAW) designed to be "
 "featureful and intuitive to use. Zrythm sets itself apart from other DAWs by "
 "allowing extensive automation via built-in LFOs and envelopes and intuitive "
 "MIDI/audio editing and arranging via clips."
 msgstr ""
+"Zrythm è una Digital audio workstation (DAW) altamente automatizzata "
+"progettata per essere intuitiva e intuitivo da usare. Zrythm si distingue "
+"dagli altri DAW consentendo un'ampia automazione tramite LFO incorporati e "
+"buste e l'editing MIDI/audio intuitivo e l'organizzazione tramite clip."
 
 #: template/index.html.j2:48
+#, fuzzy
 msgid ""
 "In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most "
 "focus on the Composing part. It allows musicians to quickly lay down and "
 "process their musical ideas without taking too much time for unnecessary "
 "work."
 msgstr ""
+"Nel consueto processo di composizione-> mixing-> mastering, Zrythm mette il "
+"massimo focus sulla parte di composizione. Esso consente ai musicisti di "
+"stabilire rapidamente e elaborare le loro idee musicali senza prendere "
+"troppo tempo per il lavoro inutile."
 
 #: template/index.html.j2:52
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the GPLv3+."
 msgstr ""
+"Zrythm è <a href=\"http://www.gnu.org/philosophy/free-sw.html\">software "
+"libero</a> con licenza GPLv3+."
 
 #: template/index.html.j2:60
 msgid "Download"
-msgstr ""
+msgstr "Scarica"
 
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
@@ -307,10 +331,14 @@ msgid ""
 "html'> https://www.gnu.org/philosophy/free-software-even-more-important."
 "html</a>"
 msgstr ""
+"Zrythm rispetta la tua libertà, ma alcune piattaforme non lo fanno. "
+"Ulteriori informazioni in <a href='https://www.gnu.org/philosophy/free-"
+"software-even-more-important.html'>https://www.gnu.org/philosophy/free-"
+"software-even-more-important.html</a>"
 
 #: template/index.html.j2:135
 msgid "Automated"
-msgstr ""
+msgstr "Automatizzato"
 
 #: template/index.html.j2:137
 msgid ""
@@ -320,7 +348,7 @@ msgstr ""
 
 #: template/index.html.j2:147
 msgid "Intuitive"
-msgstr ""
+msgstr "Intuitivo"
 
 #: template/index.html.j2:149
 msgid ""
@@ -340,7 +368,7 @@ msgstr ""
 
 #: template/index.html.j2:177
 msgid "Features"
-msgstr ""
+msgstr "Funzionalità"
 
 #: template/index.html.j2:186
 msgid "Limitless Automation"
