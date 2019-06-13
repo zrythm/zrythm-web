@@ -29,12 +29,12 @@
     <p>
     {% trans %}
     Copyright &copy; Alexandros Theodotou 2019<br>
-    This page was created using <a href='https://www.gnu.org/'>Free Software</a> only.<br>
-    Report issues with this website to <a href='https://git.zrythm.org/zrythm/zrythm-web/issues'>us</a>.
+    This page was created using <a href="https://www.gnu.org/">Free Software</a> only.</br>
+    <a href="https://git.zrythm.org/zrythm/zrythm-web">Source code of this site.</a></br>
+    Report issues with this website to <a href="https://git.zrythm.org/zrythm/zrythm-web/issues">us</a>.
     {% endtrans %}
     </p>
     <p><em><small>
-      This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
     </p></em></small>
   </div>
 </footer>
