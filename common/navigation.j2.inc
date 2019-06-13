@@ -97,7 +97,7 @@
         <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></img></a>
       </li>
       <li class="nav-item badge">
-        <a href="https://liberapay.com/Zrythm"><img src="http://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></img></a>
+        <a href="https://liberapay.com/Zrythm"><img src="https://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></img></a>
       </li>
     </ul>
     <ul class="navbar-nav navbar-right nav">
