@@ -1,6 +1,8 @@
 <article>
 <h3>
-<a href="#early-alpha-release" id="early-alpha-release">Release v0.4.003 (early alpha)</a>
+<a href="#early-alpha-release" id="early-alpha-release">
+  2019-04-15 - {{ _("Release v0.4.003 (early alpha)") }}
+</a>
 </h3>
 
 <h4>It's here!</h4>

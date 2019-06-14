@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-13 23:40+0100\n"
+"POT-Creation-Date: 2019-06-15 00:36+0100\n"
 "PO-Revision-Date: 2019-06-06 06:25+0000\n"
 "Last-Translator: Nicolas Faure <sub26nico@laposte.net>\n"
 "Language-Team: French <https://translate.zrythm.org/projects/zrythm/website/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:129
+#: common/base.j2:6 template/index.html.j2:137
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 "Une Station de Travail Audio Numérique (STAN) hautement automatisée et "
@@ -125,22 +125,30 @@ msgstr ""
 msgid "Release Schedule"
 msgstr "Calendrier de sortie"
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+#: news/2019-04-15-early-alpha-release.j2.inc:4
+msgid "Release v0.4.003 (early alpha)"
+msgstr ""
+
+#: news/2019-05-04-translation-portal-launched.j2.inc:4
+msgid "Translation Portal Launched!"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
 msgid "Translations Now Hosted at Weblate.org"
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
 msgid ""
 "Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
 msgid "Note: We will be taking down the self-hosted version soon."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
 msgstr ""
 
@@ -361,11 +369,11 @@ msgstr ""
 msgid "Download"
 msgstr "Téléchargement"
 
-#: template/index.html.j2:109
+#: template/index.html.j2:117
 msgid "Join &amp; support us!"
 msgstr "Rejoignez nous et soutenez nous!"
 
-#: template/index.html.j2:116
+#: template/index.html.j2:124
 msgid ""
 "Zrythm respects your freedom, but some platforms do not. More info at <a "
 "href='https://www.gnu.org/philosophy/free-software-even-more-important."
@@ -379,11 +387,11 @@ msgstr ""
 "html'> https://www.gnu.org/philosophy/free-software-even-more-important."
 "html</a></em>"
 
-#: template/index.html.j2:135
+#: template/index.html.j2:143
 msgid "Automated"
 msgstr "Automatisé"
 
-#: template/index.html.j2:137
+#: template/index.html.j2:145
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
@@ -392,11 +400,11 @@ msgstr ""
 "courbes d'automation pour une automation plus détaillée, des clips pour "
 "boucler vos notes MIDI et Audio, et plus encore."
 
-#: template/index.html.j2:147
+#: template/index.html.j2:155
 msgid "Intuitive"
 msgstr "Intuitif"
 
-#: template/index.html.j2:149
+#: template/index.html.j2:157
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -405,11 +413,11 @@ msgstr ""
 "intuitives pour effectuer les tâches, permettant ainsi un flux de travail "
 "plus rapide."
 
-#: template/index.html.j2:158
+#: template/index.html.j2:166
 msgid "Featureful"
 msgstr "Caractéristique"
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
@@ -417,15 +425,15 @@ msgstr ""
 "Des courbes d'automation, des busses, glisser-déposer des greffons LV2 et "
 "des fichiers audio, des Minimap dans l'arrangeur, etc."
 
-#: template/index.html.j2:177
+#: template/index.html.j2:185
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: template/index.html.j2:186
+#: template/index.html.j2:194
 msgid "Limitless Automation"
 msgstr "Automation sans limite"
 
-#: template/index.html.j2:189
+#: template/index.html.j2:197
 #, fuzzy
 #| msgid ""
 #| "Automate almost anything with built-in envelopes and automation curves."
@@ -436,40 +444,40 @@ msgstr ""
 "Automatisez presque tout avec des enveloppes et des courbes d'automation "
 "intégrées."
 
-#: template/index.html.j2:199
+#: template/index.html.j2:207
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:202
+#: template/index.html.j2:210
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:211
+#: template/index.html.j2:219
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:213
+#: template/index.html.j2:221
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:225
+#: template/index.html.j2:233
 msgid "LV2 Plugins"
 msgstr "Greffons LV2"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr ""
 "Fonctionne avec les greffons LV2, un standard libre pour les greffons audio."
 
-#: template/index.html.j2:235
+#: template/index.html.j2:243
 msgid "Speaks Your Language"
 msgstr "Parlez votre langue"
 
-#: template/index.html.j2:237
+#: template/index.html.j2:245
 #, fuzzy
 #| msgid ""
 #| "Available in English, German, French, Italian, Spanish, Japanese and many "
@@ -481,17 +489,17 @@ msgstr ""
 "Disponible en anglais, allemand, français, italien, espagnol, japonais et "
 "dans de nombreuses autres langues."
 
-#: template/index.html.j2:246
+#: template/index.html.j2:254
 msgid "Cross-platform"
 msgstr "Multi-plateforme"
 
-#: template/index.html.j2:248
+#: template/index.html.j2:256
 #, fuzzy
 #| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
 msgstr "Fonctionne sous Windows, GNU / Linux, FreeBSD et MacOS"
 
-#: template/index.html.j2:261
+#: template/index.html.j2:269
 msgid "News"
 msgstr "Actualités"
 
@@ -698,100 +706,3 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Instructions d'installation de Zrythm :<ul> <li>À FAIRE</li> </ul>"
-
-#: template/video.html.j2:19
-msgid "2017"
-msgstr "2017"
-
-#: template/video.html.j2:20
-msgid "2016"
-msgstr "2016"
-
-#: template/video.html.j2:21
-msgid "2015"
-msgstr "2015"
-
-#: template/video.html.j2:22
-msgid "2014"
-msgstr "2014"
-
-#: template/video.html.j2:23
-msgid "2013"
-msgstr "2013"
-
-#: template/video.html.j2:24
-msgid "2012"
-msgstr "2012"
-
-#: template/video.html.j2:25
-msgid "2011"
-msgstr "2011"
-
-#: template/video.html.j2:26
-msgid "2010"
-msgstr "2010"
-
-#, fuzzy
-#~| msgid ""
-#~| "Copyright &copy; Alexandros Theodotou 2019<br> This page was created "
-#~| "using <a href='https://www.gnu.org/'>Free Software</a> only.<br> Report "
-#~| "issues with this website to <a href='https://git.zrythm.org/zrythm/"
-#~| "zrythm-web/issues'>us</a>."
-#~ msgid ""
-#~ "Copyright &copy; Alexandros Theodotou 2019<br> Copyright &copy; <a href="
-#~ "\"https://gnunet.org/en/ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, 2018, "
-#~ "2019<br>"
-#~ msgstr ""
-#~ "Droits d'auteur et copie; Alexandros Theodotou 2019<br> Cette page a été "
-#~ "créée en utilisant uniquement des <a href='https://www.gnu."
-#~ "org/'>Logiciels Libres</a>.<br> Pour signaler les problèmes \n"
-#~ "avec ce site, contactez <a href='https://git.zrythm.org/zrythm/zrythm-web/"
-#~ "issues'>nous</a>."
-
-#~ msgid "Feature 2"
-#~ msgstr "Fonctionnalités 2"
-
-#~ msgid "Cool."
-#~ msgstr "Sympa."
-
-#~ msgid "Feature 5"
-#~ msgstr "Fonctionnalité 5"
-
-#~ msgid "System Architecture"
-#~ msgstr "Architecture du système"
-
-#~ msgid "Code Documentation"
-#~ msgstr "Documentation du code"
-
-#~ msgid "Support Us!"
-#~ msgstr "Soutenez-nous!"
-
-#~ msgid ""
-#~ "Everybody is welcome to support us via donations. For financial "
-#~ "contributions, Europeans are able to donate via SEPA through LiberaPay. "
-#~ "Major Credit/Debit cards are also accepted. Alternatively, you can donate "
-#~ "via Bitcoin or PayPal. Please note that we are unable to provide receipts "
-#~ "for your donations. If you are planning to donate a significant amount of "
-#~ "money, please contact us first as it might be better to come to a custom "
-#~ "arrangement. <dl><dt>LiberaPay</dt> <dd><a href=\"https://liberapay.com/"
-#~ "Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></dd> <dt>BitCoin</"
-#~ "dt> <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> <dt>Paypal</dt> "
-#~ "<dd><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
-#~ "xclick&hosted_button_id=LZWVK6228PQGE&source=url\">https://www.paypal.com/"
-#~ "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</"
-#~ "a></dd> </dl>"
-#~ msgstr ""
-#~ "Tout le monde est invité à nous soutenir par des dons. Pour les "
-#~ "contributions financières, les Européens peuvent faire un don avec un "
-#~ "SEPA via LiberaPay. Les principales cartes de crédit/débit sont également "
-#~ "acceptées. Vous pouvez également faire un don via Bitcoin ou PayPal. "
-#~ "Veuillez noter que nous ne sommes pas en mesure de fournir des reçus pour "
-#~ "vos dons.  Si vous avez l'intention de faire un don important, veuillez "
-#~ "d'abord nous contacter, car il serait peut-être préférable de conclure "
-#~ "une entente sur mesure. <dl><dt>LiberaPay</dt> <dd><a href=\"https://"
-#~ "liberapay.com/Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></"
-#~ "dd> <dt>BitCoin</dt> <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> "
-#~ "<dt>Paypal</dt> <dd><a href=\"https://www.paypal.com/cgi-bin/webscr?"
-#~ "cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url\">https://www."
-#~ "paypal.com/cgi-bin/webscr?cmd=_s-"
-#~ "xclick&hosted_button_id=LZWVK6228PQGE&source=url</a></dd> </dl>"

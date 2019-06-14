@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-13 23:40+0100\n"
+"POT-Creation-Date: 2019-06-15 00:36+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:129
+#: common/base.j2:6 template/index.html.j2:137
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "高度自动化，直观的数字音频工作站（DAW）"
 
@@ -122,22 +122,30 @@ msgstr ""
 msgid "Release Schedule"
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+#: news/2019-04-15-early-alpha-release.j2.inc:4
+msgid "Release v0.4.003 (early alpha)"
+msgstr ""
+
+#: news/2019-05-04-translation-portal-launched.j2.inc:4
+msgid "Translation Portal Launched!"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
 msgid "Translations Now Hosted at Weblate.org"
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
 msgid ""
 "Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
 msgid "Note: We will be taking down the self-hosted version soon."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
 msgstr ""
 
@@ -334,11 +342,11 @@ msgstr ""
 msgid "Download"
 msgstr "下载"
 
-#: template/index.html.j2:109
+#: template/index.html.j2:117
 msgid "Join &amp; support us!"
 msgstr "加入并支持我们！"
 
-#: template/index.html.j2:116
+#: template/index.html.j2:124
 msgid ""
 "Zrythm respects your freedom, but some platforms do not. More info at <a "
 "href='https://www.gnu.org/philosophy/free-software-even-more-important."
@@ -346,11 +354,11 @@ msgid ""
 "html</a>"
 msgstr ""
 
-#: template/index.html.j2:135
+#: template/index.html.j2:143
 msgid "Automated"
 msgstr "一个自动化的"
 
-#: template/index.html.j2:137
+#: template/index.html.j2:145
 #, fuzzy
 #| msgid ""
 #| "Built-in LFOs and envelopes to use for automating controls. Automation "
@@ -361,11 +369,11 @@ msgid ""
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr "内置LFO和信封，用于自动控制"
 
-#: template/index.html.j2:147
+#: template/index.html.j2:155
 msgid "Intuitive"
 msgstr "直觀"
 
-#: template/index.html.j2:149
+#: template/index.html.j2:157
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -373,25 +381,25 @@ msgstr ""
 "Zrythm尝试保持界面清洁和愉快，使用直观的方式完成工作，从而实现更快的工作流"
 "程。"
 
-#: template/index.html.j2:158
+#: template/index.html.j2:166
 msgid "Featureful"
 msgstr "特性吧"
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr "自动化曲线，总线，拖放LV2插件和音频文件，Arranger Minimap等。"
 
-#: template/index.html.j2:177
+#: template/index.html.j2:185
 msgid "Features"
 msgstr "功能"
 
-#: template/index.html.j2:186
+#: template/index.html.j2:194
 msgid "Limitless Automation"
 msgstr "无限自动化"
 
-#: template/index.html.j2:189
+#: template/index.html.j2:197
 #, fuzzy
 #| msgid ""
 #| "Automate almost anything with built-in envelopes and automation curves."
@@ -400,41 +408,41 @@ msgid ""
 "and curves."
 msgstr "使用内置信封和自动化曲线自动化几乎所有内容。"
 
-#: template/index.html.j2:199
+#: template/index.html.j2:207
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:202
+#: template/index.html.j2:210
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:211
+#: template/index.html.j2:219
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:213
+#: template/index.html.j2:221
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:225
+#: template/index.html.j2:233
 msgid "LV2 Plugins"
 msgstr "LV2插件"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 #, fuzzy
 #| msgid "Works with LV2, the open standard for audio plugins."
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr "适用于音频插件的开放标准LV2。"
 
-#: template/index.html.j2:235
+#: template/index.html.j2:243
 msgid "Speaks Your Language"
 msgstr "说你的语言"
 
-#: template/index.html.j2:237
+#: template/index.html.j2:245
 #, fuzzy
 #| msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgid ""
@@ -442,17 +450,17 @@ msgid ""
 "more languages."
 msgstr "提供英语，德语，法语，意大利语，西班牙语和日语。"
 
-#: template/index.html.j2:246
+#: template/index.html.j2:254
 msgid "Cross-platform"
 msgstr "跨平台"
 
-#: template/index.html.j2:248
+#: template/index.html.j2:256
 #, fuzzy
 #| msgid "Works on Windows, GNU/Linux and Mac OS"
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
 msgstr "它运行在Windows、GNU/Linux和Mac OS上。"
 
-#: template/index.html.j2:261
+#: template/index.html.j2:269
 msgid "News"
 msgstr "新闻"
 
@@ -632,152 +640,3 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr ""
-
-#: template/video.html.j2:19
-msgid "2017"
-msgstr ""
-
-#: template/video.html.j2:20
-msgid "2016"
-msgstr ""
-
-#: template/video.html.j2:21
-msgid "2015"
-msgstr ""
-
-#: template/video.html.j2:22
-msgid "2014"
-msgstr ""
-
-#: template/video.html.j2:23
-msgid "2013"
-msgstr ""
-
-#: template/video.html.j2:24
-msgid "2012"
-msgstr ""
-
-#: template/video.html.j2:25
-msgid "2011"
-msgstr ""
-
-#: template/video.html.j2:26
-msgid "2010"
-msgstr ""
-
-#, fuzzy
-#~| msgid ""
-#~| "Copyright &copy; <a href=\"ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, "
-#~| "2018, 2019<br> This page was created using <a href='https://www.gnu."
-#~| "org/'>Free Software</a> only.<br> Report issues with this website to <a "
-#~| "href='contact.html'>us</a>."
-#~ msgid ""
-#~ "Copyright &copy; Alexandros Theodotou 2019<br> Copyright &copy; <a href="
-#~ "\"https://gnunet.org/en/ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, 2018, "
-#~ "2019<br>"
-#~ msgstr ""
-#~ "Copyright &copy; <a href=\"ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, "
-#~ "2018, 2019<br> Diese Seite wurde nur mit <a href='https://www.gnu."
-#~ "org/'>Freier Software</a> erstellt.<br> Probleme bitte <a href='contact."
-#~ "html'>hier</a> melden."
-
-#~ msgid "Feature 2"
-#~ msgstr "特征 2"
-
-#~ msgid "Cool."
-#~ msgstr "酷。"
-
-#~ msgid "Feature 5"
-#~ msgstr "特征 5"
-
-#~ msgid "System Architecture"
-#~ msgstr "系统架构"
-
-#, fuzzy
-#~| msgid "Documentation"
-#~ msgid "Code Documentation"
-#~ msgstr "代码文档"
-
-#~ msgid "Support Us!"
-#~ msgstr "请支持我们！"
-
-#~ msgid ""
-#~ "Everybody is welcome to support us via donations. For financial "
-#~ "contributions, Europeans are able to donate via SEPA through LiberaPay. "
-#~ "Major Credit/Debit cards are also accepted. Alternatively, you can donate "
-#~ "via Bitcoin or PayPal. Please note that we are unable to provide receipts "
-#~ "for your donations. If you are planning to donate a significant amount of "
-#~ "money, please contact us first as it might be better to come to a custom "
-#~ "arrangement. <dl><dt>LiberaPay</dt> <dd><a href=\"https://liberapay.com/"
-#~ "Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></dd> <dt>BitCoin</"
-#~ "dt> <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> <dt>Paypal</dt> "
-#~ "<dd><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
-#~ "xclick&hosted_button_id=LZWVK6228PQGE&source=url\">https://www.paypal.com/"
-#~ "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</"
-#~ "a></dd> </dl>"
-#~ msgstr "欢迎每个人通过捐款支持我们"
-
-#~ msgid ""
-#~ "Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</"
-#~ "tt>. Most of us support receiving GnuPG encrypted Emails."
-#~ msgstr "Zrythm开发人员通常可以通过<tt>PSEUDONYM@zrythm.org</tt>访问"
-
-#~ msgid "GNUnet for developers"
-#~ msgstr "GNUNet für Entwickeler"
-
-#~ msgid "Repositories"
-#~ msgstr "库"
-
-#~ msgid ""
-#~ "A list of our Git repositories can be found on our our <a href=\"https://"
-#~ "git.gnunet.org/\">Git Server</a>."
-#~ msgstr ""
-#~ "我们的<a href=\"https://git.gnunet.org/\">Git服务器</a>上可以找到我们的Git"
-#~ "存储库列表。"
-
-#~ msgid "Bibliography"
-#~ msgstr "参考书目"
-
-#~ msgid "Regression Testing"
-#~ msgstr "Regressionstests"
-
-#~ msgid "Code Coverage Analysis"
-#~ msgstr "Codeabdeckungsanalyse"
-
-#~ msgid "Performance Analysis"
-#~ msgstr "Leistungsanalyse"
-
-#, fuzzy
-#~| msgid "Documentation"
-#~ msgid "Motivation"
-#~ msgstr "文档"
-
-#, fuzzy
-#~| msgid "Downloads"
-#~ msgid "Downloads"
-#~ msgstr "下载"
-
-#, fuzzy
-#~| msgid "Reporting bugs"
-#~ msgid "Reporting Bugs"
-#~ msgstr "报告缺陷"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the Source Code"
-#~ msgstr "源代码"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the source code"
-#~ msgstr "源代码"
-
-#, fuzzy
-#~| msgid "GNUnet for developers"
-#~ msgid "Option 2: GNUnet for development"
-#~ msgstr "GNUNet für Entwickeler"
-
-#, fuzzy
-#~| msgid "Contact information"
-#~ msgid "Configuration"
-#~ msgstr "联系信息"

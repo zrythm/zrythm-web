@@ -1,9 +1,9 @@
 <article>
 <h3>
-<a id="translation-portal-launched" href="#translation-portal-launched">Translation Portal Launched!</a>
+<a id="translation-portal-launched" href="#translation-portal-launched">
+  2019-05-04 - {{ _("Translation Portal Launched!") }}</a>
 </h3>
 
-<h4>Translation Made Easy</h4>
 <p>
 <img class="news_img" src="/static/images/translate.png" alt="Translation Portal"/>
 <br>

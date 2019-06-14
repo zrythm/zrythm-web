@@ -1,6 +1,7 @@
 <article>
 <h3>
-<a id="zrythm-translations-hosted-weblate-org" href="#zrythm-translations-hosted-weblate-org">{{ _("Translations Now Hosted at Weblate.org") }}</a>
+<a id="zrythm-translations-hosted-weblate-org" href="#zrythm-translations-hosted-weblate-org">
+  2019-06-07 - {{ _("Translations Now Hosted at Weblate.org") }}</a>
 </h3>
 
 <p>

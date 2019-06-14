@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-13 23:40+0100\n"
+"POT-Creation-Date: 2019-06-15 00:36+0100\n"
 "PO-Revision-Date: 2019-06-06 06:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://translate.zrythm.org/projects/zrythm/"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:129
+#: common/base.j2:6 template/index.html.j2:137
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "高度に自動化された直感的なデジタルオーディオワークステーション（DAW）"
 
@@ -123,22 +123,30 @@ msgstr ""
 msgid "Release Schedule"
 msgstr "リリーススケジュール"
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+#: news/2019-04-15-early-alpha-release.j2.inc:4
+msgid "Release v0.4.003 (early alpha)"
+msgstr ""
+
+#: news/2019-05-04-translation-portal-launched.j2.inc:4
+msgid "Translation Portal Launched!"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
 msgid "Translations Now Hosted at Weblate.org"
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
 msgid ""
 "Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
 msgid "Note: We will be taking down the self-hosted version soon."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
 msgstr ""
 
@@ -350,11 +358,11 @@ msgstr ""
 msgid "Download"
 msgstr "ダウンロード"
 
-#: template/index.html.j2:109
+#: template/index.html.j2:117
 msgid "Join &amp; support us!"
 msgstr "参加して支援する！"
 
-#: template/index.html.j2:116
+#: template/index.html.j2:124
 msgid ""
 "Zrythm respects your freedom, but some platforms do not. More info at <a "
 "href='https://www.gnu.org/philosophy/free-software-even-more-important."
@@ -367,11 +375,11 @@ msgstr ""
 "org/philosophy/free-software-even-more-important.html'> https://www.gnu.org/"
 "philosophy/free-software-even-more-important.html</a></em>"
 
-#: template/index.html.j2:135
+#: template/index.html.j2:143
 msgid "Automated"
 msgstr "自動化された"
 
-#: template/index.html.j2:137
+#: template/index.html.j2:145
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
@@ -380,11 +388,11 @@ msgstr ""
 "メーションのためのオートメーションカーブ、あなたのMIDIノート/オーディオをルー"
 "プさせるためのクリップなど。"
 
-#: template/index.html.j2:147
+#: template/index.html.j2:155
 msgid "Intuitive"
 msgstr "直感的"
 
-#: template/index.html.j2:149
+#: template/index.html.j2:157
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -392,11 +400,11 @@ msgstr ""
 "Zrythmは直感的な作業方法でより速いワークフローを可能にすることで、インター"
 "フェースをクリーンで快適に操作できるようにします。"
 
-#: template/index.html.j2:158
+#: template/index.html.j2:166
 msgid "Featureful"
 msgstr "特徴がある"
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
@@ -404,15 +412,15 @@ msgstr ""
 "オートメーションカーブ、バス、LV2プラグインとオーディオファイル、アレンジャー"
 "ミニマップなど。"
 
-#: template/index.html.j2:177
+#: template/index.html.j2:185
 msgid "Features"
 msgstr "特長"
 
-#: template/index.html.j2:186
+#: template/index.html.j2:194
 msgid "Limitless Automation"
 msgstr "無限のオートメーション"
 
-#: template/index.html.j2:189
+#: template/index.html.j2:197
 #, fuzzy
 #| msgid ""
 #| "Automate almost anything with built-in envelopes and automation curves."
@@ -422,39 +430,39 @@ msgid ""
 msgstr ""
 "内蔵エンベロープとオートメーションカーブを使って、ほとんどすべてを自動化。"
 
-#: template/index.html.j2:199
+#: template/index.html.j2:207
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:202
+#: template/index.html.j2:210
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:211
+#: template/index.html.j2:219
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:213
+#: template/index.html.j2:221
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:225
+#: template/index.html.j2:233
 msgid "LV2 Plugins"
 msgstr "LV2プラグイン"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr "オーディオプラグインのオープンスタンダードであるLV2で動作します。"
 
-#: template/index.html.j2:235
+#: template/index.html.j2:243
 msgid "Speaks Your Language"
 msgstr "あなたの言語を話す"
 
-#: template/index.html.j2:237
+#: template/index.html.j2:245
 #, fuzzy
 #| msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgid ""
@@ -464,17 +472,17 @@ msgstr ""
 "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言語"
 "で利用可能です。"
 
-#: template/index.html.j2:246
+#: template/index.html.j2:254
 msgid "Cross-platform"
 msgstr "クロスプラットフォーム"
 
-#: template/index.html.j2:248
+#: template/index.html.j2:256
 #, fuzzy
 #| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
 msgstr "Windows、GNU / Linux、FreeBSD、およびMacOSで動作します"
 
-#: template/index.html.j2:261
+#: template/index.html.j2:269
 msgid "News"
 msgstr "ニュース"
 
@@ -688,139 +696,3 @@ msgstr "このページにはZrythmの様々なチュートリアルがありま
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
-
-#: template/video.html.j2:19
-msgid "2017"
-msgstr "2017"
-
-#: template/video.html.j2:20
-msgid "2016"
-msgstr "2016年"
-
-#: template/video.html.j2:21
-msgid "2015"
-msgstr "2015年"
-
-#: template/video.html.j2:22
-msgid "2014"
-msgstr "2014年"
-
-#: template/video.html.j2:23
-msgid "2013"
-msgstr "2013"
-
-#: template/video.html.j2:24
-msgid "2012"
-msgstr "2012年"
-
-#: template/video.html.j2:25
-msgid "2011"
-msgstr "2011年"
-
-#: template/video.html.j2:26
-msgid "2010"
-msgstr "2010年"
-
-#, fuzzy
-#~| msgid ""
-#~| "Copyright &copy; Alexandros Theodotou 2019<br> This page was created "
-#~| "using <a href='https://www.gnu.org/'>Free Software</a> only.<br> Report "
-#~| "issues with this website to <a href='contact.html'>us</a>."
-#~ msgid ""
-#~ "Copyright &copy; Alexandros Theodotou 2019<br> Copyright &copy; <a href="
-#~ "\"https://gnunet.org/en/ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, 2018, "
-#~ "2019<br>"
-#~ msgstr ""
-#~ "Copyright &copy; Alexandros Theodotou 2019<br> このページは<a "
-#~ "href='https://www.gnu.org/'>フリーソフトウェア</a>のみを使用して作成されま"
-#~ "した。<br>このウェブサイトに関する問題を<a href='contact.html'>私たちに報"
-#~ "告</a> してください。"
-
-#~ msgid "Feature 2"
-#~ msgstr "機能2"
-
-#~ msgid "Cool."
-#~ msgstr "かっこいい。"
-
-#~ msgid "Feature 5"
-#~ msgstr "機能５"
-
-#~ msgid "System Architecture"
-#~ msgstr "システム構成"
-
-#~ msgid "Code Documentation"
-#~ msgstr "コード文書"
-
-#~ msgid "Support Us!"
-#~ msgstr "私たちを応援してください！"
-
-#~ msgid ""
-#~ "Everybody is welcome to support us via donations. For financial "
-#~ "contributions, Europeans are able to donate via SEPA through LiberaPay. "
-#~ "Major Credit/Debit cards are also accepted. Alternatively, you can donate "
-#~ "via Bitcoin or PayPal. Please note that we are unable to provide receipts "
-#~ "for your donations. If you are planning to donate a significant amount of "
-#~ "money, please contact us first as it might be better to come to a custom "
-#~ "arrangement. <dl><dt>LiberaPay</dt> <dd><a href=\"https://liberapay.com/"
-#~ "Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></dd> <dt>BitCoin</"
-#~ "dt> <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> <dt>Paypal</dt> "
-#~ "<dd><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
-#~ "xclick&hosted_button_id=LZWVK6228PQGE&source=url\">https://www.paypal.com/"
-#~ "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</"
-#~ "a></dd> </dl>"
-#~ msgstr ""
-#~ "誰もが寄付を通じて私たちを支援することを歓迎します。For financial "
-#~ "contributions, Europeans are able to donate via SEPA through LiberaPay. "
-#~ "Major Credit/Debit cards are also accepted. Alternatively, you can donate "
-#~ "via Bitcoin or PayPal. Please note that we are unable to provide receipts "
-#~ "for your donations. If you are planning to donate a significant amount of "
-#~ "money, please contact us first as it might be better to come to a custom "
-#~ "arrangement. <dl><dt>LiberaPay</dt> <dd><a href=\"https://liberapay.com/"
-#~ "Zrythm/donate\">https://liberapay.com/Zrythm/donate</a></dd> <dt>BitCoin</"
-#~ "dt> <dd>bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j</dd> <dt>Paypal</dt> "
-#~ "<dd><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
-#~ "xclick&hosted_button_id=LZWVK6228PQGE&source=url\">https://www.paypal.com/"
-#~ "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</"
-#~ "a></dd> </dl>"
-
-#~ msgid ""
-#~ "Zrythm developers are generally reachable at <tt>PSEUDONYM@zrythm.org</"
-#~ "tt>. Most of us support receiving GnuPG encrypted Emails."
-#~ msgstr ""
-#~ "Zrythm開発者は通常<tt>PSEUDONYM @ zrythm.org</tt>にアクセスできます。"
-
-#~ msgid "Repositories"
-#~ msgstr "レポジトリー"
-
-#, fuzzy
-#~| msgid "Documentation"
-#~ msgid "Motivation"
-#~ msgstr "ドキュメント"
-
-#, fuzzy
-#~| msgid "Download Zrythm"
-#~ msgid "Downloads"
-#~ msgstr "ダウンロード"
-
-#, fuzzy
-#~| msgid "Reporting bugs"
-#~ msgid "Reporting Bugs"
-#~ msgstr "バグ報告"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the Source Code"
-#~ msgstr "ソースコード"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the source code"
-#~ msgstr "ソースコード"
-
-#, fuzzy
-#~| msgid "Contact information"
-#~ msgid "Configuration"
-#~ msgstr "連絡先情報"
-
-#~ msgid "_project_title"
-#~ msgstr "Stack di protocolli GNU per un nuovo Internet etico"

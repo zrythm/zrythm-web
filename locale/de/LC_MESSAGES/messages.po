@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-13 23:40+0100\n"
+"POT-Creation-Date: 2019-06-15 00:36+0100\n"
 "PO-Revision-Date: 2018-02-24 17:42\n"
 "Last-Translator: Torsten Grothoff <torsten@grothoff.org>\n"
 "Language-Team: German <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:129
+#: common/base.j2:6 template/index.html.j2:137
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 
@@ -121,22 +121,30 @@ msgstr ""
 msgid "Release Schedule"
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:3
+#: news/2019-04-15-early-alpha-release.j2.inc:4
+msgid "Release v0.4.003 (early alpha)"
+msgstr ""
+
+#: news/2019-05-04-translation-portal-launched.j2.inc:4
+msgid "Translation Portal Launched!"
+msgstr ""
+
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
 msgid "Translations Now Hosted at Weblate.org"
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:7
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
 msgid ""
 "Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:15
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
 msgid "Note: We will be taking down the self-hosted version soon."
 msgstr ""
 
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:21
+#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
 msgstr ""
 
@@ -304,11 +312,11 @@ msgstr ""
 msgid "Download"
 msgstr "Herunterladen"
 
-#: template/index.html.j2:109
+#: template/index.html.j2:117
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:116
+#: template/index.html.j2:124
 msgid ""
 "Zrythm respects your freedom, but some platforms do not. More info at <a "
 "href='https://www.gnu.org/philosophy/free-software-even-more-important."
@@ -316,97 +324,97 @@ msgid ""
 "html</a>"
 msgstr ""
 
-#: template/index.html.j2:135
+#: template/index.html.j2:143
 msgid "Automated"
 msgstr ""
 
-#: template/index.html.j2:137
+#: template/index.html.j2:145
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 
-#: template/index.html.j2:147
+#: template/index.html.j2:155
 msgid "Intuitive"
 msgstr ""
 
-#: template/index.html.j2:149
+#: template/index.html.j2:157
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 
-#: template/index.html.j2:158
+#: template/index.html.j2:166
 msgid "Featureful"
 msgstr ""
 
-#: template/index.html.j2:161
+#: template/index.html.j2:169
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:177
+#: template/index.html.j2:185
 msgid "Features"
 msgstr ""
 
-#: template/index.html.j2:186
+#: template/index.html.j2:194
 msgid "Limitless Automation"
 msgstr ""
 
-#: template/index.html.j2:189
+#: template/index.html.j2:197
 msgid ""
 "Automate almost anything with automation tracks using straight lines, ramps "
 "and curves."
 msgstr ""
 
-#: template/index.html.j2:199
+#: template/index.html.j2:207
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:202
+#: template/index.html.j2:210
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:211
+#: template/index.html.j2:219
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:213
+#: template/index.html.j2:221
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:225
+#: template/index.html.j2:233
 msgid "LV2 Plugins"
 msgstr ""
 
-#: template/index.html.j2:227
+#: template/index.html.j2:235
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:235
+#: template/index.html.j2:243
 msgid "Speaks Your Language"
 msgstr ""
 
-#: template/index.html.j2:237
+#: template/index.html.j2:245
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
 
-#: template/index.html.j2:246
+#: template/index.html.j2:254
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:248
+#: template/index.html.j2:256
 msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
 msgstr ""
 
-#: template/index.html.j2:261
+#: template/index.html.j2:269
 msgid "News"
 msgstr ""
 
@@ -556,115 +564,3 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr ""
-
-#: template/video.html.j2:19
-msgid "2017"
-msgstr ""
-
-#: template/video.html.j2:20
-msgid "2016"
-msgstr ""
-
-#: template/video.html.j2:21
-msgid "2015"
-msgstr ""
-
-#: template/video.html.j2:22
-msgid "2014"
-msgstr ""
-
-#: template/video.html.j2:23
-msgid "2013"
-msgstr ""
-
-#: template/video.html.j2:24
-msgid "2012"
-msgstr ""
-
-#: template/video.html.j2:25
-msgid "2011"
-msgstr ""
-
-#: template/video.html.j2:26
-msgid "2010"
-msgstr ""
-
-#, fuzzy
-#~| msgid ""
-#~| "Copyright &copy; <a href=\"ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, "
-#~| "2018, 2019<br> This page was created using <a href='https://www.gnu."
-#~| "org/'>Free Software</a> only.<br> Report issues with this website to <a "
-#~| "href='contact.html'>us</a>."
-#~ msgid ""
-#~ "Copyright &copy; Alexandros Theodotou 2019<br> Copyright &copy; <a href="
-#~ "\"https://gnunet.org/en/ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, 2018, "
-#~ "2019<br>"
-#~ msgstr ""
-#~ "Copyright &copy; <a href=\"ev.html\">GNUnet e.V.</a> 2015, 2016, 2017, "
-#~ "2018, 2019<br> Diese Seite wurde nur mit <a href='https://www.gnu."
-#~ "org/'>Freier Software</a> erstellt.<br> Probleme bitte <a href='contact."
-#~ "html'>hier</a> melden."
-
-#~ msgid "System Architecture"
-#~ msgstr "System Architekture"
-
-#, fuzzy
-#~| msgid "Documentation"
-#~ msgid "Code Documentation"
-#~ msgstr "Dokumentation"
-
-#~ msgid "Support Us!"
-#~ msgstr "Unterstützung anbieten!"
-
-#~ msgid "GNUnet for developers"
-#~ msgstr "GNUNet für Entwickeler"
-
-#~ msgid "Repositories"
-#~ msgstr "Quellcode"
-
-#~ msgid "Bibliography"
-#~ msgstr "Bibliografie"
-
-#~ msgid "Regression Testing"
-#~ msgstr "Regressionstests"
-
-#~ msgid "Code Coverage Analysis"
-#~ msgstr "Codeabdeckungsanalyse"
-
-#~ msgid "Performance Analysis"
-#~ msgstr "Leistungsanalyse"
-
-#, fuzzy
-#~| msgid "Documentation"
-#~ msgid "Motivation"
-#~ msgstr "Dokumentation"
-
-#, fuzzy
-#~| msgid "Downloads"
-#~ msgid "Downloads"
-#~ msgstr "Herunterladen"
-
-#, fuzzy
-#~| msgid "Reporting bugs"
-#~ msgid "Reporting Bugs"
-#~ msgstr "Fehler melden"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the Source Code"
-#~ msgstr "Quellcode"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Get the source code"
-#~ msgstr "Quellcode"
-
-#, fuzzy
-#~| msgid "GNUnet for developers"
-#~ msgid "Option 2: GNUnet for development"
-#~ msgstr "GNUNet für Entwickeler"
-
-#, fuzzy
-#~| msgid "Contact information"
-#~ msgid "Configuration"
-#~ msgstr "Kontaktinformation"
