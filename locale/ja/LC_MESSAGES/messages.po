@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-15 00:36+0100\n"
+"POT-Creation-Date: 2019-06-15 14:23+0100\n"
 "PO-Revision-Date: 2019-06-06 06:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://translate.zrythm.org/projects/zrythm/"
@@ -479,7 +479,8 @@ msgstr "クロスプラットフォーム"
 #: template/index.html.j2:256
 #, fuzzy
 #| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
-msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
+msgid ""
+"Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
 msgstr "Windows、GNU / Linux、FreeBSD、およびMacOSで動作します"
 
 #: template/index.html.j2:269
@@ -522,46 +523,31 @@ msgid "Develop"
 msgstr "開発する"
 
 #: template/join-us.html.j2:27
-#, fuzzy, python-format
-#| msgid ""
-#| "Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm"
-#| "\"> main repository</a>. It would be beneficial if you talked with us "
-#| "before working on a task. We have plenty of beginner-friendly issues so "
-#| "please ask. You can have a look at the <a href=\"\"https://git.zrythm.org/"
-#| "zrythm/zrythm/blob/master/CONTRIBUTING.md>Contributing Guide</a> for more "
-#| "info on how to get involved."
 msgid ""
 "Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm\"> "
-"main repository</a>. We have plenty of <a href=\"https://git.zrythm.org/"
-"zrythm/zrythm/issues?scope=all&utf8=%E2%9C"
-"%93&state=opened&label_name[]=beginner\">beginner-friendly issues</a> and we "
-"even offer <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
-"scope=all&utf8=%E2%9C%93&state=opened&label_name[]=%2420\">bounties</a> for "
-"some. There is <a href=\"http://docs.zrythm.org/\">well-maintained, "
-"searchable code documentation</a> available, so it would be a good idea to "
-"start there. Please review the <a href=\"https://docs.zrythm.org/"
-"md_CONTRIBUTING.html\">Contributing Guidelines</a> before you start."
+"main repository</a>."
 msgstr ""
-"パッチは<a href=\"https://git.zrythm.org/zrythm/zrythm\">メインリポジトリ</a>"
-"に歓迎されています。 It would be beneficial if you talked with us before "
-"working on a task. We have plenty of beginner-friendly issues so please ask. "
-"You can have a look at the <a href=\"\"https://git.zrythm.org/zrythm/zrythm/"
-"blob/master/CONTRIBUTING.md>Contributing Guide</a> for more info on how to "
-"get involved."
 
-#: template/join-us.html.j2:36
+#: template/join-us.html.j2:31
+#, python-format
+msgid ""
+"We have plenty of <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
+"scope=all&utf8=%E2%9C%93&state=opened&label_name[]=beginner\">beginner-"
+"friendly issues</a> and we even offer <a href=\"https://git.zrythm.org/"
+"zrythm/zrythm/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]="
+"%2420\">bounties</a> for some. There is <a href=\"http://docs.zrythm.org/"
+"\">well-maintained, searchable code documentation</a> available, so it would "
+"be a good idea to start there. Please review the <a href=\"https://docs."
+"zrythm.org/md_CONTRIBUTING.html\">Contributing Guidelines</a> before you "
+"start."
+msgstr ""
+
+#: template/join-us.html.j2:40
 msgid "Translate"
 msgstr "翻訳する"
 
-#: template/join-us.html.j2:38
+#: template/join-us.html.j2:42
 #, fuzzy
-#| msgid ""
-#| "If you can speak a foreign language and want to help, please take a look "
-#| "at the <a href=\"https://manual.zrythm.org/en/contributing/translating."
-#| "html\">translation instructions</a>. Translating Zrythm and its "
-#| "components is done via <a href=\"https://translate.zrythm.org/projects/"
-#| "zrythm\"> a simple web interface</a> so no coding experience is needed. "
-#| "All you need is a web browser."
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
@@ -576,11 +562,11 @@ msgstr ""
 "translate.zrythm.org/projects/zrythm\"> a simple web interface</a> so no "
 "coding experience is needed. All you need is a web browser."
 
-#: template/join-us.html.j2:51
+#: template/join-us.html.j2:55
 msgid "Test"
 msgstr "テストする"
 
-#: template/join-us.html.j2:53
+#: template/join-us.html.j2:57
 msgid ""
 "You can always help by offering to test pre-released versions of Zrythm and "
 "providing feedback or report bugs. Please get in touch with us and we will "
@@ -590,11 +576,11 @@ msgstr ""
 "フィードバックを提供するかまたはバグを報告することによって助けることができま"
 "す。"
 
-#: template/join-us.html.j2:61
+#: template/join-us.html.j2:65
 msgid "Design"
 msgstr "デザインする"
 
-#: template/join-us.html.j2:63
+#: template/join-us.html.j2:67
 msgid ""
 "If you are a web designer, icon designer or graphic designer and want to "
 "help, please get in touch with us. Things that you might want to do are "
@@ -604,7 +590,7 @@ msgstr ""
 "あり、助けたいのであれば、私達と連絡を取ってください。Things that you might "
 "want to do are logos, icons and other graphics, CSS, etc."
 
-#: template/join-us.html.j2:70
+#: template/join-us.html.j2:74
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
 "without knowing much about the code. Have a look <a href=\"https://git."
@@ -614,11 +600,11 @@ msgstr ""
 "ザインを変更するのは簡単です。Have a look <a href=\"https://git.zrythm.org/"
 "zrythm/zrythm/blob/master/resources/theme.css\">here</a>."
 
-#: template/join-us.html.j2:82
+#: template/join-us.html.j2:86
 msgid "Donate"
 msgstr "支援する"
 
-#: template/join-us.html.j2:85
+#: template/join-us.html.j2:89
 #, fuzzy
 msgid ""
 "We appreciate contributions of any size -- donations enable us to spend more "
@@ -632,7 +618,7 @@ msgstr ""
 "Credit/Debit cards are also accepted. Alternatively, you can donate via "
 "Bitcoin or PayPal."
 
-#: template/join-us.html.j2:93
+#: template/join-us.html.j2:97
 msgid ""
 "Since our project isn't a tax-exempt organization, we can't offer you a tax "
 "deduction, but for all donations over 50 USD, we'd be happy to recognize "
@@ -644,7 +630,7 @@ msgstr ""
 "href='https://www.zrythm.org/en/thanks'>サポーター</a>へのあなたの貢献を認め"
 "てうれしいです 。"
 
-#: template/join-us.html.j2:100
+#: template/join-us.html.j2:104
 #, fuzzy
 msgid ""
 "We are also happy to consider making particular improvements or changes, or "
@@ -657,7 +643,7 @@ msgstr ""
 "discuss this possibility, write to us at <a href='mailto:support_AT_zrythm."
 "org'>support_AT_zrythm.org</a>."
 
-#: template/join-us.html.j2:108
+#: template/join-us.html.j2:112
 msgid "Thank you for your support!"
 msgstr "ご支援いただきありがとうございます！"
 

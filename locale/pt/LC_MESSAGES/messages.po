@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-15 00:36+0100\n"
+"POT-Creation-Date: 2019-06-15 14:23+0100\n"
 "PO-Revision-Date: 2019-06-01 21:39+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Portuguese <https://translate.zrythm.org/projects/zrythm/"
@@ -470,7 +470,8 @@ msgstr "Multiplataforma"
 #: template/index.html.j2:256
 #, fuzzy
 #| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
-msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS."
+msgid ""
+"Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
 msgstr "Funciona no Windows, GNU / Linux, FreeBSD e MacOS"
 
 #: template/index.html.j2:269
@@ -497,25 +498,30 @@ msgid "Develop"
 msgstr ""
 
 #: template/join-us.html.j2:27
-#, python-format
 msgid ""
 "Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm\"> "
-"main repository</a>. We have plenty of <a href=\"https://git.zrythm.org/"
-"zrythm/zrythm/issues?scope=all&utf8=%E2%9C"
-"%93&state=opened&label_name[]=beginner\">beginner-friendly issues</a> and we "
-"even offer <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
-"scope=all&utf8=%E2%9C%93&state=opened&label_name[]=%2420\">bounties</a> for "
-"some. There is <a href=\"http://docs.zrythm.org/\">well-maintained, "
-"searchable code documentation</a> available, so it would be a good idea to "
-"start there. Please review the <a href=\"https://docs.zrythm.org/"
-"md_CONTRIBUTING.html\">Contributing Guidelines</a> before you start."
+"main repository</a>."
 msgstr ""
 
-#: template/join-us.html.j2:36
+#: template/join-us.html.j2:31
+#, python-format
+msgid ""
+"We have plenty of <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
+"scope=all&utf8=%E2%9C%93&state=opened&label_name[]=beginner\">beginner-"
+"friendly issues</a> and we even offer <a href=\"https://git.zrythm.org/"
+"zrythm/zrythm/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]="
+"%2420\">bounties</a> for some. There is <a href=\"http://docs.zrythm.org/"
+"\">well-maintained, searchable code documentation</a> available, so it would "
+"be a good idea to start there. Please review the <a href=\"https://docs."
+"zrythm.org/md_CONTRIBUTING.html\">Contributing Guidelines</a> before you "
+"start."
+msgstr ""
+
+#: template/join-us.html.j2:40
 msgid "Translate"
 msgstr ""
 
-#: template/join-us.html.j2:38
+#: template/join-us.html.j2:42
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
@@ -525,11 +531,11 @@ msgid ""
 "browser."
 msgstr ""
 
-#: template/join-us.html.j2:51
+#: template/join-us.html.j2:55
 msgid "Test"
 msgstr "Teste"
 
-#: template/join-us.html.j2:53
+#: template/join-us.html.j2:57
 #, fuzzy
 msgid ""
 "You can always help by offering to test pre-released versions of Zrythm and "
@@ -539,12 +545,12 @@ msgstr ""
 "Você sempre pode ajudar, oferecendo para testar versões pré-lançadas do "
 "Zrythm e fornecer feedback ou reportar bugs."
 
-#: template/join-us.html.j2:61
+#: template/join-us.html.j2:65
 #, fuzzy
 msgid "Design"
 msgstr "Desenho"
 
-#: template/join-us.html.j2:63
+#: template/join-us.html.j2:67
 #, fuzzy
 msgid ""
 "If you are a web designer, icon designer or graphic designer and want to "
@@ -554,7 +560,7 @@ msgstr ""
 "Se você é um web designer, designer de ícones ou designer gráfico e quer "
 "ajudar, por favor entre em contato conosco."
 
-#: template/join-us.html.j2:70
+#: template/join-us.html.j2:74
 #, fuzzy
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
@@ -564,11 +570,11 @@ msgstr ""
 "O próprio Zrythm é totalmente CSS, então é fácil mudar seu design sem saber "
 "muito sobre o código."
 
-#: template/join-us.html.j2:82
+#: template/join-us.html.j2:86
 msgid "Donate"
 msgstr ""
 
-#: template/join-us.html.j2:85
+#: template/join-us.html.j2:89
 msgid ""
 "We appreciate contributions of any size -- donations enable us to spend more "
 "time working on the project, and help cover our infrastructure expenses. "
@@ -576,7 +582,7 @@ msgid ""
 "cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
 msgstr ""
 
-#: template/join-us.html.j2:93
+#: template/join-us.html.j2:97
 msgid ""
 "Since our project isn't a tax-exempt organization, we can't offer you a tax "
 "deduction, but for all donations over 50 USD, we'd be happy to recognize "
@@ -584,7 +590,7 @@ msgid ""
 "[TODO]</a>."
 msgstr ""
 
-#: template/join-us.html.j2:100
+#: template/join-us.html.j2:104
 msgid ""
 "We are also happy to consider making particular improvements or changes, or "
 "giving specific technical assistance, in return for a substantial donation "
@@ -592,7 +598,7 @@ msgid ""
 "<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 msgstr ""
 
-#: template/join-us.html.j2:108
+#: template/join-us.html.j2:112
 msgid "Thank you for your support!"
 msgstr "Muito obrigado pelo seu apoio!"
 
