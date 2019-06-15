@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-15 14:23+0100\n"
+"POT-Creation-Date: 2019-06-15 14:49+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Arabic <https://translate.zrythm.org/projects/zrythm/website/"
@@ -311,7 +311,8 @@ msgstr ""
 #: template/index.html.j2:52
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-"software</a> licensed under the GPLv3+."
+"software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
+"gpl-3.0.html\">GPLv3+</a>."
 msgstr ""
 
 #: template/index.html.j2:60
