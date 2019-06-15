@@ -1,65 +1,57 @@
 # Translations template for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-07 17:53+0100\n"
-"PO-Revision-Date: 2019-06-11 22:43+0000\n"
-"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
-"Language: es\n"
+"POT-Creation-Date: 2019-06-15 14:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7-dev\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: common/base.j2:5
 msgid "Zrythm"
-msgstr "Zrythm es"
+msgstr ""
 
 #: common/base.j2:6 template/index.html.j2:137
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
-"Un altamente automatizado, intuitivo, estacion de trabajo de audio digital "
-"(DAW)"
 
 #: common/footer.j2.inc:7
-#, fuzzy
 msgid "Developer Team"
-msgstr "Equipo Desarrollador"
+msgstr ""
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr "Contacto"
+msgstr ""
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
-#, fuzzy
-#| msgid "Zrythm"
 msgid "About Zrythm"
-msgstr "Acerca de Zrythm"
+msgstr ""
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:65
-#, fuzzy
 msgid "Bug Tracker"
-msgstr "Sistema de Incidencias"
+msgstr ""
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:66
 msgid "Source Code"
-msgstr "Código Fuente"
+msgstr ""
 
 #: common/footer.j2.inc:20 common/navigation.j2.inc:81
 msgid "Manual"
-msgstr "Manual"
+msgstr ""
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:82
 msgid "FAQ"
-msgstr "Preguntas Frecuentes"
+msgstr ""
 
 #: common/footer.j2.inc:22
 msgid "Support Us"
@@ -76,15 +68,15 @@ msgstr ""
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr "Comunidad"
+msgstr ""
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr "Foro"
+msgstr ""
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr "Discusión"
+msgstr ""
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
@@ -92,28 +84,27 @@ msgstr ""
 
 #: common/navigation.j2.inc:61
 msgid "Development"
-msgstr "Desarrollo"
+msgstr ""
 
 #: common/navigation.j2.inc:64
 msgid "Developer Docs"
-msgstr "Documentos de Desarrollador"
+msgstr ""
 
 #: common/navigation.j2.inc:76
 msgid "Documentation"
-msgstr "Documentación"
+msgstr ""
 
 #: common/navigation.j2.inc:79 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr "Tutoriales"
+msgstr ""
 
 #: common/navigation.j2.inc:80
 msgid "Glossary"
-msgstr "Glosario"
+msgstr ""
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
-#, fuzzy
 msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr "Zrythm ha migrado a GitLab autohospedado"
+msgstr ""
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
 msgid ""
@@ -151,7 +142,7 @@ msgstr ""
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
-msgstr "¡ Feliz traducción!"
+msgstr ""
 
 #: template/about.html.j2:8
 msgid ""
@@ -163,17 +154,14 @@ msgid ""
 msgstr ""
 
 #: template/about.html.j2:14
-#, fuzzy
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
-"Zrythm es software libre bajo la licencia GPLv3 + y su código fuente está "
-"disponible en nuestro GitLab ejemplo."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr "Información de Contacto"
+msgstr ""
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
@@ -192,7 +180,7 @@ msgstr ""
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
-msgstr "El Canal IRC/Matrix"
+msgstr ""
 
 #: template/contact.html.j2:29
 msgid ""
