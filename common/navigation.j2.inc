@@ -83,15 +83,22 @@
         </ul>
       </li>
       <li class="nav-item badge">
+        <a href="https://git.zrythm.org/zrythm/zrythm/releases">
+          <img src="https://img.shields.io/aur/version/zrythm.svg?label=release" alt="Release" />
+        </a>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://www.gnu.org/licenses/gpl-3.0.html">
+          <img src="https://img.shields.io/aur/license/zrythm.svg?color=green" alt="License" />
+        </a>
+      </li>
+      <li class="nav-item badge">
         <a href="https://hosted.weblate.org/engage/zrythm/?utm_source=widget">
           <img src="https://hosted.weblate.org/widgets/zrythm/-/svg-badge.svg" alt="Translation status" />
         </a>
       </li>
       <li class="nav-item badge">
         <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></img></a>
-      </li>
-      <li class="nav-item badge">
-        <a href="https://git.zrythm.org/zrythm/zrythm"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/coverage.svg" alt="Coverage"></img></a>
       </li>
       <li class="nav-item badge">
         <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></img></a>
