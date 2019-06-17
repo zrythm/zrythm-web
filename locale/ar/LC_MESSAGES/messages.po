@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-17 01:15+0100\n"
+"POT-Creation-Date: 2019-06-17 13:08+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Arabic <https://translate.zrythm.org/projects/zrythm/website/"
@@ -43,11 +43,11 @@ msgstr "الاتصال"
 msgid "About Zrythm"
 msgstr "حول Zrythm"
 
-#: common/footer.j2.inc:14 common/navigation.j2.inc:65
+#: common/footer.j2.inc:14 common/navigation.j2.inc:68
 msgid "Bug Tracker"
 msgstr ""
 
-#: common/footer.j2.inc:15 common/navigation.j2.inc:66
+#: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
 msgstr "كود المصدر"
 
@@ -57,11 +57,11 @@ msgstr "كود المصدر"
 msgid "JavaScript License Information"
 msgstr "معلومات التواصل"
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:81
+#: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
 msgstr "يدوي"
 
-#: common/footer.j2.inc:22 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:85
 msgid "FAQ"
 msgstr "سؤال شائع"
 
@@ -94,25 +94,25 @@ msgstr ""
 msgid "Join Us"
 msgstr "انضم الينا"
 
-#: common/navigation.j2.inc:61
+#: common/navigation.j2.inc:64
 msgid "Development"
 msgstr "التنمية"
 
-#: common/navigation.j2.inc:64
+#: common/navigation.j2.inc:67
 #, fuzzy
 #| msgid "Development"
 msgid "Developer Docs"
 msgstr "التنمية"
 
-#: common/navigation.j2.inc:76
+#: common/navigation.j2.inc:79
 msgid "Documentation"
 msgstr "التوثيق"
 
-#: common/navigation.j2.inc:79 template/tutorial.html.j2:5
+#: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
 msgstr "دروس"
 
-#: common/navigation.j2.inc:80
+#: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "مسرد"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-17 01:15+0100\n"
+"POT-Creation-Date: 2019-06-17 13:08+0100\n"
 "PO-Revision-Date: 2019-05-04 23:30+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Russian <https://translate.zrythm.org/projects/zrythm/website/"
@@ -43,11 +43,11 @@ msgstr "Контактная"
 msgid "About Zrythm"
 msgstr "О Zrythm"
 
-#: common/footer.j2.inc:14 common/navigation.j2.inc:65
+#: common/footer.j2.inc:14 common/navigation.j2.inc:68
 msgid "Bug Tracker"
 msgstr "Баг-трекер"
 
-#: common/footer.j2.inc:15 common/navigation.j2.inc:66
+#: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
 msgstr "Исходный код"
 
@@ -57,11 +57,11 @@ msgstr "Исходный код"
 msgid "JavaScript License Information"
 msgstr "Контактная информация"
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:81
+#: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
 msgstr "Руководство"
 
-#: common/footer.j2.inc:22 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:85
 msgid "FAQ"
 msgstr "Вопросы и ответы"
 
@@ -96,25 +96,25 @@ msgstr "Обсуждение"
 msgid "Join Us"
 msgstr "Присоединяйтесь"
 
-#: common/navigation.j2.inc:61
+#: common/navigation.j2.inc:64
 msgid "Development"
 msgstr "Девелопмент"
 
-#: common/navigation.j2.inc:64
+#: common/navigation.j2.inc:67
 #, fuzzy
 #| msgid "Development"
 msgid "Developer Docs"
 msgstr "Разработчик"
 
-#: common/navigation.j2.inc:76
+#: common/navigation.j2.inc:79
 msgid "Documentation"
 msgstr "Документация"
 
-#: common/navigation.j2.inc:79 template/tutorial.html.j2:5
+#: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
 msgstr "Руководства"
 
-#: common/navigation.j2.inc:80
+#: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "Глоссарий"
 

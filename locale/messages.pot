@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-17 01:18+0100\n"
+"POT-Creation-Date: 2019-06-17 13:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,11 +37,11 @@ msgstr ""
 msgid "About Zrythm"
 msgstr ""
 
-#: common/footer.j2.inc:14 common/navigation.j2.inc:65
+#: common/footer.j2.inc:14 common/navigation.j2.inc:68
 msgid "Bug Tracker"
 msgstr ""
 
-#: common/footer.j2.inc:15 common/navigation.j2.inc:66
+#: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
 msgstr ""
 
@@ -49,11 +49,11 @@ msgstr ""
 msgid "JavaScript License Information"
 msgstr ""
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:81
+#: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
 msgstr ""
 
-#: common/footer.j2.inc:22 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:85
 msgid "FAQ"
 msgstr ""
 
@@ -86,23 +86,23 @@ msgstr ""
 msgid "Join Us"
 msgstr ""
 
-#: common/navigation.j2.inc:61
+#: common/navigation.j2.inc:64
 msgid "Development"
 msgstr ""
 
-#: common/navigation.j2.inc:64
+#: common/navigation.j2.inc:67
 msgid "Developer Docs"
 msgstr ""
 
-#: common/navigation.j2.inc:76
+#: common/navigation.j2.inc:79
 msgid "Documentation"
 msgstr ""
 
-#: common/navigation.j2.inc:79 template/tutorial.html.j2:5
+#: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
 msgstr ""
 
-#: common/navigation.j2.inc:80
+#: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr ""
 

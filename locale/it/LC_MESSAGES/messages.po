@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-17 01:15+0100\n"
+"POT-Creation-Date: 2019-06-17 13:08+0100\n"
 "PO-Revision-Date: 2019-06-11 22:43+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -40,11 +40,11 @@ msgstr "Contatto"
 msgid "About Zrythm"
 msgstr ""
 
-#: common/footer.j2.inc:14 common/navigation.j2.inc:65
+#: common/footer.j2.inc:14 common/navigation.j2.inc:68
 msgid "Bug Tracker"
 msgstr "Problemi Segnalati"
 
-#: common/footer.j2.inc:15 common/navigation.j2.inc:66
+#: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
 msgstr "Codice Sorgente"
 
@@ -54,11 +54,11 @@ msgstr "Codice Sorgente"
 msgid "JavaScript License Information"
 msgstr "Informazioni di Contatto"
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:81
+#: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
 msgstr "Manuale"
 
-#: common/footer.j2.inc:22 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:85
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -91,23 +91,23 @@ msgstr "Discussione"
 msgid "Join Us"
 msgstr "Unisciti a Noi"
 
-#: common/navigation.j2.inc:61
+#: common/navigation.j2.inc:64
 msgid "Development"
 msgstr "Sviluppo"
 
-#: common/navigation.j2.inc:64
+#: common/navigation.j2.inc:67
 msgid "Developer Docs"
 msgstr "Documenti per Sviluppatori"
 
-#: common/navigation.j2.inc:76
+#: common/navigation.j2.inc:79
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: common/navigation.j2.inc:79 template/tutorial.html.j2:5
+#: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
 msgstr "Tutorial"
 
-#: common/navigation.j2.inc:80
+#: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "Glossario"
 

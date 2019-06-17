@@ -41,7 +41,7 @@ langs_full = {
         "cs": "Czech",
         "de": "Deutsch",
         "pl": "Polski",
-        "da": "Danish",
+        "da": "Dansk",
         "nl": "Nederlands",
         "et": "Eeti",
         "gd": "Gaelic",

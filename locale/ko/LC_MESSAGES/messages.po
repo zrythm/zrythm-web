@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-17 01:15+0100\n"
+"POT-Creation-Date: 2019-06-17 13:08+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/"
@@ -44,12 +44,12 @@ msgstr "연락처"
 msgid "About Zrythm"
 msgstr "Zrythm 소개"
 
-#: common/footer.j2.inc:14 common/navigation.j2.inc:65
+#: common/footer.j2.inc:14 common/navigation.j2.inc:68
 #, fuzzy
 msgid "Bug Tracker"
 msgstr "버그 추적기"
 
-#: common/footer.j2.inc:15 common/navigation.j2.inc:66
+#: common/footer.j2.inc:15 common/navigation.j2.inc:69
 #, fuzzy
 msgid "Source Code"
 msgstr "소스 코드"
@@ -60,12 +60,12 @@ msgstr "소스 코드"
 msgid "JavaScript License Information"
 msgstr "연락처 정보"
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:81
+#: common/footer.j2.inc:21 common/navigation.j2.inc:84
 #, fuzzy
 msgid "Manual"
 msgstr "사용매뉴얼"
 
-#: common/footer.j2.inc:22 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:85
 #, fuzzy
 msgid "FAQ"
 msgstr "자주 묻는 질문"
@@ -101,25 +101,25 @@ msgstr "토의"
 msgid "Join Us"
 msgstr "가입하기"
 
-#: common/navigation.j2.inc:61
+#: common/navigation.j2.inc:64
 msgid "Development"
 msgstr "개발"
 
-#: common/navigation.j2.inc:64
+#: common/navigation.j2.inc:67
 #, fuzzy
 msgid "Developer Docs"
 msgstr "개발자 팀"
 
-#: common/navigation.j2.inc:76
+#: common/navigation.j2.inc:79
 #, fuzzy
 msgid "Documentation"
 msgstr "문서"
 
-#: common/navigation.j2.inc:79 template/tutorial.html.j2:5
+#: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
 msgstr "튜토리얼"
 
-#: common/navigation.j2.inc:80
+#: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "용어 사전"
 

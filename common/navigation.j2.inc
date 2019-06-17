@@ -55,9 +55,12 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarMain"
-           data-toggle="dropdown" role="button"
-           aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle"
+           href="#"
+           data-toggle="dropdown"
+           role="button"
+           aria-haspopup="true"
+           aria-expanded="false">
            {{ _("Development") }}
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarMain">
@@ -77,8 +80,8 @@
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarMain">
           <li><a class="dropdown-item" href="tutorial.html">{{ _("Tutorials") }}</a></li>
-                <li><a class="dropdown-item" href="https://manual.zrythm.org/introduction-to-zrythm/basic-concepts-and-terminology.html">{{ _("Glossary") }}</a></li>
-          <li><a class="dropdown-item" target="_blank" href="https://manual.zrythm.org">{{ _("Manual") }}</a></li>
+                <li><a class="dropdown-item" href="https://manual.zrythm.org/{{ lang }}/getting-started/basic-concepts-and-terminology.html">{{ _("Glossary") }}</a></li>
+          <li><a class="dropdown-item" target="_blank" href="https://manual.zrythm.org/{{ lang }}/">{{ _("Manual") }}</a></li>
                 <li><a class="dropdown-item" href="faq.html">{{ _("FAQ") }}</a></li>
         </ul>
       </li>
@@ -98,13 +101,13 @@
         </a>
       </li>
       <li class="nav-item badge">
-        <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></img></a>
+        <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></a>
       </li>
       <li class="nav-item badge">
-        <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></img></a>
+        <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></a>
       </li>
       <li class="nav-item badge">
-        <a href="https://liberapay.com/Zrythm"><img src="https://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></img></a>
+        <a href="https://liberapay.com/Zrythm"><img src="https://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></a>
       </li>
     </ul>
     <ul class="navbar-nav navbar-right nav">

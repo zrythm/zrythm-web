@@ -8,7 +8,7 @@
 <img class="news_img" src="/static/images/translate.png" alt="Translation Portal"/>
 <br>
 Zrythm and all its components are now easily translatable via a
-<a href="https://translate.zrythm.org/projects/zrythm">simple web interface</a>.
+simple web interface.
 All you need to do is make an account there and start translating!
 If you don't see your language on the list and would like us to include it,
 <a href="engage.html">shoot us a message</a>.
