@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-17 13:08+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-06-17 21:07+0000\n"
+"Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: common/base.j2:5
@@ -23,35 +26,35 @@ msgstr ""
 
 #: common/base.j2:6 template/index.html.j2:137
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
-msgstr ""
+msgstr "Wysoce zautomatyzowana, intuicyjna cyfrowa stacja robocza audio (DAW)"
 
 #: common/footer.j2.inc:7
 msgid "Developer Team"
-msgstr ""
+msgstr "Zespół programistów"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: common/footer.j2.inc:9 template/about.html.j2:6
 msgid "About Zrythm"
-msgstr ""
+msgstr "O Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:68
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Śledzenie błędów"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
-msgstr ""
+msgstr "Kod źródłowy"
 
 #: common/footer.j2.inc:16 template/javascript.html.j2:5
 msgid "JavaScript License Information"
-msgstr ""
+msgstr "Informacje o licencji JavaScript"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
-msgstr ""
+msgstr "Podręcznik"
 
 #: common/footer.j2.inc:22 common/navigation.j2.inc:85
 msgid "FAQ"
@@ -59,7 +62,7 @@ msgstr ""
 
 #: common/footer.j2.inc:23
 msgid "Support Us"
-msgstr ""
+msgstr "Wesprzyj nas"
 
 #: common/footer.j2.inc:31
 msgid ""
@@ -72,39 +75,39 @@ msgstr ""
 
 #: common/navigation.j2.inc:49
 msgid "Community"
-msgstr ""
+msgstr "Społeczność"
 
 #: common/navigation.j2.inc:52
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr ""
+msgstr "Dyskusja"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "Dołącz do nas"
 
 #: common/navigation.j2.inc:64
 msgid "Development"
-msgstr ""
+msgstr "Rozwój"
 
 #: common/navigation.j2.inc:67
 msgid "Developer Docs"
-msgstr ""
+msgstr "Dokumentacja dla programistów"
 
 #: common/navigation.j2.inc:79
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacja"
 
 #: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "Samouczki"
 
 #: common/navigation.j2.inc:83
 msgid "Glossary"
-msgstr ""
+msgstr "Słownik"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
@@ -119,19 +122,19 @@ msgstr ""
 
 #: news/2019-02-17-release-schedule.j2.inc:3
 msgid "Release Schedule"
-msgstr ""
+msgstr "Harmonogram wydawania"
 
 #: news/2019-04-15-early-alpha-release.j2.inc:4
 msgid "Release v0.4.003 (early alpha)"
-msgstr ""
+msgstr "Wersja v 0.4.003 (wczesna alfa)"
 
 #: news/2019-05-04-translation-portal-launched.j2.inc:4
 msgid "Translation Portal Launched!"
-msgstr ""
+msgstr "Uruchomiono portal tłumaczeń!"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
 msgid "Translations Now Hosted at Weblate.org"
-msgstr ""
+msgstr "Tłumaczenia są teraz hostowane na Weblate.org"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
 msgid ""
@@ -146,7 +149,7 @@ msgstr ""
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
-msgstr ""
+msgstr "Szczęśliwego tłumaczenia!"
 
 #: template/about.html.j2:8
 msgid ""
@@ -156,20 +159,29 @@ msgid ""
 "to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
+"Zrythm jest natywną aplikacją GNU/Linux zbudowaną przy użyciu C i GTK+3 "
+"toolkit i zapożycza pomysły, koncepcje i kod z innych projektów, takich jak "
+"Ardour i Jalv. Jest on zaprojektowany tak, aby był intuicyjny w obsłudze i "
+"zbudowany z zamiarem zapewnienia użytkownikom GNU/Linux w pełni "
+"funkcjonalnej alternatywy dla zastrzeżonych DAWs, oferując jednocześnie "
+"unikalne podejście do obiegu pracy, którego brakuje w innych systemach GNU/"
+"Linux DAWs."
 
 #: template/about.html.j2:14
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
 msgstr ""
+"Zrythm jest wolnym oprogramowaniem licencjonowanym na licencji GPLv3+, a "
+"jego kod źródłowy jest dostępny na naszej instancji GitLab."
 
 #: template/contact.html.j2:6
 msgid "Contact information"
-msgstr ""
+msgstr "Informacje kontaktowe"
 
 #: template/contact.html.j2:13
 msgid "The mailing list"
-msgstr ""
+msgstr "Lista mailingowa"
 
 #: template/contact.html.j2:15
 msgid ""
@@ -184,7 +196,7 @@ msgstr ""
 
 #: template/contact.html.j2:27
 msgid "The IRC/Matrix channel"
-msgstr ""
+msgstr "Kanał IRC/Matrix"
 
 #: template/contact.html.j2:29
 msgid ""
@@ -204,7 +216,7 @@ msgstr ""
 
 #: template/contact.html.j2:47
 msgid "Reporting bugs"
-msgstr ""
+msgstr "Zgłaszanie błędów"
 
 #: template/contact.html.j2:49
 msgid ""
@@ -217,7 +229,7 @@ msgstr ""
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
-msgstr ""
+msgstr "Porozmawiaj z nami"
 
 #: template/engage.html.j2:11
 msgid ""
@@ -264,7 +276,7 @@ msgstr ""
 
 #: template/faq.html.j2:12
 msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr ""
+msgstr "Kiedy instaluję na Ubuntu, nie mam żadnych zależności"
 
 #: template/faq.html.j2:14
 msgid "Enable the universe repository:"
@@ -272,11 +284,11 @@ msgstr ""
 
 #: template/faq.html.j2:19
 msgid "What plugin protocols are supported?"
-msgstr ""
+msgstr "Jakie protokoły wtyczki są obsługiwane?"
 
 #: template/faq.html.j2:21
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr ""
+msgstr "LV2 w tej chwili. VST2 i VST3 wkrótce."
 
 #: template/glossary.html.j2:53
 msgid "Namespaces"
@@ -307,11 +319,11 @@ msgstr ""
 
 #: template/index.html.j2:60
 msgid "Download"
-msgstr ""
+msgstr "Pobierz"
 
 #: template/index.html.j2:117
 msgid "Join &amp; support us!"
-msgstr ""
+msgstr "Dołącz do &amp; wspieraj nas!"
 
 #: template/index.html.j2:124
 msgid ""
@@ -323,7 +335,7 @@ msgstr ""
 
 #: template/index.html.j2:143
 msgid "Automated"
-msgstr ""
+msgstr "Zautomatyzowane"
 
 #: template/index.html.j2:145
 msgid ""
@@ -333,7 +345,7 @@ msgstr ""
 
 #: template/index.html.j2:155
 msgid "Intuitive"
-msgstr ""
+msgstr "Intuicyjny"
 
 #: template/index.html.j2:157
 msgid ""
@@ -353,7 +365,7 @@ msgstr ""
 
 #: template/index.html.j2:185
 msgid "Features"
-msgstr ""
+msgstr "Funkcje"
 
 #: template/index.html.j2:194
 msgid "Limitless Automation"
@@ -387,7 +399,7 @@ msgstr ""
 
 #: template/index.html.j2:233
 msgid "LV2 Plugins"
-msgstr ""
+msgstr "Wtyczki LV2"
 
 #: template/index.html.j2:235
 msgid "Works with LV2, a free standard for audio plugins."
@@ -395,17 +407,19 @@ msgstr ""
 
 #: template/index.html.j2:243
 msgid "Speaks Your Language"
-msgstr ""
+msgstr "Mówi Twoim językiem"
 
 #: template/index.html.j2:245
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
+"Dostępne w języku angielskim, niemieckim, francuskim, włoskim, hiszpańskim, "
+"japońskim, niemieckim i wielu innych językach."
 
 #: template/index.html.j2:254
 msgid "Cross-platform"
-msgstr ""
+msgstr "Wieloplatformowy"
 
 #: template/index.html.j2:256
 msgid ""
@@ -418,7 +432,7 @@ msgstr ""
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
-msgstr ""
+msgstr "Dołącz do zespołu Zrythm"
 
 #: template/join-us.html.j2:10
 msgid ""
@@ -457,7 +471,7 @@ msgstr ""
 
 #: template/join-us.html.j2:40
 msgid "Translate"
-msgstr ""
+msgstr "Przetłumacz"
 
 #: template/join-us.html.j2:42
 msgid ""
@@ -479,10 +493,13 @@ msgid ""
 "providing feedback or report bugs. Please get in touch with us and we will "
 "guide you through the process."
 msgstr ""
+"Zawsze możesz pomóc, oferując testowanie wstępnie wydanych wersji Zrythm i "
+"dostarczając informacje zwrotne lub zgłaszając błędy. Skontaktuj się z nami, "
+"a my przeprowadzimy Cię przez cały proces."
 
 #: template/join-us.html.j2:65
 msgid "Design"
-msgstr ""
+msgstr "Wygląd"
 
 #: template/join-us.html.j2:67
 msgid ""
@@ -490,6 +507,9 @@ msgid ""
 "help, please get in touch with us. Things that you might want to do are "
 "logos, icons and other graphics, CSS, etc."
 msgstr ""
+"Jeśli jesteś projektantem stron internetowych, projektantem ikon lub "
+"grafikiem i chcesz pomóc, skontaktuj się z nami. Rzeczy, które warto zrobić, "
+"to logo, ikony i inne grafiki, CSS, etc."
 
 #: template/join-us.html.j2:74
 msgid ""
@@ -500,7 +520,7 @@ msgstr ""
 
 #: template/join-us.html.j2:86
 msgid "Donate"
-msgstr ""
+msgstr "Przekaż darowiznę"
 
 #: template/join-us.html.j2:89
 msgid ""
@@ -509,6 +529,11 @@ msgid ""
 "Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
 "cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
 msgstr ""
+"Doceniamy wkład każdego rozmiaru -- darowizny pozwalają nam poświęcić więcej "
+"czasu na pracę nad projektem i pomóc pokryć koszty naszej infrastruktury. "
+"Europejczycy są w stanie oddać darowiznę poprzez SEPA poprzez LiberaPay. "
+"Akceptowane są także główne karty kredytowe/debetowe. Alternatywnie, można "
+"przekazać za pośrednictwem Bitcoin lub PayPal."
 
 #: template/join-us.html.j2:97
 msgid ""
@@ -528,38 +553,40 @@ msgstr ""
 
 #: template/join-us.html.j2:112
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "Dziękujemy za wsparcie!"
 
 #: template/news.html.j2.inc:4
 msgid "More news"
-msgstr ""
+msgstr "Więcej nowości"
 
 #: template/old-news.html.j2:6
 msgid "Older News"
-msgstr ""
+msgstr "Starsze wiadomości"
 
 #: template/old-news.html.j2:9
 msgid "This page documents the Zrythm history."
-msgstr ""
+msgstr "Ta strona dokumentuje historię Zrythm."
 
 #: template/team.html.j2:23
 msgid "Zrythm maintainer"
-msgstr ""
+msgstr "Opiekun Zrythm"
 
 #: template/team.html.j2:36
 msgid "Developer"
-msgstr ""
+msgstr "Programista"
 
 #: template/team.html.j2:51
 msgid "French translator"
-msgstr ""
+msgstr "Francuski Tłumacz"
 
 #: template/tutorial.html.j2:8
 msgid ""
 "This page holds various tutorials for Zrythm. Some of them are not complete, "
 "but we find them useful regardless of their state."
 msgstr ""
+"Na tej stronie znajdują się różne kursy dla Zrythm. Niektóre z nich nie są "
+"kompletne, ale uważamy, że są użyteczne niezależnie od ich stanu."
 
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
-msgstr ""
+msgstr "Instrukcje dotyczące instalacji Zrythm: <ul> <li>TODO</li> </ul>"
