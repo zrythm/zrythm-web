@@ -13,6 +13,7 @@
           <ul class="footer-list">
             <li><p><a href="https://git.zrythm.org/zrythm/zrythm/issues">{{ _("Bug Tracker") }}</a></p></li>
             <li><p><a href="https://git.zrythm.org/zrythm/zrythm">{{ _("Source Code") }}</a></p></li>
+            <li><p><a href="javascript.html" rel="jslicense">{{ _("JavaScript License Information") }}</a></p></li>
           </ul>
         </div>
         <div class="col-12 col-sm-4">

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-15 14:49+0100\n"
+"POT-Creation-Date: 2019-06-17 01:15+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/"
@@ -54,22 +54,28 @@ msgstr "버그 추적기"
 msgid "Source Code"
 msgstr "소스 코드"
 
-#: common/footer.j2.inc:20 common/navigation.j2.inc:81
+#: common/footer.j2.inc:16 template/javascript.html.j2:5
+#, fuzzy
+#| msgid "Contact information"
+msgid "JavaScript License Information"
+msgstr "연락처 정보"
+
+#: common/footer.j2.inc:21 common/navigation.j2.inc:81
 #, fuzzy
 msgid "Manual"
 msgstr "사용매뉴얼"
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:82
 #, fuzzy
 msgid "FAQ"
 msgstr "자주 묻는 질문"
 
-#: common/footer.j2.inc:22
+#: common/footer.j2.inc:23
 #, fuzzy
 msgid "Support Us"
 msgstr "당신의 도움이 필요합니다"
 
-#: common/footer.j2.inc:30
+#: common/footer.j2.inc:31
 msgid ""
 "Copyright &copy; Alexandros Theodotou 2019<br> This page was created using "
 "<a href=\"https://www.gnu.org/\">Free Software</a> only.</br> <a href="

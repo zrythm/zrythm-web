@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-15 14:49+0100\n"
+"POT-Creation-Date: 2019-06-17 01:15+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/"
@@ -51,19 +51,25 @@ msgstr "Ιχνηλάτης Σφαλμάτων"
 msgid "Source Code"
 msgstr "Πηγαίος Κώδικας"
 
-#: common/footer.j2.inc:20 common/navigation.j2.inc:81
+#: common/footer.j2.inc:16 template/javascript.html.j2:5
+#, fuzzy
+#| msgid "Contact information"
+msgid "JavaScript License Information"
+msgstr "Στοιχεία επικοινωνίας"
+
+#: common/footer.j2.inc:21 common/navigation.j2.inc:81
 msgid "Manual"
 msgstr "Εγχειρίδιο Χρήσης"
 
-#: common/footer.j2.inc:21 common/navigation.j2.inc:82
+#: common/footer.j2.inc:22 common/navigation.j2.inc:82
 msgid "FAQ"
 msgstr "Συχνές ερωτήσεις"
 
-#: common/footer.j2.inc:22
+#: common/footer.j2.inc:23
 msgid "Support Us"
 msgstr "Υποστήριξε μας"
 
-#: common/footer.j2.inc:30
+#: common/footer.j2.inc:31
 msgid ""
 "Copyright &copy; Alexandros Theodotou 2019<br> This page was created using "
 "<a href=\"https://www.gnu.org/\">Free Software</a> only.</br> <a href="

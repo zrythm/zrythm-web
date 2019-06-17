@@ -1,0 +1,36 @@
+{% extends "common/base.j2" %}
+{% block body_content %}
+<div class="container text-center">
+<header>
+  <h1>{{ _("JavaScript License Information") }}</h1>
+</header>
+</div>
+
+<div class="container">
+<table id="jslicense-labels1" class="table table-striped table-dark">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Minified</th>
+        <th scope="col">License</th>
+        <th scope="col">Source</th>
+      </tr>
+    </thead>
+    <tr>
+        <td><a href="/dist/js/responsiveslides.min.js">responsiveslides.min.js</a></td>
+        <td><a href="magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt">Expat</a></td>
+        <td><a href="/dist/js/responsiveslides.js">responsiveslides.js</a></td>
+    </tr>
+    <tr>
+        <td><a href="/dist/js/jquery-1.11.1.min.js">jquery-1.11.1.min.js</a></td>
+        <td><a href="magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt">Expat</a></td>
+        <td><a href="/dist/js/jquery-1.11.1.js">jquery-1.11.1.js</a></td>
+    </tr>
+    <tr>
+        <td><a href="/dist/js/bootstrap.min.js">bootstrap.min.js</a></td>
+        <td><a href="magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt">Expat</a></td>
+        <td><a href="/dist/js/bootstrap.js">bootstrap.js</a></td>
+    </tr>
+</table>
+</div>
+
+{% endblock body_content %}
