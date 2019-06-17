@@ -12,3 +12,10 @@ build:
   script:
     - make locale
     - make
+
+test:
+  stage: test
+  script:
+    - make locale
+    - make
+    - linkchecker --ignore-url .*team.html --ignore-url .*join-us.html rendered
