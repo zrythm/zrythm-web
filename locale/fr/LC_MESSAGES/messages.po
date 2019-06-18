@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-19 10:51+0100\n"
-"PO-Revision-Date: 2019-06-17 00:24+0000\n"
-"Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
+"POT-Creation-Date: 2019-06-07 17:53+0100\n"
+"PO-Revision-Date: 2019-06-19 10:00+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.7\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
@@ -50,10 +50,8 @@ msgid "Source Code"
 msgstr "Code source"
 
 #: common/footer.j2.inc:16 template/javascript.html.j2:5
-#, fuzzy
-#| msgid "Contact information"
 msgid "JavaScript License Information"
-msgstr "Coordonnées de contact"
+msgstr "Informations de licence JavaScript"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
@@ -75,6 +73,12 @@ msgid ""
 "br> Report issues with this website to <a href=\"https://git.zrythm.org/"
 "zrythm/zrythm-web/issues\">us</a>."
 msgstr ""
+"Copyright &copy; Alexandros Theodotou 2019<br> Cette page a été créée en "
+"utilisant uniquement des <a href=\"https://www.gnu.org/\">logiciels "
+"libres</a>.</br> <a href=\"https://git.zrythm.org/zrythm/zrythm-web\">Le "
+"code source de ce site.</a></br> Signalez-<a href=\"https://git.zrythm.org/"
+"zrythm/zrythm-web/issues\">nous</a> les problèmes que vous rencontrez sur ce "
+"site ouèbe."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
@@ -132,11 +136,11 @@ msgstr "Calendrier de sortie"
 
 #: news/2019-04-15-early-alpha-release.j2.inc:4
 msgid "Release v0.4.003 (early alpha)"
-msgstr ""
+msgstr "Version v0.4.003 (early alpha)"
 
 #: news/2019-05-04-translation-portal-launched.j2.inc:4
 msgid "Translation Portal Launched!"
-msgstr ""
+msgstr "Lancement du portail de traduction !"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
 msgid "Translations Now Hosted at Weblate.org"
@@ -422,17 +426,14 @@ msgstr ""
 "inutiles."
 
 #: template/index.html.j2:52
-#, fuzzy
-#| msgid ""
-#| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-#| "software</a> licensed under the GPLv3+."
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
 "gpl-3.0.html\">GPLv3+</a>."
 msgstr ""
-"Zrythm est un <a href=\"http://www.gnu.org/philosophy/free-sw.html\"> "
-"logiciel libre </a> sous licence GPLv3 +."
+"Zrythm est un <a href=\"http://www.gnu.org/philosophy/free-sw.html\">"
+"logiciel libre</a> sous licence <a href=\"https://www.gnu.org/licenses/"
+"gpl-3.0.html\">GPLv3+</a>."
 
 #: template/index.html.j2:60
 msgid "Download"
@@ -598,6 +599,8 @@ msgid ""
 "Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm\"> "
 "main repository</a>."
 msgstr ""
+"Les rustines sont bienvenus dans le <a href=\"https://git.zrythm.org/zrythm/"
+"zrythm\"> dépôt principal</a>."
 
 #: template/join-us.html.j2:31
 #, python-format
