@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-19 23:04+0100\n"
+"POT-Creation-Date: 2019-06-20 00:17+0100\n"
 "PO-Revision-Date: 2019-06-06 06:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://translate.zrythm.org/projects/zrythm/"
@@ -230,28 +230,21 @@ msgid ""
 msgstr ""
 
 #: template/contact.html.j2:25
-msgid "IRC/Matrix/Discord"
+msgid "IRC/Matrix"
 msgstr ""
 
 #: template/contact.html.j2:27
 msgid ""
-"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net), Matrix at <a "
-"href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</"
-"a>, and Discord at <a href=\"https://discord.gg/AbHb3eD\">https://discord.gg/"
-"AbHb3eD</a>. The channels are bridged so the messages are all shared."
+"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and Matrix at "
+"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:"
+"matrix.org</a>. The channels are bridged so the messages are all shared."
 msgstr ""
 
-#: template/contact.html.j2:34 template/engage.html.j2:51
-msgid ""
-"* Discord requires a non-free client, collects information about you, and "
-"promotes other non-free programs so we do not recommend it."
-msgstr ""
-
-#: template/contact.html.j2:44
+#: template/contact.html.j2:38
 msgid "Contacting individuals"
 msgstr "連絡先"
 
-#: template/contact.html.j2:46
+#: template/contact.html.j2:40
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
@@ -259,11 +252,11 @@ msgstr ""
 "各自の連絡先については、 <a href=\"team.html\">チーム</a>ページを参照してくだ"
 "さい。"
 
-#: template/contact.html.j2:53
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr "バグ報告"
 
-#: template/contact.html.j2:55
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -328,26 +321,12 @@ msgstr ""
 #| "org/\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
 #| "#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
 msgid ""
-"Available on <a href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">Matrix</"
-"a> in the channel <code>#zrythmdaw:matrix.org</code>."
+"Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
+"\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
 "<i class=\"fa fa-comments\"></i> <a href=\"https://matrix.org/\">Matrix</a>の"
 "チャンネル<a href=\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org"
 "\">＃freenode_＃zrythm：matrix.org</a>で参加できます。"
-
-#: template/engage.html.j2:46
-#, fuzzy
-#| msgid ""
-#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode."
-#| "net\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
-#| "net:6697/#zrythm\">#zrythm</a>."
-msgid ""
-"Available on <a href=\"https://discord.gg/AbHb3eD\">Discord</a> in the "
-"channel <code>#general</code>."
-msgstr ""
-"<i class=\"fa fa-comments\"></i> <a href=\"https://freenode.net\">irc."
-"freenode.net</a>の<a href=\"ircs://chat.freenode.net:6697/#zrythm\">#zrythm</"
-"a>チャンネルで参加できます 。"
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"

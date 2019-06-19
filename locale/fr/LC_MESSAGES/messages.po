@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-19 23:04+0100\n"
+"POT-Creation-Date: 2019-06-20 00:17+0100\n"
 "PO-Revision-Date: 2019-06-17 00:24+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -234,28 +234,23 @@ msgid ""
 msgstr ""
 
 #: template/contact.html.j2:25
-msgid "IRC/Matrix/Discord"
-msgstr ""
+#, fuzzy
+#| msgid "The IRC/Matrix channel"
+msgid "IRC/Matrix"
+msgstr "Le canal IRC/Matrix"
 
 #: template/contact.html.j2:27
 msgid ""
-"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net), Matrix at <a "
-"href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</"
-"a>, and Discord at <a href=\"https://discord.gg/AbHb3eD\">https://discord.gg/"
-"AbHb3eD</a>. The channels are bridged so the messages are all shared."
+"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and Matrix at "
+"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:"
+"matrix.org</a>. The channels are bridged so the messages are all shared."
 msgstr ""
 
-#: template/contact.html.j2:34 template/engage.html.j2:51
-msgid ""
-"* Discord requires a non-free client, collects information about you, and "
-"promotes other non-free programs so we do not recommend it."
-msgstr ""
-
-#: template/contact.html.j2:44
+#: template/contact.html.j2:38
 msgid "Contacting individuals"
 msgstr "Contacter des individus"
 
-#: template/contact.html.j2:46
+#: template/contact.html.j2:40
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
@@ -263,11 +258,11 @@ msgstr ""
 "Voir la page de l&#39; <a href=\"team.html\">équipe</a> pour les "
 "informations de contact de chaque personne."
 
-#: template/contact.html.j2:53
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr "Rapporter les bogues"
 
-#: template/contact.html.j2:55
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -336,26 +331,12 @@ msgstr ""
 #| "org/\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
 #| "#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
 msgid ""
-"Available on <a href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">Matrix</"
-"a> in the channel <code>#zrythmdaw:matrix.org</code>."
+"Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
+"\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
 "<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://matrix.org/"
 "\">Matrix</a> dans le canal <a href=\"https://riot.im/app/#/room/"
 "#freenode_#zrythm:matrix.org\"># freenode_ # zrythm: matrix.org</a> ."
-
-#: template/engage.html.j2:46
-#, fuzzy
-#| msgid ""
-#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode."
-#| "net\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
-#| "net:6697/#zrythm\">#zrythm</a>."
-msgid ""
-"Available on <a href=\"https://discord.gg/AbHb3eD\">Discord</a> in the "
-"channel <code>#general</code>."
-msgstr ""
-"<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://freenode."
-"net\">irc.freenode.net</a> dans le canal <a href=\"ircs://chat.freenode."
-"net:6697/#zrythm\">#zrythm</a> ."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
@@ -779,68 +760,3 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Instructions d'installation de Zrythm :<ul> <li>À FAIRE</li> </ul>"
-
-#~ msgid ""
-#~ "Zrythm is free software. This means that everyone is free to use, study, "
-#~ "share and improve it. If you are a graphic designer, programmer, speak a "
-#~ "foreign language or have any ideas about improving Zrythm please come "
-#~ "join us at <code>#zrythm</code> on freenode (IRC) or "
-#~ "<code>#freenode_#zrythm:matrix.org</code> on Matrix. You can join via "
-#~ "Matrix web chat <a href=\"https://riot.im/app/#/room/#freenode_#zrythm:"
-#~ "matrix.org\">here</a> or IRC web chat <a href=\"https://webchat.freenode."
-#~ "net/?channels=zrythm\">here</a>."
-#~ msgstr ""
-#~ "Zrythm est un logiciel libre. Cela signifie que chacun est libre de "
-#~ "l'utiliser, de l'étudier, de le partager et de l'améliorer. Si vous êtes "
-#~ "graphiste, programmeur, parlez une langue étrangère ou avez des idées "
-#~ "pour améliorer Zrythm, venez nous rejoindre sur <code>#zrythm</code> sur "
-#~ "freenode (IRC) ou <code>#freenode_#zrythm:matrix.org</code> sur Matrix. "
-#~ "Vous pouvez rejoindre via le chat Matrix <a href=\"https://riot.im/app/#/"
-#~ "room/#freenode_#zrythm:matrix.org\">ici</a> ou sur le canal IRC \n"
-#~ "<a href=\"https://webchat.freenode.net/?channels=zrythm\">ici</a>."
-
-#~ msgid "The IRC/Matrix channel"
-#~ msgstr "Le canal IRC/Matrix"
-
-#~ msgid ""
-#~ "#zrythm is reachable via irc.freenode.net. Matrix users can use "
-#~ "#freenode_#zrythm:matrix.org."
-#~ msgstr ""
-#~ "#zrythm est joignable via irc.freenode.net. Les utilisateurs de la Matrix "
-#~ "peuvent utiliser #freenode_#zrythm:matrix.org."
-
-#~ msgid ""
-#~ "Archived, public mailing lists for Zrythm are hosted at <a href=\"https://"
-#~ "lists.nongnu.org/mailman/listinfo/zrythm-dev\">https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-dev</a> and <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-user\">https://lists.nongnu.org/mailman/listinfo/"
-#~ "zrythm-user</a>. You can send messages to the lists at <a href=\"mailto:"
-#~ "zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> and <a href=\"mailto:"
-#~ "zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
-#~ msgstr ""
-#~ "Archivées, les listes de diffusion publiques de Zrythm sont hébergées à "
-#~ "l'adresse suivante <a href=\"https://lists.nongnu.org/mailman/listinfo/"
-#~ "zrythm-dev\">\n"
-#~ "https://lists.nongnu.org/mailman/listinfo/zrythm-dev</a> et <a href="
-#~ "\"https://lists.nongnu.org/mailman/listinfo/zrythm-user\">\n"
-#~ "https://lists.nongnu.org/mailman/listinfo/zrythm-user</a>. Vous pouvez "
-#~ "envoyer des messages aux listes à l'adresse suivante \n"
-#~ "<a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> et <a "
-#~ "href=\"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
-
-#~ msgid ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-user\">General Help Mailing List</a>"
-#~ msgstr ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-user\">Aide générale Liste de diffusion</a>"
-
-#~ msgid ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-dev\">Development Mailing List</a>"
-#~ msgstr ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-dev\">Liste de diffusion pour le développement</a>"
-
-#~ msgid "Namespaces"
-#~ msgstr "espaces de nommage"

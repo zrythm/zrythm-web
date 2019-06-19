@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-19 23:04+0100\n"
+"POT-Creation-Date: 2019-06-20 00:17+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/"
@@ -230,28 +230,23 @@ msgid ""
 msgstr ""
 
 #: template/contact.html.j2:25
-msgid "IRC/Matrix/Discord"
-msgstr ""
+#, fuzzy
+#| msgid "The IRC/Matrix channel"
+msgid "IRC/Matrix"
+msgstr "Το κανάλι IRC / Matrix"
 
 #: template/contact.html.j2:27
 msgid ""
-"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net), Matrix at <a "
-"href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</"
-"a>, and Discord at <a href=\"https://discord.gg/AbHb3eD\">https://discord.gg/"
-"AbHb3eD</a>. The channels are bridged so the messages are all shared."
+"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and Matrix at "
+"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:"
+"matrix.org</a>. The channels are bridged so the messages are all shared."
 msgstr ""
 
-#: template/contact.html.j2:34 template/engage.html.j2:51
-msgid ""
-"* Discord requires a non-free client, collects information about you, and "
-"promotes other non-free programs so we do not recommend it."
-msgstr ""
-
-#: template/contact.html.j2:44
+#: template/contact.html.j2:38
 msgid "Contacting individuals"
 msgstr "Επικοινωνία με άτομα"
 
-#: template/contact.html.j2:46
+#: template/contact.html.j2:40
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
@@ -259,11 +254,11 @@ msgstr ""
 "Δείτε τη σελίδα της <a href=\"team.html\">Ομάδας</a> για τα στοιχεία "
 "επικοινωνίας κάθε ατόμου."
 
-#: template/contact.html.j2:53
+#: template/contact.html.j2:47
 msgid "Reporting bugs"
 msgstr "Αναφορά σφαλμάτων"
 
-#: template/contact.html.j2:55
+#: template/contact.html.j2:49
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -313,14 +308,8 @@ msgstr ""
 
 #: template/engage.html.j2:39
 msgid ""
-"Available on <a href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">Matrix</"
-"a> in the channel <code>#zrythmdaw:matrix.org</code>."
-msgstr ""
-
-#: template/engage.html.j2:46
-msgid ""
-"Available on <a href=\"https://discord.gg/AbHb3eD\">Discord</a> in the "
-"channel <code>#general</code>."
+"Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
+"\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
 
 #: template/faq.html.j2:6
@@ -714,9 +703,6 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Οδηγίες εγκατάστασης Zrythm: <ul><li> ΝΑ ΚΑΝΩ </li></ul>"
-
-#~ msgid "The IRC/Matrix channel"
-#~ msgstr "Το κανάλι IRC / Matrix"
 
 #~ msgid ""
 #~ "#zrythm is reachable via irc.freenode.net. Matrix users can use "
