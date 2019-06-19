@@ -22,11 +22,19 @@
   </div>
 
   <div class="col-lg-6">
-    <h2>{{ _("The IRC/Matrix channel") }}</h2>
+    <h2>{{ _("IRC/Matrix/Discord") }}</h2>
       <p>
         {% trans %}
-            #zrythm is reachable via irc.freenode.net. Matrix users can use #freenode_#zrythm:matrix.org.
+        Zrythm is reachable on IRC at #zrythm (via irc.freenode.net), 
+        Matrix at <a href="https://matrix.to/#/#zrythmdaw:matrix.org">#zrythmdaw:matrix.org</a>, 
+        and Discord at <a href="https://discord.gg/AbHb3eD">https://discord.gg/AbHb3eD</a>.
+        The channels are bridged so the messages are all shared.
         {% endtrans %}
+      <br><small>
+        {% trans %}
+          * Discord requires a non-free client, collects information about you, and promotes other non-free programs so we do not recommend it.
+        {% endtrans %}
+      </small>
       </p>
   </div>
 </div>

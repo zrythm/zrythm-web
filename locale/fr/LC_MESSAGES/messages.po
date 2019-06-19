@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-19 10:51+0100\n"
+"POT-Creation-Date: 2019-06-19 23:04+0100\n"
 "PO-Revision-Date: 2019-06-17 00:24+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -234,22 +234,28 @@ msgid ""
 msgstr ""
 
 #: template/contact.html.j2:25
-msgid "The IRC/Matrix channel"
-msgstr "Le canal IRC/Matrix"
+msgid "IRC/Matrix/Discord"
+msgstr ""
 
 #: template/contact.html.j2:27
 msgid ""
-"#zrythm is reachable via irc.freenode.net. Matrix users can use "
-"#freenode_#zrythm:matrix.org."
+"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net), Matrix at <a "
+"href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</"
+"a>, and Discord at <a href=\"https://discord.gg/AbHb3eD\">https://discord.gg/"
+"AbHb3eD</a>. The channels are bridged so the messages are all shared."
 msgstr ""
-"#zrythm est joignable via irc.freenode.net. Les utilisateurs de la Matrix "
-"peuvent utiliser #freenode_#zrythm:matrix.org."
 
-#: template/contact.html.j2:36
+#: template/contact.html.j2:34 template/engage.html.j2:51
+msgid ""
+"* Discord requires a non-free client, collects information about you, and "
+"promotes other non-free programs so we do not recommend it."
+msgstr ""
+
+#: template/contact.html.j2:44
 msgid "Contacting individuals"
 msgstr "Contacter des individus"
 
-#: template/contact.html.j2:38
+#: template/contact.html.j2:46
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
@@ -257,11 +263,11 @@ msgstr ""
 "Voir la page de l&#39; <a href=\"team.html\">équipe</a> pour les "
 "informations de contact de chaque personne."
 
-#: template/contact.html.j2:45
+#: template/contact.html.j2:53
 msgid "Reporting bugs"
 msgstr "Rapporter les bogues"
 
-#: template/contact.html.j2:47
+#: template/contact.html.j2:55
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -282,57 +288,74 @@ msgid "Talk With Us"
 msgstr "Discuter avec nous"
 
 #: template/engage.html.j2:11
+#, fuzzy
+#| msgid ""
+#| "Use the mailing lists, and join our <a href=\"ircs://chat.freenode."
+#| "net:6697/#zrythm\">IRC channel</a> to keep up with development, find "
+#| "technical help, and discuss Zrythm."
 msgid ""
-"Use the mailing lists, and join our <a href=\"ircs://chat.freenode.net:6697/"
-"#zrythm\">IRC channel</a> to keep up with development, find technical help, "
-"and discuss Zrythm."
+"Use the mailing lists, and join our chatrooms to keep up with development, "
+"find technical help, and discuss Zrythm."
 msgstr ""
 "Utilisez les listes de diffusion et rejoignez notre <a href=\"ircs://chat."
 "freenode.net:6697/#zrythm\">canal IRC</a> pour suivre le développement, "
 "trouver une aide technique et discuter de Zrythm."
 
-#: template/engage.html.j2:21
+#: template/engage.html.j2:20
 msgid "Announcements Mailing List"
 msgstr ""
 
-#: template/engage.html.j2:25
+#: template/engage.html.j2:24
 msgid "General Help Mailing List"
 msgstr ""
 
-#: template/engage.html.j2:29
+#: template/engage.html.j2:28
 #, fuzzy
 #| msgid "Development"
 msgid "Development Mailing List"
 msgstr "Développement"
 
-#: template/engage.html.j2:33
+#: template/engage.html.j2:32
 #, fuzzy
 #| msgid ""
 #| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode."
 #| "net\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
 #| "net:6697/#zrythm\">#zrythm</a>."
 msgid ""
-"Available on <a href=\"https://freenode.net\">irc.freenode.net</a> in the "
-"channel <a href=\"ircs://chat.freenode.net:6697/#zrythm\">#zrythm</a>."
+"Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
+"net</a> in the channel <code>#zrythm</code>."
 msgstr ""
 "<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://freenode."
 "net\">irc.freenode.net</a> dans le canal <a href=\"ircs://chat.freenode."
 "net:6697/#zrythm\">#zrythm</a> ."
 
-#: template/engage.html.j2:41
+#: template/engage.html.j2:39
 #, fuzzy
 #| msgid ""
 #| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://matrix."
 #| "org/\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
 #| "#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
 msgid ""
-"Available on <a href=\"https://matrix.org/\">Matrix</a> in the channel <a "
-"href=\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org"
-"\">#freenode_#zrythm:matrix.org</a>."
+"Available on <a href=\"https://matrix.to/#/#zrythmdaw:matrix.org\">Matrix</"
+"a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
 "<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://matrix.org/"
 "\">Matrix</a> dans le canal <a href=\"https://riot.im/app/#/room/"
 "#freenode_#zrythm:matrix.org\"># freenode_ # zrythm: matrix.org</a> ."
+
+#: template/engage.html.j2:46
+#, fuzzy
+#| msgid ""
+#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode."
+#| "net\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
+#| "net:6697/#zrythm\">#zrythm</a>."
+msgid ""
+"Available on <a href=\"https://discord.gg/AbHb3eD\">Discord</a> in the "
+"channel <code>#general</code>."
+msgstr ""
+"<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://freenode."
+"net\">irc.freenode.net</a> dans le canal <a href=\"ircs://chat.freenode."
+"net:6697/#zrythm\">#zrythm</a> ."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
@@ -572,34 +595,24 @@ msgstr "Rejoignez l'équipe de Zrythm"
 
 #: template/join-us.html.j2:10
 msgid ""
-"Zrythm is free software. This means that everyone is free to use, study, "
-"share and improve it. If you are a graphic designer, programmer, speak a "
-"foreign language or have any ideas about improving Zrythm please come join "
-"us at <code>#zrythm</code> on freenode (IRC) or <code>#freenode_#zrythm:"
-"matrix.org</code> on Matrix. You can join via Matrix web chat <a href="
-"\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org\">here</a> or IRC "
-"web chat <a href=\"https://webchat.freenode.net/?channels=zrythm\">here</a>."
+"Zrythm is free software. You are free to use, study, share and improve it "
+"under certain conditions (see the <code>COPYING</code> file in the "
+"distribution for more details). If you are a graphic designer, programmer, "
+"speak a foreign language or have any ideas about improving Zrythm you are "
+"welcome to <a href=\"engage.html\">come say hello and join us</a>."
 msgstr ""
-"Zrythm est un logiciel libre. Cela signifie que chacun est libre de "
-"l'utiliser, de l'étudier, de le partager et de l'améliorer. Si vous êtes "
-"graphiste, programmeur, parlez une langue étrangère ou avez des idées pour "
-"améliorer Zrythm, venez nous rejoindre sur <code>#zrythm</code> sur freenode "
-"(IRC) ou <code>#freenode_#zrythm:matrix.org</code> sur Matrix. Vous pouvez "
-"rejoindre via le chat Matrix <a href=\"https://riot.im/app/#/room/"
-"#freenode_#zrythm:matrix.org\">ici</a> ou sur le canal IRC \n"
-"<a href=\"https://webchat.freenode.net/?channels=zrythm\">ici</a>."
 
-#: template/join-us.html.j2:25
+#: template/join-us.html.j2:23
 msgid "Develop"
 msgstr "Développer"
 
-#: template/join-us.html.j2:27
+#: template/join-us.html.j2:25
 msgid ""
 "Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm\"> "
 "main repository</a>."
 msgstr ""
 
-#: template/join-us.html.j2:31
+#: template/join-us.html.j2:29
 #, python-format
 msgid ""
 "We have plenty of <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
@@ -624,11 +637,11 @@ msgstr ""
 "docs.zrythm.org/md_CONTRIBUTING.html\">lignes directrices sur les "
 "contributions</a> avant de commencer."
 
-#: template/join-us.html.j2:40
+#: template/join-us.html.j2:38
 msgid "Translate"
 msgstr "Traduire"
 
-#: template/join-us.html.j2:42
+#: template/join-us.html.j2:40
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/en/contributing/translating.html"
@@ -645,11 +658,11 @@ msgstr ""
 "aucune expérience de codage n'est nécessaire. Tout ce dont vous avez besoin, "
 "c'est d'un navigateur Web."
 
-#: template/join-us.html.j2:55
+#: template/join-us.html.j2:53
 msgid "Test"
 msgstr "Test"
 
-#: template/join-us.html.j2:57
+#: template/join-us.html.j2:55
 msgid ""
 "You can always help by offering to test pre-released versions of Zrythm and "
 "providing feedback or report bugs. Please get in touch with us and we will "
@@ -659,11 +672,11 @@ msgstr ""
 "nous faisant part de vos commentaires ou en signalant des bogues. N'hésitez "
 "pas à nous contacter et nous vous guiderons tout au long du processus."
 
-#: template/join-us.html.j2:65
+#: template/join-us.html.j2:63
 msgid "Design"
 msgstr "Conception graphique"
 
-#: template/join-us.html.j2:67
+#: template/join-us.html.j2:65
 msgid ""
 "If you are a web designer, icon designer or graphic designer and want to "
 "help, please get in touch with us. Things that you might want to do are "
@@ -674,7 +687,7 @@ msgstr ""
 "Les choses que vous pourriez vouloir faire sont des logos, icônes et autres "
 "graphiques, CSS, etc."
 
-#: template/join-us.html.j2:74
+#: template/join-us.html.j2:72
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
 "without knowing much about the code. Have a look <a href=\"https://git."
@@ -685,11 +698,11 @@ msgstr ""
 "href=\"https://git.zrythm.org/zrythm/zrythm/blob/master/resources/theme.css"
 "\">ici</a>."
 
-#: template/join-us.html.j2:86
+#: template/join-us.html.j2:84
 msgid "Donate"
 msgstr "Faire un don"
 
-#: template/join-us.html.j2:89
+#: template/join-us.html.j2:87
 msgid ""
 "We appreciate contributions of any size -- donations enable us to spend more "
 "time working on the project, and help cover our infrastructure expenses. "
@@ -702,7 +715,7 @@ msgstr ""
 "LiberaPay. Les principales cartes de crédit/débit sont également acceptées. "
 "Vous pouvez également faire un don via Bitcoin ou PayPal."
 
-#: template/join-us.html.j2:97
+#: template/join-us.html.j2:95
 msgid ""
 "Since our project isn't a tax-exempt organization, we can't offer you a tax "
 "deduction, but for all donations over 50 USD, we'd be happy to recognize "
@@ -714,7 +727,7 @@ msgstr ""
 "50 USD, nous serions heureux de reconnaître votre contribution sur <a "
 "href='https://www.zrythm.org/en/thanks'>Supporters [TODO]</a> ."
 
-#: template/join-us.html.j2:104
+#: template/join-us.html.j2:102
 msgid ""
 "We are also happy to consider making particular improvements or changes, or "
 "giving specific technical assistance, in return for a substantial donation "
@@ -727,7 +740,7 @@ msgstr ""
 "souhaitez discuter de cette possibilité, écrivez-nous à <a href='mailto:"
 "support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 
-#: template/join-us.html.j2:112
+#: template/join-us.html.j2:110
 msgid "Thank you for your support!"
 msgstr "Merci de votre soutien !"
 
@@ -766,6 +779,35 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Instructions d'installation de Zrythm :<ul> <li>À FAIRE</li> </ul>"
+
+#~ msgid ""
+#~ "Zrythm is free software. This means that everyone is free to use, study, "
+#~ "share and improve it. If you are a graphic designer, programmer, speak a "
+#~ "foreign language or have any ideas about improving Zrythm please come "
+#~ "join us at <code>#zrythm</code> on freenode (IRC) or "
+#~ "<code>#freenode_#zrythm:matrix.org</code> on Matrix. You can join via "
+#~ "Matrix web chat <a href=\"https://riot.im/app/#/room/#freenode_#zrythm:"
+#~ "matrix.org\">here</a> or IRC web chat <a href=\"https://webchat.freenode."
+#~ "net/?channels=zrythm\">here</a>."
+#~ msgstr ""
+#~ "Zrythm est un logiciel libre. Cela signifie que chacun est libre de "
+#~ "l'utiliser, de l'étudier, de le partager et de l'améliorer. Si vous êtes "
+#~ "graphiste, programmeur, parlez une langue étrangère ou avez des idées "
+#~ "pour améliorer Zrythm, venez nous rejoindre sur <code>#zrythm</code> sur "
+#~ "freenode (IRC) ou <code>#freenode_#zrythm:matrix.org</code> sur Matrix. "
+#~ "Vous pouvez rejoindre via le chat Matrix <a href=\"https://riot.im/app/#/"
+#~ "room/#freenode_#zrythm:matrix.org\">ici</a> ou sur le canal IRC \n"
+#~ "<a href=\"https://webchat.freenode.net/?channels=zrythm\">ici</a>."
+
+#~ msgid "The IRC/Matrix channel"
+#~ msgstr "Le canal IRC/Matrix"
+
+#~ msgid ""
+#~ "#zrythm is reachable via irc.freenode.net. Matrix users can use "
+#~ "#freenode_#zrythm:matrix.org."
+#~ msgstr ""
+#~ "#zrythm est joignable via irc.freenode.net. Les utilisateurs de la Matrix "
+#~ "peuvent utiliser #freenode_#zrythm:matrix.org."
 
 #~ msgid ""
 #~ "Archived, public mailing lists for Zrythm are hosted at <a href=\"https://"
