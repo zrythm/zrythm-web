@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-17 13:08+0100\n"
+"POT-Creation-Date: 2019-06-19 10:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -148,7 +148,36 @@ msgstr ""
 msgid "Happy translating!"
 msgstr ""
 
-#: template/about.html.j2:8
+#: news/2019-06-19-mailing-lists-up.j2.inc:4
+msgid "New Mailing Lists Are Up"
+msgstr ""
+
+#: news/2019-06-19-mailing-lists-up.j2.inc:8
+msgid ""
+"Zrythm has its own mailing lists now <a href=\"https://lists.zrythm.org"
+"\">here</a>! Feel free to subscribe to the <a href=\"mailto:announce@lists."
+"zrythm.org\">announce mailing list</a> for releases and other announcements!"
+msgstr ""
+
+#: news/2019-06-19-mailing-lists-up.j2.inc:16
+msgid ""
+"Developers wishing to discuss Zrythm may use the <a href=\"mailto:dev@lists."
+"zrythm.org\"> dev mailing list</a>."
+msgstr ""
+
+#: news/2019-06-19-mailing-lists-up.j2.inc:23
+msgid ""
+"Likewise, users may use the <a href=\"mailto:user@lists.zrythm.org\">user "
+"mailing list</a>."
+msgstr ""
+
+#: news/2019-06-19-mailing-lists-up.j2.inc:29
+msgid ""
+"Archives of past discussions can be found <a href=\"https://lists.zrythm.org/"
+"hyperkitty/\"> here</a>."
+msgstr ""
+
+#: template/about.html.j2:9
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
 "and borrows ideas, concepts and code from other projects such as Ardour and "
@@ -157,7 +186,7 @@ msgid ""
 "while offering a unique approach to workflow that other GNU/Linux DAWs lack."
 msgstr ""
 
-#: template/about.html.j2:14
+#: template/about.html.j2:15
 msgid ""
 "Zrythm is free software licensed under the GPLv3+ and its source code is "
 "available on our GitLab instance."
@@ -168,45 +197,43 @@ msgid "Contact information"
 msgstr ""
 
 #: template/contact.html.j2:13
-msgid "The mailing list"
+msgid "Mailing Lists"
 msgstr ""
 
 #: template/contact.html.j2:15
 msgid ""
-"Archived, public mailing lists for Zrythm are hosted at <a href=\"https://"
-"lists.nongnu.org/mailman/listinfo/zrythm-dev\">https://lists.nongnu.org/"
-"mailman/listinfo/zrythm-dev</a> and <a href=\"https://lists.nongnu.org/"
-"mailman/listinfo/zrythm-user\">https://lists.nongnu.org/mailman/listinfo/"
-"zrythm-user</a>. You can send messages to the lists at <a href=\"mailto:"
-"zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> and <a href=\"mailto:"
-"zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
+"Archived, public mailing lists for Zrythm are hosted <a href=\"https://lists."
+"zrythm.org/hyperkitty/\">here</a> You can send messages to the lists at <a "
+"href=\"mailto:user@lists.zrythm.org\">user@lists.zrythm.org</a> for general "
+"user inquiries/discussions and <a href=\"mailto:dev@lists.zrythm.org"
+"\">dev@lists.zrythm.org</a> for development discussions."
 msgstr ""
 
-#: template/contact.html.j2:27
+#: template/contact.html.j2:25
 msgid "The IRC/Matrix channel"
 msgstr ""
 
-#: template/contact.html.j2:29
+#: template/contact.html.j2:27
 msgid ""
 "#zrythm is reachable via irc.freenode.net. Matrix users can use "
 "#freenode_#zrythm:matrix.org."
 msgstr ""
 
-#: template/contact.html.j2:38
+#: template/contact.html.j2:36
 msgid "Contacting individuals"
 msgstr ""
 
-#: template/contact.html.j2:40
+#: template/contact.html.j2:38
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
 msgstr ""
 
-#: template/contact.html.j2:47
+#: template/contact.html.j2:45
 msgid "Reporting bugs"
 msgstr ""
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
@@ -226,48 +253,45 @@ msgid ""
 "and discuss Zrythm."
 msgstr ""
 
-#: template/engage.html.j2:20
-msgid ""
-"<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/mailman/"
-"listinfo/zrythm-user\">General Help Mailing List</a>"
+#: template/engage.html.j2:21
+msgid "Announcements Mailing List"
 msgstr ""
 
-#: template/engage.html.j2:26
-msgid ""
-"<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/mailman/"
-"listinfo/zrythm-dev\">Development Mailing List</a>"
+#: template/engage.html.j2:25
+msgid "General Help Mailing List"
 msgstr ""
 
-#: template/engage.html.j2:32
-msgid ""
-"<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode.net"
-"\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
-"net:6697/#zrythm\">#zrythm</a>."
+#: template/engage.html.j2:29
+msgid "Development Mailing List"
 msgstr ""
 
-#: template/engage.html.j2:40
+#: template/engage.html.j2:33
 msgid ""
-"<i class=\"fa fa-comments\"></i> Available on <a href=\"https://matrix.org/"
-"\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
-"#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
+"Available on <a href=\"https://freenode.net\">irc.freenode.net</a> in the "
+"channel <a href=\"ircs://chat.freenode.net:6697/#zrythm\">#zrythm</a>."
+msgstr ""
+
+#: template/engage.html.j2:41
+msgid ""
+"Available on <a href=\"https://matrix.org/\">Matrix</a> in the channel <a "
+"href=\"https://riot.im/app/#/room/#freenode_#zrythm:matrix.org"
+"\">#freenode_#zrythm:matrix.org</a>."
 msgstr ""
 
 #: template/faq.html.j2:6
-msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr ""
-
-#: template/faq.html.j2:8
-msgid ""
-"Run <code>glib-compile-schemas data/</code> and then run zrythm using "
-"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+msgid "Frequently Asked Questions"
 msgstr ""
 
 #: template/faq.html.j2:12
-msgid "I get unmet dependencies when installing on Ubuntu"
+msgid "What's the current development status?"
 msgstr ""
 
 #: template/faq.html.j2:14
-msgid "Enable the universe repository:"
+msgid ""
+"Zrythm is in the early alpha stage. Many essential features are already "
+"implemented but we do not recommend it for production yet. You are welcome "
+"to test each release and provide us with feedback if you would like to help "
+"speed things up."
 msgstr ""
 
 #: template/faq.html.j2:19
@@ -278,8 +302,37 @@ msgstr ""
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
 msgstr ""
 
-#: template/glossary.html.j2:53
-msgid "Namespaces"
+#: template/faq.html.j2:26
+msgid "I'm building from source and I want to run Zrythm without installing"
+msgstr ""
+
+#: template/faq.html.j2:28
+msgid ""
+"Run <code>glib-compile-schemas data/</code> and then run zrythm using "
+"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+msgstr ""
+
+#: template/faq.html.j2:32
+msgid "I get unmet dependencies when installing on Ubuntu"
+msgstr ""
+
+#: template/faq.html.j2:34
+msgid "Enable the universe repository:"
+msgstr ""
+
+#: template/faq.html.j2:39
+msgid "I'm using Windows"
+msgstr ""
+
+#: template/faq.html.j2:41
+msgid ""
+"In addition to being <a href=\"https://www.gnu.org/proprietary/malware-"
+"microsoft.html\">malware</a>, Windows is badly designed, is a pain to use as "
+"a developer and as a user, is too slow and requires many hacks to package "
+"Zrythm for it and thus wastes a lot of our precious time (and sanity) so we "
+"decided to drop support for it. Consider <a href=\"http://www."
+"upgradefromwindows.com\">upgrading to a better OS that respects your "
+"freedom</a>."
 msgstr ""
 
 #: template/index.html.j2:44

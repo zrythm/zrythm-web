@@ -1,25 +1,47 @@
 {% extends "common/base.j2" %}
 {% block body_content %}
 <div class="container">
+  <div class="text-center">
+    <header>
+      <h1>{{ _("Frequently Asked Questions") }}</h1>
+    </header>
+  </div>
+  <br>
   <article>
     <section>
-      <h3>{{ _("I'm building from source and I want to run Zrythm without installing") }}</h3>
+      <h3>Q. {{ _("What's the current development status?") }}</h3>
+      <p>
+	{% trans %}
+	Zrythm is in the early alpha stage. Many essential features are already implemented but we do not recommend it for production yet.
+  You are welcome to test each release and provide us with feedback if you would like to help speed things up.
+	{% endtrans %}
+      </p>
+      <h3>Q. {{ _("What plugin protocols are supported?") }}</h3>
+      <p>
+	{% trans %}
+	LV2 at the moment. VST2 and VST3 coming soon.
+	{% endtrans %}
+      </p>
+      </p>
+      <h3>Q. {{ _("I'm building from source and I want to run Zrythm without installing") }}</h3>
       <p>
 	{% trans %}
 	Run <code>glib-compile-schemas data/</code> and then run zrythm using <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>
 	{% endtrans %}
       </p>
-      <h3>{{ _("I get unmet dependencies when installing on Ubuntu") }}</h3>
+      <h3>Q. {{ _("I get unmet dependencies when installing on Ubuntu") }}</h3>
       <p>
 	{% trans %}
 	Enable the universe repository:
 	{% endtrans %}
   <code>sudo add-apt-repository universe</code>
       </p>
-      <h3>{{ _("What plugin protocols are supported?") }}</h3>
+      <h3>Q. {{ _("I'm using Windows") }}</h3>
       <p>
 	{% trans %}
-	LV2 at the moment. VST2 and VST3 coming soon.
+	In addition to being <a href="https://www.gnu.org/proprietary/malware-microsoft.html">malware</a>, Windows is badly designed, is a pain to use as a developer and as a user, is too slow 
+  and requires many hacks to package Zrythm for it and thus wastes a lot of our precious time (and sanity)
+  so we decided to drop support for it. Consider <a href="http://www.upgradefromwindows.com">upgrading to a better OS that respects your freedom</a>. 
 	{% endtrans %}
       </p>
     </section>
