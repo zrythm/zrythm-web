@@ -104,7 +104,7 @@
         <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></a>
       </li>
       <li class="nav-item badge">
-        <a href="https://riot.im/app/#/room/#freenode_#zrythm:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></a>
+        <a href="https://riot.im/app/#/room/#zrythmdaw:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></a>
       </li>
       <li class="nav-item badge">
         <a href="https://liberapay.com/Zrythm"><img src="https://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></a>
