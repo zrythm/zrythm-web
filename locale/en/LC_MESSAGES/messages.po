@@ -2,7 +2,7 @@
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:137
+#: common/base.j2:6 template/index.html.j2:121
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 
@@ -44,11 +44,10 @@ msgstr ""
 
 #: common/footer.j2.inc:31
 msgid ""
-"Copyright &copy; Alexandros Theodotou 2019<br> This page was created using "
-"<a href=\"https://www.gnu.org/\">Free Software</a> only.</br> <a href="
-"\"https://git.zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></"
-"br> Report issues with this website to <a href=\"https://git.zrythm.org/"
-"zrythm/zrythm-web/issues\">us</a>."
+"Copyright &copy; Alexandros Theodotou 2019<br> <a href=\"https://git.zrythm."
+"org/zrythm/zrythm-web\">Source code of this site.</a></br> Report issues "
+"with this website to <a href=\"https://git.zrythm.org/zrythm/zrythm-web/"
+"issues\">us</a>."
 msgstr ""
 
 #: common/navigation.j2.inc:49
@@ -342,110 +341,102 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: template/index.html.j2:117
+#: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:124
-msgid ""
-"Zrythm respects your freedom, but some platforms do not. More info at <a "
-"href='https://www.gnu.org/philosophy/free-software-even-more-important."
-"html'> https://www.gnu.org/philosophy/free-software-even-more-important."
-"html</a>"
-msgstr ""
-
-#: template/index.html.j2:143
+#: template/index.html.j2:127
 msgid "Automated"
 msgstr ""
 
-#: template/index.html.j2:145
+#: template/index.html.j2:129
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 
-#: template/index.html.j2:155
+#: template/index.html.j2:139
 msgid "Intuitive"
 msgstr ""
 
-#: template/index.html.j2:157
+#: template/index.html.j2:141
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 
-#: template/index.html.j2:166
+#: template/index.html.j2:150
 msgid "Featureful"
 msgstr ""
 
-#: template/index.html.j2:169
+#: template/index.html.j2:153
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:185
+#: template/index.html.j2:169
 msgid "Features"
 msgstr ""
 
-#: template/index.html.j2:194
+#: template/index.html.j2:178
 msgid "Limitless Automation"
 msgstr ""
 
-#: template/index.html.j2:197
+#: template/index.html.j2:181
 msgid ""
 "Automate almost anything with automation tracks using straight lines, ramps "
 "and curves."
 msgstr ""
 
-#: template/index.html.j2:207
+#: template/index.html.j2:191
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:210
+#: template/index.html.j2:194
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:219
+#: template/index.html.j2:203
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:221
+#: template/index.html.j2:205
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:233
+#: template/index.html.j2:217
 msgid "LV2 Plugins"
 msgstr ""
 
-#: template/index.html.j2:235
+#: template/index.html.j2:219
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:243
+#: template/index.html.j2:227
 msgid "Speaks Your Language"
 msgstr ""
 
-#: template/index.html.j2:245
+#: template/index.html.j2:229
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
 
-#: template/index.html.j2:254
+#: template/index.html.j2:238
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:256
+#: template/index.html.j2:240
 msgid ""
 "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
 msgstr ""
 
-#: template/index.html.j2:269
+#: template/index.html.j2:253
 msgid "News"
 msgstr ""
 

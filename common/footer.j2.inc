@@ -30,7 +30,6 @@
     <p>
     {% trans %}
     Copyright &copy; Alexandros Theodotou 2019<br>
-    This page was created using <a href="https://www.gnu.org/">Free Software</a> only.</br>
     <a href="https://git.zrythm.org/zrythm/zrythm-web">Source code of this site.</a></br>
     Report issues with this website to <a href="https://git.zrythm.org/zrythm/zrythm-web/issues">us</a>.
     {% endtrans %}
