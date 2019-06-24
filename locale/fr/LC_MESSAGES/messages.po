@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-24 04:51+0100\n"
-"PO-Revision-Date: 2019-06-19 10:00+0000\n"
+"PO-Revision-Date: 2019-06-24 04:16+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7\n"
+"X-Generator: Weblate 3.7.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
@@ -181,10 +181,8 @@ msgid "Happy translating!"
 msgstr "Bonne traduction !"
 
 #: news/2019-06-19-mailing-lists-up.j2.inc:4
-#, fuzzy
-#| msgid "The mailing list"
 msgid "New Mailing Lists Are Up"
-msgstr "La liste de diffusion"
+msgstr "Les nouvelles listes de diffusion sont fonctionnelles"
 
 #: news/2019-06-19-mailing-lists-up.j2.inc:8
 msgid ""
@@ -239,10 +237,8 @@ msgid "Contact information"
 msgstr "Coordonnées de contact"
 
 #: template/contact.html.j2:13
-#, fuzzy
-#| msgid "The mailing list"
 msgid "Mailing Lists"
-msgstr "La liste de diffusion"
+msgstr "Listes de diffusion"
 
 #: template/contact.html.j2:15
 msgid ""
@@ -254,10 +250,8 @@ msgid ""
 msgstr ""
 
 #: template/contact.html.j2:25
-#, fuzzy
-#| msgid "The IRC/Matrix channel"
 msgid "IRC/Matrix"
-msgstr "Le canal IRC/Matrix"
+msgstr "IRC/Matrix"
 
 #: template/contact.html.j2:27
 msgid ""
@@ -309,68 +303,48 @@ msgid "Talk With Us"
 msgstr "Discuter avec nous"
 
 #: template/engage.html.j2:11
-#, fuzzy
-#| msgid ""
-#| "Use the mailing lists, and join our <a href=\"ircs://chat.freenode."
-#| "net:6697/#zrythm\">IRC channel</a> to keep up with development, find "
-#| "technical help, and discuss Zrythm."
 msgid ""
 "Use the mailing lists, and join our chatrooms to keep up with development, "
 "find technical help, and discuss Zrythm."
 msgstr ""
-"Utilisez les listes de diffusion et rejoignez notre <a href=\"ircs://chat."
-"freenode.net:6697/#zrythm\">canal IRC</a> pour suivre le développement, "
-"trouver une aide technique et discuter de Zrythm."
+"Utilisez les listes de diffusion et rejoignez nos salons de discussion pour "
+"suivre le développement, trouver une aide technique et discuter de Zrythm."
 
 #: template/engage.html.j2:20
 msgid "Announcements Mailing List"
-msgstr ""
+msgstr "Liste de diffusion des annonces"
 
 #: template/engage.html.j2:24
 msgid "General Help Mailing List"
-msgstr ""
+msgstr "Liste de diffusion d'aide générale"
 
 #: template/engage.html.j2:28
-#, fuzzy
-#| msgid "Development"
 msgid "Development Mailing List"
-msgstr "Développement"
+msgstr "Liste de diffusion du développement"
 
 #: template/engage.html.j2:32
-#, fuzzy
-#| msgid ""
-#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode."
-#| "net\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
-#| "net:6697/#zrythm\">#zrythm</a>."
 msgid ""
 "Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
 "net</a> in the channel <code>#zrythm</code>."
 msgstr ""
-"<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://freenode."
-"net\">irc.freenode.net</a> dans le canal <a href=\"ircs://chat.freenode."
-"net:6697/#zrythm\">#zrythm</a> ."
+"Disponible sur <a href=\"ircs://chat.freenode.net:6697/#zrythm\""
+">irc.freenode.net</a> dans le canal <code>#zrythm</code>."
 
 #: template/engage.html.j2:39
-#, fuzzy
-#| msgid ""
-#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://matrix."
-#| "org/\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
-#| "#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
 msgid ""
 "Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
-"<i class=\"fa fa-comments\"></i> Disponible sur <a href=\"https://matrix.org/"
-"\">Matrix</a> dans le canal <a href=\"https://riot.im/app/#/room/"
-"#freenode_#zrythm:matrix.org\"># freenode_ # zrythm: matrix.org</a> ."
+"Disponible sur <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
+">Matrix</a> dans le canal <code>#zrythmdaw:matrix.org</code>."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Foire aux questions"
 
 #: template/faq.html.j2:12
 msgid "What's the current development status?"
-msgstr ""
+msgstr "Quel est l'état actuel du développement ?"
 
 #: template/faq.html.j2:14
 msgid ""
@@ -413,7 +387,7 @@ msgstr "Activer le dépôt universel :"
 
 #: template/faq.html.j2:39
 msgid "I'm using Windows"
-msgstr ""
+msgstr "J'utilise Windows"
 
 #: template/faq.html.j2:41
 msgid ""
