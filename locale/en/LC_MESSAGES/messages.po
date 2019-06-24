@@ -582,19 +582,19 @@ msgstr ""
 msgid "The current team working on Zrythm"
 msgstr ""
 
-#: template/team.html.j2:23
+#: template/team.html.j2:24
 msgid "Zrythm maintainer"
 msgstr ""
 
-#: template/team.html.j2:36
+#: template/team.html.j2:37
 msgid "Developer"
 msgstr ""
 
-#: template/team.html.j2:51
+#: template/team.html.j2:52
 msgid "French translator"
 msgstr ""
 
-#: template/team.html.j2:62
+#: template/team.html.j2:63
 #, python-format
 msgid ""
 "For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"

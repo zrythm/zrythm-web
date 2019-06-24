@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-24 04:51+0100\n"
+"POT-Creation-Date: 2019-06-24 05:21+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/"
@@ -704,19 +704,19 @@ msgstr "Αυτή η σελίδα τεκμηριώνει το ιστορικό τ
 msgid "The current team working on Zrythm"
 msgstr ""
 
-#: template/team.html.j2:23
+#: template/team.html.j2:24
 msgid "Zrythm maintainer"
 msgstr "Συντηρητής Zrythm"
 
-#: template/team.html.j2:36
+#: template/team.html.j2:37
 msgid "Developer"
 msgstr "Προγραμματιστής"
 
-#: template/team.html.j2:51
+#: template/team.html.j2:52
 msgid "French translator"
 msgstr "Γάλλος μεταφραστής"
 
-#: template/team.html.j2:62
+#: template/team.html.j2:63
 #, python-format
 msgid ""
 "For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"

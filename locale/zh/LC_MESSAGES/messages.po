@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-24 04:51+0100\n"
+"POT-Creation-Date: 2019-06-24 05:21+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
@@ -696,23 +696,23 @@ msgstr "该页面记录了Zrythm的历史。"
 msgid "The current team working on Zrythm"
 msgstr ""
 
-#: template/team.html.j2:23
+#: template/team.html.j2:24
 msgid "Zrythm maintainer"
 msgstr "Zrythm维护者"
 
-#: template/team.html.j2:36
+#: template/team.html.j2:37
 #, fuzzy
 #| msgid "Development"
 msgid "Developer"
 msgstr "开发商"
 
-#: template/team.html.j2:51
+#: template/team.html.j2:52
 #, fuzzy
 #| msgid "Translate"
 msgid "French translator"
 msgstr "翻译"
 
-#: template/team.html.j2:62
+#: template/team.html.j2:63
 #, python-format
 msgid ""
 "For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-24 04:51+0100\n"
+"POT-Creation-Date: 2019-06-24 05:21+0100\n"
 "PO-Revision-Date: 2019-06-24 04:16+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -327,16 +327,16 @@ msgid ""
 "Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
 "net</a> in the channel <code>#zrythm</code>."
 msgstr ""
-"Disponible sur <a href=\"ircs://chat.freenode.net:6697/#zrythm\""
-">irc.freenode.net</a> dans le canal <code>#zrythm</code>."
+"Disponible sur <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc."
+"freenode.net</a> dans le canal <code>#zrythm</code>."
 
 #: template/engage.html.j2:39
 msgid ""
 "Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
-"Disponible sur <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
-">Matrix</a> dans le canal <code>#zrythmdaw:matrix.org</code>."
+"Disponible sur <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
+"\">Matrix</a> dans le canal <code>#zrythmdaw:matrix.org</code>."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
@@ -409,11 +409,11 @@ msgid ""
 "in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
 "clips."
 msgstr ""
-"Zrythm [<em>%(pronunciation)s</em>] est une Station de Travail Audio Numérique (STAN) hautement "
-"automatisée, conçue pour une utilisation fonctionnelle et intuitive. Zrythm "
-"se distingue des autres STAN en permettant une automation poussée via des "
-"LFOs et des enveloppes intégrées, ainsi qu'une édition et un arrangement "
-"MIDI/audio intuitifs via les clips."
+"Zrythm [<em>%(pronunciation)s</em>] est une Station de Travail Audio "
+"Numérique (STAN) hautement automatisée, conçue pour une utilisation "
+"fonctionnelle et intuitive. Zrythm se distingue des autres STAN en "
+"permettant une automation poussée via des LFOs et des enveloppes intégrées, "
+"ainsi qu'une édition et un arrangement MIDI/audio intuitifs via les clips."
 
 #: template/index.html.j2:48
 msgid ""
@@ -602,11 +602,11 @@ msgstr ""
 "dépôt principal</a>. Nous avons beaucoup de <a href=\"%(git_url)s/issues?"
 "scope=all&utf8=%%E2%%9C%%93&state=opened&label_name[]=beginner\">tâches pour "
 "les débutants </a> et nous offrons même <a href=\"%(git_url)s/issues?"
-"scope=all&utf8=%%E2%%9C%%93&state=opened&label_name[]=%%2420\">des primes</a> "
-"pour certaines. Il y a <a href=\"http://docs.zrythm.org/\">une documentation "
-"du code bien entretenue et consultable </a> disponible, donc ce serait une "
-"bonne idée de commencer par là. Veuillez consulter les <a href=\"https://"
-"docs.zrythm.org/md_CONTRIBUTING.html\">lignes directrices sur les "
+"scope=all&utf8=%%E2%%9C%%93&state=opened&label_name[]=%%2420\">des primes</"
+"a> pour certaines. Il y a <a href=\"http://docs.zrythm.org/\">une "
+"documentation du code bien entretenue et consultable </a> disponible, donc "
+"ce serait une bonne idée de commencer par là. Veuillez consulter les <a href="
+"\"https://docs.zrythm.org/md_CONTRIBUTING.html\">lignes directrices sur les "
 "contributions</a> avant de commencer."
 
 #: template/join-us.html.j2:38
@@ -737,19 +737,19 @@ msgstr "Cette page documente l'histoire de Zrythm."
 msgid "The current team working on Zrythm"
 msgstr ""
 
-#: template/team.html.j2:23
+#: template/team.html.j2:24
 msgid "Zrythm maintainer"
 msgstr "Le mainteneur de Zrythm"
 
-#: template/team.html.j2:36
+#: template/team.html.j2:37
 msgid "Developer"
 msgstr "Développeur"
 
-#: template/team.html.j2:51
+#: template/team.html.j2:52
 msgid "French translator"
 msgstr "Traducteur français"
 
-#: template/team.html.j2:62
+#: template/team.html.j2:63
 #, python-format
 msgid ""
 "For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"
