@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-24 05:21+0100\n"
+"POT-Creation-Date: 2019-06-24 06:15+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "高度自动化，直观的数字音频工作站（DAW）"
 
-#: common/footer.j2.inc:7
+#: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
 msgstr ""
 
@@ -50,7 +50,7 @@ msgstr "Bug 追踪"
 msgid "Source Code"
 msgstr "源代码"
 
-#: common/footer.j2.inc:16
+#: common/footer.j2.inc:16 template/javascript.html.j2:5
 #, fuzzy
 #| msgid "Contact information"
 msgid "JavaScript Licenses"
@@ -196,6 +196,14 @@ msgid ""
 msgstr ""
 
 #: template/about.html.j2:9
+msgid "Version"
+msgstr ""
+
+#: template/about.html.j2:16
+msgid "Introduction"
+msgstr ""
+
+#: template/about.html.j2:18
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
 "and borrows ideas, concepts and code from other projects such as Ardour and "
@@ -206,24 +214,36 @@ msgstr ""
 "Zrythm是一个使用C和GTK +3工具包构建的本机GNU / Linux应用程序，并借用其他项目"
 "的想法，概念和代码，如Ardor和Jalv"
 
-#: template/about.html.j2:15
-msgid ""
-"Zrythm is free software licensed under the GPLv3+ and its source code is "
-"available on our GitLab instance."
+#: template/about.html.j2:24
+msgid "First Commit"
 msgstr ""
-"Zrythm是根据GPLv3 +许可的免费软件，其源代码可在我们的GitLab实例上获得。"
 
-#: template/contact.html.j2:6
+#: template/about.html.j2:26
+msgid ""
+"The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
+msgstr ""
+
+#: template/about.html.j2:30
+msgid "Current Stage"
+msgstr ""
+
+#: template/about.html.j2:32
+msgid ""
+"Early alpha. Somewhat functional but has unimplemented features and crashes "
+"a lot."
+msgstr ""
+
+#: template/contact.html.j2:5
 msgid "Contact information"
 msgstr "联系信息"
 
-#: template/contact.html.j2:13
+#: template/contact.html.j2:11
 #, fuzzy
 #| msgid "The mailing list"
 msgid "Mailing Lists"
 msgstr "邮件列表"
 
-#: template/contact.html.j2:15
+#: template/contact.html.j2:13
 msgid ""
 "Archived, public mailing lists for Zrythm are hosted <a href=\"https://lists."
 "zrythm.org/hyperkitty/\">here</a> You can send messages to the lists at <a "
@@ -232,32 +252,33 @@ msgid ""
 "\">dev@lists.zrythm.org</a> for development discussions."
 msgstr ""
 
-#: template/contact.html.j2:25
+#: template/contact.html.j2:23
 msgid "IRC/Matrix"
 msgstr ""
 
-#: template/contact.html.j2:27
+#: template/contact.html.j2:25
 msgid ""
-"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and Matrix at "
-"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:"
-"matrix.org</a>. The channels are bridged so the messages are all shared."
+"Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
+"and Matrix at <code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix."
+"org\">#zrythmdaw:matrix.org</a></code>. The channels are bridged so the "
+"messages are all shared."
 msgstr ""
 
-#: template/contact.html.j2:38
+#: template/contact.html.j2:36
 msgid "Contacting individuals"
 msgstr "联系个人"
 
-#: template/contact.html.j2:40
+#: template/contact.html.j2:38
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
 msgstr ""
 
-#: template/contact.html.j2:47
+#: template/contact.html.j2:45
 msgid "Reporting bugs"
 msgstr "报告缺陷"
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 #, fuzzy, python-format
 #| msgid ""
 #| "We track open feature requests and bugs for projects within Zrythm in our "
@@ -278,14 +299,14 @@ msgstr ""
 msgid "Talk With Us"
 msgstr "与我们联系"
 
-#: template/engage.html.j2:11
+#: template/engage.html.j2:10
 #, fuzzy
 #| msgid ""
 #| "Use the mailing lists, and join our <a href=\"ircs://chat.freenode."
 #| "net:6697/#zrythm\">IRC channel</a> to keep up with development, find "
 #| "technical help, and discuss Zrythm."
 msgid ""
-"Use the mailing lists, and join our chatrooms to keep up with development, "
+"Use the mailing lists and join our chatrooms to keep up with development, "
 "find technical help, and discuss Zrythm."
 msgstr ""
 "使用邮件列表，加入我们的<a href=\"ircs://chat.freenode.net:6697/#zrythm\">IRC"
@@ -545,11 +566,19 @@ msgstr "它运行在Windows、GNU/Linux和Mac OS上。"
 msgid "News"
 msgstr "新闻"
 
-#: template/javascript.html.j2:5
+#: template/javascript.html.j2:14
+msgid "Minified"
+msgstr ""
+
+#: template/javascript.html.j2:15
+msgid "License"
+msgstr ""
+
+#: template/javascript.html.j2:16
 #, fuzzy
-#| msgid "Contact information"
-msgid "JavaScript License Information"
-msgstr "联系信息"
+#| msgid "Source Code"
+msgid "Source"
+msgstr "源代码"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
@@ -557,11 +586,9 @@ msgstr "加入Zrythm团队"
 
 #: template/join-us.html.j2:10
 msgid ""
-"Zrythm is free software. You are free to use, study, share and improve it "
-"under certain conditions (see the <code>COPYING</code> file in the "
-"distribution for more details). If you are a graphic designer, programmer, "
-"speak a foreign language or have any ideas about improving Zrythm you are "
-"welcome to <a href=\"engage.html\">come say hello and join us</a>."
+"If you are a graphic designer, programmer, speak a foreign language or have "
+"any ideas about improving Zrythm you are welcome to <a href=\"engage.html"
+"\">come say hello and join us</a>."
 msgstr ""
 
 #: template/join-us.html.j2:23
@@ -692,33 +719,30 @@ msgstr "旧新闻"
 msgid "This page documents the Zrythm history."
 msgstr "该页面记录了Zrythm的历史。"
 
-#: template/team.html.j2:9
-msgid "The current team working on Zrythm"
+#: template/team.html.j2:7
+#, python-format
+msgid ""
+"The current team working on Zrythm. For a full list of contributors see the "
+"<a href=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>, <a href=\"%(git_blob_url)s/"
+"TRANSLATORS\">TRANSLATORS</a> and <a href=\"%(git_blob_url)s/THANKS"
+"\">THANKS</a> files in the distribution."
 msgstr ""
 
-#: template/team.html.j2:24
+#: template/team.html.j2:37
 msgid "Zrythm maintainer"
 msgstr "Zrythm维护者"
 
-#: template/team.html.j2:37
+#: template/team.html.j2:50
 #, fuzzy
 #| msgid "Development"
 msgid "Developer"
 msgstr "开发商"
 
-#: template/team.html.j2:52
+#: template/team.html.j2:65
 #, fuzzy
 #| msgid "Translate"
 msgid "French translator"
 msgstr "翻译"
-
-#: template/team.html.j2:63
-#, python-format
-msgid ""
-"For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"
-"\">AUTHORS</a>, <a href=\"%(git_blob_url)s/TRANSLATORS\">TRANSLATORS</a> and "
-"<a href=\"%(git_blob_url)s/THANKS\">THANKS</a> files in the distribution."
-msgstr ""
 
 #: template/tutorial.html.j2:8
 msgid ""
@@ -729,15 +753,3 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr ""
-
-#~ msgid "Developer Team"
-#~ msgstr "开发团队"
-
-#, fuzzy
-#~ msgid ""
-#~ "Available on <a href=\"https://discord.gg/AbHb3eD\">Discord</a> in the "
-#~ "channel <code>#general</code>."
-#~ msgstr ""
-#~ "<i class=\"fa fa-comments\"></i>可在<a href=\"https://freenode.net\">irc."
-#~ "freenode.net</a>的<a href=\"ircs://chat.freenode.net:6697/#zrythm\">＃"
-#~ "zrythm</a>频道中<a href=\"ircs://chat.freenode.net:6697/#zrythm\">找到</a>"

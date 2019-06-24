@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-24 05:21+0100\n"
+"POT-Creation-Date: 2019-06-24 06:15+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/"
@@ -29,7 +29,7 @@ msgstr "Zrythm"
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "고도로 자동화되고 직관적 인 DAW (Digital Audio Workstation)"
 
-#: common/footer.j2.inc:7
+#: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr "버그 추적기"
 msgid "Source Code"
 msgstr "소스 코드"
 
-#: common/footer.j2.inc:16
+#: common/footer.j2.inc:16 template/javascript.html.j2:5
 #, fuzzy
 #| msgid "Contact information"
 msgid "JavaScript Licenses"
@@ -202,6 +202,14 @@ msgid ""
 msgstr ""
 
 #: template/about.html.j2:9
+msgid "Version"
+msgstr ""
+
+#: template/about.html.j2:16
+msgid "Introduction"
+msgstr ""
+
+#: template/about.html.j2:18
 #, fuzzy
 msgid ""
 "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
@@ -214,25 +222,35 @@ msgstr ""
 "으로 Ardour 및 Jalv와 같은 다른 프로젝트의 아이디어, 개념 및 코드를 빌려줍니"
 "다."
 
-#: template/about.html.j2:15
-#, fuzzy
-msgid ""
-"Zrythm is free software licensed under the GPLv3+ and its source code is "
-"available on our GitLab instance."
+#: template/about.html.j2:24
+msgid "First Commit"
 msgstr ""
-"Zrythm은 GPLv3 +로 라이센스 된 무료 소프트웨어이며 GitLab 인스턴스에서 소스 "
-"코드를 사용할 수 있습니다."
 
-#: template/contact.html.j2:6
+#: template/about.html.j2:26
+msgid ""
+"The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
+msgstr ""
+
+#: template/about.html.j2:30
+msgid "Current Stage"
+msgstr ""
+
+#: template/about.html.j2:32
+msgid ""
+"Early alpha. Somewhat functional but has unimplemented features and crashes "
+"a lot."
+msgstr ""
+
+#: template/contact.html.j2:5
 msgid "Contact information"
 msgstr "연락처 정보"
 
-#: template/contact.html.j2:13
+#: template/contact.html.j2:11
 #, fuzzy
 msgid "Mailing Lists"
 msgstr "메일 그룹"
 
-#: template/contact.html.j2:15
+#: template/contact.html.j2:13
 msgid ""
 "Archived, public mailing lists for Zrythm are hosted <a href=\"https://lists."
 "zrythm.org/hyperkitty/\">here</a> You can send messages to the lists at <a "
@@ -241,33 +259,34 @@ msgid ""
 "\">dev@lists.zrythm.org</a> for development discussions."
 msgstr ""
 
-#: template/contact.html.j2:25
+#: template/contact.html.j2:23
 msgid "IRC/Matrix"
 msgstr ""
 
-#: template/contact.html.j2:27
+#: template/contact.html.j2:25
 msgid ""
-"Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and Matrix at "
-"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:"
-"matrix.org</a>. The channels are bridged so the messages are all shared."
+"Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
+"and Matrix at <code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix."
+"org\">#zrythmdaw:matrix.org</a></code>. The channels are bridged so the "
+"messages are all shared."
 msgstr ""
 
-#: template/contact.html.j2:38
+#: template/contact.html.j2:36
 msgid "Contacting individuals"
 msgstr ""
 
-#: template/contact.html.j2:40
+#: template/contact.html.j2:38
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
 msgstr ""
 
-#: template/contact.html.j2:47
+#: template/contact.html.j2:45
 #, fuzzy
 msgid "Reporting bugs"
 msgstr "버그보고"
 
-#: template/contact.html.j2:49
+#: template/contact.html.j2:47
 #, fuzzy, python-format
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
@@ -284,10 +303,10 @@ msgstr ""
 msgid "Talk With Us"
 msgstr "채팅 문의하기"
 
-#: template/engage.html.j2:11
+#: template/engage.html.j2:10
 #, fuzzy
 msgid ""
-"Use the mailing lists, and join our chatrooms to keep up with development, "
+"Use the mailing lists and join our chatrooms to keep up with development, "
 "find technical help, and discuss Zrythm."
 msgstr ""
 "메일 링리스트를 사용하고, <a href=\"ircs://chat.freenode.net:6697/#zrythm"
@@ -526,11 +545,18 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: template/javascript.html.j2:5
+#: template/javascript.html.j2:14
+msgid "Minified"
+msgstr ""
+
+#: template/javascript.html.j2:15
+msgid "License"
+msgstr ""
+
+#: template/javascript.html.j2:16
 #, fuzzy
-#| msgid "Contact information"
-msgid "JavaScript License Information"
-msgstr "연락처 정보"
+msgid "Source"
+msgstr "소스 코드"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
@@ -538,11 +564,9 @@ msgstr ""
 
 #: template/join-us.html.j2:10
 msgid ""
-"Zrythm is free software. You are free to use, study, share and improve it "
-"under certain conditions (see the <code>COPYING</code> file in the "
-"distribution for more details). If you are a graphic designer, programmer, "
-"speak a foreign language or have any ideas about improving Zrythm you are "
-"welcome to <a href=\"engage.html\">come say hello and join us</a>."
+"If you are a graphic designer, programmer, speak a foreign language or have "
+"any ideas about improving Zrythm you are welcome to <a href=\"engage.html"
+"\">come say hello and join us</a>."
 msgstr ""
 
 #: template/join-us.html.j2:23
@@ -656,28 +680,25 @@ msgstr ""
 msgid "This page documents the Zrythm history."
 msgstr ""
 
-#: template/team.html.j2:9
-msgid "The current team working on Zrythm"
-msgstr ""
-
-#: template/team.html.j2:24
-msgid "Zrythm maintainer"
+#: template/team.html.j2:7
+#, python-format
+msgid ""
+"The current team working on Zrythm. For a full list of contributors see the "
+"<a href=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>, <a href=\"%(git_blob_url)s/"
+"TRANSLATORS\">TRANSLATORS</a> and <a href=\"%(git_blob_url)s/THANKS"
+"\">THANKS</a> files in the distribution."
 msgstr ""
 
 #: template/team.html.j2:37
+msgid "Zrythm maintainer"
+msgstr ""
+
+#: template/team.html.j2:50
 msgid "Developer"
 msgstr ""
 
-#: template/team.html.j2:52
+#: template/team.html.j2:65
 msgid "French translator"
-msgstr ""
-
-#: template/team.html.j2:63
-#, python-format
-msgid ""
-"For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"
-"\">AUTHORS</a>, <a href=\"%(git_blob_url)s/TRANSLATORS\">TRANSLATORS</a> and "
-"<a href=\"%(git_blob_url)s/THANKS\">THANKS</a> files in the distribution."
 msgstr ""
 
 #: template/tutorial.html.j2:8
@@ -689,54 +710,3 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Developer Team"
-#~ msgstr "개발자 팀"
-
-#, fuzzy
-#~ msgid ""
-#~ "Available on <a href=\"https://discord.gg/AbHb3eD\">Discord</a> in the "
-#~ "channel <code>#general</code>."
-#~ msgstr ""
-#~ "<i class=\"fa fa-comments\"></i> <a href=\"ircs://chat.freenode.net:6697/"
-#~ "#zrythm\">#zrythm</a> 채널의 <a href=\"https://freenode.net\">irc."
-#~ "freenode.net</a> 에서 사용 가능합니다."
-
-#, fuzzy
-#~ msgid ""
-#~ "#zrythm is reachable via irc.freenode.net. Matrix users can use "
-#~ "#freenode_#zrythm:matrix.org."
-#~ msgstr "#zrythm은 irc.freenode.net을 통해 연결할 수 있습니다."
-
-#, fuzzy
-#~ msgid ""
-#~ "Archived, public mailing lists for Zrythm are hosted at <a href=\"https://"
-#~ "lists.nongnu.org/mailman/listinfo/zrythm-dev\">https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-dev</a> and <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-user\">https://lists.nongnu.org/mailman/listinfo/"
-#~ "zrythm-user</a>. You can send messages to the lists at <a href=\"mailto:"
-#~ "zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> and <a href=\"mailto:"
-#~ "zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>."
-#~ msgstr ""
-#~ "Zrythm에 대한 보관 된 공개 메일 링리스트는 <a href=\"https://lists.nongnu."
-#~ "org/mailman/listinfo/zrythm-dev\">https://lists.nongnu.org/mailman/"
-#~ "listinfo/zrythm-dev</a> 및 <a href=\"https://lists.nongnu.org/mailman/"
-#~ "listinfo/zrythm-user\">https://lists.nongnu.org/mailman/listinfo/zrythm-"
-#~ "user</a> 에서 호스팅됩니다."
-
-#, fuzzy
-#~ msgid ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-user\">General Help Mailing List</a>"
-#~ msgstr ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-user\">일반 도움말 메일 링리스트</a>"
-
-#, fuzzy
-#~ msgid ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-dev\">Development Mailing List</a>"
-#~ msgstr ""
-#~ "<i class=\"fa fa-envelope\"></i> <a href=\"https://lists.nongnu.org/"
-#~ "mailman/listinfo/zrythm-dev\">개발 메일 링리스트</a>"

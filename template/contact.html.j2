@@ -1,16 +1,14 @@
 {% extends "common/base.j2" %}
 {% block body_content %}
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>{{ _("Contact information") }}</h1>
-  </div>
+<div class="container text-center">
+  <h1>{{ _("Contact information") }}</h1>
 </div>
 
-<div class="container">
+<div class="container adorn_h3_bracket">
 <div class="row">
   <div class="col-lg-6">
-    <h2>{{ _("Mailing Lists") }}</h2>
+    <h3>{{ _("Mailing Lists") }}</h3>
       <p>
         {% trans %}
             Archived, public mailing lists for Zrythm are hosted <a href="https://lists.zrythm.org/hyperkitty/">here</a>
@@ -22,11 +20,11 @@
   </div>
 
   <div class="col-lg-6">
-    <h2>{{ _("IRC/Matrix") }}</h2>
+    <h3>{{ _("IRC/Matrix") }}</h3>
       <p>
         {% trans %}
-        Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and 
-        Matrix at <a href="https://riot.im/app/#/room/#zrythmdaw:matrix.org">#zrythmdaw:matrix.org</a>.
+        Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) and 
+        Matrix at <code><a href="https://riot.im/app/#/room/#zrythmdaw:matrix.org">#zrythmdaw:matrix.org</a></code>.
         The channels are bridged so the messages are all shared.
         {% endtrans %}
       </p>
@@ -35,7 +33,7 @@
 
 <div class="row">
   <div class="col-lg-6">
-    <h2>{{ _("Contacting individuals") }}</h2>
+    <h3>{{ _("Contacting individuals") }}</h3>
     <p>
         {% trans %}
            See the <a href="team.html">Team</a> page for contact information of each person.
@@ -44,7 +42,7 @@
   </div>
 
   <div class="col-lg-6">
-    <h2>{{ _("Reporting bugs") }}</h2>
+    <h3>{{ _("Reporting bugs") }}</h3>
     <p>
         {% trans %}
              We track open feature requests and bugs for projects

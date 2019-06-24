@@ -1,20 +1,20 @@
 {% extends "common/base.j2" %}
 {% block body_content %}
-  <article class="d-flex flex-column p-2 bd-highlight">
+<article class="d-flex flex-column p-2 bd-highlight">
+  <div class="container">
+    <div class="text-center">
+      <header>
+        <h1>{{ _("Talk With Us") }}</h1>
+      </header>
+      <h6 class="description">
+        {% trans %}
+          Use the mailing lists and join our chatrooms
+          to keep up with development, find technical help, and
+          discuss Zrythm.
+        {% endtrans %}
+      </h6>
+    </div>
     <div class="container">
-      <div class="text-center">
-        <header>
-          <h1>{{ _("Talk With Us") }}</h1>
-        </header>
-        <br />
-        <p>
-          {% trans %}
-            Use the mailing lists, and join our chatrooms
-            to keep up with development, find technical help, and
-            discuss Zrythm.
-          {% endtrans %}
-        </p>
-      </div>
       <p>
         <i class="fa fa-envelope"></i>
         <a href="https://lists.zrythm.org/postorius/lists/announce.lists.zrythm.org/">{{ _("Announcements Mailing List") }}</a>
@@ -41,6 +41,7 @@
           in the channel <code>#zrythmdaw:matrix.org</code>.
         {% endtrans %}
       </p>
-    </div>
-  </article>
+    </div> <!-- container -->
+  </div>
+</article>
 {% endblock body_content %}
