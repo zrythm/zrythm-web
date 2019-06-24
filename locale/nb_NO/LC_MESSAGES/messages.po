@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-22 09:37+0100\n"
+"POT-Creation-Date: 2019-06-24 04:51+0100\n"
 "PO-Revision-Date: 2019-06-07 18:20+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
@@ -29,7 +29,7 @@ msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr ""
 
 #: common/footer.j2.inc:7
-msgid "Developer Team"
+msgid "Team"
 msgstr ""
 
 #: common/footer.j2.inc:8
@@ -41,17 +41,19 @@ msgid "About Zrythm"
 msgstr "Om"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:68
-msgid "Bug Tracker"
+#, fuzzy
+#| msgid "Bug Tracker"
+msgid "Issue Tracker"
 msgstr "Feilsporer"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
 msgstr "Kildekode"
 
-#: common/footer.j2.inc:16 template/javascript.html.j2:5
+#: common/footer.j2.inc:16
 #, fuzzy
 #| msgid "Contact information"
-msgid "JavaScript License Information"
+msgid "JavaScript Licenses"
 msgstr "Kontaktinformasjon"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
@@ -68,10 +70,10 @@ msgstr ""
 
 #: common/footer.j2.inc:31
 msgid ""
-"Copyright &copy; Alexandros Theodotou 2019<br> <a href=\"https://git.zrythm."
-"org/zrythm/zrythm-web\">Source code of this site.</a></br> Report issues "
-"with this website to <a href=\"https://git.zrythm.org/zrythm/zrythm-web/"
-"issues\">us</a>."
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
+"zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
+"issues with this website to <a href=\"https://git.zrythm.org/zrythm/zrythm-"
+"web/issues\">us</a>."
 msgstr ""
 
 #: common/navigation.j2.inc:49
@@ -131,6 +133,14 @@ msgstr ""
 
 #: news/2019-05-04-translation-portal-launched.j2.inc:4
 msgid "Translation Portal Launched!"
+msgstr ""
+
+#: news/2019-05-04-translation-portal-launched.j2.inc:10
+msgid ""
+"Zrythm and all its components are now easily translatable via a simple web "
+"interface. All you need to do is make an account there and start "
+"translating! If you don't see your language on the list and would like us to "
+"include it, <a href=\"engage.html\">shoot us a message</a>."
 msgstr ""
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
@@ -243,12 +253,12 @@ msgid "Reporting bugs"
 msgstr ""
 
 #: template/contact.html.j2:49
+#, python-format
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
-"href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. You "
-"can also report bugs or feature requests to the <a href=\"https://lists."
-"nongnu.org/mailman/listinfo/zrythm-user\">zrythm-user</a> mailing list. The "
-"mailinglist requires no subscription."
+"href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
+"feature requests to the <a href=\"https://lists.zrythm.org/postorius/lists/"
+"user.lists.zrythm.org/\">user mailing list</a>."
 msgstr ""
 
 #: template/engage.html.j2:7
@@ -345,11 +355,13 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:44
+#, python-format
 msgid ""
-"Zrythm is a highly automated Digital Audio Workstation (DAW) designed to be "
-"featureful and intuitive to use. Zrythm sets itself apart from other DAWs by "
-"allowing extensive automation via built-in LFOs and envelopes and intuitive "
-"MIDI/audio editing and arranging via clips."
+"Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
+"Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
+"sets itself apart from other DAWs by allowing extensive automation via built-"
+"in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
+"clips."
 msgstr ""
 
 #: template/index.html.j2:48
@@ -470,6 +482,12 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: template/javascript.html.j2:5
+#, fuzzy
+#| msgid "Contact information"
+msgid "JavaScript License Information"
+msgstr "Kontaktinformasjon"
+
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
 msgstr ""
@@ -488,23 +506,22 @@ msgid "Develop"
 msgstr ""
 
 #: template/join-us.html.j2:25
+#, python-format
 msgid ""
-"Patches are welcome in the <a href=\"https://git.zrythm.org/zrythm/zrythm\"> "
-"main repository</a>."
+"Patches are welcome in the <a href=\"%(git_url)s\"> main repository</a>."
 msgstr ""
 
 #: template/join-us.html.j2:29
 #, python-format
 msgid ""
-"We have plenty of <a href=\"https://git.zrythm.org/zrythm/zrythm/issues?"
-"scope=all&utf8=%E2%9C%93&state=opened&label_name[]=beginner\">beginner-"
-"friendly issues</a> and we even offer <a href=\"https://git.zrythm.org/"
-"zrythm/zrythm/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]="
-"%2420\">bounties</a> for some. There is <a href=\"http://docs.zrythm.org/"
-"\">well-maintained, searchable code documentation</a> available, so it would "
-"be a good idea to start there. Please review the <a href=\"https://docs."
-"zrythm.org/md_CONTRIBUTING.html\">Contributing Guidelines</a> before you "
-"start."
+"We have plenty of <a href=\"%(git_url)s/issues?scope=all&utf8=%%E2%%9C"
+"%%93&state=opened&label_name[]=beginner\">beginner-friendly issues</a> and "
+"we even offer <a href=\"%(git_url)s/issues?scope=all&utf8=%%E2%%9C"
+"%%93&state=opened&label_name[]=%%2420\">bounties</a> for some. There is <a "
+"href=\"http://docs.zrythm.org/\">well-maintained, searchable code "
+"documentation</a> available, so it would be a good idea to start there. "
+"Please review the <a href=\"https://docs.zrythm.org/md_CONTRIBUTING.html"
+"\">Contributing Guidelines</a> before you start."
 msgstr ""
 
 #: template/join-us.html.j2:38
@@ -544,10 +561,11 @@ msgid ""
 msgstr ""
 
 #: template/join-us.html.j2:72
+#, python-format
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
-"without knowing much about the code. Have a look <a href=\"https://git."
-"zrythm.org/zrythm/zrythm/blob/master/resources/theme.css\">here</a>."
+"without knowing much about the code. Have a look <a href=\"%(git_blob_url)s/"
+"resources/theme.css\">here</a>."
 msgstr ""
 
 #: template/join-us.html.j2:84
@@ -594,6 +612,10 @@ msgstr ""
 msgid "This page documents the Zrythm history."
 msgstr ""
 
+#: template/team.html.j2:9
+msgid "The current team working on Zrythm"
+msgstr ""
+
 #: template/team.html.j2:23
 msgid "Zrythm maintainer"
 msgstr ""
@@ -604,6 +626,14 @@ msgstr ""
 
 #: template/team.html.j2:51
 msgid "French translator"
+msgstr ""
+
+#: template/team.html.j2:62
+#, python-format
+msgid ""
+"For a full list of contributors see the <a href=\"%(git_blob_url)s/AUTHORS"
+"\">AUTHORS</a>, <a href=\"%(git_blob_url)s/TRANSLATORS\">TRANSLATORS</a> and "
+"<a href=\"%(git_blob_url)s/THANKS\">THANKS</a> files in the distribution."
 msgstr ""
 
 #: template/tutorial.html.j2:8

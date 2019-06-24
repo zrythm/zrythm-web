@@ -65,8 +65,8 @@
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarMain">
           <li><a class="dropdown-item" href="https://docs.zrythm.org">{{ _("Developer Docs") }}</a></li>
-          <li><a class="dropdown-item" href="https://git.zrythm.org/zrythm/zrythm/issues">{{ _("Bug Tracker") }}</a></li>
-          <li><a class="dropdown-item" href="https://git.zrythm.org/zrythm/zrythm">{{ _("Source Code") }}</a></li>
+          <li><a class="dropdown-item" href="{{ git_url }}/issues">{{ _("Issue Tracker") }}</a></li>
+          <li><a class="dropdown-item" href="{{ git_url }}">{{ _("Source Code") }}</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">

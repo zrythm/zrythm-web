@@ -23,12 +23,12 @@
       <h3>{{ _("Develop") }}</h3>
       <p>
         {% trans %}
-          Patches are welcome in the <a href="https://git.zrythm.org/zrythm/zrythm">
+          Patches are welcome in the <a href="{{ git_url }}">
           main repository</a>.
         {% endtrans %}
         {% trans %}
-          We have plenty of <a href="https://git.zrythm.org/zrythm/zrythm/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=beginner">beginner-friendly issues</a> and we even 
-          offer <a href="https://git.zrythm.org/zrythm/zrythm/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=%2420">bounties</a> for some. 
+          We have plenty of <a href="{{ git_url }}/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=beginner">beginner-friendly issues</a> and we even 
+          offer <a href="{{ git_url }}/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=%2420">bounties</a> for some. 
           There is <a href="http://docs.zrythm.org/">well-maintained, searchable code documentation</a> available, so it would be a good idea to start there.
           Please review the <a href="https://docs.zrythm.org/md_CONTRIBUTING.html">Contributing Guidelines</a> before you start.
         {% endtrans %}
@@ -71,7 +71,7 @@
       <p>
         {% trans %}
         Zrythm itself is fully CSS themeable so it's easy to change its design without
-        knowing much about the code. Have a look <a href="https://git.zrythm.org/zrythm/zrythm/blob/master/resources/theme.css">here</a>.
+        knowing much about the code. Have a look <a href="{{ git_blob_url }}/resources/theme.css">here</a>.
         {% endtrans %}
       </p>
     </div>

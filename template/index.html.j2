@@ -42,7 +42,7 @@
   <div class="container text-center">
     <p>
       {% trans %}
-      Zrythm is a highly automated Digital Audio Workstation (DAW) designed to be featureful and intuitive to use. Zrythm sets itself apart from other DAWs by allowing extensive automation via built-in LFOs and envelopes and intuitive MIDI/audio editing and arranging via clips.
+      Zrythm [<em>{{ pronunciation }}</em>]  is a highly automated Digital Audio Workstation (DAW) designed to be featureful and intuitive to use. Zrythm sets itself apart from other DAWs by allowing extensive automation via built-in LFOs and envelopes and intuitive MIDI/audio editing and arranging via clips.
       {% endtrans %}
       <br><br>
       {% trans %}
@@ -95,7 +95,7 @@ In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most foc
             </a>
           </li>
           <li>
-            <a href="https://git.zrythm.org/zrythm/zrythm/-/archive/v0.5.097/zrythm-v0.5.097.tar.gz" class="dropdown-link">
+            <a href="{{ git_url }}/-/archive/v{{ version }}/zrythm-v{{ version }}.tar.gz" class="dropdown-link">
               <button class="dropdown-item" >
               <i class="fa fa-fw fa-cloud-download"></i>
               Source tarball

@@ -78,6 +78,10 @@ lang_flags = {
         "ko": "[ko]",
         "ar": "[ar]",
         "hi": "[hi]"}
+git_url = 'https://git.zrythm.org/zrythm/zrythm'
+git_blob_url = git_url + '/blob/master'
+version = '0.5.097'
+pronunciation = 'ziˈrɪðəm'
 
 for in_file in glob.glob("template/*.j2"):
     name, ext = re.match(r"(.*)\.([^.]+)$", in_file.rstrip(".j2")).groups()
@@ -121,6 +125,10 @@ for in_file in glob.glob("template/*.j2"):
                               lang_full=langs_full[locale],
                               langs_full=langs_full,
                               url=url,
+                              git_url=git_url,
+                              git_blob_url=git_blob_url,
+                              version=version,
+                              pronunciation=pronunciation,
                               self_localized=self_localized,
                               url_localized=url_localized,
                               svg_localized=svg_localized,
