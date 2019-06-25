@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-24 13:18+0100\n"
-"PO-Revision-Date: 2019-06-25 00:15+0000\n"
+"PO-Revision-Date: 2019-06-26 13:03+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -40,8 +40,6 @@ msgid "About Zrythm"
 msgstr "Über Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:68
-#, fuzzy
-#| msgid "Bug Tracker"
 msgid "Issue Tracker"
 msgstr "Fehlerdatenbank"
 
@@ -50,10 +48,8 @@ msgid "Source Code"
 msgstr "Quellcode"
 
 #: common/footer.j2.inc:16 template/javascript.html.j2:5
-#, fuzzy
-#| msgid "JavaScript License Information"
 msgid "JavaScript Licenses"
-msgstr "JavaScript-Lizenzinformationen"
+msgstr "JavaScript-Lizenz"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
@@ -246,7 +242,7 @@ msgstr "Erster Commit"
 #: template/about.html.j2:26
 msgid ""
 "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-msgstr ""
+msgstr "Der erste Commit war am <code>Wed Jul 25 22:35:01 2018 +0900</code>."
 
 #: template/about.html.j2:30
 msgid "Current Stage"
@@ -276,28 +272,27 @@ msgid ""
 "user inquiries/discussions and <a href=\"mailto:dev@lists.zrythm.org"
 "\">dev@lists.zrythm.org</a> for development discussions."
 msgstr ""
+"Archivierte öffentliche Mailinglisten werden <a href=\"https://lists.zrythm."
+"org/hyperkitty/\">hier</a> gehostet. Nachrichten an die Mailinglisten kannst "
+"du auf <a href=\"mailto:user@lists.zrythm.org\">user@lists.zrythm.org</a> "
+"für Anfragen/Diskussionen, und auf <a href=\"mailto:dev@lists.zrythm.org\""
+">dev@lists.zrythm.org</a> für Entwicklungsdiskussionen verschicken."
 
 #: template/contact.html.j2:23
 msgid "IRC/Matrix"
 msgstr "IRC/Matrix"
 
 #: template/contact.html.j2:25
-#, fuzzy
-#| msgid ""
-#| "Zrythm is reachable on IRC at #zrythm (via irc.freenode.net) and Matrix "
-#| "at <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
-#| "\">#zrythmdaw:matrix.org</a>. The channels are bridged so the messages "
-#| "are all shared."
 msgid ""
 "Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
 "and Matrix at <code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix."
 "org\">#zrythmdaw:matrix.org</a></code>. The channels are bridged so the "
 "messages are all shared."
 msgstr ""
-"Zrythm ist erreichbar auf dem IRC über #zrythm (via irc.freenode.net) und "
-"auf Matrix über <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
-"\">#zrythmdaw:matrix.org</a>. Die Kanäle sind überbrückt so dass die "
-"Nachrichten alle geteilt werden."
+"Zrythm ist auf dem IRC erreichbar über  <code>#zrythm</code> (via "
+"irc.freenode.net) und auf Matrix über <code><a href=\"https://riot.im/app/#/"
+"room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>. Die Kanäle "
+"sind überbrückt so dass die Nachrichten alle geteilt werden."
 
 #: template/contact.html.j2:36
 msgid "Contacting individuals"
@@ -323,49 +318,52 @@ msgid ""
 "feature requests to the <a href=\"https://lists.zrythm.org/postorius/lists/"
 "user.lists.zrythm.org/\">user mailing list</a>."
 msgstr ""
+"Wir verfolgen offene Funktionsvorschläge und Fehler für Projekte innerhalb "
+"von Zrythm in unserem <a href=\"%(git_url)s/issues\">Issue tracker</a>. "
+"Fehler melden und Funktionen vorschlagen kannst du auch an die <a href=\""
+"https://lists.zrythm.org/postorius/lists/user.lists.zrythm.org/\">user "
+"mailing list</a>."
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
 msgstr "Sprich Mit Uns"
 
 #: template/engage.html.j2:10
-#, fuzzy
-#| msgid ""
-#| "Use the mailing lists, and join our chatrooms to keep up with "
-#| "development, find technical help, and discuss Zrythm."
 msgid ""
 "Use the mailing lists and join our chatrooms to keep up with development, "
 "find technical help, and discuss Zrythm."
 msgstr ""
-"Nutz die Mailinglisten, und komm in unsere Chatrooms um über die "
+"Nutz die Mailinglisten und komm in unsere Chatrooms um über die "
 "Entwicklungen auf dem Laufenden zu bleiben, technische Hilfe zu finden, und "
 "Zrythm zu diskutieren."
 
 #: template/engage.html.j2:20
 msgid "Announcements Mailing List"
-msgstr "Ankündigungsmailingliste"
+msgstr "Announcement Mailingliste"
 
 #: template/engage.html.j2:24
 msgid "General Help Mailing List"
-msgstr ""
+msgstr "General Help Mailingliste"
 
 #: template/engage.html.j2:28
-#, fuzzy
-#| msgid "Development"
 msgid "Development Mailing List"
-msgstr "Entwickelung"
+msgstr "Development Mailingliste"
 
 #: template/engage.html.j2:32
 msgid ""
 "Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
 "net</a> in the channel <code>#zrythm</code>."
 msgstr ""
+"Verfügbar auf <a href=\"ircs://chat.freenode.net:6697/#zrythm\""
+">irc.freenode.net</a> auf dem Kanal <code>#zrythm</code>."
 
 #: template/engage.html.j2:39
 msgid ""
 "Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgstr ""
+"Verfügbar auf <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
+">Matrix</a> auf dem Kanal <code>#zrythmdaw:matrix.org</code>."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
@@ -448,6 +446,12 @@ msgid ""
 "in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
 "clips."
 msgstr ""
+"Zrythm [<em>%(pronunciation)s</em>] ist eine hochautomatisierte Digital "
+"Audio Workstation (DAW), die dafür designt ist funktionsreich und intuitiv "
+"zu nutzen zu sein. Zrythm selbst setzt sich dadurch von anderen DAWs ab, "
+"dass es via eingebauten LFOs und Envelopes eine weitgehende Automatisierung, "
+"und eine intuitive MIDI-/Audiobearbeitung, und das Arrangieren via Clips "
+"erlaubt."
 
 #: template/index.html.j2:48
 msgid ""
@@ -488,6 +492,9 @@ msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
+"Eingebaute LFOs und Envelopes zum automatisieren der Steuerung, "
+"Automationskurven für noch detaillierte Automation, Clips zum loopen deiner "
+"MIDI-Noten/Audios, und mehr."
 
 #: template/index.html.j2:139
 msgid "Intuitive"
@@ -498,6 +505,9 @@ msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
+"Zrythm versucht die Oberfläche sauber und angenehm zum damit arbeiten zu "
+"halten, mit intuitiven Wegen Arbeit zu erledigen ermöglicht es einen "
+"schnelleren Arbeitsfluss."
 
 #: template/index.html.j2:150
 msgid "Featureful"
@@ -508,6 +518,8 @@ msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
+"Automationskurven, Busses, Drag and Draop LV2-Erweiterungen und "
+"Audiodateien, Arrangierer-Minikarte, etc."
 
 #: template/index.html.j2:169
 msgid "Features"
@@ -534,6 +546,8 @@ msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
+"Moduliere Erweiterungssteuerungen mit eingebauten LFOs, Envelopes, und "
+"anderen Modulatoren im Modulatorentab."
 
 #: template/index.html.j2:203
 msgid "Chord Assistance"
@@ -584,32 +598,29 @@ msgstr "Neuigkeiten"
 
 #: template/javascript.html.j2:14
 msgid "Minified"
-msgstr ""
+msgstr "Minifiziert"
 
 #: template/javascript.html.j2:15
 msgid "License"
 msgstr "Lizenz"
 
 #: template/javascript.html.j2:16
-#, fuzzy
-#| msgid "Source Code"
 msgid "Source"
-msgstr "Quelltext"
+msgstr "Quelle"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
 msgstr "Mach mit beim Team von Zrythm"
 
 #: template/join-us.html.j2:10
-#, fuzzy
 msgid ""
 "If you are a graphic designer, programmer, speak a foreign language or have "
 "any ideas about improving Zrythm you are welcome to <a href=\"engage.html"
 "\">come say hello and join us</a>."
 msgstr ""
 "Du designst Grafiken, programmierst, oder sprichst eine fremde Sprache, oder "
-"hast irgendeine Idee, Zrythm zu verbessern, dann bist du willkommen hallo zu "
-"sagen und kannst <a href=\"engage.html\">bei uns mitmachen</a>."
+"hast irgendeine Idee, Zrythm zu verbessern, dann sei willkommen und <a href="
+"\"engage.html\">komm hallo sagen und mach bei uns mit</a>."
 
 #: template/join-us.html.j2:23
 msgid "Develop"
@@ -739,6 +750,11 @@ msgid ""
 "over 200 USD. If you would like to discuss this possibility, write to us at "
 "<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 msgstr ""
+"Wir denken auch gerne darüber nach, im Gegenzug für eine beträchtliche "
+"Spende über 200 USD, bestimmte Verbesserungen oder Veränderungen "
+"vorzunehmen, oder bestimmte technische Unterstützung zu leisten. Wenn du "
+"diese Möglichkeit disskutieren möchtest, schreib uns eine Nachricht an <a "
+"href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 
 #: template/join-us.html.j2:110
 msgid "Thank you for your support!"
