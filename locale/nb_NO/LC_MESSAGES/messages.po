@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-29 11:05+0100\n"
-"PO-Revision-Date: 2019-06-07 18:20+0000\n"
-"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
+"PO-Revision-Date: 2019-06-29 15:34+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
 "web/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.7.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
@@ -66,7 +66,7 @@ msgstr "O-S-S"
 
 #: common/footer.j2.inc:23
 msgid "Support Us"
-msgstr ""
+msgstr "Støtt oss"
 
 #: common/footer.j2.inc:31
 msgid ""
@@ -86,7 +86,7 @@ msgstr "Forum"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr ""
+msgstr "Diskusjon"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
@@ -98,7 +98,7 @@ msgstr "Utvikling"
 
 #: common/navigation.j2.inc:67
 msgid "Developer Docs"
-msgstr ""
+msgstr "Utviklerdokumentasjon"
 
 #: common/navigation.j2.inc:79
 msgid "Documentation"
@@ -106,7 +106,7 @@ msgstr "Dokumentasjon"
 
 #: common/navigation.j2.inc:82 template/tutorial.html.j2:5
 msgid "Tutorials"
-msgstr ""
+msgstr "Veiledninger"
 
 #: common/navigation.j2.inc:83
 msgid "Glossary"
@@ -114,7 +114,7 @@ msgstr "Ordliste"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
 msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr ""
+msgstr "Zrythm har flyttet kodebasen til selvtjent GitLab"
 
 #: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
 msgid ""
@@ -133,7 +133,7 @@ msgstr ""
 
 #: news/2019-05-04-translation-portal-launched.j2.inc:4
 msgid "Translation Portal Launched!"
-msgstr ""
+msgstr "Oversettelsesportal lansert."
 
 #: news/2019-05-04-translation-portal-launched.j2.inc:10
 msgid ""
@@ -144,8 +144,9 @@ msgid ""
 msgstr ""
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
+#, fuzzy
 msgid "Translations Now Hosted at Weblate.org"
-msgstr ""
+msgstr "Oversettelser finner nå sted på hosted.weblate.org"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
 msgid ""
@@ -195,11 +196,11 @@ msgstr ""
 
 #: template/about.html.j2:9
 msgid "Version"
-msgstr ""
+msgstr "Versjon"
 
 #: template/about.html.j2:16
 msgid "Introduction"
-msgstr ""
+msgstr "Introduksjon"
 
 #: template/about.html.j2:18
 msgid ""
@@ -250,7 +251,7 @@ msgstr ""
 
 #: template/contact.html.j2:23
 msgid "IRC/Matrix"
-msgstr ""
+msgstr "IRC/Matrix"
 
 #: template/contact.html.j2:25
 msgid ""
