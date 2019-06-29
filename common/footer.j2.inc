@@ -11,7 +11,7 @@
         </div>
         <div class="col-12 col-sm-4">
           <ul class="footer-list">
-            <li><p><a href="{{ git_url }}/issues">{{ _("Issue Tracker") }}</a></p></li>
+            <li><p><a href="{{ issue_tracker }}">{{ _("Issue Tracker") }}</a></p></li>
             <li><p><a href="{{ git_url }}">{{ _("Source Code") }}</a></p></li>
             <li><p><a href="javascript.html" rel="jslicense">{{ _("JavaScript Licenses") }}</a></p></li>
           </ul>

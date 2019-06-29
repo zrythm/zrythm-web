@@ -65,7 +65,7 @@
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarMain">
           <li><a class="dropdown-item" href="https://docs.zrythm.org">{{ _("Developer Docs") }}</a></li>
-          <li><a class="dropdown-item" href="{{ git_url }}/issues">{{ _("Issue Tracker") }}</a></li>
+          <li><a class="dropdown-item" href="{{ issue_tracker }}">{{ _("Issue Tracker") }}</a></li>
           <li><a class="dropdown-item" href="{{ git_url }}">{{ _("Source Code") }}</a></li>
         </ul>
       </li>
@@ -86,7 +86,7 @@
         </ul>
       </li>
       <li class="nav-item badge">
-        <a href="https://git.zrythm.org/zrythm/zrythm/releases">
+        <a href="http://git.savannah.nongnu.org/cgit/zrythm.git/refs/tags">
           <img src="https://img.shields.io/aur/version/zrythm.svg?label=release" alt="Release" />
         </a>
       </li>
