@@ -49,7 +49,7 @@
            {{ _("Community") }}
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarMain">
-          <li><a class="dropdown-item" href="https://forum.zrythm.org">{{ _("Forum") }} </a></li>
+          <!--<li><a class="dropdown-item" href="https://forum.zrythm.org">{{ _("Forum") }} </a></li>-->
           <li><a class="dropdown-item" href="engage.html">{{ _("Discussion") }} </a></li>
           <li><a class="dropdown-item" href="join-us.html">{{ _("Join Us") }}</a></li>
         </ul>
@@ -92,7 +92,7 @@
       </li>
       <li class="nav-item badge">
         <a href="https://www.gnu.org/licenses/gpl-3.0.html">
-          <img src="https://img.shields.io/aur/license/zrythm.svg?color=green" alt="License" />
+          <img src="{{ url('static/images/licence_gpl.svg') }}" alt="License" />
         </a>
       </li>
       <li class="nav-item badge">
@@ -101,13 +101,7 @@
         </a>
       </li>
       <li class="nav-item badge">
-        <a href="https://git.zrythm.org/zrythm/zrythm/pipelines"><img src="https://git.zrythm.org/zrythm/zrythm/badges/master/pipeline.svg" alt="Pipeline"></a>
-      </li>
-      <li class="nav-item badge">
-        <a href="https://riot.im/app/#/room/#zrythmdaw:matrix.org?action=chat"><img src="https://git.zrythm.org/zrythm/zrythm/raw/master/data/chat-matrix.svg?inline=false" alt="Chat on Matrix"></a>
-      </li>
-      <li class="nav-item badge">
-        <a href="https://liberapay.com/Zrythm"><img src="https://img.shields.io/liberapay/patrons/Zrythm.svg?logo=liberapay" alt="LiberaPay Patrons"></a>
+        <a href="https://liberapay.com/Zrythm/donate"><img alt="Donate using Liberapay" src="{{ url('static/images/donate_liberapay.svg') }}"></a>
       </li>
     </ul>
     <ul class="navbar-nav navbar-right nav">
