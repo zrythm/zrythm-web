@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-29 20:29+0100\n"
+"POT-Creation-Date: 2019-07-05 19:08+0100\n"
 "PO-Revision-Date: 2019-07-04 18:57+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -64,11 +64,17 @@ msgid "Support Us"
 msgstr "Unterstützung anbieten"
 
 #: common/footer.j2.inc:31
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://"
+#| "git.zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> "
+#| "Report issues with this website to <a href=\"https://git.zrythm.org/"
+#| "zrythm/zrythm-web/issues\">us</a>."
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
 "zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
-"issues with this website to <a href=\"https://git.zrythm.org/zrythm/zrythm-"
-"web/issues\">us</a>."
+"issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
+"func=additem&group=zrythm\">us</a>."
 msgstr ""
 "Copyright &copy; Alexandros Theodotou 2019<br> <a href=\"https://git.zrythm."
 "org/zrythm/zrythm-web\">Quellcode dieser Seite.</a></br> Melde Probleme mit "
@@ -272,11 +278,11 @@ msgid ""
 "org</a> for general user inquiries/discussions and <a href=\"mailto:zrythm-"
 "dev@nongnu.org\">zrythm-dev@nongnu.org</a> for development discussions."
 msgstr ""
-"Archivierte öffentliche Mailinglisten werden <a href=\""
-"https://savannah.nongnu.org/mail/?group=zrythm\">hier</a> gehostet. "
-"Nachrichten an die Mailinglisten kannst du auf <a href=\"mailto:zrythm-"
-"user@nongnu.org\">zrythm-user@nongnu.org</a> für Anfragen/Diskussionen, und "
-"auf <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> für "
+"Archivierte öffentliche Mailinglisten werden <a href=\"https://savannah."
+"nongnu.org/mail/?group=zrythm\">hier</a> gehostet. Nachrichten an die "
+"Mailinglisten kannst du auf <a href=\"mailto:zrythm-user@nongnu.org\">zrythm-"
+"user@nongnu.org</a> für Anfragen/Diskussionen, und auf <a href=\"mailto:"
+"zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> für "
 "Entwicklungsdiskussionen verschicken."
 
 #: template/contact.html.j2:23
@@ -321,8 +327,8 @@ msgid ""
 msgstr ""
 "Wir verfolgen offene Funktionsvorschläge und Fehler für Projekte innerhalb "
 "von Zrythm in unserem <a href=\"%(git_url)s/issues\">Issue tracker</a>. "
-"Fehler melden und Funktionen vorschlagen kannst du auch an die <a href=\""
-"mailto:zrythm-user@nongnu.org\">user mailing list</a>."
+"Fehler melden und Funktionen vorschlagen kannst du auch an die <a href="
+"\"mailto:zrythm-user@nongnu.org\">user mailing list</a>."
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
@@ -363,9 +369,9 @@ msgid ""
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code> (bridged "
 "with IRC)."
 msgstr ""
-"Verfügbar auf <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
-">Matrix</a> auf dem Kanal <code>#zrythmdaw:matrix.org</code> (überbrückt mit "
-"IRC)."
+"Verfügbar auf <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
+"\">Matrix</a> auf dem Kanal <code>#zrythmdaw:matrix.org</code> (überbrückt "
+"mit IRC)."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
@@ -416,28 +422,6 @@ msgstr "Ich bekomme unerfüllte Abhängigkeiten wenn ich auf Ubuntu installiere"
 #: template/faq.html.j2:34
 msgid "Enable the universe repository:"
 msgstr "Aktiviere den Universe-Repository:"
-
-#: template/faq.html.j2:39
-msgid "I'm using Windows"
-msgstr "Ich nutze Windows"
-
-#: template/faq.html.j2:41
-msgid ""
-"In addition to being <a href=\"https://www.gnu.org/proprietary/malware-"
-"microsoft.html\">malware</a>, Windows is badly designed, is a pain to use as "
-"a developer and as a user, is too slow and requires many hacks to package "
-"Zrythm for it and thus wastes a lot of our precious time (and sanity) so we "
-"decided to drop support for it. Consider <a href=\"http://www."
-"upgradefromwindows.com\">upgrading to a better OS that respects your "
-"freedom</a>."
-msgstr ""
-"Darüber hinaus dass Windows <a href=\"https://www.gnu.org/proprietary/"
-"malware-microsoft.de.html\">Schadsoftware</a> ist, ist es schlecht designt, "
-"eine Qual es zu benutzen, zu langsam, und benötigt viele Hacks um Zrythm für "
-"sich zu packagen und verschwendet damit wertvolle Zeit (und geistige "
-"Gesundheit). Also haben wir entschieden, die Unterstützung einzustellen. "
-"Überleg dir den <a href=\"http://www.upgradefromwindows.com\">Umstieg auf "
-"ein besseres Betriebssystem, das deine Freiheit achtet</a>."
 
 #: template/index.html.j2:44
 #, python-format
@@ -758,7 +742,15 @@ msgstr ""
 msgid "Thank you for your support!"
 msgstr "Danke für deine Unterstützung!"
 
-#: template/news.html.j2.inc:4
+#: template/news.html.j2.inc:9
+msgid "posted by"
+msgstr ""
+
+#: template/news.html.j2.inc:9
+msgid "on"
+msgstr ""
+
+#: template/news.html.j2.inc:17
 msgid "More news"
 msgstr "Mehr Neuigkeiten"
 
@@ -806,3 +798,23 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Zrythm-Installationsanweisungen: <ul> <li>IN ARBEIT</li> </ul>"
+
+#~ msgid "I'm using Windows"
+#~ msgstr "Ich nutze Windows"
+
+#~ msgid ""
+#~ "In addition to being <a href=\"https://www.gnu.org/proprietary/malware-"
+#~ "microsoft.html\">malware</a>, Windows is badly designed, is a pain to use "
+#~ "as a developer and as a user, is too slow and requires many hacks to "
+#~ "package Zrythm for it and thus wastes a lot of our precious time (and "
+#~ "sanity) so we decided to drop support for it. Consider <a href=\"http://"
+#~ "www.upgradefromwindows.com\">upgrading to a better OS that respects your "
+#~ "freedom</a>."
+#~ msgstr ""
+#~ "Darüber hinaus dass Windows <a href=\"https://www.gnu.org/proprietary/"
+#~ "malware-microsoft.de.html\">Schadsoftware</a> ist, ist es schlecht "
+#~ "designt, eine Qual es zu benutzen, zu langsam, und benötigt viele Hacks "
+#~ "um Zrythm für sich zu packagen und verschwendet damit wertvolle Zeit (und "
+#~ "geistige Gesundheit). Also haben wir entschieden, die Unterstützung "
+#~ "einzustellen. Überleg dir den <a href=\"http://www.upgradefromwindows.com"
+#~ "\">Umstieg auf ein besseres Betriebssystem, das deine Freiheit achtet</a>."

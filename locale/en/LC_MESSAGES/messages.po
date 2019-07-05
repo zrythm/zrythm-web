@@ -46,8 +46,8 @@ msgstr ""
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
 "zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
-"issues with this website to <a href=\"https://git.zrythm.org/zrythm/zrythm-"
-"web/issues\">us</a>."
+"issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
+"func=additem&group=zrythm\">us</a>."
 msgstr ""
 
 #: common/navigation.j2.inc:49
@@ -330,21 +330,6 @@ msgstr ""
 msgid "Enable the universe repository:"
 msgstr ""
 
-#: template/faq.html.j2:39
-msgid "I'm using Windows"
-msgstr ""
-
-#: template/faq.html.j2:41
-msgid ""
-"In addition to being <a href=\"https://www.gnu.org/proprietary/malware-"
-"microsoft.html\">malware</a>, Windows is badly designed, is a pain to use as "
-"a developer and as a user, is too slow and requires many hacks to package "
-"Zrythm for it and thus wastes a lot of our precious time (and sanity) so we "
-"decided to drop support for it. Consider <a href=\"http://www."
-"upgradefromwindows.com\">upgrading to a better OS that respects your "
-"freedom</a>."
-msgstr ""
-
 #: template/index.html.j2:44
 #, python-format
 msgid ""
@@ -592,7 +577,15 @@ msgstr ""
 msgid "Thank you for your support!"
 msgstr ""
 
-#: template/news.html.j2.inc:4
+#: template/news.html.j2.inc:9
+msgid "posted by"
+msgstr ""
+
+#: template/news.html.j2.inc:9
+msgid "on"
+msgstr ""
+
+#: template/news.html.j2.inc:17
 msgid "More news"
 msgstr ""
 

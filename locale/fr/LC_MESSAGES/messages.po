@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-06-29 20:29+0100\n"
+"POT-Creation-Date: 2019-07-05 19:08+0100\n"
 "PO-Revision-Date: 2019-06-24 04:16+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -79,8 +79,8 @@ msgstr "Soutenez-nous"
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
 "zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
-"issues with this website to <a href=\"https://git.zrythm.org/zrythm/zrythm-"
-"web/issues\">us</a>."
+"issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
+"func=additem&group=zrythm\">us</a>."
 msgstr ""
 "Copyright &copy; Alexandros Theodotou 2019<br> Cette page a été créée en "
 "utilisant uniquement des <a href=\"https://www.gnu.org/\">logiciels libres</"
@@ -414,21 +414,6 @@ msgstr ""
 msgid "Enable the universe repository:"
 msgstr "Activer le dépôt universel :"
 
-#: template/faq.html.j2:39
-msgid "I'm using Windows"
-msgstr "J'utilise Windows"
-
-#: template/faq.html.j2:41
-msgid ""
-"In addition to being <a href=\"https://www.gnu.org/proprietary/malware-"
-"microsoft.html\">malware</a>, Windows is badly designed, is a pain to use as "
-"a developer and as a user, is too slow and requires many hacks to package "
-"Zrythm for it and thus wastes a lot of our precious time (and sanity) so we "
-"decided to drop support for it. Consider <a href=\"http://www."
-"upgradefromwindows.com\">upgrading to a better OS that respects your "
-"freedom</a>."
-msgstr ""
-
 #: template/index.html.j2:44
 #, fuzzy, python-format
 msgid ""
@@ -760,7 +745,15 @@ msgstr ""
 msgid "Thank you for your support!"
 msgstr "Merci de votre soutien !"
 
-#: template/news.html.j2.inc:4
+#: template/news.html.j2.inc:9
+msgid "posted by"
+msgstr ""
+
+#: template/news.html.j2.inc:9
+msgid "on"
+msgstr ""
+
+#: template/news.html.j2.inc:17
 msgid "More news"
 msgstr "Plus d'actualités"
 
@@ -804,3 +797,6 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Instructions d'installation de Zrythm :<ul> <li>À FAIRE</li> </ul>"
+
+#~ msgid "I'm using Windows"
+#~ msgstr "J'utilise Windows"

@@ -31,14 +31,9 @@
     {% trans %}
     Copyright &copy; 2019 Alexandros Theodotou et al.<br>
     <a href="https://git.zrythm.org/zrythm/zrythm-web">Source code of this site.</a></br>
-    Report issues with this website to <a href="https://git.zrythm.org/zrythm/zrythm-web/issues">us</a>.
+    Report issues with this website to <a href="https://savannah.nongnu.org/support/?func=additem&group=zrythm">us</a>.
     {% endtrans %}
     </p>
-    <!--
-    <a href="https://u.fsf.org/16e"><img height="86" src="{{ url('static/images/fsfs_icons_red-bg.png') }}" alt="Free Software. Free Society."></a>
-    <a href="http://endsoftpatents.org/"><img width="180" src="{{ url('static/images/esp-logo-horizontal.png') }}" alt="End Software Patents"></a>
-    <a href="https://www.gnu.org/philosophy/javascript-trap.html"><img width="120" src="{{ url('static/images/freejs.png') }}" alt="FreeJS"></a>
-    <a href="https://www.fsf.org/campaigns/playogg/en/"><img width="120" src="{{ url('static/images/Ogg_button_final.png') }}" alt="Play OGG"></a> -->
     <p style="padding-bottom: 12px;"></p>
   </div>
 </footer>
