@@ -116,6 +116,10 @@ for in_file in glob.glob("template/*.j2"):
             return "../" + lf
 
     # truncate html for news
+    # taken from https://djangosnippets.org/snippets/1477/ under the
+    # terms of service states that "you grant any third party who sees the code
+    # you post a royalty-free, non-exclusive license to copy and distribute
+    # that code and to make and distribute derivative works based on that code"
     import re
     tag_end_re = re.compile(r'(\w+)[^>]*>')
     entity_end_re = re.compile(r'(\w+;)')
