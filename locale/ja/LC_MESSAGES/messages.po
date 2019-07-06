@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-05 19:08+0100\n"
-"PO-Revision-Date: 2019-06-24 06:13+0000\n"
+"PO-Revision-Date: 2019-07-07 02:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/"
-">\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7.1-dev\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
@@ -66,22 +66,16 @@ msgid "Support Us"
 msgstr "支援する"
 
 #: common/footer.j2.inc:31
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://"
-#| "git.zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> "
-#| "Report issues with this website to <a href=\"https://git.zrythm.org/"
-#| "zrythm/zrythm-web/issues\">us</a>."
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
 "zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
 "issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
-"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
-"zrythm.org/zrythm/zrythm-web\">このサイトのソースコード</a></br> このウェブサ"
-"イトに関する問題を<a href=\"https://git.zrythm.org/zrythm/zrythm-web/issues"
-"\">私たちに報告してください</a>"
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\""
+"https://git.zrythm.org/zrythm/zrythm-web\">このサイトのソースコード</a></br> "
+"このウェブサイトに関する問題を<a href=\"https://savannah.nongnu.org/support/"
+"?func=additem&group=zrythm\">私たちに報告してください</a>"
 
 #: common/navigation.j2.inc:49
 msgid "Community"
@@ -93,11 +87,11 @@ msgstr "フォーラム"
 
 #: common/navigation.j2.inc:53
 msgid "Discussion"
-msgstr "Discussion"
+msgstr "ディスカッション"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr "参加しよう"
+msgstr "参加する"
 
 #: common/navigation.j2.inc:64
 msgid "Development"
@@ -166,6 +160,8 @@ msgid ""
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
+"weblate.orgの人たちによって提供される寛大なホスティングのおかげで、Zrythmは今そこに翻訳することができます!<a href=\""
+"https://hosted.weblate.org/engage/zrythm/\"> ここをクリックして</a>をクリックしてください。"
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
 msgid "Note: We will be taking down the self-hosted version soon."
@@ -303,40 +299,27 @@ msgid "Reporting bugs"
 msgstr "バグ報告"
 
 #: template/contact.html.j2:47
-#, fuzzy, python-format
-#| msgid ""
-#| "We track open feature requests and bugs for projects within Zrythm in our "
-#| "<a href=\"https://git.zrythm.org/zrythm/zrythm/issues\">Bug tracker</a>. "
-#| "You can also report bugs or feature requests to the <a href=\"https://"
-#| "lists.nongnu.org/mailman/listinfo/zrythm-user\">zrythm-user</a> mailing "
-#| "list. The mailinglist requires no subscription."
+#, python-format
 msgid ""
 "We track open feature requests and bugs for projects within Zrythm in our <a "
 "href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
 "feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
 "mailing list</a>."
 msgstr ""
-"<a href=\"https://git.zrythm.org/zrythm/zrythm/issues\">バグトラッカー</a>"
-"で、Zrythm内のプロジェクトに対する未解決の機能要求とバグを<a href=\"https://"
-"git.zrythm.org/zrythm/zrythm/issues\">追跡しています</a>。"
+"<a href=\"%(git_url)s/issues\">バグトラッカー</a>で、Zrythmに対する未解決の機能要求とバグを追跡しています。また、"
+"バグや機能要求を <a href=\"mailto:zrythm-user@nongnu.org\""
+">ユーザーメーリングリスト</a>に報告することもできます。"
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
 msgstr "私達と話す"
 
 #: template/engage.html.j2:10
-#, fuzzy
-#| msgid ""
-#| "Use the mailing lists, and join our <a href=\"ircs://chat.freenode."
-#| "net:6697/#zrythm\">IRC channel</a> to keep up with development, find "
-#| "technical help, and discuss Zrythm."
 msgid ""
 "Use the mailing lists and join our chatrooms to keep up with development, "
 "find technical help, and discuss Zrythm."
 msgstr ""
-"メーリングリストを使って、開発についていくために、テクニカルヘルプを探すため"
-"に、そしてZrythmについて議論するために<a href=\"ircs://chat.freenode."
-"net:6697/#zrythm\">IRCチャンネル</a>に参加してください。"
+"メーリングリストを使用したり、チャットルームに参加したり、開発に追いついたり、技術的なヘルプを見つけたり、Zrythmについて話し合うことができます。"
 
 #: template/engage.html.j2:20
 msgid "Announcements Mailing List"
@@ -359,17 +342,13 @@ msgstr ""
 "<code>#zrythm</code>チャンネルにいます。"
 
 #: template/engage.html.j2:39
-#, fuzzy
-#| msgid ""
-#| "Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
-#| "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code>."
 msgid ""
 "Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code> (bridged "
 "with IRC)."
 msgstr ""
-"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">Matrix</a>の"
-"<code>#zrythmdaw:matrix.org</code>チャンネルにいます。"
+"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
+">Matrix</a>の<code>#zrythmdaw:matrix.org</code>チャンネルにいます(IRCとブリッジされています)。"
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
@@ -509,14 +488,10 @@ msgid "Limitless Automation"
 msgstr "無限のオートメーション"
 
 #: template/index.html.j2:181
-#, fuzzy
-#| msgid ""
-#| "Automate almost anything with built-in envelopes and automation curves."
 msgid ""
 "Automate almost anything with automation tracks using straight lines, ramps "
 "and curves."
-msgstr ""
-"内蔵エンベロープとオートメーションカーブを使って、ほとんどすべてを自動化。"
+msgstr "直線、スロープ、カーブを使用して、オートメーショントラックでほぼすべてのものを自動化。"
 
 #: template/index.html.j2:191
 msgid "Built-in Modulators"
@@ -526,7 +501,7 @@ msgstr "内蔵モジュレータ"
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
-msgstr ""
+msgstr "モジュレータタブに組み込みのLFO、エンベロープ、その他のモジュレータを使用してプラグインコントロールの値を自動変更。"
 
 #: template/index.html.j2:203
 msgid "Chord Assistance"
@@ -536,7 +511,7 @@ msgstr "コードアシスタンス"
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
-msgstr ""
+msgstr "迅速にスケールとコードを試してみるのためのコードパッドとコード進行に役立つコードトラック。"
 
 #: template/index.html.j2:217
 msgid "LV2 Plugins"
@@ -575,7 +550,7 @@ msgstr "ニュース"
 
 #: template/javascript.html.j2:14
 msgid "Minified"
-msgstr ""
+msgstr "縮小版"
 
 #: template/javascript.html.j2:15
 msgid "License"
@@ -618,13 +593,16 @@ msgid ""
 "start there. Please review the <a href=\"https://docs.zrythm.org/"
 "md_CONTRIBUTING.html\">Contributing Guidelines</a> before you start."
 msgstr ""
+"初心者に優しい課題がたくさんあり、いくつかにバウンティ金も提供しています。<a href=\"http://docs.zrythm.org/\""
+">よく管理された検索可能な開発者向けドキュメント</a>が利用できるので、そこから始めるとよいでしょう。はじめる前に、<a href=\""
+"https://docs.zrythm.org/md_CONTRIBUTING.html\">貢献ガイドライン</a>を確認してください。"
 
 #: template/join-us.html.j2:37
 msgid "Translate"
 msgstr "翻訳する"
 
 #: template/join-us.html.j2:39
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/%(lang)s/contributing/translating."
@@ -633,11 +611,10 @@ msgid ""
 "web interface</a> so no coding experience is needed. All you need is a web "
 "browser."
 msgstr ""
-"あなたが外国語を話すことができ、助けたいのであれば、 <a href=\"https://"
-"manual.zrythm.org/en/contributing/translating.html\">翻訳の指示</a>を見てくだ"
-"さい。Translating Zrythm and its components is done via <a href=\"https://"
-"translate.zrythm.org/projects/zrythm\"> a simple web interface</a> so no "
-"coding experience is needed. All you need is a web browser."
+"外国語を話し、助けたい場合は、<a href=\"https://manual.zrythm.org/%(lang)s/contributing/"
+"translating.html\">翻訳のガイドライン</a>を見てください。Zrythm とそのコンポーネントの翻訳は、<a href=\""
+"https://hosted.weblate.org/engage/zrythm/\" > 単純な Web "
+"インターフェイスを介して</a>行われるため、コーディングの経験は必要ありません。必要なのは Web ブラウザだけです。"
 
 #: template/join-us.html.j2:51
 msgid "Test"
@@ -668,37 +645,29 @@ msgstr ""
 "want to do are logos, icons and other graphics, CSS, etc."
 
 #: template/join-us.html.j2:70
-#, fuzzy, python-format
-#| msgid ""
-#| "Zrythm itself is fully CSS themeable so it's easy to change its design "
-#| "without knowing much about the code. Have a look <a href=\"https://git."
-#| "zrythm.org/zrythm/zrythm/blob/master/resources/theme.css\">here</a>."
+#, python-format
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
 "without knowing much about the code. Have a look <a href=\"%(git_blob_url)s/"
 "resources/theme.css\">here</a>."
 msgstr ""
-"Zrythm自体は完全にCSSでデザインできるので、コードについてあまり知らなくてもデ"
-"ザインを変更するのは簡単です。Have a look <a href=\"https://git.zrythm.org/"
-"zrythm/zrythm/blob/master/resources/theme.css\">here</a>."
+"Zrythm自体は完全にCSSのテーマを使用しているので、コードについてあまり知らなくても簡単にデザインを変更できます。<a href=\""
+"%(git_blob_url)s/resources/theme.css\">こちら</a>見てください。"
 
 #: template/join-us.html.j2:82
 msgid "Donate"
 msgstr "支援する"
 
 #: template/join-us.html.j2:85
-#, fuzzy
 msgid ""
 "We appreciate contributions of any size -- donations enable us to spend more "
 "time working on the project, and help cover our infrastructure expenses. "
 "Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
 "cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
 msgstr ""
-"私たちはどんな規模の貢献でも感謝します - 寄付は私たちがプロジェクトにより多く"
-"の時間を費やすことを可能にし、私たちのインフラストラクチャー費用をまかなうの"
-"を助けます。Europeans are able to donate via SEPA through LiberaPay. Major "
-"Credit/Debit cards are also accepted. Alternatively, you can donate via "
-"Bitcoin or PayPal."
+"私たちは、あらゆる規模の寄付に感謝し、寄付により、プロジェクトに多くの時間を費やし、インフラ費用を賄うのに役立ちます。ヨーロッパの住民は、リベラペイを通じ"
+"てSEPAを介して寄付することが可能です。主要なクレジットカード/デビットカードも受け付けています。または、ビットコインまたはPayPal経由で寄付するこ"
+"とができます。"
 
 #: template/join-us.html.j2:93
 msgid ""
@@ -713,17 +682,14 @@ msgstr ""
 "てうれしいです 。"
 
 #: template/join-us.html.j2:100
-#, fuzzy
 msgid ""
 "We are also happy to consider making particular improvements or changes, or "
 "giving specific technical assistance, in return for a substantial donation "
 "over 200 USD. If you would like to discuss this possibility, write to us at "
 "<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 msgstr ""
-"また、200米ドル以上の多額の寄付と引き換えに、特別な改善や変更を加えること、ま"
-"たは特定の技術支援を行うことを検討させていただきます。If you would like to "
-"discuss this possibility, write to us at <a href='mailto:support_AT_zrythm."
-"org'>support_AT_zrythm.org</a>."
+"また、200米ドルを超える多額の寄付については、特定の改善や変更、または特定の技術支援を行うことを検討しています。この可能性について話し合いたい場合は、<"
+"a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a> に連絡してください。"
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
@@ -731,11 +697,11 @@ msgstr "ご支援いただきありがとうございます！"
 
 #: template/news.html.j2.inc:9
 msgid "posted by"
-msgstr ""
+msgstr "投稿者"
 
 #: template/news.html.j2.inc:9
 msgid "on"
-msgstr ""
+msgstr "日付"
 
 #: template/news.html.j2.inc:17
 msgid "More news"
