@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-05 19:08+0100\n"
-"PO-Revision-Date: 2019-06-29 15:34+0000\n"
+"PO-Revision-Date: 2019-07-07 02:58+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
 "web/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
@@ -30,7 +30,7 @@ msgstr ""
 
 #: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
-msgstr ""
+msgstr "Laget"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
@@ -124,12 +124,13 @@ msgid ""
 msgstr ""
 
 #: news/2019-02-17-release-schedule.j2.inc:3
+#, fuzzy
 msgid "Release Schedule"
-msgstr ""
+msgstr "Utgivelsesplan"
 
 #: news/2019-04-15-early-alpha-release.j2.inc:4
 msgid "Release v0.4.003 (early alpha)"
-msgstr ""
+msgstr "Utgave v0.4.003 (tidlig alfa)"
 
 #: news/2019-05-04-translation-portal-launched.j2.inc:4
 msgid "Translation Portal Launched!"
@@ -154,14 +155,18 @@ msgid ""
 "can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
 "zrythm/\"> Click Here</a> to get started."
 msgstr ""
+"Takket være generøs vertstjening fra Weblate, kan Zrythm nå oversettes der! <"
+"a href=\"https://hosted.weblate.org/engage/zrythm/\">Klikk her</a> for å "
+"starte."
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
+#, fuzzy
 msgid "Note: We will be taking down the self-hosted version soon."
-msgstr ""
+msgstr "Merk: Vi kommer til å ta ned den versjonen vi driver selv snart."
 
 #: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
 msgid "Happy translating!"
-msgstr ""
+msgstr "Lykke til i oversettingen."
 
 #: news/2019-06-19-mailing-lists-up.j2.inc:4
 #, fuzzy
@@ -177,16 +182,21 @@ msgid ""
 msgstr ""
 
 #: news/2019-06-19-mailing-lists-up.j2.inc:16
+#, fuzzy
 msgid ""
 "Developers wishing to discuss Zrythm may use the <a href=\"mailto:dev@lists."
 "zrythm.org\"> dev mailing list</a>."
 msgstr ""
+"Utviklere som ønsker å diskutere Zrythm kan bruke <a href=\""
+"mailto:dev@lists.zrythm.org\">e-postlisten for utviklere</a>."
 
 #: news/2019-06-19-mailing-lists-up.j2.inc:23
 msgid ""
 "Likewise, users may use the <a href=\"mailto:user@lists.zrythm.org\">user "
 "mailing list</a>."
 msgstr ""
+"Likeledes kan brukere nyttegjøre seg av <a href=\"mailto:user@lists.zrythm."
+"org\">e-postlisten for brukere</a>."
 
 #: news/2019-06-19-mailing-lists-up.j2.inc:29
 msgid ""
@@ -273,7 +283,7 @@ msgstr ""
 
 #: template/contact.html.j2:45
 msgid "Reporting bugs"
-msgstr ""
+msgstr "Innrapportering av feil"
 
 #: template/contact.html.j2:47
 #, python-format
@@ -286,7 +296,7 @@ msgstr ""
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
-msgstr ""
+msgstr "Snakk med oss"
 
 #: template/engage.html.j2:10
 msgid ""
@@ -296,11 +306,11 @@ msgstr ""
 
 #: template/engage.html.j2:20
 msgid "Announcements Mailing List"
-msgstr ""
+msgstr "E-postliste for kunngjøringer"
 
 #: template/engage.html.j2:24
 msgid "General Help Mailing List"
-msgstr ""
+msgstr "E-postliste for generell hjelp"
 
 #: template/engage.html.j2:28
 #, fuzzy
@@ -313,6 +323,8 @@ msgid ""
 "Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
 "net</a> in the channel <code>#zrythm</code>."
 msgstr ""
+"Tilgjengelig på <a href=\"ircs://chat.freenode.net:6697/#zrythm\""
+">irc.freenode.net</a> i kanalen <code>#zrythm</code>."
 
 #: template/engage.html.j2:39
 msgid ""
@@ -320,10 +332,12 @@ msgid ""
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code> (bridged "
 "with IRC)."
 msgstr ""
+"Tilgjengelig på <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
+">Matrix</a> i kanalen <code>#zrythmdaw:matrix.org</code> (i bro til IRC)."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Ofte stilte spørsmål"
 
 #: template/faq.html.j2:12
 msgid "What's the current development status?"
@@ -428,11 +442,11 @@ msgstr ""
 
 #: template/index.html.j2:169
 msgid "Features"
-msgstr ""
+msgstr "Funksjoner"
 
 #: template/index.html.j2:178
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Grenseløs automasjon"
 
 #: template/index.html.j2:181
 msgid ""
@@ -489,7 +503,7 @@ msgstr ""
 
 #: template/index.html.j2:253
 msgid "News"
-msgstr ""
+msgstr "Nyheter"
 
 #: template/javascript.html.j2:14
 msgid "Minified"
@@ -497,7 +511,7 @@ msgstr ""
 
 #: template/javascript.html.j2:15
 msgid "License"
-msgstr ""
+msgstr "Lisens"
 
 #: template/javascript.html.j2:16
 #, fuzzy
@@ -507,7 +521,7 @@ msgstr "Kildekode"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
-msgstr ""
+msgstr "Bli med i Zrythm-laget"
 
 #: template/join-us.html.j2:10
 msgid ""
@@ -537,7 +551,7 @@ msgstr ""
 
 #: template/join-us.html.j2:37
 msgid "Translate"
-msgstr ""
+msgstr "Oversett"
 
 #: template/join-us.html.j2:39
 #, python-format
@@ -552,7 +566,7 @@ msgstr ""
 
 #: template/join-us.html.j2:51
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: template/join-us.html.j2:53
 msgid ""
@@ -563,7 +577,7 @@ msgstr ""
 
 #: template/join-us.html.j2:61
 msgid "Design"
-msgstr ""
+msgstr "Design"
 
 #: template/join-us.html.j2:63
 msgid ""
@@ -582,7 +596,7 @@ msgstr ""
 
 #: template/join-us.html.j2:82
 msgid "Donate"
-msgstr ""
+msgstr "Doner"
 
 #: template/join-us.html.j2:85
 msgid ""
@@ -610,23 +624,23 @@ msgstr ""
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "Takk for din støtte."
 
 #: template/news.html.j2.inc:9
 msgid "posted by"
-msgstr ""
+msgstr "postet av"
 
 #: template/news.html.j2.inc:9
 msgid "on"
-msgstr ""
+msgstr "den"
 
 #: template/news.html.j2.inc:17
 msgid "More news"
-msgstr ""
+msgstr "Flere nyheter"
 
 #: template/old-news.html.j2:6
 msgid "Older News"
-msgstr ""
+msgstr "Eldre nyheter"
 
 #: template/old-news.html.j2:9
 msgid "This page documents the Zrythm history."
@@ -651,7 +665,7 @@ msgstr ""
 
 #: template/team.html.j2:65
 msgid "French translator"
-msgstr ""
+msgstr "Fransk oversetter"
 
 #: template/tutorial.html.j2:8
 msgid ""
