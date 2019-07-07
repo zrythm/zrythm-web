@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-05 19:08+0100\n"
+"POT-Creation-Date: 2019-07-07 03:52+0100\n"
 "PO-Revision-Date: 2019-06-24 04:16+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -123,91 +123,6 @@ msgstr "Tutoriels"
 #: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "Glossaire"
-
-#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
-msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr "Zrythm a migré vers un dépôt GitLab auto-hébergé"
-
-#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
-msgid ""
-"Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
-"zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
-"to update your git repositories."
-msgstr ""
-"Zrythm a récemment migré de GitLab.com vers une <a href=\"https://git.zrythm."
-"org/zrythm/zrythm\">instance auto-hébergée de GitLab</a>. S'il vous plaît "
-"assurez-vous de mettre à jour vos dépôts git."
-
-#: news/2019-02-17-release-schedule.j2.inc:3
-msgid "Release Schedule"
-msgstr "Calendrier de sortie"
-
-#: news/2019-04-15-early-alpha-release.j2.inc:4
-msgid "Release v0.4.003 (early alpha)"
-msgstr "Version v0.4.003 (early alpha)"
-
-#: news/2019-05-04-translation-portal-launched.j2.inc:4
-msgid "Translation Portal Launched!"
-msgstr "Lancement du portail de traduction !"
-
-#: news/2019-05-04-translation-portal-launched.j2.inc:10
-msgid ""
-"Zrythm and all its components are now easily translatable via a simple web "
-"interface. All you need to do is make an account there and start "
-"translating! If you don't see your language on the list and would like us to "
-"include it, <a href=\"engage.html\">shoot us a message</a>."
-msgstr ""
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
-msgid "Translations Now Hosted at Weblate.org"
-msgstr "Traductions maintenant hébergées sur Weblate.org"
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
-msgid ""
-"Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
-"can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
-"zrythm/\"> Click Here</a> to get started."
-msgstr ""
-"Grâce au généreux hébergement fourni par les gars de weblate.org, Zrythm "
-"peut maintenant y être traduit ! <a href=\"https://hosted.weblate.org/engage/"
-"zrythm/\"> Cliquez ici </a> pour commencer."
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
-msgid "Note: We will be taking down the self-hosted version soon."
-msgstr "Note : nous retirerons bientôt la version hébergée par nos soins."
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
-msgid "Happy translating!"
-msgstr "Bonne traduction !"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:4
-msgid "New Mailing Lists Are Up"
-msgstr "Les nouvelles listes de diffusion sont fonctionnelles"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:8
-msgid ""
-"Zrythm has its own mailing lists now <a href=\"https://lists.zrythm.org"
-"\">here</a>! Feel free to subscribe to the <a href=\"mailto:announce@lists."
-"zrythm.org\">announce mailing list</a> for releases and other announcements!"
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:16
-msgid ""
-"Developers wishing to discuss Zrythm may use the <a href=\"mailto:dev@lists."
-"zrythm.org\"> dev mailing list</a>."
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:23
-msgid ""
-"Likewise, users may use the <a href=\"mailto:user@lists.zrythm.org\">user "
-"mailing list</a>."
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:29
-msgid ""
-"Archives of past discussions can be found <a href=\"https://lists.zrythm.org/"
-"hyperkitty/\"> here</a>."
-msgstr ""
 
 #: template/about.html.j2:9
 msgid "Version"
@@ -442,10 +357,15 @@ msgstr ""
 "inutiles."
 
 #: template/index.html.j2:52
+#, fuzzy
+#| msgid ""
+#| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
+#| "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
+#| "gpl-3.0.html\">GPLv3+</a>."
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-"gpl-3.0.html\">GPLv3+</a>."
+"agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</a>."
 msgstr ""
 "Zrythm est un <a href=\"http://www.gnu.org/philosophy/free-sw.html"
 "\">logiciel libre</a> sous licence <a href=\"https://www.gnu.org/licenses/"
@@ -753,17 +673,9 @@ msgstr ""
 msgid "on"
 msgstr ""
 
-#: template/news.html.j2.inc:17
+#: template/news.html.j2.inc:14
 msgid "More news"
 msgstr "Plus d'actualités"
-
-#: template/old-news.html.j2:6
-msgid "Older News"
-msgstr "Anciennes actualités"
-
-#: template/old-news.html.j2:9
-msgid "This page documents the Zrythm history."
-msgstr "Cette page documente l'histoire de Zrythm."
 
 #: template/team.html.j2:7
 #, python-format
@@ -797,6 +709,54 @@ msgstr ""
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Instructions d'installation de Zrythm :<ul> <li>À FAIRE</li> </ul>"
+
+#~ msgid "Zrythm has migrated to self-hosted GitLab"
+#~ msgstr "Zrythm a migré vers un dépôt GitLab auto-hébergé"
+
+#~ msgid ""
+#~ "Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
+#~ "zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make "
+#~ "sure to update your git repositories."
+#~ msgstr ""
+#~ "Zrythm a récemment migré de GitLab.com vers une <a href=\"https://git."
+#~ "zrythm.org/zrythm/zrythm\">instance auto-hébergée de GitLab</a>. S'il "
+#~ "vous plaît assurez-vous de mettre à jour vos dépôts git."
+
+#~ msgid "Release Schedule"
+#~ msgstr "Calendrier de sortie"
+
+#~ msgid "Release v0.4.003 (early alpha)"
+#~ msgstr "Version v0.4.003 (early alpha)"
+
+#~ msgid "Translation Portal Launched!"
+#~ msgstr "Lancement du portail de traduction !"
+
+#~ msgid "Translations Now Hosted at Weblate.org"
+#~ msgstr "Traductions maintenant hébergées sur Weblate.org"
+
+#~ msgid ""
+#~ "Thanks to the generous hosting provided by the guys at weblate.org, "
+#~ "Zrythm can now be translated there! <a href=\"https://hosted.weblate.org/"
+#~ "engage/zrythm/\"> Click Here</a> to get started."
+#~ msgstr ""
+#~ "Grâce au généreux hébergement fourni par les gars de weblate.org, Zrythm "
+#~ "peut maintenant y être traduit ! <a href=\"https://hosted.weblate.org/"
+#~ "engage/zrythm/\"> Cliquez ici </a> pour commencer."
+
+#~ msgid "Note: We will be taking down the self-hosted version soon."
+#~ msgstr "Note : nous retirerons bientôt la version hébergée par nos soins."
+
+#~ msgid "Happy translating!"
+#~ msgstr "Bonne traduction !"
+
+#~ msgid "New Mailing Lists Are Up"
+#~ msgstr "Les nouvelles listes de diffusion sont fonctionnelles"
+
+#~ msgid "Older News"
+#~ msgstr "Anciennes actualités"
+
+#~ msgid "This page documents the Zrythm history."
+#~ msgstr "Cette page documente l'histoire de Zrythm."
 
 #~ msgid "I'm using Windows"
 #~ msgstr "J'utilise Windows"

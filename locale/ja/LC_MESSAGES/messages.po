@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-05 19:08+0100\n"
-"PO-Revision-Date: 2019-07-07 02:58+0000\n"
+"PO-Revision-Date: 2019-06-24 06:13+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
 "\n"
@@ -112,101 +112,6 @@ msgstr "チュートリアル"
 #: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "用語集"
-
-#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
-msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr "Zrythmは自己ホスト型GitLabに移行しました"
-
-#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
-msgid ""
-"Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
-"zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
-"to update your git repositories."
-msgstr ""
-"Zrythmは最近GitLab.comから<a href=\"https://git.zrythm.org/zrythm/zrythm\">自"
-"己ホスト型GitLabインスタンスに</a>移行しました。"
-
-#: news/2019-02-17-release-schedule.j2.inc:3
-msgid "Release Schedule"
-msgstr "リリーススケジュール"
-
-#: news/2019-04-15-early-alpha-release.j2.inc:4
-msgid "Release v0.4.003 (early alpha)"
-msgstr "リリース v0.4.003 (初期アルファ)"
-
-#: news/2019-05-04-translation-portal-launched.j2.inc:4
-msgid "Translation Portal Launched!"
-msgstr "翻訳ポータル開始!"
-
-#: news/2019-05-04-translation-portal-launched.j2.inc:10
-msgid ""
-"Zrythm and all its components are now easily translatable via a simple web "
-"interface. All you need to do is make an account there and start "
-"translating! If you don't see your language on the list and would like us to "
-"include it, <a href=\"engage.html\">shoot us a message</a>."
-msgstr ""
-"Zrythmとそのすべてのコンポーネントは、シンプルなWebインターフェイスを介して簡"
-"単に翻訳できるようになりました。そこにアカウントを作成し、翻訳を開始すること"
-"ができます！翻訳したい言語がリストに表示されなかったら、<a href=\"engage.html"
-"\">私たちに連絡してください</a>。"
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
-msgid "Translations Now Hosted at Weblate.org"
-msgstr "翻訳プラットフォームがWeblate.orgに移動しました"
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
-msgid ""
-"Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
-"can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
-"zrythm/\"> Click Here</a> to get started."
-msgstr ""
-"weblate.orgの人たちによって提供される寛大なホスティングのおかげで、Zrythmは今そこに翻訳することができます!<a href=\""
-"https://hosted.weblate.org/engage/zrythm/\"> ここをクリックして</a>をクリックしてください。"
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
-msgid "Note: We will be taking down the self-hosted version soon."
-msgstr "注：自己ホストバージョンをダウンします。"
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
-msgid "Happy translating!"
-msgstr "楽しい翻訳を！"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:4
-#, fuzzy
-#| msgid "The mailing list"
-msgid "New Mailing Lists Are Up"
-msgstr "新しいメーリングリストができました"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:8
-msgid ""
-"Zrythm has its own mailing lists now <a href=\"https://lists.zrythm.org"
-"\">here</a>! Feel free to subscribe to the <a href=\"mailto:announce@lists."
-"zrythm.org\">announce mailing list</a> for releases and other announcements!"
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:16
-msgid ""
-"Developers wishing to discuss Zrythm may use the <a href=\"mailto:dev@lists."
-"zrythm.org\"> dev mailing list</a>."
-msgstr ""
-"Zrythm について話し合いたい開発者は、<a href=\"mailto:dev@lists.zrythm.org"
-"\"> 開発メーリングリスト</a>を使用してください。"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:23
-msgid ""
-"Likewise, users may use the <a href=\"mailto:user@lists.zrythm.org\">user "
-"mailing list</a>."
-msgstr ""
-"同様に、ユーザーは <a href=\"mailto:user@lists.zrythm.org\">ユーザー向けメー"
-"リングリスト</a>を使用してください。"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:29
-msgid ""
-"Archives of past discussions can be found <a href=\"https://lists.zrythm.org/"
-"hyperkitty/\"> here</a>."
-msgstr ""
-"過去のディスカッションのアーカイブは、<a href=\"https://lists.zrythm.org/"
-"hyperkitty/\"> ここに</a>記載されています。"
 
 #: template/about.html.j2:9
 msgid "Version"
@@ -425,10 +330,15 @@ msgstr ""
 "なく、自分の音楽のアイデアをすばやく作成して処理できます。"
 
 #: template/index.html.j2:52
+#, fuzzy
+#| msgid ""
+#| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
+#| "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
+#| "gpl-3.0.html\">GPLv3+</a>."
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-"gpl-3.0.html\">GPLv3+</a>."
+"agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</a>."
 msgstr ""
 "Zrythmは<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GPLv3+</a>でラ"
 "イセンスされている<a href=\"http://www.gnu.org/philosophy/free-sw.html\">フ"
@@ -703,17 +613,9 @@ msgstr "投稿者"
 msgid "on"
 msgstr "日付"
 
-#: template/news.html.j2.inc:17
+#: template/news.html.j2.inc:14
 msgid "More news"
 msgstr "その他のニュース"
-
-#: template/old-news.html.j2:6
-msgid "Older News"
-msgstr "古いニュース"
-
-#: template/old-news.html.j2:9
-msgid "This page documents the Zrythm history."
-msgstr "このページはZrythmの歴史を文書化したものです。"
 
 #: template/team.html.j2:7
 #, python-format
@@ -749,23 +651,3 @@ msgstr "このページにはZrythmの様々なチュートリアルがありま
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
-
-#~ msgid "I'm using Windows"
-#~ msgstr "Windowsを使っています"
-
-#~ msgid ""
-#~ "In addition to being <a href=\"https://www.gnu.org/proprietary/malware-"
-#~ "microsoft.html\">malware</a>, Windows is badly designed, is a pain to use "
-#~ "as a developer and as a user, is too slow and requires many hacks to "
-#~ "package Zrythm for it and thus wastes a lot of our precious time (and "
-#~ "sanity) so we decided to drop support for it. Consider <a href=\"http://"
-#~ "www.upgradefromwindows.com\">upgrading to a better OS that respects your "
-#~ "freedom</a>."
-#~ msgstr ""
-#~ "<a href=\"https://www.gnu.org/proprietary/malware-microsoft.html\">マル"
-#~ "ウェアであるのに加えて</a>、Windowsは下手に設計されており、開発者として、"
-#~ "またユーザーとして使用するのは苦痛であり、あまりにも遅く、Zrythmをパッケー"
-#~ "ジ化するために多くのハックを必要とし、私たちの貴重な時間(と正気)を多くに無"
-#~ "駄にするので、サポートしないことを決めました。<a href=\"http://www."
-#~ "upgradefromwindows.com\">あなたの自由を尊重するより良いOSへのアップグレー"
-#~ "ド</a>をおすすめします。"
