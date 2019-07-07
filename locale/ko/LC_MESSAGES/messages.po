@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-07 03:58+0100\n"
+"POT-Creation-Date: 2019-07-07 14:25+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/"
@@ -75,10 +75,11 @@ msgid "Support Us"
 msgstr "당신의 도움이 필요합니다"
 
 #: common/footer.j2.inc:31
+#, python-format
 msgid ""
-"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
-"zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
-"issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
+"\"%(git_web_url)s\">Source code of this site.</a></br> Report issues with "
+"this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
 

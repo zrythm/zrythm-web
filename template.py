@@ -84,7 +84,9 @@ lang_flags = {
         "ko": "[ko]",
         "ar": "[ar]",
         "hi": "[hi]"}
-git_url = 'https://git.zrythm.org/cgit/zrythm'
+git_base_url = 'https://git.zrythm.org/cgit/'
+git_url = git_base_url + 'zrythm'
+git_web_url = git_base_url + 'zrythm-web'
 issue_tracker = 'https://savannah.nongnu.org/support/?group=zrythm'
 git_blob_url = git_url + '/tree'
 version = '0.5.097'
@@ -211,6 +213,7 @@ for in_file in glob.glob("template/*.j2"):
                               langs_full=langs_full,
                               url=url,
                               git_url=git_url,
+                              git_web_url=git_web_url,
                               news=news,
                               datetime_parse=parse,
                               issue_tracker=issue_tracker,

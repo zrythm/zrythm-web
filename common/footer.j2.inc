@@ -30,7 +30,7 @@
     <p>
     {% trans %}
     Copyright &copy; 2019 Alexandros Theodotou et al.<br>
-    <a href="https://git.zrythm.org/zrythm/zrythm-web">Source code of this site.</a></br>
+    <a href="{{ git_web_url }}">Source code of this site.</a></br>
     Report issues with this website to <a href="https://savannah.nongnu.org/support/?func=additem&group=zrythm">us</a>.
     {% endtrans %}
     </p>

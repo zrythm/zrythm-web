@@ -43,10 +43,11 @@ msgid "Support Us"
 msgstr ""
 
 #: common/footer.j2.inc:31
+#, python-format
 msgid ""
-"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
-"zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
-"issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
+"\"%(git_web_url)s\">Source code of this site.</a></br> Report issues with "
+"this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
 

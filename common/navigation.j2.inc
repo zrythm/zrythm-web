@@ -91,7 +91,7 @@
         </a>
       </li>
       <li class="nav-item badge">
-        <a href="https://www.gnu.org/licenses/gpl-3.0.html">
+        <a href="https://www.gnu.org/licenses/agpl-3.0.html">
           <img src="{{ url('static/images/agpl3.svg') }}" alt="License" />
         </a>
       </li>
