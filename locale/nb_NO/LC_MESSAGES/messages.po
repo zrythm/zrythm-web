@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:5
@@ -30,7 +30,7 @@ msgstr ""
 
 #: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
-msgstr ""
+msgstr "Laget"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: template/contact.html.j2:45
 msgid "Reporting bugs"
-msgstr ""
+msgstr "Innrapportering av feil"
 
 #: template/contact.html.j2:47
 #, python-format
@@ -204,7 +204,7 @@ msgstr ""
 
 #: template/engage.html.j2:7
 msgid "Talk With Us"
-msgstr ""
+msgstr "Snakk med oss"
 
 #: template/engage.html.j2:10
 msgid ""
@@ -214,11 +214,11 @@ msgstr ""
 
 #: template/engage.html.j2:20
 msgid "Announcements Mailing List"
-msgstr ""
+msgstr "E-postliste for kunngjøringer"
 
 #: template/engage.html.j2:24
 msgid "General Help Mailing List"
-msgstr ""
+msgstr "E-postliste for generell hjelp"
 
 #: template/engage.html.j2:28
 #, fuzzy
@@ -231,6 +231,8 @@ msgid ""
 "Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
 "net</a> in the channel <code>#zrythm</code>."
 msgstr ""
+"Tilgjengelig på <a href=\"ircs://chat.freenode.net:6697/#zrythm\""
+">irc.freenode.net</a> i kanalen <code>#zrythm</code>."
 
 #: template/engage.html.j2:39
 msgid ""
@@ -238,10 +240,12 @@ msgid ""
 "\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code> (bridged "
 "with IRC)."
 msgstr ""
+"Tilgjengelig på <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
+">Matrix</a> i kanalen <code>#zrythmdaw:matrix.org</code> (i bro til IRC)."
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Ofte stilte spørsmål"
 
 #: template/faq.html.j2:12
 msgid "What's the current development status?"
@@ -346,11 +350,11 @@ msgstr ""
 
 #: template/index.html.j2:169
 msgid "Features"
-msgstr ""
+msgstr "Funksjoner"
 
 #: template/index.html.j2:178
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Grenseløs automasjon"
 
 #: template/index.html.j2:181
 msgid ""
@@ -407,7 +411,7 @@ msgstr ""
 
 #: template/index.html.j2:253
 msgid "News"
-msgstr ""
+msgstr "Nyheter"
 
 #: template/javascript.html.j2:14
 msgid "Minified"
@@ -415,7 +419,7 @@ msgstr ""
 
 #: template/javascript.html.j2:15
 msgid "License"
-msgstr ""
+msgstr "Lisens"
 
 #: template/javascript.html.j2:16
 #, fuzzy
@@ -425,7 +429,7 @@ msgstr "Kildekode"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
-msgstr ""
+msgstr "Bli med i Zrythm-laget"
 
 #: template/join-us.html.j2:10
 msgid ""
@@ -455,7 +459,7 @@ msgstr ""
 
 #: template/join-us.html.j2:37
 msgid "Translate"
-msgstr ""
+msgstr "Oversett"
 
 #: template/join-us.html.j2:39
 #, python-format
@@ -470,7 +474,7 @@ msgstr ""
 
 #: template/join-us.html.j2:51
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: template/join-us.html.j2:53
 msgid ""
@@ -481,7 +485,7 @@ msgstr ""
 
 #: template/join-us.html.j2:61
 msgid "Design"
-msgstr ""
+msgstr "Design"
 
 #: template/join-us.html.j2:63
 msgid ""
@@ -500,7 +504,7 @@ msgstr ""
 
 #: template/join-us.html.j2:82
 msgid "Donate"
-msgstr ""
+msgstr "Doner"
 
 #: template/join-us.html.j2:85
 msgid ""
@@ -528,19 +532,19 @@ msgstr ""
 
 #: template/join-us.html.j2:108
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "Takk for din støtte."
 
 #: template/news.html.j2.inc:9
 msgid "posted by"
-msgstr ""
+msgstr "postet av"
 
 #: template/news.html.j2.inc:9
 msgid "on"
-msgstr ""
+msgstr "den"
 
 #: template/news.html.j2.inc:14
 msgid "More news"
-msgstr ""
+msgstr "Flere nyheter"
 
 #: template/team.html.j2:7
 #, python-format
@@ -561,7 +565,7 @@ msgstr ""
 
 #: template/team.html.j2:65
 msgid "French translator"
-msgstr ""
+msgstr "Fransk oversetter"
 
 #: template/tutorial.html.j2:8
 msgid ""

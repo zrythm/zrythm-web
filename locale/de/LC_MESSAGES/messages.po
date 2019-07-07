@@ -64,22 +64,16 @@ msgid "Support Us"
 msgstr "Unterstützung anbieten"
 
 #: common/footer.j2.inc:31
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://"
-#| "git.zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> "
-#| "Report issues with this website to <a href=\"https://git.zrythm.org/"
-#| "zrythm/zrythm-web/issues\">us</a>."
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"https://git."
 "zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
 "issues with this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
-"Copyright &copy; Alexandros Theodotou 2019<br> <a href=\"https://git.zrythm."
-"org/zrythm/zrythm-web\">Quellcode dieser Seite.</a></br> Melde Probleme mit "
-"dieser Seite an <a href=\"https://git.zrythm.org/zrythm/zrythm-web/issues"
-"\">uns</a>."
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\""
+"https://git.zrythm.org/zrythm/zrythm-web\">Quelltext dieser Seite.</a></br> "
+"Melde Probleme mit dieser Seite an <a href=\"https://savannah.nongnu.org/"
+"support/?func=additem&group=zrythm\">uns</a>."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
@@ -648,11 +642,11 @@ msgstr "Danke für deine Unterstützung!"
 
 #: template/news.html.j2.inc:9
 msgid "posted by"
-msgstr ""
+msgstr "geschrieben von"
 
 #: template/news.html.j2.inc:9
 msgid "on"
-msgstr ""
+msgstr "am"
 
 #: template/news.html.j2.inc:14
 msgid "More news"
