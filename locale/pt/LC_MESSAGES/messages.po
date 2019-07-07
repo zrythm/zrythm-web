@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-05 19:08+0100\n"
+"POT-Creation-Date: 2019-07-07 03:52+0100\n"
 "PO-Revision-Date: 2019-06-01 21:39+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Portuguese <https://translate.zrythm.org/projects/zrythm/"
@@ -115,88 +115,6 @@ msgstr ""
 #: common/navigation.j2.inc:83
 msgid "Glossary"
 msgstr "Glossário"
-
-#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:3
-msgid "Zrythm has migrated to self-hosted GitLab"
-msgstr ""
-
-#: news/2019-02-07-zrythm-migrated-to-self-hosted.j2.inc:7
-msgid ""
-"Zrythm has recently migrated from GitLab.com to a <a href=\"https://git."
-"zrythm.org/zrythm/zrythm\">self-hosted GitLab instance</a>. Please make sure "
-"to update your git repositories."
-msgstr ""
-
-#: news/2019-02-17-release-schedule.j2.inc:3
-#, fuzzy
-msgid "Release Schedule"
-msgstr "Agenda de lançamentos"
-
-#: news/2019-04-15-early-alpha-release.j2.inc:4
-msgid "Release v0.4.003 (early alpha)"
-msgstr ""
-
-#: news/2019-05-04-translation-portal-launched.j2.inc:4
-msgid "Translation Portal Launched!"
-msgstr ""
-
-#: news/2019-05-04-translation-portal-launched.j2.inc:10
-msgid ""
-"Zrythm and all its components are now easily translatable via a simple web "
-"interface. All you need to do is make an account there and start "
-"translating! If you don't see your language on the list and would like us to "
-"include it, <a href=\"engage.html\">shoot us a message</a>."
-msgstr ""
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:4
-msgid "Translations Now Hosted at Weblate.org"
-msgstr ""
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:8
-msgid ""
-"Thanks to the generous hosting provided by the guys at weblate.org, Zrythm "
-"can now be translated there! <a href=\"https://hosted.weblate.org/engage/"
-"zrythm/\"> Click Here</a> to get started."
-msgstr ""
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:16
-msgid "Note: We will be taking down the self-hosted version soon."
-msgstr ""
-
-#: news/2019-06-07-zrythm-translations-hosted-weblate-org.j2.inc:22
-msgid "Happy translating!"
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:4
-#, fuzzy
-#| msgid "The mailing list"
-msgid "New Mailing Lists Are Up"
-msgstr "Lista de correspondência"
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:8
-msgid ""
-"Zrythm has its own mailing lists now <a href=\"https://lists.zrythm.org"
-"\">here</a>! Feel free to subscribe to the <a href=\"mailto:announce@lists."
-"zrythm.org\">announce mailing list</a> for releases and other announcements!"
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:16
-msgid ""
-"Developers wishing to discuss Zrythm may use the <a href=\"mailto:dev@lists."
-"zrythm.org\"> dev mailing list</a>."
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:23
-msgid ""
-"Likewise, users may use the <a href=\"mailto:user@lists.zrythm.org\">user "
-"mailing list</a>."
-msgstr ""
-
-#: news/2019-06-19-mailing-lists-up.j2.inc:29
-msgid ""
-"Archives of past discussions can be found <a href=\"https://lists.zrythm.org/"
-"hyperkitty/\"> here</a>."
-msgstr ""
 
 #: template/about.html.j2:9
 msgid "Version"
@@ -426,7 +344,7 @@ msgstr ""
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-"gpl-3.0.html\">GPLv3+</a>."
+"agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</a>."
 msgstr ""
 "O Zrythm é um <a href=\"http://www.gnu.org/philosophy/free-sw.html"
 "\">software livre</a> licenciado sob a GPLv3+."
@@ -689,17 +607,9 @@ msgstr ""
 msgid "on"
 msgstr ""
 
-#: template/news.html.j2.inc:17
+#: template/news.html.j2.inc:14
 msgid "More news"
 msgstr "Outras notícias"
-
-#: template/old-news.html.j2:6
-msgid "Older News"
-msgstr ""
-
-#: template/old-news.html.j2:9
-msgid "This page documents the Zrythm history."
-msgstr "Esta página documenta a história do Zrythm."
 
 #: template/team.html.j2:7
 #, python-format

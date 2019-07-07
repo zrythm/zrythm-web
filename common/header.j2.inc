@@ -3,6 +3,7 @@
         @licstart  The following is the entire license notice for the
         JavaScript code in this page.
 
+        Copyright (C) 2019 Alexandros Theodotou
         Copyright (C) 2014-2017 GNUnet e.V.
 
         The JavaScript code in this page is free software: you can
