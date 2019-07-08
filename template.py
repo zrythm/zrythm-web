@@ -89,8 +89,11 @@ git_url = git_base_url + 'zrythm'
 git_web_url = git_base_url + 'zrythm-web'
 issue_tracker = 'https://savannah.nongnu.org/support/?group=zrythm'
 git_blob_url = git_url + '/tree'
-version = '0.5.097'
 pronunciation = 'ziˈrɪðəm'
+
+# get latest version
+from subprocess import check_output
+version = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*" | sort -r | head -n 1 | grep -o "[^\/]*$"', shell=True).decode("utf-8")
 
 # for news
 feed = feedparser.parse('https://savannah.nongnu.org/news/atom.php?group=zrythm')
