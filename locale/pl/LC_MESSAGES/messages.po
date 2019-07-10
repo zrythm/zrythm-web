@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-07 14:25+0100\n"
-"PO-Revision-Date: 2019-06-17 21:07+0000\n"
-"Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
+"PO-Revision-Date: 2019-07-09 09:02+0000\n"
+"Last-Translator: DamN <damiannadolski@wp.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: common/base.j2:5
@@ -30,7 +30,7 @@ msgstr "Wysoce zautomatyzowana, intuicyjna cyfrowa stacja robocza audio (DAW)"
 
 #: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
-msgstr ""
+msgstr "Zespół"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
@@ -115,7 +115,7 @@ msgstr "Słownik"
 
 #: template/about.html.j2:9
 msgid "Version"
-msgstr ""
+msgstr "Wersja"
 
 #: template/about.html.j2:16
 msgid "Introduction"
@@ -161,10 +161,8 @@ msgid "Contact information"
 msgstr "Informacje kontaktowe"
 
 #: template/contact.html.j2:11
-#, fuzzy
-#| msgid "The mailing list"
 msgid "Mailing Lists"
-msgstr "Lista mailingowa"
+msgstr "Listy mailingowe"
 
 #: template/contact.html.j2:13
 msgid ""
@@ -251,7 +249,7 @@ msgstr ""
 
 #: template/faq.html.j2:6
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Często zadawane pytania"
 
 #: template/faq.html.j2:12
 msgid "What's the current development status?"
