@@ -87,7 +87,7 @@
       </li>
       <li class="nav-item badge">
         <a href="http://git.savannah.nongnu.org/cgit/zrythm.git/refs/tags">
-          <img src="https://img.shields.io/aur/version/zrythm.svg?label=release" alt="Release" />
+          <img src="https://img.shields.io/badge/release-{{ version }}-blue.svg" alt="Release" />
         </a>
       </li>
       <li class="nav-item badge">
