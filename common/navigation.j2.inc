@@ -109,7 +109,7 @@
         <a class="nav-link dropdown-toggle" href="#"
            data-toggle="dropdown" role="button"
            aria-haspopup="true" aria-expanded="false">
-           {{ lang_full }} {{ lang_flag }}
+           <i class="fa fa-language" aria-hidden="true"></i> {{ lang_full }} {{ lang_flag }}
         </a>
         <ul class="dropdown-menu dropdown-menu-right scrollable-menu" aria-labelledby="navbarMain">
         {% for key in langs_full.keys() %}
