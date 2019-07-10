@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-07 14:25+0100\n"
-"PO-Revision-Date: 2019-06-24 04:16+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2019-07-11 15:02+0000\n"
+"Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1-dev\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/base.j2:5
@@ -31,7 +31,7 @@ msgstr ""
 
 #: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
-msgstr ""
+msgstr "Équipe"
 
 #: common/footer.j2.inc:8
 msgid "Contact"
@@ -42,10 +42,8 @@ msgid "About Zrythm"
 msgstr "À propos de Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:68
-#, fuzzy
-#| msgid "Bug Tracker"
 msgid "Issue Tracker"
-msgstr "Suivi des bogues"
+msgstr "Suivi des problèmes"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
@@ -55,7 +53,7 @@ msgstr "Code source"
 #, fuzzy
 #| msgid "JavaScript License Information"
 msgid "JavaScript Licenses"
-msgstr "Informations de licence JavaScript"
+msgstr "Licences JavaScript"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
@@ -70,23 +68,19 @@ msgid "Support Us"
 msgstr "Soutenez-nous"
 
 #: common/footer.j2.inc:31
-#, fuzzy, python-format
-#| msgid ""
-#| "Copyright &copy; Alexandros Theodotou 2019<br> <a href=\"https://git."
-#| "zrythm.org/zrythm/zrythm-web\">Source code of this site.</a></br> Report "
-#| "issues with this website to <a href=\"https://git.zrythm.org/zrythm/"
-#| "zrythm-web/issues\">us</a>."
+#, python-format
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
 "\"%(git_web_url)s\">Source code of this site.</a></br> Report issues with "
 "this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
-"Copyright &copy; Alexandros Theodotou 2019<br> Cette page a été créée en "
-"utilisant uniquement des <a href=\"https://www.gnu.org/\">logiciels libres</"
-"a>.</br> <a href=\"https://git.zrythm.org/zrythm/zrythm-web\">Le code source "
-"de ce site.</a></br> Signalez-<a href=\"https://git.zrythm.org/zrythm/zrythm-"
-"web/issues\">nous</a> les problèmes que vous rencontrez sur ce site ouèbe."
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> Cette page a été créée "
+"en utilisant uniquement des <a href=\"https://www.gnu.org/\">logiciels "
+"libres</a>.</br> <a href=\"https://git.zrythm.org/zrythm/zrythm-web\">Le "
+"code source de ce site.</a></br> Signalez-<a href=\"https://git.zrythm.org/"
+"zrythm/zrythm-web/issues\">nous</a> les problèmes que vous rencontrez sur ce "
+"site ouèbe."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
