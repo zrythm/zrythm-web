@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-07 14:25+0100\n"
-"PO-Revision-Date: 2019-07-09 09:02+0000\n"
+"PO-Revision-Date: 2019-07-13 12:02+0000\n"
 "Last-Translator: DamN <damiannadolski@wp.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
@@ -41,10 +41,8 @@ msgid "About Zrythm"
 msgstr "O Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:68
-#, fuzzy
-#| msgid "Bug Tracker"
 msgid "Issue Tracker"
-msgstr "Śledzenie błędów"
+msgstr "Śledzenie problemów"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
