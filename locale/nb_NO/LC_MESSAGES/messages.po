@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-14 19:37+0100\n"
-"PO-Revision-Date: 2019-06-29 15:34+0000\n"
+"PO-Revision-Date: 2019-07-16 01:02+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
 "web/nb_NO/>\n"
@@ -26,7 +26,7 @@ msgstr "Zrythm"
 
 #: common/base.j2:6 template/index.html.j2:126
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
-msgstr ""
+msgstr "En veldig automatisert, intuitiv, digital lydarbeidsstasjon (DAW)"
 
 #: common/footer.j2.inc:7 template/team.html.j2:5
 msgid "Team"
@@ -76,6 +76,10 @@ msgid ""
 "this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
+"Kopirett &copy; 2019 Alexandros Theodotou et al.<br> <a href=\"%(git_web_url)"
+"s\">Kildekode for denne siden.</a></br>Innrapporter feil på denne nettsiden "
+"til <a href=\"https://savannah.nongnu.org/support/?func=additem&group="
+"zrythm\">oss</a>."
 
 #: common/navigation.j2.inc:49
 msgid "Community"
@@ -91,7 +95,7 @@ msgstr "Diskusjon"
 
 #: common/navigation.j2.inc:54
 msgid "Join Us"
-msgstr ""
+msgstr "Ta del"
 
 #: common/navigation.j2.inc:64
 msgid "Development"
@@ -585,11 +589,11 @@ msgstr ""
 
 #: template/team.html.j2:37
 msgid "Zrythm maintainer"
-msgstr ""
+msgstr "Zrythm-vedlikeholder"
 
 #: template/team.html.j2:50
 msgid "Developer"
-msgstr ""
+msgstr "Utvikler"
 
 #: template/team.html.j2:65
 msgid "French translator"
