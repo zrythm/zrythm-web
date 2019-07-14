@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-14 19:37+0100\n"
-"PO-Revision-Date: 2019-07-10 12:15+0000\n"
+"PO-Revision-Date: 2019-07-13 12:02+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
-msgstr "Mitmachen &amp; unterstützen!"
+msgstr "Mach mit &amp; unterstütz uns!"
 
 #: template/index.html.j2:115
 #, python-format

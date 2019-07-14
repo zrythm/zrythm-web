@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-14 19:37+0100\n"
-"PO-Revision-Date: 2019-07-09 09:02+0000\n"
-"Last-Translator: DamN <damiannadolski@wp.pl>\n"
+"PO-Revision-Date: 2019-07-13 12:02+0000\n"
+"Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -41,20 +41,16 @@ msgid "About Zrythm"
 msgstr "O Zrythm"
 
 #: common/footer.j2.inc:14 common/navigation.j2.inc:68
-#, fuzzy
-#| msgid "Bug Tracker"
 msgid "Issue Tracker"
-msgstr "Śledzenie błędów"
+msgstr "Śledzenie problemów"
 
 #: common/footer.j2.inc:15 common/navigation.j2.inc:69
 msgid "Source Code"
 msgstr "Kod źródłowy"
 
 #: common/footer.j2.inc:16 template/javascript.html.j2:5
-#, fuzzy
-#| msgid "JavaScript License Information"
 msgid "JavaScript Licenses"
-msgstr "Informacje o licencji JavaScript"
+msgstr "Licencje JavaScript"
 
 #: common/footer.j2.inc:21 common/navigation.j2.inc:84
 msgid "Manual"
@@ -119,7 +115,7 @@ msgstr "Wersja"
 
 #: template/about.html.j2:16
 msgid "Introduction"
-msgstr ""
+msgstr "Wprowadzenie"
 
 #: template/about.html.j2:18
 msgid ""
@@ -145,16 +141,20 @@ msgstr ""
 msgid ""
 "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
 msgstr ""
+"Pierwsze zatwierdzenie zostało wykonane w dniu <code>Środa 25 Lip 22:35:01 "
+"2018 +0900</code>."
 
 #: template/about.html.j2:30
 msgid "Current Stage"
-msgstr ""
+msgstr "Aktualny etap"
 
 #: template/about.html.j2:32
 msgid ""
 "Early alpha. Somewhat functional but has unimplemented features and crashes "
 "a lot."
 msgstr ""
+"Wczesna alfa. Nieco funkcjonalna, ale posiada niewdrożone funkcje i często "
+"się zawiesza."
 
 #: template/contact.html.j2:5
 msgid "Contact information"
@@ -222,17 +222,15 @@ msgstr ""
 
 #: template/engage.html.j2:20
 msgid "Announcements Mailing List"
-msgstr ""
+msgstr "Lista mailingowa ogłoszeń"
 
 #: template/engage.html.j2:24
 msgid "General Help Mailing List"
-msgstr ""
+msgstr "Ogólna lista mailingowa pomocy technicznej"
 
 #: template/engage.html.j2:28
-#, fuzzy
-#| msgid "Development"
 msgid "Development Mailing List"
-msgstr "Rozwój"
+msgstr "Lista Mailingowa Rozwoju"
 
 #: template/engage.html.j2:32
 msgid ""
@@ -253,7 +251,7 @@ msgstr "Często zadawane pytania"
 
 #: template/faq.html.j2:12
 msgid "What's the current development status?"
-msgstr ""
+msgstr "Jaki jest obecny stan rozwoju?"
 
 #: template/faq.html.j2:14
 msgid ""
@@ -273,7 +271,7 @@ msgstr "LV2 w tej chwili. VST2 i VST3 wkrótce."
 
 #: template/faq.html.j2:26
 msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr ""
+msgstr "Buduję ze źródła i chcę uruchomić Zrythm bez instalacji"
 
 #: template/faq.html.j2:28
 msgid ""
@@ -371,7 +369,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Features"
 msgid "Featureful"
-msgstr "Funkcje"
+msgstr "Charakterystyka"
 
 #: template/index.html.j2:158
 msgid ""
@@ -395,7 +393,7 @@ msgstr ""
 
 #: template/index.html.j2:196
 msgid "Built-in Modulators"
-msgstr ""
+msgstr "Wbudowane modulatory"
 
 #: template/index.html.j2:199
 msgid ""
@@ -444,7 +442,7 @@ msgstr ""
 
 #: template/index.html.j2:258
 msgid "News"
-msgstr ""
+msgstr "Aktualności"
 
 #: template/javascript.html.j2:14
 msgid "Minified"
@@ -452,13 +450,11 @@ msgstr ""
 
 #: template/javascript.html.j2:15
 msgid "License"
-msgstr ""
+msgstr "Licencja"
 
 #: template/javascript.html.j2:16
-#, fuzzy
-#| msgid "Source Code"
 msgid "Source"
-msgstr "Kod źródłowy"
+msgstr "Źródło"
 
 #: template/join-us.html.j2:7
 msgid "Join the Zrythm Team"
@@ -473,7 +469,7 @@ msgstr ""
 
 #: template/join-us.html.j2:23
 msgid "Develop"
-msgstr ""
+msgstr "Rozwój"
 
 #: template/join-us.html.j2:25
 #, python-format
@@ -580,11 +576,11 @@ msgstr "Dziękujemy za wsparcie!"
 
 #: template/news.html.j2.inc:9
 msgid "posted by"
-msgstr ""
+msgstr "opublikowany przez"
 
 #: template/news.html.j2.inc:9
 msgid "on"
-msgstr ""
+msgstr "dnia"
 
 #: template/news.html.j2.inc:14
 msgid "More news"
