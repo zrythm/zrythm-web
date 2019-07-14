@@ -92,6 +92,7 @@ git_web_url = git_base_url + 'zrythm-web'
 issue_tracker = 'https://savannah.nongnu.org/support/?group=zrythm'
 git_blob_url = git_url + '/tree'
 pronunciation = 'ziˈrɪðəm'
+savannah_downloads_url = 'https://download.savannah.nongnu.org/releases/zrythm/'
 
 # get latest version
 from subprocess import check_output
@@ -219,6 +220,7 @@ for in_file in glob.glob("template/*.j2"):
                               url=url,
                               git_url=git_url,
                               git_web_url=git_web_url,
+                              savannah_downloads_url=savannah_downloads_url,
                               news=news,
                               datetime_parse=parse,
                               issue_tracker=issue_tracker,

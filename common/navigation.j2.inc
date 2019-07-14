@@ -86,7 +86,7 @@
         </ul>
       </li>
       <li class="nav-item badge">
-        <a href="http://download.savannah.nongnu.org/releases/zrythm/">
+        <a href="{{ savannah_downloads_url }}">
           <img src="https://img.shields.io/badge/release-{{ version }}-blue.svg" alt="Release" />
         </a>
       </li>
