@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-07 14:25+0100\n"
+"POT-Creation-Date: 2019-07-14 19:37+0100\n"
 "PO-Revision-Date: 2019-06-11 22:43+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:121
+#: common/base.j2:6 template/index.html.j2:126
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "Un altamente automatizzato, intuitivo, Digital Audio Workstation (DAW)"
 
@@ -335,102 +335,129 @@ msgstr ""
 msgid "Download"
 msgstr "Scarica"
 
+#: template/index.html.j2:69
+#, fuzzy
+#| msgid "Source Code"
+msgid "Source Tarball"
+msgstr "Codice Sorgente"
+
+#: template/index.html.j2:79
+msgid "Signature"
+msgstr ""
+
+#: template/index.html.j2:89
+msgid "SHA256 Sum"
+msgstr ""
+
+#: template/index.html.j2:99
+msgid "GPG Key"
+msgstr ""
+
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr ""
 
-#: template/index.html.j2:127
+#: template/index.html.j2:115
+#, python-format
+msgid ""
+"For more installation options see the <a href=\"https://manual.zrythm.org/"
+"%(lang)s/configuration/installation/intro.html\">manual</a>"
+msgstr ""
+
+#: template/index.html.j2:132
 msgid "Automated"
 msgstr "Automatizzato"
 
-#: template/index.html.j2:129
+#: template/index.html.j2:134
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 
-#: template/index.html.j2:139
+#: template/index.html.j2:144
 msgid "Intuitive"
 msgstr "Intuitivo"
 
-#: template/index.html.j2:141
+#: template/index.html.j2:146
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
 msgstr ""
 
-#: template/index.html.j2:150
+#: template/index.html.j2:155
+#, fuzzy
+#| msgid "Features"
 msgid "Featureful"
-msgstr ""
+msgstr "Funzionalità"
 
-#: template/index.html.j2:153
+#: template/index.html.j2:158
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
 
-#: template/index.html.j2:169
+#: template/index.html.j2:174
 msgid "Features"
 msgstr "Funzionalità"
 
-#: template/index.html.j2:178
+#: template/index.html.j2:183
 msgid "Limitless Automation"
 msgstr ""
 
-#: template/index.html.j2:181
+#: template/index.html.j2:186
 msgid ""
 "Automate almost anything with automation tracks using straight lines, ramps "
 "and curves."
 msgstr ""
 
-#: template/index.html.j2:191
+#: template/index.html.j2:196
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:194
+#: template/index.html.j2:199
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:203
+#: template/index.html.j2:208
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:205
+#: template/index.html.j2:210
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:217
+#: template/index.html.j2:222
 msgid "LV2 Plugins"
 msgstr ""
 
-#: template/index.html.j2:219
+#: template/index.html.j2:224
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:227
+#: template/index.html.j2:232
 msgid "Speaks Your Language"
 msgstr ""
 
-#: template/index.html.j2:229
+#: template/index.html.j2:234
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
 msgstr ""
 
-#: template/index.html.j2:238
+#: template/index.html.j2:243
 msgid "Cross-platform"
 msgstr ""
 
-#: template/index.html.j2:240
+#: template/index.html.j2:245
 msgid ""
 "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
 msgstr ""
 
-#: template/index.html.j2:253
+#: template/index.html.j2:258
 msgid "News"
 msgstr ""
 

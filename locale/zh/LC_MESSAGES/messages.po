@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-07 14:25+0100\n"
+"POT-Creation-Date: 2019-07-14 19:37+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr ""
 
-#: common/base.j2:6 template/index.html.j2:121
+#: common/base.j2:6 template/index.html.j2:126
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "高度自动化，直观的数字音频工作站（DAW）"
 
@@ -357,15 +357,40 @@ msgstr ""
 msgid "Download"
 msgstr "下载"
 
+#: template/index.html.j2:69
+#, fuzzy
+#| msgid "Source Code"
+msgid "Source Tarball"
+msgstr "源代码"
+
+#: template/index.html.j2:79
+msgid "Signature"
+msgstr ""
+
+#: template/index.html.j2:89
+msgid "SHA256 Sum"
+msgstr ""
+
+#: template/index.html.j2:99
+msgid "GPG Key"
+msgstr ""
+
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr "加入并支持我们！"
 
-#: template/index.html.j2:127
+#: template/index.html.j2:115
+#, python-format
+msgid ""
+"For more installation options see the <a href=\"https://manual.zrythm.org/"
+"%(lang)s/configuration/installation/intro.html\">manual</a>"
+msgstr ""
+
+#: template/index.html.j2:132
 msgid "Automated"
 msgstr "一个自动化的"
 
-#: template/index.html.j2:129
+#: template/index.html.j2:134
 #, fuzzy
 #| msgid ""
 #| "Built-in LFOs and envelopes to use for automating controls. Automation "
@@ -376,11 +401,11 @@ msgid ""
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr "内置LFO和信封，用于自动控制"
 
-#: template/index.html.j2:139
+#: template/index.html.j2:144
 msgid "Intuitive"
 msgstr "直觀"
 
-#: template/index.html.j2:141
+#: template/index.html.j2:146
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -388,25 +413,25 @@ msgstr ""
 "Zrythm尝试保持界面清洁和愉快，使用直观的方式完成工作，从而实现更快的工作流"
 "程。"
 
-#: template/index.html.j2:150
+#: template/index.html.j2:155
 msgid "Featureful"
 msgstr "特性吧"
 
-#: template/index.html.j2:153
+#: template/index.html.j2:158
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr "自动化曲线，总线，拖放LV2插件和音频文件，Arranger Minimap等。"
 
-#: template/index.html.j2:169
+#: template/index.html.j2:174
 msgid "Features"
 msgstr "功能"
 
-#: template/index.html.j2:178
+#: template/index.html.j2:183
 msgid "Limitless Automation"
 msgstr "无限自动化"
 
-#: template/index.html.j2:181
+#: template/index.html.j2:186
 #, fuzzy
 #| msgid ""
 #| "Automate almost anything with built-in envelopes and automation curves."
@@ -415,41 +440,41 @@ msgid ""
 "and curves."
 msgstr "使用内置信封和自动化曲线自动化几乎所有内容。"
 
-#: template/index.html.j2:191
+#: template/index.html.j2:196
 msgid "Built-in Modulators"
 msgstr ""
 
-#: template/index.html.j2:194
+#: template/index.html.j2:199
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
 msgstr ""
 
-#: template/index.html.j2:203
+#: template/index.html.j2:208
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:205
+#: template/index.html.j2:210
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:217
+#: template/index.html.j2:222
 msgid "LV2 Plugins"
 msgstr "LV2插件"
 
-#: template/index.html.j2:219
+#: template/index.html.j2:224
 #, fuzzy
 #| msgid "Works with LV2, the open standard for audio plugins."
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr "适用于音频插件的开放标准LV2。"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:232
 msgid "Speaks Your Language"
 msgstr "说你的语言"
 
-#: template/index.html.j2:229
+#: template/index.html.j2:234
 #, fuzzy
 #| msgid "Available in English, German, French, Italian, Spanish and Japanese."
 msgid ""
@@ -457,18 +482,18 @@ msgid ""
 "more languages."
 msgstr "提供英语，德语，法语，意大利语，西班牙语和日语。"
 
-#: template/index.html.j2:238
+#: template/index.html.j2:243
 msgid "Cross-platform"
 msgstr "跨平台"
 
-#: template/index.html.j2:240
+#: template/index.html.j2:245
 #, fuzzy
 #| msgid "Works on Windows, GNU/Linux and Mac OS"
 msgid ""
 "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
 msgstr "它运行在Windows、GNU/Linux和Mac OS上。"
 
-#: template/index.html.j2:253
+#: template/index.html.j2:258
 msgid "News"
 msgstr "新闻"
 

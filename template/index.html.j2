@@ -63,42 +63,42 @@ In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most foc
         </button>
         <ul class="dropdown-menu">
           <li>
-            <a href="https://aur.archlinux.org/packages/zrythm" class="dropdown-link">
+            <a href="http://download.savannah.nongnu.org/releases/zrythm/zrythm-{{ version }}.tar.xz" class="dropdown-link">
               <button class="dropdown-item" >
-              <i class="fa fa-fw fa-archlinux"></i>
-              Arch GNU/Linux
+              <i class="fa fa-fw fa-file-archive-o"></i>
+              {% trans %}
+              Source Tarball
+              {% endtrans %}
               </button>
             </a>
           </li>
           <li>
-            <a href="https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm" class="dropdown-link">
+            <a href="http://download.savannah.nongnu.org/releases/zrythm/zrythm-{{ version }}.tar.xz.asc" class="dropdown-link">
               <button class="dropdown-item" >
-              <i class="fa fa-fw fa-linux"></i>
-              GNU/Linux
+              <i class="fa fa-fw fa-file-o"></i>
+              {% trans %}
+              Signature
+              {% endtrans %}
               </button>
             </a>
           </li>
           <li>
-            <a href="https://www.freshports.org/audio/zrythm/" class="dropdown-link">
+            <a href="http://download.savannah.nongnu.org/releases/zrythm/zrythm-{{ version }}.tar.xz.sha256sum" class="dropdown-link">
               <button class="dropdown-item" >
-              <i class="fab fa-fw fa-freebsd"></i>
-              FreeBSD
+              <i class="fa fa-fw fa-file-text-o"></i>
+              {% trans %}
+              SHA256 Sum
+              {% endtrans %}
               </button>
             </a>
           </li>
           <li>
-            <a href="https://www.zrythm.org/downloads/Zrythm_0.4.088.dmg" class="dropdown-link">
+            <a href="{{ url('static/gpg_key.txt') }}" class="dropdown-link">
               <button class="dropdown-item" >
-              <i class="fa fa-fw fa-apple"></i>
-              MacOS
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="{{ git_url }}/snapshot/zrythm-{{ version }}.tar.gz" class="dropdown-link">
-              <button class="dropdown-item" >
-              <i class="fa fa-fw fa-cloud-download"></i>
-              Source tarball
+              <i class="fa fa-fw fa-gnupg"></i>
+              {% trans %}
+              GPG Key
+              {% endtrans %}
               </button>
             </a>
           </li>
@@ -111,6 +111,11 @@ In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most foc
       {% endtrans %}
       </a>
     </p>
+    <p><small><em>
+    {% trans %}
+      For more installation options see the <a href="https://manual.zrythm.org/{{ lang }}/configuration/installation/intro.html">manual</a>
+    {% endtrans %}
+    </em></small></p>
   </div>
 </div>
 

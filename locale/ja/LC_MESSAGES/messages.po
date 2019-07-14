@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-07 14:25+0100\n"
+"POT-Creation-Date: 2019-07-14 19:37+0100\n"
 "PO-Revision-Date: 2019-06-24 06:13+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:6 template/index.html.j2:121
+#: common/base.j2:6 template/index.html.j2:126
 msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgstr "高度に自動化された直感的なデジタルオーディオワークステーション（DAW）"
 
@@ -313,7 +313,13 @@ msgid "Enable the universe repository:"
 msgstr "universeのリポジトリを有効にしてください:"
 
 #: template/index.html.j2:44
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
+#| "Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
+#| "sets itself apart from other DAWs by allowing extensive automation via "
+#| "built-in LFOs and envelopes and intuitive MIDI/audio editing and "
+#| "arranging via clips."
 msgid ""
 "Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
 "Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
@@ -356,15 +362,40 @@ msgstr ""
 msgid "Download"
 msgstr "ダウンロード"
 
+#: template/index.html.j2:69
+#, fuzzy
+#| msgid "Source"
+msgid "Source Tarball"
+msgstr "ソースコード"
+
+#: template/index.html.j2:79
+msgid "Signature"
+msgstr ""
+
+#: template/index.html.j2:89
+msgid "SHA256 Sum"
+msgstr ""
+
+#: template/index.html.j2:99
+msgid "GPG Key"
+msgstr ""
+
 #: template/index.html.j2:109
 msgid "Join &amp; support us!"
 msgstr "参加して支援する！"
 
-#: template/index.html.j2:127
+#: template/index.html.j2:115
+#, python-format
+msgid ""
+"For more installation options see the <a href=\"https://manual.zrythm.org/"
+"%(lang)s/configuration/installation/intro.html\">manual</a>"
+msgstr ""
+
+#: template/index.html.j2:132
 msgid "Automated"
 msgstr "自動化された"
 
-#: template/index.html.j2:129
+#: template/index.html.j2:134
 msgid ""
 "Built-in LFOs and envelopes for automating controls, automation curves for "
 "more detailed automation, clips to loop your MIDI notes/audio and more."
@@ -373,11 +404,11 @@ msgstr ""
 "メーションのためのオートメーションカーブ、あなたのMIDIノート/オーディオをルー"
 "プさせるためのクリップなど。"
 
-#: template/index.html.j2:139
+#: template/index.html.j2:144
 msgid "Intuitive"
 msgstr "直感的"
 
-#: template/index.html.j2:141
+#: template/index.html.j2:146
 msgid ""
 "Zrythm tries to keep the interface clean and pleasant to work with, with "
 "intuitive ways of getting work done enabling a faster workflow."
@@ -385,11 +416,11 @@ msgstr ""
 "Zrythmは直感的な作業方法でより速いワークフローを可能にすることで、インター"
 "フェースをクリーンで快適に操作できるようにします。"
 
-#: template/index.html.j2:150
+#: template/index.html.j2:155
 msgid "Featureful"
 msgstr "特徴がある"
 
-#: template/index.html.j2:153
+#: template/index.html.j2:158
 msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
@@ -397,15 +428,15 @@ msgstr ""
 "オートメーションカーブ、バス、LV2プラグインとオーディオファイル、アレンジャー"
 "ミニマップなど。"
 
-#: template/index.html.j2:169
+#: template/index.html.j2:174
 msgid "Features"
 msgstr "特長"
 
-#: template/index.html.j2:178
+#: template/index.html.j2:183
 msgid "Limitless Automation"
 msgstr "無限のオートメーション"
 
-#: template/index.html.j2:181
+#: template/index.html.j2:186
 msgid ""
 "Automate almost anything with automation tracks using straight lines, ramps "
 "and curves."
@@ -413,11 +444,11 @@ msgstr ""
 "直線、スロープ、カーブを使用して、オートメーショントラックでほぼすべてのもの"
 "を自動化。"
 
-#: template/index.html.j2:191
+#: template/index.html.j2:196
 msgid "Built-in Modulators"
 msgstr "内蔵モジュレータ"
 
-#: template/index.html.j2:194
+#: template/index.html.j2:199
 msgid ""
 "Modulate plugin controls using built-in LFOs, envelopes and other modulators "
 "in the modulators tab."
@@ -425,11 +456,11 @@ msgstr ""
 "モジュレータタブに組み込みのLFO、エンベロープ、その他のモジュレータを使用して"
 "プラグインコントロールの値を自動変更。"
 
-#: template/index.html.j2:203
+#: template/index.html.j2:208
 msgid "Chord Assistance"
 msgstr "コードアシスタンス"
 
-#: template/index.html.j2:205
+#: template/index.html.j2:210
 msgid ""
 "A chord pad for quickly trying out chords in a scale and a chord track to "
 "help with chord progressions."
@@ -437,19 +468,19 @@ msgstr ""
 "迅速にスケールとコードを試してみるのためのコードパッドとコード進行に役立つ"
 "コードトラック。"
 
-#: template/index.html.j2:217
+#: template/index.html.j2:222
 msgid "LV2 Plugins"
 msgstr "LV2プラグイン"
 
-#: template/index.html.j2:219
+#: template/index.html.j2:224
 msgid "Works with LV2, a free standard for audio plugins."
 msgstr "オーディオプラグインのオープンスタンダードであるLV2で動作します。"
 
-#: template/index.html.j2:227
+#: template/index.html.j2:232
 msgid "Speaks Your Language"
 msgstr "あなたの言語を話す"
 
-#: template/index.html.j2:229
+#: template/index.html.j2:234
 msgid ""
 "Available in English, German, French, Italian, Spanish, Japanese and many "
 "more languages."
@@ -457,18 +488,18 @@ msgstr ""
 "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言語"
 "で利用可能です。"
 
-#: template/index.html.j2:238
+#: template/index.html.j2:243
 msgid "Cross-platform"
 msgstr "クロスプラットフォーム"
 
-#: template/index.html.j2:240
+#: template/index.html.j2:245
 msgid ""
 "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
 msgstr ""
 "パソコン、ノートパソコン、タブレットを含むGNU/Linux、FreeBSD、MacOSで動作しま"
 "す。"
 
-#: template/index.html.j2:253
+#: template/index.html.j2:258
 msgid "News"
 msgstr "ニュース"
 

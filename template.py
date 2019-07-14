@@ -95,7 +95,7 @@ pronunciation = 'ziˈrɪðəm'
 
 # get latest version
 from subprocess import check_output
-version = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*" | sort -r | head -n 1 | grep -o "[^\/]*$"', shell=True).decode("utf-8")
+version = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*" | sort -r | head -n 1 | grep -o "[^\/]*$"', shell=True).decode("utf-8")[1:]
 
 # for news
 feed = feedparser.parse('https://savannah.nongnu.org/news/atom.php?group=zrythm')

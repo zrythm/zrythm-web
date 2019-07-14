@@ -25,7 +25,7 @@
       a readable "gnunet" font-logo would
       be better for orientation.
       -->
-      <img src="{{ url('static/images/z.svg') }}" alt="Zrythm Home Icon" />
+      <img src="{{ url('static/images/z.svg') }}" alt="Zrythm Home Icon" height="24px" />
   </a>
 
   <!-- menu button -->
@@ -86,18 +86,18 @@
         </ul>
       </li>
       <li class="nav-item badge">
-        <a href="http://git.savannah.nongnu.org/cgit/zrythm.git/refs/tags">
+        <a href="http://download.savannah.nongnu.org/releases/zrythm/">
           <img src="https://img.shields.io/badge/release-{{ version }}-blue.svg" alt="Release" />
-        </a>
-      </li>
-      <li class="nav-item badge">
-        <a href="https://www.gnu.org/licenses/agpl-3.0.html">
-          <img src="{{ url('static/images/agpl3.svg') }}" alt="License" />
         </a>
       </li>
       <li class="nav-item badge">
         <a href="https://hosted.weblate.org/engage/zrythm/?utm_source=widget">
           <img src="https://hosted.weblate.org/widgets/zrythm/-/svg-badge.svg" alt="Translation status" />
+        </a>
+      </li>
+      <li class="nav-item badge">
+        <a href="https://www.gnu.org/licenses/agpl-3.0.html">
+          <img src="{{ url('static/images/agpl-v3.svg') }}" alt="License" height="35px" />
         </a>
       </li>
       <li class="nav-item badge">

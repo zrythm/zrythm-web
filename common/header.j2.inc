@@ -55,7 +55,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- fork awesome, for team page -->
-    <link href="{{ url('dist/font-awesome/css/all.css') }}" rel="stylesheet">
+    <!--<link href="{{ url('dist/font-awesome/css/all.css') }}" rel="stylesheet">-->
     <link href="{{ url('dist/fork-awesome/css/fork-awesome.min.css') }}" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous"> -->
 
