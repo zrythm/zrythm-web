@@ -1,5 +1,5 @@
 <footer id="footer">
-  <div class="container-fluid cushion-below">
+  <div class="container-fluid cushion-below text-center">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-4">
