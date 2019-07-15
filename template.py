@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
-# This file is in the public domain.
+# This file is licensed under CC0 1.0.
+# <https://creativecommons.org/publicdomain/zero/1.0/>
 #
 # This script runs the jinja2 templating engine on an input template-file
 # using the specified locale for gettext translations, and outputs
@@ -11,6 +12,7 @@
 #
 # We import unicode_literals until people have understood how unicode
 # with bytes and strings changed in python2->python3.
+
 from __future__ import unicode_literals
 import os
 import os.path

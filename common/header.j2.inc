@@ -1,9 +1,23 @@
+{#
+Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
     <script>
         /*
         @licstart  The following is the entire license notice for the
         JavaScript code in this page.
 
-        Copyright (C) 2019 Alexandros Theodotou
         Copyright (C) 2014-2017 GNUnet e.V.
 
         The JavaScript code in this page is free software: you can

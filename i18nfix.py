@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# This file is in the public domain.
+# This file is licensed under CC0 1.0
+# <https://creativecommons.org/publicdomain/zero/1.0/>.
 
 """
 Extract translations from a Jinja2 template, stripping leading newlines.

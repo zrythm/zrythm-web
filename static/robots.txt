@@ -1,3 +1,5 @@
+# This file is licensed under CC0 1.0.
+# <https://creativecommons.org/publicdomain/zero/1.0/>
 #
 # robots.txt
 #
@@ -18,4 +20,4 @@
 
 User-agent: *
 Crawl-delay: 10
-sitemap: https://gnunet.org/en/sitemap.xml
+sitemap: https://www.zrythm.org/en/sitemap.xml

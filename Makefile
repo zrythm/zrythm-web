@@ -1,4 +1,5 @@
-# This file is in the public domain.
+# This file is licensed under CC0 1.0.
+# <https://creativecommons.org/publicdomain/zero/1.0/>
 
 # All: build HTML pages in all languages and compile the
 # TypeScript logic in web-common.
@@ -24,17 +25,15 @@ all: locale/messages.pot locale template
 	done
 	/bin/sh make_sitemap.sh
 	cp rendered/sitemap.xml rendered/en/sitemap.xml
-	cp rss.xml rendered/rss.xml
-	for lang in $(LANGUAGES); do \
-		cp rss.xml rendered/$$lang/rss.xml ; \
-	done
-	cp static/moved.html rendered/frontpage.html
-	cd rendered; ln -fs frontpage.html frontpage
+	#cp rss.xml rendered/rss.xml
+	#for lang in $(LANGUAGES); do \
+		#cp rss.xml rendered/$$lang/rss.xml ; \
+	#done
 
 # Extract translateable strings from jinja2 templates.
 # Because of the local i18nfix extractor module we need
 # to set the pythonpath before invoking pybabel.
-locale/messages.pot: common/*.j2.inc template/*.j2 news/*.inc
+locale/messages.pot: common/*.j2.inc template/*.j2
 	PYTHONPATH=. $(BABEL) -v extract -F locale/babel.map -o locale/messages.pot .
 
 # Update translation (.po) files with new strings.
