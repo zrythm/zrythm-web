@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-14 19:37+0100\n"
+"POT-Creation-Date: 2019-07-15 03:12+0100\n"
 "PO-Revision-Date: 2019-06-24 06:13+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/"
@@ -529,18 +529,18 @@ msgstr ""
 "関するアイデアをお持ちの場合は、<a href=\"engage.html\">自由に参加ください</"
 "a>。"
 
-#: template/join-us.html.j2:23
+#: template/join-us.html.j2:25
 msgid "Develop"
 msgstr "開発する"
 
-#: template/join-us.html.j2:25
+#: template/join-us.html.j2:28
 #, python-format
 msgid ""
 "Patches are welcome in the <a href=\"%(git_url)s\"> main repository</a>."
 msgstr ""
 "パッチは<a href=\"%(git_url)s\"> メインリポジトリ</a>で歓迎されています。"
 
-#: template/join-us.html.j2:29
+#: template/join-us.html.j2:32
 msgid ""
 "We have plenty of beginner-friendly issues and we even offer bounties for "
 "some. There is <a href=\"http://docs.zrythm.org/\">well-maintained, "
@@ -554,19 +554,26 @@ msgstr ""
 "\"https://docs.zrythm.org/md_CONTRIBUTING.html\">貢献ガイドライン</a>を確認し"
 "てください。"
 
-#: template/join-us.html.j2:37
+#: template/join-us.html.j2:41
 msgid "Translate"
 msgstr "翻訳する"
 
-#: template/join-us.html.j2:39
-#, python-format
+#: template/join-us.html.j2:44
+#, fuzzy, python-format
+#| msgid ""
+#| "If you can speak a foreign language and want to help, please take a look "
+#| "at the <a href=\"https://manual.zrythm.org/%(lang)s/contributing/"
+#| "translating.html\">translation instructions</a>. Translating Zrythm and "
+#| "its components is done via <a href=\"https://hosted.weblate.org/engage/"
+#| "zrythm/\"> a simple web interface</a> so no coding experience is needed. "
+#| "All you need is a web browser."
 msgid ""
 "If you can speak a foreign language and want to help, please take a look at "
 "the <a href=\"https://manual.zrythm.org/%(lang)s/contributing/translating."
 "html\">translation instructions</a>. Translating Zrythm and its components "
-"is done via <a href=\"https://hosted.weblate.org/engage/zrythm/\"> a simple "
-"web interface</a> so no coding experience is needed. All you need is a web "
-"browser."
+"is done via <a href=\"https://hosted.weblate.org/engage/zrythm/%(lang)s\"> a "
+"simple web interface</a> so no coding experience is needed. All you need is "
+"a web browser."
 msgstr ""
 "外国語を話し、助けたい場合は、<a href=\"https://manual.zrythm.org/%(lang)s/"
 "contributing/translating.html\">翻訳のガイドライン</a>を見てください。Zrythm "
@@ -574,25 +581,26 @@ msgstr ""
 "zrythm/\" > 単純な Web インターフェイスを介して</a>行われるため、コーディング"
 "の経験は必要ありません。必要なのは Web ブラウザだけです。"
 
-#: template/join-us.html.j2:51
+#: template/join-us.html.j2:57
 msgid "Test"
 msgstr "テストする"
 
-#: template/join-us.html.j2:53
+#: template/join-us.html.j2:60
+#, python-format
 msgid ""
 "You can always help by offering to test pre-released versions of Zrythm and "
-"providing feedback or report bugs. Please get in touch with us and we will "
-"guide you through the process."
+"providing feedback or report bugs. You can find build and installation "
+"instructions in the <a href=\"%(git_url)s/plain/README.md\">README</a> and "
+"<a href=\"%(git_url)s/plain/CONTRIBUTING.md\">CONTRIBUTING</a> files. Please "
+"submit bug reports and ideas to <a href=\"https://savannah.nongnu.org/"
+"support/?group=zrythm\">Savannah</a>."
 msgstr ""
-"あなたはいつでもZrythmのプレリリース版をテストすることを申し出ることによって"
-"フィードバックを提供するかまたはバグを報告することによって助けることができま"
-"す。"
 
-#: template/join-us.html.j2:61
+#: template/join-us.html.j2:71
 msgid "Design"
 msgstr "デザインする"
 
-#: template/join-us.html.j2:63
+#: template/join-us.html.j2:74
 msgid ""
 "If you are a web designer, icon designer or graphic designer and want to "
 "help, please get in touch with us. Things that you might want to do are "
@@ -602,7 +610,7 @@ msgstr ""
 "あり、助けたいのであれば、私達と連絡を取ってください。Things that you might "
 "want to do are logos, icons and other graphics, CSS, etc."
 
-#: template/join-us.html.j2:70
+#: template/join-us.html.j2:81
 #, python-format
 msgid ""
 "Zrythm itself is fully CSS themeable so it's easy to change its design "
@@ -613,11 +621,11 @@ msgstr ""
 "ても簡単にデザインを変更できます。<a href=\"%(git_blob_url)s/resources/theme."
 "css\">こちら</a>見てください。"
 
-#: template/join-us.html.j2:82
+#: template/join-us.html.j2:89
 msgid "Donate"
 msgstr "支援する"
 
-#: template/join-us.html.j2:85
+#: template/join-us.html.j2:92
 msgid ""
 "We appreciate contributions of any size -- donations enable us to spend more "
 "time working on the project, and help cover our infrastructure expenses. "
@@ -630,7 +638,7 @@ msgstr ""
 "も受け付けています。または、ビットコインまたはPayPal経由で寄付することができ"
 "ます。"
 
-#: template/join-us.html.j2:93
+#: template/join-us.html.j2:100
 msgid ""
 "Since our project isn't a tax-exempt organization, we can't offer you a tax "
 "deduction, but for all donations over 50 USD, we'd be happy to recognize "
@@ -642,7 +650,7 @@ msgstr ""
 "href='https://www.zrythm.org/en/thanks'>サポーター</a>へのあなたの貢献を認め"
 "てうれしいです 。"
 
-#: template/join-us.html.j2:100
+#: template/join-us.html.j2:107
 msgid ""
 "We are also happy to consider making particular improvements or changes, or "
 "giving specific technical assistance, in return for a substantial donation "
@@ -653,10 +661,6 @@ msgstr ""
 "術支援を行うことを検討しています。この可能性について話し合いたい場合は、<a "
 "href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a> に連絡してくだ"
 "さい。"
-
-#: template/join-us.html.j2:108
-msgid "Thank you for your support!"
-msgstr "ご支援いただきありがとうございます！"
 
 #: template/news.html.j2.inc:9
 msgid "posted by"
@@ -704,3 +708,15 @@ msgstr "このページにはZrythmの様々なチュートリアルがありま
 #: template/tutorial.html.j2:14
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
+
+#~ msgid ""
+#~ "You can always help by offering to test pre-released versions of Zrythm "
+#~ "and providing feedback or report bugs. Please get in touch with us and we "
+#~ "will guide you through the process."
+#~ msgstr ""
+#~ "あなたはいつでもZrythmのプレリリース版をテストすることを申し出ることによっ"
+#~ "てフィードバックを提供するかまたはバグを報告することによって助けることがで"
+#~ "きます。"
+
+#~ msgid "Thank you for your support!"
+#~ msgstr "ご支援いただきありがとうございます！"

@@ -18,7 +18,7 @@
         </div>
         <div class="col-12 col-sm-4">
           <ul class="footer-list">
-            <li><p><a href="https://manual.zrythm.org">{{ _("Manual") }}</a></p></li>
+            <li><p><a href="https://manual.zrythm.org/{{ lang }}">{{ _("Manual") }}</a></p></li>
             <li><p><a href="faq.html">{{ _("FAQ") }}</a></p></li>
             <li><p><a href="join-us.html">{{ _("Support Us") }}</a></p></li>
           </ul>

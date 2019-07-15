@@ -39,6 +39,13 @@ code {
     margin-bottom: 1em;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
 /* hyperlinks and buttons */
 #body_content a:not(.dropdown-link),
 #body_content a:link:not(.dropdown-link),

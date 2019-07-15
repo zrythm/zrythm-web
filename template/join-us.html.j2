@@ -17,10 +17,13 @@
   </div>
 </div>
 
-<div class="container adorn_h3_bracket">
+<div class="container-fluid text-center adorn_h3_bracket">
+<div class="container">
   <div class="row">
     <div class="col-lg-6">
+      <header>
       <h3>{{ _("Develop") }}</h3>
+      </header>
       <p>
         {% trans %}
           Patches are welcome in the <a href="{{ git_url }}">
@@ -34,12 +37,14 @@
       </p>
     </div>
     <div class="col-lg-6">
+      <header>
       <h3>{{ _("Translate") }}</h3>
+      </header>
       <p>
         {% trans %}
           If you can speak a foreign language and want to help, please take a look at the
           <a href="https://manual.zrythm.org/{{ lang }}/contributing/translating.html">translation instructions</a>.
-          Translating Zrythm and its components is done via <a href="https://hosted.weblate.org/engage/zrythm/">
+          Translating Zrythm and its components is done via <a href="https://hosted.weblate.org/engage/zrythm/{{ lang }}">
           a simple web interface</a> so no coding experience is needed. All
           you need is a web browser.
         {% endtrans %}
@@ -48,17 +53,23 @@
   </div>
   <div class="row">
     <div class="col-lg-6">
+      <header>
       <h3>{{ _("Test") }}</h3>
+      </header>
       <p>
         {% trans %}
         You can always help by offering to test pre-released versions of Zrythm and 
-        providing feedback or report bugs. Please get in touch with us and we will
-        guide you through the process.
+        providing feedback or report bugs. You can find build and installation instructions in 
+        the
+        <a href="{{ git_url }}/plain/README.md">README</a> and <a href="{{ git_url }}/plain/CONTRIBUTING.md">CONTRIBUTING</a> files. Please submit bug reports
+        and ideas to <a href="https://savannah.nongnu.org/support/?group=zrythm">Savannah</a>.
         {% endtrans %}
       </p>
     </div>
     <div class="col-lg-6">
+      <header>
       <h3>{{ _("Design") }}</h3>
+      </header>
       <p>
         {% trans %}
         If you are a web designer, icon designer or graphic designer and want to help, please get
@@ -74,12 +85,8 @@
       </p>
     </div>
   </div>
-</div>
-
-<div class="container-fluid">
-  <div class="container text-center">
   <header>
-    <h1>{{ _("Donate") }}</h1>
+    <h3>{{ _("Donate") }}</h3>
   </header>
   <p>
     {% trans %}
@@ -105,11 +112,6 @@
     {% endtrans %}
   </p>
   <p>
-    {% trans %}
-      Thank you for your support!
-    {% endtrans %}
-  </p>
-  <p>
       <dl><dt>LiberaPay</dt>
         <dd><a href="https://liberapay.com/Zrythm/donate">https://liberapay.com/Zrythm/donate</a></dd>
         <dt>BitCoin</dt>
@@ -118,7 +120,7 @@
         <dd><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZWVK6228PQGE&source=url</a></dd>
                 </dl>
   </p>
-  </div>
+</div>
 </div>
 
 </div> <!-- /container -->
