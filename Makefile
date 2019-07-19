@@ -1,4 +1,9 @@
-# This file is licensed under CC0 1.0.
+# This file is taken from the GNUnet project's website source code,
+# originally in the public domain.
+#
+# This file is re-distributed under the terms of CC0 1.0 (Public Domain).
+# You should have received a copy of CC0 1.0 along with this distribution.
+# If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 # <https://creativecommons.org/publicdomain/zero/1.0/>
 
 # All: build HTML pages in all languages and compile the

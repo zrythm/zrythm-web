@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#
 # This initial version builds on code from ssg4
 # copyright is as follows:
 # -----
