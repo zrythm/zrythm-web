@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-15 23:08+0100\n"
+"POT-Creation-Date: 2019-08-10 16:12+0100\n"
 "PO-Revision-Date: 2019-07-15 07:07+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/"
+">\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,7 @@ msgstr "よくある質問"
 msgid "Support Us"
 msgstr "支援する"
 
-#: common/footer.j2.inc:31
+#: common/footer.j2.inc:46
 #, python-format
 msgid ""
 "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
@@ -73,10 +73,10 @@ msgid ""
 "this website to <a href=\"https://savannah.nongnu.org/support/?"
 "func=additem&group=zrythm\">us</a>."
 msgstr ""
-"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href=\""
-"%(git_web_url)s\">このサイトのソースコード</a></br> このウェブサイトに関する問題を<a href=\""
-"https://savannah.nongnu.org/support/?func=additem&group=zrythm\""
-">私たちに報告してください</a>"
+"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
+"\"%(git_web_url)s\">このサイトのソースコード</a></br> このウェブサイトに関す"
+"る問題を<a href=\"https://savannah.nongnu.org/support/?"
+"func=additem&group=zrythm\">私たちに報告してください</a>"
 
 #: common/navigation.j2.inc:64
 msgid "Community"
@@ -175,10 +175,12 @@ msgid ""
 "org</a> for general user inquiries/discussions and <a href=\"mailto:zrythm-"
 "dev@nongnu.org\">zrythm-dev@nongnu.org</a> for development discussions."
 msgstr ""
-"アーカイブされている<a href=\"https://savannah.nongnu.org/mail/?group=zrythm\""
-">公開メーリングリスト</a>があり、そこにメッセージを送信できます。開発に関するディスカッションは<a href=\"mailto:zrythm-"
-"dev@nongnu.org\">zrythm-dev@nongnu.org</a>を使用し、一般的なお問い合わせ/ディスカッションは<a href=\""
-"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>を使用してください。"
+"アーカイブされている<a href=\"https://savannah.nongnu.org/mail/?group=zrythm"
+"\">公開メーリングリスト</a>があり、そこにメッセージを送信できます。開発に関す"
+"るディスカッションは<a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+"dev@nongnu.org</a>を使用し、一般的なお問い合わせ/ディスカッションは<a href="
+"\"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>を使用してくださ"
+"い。"
 
 #: template/contact.html.j2:39
 msgid "IRC/Matrix"
@@ -191,9 +193,10 @@ msgid ""
 "org\">#zrythmdaw:matrix.org</a></code>. The channels are bridged so the "
 "messages are all shared."
 msgstr ""
-"ZrythmはIRCの<code>#zrythm</code>チャンネル(irc.freenode.net)、マトリックスの<code><a href="
-"\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\""
-">#zrythmdaw:matrix.org</a></code>チャンネルにあります。チャネルはブリッジされ、メッセージはすべて共有されます。"
+"ZrythmはIRCの<code>#zrythm</code>チャンネル(irc.freenode.net)、マトリックスの"
+"<code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
+"\">#zrythmdaw:matrix.org</a></code>チャンネルにあります。チャネルはブリッジさ"
+"れ、メッセージはすべて共有されます。"
 
 #: template/contact.html.j2:52
 msgid "Contacting individuals"
@@ -314,7 +317,7 @@ msgstr "Ubuntuにインストールすると、依存関係が満たされない
 msgid "Enable the universe repository:"
 msgstr "universeのリポジトリを有効にしてください:"
 
-#: template/index.html.j2:44
+#: template/index.html.j2:60
 #, python-format
 msgid ""
 "Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
@@ -323,9 +326,11 @@ msgid ""
 "in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
 "clips."
 msgstr ""
-"Zrythm [<em>%(pronunciation)s</em>] は高度に自動化されたデジタルオーディオワークステーション（DAW）で、機能的で直感"
-"的に使用できるように設計されています。Zrythmは他のDAWと一線を画すもので、内蔵LFOやエンベロープによる直感的なオートメーション、"
-"クリップによる直感的なMIDI /オーディオ編集、アレンジを可能にします。"
+"Zrythm [<em>%(pronunciation)s</em>] は高度に自動化されたデジタルオーディオ"
+"ワークステーション（DAW）で、機能的で直感的に使用できるように設計されていま"
+"す。Zrythmは他のDAWと一線を画すもので、内蔵LFOやエンベロープによる直感的な"
+"オートメーション、クリップによる直感的なMIDI /オーディオ編集、アレンジを可能"
+"にします。"
 
 #: template/index.html.j2:64
 msgid ""
@@ -338,21 +343,21 @@ msgstr ""
 "も力を入れています。これにより、ミュージシャンは不要な作業に時間を費やすこと"
 "なく、自分の音楽のアイデアをすばやく作成して処理できます。"
 
-#: template/index.html.j2:52
+#: template/index.html.j2:68
 msgid ""
 "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
 "agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</a>"
 msgstr ""
-"Zrythmは<a href=\"https://www.gnu.org/licenses/agpl-3.0.ja.html\""
-">GNUアフェロ一般公衆ライセンス</a>でライセンスされている<a href=\"http://www.gnu.org/philosophy/free-"
-"sw.ja.html\">自由ソフトウェア</a>です"
+"Zrythmは<a href=\"https://www.gnu.org/licenses/agpl-3.0.ja.html\">GNUアフェロ"
+"一般公衆ライセンス</a>でライセンスされている<a href=\"http://www.gnu.org/"
+"philosophy/free-sw.ja.html\">自由ソフトウェア</a>です"
 
 #: template/index.html.j2:76
 msgid "Download"
 msgstr "ダウンロード"
 
-#: template/index.html.j2:69
+#: template/index.html.j2:85
 msgid "Source Tarball"
 msgstr "ソースtarball"
 
@@ -378,8 +383,9 @@ msgid ""
 "For more installation options see the <a href=\"https://manual.zrythm.org/"
 "%(lang)s/configuration/installation/intro.html\">manual</a>"
 msgstr ""
-"その他のインストール方法については、<a href=\"https://manual.zrythm.org/%(lang)s/configuration/"
-"installation/intro.html\">ユーザーマニュアル</a>を参照してください"
+"その他のインストール方法については、<a href=\"https://manual.zrythm.org/"
+"%(lang)s/configuration/installation/intro.html\">ユーザーマニュアル</a>を参照"
+"してください"
 
 #: template/index.html.j2:148
 msgid "Automated"
