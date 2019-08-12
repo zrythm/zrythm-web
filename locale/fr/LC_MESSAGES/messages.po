@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-10 16:12+0100\n"
-"PO-Revision-Date: 2019-08-12 00:18+0000\n"
+"PO-Revision-Date: 2019-08-14 00:24+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -335,8 +335,9 @@ msgstr ""
 "Zrythm [<em>%(pronunciation)s</em>] est une Station de Travail Audio "
 "Numérique (STAN) hautement automatisée, conçue pour une utilisation "
 "fonctionnelle et intuitive. Zrythm se distingue des autres STAN en "
-"permettant une automation poussée via des LFOs et des enveloppes intégrées, "
-"ainsi qu'une édition et un arrangement MIDI/audio intuitifs via les clips."
+"permettant une automatisation poussée via des LFOs et des enveloppes "
+"intégrées, ainsi qu'une édition et un arrangement MIDI/audio intuitifs via "
+"les clips."
 
 #: template/index.html.j2:64
 msgid ""
@@ -403,8 +404,8 @@ msgid ""
 "more detailed automation, clips to loop your MIDI notes/audio and more."
 msgstr ""
 "Des LFOs et des enveloppes intégrés pour automatiser les contrôles, des "
-"courbes d'automation pour une automation plus détaillée, des clips pour "
-"boucler vos notes MIDI et Audio, et plus encore."
+"courbes d'automatisation pour une automatisation plus détaillée, des clips "
+"pour boucler vos notes MIDI et audio, et plus encore."
 
 #: template/index.html.j2:160
 msgid "Intuitive"
@@ -428,8 +429,8 @@ msgid ""
 "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 "Arranger Minimap, etc."
 msgstr ""
-"Des courbes d'automation, des busses, glisser-déposer des greffons LV2 et "
-"des fichiers audio, des Minimap dans l'arrangeur, etc."
+"Des courbes d'automatisation, des busses, glisser-déposer des greffons LV2 "
+"et des fichiers audio, des Minimap dans l'arrangeur, etc."
 
 #: template/index.html.j2:190
 msgid "Features"
@@ -437,7 +438,7 @@ msgstr "Fonctionnalités"
 
 #: template/index.html.j2:199
 msgid "Limitless Automation"
-msgstr "Automation sans limite"
+msgstr "Automatisation sans limite"
 
 #: template/index.html.j2:202
 msgid ""
