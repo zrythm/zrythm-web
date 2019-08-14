@@ -1,5 +1,13 @@
 #!/bin/sh
 #
+# Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2018, 2019 GNUnet e.V.
+#
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved.  This file is offered as-is,
+# without any warranty.
+#
 # This initial version builds on code from ssg4
 # copyright is as follows:
 # -----

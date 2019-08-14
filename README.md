@@ -6,7 +6,8 @@ This project was forked from the GNUnet website source code,
 which was licensed under the GPLv3 and includes all Copyright notices of the
 original authors.
 
-The original README is preserved as README.GNUnet
+The original project can be found here:
+https://git.gnunet.org/www.git/
 
 # Building
 `make` will create the full bundle in `rendered`

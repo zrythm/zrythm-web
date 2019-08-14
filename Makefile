@@ -1,10 +1,13 @@
-# This file is taken from the GNUnet project's website source code,
-# originally in the public domain.
 #
-# This file is re-distributed under the terms of CC0 1.0 (Public Domain).
-# You should have received a copy of CC0 1.0 along with this distribution.
-# If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
-# <https://creativecommons.org/publicdomain/zero/1.0/>
+# Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2017, 2018, 2019 GNUnet e.V.
+#
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved.  This file is offered as-is,
+# without any warranty.
+#
+# ----
 
 # All: build HTML pages in all languages and compile the
 # TypeScript logic in web-common.
