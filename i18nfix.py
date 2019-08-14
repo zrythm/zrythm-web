@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 #
-# Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
 # Copyright (C) 2017, 2018 GNUnet e.V.
 #
 # Copying and distribution of this file, with or without modification,
