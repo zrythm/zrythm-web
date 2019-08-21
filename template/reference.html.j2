@@ -1,0 +1,112 @@
+{#
+Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block body_content %}
+
+<left>
+<div class="container features_box">
+  <h2>
+    {% trans %}
+    Reference
+    {% endtrans %}
+  </h2>
+  <br>
+
+  <h3>
+    {% trans %}
+    User Manual
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Online manual
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://manual.zrythm.org/{{ lang }}/index.html">
+            https://manual.zrythm.org/{{ lang }}/index.html
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          HTML-render (zip)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://manual.zrythm.org/{{ lang }}/Zrythm-html.zip">
+            https://manual.zrythm.org/{{ lang }}/Zrythm-html.zip
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          PDF-render
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://manual.zrythm.org/{{ lang }}/Zrythm.pdf">
+            https://manual.zrythm.org/{{ lang }}/Zrythm.pdf
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          ePUB-render
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://manual.zrythm.org/{{ lang }}/Zrythm.epub">
+            https://manual.zrythm.org/{{ lang }}/Zrythm.epub
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>
+    {% trans %}
+    Developer docs
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Online docs
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://docs.zrythm.org/">
+            https://docs.zrythm.org/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+</left>
+
+{% endblock body_content %}

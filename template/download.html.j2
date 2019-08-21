@@ -1,0 +1,183 @@
+{#
+Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block body_content %}
+
+<left>
+<div class="container features_box">
+  <h2>
+    {% trans %}
+    Installation
+    {% endtrans %}
+    <small>
+    </small>
+  </h2>
+  <br>
+
+  <h3>
+    {% trans %}
+    Source code
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          git repositories
+          {% endtrans %}
+        </td>
+        <td class="second_col">
+          <a href="{{ git_base_url }}">
+            {{ git_base_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          stable releases
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ savannah_downloads_url }}">
+            {{ savannah_downloads_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          GPG signing key
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ url('static/gpg_key.txt') }}">
+            4813 2384 AD3D F7D8 6E25  4B83 022E AE42 313D 70F3
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>
+    {% trans %}
+    GNU Linux packages
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Arch (aur, git package)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ aur_git_url }}">
+            {{ aur_git_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Arch (aur, stable)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ aur_stable_url }}">
+            {{ aur_stable_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Debian (unofficial)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ obs_package_url }}">
+            {{ obs_package_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Fedora (unofficial)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ obs_package_url }}">
+            {{ obs_package_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Mageia (unofficial)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ obs_package_url }}">
+            {{ obs_package_url }}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Ubuntu (unofficial)
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ obs_package_url }}">
+            {{ obs_package_url }}
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>
+    {% trans %}
+    Other Platforms
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          FreeBSD (Freshports)
+          {% endtrans %}
+        </td>
+        <td class="second_col">
+          <a href="{{ freshports_url }}">
+            {{ freshports_url }}
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</left>
+
+{% endblock body_content %}

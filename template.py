@@ -103,6 +103,10 @@ issue_tracker = 'https://savannah.nongnu.org/support/?group=zrythm'
 git_blob_url = git_url + '/tree'
 pronunciation = 'ziˈrɪðəm'
 savannah_downloads_url = 'https://download.savannah.nongnu.org/releases/zrythm/'
+aur_git_url = 'https://aur.archlinux.org/packages/zrythm-git/'
+aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
+obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm'
+freshports_url = 'https://www.freshports.org/audio/zrythm/'
 
 # get latest version
 from subprocess import check_output
@@ -228,8 +232,13 @@ for in_file in glob.glob("template/*.j2"):
                               lang_full=langs_full[locale],
                               langs_full=langs_full,
                               url=url,
+                              git_base_url=git_base_url,
                               git_url=git_url,
                               git_web_url=git_web_url,
+                              aur_git_url=aur_git_url,
+                              aur_stable_url=aur_stable_url,
+                              freshports_url=freshports_url,
+                              obs_package_url=obs_package_url,
                               savannah_downloads_url=savannah_downloads_url,
                               news=news,
                               datetime_parse=parse,

@@ -17,267 +17,98 @@ GNU Affero General Public License for more details.
 {% extends "common/base.j2" %}
 {% block body_content %}
 
-<!-- Hook up the slideshow -->
-<script>
- $(function() {
-
-  $(".rslides").responsiveSlides({
-    auto: true,             /* Boolean: Animate automatically, true or false
-    speed: 500,            /* Integer: Speed of the transition, in milliseconds */
-    timeout: 4000,          /* Integer: Time between slide transitions, in milliseconds */
-    pager: false,           /* Boolean: Show pager, true or false */
-    nav: false,             /* Boolean: Show navigation, true or false */
-    random: false,          /* Boolean: Randomize the order of the slides, true or false */
-    pause: false,           /* Boolean: Pause on hover, true or false */
-    pauseControls: true,    /* Boolean: Pause when hovering controls, true or false */
-    prevText: "Previous",   /* String: Text for the "previous" button */
-    nextText: "Next",       /* String: Text for the "next" button */
-    maxwidth: "",           /* Integer: Max-width of the slideshow, in pixels */
-    navContainer: "",       /* Selector: Where controls should be appended to, default is after the 'ul' */
-    manualControls: "",     /* Selector: Declare custom pager navigation */
-    namespace: "rslides",   /* String: Change the default namespace used */
-    before: function(){},   /* Function: Before callback */
-    after: function(){}     /* Function: After callback */
-  });
-  });
-</script>
-
-<!-- Jumbotron -->
-<div class="container-logo banner dark text-center" id="frontpagefront">
-    <!-- <h1>
-      <img src="{{ url('static/images/z.svg') }}" 
-      alt="Zrythm" height="320" />
-    </h1> -->
-      <ul class="rslides">
-        <li><img src="{{ url('static/images/may_28_2019.png') }}" alt=""></li>
-        <li><img src="{{ url('static/images/may_28_2019_2.png') }}" alt=""></li>
-      </ul>
-</div>
-<article>
-<div class="jumbotron">
-  <div class="container text-center">
-    <p>
-      {% trans %}
-      Zrythm [<em>{{ pronunciation }}</em>]  is a highly automated Digital Audio Workstation (DAW) designed to be featureful and intuitive to use. Zrythm sets itself apart from other DAWs by allowing extensive automation via built-in LFOs and envelopes and intuitive MIDI/audio editing and arranging via clips.
-      {% endtrans %}
-      <br><br>
-      {% trans %}
-In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most focus on the Composing part. It allows musicians to quickly lay down and process their musical ideas without taking too much time for unnecessary work.
-      {% endtrans %}
-      <br><br>
-      {% trans %}
-      Zrythm is <a href="http://www.gnu.org/philosophy/free-sw.html">free software</a> licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License, version 3.0 or later</a>
-      {% endtrans %}
-    </p>
-    <p>
-      <div class="dropdown">
-        <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
-          <i class="fa fa-download"></i>
-          {% trans %}
-          Download
-          {% endtrans %}
-        </button>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="{{ savannah_downloads_url }}/zrythm-{{ version }}.tar.xz" class="dropdown-link">
-              <button class="dropdown-item" >
-              <i class="fa fa-fw fa-file-archive-o"></i>
-              {% trans %}
-              Source Tarball
-              {% endtrans %}
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="{{ savannah_downloads_url }}/zrythm-{{ version }}.tar.xz.asc" class="dropdown-link">
-              <button class="dropdown-item" >
-              <i class="fa fa-fw fa-file-o"></i>
-              {% trans %}
-              Signature
-              {% endtrans %}
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="{{ savannah_downloads_url }}/zrythm-{{ version }}.tar.xz.sha256sum" class="dropdown-link">
-              <button class="dropdown-item" >
-              <i class="fa fa-fw fa-file-text-o"></i>
-              {% trans %}
-              SHA256 Sum
-              {% endtrans %}
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="{{ url('static/gpg_key.txt') }}" class="dropdown-link">
-              <button class="dropdown-item" >
-              <i class="fa fa-fw fa-gnupg"></i>
-              {% trans %}
-              GPG Key
-              {% endtrans %}
-              </button>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <a class="btn btn-primary btn-lg" href="join-us.html">
-      <i class="fa fa-hand-peace-o"></i>
-      {% trans %}
-      Join &amp; support us!
-      {% endtrans %}
-      </a>
-    </p>
-    <p><small><em>
+<center>
+  <h1>Zrythm 
+    <small>
     {% trans %}
-      For more installation options see the <a href="https://manual.zrythm.org/{{ lang }}/configuration/installation/intro.html">manual</a>
+    a highly automated and intuitive digital audio workstation
     {% endtrans %}
-    </em></small></p>
-  </div>
-</div>
+    </small>
+  </h1>
 
-<div class="container-fluid adorn_h3_bracket c_acronym">
+  <img 
+     class="screenshot_img shadowed"
+     src="{{ url('static/images/aug_22_2019.png') }}" 
+     alt="Screenshot">
+  </img>
+</center>
+
+<left>
+<div class="container features_box">
+  <h2>Zrythm 
+    {% trans %}
+    Overview
+    {% endtrans %}
+  </h2>
+
+  <p>
+    {% trans %}
+    Zrythm [<em>{{ pronunciation }}</em>] is a digital audio 
+    workstation designed to be
+    featureful and easy to use with many 
+    automation possibilities.
+    {% endtrans %}
+  </p>
   <div class="container">
     <div class="row">
-      <div class="container text-center">
-          <h2>{% trans %}An highly automated, intuitive, Digital Audio Workstation (DAW){% endtrans %}</h2>
+      <div class="col-sm-6">
+        <h3>
+          {% trans %}
+          Limitless Automation
+          {% endtrans %}
+        </h3>
+        <p>
+          {% trans %}
+          Automate almost anything with automation events 
+          using straight lines, ramps and curves, or with
+          LFOs and envelopes.
+          {% endtrans %}
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <h3>
+          {% trans %}
+          LV2 Plugins
+          {% endtrans %}
+        </h3>
+        <p>
+          {% trans %}
+          Works with LV2, a free and extensible standard
+          for audio plugins. Drag and drop any plugin and 
+          start tweaking.
+          {% endtrans %}
+        </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
-        <section>
-        <h3>{{ _("Automated") }}</h3>
-        <p>
-        {% trans %}
-        Built-in LFOs and envelopes for automating controls, automation 
-        curves for more detailed automation, clips to loop your MIDI notes/audio
-        and more.
-        {% endtrans %}
-        </section>
-        </p>
-      </div>
-      <div class="col-lg-4">
-        <section>
-        <h3>{{ _("Intuitive") }}</h3>
+      <div class="col-sm-6">
+        <h3>
+          {% trans %}
+          Multilingual
+          {% endtrans %}
+        </h3>
         <p>
           {% trans %}
-          Zrythm tries to keep the interface clean and pleasant to work with, 
-          with intuitive ways of getting work done enabling a faster workflow.
+          Zrythm speaks English, French, Japanese and German.
           {% endtrans %}
         </p>
-        </section>
       </div>
-      <div class="col-lg-4">
-        <section>
-        <h3>{{ _("Featureful") }}</h3>
-
+      <div class="col-sm-6">
+        <h3>
+          {% trans %}
+          Chord Assistance
+          {% endtrans %}
+        </h3>
         <p>
           {% trans %}
-          Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, 
-          Arranger Minimap, etc.
+          Featuring a chord pad for quickly trying out 
+          chords in a scale and chord track to help with 
+          chord  progressions.
           {% endtrans %}
-        </section>
+        </p>
       </div>
     </div>
   </div>
 </div>
-
-
-
-<div class="container adorn_h3_bracket">
-  <div class="row">
-    <div class="container text-center">
-      <h2>
-        {% trans %}
-        Features
-        {% endtrans %}
-      </h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-4">
-      <section>
-      <h3>{{ _("Limitless Automation") }}</h3>
-      
-      <p>
-        {% trans %}
-        Automate almost anything with automation tracks using straight lines, ramps
-        and curves.
-        {% endtrans %}
-      </p>
-      </section>
-    </div>
-    
-    <div class="col-lg-4">
-      <section>
-      <h3>{{ _("Built-in Modulators") }}</h3>
-
-      <p>
-        {% trans %}
-        Modulate plugin controls using built-in LFOs, envelopes and other modulators in
-        the modulators tab.
-        {% endtrans %}
-      </p>
-      </section>
-    </div>
-    <div class="col-lg-4">
-      <section>
-      <h3>{{ _("Chord Assistance") }}</h3>
-      <p>
-        {% trans %}
-	      A chord pad for quickly trying out chords in a scale and a chord track to
-        help with chord progressions.
-        {% endtrans %}
-      </p>
-      </section>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-lg-4">
-      <section>
-      <h3>{{ _("LV2 Plugins") }}</h3>
-      <p>
-        {% trans %}
-        Works with LV2, a free standard for audio plugins.
-        {% endtrans %}
-      </p>
-      </section>
-    </div>
-    <div class="col-lg-4">
-      <section>
-      <h3>{{ _("Speaks Your Language") }}</h3>
-      <p>
-        {% trans %}
-        Available in English, German, French, Italian, Spanish, Japanese and many more
-        languages.
-        {% endtrans %}
-      </p>
-      </section>
-    </div>
-    <div class="col-lg-4">
-      <section>
-      <h3>{{ _("Cross-platform") }}</h3>
-      <p>
-        {% trans %}
-        Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets.
-        {% endtrans %}
-      </p>
-      </section>
-    </div>
-  </div>
-</div>
-</article>
-
-<div class="container adorn_h3_bracket text-center">
-  <div class="row">
-    <div class="container">
-      <h2>{{ _("News") }}</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-12">
-      {% include "template/news.html.j2.inc" %}
-    </div>
-  </div>
-</div> <!-- /container -->
+</left>
 {% endblock body_content %}

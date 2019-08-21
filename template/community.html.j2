@@ -1,0 +1,110 @@
+{#
+Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block body_content %}
+
+<left>
+<div class="container features_box">
+  <h2>
+    {% trans %}
+    Community
+    {% endtrans %}
+  </h2>
+  <br>
+
+  <h3>
+    {% trans %}
+    Communication
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          IRC
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="irc://irc.freenode.net/zrythm">
+            #zrythm on irc.freenode.net
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Matrix
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://matrix.to/#/#zrythmdaw:matrix.org">
+            #zrythmdaw:matrix.org
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>
+    {% trans %}
+    Issue tracker
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Savannah
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ issue_tracker }}">
+            {{ issue_tracker }}
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>
+    {% trans %}
+    Translations
+    {% endtrans %}
+  </h3>
+  <table class="hidden-sm">
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Weblate
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="https://hosted.weblate.org/engage/zrythm/">
+            https://hosted.weblate.org/engage/zrythm/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+</left>
+
+{% endblock body_content %}

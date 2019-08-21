@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-15 23:08+0100\n"
+"POT-Creation-Date: 2019-08-22 00:22+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/"
@@ -25,96 +25,17 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:21 template/index.html.j2:142
-msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
+#: common/base.j2:21
+#, fuzzy
+#| msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
+msgid "A highly automated and intuitive Digital Audio Workstation (DAW)"
 msgstr ""
 "Ένας ιδιαίτερα αυτοματοποιημένος, διαισθητικός Σταθμός εργασίας ψηφιακού "
 "ήχου (DAW)"
 
-#: common/footer.j2.inc:22 template/team.html.j2:21
-msgid "Team"
-msgstr ""
-
-#: common/footer.j2.inc:23
-msgid "Contact"
-msgstr "Επικοινωνία"
-
-#: common/footer.j2.inc:24 template/about.html.j2:22
+#: template/about.html.j2:22
 msgid "About Zrythm"
 msgstr "Σχετικά με το Zrythm"
-
-#: common/footer.j2.inc:29 common/navigation.j2.inc:83
-#, fuzzy
-#| msgid "Bug Tracker"
-msgid "Issue Tracker"
-msgstr "Ιχνηλάτης Σφαλμάτων"
-
-#: common/footer.j2.inc:30 common/navigation.j2.inc:84
-msgid "Source Code"
-msgstr "Πηγαίος Κώδικας"
-
-#: common/footer.j2.inc:31 template/javascript.html.j2:21
-#, fuzzy
-#| msgid "Contact information"
-msgid "JavaScript Licenses"
-msgstr "Στοιχεία επικοινωνίας"
-
-#: common/footer.j2.inc:36 common/navigation.j2.inc:99
-msgid "Manual"
-msgstr "Εγχειρίδιο Χρήσης"
-
-#: common/footer.j2.inc:37 common/navigation.j2.inc:100
-msgid "FAQ"
-msgstr "Συχνές ερωτήσεις"
-
-#: common/footer.j2.inc:38
-msgid "Support Us"
-msgstr "Υποστήριξε μας"
-
-#: common/footer.j2.inc:46
-#, python-format
-msgid ""
-"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
-"\"%(git_web_url)s\">Source code of this site.</a></br> Report issues with "
-"this website to <a href=\"https://savannah.nongnu.org/support/?"
-"func=additem&group=zrythm\">us</a>."
-msgstr ""
-
-#: common/navigation.j2.inc:64
-msgid "Community"
-msgstr "Κοινότητα"
-
-#: common/navigation.j2.inc:67
-msgid "Forum"
-msgstr "Φόρουμ"
-
-#: common/navigation.j2.inc:68
-msgid "Discussion"
-msgstr "Συζήτηση"
-
-#: common/navigation.j2.inc:69
-msgid "Join Us"
-msgstr "Γίνε μέλος μας"
-
-#: common/navigation.j2.inc:79
-msgid "Development"
-msgstr ""
-
-#: common/navigation.j2.inc:82
-msgid "Developer Docs"
-msgstr "Έγγραφα  για developers"
-
-#: common/navigation.j2.inc:94
-msgid "Documentation"
-msgstr ""
-
-#: common/navigation.j2.inc:97 template/tutorial.html.j2:21
-msgid "Tutorials"
-msgstr "Εγχειρίδια"
-
-#: common/navigation.j2.inc:98
-msgid "Glossary"
-msgstr "Γλωσσάριο"
 
 #: template/about.html.j2:25
 msgid "Version"
@@ -156,6 +77,46 @@ msgstr ""
 msgid ""
 "Early alpha. Somewhat functional but has unimplemented features and crashes "
 "a lot."
+msgstr ""
+
+#: template/community.html.j2:23
+msgid "Community"
+msgstr "Κοινότητα"
+
+#: template/community.html.j2:30
+#, fuzzy
+#| msgid "Community"
+msgid "Communication"
+msgstr "Κοινότητα"
+
+#: template/community.html.j2:38
+msgid "IRC"
+msgstr ""
+
+#: template/community.html.j2:50
+#, fuzzy
+#| msgid "The IRC/Matrix channel"
+msgid "Matrix"
+msgstr "Το κανάλι IRC / Matrix"
+
+#: template/community.html.j2:64
+#, fuzzy
+#| msgid "Bug Tracker"
+msgid "Issue tracker"
+msgstr "Ιχνηλάτης Σφαλμάτων"
+
+#: template/community.html.j2:72
+msgid "Savannah"
+msgstr ""
+
+#: template/community.html.j2:86
+#, fuzzy
+#| msgid "Translate"
+msgid "Translations"
+msgstr "Μετάφρασε"
+
+#: template/community.html.j2:94
+msgid "Weblate"
 msgstr ""
 
 #: template/contact.html.j2:21
@@ -214,6 +175,64 @@ msgid ""
 "href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
 "feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
 "mailing list</a>."
+msgstr ""
+
+#: template/download.html.j2:23
+msgid "Installation"
+msgstr ""
+
+#: template/download.html.j2:32
+#, fuzzy
+#| msgid "Source Code"
+msgid "Source code"
+msgstr "Πηγαίος Κώδικας"
+
+#: template/download.html.j2:40
+msgid "git repositories"
+msgstr ""
+
+#: template/download.html.j2:52
+msgid "stable releases"
+msgstr ""
+
+#: template/download.html.j2:64
+msgid "GPG signing key"
+msgstr ""
+
+#: template/download.html.j2:78
+msgid "GNU Linux packages"
+msgstr ""
+
+#: template/download.html.j2:86
+msgid "Arch (aur, git package)"
+msgstr ""
+
+#: template/download.html.j2:98
+msgid "Arch (aur, stable)"
+msgstr ""
+
+#: template/download.html.j2:110
+msgid "Debian (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:122
+msgid "Fedora (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:134
+msgid "Mageia (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:146
+msgid "Ubuntu (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:160
+msgid "Other Platforms"
+msgstr ""
+
+#: template/download.html.j2:168
+msgid "FreeBSD (Freshports)"
 msgstr ""
 
 #: template/engage.html.j2:23
@@ -307,7 +326,19 @@ msgstr ""
 msgid "Enable the universe repository:"
 msgstr ""
 
-#: template/index.html.j2:60
+#: template/index.html.j2:23
+#, fuzzy
+#| msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr ""
+"Ένας ιδιαίτερα αυτοματοποιημένος, διαισθητικός Σταθμός εργασίας ψηφιακού "
+"ήχου (DAW)"
+
+#: template/index.html.j2:39
+msgid "Overview"
+msgstr ""
+
+#: template/index.html.j2:45
 #, fuzzy, python-format
 #| msgid ""
 #| "Zrythm is a highly automated Digital Audio Workstation (DAW) designed to "
@@ -315,11 +346,8 @@ msgstr ""
 #| "DAWs by allowing extensive automation via built-in LFOs and envelopes and "
 #| "intuitive MIDI/audio editing and arranging via clips."
 msgid ""
-"Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
-"Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
-"sets itself apart from other DAWs by allowing extensive automation via built-"
-"in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
-"clips."
+"Zrythm [<em>%(pronunciation)s</em>] is a digital audio workstation designed "
+"to be featureful and easy to use with many automation possibilities."
 msgstr ""
 "Το Zrythm είναι ιδιαίτερα αυτοματοποιημένος Σταθμός Εργασίας Ψηφιακού Ήχου "
 "(DAW) σχεδιασμένος για να είναι πλούσια σε χαρακτηρικά και διαισθητικό να "
@@ -327,172 +355,54 @@ msgstr ""
 "extensive automation via built-in LFOs and envelopes and intuitive MIDI/"
 "audio editing and arranging via clips."
 
-#: template/index.html.j2:64
-msgid ""
-"In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most "
-"focus on the Composing part. It allows musicians to quickly lay down and "
-"process their musical ideas without taking too much time for unnecessary "
-"work."
-msgstr ""
-
-#: template/index.html.j2:68
-#, fuzzy
-#| msgid ""
-#| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-#| "software</a> licensed under the GPLv3+."
-msgid ""
-"Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-"software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-"agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</a>"
-msgstr ""
-"Το Zrythm είναι <a href=\"http://www.gnu.org/philosophy/free-sw.html"
-"\">ελεύθερο λογισμικό</a> με άδεια χρήσης του GPLv3 +."
-
-#: template/index.html.j2:76
-msgid "Download"
-msgstr "Λήψη"
-
-#: template/index.html.j2:85
-#, fuzzy
-#| msgid "Source Code"
-msgid "Source Tarball"
-msgstr "Πηγαίος Κώδικας"
-
-#: template/index.html.j2:95
-msgid "Signature"
-msgstr ""
-
-#: template/index.html.j2:105
-msgid "SHA256 Sum"
-msgstr ""
-
-#: template/index.html.j2:115
-msgid "GPG Key"
-msgstr ""
-
-#: template/index.html.j2:125
-msgid "Join &amp; support us!"
-msgstr "Συμμετάσχετε &amp; υποστηρίξτε μας!"
-
-#: template/index.html.j2:131
-#, python-format
-msgid ""
-"For more installation options see the <a href=\"https://manual.zrythm.org/"
-"%(lang)s/configuration/installation/intro.html\">manual</a>"
-msgstr ""
-
-#: template/index.html.j2:148
-msgid "Automated"
-msgstr "Αυτοματοποιημένο"
-
-#: template/index.html.j2:150
-msgid ""
-"Built-in LFOs and envelopes for automating controls, automation curves for "
-"more detailed automation, clips to loop your MIDI notes/audio and more."
-msgstr ""
-
-#: template/index.html.j2:160
-msgid "Intuitive"
-msgstr "Διαισθητικό"
-
-#: template/index.html.j2:162
-msgid ""
-"Zrythm tries to keep the interface clean and pleasant to work with, with "
-"intuitive ways of getting work done enabling a faster workflow."
-msgstr ""
-"Το Zrythm προσπαθεί να διατηρήσει τη διεπαφή καθαρή και ευχάριστη για να "
-"δουλέψει, με διαισθητικούς τρόπους να γίνει δουλειά, επιτρέποντας ταχύτερη "
-"ροή εργασιών."
-
-#: template/index.html.j2:171
-#, fuzzy
-#| msgid "Features"
-msgid "Featureful"
-msgstr "Χαρακτηριστικά"
-
-#: template/index.html.j2:174
-msgid ""
-"Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
-"Arranger Minimap, etc."
-msgstr ""
-
-#: template/index.html.j2:190
-msgid "Features"
-msgstr "Χαρακτηριστικά"
-
-#: template/index.html.j2:199
+#: template/index.html.j2:56
 msgid "Limitless Automation"
 msgstr "Απεριόριστος Αυτοματισμός"
 
-#: template/index.html.j2:202
+#: template/index.html.j2:61
 #, fuzzy
 #| msgid ""
 #| "Automate almost anything with built-in envelopes and automation curves."
 msgid ""
-"Automate almost anything with automation tracks using straight lines, ramps "
-"and curves."
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
 msgstr ""
 "Αυτοματοποιήστε σχεδόν οτιδήποτε με ενσωματωμένα envelopes και curves "
 "αυτοματισμού."
 
-#: template/index.html.j2:212
-msgid "Built-in Modulators"
-msgstr ""
-
-#: template/index.html.j2:215
-msgid ""
-"Modulate plugin controls using built-in LFOs, envelopes and other modulators "
-"in the modulators tab."
-msgstr ""
-
-#: template/index.html.j2:224
-msgid "Chord Assistance"
-msgstr ""
-
-#: template/index.html.j2:226
-msgid ""
-"A chord pad for quickly trying out chords in a scale and a chord track to "
-"help with chord progressions."
-msgstr ""
-
-#: template/index.html.j2:238
+#: template/index.html.j2:70
 msgid "LV2 Plugins"
 msgstr ""
 
-#: template/index.html.j2:240
-msgid "Works with LV2, a free standard for audio plugins."
+#: template/index.html.j2:75
+msgid ""
+"Works with LV2, a free and extensible standard for audio plugins. Drag and "
+"drop any plugin and start tweaking."
 msgstr ""
 
-#: template/index.html.j2:248
-msgid "Speaks Your Language"
-msgstr "Μιλάει τη γλώσσα σας"
-
-#: template/index.html.j2:250
-#, fuzzy
-#| msgid ""
-#| "Available in English, German, French, Italian, Spanish, Japanese and many "
-#| "more languages."
-msgid ""
-"Available in English, German, French, Italian, Spanish, Japanese and many "
-"more languages."
+#: template/index.html.j2:86
+msgid "Multilingual"
 msgstr ""
-"Διατίθεται στα αγγλικά, γερμανικά, γαλλικά, ιταλικά, ισπανικά, ιαπωνικά και "
-"πολλές άλλες γλώσσες."
 
-#: template/index.html.j2:259
-msgid "Cross-platform"
-msgstr "Ανεξάρτητο πλατφόρμας"
+#: template/index.html.j2:91
+msgid "Zrythm speaks English, French, Japanese and German."
+msgstr ""
 
-#: template/index.html.j2:261
-#, fuzzy
-#| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
+#: template/index.html.j2:98
+msgid "Chord Assistance"
+msgstr ""
+
+#: template/index.html.j2:103
 msgid ""
-"Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
-msgstr "Λειτουργεί σε Windows, GNU / Linux, FreeBSD και MacOS"
+"Featuring a chord pad for quickly trying out chords in a scale and chord "
+"track to help with chord progressions."
+msgstr ""
 
-#: template/index.html.j2:274
-msgid "News"
-msgstr "Νέα"
+#: template/javascript.html.j2:21
+#, fuzzy
+#| msgid "Contact information"
+msgid "JavaScript Licenses"
+msgstr "Στοιχεία επικοινωνίας"
 
 #: template/javascript.html.j2:30
 msgid "Minified"
@@ -652,6 +562,46 @@ msgstr ""
 msgid "More news"
 msgstr "Περισσότερα νέα"
 
+#: template/reference.html.j2:23
+msgid "Reference"
+msgstr ""
+
+#: template/reference.html.j2:30
+#, fuzzy
+#| msgid "Manual"
+msgid "User Manual"
+msgstr "Εγχειρίδιο Χρήσης"
+
+#: template/reference.html.j2:38
+msgid "Online manual"
+msgstr ""
+
+#: template/reference.html.j2:50
+msgid "HTML-render (zip)"
+msgstr ""
+
+#: template/reference.html.j2:62
+msgid "PDF-render"
+msgstr ""
+
+#: template/reference.html.j2:74
+msgid "ePUB-render"
+msgstr ""
+
+#: template/reference.html.j2:88
+#, fuzzy
+#| msgid "Developer Docs"
+msgid "Developer docs"
+msgstr "Έγγραφα  για developers"
+
+#: template/reference.html.j2:96
+msgid "Online docs"
+msgstr ""
+
+#: template/team.html.j2:21
+msgid "Team"
+msgstr ""
+
 #: template/team.html.j2:23
 #, python-format
 msgid ""
@@ -673,6 +623,10 @@ msgstr "Προγραμματιστής"
 msgid "French translator"
 msgstr "Γάλλος μεταφραστής"
 
+#: template/tutorial.html.j2:21
+msgid "Tutorials"
+msgstr "Εγχειρίδια"
+
 #: template/tutorial.html.j2:24
 msgid ""
 "This page holds various tutorials for Zrythm. Some of them are not complete, "
@@ -682,6 +636,99 @@ msgstr ""
 #: template/tutorial.html.j2:30
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr "Οδηγίες εγκατάστασης Zrythm: <ul><li> ΝΑ ΚΑΝΩ </li></ul>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
+#~| "software</a> licensed under the GPLv3+."
+#~ msgid ""
+#~ "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\"> free "
+#~ "software </a> licensed under the <a href=\"https://www.gnu.org/licenses/"
+#~ "agpl-3.0.html\"> GNU Affero General Public License, version 3.0 or later "
+#~ "</a>"
+#~ msgstr ""
+#~ "Το Zrythm είναι <a href=\"http://www.gnu.org/philosophy/free-sw.html"
+#~ "\">ελεύθερο λογισμικό</a> με άδεια χρήσης του GPLv3 +."
+
+#~ msgid ""
+#~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
+#~ "intuitive ways of getting work done enabling a faster workflow."
+#~ msgstr ""
+#~ "Το Zrythm προσπαθεί να διατηρήσει τη διεπαφή καθαρή και ευχάριστη για να "
+#~ "δουλέψει, με διαισθητικούς τρόπους να γίνει δουλειά, επιτρέποντας "
+#~ "ταχύτερη ροή εργασιών."
+
+#~ msgid "Contact"
+#~ msgstr "Επικοινωνία"
+
+#~ msgid "FAQ"
+#~ msgstr "Συχνές ερωτήσεις"
+
+#~ msgid "Support Us"
+#~ msgstr "Υποστήριξε μας"
+
+#~ msgid "Forum"
+#~ msgstr "Φόρουμ"
+
+#~ msgid "Discussion"
+#~ msgstr "Συζήτηση"
+
+#~ msgid "Join Us"
+#~ msgstr "Γίνε μέλος μας"
+
+#~ msgid "Glossary"
+#~ msgstr "Γλωσσάριο"
+
+#~ msgid "Download"
+#~ msgstr "Λήψη"
+
+#, fuzzy
+#~| msgid "Source Code"
+#~ msgid "Source Tarball"
+#~ msgstr "Πηγαίος Κώδικας"
+
+#~ msgid "Join &amp; support us!"
+#~ msgstr "Συμμετάσχετε &amp; υποστηρίξτε μας!"
+
+#~ msgid "Automated"
+#~ msgstr "Αυτοματοποιημένο"
+
+#~ msgid "Intuitive"
+#~ msgstr "Διαισθητικό"
+
+#, fuzzy
+#~| msgid "Features"
+#~ msgid "Featureful"
+#~ msgstr "Χαρακτηριστικά"
+
+#~ msgid "Features"
+#~ msgstr "Χαρακτηριστικά"
+
+#~ msgid "Speaks Your Language"
+#~ msgstr "Μιλάει τη γλώσσα σας"
+
+#, fuzzy
+#~| msgid ""
+#~| "Available in English, German, French, Italian, Spanish, Japanese and "
+#~| "many more languages."
+#~ msgid ""
+#~ "Available in English, German, French, Italian, Spanish, Japanese and many "
+#~ "more languages."
+#~ msgstr ""
+#~ "Διατίθεται στα αγγλικά, γερμανικά, γαλλικά, ιταλικά, ισπανικά, ιαπωνικά "
+#~ "και πολλές άλλες γλώσσες."
+
+#~ msgid "Cross-platform"
+#~ msgstr "Ανεξάρτητο πλατφόρμας"
+
+#, fuzzy
+#~| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
+#~ msgid ""
+#~ "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
+#~ msgstr "Λειτουργεί σε Windows, GNU / Linux, FreeBSD και MacOS"
+
+#~ msgid "News"
+#~ msgstr "Νέα"
 
 #~ msgid ""
 #~ "You can always help by offering to test pre-released versions of Zrythm "

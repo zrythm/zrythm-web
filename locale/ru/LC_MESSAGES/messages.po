@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-15 23:08+0100\n"
+"POT-Creation-Date: 2019-08-22 00:22+0100\n"
 "PO-Revision-Date: 2019-05-04 23:30+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Russian <https://translate.zrythm.org/projects/zrythm/website/"
@@ -25,100 +25,17 @@ msgstr ""
 msgid "Zrythm"
 msgstr "Zrythm"
 
-#: common/base.j2:21 template/index.html.j2:142
-msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
+#: common/base.j2:21
+#, fuzzy
+#| msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
+msgid "A highly automated and intuitive Digital Audio Workstation (DAW)"
 msgstr ""
 "Высокоавтоматизированная, интуитивно понятная рабочая станция цифрового "
 "аудио (DAW)"
 
-#: common/footer.j2.inc:22 template/team.html.j2:21
-msgid "Team"
-msgstr ""
-
-#: common/footer.j2.inc:23
-msgid "Contact"
-msgstr "Контактная"
-
-#: common/footer.j2.inc:24 template/about.html.j2:22
+#: template/about.html.j2:22
 msgid "About Zrythm"
 msgstr "О Zrythm"
-
-#: common/footer.j2.inc:29 common/navigation.j2.inc:83
-#, fuzzy
-#| msgid "Bug Tracker"
-msgid "Issue Tracker"
-msgstr "Баг-трекер"
-
-#: common/footer.j2.inc:30 common/navigation.j2.inc:84
-msgid "Source Code"
-msgstr "Исходный код"
-
-#: common/footer.j2.inc:31 template/javascript.html.j2:21
-#, fuzzy
-#| msgid "Contact information"
-msgid "JavaScript Licenses"
-msgstr "Контактная информация"
-
-#: common/footer.j2.inc:36 common/navigation.j2.inc:99
-msgid "Manual"
-msgstr "Руководство"
-
-#: common/footer.j2.inc:37 common/navigation.j2.inc:100
-msgid "FAQ"
-msgstr "Вопросы и ответы"
-
-#: common/footer.j2.inc:38
-#, fuzzy
-#| msgid "Support Us!"
-msgid "Support Us"
-msgstr "Поддержите нас"
-
-#: common/footer.j2.inc:46
-#, python-format
-msgid ""
-"Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
-"\"%(git_web_url)s\">Source code of this site.</a></br> Report issues with "
-"this website to <a href=\"https://savannah.nongnu.org/support/?"
-"func=additem&group=zrythm\">us</a>."
-msgstr ""
-
-#: common/navigation.j2.inc:64
-msgid "Community"
-msgstr "Сообщество"
-
-#: common/navigation.j2.inc:67
-msgid "Forum"
-msgstr "Форум"
-
-#: common/navigation.j2.inc:68
-msgid "Discussion"
-msgstr "Обсуждение"
-
-#: common/navigation.j2.inc:69
-msgid "Join Us"
-msgstr "Присоединяйтесь"
-
-#: common/navigation.j2.inc:79
-msgid "Development"
-msgstr "Девелопмент"
-
-#: common/navigation.j2.inc:82
-#, fuzzy
-#| msgid "Development"
-msgid "Developer Docs"
-msgstr "Разработчик"
-
-#: common/navigation.j2.inc:94
-msgid "Documentation"
-msgstr "Документация"
-
-#: common/navigation.j2.inc:97 template/tutorial.html.j2:21
-msgid "Tutorials"
-msgstr "Руководства"
-
-#: common/navigation.j2.inc:98
-msgid "Glossary"
-msgstr "Глоссарий"
 
 #: template/about.html.j2:25
 msgid "Version"
@@ -157,6 +74,43 @@ msgstr ""
 msgid ""
 "Early alpha. Somewhat functional but has unimplemented features and crashes "
 "a lot."
+msgstr ""
+
+#: template/community.html.j2:23
+msgid "Community"
+msgstr "Сообщество"
+
+#: template/community.html.j2:30
+#, fuzzy
+#| msgid "Community"
+msgid "Communication"
+msgstr "Сообщество"
+
+#: template/community.html.j2:38
+msgid "IRC"
+msgstr ""
+
+#: template/community.html.j2:50
+msgid "Matrix"
+msgstr ""
+
+#: template/community.html.j2:64
+#, fuzzy
+#| msgid "Bug Tracker"
+msgid "Issue tracker"
+msgstr "Баг-трекер"
+
+#: template/community.html.j2:72
+msgid "Savannah"
+msgstr ""
+
+#: template/community.html.j2:86
+#, fuzzy
+msgid "Translations"
+msgstr "Translate"
+
+#: template/community.html.j2:94
+msgid "Weblate"
 msgstr ""
 
 #: template/contact.html.j2:21
@@ -221,6 +175,64 @@ msgstr ""
 "Мы отслеживаем запросы на открытые функции и ошибки для проектов в Zrythm в "
 "нашем <a href=\"https://git.zrythm.org/zrythm/zrythm/issues\">трекере</a> "
 "ошибок"
+
+#: template/download.html.j2:23
+msgid "Installation"
+msgstr ""
+
+#: template/download.html.j2:32
+#, fuzzy
+#| msgid "Source Code"
+msgid "Source code"
+msgstr "Исходный код"
+
+#: template/download.html.j2:40
+msgid "git repositories"
+msgstr ""
+
+#: template/download.html.j2:52
+msgid "stable releases"
+msgstr ""
+
+#: template/download.html.j2:64
+msgid "GPG signing key"
+msgstr ""
+
+#: template/download.html.j2:78
+msgid "GNU Linux packages"
+msgstr ""
+
+#: template/download.html.j2:86
+msgid "Arch (aur, git package)"
+msgstr ""
+
+#: template/download.html.j2:98
+msgid "Arch (aur, stable)"
+msgstr ""
+
+#: template/download.html.j2:110
+msgid "Debian (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:122
+msgid "Fedora (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:134
+msgid "Mageia (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:146
+msgid "Ubuntu (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:160
+msgid "Other Platforms"
+msgstr ""
+
+#: template/download.html.j2:168
+msgid "FreeBSD (Freshports)"
+msgstr ""
 
 #: template/engage.html.j2:23
 msgid "Talk With Us"
@@ -318,7 +330,19 @@ msgstr "Я получаю неудовлетворенные зависимос�
 msgid "Enable the universe repository:"
 msgstr "Включить репозиторий юниверсов:"
 
-#: template/index.html.j2:60
+#: template/index.html.j2:23
+#, fuzzy
+#| msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr ""
+"Высокоавтоматизированная, интуитивно понятная рабочая станция цифрового "
+"аудио (DAW)"
+
+#: template/index.html.j2:39
+msgid "Overview"
+msgstr ""
+
+#: template/index.html.j2:45
 #, fuzzy, python-format
 #| msgid ""
 #| "Zrythm is a highly automated Digital Audio Workstation (DAW) designed to "
@@ -326,188 +350,62 @@ msgstr "Включить репозиторий юниверсов:"
 #| "DAWs by allowing extensive automation via built-in LFOs and envelopes and "
 #| "intuitive MIDI/audio editing and arranging via clips."
 msgid ""
-"Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
-"Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
-"sets itself apart from other DAWs by allowing extensive automation via built-"
-"in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
-"clips."
+"Zrythm [<em>%(pronunciation)s</em>] is a digital audio workstation designed "
+"to be featureful and easy to use with many automation possibilities."
 msgstr ""
 "Zrythm - это высокоавтоматизированная цифровая звуковая рабочая станция "
 "(DAW), разработанная, чтобы быть функциональной и интуитивно понятной в "
 "использовании."
 
-#: template/index.html.j2:64
-msgid ""
-"In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the most "
-"focus on the Composing part. It allows musicians to quickly lay down and "
-"process their musical ideas without taking too much time for unnecessary "
-"work."
-msgstr ""
-"В обычном процессе Composing -&gt; Mixing -&gt; Mastering, Zrythm уделяет "
-"наибольшее внимание компоненту Composing."
-
-#: template/index.html.j2:68
-#, fuzzy
-#| msgid ""
-#| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-#| "software</a> licensed under the GPLv3+."
-msgid ""
-"Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-"software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-"agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</a>"
-msgstr ""
-"Zrythm - это <a href=\"http://www.gnu.org/philosophy/free-sw.html"
-"\">бесплатное программное обеспечение,</a> лицензируемое по лицензии GPLv3 +."
-
-#: template/index.html.j2:76
-#, fuzzy
-#| msgid "Downloads"
-msgid "Download"
-msgstr "Скачать"
-
-#: template/index.html.j2:85
-#, fuzzy
-#| msgid "Source Code"
-msgid "Source Tarball"
-msgstr "Исходный код"
-
-#: template/index.html.j2:95
-msgid "Signature"
-msgstr ""
-
-#: template/index.html.j2:105
-msgid "SHA256 Sum"
-msgstr ""
-
-#: template/index.html.j2:115
-msgid "GPG Key"
-msgstr ""
-
-#: template/index.html.j2:125
-msgid "Join &amp; support us!"
-msgstr "Присоединяйтесь и поддержите нас!"
-
-#: template/index.html.j2:131
-#, python-format
-msgid ""
-"For more installation options see the <a href=\"https://manual.zrythm.org/"
-"%(lang)s/configuration/installation/intro.html\">manual</a>"
-msgstr ""
-
-#: template/index.html.j2:148
-msgid "Automated"
-msgstr "Автоматизация"
-
-#: template/index.html.j2:150
-#, fuzzy
-msgid ""
-"Built-in LFOs and envelopes for automating controls, automation curves for "
-"more detailed automation, clips to loop your MIDI notes/audio and more."
-msgstr ""
-"Встроенные LFO и конверты для автоматизации управления. Automation curves "
-"for more detailed automation. Clips to loop your MIDI notes and audio. And "
-"more."
-
-#: template/index.html.j2:160
-msgid "Intuitive"
-msgstr "Интуитивный"
-
-#: template/index.html.j2:162
-msgid ""
-"Zrythm tries to keep the interface clean and pleasant to work with, with "
-"intuitive ways of getting work done enabling a faster workflow."
-msgstr ""
-"Zrythm старается поддерживать интерфейс чистым и приятным для работы, "
-"используя интуитивно понятные способы выполнения работы, ускоряющие рабочий "
-"процесс."
-
-#: template/index.html.j2:171
-msgid "Featureful"
-msgstr "функциональный"
-
-#: template/index.html.j2:174
-msgid ""
-"Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
-"Arranger Minimap, etc."
-msgstr ""
-"Кривые автоматизации, шины, перетаскивание LV2 плагины и аудио файлы, мини-"
-"карта Arranger и т. Д."
-
-#: template/index.html.j2:190
-msgid "Features"
-msgstr "Характеристики"
-
-#: template/index.html.j2:199
+#: template/index.html.j2:56
 msgid "Limitless Automation"
 msgstr "Безграничная Автоматизация"
 
-#: template/index.html.j2:202
+#: template/index.html.j2:61
 #, fuzzy
 #| msgid ""
 #| "Automate almost anything with built-in envelopes and automation curves."
 msgid ""
-"Automate almost anything with automation tracks using straight lines, ramps "
-"and curves."
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
 msgstr ""
 "Автоматизируйте практически все, используя встроенные конверты и кривые "
 "автоматизации."
 
-#: template/index.html.j2:212
-msgid "Built-in Modulators"
-msgstr ""
-
-#: template/index.html.j2:215
-msgid ""
-"Modulate plugin controls using built-in LFOs, envelopes and other modulators "
-"in the modulators tab."
-msgstr ""
-
-#: template/index.html.j2:224
-msgid "Chord Assistance"
-msgstr ""
-
-#: template/index.html.j2:226
-msgid ""
-"A chord pad for quickly trying out chords in a scale and a chord track to "
-"help with chord progressions."
-msgstr ""
-
-#: template/index.html.j2:238
+#: template/index.html.j2:70
 msgid "LV2 Plugins"
 msgstr "Плагины LV2"
 
-#: template/index.html.j2:240
+#: template/index.html.j2:75
 #, fuzzy
-msgid "Works with LV2, a free standard for audio plugins."
+msgid ""
+"Works with LV2, a free and extensible standard for audio plugins. Drag and "
+"drop any plugin and start tweaking."
 msgstr "Работает с LV2, открытым стандартом для аудио плагинов."
 
-#: template/index.html.j2:248
-msgid "Speaks Your Language"
-msgstr "Говорит на вашем языке"
-
-#: template/index.html.j2:250
-#, fuzzy
-#| msgid "Available in English, German, French, Italian, Spanish and Japanese."
-msgid ""
-"Available in English, German, French, Italian, Spanish, Japanese and many "
-"more languages."
+#: template/index.html.j2:86
+msgid "Multilingual"
 msgstr ""
-"Доступно на английском, немецком, французском, итальянском, испанском и "
-"японском языках."
 
-#: template/index.html.j2:259
-msgid "Cross-platform"
-msgstr "Кроссплатформенность"
+#: template/index.html.j2:91
+msgid "Zrythm speaks English, French, Japanese and German."
+msgstr ""
 
-#: template/index.html.j2:261
-#, fuzzy
+#: template/index.html.j2:98
+msgid "Chord Assistance"
+msgstr ""
+
+#: template/index.html.j2:103
 msgid ""
-"Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
-msgstr "Работает на Windows, GNU / Linux и Mac OS"
+"Featuring a chord pad for quickly trying out chords in a scale and chord "
+"track to help with chord progressions."
+msgstr ""
 
-#: template/index.html.j2:274
-msgid "News"
-msgstr "Новости"
+#: template/javascript.html.j2:21
+#, fuzzy
+#| msgid "Contact information"
+msgid "JavaScript Licenses"
+msgstr "Контактная информация"
 
 #: template/javascript.html.j2:30
 msgid "Minified"
@@ -658,6 +556,46 @@ msgstr ""
 msgid "More news"
 msgstr "Больше новостей"
 
+#: template/reference.html.j2:23
+msgid "Reference"
+msgstr ""
+
+#: template/reference.html.j2:30
+#, fuzzy
+#| msgid "Manual"
+msgid "User Manual"
+msgstr "Руководство"
+
+#: template/reference.html.j2:38
+msgid "Online manual"
+msgstr ""
+
+#: template/reference.html.j2:50
+msgid "HTML-render (zip)"
+msgstr ""
+
+#: template/reference.html.j2:62
+msgid "PDF-render"
+msgstr ""
+
+#: template/reference.html.j2:74
+msgid "ePUB-render"
+msgstr ""
+
+#: template/reference.html.j2:88
+#, fuzzy
+#| msgid "Development"
+msgid "Developer docs"
+msgstr "Разработчик"
+
+#: template/reference.html.j2:96
+msgid "Online docs"
+msgstr ""
+
+#: template/team.html.j2:21
+msgid "Team"
+msgstr ""
+
 #: template/team.html.j2:23
 #, python-format
 msgid ""
@@ -682,6 +620,10 @@ msgstr "Разработчик"
 msgid "French translator"
 msgstr "Translate"
 
+#: template/tutorial.html.j2:21
+msgid "Tutorials"
+msgstr "Руководства"
+
 #: template/tutorial.html.j2:24
 msgid ""
 "This page holds various tutorials for Zrythm. Some of them are not complete, "
@@ -691,3 +633,139 @@ msgstr ""
 #: template/tutorial.html.j2:30
 msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
+#~| "software</a> licensed under the GPLv3+."
+#~ msgid ""
+#~ "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\"> free "
+#~ "software </a> licensed under the <a href=\"https://www.gnu.org/licenses/"
+#~ "agpl-3.0.html\"> GNU Affero General Public License, version 3.0 or later "
+#~ "</a>"
+#~ msgstr ""
+#~ "Zrythm - это <a href=\"http://www.gnu.org/philosophy/free-sw.html"
+#~ "\">бесплатное программное обеспечение,</a> лицензируемое по лицензии "
+#~ "GPLv3 +."
+
+#~ msgid ""
+#~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
+#~ "intuitive ways of getting work done enabling a faster workflow."
+#~ msgstr ""
+#~ "Zrythm старается поддерживать интерфейс чистым и приятным для работы, "
+#~ "используя интуитивно понятные способы выполнения работы, ускоряющие "
+#~ "рабочий процесс."
+
+#, fuzzy
+#~ msgid "Works with LV2, a free and extensible standard for audio plugins."
+#~ msgstr "Работает с LV2, открытым стандартом для аудио плагинов."
+
+#, fuzzy
+#~| msgid ""
+#~| "In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the "
+#~| "most focus on the Composing part. It allows musicians to quickly lay "
+#~| "down and process their musical ideas without taking too much time for "
+#~| "unnecessary work."
+#~ msgid ""
+#~ "Zrythm focuses on the composing part of the usual Composing -> Mixing -> "
+#~ "Mastering workflow and it allows musicians to quickly lay down and "
+#~ "process their musical ideas without taking too much time for unnecessary "
+#~ "work."
+#~ msgstr ""
+#~ "В обычном процессе Composing -&gt; Mixing -&gt; Mastering, Zrythm уделяет "
+#~ "наибольшее внимание компоненту Composing."
+
+#~ msgid "Contact"
+#~ msgstr "Контактная"
+
+#~ msgid "FAQ"
+#~ msgstr "Вопросы и ответы"
+
+#, fuzzy
+#~| msgid "Support Us!"
+#~ msgid "Support Us"
+#~ msgstr "Поддержите нас"
+
+#~ msgid "Forum"
+#~ msgstr "Форум"
+
+#~ msgid "Discussion"
+#~ msgstr "Обсуждение"
+
+#~ msgid "Join Us"
+#~ msgstr "Присоединяйтесь"
+
+#~ msgid "Development"
+#~ msgstr "Девелопмент"
+
+#~ msgid "Documentation"
+#~ msgstr "Документация"
+
+#~ msgid "Glossary"
+#~ msgstr "Глоссарий"
+
+#, fuzzy
+#~| msgid "Downloads"
+#~ msgid "Download"
+#~ msgstr "Скачать"
+
+#, fuzzy
+#~| msgid "Source Code"
+#~ msgid "Source Tarball"
+#~ msgstr "Исходный код"
+
+#~ msgid "Join &amp; support us!"
+#~ msgstr "Присоединяйтесь и поддержите нас!"
+
+#~ msgid "Automated"
+#~ msgstr "Автоматизация"
+
+#, fuzzy
+#~ msgid ""
+#~ "Built-in LFOs and envelopes for automating controls, automation curves "
+#~ "for more detailed automation, clips to loop your MIDI notes/audio and "
+#~ "more."
+#~ msgstr ""
+#~ "Встроенные LFO и конверты для автоматизации управления. Automation curves "
+#~ "for more detailed automation. Clips to loop your MIDI notes and audio. "
+#~ "And more."
+
+#~ msgid "Intuitive"
+#~ msgstr "Интуитивный"
+
+#~ msgid "Featureful"
+#~ msgstr "функциональный"
+
+#~ msgid ""
+#~ "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
+#~ "Arranger Minimap, etc."
+#~ msgstr ""
+#~ "Кривые автоматизации, шины, перетаскивание LV2 плагины и аудио файлы, "
+#~ "мини-карта Arranger и т. Д."
+
+#~ msgid "Features"
+#~ msgstr "Характеристики"
+
+#~ msgid "Speaks Your Language"
+#~ msgstr "Говорит на вашем языке"
+
+#, fuzzy
+#~| msgid ""
+#~| "Available in English, German, French, Italian, Spanish and Japanese."
+#~ msgid ""
+#~ "Available in English, German, French, Italian, Spanish, Japanese and many "
+#~ "more languages."
+#~ msgstr ""
+#~ "Доступно на английском, немецком, французском, итальянском, испанском и "
+#~ "японском языках."
+
+#~ msgid "Cross-platform"
+#~ msgstr "Кроссплатформенность"
+
+#, fuzzy
+#~ msgid ""
+#~ "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
+#~ msgstr "Работает на Windows, GNU / Linux и Mac OS"
+
+#~ msgid "News"
+#~ msgstr "Новости"
