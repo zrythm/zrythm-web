@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 13:41+0100\n"
+"POT-Creation-Date: 2019-08-22 14:25+0100\n"
 "PO-Revision-Date: 2019-05-04 23:30+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Russian <https://translate.zrythm.org/projects/zrythm/website/ru/>\n"
@@ -95,77 +95,28 @@ msgstr ""
 msgid "IRC"
 msgstr ""
 
-#: template/community.html.j2:50
+#: template/community.html.j2:44
+msgid "#zrythm on irc.freenode.net"
+msgstr ""
+
+#: template/community.html.j2:52
 msgid "Matrix"
 msgstr ""
 
-#: template/community.html.j2:64
+#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:72
+#: template/community.html.j2:74
 msgid "Savannah"
 msgstr ""
 
-#: template/community.html.j2:86
+#: template/community.html.j2:88
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:94
+#: template/community.html.j2:96
 msgid "Weblate"
-msgstr ""
-
-#: template/contact.html.j2:21
-msgid "Contact information"
-msgstr "Контактная информация"
-
-#: template/contact.html.j2:27
-msgid "Mailing Lists"
-msgstr ""
-
-#: template/contact.html.j2:29
-msgid ""
-"Archived, public mailing lists for Zrythm are hosted <a "
-"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
-"send messages to the lists at <a href=\"mailto:zrythm-"
-"user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
-"inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
-"dev@nongnu.org</a> for development discussions."
-msgstr ""
-
-#: template/contact.html.j2:39
-msgid "IRC/Matrix"
-msgstr ""
-
-#: template/contact.html.j2:41
-msgid ""
-"Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
-"and Matrix at <code><a "
-"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
-" The channels are bridged so the messages are all shared."
-msgstr ""
-
-#: template/contact.html.j2:52
-msgid "Contacting individuals"
-msgstr "Связаться с людьми"
-
-#: template/contact.html.j2:54
-msgid ""
-"See the <a href=\"team.html\">Team</a> page for contact information of each "
-"person."
-msgstr ""
-
-#: template/contact.html.j2:61
-msgid "Reporting bugs"
-msgstr "Сообщения об ошибках"
-
-#: template/contact.html.j2:63
-#, python-format
-msgid ""
-"We track open feature requests and bugs for projects within Zrythm in our <a"
-" href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
-"feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
-"mailing list</a>."
 msgstr ""
 
 #: template/download.html.j2:23
@@ -332,18 +283,6 @@ msgstr ""
 msgid "Zrythm speaks English, French, Japanese and German."
 msgstr ""
 
-#: template/news.html.j2.inc:25
-msgid "posted by"
-msgstr ""
-
-#: template/news.html.j2.inc:25
-msgid "on"
-msgstr ""
-
-#: template/news.html.j2.inc:30
-msgid "More news"
-msgstr "Больше новостей"
-
 #: template/reference.html.j2:30
 msgid "User Manual"
 msgstr ""
@@ -371,6 +310,18 @@ msgstr ""
 #: template/reference.html.j2:96
 msgid "online docs"
 msgstr ""
+
+#~ msgid "Contact information"
+#~ msgstr "Контактная информация"
+
+#~ msgid "Contacting individuals"
+#~ msgstr "Связаться с людьми"
+
+#~ msgid "Reporting bugs"
+#~ msgstr "Сообщения об ошибках"
+
+#~ msgid "More news"
+#~ msgstr "Больше новостей"
 
 #~ msgid "Zrythm"
 #~ msgstr "Zrythm"

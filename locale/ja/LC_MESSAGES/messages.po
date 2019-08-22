@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 13:41+0100\n"
+"POT-Creation-Date: 2019-08-22 14:25+0100\n"
 "PO-Revision-Date: 2019-08-22 13:13+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -97,88 +97,29 @@ msgstr "コミュニケーション"
 msgid "IRC"
 msgstr "IRC"
 
-#: template/community.html.j2:50
+#: template/community.html.j2:44
+msgid "#zrythm on irc.freenode.net"
+msgstr ""
+
+#: template/community.html.j2:52
 msgid "Matrix"
 msgstr "Matrix"
 
-#: template/community.html.j2:64
+#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:72
+#: template/community.html.j2:74
 msgid "Savannah"
 msgstr "Savannah"
 
-#: template/community.html.j2:86
+#: template/community.html.j2:88
 msgid "Translations"
 msgstr "翻訳"
 
-#: template/community.html.j2:94
+#: template/community.html.j2:96
 msgid "Weblate"
 msgstr "Weblate"
-
-#: template/contact.html.j2:21
-msgid "Contact information"
-msgstr "連絡先情報"
-
-#: template/contact.html.j2:27
-msgid "Mailing Lists"
-msgstr "メーリングリスト"
-
-#: template/contact.html.j2:29
-msgid ""
-"Archived, public mailing lists for Zrythm are hosted <a "
-"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
-"send messages to the lists at <a href=\"mailto:zrythm-"
-"user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
-"inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
-"dev@nongnu.org</a> for development discussions."
-msgstr ""
-"アーカイブされている<a "
-"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">公開メーリングリスト</a>があり、そこにメッセージを送信できます。開発に関するディスカッションは<a"
-" href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
-"dev@nongnu.org</a>を使用し、一般的なお問い合わせ/ディスカッションは<a href=\"mailto:zrythm-"
-"user@nongnu.org\">zrythm-user@nongnu.org</a>を使用してください。"
-
-#: template/contact.html.j2:39
-msgid "IRC/Matrix"
-msgstr "IRC/Matrix"
-
-#: template/contact.html.j2:41
-msgid ""
-"Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
-"and Matrix at <code><a "
-"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
-" The channels are bridged so the messages are all shared."
-msgstr ""
-"ZrythmはIRCの<code>#zrythm</code>チャンネル(irc.freenode.net)、マトリックスの<code><a "
-"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>チャンネルにあります。チャネルはブリッジされ、メッセージはすべて共有されます。"
-
-#: template/contact.html.j2:52
-msgid "Contacting individuals"
-msgstr "連絡先"
-
-#: template/contact.html.j2:54
-msgid ""
-"See the <a href=\"team.html\">Team</a> page for contact information of each "
-"person."
-msgstr "各自の連絡先については、 <a href=\"team.html\">チーム</a>ページを参照してください。"
-
-#: template/contact.html.j2:61
-msgid "Reporting bugs"
-msgstr "バグ報告"
-
-#: template/contact.html.j2:63
-#, python-format
-msgid ""
-"We track open feature requests and bugs for projects within Zrythm in our <a"
-" href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
-"feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
-"mailing list</a>."
-msgstr ""
-"<a "
-"href=\"%(git_url)s/issues\">バグトラッカー</a>で、Zrythmに対する未解決の機能要求とバグを追跡しています。また、バグや機能要求を"
-" <a href=\"mailto:zrythm-user@nongnu.org\">ユーザーメーリングリスト</a>に報告することもできます。"
 
 #: template/download.html.j2:23
 msgid "Installation"
@@ -346,18 +287,6 @@ msgstr "多言語に対応"
 msgid "Zrythm speaks English, French, Japanese and German."
 msgstr "Zrythmは英語、フランス語、日本語、ドイツ語を話せます。"
 
-#: template/news.html.j2.inc:25
-msgid "posted by"
-msgstr "投稿者"
-
-#: template/news.html.j2.inc:25
-msgid "on"
-msgstr "日付"
-
-#: template/news.html.j2.inc:30
-msgid "More news"
-msgstr "その他のニュース"
-
 #: template/reference.html.j2:30
 msgid "User Manual"
 msgstr "マニュアル"
@@ -385,6 +314,68 @@ msgstr "開発者向けドキュメント"
 #: template/reference.html.j2:96
 msgid "online docs"
 msgstr "オンラインドキュメント"
+
+#~ msgid "Contact information"
+#~ msgstr "連絡先情報"
+
+#~ msgid "Mailing Lists"
+#~ msgstr "メーリングリスト"
+
+#~ msgid ""
+#~ "Archived, public mailing lists for Zrythm are hosted <a "
+#~ "href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
+#~ "send messages to the lists at <a href=\"mailto:zrythm-"
+#~ "user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
+#~ "inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+#~ "dev@nongnu.org</a> for development discussions."
+#~ msgstr ""
+#~ "アーカイブされている<a "
+#~ "href=\"https://savannah.nongnu.org/mail/?group=zrythm\">公開メーリングリスト</a>があり、そこにメッセージを送信できます。開発に関するディスカッションは<a"
+#~ " href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+#~ "dev@nongnu.org</a>を使用し、一般的なお問い合わせ/ディスカッションは<a href=\"mailto:zrythm-"
+#~ "user@nongnu.org\">zrythm-user@nongnu.org</a>を使用してください。"
+
+#~ msgid "IRC/Matrix"
+#~ msgstr "IRC/Matrix"
+
+#~ msgid ""
+#~ "Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
+#~ "and Matrix at <code><a "
+#~ "href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
+#~ " The channels are bridged so the messages are all shared."
+#~ msgstr ""
+#~ "ZrythmはIRCの<code>#zrythm</code>チャンネル(irc.freenode.net)、マトリックスの<code><a "
+#~ "href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>チャンネルにあります。チャネルはブリッジされ、メッセージはすべて共有されます。"
+
+#~ msgid "Contacting individuals"
+#~ msgstr "連絡先"
+
+#~ msgid ""
+#~ "See the <a href=\"team.html\">Team</a> page for contact information of each "
+#~ "person."
+#~ msgstr "各自の連絡先については、 <a href=\"team.html\">チーム</a>ページを参照してください。"
+
+#~ msgid "Reporting bugs"
+#~ msgstr "バグ報告"
+
+#~ msgid ""
+#~ "We track open feature requests and bugs for projects within Zrythm in our <a"
+#~ " href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
+#~ "feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
+#~ "mailing list</a>."
+#~ msgstr ""
+#~ "<a "
+#~ "href=\"%(git_url)s/issues\">バグトラッカー</a>で、Zrythmに対する未解決の機能要求とバグを追跡しています。また、バグや機能要求を"
+#~ " <a href=\"mailto:zrythm-user@nongnu.org\">ユーザーメーリングリスト</a>に報告することもできます。"
+
+#~ msgid "posted by"
+#~ msgstr "投稿者"
+
+#~ msgid "on"
+#~ msgstr "日付"
+
+#~ msgid "More news"
+#~ msgstr "その他のニュース"
 
 #~ msgid "Zrythm"
 #~ msgstr "Zrythm"

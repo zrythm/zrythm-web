@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 13:41+0100\n"
+"POT-Creation-Date: 2019-08-22 14:25+0100\n"
 "PO-Revision-Date: 2019-08-14 00:24+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -100,94 +100,29 @@ msgstr ""
 msgid "IRC"
 msgstr ""
 
-#: template/community.html.j2:50
+#: template/community.html.j2:44
+msgid "#zrythm on irc.freenode.net"
+msgstr ""
+
+#: template/community.html.j2:52
 msgid "Matrix"
 msgstr ""
 
-#: template/community.html.j2:64
+#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:72
+#: template/community.html.j2:74
 msgid "Savannah"
 msgstr ""
 
-#: template/community.html.j2:86
+#: template/community.html.j2:88
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:94
+#: template/community.html.j2:96
 msgid "Weblate"
 msgstr ""
-
-#: template/contact.html.j2:21
-msgid "Contact information"
-msgstr "Kontaktinformation"
-
-#: template/contact.html.j2:27
-msgid "Mailing Lists"
-msgstr "Mailinglisten"
-
-#: template/contact.html.j2:29
-msgid ""
-"Archived, public mailing lists for Zrythm are hosted <a "
-"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
-"send messages to the lists at <a href=\"mailto:zrythm-"
-"user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
-"inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
-"dev@nongnu.org</a> for development discussions."
-msgstr ""
-"Archivierte öffentliche Mailinglisten werden <a "
-"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">hier</a> gehostet. "
-"Nachrichten an die Mailinglisten kannst du auf <a href=\"mailto:zrythm-"
-"user@nongnu.org\">zrythm-user@nongnu.org</a> für Anfragen/Diskussionen, und "
-"auf <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> für "
-"Entwicklungsdiskussionen verschicken."
-
-#: template/contact.html.j2:39
-msgid "IRC/Matrix"
-msgstr "IRC/Matrix"
-
-#: template/contact.html.j2:41
-msgid ""
-"Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
-"and Matrix at <code><a "
-"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
-" The channels are bridged so the messages are all shared."
-msgstr ""
-"Zrythm ist auf dem IRC erreichbar über  <code>#zrythm</code> (via "
-"irc.freenode.net) und auf Matrix über <code><a "
-"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
-" Die Kanäle sind überbrückt so dass die Nachrichten alle geteilt werden."
-
-#: template/contact.html.j2:52
-msgid "Contacting individuals"
-msgstr "Individuelle Kontaktaufname"
-
-#: template/contact.html.j2:54
-msgid ""
-"See the <a href=\"team.html\">Team</a> page for contact information of each "
-"person."
-msgstr ""
-"Siehe die Seite <a href=\"team.html\">Team</a> für Kontaktinformationen zu "
-"jeder Person."
-
-#: template/contact.html.j2:61
-msgid "Reporting bugs"
-msgstr "Fehler melden"
-
-#: template/contact.html.j2:63
-#, python-format
-msgid ""
-"We track open feature requests and bugs for projects within Zrythm in our <a"
-" href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
-"feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
-"mailing list</a>."
-msgstr ""
-"Wir verfolgen offene Funktionsvorschläge und Fehler für Projekte innerhalb "
-"von Zrythm in unserem <a href=\"%(git_url)s/issues\">Issue tracker</a>. "
-"Fehler melden und Funktionen vorschlagen kannst du auch an die <a "
-"href=\"mailto:zrythm-user@nongnu.org\">user mailing list</a>."
 
 #: template/download.html.j2:23
 msgid "Installation"
@@ -359,18 +294,6 @@ msgstr ""
 msgid "Zrythm speaks English, French, Japanese and German."
 msgstr ""
 
-#: template/news.html.j2.inc:25
-msgid "posted by"
-msgstr "geschrieben von"
-
-#: template/news.html.j2.inc:25
-msgid "on"
-msgstr "am"
-
-#: template/news.html.j2.inc:30
-msgid "More news"
-msgstr "Mehr Neuigkeiten"
-
 #: template/reference.html.j2:30
 msgid "User Manual"
 msgstr ""
@@ -398,6 +321,74 @@ msgstr ""
 #: template/reference.html.j2:96
 msgid "online docs"
 msgstr ""
+
+#~ msgid "Contact information"
+#~ msgstr "Kontaktinformation"
+
+#~ msgid "Mailing Lists"
+#~ msgstr "Mailinglisten"
+
+#~ msgid ""
+#~ "Archived, public mailing lists for Zrythm are hosted <a "
+#~ "href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
+#~ "send messages to the lists at <a href=\"mailto:zrythm-"
+#~ "user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
+#~ "inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+#~ "dev@nongnu.org</a> for development discussions."
+#~ msgstr ""
+#~ "Archivierte öffentliche Mailinglisten werden <a "
+#~ "href=\"https://savannah.nongnu.org/mail/?group=zrythm\">hier</a> gehostet. "
+#~ "Nachrichten an die Mailinglisten kannst du auf <a href=\"mailto:zrythm-"
+#~ "user@nongnu.org\">zrythm-user@nongnu.org</a> für Anfragen/Diskussionen, und "
+#~ "auf <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-dev@nongnu.org</a> für "
+#~ "Entwicklungsdiskussionen verschicken."
+
+#~ msgid "IRC/Matrix"
+#~ msgstr "IRC/Matrix"
+
+#~ msgid ""
+#~ "Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
+#~ "and Matrix at <code><a "
+#~ "href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
+#~ " The channels are bridged so the messages are all shared."
+#~ msgstr ""
+#~ "Zrythm ist auf dem IRC erreichbar über  <code>#zrythm</code> (via "
+#~ "irc.freenode.net) und auf Matrix über <code><a "
+#~ "href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
+#~ " Die Kanäle sind überbrückt so dass die Nachrichten alle geteilt werden."
+
+#~ msgid "Contacting individuals"
+#~ msgstr "Individuelle Kontaktaufname"
+
+#~ msgid ""
+#~ "See the <a href=\"team.html\">Team</a> page for contact information of each "
+#~ "person."
+#~ msgstr ""
+#~ "Siehe die Seite <a href=\"team.html\">Team</a> für Kontaktinformationen zu "
+#~ "jeder Person."
+
+#~ msgid "Reporting bugs"
+#~ msgstr "Fehler melden"
+
+#~ msgid ""
+#~ "We track open feature requests and bugs for projects within Zrythm in our <a"
+#~ " href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
+#~ "feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
+#~ "mailing list</a>."
+#~ msgstr ""
+#~ "Wir verfolgen offene Funktionsvorschläge und Fehler für Projekte innerhalb "
+#~ "von Zrythm in unserem <a href=\"%(git_url)s/issues\">Issue tracker</a>. "
+#~ "Fehler melden und Funktionen vorschlagen kannst du auch an die <a "
+#~ "href=\"mailto:zrythm-user@nongnu.org\">user mailing list</a>."
+
+#~ msgid "posted by"
+#~ msgstr "geschrieben von"
+
+#~ msgid "on"
+#~ msgstr "am"
+
+#~ msgid "More news"
+#~ msgstr "Mehr Neuigkeiten"
 
 #~ msgid "Zrythm"
 #~ msgstr "Zrythm"
