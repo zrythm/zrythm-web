@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 16:51+0100\n"
+"POT-Creation-Date: 2019-08-22 17:13+0100\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: template/index.html.j2:120
 msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and chord "
+"Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
 
