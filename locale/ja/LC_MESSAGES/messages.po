@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 00:22+0100\n"
+"POT-Creation-Date: 2019-08-22 00:30+0100\n"
 "PO-Revision-Date: 2019-08-12 00:18+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/"
@@ -602,7 +602,7 @@ msgid "User Manual"
 msgstr "マニュアル"
 
 #: template/reference.html.j2:38
-msgid "Online manual"
+msgid "online manual"
 msgstr ""
 
 #: template/reference.html.j2:50
@@ -624,7 +624,7 @@ msgid "Developer docs"
 msgstr "開発者向けドキュメント"
 
 #: template/reference.html.j2:96
-msgid "Online docs"
+msgid "online docs"
 msgstr ""
 
 #: template/team.html.j2:21

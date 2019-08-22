@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 00:22+0100\n"
+"POT-Creation-Date: 2019-08-22 00:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -479,7 +479,7 @@ msgid "User Manual"
 msgstr ""
 
 #: template/reference.html.j2:38
-msgid "Online manual"
+msgid "online manual"
 msgstr ""
 
 #: template/reference.html.j2:50
@@ -499,7 +499,7 @@ msgid "Developer docs"
 msgstr ""
 
 #: template/reference.html.j2:96
-msgid "Online docs"
+msgid "online docs"
 msgstr ""
 
 #: template/team.html.j2:21
