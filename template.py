@@ -31,6 +31,7 @@ import glob
 import codecs
 import jinja2
 import i18nfix
+import polib
 
 # for news
 import pprint
@@ -214,6 +215,21 @@ for in_file in glob.glob("template/*.j2"):
         # TODO: look at the app root environment variable
         # TODO: check if file exists
         return "../" + x
+
+    # remove fuzzies
+    for dirname, dirnames, filenames in os.walk('locale'):
+        for filename in filenames:
+            try: ext = filename.rsplit('.', 1)[1]
+            except: ext = ''
+            if ext == 'po':
+                po = polib.pofile(os.path.join(dirname, filename))
+                for entry in po.fuzzy_entries():
+                    entry.msgstr = ''
+                    if entry.msgid_plural: entry.msgstr_plural['0'] = ''
+                    if entry.msgid_plural and '1' in entry.msgstr_plural: entry.msgstr_plural['1'] = ''
+                    if entry.msgid_plural and '2' in entry.msgstr_plural: entry.msgstr_plural['2'] = ''
+                    entry.flags.remove('fuzzy')
+                po.save()
 
     for l in glob.glob("locale/*/"):
         locale = os.path.basename(l[:-1])

@@ -7,30 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 00:30+0100\n"
+"POT-Creation-Date: 2019-08-22 12:40+0100\n"
 "PO-Revision-Date: 2019-06-01 21:39+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
-"Language-Team: Portuguese <https://translate.zrythm.org/projects/zrythm/"
-"website/pt/>\n"
+"Language-Team: Portuguese <https://translate.zrythm.org/projects/zrythm/website/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: common/base.j2:20
-#, fuzzy
 msgid "Zrythm"
-msgstr "Zrythm"
+msgstr ""
 
 #: common/base.j2:21
-#, fuzzy
 msgid "A highly automated and intuitive Digital Audio Workstation (DAW)"
 msgstr ""
-"Uma estação de trabalho de áudio digital (DAW) altamente automatizada e "
-"intuitiva"
+
+#: common/navigation.j2.inc:25
+msgid "Home"
+msgstr ""
+
+#: common/navigation.j2.inc:30
+msgid "Download"
+msgstr "Descargas"
+
+#: common/navigation.j2.inc:35 template/reference.html.j2:23
+msgid "Reference"
+msgstr ""
+
+#: common/navigation.j2.inc:40 template/community.html.j2:23
+msgid "Community"
+msgstr "Comunidade"
+
+#: common/navigation.j2.inc:58
+msgid "Language"
+msgstr ""
 
 #: template/about.html.j2:22
 msgid "About Zrythm"
@@ -45,17 +60,14 @@ msgid "Introduction"
 msgstr ""
 
 #: template/about.html.j2:34
-#, fuzzy
 msgid ""
-"Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
-"and borrows ideas, concepts and code from other projects such as Ardour and "
-"Jalv. It is designed to be intuitive to use and is built with the intention "
-"to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
-"while offering a unique approach to workflow that other GNU/Linux DAWs lack."
+"Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
+" and borrows ideas, concepts and code from other projects such as Ardour and"
+" Jalv. It is designed to be intuitive to use and is built with the intention"
+" to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
+" while offering a unique approach to workflow that other GNU/Linux DAWs "
+"lack."
 msgstr ""
-"Zrythm é uma aplicação GNU / Linux nativa construída usando C e o kit de "
-"ferramentas GTK +3 e empresta idéias, conceitos e código de outros projetos "
-"como o Ardour e o Jalv."
 
 #: template/about.html.j2:40
 msgid "First Commit"
@@ -76,31 +88,21 @@ msgid ""
 "a lot."
 msgstr ""
 
-#: template/community.html.j2:23
-msgid "Community"
-msgstr "Comunidade"
-
 #: template/community.html.j2:30
-#, fuzzy
-#| msgid "Community"
 msgid "Communication"
-msgstr "Comunidade"
+msgstr ""
 
 #: template/community.html.j2:38
 msgid "IRC"
 msgstr ""
 
 #: template/community.html.j2:50
-#, fuzzy
-#| msgid "The IRC/Matrix channel"
 msgid "Matrix"
-msgstr "O canal IRC / Matrix"
+msgstr ""
 
 #: template/community.html.j2:64
-#, fuzzy
-#| msgid "Bug Tracker"
 msgid "Issue tracker"
-msgstr "Rastreador de Erros"
+msgstr ""
 
 #: template/community.html.j2:72
 msgid "Savannah"
@@ -119,32 +121,29 @@ msgid "Contact information"
 msgstr "Informações de contacto"
 
 #: template/contact.html.j2:27
-#, fuzzy
-#| msgid "The mailing list"
 msgid "Mailing Lists"
-msgstr "Lista de correspondência"
+msgstr ""
 
 #: template/contact.html.j2:29
 msgid ""
-"Archived, public mailing lists for Zrythm are hosted <a href=\"https://"
-"savannah.nongnu.org/mail/?group=zrythm\">here</a> You can send messages to "
-"the lists at <a href=\"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu."
-"org</a> for general user inquiries/discussions and <a href=\"mailto:zrythm-"
-"dev@nongnu.org\">zrythm-dev@nongnu.org</a> for development discussions."
+"Archived, public mailing lists for Zrythm are hosted <a "
+"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
+"send messages to the lists at <a href=\"mailto:zrythm-"
+"user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
+"inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+"dev@nongnu.org</a> for development discussions."
 msgstr ""
 
 #: template/contact.html.j2:39
-#, fuzzy
-#| msgid "The IRC/Matrix channel"
 msgid "IRC/Matrix"
-msgstr "O canal IRC / Matrix"
+msgstr ""
 
 #: template/contact.html.j2:41
 msgid ""
 "Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
-"and Matrix at <code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix."
-"org\">#zrythmdaw:matrix.org</a></code>. The channels are bridged so the "
-"messages are all shared."
+"and Matrix at <code><a "
+"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
+" The channels are bridged so the messages are all shared."
 msgstr ""
 
 #: template/contact.html.j2:52
@@ -164,8 +163,8 @@ msgstr ""
 #: template/contact.html.j2:63
 #, python-format
 msgid ""
-"We track open feature requests and bugs for projects within Zrythm in our <a "
-"href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
+"We track open feature requests and bugs for projects within Zrythm in our <a"
+" href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
 "feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
 "mailing list</a>."
 msgstr ""
@@ -175,10 +174,8 @@ msgid "Installation"
 msgstr ""
 
 #: template/download.html.j2:32
-#, fuzzy
-#| msgid "Source Code"
 msgid "Source code"
-msgstr "Código- Fonte"
+msgstr ""
 
 #: template/download.html.j2:40
 msgid "git repositories"
@@ -228,59 +225,6 @@ msgstr ""
 msgid "FreeBSD (Freshports)"
 msgstr ""
 
-#: template/engage.html.j2:23
-msgid "Talk With Us"
-msgstr ""
-
-#: template/engage.html.j2:26
-msgid ""
-"Use the mailing lists and join our chatrooms to keep up with development, "
-"find technical help, and discuss Zrythm."
-msgstr ""
-
-#: template/engage.html.j2:36
-msgid "Announcements Mailing List"
-msgstr ""
-
-#: template/engage.html.j2:40
-msgid "General Help Mailing List"
-msgstr ""
-
-#: template/engage.html.j2:44
-#, fuzzy
-#| msgid "The mailing list"
-msgid "Development Mailing List"
-msgstr "Lista de correspondência"
-
-#: template/engage.html.j2:48
-#, fuzzy
-#| msgid ""
-#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://freenode."
-#| "net\">irc.freenode.net</a> in the channel <a href=\"ircs://chat.freenode."
-#| "net:6697/#zrythm\">#zrythm</a>."
-msgid ""
-"Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
-"net</a> in the channel <code>#zrythm</code>."
-msgstr ""
-"<i class=\"fa fa-comments\"></i> Disponível no <a href=\"https://freenode.net"
-"\">irc.freenode.net</a> no canal <a href=\"ircs://chat.freenode.net:6697/"
-"#zrythm\">#zrythm</a> ."
-
-#: template/engage.html.j2:55
-#, fuzzy
-#| msgid ""
-#| "<i class=\"fa fa-comments\"></i> Available on <a href=\"https://matrix."
-#| "org/\">Matrix</a> in the channel <a href=\"https://riot.im/app/#/room/"
-#| "#freenode_#zrythm:matrix.org\">#freenode_#zrythm:matrix.org</a>."
-msgid ""
-"Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
-"\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code> (bridged "
-"with IRC)."
-msgstr ""
-"<i class=\"fa fa-comments\"></i> Disponível em <a href=\"https://matrix.org/"
-"\">Matrix</a> no canal <a href=\"https://riot.im/app/#/room/"
-"#freenode_#zrythm:matrix.org\"># freenode_ # zrythm: matrix.org</a> ."
-
 #: template/faq.html.j2:22
 msgid "Frequently Asked Questions"
 msgstr ""
@@ -306,11 +250,8 @@ msgid "LV2 at the moment. VST2 and VST3 coming soon."
 msgstr ""
 
 #: template/faq.html.j2:42
-#, fuzzy
 msgid "I'm building from source and I want to run Zrythm without installing"
 msgstr ""
-"Estou construindo a partir do código-fonte e quero executar o Zrythm sem "
-"instalar"
 
 #: template/faq.html.j2:44
 msgid ""
@@ -321,206 +262,63 @@ msgstr ""
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 
 #: template/faq.html.j2:48
-#, fuzzy
 msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr "Eu tenho dependências não satisfeitas quando instalo no Ubuntu"
+msgstr ""
 
 #: template/faq.html.j2:50
 msgid "Enable the universe repository:"
 msgstr ""
 
 #: template/index.html.j2:23
-#, fuzzy
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
-"Uma estação de trabalho de áudio digital (DAW) altamente automatizada e "
-"intuitiva"
 
 #: template/index.html.j2:39
 msgid "Overview"
 msgstr ""
 
 #: template/index.html.j2:45
-#, fuzzy, python-format
 msgid ""
-"Zrythm [<em>%(pronunciation)s</em>] is a digital audio workstation designed "
-"to be featureful and easy to use with many automation possibilities."
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use."
 msgstr ""
-"Zrythm é uma estação de trabalho de áudio digital (DAW) altamente "
-"automatizada projetada para ser funcional e intuitiva de usar"
 
-#: template/index.html.j2:56
+#: template/index.html.j2:55
 msgid "Limitless Automation"
 msgstr "Automação Ilimitada"
 
-#: template/index.html.j2:61
-#, fuzzy
+#: template/index.html.j2:60
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
-msgstr "Automatize quase tudo com envelopes integrados e curvas de automação."
+msgstr ""
 
-#: template/index.html.j2:70
+#: template/index.html.j2:69
 msgid "LV2 Plugins"
 msgstr "Plugins LV2"
 
-#: template/index.html.j2:75
-#, fuzzy
-#| msgid "Works with LV2, a free standard for audio plugins."
+#: template/index.html.j2:74
 msgid ""
 "Works with LV2, a free and extensible standard for audio plugins. Drag and "
 "drop any plugin and start tweaking."
-msgstr "Funciona com LV2, um padrão gratuito para plugins de áudio."
+msgstr ""
 
-#: template/index.html.j2:86
+#: template/index.html.j2:85
 msgid "Multilingual"
 msgstr ""
 
-#: template/index.html.j2:91
+#: template/index.html.j2:90
 msgid "Zrythm speaks English, French, Japanese and German."
 msgstr ""
 
-#: template/index.html.j2:98
+#: template/index.html.j2:97
 msgid "Chord Assistance"
 msgstr ""
 
-#: template/index.html.j2:103
+#: template/index.html.j2:102
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and chord "
 "track to help with chord progressions."
-msgstr ""
-
-#: template/javascript.html.j2:21
-#, fuzzy
-#| msgid "Contact information"
-msgid "JavaScript Licenses"
-msgstr "Informações de contacto"
-
-#: template/javascript.html.j2:30
-msgid "Minified"
-msgstr ""
-
-#: template/javascript.html.j2:31
-msgid "License"
-msgstr ""
-
-#: template/javascript.html.j2:32
-#, fuzzy
-#| msgid "Source Code"
-msgid "Source"
-msgstr "Código- Fonte"
-
-#: template/join-us.html.j2:23
-msgid "Join the Zrythm Team"
-msgstr "Junte-se à equipe do Zrythm"
-
-#: template/join-us.html.j2:26
-msgid ""
-"If you are a graphic designer, programmer, speak a foreign language or have "
-"any ideas about improving Zrythm you are welcome to <a href=\"engage.html"
-"\">come say hello and join us</a>."
-msgstr ""
-
-#: template/join-us.html.j2:41
-msgid "Develop"
-msgstr ""
-
-#: template/join-us.html.j2:44
-#, python-format
-msgid ""
-"Patches are welcome in the <a href=\"%(git_url)s\"> main repository</a>."
-msgstr ""
-
-#: template/join-us.html.j2:48
-msgid ""
-"We have plenty of beginner-friendly issues and we even offer bounties for "
-"some. There is <a href=\"http://docs.zrythm.org/\">well-maintained, "
-"searchable code documentation</a> available, so it would be a good idea to "
-"start there. Please review the <a href=\"https://docs.zrythm.org/"
-"md_CONTRIBUTING.html\">Contributing Guidelines</a> before you start."
-msgstr ""
-
-#: template/join-us.html.j2:57
-msgid "Translate"
-msgstr ""
-
-#: template/join-us.html.j2:60
-#, python-format
-msgid ""
-"If you can speak a foreign language and want to help, please take a look at "
-"the <a href=\"https://manual.zrythm.org/%(lang)s/contributing/translating."
-"html\">translation instructions</a>. Translating Zrythm and its components "
-"is done via <a href=\"https://hosted.weblate.org/engage/zrythm/%(lang)s\"> a "
-"simple web interface</a> so no coding experience is needed. All you need is "
-"a web browser."
-msgstr ""
-
-#: template/join-us.html.j2:73
-msgid "Test"
-msgstr "Teste"
-
-#: template/join-us.html.j2:76
-#, python-format
-msgid ""
-"You can always help by offering to test pre-released versions of Zrythm and "
-"providing feedback or report bugs. You can find build and installation "
-"instructions in the <a href=\"%(git_url)s/plain/README.md\">README</a> and "
-"<a href=\"%(git_url)s/plain/CONTRIBUTING.md\">CONTRIBUTING</a> files. Please "
-"submit bug reports and ideas to <a href=\"https://savannah.nongnu.org/"
-"support/?group=zrythm\">Savannah</a>."
-msgstr ""
-
-#: template/join-us.html.j2:87
-#, fuzzy
-msgid "Design"
-msgstr "Desenho"
-
-#: template/join-us.html.j2:90
-#, fuzzy
-msgid ""
-"If you are a web designer, icon designer or graphic designer and want to "
-"help, please get in touch with us. Things that you might want to do are "
-"logos, icons and other graphics, CSS, etc."
-msgstr ""
-"Se você é um web designer, designer de ícones ou designer gráfico e quer "
-"ajudar, por favor entre em contato conosco."
-
-#: template/join-us.html.j2:97
-#, fuzzy, python-format
-msgid ""
-"Zrythm itself is fully CSS themeable so it's easy to change its design "
-"without knowing much about the code. Have a look <a href=\"%(git_blob_url)s/"
-"resources/theme.css\">here</a>."
-msgstr ""
-"O próprio Zrythm é totalmente CSS, então é fácil mudar seu design sem saber "
-"muito sobre o código."
-
-#: template/join-us.html.j2:105
-msgid "Donate"
-msgstr ""
-
-#: template/join-us.html.j2:108
-msgid ""
-"We appreciate contributions of any size -- donations enable us to spend more "
-"time working on the project, and help cover our infrastructure expenses. "
-"Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
-"cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
-msgstr ""
-
-#: template/join-us.html.j2:116
-msgid ""
-"Since our project isn't a tax-exempt organization, we can't offer you a tax "
-"deduction, but for all donations over 50 USD, we'd be happy to recognize "
-"your contribution on <a href='https://www.zrythm.org/en/thanks'>Supporters "
-"[TODO]</a>."
-msgstr ""
-
-#: template/join-us.html.j2:123
-msgid ""
-"We are also happy to consider making particular improvements or changes, or "
-"giving specific technical assistance, in return for a substantial donation "
-"over 200 USD. If you would like to discuss this possibility, write to us at "
-"<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
 msgstr ""
 
 #: template/news.html.j2.inc:25
@@ -534,10 +332,6 @@ msgstr ""
 #: template/news.html.j2.inc:30
 msgid "More news"
 msgstr "Outras notícias"
-
-#: template/reference.html.j2:23
-msgid "Reference"
-msgstr ""
 
 #: template/reference.html.j2:30
 msgid "User Manual"
@@ -560,90 +354,30 @@ msgid "ePUB-render"
 msgstr ""
 
 #: template/reference.html.j2:88
-#, fuzzy
-#| msgid "Developer Docs"
 msgid "Developer docs"
-msgstr "Documentos do desenvolvedor"
+msgstr ""
 
 #: template/reference.html.j2:96
 msgid "online docs"
 msgstr ""
 
-#: template/team.html.j2:21
-msgid "Team"
-msgstr ""
+#~ msgid "Join the Zrythm Team"
+#~ msgstr "Junte-se à equipe do Zrythm"
 
-#: template/team.html.j2:23
-#, python-format
-msgid ""
-"The current team working on Zrythm. For a full list of contributors see the "
-"<a href=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>, <a href=\"%(git_blob_url)s/"
-"TRANSLATORS\">TRANSLATORS</a> and <a href=\"%(git_blob_url)s/THANKS"
-"\">THANKS</a> files in the distribution."
-msgstr ""
+#~ msgid "Test"
+#~ msgstr "Teste"
 
-#: template/team.html.j2:53
-msgid "Zrythm maintainer"
-msgstr "Mantenedor do Zrythm"
+#~ msgid "Zrythm maintainer"
+#~ msgstr "Mantenedor do Zrythm"
 
-#: template/team.html.j2:66
-msgid "Developer"
-msgstr "Desenvolvedora"
+#~ msgid "Developer"
+#~ msgstr "Desenvolvedora"
 
-#: template/team.html.j2:81
-msgid "French translator"
-msgstr "Tradutor francês"
+#~ msgid "French translator"
+#~ msgstr "Tradutor francês"
 
-#: template/tutorial.html.j2:21
-msgid "Tutorials"
-msgstr ""
-
-#: template/tutorial.html.j2:24
-msgid ""
-"This page holds various tutorials for Zrythm. Some of them are not complete, "
-"but we find them useful regardless of their state."
-msgstr ""
-
-#: template/tutorial.html.j2:30
-msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
-msgstr "Instruções de instalação Zrythm: <ul><li> FAÇAM </li></ul>"
-
-#, fuzzy
-#~| msgid ""
-#~| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-#~| "software</a> licensed under the GPLv3+."
-#~ msgid ""
-#~ "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\"> free "
-#~ "software </a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-#~ "agpl-3.0.html\"> GNU Affero General Public License, version 3.0 or later "
-#~ "</a>"
-#~ msgstr ""
-#~ "O Zrythm é um <a href=\"http://www.gnu.org/philosophy/free-sw.html"
-#~ "\">software livre</a> licenciado sob a GPLv3+."
-
-#, fuzzy
-#~ msgid ""
-#~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
-#~ "intuitive ways of getting work done enabling a faster workflow."
-#~ msgstr ""
-#~ "O Zrythm tenta manter a interface limpa e agradável de trabalhar, com "
-#~ "formas intuitivas de fazer o trabalho, permitindo um fluxo de trabalho "
-#~ "mais rápido."
-
-#, fuzzy
-#~| msgid "Works with LV2, a free standard for audio plugins."
-#~ msgid "Works with LV2, a free and extensible standard for audio plugins."
-#~ msgstr "Funciona com LV2, um padrão gratuito para plugins de áudio."
-
-#, fuzzy
-#~ msgid ""
-#~ "Zrythm focuses on the composing part of the usual Composing -> Mixing -> "
-#~ "Mastering workflow and it allows musicians to quickly lay down and "
-#~ "process their musical ideas without taking too much time for unnecessary "
-#~ "work."
-#~ msgstr ""
-#~ "No fluxo de trabalho habitual Compor -&gt; Misturar -&gt; Dominar, Zrythm "
-#~ "coloca o maior foco na parte Componente"
+#~ msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
+#~ msgstr "Instruções de instalação Zrythm: <ul><li> FAÇAM </li></ul>"
 
 #~ msgid "Contact"
 #~ msgstr "Contacto"
@@ -660,41 +394,11 @@ msgstr "Instruções de instalação Zrythm: <ul><li> FAÇAM </li></ul>"
 #~ msgid "Glossary"
 #~ msgstr "Glossário"
 
-#~ msgid "Download"
-#~ msgstr "Descargas"
-
-#, fuzzy
-#~| msgid "Source Code"
-#~ msgid "Source Tarball"
-#~ msgstr "Código- Fonte"
-
-#, fuzzy
-#~ msgid "Automated"
-#~ msgstr "Automático"
-
-#, fuzzy
-#~ msgid ""
-#~ "Built-in LFOs and envelopes for automating controls, automation curves "
-#~ "for more detailed automation, clips to loop your MIDI notes/audio and "
-#~ "more."
-#~ msgstr ""
-#~ "LFOs e envelopes integrados para automação de controles, curvas de "
-#~ "automação para automação mais detalhada, clipes para fazer loop em suas "
-#~ "notas / áudio MIDI e muito mais."
-
 #~ msgid "Intuitive"
 #~ msgstr "Intuitivo"
 
 #~ msgid "Featureful"
 #~ msgstr "Repleto"
-
-#, fuzzy
-#~ msgid ""
-#~ "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
-#~ "Arranger Minimap, etc."
-#~ msgstr ""
-#~ "Curvas de automação, Barramentos, arrastar e soltar Plugins LV2 e "
-#~ "arquivos de áudio, Arranger Minimap, etc."
 
 #~ msgid "Features"
 #~ msgstr "Características"
@@ -702,34 +406,11 @@ msgstr "Instruções de instalação Zrythm: <ul><li> FAÇAM </li></ul>"
 #~ msgid "Speaks Your Language"
 #~ msgstr "Fala seu idioma"
 
-#, fuzzy
-#~ msgid ""
-#~ "Available in English, German, French, Italian, Spanish, Japanese and many "
-#~ "more languages."
-#~ msgstr ""
-#~ "Disponível em inglês, alemão, francês, italiano, espanhol, japonês e "
-#~ "muitos outros idiomas."
-
 #~ msgid "Cross-platform"
 #~ msgstr "Multiplataforma"
 
-#, fuzzy
-#~| msgid "Works on Windows, GNU/Linux, FreeBSD and MacOS"
-#~ msgid ""
-#~ "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
-#~ msgstr "Funciona no Windows, GNU / Linux, FreeBSD e MacOS"
-
 #~ msgid "News"
 #~ msgstr "Notícias"
-
-#, fuzzy
-#~ msgid ""
-#~ "You can always help by offering to test pre-released versions of Zrythm "
-#~ "and providing feedback or report bugs. Please get in touch with us and we "
-#~ "will guide you through the process."
-#~ msgstr ""
-#~ "Você sempre pode ajudar, oferecendo para testar versões pré-lançadas do "
-#~ "Zrythm e fornecer feedback ou reportar bugs."
 
 #~ msgid "Thank you for your support!"
 #~ msgstr "Muito obrigado pelo seu apoio!"

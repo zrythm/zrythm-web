@@ -55,7 +55,7 @@ locale-update: locale/messages.pot
 # Compile translation files for use.
 locale-compile:
 	for lang in $(LANGUAGES); do \
-		$(BABEL) -v compile -d locale -l $$lang --use-fuzzy ; \
+		$(BABEL) -v compile -d locale -l $$lang ; \
 	done
 
 # Process everything related to gettext translations.
@@ -75,20 +75,7 @@ run: all
 	$(RUN_BROWSER) http://0.0.0.0:8000 &
 	cd rendered && $(PYTHON) -m http.server
 
-
-# docker-all: Build using a docker image which contains all the needed packages.
-
-docker: docker-all
-
-docker-all:
-	docker build -t gnunet-www-builder .
-	# Importing via the shell like this is hacky,
-	# but after trying lots of other ways, this works most reliably...
-	$(PYTHON) -c 'import i18nfix'
-	docker run --rm -v $$(pwd):/tmp/ --user $$(id -u):$$(id -g) gnunet-www-builder
-
 clean:
 	rm -rf __pycache__
-	rm -rf en/ de/ fr/ it/ es/ ru/ zh/ pt/
 	rm -rf rendered/
 	rm -rf *.pyc *~ \.*~ \#*\#

@@ -21,8 +21,50 @@ GNU Affero General Public License for more details.
        alt="Logo">
     </img>
   </a>
-  <a href="index.html" class="button">Home</a>
-  <a href="download.html" class="button">Download</a>
-  <a href="reference.html" class="button">Reference</a>
-  <a href="community.html" class="button">Community</a>
+  <a href="index.html" class="button">
+    {% trans %}
+    Home
+    {% endtrans %}
+  </a>
+  <a href="download.html" class="button">
+    {% trans %}
+    Download
+    {% endtrans %}
+  </a>
+  <a href="reference.html" class="button">
+    {% trans %}
+    Reference
+    {% endtrans %}
+  </a>
+  <a href="community.html" class="button">
+    {% trans %}
+    Community
+    {% endtrans %}
+  </a>
+  <label for="modal-control"
+     class="button globe">
+    <img class="logo_img" width=28
+       src="{{ url('static/icons/breeze/globe.svg') }}"
+       alt="Logo">
+    </img>
+  </label>
 </header>
+
+<input type="checkbox" id="modal-control" class="modal">
+<div>
+  <div class="card">
+    <label for="modal-control" class="modal-close"></label>
+    <h3 class="section">
+      {% trans %}
+      Language
+      {% endtrans %}
+    </h3>
+    <p class="section">
+      {% for key in langs_full.keys() %}
+        <a href="{{ self_localized(key) }}">
+          {{ langs_full[key] }}
+        </a>
+      {% endfor %}
+    </p>
+  </div>
+</div>

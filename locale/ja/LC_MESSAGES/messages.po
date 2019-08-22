@@ -8,28 +8,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 00:30+0100\n"
+"POT-Creation-Date: 2019-08-22 12:40+0100\n"
 "PO-Revision-Date: 2019-08-12 00:18+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/"
-">\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 3.8-dev\n"
 
 #: common/base.j2:20
 msgid "Zrythm"
 msgstr "Zrythm"
 
 #: common/base.j2:21
-#, fuzzy
-#| msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgid "A highly automated and intuitive Digital Audio Workstation (DAW)"
-msgstr "高度に自動化された直感的なデジタルオーディオワークステーション（DAW）"
+msgstr ""
+
+#: common/navigation.j2.inc:25
+msgid "Home"
+msgstr ""
+
+#: common/navigation.j2.inc:30
+msgid "Download"
+msgstr "ダウンロード"
+
+#: common/navigation.j2.inc:35 template/reference.html.j2:23
+msgid "Reference"
+msgstr ""
+
+#: common/navigation.j2.inc:40 template/community.html.j2:23
+msgid "Community"
+msgstr "コミュニティ"
+
+#: common/navigation.j2.inc:58
+msgid "Language"
+msgstr ""
 
 #: template/about.html.j2:22
 msgid "About Zrythm"
@@ -45,18 +62,17 @@ msgstr "概要"
 
 #: template/about.html.j2:34
 msgid ""
-"Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit "
-"and borrows ideas, concepts and code from other projects such as Ardour and "
-"Jalv. It is designed to be intuitive to use and is built with the intention "
-"to provide GNU/Linux users a full-featured alternative to proprietary DAWs, "
-"while offering a unique approach to workflow that other GNU/Linux DAWs lack."
+"Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
+" and borrows ideas, concepts and code from other projects such as Ardour and"
+" Jalv. It is designed to be intuitive to use and is built with the intention"
+" to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
+" while offering a unique approach to workflow that other GNU/Linux DAWs "
+"lack."
 msgstr ""
 "Zrythmは、CおよびGTK +3ツールキットを使用して構築されたネイティブのGNU / "
-"Linuxアプリケーションで、ArdourやJalvなどの他のプロジェクトからアイデア、概"
-"念、およびコードを借りています。直感的に使用できるように設計されており、他の"
-"GNU / Linux DAWにはない独自のワークフローアプローチを提供しながら、GNU / "
-"Linuxユーザーに独自のDAWに代わるフル機能の代替手段を提供することを意図してい"
-"ます。"
+"Linuxアプリケーションで、ArdourやJalvなどの他のプロジェクトからアイデア、概念、およびコードを借りています。直感的に使用できるように設計されており、他のGNU"
+" / Linux DAWにはない独自のワークフローアプローチを提供しながら、GNU / "
+"Linuxユーザーに独自のDAWに代わるフル機能の代替手段を提供することを意図しています。"
 
 #: template/about.html.j2:40
 msgid "First Commit"
@@ -65,8 +81,7 @@ msgstr "最初のコミット"
 #: template/about.html.j2:42
 msgid ""
 "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-msgstr ""
-"最初のコミットは<code>水 7月25日 22:35:01 2018 +0900</code>に行われました。"
+msgstr "最初のコミットは<code>水 7月25日 22:35:01 2018 +0900</code>に行われました。"
 
 #: template/about.html.j2:46
 msgid "Current Stage"
@@ -76,45 +91,31 @@ msgstr "現状況"
 msgid ""
 "Early alpha. Somewhat functional but has unimplemented features and crashes "
 "a lot."
-msgstr ""
-"初期アルファ。やや機能的ですが、実装されていない機能とクラッシュがたくさんあ"
-"ります。"
-
-#: template/community.html.j2:23
-msgid "Community"
-msgstr "コミュニティ"
+msgstr "初期アルファ。やや機能的ですが、実装されていない機能とクラッシュがたくさんあります。"
 
 #: template/community.html.j2:30
-#, fuzzy
-#| msgid "Community"
 msgid "Communication"
-msgstr "コミュニティ"
+msgstr ""
 
 #: template/community.html.j2:38
 msgid "IRC"
 msgstr ""
 
 #: template/community.html.j2:50
-#, fuzzy
-#| msgid "IRC/Matrix"
 msgid "Matrix"
-msgstr "IRC/Matrix"
+msgstr ""
 
 #: template/community.html.j2:64
-#, fuzzy
-#| msgid "Issue Tracker"
 msgid "Issue tracker"
-msgstr "課題管理システム"
+msgstr ""
 
 #: template/community.html.j2:72
 msgid "Savannah"
 msgstr ""
 
 #: template/community.html.j2:86
-#, fuzzy
-#| msgid "Translate"
 msgid "Translations"
-msgstr "翻訳する"
+msgstr ""
 
 #: template/community.html.j2:94
 msgid "Weblate"
@@ -130,18 +131,18 @@ msgstr "メーリングリスト"
 
 #: template/contact.html.j2:29
 msgid ""
-"Archived, public mailing lists for Zrythm are hosted <a href=\"https://"
-"savannah.nongnu.org/mail/?group=zrythm\">here</a> You can send messages to "
-"the lists at <a href=\"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu."
-"org</a> for general user inquiries/discussions and <a href=\"mailto:zrythm-"
-"dev@nongnu.org\">zrythm-dev@nongnu.org</a> for development discussions."
+"Archived, public mailing lists for Zrythm are hosted <a "
+"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">here</a> You can "
+"send messages to the lists at <a href=\"mailto:zrythm-"
+"user@nongnu.org\">zrythm-user@nongnu.org</a> for general user "
+"inquiries/discussions and <a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+"dev@nongnu.org</a> for development discussions."
 msgstr ""
-"アーカイブされている<a href=\"https://savannah.nongnu.org/mail/?group=zrythm"
-"\">公開メーリングリスト</a>があり、そこにメッセージを送信できます。開発に関す"
-"るディスカッションは<a href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
-"dev@nongnu.org</a>を使用し、一般的なお問い合わせ/ディスカッションは<a href="
-"\"mailto:zrythm-user@nongnu.org\">zrythm-user@nongnu.org</a>を使用してくださ"
-"い。"
+"アーカイブされている<a "
+"href=\"https://savannah.nongnu.org/mail/?group=zrythm\">公開メーリングリスト</a>があり、そこにメッセージを送信できます。開発に関するディスカッションは<a"
+" href=\"mailto:zrythm-dev@nongnu.org\">zrythm-"
+"dev@nongnu.org</a>を使用し、一般的なお問い合わせ/ディスカッションは<a href=\"mailto:zrythm-"
+"user@nongnu.org\">zrythm-user@nongnu.org</a>を使用してください。"
 
 #: template/contact.html.j2:39
 msgid "IRC/Matrix"
@@ -150,14 +151,12 @@ msgstr "IRC/Matrix"
 #: template/contact.html.j2:41
 msgid ""
 "Zrythm is reachable on IRC at <code>#zrythm</code> (via irc.freenode.net) "
-"and Matrix at <code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix."
-"org\">#zrythmdaw:matrix.org</a></code>. The channels are bridged so the "
-"messages are all shared."
+"and Matrix at <code><a "
+"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>."
+" The channels are bridged so the messages are all shared."
 msgstr ""
-"ZrythmはIRCの<code>#zrythm</code>チャンネル(irc.freenode.net)、マトリックスの"
-"<code><a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
-"\">#zrythmdaw:matrix.org</a></code>チャンネルにあります。チャネルはブリッジさ"
-"れ、メッセージはすべて共有されます。"
+"ZrythmはIRCの<code>#zrythm</code>チャンネル(irc.freenode.net)、マトリックスの<code><a "
+"href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">#zrythmdaw:matrix.org</a></code>チャンネルにあります。チャネルはブリッジされ、メッセージはすべて共有されます。"
 
 #: template/contact.html.j2:52
 msgid "Contacting individuals"
@@ -167,9 +166,7 @@ msgstr "連絡先"
 msgid ""
 "See the <a href=\"team.html\">Team</a> page for contact information of each "
 "person."
-msgstr ""
-"各自の連絡先については、 <a href=\"team.html\">チーム</a>ページを参照してくだ"
-"さい。"
+msgstr "各自の連絡先については、 <a href=\"team.html\">チーム</a>ページを参照してください。"
 
 #: template/contact.html.j2:61
 msgid "Reporting bugs"
@@ -178,24 +175,22 @@ msgstr "バグ報告"
 #: template/contact.html.j2:63
 #, python-format
 msgid ""
-"We track open feature requests and bugs for projects within Zrythm in our <a "
-"href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
+"We track open feature requests and bugs for projects within Zrythm in our <a"
+" href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
 "feature requests to the <a href=\"mailto:zrythm-user@nongnu.org\">user "
 "mailing list</a>."
 msgstr ""
-"<a href=\"%(git_url)s/issues\">バグトラッカー</a>で、Zrythmに対する未解決の機"
-"能要求とバグを追跡しています。また、バグや機能要求を <a href=\"mailto:zrythm-"
-"user@nongnu.org\">ユーザーメーリングリスト</a>に報告することもできます。"
+"<a "
+"href=\"%(git_url)s/issues\">バグトラッカー</a>で、Zrythmに対する未解決の機能要求とバグを追跡しています。また、バグや機能要求を"
+" <a href=\"mailto:zrythm-user@nongnu.org\">ユーザーメーリングリスト</a>に報告することもできます。"
 
 #: template/download.html.j2:23
 msgid "Installation"
 msgstr ""
 
 #: template/download.html.j2:32
-#, fuzzy
-#| msgid "Source Code"
 msgid "Source code"
-msgstr "ソースコード"
+msgstr ""
 
 #: template/download.html.j2:40
 msgid "git repositories"
@@ -245,48 +240,6 @@ msgstr ""
 msgid "FreeBSD (Freshports)"
 msgstr ""
 
-#: template/engage.html.j2:23
-msgid "Talk With Us"
-msgstr "私達と話す"
-
-#: template/engage.html.j2:26
-msgid ""
-"Use the mailing lists and join our chatrooms to keep up with development, "
-"find technical help, and discuss Zrythm."
-msgstr ""
-"メーリングリストを使用したり、チャットルームに参加したり、開発に追いついた"
-"り、技術的なヘルプを見つけたり、Zrythmについて話し合うことができます。"
-
-#: template/engage.html.j2:36
-msgid "Announcements Mailing List"
-msgstr "お知らせメーリングリスト"
-
-#: template/engage.html.j2:40
-msgid "General Help Mailing List"
-msgstr "一般メーリングリスト"
-
-#: template/engage.html.j2:44
-msgid "Development Mailing List"
-msgstr "開発者向けメーリングリスト"
-
-#: template/engage.html.j2:48
-msgid ""
-"Available on <a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode."
-"net</a> in the channel <code>#zrythm</code>."
-msgstr ""
-"<a href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode.net</a>の"
-"<code>#zrythm</code>チャンネルにいます。"
-
-#: template/engage.html.j2:55
-msgid ""
-"Available on <a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org"
-"\">Matrix</a> in the channel <code>#zrythmdaw:matrix.org</code> (bridged "
-"with IRC)."
-msgstr ""
-"<a href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">Matrix</a>の"
-"<code>#zrythmdaw:matrix.org</code>チャンネルにいます(IRCとブリッジされていま"
-"す)。"
-
 #: template/faq.html.j2:22
 msgid "Frequently Asked Questions"
 msgstr "よくある質問"
@@ -302,9 +255,7 @@ msgid ""
 "to test each release and provide us with feedback if you would like to help "
 "speed things up."
 msgstr ""
-"Zrythmは初期のアルファ段階にある。多くの重要な機能は既に実装されていますが、"
-"まだ運用環境にはお勧めしません。各リリースをテストし、物事をスピードアップし"
-"たい場合は、フィードバックを提供することを大歓迎します。"
+"Zrythmは初期のアルファ段階にある。多くの重要な機能は既に実装されていますが、まだ運用環境にはお勧めしません。各リリースをテストし、物事をスピードアップしたい場合は、フィードバックを提供することを大歓迎します。"
 
 #: template/faq.html.j2:35
 msgid "What plugin protocols are supported?"
@@ -312,8 +263,7 @@ msgstr "どのプラグインプロトコルがサポートされていますか
 
 #: template/faq.html.j2:37
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr ""
-"現在はLV2がサポートされています。将来的にVST2やVST3もサポートされます。"
+msgstr "現在はLV2がサポートされています。将来的にVST2やVST3もサポートされます。"
 
 #: template/faq.html.j2:42
 msgid "I'm building from source and I want to run Zrythm without installing"
@@ -324,9 +274,9 @@ msgid ""
 "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
-"<code>glib-compile-schemas data/</code>を実行してから、"
-"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>を使用して実行してくださ"
-"い"
+"<code>glib-compile-schemas "
+"data/</code>を実行してから、<code>GSETTINGS_SCHEMA_DIR=data "
+"./build/zrythm</code>を使用して実行してください"
 
 #: template/faq.html.j2:48
 msgid "I get unmet dependencies when installing on Ubuntu"
@@ -337,247 +287,56 @@ msgid "Enable the universe repository:"
 msgstr "universeのリポジトリを有効にしてください:"
 
 #: template/index.html.j2:23
-#, fuzzy
-#| msgid "An highly automated, intuitive, Digital Audio Workstation (DAW)"
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr "高度に自動化された直感的なデジタルオーディオワークステーション（DAW）"
+msgstr ""
 
 #: template/index.html.j2:39
 msgid "Overview"
 msgstr ""
 
 #: template/index.html.j2:45
-#, fuzzy, python-format
-#| msgid ""
-#| "Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
-#| "Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
-#| "sets itself apart from other DAWs by allowing extensive automation via "
-#| "built-in LFOs and envelopes and intuitive MIDI/audio editing and "
-#| "arranging via clips."
 msgid ""
-"Zrythm [<em>%(pronunciation)s</em>] is a digital audio workstation designed "
-"to be featureful and easy to use with many automation possibilities."
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use."
 msgstr ""
-"Zrythm [<em>%(pronunciation)s</em>] は高度に自動化されたデジタルオーディオ"
-"ワークステーション（DAW）で、機能的で直感的に使用できるように設計されていま"
-"す。Zrythmは他のDAWと一線を画すもので、内蔵LFOやエンベロープによる直感的な"
-"オートメーション、クリップによる直感的なMIDI /オーディオ編集、アレンジを可能"
-"にします。"
 
-#: template/index.html.j2:56
+#: template/index.html.j2:55
 msgid "Limitless Automation"
 msgstr "無限のオートメーション"
 
-#: template/index.html.j2:61
-#, fuzzy
-#| msgid ""
-#| "Automate almost anything with automation tracks using straight lines, "
-#| "ramps and curves."
+#: template/index.html.j2:60
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
-"直線、スロープ、カーブを使用して、オートメーショントラックでほぼすべてのもの"
-"を自動化。"
 
-#: template/index.html.j2:70
+#: template/index.html.j2:69
 msgid "LV2 Plugins"
 msgstr "LV2プラグイン"
 
-#: template/index.html.j2:75
-#, fuzzy
-#| msgid "Works with LV2, a free standard for audio plugins."
+#: template/index.html.j2:74
 msgid ""
 "Works with LV2, a free and extensible standard for audio plugins. Drag and "
 "drop any plugin and start tweaking."
-msgstr "オーディオプラグインのオープンスタンダードであるLV2で動作します。"
+msgstr ""
 
-#: template/index.html.j2:86
+#: template/index.html.j2:85
 msgid "Multilingual"
 msgstr ""
 
-#: template/index.html.j2:91
+#: template/index.html.j2:90
 msgid "Zrythm speaks English, French, Japanese and German."
 msgstr ""
 
-#: template/index.html.j2:98
+#: template/index.html.j2:97
 msgid "Chord Assistance"
 msgstr "コードアシスタンス"
 
-#: template/index.html.j2:103
-#, fuzzy
-#| msgid ""
-#| "A chord pad for quickly trying out chords in a scale and a chord track to "
-#| "help with chord progressions."
+#: template/index.html.j2:102
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and chord "
 "track to help with chord progressions."
 msgstr ""
-"迅速にスケールとコードを試してみるのためのコードパッドとコード進行に役立つ"
-"コードトラック。"
-
-#: template/javascript.html.j2:21
-msgid "JavaScript Licenses"
-msgstr "JavaScriptライセンス"
-
-#: template/javascript.html.j2:30
-msgid "Minified"
-msgstr "縮小版"
-
-#: template/javascript.html.j2:31
-msgid "License"
-msgstr "ライセンス"
-
-#: template/javascript.html.j2:32
-msgid "Source"
-msgstr "ソースコード"
-
-#: template/join-us.html.j2:23
-msgid "Join the Zrythm Team"
-msgstr "Zrythmチームに参加する"
-
-#: template/join-us.html.j2:26
-msgid ""
-"If you are a graphic designer, programmer, speak a foreign language or have "
-"any ideas about improving Zrythm you are welcome to <a href=\"engage.html"
-"\">come say hello and join us</a>."
-msgstr ""
-"グラフィックデザイナー、プログラマー、外国語を話せる人、またはZrythmの改善に"
-"関するアイデアをお持ちの場合は、<a href=\"engage.html\">自由に参加ください</"
-"a>。"
-
-#: template/join-us.html.j2:41
-msgid "Develop"
-msgstr "開発する"
-
-#: template/join-us.html.j2:44
-#, python-format
-msgid ""
-"Patches are welcome in the <a href=\"%(git_url)s\"> main repository</a>."
-msgstr ""
-"パッチは<a href=\"%(git_url)s\"> メインリポジトリ</a>で歓迎されています。"
-
-#: template/join-us.html.j2:48
-msgid ""
-"We have plenty of beginner-friendly issues and we even offer bounties for "
-"some. There is <a href=\"http://docs.zrythm.org/\">well-maintained, "
-"searchable code documentation</a> available, so it would be a good idea to "
-"start there. Please review the <a href=\"https://docs.zrythm.org/"
-"md_CONTRIBUTING.html\">Contributing Guidelines</a> before you start."
-msgstr ""
-"初心者に優しい課題がたくさんあり、いくつかにバウンティ金も提供しています。<a "
-"href=\"http://docs.zrythm.org/\">よく管理された検索可能な開発者向けドキュメン"
-"ト</a>が利用できるので、そこから始めるとよいでしょう。はじめる前に、<a href="
-"\"https://docs.zrythm.org/md_CONTRIBUTING.html\">貢献ガイドライン</a>を確認し"
-"てください。"
-
-#: template/join-us.html.j2:57
-msgid "Translate"
-msgstr "翻訳する"
-
-#: template/join-us.html.j2:60
-#, fuzzy, python-format
-#| msgid ""
-#| "If you can speak a foreign language and want to help, please take a look "
-#| "at the <a href=\"https://manual.zrythm.org/%(lang)s/contributing/"
-#| "translating.html\">translation instructions</a>. Translating Zrythm and "
-#| "its components is done via <a href=\"https://hosted.weblate.org/engage/"
-#| "zrythm/\"> a simple web interface</a> so no coding experience is needed. "
-#| "All you need is a web browser."
-msgid ""
-"If you can speak a foreign language and want to help, please take a look at "
-"the <a href=\"https://manual.zrythm.org/%(lang)s/contributing/translating."
-"html\">translation instructions</a>. Translating Zrythm and its components "
-"is done via <a href=\"https://hosted.weblate.org/engage/zrythm/%(lang)s\"> a "
-"simple web interface</a> so no coding experience is needed. All you need is "
-"a web browser."
-msgstr ""
-"外国語を話し、助けたい場合は、<a href=\"https://manual.zrythm.org/%(lang)s/"
-"contributing/translating.html\">翻訳のガイドライン</a>を見てください。Zrythm "
-"とそのコンポーネントの翻訳は、<a href=\"https://hosted.weblate.org/engage/"
-"zrythm/\" > 単純な Web インターフェイスを介して</a>行われるため、コーディング"
-"の経験は必要ありません。必要なのは Web ブラウザだけです。"
-
-#: template/join-us.html.j2:73
-msgid "Test"
-msgstr "試してみる"
-
-#: template/join-us.html.j2:76
-#, python-format
-msgid ""
-"You can always help by offering to test pre-released versions of Zrythm and "
-"providing feedback or report bugs. You can find build and installation "
-"instructions in the <a href=\"%(git_url)s/plain/README.md\">README</a> and "
-"<a href=\"%(git_url)s/plain/CONTRIBUTING.md\">CONTRIBUTING</a> files. Please "
-"submit bug reports and ideas to <a href=\"https://savannah.nongnu.org/"
-"support/?group=zrythm\">Savannah</a>."
-msgstr ""
-
-#: template/join-us.html.j2:87
-msgid "Design"
-msgstr "デザインする"
-
-#: template/join-us.html.j2:90
-msgid ""
-"If you are a web designer, icon designer or graphic designer and want to "
-"help, please get in touch with us. Things that you might want to do are "
-"logos, icons and other graphics, CSS, etc."
-msgstr ""
-"あなたがウェブデザイナー、アイコンデザイナー、またはグラフィックデザイナーで"
-"あり、助けたいのであれば、私達と連絡を取ってください。Things that you might "
-"want to do are logos, icons and other graphics, CSS, etc."
-
-#: template/join-us.html.j2:97
-#, python-format
-msgid ""
-"Zrythm itself is fully CSS themeable so it's easy to change its design "
-"without knowing much about the code. Have a look <a href=\"%(git_blob_url)s/"
-"resources/theme.css\">here</a>."
-msgstr ""
-"Zrythm自体は完全にCSSのテーマを使用しているので、コードについてあまり知らなく"
-"ても簡単にデザインを変更できます。<a href=\"%(git_blob_url)s/resources/theme."
-"css\">こちら</a>見てください。"
-
-#: template/join-us.html.j2:105
-msgid "Donate"
-msgstr "支援する"
-
-#: template/join-us.html.j2:108
-msgid ""
-"We appreciate contributions of any size -- donations enable us to spend more "
-"time working on the project, and help cover our infrastructure expenses. "
-"Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
-"cards are also accepted. Alternatively, you can donate via Bitcoin or PayPal."
-msgstr ""
-"私たちは、あらゆる規模の寄付に感謝し、寄付により、プロジェクトに多くの時間を"
-"費やし、インフラ費用を賄うのに役立ちます。ヨーロッパの住民は、リベラペイを通"
-"じてSEPAを介して寄付することが可能です。主要なクレジットカード/デビットカード"
-"も受け付けています。または、ビットコインまたはPayPal経由で寄付することができ"
-"ます。"
-
-#: template/join-us.html.j2:116
-msgid ""
-"Since our project isn't a tax-exempt organization, we can't offer you a tax "
-"deduction, but for all donations over 50 USD, we'd be happy to recognize "
-"your contribution on <a href='https://www.zrythm.org/en/thanks'>Supporters "
-"[TODO]</a>."
-msgstr ""
-"私たちのプロジェクトは非課税組織ではないので、私たちはあなたに税控除を提供す"
-"ることはできませんが、50米ドルを超えるすべての寄付に対して、私たちは<a "
-"href='https://www.zrythm.org/en/thanks'>サポーター</a>へのあなたの貢献を認め"
-"てうれしいです 。"
-
-#: template/join-us.html.j2:123
-msgid ""
-"We are also happy to consider making particular improvements or changes, or "
-"giving specific technical assistance, in return for a substantial donation "
-"over 200 USD. If you would like to discuss this possibility, write to us at "
-"<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
-msgstr ""
-"また、200米ドルを超える多額の寄付については、特定の改善や変更、または特定の技"
-"術支援を行うことを検討しています。この可能性について話し合いたい場合は、<a "
-"href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a> に連絡してくだ"
-"さい。"
 
 #: template/news.html.j2.inc:25
 msgid "posted by"
@@ -591,15 +350,9 @@ msgstr "日付"
 msgid "More news"
 msgstr "その他のニュース"
 
-#: template/reference.html.j2:23
-msgid "Reference"
-msgstr ""
-
 #: template/reference.html.j2:30
-#, fuzzy
-#| msgid "Manual"
 msgid "User Manual"
-msgstr "マニュアル"
+msgstr ""
 
 #: template/reference.html.j2:38
 msgid "online manual"
@@ -618,117 +371,182 @@ msgid "ePUB-render"
 msgstr ""
 
 #: template/reference.html.j2:88
-#, fuzzy
-#| msgid "Developer Docs"
 msgid "Developer docs"
-msgstr "開発者向けドキュメント"
+msgstr ""
 
 #: template/reference.html.j2:96
 msgid "online docs"
 msgstr ""
 
-#: template/team.html.j2:21
-msgid "Team"
-msgstr "チーム"
+#~ msgid "Talk With Us"
+#~ msgstr "私達と話す"
 
-#: template/team.html.j2:23
-#, python-format
-msgid ""
-"The current team working on Zrythm. For a full list of contributors see the "
-"<a href=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>, <a href=\"%(git_blob_url)s/"
-"TRANSLATORS\">TRANSLATORS</a> and <a href=\"%(git_blob_url)s/THANKS"
-"\">THANKS</a> files in the distribution."
-msgstr ""
-"Zrythmに取り組んでいる現在のチーム。貢献者の完全なリストは、<a href ="
-"\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>、<a href =\"%(git_blob_url)s/"
-"TRANSLATORS\">TRANSLATORS</a>、<a href=\"%(git_blob_url)s/THANKS\">THANKS</a>"
-"ファイルに記載されています。"
-
-#: template/team.html.j2:53
-msgid "Zrythm maintainer"
-msgstr "Zrythmメンテナ"
-
-#: template/team.html.j2:66
-msgid "Developer"
-msgstr "開発者"
-
-#: template/team.html.j2:81
-msgid "French translator"
-msgstr "フランス語翻訳者"
-
-#: template/tutorial.html.j2:21
-msgid "Tutorials"
-msgstr "チュートリアル"
-
-#: template/tutorial.html.j2:24
-msgid ""
-"This page holds various tutorials for Zrythm. Some of them are not complete, "
-"but we find them useful regardless of their state."
-msgstr "このページにはZrythmの様々なチュートリアルがあります。"
-
-#: template/tutorial.html.j2:30
-msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
-msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
-
-#, fuzzy
-#~| msgid ""
-#~| "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">free "
-#~| "software</a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-#~| "agpl-3.0.html\">GNU Affero General Public License, version 3.0 or later</"
-#~| "a>"
 #~ msgid ""
-#~ "Zrythm is <a href=\"http://www.gnu.org/philosophy/free-sw.html\"> free "
-#~ "software </a> licensed under the <a href=\"https://www.gnu.org/licenses/"
-#~ "agpl-3.0.html\"> GNU Affero General Public License, version 3.0 or later "
-#~ "</a>"
+#~ "Use the mailing lists and join our chatrooms to keep up with development, "
+#~ "find technical help, and discuss Zrythm."
 #~ msgstr ""
-#~ "Zrythmは<a href=\"https://www.gnu.org/licenses/agpl-3.0.ja.html\">GNUア"
-#~ "フェロ一般公衆ライセンス</a>でライセンスされている<a href=\"http://www."
-#~ "gnu.org/philosophy/free-sw.ja.html\">自由ソフトウェア</a>です"
+#~ "メーリングリストを使用したり、チャットルームに参加したり、開発に追いついたり、技術的なヘルプを見つけたり、Zrythmについて話し合うことができます。"
+
+#~ msgid "Announcements Mailing List"
+#~ msgstr "お知らせメーリングリスト"
+
+#~ msgid "General Help Mailing List"
+#~ msgstr "一般メーリングリスト"
+
+#~ msgid "Development Mailing List"
+#~ msgstr "開発者向けメーリングリスト"
+
+#~ msgid ""
+#~ "Available on <a "
+#~ "href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode.net</a> in the "
+#~ "channel <code>#zrythm</code>."
+#~ msgstr ""
+#~ "<a "
+#~ "href=\"ircs://chat.freenode.net:6697/#zrythm\">irc.freenode.net</a>の<code>#zrythm</code>チャンネルにいます。"
+
+#~ msgid ""
+#~ "Available on <a "
+#~ "href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">Matrix</a> in the "
+#~ "channel <code>#zrythmdaw:matrix.org</code> (bridged with IRC)."
+#~ msgstr ""
+#~ "<a "
+#~ "href=\"https://riot.im/app/#/room/#zrythmdaw:matrix.org\">Matrix</a>の<code>#zrythmdaw:matrix.org</code>チャンネルにいます(IRCとブリッジされています)。"
+
+#~ msgid "JavaScript Licenses"
+#~ msgstr "JavaScriptライセンス"
+
+#~ msgid "Minified"
+#~ msgstr "縮小版"
+
+#~ msgid "License"
+#~ msgstr "ライセンス"
+
+#~ msgid "Source"
+#~ msgstr "ソースコード"
+
+#~ msgid "Join the Zrythm Team"
+#~ msgstr "Zrythmチームに参加する"
+
+#~ msgid ""
+#~ "If you are a graphic designer, programmer, speak a foreign language or have "
+#~ "any ideas about improving Zrythm you are welcome to <a "
+#~ "href=\"engage.html\">come say hello and join us</a>."
+#~ msgstr ""
+#~ "グラフィックデザイナー、プログラマー、外国語を話せる人、またはZrythmの改善に関するアイデアをお持ちの場合は、<a "
+#~ "href=\"engage.html\">自由に参加ください</a>。"
+
+#~ msgid "Develop"
+#~ msgstr "開発する"
+
+#~ msgid "Patches are welcome in the <a href=\"%(git_url)s\"> main repository</a>."
+#~ msgstr "パッチは<a href=\"%(git_url)s\"> メインリポジトリ</a>で歓迎されています。"
+
+#~ msgid ""
+#~ "We have plenty of beginner-friendly issues and we even offer bounties for "
+#~ "some. There is <a href=\"http://docs.zrythm.org/\">well-maintained, "
+#~ "searchable code documentation</a> available, so it would be a good idea to "
+#~ "start there. Please review the <a "
+#~ "href=\"https://docs.zrythm.org/md_CONTRIBUTING.html\">Contributing "
+#~ "Guidelines</a> before you start."
+#~ msgstr ""
+#~ "初心者に優しい課題がたくさんあり、いくつかにバウンティ金も提供しています。<a "
+#~ "href=\"http://docs.zrythm.org/\">よく管理された検索可能な開発者向けドキュメント</a>が利用できるので、そこから始めるとよいでしょう。はじめる前に、<a"
+#~ " "
+#~ "href=\"https://docs.zrythm.org/md_CONTRIBUTING.html\">貢献ガイドライン</a>を確認してください。"
+
+#~ msgid "Translate"
+#~ msgstr "翻訳する"
+
+#~ msgid "Test"
+#~ msgstr "試してみる"
+
+#~ msgid "Design"
+#~ msgstr "デザインする"
+
+#~ msgid ""
+#~ "If you are a web designer, icon designer or graphic designer and want to "
+#~ "help, please get in touch with us. Things that you might want to do are "
+#~ "logos, icons and other graphics, CSS, etc."
+#~ msgstr ""
+#~ "あなたがウェブデザイナー、アイコンデザイナー、またはグラフィックデザイナーであり、助けたいのであれば、私達と連絡を取ってください。Things that"
+#~ " you might want to do are logos, icons and other graphics, CSS, etc."
+
+#~ msgid ""
+#~ "Zrythm itself is fully CSS themeable so it's easy to change its design "
+#~ "without knowing much about the code. Have a look <a "
+#~ "href=\"%(git_blob_url)s/resources/theme.css\">here</a>."
+#~ msgstr ""
+#~ "Zrythm自体は完全にCSSのテーマを使用しているので、コードについてあまり知らなくても簡単にデザインを変更できます。<a "
+#~ "href=\"%(git_blob_url)s/resources/theme.css\">こちら</a>見てください。"
+
+#~ msgid "Donate"
+#~ msgstr "支援する"
+
+#~ msgid ""
+#~ "We appreciate contributions of any size -- donations enable us to spend more"
+#~ " time working on the project, and help cover our infrastructure expenses. "
+#~ "Europeans are able to donate via SEPA through LiberaPay. Major Credit/Debit "
+#~ "cards are also accepted. Alternatively, you can donate via Bitcoin or "
+#~ "PayPal."
+#~ msgstr ""
+#~ "私たちは、あらゆる規模の寄付に感謝し、寄付により、プロジェクトに多くの時間を費やし、インフラ費用を賄うのに役立ちます。ヨーロッパの住民は、リベラペイを通じてSEPAを介して寄付することが可能です。主要なクレジットカード/デビットカードも受け付けています。または、ビットコインまたはPayPal経由で寄付することができます。"
+
+#~ msgid ""
+#~ "Since our project isn't a tax-exempt organization, we can't offer you a tax "
+#~ "deduction, but for all donations over 50 USD, we'd be happy to recognize "
+#~ "your contribution on <a href='https://www.zrythm.org/en/thanks'>Supporters "
+#~ "[TODO]</a>."
+#~ msgstr ""
+#~ "私たちのプロジェクトは非課税組織ではないので、私たちはあなたに税控除を提供することはできませんが、50米ドルを超えるすべての寄付に対して、私たちは<a "
+#~ "href='https://www.zrythm.org/en/thanks'>サポーター</a>へのあなたの貢献を認めてうれしいです 。"
+
+#~ msgid ""
+#~ "We are also happy to consider making particular improvements or changes, or "
+#~ "giving specific technical assistance, in return for a substantial donation "
+#~ "over 200 USD. If you would like to discuss this possibility, write to us at "
+#~ "<a href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
+#~ msgstr ""
+#~ "また、200米ドルを超える多額の寄付については、特定の改善や変更、または特定の技術支援を行うことを検討しています。この可能性について話し合いたい場合は、<a"
+#~ " href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a> に連絡してください。"
+
+#~ msgid "Team"
+#~ msgstr "チーム"
+
+#~ msgid ""
+#~ "The current team working on Zrythm. For a full list of contributors see the "
+#~ "<a href=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>, <a "
+#~ "href=\"%(git_blob_url)s/TRANSLATORS\">TRANSLATORS</a> and <a "
+#~ "href=\"%(git_blob_url)s/THANKS\">THANKS</a> files in the distribution."
+#~ msgstr ""
+#~ "Zrythmに取り組んでいる現在のチーム。貢献者の完全なリストは、<a href "
+#~ "=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>、<a href "
+#~ "=\"%(git_blob_url)s/TRANSLATORS\">TRANSLATORS</a>、<a "
+#~ "href=\"%(git_blob_url)s/THANKS\">THANKS</a>ファイルに記載されています。"
+
+#~ msgid "Zrythm maintainer"
+#~ msgstr "Zrythmメンテナ"
+
+#~ msgid "Developer"
+#~ msgstr "開発者"
+
+#~ msgid "French translator"
+#~ msgstr "フランス語翻訳者"
+
+#~ msgid "Tutorials"
+#~ msgstr "チュートリアル"
+
+#~ msgid ""
+#~ "This page holds various tutorials for Zrythm. Some of them are not complete,"
+#~ " but we find them useful regardless of their state."
+#~ msgstr "このページにはZrythmの様々なチュートリアルがあります。"
+
+#~ msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
+#~ msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 
 #~ msgid ""
 #~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
 #~ "intuitive ways of getting work done enabling a faster workflow."
-#~ msgstr ""
-#~ "Zrythmは直感的な作業方法でより速いワークフローを可能にすることで、インター"
-#~ "フェースをクリーンで快適に操作できるようにします。"
-
-#, fuzzy
-#~| msgid "Works with LV2, a free standard for audio plugins."
-#~ msgid "Works with LV2, a free and extensible standard for audio plugins."
-#~ msgstr "オーディオプラグインのオープンスタンダードであるLV2で動作します。"
-
-#, fuzzy
-#~| msgid ""
-#~| "In the usual Composing -> Mixing -> Mastering workflow, Zrythm puts the "
-#~| "most focus on the Composing part. It allows musicians to quickly lay "
-#~| "down and process their musical ideas without taking too much time for "
-#~| "unnecessary work."
-#~ msgid ""
-#~ "Zrythm focuses on the composing part of the usual Composing -> Mixing -> "
-#~ "Mastering workflow and it allows musicians to quickly lay down and "
-#~ "process their musical ideas without taking too much time for unnecessary "
-#~ "work."
-#~ msgstr ""
-#~ "通常の作曲→ミキシング→マスタリングのワークフローでは、Zrythmは作曲パートに"
-#~ "最も力を入れています。これにより、ミュージシャンは不要な作業に時間を費やす"
-#~ "ことなく、自分の音楽のアイデアをすばやく作成して処理できます。"
-
-#, fuzzy
-#~| msgid ""
-#~| "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
-#~| "\"%(git_web_url)s\">Source code of this site.</a></br> Report issues "
-#~| "with this website to <a href=\"https://savannah.nongnu.org/support/?"
-#~| "func=additem&group=zrythm\">us</a>."
-#~ msgid ""
-#~ "<a href=\"%(git_web_url)s\">Source code of this site.</a></br> Report "
-#~ "issues with this website to <a href=\"https://savannah.nongnu.org/"
-#~ "support/?func=additem&group=zrythm\">us</a>."
-#~ msgstr ""
-#~ "Copyright &copy; 2019 Alexandros Theodotou et al.<br> <a href="
-#~ "\"%(git_web_url)s\">このサイトのソースコード</a></br> このウェブサイトに関"
-#~ "する問題を<a href=\"https://savannah.nongnu.org/support/?"
-#~ "func=additem&group=zrythm\">私たちに報告してください</a>"
+#~ msgstr "Zrythmは直感的な作業方法でより速いワークフローを可能にすることで、インターフェースをクリーンで快適に操作できるようにします。"
 
 #~ msgid "Contact"
 #~ msgstr "お問い合わせ"
@@ -757,9 +575,6 @@ msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 #~ msgid "Glossary"
 #~ msgstr "用語集"
 
-#~ msgid "Download"
-#~ msgstr "ダウンロード"
-
 #~ msgid "Source Tarball"
 #~ msgstr "ソースtarball"
 
@@ -776,24 +591,20 @@ msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 #~ msgstr "参加して支援する！"
 
 #~ msgid ""
-#~ "For more installation options see the <a href=\"https://manual.zrythm.org/"
-#~ "%(lang)s/configuration/installation/intro.html\">manual</a>"
+#~ "For more installation options see the <a "
+#~ "href=\"https://manual.zrythm.org/%(lang)s/configuration/installation/intro.html\">manual</a>"
 #~ msgstr ""
-#~ "その他のインストール方法については、<a href=\"https://manual.zrythm.org/"
-#~ "%(lang)s/configuration/installation/intro.html\">ユーザーマニュアル</a>を"
-#~ "参照してください"
+#~ "その他のインストール方法については、<a "
+#~ "href=\"https://manual.zrythm.org/%(lang)s/configuration/installation/intro.html\">ユーザーマニュアル</a>を参照してください"
 
 #~ msgid "Automated"
 #~ msgstr "自動化された"
 
 #~ msgid ""
-#~ "Built-in LFOs and envelopes for automating controls, automation curves "
-#~ "for more detailed automation, clips to loop your MIDI notes/audio and "
-#~ "more."
+#~ "Built-in LFOs and envelopes for automating controls, automation curves for "
+#~ "more detailed automation, clips to loop your MIDI notes/audio and more."
 #~ msgstr ""
-#~ "コントロールをオートメートするための内蔵LFOとエンベロープ、より詳細なオー"
-#~ "トメーションのためのオートメーションカーブ、あなたのMIDIノート/オーディオ"
-#~ "をループさせるためのクリップなど。"
+#~ "コントロールをオートメートするための内蔵LFOとエンベロープ、より詳細なオートメーションのためのオートメーションカーブ、あなたのMIDIノート/オーディオをループさせるためのクリップなど。"
 
 #~ msgid "Intuitive"
 #~ msgstr "直感的"
@@ -804,9 +615,7 @@ msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 #~ msgid ""
 #~ "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 #~ "Arranger Minimap, etc."
-#~ msgstr ""
-#~ "オートメーションカーブ、バス、LV2プラグインとオーディオファイル、アレン"
-#~ "ジャーミニマップなど。"
+#~ msgstr "オートメーションカーブ、バス、LV2プラグインとオーディオファイル、アレンジャーミニマップなど。"
 
 #~ msgid "Features"
 #~ msgstr "特長"
@@ -815,11 +624,9 @@ msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 #~ msgstr "内蔵モジュレータ"
 
 #~ msgid ""
-#~ "Modulate plugin controls using built-in LFOs, envelopes and other "
-#~ "modulators in the modulators tab."
-#~ msgstr ""
-#~ "モジュレータタブに組み込みのLFO、エンベロープ、その他のモジュレータを使用"
-#~ "してプラグインコントロールの値を自動変更。"
+#~ "Modulate plugin controls using built-in LFOs, envelopes and other modulators"
+#~ " in the modulators tab."
+#~ msgstr "モジュレータタブに組み込みのLFO、エンベロープ、その他のモジュレータを使用してプラグインコントロールの値を自動変更。"
 
 #~ msgid "Speaks Your Language"
 #~ msgstr "あなたの言語を話す"
@@ -827,30 +634,24 @@ msgstr "Zrythmのインストール手順： <ul><li> TODO </li></ul>"
 #~ msgid ""
 #~ "Available in English, German, French, Italian, Spanish, Japanese and many "
 #~ "more languages."
-#~ msgstr ""
-#~ "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言"
-#~ "語で利用可能です。"
+#~ msgstr "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言語で利用可能です。"
 
 #~ msgid "Cross-platform"
 #~ msgstr "クロスプラットフォーム"
 
 #~ msgid ""
 #~ "Works on GNU/Linux, FreeBSD and MacOS, including PCs, laptops and tablets."
-#~ msgstr ""
-#~ "パソコン、ノートパソコン、タブレットを含むGNU/Linux、FreeBSD、MacOSで動作"
-#~ "します。"
+#~ msgstr "パソコン、ノートパソコン、タブレットを含むGNU/Linux、FreeBSD、MacOSで動作します。"
 
 #~ msgid "News"
 #~ msgstr "ニュース"
 
 #~ msgid ""
-#~ "You can always help by offering to test pre-released versions of Zrythm "
-#~ "and providing feedback or report bugs. Please get in touch with us and we "
-#~ "will guide you through the process."
+#~ "You can always help by offering to test pre-released versions of Zrythm and "
+#~ "providing feedback or report bugs. Please get in touch with us and we will "
+#~ "guide you through the process."
 #~ msgstr ""
-#~ "あなたはいつでもZrythmのプレリリース版をテストすることを申し出ることによっ"
-#~ "てフィードバックを提供するかまたはバグを報告することによって助けることがで"
-#~ "きます。"
+#~ "あなたはいつでもZrythmのプレリリース版をテストすることを申し出ることによってフィードバックを提供するかまたはバグを報告することによって助けることができます。"
 
 #~ msgid "Thank you for your support!"
 #~ msgstr "ご支援いただきありがとうございます！"
