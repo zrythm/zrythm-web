@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 13:45+0100\n"
-"PO-Revision-Date: 2019-08-14 00:24+0000\n"
+"PO-Revision-Date: 2019-08-22 13:09+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,12 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.8-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
+"une station de travail audionumérique hautement automatisée et intuitive"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
