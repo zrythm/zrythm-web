@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 13:45+0100\n"
-"PO-Revision-Date: 2019-08-22 13:14+0000\n"
+"PO-Revision-Date: 2019-08-22 13:18+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -244,11 +244,11 @@ msgstr "Ubuntu (non-officiel)"
 
 #: template/download.html.j2:160
 msgid "Other Platforms"
-msgstr ""
+msgstr "Autres plateformes"
 
 #: template/download.html.j2:168
 msgid "FreeBSD (Freshports)"
-msgstr ""
+msgstr "FreeBSD (Freshports)"
 
 #: template/faq.html.j2:22
 msgid "Frequently Asked Questions"
@@ -304,59 +304,70 @@ msgstr "Activer le dépôt universel :"
 
 #: template/index.html.j2:39
 msgid "Overview"
-msgstr ""
+msgstr "Vue d'ensemble"
 
 #: template/index.html.j2:45
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr ""
+"Zrythm est une station de travail audio numérique conçue pour être "
+"fonctionnelle et facile à utiliser."
 
 #: template/index.html.j2:59
 msgid "Limitless automation"
-msgstr ""
+msgstr "Automatisation sans limite"
 
 #: template/index.html.j2:64
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
+"Automatisez presque tout avec des événements d'automatisation utilisant des "
+"lignes droites, des rampes et des courbes, ou avec des LFOs et des "
+"enveloppes."
 
 #: template/index.html.j2:77
 msgid "LV2 plugins"
-msgstr ""
+msgstr "greffons LV2"
 
 #: template/index.html.j2:82
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins. Drag"
 " and drop any plugin and start tweaking."
 msgstr ""
+"Prise en charge complète de LV2, un standard gratuit et extensible pour les "
+"greffons audio. Glissez-déposez n'importe quel greffon et commencez à "
+"l'ajuster."
 
 #: template/index.html.j2:98
 msgid "JACK support"
-msgstr ""
+msgstr "support JACK"
 
 #: template/index.html.j2:103
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
+"Entièrement compatible JACK, y compris la prise en charge du transport JACK."
 
 #: template/index.html.j2:115
 msgid "Chord assistance"
-msgstr ""
+msgstr "Assistance aux accords"
 
 #: template/index.html.j2:120
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and chord "
 "track to help with chord progressions."
 msgstr ""
+"Doté d'un pavé d'accords pour essayer rapidement des accords dans une gamme "
+"et une piste d'accords pour vous aider avec les progressions d'accords."
 
 #: template/index.html.j2:135
 msgid "Free software"
-msgstr ""
+msgstr "Logiciel libre"
 
 #: template/index.html.j2:140
 msgid "Use, study, share and improve freely."
-msgstr ""
+msgstr "Utilisez, étudiez, partagez et améliorez librement."
 
 #: template/index.html.j2:151
 msgid "Multilingual"
