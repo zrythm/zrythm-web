@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 13:45+0100\n"
-"PO-Revision-Date: 2019-08-22 13:09+0000\n"
+"PO-Revision-Date: 2019-08-22 13:14+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: common/navigation.j2.inc:30
 msgid "Download"
@@ -34,7 +34,7 @@ msgstr "Téléchargement"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
-msgstr ""
+msgstr "Référence"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:23
 msgid "Community"
@@ -42,7 +42,7 @@ msgstr "Communauté"
 
 #: common/navigation.j2.inc:58
 msgid "Language"
-msgstr ""
+msgstr "Langue"
 
 #: template/about.html.j2:22
 msgid "About Zrythm"
@@ -97,31 +97,31 @@ msgstr ""
 
 #: template/community.html.j2:30
 msgid "Communication"
-msgstr ""
+msgstr "Communication"
 
 #: template/community.html.j2:38
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: template/community.html.j2:50
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: template/community.html.j2:64
 msgid "Issue tracker"
-msgstr ""
+msgstr "Suivi des problèmes"
 
 #: template/community.html.j2:72
 msgid "Savannah"
-msgstr ""
+msgstr "Savannah"
 
 #: template/community.html.j2:86
 msgid "Translations"
-msgstr ""
+msgstr "Traductions"
 
 #: template/community.html.j2:94
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: template/contact.html.j2:21
 msgid "Contact information"
@@ -196,51 +196,51 @@ msgstr ""
 
 #: template/download.html.j2:23
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: template/download.html.j2:32
 msgid "Source code"
-msgstr ""
+msgstr "Code source"
 
 #: template/download.html.j2:40
 msgid "git repositories"
-msgstr ""
+msgstr "dépôts git"
 
 #: template/download.html.j2:52
 msgid "stable releases"
-msgstr ""
+msgstr "versions stables"
 
 #: template/download.html.j2:64
 msgid "GPG signing key"
-msgstr ""
+msgstr "clef de signature GPG"
 
 #: template/download.html.j2:78
 msgid "GNU Linux packages"
-msgstr ""
+msgstr "paquets GNU Linux"
 
 #: template/download.html.j2:86
 msgid "Arch (aur, git package)"
-msgstr ""
+msgstr "Arch (aur, paquet git)"
 
 #: template/download.html.j2:98
 msgid "Arch (aur, stable)"
-msgstr ""
+msgstr "Arch (aur, stable)"
 
 #: template/download.html.j2:110
 msgid "Debian (unofficial)"
-msgstr ""
+msgstr "Debian (non-officiel)"
 
 #: template/download.html.j2:122
 msgid "Fedora (unofficial)"
-msgstr ""
+msgstr "Fedora (non-officiel)"
 
 #: template/download.html.j2:134
 msgid "Mageia (unofficial)"
-msgstr ""
+msgstr "Mageia (non-officiel)"
 
 #: template/download.html.j2:146
 msgid "Ubuntu (unofficial)"
-msgstr ""
+msgstr "Ubuntu (non-officiel)"
 
 #: template/download.html.j2:160
 msgid "Other Platforms"
