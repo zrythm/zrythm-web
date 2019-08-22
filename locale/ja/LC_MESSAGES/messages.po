@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 14:25+0100\n"
+"POT-Creation-Date: 2019-08-22 16:51+0100\n"
 "PO-Revision-Date: 2019-08-22 13:33+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -113,13 +113,21 @@ msgstr "課題管理システム"
 msgid "Savannah"
 msgstr "Savannah"
 
-#: template/community.html.j2:88
+#: template/community.html.j2:80
+msgid "issue tracker"
+msgstr ""
+
+#: template/community.html.j2:90
 msgid "Translations"
 msgstr "翻訳"
 
-#: template/community.html.j2:96
+#: template/community.html.j2:98
 msgid "Weblate"
 msgstr "Weblate"
+
+#: template/community.html.j2:104
+msgid "zrythm project"
+msgstr ""
 
 #: template/download.html.j2:23
 msgid "Installation"
@@ -137,43 +145,60 @@ msgstr "gitリポジトリ"
 msgid "stable releases"
 msgstr "安定版リリース"
 
-#: template/download.html.j2:64
+#: template/download.html.j2:58
+msgid "releases at Savannah"
+msgstr ""
+
+#: template/download.html.j2:66
 msgid "GPG signing key"
 msgstr "GPG署名キー"
 
-#: template/download.html.j2:78
+#: template/download.html.j2:80
 msgid "GNU Linux packages"
 msgstr "GNU Linux パッケージ"
 
-#: template/download.html.j2:86
+#: template/download.html.j2:88
 msgid "Arch (aur, git package)"
 msgstr "Arch (aur・gitパッケージ)"
 
-#: template/download.html.j2:98
+#: template/download.html.j2:94
+msgid "zrythm-git"
+msgstr ""
+
+#: template/download.html.j2:102
 msgid "Arch (aur, stable)"
 msgstr "Arch (aur・安定版)"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:108 template/download.html.j2:188
+msgid "zrythm"
+msgstr ""
+
+#: template/download.html.j2:116
 msgid "Debian (unofficial)"
 msgstr "Debian (非公式)"
 
-#: template/download.html.j2:122
+#: template/download.html.j2:122 template/download.html.j2:136
+#: template/download.html.j2:150 template/download.html.j2:164
+msgid "zrythm at openSUSE build service"
+msgstr ""
+
+#: template/download.html.j2:130
 msgid "Fedora (unofficial)"
 msgstr "Fedora (非公式)"
 
-#: template/download.html.j2:134
+#: template/download.html.j2:144
 msgid "Mageia (unofficial)"
 msgstr "Mageia (非公式)"
 
-#: template/download.html.j2:146
+#: template/download.html.j2:158
 msgid "Ubuntu (unofficial)"
 msgstr "Ubuntu (非公式)"
 
-#: template/download.html.j2:160
+#: template/download.html.j2:174
 msgid "Other Platforms"
 msgstr "その他のプラットフォーム"
 
-#: template/download.html.j2:168
+#: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
 msgstr "FreeBSD (Freshports)"
 
@@ -295,25 +320,45 @@ msgstr "マニュアル"
 msgid "online manual"
 msgstr "オンラインマニュアル"
 
-#: template/reference.html.j2:50
+#: template/reference.html.j2:44
+msgid "browse manual"
+msgstr ""
+
+#: template/reference.html.j2:53
 msgid "HTML-render (zip)"
 msgstr "HTMLレンダリング (zip)"
 
-#: template/reference.html.j2:62
+#: template/reference.html.j2:59
+msgid "download HTML zip"
+msgstr ""
+
+#: template/reference.html.j2:68
 msgid "PDF-render"
 msgstr "PDFレンダリング"
 
 #: template/reference.html.j2:74
+msgid "download PDF"
+msgstr ""
+
+#: template/reference.html.j2:83
 msgid "ePUB-render"
 msgstr "ePUBレンダリング"
 
-#: template/reference.html.j2:88
+#: template/reference.html.j2:89
+msgid "download ePUB"
+msgstr ""
+
+#: template/reference.html.j2:100
 msgid "Developer docs"
 msgstr "開発者向けドキュメント"
 
-#: template/reference.html.j2:96
+#: template/reference.html.j2:108
 msgid "online docs"
 msgstr "オンラインドキュメント"
+
+#: template/reference.html.j2:114
+msgid "browse docs"
+msgstr ""
 
 #~ msgid "Contact information"
 #~ msgstr "連絡先情報"
@@ -376,9 +421,6 @@ msgstr "オンラインドキュメント"
 
 #~ msgid "More news"
 #~ msgstr "その他のニュース"
-
-#~ msgid "Zrythm"
-#~ msgstr "Zrythm"
 
 #~ msgid "Talk With Us"
 #~ msgstr "私達と話す"
@@ -524,9 +566,6 @@ msgstr "オンラインドキュメント"
 #~ "=\"%(git_blob_url)s/AUTHORS\">AUTHORS</a>、<a href "
 #~ "=\"%(git_blob_url)s/TRANSLATORS\">TRANSLATORS</a>、<a "
 #~ "href=\"%(git_blob_url)s/THANKS\">THANKS</a>ファイルに記載されています。"
-
-#~ msgid "Zrythm maintainer"
-#~ msgstr "Zrythmメンテナ"
 
 #~ msgid "Developer"
 #~ msgstr "開発者"

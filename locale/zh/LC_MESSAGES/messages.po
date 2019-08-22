@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 14:25+0100\n"
+"POT-Creation-Date: 2019-08-22 16:51+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -109,12 +109,20 @@ msgstr ""
 msgid "Savannah"
 msgstr ""
 
-#: template/community.html.j2:88
+#: template/community.html.j2:80
+msgid "issue tracker"
+msgstr ""
+
+#: template/community.html.j2:90
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:96
+#: template/community.html.j2:98
 msgid "Weblate"
+msgstr ""
+
+#: template/community.html.j2:104
+msgid "zrythm project"
 msgstr ""
 
 #: template/download.html.j2:23
@@ -133,43 +141,60 @@ msgstr ""
 msgid "stable releases"
 msgstr ""
 
-#: template/download.html.j2:64
+#: template/download.html.j2:58
+msgid "releases at Savannah"
+msgstr ""
+
+#: template/download.html.j2:66
 msgid "GPG signing key"
 msgstr ""
 
-#: template/download.html.j2:78
+#: template/download.html.j2:80
 msgid "GNU Linux packages"
 msgstr ""
 
-#: template/download.html.j2:86
+#: template/download.html.j2:88
 msgid "Arch (aur, git package)"
 msgstr ""
 
-#: template/download.html.j2:98
+#: template/download.html.j2:94
+msgid "zrythm-git"
+msgstr ""
+
+#: template/download.html.j2:102
 msgid "Arch (aur, stable)"
 msgstr ""
 
-#: template/download.html.j2:110
+#: template/download.html.j2:108 template/download.html.j2:188
+msgid "zrythm"
+msgstr ""
+
+#: template/download.html.j2:116
 msgid "Debian (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:122
+#: template/download.html.j2:122 template/download.html.j2:136
+#: template/download.html.j2:150 template/download.html.j2:164
+msgid "zrythm at openSUSE build service"
+msgstr ""
+
+#: template/download.html.j2:130
 msgid "Fedora (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:134
+#: template/download.html.j2:144
 msgid "Mageia (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:146
+#: template/download.html.j2:158
 msgid "Ubuntu (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:160
+#: template/download.html.j2:174
 msgid "Other Platforms"
 msgstr ""
 
-#: template/download.html.j2:168
+#: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
 msgstr ""
 
@@ -290,24 +315,44 @@ msgstr ""
 msgid "online manual"
 msgstr ""
 
-#: template/reference.html.j2:50
+#: template/reference.html.j2:44
+msgid "browse manual"
+msgstr ""
+
+#: template/reference.html.j2:53
 msgid "HTML-render (zip)"
 msgstr ""
 
-#: template/reference.html.j2:62
+#: template/reference.html.j2:59
+msgid "download HTML zip"
+msgstr ""
+
+#: template/reference.html.j2:68
 msgid "PDF-render"
 msgstr ""
 
 #: template/reference.html.j2:74
+msgid "download PDF"
+msgstr ""
+
+#: template/reference.html.j2:83
 msgid "ePUB-render"
 msgstr ""
 
-#: template/reference.html.j2:88
+#: template/reference.html.j2:89
+msgid "download ePUB"
+msgstr ""
+
+#: template/reference.html.j2:100
 msgid "Developer docs"
 msgstr ""
 
-#: template/reference.html.j2:96
+#: template/reference.html.j2:108
 msgid "online docs"
+msgstr ""
+
+#: template/reference.html.j2:114
+msgid "browse docs"
 msgstr ""
 
 #~ msgid "Contact information"
@@ -339,9 +384,6 @@ msgstr ""
 #~ "help, please get in touch with us. Things that you might want to do are "
 #~ "logos, icons and other graphics, CSS, etc."
 #~ msgstr "如果您是网页设计师，图标设计师或平面设计师，并希望提供帮助，请与我们联系"
-
-#~ msgid "Zrythm maintainer"
-#~ msgstr "Zrythm维护者"
 
 #~ msgid "Tutorials"
 #~ msgstr "教程"
