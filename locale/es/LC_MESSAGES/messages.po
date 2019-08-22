@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 12:40+0100\n"
+"POT-Creation-Date: 2019-08-22 13:41+0100\n"
 "PO-Revision-Date: 2019-06-11 22:43+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -19,12 +19,8 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.7-dev\n"
 
-#: common/base.j2:20
-msgid "Zrythm"
-msgstr "Zrythm es"
-
-#: common/base.j2:21
-msgid "A highly automated and intuitive Digital Audio Workstation (DAW)"
+#: common/header.j2.inc:19 template/index.html.j2:23
+msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
 
 #: common/navigation.j2.inc:25
@@ -267,10 +263,6 @@ msgstr ""
 msgid "Enable the universe repository:"
 msgstr ""
 
-#: template/index.html.j2:23
-msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
-
 #: template/index.html.j2:39
 msgid "Overview"
 msgstr ""
@@ -281,42 +273,58 @@ msgid ""
 "use."
 msgstr ""
 
-#: template/index.html.j2:55
-msgid "Limitless Automation"
+#: template/index.html.j2:59
+msgid "Limitless automation"
 msgstr ""
 
-#: template/index.html.j2:60
+#: template/index.html.j2:64
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
 
-#: template/index.html.j2:69
-msgid "LV2 Plugins"
+#: template/index.html.j2:77
+msgid "LV2 plugins"
 msgstr ""
 
-#: template/index.html.j2:74
+#: template/index.html.j2:82
 msgid ""
-"Works with LV2, a free and extensible standard for audio plugins. Drag and "
-"drop any plugin and start tweaking."
+"Full support for LV2, a free and extensible standard for audio plugins. Drag"
+" and drop any plugin and start tweaking."
 msgstr ""
 
-#: template/index.html.j2:85
-msgid "Multilingual"
+#: template/index.html.j2:98
+msgid "JACK support"
 msgstr ""
 
-#: template/index.html.j2:90
-msgid "Zrythm speaks English, French, Japanese and German."
+#: template/index.html.j2:103
+msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
 
-#: template/index.html.j2:97
-msgid "Chord Assistance"
+#: template/index.html.j2:115
+msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:102
+#: template/index.html.j2:120
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and chord "
 "track to help with chord progressions."
+msgstr ""
+
+#: template/index.html.j2:135
+msgid "Free software"
+msgstr ""
+
+#: template/index.html.j2:140
+msgid "Use, study, share and improve freely."
+msgstr ""
+
+#: template/index.html.j2:151
+msgid "Multilingual"
+msgstr ""
+
+#: template/index.html.j2:156
+msgid "Zrythm speaks English, French, Japanese and German."
 msgstr ""
 
 #: template/news.html.j2.inc:25
@@ -358,6 +366,9 @@ msgstr ""
 #: template/reference.html.j2:96
 msgid "online docs"
 msgstr ""
+
+#~ msgid "Zrythm"
+#~ msgstr "Zrythm es"
 
 #~ msgid "Tutorials"
 #~ msgstr "Tutoriales"
