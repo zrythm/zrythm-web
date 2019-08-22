@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 13:41+0100\n"
-"PO-Revision-Date: 2019-08-12 00:18+0000\n"
+"PO-Revision-Date: 2019-08-14 00:24+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -304,6 +304,22 @@ msgstr "Activer le dépôt universel :"
 #: template/index.html.j2:39
 msgid "Overview"
 msgstr ""
+
+#: template/index.html.j2:60
+#, python-format
+msgid ""
+"Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
+"Workstation (DAW) designed to be featureful and intuitive to use. Zrythm "
+"sets itself apart from other DAWs by allowing extensive automation via built-"
+"in LFOs and envelopes and intuitive MIDI/audio editing and arranging via "
+"clips."
+msgstr ""
+"Zrythm [<em>%(pronunciation)s</em>] est une Station de Travail Audio "
+"Numérique (STAN) hautement automatisée, conçue pour une utilisation "
+"fonctionnelle et intuitive. Zrythm se distingue des autres STAN en "
+"permettant une automatisation poussée via des LFOs et des enveloppes "
+"intégrées, ainsi qu'une édition et un arrangement MIDI/audio intuitifs via "
+"les clips."
 
 #: template/index.html.j2:45
 msgid ""
