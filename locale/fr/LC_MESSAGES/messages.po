@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 13:45+0100\n"
-"PO-Revision-Date: 2019-08-22 13:18+0000\n"
+"PO-Revision-Date: 2019-08-22 13:21+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -371,11 +371,11 @@ msgstr "Utilisez, étudiez, partagez et améliorez librement."
 
 #: template/index.html.j2:151
 msgid "Multilingual"
-msgstr ""
+msgstr "Polyglotte"
 
 #: template/index.html.j2:156
 msgid "Zrythm speaks English, French, Japanese and German."
-msgstr ""
+msgstr "Zrythm parle anglais, français, japonais et allemand."
 
 #: template/news.html.j2.inc:25
 msgid "posted by"
@@ -391,31 +391,31 @@ msgstr "Plus d'actualités"
 
 #: template/reference.html.j2:30
 msgid "User Manual"
-msgstr ""
+msgstr "Manuel utilisateur"
 
 #: template/reference.html.j2:38
 msgid "online manual"
-msgstr ""
+msgstr "manuel en ligne"
 
 #: template/reference.html.j2:50
 msgid "HTML-render (zip)"
-msgstr ""
+msgstr "rendu-HTML (zip)"
 
 #: template/reference.html.j2:62
 msgid "PDF-render"
-msgstr ""
+msgstr "rendu-PDF"
 
 #: template/reference.html.j2:74
 msgid "ePUB-render"
-msgstr ""
+msgstr "rendu-ePUB"
 
 #: template/reference.html.j2:88
 msgid "Developer docs"
-msgstr ""
+msgstr "Docs développeur"
 
 #: template/reference.html.j2:96
 msgid "online docs"
-msgstr ""
+msgstr "docs en ligne"
 
 #~ msgid ""
 #~ "Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "
