@@ -23,7 +23,10 @@
 }
 
 .globe {
-  float: right;
+  /* float doesnt work in older versions of firefox */
+  /*float: right;*/
+  position: absolute !important;
+  right: 0px;
 }
 
 .screenshot_img {
