@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 17:13+0100\n"
-"PO-Revision-Date: 2019-08-31 01:52+0000\n"
+"PO-Revision-Date: 2019-09-01 12:44+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -264,7 +264,7 @@ msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr ""
-"Zrythm ist eine Digital Audio Workstation, designt um funktionsreich und "
+"Zrythm ist eine Digital Audio Workstation, designt dafür, funktionsreich und "
 "leicht zu nutzen zu sein."
 
 #: template/index.html.j2:59
@@ -276,7 +276,7 @@ msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
-"Automatisiere so gut wie alles mit Automationsereignissen, die geraden "
+"Automatisiere so gut wie alles mit Automationsereignissen, die gerade "
 "Linien, Rampen, und Kurven benutzen, oder mit LFOs und Hüllkurven."
 
 #: template/index.html.j2:77
@@ -289,8 +289,8 @@ msgid ""
 " and drop any plugin and start tweaking."
 msgstr ""
 "Volle Unterstützung für LV2, einem freien und erweiterbaren Standard für "
-"Audioerweiterungen. Ziehe und lege jede Erweiterung ab und starte mit der "
-"Anpassung."
+"Audioerweiterungen. Ziehe und lege eine Erweiterung ab und fang an, sie "
+"anzupassen."
 
 #: template/index.html.j2:98
 msgid "JACK support"
@@ -299,8 +299,7 @@ msgstr "JACK-Unterstützung"
 #: template/index.html.j2:103
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
-"Vollkompatibel mit Jack, einschließlich der Unterstützung für den JACK-"
-"Transport."
+"Vollkompatibel mit JACK, einschließlich Unterstützung für den JACK-Transport."
 
 #: template/index.html.j2:115
 msgid "Chord assistance"
@@ -311,7 +310,7 @@ msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
-"Beinhaltet ein Akkord-Pad für das schnelle Ausprobieren von Akkorden in "
+"Beinhaltet ein Akkord-Pad für ein schnelles Ausprobieren von Akkorden in "
 "einer Tonleiter und einer Akkordspur zur Hilfe mit Akkordfolgen."
 
 #: template/index.html.j2:135
