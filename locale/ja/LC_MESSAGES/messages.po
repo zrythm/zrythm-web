@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-23 01:22+0100\n"
-"PO-Revision-Date: 2019-08-22 13:33+0000\n"
+"PO-Revision-Date: 2019-08-28 14:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -115,7 +116,7 @@ msgstr "Savannah"
 
 #: template/community.html.j2:80
 msgid "issue tracker"
-msgstr ""
+msgstr "課題管理システム"
 
 #: template/community.html.j2:90
 msgid "Translations"
@@ -127,7 +128,7 @@ msgstr "Weblate"
 
 #: template/community.html.j2:104
 msgid "zrythm project"
-msgstr ""
+msgstr "zrythmプロジェクト"
 
 #: template/download.html.j2:23
 msgid "Installation"
@@ -147,7 +148,7 @@ msgstr "安定版リリース"
 
 #: template/download.html.j2:58
 msgid "releases at Savannah"
-msgstr ""
+msgstr "Savannahでのリリース"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
@@ -163,7 +164,7 @@ msgstr "Arch (aur・gitパッケージ)"
 
 #: template/download.html.j2:94
 msgid "zrythm-git"
-msgstr ""
+msgstr "zrythm-git"
 
 #: template/download.html.j2:102
 msgid "Arch (aur, stable)"
@@ -171,7 +172,7 @@ msgstr "Arch (aur・安定版)"
 
 #: template/download.html.j2:108 template/download.html.j2:188
 msgid "zrythm"
-msgstr ""
+msgstr "zrythm"
 
 #: template/download.html.j2:116
 msgid "Debian (unofficial)"
@@ -180,7 +181,7 @@ msgstr "Debian (非公式)"
 #: template/download.html.j2:122 template/download.html.j2:136
 #: template/download.html.j2:150 template/download.html.j2:164
 msgid "zrythm at openSUSE build service"
-msgstr ""
+msgstr "openSUSEビルドサービスのzrythm"
 
 #: template/download.html.j2:130
 msgid "Fedora (unofficial)"
@@ -294,7 +295,7 @@ msgstr "和音援助"
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
-msgstr ""
+msgstr "和音進行に役立つコードトラック、音階および和音をすばやく試聴するためのコードパッドを備えています。"
 
 #: template/index.html.j2:135
 msgid "Free software"
@@ -322,7 +323,7 @@ msgstr "オンラインマニュアル"
 
 #: template/reference.html.j2:44
 msgid "browse manual"
-msgstr ""
+msgstr "マニュアルを閲覧"
 
 #: template/reference.html.j2:53
 msgid "HTML-render (zip)"
@@ -330,7 +331,7 @@ msgstr "HTMLレンダリング (zip)"
 
 #: template/reference.html.j2:59
 msgid "download HTML zip"
-msgstr ""
+msgstr "HTML zipをダウンロード"
 
 #: template/reference.html.j2:68
 msgid "PDF-render"
@@ -338,7 +339,7 @@ msgstr "PDFレンダリング"
 
 #: template/reference.html.j2:74
 msgid "download PDF"
-msgstr ""
+msgstr "PDFをダウンロード"
 
 #: template/reference.html.j2:83
 msgid "ePUB-render"
@@ -346,7 +347,7 @@ msgstr "ePUBレンダリング"
 
 #: template/reference.html.j2:89
 msgid "download ePUB"
-msgstr ""
+msgstr "ePUBをダウンロード"
 
 #: template/reference.html.j2:100
 msgid "Developer docs"
@@ -358,7 +359,7 @@ msgstr "オンラインドキュメント"
 
 #: template/reference.html.j2:114
 msgid "browse docs"
-msgstr ""
+msgstr "ドキュメントを閲覧"
 
 #~ msgid "Contact information"
 #~ msgstr "連絡先情報"
