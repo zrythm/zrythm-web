@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 17:13+0100\n"
 "PO-Revision-Date: 2019-09-01 12:44+0000\n"
-"Last-Translator: Waui <wau-wau@tutanota.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "Herunterladen"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
-msgstr "Verweis"
+msgstr "Referenz"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:23
 msgid "Community"
