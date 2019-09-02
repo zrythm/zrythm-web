@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -264,8 +264,8 @@ msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr ""
-"Zrythm ist eine Digital Audio Workstation, designt dafür, funktionsreich und "
-"leicht zu nutzen zu sein."
+"Zrythm ist eine Digital Audio Workstation, designt dafür, funktionsreich und"
+" leicht zu nutzen zu sein."
 
 #: template/index.html.j2:59
 msgid "Limitless automation"
@@ -299,7 +299,8 @@ msgstr "JACK-Unterstützung"
 #: template/index.html.j2:103
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
-"Vollkompatibel mit JACK, einschließlich Unterstützung für den JACK-Transport."
+"Vollkompatibel mit JACK, einschließlich Unterstützung für den JACK-"
+"Transport."
 
 #: template/index.html.j2:115
 msgid "Chord assistance"
