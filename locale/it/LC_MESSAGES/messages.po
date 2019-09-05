@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-22 17:13+0100\n"
+"POT-Creation-Date: 2019-09-05 09:00+0100\n"
 "PO-Revision-Date: 2019-09-05 07:58+0000\n"
 "Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 3.9-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -317,8 +317,10 @@ msgid "Multilingual"
 msgstr "Multilingue"
 
 #: template/index.html.j2:156
-msgid "Zrythm speaks English, French, Japanese and German."
-msgstr "Zrythm parla inglese, francese, giapponese e tedesco."
+#| msgid "Zrythm speaks English, French, Japanese and German."
+msgid ""
+"Zrythm is available in English, French, Portuguese, Japanese and German."
+msgstr ""
 
 #: template/reference.html.j2:30
 msgid "User Manual"
