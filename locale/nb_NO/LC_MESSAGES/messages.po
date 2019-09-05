@@ -8,32 +8,33 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-09-05 09:00+0100\n"
-"PO-Revision-Date: 2019-07-16 01:02+0000\n"
+"PO-Revision-Date: 2019-09-05 18:05+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
+"web/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 3.8-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "inngående automasjon i intuitiv digital lyd-arbeidsstasjon"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: common/navigation.j2.inc:30
 msgid "Download"
-msgstr ""
+msgstr "Last ned"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
-msgstr ""
+msgstr "Referanse"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:23
 msgid "Community"
@@ -41,7 +42,7 @@ msgstr "Fellesskap"
 
 #: common/navigation.j2.inc:58
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: template/about.html.j2:22
 msgid "About Zrythm"
@@ -64,146 +65,159 @@ msgid ""
 " while offering a unique approach to workflow that other GNU/Linux DAWs "
 "lack."
 msgstr ""
+"Zrythm er et plattformsspesifikt Linux|GNU-program bygd ved bruk av C og "
+"GTK+3-verktøyssettet, og låner idéer og kode fra andre programmer, som "
+"Ardour og Javl. Det er designet i den hensikt å være intuitivt og tilby Linux"
+"|GNU-brukere et fullverdig alternativ til proprietære lydarbeidsstasjoner, "
+"samtidig som det tilbyr en unik tilnærming til arbeidsflyt som andre slike "
+"Linux|GNU-programmer mangler."
 
 #: template/about.html.j2:40
 msgid "First Commit"
-msgstr ""
+msgstr "Første innsendelse"
 
 #: template/about.html.j2:42
 msgid ""
 "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-msgstr ""
+msgstr "Første innsendelse fant sted <code>Ons. 25. Jul. 2018</code>."
 
 #: template/about.html.j2:46
 msgid "Current Stage"
-msgstr ""
+msgstr "Nåværende tilstand"
 
 #: template/about.html.j2:48
 msgid ""
 "Early alpha. Somewhat functional but has unimplemented features and crashes "
 "a lot."
 msgstr ""
+"Tidlig alfa. Noe funksjonalitet, men mange funksjoner mangler, og hyppige "
+"kræsj."
 
 #: template/community.html.j2:30
 msgid "Communication"
-msgstr ""
+msgstr "Kommunikasjon"
 
 #: template/community.html.j2:38
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: template/community.html.j2:44
 msgid "#zrythm on irc.freenode.net"
-msgstr ""
+msgstr "#zrythm på irc.freenode.net"
 
 #: template/community.html.j2:52
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: template/community.html.j2:66
 msgid "Issue tracker"
-msgstr ""
+msgstr "Problemsporer"
 
 #: template/community.html.j2:74
 msgid "Savannah"
-msgstr ""
+msgstr "Savannah"
 
 #: template/community.html.j2:80
 msgid "issue tracker"
-msgstr ""
+msgstr "problemsporer"
 
 #: template/community.html.j2:90
 msgid "Translations"
-msgstr ""
+msgstr "Oversettelser"
 
 #: template/community.html.j2:98
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: template/community.html.j2:104
 msgid "zrythm project"
-msgstr ""
+msgstr "Zrythm-prosjektet"
 
 #: template/download.html.j2:23
 msgid "Installation"
-msgstr ""
+msgstr "Installasjon"
 
 #: template/download.html.j2:32
 msgid "Source code"
-msgstr ""
+msgstr "Kildekode"
 
 #: template/download.html.j2:40
 msgid "git repositories"
-msgstr ""
+msgstr "Git-kodelager"
 
 #: template/download.html.j2:52
 msgid "stable releases"
-msgstr ""
+msgstr "stabile utgivelser"
 
 #: template/download.html.j2:58
 msgid "releases at Savannah"
-msgstr ""
+msgstr "utgivelser på Savannah"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
-msgstr ""
+msgstr "GPG-signeringsnøkkel"
 
 #: template/download.html.j2:80
 msgid "GNU Linux packages"
-msgstr ""
+msgstr "Linux|GNU-pakker"
 
 #: template/download.html.j2:88
+#, fuzzy
 msgid "Arch (aur, git package)"
-msgstr ""
+msgstr "Arch (AUR, Git-pakke)"
 
 #: template/download.html.j2:94
+#, fuzzy
 msgid "zrythm-git"
-msgstr ""
+msgstr "Zrythm-Git"
 
 #: template/download.html.j2:102
+#, fuzzy
 msgid "Arch (aur, stable)"
-msgstr ""
+msgstr "Arch (AUR, stabil)"
 
 #: template/download.html.j2:108 template/download.html.j2:188
+#, fuzzy
 msgid "zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/download.html.j2:116
 msgid "Debian (unofficial)"
-msgstr ""
+msgstr "Debian (uoffisiell)"
 
 #: template/download.html.j2:122 template/download.html.j2:136
 #: template/download.html.j2:150 template/download.html.j2:164
 msgid "zrythm at openSUSE build service"
-msgstr ""
+msgstr "Zrythm på openSUSE-byggtjenesten"
 
 #: template/download.html.j2:130
 msgid "Fedora (unofficial)"
-msgstr ""
+msgstr "Fedora (uoffisiell)"
 
 #: template/download.html.j2:144
 msgid "Mageia (unofficial)"
-msgstr ""
+msgstr "Mageia (uoffisiell)"
 
 #: template/download.html.j2:158
 msgid "Ubuntu (unofficial)"
-msgstr ""
+msgstr "Ubuntu (uoffisiell)"
 
 #: template/download.html.j2:174
 msgid "Other Platforms"
-msgstr ""
+msgstr "Andre plattformer"
 
 #: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
-msgstr ""
+msgstr "FreeBSD (FreshPorts)"
 
 #: template/faq.html.j2:22
 msgid "Frequently Asked Questions"
 msgstr "Ofte stilte spørsmål"
 
 #: template/faq.html.j2:28
+#, fuzzy
 msgid "What's the current development status?"
-msgstr ""
+msgstr "Nåværende utviklingsstatus?"
 
 #: template/faq.html.j2:30
 msgid ""
@@ -212,145 +226,168 @@ msgid ""
 "to test each release and provide us with feedback if you would like to help "
 "speed things up."
 msgstr ""
+"Zrythm er i tidlig alfa-stadie. Mange grunnleggende funksjoner finnes "
+"allerede, men det anbefales ikke i produksjonsøyemed enda. Du er velkommen "
+"til å teste hver utgave og gi tilbakemelding hvis du ønsker at ting skal gå "
+"raskere."
 
 #: template/faq.html.j2:35
+#, fuzzy
 msgid "What plugin protocols are supported?"
-msgstr ""
+msgstr "Støttede programtilleggsprotokoller?"
 
 #: template/faq.html.j2:37
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr ""
+msgstr "LV2 for øyeblikket, VST2 og VST2 kommer snart."
 
 #: template/faq.html.j2:42
 msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr ""
+msgstr "Jeg bygger fra kildekoden, og ønsker å kjøre Zrythm uten å installere"
 
 #: template/faq.html.j2:44
+#, fuzzy
 msgid ""
 "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
+"Kjør <code>glib-compile-schemas data/</code> og kjør så Zrythm ved bruk "
+"av<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 
 #: template/faq.html.j2:48
 msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr ""
+msgstr "Manglende avhengigheter ved installasjon på Ubuntu"
 
 #: template/faq.html.j2:50
+#, fuzzy
 msgid "Enable the universe repository:"
-msgstr ""
+msgstr "Skru på Universe-pakkebrønnen:"
 
 #: template/index.html.j2:39
 msgid "Overview"
-msgstr ""
+msgstr "Oversikt"
 
 #: template/index.html.j2:45
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr ""
+"Zrythm er en digital lyd-arbeidsstasjon designet for rik funksjonalitet og "
+"intuitiv bruk."
 
 #: template/index.html.j2:59
 msgid "Limitless automation"
-msgstr ""
+msgstr "Ubegrenset automasjon"
 
 #: template/index.html.j2:64
+#, fuzzy
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
+"Automatiser nesten hva som helst med automasjonshendelser ved bruk av rette "
+"linjer, opptrappinger og kurver, eller med LFO-er og konvolutter."
 
 #: template/index.html.j2:77
 msgid "LV2 plugins"
-msgstr ""
+msgstr "LV2-programtillegg"
 
 #: template/index.html.j2:82
+#, fuzzy
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins. Drag"
 " and drop any plugin and start tweaking."
 msgstr ""
+"Full støtte for LV2, en fri og utvidbar standard for lydprogramtillegg. Dra "
+"og slipp ethvert programtillegg og begynn triksingen."
 
 #: template/index.html.j2:98
 msgid "JACK support"
-msgstr ""
+msgstr "JACK-støtte"
 
 #: template/index.html.j2:103
 msgid "Fully JACK aware, including support for JACK transport."
-msgstr ""
+msgstr "Fullkompatibel med JACK, inkludert støtte for JACK-transport."
 
 #: template/index.html.j2:115
+#, fuzzy
 msgid "Chord assistance"
-msgstr ""
+msgstr "Kord-assistanse"
 
 #: template/index.html.j2:120
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
+"Inneholder en akkord-flate for rask utprøving av akkorder i en skala og et "
+"akkortspor til hjelp med akkordprogresjoner."
 
 #: template/index.html.j2:135
+#, fuzzy
 msgid "Free software"
-msgstr ""
+msgstr "Fri programvare"
 
 #: template/index.html.j2:140
 msgid "Use, study, share and improve freely."
-msgstr ""
+msgstr "Bruk, studer, del og forbedre fritt."
 
 #: template/index.html.j2:151
 msgid "Multilingual"
-msgstr ""
+msgstr "Flerspråklig"
 
 #: template/index.html.j2:156
+#, fuzzy
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
 msgstr ""
+"Zrythm er tilgjengelig på Engelsk, Fransk, Portugisisk, Japansk og Tysk."
 
 #: template/reference.html.j2:30
 msgid "User Manual"
-msgstr ""
+msgstr "Brukermanual"
 
 #: template/reference.html.j2:38
 msgid "online manual"
-msgstr ""
+msgstr "nettbasert manual"
 
 #: template/reference.html.j2:44
 msgid "browse manual"
-msgstr ""
+msgstr "utforsk manualen"
 
 #: template/reference.html.j2:53
 msgid "HTML-render (zip)"
-msgstr ""
+msgstr "HTML-opptegning (ZIP)"
 
 #: template/reference.html.j2:59
 msgid "download HTML zip"
-msgstr ""
+msgstr "last ned HTML-ZIP"
 
 #: template/reference.html.j2:68
 msgid "PDF-render"
-msgstr ""
+msgstr "PDF-opptegning"
 
 #: template/reference.html.j2:74
 msgid "download PDF"
-msgstr ""
+msgstr "last ned PDF"
 
 #: template/reference.html.j2:83
 msgid "ePUB-render"
-msgstr ""
+msgstr "ePUB-opptegning"
 
 #: template/reference.html.j2:89
 msgid "download ePUB"
-msgstr ""
+msgstr "last ned ePUB"
 
 #: template/reference.html.j2:100
 msgid "Developer docs"
-msgstr ""
+msgstr "Utviklerdokumentasjon"
 
 #: template/reference.html.j2:108
 msgid "online docs"
-msgstr ""
+msgstr "nettbasert dokumentasjon"
 
 #: template/reference.html.j2:114
 msgid "browse docs"
-msgstr ""
+msgstr "utforsk dokumentasjon"
 
 #~ msgid "Contact information"
 #~ msgstr "Kontaktinformasjon"
