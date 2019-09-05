@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 17:13+0100\n"
 "PO-Revision-Date: 2019-09-05 07:57+0000\n"
-"Last-Translator: Waui <wau-wau@tutanota.de>\n"
+"Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -174,7 +174,7 @@ msgstr "Arch (aur, stabil)"
 
 #: template/download.html.j2:108 template/download.html.j2:188
 msgid "zrythm"
-msgstr "Zrythm"
+msgstr "zrythm"
 
 #: template/download.html.j2:116
 msgid "Debian (unofficial)"
