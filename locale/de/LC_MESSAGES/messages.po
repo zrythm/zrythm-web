@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 17:13+0100\n"
-"PO-Revision-Date: 2019-09-01 12:44+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2019-09-05 07:57+0000\n"
+"Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -25,7 +25,7 @@ msgstr "eine hochautomatisierte und intuitive Digital Audio Workstation"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr "Heim"
+msgstr "Vorstellung"
 
 #: common/navigation.j2.inc:30
 msgid "Download"
@@ -33,7 +33,7 @@ msgstr "Herunterladen"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
-msgstr "Referenz"
+msgstr "Verweise"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:23
 msgid "Community"
@@ -174,7 +174,7 @@ msgstr "Arch (aur, stabil)"
 
 #: template/download.html.j2:108 template/download.html.j2:188
 msgid "zrythm"
-msgstr "Zrythm"
+msgstr "zrythm"
 
 #: template/download.html.j2:116
 msgid "Debian (unofficial)"
@@ -312,7 +312,7 @@ msgid ""
 "track to help with chord progressions."
 msgstr ""
 "Beinhaltet ein Akkord-Pad für ein schnelles Ausprobieren von Akkorden in "
-"einer Tonleiter und einer Akkordspur zur Hilfe mit Akkordfolgen."
+"einer Tonleiter und eine Akkordspur zur Hilfe mit Akkordfolgen."
 
 #: template/index.html.j2:135
 msgid "Free software"

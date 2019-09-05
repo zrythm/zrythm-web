@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-08-22 17:13+0100\n"
-"PO-Revision-Date: 2019-09-02 00:19+0000\n"
-"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
+"PO-Revision-Date: 2019-09-05 07:58+0000\n"
+"Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -190,23 +190,23 @@ msgstr ""
 
 #: template/download.html.j2:130
 msgid "Fedora (unofficial)"
-msgstr ""
+msgstr "Fedora (non ufficiale)"
 
 #: template/download.html.j2:144
 msgid "Mageia (unofficial)"
-msgstr ""
+msgstr "Mageia (non ufficiale)"
 
 #: template/download.html.j2:158
 msgid "Ubuntu (unofficial)"
-msgstr ""
+msgstr "Ubuntu (non ufficiale)"
 
 #: template/download.html.j2:174
 msgid "Other Platforms"
-msgstr ""
+msgstr "Altre piattaforme"
 
 #: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
-msgstr ""
+msgstr "FreeBSD (Freshports)"
 
 #: template/faq.html.j2:22
 msgid "Frequently Asked Questions"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: template/faq.html.j2:42
 msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr ""
+msgstr "Sto costruendo dalla fonte e voglio eseguire Zrythm senza installare"
 
 #: template/faq.html.j2:44
 msgid ""
@@ -252,7 +252,7 @@ msgstr ""
 
 #: template/faq.html.j2:50
 msgid "Enable the universe repository:"
-msgstr ""
+msgstr "Abilita il repository dell'universo:"
 
 #: template/index.html.j2:39
 msgid "Overview"
