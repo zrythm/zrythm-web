@@ -8,24 +8,25 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-09-05 09:00+0100\n"
-"PO-Revision-Date: 2019-07-13 12:02+0000\n"
+"PO-Revision-Date: 2019-09-06 19:10+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 3.8-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "wysoce zautomatyzowana i intuicyjna cyfrowa stacja robocza audio"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr ""
+msgstr "Strona główna"
 
 #: common/navigation.j2.inc:30
 msgid "Download"
@@ -33,7 +34,7 @@ msgstr "Pobierz"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
-msgstr ""
+msgstr "Odnośniki"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:23
 msgid "Community"
@@ -41,7 +42,7 @@ msgstr "Społeczność"
 
 #: common/navigation.j2.inc:58
 msgid "Language"
-msgstr ""
+msgstr "Język"
 
 #: template/about.html.j2:22
 msgid "About Zrythm"
@@ -97,112 +98,112 @@ msgstr ""
 
 #: template/community.html.j2:30
 msgid "Communication"
-msgstr ""
+msgstr "Komunikacja"
 
 #: template/community.html.j2:38
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: template/community.html.j2:44
 msgid "#zrythm on irc.freenode.net"
-msgstr ""
+msgstr "#zrythm na irc.freenode.net"
 
 #: template/community.html.j2:52
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: template/community.html.j2:66
 msgid "Issue tracker"
-msgstr ""
+msgstr "Śledzenie problemów"
 
 #: template/community.html.j2:74
 msgid "Savannah"
-msgstr ""
+msgstr "Savannah"
 
 #: template/community.html.j2:80
 msgid "issue tracker"
-msgstr ""
+msgstr "śledzenie problemów"
 
 #: template/community.html.j2:90
 msgid "Translations"
-msgstr ""
+msgstr "Tłumaczenia"
 
 #: template/community.html.j2:98
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: template/community.html.j2:104
 msgid "zrythm project"
-msgstr ""
+msgstr "projekt zrythm"
 
 #: template/download.html.j2:23
 msgid "Installation"
-msgstr ""
+msgstr "Instalacja"
 
 #: template/download.html.j2:32
 msgid "Source code"
-msgstr ""
+msgstr "Kod źródłowy"
 
 #: template/download.html.j2:40
 msgid "git repositories"
-msgstr ""
+msgstr "repozytoria git"
 
 #: template/download.html.j2:52
 msgid "stable releases"
-msgstr ""
+msgstr "stabilne wydania"
 
 #: template/download.html.j2:58
 msgid "releases at Savannah"
-msgstr ""
+msgstr "wydaje w Savannah"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
-msgstr ""
+msgstr "Klucz podpisywania GPG"
 
 #: template/download.html.j2:80
 msgid "GNU Linux packages"
-msgstr ""
+msgstr "Pakiety GNU Linux"
 
 #: template/download.html.j2:88
 msgid "Arch (aur, git package)"
-msgstr ""
+msgstr "Arch (aur, pakiet git)"
 
 #: template/download.html.j2:94
 msgid "zrythm-git"
-msgstr ""
+msgstr "zrythm-git"
 
 #: template/download.html.j2:102
 msgid "Arch (aur, stable)"
-msgstr ""
+msgstr "Arch (aur, stabilny)"
 
 #: template/download.html.j2:108 template/download.html.j2:188
 msgid "zrythm"
-msgstr ""
+msgstr "zrythm"
 
 #: template/download.html.j2:116
 msgid "Debian (unofficial)"
-msgstr ""
+msgstr "Debian (nieoficjalny)"
 
 #: template/download.html.j2:122 template/download.html.j2:136
 #: template/download.html.j2:150 template/download.html.j2:164
 msgid "zrythm at openSUSE build service"
-msgstr ""
+msgstr "zrythm w usłudze kompilacji openSUSE"
 
 #: template/download.html.j2:130
 msgid "Fedora (unofficial)"
-msgstr ""
+msgstr "Fedora (nieoficjalny)"
 
 #: template/download.html.j2:144
 msgid "Mageia (unofficial)"
-msgstr ""
+msgstr "Mageia (nieoficjalny)"
 
 #: template/download.html.j2:158
 msgid "Ubuntu (unofficial)"
-msgstr ""
+msgstr "Ubuntu (nieoficjalny)"
 
 #: template/download.html.j2:174
 msgid "Other Platforms"
-msgstr ""
+msgstr "Inne platformy"
 
 #: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
@@ -223,6 +224,10 @@ msgid ""
 "to test each release and provide us with feedback if you would like to help "
 "speed things up."
 msgstr ""
+"Zrythm jest na wczesnym etapie alfa. Wiele istotnych funkcji zostało już "
+"wdrożonych, ale nie zalecamy jeszcze ich produkcji. Zapraszamy do "
+"przetestowania każdego wydania i przekazania nam informacji zwrotnej, jeśli "
+"chcesz pomóc w przyspieszeniu pracy."
 
 #: template/faq.html.j2:35
 msgid "What plugin protocols are supported?"
@@ -241,6 +246,8 @@ msgid ""
 "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 msgstr ""
+"Uruchom  <code>glib-compile-schemas data/</code>, a następnie uruchom zrythm "
+"za pomocą <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 
 #: template/faq.html.j2:48
 msgid "I get unmet dependencies when installing on Ubuntu"
@@ -248,21 +255,23 @@ msgstr "Kiedy instaluję na Ubuntu, nie mam żadnych zależności"
 
 #: template/faq.html.j2:50
 msgid "Enable the universe repository:"
-msgstr ""
+msgstr "Włącz uniwersalne repozytorium:"
 
 #: template/index.html.j2:39
 msgid "Overview"
-msgstr ""
+msgstr "Przegląd"
 
 #: template/index.html.j2:45
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr ""
+"Zrythm to cyfrowa stacja robocza, zaprojektowana z myślą o funkcjonalności i "
+"łatwości użytkowania."
 
 #: template/index.html.j2:59
 msgid "Limitless automation"
-msgstr ""
+msgstr "Nieograniczona automatyzacja"
 
 #: template/index.html.j2:64
 msgid ""
@@ -272,17 +281,19 @@ msgstr ""
 
 #: template/index.html.j2:77
 msgid "LV2 plugins"
-msgstr ""
+msgstr "Wtyczki LV2"
 
 #: template/index.html.j2:82
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins. Drag"
 " and drop any plugin and start tweaking."
 msgstr ""
+"Pełna obsługa LV2, bezpłatnego i rozszerzalnego standardu dla wtyczek audio. "
+"Przeciągnij i upuść dowolną wtyczkę i rozpocznij dostosowywanie."
 
 #: template/index.html.j2:98
 msgid "JACK support"
-msgstr ""
+msgstr "Wsparcie JACK"
 
 #: template/index.html.j2:103
 msgid "Fully JACK aware, including support for JACK transport."
@@ -300,35 +311,34 @@ msgstr ""
 
 #: template/index.html.j2:135
 msgid "Free software"
-msgstr ""
+msgstr "Wolne oprogramowanie"
 
 #: template/index.html.j2:140
 msgid "Use, study, share and improve freely."
-msgstr ""
+msgstr "Korzystaj, ucz się, udostępniaj i ulepszaj swobodnie."
 
 #: template/index.html.j2:151
 msgid "Multilingual"
-msgstr ""
+msgstr "Wielojęzyczny"
 
 #: template/index.html.j2:156
-#| msgid ""
-#| "Available in English, German, French, Italian, Spanish, Japanese and many "
-#| "more languages."
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
 msgstr ""
+"Zrythm jest dostępny w języku angielskim, francuskim, portugalskim, "
+"japońskim i niemieckim."
 
 #: template/reference.html.j2:30
 msgid "User Manual"
-msgstr ""
+msgstr "Instrukcja obsługi"
 
 #: template/reference.html.j2:38
 msgid "online manual"
-msgstr ""
+msgstr "instrukcja online"
 
 #: template/reference.html.j2:44
 msgid "browse manual"
-msgstr ""
+msgstr "przeglądaj instrukcję"
 
 #: template/reference.html.j2:53
 msgid "HTML-render (zip)"
@@ -336,7 +346,7 @@ msgstr ""
 
 #: template/reference.html.j2:59
 msgid "download HTML zip"
-msgstr ""
+msgstr "pobierz HTML zip"
 
 #: template/reference.html.j2:68
 msgid "PDF-render"
@@ -344,7 +354,7 @@ msgstr ""
 
 #: template/reference.html.j2:74
 msgid "download PDF"
-msgstr ""
+msgstr "pobierz PDF"
 
 #: template/reference.html.j2:83
 msgid "ePUB-render"
@@ -352,19 +362,19 @@ msgstr ""
 
 #: template/reference.html.j2:89
 msgid "download ePUB"
-msgstr ""
+msgstr "pobierz ePUB"
 
 #: template/reference.html.j2:100
 msgid "Developer docs"
-msgstr ""
+msgstr "Dokumentacja dla programistów"
 
 #: template/reference.html.j2:108
 msgid "online docs"
-msgstr ""
+msgstr "dokumenty online"
 
 #: template/reference.html.j2:114
 msgid "browse docs"
-msgstr ""
+msgstr "przeglądaj dokumenty"
 
 #~ msgid "Contact information"
 #~ msgstr "Informacje kontaktowe"
