@@ -107,6 +107,7 @@ savannah_downloads_url = 'https://download.savannah.nongnu.org/releases/zrythm/'
 aur_git_url = 'https://aur.archlinux.org/packages/zrythm-git/'
 aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
 obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm'
+copr_package_url = 'https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/package/zrythm/'
 freshports_url = 'https://www.freshports.org/audio/zrythm/'
 
 # get latest version
@@ -255,6 +256,7 @@ for in_file in glob.glob("template/*.j2"):
                               aur_stable_url=aur_stable_url,
                               freshports_url=freshports_url,
                               obs_package_url=obs_package_url,
+                              copr_package_url=copr_package_url,
                               savannah_downloads_url=savannah_downloads_url,
                               news=news,
                               datetime_parse=parse,
