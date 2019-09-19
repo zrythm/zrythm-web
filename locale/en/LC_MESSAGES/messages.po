@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-08 14:23+0100\n"
+"POT-Creation-Date: 2019-09-20 00:36+0100\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Arch (aur, stable)"
 msgstr ""
 
-#: template/download.html.j2:108 template/download.html.j2:202
+#: template/download.html.j2:108 template/download.html.j2:188
 msgid "zrythm"
 msgstr ""
 
@@ -158,7 +158,7 @@ msgid "Debian (unofficial)"
 msgstr ""
 
 #: template/download.html.j2:122 template/download.html.j2:150
-#: template/download.html.j2:164 template/download.html.j2:178
+#: template/download.html.j2:164
 msgid "zrythm at openSUSE build service"
 msgstr ""
 
@@ -175,18 +175,14 @@ msgid "Fedora (unofficial)"
 msgstr ""
 
 #: template/download.html.j2:158
-msgid "Mageia (unofficial)"
+msgid "Others (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:172
-msgid "Ubuntu (unofficial)"
-msgstr ""
-
-#: template/download.html.j2:188
+#: template/download.html.j2:174
 msgid "Other Platforms"
 msgstr ""
 
-#: template/download.html.j2:196
+#: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
 msgstr ""
 

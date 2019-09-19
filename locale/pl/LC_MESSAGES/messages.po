@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-08 14:23+0100\n"
+"POT-Creation-Date: 2019-09-20 00:36+0100\n"
 "PO-Revision-Date: 2019-09-06 19:10+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -175,7 +175,7 @@ msgstr "zrythm-git"
 msgid "Arch (aur, stable)"
 msgstr "Arch (aur, stabilny)"
 
-#: template/download.html.j2:108 template/download.html.j2:202
+#: template/download.html.j2:108 template/download.html.j2:188
 msgid "zrythm"
 msgstr "zrythm"
 
@@ -184,7 +184,7 @@ msgid "Debian (unofficial)"
 msgstr "Debian (nieoficjalny)"
 
 #: template/download.html.j2:122 template/download.html.j2:150
-#: template/download.html.j2:164 template/download.html.j2:178
+#: template/download.html.j2:164
 msgid "zrythm at openSUSE build service"
 msgstr "zrythm w usłudze kompilacji openSUSE"
 
@@ -201,18 +201,15 @@ msgid "Fedora (unofficial)"
 msgstr "Fedora (nieoficjalny)"
 
 #: template/download.html.j2:158
-msgid "Mageia (unofficial)"
-msgstr "Mageia (nieoficjalny)"
+#| msgid "Fedora (unofficial)"
+msgid "Others (unofficial)"
+msgstr ""
 
-#: template/download.html.j2:172
-msgid "Ubuntu (unofficial)"
-msgstr "Ubuntu (nieoficjalny)"
-
-#: template/download.html.j2:188
+#: template/download.html.j2:174
 msgid "Other Platforms"
 msgstr "Inne platformy"
 
-#: template/download.html.j2:196
+#: template/download.html.j2:182
 msgid "FreeBSD (Freshports)"
 msgstr ""
 
@@ -382,6 +379,12 @@ msgstr "dokumenty online"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "przeglądaj dokumenty"
+
+#~ msgid "Mageia (unofficial)"
+#~ msgstr "Mageia (nieoficjalny)"
+
+#~ msgid "Ubuntu (unofficial)"
+#~ msgstr "Ubuntu (nieoficjalny)"
 
 #~ msgid "Contact information"
 #~ msgstr "Informacje kontaktowe"
