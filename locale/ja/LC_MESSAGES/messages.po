@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-20 00:36+0100\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
 "PO-Revision-Date: 2019-09-06 20:08+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -90,42 +90,26 @@ msgid ""
 msgstr "初期アルファ。やや機能的ですが、実装されていない機能とクラッシュがたくさんあります。"
 
 #: template/community.html.j2:30
-msgid "Communication"
-msgstr "コミュニケーション"
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr "irc.freenode.netの#zrythm"
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr "Matrix"
-
-#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:38
 msgid "Savannah"
 msgstr "Savannah"
 
-#: template/community.html.j2:80
+#: template/community.html.j2:44
 msgid "issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:90
+#: template/community.html.j2:54
 msgid "Translations"
 msgstr "翻訳"
 
-#: template/community.html.j2:98
+#: template/community.html.j2:62
 msgid "Weblate"
 msgstr "Weblate"
 
-#: template/community.html.j2:104
+#: template/community.html.j2:68
 msgid "zrythm project"
 msgstr "zrythmプロジェクト"
 
@@ -195,7 +179,6 @@ msgid "Fedora (unofficial)"
 msgstr "Fedora (非公式)"
 
 #: template/download.html.j2:158
-#| msgid "Fedora (unofficial)"
 msgid "Others (unofficial)"
 msgstr ""
 
@@ -365,6 +348,18 @@ msgstr "オンラインドキュメント"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
+
+#~ msgid "Communication"
+#~ msgstr "コミュニケーション"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "irc.freenode.netの#zrythm"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrix"
 
 #~ msgid "Mageia (unofficial)"
 #~ msgstr "Mageia (非公式)"

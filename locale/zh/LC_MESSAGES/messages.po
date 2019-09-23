@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-20 00:36+0100\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -86,42 +86,26 @@ msgid ""
 msgstr ""
 
 #: template/community.html.j2:30
-msgid "Communication"
-msgstr ""
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr ""
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr ""
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr ""
-
-#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:74
+#: template/community.html.j2:38
 msgid "Savannah"
 msgstr ""
 
-#: template/community.html.j2:80
+#: template/community.html.j2:44
 msgid "issue tracker"
 msgstr ""
 
-#: template/community.html.j2:90
+#: template/community.html.j2:54
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:98
+#: template/community.html.j2:62
 msgid "Weblate"
 msgstr ""
 
-#: template/community.html.j2:104
+#: template/community.html.j2:68
 msgid "zrythm project"
 msgstr ""
 

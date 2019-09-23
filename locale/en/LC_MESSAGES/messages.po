@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-20 00:36+0100\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -70,42 +70,26 @@ msgid ""
 msgstr ""
 
 #: template/community.html.j2:30
-msgid "Communication"
-msgstr ""
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr ""
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr ""
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr ""
-
-#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:74
+#: template/community.html.j2:38
 msgid "Savannah"
 msgstr ""
 
-#: template/community.html.j2:80
+#: template/community.html.j2:44
 msgid "issue tracker"
 msgstr ""
 
-#: template/community.html.j2:90
+#: template/community.html.j2:54
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:98
+#: template/community.html.j2:62
 msgid "Weblate"
 msgstr ""
 
-#: template/community.html.j2:104
+#: template/community.html.j2:68
 msgid "zrythm project"
 msgstr ""
 

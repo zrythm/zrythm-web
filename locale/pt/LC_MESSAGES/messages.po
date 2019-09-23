@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-20 00:36+0100\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
 "PO-Revision-Date: 2019-09-16 19:24+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -95,42 +95,26 @@ msgstr ""
 " muito."
 
 #: template/community.html.j2:30
-msgid "Communication"
-msgstr "Comunicação"
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr "#zrythm on irc.freenode.net"
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr "Matriz"
-
-#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr "Rastreador de problemas"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:38
 msgid "Savannah"
 msgstr "Savannah"
 
-#: template/community.html.j2:80
+#: template/community.html.j2:44
 msgid "issue tracker"
 msgstr "rastreador de problemas"
 
-#: template/community.html.j2:90
+#: template/community.html.j2:54
 msgid "Translations"
 msgstr "Traduções"
 
-#: template/community.html.j2:98
+#: template/community.html.j2:62
 msgid "Weblate"
 msgstr "Weblate"
 
-#: template/community.html.j2:104
+#: template/community.html.j2:68
 msgid "zrythm project"
 msgstr "projeto zrythm"
 
@@ -200,7 +184,6 @@ msgid "Fedora (unofficial)"
 msgstr "Fedora (não oficial)"
 
 #: template/download.html.j2:158
-#| msgid "Fedora (unofficial)"
 msgid "Others (unofficial)"
 msgstr ""
 
@@ -382,6 +365,18 @@ msgstr "documentos on-line"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "procurar documentos"
+
+#~ msgid "Communication"
+#~ msgstr "Comunicação"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "#zrythm on irc.freenode.net"
+
+#~ msgid "Matrix"
+#~ msgstr "Matriz"
 
 #~ msgid "Mageia (unofficial)"
 #~ msgstr "Mageia (não oficial)"

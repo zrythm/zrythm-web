@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-20 00:36+0100\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
 "PO-Revision-Date: 2019-09-14 11:24+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -97,42 +97,26 @@ msgstr ""
 "implémentées et beaucoup de crashs."
 
 #: template/community.html.j2:30
-msgid "Communication"
-msgstr "Communication"
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr "#zrythm sur irc.freenode.net"
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr "Matrix"
-
-#: template/community.html.j2:66
 msgid "Issue tracker"
 msgstr "Suivi des problèmes"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:38
 msgid "Savannah"
 msgstr "Savannah"
 
-#: template/community.html.j2:80
+#: template/community.html.j2:44
 msgid "issue tracker"
 msgstr "outil de suivi des problèmes"
 
-#: template/community.html.j2:90
+#: template/community.html.j2:54
 msgid "Translations"
 msgstr "Traductions"
 
-#: template/community.html.j2:98
+#: template/community.html.j2:62
 msgid "Weblate"
 msgstr "Weblate"
 
-#: template/community.html.j2:104
+#: template/community.html.j2:68
 msgid "zrythm project"
 msgstr "projet zrythm"
 
@@ -202,7 +186,6 @@ msgid "Fedora (unofficial)"
 msgstr "Fedora (non-officiel)"
 
 #: template/download.html.j2:158
-#| msgid "Fedora (unofficial)"
 msgid "Others (unofficial)"
 msgstr ""
 
@@ -390,6 +373,18 @@ msgstr "docs en ligne"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "naviguer dans les docs"
+
+#~ msgid "Communication"
+#~ msgstr "Communication"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "#zrythm sur irc.freenode.net"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrix"
 
 #~ msgid "Mageia (unofficial)"
 #~ msgstr "Mageia (non-officiel)"
