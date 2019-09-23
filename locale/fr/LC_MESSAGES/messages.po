@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:33+0100\n"
-"PO-Revision-Date: 2019-09-14 11:24+0000\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
+"PO-Revision-Date: 2019-09-24 07:13+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -175,11 +175,11 @@ msgstr "zrythm sur le service de construction d'openSUSE"
 
 #: template/download.html.j2:130
 msgid "Fedora (copr)"
-msgstr ""
+msgstr "Fedora (copr)"
 
 #: template/download.html.j2:136
 msgid "zrythm at copr"
-msgstr ""
+msgstr "zrythm chez copr"
 
 #: template/download.html.j2:144
 msgid "Fedora (unofficial)"
@@ -187,7 +187,7 @@ msgstr "Fedora (non-officiel)"
 
 #: template/download.html.j2:158
 msgid "Others (unofficial)"
-msgstr ""
+msgstr "Autres (officieux)"
 
 #: template/download.html.j2:174
 msgid "Other Platforms"
