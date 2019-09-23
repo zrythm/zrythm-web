@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:33+0100\n"
-"PO-Revision-Date: 2019-09-23 11:28+0000\n"
+"POT-Creation-Date: 2019-09-23 12:48+0100\n"
+"PO-Revision-Date: 2019-09-24 07:13+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -171,11 +171,11 @@ msgstr "Zrythm beim openSUSE-Build-Service"
 
 #: template/download.html.j2:130
 msgid "Fedora (copr)"
-msgstr ""
+msgstr "Fedora (copr)"
 
 #: template/download.html.j2:136
 msgid "zrythm at copr"
-msgstr ""
+msgstr "zrythm bei copr"
 
 #: template/download.html.j2:144
 msgid "Fedora (unofficial)"
@@ -183,7 +183,7 @@ msgstr "Fedora (inoffiziell)"
 
 #: template/download.html.j2:158
 msgid "Others (unofficial)"
-msgstr ""
+msgstr "Andere (inoffiziell)"
 
 #: template/download.html.j2:174
 msgid "Other Platforms"
