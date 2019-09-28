@@ -66,6 +66,21 @@ table td {
   flex: initial !important;
 }
 
+a:link:not(.button) {
+  /*color: #0277bd;*/
+  color: #2297dd;
+}
+
+a:visited:not(.button) {
+  /*color: #01579b;*/
+  /*color: #2177bb;*/
+  color: #2297dd;
+}
+
+a:hover:not(.button) {
+  /*color: #32a7ed;*/
+}
+
 .first_col {
   width: 180px;
 }
@@ -73,3 +88,21 @@ table td {
 .second_col {
   /*width: 70%;*/
 }
+
+/* banner */
+div#banner {
+ position: absolute;
+ top: 3.1875rem;
+ left: 0;
+ background-color: rgb(180, 120, 1.0);
+ width: 100%;
+}
+div#banner-content {
+ width: 900px;
+ margin: 0 auto;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+/*div#body_content {*/
+ /*padding-top: 3.1875rem;*/
+/*}*/
