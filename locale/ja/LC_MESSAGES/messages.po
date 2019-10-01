@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-23 12:48+0100\n"
+"POT-Creation-Date: 2019-10-01 20:33+0100\n"
 "PO-Revision-Date: 2019-09-06 20:08+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -130,8 +130,8 @@ msgid "stable releases"
 msgstr "安定版リリース"
 
 #: template/download.html.j2:58
-msgid "releases at Savannah"
-msgstr "Savannahでのリリース"
+msgid "releases"
+msgstr ""
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
@@ -348,6 +348,9 @@ msgstr "オンラインドキュメント"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
+
+#~ msgid "releases at Savannah"
+#~ msgstr "Savannahでのリリース"
 
 #~ msgid "Communication"
 #~ msgstr "コミュニケーション"

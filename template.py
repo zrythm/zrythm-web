@@ -103,7 +103,7 @@ git_web_url = git_base_url + 'zrythm-web'
 issue_tracker = 'https://savannah.nongnu.org/support/?group=zrythm'
 git_blob_url = git_url + '/tree'
 pronunciation = 'ziˈrɪðəm'
-savannah_downloads_url = 'https://download.savannah.nongnu.org/releases/zrythm/'
+releases_url = 'https://www.zrythm.org/releases/'
 aur_git_url = 'https://aur.archlinux.org/packages/zrythm-git/'
 aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
 obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm'
@@ -257,7 +257,7 @@ for in_file in glob.glob("template/*.j2"):
                               freshports_url=freshports_url,
                               obs_package_url=obs_package_url,
                               copr_package_url=copr_package_url,
-                              savannah_downloads_url=savannah_downloads_url,
+                              releases_url=releases_url,
                               news=news,
                               datetime_parse=parse,
                               issue_tracker=issue_tracker,

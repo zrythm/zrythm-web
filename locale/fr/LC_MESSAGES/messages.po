@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-23 12:48+0100\n"
+"POT-Creation-Date: 2019-10-01 20:33+0100\n"
 "PO-Revision-Date: 2019-09-14 11:24+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -137,8 +137,8 @@ msgid "stable releases"
 msgstr "versions stables"
 
 #: template/download.html.j2:58
-msgid "releases at Savannah"
-msgstr "versions à Savannah"
+msgid "releases"
+msgstr ""
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
@@ -373,6 +373,9 @@ msgstr "docs en ligne"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "naviguer dans les docs"
+
+#~ msgid "releases at Savannah"
+#~ msgstr "versions à Savannah"
 
 #~ msgid "Communication"
 #~ msgstr "Communication"
