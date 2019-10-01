@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-10-01 20:33+0100\n"
-"PO-Revision-Date: 2019-09-06 20:08+0000\n"
+"PO-Revision-Date: 2019-10-02 20:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -131,7 +132,7 @@ msgstr "安定版リリース"
 
 #: template/download.html.j2:58
 msgid "releases"
-msgstr ""
+msgstr "リリース"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
@@ -168,11 +169,11 @@ msgstr "openSUSEビルドサービスのzrythm"
 
 #: template/download.html.j2:130
 msgid "Fedora (copr)"
-msgstr ""
+msgstr "Fedora (copr)"
 
 #: template/download.html.j2:136
 msgid "zrythm at copr"
-msgstr ""
+msgstr "zrythm @ copr"
 
 #: template/download.html.j2:144
 msgid "Fedora (unofficial)"
@@ -180,7 +181,7 @@ msgstr "Fedora (非公式)"
 
 #: template/download.html.j2:158
 msgid "Others (unofficial)"
-msgstr ""
+msgstr "その他（非公式）"
 
 #: template/download.html.j2:174
 msgid "Other Platforms"
