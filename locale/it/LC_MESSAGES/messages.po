@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:33+0100\n"
+"POT-Creation-Date: 2019-10-05 17:05+0100\n"
 "PO-Revision-Date: 2019-09-05 07:58+0000\n"
 "Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -99,23 +99,15 @@ msgstr ""
 msgid "Issue tracker"
 msgstr "Rilevamento dei problemi"
 
-#: template/community.html.j2:38
-msgid "Savannah"
-msgstr "Savannah"
-
-#: template/community.html.j2:44
+#: template/community.html.j2:42
 msgid "issue tracker"
 msgstr "Rilevamento dei problemi"
 
-#: template/community.html.j2:54
+#: template/community.html.j2:52
 msgid "Translations"
 msgstr "Traduzioni"
 
-#: template/community.html.j2:62
-msgid "Weblate"
-msgstr "Weblate"
-
-#: template/community.html.j2:68
+#: template/community.html.j2:64
 msgid "zrythm project"
 msgstr "progetto Zrythm"
 
@@ -356,6 +348,12 @@ msgstr ""
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr ""
+
+#~ msgid "Savannah"
+#~ msgstr "Savannah"
+
+#~ msgid "Weblate"
+#~ msgstr "Weblate"
 
 #~ msgid "releases at Savannah"
 #~ msgstr "pubblicazioni su Savannah"

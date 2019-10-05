@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:33+0100\n"
+"POT-Creation-Date: 2019-10-05 17:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,23 +85,15 @@ msgstr ""
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:38
-msgid "Savannah"
-msgstr ""
-
-#: template/community.html.j2:44
+#: template/community.html.j2:42
 msgid "issue tracker"
 msgstr ""
 
-#: template/community.html.j2:54
+#: template/community.html.j2:52
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:62
-msgid "Weblate"
-msgstr ""
-
-#: template/community.html.j2:68
+#: template/community.html.j2:64
 msgid "zrythm project"
 msgstr ""
 

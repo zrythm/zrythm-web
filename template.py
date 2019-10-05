@@ -100,7 +100,7 @@ lang_flags = {
 git_base_url = 'https://git.zrythm.org/cgit/'
 git_url = git_base_url + 'zrythm'
 git_web_url = git_base_url + 'zrythm-web'
-issue_tracker = 'https://savannah.nongnu.org/support/?group=zrythm'
+issue_tracker = 'https://redmine.zrythm.org/projects/zrythm/issues'
 git_blob_url = git_url + '/tree'
 pronunciation = 'ziˈrɪðəm'
 releases_url = 'https://www.zrythm.org/releases/'

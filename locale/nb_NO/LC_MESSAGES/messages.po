@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:33+0100\n"
+"POT-Creation-Date: 2019-10-05 17:05+0100\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -96,23 +96,15 @@ msgstr ""
 msgid "Issue tracker"
 msgstr "Problemsporer"
 
-#: template/community.html.j2:38
-msgid "Savannah"
-msgstr "Savannah"
-
-#: template/community.html.j2:44
+#: template/community.html.j2:42
 msgid "issue tracker"
 msgstr "problemsporer"
 
-#: template/community.html.j2:54
+#: template/community.html.j2:52
 msgid "Translations"
 msgstr "Oversettelser"
 
-#: template/community.html.j2:62
-msgid "Weblate"
-msgstr "Weblate"
-
-#: template/community.html.j2:68
+#: template/community.html.j2:64
 msgid "zrythm project"
 msgstr "Zrythm-prosjektet"
 
@@ -358,6 +350,12 @@ msgstr "nettbasert dokumentasjon"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "utforsk dokumentasjon"
+
+#~ msgid "Savannah"
+#~ msgstr "Savannah"
+
+#~ msgid "Weblate"
+#~ msgstr "Weblate"
 
 #~ msgid "releases at Savannah"
 #~ msgstr "utgivelser på Savannah"

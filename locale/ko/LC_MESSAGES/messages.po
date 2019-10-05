@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:04+0100\n"
+"POT-Creation-Date: 2019-10-05 17:05+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -88,23 +88,15 @@ msgstr ""
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:38
-msgid "Savannah"
-msgstr ""
-
-#: template/community.html.j2:44
+#: template/community.html.j2:42
 msgid "issue tracker"
 msgstr ""
 
-#: template/community.html.j2:54
+#: template/community.html.j2:52
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:62
-msgid "Weblate"
-msgstr ""
-
-#: template/community.html.j2:68
+#: template/community.html.j2:64
 msgid "zrythm project"
 msgstr ""
 

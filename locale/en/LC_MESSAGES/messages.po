@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-01 20:04+0100\n"
+"POT-Creation-Date: 2019-10-05 17:05+0100\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -73,23 +73,15 @@ msgstr ""
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:38
-msgid "Savannah"
-msgstr ""
-
-#: template/community.html.j2:44
+#: template/community.html.j2:42
 msgid "issue tracker"
 msgstr ""
 
-#: template/community.html.j2:54
+#: template/community.html.j2:52
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:62
-msgid "Weblate"
-msgstr ""
-
-#: template/community.html.j2:68
+#: template/community.html.j2:64
 msgid "zrythm project"
 msgstr ""
 
