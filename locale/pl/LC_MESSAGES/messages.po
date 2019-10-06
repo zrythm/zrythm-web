@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-05 17:05+0100\n"
+"POT-Creation-Date: 2019-10-06 10:42+0100\n"
 "PO-Revision-Date: 2019-09-06 19:10+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -263,44 +263,44 @@ msgid "LV2 plugins"
 msgstr "Wtyczki LV2"
 
 #: template/index.html.j2:82
+#| msgid ""
+#| "Full support for LV2, a free and extensible standard for audio plugins. Drag"
+#| " and drop any plugin and start tweaking."
 msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins. Drag"
-" and drop any plugin and start tweaking."
+"Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
-"Pełna obsługa LV2, bezpłatnego i rozszerzalnego standardu dla wtyczek audio."
-" Przeciągnij i upuść dowolną wtyczkę i rozpocznij dostosowywanie."
 
-#: template/index.html.j2:98
+#: template/index.html.j2:97
 msgid "JACK support"
 msgstr "Wsparcie JACK"
 
-#: template/index.html.j2:103
+#: template/index.html.j2:102
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
 
-#: template/index.html.j2:115
+#: template/index.html.j2:114
 msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:120
+#: template/index.html.j2:119
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:135
+#: template/index.html.j2:134
 msgid "Free software"
 msgstr "Wolne oprogramowanie"
 
-#: template/index.html.j2:140
+#: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
 msgstr "Korzystaj, ucz się, udostępniaj i ulepszaj swobodnie."
 
-#: template/index.html.j2:151
+#: template/index.html.j2:150
 msgid "Multilingual"
 msgstr "Wielojęzyczny"
 
-#: template/index.html.j2:156
+#: template/index.html.j2:155
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
 msgstr ""

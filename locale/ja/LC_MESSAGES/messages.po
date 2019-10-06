@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-05 17:05+0100\n"
+"POT-Creation-Date: 2019-10-06 10:42+0100\n"
 "PO-Revision-Date: 2019-09-06 20:08+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -253,42 +253,44 @@ msgid "LV2 plugins"
 msgstr "LV2プラグイン"
 
 #: template/index.html.j2:82
+#| msgid ""
+#| "Full support for LV2, a free and extensible standard for audio plugins. Drag"
+#| " and drop any plugin and start tweaking."
 msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins. Drag"
-" and drop any plugin and start tweaking."
-msgstr "オーディオプラグインの自由で拡張可能な標準であるLV2は完全に対応。プラグインをドラッグアンドドロップし、微調整しましょう。"
+"Full support for LV2, a free and extensible standard for audio plugins."
+msgstr ""
 
-#: template/index.html.j2:98
+#: template/index.html.j2:97
 msgid "JACK support"
 msgstr "JACK対応"
 
-#: template/index.html.j2:103
+#: template/index.html.j2:102
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr "JACK トランスポートを含む、完全な JACK 対応。"
 
-#: template/index.html.j2:115
+#: template/index.html.j2:114
 msgid "Chord assistance"
 msgstr "和音援助"
 
-#: template/index.html.j2:120
+#: template/index.html.j2:119
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr "和音進行に役立つコードトラック、音階および和音をすばやく試聴するためのコードパッドを備えています。"
 
-#: template/index.html.j2:135
+#: template/index.html.j2:134
 msgid "Free software"
 msgstr "自由ソフトウェア"
 
-#: template/index.html.j2:140
+#: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
 msgstr "自由に使用、勉学、共有、改善できます。"
 
-#: template/index.html.j2:151
+#: template/index.html.j2:150
 msgid "Multilingual"
 msgstr "多言語に対応"
 
-#: template/index.html.j2:156
+#: template/index.html.j2:155
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
 msgstr "Zrythmは英語、フランス語、ポルトガル語、日本語、ドイツ語で利用できます。"

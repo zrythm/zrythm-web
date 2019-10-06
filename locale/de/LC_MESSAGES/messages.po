@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-05 17:05+0100\n"
+"POT-Creation-Date: 2019-10-06 10:42+0100\n"
 "PO-Revision-Date: 2019-09-24 07:13+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -264,29 +264,28 @@ msgid "LV2 plugins"
 msgstr "LV2-Plugins"
 
 #: template/index.html.j2:82
+#| msgid ""
+#| "Full support for LV2, a free and extensible standard for audio plugins. Drag"
+#| " and drop any plugin and start tweaking."
 msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins. Drag"
-" and drop any plugin and start tweaking."
+"Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
-"Volle Unterstützung für LV2, einem freien und erweiterbaren Standard für "
-"Audioerweiterungen. Ziehe und lege eine Erweiterung ab und fang an, sie "
-"anzupassen."
 
-#: template/index.html.j2:98
+#: template/index.html.j2:97
 msgid "JACK support"
 msgstr "JACK-Unterstützung"
 
-#: template/index.html.j2:103
+#: template/index.html.j2:102
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
 "Vollkompatibel mit JACK, einschließlich Unterstützung für den JACK-"
 "Transport."
 
-#: template/index.html.j2:115
+#: template/index.html.j2:114
 msgid "Chord assistance"
 msgstr "Akkordassistenz"
 
-#: template/index.html.j2:120
+#: template/index.html.j2:119
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
@@ -294,19 +293,19 @@ msgstr ""
 "Beinhaltet ein Akkord-Pad für ein schnelles Ausprobieren von Akkorden in "
 "einer Tonleiter und eine Akkordspur zur Hilfe mit Akkordfolgen."
 
-#: template/index.html.j2:135
+#: template/index.html.j2:134
 msgid "Free software"
 msgstr "Freie Software"
 
-#: template/index.html.j2:140
+#: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
 msgstr "Nutze, studiere, teile, und benutze es frei."
 
-#: template/index.html.j2:151
+#: template/index.html.j2:150
 msgid "Multilingual"
 msgstr "Mehrsprachig"
 
-#: template/index.html.j2:156
+#: template/index.html.j2:155
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
 msgstr ""
