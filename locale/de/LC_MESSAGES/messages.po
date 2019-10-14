@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-10-06 10:42+0100\n"
-"PO-Revision-Date: 2019-09-24 07:13+0000\n"
+"PO-Revision-Date: 2019-10-09 18:25+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -126,7 +126,7 @@ msgstr "Stabile Veröffentlichungen"
 
 #: template/download.html.j2:58
 msgid "releases"
-msgstr ""
+msgstr "Veröffentlichungen"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
