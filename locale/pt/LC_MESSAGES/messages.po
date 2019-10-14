@@ -264,9 +264,6 @@ msgid "LV2 plugins"
 msgstr "Plugins LV2"
 
 #: template/index.html.j2:82
-#| msgid ""
-#| "Full support for LV2, a free and extensible standard for audio plugins. Drag"
-#| " and drop any plugin and start tweaking."
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
