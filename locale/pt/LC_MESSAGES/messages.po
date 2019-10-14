@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-10-06 10:42+0100\n"
-"PO-Revision-Date: 2019-10-14 11:24+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"PO-Revision-Date: 2019-10-14 17:46+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 3.9-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:27
 msgid ""
@@ -25,6 +26,8 @@ msgid ""
 " href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
 "<!--"
 msgstr ""
+"--> <!--Zrythm está livre de DRM e de outras restrições - Saiba mais em <a "
+"href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> <!--"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -37,7 +40,7 @@ msgstr "Início"
 
 #: common/navigation.j2.inc:30
 msgid "Download"
-msgstr "Descargas"
+msgstr "Transferir"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
@@ -53,7 +56,7 @@ msgstr "Idioma"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr ""
+msgstr "Conversar"
 
 #: template/community.html.j2:38
 msgid "IRC"
@@ -61,7 +64,7 @@ msgstr "IRC"
 
 #: template/community.html.j2:44
 msgid "#zrythm on irc.freenode.net"
-msgstr "#zrythm on irc.freenode.net"
+msgstr "#zrythm no irc.freenode.net"
 
 #: template/community.html.j2:52
 msgid "Matrix"
@@ -69,15 +72,15 @@ msgstr "Matriz"
 
 #: template/community.html.j2:66
 msgid "Mail"
-msgstr ""
+msgstr "E-mail"
 
 #: template/community.html.j2:74
 msgid "User"
-msgstr ""
+msgstr "Utilizador"
 
 #: template/community.html.j2:86
 msgid "Developer"
-msgstr "Desenvolvedora"
+msgstr "Programador"
 
 #: template/community.html.j2:100
 msgid "Issue tracker"
@@ -93,7 +96,7 @@ msgstr "Traduções"
 
 #: template/community.html.j2:134
 msgid "zrythm project"
-msgstr "projeto zrythm"
+msgstr "Projeto zrythm"
 
 #: template/download.html.j2:23
 msgid "Installation"
@@ -101,11 +104,11 @@ msgstr "Instalação"
 
 #: template/download.html.j2:32
 msgid "Source code"
-msgstr "Código-fonte"
+msgstr "Código fonte"
 
 #: template/download.html.j2:40
 msgid "git repositories"
-msgstr "repositórios git"
+msgstr "Repositórios git"
 
 #: template/download.html.j2:52
 msgid "stable releases"
@@ -121,7 +124,7 @@ msgstr "Chave de assinatura GPG"
 
 #: template/download.html.j2:80
 msgid "GNU Linux packages"
-msgstr "Pacotes GNU Linux"
+msgstr "Pacotes Linux GNU"
 
 #: template/download.html.j2:88
 msgid "Arch (aur, git package)"
@@ -174,7 +177,7 @@ msgstr "FreeBSD (Freshports)"
 
 #: template/faq.html.j2:22
 msgid "Frequently Asked Questions"
-msgstr "Perguntas Frequentes"
+msgstr "Perguntas Mais Frequentes"
 
 #: template/faq.html.j2:28
 msgid "What's the current development status?"
@@ -194,15 +197,15 @@ msgstr ""
 
 #: template/faq.html.j2:35
 msgid "What plugin protocols are supported?"
-msgstr "Quais protocolos de plug-in são suportados?"
+msgstr "Quais os protocolos de plug-in que são suportados?"
 
 #: template/faq.html.j2:37
 msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr "LV2 neste momento. VST2 e VST3 em breve."
+msgstr "De momento, LV2. Brevemente VST2 e VST3."
 
 #: template/faq.html.j2:42
 msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr "Estou compilandor de fonte e quero executar Zrythm sem instalar"
+msgstr "Eu estou a compilar da fonte e eu quero executar o Zrythm sem instalar"
 
 #: template/faq.html.j2:44
 msgid ""
@@ -230,7 +233,7 @@ msgid ""
 "use."
 msgstr ""
 "Zrythm é uma estação de trabalho de áudio digital projetada para ser cheia "
-"de recursos e fácil de usar."
+"de funcionalidades e fácil de utilizar."
 
 #: template/index.html.j2:59
 msgid "Limitless automation"
@@ -246,13 +249,13 @@ msgstr ""
 
 #: template/index.html.j2:77
 msgid "LV2 plugins"
-msgstr "Plugins LV2"
+msgstr "Plug-ins LV2"
 
 #: template/index.html.j2:82
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
-"Suporte completo para LV2, uma norma livre e extensível para plugins de "
+"Suporte completo para LV2, uma norma livre e extensível para plug-ins de "
 "áudio."
 
 #: template/index.html.j2:97
@@ -282,7 +285,7 @@ msgstr "Software livre"
 
 #: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
-msgstr "Use, estude, compartilhe e melhore livremente."
+msgstr "Utilize, estude, partilhe e melhore livremente."
 
 #: template/index.html.j2:150
 msgid "Multilingual"
@@ -291,8 +294,7 @@ msgstr "Multilingual"
 #: template/index.html.j2:155
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
-msgstr ""
-"Zrythm está disponível em inglês, francês, português, japonês e alemão."
+msgstr "Zrythm está disponível em alemão, francês, inglês, japonês e português."
 
 #: template/reference.html.j2:30
 msgid "User Manual"
@@ -304,7 +306,7 @@ msgstr "Manual on-line"
 
 #: template/reference.html.j2:44
 msgid "browse manual"
-msgstr "procurar manual"
+msgstr "explorar manual"
 
 #: template/reference.html.j2:53
 msgid "HTML-render (zip)"
@@ -312,7 +314,7 @@ msgstr "HTML-render (zip)"
 
 #: template/reference.html.j2:59
 msgid "download HTML zip"
-msgstr "descarregar zip HTML"
+msgstr "transferir HTML zip"
 
 #: template/reference.html.j2:68
 msgid "PDF-render"
@@ -320,7 +322,7 @@ msgstr "PDF-render"
 
 #: template/reference.html.j2:74
 msgid "download PDF"
-msgstr "descarregar PDF"
+msgstr "transferir PDF"
 
 #: template/reference.html.j2:83
 msgid "ePUB-render"
@@ -328,11 +330,11 @@ msgstr "ePUB-render"
 
 #: template/reference.html.j2:89
 msgid "download ePUB"
-msgstr "descarregar ePUB"
+msgstr "transferir ePUB"
 
 #: template/reference.html.j2:100
 msgid "Developer docs"
-msgstr "Documentos do desenvolvedor"
+msgstr "Documentos do programador"
 
 #: template/reference.html.j2:108
 msgid "online docs"
@@ -340,7 +342,7 @@ msgstr "documentos on-line"
 
 #: template/reference.html.j2:114
 msgid "browse docs"
-msgstr "procurar documentos"
+msgstr "explorar documentos"
 
 #~ msgid "About Zrythm"
 #~ msgstr "Sobre o Zrythm"
