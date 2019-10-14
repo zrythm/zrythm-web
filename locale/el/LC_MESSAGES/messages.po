@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-06 10:42+0100\n"
+"POT-Creation-Date: 2019-10-14 05:04+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/el/>\n"
@@ -19,6 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 3.6.1\n"
+
+#: common/base.j2:27
+msgid ""
+"--> <!--Zrythm is free from DRM and other restrictions - Find out more at <a"
+" href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
+"<!--"
+msgstr ""
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -44,66 +51,47 @@ msgstr "Κοινότητα"
 msgid "Language"
 msgstr ""
 
-#: template/about.html.j2:22
-msgid "About Zrythm"
-msgstr "Σχετικά με το Zrythm"
-
-#: template/about.html.j2:25
-msgid "Version"
-msgstr ""
-
-#: template/about.html.j2:32
-msgid "Introduction"
-msgstr ""
-
-#: template/about.html.j2:34
-msgid ""
-"Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
-" and borrows ideas, concepts and code from other projects such as Ardour and"
-" Jalv. It is designed to be intuitive to use and is built with the intention"
-" to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
-" while offering a unique approach to workflow that other GNU/Linux DAWs "
-"lack."
-msgstr ""
-"Το Zrythm είναι μια εγγενής εφαρμογή GNU / Linux που κατασκευάστηκε με τη "
-"χρήση εργαλείων C και GTK +3 και δανείζεται ιδέες, έννοιες και κώδικα από "
-"άλλα έργα όπως Ardour και Jalv.  It is designed to be intuitive to use and "
-"is built with the intention to provide GNU/Linux users a full-featured "
-"alternative to proprietary DAWs, while offering a unique approach to "
-"workflow that other GNU/Linux DAWs lack."
-
-#: template/about.html.j2:40
-msgid "First Commit"
-msgstr ""
-
-#: template/about.html.j2:42
-msgid ""
-"The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-msgstr ""
-
-#: template/about.html.j2:46
-msgid "Current Stage"
-msgstr ""
-
-#: template/about.html.j2:48
-msgid ""
-"Early alpha. Somewhat functional but has unimplemented features and crashes "
-"a lot."
-msgstr ""
-
 #: template/community.html.j2:30
-msgid "Issue tracker"
+msgid "Chat"
 msgstr ""
 
-#: template/community.html.j2:42
-msgid "issue tracker"
+#: template/community.html.j2:38
+msgid "IRC"
+msgstr ""
+
+#: template/community.html.j2:44
+msgid "#zrythm on irc.freenode.net"
 msgstr ""
 
 #: template/community.html.j2:52
+msgid "Matrix"
+msgstr ""
+
+#: template/community.html.j2:66
+msgid "Mail"
+msgstr ""
+
+#: template/community.html.j2:74
+msgid "User"
+msgstr ""
+
+#: template/community.html.j2:86
+msgid "Developer"
+msgstr "Προγραμματιστής"
+
+#: template/community.html.j2:100
+msgid "Issue tracker"
+msgstr ""
+
+#: template/community.html.j2:112
+msgid "issue tracker"
+msgstr ""
+
+#: template/community.html.j2:122
 msgid "Translations"
 msgstr ""
 
-#: template/community.html.j2:64
+#: template/community.html.j2:134
 msgid "zrythm project"
 msgstr ""
 
@@ -341,6 +329,24 @@ msgstr ""
 msgid "browse docs"
 msgstr ""
 
+#~ msgid "About Zrythm"
+#~ msgstr "Σχετικά με το Zrythm"
+
+#~ msgid ""
+#~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
+#~ " and borrows ideas, concepts and code from other projects such as Ardour and"
+#~ " Jalv. It is designed to be intuitive to use and is built with the intention"
+#~ " to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
+#~ " while offering a unique approach to workflow that other GNU/Linux DAWs "
+#~ "lack."
+#~ msgstr ""
+#~ "Το Zrythm είναι μια εγγενής εφαρμογή GNU / Linux που κατασκευάστηκε με τη "
+#~ "χρήση εργαλείων C και GTK +3 και δανείζεται ιδέες, έννοιες και κώδικα από "
+#~ "άλλα έργα όπως Ardour και Jalv.  It is designed to be intuitive to use and "
+#~ "is built with the intention to provide GNU/Linux users a full-featured "
+#~ "alternative to proprietary DAWs, while offering a unique approach to "
+#~ "workflow that other GNU/Linux DAWs lack."
+
 #~ msgid "Contact information"
 #~ msgstr "Στοιχεία επικοινωνίας"
 
@@ -422,9 +428,6 @@ msgstr ""
 #~ " αντάλλαγμα για μια σημαντική δωρεά άνω των 200 USD. If you would like to "
 #~ "discuss this possibility, write to us at <a "
 #~ "href='mailto:support_AT_zrythm.org'>support_AT_zrythm.org</a>."
-
-#~ msgid "Developer"
-#~ msgstr "Προγραμματιστής"
 
 #~ msgid "French translator"
 #~ msgstr "Γάλλος μεταφραστής"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-06 10:42+0100\n"
+"POT-Creation-Date: 2019-10-14 05:04+0100\n"
 "PO-Revision-Date: 2019-10-09 18:25+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -16,8 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 3.9-dev\n"
+
+#: common/base.j2:27
+msgid ""
+"--> <!--Zrythm is free from DRM and other restrictions - Find out more at <a"
+" href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
+"<!--"
+msgstr ""
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -43,68 +50,47 @@ msgstr "Gemeinschaft"
 msgid "Language"
 msgstr "Sprache"
 
-#: template/about.html.j2:22
-msgid "About Zrythm"
-msgstr "Über Zrythm"
-
-#: template/about.html.j2:25
-msgid "Version"
-msgstr "Version"
-
-#: template/about.html.j2:32
-msgid "Introduction"
-msgstr "Einführung"
-
-#: template/about.html.j2:34
-msgid ""
-"Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
-" and borrows ideas, concepts and code from other projects such as Ardour and"
-" Jalv. It is designed to be intuitive to use and is built with the intention"
-" to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
-" while offering a unique approach to workflow that other GNU/Linux DAWs "
-"lack."
-msgstr ""
-"Zrythm ist eine native GNU-/Linuxapplikation aufgebaut mit C und GTK+ und "
-"borgt sich Ideen, Konzepte, und Code von anderen Projekten wie Ardour und "
-"Jalv. Es ist für die intuitive Nutzung designt und ist mit der Absicht "
-"gebaut GNU-/Linuxnutzern eine voll funktionsfähige Alternative zu "
-"proprietären DAWs zu bieten, während es einen einmaligen Ansatz für den "
-"Arbetisablauf anbietet, der anderen GNU/Linux-DAWs fehlt."
-
-#: template/about.html.j2:40
-msgid "First Commit"
-msgstr "Erster Commit"
-
-#: template/about.html.j2:42
-msgid ""
-"The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-msgstr "Der erste Commit war am <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-
-#: template/about.html.j2:46
-msgid "Current Stage"
-msgstr "Derzeitiger Stand"
-
-#: template/about.html.j2:48
-msgid ""
-"Early alpha. Somewhat functional but has unimplemented features and crashes "
-"a lot."
-msgstr ""
-"Frühe Alpha. Einigermaßen funktional, aber hat nicht implementierte "
-"Funktionen und stürzt oft ab."
-
 #: template/community.html.j2:30
+msgid "Chat"
+msgstr ""
+
+#: template/community.html.j2:38
+msgid "IRC"
+msgstr ""
+
+#: template/community.html.j2:44
+msgid "#zrythm on irc.freenode.net"
+msgstr ""
+
+#: template/community.html.j2:52
+msgid "Matrix"
+msgstr ""
+
+#: template/community.html.j2:66
+msgid "Mail"
+msgstr ""
+
+#: template/community.html.j2:74
+msgid "User"
+msgstr ""
+
+#: template/community.html.j2:86
+msgid "Developer"
+msgstr ""
+
+#: template/community.html.j2:100
 msgid "Issue tracker"
 msgstr "Problemverwaltung"
 
-#: template/community.html.j2:42
+#: template/community.html.j2:112
 msgid "issue tracker"
 msgstr "Problemverwaltung"
 
-#: template/community.html.j2:52
+#: template/community.html.j2:122
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: template/community.html.j2:64
+#: template/community.html.j2:134
 msgid "zrythm project"
 msgstr "Zrythm-Projekt"
 
@@ -356,6 +342,47 @@ msgstr "Onlinedokus"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "Dokus durchstöbern"
+
+#~ msgid "About Zrythm"
+#~ msgstr "Über Zrythm"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "Introduction"
+#~ msgstr "Einführung"
+
+#~ msgid ""
+#~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
+#~ " and borrows ideas, concepts and code from other projects such as Ardour and"
+#~ " Jalv. It is designed to be intuitive to use and is built with the intention"
+#~ " to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
+#~ " while offering a unique approach to workflow that other GNU/Linux DAWs "
+#~ "lack."
+#~ msgstr ""
+#~ "Zrythm ist eine native GNU-/Linuxapplikation aufgebaut mit C und GTK+ und "
+#~ "borgt sich Ideen, Konzepte, und Code von anderen Projekten wie Ardour und "
+#~ "Jalv. Es ist für die intuitive Nutzung designt und ist mit der Absicht "
+#~ "gebaut GNU-/Linuxnutzern eine voll funktionsfähige Alternative zu "
+#~ "proprietären DAWs zu bieten, während es einen einmaligen Ansatz für den "
+#~ "Arbetisablauf anbietet, der anderen GNU/Linux-DAWs fehlt."
+
+#~ msgid "First Commit"
+#~ msgstr "Erster Commit"
+
+#~ msgid ""
+#~ "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
+#~ msgstr "Der erste Commit war am <code>Wed Jul 25 22:35:01 2018 +0900</code>."
+
+#~ msgid "Current Stage"
+#~ msgstr "Derzeitiger Stand"
+
+#~ msgid ""
+#~ "Early alpha. Somewhat functional but has unimplemented features and crashes "
+#~ "a lot."
+#~ msgstr ""
+#~ "Frühe Alpha. Einigermaßen funktional, aber hat nicht implementierte "
+#~ "Funktionen und stürzt oft ab."
 
 #~ msgid "Savannah"
 #~ msgstr "Savannah"
