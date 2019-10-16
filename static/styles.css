@@ -104,7 +104,7 @@ div#banner-content {
  padding-bottom: 10px;
 }
 
-/* Uncomment for banner */
-/*div#body_content {*/
- /*padding-top: 3.1875rem;*/
-/*}*/
+ /*Uncomment for banner */
+div#body_content {
+ padding-top: 3.1875rem;
+}
