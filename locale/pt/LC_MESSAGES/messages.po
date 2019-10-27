@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-10-06 10:42+0100\n"
-"PO-Revision-Date: 2019-10-14 17:46+0000\n"
+"PO-Revision-Date: 2019-10-28 15:53+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: common/base.j2:27
@@ -32,7 +32,7 @@ msgstr ""
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
-"uma estação de trabalho de áudio digital altamente automatizada e intuitiva"
+"Uma estação de trabalho de áudio digital altamente automatizada e intuitiva"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
@@ -56,7 +56,7 @@ msgstr "Idioma"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr "Conversar"
+msgstr "Conversação"
 
 #: template/community.html.j2:38
 msgid "IRC"
@@ -112,11 +112,11 @@ msgstr "Repositórios git"
 
 #: template/download.html.j2:52
 msgid "stable releases"
-msgstr "lançamentos estáveis"
+msgstr "Lançamentos estáveis"
 
 #: template/download.html.j2:58
 msgid "releases"
-msgstr "lançamentos"
+msgstr "Lançamentos"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
@@ -190,10 +190,10 @@ msgid ""
 "to test each release and provide us with feedback if you would like to help "
 "speed things up."
 msgstr ""
-"Zrythm está na fase alfa inicial. Muitas características essenciais já estão"
-" implementadas, mas ainda não as recomendamos para produção. Você é bem-"
-"vindo para testar cada versão e nos fornecer feedback se você gostaria de "
-"ajudar a acelerar as coisas."
+"Zrythm está na fase alfa inicial. Muitas funcionalidades essenciais já estão "
+"implementadas, mas ainda não as recomendamos para produção. É bem-vindo para "
+"testar cada versão e dar-nos \"feedback\" se gostaria de ajudar a acelerar "
+"as coisas."
 
 #: template/faq.html.j2:35
 msgid "What plugin protocols are supported?"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: template/faq.html.j2:48
 msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr "Recebo dependências não atendidas ao instalar no Ubuntu"
+msgstr "Eu recebo dependências não atendidas ao instalar no Ubuntu"
 
 #: template/faq.html.j2:50
 msgid "Enable the universe repository:"
@@ -225,7 +225,7 @@ msgstr "Ative o repositório do universo:"
 
 #: template/index.html.j2:39
 msgid "Overview"
-msgstr "Visão Geral"
+msgstr "Sinopse"
 
 #: template/index.html.j2:45
 msgid ""
@@ -244,8 +244,8 @@ msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
-"Automatize quase tudo com eventos de automação usando linhas retas, rampas e"
-" curvas ou com LFOs e envelopes."
+"Automatize quase tudo com eventos de automação utilizando linhas retas, "
+"rampas e curvas ou com LFOs e envelopes."
 
 #: template/index.html.j2:77
 msgid "LV2 plugins"
@@ -265,7 +265,7 @@ msgstr "Suporte JACK"
 #: template/index.html.j2:102
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
-"Totalmente consciente de JACK, incluindo suporte para o transporte JACK."
+"Totalmente preparado para JACK, incluindo suporte para o transporte JACK."
 
 #: template/index.html.j2:114
 msgid "Chord assistance"
@@ -276,12 +276,12 @@ msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
-"Apresentando um pad de acordes para experimentar rapidamente com acordes "
-"numa escala e uma faixa de acordes para ajudar na progressão de acordes."
+"Apresentando um \"pad\" de acordes para experimentar rapidamente os acordes "
+"numa escala e uma faixa de acordes para ajudar nas progressões dos acordes."
 
 #: template/index.html.j2:134
 msgid "Free software"
-msgstr "Software livre"
+msgstr "Software Livre"
 
 #: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
@@ -289,12 +289,15 @@ msgstr "Utilize, estude, partilhe e melhore livremente."
 
 #: template/index.html.j2:150
 msgid "Multilingual"
-msgstr "Multilingual"
+msgstr "Multilingue"
 
 #: template/index.html.j2:155
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
-msgstr "Zrythm está disponível em alemão, francês, inglês, japonês e português."
+msgstr ""
+"Zrythm está disponível em alemão, checo, chinês, espanhol, francês, "
+"holandês, inglês, japonês, polaco, português (Brazil), português (Portugal), "
+"sueco."
 
 #: template/reference.html.j2:30
 msgid "User Manual"
@@ -302,7 +305,7 @@ msgstr "Manual do Utilizador"
 
 #: template/reference.html.j2:38
 msgid "online manual"
-msgstr "Manual on-line"
+msgstr "Manual On-line"
 
 #: template/reference.html.j2:44
 msgid "browse manual"
@@ -338,11 +341,11 @@ msgstr "Documentos do programador"
 
 #: template/reference.html.j2:108
 msgid "online docs"
-msgstr "documentos on-line"
+msgstr "Documentos On-line"
 
 #: template/reference.html.j2:114
 msgid "browse docs"
-msgstr "explorar documentos"
+msgstr "Explorar documentos"
 
 #~ msgid "About Zrythm"
 #~ msgstr "Sobre o Zrythm"
