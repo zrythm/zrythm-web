@@ -121,7 +121,6 @@ msgid "GNU Linux packages"
 msgstr "Pacchetti GNU/Linux"
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, stable)"
 msgid "Arch (aur)"
 msgstr ""
 

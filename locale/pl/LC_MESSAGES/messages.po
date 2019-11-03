@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-11-03 05:55+0000\n"
-"PO-Revision-Date: 2019-09-06 19:10+0000\n"
-"Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
+"PO-Revision-Date: 2019-11-02 13:27+0000\n"
+"Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: common/base.j2:27
 msgid "<i><b>This site is a cookie free zone</b></i>"
@@ -49,7 +49,7 @@ msgstr "Język"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr ""
+msgstr "Czat"
 
 #: template/community.html.j2:38
 msgid "IRC"
@@ -65,11 +65,11 @@ msgstr "Matrix"
 
 #: template/community.html.j2:66
 msgid "Mail"
-msgstr ""
+msgstr "Adres e-mail"
 
 #: template/community.html.j2:74
 msgid "User"
-msgstr ""
+msgstr "Użytkownik"
 
 #: template/community.html.j2:86
 msgid "Developer"
@@ -109,7 +109,7 @@ msgstr "stabilne wydania"
 
 #: template/download.html.j2:58
 msgid "releases"
-msgstr ""
+msgstr "wersje"
 
 #: template/download.html.j2:66
 msgid "GPG signing key"
@@ -120,7 +120,6 @@ msgid "GNU Linux packages"
 msgstr "Pakiety GNU Linux"
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, stable)"
 msgid "Arch (aur)"
 msgstr ""
 

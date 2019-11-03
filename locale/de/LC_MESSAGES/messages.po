@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-11-03 05:55+0000\n"
-"PO-Revision-Date: 2019-10-14 11:24+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2019-10-25 17:53+0000\n"
+"Last-Translator: André Menrath <andre.menrath@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.9.1-dev\n"
 
 #: common/base.j2:27
 msgid "<i><b>This site is a cookie free zone</b></i>"
 msgstr ""
+"--> <!--Zrythm ist frei von einer Digitalen Rechteverwaltung (DRM) - Mehr "
+"Infos unter <a "
+"href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> <!--"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -49,31 +52,31 @@ msgstr "Sprache"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: template/community.html.j2:38
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: template/community.html.j2:44
 msgid "#zrythm on irc.freenode.net"
-msgstr ""
+msgstr "#zrythm unter irc.freenode.net"
 
 #: template/community.html.j2:52
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: template/community.html.j2:66
 msgid "Mail"
-msgstr ""
+msgstr "E-Mail"
 
 #: template/community.html.j2:74
 msgid "User"
-msgstr ""
+msgstr "Anwender"
 
 #: template/community.html.j2:86
 msgid "Developer"
-msgstr ""
+msgstr "Entwickler"
 
 #: template/community.html.j2:100
 msgid "Issue tracker"
@@ -120,7 +123,6 @@ msgid "GNU Linux packages"
 msgstr "GNU-Linux-Pakete"
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, stable)"
 msgid "Arch (aur)"
 msgstr ""
 

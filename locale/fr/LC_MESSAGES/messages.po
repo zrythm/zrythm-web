@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-11-03 05:55+0000\n"
-"PO-Revision-Date: 2019-10-11 10:51+0000\n"
+"PO-Revision-Date: 2019-10-21 17:53+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -17,16 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 3.9.1-dev\n"
 
 #: common/base.j2:27
 msgid "<i><b>This site is a cookie free zone</b></i>"
 msgstr ""
+"--> <!--Zrythm est libre de DRM et d'autres restrictions - En savoir plus "
+"sur <a "
+"href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>>--> "
+"<!--"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
-"une station de travail audio numérique (STAN) hautement automatisée et "
+"Une station de travail audio numérique (STAN) hautement automatisée et "
 "intuitive"
 
 #: common/navigation.j2.inc:25
@@ -51,7 +55,7 @@ msgstr "Langue"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr ""
+msgstr "Tchat"
 
 #: template/community.html.j2:38
 msgid "IRC"
@@ -63,15 +67,15 @@ msgstr "#zrythm sur irc.freenode.net"
 
 #: template/community.html.j2:52
 msgid "Matrix"
-msgstr "Matrix"
+msgstr "Matrice"
 
 #: template/community.html.j2:66
 msgid "Mail"
-msgstr ""
+msgstr "Courriel"
 
 #: template/community.html.j2:74
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: template/community.html.j2:86
 msgid "Developer"
@@ -122,7 +126,6 @@ msgid "GNU Linux packages"
 msgstr "Paquets GNU Linux"
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, stable)"
 msgid "Arch (aur)"
 msgstr ""
 
@@ -248,6 +251,8 @@ msgstr "Greffons LV2"
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
+"Prise en charge complète de LV2, un standard libre et extensible pour les "
+"greffons audio."
 
 #: template/index.html.j2:97
 msgid "JACK support"
