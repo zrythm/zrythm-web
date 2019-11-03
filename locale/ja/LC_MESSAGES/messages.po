@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-14 05:04+0100\n"
+"POT-Creation-Date: 2019-11-03 05:55+0000\n"
 "PO-Revision-Date: 2019-10-02 20:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -21,10 +21,7 @@ msgstr ""
 "X-Generator: Weblate 3.9-dev\n"
 
 #: common/base.j2:27
-msgid ""
-"--> <!--Zrythm is free from DRM and other restrictions - Find out more at <a"
-" href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
-"<!--"
+msgid "<i><b>This site is a cookie free zone</b></i>"
 msgstr ""
 
 #: common/header.j2.inc:19 template/index.html.j2:23
@@ -123,52 +120,45 @@ msgstr "GPG署名キー"
 msgid "GNU Linux packages"
 msgstr "GNU Linux パッケージ"
 
-#: template/download.html.j2:88
-msgid "Arch (aur, git package)"
-msgstr "Arch (aur・gitパッケージ)"
+#: template/download.html.j2:89
+#| msgid "Arch (aur, stable)"
+msgid "Arch (aur)"
+msgstr ""
 
-#: template/download.html.j2:94
-msgid "zrythm-git"
-msgstr "zrythm-git"
-
-#: template/download.html.j2:102
-msgid "Arch (aur, stable)"
-msgstr "Arch (aur・安定版)"
-
-#: template/download.html.j2:108 template/download.html.j2:188
+#: template/download.html.j2:95 template/download.html.j2:175
 msgid "zrythm"
 msgstr "zrythm"
 
-#: template/download.html.j2:116
+#: template/download.html.j2:103
 msgid "Debian (unofficial)"
 msgstr "Debian (非公式)"
 
-#: template/download.html.j2:122 template/download.html.j2:150
-#: template/download.html.j2:164
+#: template/download.html.j2:109 template/download.html.j2:137
+#: template/download.html.j2:151
 msgid "zrythm at openSUSE build service"
 msgstr "openSUSEビルドサービスのzrythm"
 
-#: template/download.html.j2:130
+#: template/download.html.j2:117
 msgid "Fedora (copr)"
 msgstr "Fedora (copr)"
 
-#: template/download.html.j2:136
+#: template/download.html.j2:123
 msgid "zrythm at copr"
 msgstr "zrythm @ copr"
 
-#: template/download.html.j2:144
+#: template/download.html.j2:131
 msgid "Fedora (unofficial)"
 msgstr "Fedora (非公式)"
 
-#: template/download.html.j2:158
+#: template/download.html.j2:145
 msgid "Others (unofficial)"
 msgstr "その他（非公式）"
 
-#: template/download.html.j2:174
+#: template/download.html.j2:161
 msgid "Other Platforms"
 msgstr "その他のプラットフォーム"
 
-#: template/download.html.j2:182
+#: template/download.html.j2:169
 msgid "FreeBSD (Freshports)"
 msgstr "FreeBSD (Freshports)"
 
@@ -329,6 +319,12 @@ msgstr "オンラインドキュメント"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
+
+#~ msgid "Arch (aur, git package)"
+#~ msgstr "Arch (aur・gitパッケージ)"
+
+#~ msgid "zrythm-git"
+#~ msgstr "zrythm-git"
 
 #~ msgid "About Zrythm"
 #~ msgstr "Zrythmについて"

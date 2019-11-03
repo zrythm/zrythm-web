@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-14 05:04+0100\n"
+"POT-Creation-Date: 2019-11-03 05:55+0000\n"
 "PO-Revision-Date: 2019-09-06 19:10+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -20,10 +20,7 @@ msgstr ""
 "X-Generator: Weblate 3.9-dev\n"
 
 #: common/base.j2:27
-msgid ""
-"--> <!--Zrythm is free from DRM and other restrictions - Find out more at <a"
-" href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
-"<!--"
+msgid "<i><b>This site is a cookie free zone</b></i>"
 msgstr ""
 
 #: common/header.j2.inc:19 template/index.html.j2:23
@@ -122,52 +119,45 @@ msgstr "Klucz podpisywania GPG"
 msgid "GNU Linux packages"
 msgstr "Pakiety GNU Linux"
 
-#: template/download.html.j2:88
-msgid "Arch (aur, git package)"
-msgstr "Arch (aur, pakiet git)"
+#: template/download.html.j2:89
+#| msgid "Arch (aur, stable)"
+msgid "Arch (aur)"
+msgstr ""
 
-#: template/download.html.j2:94
-msgid "zrythm-git"
-msgstr "zrythm-git"
-
-#: template/download.html.j2:102
-msgid "Arch (aur, stable)"
-msgstr "Arch (aur, stabilny)"
-
-#: template/download.html.j2:108 template/download.html.j2:188
+#: template/download.html.j2:95 template/download.html.j2:175
 msgid "zrythm"
 msgstr "zrythm"
 
-#: template/download.html.j2:116
+#: template/download.html.j2:103
 msgid "Debian (unofficial)"
 msgstr "Debian (nieoficjalny)"
 
-#: template/download.html.j2:122 template/download.html.j2:150
-#: template/download.html.j2:164
+#: template/download.html.j2:109 template/download.html.j2:137
+#: template/download.html.j2:151
 msgid "zrythm at openSUSE build service"
 msgstr "zrythm w usłudze kompilacji openSUSE"
 
-#: template/download.html.j2:130
+#: template/download.html.j2:117
 msgid "Fedora (copr)"
 msgstr ""
 
-#: template/download.html.j2:136
+#: template/download.html.j2:123
 msgid "zrythm at copr"
 msgstr ""
 
-#: template/download.html.j2:144
+#: template/download.html.j2:131
 msgid "Fedora (unofficial)"
 msgstr "Fedora (nieoficjalny)"
 
-#: template/download.html.j2:158
+#: template/download.html.j2:145
 msgid "Others (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:174
+#: template/download.html.j2:161
 msgid "Other Platforms"
 msgstr "Inne platformy"
 
-#: template/download.html.j2:182
+#: template/download.html.j2:169
 msgid "FreeBSD (Freshports)"
 msgstr ""
 
@@ -334,6 +324,12 @@ msgstr "dokumenty online"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "przeglądaj dokumenty"
+
+#~ msgid "Arch (aur, git package)"
+#~ msgstr "Arch (aur, pakiet git)"
+
+#~ msgid "zrythm-git"
+#~ msgstr "zrythm-git"
 
 #~ msgid "About Zrythm"
 #~ msgstr "O Zrythm"
