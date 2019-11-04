@@ -21,15 +21,17 @@ GNU Affero General Public License for more details.
   </head>
   <body id="mybody">
     {% include "common/navigation.j2.inc" %}
+	{#
     <div id="banner">
       <div id="banner-content">
         <center>
-        {% trans %}
-        <i><b>This site is a cookie free zone</b></i>
-        {% endtrans %}
+		<i><b>
+        This site is a cookie free zone
+		</b></i>
         </center>
       </div>
     </div>
+	#}
     <div id="body_content">
     {% block body_content %}{% endblock %}
     </div>
