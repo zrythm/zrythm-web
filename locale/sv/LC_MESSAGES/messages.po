@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-10-14 05:04+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-11-08 17:04+0000\n"
+"Last-Translator: Anders Löfgren <a.loefgren@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: common/base.j2:27
@@ -23,22 +25,24 @@ msgid ""
 " href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
 "<!--"
 msgstr ""
+"--> <!--Zrythm är fri från DRM och andra begränsningar – läs mer på <a href="
+"\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> <!--"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "en högautomatiserad och intuitiv digital ljudarbetsstation (DAW)"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr ""
+msgstr "Start"
 
 #: common/navigation.j2.inc:30
 msgid "Download"
-msgstr ""
+msgstr "Hämta"
 
 #: common/navigation.j2.inc:35 template/reference.html.j2:23
 msgid "Reference"
-msgstr ""
+msgstr "Dokumentation"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:23
 msgid "Community"
@@ -46,19 +50,20 @@ msgstr ""
 
 #: common/navigation.j2.inc:58
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr ""
+msgstr "Chatt"
 
 #: template/community.html.j2:38
+#, fuzzy
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: template/community.html.j2:44
 msgid "#zrythm on irc.freenode.net"
-msgstr ""
+msgstr "#zrythm på irc.freenode.net"
 
 #: template/community.html.j2:52
 msgid "Matrix"
@@ -70,11 +75,11 @@ msgstr ""
 
 #: template/community.html.j2:74
 msgid "User"
-msgstr ""
+msgstr "Användare"
 
 #: template/community.html.j2:86
 msgid "Developer"
-msgstr ""
+msgstr "Utvecklare"
 
 #: template/community.html.j2:100
 msgid "Issue tracker"
@@ -86,7 +91,7 @@ msgstr ""
 
 #: template/community.html.j2:122
 msgid "Translations"
-msgstr ""
+msgstr "Översättningar"
 
 #: template/community.html.j2:134
 msgid "zrythm project"
@@ -98,7 +103,7 @@ msgstr ""
 
 #: template/download.html.j2:32
 msgid "Source code"
-msgstr ""
+msgstr "Källkod"
 
 #: template/download.html.j2:40
 msgid "git repositories"
