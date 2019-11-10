@@ -19,310 +19,192 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 3.10-dev\n"
 
-#: common/base.j2:27
-msgid "<i><b>This site is a cookie free zone</b></i>"
-msgstr ""
-
-#: common/header.j2.inc:19 template/index.html.j2:23
-msgid "a highly automated and intuitive digital audio workstation"
-msgstr "wysoce zautomatyzowana i intuicyjna cyfrowa stacja robocza audio"
-
-#: common/navigation.j2.inc:25
-msgid "Home"
-msgstr "Strona główna"
-
-#: common/navigation.j2.inc:30
-msgid "Download"
-msgstr "Pobierz"
-
-#: common/navigation.j2.inc:35 template/reference.html.j2:23
-msgid "Reference"
-msgstr "Odnośniki"
-
-#: common/navigation.j2.inc:40 template/community.html.j2:23
-msgid "Community"
-msgstr "Społeczność"
-
-#: common/navigation.j2.inc:58
-msgid "Language"
-msgstr "Język"
-
-#: template/community.html.j2:30
-msgid "Chat"
-msgstr "Czat"
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr "#zrythm na irc.freenode.net"
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr "Matrix"
-
-#: template/community.html.j2:66
-msgid "Mail"
-msgstr "Adres e-mail"
-
-#: template/community.html.j2:74
-msgid "User"
-msgstr "Użytkownik"
-
-#: template/community.html.j2:86
-msgid "Developer"
-msgstr "Programista"
-
-#: template/community.html.j2:100
-msgid "Issue tracker"
-msgstr "Śledzenie problemów"
-
-#: template/community.html.j2:112
-msgid "issue tracker"
-msgstr "śledzenie problemów"
-
-#: template/community.html.j2:122
-msgid "Translations"
-msgstr "Tłumaczenia"
-
-#: template/community.html.j2:134
-msgid "zrythm project"
-msgstr "projekt zrythm"
-
-#: template/download.html.j2:23
-msgid "Installation"
-msgstr "Instalacja"
-
-#: template/download.html.j2:32
-msgid "Source code"
-msgstr "Kod źródłowy"
-
-#: template/download.html.j2:40
-msgid "git repositories"
-msgstr "repozytoria git"
-
-#: template/download.html.j2:52
-msgid "stable releases"
-msgstr "stabilne wydania"
-
-#: template/download.html.j2:58
-msgid "releases"
-msgstr "wersje"
-
-#: template/download.html.j2:66
-msgid "GPG signing key"
-msgstr "Klucz podpisywania GPG"
-
-#: template/download.html.j2:80
-msgid "GNU Linux packages"
-msgstr "Pakiety GNU Linux"
-
-#: template/download.html.j2:89
-msgid "Arch (aur)"
-msgstr ""
-
-#: template/download.html.j2:95 template/download.html.j2:175
-msgid "zrythm"
-msgstr "zrythm"
-
-#: template/download.html.j2:103
-msgid "Debian (unofficial)"
-msgstr "Debian (nieoficjalny)"
-
-#: template/download.html.j2:109 template/download.html.j2:137
-#: template/download.html.j2:151
-msgid "zrythm at openSUSE build service"
-msgstr "zrythm w usłudze kompilacji openSUSE"
-
-#: template/download.html.j2:117
-msgid "Fedora (copr)"
-msgstr ""
-
-#: template/download.html.j2:123
-msgid "zrythm at copr"
-msgstr ""
-
-#: template/download.html.j2:131
-msgid "Fedora (unofficial)"
-msgstr "Fedora (nieoficjalny)"
-
-#: template/download.html.j2:145
-msgid "Others (unofficial)"
-msgstr ""
-
-#: template/download.html.j2:161
-msgid "Other Platforms"
-msgstr "Inne platformy"
-
-#: template/download.html.j2:169
-msgid "FreeBSD (Freshports)"
-msgstr ""
-
-#: template/faq.html.j2:22
-msgid "Frequently Asked Questions"
-msgstr "Często zadawane pytania"
-
-#: template/faq.html.j2:28
-msgid "What's the current development status?"
-msgstr "Jaki jest obecny stan rozwoju?"
-
-#: template/faq.html.j2:30
-msgid ""
-"Zrythm is in the early alpha stage. Many essential features are already "
-"implemented but we do not recommend it for production yet. You are welcome "
-"to test each release and provide us with feedback if you would like to help "
-"speed things up."
-msgstr ""
-"Zrythm jest na wczesnym etapie alfa. Wiele istotnych funkcji zostało już "
-"wdrożonych, ale nie zalecamy jeszcze ich produkcji. Zapraszamy do "
-"przetestowania każdego wydania i przekazania nam informacji zwrotnej, jeśli "
-"chcesz pomóc w przyspieszeniu pracy."
-
-#: template/faq.html.j2:35
-msgid "What plugin protocols are supported?"
-msgstr "Jakie protokoły wtyczki są obsługiwane?"
-
-#: template/faq.html.j2:37
-msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr "LV2 w tej chwili. VST2 i VST3 wkrótce."
-
-#: template/faq.html.j2:42
-msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr "Buduję ze źródła i chcę uruchomić Zrythm bez instalacji"
-
-#: template/faq.html.j2:44
-msgid ""
-"Run <code>glib-compile-schemas data/</code> and then run zrythm using "
-"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
-msgstr ""
-"Uruchom  <code>glib-compile-schemas data/</code>, a następnie uruchom zrythm"
-" za pomocą <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
-
-#: template/faq.html.j2:48
-msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr "Kiedy instaluję na Ubuntu, nie mam żadnych zależności"
-
-#: template/faq.html.j2:50
-msgid "Enable the universe repository:"
-msgstr "Włącz uniwersalne repozytorium:"
-
-#: template/index.html.j2:39
-msgid "Overview"
-msgstr "Przegląd"
-
-#: template/index.html.j2:45
-msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy to "
-"use."
-msgstr ""
-"Zrythm to cyfrowa stacja robocza, zaprojektowana z myślą o funkcjonalności i"
-" łatwości użytkowania."
-
-#: template/index.html.j2:59
-msgid "Limitless automation"
-msgstr "Nieograniczona automatyzacja"
-
-#: template/index.html.j2:64
-msgid ""
-"Automate almost anything with automation events using straight lines, ramps "
-"and curves, or with LFOs and envelopes."
-msgstr ""
-
-#: template/index.html.j2:77
-msgid "LV2 plugins"
-msgstr "Wtyczki LV2"
-
-#: template/index.html.j2:82
-msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins."
-msgstr ""
-
-#: template/index.html.j2:97
-msgid "JACK support"
-msgstr "Wsparcie JACK"
-
-#: template/index.html.j2:102
-msgid "Fully JACK aware, including support for JACK transport."
-msgstr ""
-
-#: template/index.html.j2:114
-msgid "Chord assistance"
-msgstr ""
-
-#: template/index.html.j2:119
-msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
-msgstr ""
-
-#: template/index.html.j2:134
-msgid "Free software"
-msgstr "Wolne oprogramowanie"
-
-#: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
-msgstr "Korzystaj, ucz się, udostępniaj i ulepszaj swobodnie."
-
-#: template/index.html.j2:150
-msgid "Multilingual"
-msgstr "Wielojęzyczny"
-
-#: template/index.html.j2:155
-msgid ""
-"Zrythm is available in English, French, Portuguese, Japanese and German."
-msgstr ""
-"Zrythm jest dostępny w języku angielskim, francuskim, portugalskim, "
-"japońskim i niemieckim."
-
-#: template/reference.html.j2:30
-msgid "User Manual"
-msgstr "Instrukcja obsługi"
-
-#: template/reference.html.j2:38
-msgid "online manual"
-msgstr "instrukcja online"
-
-#: template/reference.html.j2:44
-msgid "browse manual"
-msgstr "przeglądaj instrukcję"
-
-#: template/reference.html.j2:53
-msgid "HTML-render (zip)"
-msgstr ""
-
-#: template/reference.html.j2:59
-msgid "download HTML zip"
-msgstr "pobierz HTML zip"
-
-#: template/reference.html.j2:68
-msgid "PDF-render"
-msgstr ""
-
-#: template/reference.html.j2:74
-msgid "download PDF"
-msgstr "pobierz PDF"
-
-#: template/reference.html.j2:83
-msgid "ePUB-render"
-msgstr ""
-
-#: template/reference.html.j2:89
-msgid "download ePUB"
-msgstr "pobierz ePUB"
-
-#: template/reference.html.j2:100
-msgid "Developer docs"
-msgstr "Dokumentacja dla programistów"
-
-#: template/reference.html.j2:108
-msgid "online docs"
-msgstr "dokumenty online"
-
-#: template/reference.html.j2:114
-msgid "browse docs"
-msgstr "przeglądaj dokumenty"
+#~ msgid "a highly automated and intuitive digital audio workstation"
+#~ msgstr "wysoce zautomatyzowana i intuicyjna cyfrowa stacja robocza audio"
+
+#~ msgid "Home"
+#~ msgstr "Strona główna"
+
+#~ msgid "Download"
+#~ msgstr "Pobierz"
+
+#~ msgid "Reference"
+#~ msgstr "Odnośniki"
+
+#~ msgid "Community"
+#~ msgstr "Społeczność"
+
+#~ msgid "Language"
+#~ msgstr "Język"
+
+#~ msgid "Chat"
+#~ msgstr "Czat"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "#zrythm na irc.freenode.net"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrix"
+
+#~ msgid "Mail"
+#~ msgstr "Adres e-mail"
+
+#~ msgid "User"
+#~ msgstr "Użytkownik"
+
+#~ msgid "Developer"
+#~ msgstr "Programista"
+
+#~ msgid "Issue tracker"
+#~ msgstr "Śledzenie problemów"
+
+#~ msgid "issue tracker"
+#~ msgstr "śledzenie problemów"
+
+#~ msgid "Translations"
+#~ msgstr "Tłumaczenia"
+
+#~ msgid "zrythm project"
+#~ msgstr "projekt zrythm"
+
+#~ msgid "Installation"
+#~ msgstr "Instalacja"
+
+#~ msgid "Source code"
+#~ msgstr "Kod źródłowy"
+
+#~ msgid "git repositories"
+#~ msgstr "repozytoria git"
+
+#~ msgid "stable releases"
+#~ msgstr "stabilne wydania"
+
+#~ msgid "releases"
+#~ msgstr "wersje"
+
+#~ msgid "GPG signing key"
+#~ msgstr "Klucz podpisywania GPG"
+
+#~ msgid "GNU Linux packages"
+#~ msgstr "Pakiety GNU Linux"
+
+#~ msgid "zrythm"
+#~ msgstr "zrythm"
+
+#~ msgid "Debian (unofficial)"
+#~ msgstr "Debian (nieoficjalny)"
+
+#~ msgid "zrythm at openSUSE build service"
+#~ msgstr "zrythm w usłudze kompilacji openSUSE"
+
+#~ msgid "Fedora (unofficial)"
+#~ msgstr "Fedora (nieoficjalny)"
+
+#~ msgid "Other Platforms"
+#~ msgstr "Inne platformy"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Często zadawane pytania"
+
+#~ msgid "What's the current development status?"
+#~ msgstr "Jaki jest obecny stan rozwoju?"
+
+#~ msgid ""
+#~ "Zrythm is in the early alpha stage. Many essential features are already "
+#~ "implemented but we do not recommend it for production yet. You are welcome "
+#~ "to test each release and provide us with feedback if you would like to help "
+#~ "speed things up."
+#~ msgstr ""
+#~ "Zrythm jest na wczesnym etapie alfa. Wiele istotnych funkcji zostało już "
+#~ "wdrożonych, ale nie zalecamy jeszcze ich produkcji. Zapraszamy do "
+#~ "przetestowania każdego wydania i przekazania nam informacji zwrotnej, jeśli "
+#~ "chcesz pomóc w przyspieszeniu pracy."
+
+#~ msgid "What plugin protocols are supported?"
+#~ msgstr "Jakie protokoły wtyczki są obsługiwane?"
+
+#~ msgid "LV2 at the moment. VST2 and VST3 coming soon."
+#~ msgstr "LV2 w tej chwili. VST2 i VST3 wkrótce."
+
+#~ msgid "I'm building from source and I want to run Zrythm without installing"
+#~ msgstr "Buduję ze źródła i chcę uruchomić Zrythm bez instalacji"
+
+#~ msgid ""
+#~ "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
+#~ "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+#~ msgstr ""
+#~ "Uruchom  <code>glib-compile-schemas data/</code>, a następnie uruchom zrythm"
+#~ " za pomocą <code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+
+#~ msgid "I get unmet dependencies when installing on Ubuntu"
+#~ msgstr "Kiedy instaluję na Ubuntu, nie mam żadnych zależności"
+
+#~ msgid "Enable the universe repository:"
+#~ msgstr "Włącz uniwersalne repozytorium:"
+
+#~ msgid "Overview"
+#~ msgstr "Przegląd"
+
+#~ msgid ""
+#~ "Zrythm is a digital audio workstation designed to be featureful and easy to "
+#~ "use."
+#~ msgstr ""
+#~ "Zrythm to cyfrowa stacja robocza, zaprojektowana z myślą o funkcjonalności i"
+#~ " łatwości użytkowania."
+
+#~ msgid "Limitless automation"
+#~ msgstr "Nieograniczona automatyzacja"
+
+#~ msgid "LV2 plugins"
+#~ msgstr "Wtyczki LV2"
+
+#~ msgid "JACK support"
+#~ msgstr "Wsparcie JACK"
+
+#~ msgid "Free software"
+#~ msgstr "Wolne oprogramowanie"
+
+#~ msgid "Use, study, share and improve freely."
+#~ msgstr "Korzystaj, ucz się, udostępniaj i ulepszaj swobodnie."
+
+#~ msgid "Multilingual"
+#~ msgstr "Wielojęzyczny"
+
+#~ msgid ""
+#~ "Zrythm is available in English, French, Portuguese, Japanese and German."
+#~ msgstr ""
+#~ "Zrythm jest dostępny w języku angielskim, francuskim, portugalskim, "
+#~ "japońskim i niemieckim."
+
+#~ msgid "User Manual"
+#~ msgstr "Instrukcja obsługi"
+
+#~ msgid "online manual"
+#~ msgstr "instrukcja online"
+
+#~ msgid "browse manual"
+#~ msgstr "przeglądaj instrukcję"
+
+#~ msgid "download HTML zip"
+#~ msgstr "pobierz HTML zip"
+
+#~ msgid "download PDF"
+#~ msgstr "pobierz PDF"
+
+#~ msgid "download ePUB"
+#~ msgstr "pobierz ePUB"
+
+#~ msgid "Developer docs"
+#~ msgstr "Dokumentacja dla programistów"
+
+#~ msgid "online docs"
+#~ msgstr "dokumenty online"
+
+#~ msgid "browse docs"
+#~ msgstr "przeglądaj dokumenty"
 
 #~ msgid "Arch (aur, git package)"
 #~ msgstr "Arch (aur, pakiet git)"

@@ -20,304 +20,214 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9-dev\n"
 
-#: common/base.j2:27
-msgid "<i><b>This site is a cookie free zone</b></i>"
-msgstr ""
-
-#: common/header.j2.inc:19 template/index.html.j2:23
-msgid "a highly automated and intuitive digital audio workstation"
-msgstr "高度に自動化された直感的なデジタルオーディオワークステーション"
-
-#: common/navigation.j2.inc:25
-msgid "Home"
-msgstr "ホーム"
-
-#: common/navigation.j2.inc:30
-msgid "Download"
-msgstr "ダウンロード"
-
-#: common/navigation.j2.inc:35 template/reference.html.j2:23
-msgid "Reference"
-msgstr "参照"
-
-#: common/navigation.j2.inc:40 template/community.html.j2:23
-msgid "Community"
-msgstr "コミュニティ"
-
-#: common/navigation.j2.inc:58
-msgid "Language"
-msgstr "言語"
-
-#: template/community.html.j2:30
-msgid "Chat"
-msgstr ""
-
-#: template/community.html.j2:38
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:44
-msgid "#zrythm on irc.freenode.net"
-msgstr "irc.freenode.netの#zrythm"
-
-#: template/community.html.j2:52
-msgid "Matrix"
-msgstr "Matrix"
-
-#: template/community.html.j2:66
-msgid "Mail"
-msgstr ""
-
-#: template/community.html.j2:74
-msgid "User"
-msgstr ""
-
-#: template/community.html.j2:86
-msgid "Developer"
-msgstr "開発者"
-
-#: template/community.html.j2:100
-msgid "Issue tracker"
-msgstr "課題管理システム"
-
-#: template/community.html.j2:112
-msgid "issue tracker"
-msgstr "課題管理システム"
-
-#: template/community.html.j2:122
-msgid "Translations"
-msgstr "翻訳"
-
-#: template/community.html.j2:134
-msgid "zrythm project"
-msgstr "zrythmプロジェクト"
-
-#: template/download.html.j2:23
-msgid "Installation"
-msgstr "インストール"
-
-#: template/download.html.j2:32
-msgid "Source code"
-msgstr "ソースコード"
-
-#: template/download.html.j2:40
-msgid "git repositories"
-msgstr "gitリポジトリ"
-
-#: template/download.html.j2:52
-msgid "stable releases"
-msgstr "安定版リリース"
-
-#: template/download.html.j2:58
-msgid "releases"
-msgstr "リリース"
-
-#: template/download.html.j2:66
-msgid "GPG signing key"
-msgstr "GPG署名キー"
-
-#: template/download.html.j2:80
-msgid "GNU Linux packages"
-msgstr "GNU Linux パッケージ"
-
-#: template/download.html.j2:89
-msgid "Arch (aur)"
-msgstr ""
-
-#: template/download.html.j2:95 template/download.html.j2:175
-msgid "zrythm"
-msgstr "zrythm"
-
-#: template/download.html.j2:103
-msgid "Debian (unofficial)"
-msgstr "Debian (非公式)"
-
-#: template/download.html.j2:109 template/download.html.j2:137
-#: template/download.html.j2:151
-msgid "zrythm at openSUSE build service"
-msgstr "openSUSEビルドサービスのzrythm"
-
-#: template/download.html.j2:117
-msgid "Fedora (copr)"
-msgstr "Fedora (copr)"
-
-#: template/download.html.j2:123
-msgid "zrythm at copr"
-msgstr "zrythm @ copr"
-
-#: template/download.html.j2:131
-msgid "Fedora (unofficial)"
-msgstr "Fedora (非公式)"
-
-#: template/download.html.j2:145
-msgid "Others (unofficial)"
-msgstr "その他（非公式）"
-
-#: template/download.html.j2:161
-msgid "Other Platforms"
-msgstr "その他のプラットフォーム"
-
-#: template/download.html.j2:169
-msgid "FreeBSD (Freshports)"
-msgstr "FreeBSD (Freshports)"
-
-#: template/faq.html.j2:22
-msgid "Frequently Asked Questions"
-msgstr "よくある質問"
-
-#: template/faq.html.j2:28
-msgid "What's the current development status?"
-msgstr "現在の開発状況は？"
-
-#: template/faq.html.j2:30
-msgid ""
-"Zrythm is in the early alpha stage. Many essential features are already "
-"implemented but we do not recommend it for production yet. You are welcome "
-"to test each release and provide us with feedback if you would like to help "
-"speed things up."
-msgstr ""
-"Zrythmは初期のアルファ段階にある。多くの重要な機能は既に実装されていますが、まだ運用環境にはお勧めしません。各リリースをテストし、物事をスピードアップしたい場合は、フィードバックを提供することを大歓迎します。"
-
-#: template/faq.html.j2:35
-msgid "What plugin protocols are supported?"
-msgstr "どのプラグインプロトコルがサポートされていますか？"
-
-#: template/faq.html.j2:37
-msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr "現在はLV2がサポートされています。将来的にVST2やVST3もサポートされます。"
-
-#: template/faq.html.j2:42
-msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr "ソースコードからビルドし、インストールせずにZrythmを実行したいです"
-
-#: template/faq.html.j2:44
-msgid ""
-"Run <code>glib-compile-schemas data/</code> and then run zrythm using "
-"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
-msgstr ""
-"<code>glib-compile-schemas "
-"data/</code>を実行してから、<code>GSETTINGS_SCHEMA_DIR=data "
-"./build/zrythm</code>を使用して実行してください"
-
-#: template/faq.html.j2:48
-msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr "Ubuntuにインストールすると、依存関係が満たされない"
-
-#: template/faq.html.j2:50
-msgid "Enable the universe repository:"
-msgstr "universeのリポジトリを有効にしてください:"
-
-#: template/index.html.j2:39
-msgid "Overview"
-msgstr "概要"
-
-#: template/index.html.j2:45
-msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy to "
-"use."
-msgstr "Zrythmは、機能が豊富で使いやすいように設計されたデジタルオーディオワークステーションです。"
-
-#: template/index.html.j2:59
-msgid "Limitless automation"
-msgstr "無限の自動化"
-
-#: template/index.html.j2:64
-msgid ""
-"Automate almost anything with automation events using straight lines, ramps "
-"and curves, or with LFOs and envelopes."
-msgstr "直線、スロープ、カーブ、または LFO とエンベロープを使用して、オートメーション イベントを使用してほぼすべてを自動化できます。"
-
-#: template/index.html.j2:77
-msgid "LV2 plugins"
-msgstr "LV2プラグイン"
-
-#: template/index.html.j2:82
-msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins."
-msgstr ""
-
-#: template/index.html.j2:97
-msgid "JACK support"
-msgstr "JACK対応"
-
-#: template/index.html.j2:102
-msgid "Fully JACK aware, including support for JACK transport."
-msgstr "JACK トランスポートを含む、完全な JACK 対応。"
-
-#: template/index.html.j2:114
-msgid "Chord assistance"
-msgstr "和音援助"
-
-#: template/index.html.j2:119
-msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
-msgstr "和音進行に役立つコードトラック、音階および和音をすばやく試聴するためのコードパッドを備えています。"
-
-#: template/index.html.j2:134
-msgid "Free software"
-msgstr "自由ソフトウェア"
-
-#: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
-msgstr "自由に使用、勉学、共有、改善できます。"
-
-#: template/index.html.j2:150
-msgid "Multilingual"
-msgstr "多言語に対応"
-
-#: template/index.html.j2:155
-msgid ""
-"Zrythm is available in English, French, Portuguese, Japanese and German."
-msgstr "Zrythmは英語、フランス語、ポルトガル語、日本語、ドイツ語で利用できます。"
-
-#: template/reference.html.j2:30
-msgid "User Manual"
-msgstr "マニュアル"
-
-#: template/reference.html.j2:38
-msgid "online manual"
-msgstr "オンラインマニュアル"
-
-#: template/reference.html.j2:44
-msgid "browse manual"
-msgstr "マニュアルを閲覧"
-
-#: template/reference.html.j2:53
-msgid "HTML-render (zip)"
-msgstr "HTMLレンダリング (zip)"
-
-#: template/reference.html.j2:59
-msgid "download HTML zip"
-msgstr "HTML zipをダウンロード"
-
-#: template/reference.html.j2:68
-msgid "PDF-render"
-msgstr "PDFレンダリング"
-
-#: template/reference.html.j2:74
-msgid "download PDF"
-msgstr "PDFをダウンロード"
-
-#: template/reference.html.j2:83
-msgid "ePUB-render"
-msgstr "ePUBレンダリング"
-
-#: template/reference.html.j2:89
-msgid "download ePUB"
-msgstr "ePUBをダウンロード"
-
-#: template/reference.html.j2:100
-msgid "Developer docs"
-msgstr "開発者向けドキュメント"
-
-#: template/reference.html.j2:108
-msgid "online docs"
-msgstr "オンラインドキュメント"
-
-#: template/reference.html.j2:114
-msgid "browse docs"
-msgstr "ドキュメントを閲覧"
+#~ msgid "a highly automated and intuitive digital audio workstation"
+#~ msgstr "高度に自動化された直感的なデジタルオーディオワークステーション"
+
+#~ msgid "Home"
+#~ msgstr "ホーム"
+
+#~ msgid "Download"
+#~ msgstr "ダウンロード"
+
+#~ msgid "Reference"
+#~ msgstr "参照"
+
+#~ msgid "Community"
+#~ msgstr "コミュニティ"
+
+#~ msgid "Language"
+#~ msgstr "言語"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "irc.freenode.netの#zrythm"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrix"
+
+#~ msgid "Developer"
+#~ msgstr "開発者"
+
+#~ msgid "Issue tracker"
+#~ msgstr "課題管理システム"
+
+#~ msgid "issue tracker"
+#~ msgstr "課題管理システム"
+
+#~ msgid "Translations"
+#~ msgstr "翻訳"
+
+#~ msgid "zrythm project"
+#~ msgstr "zrythmプロジェクト"
+
+#~ msgid "Installation"
+#~ msgstr "インストール"
+
+#~ msgid "Source code"
+#~ msgstr "ソースコード"
+
+#~ msgid "git repositories"
+#~ msgstr "gitリポジトリ"
+
+#~ msgid "stable releases"
+#~ msgstr "安定版リリース"
+
+#~ msgid "releases"
+#~ msgstr "リリース"
+
+#~ msgid "GPG signing key"
+#~ msgstr "GPG署名キー"
+
+#~ msgid "GNU Linux packages"
+#~ msgstr "GNU Linux パッケージ"
+
+#~ msgid "zrythm"
+#~ msgstr "zrythm"
+
+#~ msgid "Debian (unofficial)"
+#~ msgstr "Debian (非公式)"
+
+#~ msgid "zrythm at openSUSE build service"
+#~ msgstr "openSUSEビルドサービスのzrythm"
+
+#~ msgid "Fedora (copr)"
+#~ msgstr "Fedora (copr)"
+
+#~ msgid "zrythm at copr"
+#~ msgstr "zrythm @ copr"
+
+#~ msgid "Fedora (unofficial)"
+#~ msgstr "Fedora (非公式)"
+
+#~ msgid "Others (unofficial)"
+#~ msgstr "その他（非公式）"
+
+#~ msgid "Other Platforms"
+#~ msgstr "その他のプラットフォーム"
+
+#~ msgid "FreeBSD (Freshports)"
+#~ msgstr "FreeBSD (Freshports)"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "よくある質問"
+
+#~ msgid "What's the current development status?"
+#~ msgstr "現在の開発状況は？"
+
+#~ msgid ""
+#~ "Zrythm is in the early alpha stage. Many essential features are already "
+#~ "implemented but we do not recommend it for production yet. You are welcome "
+#~ "to test each release and provide us with feedback if you would like to help "
+#~ "speed things up."
+#~ msgstr ""
+#~ "Zrythmは初期のアルファ段階にある。多くの重要な機能は既に実装されていますが、まだ運用環境にはお勧めしません。各リリースをテストし、物事をスピードアップしたい場合は、フィードバックを提供することを大歓迎します。"
+
+#~ msgid "What plugin protocols are supported?"
+#~ msgstr "どのプラグインプロトコルがサポートされていますか？"
+
+#~ msgid "LV2 at the moment. VST2 and VST3 coming soon."
+#~ msgstr "現在はLV2がサポートされています。将来的にVST2やVST3もサポートされます。"
+
+#~ msgid "I'm building from source and I want to run Zrythm without installing"
+#~ msgstr "ソースコードからビルドし、インストールせずにZrythmを実行したいです"
+
+#~ msgid ""
+#~ "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
+#~ "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+#~ msgstr ""
+#~ "<code>glib-compile-schemas "
+#~ "data/</code>を実行してから、<code>GSETTINGS_SCHEMA_DIR=data "
+#~ "./build/zrythm</code>を使用して実行してください"
+
+#~ msgid "I get unmet dependencies when installing on Ubuntu"
+#~ msgstr "Ubuntuにインストールすると、依存関係が満たされない"
+
+#~ msgid "Enable the universe repository:"
+#~ msgstr "universeのリポジトリを有効にしてください:"
+
+#~ msgid "Overview"
+#~ msgstr "概要"
+
+#~ msgid ""
+#~ "Zrythm is a digital audio workstation designed to be featureful and easy to "
+#~ "use."
+#~ msgstr "Zrythmは、機能が豊富で使いやすいように設計されたデジタルオーディオワークステーションです。"
+
+#~ msgid "Limitless automation"
+#~ msgstr "無限の自動化"
+
+#~ msgid ""
+#~ "Automate almost anything with automation events using straight lines, ramps "
+#~ "and curves, or with LFOs and envelopes."
+#~ msgstr "直線、スロープ、カーブ、または LFO とエンベロープを使用して、オートメーション イベントを使用してほぼすべてを自動化できます。"
+
+#~ msgid "LV2 plugins"
+#~ msgstr "LV2プラグイン"
+
+#~ msgid "JACK support"
+#~ msgstr "JACK対応"
+
+#~ msgid "Fully JACK aware, including support for JACK transport."
+#~ msgstr "JACK トランスポートを含む、完全な JACK 対応。"
+
+#~ msgid "Chord assistance"
+#~ msgstr "和音援助"
+
+#~ msgid ""
+#~ "Featuring a chord pad for quickly trying out chords in a scale and a chord "
+#~ "track to help with chord progressions."
+#~ msgstr "和音進行に役立つコードトラック、音階および和音をすばやく試聴するためのコードパッドを備えています。"
+
+#~ msgid "Free software"
+#~ msgstr "自由ソフトウェア"
+
+#~ msgid "Use, study, share and improve freely."
+#~ msgstr "自由に使用、勉学、共有、改善できます。"
+
+#~ msgid "Multilingual"
+#~ msgstr "多言語に対応"
+
+#~ msgid ""
+#~ "Zrythm is available in English, French, Portuguese, Japanese and German."
+#~ msgstr "Zrythmは英語、フランス語、ポルトガル語、日本語、ドイツ語で利用できます。"
+
+#~ msgid "User Manual"
+#~ msgstr "マニュアル"
+
+#~ msgid "online manual"
+#~ msgstr "オンラインマニュアル"
+
+#~ msgid "browse manual"
+#~ msgstr "マニュアルを閲覧"
+
+#~ msgid "HTML-render (zip)"
+#~ msgstr "HTMLレンダリング (zip)"
+
+#~ msgid "download HTML zip"
+#~ msgstr "HTML zipをダウンロード"
+
+#~ msgid "PDF-render"
+#~ msgstr "PDFレンダリング"
+
+#~ msgid "download PDF"
+#~ msgstr "PDFをダウンロード"
+
+#~ msgid "ePUB-render"
+#~ msgstr "ePUBレンダリング"
+
+#~ msgid "download ePUB"
+#~ msgstr "ePUBをダウンロード"
+
+#~ msgid "Developer docs"
+#~ msgstr "開発者向けドキュメント"
+
+#~ msgid "online docs"
+#~ msgstr "オンラインドキュメント"
+
+#~ msgid "browse docs"
+#~ msgstr "ドキュメントを閲覧"
 
 #~ msgid "Arch (aur, git package)"
 #~ msgstr "Arch (aur・gitパッケージ)"
