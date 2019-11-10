@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-03 05:55+0000\n"
+"POT-Creation-Date: 2019-11-10 19:37+0000\n"
 "PO-Revision-Date: 2019-11-08 17:04+0000\n"
 "Last-Translator: Anders Löfgren <a.loefgren@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -16,17 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.7.0\n"
-
-#: common/base.j2:27
-msgid ""
-"--> <!--Zrythm is free from DRM and other restrictions - Find out more at <a"
-" href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
-"<!--"
-msgstr ""
-"--> <!--Zrythm är fri från DRM och andra begränsningar – läs mer på <a href="
-"\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> <!--"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -57,9 +48,8 @@ msgid "Chat"
 msgstr "Chatt"
 
 #: template/community.html.j2:38
-#, fuzzy
 msgid "IRC"
-msgstr "IRC"
+msgstr ""
 
 #: template/community.html.j2:44
 msgid "#zrythm on irc.freenode.net"
@@ -98,6 +88,7 @@ msgid "zrythm project"
 msgstr ""
 
 #: template/download.html.j2:23
+#| msgid "Translations"
 msgid "Installation"
 msgstr ""
 
@@ -122,98 +113,48 @@ msgid "GPG signing key"
 msgstr ""
 
 #: template/download.html.j2:80
-msgid "GNU Linux packages"
+msgid "GNU with Linux"
 msgstr ""
 
-#: template/download.html.j2:88
-msgid "Arch (aur, git package)"
+#: template/download.html.j2:89
+msgid "Arch (aur)"
 msgstr ""
 
-#: template/download.html.j2:94
-msgid "zrythm-git"
-msgstr ""
-
-#: template/download.html.j2:102
-msgid "Arch (aur, stable)"
-msgstr ""
-
-#: template/download.html.j2:108 template/download.html.j2:188
+#: template/download.html.j2:95 template/download.html.j2:175
 msgid "zrythm"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:103
 msgid "Debian (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:122 template/download.html.j2:150
-#: template/download.html.j2:164
+#: template/download.html.j2:109 template/download.html.j2:137
+#: template/download.html.j2:151
 msgid "zrythm at openSUSE build service"
 msgstr ""
 
-#: template/download.html.j2:130
+#: template/download.html.j2:117
 msgid "Fedora (copr)"
 msgstr ""
 
-#: template/download.html.j2:136
+#: template/download.html.j2:123
 msgid "zrythm at copr"
 msgstr ""
 
-#: template/download.html.j2:144
+#: template/download.html.j2:131
 msgid "Fedora (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:158
+#: template/download.html.j2:145
 msgid "Others (unofficial)"
 msgstr ""
 
-#: template/download.html.j2:174
+#: template/download.html.j2:161
 msgid "Other Platforms"
 msgstr ""
 
-#: template/download.html.j2:182
+#: template/download.html.j2:169
 msgid "FreeBSD (Freshports)"
-msgstr ""
-
-#: template/faq.html.j2:22
-msgid "Frequently Asked Questions"
-msgstr ""
-
-#: template/faq.html.j2:28
-msgid "What's the current development status?"
-msgstr ""
-
-#: template/faq.html.j2:30
-msgid ""
-"Zrythm is in the early alpha stage. Many essential features are already "
-"implemented but we do not recommend it for production yet. You are welcome "
-"to test each release and provide us with feedback if you would like to help "
-"speed things up."
-msgstr ""
-
-#: template/faq.html.j2:35
-msgid "What plugin protocols are supported?"
-msgstr ""
-
-#: template/faq.html.j2:37
-msgid "LV2 at the moment. VST2 and VST3 coming soon."
-msgstr ""
-
-#: template/faq.html.j2:42
-msgid "I'm building from source and I want to run Zrythm without installing"
-msgstr ""
-
-#: template/faq.html.j2:44
-msgid ""
-"Run <code>glib-compile-schemas data/</code> and then run zrythm using "
-"<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
-msgstr ""
-
-#: template/faq.html.j2:48
-msgid "I get unmet dependencies when installing on Ubuntu"
-msgstr ""
-
-#: template/faq.html.j2:50
-msgid "Enable the universe repository:"
 msgstr ""
 
 #: template/index.html.j2:39
@@ -305,6 +246,7 @@ msgid "PDF-render"
 msgstr ""
 
 #: template/reference.html.j2:74
+#| msgid "Download"
 msgid "download PDF"
 msgstr ""
 
@@ -313,10 +255,12 @@ msgid "ePUB-render"
 msgstr ""
 
 #: template/reference.html.j2:89
+#| msgid "Download"
 msgid "download ePUB"
 msgstr ""
 
 #: template/reference.html.j2:100
+#| msgid "Developer"
 msgid "Developer docs"
 msgstr ""
 
@@ -327,3 +271,11 @@ msgstr ""
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr ""
+
+#~ msgid ""
+#~ "--> <!--Zrythm is free from DRM and other restrictions - Find out more at <a"
+#~ " href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> "
+#~ "<!--"
+#~ msgstr ""
+#~ "--> <!--Zrythm är fri från DRM och andra begränsningar – läs mer på <a "
+#~ "href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>--> <!--"

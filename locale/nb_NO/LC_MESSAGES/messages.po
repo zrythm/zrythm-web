@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-03 05:55+0000\n"
+"POT-Creation-Date: 2019-11-10 19:37+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -19,83 +19,266 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 3.9-dev\n"
 
-#~ msgid "a highly automated and intuitive digital audio workstation"
-#~ msgstr "inngående automasjon i intuitiv digital lyd-arbeidsstasjon"
+#: common/header.j2.inc:19 template/index.html.j2:23
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr "inngående automasjon i intuitiv digital lyd-arbeidsstasjon"
 
-#~ msgid "Home"
-#~ msgstr "Hjem"
+#: common/navigation.j2.inc:25
+msgid "Home"
+msgstr "Hjem"
 
-#~ msgid "Download"
-#~ msgstr "Last ned"
+#: common/navigation.j2.inc:30
+msgid "Download"
+msgstr "Last ned"
 
-#~ msgid "Reference"
-#~ msgstr "Referanse"
+#: common/navigation.j2.inc:35 template/reference.html.j2:23
+msgid "Reference"
+msgstr "Referanse"
 
-#~ msgid "Community"
-#~ msgstr "Fellesskap"
+#: common/navigation.j2.inc:40 template/community.html.j2:23
+msgid "Community"
+msgstr "Fellesskap"
 
-#~ msgid "Language"
-#~ msgstr "Språk"
+#: common/navigation.j2.inc:58
+msgid "Language"
+msgstr "Språk"
 
-#~ msgid "IRC"
-#~ msgstr "IRC"
+#: template/community.html.j2:30
+msgid "Chat"
+msgstr ""
 
-#~ msgid "#zrythm on irc.freenode.net"
-#~ msgstr "#zrythm på irc.freenode.net"
+#: template/community.html.j2:38
+msgid "IRC"
+msgstr "IRC"
 
-#~ msgid "Matrix"
-#~ msgstr "Matrix"
+#: template/community.html.j2:44
+msgid "#zrythm on irc.freenode.net"
+msgstr "#zrythm på irc.freenode.net"
 
-#~ msgid "Developer"
-#~ msgstr "Utvikler"
+#: template/community.html.j2:52
+msgid "Matrix"
+msgstr "Matrix"
 
-#~ msgid "Issue tracker"
-#~ msgstr "Problemsporer"
+#: template/community.html.j2:66
+msgid "Mail"
+msgstr ""
 
-#~ msgid "issue tracker"
-#~ msgstr "problemsporer"
+#: template/community.html.j2:74
+msgid "User"
+msgstr ""
 
-#~ msgid "Translations"
-#~ msgstr "Oversettelser"
+#: template/community.html.j2:86
+msgid "Developer"
+msgstr "Utvikler"
 
-#~ msgid "zrythm project"
-#~ msgstr "Zrythm-prosjektet"
+#: template/community.html.j2:100
+msgid "Issue tracker"
+msgstr "Problemsporer"
 
-#~ msgid "Installation"
-#~ msgstr "Installasjon"
+#: template/community.html.j2:112
+msgid "issue tracker"
+msgstr "problemsporer"
 
-#~ msgid "Source code"
-#~ msgstr "Kildekode"
+#: template/community.html.j2:122
+msgid "Translations"
+msgstr "Oversettelser"
 
-#~ msgid "git repositories"
-#~ msgstr "Git-kodelager"
+#: template/community.html.j2:134
+msgid "zrythm project"
+msgstr "Zrythm-prosjektet"
 
-#~ msgid "stable releases"
-#~ msgstr "stabile utgivelser"
+#: template/download.html.j2:23
+msgid "Installation"
+msgstr "Installasjon"
 
-#~ msgid "GPG signing key"
-#~ msgstr "GPG-signeringsnøkkel"
+#: template/download.html.j2:32
+msgid "Source code"
+msgstr "Kildekode"
+
+#: template/download.html.j2:40
+msgid "git repositories"
+msgstr "Git-kodelager"
+
+#: template/download.html.j2:52
+msgid "stable releases"
+msgstr "stabile utgivelser"
+
+#: template/download.html.j2:58
+#| msgid "stable releases"
+msgid "releases"
+msgstr ""
+
+#: template/download.html.j2:66
+msgid "GPG signing key"
+msgstr "GPG-signeringsnøkkel"
+
+#: template/download.html.j2:80
+msgid "GNU with Linux"
+msgstr ""
+
+#: template/download.html.j2:89
+msgid "Arch (aur)"
+msgstr ""
+
+#: template/download.html.j2:95 template/download.html.j2:175
+msgid "zrythm"
+msgstr "zrythm"
+
+#: template/download.html.j2:103
+msgid "Debian (unofficial)"
+msgstr "Debian (uoffisiell)"
+
+#: template/download.html.j2:109 template/download.html.j2:137
+#: template/download.html.j2:151
+msgid "zrythm at openSUSE build service"
+msgstr "Zrythm på openSUSE-byggtjenesten"
+
+#: template/download.html.j2:117
+#| msgid "Fedora (unofficial)"
+msgid "Fedora (copr)"
+msgstr ""
+
+#: template/download.html.j2:123
+#| msgid "zrythm project"
+msgid "zrythm at copr"
+msgstr ""
+
+#: template/download.html.j2:131
+msgid "Fedora (unofficial)"
+msgstr "Fedora (uoffisiell)"
+
+#: template/download.html.j2:145
+#| msgid "Fedora (unofficial)"
+msgid "Others (unofficial)"
+msgstr ""
+
+#: template/download.html.j2:161
+msgid "Other Platforms"
+msgstr "Andre plattformer"
+
+#: template/download.html.j2:169
+msgid "FreeBSD (Freshports)"
+msgstr "FreeBSD (FreshPorts)"
+
+#: template/index.html.j2:39
+msgid "Overview"
+msgstr "Oversikt"
+
+#: template/index.html.j2:45
+msgid ""
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use."
+msgstr ""
+"Zrythm er en digital lyd-arbeidsstasjon designet for rik funksjonalitet og "
+"intuitiv bruk."
+
+#: template/index.html.j2:59
+msgid "Limitless automation"
+msgstr "Ubegrenset automasjon"
+
+#: template/index.html.j2:64
+msgid ""
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
+msgstr ""
+
+#: template/index.html.j2:77
+msgid "LV2 plugins"
+msgstr "LV2-programtillegg"
+
+#: template/index.html.j2:82
+msgid ""
+"Full support for LV2, a free and extensible standard for audio plugins."
+msgstr ""
+
+#: template/index.html.j2:97
+msgid "JACK support"
+msgstr "JACK-støtte"
+
+#: template/index.html.j2:102
+msgid "Fully JACK aware, including support for JACK transport."
+msgstr "Fullkompatibel med JACK, inkludert støtte for JACK-transport."
+
+#: template/index.html.j2:114
+msgid "Chord assistance"
+msgstr ""
+
+#: template/index.html.j2:119
+msgid ""
+"Featuring a chord pad for quickly trying out chords in a scale and a chord "
+"track to help with chord progressions."
+msgstr ""
+"Inneholder en akkord-flate for rask utprøving av akkorder i en skala og et "
+"akkortspor til hjelp med akkordprogresjoner."
+
+#: template/index.html.j2:134
+msgid "Free software"
+msgstr "Fri programvare"
+
+#: template/index.html.j2:139
+msgid "Use, study, share and improve freely."
+msgstr "Bruk, studer, del og forbedre fritt."
+
+#: template/index.html.j2:150
+msgid "Multilingual"
+msgstr "Flerspråklig"
+
+#: template/index.html.j2:155
+msgid ""
+"Zrythm is available in English, French, Portuguese, Japanese and German."
+msgstr ""
+"Zrythm er tilgjengelig på engelsk, fransk, portugisisk, japansk og tysk."
+
+#: template/reference.html.j2:30
+msgid "User Manual"
+msgstr "Brukermanual"
+
+#: template/reference.html.j2:38
+msgid "online manual"
+msgstr "nettbasert manual"
+
+#: template/reference.html.j2:44
+msgid "browse manual"
+msgstr "utforsk manualen"
+
+#: template/reference.html.j2:53
+msgid "HTML-render (zip)"
+msgstr "HTML-opptegning (ZIP)"
+
+#: template/reference.html.j2:59
+msgid "download HTML zip"
+msgstr "last ned HTML-ZIP"
+
+#: template/reference.html.j2:68
+msgid "PDF-render"
+msgstr "PDF-opptegning"
+
+#: template/reference.html.j2:74
+msgid "download PDF"
+msgstr "last ned PDF"
+
+#: template/reference.html.j2:83
+msgid "ePUB-render"
+msgstr "ePUB-opptegning"
+
+#: template/reference.html.j2:89
+msgid "download ePUB"
+msgstr "last ned ePUB"
+
+#: template/reference.html.j2:100
+msgid "Developer docs"
+msgstr "Utviklerdokumentasjon"
+
+#: template/reference.html.j2:108
+msgid "online docs"
+msgstr "nettbasert dokumentasjon"
+
+#: template/reference.html.j2:114
+msgid "browse docs"
+msgstr "utforsk dokumentasjon"
 
 #~ msgid "GNU Linux packages"
 #~ msgstr "Linux|GNU-pakker"
-
-#~ msgid "zrythm"
-#~ msgstr "zrythm"
-
-#~ msgid "Debian (unofficial)"
-#~ msgstr "Debian (uoffisiell)"
-
-#~ msgid "zrythm at openSUSE build service"
-#~ msgstr "Zrythm på openSUSE-byggtjenesten"
-
-#~ msgid "Fedora (unofficial)"
-#~ msgstr "Fedora (uoffisiell)"
-
-#~ msgid "Other Platforms"
-#~ msgstr "Andre plattformer"
-
-#~ msgid "FreeBSD (Freshports)"
-#~ msgstr "FreeBSD (FreshPorts)"
 
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "Ofte stilte spørsmål"
@@ -125,85 +308,6 @@ msgstr ""
 
 #~ msgid "I get unmet dependencies when installing on Ubuntu"
 #~ msgstr "Manglende avhengigheter ved installasjon på Ubuntu"
-
-#~ msgid "Overview"
-#~ msgstr "Oversikt"
-
-#~ msgid ""
-#~ "Zrythm is a digital audio workstation designed to be featureful and easy to "
-#~ "use."
-#~ msgstr ""
-#~ "Zrythm er en digital lyd-arbeidsstasjon designet for rik funksjonalitet og "
-#~ "intuitiv bruk."
-
-#~ msgid "Limitless automation"
-#~ msgstr "Ubegrenset automasjon"
-
-#~ msgid "LV2 plugins"
-#~ msgstr "LV2-programtillegg"
-
-#~ msgid "JACK support"
-#~ msgstr "JACK-støtte"
-
-#~ msgid "Fully JACK aware, including support for JACK transport."
-#~ msgstr "Fullkompatibel med JACK, inkludert støtte for JACK-transport."
-
-#~ msgid ""
-#~ "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-#~ "track to help with chord progressions."
-#~ msgstr ""
-#~ "Inneholder en akkord-flate for rask utprøving av akkorder i en skala og et "
-#~ "akkortspor til hjelp med akkordprogresjoner."
-
-#~ msgid "Free software"
-#~ msgstr "Fri programvare"
-
-#~ msgid "Use, study, share and improve freely."
-#~ msgstr "Bruk, studer, del og forbedre fritt."
-
-#~ msgid "Multilingual"
-#~ msgstr "Flerspråklig"
-
-#~ msgid ""
-#~ "Zrythm is available in English, French, Portuguese, Japanese and German."
-#~ msgstr ""
-#~ "Zrythm er tilgjengelig på engelsk, fransk, portugisisk, japansk og tysk."
-
-#~ msgid "User Manual"
-#~ msgstr "Brukermanual"
-
-#~ msgid "online manual"
-#~ msgstr "nettbasert manual"
-
-#~ msgid "browse manual"
-#~ msgstr "utforsk manualen"
-
-#~ msgid "HTML-render (zip)"
-#~ msgstr "HTML-opptegning (ZIP)"
-
-#~ msgid "download HTML zip"
-#~ msgstr "last ned HTML-ZIP"
-
-#~ msgid "PDF-render"
-#~ msgstr "PDF-opptegning"
-
-#~ msgid "download PDF"
-#~ msgstr "last ned PDF"
-
-#~ msgid "ePUB-render"
-#~ msgstr "ePUB-opptegning"
-
-#~ msgid "download ePUB"
-#~ msgstr "last ned ePUB"
-
-#~ msgid "Developer docs"
-#~ msgstr "Utviklerdokumentasjon"
-
-#~ msgid "online docs"
-#~ msgstr "nettbasert dokumentasjon"
-
-#~ msgid "browse docs"
-#~ msgstr "utforsk dokumentasjon"
 
 #~ msgid "zrythm-git"
 #~ msgstr "zrythm-git"
