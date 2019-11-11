@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-11-10 19:37+0000\n"
-"PO-Revision-Date: 2019-10-21 17:53+0000\n"
+"PO-Revision-Date: 2019-11-12 11:04+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.9.1-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -115,12 +115,11 @@ msgstr "clé de signature GPG"
 
 #: template/download.html.j2:80
 msgid "GNU with Linux"
-msgstr ""
+msgstr "GNU avec Linux"
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, git package)"
 msgid "Arch (aur)"
-msgstr ""
+msgstr "Arch (aur)"
 
 #: template/download.html.j2:95 template/download.html.j2:175
 msgid "zrythm"
