@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-10 19:37+0000\n"
+"POT-Creation-Date: 2019-11-15 07:50+0000\n"
 "PO-Revision-Date: 2019-11-08 17:04+0000\n"
 "Last-Translator: Anders Löfgren <a.loefgren@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -88,7 +88,6 @@ msgid "zrythm project"
 msgstr ""
 
 #: template/download.html.j2:23
-#| msgid "Translations"
 msgid "Installation"
 msgstr ""
 
@@ -209,7 +208,7 @@ msgid "Free software"
 msgstr ""
 
 #: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
+msgid "Freedom to use, study, share and improve."
 msgstr ""
 
 #: template/index.html.j2:150
@@ -246,7 +245,6 @@ msgid "PDF-render"
 msgstr ""
 
 #: template/reference.html.j2:74
-#| msgid "Download"
 msgid "download PDF"
 msgstr ""
 
@@ -255,12 +253,10 @@ msgid "ePUB-render"
 msgstr ""
 
 #: template/reference.html.j2:89
-#| msgid "Download"
 msgid "download ePUB"
 msgstr ""
 
 #: template/reference.html.j2:100
-#| msgid "Developer"
 msgid "Developer docs"
 msgstr ""
 

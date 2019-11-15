@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-10 19:37+0000\n"
+"POT-Creation-Date: 2019-11-15 07:50+0000\n"
 "PO-Revision-Date: 2019-09-05 07:58+0000\n"
 "Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -105,7 +105,6 @@ msgid "stable releases"
 msgstr "versioni pubblicate stabili"
 
 #: template/download.html.j2:58
-#| msgid "stable releases"
 msgid "releases"
 msgstr ""
 
@@ -118,7 +117,6 @@ msgid "GNU with Linux"
 msgstr ""
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, git package)"
 msgid "Arch (aur)"
 msgstr ""
 
@@ -136,12 +134,10 @@ msgid "zrythm at openSUSE build service"
 msgstr ""
 
 #: template/download.html.j2:117
-#| msgid "Fedora (unofficial)"
 msgid "Fedora (copr)"
 msgstr ""
 
 #: template/download.html.j2:123
-#| msgid "zrythm project"
 msgid "zrythm at copr"
 msgstr ""
 
@@ -150,7 +146,6 @@ msgid "Fedora (unofficial)"
 msgstr "Fedora (non ufficiale)"
 
 #: template/download.html.j2:145
-#| msgid "Fedora (unofficial)"
 msgid "Others (unofficial)"
 msgstr ""
 
@@ -216,8 +211,9 @@ msgid "Free software"
 msgstr "Software libero"
 
 #: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
-msgstr "Usa, studia, condividi e migliora liberamente."
+#| msgid "Use, study, share and improve freely."
+msgid "Freedom to use, study, share and improve."
+msgstr ""
 
 #: template/index.html.j2:150
 msgid "Multilingual"
@@ -237,7 +233,6 @@ msgid "online manual"
 msgstr "manuale in linea"
 
 #: template/reference.html.j2:44
-#| msgid "online manual"
 msgid "browse manual"
 msgstr ""
 
@@ -246,7 +241,6 @@ msgid "HTML-render (zip)"
 msgstr ""
 
 #: template/reference.html.j2:59
-#| msgid "download PDF"
 msgid "download HTML zip"
 msgstr ""
 
@@ -263,7 +257,6 @@ msgid "ePUB-render"
 msgstr ""
 
 #: template/reference.html.j2:89
-#| msgid "download PDF"
 msgid "download ePUB"
 msgstr ""
 

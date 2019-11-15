@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-10 19:37+0000\n"
+"POT-Creation-Date: 2019-11-15 07:50+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -208,7 +208,7 @@ msgid "Free software"
 msgstr ""
 
 #: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
+msgid "Freedom to use, study, share and improve."
 msgstr ""
 
 #: template/index.html.j2:150
@@ -245,7 +245,6 @@ msgid "PDF-render"
 msgstr ""
 
 #: template/reference.html.j2:74
-#| msgid "Download"
 msgid "download PDF"
 msgstr ""
 
@@ -254,7 +253,6 @@ msgid "ePUB-render"
 msgstr ""
 
 #: template/reference.html.j2:89
-#| msgid "Download"
 msgid "download ePUB"
 msgstr ""
 

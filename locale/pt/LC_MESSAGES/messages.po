@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-10 19:37+0000\n"
+"POT-Creation-Date: 2019-11-15 07:50+0000\n"
 "PO-Revision-Date: 2019-10-28 15:53+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -117,7 +117,6 @@ msgid "GNU with Linux"
 msgstr ""
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, git package)"
 msgid "Arch (aur)"
 msgstr ""
 
@@ -219,8 +218,9 @@ msgid "Free software"
 msgstr "Software Livre"
 
 #: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
-msgstr "Utilize, estude, partilhe e melhore livremente."
+#| msgid "Use, study, share and improve freely."
+msgid "Freedom to use, study, share and improve."
+msgstr ""
 
 #: template/index.html.j2:150
 msgid "Multilingual"

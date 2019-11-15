@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-10 19:37+0000\n"
+"POT-Creation-Date: 2019-11-15 07:50+0000\n"
 "PO-Revision-Date: 2019-10-02 20:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -117,7 +117,6 @@ msgid "GNU with Linux"
 msgstr ""
 
 #: template/download.html.j2:89
-#| msgid "Arch (aur, git package)"
 msgid "Arch (aur)"
 msgstr ""
 
@@ -210,8 +209,9 @@ msgid "Free software"
 msgstr "自由ソフトウェア"
 
 #: template/index.html.j2:139
-msgid "Use, study, share and improve freely."
-msgstr "自由に使用、勉学、共有、改善できます。"
+#| msgid "Use, study, share and improve freely."
+msgid "Freedom to use, study, share and improve."
+msgstr ""
 
 #: template/index.html.j2:150
 msgid "Multilingual"
