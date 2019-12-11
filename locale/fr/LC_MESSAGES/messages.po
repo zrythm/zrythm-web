@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-11 01:27+0000\n"
-"PO-Revision-Date: 2019-11-12 11:04+0000\n"
+"PO-Revision-Date: 2019-12-12 15:56+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.10-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -115,16 +115,20 @@ msgstr "clé de signature GPG"
 
 #: template/download.html.j2:80
 msgid "Installer"
-msgstr ""
+msgstr "Installateur"
 
 #: template/download.html.j2:85
 msgid "Pay $1 or more and get a binary package (installer) for your distro."
 msgstr ""
+"Payez 1$ ou plus et obtenez un paquet binaire (installateur) pour votre "
+"distribution."
 
 #: template/download.html.j2:88
 msgid ""
 "You will receive free updates for the major version of Zrythm you purchased."
 msgstr ""
+"Vous recevrez des mises à jour gratuites pour la version majeure de Zrythm "
+"que vous avez achetée."
 
 #: template/index.html.j2:39
 msgid "Overview"
@@ -189,7 +193,7 @@ msgstr "Logiciel libre"
 
 #: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
-msgstr ""
+msgstr "Utilisez, étudiez, partagez et améliorez librement."
 
 #: template/index.html.j2:150
 msgid "Multilingual"
@@ -206,6 +210,8 @@ msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions how to download your installer."
 msgstr ""
+"Merci de soutenir le développement ! Vous recevrez bientôt un courriel "
+"contenant les instructions pour télécharger votre installateur."
 
 #: template/purchase-thanks.html.j2:34
 msgid ""
@@ -213,10 +219,13 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"Une fois le fichier zip téléchargé, l'extraire et exécutez "
+"<code>./installer.sh</code> dans un terminal. Si vous rencontrez des "
+"problèmes, veuillez nous contacter."
 
 #: template/purchase-thanks.html.j2:41
 msgid "Go back to home page"
-msgstr ""
+msgstr "Retour à la page d'accueil"
 
 #: template/reference.html.j2:30
 msgid "User Manual"
