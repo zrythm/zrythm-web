@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-11 01:01+0000\n"
-"PO-Revision-Date: 2019-10-02 20:56+0000\n"
+"PO-Revision-Date: 2019-12-11 01:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.9-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -46,7 +47,7 @@ msgstr "言語"
 
 #: template/community.html.j2:30
 msgid "Chat"
-msgstr ""
+msgstr "チャット"
 
 #: template/community.html.j2:38
 msgid "IRC"
@@ -62,11 +63,11 @@ msgstr "Matrix"
 
 #: template/community.html.j2:66
 msgid "Mail"
-msgstr ""
+msgstr "メール"
 
 #: template/community.html.j2:74
 msgid "User"
-msgstr ""
+msgstr "ユーザー"
 
 #: template/community.html.j2:86
 msgid "Developer"
@@ -114,7 +115,7 @@ msgstr "GPG署名キー"
 
 #: template/download.html.j2:80
 msgid "Installer"
-msgstr ""
+msgstr "インストーラ"
 
 #: template/index.html.j2:39
 msgid "Overview"
@@ -143,7 +144,7 @@ msgstr "LV2プラグイン"
 #: template/index.html.j2:82
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
-msgstr ""
+msgstr "オーディオプラグインのオープンスタンダードで拡張可能な標準であるLV2を完全にサポート。"
 
 #: template/index.html.j2:97
 msgid "JACK support"
@@ -169,7 +170,7 @@ msgstr "自由ソフトウェア"
 
 #: template/index.html.j2:139
 msgid "Use, study, share and improve freely."
-msgstr ""
+msgstr "自由に使用、勉学、共有、改善できます。"
 
 #: template/index.html.j2:150
 msgid "Multilingual"
@@ -184,7 +185,7 @@ msgstr "Zrythmは英語、フランス語、ポルトガル語、日本語、ド
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions how to download your installer."
-msgstr ""
+msgstr "開発を支援していただきありがとうございます!インストーラのダウンロード方法を記載したメールがまもなく届きます。"
 
 #: template/purchase-thanks.html.j2:34
 msgid ""
@@ -192,10 +193,12 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"zip ファイルをダウンロードしたら、それを解凍し、ターミナルで<code>./installer.sh</code>を実行します。何か問題が発生した場合"
+"は、お問い合わせください。"
 
 #: template/purchase-thanks.html.j2:41
 msgid "Go back to home page"
-msgstr ""
+msgstr "ホームページに戻る"
 
 #: template/reference.html.j2:30
 msgid "User Manual"
