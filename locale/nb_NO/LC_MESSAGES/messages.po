@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-11 01:01+0000\n"
+"POT-Creation-Date: 2019-12-11 01:27+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -113,6 +113,15 @@ msgstr "GPG-signeringsnøkkel"
 
 #: template/download.html.j2:80
 msgid "Installer"
+msgstr ""
+
+#: template/download.html.j2:85
+msgid "Pay $1 or more and get a binary package (installer) for your distro."
+msgstr ""
+
+#: template/download.html.j2:88
+msgid ""
+"You will receive free updates for the major version of Zrythm you purchased."
 msgstr ""
 
 #: template/index.html.j2:39

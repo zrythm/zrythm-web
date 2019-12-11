@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-11 01:01+0000\n"
+"POT-Creation-Date: 2019-12-11 01:27+0000\n"
 "PO-Revision-Date: 2019-12-11 01:25+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -117,6 +116,15 @@ msgstr "GPG署名キー"
 msgid "Installer"
 msgstr "インストーラ"
 
+#: template/download.html.j2:85
+msgid "Pay $1 or more and get a binary package (installer) for your distro."
+msgstr ""
+
+#: template/download.html.j2:88
+msgid ""
+"You will receive free updates for the major version of Zrythm you purchased."
+msgstr ""
+
 #: template/index.html.j2:39
 msgid "Overview"
 msgstr "概要"
@@ -193,8 +201,8 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
-"zip ファイルをダウンロードしたら、それを解凍し、ターミナルで<code>./installer.sh</code>を実行します。何か問題が発生した場合"
-"は、お問い合わせください。"
+"zip "
+"ファイルをダウンロードしたら、それを解凍し、ターミナルで<code>./installer.sh</code>を実行します。何か問題が発生した場合は、お問い合わせください。"
 
 #: template/purchase-thanks.html.j2:41
 msgid "Go back to home page"

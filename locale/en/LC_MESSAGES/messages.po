@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-11 01:01+0000\n"
+"POT-Creation-Date: 2019-12-11 01:27+0000\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -98,6 +98,15 @@ msgstr ""
 
 #: template/download.html.j2:80
 msgid "Installer"
+msgstr ""
+
+#: template/download.html.j2:85
+msgid "Pay $1 or more and get a binary package (installer) for your distro."
+msgstr ""
+
+#: template/download.html.j2:88
+msgid ""
+"You will receive free updates for the major version of Zrythm you purchased."
 msgstr ""
 
 #: template/index.html.j2:39
