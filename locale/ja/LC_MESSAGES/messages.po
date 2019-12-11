@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-11 01:27+0000\n"
-"PO-Revision-Date: 2019-12-11 01:25+0000\n"
+"PO-Revision-Date: 2019-12-12 15:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.10-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -118,12 +119,12 @@ msgstr "インストーラ"
 
 #: template/download.html.j2:85
 msgid "Pay $1 or more and get a binary package (installer) for your distro."
-msgstr ""
+msgstr "$1以上を支払うと、GNU/Linuxディストリビューション用のバイナリパッケージ(インストーラ)を取得します。"
 
 #: template/download.html.j2:88
 msgid ""
 "You will receive free updates for the major version of Zrythm you purchased."
-msgstr ""
+msgstr "購入した Zrythm のメジャー バージョンの無料アップデートが提供されます。"
 
 #: template/index.html.j2:39
 msgid "Overview"
