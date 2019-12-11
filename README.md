@@ -12,6 +12,9 @@ https://git.gnunet.org/www.git/
 # Building
 `make` will create the full bundle in `rendered`
 
+# Dependencies
+`python-babel` `python-feedparser` `python-polib`
+
 ----
 
 Copyright (C) 2019 Alexandros Theodotou

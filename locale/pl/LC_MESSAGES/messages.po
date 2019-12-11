@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-15 07:50+0000\n"
+"POT-Creation-Date: 2019-12-11 01:01+0000\n"
 "PO-Revision-Date: 2019-11-02 13:27+0000\n"
 "Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -112,48 +112,7 @@ msgid "GPG signing key"
 msgstr "Klucz podpisywania GPG"
 
 #: template/download.html.j2:80
-msgid "GNU with Linux"
-msgstr ""
-
-#: template/download.html.j2:89
-msgid "Arch (aur)"
-msgstr ""
-
-#: template/download.html.j2:95 template/download.html.j2:175
-msgid "zrythm"
-msgstr "zrythm"
-
-#: template/download.html.j2:103
-msgid "Debian (unofficial)"
-msgstr "Debian (nieoficjalny)"
-
-#: template/download.html.j2:109 template/download.html.j2:137
-#: template/download.html.j2:151
-msgid "zrythm at openSUSE build service"
-msgstr "zrythm w usłudze kompilacji openSUSE"
-
-#: template/download.html.j2:117
-msgid "Fedora (copr)"
-msgstr ""
-
-#: template/download.html.j2:123
-msgid "zrythm at copr"
-msgstr ""
-
-#: template/download.html.j2:131
-msgid "Fedora (unofficial)"
-msgstr "Fedora (nieoficjalny)"
-
-#: template/download.html.j2:145
-msgid "Others (unofficial)"
-msgstr ""
-
-#: template/download.html.j2:161
-msgid "Other Platforms"
-msgstr "Inne platformy"
-
-#: template/download.html.j2:169
-msgid "FreeBSD (Freshports)"
+msgid "Installer"
 msgstr ""
 
 #: template/index.html.j2:39
@@ -210,8 +169,7 @@ msgid "Free software"
 msgstr "Wolne oprogramowanie"
 
 #: template/index.html.j2:139
-#| msgid "Use, study, share and improve freely."
-msgid "Freedom to use, study, share and improve."
+msgid "Use, study, share and improve freely."
 msgstr ""
 
 #: template/index.html.j2:150
@@ -224,6 +182,23 @@ msgid ""
 msgstr ""
 "Zrythm jest dostępny w języku angielskim, francuskim, portugalskim, "
 "japońskim i niemieckim."
+
+#: template/purchase-thanks.html.j2:27
+msgid ""
+"Thank you for supporting development! You will receive an email soon with "
+"instructions how to download your installer."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:34
+msgid ""
+"Once you download the zip file, extract it and run "
+"<code>./installer.sh</code> in a terminal. If you experience any problems, "
+"please contact us."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:41
+msgid "Go back to home page"
+msgstr ""
 
 #: template/reference.html.j2:30
 msgid "User Manual"
@@ -272,6 +247,21 @@ msgstr "dokumenty online"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "przeglądaj dokumenty"
+
+#~ msgid "zrythm"
+#~ msgstr "zrythm"
+
+#~ msgid "Debian (unofficial)"
+#~ msgstr "Debian (nieoficjalny)"
+
+#~ msgid "zrythm at openSUSE build service"
+#~ msgstr "zrythm w usłudze kompilacji openSUSE"
+
+#~ msgid "Fedora (unofficial)"
+#~ msgstr "Fedora (nieoficjalny)"
+
+#~ msgid "Other Platforms"
+#~ msgstr "Inne platformy"
 
 #~ msgid "GNU Linux packages"
 #~ msgstr "Pakiety GNU Linux"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-15 07:50+0000\n"
+"POT-Creation-Date: 2019-12-11 01:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -110,48 +110,7 @@ msgid "GPG signing key"
 msgstr ""
 
 #: template/download.html.j2:80
-msgid "GNU with Linux"
-msgstr ""
-
-#: template/download.html.j2:89
-msgid "Arch (aur)"
-msgstr ""
-
-#: template/download.html.j2:95 template/download.html.j2:175
-msgid "zrythm"
-msgstr ""
-
-#: template/download.html.j2:103
-msgid "Debian (unofficial)"
-msgstr ""
-
-#: template/download.html.j2:109 template/download.html.j2:137
-#: template/download.html.j2:151
-msgid "zrythm at openSUSE build service"
-msgstr ""
-
-#: template/download.html.j2:117
-msgid "Fedora (copr)"
-msgstr ""
-
-#: template/download.html.j2:123
-msgid "zrythm at copr"
-msgstr ""
-
-#: template/download.html.j2:131
-msgid "Fedora (unofficial)"
-msgstr ""
-
-#: template/download.html.j2:145
-msgid "Others (unofficial)"
-msgstr ""
-
-#: template/download.html.j2:161
-msgid "Other Platforms"
-msgstr ""
-
-#: template/download.html.j2:169
-msgid "FreeBSD (Freshports)"
+msgid "Installer"
 msgstr ""
 
 #: template/index.html.j2:39
@@ -206,7 +165,7 @@ msgid "Free software"
 msgstr ""
 
 #: template/index.html.j2:139
-msgid "Freedom to use, study, share and improve."
+msgid "Use, study, share and improve freely."
 msgstr ""
 
 #: template/index.html.j2:150
@@ -216,6 +175,23 @@ msgstr ""
 #: template/index.html.j2:155
 msgid ""
 "Zrythm is available in English, French, Portuguese, Japanese and German."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:27
+msgid ""
+"Thank you for supporting development! You will receive an email soon with "
+"instructions how to download your installer."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:34
+msgid ""
+"Once you download the zip file, extract it and run "
+"<code>./installer.sh</code> in a terminal. If you experience any problems, "
+"please contact us."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:41
+msgid "Go back to home page"
 msgstr ""
 
 #: template/reference.html.j2:30
