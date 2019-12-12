@@ -38,9 +38,18 @@
   padding-bottom: 3%;
 }
 
-.liberapay_btn {
+.footer_btn {
   vertical-align: middle;
   float: right;
+  height: 24px !important;
+  margin-left: 6px;
+  transition: all 0.3s;
+  position: relative;
+  top: 6px;
+}
+
+.footer_btn:hover {
+  filter: brightness(70%);
 }
 
 .footer_container {

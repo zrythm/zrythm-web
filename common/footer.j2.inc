@@ -23,11 +23,29 @@ GNU Affero General Public License for more details.
       </div>
       <div class="col-sm-4">
         <right>
+          <a href="https://www.patreon.com/alex_tee">
+            <img
+               class="footer_btn"
+               alt="Donate using Patreon"
+               src="{{ url('dist/fork-awesome/patreon.svg') }}">
+          </a>
           <a href="https://liberapay.com/Zrythm/donate">
             <img
-               class="liberapay_btn"
+               class="footer_btn"
                alt="Donate using Liberapay"
-               src="{{ url('static/images/donate_liberapay.svg') }}">
+               src="{{ url('dist/fork-awesome/liberapay.svg') }}">
+          </a>
+          <a href="https://twitter.com/zrythmdaw">
+            <img
+               class="footer_btn"
+               alt="Zrythm on Twitter"
+               src="{{ url('dist/fork-awesome/twitter.svg') }}">
+          </a>
+          <a href="https://mastodon.social/@zrythm">
+            <img
+               class="footer_btn"
+               alt="Zrythm on Mastodon"
+               src="{{ url('dist/fork-awesome/mastodon.svg') }}">
           </a>
         </right>
       </div>

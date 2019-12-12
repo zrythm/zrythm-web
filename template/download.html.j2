@@ -81,20 +81,64 @@ GNU Affero General Public License for more details.
     Installer
     {% endtrans %}
   </h3>
-  <p>
-    {% trans %}
-      Pay $1 or more and get a binary package (installer) for your distro.
-    {% endtrans %}<br>
-    {% trans %}
-      You will receive free updates for the major version of Zrythm you purchased.
-    {% endtrans %}<br>
-  </p>
-  <p>
-      <center>
-      <a href="https://transactions.sendowl.com/products/78169986/2B0FE183/view" rel="nofollow"><img src="https://transactions.sendowl.com/assets/external/buy-now.png" /></a><script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
-      </center>
-  </p>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <p>
+          <ul>
+            <li>{{ _('Binary package (installer) for all supported distros') }}
+            <li>{{ _('Latest Zrythm version') }}
+            <li>{{ _('$5 one-time purchase') }}
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <ul>
+            <li>{{ _('Binary package (installer) for all supported distros') }}
+            <li>{{ _('Latest Zrythm version') }}
+            <li>{{ _('Free updates for the major version of Zrythm you purchased') }}
+            <li>{{ _('$25 one-time purchase') }}
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <ul>
+            <li>{{ _('Binary package (installer) for all supported distros') }}
+            <li>{{ _('Latest Zrythm version') }}
+            <li>{{ _('Free updates for as long as you are subscribed') }}
+            <li>{{ _('$5 per month') }}
+          </ul>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>
+          <center>
+            <a href="https://transactions.sendowl.com/products/78170776/F4C440E4/view" rel="nofollow" class="button">{{ _('Buy Now') }}</a>
+            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+          </center>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <center>
+            <a href="https://transactions.sendowl.com/products/78169986/2B0FE183/view" rel="nofollow" class="button secondary">{{ _('Buy Now') }}</a>
+            <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+          </center>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <center>
+            <button class="primary" disabled="">{{ _('Coming Soon') }}</button>
+          </center>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 </left>
 
