@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -120,7 +120,8 @@ msgstr "Installateur"
 #: template/download.html.j2:89 template/download.html.j2:98
 #: template/download.html.j2:108
 msgid "Binary package (installer) for all supported distros"
-msgstr "Paquet binaire (installateur) pour toutes les distributions supportées"
+msgstr ""
+"Paquet binaire (installateur) pour toutes les distributions supportées"
 
 #: template/download.html.j2:90 template/download.html.j2:99
 #: template/download.html.j2:109
