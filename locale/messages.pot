@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-14 03:48+0000\n"
+"POT-Creation-Date: 2019-12-14 05:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,9 @@ msgid "Multilingual"
 msgstr ""
 
 #: template/index.html.j2:155
-msgid "Zrythm is available in English, French, Portuguese, Japanese and German."
+msgid ""
+"Thanks to contributors, Zrythm is available in English, French, "
+"Portuguese, Japanese and German."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:27

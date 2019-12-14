@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-14 02:40+0000\n"
+"POT-Creation-Date: 2019-12-14 05:49+0000\n"
 "PO-Revision-Date: 2019-12-14 02:18+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -236,9 +236,9 @@ msgstr "Polyglotte"
 
 #: template/index.html.j2:155
 msgid ""
-"Zrythm is available in English, French, Portuguese, Japanese and German."
+"Thanks to contributors, Zrythm is available in English, French, Portuguese, "
+"Japanese and German."
 msgstr ""
-"Zrythm est disponible en anglais, français, portugais, japonais et allemand."
 
 #: template/purchase-thanks.html.j2:27
 msgid ""

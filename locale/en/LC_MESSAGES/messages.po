@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-14 02:40+0000\n"
+"POT-Creation-Date: 2019-12-14 04:02+0000\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -206,7 +206,8 @@ msgstr ""
 
 #: template/index.html.j2:155
 msgid ""
-"Zrythm is available in English, French, Portuguese, Japanese and German."
+"Thanks to contributors, Zrythm is available in English, French, Portuguese, "
+"Japanese and German."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:27

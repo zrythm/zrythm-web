@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-14 02:40+0000\n"
+"POT-Creation-Date: 2019-12-14 05:49+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -225,9 +225,9 @@ msgstr "Flerspråklig"
 
 #: template/index.html.j2:155
 msgid ""
-"Zrythm is available in English, French, Portuguese, Japanese and German."
+"Thanks to contributors, Zrythm is available in English, French, Portuguese, "
+"Japanese and German."
 msgstr ""
-"Zrythm er tilgjengelig på engelsk, fransk, portugisisk, japansk og tysk."
 
 #: template/purchase-thanks.html.j2:27
 msgid ""

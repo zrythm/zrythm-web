@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-14 02:40+0000\n"
+"POT-Creation-Date: 2019-12-14 04:02+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/hi/>\n"
@@ -221,7 +221,8 @@ msgstr ""
 
 #: template/index.html.j2:155
 msgid ""
-"Zrythm is available in English, French, Portuguese, Japanese and German."
+"Thanks to contributors, Zrythm is available in English, French, Portuguese, "
+"Japanese and German."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:27

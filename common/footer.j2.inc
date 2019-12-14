@@ -41,7 +41,7 @@ GNU Affero General Public License for more details.
                alt="Zrythm on Twitter"
                src="{{ url('dist/fork-awesome/twitter.svg') }}">
           </a>
-          <a href="https://mastodon.social/@zrythm">
+          <a rel="me" href="https://mastodon.social/@zrythm">
             <img
                class="footer_btn"
                alt="Zrythm on Mastodon"
