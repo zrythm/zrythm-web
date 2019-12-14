@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-12 15:46+0000\n"
+"POT-Creation-Date: 2019-12-14 02:17+0000\n"
 "PO-Revision-Date: 2019-12-12 16:45+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -150,9 +150,9 @@ msgstr "月額 $5"
 msgid "Buy Now"
 msgstr "今すぐ購入"
 
-#: template/download.html.j2:136
-msgid "Coming Soon"
-msgstr "もうすぐです"
+#: template/download.html.j2:140
+msgid "Subscribe"
+msgstr ""
 
 #: template/index.html.j2:39
 msgid "Overview"
@@ -284,6 +284,9 @@ msgstr "オンラインドキュメント"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
+
+#~ msgid "Coming Soon"
+#~ msgstr "もうすぐです"
 
 #~ msgid "zrythm"
 #~ msgstr "zrythm"

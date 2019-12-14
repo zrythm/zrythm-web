@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-12 15:46+0000\n"
+"POT-Creation-Date: 2019-12-14 02:17+0000\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -134,8 +134,8 @@ msgstr ""
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:136
-msgid "Coming Soon"
+#: template/download.html.j2:140
+msgid "Subscribe"
 msgstr ""
 
 #: template/index.html.j2:39

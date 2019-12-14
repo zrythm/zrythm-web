@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-12 15:46+0000\n"
+"POT-Creation-Date: 2019-12-14 02:17+0000\n"
 "PO-Revision-Date: 2019-12-12 15:56+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -153,11 +153,9 @@ msgstr ""
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:136
-msgid "Coming Soon"
+#: template/download.html.j2:140
+msgid "Subscribe"
 msgstr ""
-"Vous recevrez des mises à jour gratuites pour la version majeure de Zrythm "
-"que vous avez achetée."
 
 #: template/index.html.j2:39
 msgid "Overview"
@@ -303,6 +301,11 @@ msgstr "docs en ligne"
 #: template/reference.html.j2:114
 msgid "browse docs"
 msgstr "naviguer dans les docs"
+
+#~ msgid "Coming Soon"
+#~ msgstr ""
+#~ "Vous recevrez des mises à jour gratuites pour la version majeure de Zrythm "
+#~ "que vous avez achetée."
 
 #~ msgid "zrythm"
 #~ msgstr "zrythm"

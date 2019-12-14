@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-12 15:46+0000\n"
+"POT-Creation-Date: 2019-12-14 02:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -147,8 +147,8 @@ msgstr ""
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:136
-msgid "Coming Soon"
+#: template/download.html.j2:140
+msgid "Subscribe"
 msgstr ""
 
 #: template/index.html.j2:39

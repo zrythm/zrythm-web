@@ -57,6 +57,12 @@
   max-width: 70%;
 }
 
+.no_css_form {
+  background: unset !important;
+  border: unset !important;
+  padding: unset !important;
+}
+
 tbody {
   border-width: 0px !important;
 }
