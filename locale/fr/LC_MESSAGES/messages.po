@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-14 02:17+0000\n"
-"PO-Revision-Date: 2019-12-12 15:56+0000\n"
+"PO-Revision-Date: 2019-12-14 02:18+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.10-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -120,38 +120,38 @@ msgstr "Installateur"
 #: template/download.html.j2:89 template/download.html.j2:98
 #: template/download.html.j2:108
 msgid "Binary package (installer) for all supported distros"
-msgstr ""
-"Payez 1$ ou plus et obtenez un paquet binaire (installateur) pour votre "
-"distribution."
+msgstr "Paquet binaire (installateur) pour toutes les distributions supportées"
 
 #: template/download.html.j2:90 template/download.html.j2:99
 #: template/download.html.j2:109
 msgid "Latest Zrythm version"
-msgstr ""
+msgstr "Dernière version de Zrythm"
 
 #: template/download.html.j2:91
 msgid "$5 one-time purchase"
-msgstr ""
+msgstr "5$ pour un achat unique"
 
 #: template/download.html.j2:100
 msgid "Free updates for the major version of Zrythm you purchased"
 msgstr ""
+"Mises à jour gratuites pour la version majeure de Zrythm que vous avez "
+"achetée"
 
 #: template/download.html.j2:101
 msgid "$25 one-time purchase"
-msgstr ""
+msgstr "Achat unique de 25 $"
 
 #: template/download.html.j2:110
 msgid "Free updates for as long as you are subscribed"
-msgstr ""
+msgstr "Mises à jour gratuites pendant toute la durée de votre abonnement"
 
 #: template/download.html.j2:111
 msgid "$5 per month"
-msgstr ""
+msgstr "5$ par mois"
 
 #: template/download.html.j2:120 template/download.html.j2:128
 msgid "Buy Now"
-msgstr ""
+msgstr "Acheter maintenant"
 
 #: template/download.html.j2:140
 msgid "Subscribe"

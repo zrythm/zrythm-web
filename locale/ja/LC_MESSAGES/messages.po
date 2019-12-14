@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-14 02:17+0000\n"
-"PO-Revision-Date: 2019-12-12 16:45+0000\n"
+"PO-Revision-Date: 2019-12-12 16:50+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
@@ -203,7 +203,7 @@ msgstr "和音進行に役立つコードトラック、音階および和音を
 
 #: template/index.html.j2:134
 msgid "Free software"
-msgstr "自由ソフトウェア"
+msgstr "自由なソフトウェア"
 
 #: template/index.html.j2:139
 msgid "Use, study, share and improve freely."

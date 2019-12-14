@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-14 02:17+0000\n"
-"PO-Revision-Date: 2019-12-12 15:56+0000\n"
+"PO-Revision-Date: 2019-12-14 02:18+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 3.10-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -125,11 +126,11 @@ msgstr ""
 #: template/download.html.j2:90 template/download.html.j2:99
 #: template/download.html.j2:109
 msgid "Latest Zrythm version"
-msgstr ""
+msgstr "Versão mais recente do Zrythm"
 
 #: template/download.html.j2:91
 msgid "$5 one-time purchase"
-msgstr ""
+msgstr "$5 compra única"
 
 #: template/download.html.j2:100
 msgid "Free updates for the major version of Zrythm you purchased"
