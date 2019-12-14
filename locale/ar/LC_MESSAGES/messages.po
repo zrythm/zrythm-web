@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-14 02:17+0000\n"
+"POT-Creation-Date: 2019-12-14 02:40+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Arabic <https://translate.zrythm.org/projects/zrythm/website/ar/>\n"
@@ -115,13 +115,13 @@ msgstr ""
 msgid "Installer"
 msgstr ""
 
-#: template/download.html.j2:89 template/download.html.j2:98
-#: template/download.html.j2:108
+#: template/download.html.j2:89 template/download.html.j2:100
+#: template/download.html.j2:112
 msgid "Binary package (installer) for all supported distros"
 msgstr ""
 
-#: template/download.html.j2:90 template/download.html.j2:99
-#: template/download.html.j2:109
+#: template/download.html.j2:90 template/download.html.j2:101
+#: template/download.html.j2:113
 msgid "Latest Zrythm version"
 msgstr ""
 
@@ -129,27 +129,34 @@ msgstr ""
 msgid "$5 one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:100
+#: template/download.html.j2:94 template/download.html.j2:106
+#, python-format
+msgid ""
+"We are offering <b>50%%</b> off while Zrythm is in the alpha stage. Use the "
+"code <b>1052a06e7f</b>"
+msgstr ""
+
+#: template/download.html.j2:102
 msgid "Free updates for the major version of Zrythm you purchased"
 msgstr ""
 
-#: template/download.html.j2:101
+#: template/download.html.j2:103
 msgid "$25 one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:110
+#: template/download.html.j2:114
 msgid "Free updates for as long as you are subscribed"
 msgstr ""
 
-#: template/download.html.j2:111
+#: template/download.html.j2:115
 msgid "$5 per month"
 msgstr ""
 
-#: template/download.html.j2:120 template/download.html.j2:128
+#: template/download.html.j2:124 template/download.html.j2:132
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:140
+#: template/download.html.j2:144
 msgid "Subscribe"
 msgstr ""
 
