@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-15 06:11+0000\n"
-"PO-Revision-Date: 2019-12-14 02:18+0000\n"
+"PO-Revision-Date: 2019-12-15 22:09+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.10-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:19 template/index.html.j2:23
 msgid "a highly automated and intuitive digital audio workstation"
@@ -156,7 +156,7 @@ msgstr "Acheter maintenant"
 
 #: template/download.html.j2:140
 msgid "Subscribe"
-msgstr ""
+msgstr "Souscrire"
 
 #: template/index.html.j2:39
 msgid "Overview"
@@ -232,6 +232,8 @@ msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
 msgstr ""
+"Grâce aux contributeurs, Zrythm est disponible en anglais, français, "
+"portugais, japonais et allemand."
 
 #: template/purchase-thanks.html.j2:27
 msgid ""
