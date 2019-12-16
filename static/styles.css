@@ -123,3 +123,40 @@ div#banner-content {
 /*div#body_content {*/
  /*padding-top: 3.1875rem;*/
 /*}*/
+
+/* Snow effect. see
+ * https://designshack.net/articles/css/make-it-snow-on-your-website-with-css-keyframe-animations/ */
+#mybody {
+ background-image: url('../static/images/snow.png'), url('../static/images/snow2.png'), url('../static/images/snow3.png');
+
+ -webkit-animation: snow 20s linear infinite;
+ -moz-animation: snow 20s linear infinite;
+ -ms-animation: snow 20s linear infinite;
+ animation: snow 20s linear infinite;
+}
+
+footer {
+  background-color: unset !important;
+}
+
+/* snow keyframes */
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {background-color:#b4cfe0;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
