@@ -23,6 +23,12 @@ GNU Affero General Public License for more details.
       </div>
       <div class="col-sm-4">
         <right>
+          <a href="https://paypal.me/zrythm">
+            <img
+               class="footer_btn"
+               alt="Donate using PayPal"
+               src="{{ url('dist/fork-awesome/paypal.svg') }}">
+          </a>
           <a href="https://www.patreon.com/alex_tee">
             <img
                class="footer_btn"

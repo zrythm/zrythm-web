@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-15 06:11+0000\n"
+"POT-Creation-Date: 2019-12-18 16:29+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: template/download.html.j2:89 template/download.html.j2:98
 #: template/download.html.j2:108
-msgid "Binary package (installer) for all supported distros"
+msgid "Binary package (installer)"
 msgstr ""
 
 #: template/download.html.j2:90 template/download.html.j2:99
@@ -130,7 +130,7 @@ msgid "$5 one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:100
-msgid "Free updates for the major version of Zrythm you purchased"
+msgid "Free upgrades for the major version of Zrythm you purchased"
 msgstr ""
 
 #: template/download.html.j2:101
@@ -138,7 +138,7 @@ msgid "$25 one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:110
-msgid "Free updates for as long as you are subscribed"
+msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:111
