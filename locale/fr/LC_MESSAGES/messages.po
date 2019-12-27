@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-28 04:58+0000\n"
-"PO-Revision-Date: 2019-12-15 22:09+0000\n"
+"POT-Creation-Date: 2019-12-27 10:57+0000\n"
+"PO-Revision-Date: 2019-12-28 15:25+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.10\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.10-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -130,11 +130,11 @@ msgstr "Installateur"
 
 #: template/download.html.j2:101
 msgid "alpha/beta"
-msgstr ""
+msgstr "alpha/bêta"
 
 #: template/download.html.j2:108 template/download.html.j2:117
 msgid "Binary package (installer)"
-msgstr ""
+msgstr "Paquet binaire (installateur)"
 
 #: template/download.html.j2:109 template/download.html.j2:118
 msgid "Latest Zrythm version"
@@ -146,7 +146,7 @@ msgstr "5$ pour un achat unique"
 
 #: template/download.html.j2:119
 msgid "Free upgrades for all alpha/beta releases"
-msgstr ""
+msgstr "Mises à jour gratuites pour toutes les versions alpha/bêta"
 
 #: template/download.html.j2:120
 msgid "$25 one-time purchase"
