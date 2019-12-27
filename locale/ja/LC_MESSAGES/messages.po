@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-27 10:57+0000\n"
-"PO-Revision-Date: 2019-12-27 11:06+0000\n"
+"PO-Revision-Date: 2019-12-27 11:16+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
 "\n"
@@ -131,7 +131,7 @@ msgstr "最新のZrythmバージョン"
 
 #: template/download.html.j2:100
 msgid "$5 one-time purchase"
-msgstr "$5 ワンタイム購入"
+msgstr "$5の1回限りの購入"
 
 #: template/download.html.j2:109
 msgid "Free upgrades for all alpha/beta releases"
@@ -139,7 +139,7 @@ msgstr "すべてのアルファ/ベータ版リリースの無料アップグ�
 
 #: template/download.html.j2:110
 msgid "$25 one-time purchase"
-msgstr "$25 ワンタイム購入"
+msgstr "$25の1回限りの購入"
 
 #: template/download.html.j2:119 template/download.html.j2:127
 msgid "Buy Now"
