@@ -83,38 +83,37 @@ GNU Affero General Public License for more details.
   </h3>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6">
+        <center><h3>
+          {{ version }}</h3></center>
+      </div>
+      <div class="col-sm-6">
+        <center><h3>{{ _('alpha/beta') }}</h3></center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
         <p>
-          <ul>
-            <li>{{ _('Binary package (installer)') }}
-            <li>{{ _('Latest Zrythm version') }}
-            <li>{{ _('$5 one-time purchase') }}
-          </ul>
+          <center>
+            <p>{{ _('Binary package (installer)') }}</p>
+            <p>{{ _('Latest Zrythm version') }}</p>
+            <p>{{ _('$5 one-time purchase') }}</p>
+          </center>
         </p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <p>
-          <ul>
-            <li>{{ _('Binary package (installer)') }}
-            <li>{{ _('Latest Zrythm version') }}
-            <li>{{ _('Free upgrades for the major version of Zrythm you purchased') }}
-            <li>{{ _('$25 one-time purchase') }}
-          </ul>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <ul>
-            <li>{{ _('Binary package (installer)') }}
-            <li>{{ _('Latest Zrythm version') }}
-            <li>{{ _('Free upgrades for as long as you are subscribed') }}
-            <li>{{ _('$5 per month') }}
-          </ul>
+          <center>
+            <p>{{ _('Binary package (installer)') }}</p>
+            <p>{{ _('Latest Zrythm version') }}</p>
+            <p>{{ _('Free upgrades for all alpha/beta releases') }}</p>
+            <p>{{ _('$25 one-time purchase') }}</p>
+          </center>
         </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <p>
           <center>
             <a href="https://transactions.sendowl.com/products/78175539/9639056E/view" rel="nofollow" class="button">{{ _('Buy Now') }}</a>
@@ -122,24 +121,11 @@ GNU Affero General Public License for more details.
           </center>
         </p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <p>
           <center>
             <a href="https://transactions.sendowl.com/products/78169986/2B0FE183/view" rel="nofollow" class="button secondary">{{ _('Buy Now') }}</a>
             <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
-          </center>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <center>
-            <form action="https://www.paypal.com/cgi-bin/webscr"
-                  class="no_css_form" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="QPVLCKJYGNT8A">
-              <input type="submit" class="button primary" value="{{ _('Subscribe') }}"
-                     name="submit">
-            </form>
           </center>
         </p>
       </div>

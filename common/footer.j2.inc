@@ -29,12 +29,6 @@ GNU Affero General Public License for more details.
                alt="Donate using PayPal"
                src="{{ url('dist/fork-awesome/paypal.svg') }}">
           </a>
-          <a href="https://www.patreon.com/alex_tee">
-            <img
-               class="footer_btn"
-               alt="Donate using Patreon"
-               src="{{ url('dist/fork-awesome/patreon.svg') }}">
-          </a>
           <a href="https://liberapay.com/Zrythm">
             <img
                class="footer_btn"
