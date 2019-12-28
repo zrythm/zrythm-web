@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-12-27 10:57+0000\n"
-"PO-Revision-Date: 2019-12-28 15:25+0000\n"
+"PO-Revision-Date: 2019-12-29 02:42+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
 ">\n"
@@ -26,6 +26,9 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK"
 msgstr ""
+"DAW, estação de trabalho de áudio digital, produção musical, áudio, pró "
+"áudio, Linux, GNU/Linux, software livre, software libre, editor de som, "
+"composição, MIDI, LV2, JACK"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
@@ -51,7 +54,7 @@ msgstr "Idioma"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Páginas comunitárias e canais de comunicação da Zrythm"
 
 #: template/community.html.j2:39
 msgid "Chat"
@@ -100,6 +103,8 @@ msgstr "Projeto zrythm"
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr ""
+"Descarregue o código-fonte do Zrythm ou compre um instalador de pacote "
+"binário"
 
 #: template/download.html.j2:33
 msgid "Installation"
@@ -163,6 +168,10 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm é uma estação de trabalho de áudio digital projetada para ser cheia "
+"de recursos e fácil de usar. Permite uma automação sem limites, suporta "
+"plugins LV2, funciona com o backend de áudio JACK e fornece assistência de "
+"acordes."
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -247,7 +256,7 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Obrigado"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
@@ -274,6 +283,8 @@ msgstr "Voltar à página inicial"
 #: template/reference.html.j2:22
 msgid "Zrythm reference pages - user manual - developer documentation"
 msgstr ""
+"Páginas de referência Zrythm - manual do utilizador - documentação do "
+"programador"
 
 #: template/reference.html.j2:40
 msgid "User Manual"
