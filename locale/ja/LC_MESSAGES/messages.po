@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-27 10:57+0000\n"
+"POT-Creation-Date: 2019-12-28 04:58+0000\n"
 "PO-Revision-Date: 2019-12-27 11:16+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -20,23 +20,28 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.10\n"
 
-#: common/header.j2.inc:19 template/index.html.j2:23
-msgid "a highly automated and intuitive digital audio workstation"
-msgstr "高度に自動化された直感的なデジタルオーディオワークステーション"
+#: common/header.j2.inc:24
+msgid ""
+"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
+"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
+"LV2, JACK"
+msgstr ""
 
 #: common/navigation.j2.inc:25
 msgid "Home"
 msgstr "ホーム"
 
-#: common/navigation.j2.inc:30
+#: common/navigation.j2.inc:30 template/download.html.j2:19
 msgid "Download"
 msgstr "ダウンロード"
 
-#: common/navigation.j2.inc:35 template/reference.html.j2:23
+#: common/navigation.j2.inc:35 template/reference.html.j2:19
+#: template/reference.html.j2:33
 msgid "Reference"
 msgstr "参照"
 
-#: common/navigation.j2.inc:40 template/community.html.j2:23
+#: common/navigation.j2.inc:40 template/community.html.j2:19
+#: template/community.html.j2:32
 msgid "Community"
 msgstr "コミュニティ"
 
@@ -44,178 +49,201 @@ msgstr "コミュニティ"
 msgid "Language"
 msgstr "言語"
 
-#: template/community.html.j2:30
+#: template/community.html.j2:22
+msgid "Zrythm's community pages and communication channels"
+msgstr ""
+
+#: template/community.html.j2:39
 msgid "Chat"
 msgstr "チャット"
 
-#: template/community.html.j2:38
+#: template/community.html.j2:47
 msgid "IRC"
 msgstr "IRC"
 
-#: template/community.html.j2:44
+#: template/community.html.j2:53
 msgid "#zrythm on irc.freenode.net"
 msgstr "irc.freenode.netの#zrythm"
 
-#: template/community.html.j2:52
+#: template/community.html.j2:61
 msgid "Matrix"
 msgstr "Matrix"
 
-#: template/community.html.j2:66
+#: template/community.html.j2:75
 msgid "Mail"
 msgstr "メール"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:83
 msgid "User"
 msgstr "ユーザー"
 
-#: template/community.html.j2:86
+#: template/community.html.j2:95
 msgid "Developer"
 msgstr "開発者"
 
-#: template/community.html.j2:100
+#: template/community.html.j2:109
 msgid "Issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:112
+#: template/community.html.j2:121
 msgid "issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:122
+#: template/community.html.j2:131
 msgid "Translations"
 msgstr "翻訳"
 
-#: template/community.html.j2:134
+#: template/community.html.j2:143
 msgid "zrythm project"
 msgstr "zrythmプロジェクト"
 
-#: template/download.html.j2:23
+#: template/download.html.j2:22
+msgid "Download Zrythm's source code or purchase a binary package installer"
+msgstr ""
+
+#: template/download.html.j2:33
 msgid "Installation"
 msgstr "インストール"
 
-#: template/download.html.j2:32
+#: template/download.html.j2:42
 msgid "Source code"
 msgstr "ソースコード"
 
-#: template/download.html.j2:40
+#: template/download.html.j2:50
 msgid "git repositories"
 msgstr "gitリポジトリ"
 
-#: template/download.html.j2:52
+#: template/download.html.j2:62
 msgid "stable releases"
 msgstr "安定版リリース"
 
-#: template/download.html.j2:58
+#: template/download.html.j2:68
 msgid "releases"
 msgstr "リリース"
 
-#: template/download.html.j2:66
+#: template/download.html.j2:76
 msgid "GPG signing key"
 msgstr "GPG署名キー"
 
-#: template/download.html.j2:80
+#: template/download.html.j2:90
 msgid "Installer"
 msgstr "インストーラ"
 
-#: template/download.html.j2:91
+#: template/download.html.j2:101
 msgid "alpha/beta"
 msgstr "アルファ/ベータ版"
 
-#: template/download.html.j2:98 template/download.html.j2:107
+#: template/download.html.j2:108 template/download.html.j2:117
 msgid "Binary package (installer)"
 msgstr "バイナリパッケージ（インストーラ）"
 
-#: template/download.html.j2:99 template/download.html.j2:108
+#: template/download.html.j2:109 template/download.html.j2:118
 msgid "Latest Zrythm version"
 msgstr "最新のZrythmバージョン"
 
-#: template/download.html.j2:100
+#: template/download.html.j2:110
 msgid "$5 one-time purchase"
 msgstr "$5の1回限りの購入"
 
-#: template/download.html.j2:109
+#: template/download.html.j2:119
 msgid "Free upgrades for all alpha/beta releases"
 msgstr "すべてのアルファ/ベータ版リリースの無料アップグレード"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:120
 msgid "$25 one-time purchase"
 msgstr "$25の1回限りの購入"
 
-#: template/download.html.j2:119 template/download.html.j2:127
+#: template/download.html.j2:129 template/download.html.j2:137
 msgid "Buy Now"
 msgstr "今すぐ購入"
 
-#: template/index.html.j2:39
+#: template/index.html.j2:22
+msgid ""
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use. It allows limitless automation, supports LV2 plugins, works with the "
+"JACK audio backend and provides chord assistance."
+msgstr ""
+
+#: template/index.html.j2:35
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr "高度に自動化された直感的なデジタルオーディオワークステーション"
+
+#: template/index.html.j2:51
 msgid "Overview"
 msgstr "概要"
 
-#: template/index.html.j2:45
+#: template/index.html.j2:57
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr "Zrythmは、機能が豊富で使いやすいように設計されたデジタルオーディオワークステーションです。"
 
-#: template/index.html.j2:59
+#: template/index.html.j2:71
 msgid "Limitless automation"
 msgstr "無限の自動化"
 
-#: template/index.html.j2:64
+#: template/index.html.j2:76
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr "直線、スロープ、カーブ、または LFO とエンベロープを使用して、オートメーション イベントを使用してほぼすべてを自動化できます。"
 
-#: template/index.html.j2:77
+#: template/index.html.j2:89
 msgid "LV2 plugins"
 msgstr "LV2プラグイン"
 
-#: template/index.html.j2:82
+#: template/index.html.j2:94
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
 msgstr "オーディオプラグインのオープンスタンダードで拡張可能な標準であるLV2を完全にサポート。"
 
-#: template/index.html.j2:97
+#: template/index.html.j2:109
 msgid "JACK support"
 msgstr "JACK対応"
 
-#: template/index.html.j2:102
+#: template/index.html.j2:114
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr "JACK トランスポートを含む、完全な JACK 対応。"
 
-#: template/index.html.j2:114
+#: template/index.html.j2:126
 msgid "Chord assistance"
 msgstr "和音援助"
 
-#: template/index.html.j2:119
+#: template/index.html.j2:131
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr "和音進行に役立つコードトラック、音階および和音をすばやく試聴するためのコードパッドを備えています。"
 
-#: template/index.html.j2:134
+#: template/index.html.j2:146
 msgid "Free software"
 msgstr "自由なソフトウェア"
 
-#: template/index.html.j2:139
+#: template/index.html.j2:151
 msgid "Use, study, share and improve freely."
 msgstr "自由に使用、勉学、共有、改善できます。"
 
-#: template/index.html.j2:150
+#: template/index.html.j2:162
 msgid "Multilingual"
 msgstr "多言語に対応"
 
-#: template/index.html.j2:155
+#: template/index.html.j2:167
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
 msgstr "貢献者のおかげで、Zrythmは英語、フランス語、ポルトガル語、日本語、ドイツ語でご利用いただけます。"
 
-#: template/purchase-thanks.html.j2:27
+#: template/purchase-thanks.html.j2:19
+msgid "Thank You"
+msgstr ""
+
+#: template/purchase-thanks.html.j2:31
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions how to download your installer."
 msgstr "開発を支援していただきありがとうございます!インストーラのダウンロード方法を記載したメールがまもなく届きます。"
 
-#: template/purchase-thanks.html.j2:34
+#: template/purchase-thanks.html.j2:38
 msgid ""
 "Once you download the zip file, extract it and run "
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
@@ -224,55 +252,59 @@ msgstr ""
 "zip "
 "ファイルをダウンロードしたら、それを解凍し、ターミナルで<code>./installer.sh</code>を実行します。何か問題が発生した場合は、お問い合わせください。"
 
-#: template/purchase-thanks.html.j2:41
+#: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "ホームページに戻る"
 
-#: template/reference.html.j2:30
+#: template/reference.html.j2:22
+msgid "Zrythm reference pages - user manual - developer documentation"
+msgstr ""
+
+#: template/reference.html.j2:40
 msgid "User Manual"
 msgstr "マニュアル"
 
-#: template/reference.html.j2:38
+#: template/reference.html.j2:48
 msgid "online manual"
 msgstr "オンラインマニュアル"
 
-#: template/reference.html.j2:44
+#: template/reference.html.j2:54
 msgid "browse manual"
 msgstr "マニュアルを閲覧"
 
-#: template/reference.html.j2:53
+#: template/reference.html.j2:63
 msgid "HTML-render (zip)"
 msgstr "HTMLレンダリング (zip)"
 
-#: template/reference.html.j2:59
+#: template/reference.html.j2:69
 msgid "download HTML zip"
 msgstr "HTML zipをダウンロード"
 
-#: template/reference.html.j2:68
+#: template/reference.html.j2:78
 msgid "PDF-render"
 msgstr "PDFレンダリング"
 
-#: template/reference.html.j2:74
+#: template/reference.html.j2:84
 msgid "download PDF"
 msgstr "PDFをダウンロード"
 
-#: template/reference.html.j2:83
+#: template/reference.html.j2:93
 msgid "ePUB-render"
 msgstr "ePUBレンダリング"
 
-#: template/reference.html.j2:89
+#: template/reference.html.j2:99
 msgid "download ePUB"
 msgstr "ePUBをダウンロード"
 
-#: template/reference.html.j2:100
+#: template/reference.html.j2:110
 msgid "Developer docs"
 msgstr "開発者向けドキュメント"
 
-#: template/reference.html.j2:108
+#: template/reference.html.j2:118
 msgid "online docs"
 msgstr "オンラインドキュメント"
 
-#: template/reference.html.j2:114
+#: template/reference.html.j2:124
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
 

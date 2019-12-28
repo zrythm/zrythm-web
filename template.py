@@ -127,7 +127,7 @@ for in_file in glob.glob("template/*.j2"):
         """
         Return URL for the current page in another locale.
         """
-        return "../" + other_locale + "/" + in_file.replace('template/', '').rstrip(".j2")
+        return "https://www.zrythm.org/" + other_locale + "/" + in_file.replace('template/', '').rstrip(".j2")
 
     def url_localized(filename):
         return "../" + locale + "/" + filename

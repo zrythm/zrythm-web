@@ -15,8 +15,20 @@ GNU Affero General Public License for more details.
 #}
 
 {% extends "common/base.j2" %}
-{% block body_content %}
+{% block head_content %}
+<title>Zrythm - Digital Audio Workstation</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Zrythm is a digital audio workstation designed to be
+      featureful and easy to use. It allows limitless
+      automation, supports LV2 plugins, works with the JACK
+      audio backend and provides chord assistance.
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/index.html">
+{% endblock head_content %}
 
+{% block body_content %}
 <center>
   <h1>Zrythm
     <small>
@@ -28,7 +40,7 @@ GNU Affero General Public License for more details.
 
   <img
      class="screenshot_img shadowed"
-     src="{{ url('static/images/dec_14_2019.png') }}"
+     src="{{ url('static/images/dec-14-2019.png') }}"
      alt="Screenshot">
   </img>
 </center>

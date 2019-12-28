@@ -15,8 +15,12 @@ GNU Affero General Public License for more details.
 #}
 
 {% extends "common/base.j2" %}
-{% block body_content %}
+{% block head_content %}
+<title>Zrythm - {{ _('Thank You') }}</title>
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/purchase-thanks.html">
+{% endblock head_content %}
 
+{% block body_content %}
 <center>
   <h1>Purchase Complete
     <small>

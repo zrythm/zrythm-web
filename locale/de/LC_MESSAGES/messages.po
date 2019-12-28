@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-27 10:57+0000\n"
+"POT-Creation-Date: 2019-12-28 04:58+0000\n"
 "PO-Revision-Date: 2019-10-25 17:53+0000\n"
 "Last-Translator: André Menrath <andre.menrath@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -19,23 +19,28 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9.1-dev\n"
 
-#: common/header.j2.inc:19 template/index.html.j2:23
-msgid "a highly automated and intuitive digital audio workstation"
-msgstr "eine hochautomatisierte und intuitive Digital Audio Workstation"
+#: common/header.j2.inc:24
+msgid ""
+"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
+"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
+"LV2, JACK"
+msgstr ""
 
 #: common/navigation.j2.inc:25
 msgid "Home"
 msgstr "Startseite"
 
-#: common/navigation.j2.inc:30
+#: common/navigation.j2.inc:30 template/download.html.j2:19
 msgid "Download"
 msgstr "Herunterladen"
 
-#: common/navigation.j2.inc:35 template/reference.html.j2:23
+#: common/navigation.j2.inc:35 template/reference.html.j2:19
+#: template/reference.html.j2:33
 msgid "Reference"
 msgstr "Verweise"
 
-#: common/navigation.j2.inc:40 template/community.html.j2:23
+#: common/navigation.j2.inc:40 template/community.html.j2:19
+#: template/community.html.j2:32
 msgid "Community"
 msgstr "Gemeinschaft"
 
@@ -43,111 +48,130 @@ msgstr "Gemeinschaft"
 msgid "Language"
 msgstr "Sprache"
 
-#: template/community.html.j2:30
+#: template/community.html.j2:22
+msgid "Zrythm's community pages and communication channels"
+msgstr ""
+
+#: template/community.html.j2:39
 msgid "Chat"
 msgstr "Chat"
 
-#: template/community.html.j2:38
+#: template/community.html.j2:47
 msgid "IRC"
 msgstr "IRC"
 
-#: template/community.html.j2:44
+#: template/community.html.j2:53
 msgid "#zrythm on irc.freenode.net"
 msgstr "#zrythm unter irc.freenode.net"
 
-#: template/community.html.j2:52
+#: template/community.html.j2:61
 msgid "Matrix"
 msgstr "Matrix"
 
-#: template/community.html.j2:66
+#: template/community.html.j2:75
 msgid "Mail"
 msgstr "E-Mail"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:83
 msgid "User"
 msgstr "Anwender"
 
-#: template/community.html.j2:86
+#: template/community.html.j2:95
 msgid "Developer"
 msgstr "Entwickler"
 
-#: template/community.html.j2:100
+#: template/community.html.j2:109
 msgid "Issue tracker"
 msgstr "Problemverwaltung"
 
-#: template/community.html.j2:112
+#: template/community.html.j2:121
 msgid "issue tracker"
 msgstr "Problemverwaltung"
 
-#: template/community.html.j2:122
+#: template/community.html.j2:131
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: template/community.html.j2:134
+#: template/community.html.j2:143
 msgid "zrythm project"
 msgstr "Zrythm-Projekt"
 
-#: template/download.html.j2:23
+#: template/download.html.j2:22
+msgid "Download Zrythm's source code or purchase a binary package installer"
+msgstr ""
+
+#: template/download.html.j2:33
 msgid "Installation"
 msgstr "Installation"
 
-#: template/download.html.j2:32
+#: template/download.html.j2:42
 msgid "Source code"
 msgstr "Quellcode"
 
-#: template/download.html.j2:40
+#: template/download.html.j2:50
 msgid "git repositories"
 msgstr "git-Repositorys"
 
-#: template/download.html.j2:52
+#: template/download.html.j2:62
 msgid "stable releases"
 msgstr "Stabile Veröffentlichungen"
 
-#: template/download.html.j2:58
+#: template/download.html.j2:68
 msgid "releases"
 msgstr "Veröffentlichungen"
 
-#: template/download.html.j2:66
+#: template/download.html.j2:76
 msgid "GPG signing key"
 msgstr "GPG-Signierungsschlüssel"
 
-#: template/download.html.j2:80
+#: template/download.html.j2:90
 msgid "Installer"
 msgstr ""
 
-#: template/download.html.j2:91
+#: template/download.html.j2:101
 msgid "alpha/beta"
 msgstr ""
 
-#: template/download.html.j2:98 template/download.html.j2:107
+#: template/download.html.j2:108 template/download.html.j2:117
 msgid "Binary package (installer)"
 msgstr ""
 
-#: template/download.html.j2:99 template/download.html.j2:108
+#: template/download.html.j2:109 template/download.html.j2:118
 msgid "Latest Zrythm version"
 msgstr ""
 
-#: template/download.html.j2:100
+#: template/download.html.j2:110
 msgid "$5 one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:109
+#: template/download.html.j2:119
 msgid "Free upgrades for all alpha/beta releases"
 msgstr ""
 
-#: template/download.html.j2:110
+#: template/download.html.j2:120
 msgid "$25 one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:119 template/download.html.j2:127
+#: template/download.html.j2:129 template/download.html.j2:137
 msgid "Buy Now"
 msgstr ""
 
-#: template/index.html.j2:39
+#: template/index.html.j2:22
+msgid ""
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use. It allows limitless automation, supports LV2 plugins, works with the "
+"JACK audio backend and provides chord assistance."
+msgstr ""
+
+#: template/index.html.j2:35
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr "eine hochautomatisierte und intuitive Digital Audio Workstation"
+
+#: template/index.html.j2:51
 msgid "Overview"
 msgstr "Übersicht"
 
-#: template/index.html.j2:45
+#: template/index.html.j2:57
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
@@ -155,11 +179,11 @@ msgstr ""
 "Zrythm ist eine Digital Audio Workstation, designt dafür, funktionsreich und"
 " leicht zu nutzen zu sein."
 
-#: template/index.html.j2:59
+#: template/index.html.j2:71
 msgid "Limitless automation"
 msgstr "Grenzenlose Automatisierung"
 
-#: template/index.html.j2:64
+#: template/index.html.j2:76
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
@@ -167,32 +191,32 @@ msgstr ""
 "Automatisiere so gut wie alles mit Automationsereignissen, die gerade "
 "Linien, Rampen, und Kurven benutzen, oder mit LFOs und Hüllkurven."
 
-#: template/index.html.j2:77
+#: template/index.html.j2:89
 msgid "LV2 plugins"
 msgstr "LV2-Plugins"
 
-#: template/index.html.j2:82
+#: template/index.html.j2:94
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
 "Volle Unterstützung für LV2, einen kostenlosen und erweiterbaren Standard "
 "für Audio-Plugins."
 
-#: template/index.html.j2:97
+#: template/index.html.j2:109
 msgid "JACK support"
 msgstr "JACK-Unterstützung"
 
-#: template/index.html.j2:102
+#: template/index.html.j2:114
 msgid "Fully JACK aware, including support for JACK transport."
 msgstr ""
 "Vollkompatibel mit JACK, einschließlich Unterstützung für den JACK-"
 "Transport."
 
-#: template/index.html.j2:114
+#: template/index.html.j2:126
 msgid "Chord assistance"
 msgstr "Akkordassistenz"
 
-#: template/index.html.j2:119
+#: template/index.html.j2:131
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
@@ -200,86 +224,94 @@ msgstr ""
 "Beinhaltet ein Akkord-Pad für ein schnelles Ausprobieren von Akkorden in "
 "einer Tonleiter und eine Akkordspur zur Hilfe mit Akkordfolgen."
 
-#: template/index.html.j2:134
+#: template/index.html.j2:146
 msgid "Free software"
 msgstr "Freie Software"
 
-#: template/index.html.j2:139
+#: template/index.html.j2:151
 msgid "Use, study, share and improve freely."
 msgstr ""
 
-#: template/index.html.j2:150
+#: template/index.html.j2:162
 msgid "Multilingual"
 msgstr "Mehrsprachig"
 
-#: template/index.html.j2:155
+#: template/index.html.j2:167
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
 msgstr ""
 
-#: template/purchase-thanks.html.j2:27
+#: template/purchase-thanks.html.j2:19
+msgid "Thank You"
+msgstr ""
+
+#: template/purchase-thanks.html.j2:31
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions how to download your installer."
 msgstr ""
 
-#: template/purchase-thanks.html.j2:34
+#: template/purchase-thanks.html.j2:38
 msgid ""
 "Once you download the zip file, extract it and run "
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
 
-#: template/purchase-thanks.html.j2:41
+#: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr ""
 
-#: template/reference.html.j2:30
+#: template/reference.html.j2:22
+msgid "Zrythm reference pages - user manual - developer documentation"
+msgstr ""
+
+#: template/reference.html.j2:40
 msgid "User Manual"
 msgstr "Benutzerhandbuch"
 
-#: template/reference.html.j2:38
+#: template/reference.html.j2:48
 msgid "online manual"
 msgstr "Online-Handbuch"
 
-#: template/reference.html.j2:44
+#: template/reference.html.j2:54
 msgid "browse manual"
 msgstr "Handbuch durchblättern"
 
-#: template/reference.html.j2:53
+#: template/reference.html.j2:63
 msgid "HTML-render (zip)"
 msgstr "HTML-Render (zip)"
 
-#: template/reference.html.j2:59
+#: template/reference.html.j2:69
 msgid "download HTML zip"
 msgstr "HTML-zip herunterladen"
 
-#: template/reference.html.j2:68
+#: template/reference.html.j2:78
 msgid "PDF-render"
 msgstr "PDF-Render"
 
-#: template/reference.html.j2:74
+#: template/reference.html.j2:84
 msgid "download PDF"
 msgstr "PDF herunterladen"
 
-#: template/reference.html.j2:83
+#: template/reference.html.j2:93
 msgid "ePUB-render"
 msgstr "ePUB-Render"
 
-#: template/reference.html.j2:89
+#: template/reference.html.j2:99
 msgid "download ePUB"
 msgstr "ePUB herunterladen"
 
-#: template/reference.html.j2:100
+#: template/reference.html.j2:110
 msgid "Developer docs"
 msgstr "Entwicklerdokus"
 
-#: template/reference.html.j2:108
+#: template/reference.html.j2:118
 msgid "online docs"
 msgstr "Onlinedokus"
 
-#: template/reference.html.j2:114
+#: template/reference.html.j2:124
 msgid "browse docs"
 msgstr "Dokus durchstöbern"
 

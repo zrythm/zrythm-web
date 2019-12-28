@@ -15,14 +15,13 @@ GNU Affero General Public License for more details.
 #}
 
 <meta charset="UTF-8"/>
-<title>Zrythm</title>
-<meta name="description" content="{{ _('a highly automated and intuitive digital audio workstation') }}" />
 {% for key in langs_full.keys() %}
   <link rel="alternate" hreflang="{{ key }}" href="{{ self_localized(key) }}" />
 {% endfor %}
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Alexandros Theodotou">
+<meta name="keywords" content="{{ _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK') }}">
 <link rel="icon" href="{{ url('static/favicon.ico') }}">
 
 <!-- mini.css -->

@@ -15,8 +15,18 @@ GNU Affero General Public License for more details.
 #}
 
 {% extends "common/base.j2" %}
-{% block body_content %}
+{% block head_content %}
+<title>Zrythm - {{ _('Reference') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Zrythm reference pages - user manual - developer
+      documentation
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/reference.html">
+{% endblock head_content %}
 
+{% block body_content %}
 <left>
 <div class="container features_box">
   <h2>

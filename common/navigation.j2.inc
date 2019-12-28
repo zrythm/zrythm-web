@@ -17,7 +17,7 @@ GNU Affero General Public License for more details.
 <header>
   <a href="index.html" class="logo">
     <img class="logo_img" width=28
-       src="{{ url('static/images/z_xmas.png') }}"
+       src="{{ url('static/images/z-xmas.png') }}"
        alt="Logo">
     </img>
   </a>

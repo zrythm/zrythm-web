@@ -15,8 +15,18 @@ GNU Affero General Public License for more details.
 #}
 
 {% extends "common/base.j2" %}
-{% block body_content %}
+{% block head_content %}
+<title>Zrythm - {{ _('Download') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Download Zrythm's source code or purchase a binary
+      package installer
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/download.html">
+{% endblock head_content %}
 
+{% block body_content %}
 <left>
 <div class="container features_box">
   <h2>

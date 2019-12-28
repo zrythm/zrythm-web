@@ -27,7 +27,7 @@
 # -----
 
 list_pages(){
-cd rendered && find . -type f ! -path '*/.*' ! -path '*/_*' -name '*.html' | sed 's#^./##;#'
+cd rendered && find . -type f ! -path '*/.*' ! -path '*/_*' -name '*.html' | sed 's#^./##;#' | grep -v purchase
 }
 
 main(){
