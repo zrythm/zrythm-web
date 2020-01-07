@@ -92,50 +92,70 @@ GNU Affero General Public License for more details.
     {% endtrans %}
   </h3>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <center><h3>
-          {{ version }}</h3></center>
+    <div class="row centered">
+      <div class="col-sm-4">
+        <h3>
+          {{ version }}</h3>
       </div>
-      <div class="col-sm-6">
-        <center><h3>{{ _('alpha/beta') }}</h3></center>
+      <div class="col-sm-4">
+        <h3>{{ _('alpha/beta') }}</h3>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <p>
-          <center>
-            <p>{{ _('Binary package (installer)') }}</p>
-            <p>{{ _('Latest Zrythm version') }}</p>
-            <p>{{ _('$5 one-time purchase') }}</p>
-          </center>
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <p>
-          <center>
-            <p>{{ _('Binary package (installer)') }}</p>
-            <p>{{ _('Latest Zrythm version') }}</p>
-            <p>{{ _('Free upgrades for all alpha/beta releases') }}</p>
-            <p>{{ _('$25 one-time purchase') }}</p>
-          </center>
-        </p>
+      <div class="col-sm-4">
+        <h3>{{ _('subscription') }}</h3>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
+        <p>
+          <p>{{ _('Binary package (installer)') }}</p>
+          <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('$5 one-time purchase') }}</p>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <p>{{ _('Binary package (installer)') }}</p>
+          <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Free upgrades for all alpha/beta releases') }}</p>
+          <p>{{ _('$25 one-time purchase') }}</p>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <p>{{ _('Binary package (installer)') }}</p>
+          <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Free upgrades as long as you are subscribed') }}</p>
+          <p>{{ _('$5 per month') }}</p>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
         <p>
           <center>
-            <a href="https://transactions.sendowl.com/products/78175539/9639056E/view" rel="nofollow" class="button">{{ _('Buy Now') }}</a>
+            <a href="https://transactions.sendowl.com/products/78180327/DEBC7BB7/view" rel="nofollow" class="button">{{ _('Buy Now') }}</a>
             <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
           </center>
         </p>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <p>
           <center>
             <a href="https://transactions.sendowl.com/products/78169986/2B0FE183/view" rel="nofollow" class="button secondary">{{ _('Buy Now') }}</a>
             <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
+          </center>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p>
+          <center>
+            <form action="https://www.paypal.com/cgi-bin/webscr"
+                  class="no_css_form" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="QPVLCKJYGNT8A">
+              <input type="submit" class="button primary" value="{{ _('Subscribe') }}"
+                     name="submit">
+            </form>
           </center>
         </p>
       </div>

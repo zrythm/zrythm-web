@@ -119,6 +119,10 @@ div#banner-content {
  padding-bottom: 10px;
 }
 
+.centered {
+  text-align: center;
+}
+
  /*Uncomment for banner */
 /*div#body_content {*/
  /*padding-top: 3.1875rem;*/
@@ -126,6 +130,7 @@ div#banner-content {
 
 /* Snow effect. see
  * https://designshack.net/articles/css/make-it-snow-on-your-website-with-css-keyframe-animations/ */
+/*
 #mybody {
  background-image: url('../static/images/snow.png'), url('../static/images/snow2.png'), url('../static/images/snow3.png');
 
@@ -138,8 +143,10 @@ div#banner-content {
 footer {
   background-color: unset !important;
 }
+/*
 
 /* snow keyframes */
+/*
 @keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
@@ -159,3 +166,4 @@ footer {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
+*/

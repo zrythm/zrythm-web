@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-28 04:58+0000\n"
+"POT-Creation-Date: 2020-01-07 04:37+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -132,15 +132,21 @@ msgstr ""
 msgid "alpha/beta"
 msgstr ""
 
-#: template/download.html.j2:108 template/download.html.j2:117
+#: template/download.html.j2:104
+msgid "subscription"
+msgstr ""
+
+#: template/download.html.j2:110 template/download.html.j2:117
+#: template/download.html.j2:125
 msgid "Binary package (installer)"
 msgstr ""
 
-#: template/download.html.j2:109 template/download.html.j2:118
+#: template/download.html.j2:111 template/download.html.j2:118
+#: template/download.html.j2:126
 msgid "Latest Zrythm version"
 msgstr ""
 
-#: template/download.html.j2:110
+#: template/download.html.j2:112
 msgid "$5 one-time purchase"
 msgstr ""
 
@@ -152,8 +158,20 @@ msgstr ""
 msgid "$25 one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:129 template/download.html.j2:137
+#: template/download.html.j2:127
+msgid "Free upgrades as long as you are subscribed"
+msgstr ""
+
+#: template/download.html.j2:128
+msgid "$5 per month"
+msgstr ""
+
+#: template/download.html.j2:136 template/download.html.j2:144
 msgid "Buy Now"
+msgstr ""
+
+#: template/download.html.j2:156
+msgid "Subscribe"
 msgstr ""
 
 #: template/index.html.j2:22
