@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-07 04:37+0000\n"
+"POT-Creation-Date: 2020-01-10 22:33+0000\n"
 "PO-Revision-Date: 2019-12-30 13:21+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -71,33 +71,33 @@ msgstr "#zrythm sur irc.freenode.net"
 msgid "Matrix"
 msgstr "Matrice"
 
-#: template/community.html.j2:75
+#: template/community.html.j2:73
+msgid "Discord"
+msgstr ""
+
+#: template/community.html.j2:87
 msgid "Mail"
 msgstr "Courriel"
 
-#: template/community.html.j2:83
+#: template/community.html.j2:95
 msgid "User"
 msgstr "Utilisateur"
 
-#: template/community.html.j2:95
+#: template/community.html.j2:107
 msgid "Developer"
 msgstr "Développeur"
 
-#: template/community.html.j2:109
+#: template/community.html.j2:121
 msgid "Issue tracker"
 msgstr "Suivi des problèmes"
 
-#: template/community.html.j2:121
-msgid "issue tracker"
-msgstr "outil de suivi des problèmes"
-
-#: template/community.html.j2:131
-msgid "Translations"
-msgstr "Traductions"
-
-#: template/community.html.j2:143
+#: template/community.html.j2:133 template/community.html.j2:155
 msgid "zrythm project"
 msgstr "projet zrythm"
+
+#: template/community.html.j2:143
+msgid "Translations"
+msgstr "Traductions"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
@@ -164,7 +164,7 @@ msgid "$25 one-time purchase"
 msgstr "Achat unique de 25 $"
 
 #: template/download.html.j2:127
-msgid "Free upgrades as long as you are subscribed"
+msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:128
@@ -353,6 +353,9 @@ msgstr "docs en ligne"
 msgid "browse docs"
 msgstr "naviguer dans les docs"
 
+#~ msgid "issue tracker"
+#~ msgstr "outil de suivi des problèmes"
+
 #~ msgid "Coming Soon"
 #~ msgstr ""
 #~ "Vous recevrez des mises à jour gratuites pour la version majeure de Zrythm "
@@ -486,9 +489,6 @@ msgstr "naviguer dans les docs"
 
 #~ msgid "Savannah"
 #~ msgstr "Savannah"
-
-#~ msgid "Weblate"
-#~ msgstr "Weblate"
 
 #~ msgid "releases at Savannah"
 #~ msgstr "versions à Savannah"

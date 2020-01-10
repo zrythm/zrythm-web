@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-07 04:37+0000\n"
+"POT-Creation-Date: 2020-01-10 22:33+0000\n"
 "PO-Revision-Date: 2019-12-27 11:16+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -69,33 +69,33 @@ msgstr "irc.freenode.netの#zrythm"
 msgid "Matrix"
 msgstr "Matrix"
 
-#: template/community.html.j2:75
+#: template/community.html.j2:73
+msgid "Discord"
+msgstr ""
+
+#: template/community.html.j2:87
 msgid "Mail"
 msgstr "メール"
 
-#: template/community.html.j2:83
+#: template/community.html.j2:95
 msgid "User"
 msgstr "ユーザー"
 
-#: template/community.html.j2:95
+#: template/community.html.j2:107
 msgid "Developer"
 msgstr "開発者"
 
-#: template/community.html.j2:109
+#: template/community.html.j2:121
 msgid "Issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:121
-msgid "issue tracker"
-msgstr "課題管理システム"
-
-#: template/community.html.j2:131
-msgid "Translations"
-msgstr "翻訳"
-
-#: template/community.html.j2:143
+#: template/community.html.j2:133 template/community.html.j2:155
 msgid "zrythm project"
 msgstr "zrythmプロジェクト"
+
+#: template/community.html.j2:143
+msgid "Translations"
+msgstr "翻訳"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
@@ -160,7 +160,7 @@ msgid "$25 one-time purchase"
 msgstr "$25の1回限りの購入"
 
 #: template/download.html.j2:127
-msgid "Free upgrades as long as you are subscribed"
+msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:128
@@ -326,6 +326,9 @@ msgstr "オンラインドキュメント"
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
 
+#~ msgid "issue tracker"
+#~ msgstr "課題管理システム"
+
 #~ msgid "Coming Soon"
 #~ msgstr "もうすぐです"
 
@@ -438,9 +441,6 @@ msgstr "ドキュメントを閲覧"
 
 #~ msgid "Savannah"
 #~ msgstr "Savannah"
-
-#~ msgid "Weblate"
-#~ msgstr "Weblate"
 
 #~ msgid "releases at Savannah"
 #~ msgstr "Savannahでのリリース"

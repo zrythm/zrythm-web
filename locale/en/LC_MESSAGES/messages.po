@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-07 04:37+0000\n"
+"POT-Creation-Date: 2020-01-10 22:33+0000\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -53,32 +53,32 @@ msgstr ""
 msgid "Matrix"
 msgstr ""
 
-#: template/community.html.j2:75
+#: template/community.html.j2:73
+msgid "Discord"
+msgstr ""
+
+#: template/community.html.j2:87
 msgid "Mail"
 msgstr ""
 
-#: template/community.html.j2:83
+#: template/community.html.j2:95
 msgid "User"
 msgstr ""
 
-#: template/community.html.j2:95
+#: template/community.html.j2:107
 msgid "Developer"
 msgstr ""
 
-#: template/community.html.j2:109
+#: template/community.html.j2:121
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:121
-msgid "issue tracker"
-msgstr ""
-
-#: template/community.html.j2:131
-msgid "Translations"
+#: template/community.html.j2:133 template/community.html.j2:155
+msgid "zrythm project"
 msgstr ""
 
 #: template/community.html.j2:143
-msgid "zrythm project"
+msgid "Translations"
 msgstr ""
 
 #: template/download.html.j2:22
@@ -144,7 +144,7 @@ msgid "$25 one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:127
-msgid "Free upgrades as long as you are subscribed"
+msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:128

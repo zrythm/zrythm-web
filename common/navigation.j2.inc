@@ -17,7 +17,7 @@ GNU Affero General Public License for more details.
 <header>
   <a href="index.html" class="logo">
     <img class="logo_img" width=28
-       src="{{ url('static/images/z.png') }}"
+       src="{{ url('static/icons/zrythm/z_frame_8.svg') }}"
        alt="Logo">
     </img>
   </a>

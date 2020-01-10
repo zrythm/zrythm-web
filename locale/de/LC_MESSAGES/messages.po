@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-07 04:37+0000\n"
+"POT-Creation-Date: 2020-01-10 22:33+0000\n"
 "PO-Revision-Date: 2019-10-25 17:53+0000\n"
 "Last-Translator: André Menrath <andre.menrath@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -68,33 +68,33 @@ msgstr "#zrythm unter irc.freenode.net"
 msgid "Matrix"
 msgstr "Matrix"
 
-#: template/community.html.j2:75
+#: template/community.html.j2:73
+msgid "Discord"
+msgstr ""
+
+#: template/community.html.j2:87
 msgid "Mail"
 msgstr "E-Mail"
 
-#: template/community.html.j2:83
+#: template/community.html.j2:95
 msgid "User"
 msgstr "Anwender"
 
-#: template/community.html.j2:95
+#: template/community.html.j2:107
 msgid "Developer"
 msgstr "Entwickler"
 
-#: template/community.html.j2:109
+#: template/community.html.j2:121
 msgid "Issue tracker"
 msgstr "Problemverwaltung"
 
-#: template/community.html.j2:121
-msgid "issue tracker"
-msgstr "Problemverwaltung"
-
-#: template/community.html.j2:131
-msgid "Translations"
-msgstr "Übersetzungen"
-
-#: template/community.html.j2:143
+#: template/community.html.j2:133 template/community.html.j2:155
 msgid "zrythm project"
 msgstr "Zrythm-Projekt"
+
+#: template/community.html.j2:143
+msgid "Translations"
+msgstr "Übersetzungen"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
@@ -159,7 +159,7 @@ msgid "$25 one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:127
-msgid "Free upgrades as long as you are subscribed"
+msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:128
@@ -333,6 +333,9 @@ msgstr "Onlinedokus"
 msgid "browse docs"
 msgstr "Dokus durchstöbern"
 
+#~ msgid "issue tracker"
+#~ msgstr "Problemverwaltung"
+
 #~ msgid "zrythm"
 #~ msgstr "zrythm"
 
@@ -456,9 +459,6 @@ msgstr "Dokus durchstöbern"
 
 #~ msgid "Savannah"
 #~ msgstr "Savannah"
-
-#~ msgid "Weblate"
-#~ msgstr "Weblate"
 
 #~ msgid "releases at Savannah"
 #~ msgstr "Veröffentlichungen auf Savannah"
