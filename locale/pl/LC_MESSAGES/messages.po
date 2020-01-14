@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-10 22:33+0000\n"
+"POT-Creation-Date: 2020-01-14 18:01+0000\n"
 "PO-Revision-Date: 2019-11-02 13:27+0000\n"
 "Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -147,7 +147,7 @@ msgid "Latest Zrythm version"
 msgstr ""
 
 #: template/download.html.j2:112
-msgid "$5 one-time purchase"
+msgid "<b>$5</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:119
@@ -155,7 +155,7 @@ msgid "Free upgrades for all alpha/beta releases"
 msgstr ""
 
 #: template/download.html.j2:120
-msgid "$25 one-time purchase"
+msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:127
@@ -163,7 +163,7 @@ msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:128
-msgid "$5 per month"
+msgid "<b>$5</b> per month"
 msgstr ""
 
 #: template/download.html.j2:136 template/download.html.j2:144
