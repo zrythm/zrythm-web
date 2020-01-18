@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-14 18:01+0000\n"
+"POT-Creation-Date: 2020-01-18 03:07+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -166,11 +166,15 @@ msgstr ""
 msgid "<b>$5</b> per month"
 msgstr ""
 
-#: template/download.html.j2:136 template/download.html.j2:144
+#: template/download.html.j2:136 template/download.html.j2:154
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:156
+#: template/download.html.j2:141 template/download.html.j2:159
+msgid "Pick your flavor"
+msgstr ""
+
+#: template/download.html.j2:176
 msgid "Subscribe"
 msgstr ""
 

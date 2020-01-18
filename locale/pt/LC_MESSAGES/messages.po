@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-14 18:01+0000\n"
+"POT-Creation-Date: 2020-01-18 03:07+0000\n"
 "PO-Revision-Date: 2019-12-29 02:42+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -152,7 +152,6 @@ msgid "Latest Zrythm version"
 msgstr "Versão mais recente do Zrythm"
 
 #: template/download.html.j2:112
-#| msgid "$5 one-time purchase"
 msgid "<b>$5</b> one-time purchase"
 msgstr ""
 
@@ -161,7 +160,6 @@ msgid "Free upgrades for all alpha/beta releases"
 msgstr "Atualizações gratuitas para todos os lançamentos alfa/beta"
 
 #: template/download.html.j2:120
-#| msgid "$25 one-time purchase"
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr ""
 
@@ -170,15 +168,18 @@ msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
 #: template/download.html.j2:128
-#| msgid "$5 per month"
 msgid "<b>$5</b> per month"
 msgstr ""
 
-#: template/download.html.j2:136 template/download.html.j2:144
+#: template/download.html.j2:136 template/download.html.j2:154
 msgid "Buy Now"
 msgstr "Compre agora"
 
-#: template/download.html.j2:156
+#: template/download.html.j2:141 template/download.html.j2:159
+msgid "Pick your flavor"
+msgstr ""
+
+#: template/download.html.j2:176
 msgid "Subscribe"
 msgstr "Subscrever"
 
