@@ -51,6 +51,7 @@ if (os.getenv("DEBUG")):
 
 langs_full = {
         "en": "English",
+        "en_GB": "English UK",
         "fr": "Français",
         "it": "Italiano",
         "es": "Español",
@@ -75,6 +76,7 @@ langs_full = {
         "hi": "हिन्दी"}
 lang_flags = {
         "en": "[en]",
+        "en_GB": "[en]",
         "fr": "[fr]",
         "it": "[it]",
         "es": "[es]",
