@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-18 03:07+0000\n"
+"POT-Creation-Date: 2020-01-24 01:24+0000\n"
 "PO-Revision-Date: 2019-12-30 13:21+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -176,7 +176,7 @@ msgid "Buy Now"
 msgstr "Acheter maintenant"
 
 #: template/download.html.j2:141 template/download.html.j2:159
-msgid "Pick your flavor"
+msgid "Select your OS"
 msgstr ""
 
 #: template/download.html.j2:176

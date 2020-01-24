@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-18 03:07+0000\n"
+"POT-Creation-Date: 2020-01-24 01:24+0000\n"
 "PO-Revision-Date: 2019-11-02 13:27+0000\n"
 "Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -171,7 +171,7 @@ msgid "Buy Now"
 msgstr ""
 
 #: template/download.html.j2:141 template/download.html.j2:159
-msgid "Pick your flavor"
+msgid "Select your OS"
 msgstr ""
 
 #: template/download.html.j2:176
