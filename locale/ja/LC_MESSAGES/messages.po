@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-24 01:24+0000\n"
-"PO-Revision-Date: 2020-01-24 15:57+0000\n"
+"PO-Revision-Date: 2020-01-24 23:02+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
 "\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr "ホーム"
+msgstr "編集"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 msgid "Download"
