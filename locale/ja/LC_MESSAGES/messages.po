@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-24 01:24+0000\n"
-"PO-Revision-Date: 2020-01-24 01:18+0000\n"
+"PO-Revision-Date: 2020-01-24 15:57+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.11-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -129,7 +130,7 @@ msgstr "GPG署名キー"
 
 #: template/download.html.j2:90
 msgid "Installer"
-msgstr "インストーラ"
+msgstr "インストーラー"
 
 #: template/download.html.j2:101
 msgid "alpha/beta"
@@ -207,7 +208,7 @@ msgstr "Zrythmは、機能が豊富で使いやすいように設計されたデ
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
-msgstr "無限の自動化"
+msgstr "無限のオートメーション"
 
 #: template/index.html.j2:76
 msgid ""
