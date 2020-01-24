@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-24 01:24+0000\n"
-"PO-Revision-Date: 2019-12-30 13:21+0000\n"
+"PO-Revision-Date: 2020-01-24 01:30+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.10\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -73,7 +73,7 @@ msgstr "Matrice"
 
 #: template/community.html.j2:73
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: template/community.html.j2:87
 msgid "Mail"
@@ -139,7 +139,7 @@ msgstr "alpha/bêta"
 
 #: template/download.html.j2:104
 msgid "subscription"
-msgstr ""
+msgstr "souscription"
 
 #: template/download.html.j2:110 template/download.html.j2:117
 #: template/download.html.j2:125
@@ -153,7 +153,7 @@ msgstr "Dernière version de Zrythm"
 
 #: template/download.html.j2:112
 msgid "<b>$5</b> one-time purchase"
-msgstr ""
+msgstr "<b>$5</b> achat unique"
 
 #: template/download.html.j2:119
 msgid "Free upgrades for all alpha/beta releases"
@@ -161,15 +161,15 @@ msgstr "Mises à jour gratuites pour toutes les versions alpha/bêta"
 
 #: template/download.html.j2:120
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
-msgstr ""
+msgstr "<s>$25</s> <b>$12.50</b> achat unique"
 
 #: template/download.html.j2:127
 msgid "Free upgrades for as long as you are subscribed"
-msgstr ""
+msgstr "Mises à jour gratuites tant que vous êtes abonné"
 
 #: template/download.html.j2:128
 msgid "<b>$5</b> per month"
-msgstr ""
+msgstr "<b>$5</b> par mois"
 
 #: template/download.html.j2:136 template/download.html.j2:154
 msgid "Buy Now"
