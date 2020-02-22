@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-22 22:18+0000\n"
+"POT-Creation-Date: 2020-02-22 22:32+0000\n"
 "PO-Revision-Date: 2019-12-29 02:42+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -175,7 +175,6 @@ msgstr "Versão mais recente do Zrythm"
 
 #: template/download.html.j2:150 template/download.html.j2:158
 #: template/download.html.j2:167
-#| msgid "LV2 plugins"
 msgid "Bundled plugins"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-22 22:18+0000\n"
+"POT-Creation-Date: 2020-02-22 22:32+0000\n"
 "PO-Revision-Date: 2020-01-24 23:02+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -173,7 +173,6 @@ msgstr "最新のZrythmバージョン"
 
 #: template/download.html.j2:150 template/download.html.j2:158
 #: template/download.html.j2:167
-#| msgid "LV2 plugins"
 msgid "Bundled plugins"
 msgstr ""
 
