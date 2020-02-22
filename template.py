@@ -106,6 +106,7 @@ issue_tracker = 'https://redmine.zrythm.org/projects/zrythm/issues'
 git_blob_url = git_url + '/tree'
 pronunciation = 'ziˈrɪðəm'
 releases_url = 'https://www.zrythm.org/releases/'
+downloads_url = 'https://www.zrythm.org/downloads/'
 aur_git_url = 'https://aur.archlinux.org/packages/zrythm-git/'
 aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
 obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm'
@@ -260,6 +261,7 @@ for in_file in glob.glob("template/*.j2"):
                               obs_package_url=obs_package_url,
                               copr_package_url=copr_package_url,
                               releases_url=releases_url,
+                              downloads_url=downloads_url,
                               news=news,
                               datetime_parse=parse,
                               issue_tracker=issue_tracker,

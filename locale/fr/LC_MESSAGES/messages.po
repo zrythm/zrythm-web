@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-24 01:24+0000\n"
+"POT-Creation-Date: 2020-02-22 22:18+0000\n"
 "PO-Revision-Date: 2020-01-24 14:09+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -130,56 +130,84 @@ msgid "GPG signing key"
 msgstr "clé de signature GPG"
 
 #: template/download.html.j2:90
-msgid "Installer"
-msgstr "Installateur"
+msgid "Trial version"
+msgstr ""
 
-#: template/download.html.j2:101
+#: template/download.html.j2:98
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/download.html.j2:104
+#, python-format
+msgid "download %(version)s (zip)"
+msgstr ""
+
+#: template/download.html.j2:112
+msgid "Windows 64-bit"
+msgstr ""
+
+#: template/download.html.j2:118
+#, python-format
+msgid "download %(version)s (exe)"
+msgstr ""
+
+#: template/download.html.j2:128
+msgid "Full version"
+msgstr ""
+
+#: template/download.html.j2:139
 msgid "alpha/beta"
 msgstr "alpha/bêta"
 
-#: template/download.html.j2:104
+#: template/download.html.j2:142
 msgid "subscription"
 msgstr "souscription"
 
-#: template/download.html.j2:110 template/download.html.j2:117
-#: template/download.html.j2:125
+#: template/download.html.j2:148 template/download.html.j2:156
+#: template/download.html.j2:165
 msgid "Binary package (installer)"
 msgstr "Paquet binaire (installateur)"
 
-#: template/download.html.j2:111 template/download.html.j2:118
-#: template/download.html.j2:126
+#: template/download.html.j2:149 template/download.html.j2:157
+#: template/download.html.j2:166
 msgid "Latest Zrythm version"
 msgstr "Dernière version de Zrythm"
 
-#: template/download.html.j2:112
+#: template/download.html.j2:150 template/download.html.j2:158
+#: template/download.html.j2:167
+#| msgid "LV2 plugins"
+msgid "Bundled plugins"
+msgstr ""
+
+#: template/download.html.j2:151
 msgid "<b>$5</b> one-time purchase"
 msgstr "<b>$5</b> achat unique"
 
-#: template/download.html.j2:119
+#: template/download.html.j2:159
 msgid "Free upgrades for all alpha/beta releases"
 msgstr "Mises à jour gratuites pour toutes les versions alpha/bêta"
 
-#: template/download.html.j2:120
+#: template/download.html.j2:160
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr "<s>$25</s> <b>$12.50</b> achat unique"
 
-#: template/download.html.j2:127
+#: template/download.html.j2:168
 msgid "Free upgrades for as long as you are subscribed"
 msgstr "Mises à jour gratuites tant que vous êtes abonné"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:169
 msgid "<b>$5</b> per month"
 msgstr "<b>$5</b> par mois"
 
-#: template/download.html.j2:136 template/download.html.j2:154
+#: template/download.html.j2:177 template/download.html.j2:195
 msgid "Buy Now"
 msgstr "Acheter maintenant"
 
-#: template/download.html.j2:141 template/download.html.j2:159
+#: template/download.html.j2:182 template/download.html.j2:200
 msgid "Select your OS"
 msgstr "Sélectionnez votre SE"
 
-#: template/download.html.j2:176
+#: template/download.html.j2:217
 msgid "Subscribe"
 msgstr "Souscrire"
 
@@ -357,6 +385,9 @@ msgstr "docs en ligne"
 msgid "browse docs"
 msgstr "naviguer dans les docs"
 
+#~ msgid "Installer"
+#~ msgstr "Installateur"
+
 #~ msgid "issue tracker"
 #~ msgstr "outil de suivi des problèmes"
 
@@ -450,9 +481,6 @@ msgstr "naviguer dans les docs"
 
 #~ msgid "About Zrythm"
 #~ msgstr "À propos de Zrythm"
-
-#~ msgid "Version"
-#~ msgstr "Version"
 
 #~ msgid "Introduction"
 #~ msgstr "Présentation"

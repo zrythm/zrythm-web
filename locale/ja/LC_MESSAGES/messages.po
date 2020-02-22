@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-24 01:24+0000\n"
+"POT-Creation-Date: 2020-02-22 22:18+0000\n"
 "PO-Revision-Date: 2020-01-24 23:02+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -128,56 +128,84 @@ msgid "GPG signing key"
 msgstr "GPG署名キー"
 
 #: template/download.html.j2:90
-msgid "Installer"
-msgstr "インストーラー"
+msgid "Trial version"
+msgstr ""
 
-#: template/download.html.j2:101
+#: template/download.html.j2:98
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/download.html.j2:104
+#, python-format
+msgid "download %(version)s (zip)"
+msgstr ""
+
+#: template/download.html.j2:112
+msgid "Windows 64-bit"
+msgstr ""
+
+#: template/download.html.j2:118
+#, python-format
+msgid "download %(version)s (exe)"
+msgstr ""
+
+#: template/download.html.j2:128
+msgid "Full version"
+msgstr ""
+
+#: template/download.html.j2:139
 msgid "alpha/beta"
 msgstr "アルファ/ベータ版"
 
-#: template/download.html.j2:104
+#: template/download.html.j2:142
 msgid "subscription"
 msgstr "サブスクリプション"
 
-#: template/download.html.j2:110 template/download.html.j2:117
-#: template/download.html.j2:125
+#: template/download.html.j2:148 template/download.html.j2:156
+#: template/download.html.j2:165
 msgid "Binary package (installer)"
 msgstr "バイナリパッケージ（インストーラ）"
 
-#: template/download.html.j2:111 template/download.html.j2:118
-#: template/download.html.j2:126
+#: template/download.html.j2:149 template/download.html.j2:157
+#: template/download.html.j2:166
 msgid "Latest Zrythm version"
 msgstr "最新のZrythmバージョン"
 
-#: template/download.html.j2:112
+#: template/download.html.j2:150 template/download.html.j2:158
+#: template/download.html.j2:167
+#| msgid "LV2 plugins"
+msgid "Bundled plugins"
+msgstr ""
+
+#: template/download.html.j2:151
 msgid "<b>$5</b> one-time purchase"
 msgstr "<b>$5</b>の1回購入"
 
-#: template/download.html.j2:119
+#: template/download.html.j2:159
 msgid "Free upgrades for all alpha/beta releases"
 msgstr "すべてのアルファ/ベータ版リリースの無料アップグレード"
 
-#: template/download.html.j2:120
+#: template/download.html.j2:160
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr "<s>$25</s> <b>$12.50</b>の1回購入"
 
-#: template/download.html.j2:127
+#: template/download.html.j2:168
 msgid "Free upgrades for as long as you are subscribed"
 msgstr "登録している間に無料アップグレード"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:169
 msgid "<b>$5</b> per month"
 msgstr "月額<b>$5</b>"
 
-#: template/download.html.j2:136 template/download.html.j2:154
+#: template/download.html.j2:177 template/download.html.j2:195
 msgid "Buy Now"
 msgstr "今すぐ購入"
 
-#: template/download.html.j2:141 template/download.html.j2:159
+#: template/download.html.j2:182 template/download.html.j2:200
 msgid "Select your OS"
 msgstr "OSを選んでください"
 
-#: template/download.html.j2:176
+#: template/download.html.j2:217
 msgid "Subscribe"
 msgstr "登録"
 
@@ -335,6 +363,9 @@ msgstr "オンラインドキュメント"
 msgid "browse docs"
 msgstr "ドキュメントを閲覧"
 
+#~ msgid "Installer"
+#~ msgstr "インストーラー"
+
 #~ msgid "issue tracker"
 #~ msgstr "課題管理システム"
 
@@ -413,9 +444,6 @@ msgstr "ドキュメントを閲覧"
 
 #~ msgid "About Zrythm"
 #~ msgstr "Zrythmについて"
-
-#~ msgid "Version"
-#~ msgstr "バージョン"
 
 #~ msgid "Introduction"
 #~ msgstr "概要"

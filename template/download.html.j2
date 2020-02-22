@@ -88,7 +88,45 @@ GNU Affero General Public License for more details.
 
   <h3>
     {% trans %}
-    Installer
+    Trial version
+    {% endtrans %}
+  </h3>
+  <table>
+    <tbody>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          GNU/Linux
+          {% endtrans %}
+        </td>
+        <td class="second_col">
+          <a href="{{ downloads_url }}zrythm_trial_installer.zip">
+            {% trans %}
+            download {{ version }} (zip)
+            {% endtrans %}
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          {% trans %}
+          Windows 64-bit
+          {% endtrans %}
+        </td>
+        <td>
+          <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.exe">
+            {% trans %}
+            download {{ version }} (exe)
+            {% endtrans %}
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>
+    {% trans %}
+    Full version
     {% endtrans %}
   </h3>
   <div class="container centered">
@@ -109,6 +147,7 @@ GNU Affero General Public License for more details.
         <p>
           <p>{{ _('Binary package (installer)') }}</p>
           <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Bundled plugins') }}</p>
           <p>{{ _('<b>$5</b> one-time purchase') }}</p>
         </p>
       </div>
@@ -116,6 +155,7 @@ GNU Affero General Public License for more details.
         <p>
           <p>{{ _('Binary package (installer)') }}</p>
           <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Bundled plugins') }}</p>
           <p>{{ _('Free upgrades for all alpha/beta releases') }}</p>
           <p>{{ _('<s>$25</s> <b>$12.50</b> one-time purchase') }}</p>
         </p>
@@ -124,6 +164,7 @@ GNU Affero General Public License for more details.
         <p>
           <p>{{ _('Binary package (installer)') }}</p>
           <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Bundled plugins') }}</p>
           <p>{{ _('Free upgrades for as long as you are subscribed') }}</p>
           <p>{{ _('<b>$5</b> per month') }}</p>
         </p>
@@ -140,8 +181,8 @@ GNU Affero General Public License for more details.
                 <label for="modal-buy-single" class="modal-close" ></label>
                 <h3 class="section">{{ _('Select your OS') }}</h3>
                 <p class="section">
-                  <a href="https://transactions.sendowl.com/products/78190105/6B7987AB/view" rel="nofollow" class="button">GNU/Linux</a>
-                  <a href="https://transactions.sendowl.com/products/78186268/C7543EDD/view" rel="nofollow" class="button">Windows 64-bit</a>
+                  <a href="https://transactions.sendowl.com/products/78210164/F7654005/view" rel="nofollow" class="button">GNU/Linux</a>
+                  <a href="https://transactions.sendowl.com/products/78210162/23959FA6/view" rel="nofollow" class="button">Windows 64-bit</a>
                 </p>
               </div>
             </div>
