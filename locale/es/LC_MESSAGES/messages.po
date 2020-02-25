@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-24 01:24+0000\n"
-"PO-Revision-Date: 2020-02-19 12:28+0000\n"
+"PO-Revision-Date: 2020-02-26 13:12+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:24
@@ -25,6 +25,9 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK"
 msgstr ""
+"DAW, estación de trabajo digital para audio, producción musical, sonido, "
+"audio profesional, Linux, GNU/Linux, software libre, editor de sonido, "
+"composición, MIDI, LV2, JACK"
 
 #: common/navigation.j2.inc:25
 msgid "Home"
@@ -37,7 +40,7 @@ msgstr "Descargar"
 #: common/navigation.j2.inc:35 template/reference.html.j2:19
 #: template/reference.html.j2:33
 msgid "Reference"
-msgstr ""
+msgstr "Referencia"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -50,7 +53,7 @@ msgstr "Idioma"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Páginas comunitarias y canales de comunicación de Zrythm"
 
 #: template/community.html.j2:39
 msgid "Chat"
@@ -58,11 +61,11 @@ msgstr "Charla"
 
 #: template/community.html.j2:47
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: template/community.html.j2:53
 msgid "#zrythm on irc.freenode.net"
-msgstr ""
+msgstr "#zrythm en irc.freenode.net"
 
 #: template/community.html.j2:61
 msgid "Matrix"
@@ -86,7 +89,7 @@ msgstr "Desarrollador"
 
 #: template/community.html.j2:121
 msgid "Issue tracker"
-msgstr ""
+msgstr "Seguimiento de defectos"
 
 #: template/community.html.j2:133 template/community.html.j2:155
 msgid "zrythm project"
@@ -150,7 +153,7 @@ msgstr "Versión más reciente de Zrythm"
 
 #: template/download.html.j2:112
 msgid "<b>$5</b> one-time purchase"
-msgstr ""
+msgstr "Compra única de <b>5 $</b>"
 
 #: template/download.html.j2:119
 msgid "Free upgrades for all alpha/beta releases"
@@ -158,15 +161,15 @@ msgstr "Actualizaciones gratuitas a todas las versiones alfa/beta"
 
 #: template/download.html.j2:120
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
-msgstr ""
+msgstr "Compra única de <s>25 $</s> <b>12,50 $</b>"
 
 #: template/download.html.j2:127
 msgid "Free upgrades for as long as you are subscribed"
-msgstr ""
+msgstr "Actualizaciones gratuitas mientras conserve su suscripción"
 
 #: template/download.html.j2:128
 msgid "<b>$5</b> per month"
-msgstr ""
+msgstr "<b>5 $</b> mensuales"
 
 #: template/download.html.j2:136 template/download.html.j2:154
 msgid "Buy Now"
@@ -186,20 +189,27 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm es una estación de trabajo de audio digital diseñada para ser "
+"funcional y fácil de utilizar. Le brinda una automatización sin límites, "
+"admite complementos LV2, funciona con el dorsal de audio JACK y provee "
+"asistencia armónica."
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
+"una estación de trabajo digital para audio altamente automatizada e intuitiva"
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr ""
+msgstr "Generalidades"
 
 #: template/index.html.j2:57
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use."
 msgstr ""
+"Zrythm es una estación de trabajo de audio digital diseñada para ser "
+"funcional y fácil de utilizar."
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
@@ -210,61 +220,71 @@ msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
+"Automatice casi todo a través de sucesos, utilizando líneas rectas, rampas y "
+"curvas, o bien mediante LFO y envolventes."
 
 #: template/index.html.j2:89
 msgid "LV2 plugins"
-msgstr ""
+msgstr "Complementos de LV2"
 
 #: template/index.html.j2:94
 msgid ""
 "Full support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
+"Compatibilidad plena con LV2, una norma libre y ampliable para complementos "
+"de audio."
 
 #: template/index.html.j2:109
 msgid "JACK support"
-msgstr ""
+msgstr "Admite JACK"
 
 #: template/index.html.j2:114
 msgid "Fully JACK aware, including support for JACK transport."
-msgstr ""
+msgstr "Totalmente preparado para JACK, incluido el sistema de transporte JACK."
 
 #: template/index.html.j2:126
 msgid "Chord assistance"
-msgstr ""
+msgstr "Asistencia armónica"
 
 #: template/index.html.j2:131
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
+"Incluye un panel de acordes para probar rápidamente acordes en escala, así "
+"como una pista de acordes para ayudar con las progresiones armónicas."
 
 #: template/index.html.j2:146
 msgid "Free software"
-msgstr ""
+msgstr "«Software» libre"
 
 #: template/index.html.j2:151
 msgid "Use, study, share and improve freely."
-msgstr ""
+msgstr "Utilícelo, estúdielo, compártalo y mejórelo con libertad."
 
 #: template/index.html.j2:162
 msgid "Multilingual"
-msgstr ""
+msgstr "Plurilingüe"
 
 #: template/index.html.j2:167
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
 msgstr ""
+"Gracias a sus contribuidores, Zrythm está disponible en inglés, castellano, "
+"francés, portugués, japonés y alemán."
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Gracias"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions how to download your installer."
 msgstr ""
+"¡Gracias por apoyar el desarrollo! Pronto recibirá un mensaje con "
+"instrucciones para descargar su instalador."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
@@ -272,62 +292,67 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"Una vez descargado el archivo .zip, extráigalo y ejecute "
+"<code>./installer.sh</code> en un terminal. Contáctenos si tiene algún "
+"problema."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
+msgstr "Volver a la página principal"
 
 #: template/reference.html.j2:22
 msgid "Zrythm reference pages - user manual - developer documentation"
 msgstr ""
+"Páginas de referencia de Zrythm: manual de usuario y documentación para "
+"desarrolladores"
 
 #: template/reference.html.j2:40
 msgid "User Manual"
-msgstr ""
+msgstr "Manual de usuario"
 
 #: template/reference.html.j2:48
 msgid "online manual"
-msgstr ""
+msgstr "manual en línea"
 
 #: template/reference.html.j2:54
 msgid "browse manual"
-msgstr ""
+msgstr "explorar el manual"
 
 #: template/reference.html.j2:63
 msgid "HTML-render (zip)"
-msgstr ""
+msgstr "Versión en HTML (.zip)"
 
 #: template/reference.html.j2:69
 msgid "download HTML zip"
-msgstr ""
+msgstr "descargar .zip de versión HTML"
 
 #: template/reference.html.j2:78
 msgid "PDF-render"
-msgstr ""
+msgstr "Versión en PDF"
 
 #: template/reference.html.j2:84
 msgid "download PDF"
-msgstr ""
+msgstr "descargar PDF"
 
 #: template/reference.html.j2:93
 msgid "ePUB-render"
-msgstr ""
+msgstr "Versión en ePUB"
 
 #: template/reference.html.j2:99
 msgid "download ePUB"
-msgstr ""
+msgstr "descargar ePUB"
 
 #: template/reference.html.j2:110
 msgid "Developer docs"
-msgstr ""
+msgstr "Documentación para desarrolladores"
 
 #: template/reference.html.j2:118
 msgid "online docs"
-msgstr ""
+msgstr "documentación en línea"
 
 #: template/reference.html.j2:124
 msgid "browse docs"
-msgstr ""
+msgstr "explorar la documentación"
 
 #~ msgid "Contact information"
 #~ msgstr "Información de Contacto"
