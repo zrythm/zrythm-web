@@ -269,7 +269,7 @@ msgstr "Admite JACK"
 
 #: template/index.html.j2:114
 msgid "Fully JACK aware, including support for JACK transport."
-<<<<<<< HEAD
+msgstr ""
 "Totalmente preparado para JACK, incluido el sistema de transporte JACK."
 
 #: template/index.html.j2:126
