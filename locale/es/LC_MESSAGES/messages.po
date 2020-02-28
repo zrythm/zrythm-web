@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
 
@@ -268,7 +269,7 @@ msgstr "Admite JACK"
 
 #: template/index.html.j2:114
 msgid "Fully JACK aware, including support for JACK transport."
-msgstr ""
+<<<<<<< HEAD
 "Totalmente preparado para JACK, incluido el sistema de transporte JACK."
 
 #: template/index.html.j2:126
