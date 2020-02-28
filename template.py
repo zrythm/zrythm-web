@@ -235,12 +235,14 @@ for in_file in glob.glob("template/*.j2"):
                     entry.flags.remove('fuzzy')
                 po.save()
 
-    for l in glob.glob("locale/*/"):
-        locale = os.path.basename(l[:-1])
+    for l in langs_full.keys():
+        locale = l
 
         tr = gettext.translation("messages",
                                  localedir="locale",
-                                 languages=[locale])
+                                 languages=[locale],
+                                 # only fallback to no translations for en
+                                 fallback= locale == 'en')
 
         tr.gettext = i18nfix.wrap_gettext(tr.gettext)
 

@@ -47,7 +47,9 @@ locale/messages.pot: common/*.j2.inc template/*.j2
 # Update translation (.po) files with new strings.
 locale-update: locale/messages.pot
 	for lang in $(LANGUAGES); do \
-		msgmerge -U -m --previous locale/$$lang/LC_MESSAGES/messages.po locale/messages.pot ; \
+		if [[ "x$$lang" != "xen" ]] ; then \
+			msgmerge -U -m --previous locale/$$lang/LC_MESSAGES/messages.po locale/messages.pot ; \
+		fi \
 	done
 
 	if grep -nA1 '#-#-#-#-#' locale/*/LC_MESSAGES/messages.po; then echo -e "\nERROR: Conflicts encountered in PO files.\n"; exit 1; fi
@@ -55,7 +57,9 @@ locale-update: locale/messages.pot
 # Compile translation files for use.
 locale-compile:
 	for lang in $(LANGUAGES); do \
-		$(BABEL) -v compile -d locale -l $$lang ; \
+		if [[ "x$$lang" != "xen" ]] ; then \
+			$(BABEL) -v compile -d locale -l $$lang ; \
+		fi \
 	done
 
 # Process everything related to gettext translations.
