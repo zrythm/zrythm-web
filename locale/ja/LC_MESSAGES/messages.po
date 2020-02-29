@@ -31,7 +31,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:25
 msgid "Home"
-msgstr "編集"
+msgstr "トップ"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:33
@@ -41,7 +41,7 @@ msgstr "ダウンロード"
 #: common/navigation.j2.inc:35 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "学ぶ"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -135,7 +135,7 @@ msgstr ""
 #: template/download.html.j2:101
 #, python-format
 msgid "download %(version)s (zip)"
-msgstr ""
+msgstr "%(version)s (zip)をダウンロード"
 
 #: template/download.html.j2:109
 msgid "Windows 64-bit"
@@ -144,7 +144,7 @@ msgstr ""
 #: template/download.html.j2:115
 #, python-format
 msgid "download %(version)s (exe)"
-msgstr ""
+msgstr "%(version)s (exe)をダウンロード"
 
 #: template/download.html.j2:125
 msgid "Full version"
@@ -171,7 +171,7 @@ msgstr "最新のZrythmバージョン"
 #: template/download.html.j2:147 template/download.html.j2:155
 #: template/download.html.j2:164
 msgid "Bundled plugins"
-msgstr ""
+msgstr "バンドルされているプラグイン"
 
 #: template/download.html.j2:148
 msgid "<b>$5</b> one-time purchase"
@@ -299,19 +299,19 @@ msgstr ""
 
 #: template/learn.html.j2:78
 msgid "User manual"
-msgstr ""
+msgstr "マニュアル"
 
 #: template/learn.html.j2:85 template/learn.html.j2:102
 msgid "Browse Online"
-msgstr ""
+msgstr "オンラインで閲覧"
 
 #: template/learn.html.j2:88
 msgid "Download as HTML"
-msgstr ""
+msgstr "HTMLとしてダウンロード"
 
 #: template/learn.html.j2:91
 msgid "Download as PDF"
-msgstr ""
+msgstr "PDFとしてダウンロード"
 
 #: template/learn.html.j2:95
 msgid "Developer docs"
