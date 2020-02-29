@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-22 22:32+0000\n"
+"POT-Creation-Date: 2020-02-29 10:09+0000\n"
 "PO-Revision-Date: 2020-01-24 23:02+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -34,13 +34,14 @@ msgid "Home"
 msgstr "編集"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
+#: template/download.html.j2:33
 msgid "Download"
 msgstr "ダウンロード"
 
-#: common/navigation.j2.inc:35 template/reference.html.j2:19
-#: template/reference.html.j2:33
-msgid "Reference"
-msgstr "参照"
+#: common/navigation.j2.inc:35 template/learn.html.j2:19
+#: template/learn.html.j2:31
+msgid "Learn"
+msgstr ""
 
 #: common/navigation.j2.inc:40 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -55,47 +56,47 @@ msgstr "言語"
 msgid "Zrythm's community pages and communication channels"
 msgstr "Zrythmのコミュニティページとコミュニケーションチャネル"
 
-#: template/community.html.j2:39
+#: template/community.html.j2:38
 msgid "Chat"
 msgstr "チャット"
 
-#: template/community.html.j2:47
+#: template/community.html.j2:46
 msgid "IRC"
 msgstr "IRC"
 
-#: template/community.html.j2:53
+#: template/community.html.j2:52
 msgid "#zrythm on irc.freenode.net"
 msgstr "irc.freenode.netの#zrythm"
 
-#: template/community.html.j2:61
+#: template/community.html.j2:60
 msgid "Matrix"
 msgstr "Matrix"
 
-#: template/community.html.j2:73
+#: template/community.html.j2:72
 msgid "Discord"
 msgstr "Discord"
 
-#: template/community.html.j2:87
+#: template/community.html.j2:86
 msgid "Mail"
 msgstr "メール"
 
-#: template/community.html.j2:95
+#: template/community.html.j2:94
 msgid "User"
 msgstr "ユーザー"
 
-#: template/community.html.j2:107
+#: template/community.html.j2:106
 msgid "Developer"
 msgstr "開発者"
 
-#: template/community.html.j2:121
+#: template/community.html.j2:120
 msgid "Issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:133 template/community.html.j2:155
+#: template/community.html.j2:132 template/community.html.j2:154
 msgid "zrythm project"
 msgstr "zrythmプロジェクト"
 
-#: template/community.html.j2:143
+#: template/community.html.j2:142
 msgid "Translations"
 msgstr "翻訳"
 
@@ -103,108 +104,104 @@ msgstr "翻訳"
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr "Zrythmのソースコードをダウンロードするか、バイナリパッケージインストーラを購入する"
 
-#: template/download.html.j2:33
-msgid "Installation"
-msgstr "インストール"
-
-#: template/download.html.j2:42
+#: template/download.html.j2:39
 msgid "Source code"
 msgstr "ソースコード"
 
-#: template/download.html.j2:50
+#: template/download.html.j2:47
 msgid "git repositories"
 msgstr "gitリポジトリ"
 
-#: template/download.html.j2:62
+#: template/download.html.j2:59
 msgid "stable releases"
 msgstr "安定版リリース"
 
-#: template/download.html.j2:68
+#: template/download.html.j2:65
 msgid "releases"
 msgstr "リリース"
 
-#: template/download.html.j2:76
+#: template/download.html.j2:73
 msgid "GPG signing key"
 msgstr "GPG署名キー"
 
-#: template/download.html.j2:90
+#: template/download.html.j2:87
 msgid "Trial version"
 msgstr ""
 
-#: template/download.html.j2:98
+#: template/download.html.j2:95
 msgid "GNU/Linux"
 msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:101
 #, python-format
 msgid "download %(version)s (zip)"
 msgstr ""
 
-#: template/download.html.j2:112
+#: template/download.html.j2:109
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:118
+#: template/download.html.j2:115
 #, python-format
 msgid "download %(version)s (exe)"
 msgstr ""
 
-#: template/download.html.j2:128
+#: template/download.html.j2:125
 msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:139
+#: template/download.html.j2:136
 msgid "alpha/beta"
 msgstr "アルファ/ベータ版"
 
-#: template/download.html.j2:142
+#: template/download.html.j2:139
 msgid "subscription"
 msgstr "サブスクリプション"
 
-#: template/download.html.j2:148 template/download.html.j2:156
-#: template/download.html.j2:165
+#: template/download.html.j2:145 template/download.html.j2:153
+#: template/download.html.j2:162
 msgid "Binary package (installer)"
 msgstr "バイナリパッケージ（インストーラ）"
 
-#: template/download.html.j2:149 template/download.html.j2:157
-#: template/download.html.j2:166
+#: template/download.html.j2:146 template/download.html.j2:154
+#: template/download.html.j2:163
 msgid "Latest Zrythm version"
 msgstr "最新のZrythmバージョン"
 
-#: template/download.html.j2:150 template/download.html.j2:158
-#: template/download.html.j2:167
+#: template/download.html.j2:147 template/download.html.j2:155
+#: template/download.html.j2:164
 msgid "Bundled plugins"
 msgstr ""
 
-#: template/download.html.j2:151
+#: template/download.html.j2:148
 msgid "<b>$5</b> one-time purchase"
 msgstr "<b>$5</b>の1回購入"
 
-#: template/download.html.j2:159
+#: template/download.html.j2:156
 msgid "Free upgrades for all alpha/beta releases"
 msgstr "すべてのアルファ/ベータ版リリースの無料アップグレード"
 
-#: template/download.html.j2:160
+#: template/download.html.j2:157
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr "<s>$25</s> <b>$12.50</b>の1回購入"
 
-#: template/download.html.j2:168
+#: template/download.html.j2:165
 msgid "Free upgrades for as long as you are subscribed"
 msgstr "登録している間に無料アップグレード"
 
-#: template/download.html.j2:169
+#: template/download.html.j2:166
 msgid "<b>$5</b> per month"
 msgstr "月額<b>$5</b>"
 
-#: template/download.html.j2:177 template/download.html.j2:195
+#: template/download.html.j2:174 template/download.html.j2:192
 msgid "Buy Now"
 msgstr "今すぐ購入"
 
-#: template/download.html.j2:182 template/download.html.j2:200
+#: template/download.html.j2:179 template/download.html.j2:197
 msgid "Select your OS"
 msgstr "OSを選んでください"
 
-#: template/download.html.j2:217
+#: template/download.html.j2:214
 msgid "Subscribe"
 msgstr "登録"
 
@@ -287,6 +284,39 @@ msgid ""
 "Japanese and German."
 msgstr "貢献者のおかげで、Zrythmは英語、フランス語、ポルトガル語、日本語、ドイツ語でご利用いただけます。"
 
+#: template/learn.html.j2:22
+msgid "Zrythm reference pages - user manual - tutorials"
+msgstr ""
+
+#: template/learn.html.j2:37
+msgid "Tutorials"
+msgstr "チュートリアル"
+
+#: template/learn.html.j2:48 template/learn.html.j2:59
+#: template/learn.html.j2:70
+msgid "Basic demo"
+msgstr ""
+
+#: template/learn.html.j2:78
+msgid "User manual"
+msgstr ""
+
+#: template/learn.html.j2:85 template/learn.html.j2:102
+msgid "Browse Online"
+msgstr ""
+
+#: template/learn.html.j2:88
+msgid "Download as HTML"
+msgstr ""
+
+#: template/learn.html.j2:91
+msgid "Download as PDF"
+msgstr ""
+
+#: template/learn.html.j2:95
+msgid "Developer docs"
+msgstr "開発者向けドキュメント"
+
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
 msgstr "ご購入いただきありがとうございました"
@@ -310,57 +340,44 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "ホームページに戻る"
 
-#: template/reference.html.j2:22
-msgid "Zrythm reference pages - user manual - developer documentation"
-msgstr "Zrythm のリファレンス ページ - ユーザーマニュアル - 開発者向けドキュメント"
+#~ msgid "Installation"
+#~ msgstr "インストール"
 
-#: template/reference.html.j2:40
-msgid "User Manual"
-msgstr "マニュアル"
+#~ msgid "online docs"
+#~ msgstr "オンラインドキュメント"
 
-#: template/reference.html.j2:48
-msgid "online manual"
-msgstr "オンラインマニュアル"
+#~ msgid "browse docs"
+#~ msgstr "ドキュメントを閲覧"
 
-#: template/reference.html.j2:54
-msgid "browse manual"
-msgstr "マニュアルを閲覧"
+#~ msgid "Contact"
+#~ msgstr "お問い合わせ"
 
-#: template/reference.html.j2:63
-msgid "HTML-render (zip)"
-msgstr "HTMLレンダリング (zip)"
+#~ msgid "online manual"
+#~ msgstr "オンラインマニュアル"
 
-#: template/reference.html.j2:69
-msgid "download HTML zip"
-msgstr "HTML zipをダウンロード"
+#~ msgid "browse manual"
+#~ msgstr "マニュアルを閲覧"
 
-#: template/reference.html.j2:78
-msgid "PDF-render"
-msgstr "PDFレンダリング"
+#~ msgid "HTML-render (zip)"
+#~ msgstr "HTMLレンダリング (zip)"
 
-#: template/reference.html.j2:84
-msgid "download PDF"
-msgstr "PDFをダウンロード"
+#~ msgid "download HTML zip"
+#~ msgstr "HTML zipをダウンロード"
 
-#: template/reference.html.j2:93
-msgid "ePUB-render"
-msgstr "ePUBレンダリング"
+#~ msgid "PDF-render"
+#~ msgstr "PDFレンダリング"
 
-#: template/reference.html.j2:99
-msgid "download ePUB"
-msgstr "ePUBをダウンロード"
+#~ msgid "download PDF"
+#~ msgstr "PDFをダウンロード"
 
-#: template/reference.html.j2:110
-msgid "Developer docs"
-msgstr "開発者向けドキュメント"
+#~ msgid "ePUB-render"
+#~ msgstr "ePUBレンダリング"
 
-#: template/reference.html.j2:118
-msgid "online docs"
-msgstr "オンラインドキュメント"
+#~ msgid "download ePUB"
+#~ msgstr "ePUBをダウンロード"
 
-#: template/reference.html.j2:124
-msgid "browse docs"
-msgstr "ドキュメントを閲覧"
+#~ msgid "Reference"
+#~ msgstr "参照"
 
 #~ msgid "Installer"
 #~ msgstr "インストーラー"
@@ -489,9 +506,6 @@ msgstr "ドキュメントを閲覧"
 
 #~ msgid "Ubuntu (unofficial)"
 #~ msgstr "Ubuntu (非公式)"
-
-#~ msgid "Contact information"
-#~ msgstr "連絡先情報"
 
 #~ msgid "Mailing Lists"
 #~ msgstr "メーリングリスト"
@@ -700,9 +714,6 @@ msgstr "ドキュメントを閲覧"
 #~ msgid "French translator"
 #~ msgstr "フランス語翻訳者"
 
-#~ msgid "Tutorials"
-#~ msgstr "チュートリアル"
-
 #~ msgid ""
 #~ "This page holds various tutorials for Zrythm. Some of them are not complete,"
 #~ " but we find them useful regardless of their state."
@@ -715,9 +726,6 @@ msgstr "ドキュメントを閲覧"
 #~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
 #~ "intuitive ways of getting work done enabling a faster workflow."
 #~ msgstr "Zrythmは直感的な作業方法でより速いワークフローを可能にすることで、インターフェースをクリーンで快適に操作できるようにします。"
-
-#~ msgid "Contact"
-#~ msgstr "お問い合わせ"
 
 #~ msgid "FAQ"
 #~ msgstr "よくある質問"

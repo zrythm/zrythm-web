@@ -29,12 +29,16 @@
   right: 0px;
 }
 
+.page_title {
+  text-align: center;
+}
+
 .screenshot_img {
-  max-width: 70%;
+  max-width: 78%;
 }
 
 .features_box {
-  max-width: 70%;
+  max-width: 78%;
   padding-bottom: 3%;
 }
 
@@ -61,6 +65,21 @@
   background: unset !important;
   border: unset !important;
   padding: unset !important;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
+.video_caption {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.button_group {
+  margin: auto;
+  text-align: center;
 }
 
 tbody {

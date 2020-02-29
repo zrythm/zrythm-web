@@ -31,9 +31,9 @@ GNU Affero General Public License for more details.
     Download
     {% endtrans %}
   </a>
-  <a href="reference.html" class="button">
+  <a href="learn.html" class="button">
     {% trans %}
-    Reference
+    Learn
     {% endtrans %}
   </a>
   <a href="community.html" class="button">

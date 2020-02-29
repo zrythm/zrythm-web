@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-22 22:32+0000\n"
+"POT-Creation-Date: 2020-02-29 10:09+0000\n"
 "PO-Revision-Date: 2019-12-29 02:42+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -34,13 +34,14 @@ msgid "Home"
 msgstr "Início"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
+#: template/download.html.j2:33
 msgid "Download"
 msgstr "Transferir"
 
-#: common/navigation.j2.inc:35 template/reference.html.j2:19
-#: template/reference.html.j2:33
-msgid "Reference"
-msgstr "Referência"
+#: common/navigation.j2.inc:35 template/learn.html.j2:19
+#: template/learn.html.j2:31
+msgid "Learn"
+msgstr ""
 
 #: common/navigation.j2.inc:40 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -55,47 +56,47 @@ msgstr "Idioma"
 msgid "Zrythm's community pages and communication channels"
 msgstr "Páginas comunitárias e canais de comunicação da Zrythm"
 
-#: template/community.html.j2:39
+#: template/community.html.j2:38
 msgid "Chat"
 msgstr "Conversação"
 
-#: template/community.html.j2:47
+#: template/community.html.j2:46
 msgid "IRC"
 msgstr "IRC"
 
-#: template/community.html.j2:53
+#: template/community.html.j2:52
 msgid "#zrythm on irc.freenode.net"
 msgstr "#zrythm no irc.freenode.net"
 
-#: template/community.html.j2:61
+#: template/community.html.j2:60
 msgid "Matrix"
 msgstr "Matriz"
 
-#: template/community.html.j2:73
+#: template/community.html.j2:72
 msgid "Discord"
 msgstr ""
 
-#: template/community.html.j2:87
+#: template/community.html.j2:86
 msgid "Mail"
 msgstr "E-mail"
 
-#: template/community.html.j2:95
+#: template/community.html.j2:94
 msgid "User"
 msgstr "Utilizador"
 
-#: template/community.html.j2:107
+#: template/community.html.j2:106
 msgid "Developer"
 msgstr "Programador"
 
-#: template/community.html.j2:121
+#: template/community.html.j2:120
 msgid "Issue tracker"
 msgstr "Rastreador de problemas"
 
-#: template/community.html.j2:133 template/community.html.j2:155
+#: template/community.html.j2:132 template/community.html.j2:154
 msgid "zrythm project"
 msgstr "Projeto zrythm"
 
-#: template/community.html.j2:143
+#: template/community.html.j2:142
 msgid "Translations"
 msgstr "Traduções"
 
@@ -105,108 +106,104 @@ msgstr ""
 "Descarregue o código-fonte do Zrythm ou compre um instalador de pacote "
 "binário"
 
-#: template/download.html.j2:33
-msgid "Installation"
-msgstr "Instalação"
-
-#: template/download.html.j2:42
+#: template/download.html.j2:39
 msgid "Source code"
 msgstr "Código fonte"
 
-#: template/download.html.j2:50
+#: template/download.html.j2:47
 msgid "git repositories"
 msgstr "Repositórios git"
 
-#: template/download.html.j2:62
+#: template/download.html.j2:59
 msgid "stable releases"
 msgstr "Lançamentos estáveis"
 
-#: template/download.html.j2:68
+#: template/download.html.j2:65
 msgid "releases"
 msgstr "Lançamentos"
 
-#: template/download.html.j2:76
+#: template/download.html.j2:73
 msgid "GPG signing key"
 msgstr "Chave de assinatura GPG"
 
-#: template/download.html.j2:90
+#: template/download.html.j2:87
 msgid "Trial version"
 msgstr ""
 
-#: template/download.html.j2:98
+#: template/download.html.j2:95
 msgid "GNU/Linux"
 msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:101
 #, python-format
 msgid "download %(version)s (zip)"
 msgstr ""
 
-#: template/download.html.j2:112
+#: template/download.html.j2:109
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:118
+#: template/download.html.j2:115
 #, python-format
 msgid "download %(version)s (exe)"
 msgstr ""
 
-#: template/download.html.j2:128
+#: template/download.html.j2:125
 msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:139
+#: template/download.html.j2:136
 msgid "alpha/beta"
 msgstr "alfa/beta"
 
-#: template/download.html.j2:142
+#: template/download.html.j2:139
 msgid "subscription"
 msgstr ""
 
-#: template/download.html.j2:148 template/download.html.j2:156
-#: template/download.html.j2:165
+#: template/download.html.j2:145 template/download.html.j2:153
+#: template/download.html.j2:162
 msgid "Binary package (installer)"
 msgstr "Pacote binário (instalador)"
 
-#: template/download.html.j2:149 template/download.html.j2:157
-#: template/download.html.j2:166
+#: template/download.html.j2:146 template/download.html.j2:154
+#: template/download.html.j2:163
 msgid "Latest Zrythm version"
 msgstr "Versão mais recente do Zrythm"
 
-#: template/download.html.j2:150 template/download.html.j2:158
-#: template/download.html.j2:167
+#: template/download.html.j2:147 template/download.html.j2:155
+#: template/download.html.j2:164
 msgid "Bundled plugins"
 msgstr ""
 
-#: template/download.html.j2:151
+#: template/download.html.j2:148
 msgid "<b>$5</b> one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:159
+#: template/download.html.j2:156
 msgid "Free upgrades for all alpha/beta releases"
 msgstr "Atualizações gratuitas para todos os lançamentos alfa/beta"
 
-#: template/download.html.j2:160
+#: template/download.html.j2:157
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:168
+#: template/download.html.j2:165
 msgid "Free upgrades for as long as you are subscribed"
 msgstr ""
 
-#: template/download.html.j2:169
+#: template/download.html.j2:166
 msgid "<b>$5</b> per month"
 msgstr ""
 
-#: template/download.html.j2:177 template/download.html.j2:195
+#: template/download.html.j2:174 template/download.html.j2:192
 msgid "Buy Now"
 msgstr "Compre agora"
 
-#: template/download.html.j2:182 template/download.html.j2:200
+#: template/download.html.j2:179 template/download.html.j2:197
 msgid "Select your OS"
 msgstr ""
 
-#: template/download.html.j2:217
+#: template/download.html.j2:214
 msgid "Subscribe"
 msgstr "Subscrever"
 
@@ -302,6 +299,39 @@ msgstr ""
 "Graças aos colaboradores, o Zrythm está disponível em inglês, francês, "
 "português, japonês e alemão."
 
+#: template/learn.html.j2:22
+msgid "Zrythm reference pages - user manual - tutorials"
+msgstr ""
+
+#: template/learn.html.j2:37
+msgid "Tutorials"
+msgstr ""
+
+#: template/learn.html.j2:48 template/learn.html.j2:59
+#: template/learn.html.j2:70
+msgid "Basic demo"
+msgstr ""
+
+#: template/learn.html.j2:78
+msgid "User manual"
+msgstr ""
+
+#: template/learn.html.j2:85 template/learn.html.j2:102
+msgid "Browse Online"
+msgstr ""
+
+#: template/learn.html.j2:88
+msgid "Download as HTML"
+msgstr ""
+
+#: template/learn.html.j2:91
+msgid "Download as PDF"
+msgstr ""
+
+#: template/learn.html.j2:95
+msgid "Developer docs"
+msgstr "Documentos do programador"
+
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
 msgstr "Obrigado"
@@ -328,59 +358,44 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "Voltar à página inicial"
 
-#: template/reference.html.j2:22
-msgid "Zrythm reference pages - user manual - developer documentation"
-msgstr ""
-"Páginas de referência Zrythm - manual do utilizador - documentação do "
-"programador"
+#~ msgid "Installation"
+#~ msgstr "Instalação"
 
-#: template/reference.html.j2:40
-msgid "User Manual"
-msgstr "Manual do Utilizador"
+#~ msgid "online docs"
+#~ msgstr "Documentos On-line"
 
-#: template/reference.html.j2:48
-msgid "online manual"
-msgstr "Manual On-line"
+#~ msgid "browse docs"
+#~ msgstr "Explorar documentos"
 
-#: template/reference.html.j2:54
-msgid "browse manual"
-msgstr "explorar manual"
+#~ msgid "Contact"
+#~ msgstr "Contacto"
 
-#: template/reference.html.j2:63
-msgid "HTML-render (zip)"
-msgstr "HTML-render (zip)"
+#~ msgid "online manual"
+#~ msgstr "Manual On-line"
 
-#: template/reference.html.j2:69
-msgid "download HTML zip"
-msgstr "transferir HTML zip"
+#~ msgid "browse manual"
+#~ msgstr "explorar manual"
 
-#: template/reference.html.j2:78
-msgid "PDF-render"
-msgstr "PDF-render"
+#~ msgid "HTML-render (zip)"
+#~ msgstr "HTML-render (zip)"
 
-#: template/reference.html.j2:84
-msgid "download PDF"
-msgstr "transferir PDF"
+#~ msgid "download HTML zip"
+#~ msgstr "transferir HTML zip"
 
-#: template/reference.html.j2:93
-msgid "ePUB-render"
-msgstr "ePUB-render"
+#~ msgid "PDF-render"
+#~ msgstr "PDF-render"
 
-#: template/reference.html.j2:99
-msgid "download ePUB"
-msgstr "transferir ePUB"
+#~ msgid "download PDF"
+#~ msgstr "transferir PDF"
 
-#: template/reference.html.j2:110
-msgid "Developer docs"
-msgstr "Documentos do programador"
+#~ msgid "ePUB-render"
+#~ msgstr "ePUB-render"
 
-#: template/reference.html.j2:118
-msgid "online docs"
-msgstr "Documentos On-line"
+#~ msgid "download ePUB"
+#~ msgstr "transferir ePUB"
 
-#: template/reference.html.j2:124
-msgid "browse docs"
-msgstr "Explorar documentos"
+#~ msgid "Reference"
+#~ msgstr "Referência"
 
 #~ msgid "Installer"
 #~ msgstr "Instalador"
@@ -525,9 +540,6 @@ msgstr "Explorar documentos"
 #~ msgid "Ubuntu (unofficial)"
 #~ msgstr "Ubuntu (não oficial)"
 
-#~ msgid "Contact information"
-#~ msgstr "Informações de contacto"
-
 #~ msgid "More news"
 #~ msgstr "Outras notícias"
 
@@ -542,9 +554,6 @@ msgstr "Explorar documentos"
 
 #~ msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 #~ msgstr "Instruções de instalação Zrythm: <ul><li> FAÇAM </li></ul>"
-
-#~ msgid "Contact"
-#~ msgstr "Contacto"
 
 #~ msgid "FAQ"
 #~ msgstr "FAQ"

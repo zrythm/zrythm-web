@@ -1,0 +1,107 @@
+{#
+Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block head_content %}
+<title>Zrythm - {{ _('Learn') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Zrythm reference pages - user manual - tutorials
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/learn.html">
+{% endblock head_content %}
+
+{% block body_content %}
+<div class="container features_box">
+  <h1 class="page_title">
+    {% trans %}
+    Learn
+    {% endtrans %}
+  </h1>
+
+  <h2 class="page_subtitle">
+    {% trans %}
+    Tutorials
+    {% endtrans %}
+  </h2>
+  <div class="row">
+    <div class="col-sm col-md-first">
+      <video class="video" controls>
+        <source src="https://www.zrythm.org/static/simplescreenrecorder-2020-01-15_19.58.27.mkv" type="video/x-matroska">
+        Your browser does not support HTML5 video
+      </video>
+      <div class="video_caption">
+        {% trans %}
+        Basic demo
+        {% endtrans %}
+      </div>
+    </div>
+    <div class="col-sm col-md-normal">
+      <video class="video" controls>
+        <source src="https://www.zrythm.org/static/simplescreenrecorder-2020-01-15_19.58.27.mkv" type="video/x-matroska">
+        Your browser does not support HTML5 video
+      </video>
+      <div class="video_caption">
+        {% trans %}
+        Basic demo
+        {% endtrans %}
+      </div>
+    </div>
+    <div class="col-sm col-md-last">
+      <video class="video" controls>
+        <source src="https://www.zrythm.org/static/simplescreenrecorder-2020-01-15_19.58.27.mkv" type="video/x-matroska">
+        Your browser does not support HTML5 video
+      </video>
+      <div class="video_caption">
+        {% trans %}
+        Basic demo
+        {% endtrans %}
+      </div>
+    </div>
+  </div>
+
+  <h2 class="page_subtitle">
+    {% trans %}
+    User manual
+    {% endtrans %}
+  </h2>
+  <div class="button_group">
+    <a class="button"
+       href="https://manual.zrythm.org/{{ lang }}/index.html">
+      {{ _('Browse Online') }}</a>
+    <a class="button"
+       href="https://manual.zrythm.org/{{ lang }}/Zrythm-html.zip">
+      {{ _('Download as HTML') }}</a>
+    <a class="button"
+       href="https://manual.zrythm.org/{{ lang }}/Zrythm.pdf">
+      {{ _('Download as PDF') }}</a>
+  </div>
+
+  <h2 class="page_subtitle">
+    {% trans %}
+    Developer docs
+    {% endtrans %}
+  </h2>
+  <div class="button_group">
+    <a class="button"
+       href="https://docs.zrythm.org/">
+      {{ _('Browse Online') }}</a>
+  </div>
+
+</div>
+
+{% endblock body_content %}
