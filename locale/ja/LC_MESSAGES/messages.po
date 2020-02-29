@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-02-29 10:09+0000\n"
-"PO-Revision-Date: 2020-01-24 23:02+0000\n"
+"PO-Revision-Date: 2020-02-29 12:53+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.11-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -126,11 +127,11 @@ msgstr "GPG署名キー"
 
 #: template/download.html.j2:87
 msgid "Trial version"
-msgstr ""
+msgstr "体験版"
 
 #: template/download.html.j2:95
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/download.html.j2:101
 #, python-format
@@ -139,7 +140,7 @@ msgstr "%(version)s (zip)をダウンロード"
 
 #: template/download.html.j2:109
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:115
 #, python-format
@@ -148,7 +149,7 @@ msgstr "%(version)s (exe)をダウンロード"
 
 #: template/download.html.j2:125
 msgid "Full version"
-msgstr ""
+msgstr "フル版"
 
 #: template/download.html.j2:136
 msgid "alpha/beta"
@@ -171,11 +172,11 @@ msgstr "最新のZrythmバージョン"
 #: template/download.html.j2:147 template/download.html.j2:155
 #: template/download.html.j2:164
 msgid "Bundled plugins"
-msgstr "バンドルされているプラグイン"
+msgstr "プラグインがバンドルされている"
 
 #: template/download.html.j2:148
 msgid "<b>$5</b> one-time purchase"
-msgstr "<b>$5</b>の1回購入"
+msgstr "<b>$5</b>の一回限り購入"
 
 #: template/download.html.j2:156
 msgid "Free upgrades for all alpha/beta releases"
@@ -183,7 +184,7 @@ msgstr "すべてのアルファ/ベータ版リリースの無料アップグ�
 
 #: template/download.html.j2:157
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
-msgstr "<s>$25</s> <b>$12.50</b>の1回購入"
+msgstr "<s>$25</s> <b>$12.50</b>の1回限り購入"
 
 #: template/download.html.j2:165
 msgid "Free upgrades for as long as you are subscribed"
@@ -286,7 +287,7 @@ msgstr "貢献者のおかげで、Zrythmは英語、フランス語、ポルト
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Zrythmのリファレンスページ・ユーザーマニュアル・チュートリアル"
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
@@ -295,7 +296,7 @@ msgstr "チュートリアル"
 #: template/learn.html.j2:48 template/learn.html.j2:59
 #: template/learn.html.j2:70
 msgid "Basic demo"
-msgstr ""
+msgstr "基本デモ"
 
 #: template/learn.html.j2:78
 msgid "User manual"
