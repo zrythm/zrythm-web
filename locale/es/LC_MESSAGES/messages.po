@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-29 10:09+0000\n"
+"POT-Creation-Date: 2020-02-29 13:07+0000\n"
 "PO-Revision-Date: 2020-02-29 12:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -308,28 +308,31 @@ msgstr "Páginas de referencia de Zrythm: manual de usuario, tutoriales…"
 msgid "Tutorials"
 msgstr "Tutoriales"
 
-#: template/learn.html.j2:48 template/learn.html.j2:59
-#: template/learn.html.j2:70
+#: template/learn.html.j2:50 template/learn.html.j2:74
 msgid "Basic demo"
 msgstr "Demostración básica"
 
-#: template/learn.html.j2:78
+#: template/learn.html.j2:62
+msgid "ZLFO demo"
+msgstr ""
+
+#: template/learn.html.j2:82
 msgid "User manual"
 msgstr "Manual de uso"
 
-#: template/learn.html.j2:85 template/learn.html.j2:102
+#: template/learn.html.j2:89 template/learn.html.j2:106
 msgid "Browse Online"
 msgstr "Explorar en línea"
 
-#: template/learn.html.j2:88
+#: template/learn.html.j2:92
 msgid "Download as HTML"
 msgstr "Descargar como HTML"
 
-#: template/learn.html.j2:91
+#: template/learn.html.j2:95
 msgid "Download as PDF"
 msgstr "Descargar como PDF"
 
-#: template/learn.html.j2:95
+#: template/learn.html.j2:99
 msgid "Developer docs"
 msgstr "Documentación para desarrolladores"
 

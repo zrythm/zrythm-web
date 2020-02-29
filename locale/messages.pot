@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-29 10:09+0000\n"
+"POT-Creation-Date: 2020-02-29 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -283,28 +283,31 @@ msgstr ""
 msgid "Tutorials"
 msgstr ""
 
-#: template/learn.html.j2:48 template/learn.html.j2:59
-#: template/learn.html.j2:70
+#: template/learn.html.j2:50 template/learn.html.j2:74
 msgid "Basic demo"
 msgstr ""
 
-#: template/learn.html.j2:78
+#: template/learn.html.j2:62
+msgid "ZLFO demo"
+msgstr ""
+
+#: template/learn.html.j2:82
 msgid "User manual"
 msgstr ""
 
-#: template/learn.html.j2:85 template/learn.html.j2:102
+#: template/learn.html.j2:89 template/learn.html.j2:106
 msgid "Browse Online"
 msgstr ""
 
-#: template/learn.html.j2:88
+#: template/learn.html.j2:92
 msgid "Download as HTML"
 msgstr ""
 
-#: template/learn.html.j2:91
+#: template/learn.html.j2:95
 msgid "Download as PDF"
 msgstr ""
 
-#: template/learn.html.j2:95
+#: template/learn.html.j2:99
 msgid "Developer docs"
 msgstr ""
 
