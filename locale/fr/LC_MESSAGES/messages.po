@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-02-29 13:07+0000\n"
-"PO-Revision-Date: 2020-01-24 14:09+0000\n"
+"PO-Revision-Date: 2020-03-03 20:33+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.11-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -41,7 +41,7 @@ msgstr "Téléchargement"
 #: common/navigation.j2.inc:35 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Apprendre"
 
 #: common/navigation.j2.inc:40 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -128,29 +128,29 @@ msgstr "clé de signature GPG"
 
 #: template/download.html.j2:87
 msgid "Trial version"
-msgstr ""
+msgstr "Version d'essai"
 
 #: template/download.html.j2:95
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/download.html.j2:101
 #, python-format
 msgid "download %(version)s (zip)"
-msgstr ""
+msgstr "télécharger %(version)s (zip)"
 
 #: template/download.html.j2:109
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:115
 #, python-format
 msgid "download %(version)s (exe)"
-msgstr ""
+msgstr "télécharger %(version)s (exe)"
 
 #: template/download.html.j2:125
 msgid "Full version"
-msgstr ""
+msgstr "Version complète"
 
 #: template/download.html.j2:136
 msgid "alpha/beta"
@@ -173,7 +173,7 @@ msgstr "Dernière version de Zrythm"
 #: template/download.html.j2:147 template/download.html.j2:155
 #: template/download.html.j2:164
 msgid "Bundled plugins"
-msgstr ""
+msgstr "Greffons embarqués"
 
 #: template/download.html.j2:148
 msgid "<b>$5</b> one-time purchase"
@@ -303,7 +303,7 @@ msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Pages de référence Zrythm - manuel utilisateur - didacticiels"
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
@@ -311,27 +311,27 @@ msgstr "Tutoriels"
 
 #: template/learn.html.j2:50 template/learn.html.j2:74
 msgid "Basic demo"
-msgstr ""
+msgstr "Démo basique"
 
 #: template/learn.html.j2:62
 msgid "ZLFO demo"
-msgstr ""
+msgstr "Démo ZLFO"
 
 #: template/learn.html.j2:82
 msgid "User manual"
-msgstr ""
+msgstr "Manuel utilisateur"
 
 #: template/learn.html.j2:89 template/learn.html.j2:106
 msgid "Browse Online"
-msgstr ""
+msgstr "Naviguer en ligne"
 
 #: template/learn.html.j2:92
 msgid "Download as HTML"
-msgstr ""
+msgstr "Télécharger en HTML"
 
 #: template/learn.html.j2:95
 msgid "Download as PDF"
-msgstr ""
+msgstr "Télécharger en PDF"
 
 #: template/learn.html.j2:99
 msgid "Developer docs"
