@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-29 13:07+0000\n"
+"POT-Creation-Date: 2020-03-04 23:54+0000\n"
 "PO-Revision-Date: 2020-01-24 14:09+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -43,12 +43,17 @@ msgstr "Téléchargement"
 msgid "Learn"
 msgstr ""
 
-#: common/navigation.j2.inc:40 template/community.html.j2:19
+#: common/navigation.j2.inc:40 template/plugins.html.j2:19
+#: template/plugins.html.j2:32
+msgid "Plugins"
+msgstr ""
+
+#: common/navigation.j2.inc:45 template/community.html.j2:19
 #: template/community.html.j2:32
 msgid "Community"
 msgstr "Communauté"
 
-#: common/navigation.j2.inc:58
+#: common/navigation.j2.inc:63
 msgid "Language"
 msgstr "Langue"
 
@@ -135,75 +140,81 @@ msgid "GNU/Linux"
 msgstr ""
 
 #: template/download.html.j2:101
-#, python-format
-msgid "download %(version)s (zip)"
+msgid "download zip"
 msgstr ""
 
-#: template/download.html.j2:109
+#: template/download.html.j2:115 template/download.html.j2:209
+#: template/download.html.j2:228
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:115
-#, python-format
-msgid "download %(version)s (exe)"
+#: template/download.html.j2:121
+msgid "download exe"
 msgstr ""
 
-#: template/download.html.j2:125
+#: template/download.html.j2:139
+msgid "download dmg"
+msgstr ""
+
+#: template/download.html.j2:155
 msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:136
+#: template/download.html.j2:163
+msgid "alpha"
+msgstr ""
+
+#: template/download.html.j2:166
 msgid "alpha/beta"
 msgstr "alpha/bêta"
 
-#: template/download.html.j2:139
+#: template/download.html.j2:169
 msgid "subscription"
 msgstr "souscription"
 
-#: template/download.html.j2:145 template/download.html.j2:153
-#: template/download.html.j2:162
-msgid "Binary package (installer)"
-msgstr "Paquet binaire (installateur)"
+#: template/download.html.j2:175
+msgid "Latest version"
+msgstr ""
 
-#: template/download.html.j2:146 template/download.html.j2:154
-#: template/download.html.j2:163
-msgid "Latest Zrythm version"
-msgstr "Dernière version de Zrythm"
-
-#: template/download.html.j2:147 template/download.html.j2:155
-#: template/download.html.j2:164
+#: template/download.html.j2:176 template/download.html.j2:183
+#: template/download.html.j2:191
 msgid "Bundled plugins"
 msgstr ""
 
-#: template/download.html.j2:148
+#: template/download.html.j2:177
 msgid "<b>$5</b> one-time purchase"
 msgstr "<b>$5</b> achat unique"
 
-#: template/download.html.j2:156
-msgid "Free upgrades for all alpha/beta releases"
-msgstr "Mises à jour gratuites pour toutes les versions alpha/bêta"
+#: template/download.html.j2:182 template/download.html.j2:190
+msgid "Always latest version"
+msgstr ""
 
-#: template/download.html.j2:157
+#: template/download.html.j2:184
+#| msgid "Free upgrades for all alpha/beta releases"
+msgid "Free upgrades for alpha/beta releases"
+msgstr ""
+
+#: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr "<s>$25</s> <b>$12.50</b> achat unique"
 
-#: template/download.html.j2:165
-msgid "Free upgrades for as long as you are subscribed"
-msgstr "Mises à jour gratuites tant que vous êtes abonné"
+#: template/download.html.j2:192
+msgid "Free upgrades during subscription"
+msgstr ""
 
-#: template/download.html.j2:166
+#: template/download.html.j2:193
 msgid "<b>$5</b> per month"
 msgstr "<b>$5</b> par mois"
 
-#: template/download.html.j2:174 template/download.html.j2:192
+#: template/download.html.j2:201 template/download.html.j2:220
 msgid "Buy Now"
 msgstr "Acheter maintenant"
 
-#: template/download.html.j2:179 template/download.html.j2:197
+#: template/download.html.j2:206 template/download.html.j2:225
 msgid "Select your OS"
 msgstr "Sélectionnez votre SE"
 
-#: template/download.html.j2:214
+#: template/download.html.j2:243
 msgid "Subscribe"
 msgstr "Souscrire"
 
@@ -337,6 +348,34 @@ msgstr ""
 msgid "Developer docs"
 msgstr "Docs développeur"
 
+#: template/plugins.html.j2:22
+msgid "Plugins bundled with Zrythm"
+msgstr ""
+
+#: template/plugins.html.j2:40
+msgid "ZLFO"
+msgstr ""
+
+#: template/plugins.html.j2:48
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr ""
+
+#: template/plugins.html.j2:70
+msgid "ZChordz"
+msgstr ""
+
+#: template/plugins.html.j2:78
+msgid "ZChordz maps the chords of a minor or major scale to white keys"
+msgstr ""
+
+#: template/plugins.html.j2:92
+msgid "Plugin"
+msgstr ""
+
+#: template/plugins.html.j2:97
+msgid "Coming soon"
+msgstr ""
+
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
 msgstr "Merci"
@@ -363,6 +402,9 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
 
+#~ msgid "Binary package (installer)"
+#~ msgstr "Paquet binaire (installateur)"
+
 #~ msgid "Installation"
 #~ msgstr "Installation"
 
@@ -384,20 +426,11 @@ msgstr "Retour à la page d'accueil"
 #~ msgid "HTML-render (zip)"
 #~ msgstr "rendu-HTML (zip)"
 
-#~ msgid "download HTML zip"
-#~ msgstr "télécharger le zip HTML"
-
 #~ msgid "PDF-render"
 #~ msgstr "rendu-PDF"
 
-#~ msgid "download PDF"
-#~ msgstr "télécharger le PDF"
-
 #~ msgid "ePUB-render"
 #~ msgstr "rendu-ePUB"
-
-#~ msgid "download ePUB"
-#~ msgstr "télécharger l'ePUB"
 
 #~ msgid "Reference"
 #~ msgstr "Référence"
@@ -407,11 +440,6 @@ msgstr "Retour à la page d'accueil"
 
 #~ msgid "issue tracker"
 #~ msgstr "outil de suivi des problèmes"
-
-#~ msgid "Coming Soon"
-#~ msgstr ""
-#~ "Vous recevrez des mises à jour gratuites pour la version majeure de Zrythm "
-#~ "que vous avez achetée."
 
 #~ msgid "zrythm"
 #~ msgstr "zrythm"
@@ -498,9 +526,6 @@ msgstr "Retour à la page d'accueil"
 
 #~ msgid "About Zrythm"
 #~ msgstr "À propos de Zrythm"
-
-#~ msgid "Introduction"
-#~ msgstr "Présentation"
 
 #~ msgid ""
 #~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"

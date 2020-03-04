@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -97,11 +97,17 @@ GNU Affero General Public License for more details.
           {% endtrans %}
         </td>
         <td class="second_col">
-          <a href="{{ downloads_url }}zrythm_trial_installer.zip">
+          <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip">
             {% trans %}
-            download {{ version }} (zip)
-            {% endtrans %}
-          </a>
+            download zip
+            {% endtrans %}</a>
+          <small>
+            <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip.md5">
+              (md5)</a>
+            <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip.asc">
+              (sig)
+            </a>
+          </small>
         </td>
       </tr>
       <tr>
@@ -113,9 +119,33 @@ GNU Affero General Public License for more details.
         <td>
           <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.exe">
             {% trans %}
-            download {{ version }} (exe)
-            {% endtrans %}
-          </a>
+            download exe
+            {% endtrans %}</a>
+          <small>
+            <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.exe.md5">
+              (md5)</a>
+            <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.exe.asc">
+              (sig)
+            </a>
+          </small>
+        </td>
+      </tr>
+      <tr>
+        <td class="first_col">
+          MacOS
+        </td>
+        <td>
+          <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.dmg">
+            {% trans %}
+            download dmg
+            {% endtrans %}</a>
+          <small>
+            <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.dmg.md5">
+              (md5)</a>
+            <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.dmg.asc">
+              (sig)
+            </a>
+          </small>
         </td>
       </tr>
     </tbody>
@@ -130,7 +160,7 @@ GNU Affero General Public License for more details.
     <div class="row centered">
       <div class="col-sm-4">
         <h3>
-          {{ version }}</h3>
+          {{ version }} <small style="display: inline;">({{ _('alpha') }})</small></h3>
       </div>
       <div class="col-sm-4">
         <h3>{{ _('alpha/beta') }}</h3>
@@ -142,27 +172,24 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-4">
         <p>
-          <p>{{ _('Binary package (installer)') }}</p>
-          <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Latest version') }}</p>
           <p>{{ _('Bundled plugins') }}</p>
           <p>{{ _('<b>$5</b> one-time purchase') }}</p>
         </p>
       </div>
       <div class="col-sm-4">
         <p>
-          <p>{{ _('Binary package (installer)') }}</p>
-          <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Always latest version') }}</p>
           <p>{{ _('Bundled plugins') }}</p>
-          <p>{{ _('Free upgrades for all alpha/beta releases') }}</p>
+          <p>{{ _('Free upgrades for alpha/beta releases') }}</p>
           <p>{{ _('<s>$25</s> <b>$12.50</b> one-time purchase') }}</p>
         </p>
       </div>
       <div class="col-sm-4">
         <p>
-          <p>{{ _('Binary package (installer)') }}</p>
-          <p>{{ _('Latest Zrythm version') }}</p>
+          <p>{{ _('Always latest version') }}</p>
           <p>{{ _('Bundled plugins') }}</p>
-          <p>{{ _('Free upgrades for as long as you are subscribed') }}</p>
+          <p>{{ _('Free upgrades during subscription') }}</p>
           <p>{{ _('<b>$5</b> per month') }}</p>
         </p>
       </div>
@@ -179,7 +206,8 @@ GNU Affero General Public License for more details.
                 <h3 class="section">{{ _('Select your OS') }}</h3>
                 <p class="section">
                   <a href="https://transactions.sendowl.com/products/78213901/C9A9B174/view" rel="nofollow" class="button">GNU/Linux</a>
-                  <a href="https://transactions.sendowl.com/products/78213902/50922779/view" rel="nofollow" class="button">Windows 64-bit</a>
+                  <a href="https://transactions.sendowl.com/products/78213902/50922779/view" rel="nofollow" class="button">{{ _('Windows 64-bit') }}</a>
+                  <a href="https://transactions.sendowl.com/products/78217268/A38CD76D/view" rel="nofollow" class="button">MacOS</a>
                 </p>
               </div>
             </div>
@@ -197,7 +225,8 @@ GNU Affero General Public License for more details.
                 <h3 class="section">{{ _('Select your OS') }}</h3>
                 <p class="section">
                   <a href="https://transactions.sendowl.com/products/78169986/2B0FE183/view" rel="nofollow" class="button secondary">GNU/Linux</a>
-                  <a href="https://transactions.sendowl.com/products/78186269/B7856C8B/view" rel="nofollow" class="button secondary">Windows 64-bit</a>
+                  <a href="https://transactions.sendowl.com/products/78186269/B7856C8B/view" rel="nofollow" class="button secondary">{{ _('Windows 64-bit') }}</a>
+                  <a href="https://transactions.sendowl.com/products/78217260/11CE10F2/view" rel="nofollow" class="button secondary">MacOS</a>
                 </p>
               </div>
             </div>

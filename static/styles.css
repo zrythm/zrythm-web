@@ -33,6 +33,10 @@
   text-align: center;
 }
 
+.centered {
+  text-align: center;
+}
+
 .screenshot_img {
   max-width: 78%;
 }
@@ -40,6 +44,11 @@
 .features_box {
   max-width: 78%;
   padding-bottom: 3%;
+}
+
+.tiny {
+  font-size: 0.5em;
+  vertical-align: middle;
 }
 
 .footer_btn {

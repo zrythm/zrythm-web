@@ -36,6 +36,11 @@ GNU Affero General Public License for more details.
     Learn
     {% endtrans %}
   </a>
+  <a href="plugins.html" class="button">
+    {% trans %}
+    Plugins
+    {% endtrans %}
+  </a>
   <a href="community.html" class="button">
     {% trans %}
     Community

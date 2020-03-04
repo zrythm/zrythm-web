@@ -1,0 +1,105 @@
+{#
+Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block head_content %}
+<title>Zrythm - {{ _('Plugins') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+       Plugins bundled with Zrythm
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/plugins.html">
+{% endblock head_content %}
+
+{% block body_content %}
+<left>
+<div class="container features_box">
+  <h1 class="page_title">
+    {% trans %}
+    Plugins
+    {% endtrans %}
+  </h1>
+
+  <div class="row">
+    <div class="col-sm col-md-first">
+      <h2 class="centered">
+        {% trans %}
+        ZLFO
+        {% endtrans %}
+      </h2>
+      <img class="centered"
+           src="https://git.zrythm.org/cgit/ZLFO/plain/screenshots/2020_feb_12_zlfo.png"
+           alt="ZLFO screenshot">
+      <div class="centered">
+        {% trans %}
+        ZLFO is a fully featured LFO for CV-based
+        automation
+        {% endtrans %}
+      </div>
+      <div>
+        <b>Features</b>
+        <ul>
+          <li>Multi-oscillator with custom wave</li>
+          <li>Phase shift</li>
+          <li>Vertical/horizontal inversion</li>
+          <li>Step mode</li>
+          <li>Editable range</li>
+          <li>Sync to host or free-form</li>
+        </ul>
+      </div>
+      <div>
+        Designed by Mire
+      </div>
+    </div>
+    <div class="col-sm col-md-normal">
+      <h2 class="centered">
+        {% trans %}
+        ZChordz
+        {% endtrans %}
+      </h2>
+      <img class="centered"
+           src="{{ url('static/images/zchordz-mar-4-2020.png') }}"
+           alt="ZChordz screenshot">
+      <div class="centered">
+        {% trans %}
+        ZChordz maps the chords of a minor or major scale
+        to white keys
+        {% endtrans %}
+      </div>
+      <div>
+        <b>Features</b>
+        <ul>
+          <li>Velocity multiplier per note</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm col-md-last">
+      <h2 class="centered">
+        {% trans %}
+        Plugin
+        {% endtrans %}
+      </h2>
+      <div class="video_caption">
+        {% trans %}
+        Coming soon
+        {% endtrans %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body_content %}
