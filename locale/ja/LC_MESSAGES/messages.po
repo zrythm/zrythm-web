@@ -188,7 +188,6 @@ msgid "Always latest version"
 msgstr ""
 
 #: template/download.html.j2:184
-#| msgid "Free upgrades for all alpha/beta releases"
 msgid "Free upgrades for alpha/beta releases"
 msgstr ""
 
