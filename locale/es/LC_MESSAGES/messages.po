@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-04 23:54+0000\n"
-"PO-Revision-Date: 2020-02-29 12:53+0000\n"
+"PO-Revision-Date: 2020-03-01 23:33+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -190,7 +190,6 @@ msgid "Always latest version"
 msgstr ""
 
 #: template/download.html.j2:184
-#| msgid "Free upgrades for all alpha/beta releases"
 msgid "Free upgrades for alpha/beta releases"
 msgstr ""
 
@@ -325,7 +324,7 @@ msgstr "Demostración básica"
 
 #: template/learn.html.j2:62
 msgid "ZLFO demo"
-msgstr ""
+msgstr "Demostración de ZLFO"
 
 #: template/learn.html.j2:82
 msgid "User manual"
