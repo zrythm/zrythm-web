@@ -1,0 +1,378 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-03-05 11:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: common/header.j2.inc:24
+msgid ""
+"DAW, digital audio workstation, music production, audio, pro audio, "
+"Linux, GNU/Linux, free software, libre software, sound editor, "
+"composition, MIDI, LV2, JACK"
+msgstr ""
+
+#: common/navigation.j2.inc:25
+msgid "Home"
+msgstr ""
+
+#: common/navigation.j2.inc:30 template/download.html.j2:19
+#: template/download.html.j2:33
+msgid "Download"
+msgstr ""
+
+#: common/navigation.j2.inc:35 template/learn.html.j2:19
+#: template/learn.html.j2:31
+msgid "Learn"
+msgstr ""
+
+#: common/navigation.j2.inc:40 template/plugins.html.j2:19
+#: template/plugins.html.j2:32
+msgid "Plugins"
+msgstr ""
+
+#: common/navigation.j2.inc:45 template/community.html.j2:19
+#: template/community.html.j2:32
+msgid "Community"
+msgstr ""
+
+#: common/navigation.j2.inc:63
+msgid "Language"
+msgstr ""
+
+#: template/community.html.j2:22
+msgid "Zrythm's community pages and communication channels"
+msgstr ""
+
+#: template/community.html.j2:38
+msgid "Chat"
+msgstr ""
+
+#: template/community.html.j2:46
+msgid "IRC"
+msgstr ""
+
+#: template/community.html.j2:52
+msgid "#zrythm on irc.freenode.net"
+msgstr ""
+
+#: template/community.html.j2:60
+msgid "Matrix"
+msgstr ""
+
+#: template/community.html.j2:72
+msgid "Discord"
+msgstr ""
+
+#: template/community.html.j2:86
+msgid "Mail"
+msgstr ""
+
+#: template/community.html.j2:94
+msgid "User"
+msgstr ""
+
+#: template/community.html.j2:106
+msgid "Developer"
+msgstr ""
+
+#: template/community.html.j2:120
+msgid "Issue tracker"
+msgstr ""
+
+#: template/community.html.j2:132 template/community.html.j2:154
+msgid "zrythm project"
+msgstr ""
+
+#: template/community.html.j2:142
+msgid "Translations"
+msgstr ""
+
+#: template/download.html.j2:22
+msgid "Download Zrythm's source code or purchase a binary package installer"
+msgstr ""
+
+#: template/download.html.j2:39
+msgid "Source code"
+msgstr ""
+
+#: template/download.html.j2:47
+msgid "git repositories"
+msgstr ""
+
+#: template/download.html.j2:59
+msgid "stable releases"
+msgstr ""
+
+#: template/download.html.j2:65
+msgid "releases"
+msgstr ""
+
+#: template/download.html.j2:73
+msgid "GPG signing key"
+msgstr ""
+
+#: template/download.html.j2:87
+msgid "Trial version"
+msgstr ""
+
+#: template/download.html.j2:95
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/download.html.j2:101
+msgid "download zip"
+msgstr ""
+
+#: template/download.html.j2:115 template/download.html.j2:209
+#: template/download.html.j2:228
+msgid "Windows 64-bit"
+msgstr ""
+
+#: template/download.html.j2:121
+msgid "download exe"
+msgstr ""
+
+#: template/download.html.j2:139
+msgid "download dmg"
+msgstr ""
+
+#: template/download.html.j2:155
+msgid "Full version"
+msgstr ""
+
+#: template/download.html.j2:163
+msgid "alpha"
+msgstr ""
+
+#: template/download.html.j2:166
+msgid "alpha/beta"
+msgstr ""
+
+#: template/download.html.j2:169
+msgid "subscription"
+msgstr ""
+
+#: template/download.html.j2:175
+msgid "Latest version"
+msgstr ""
+
+#: template/download.html.j2:176 template/download.html.j2:183
+#: template/download.html.j2:191
+msgid "Bundled plugins"
+msgstr ""
+
+#: template/download.html.j2:177
+msgid "<b>$5</b> one-time purchase"
+msgstr ""
+
+#: template/download.html.j2:182 template/download.html.j2:190
+msgid "Always latest version"
+msgstr ""
+
+#: template/download.html.j2:184
+msgid "Free upgrades for alpha/beta releases"
+msgstr ""
+
+#: template/download.html.j2:185
+msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
+msgstr ""
+
+#: template/download.html.j2:192
+msgid "Free upgrades during subscription"
+msgstr ""
+
+#: template/download.html.j2:193
+msgid "<b>$5</b> per month"
+msgstr ""
+
+#: template/download.html.j2:201 template/download.html.j2:220
+msgid "Buy Now"
+msgstr ""
+
+#: template/download.html.j2:206 template/download.html.j2:225
+msgid "Select your OS"
+msgstr ""
+
+#: template/download.html.j2:243
+msgid "Subscribe"
+msgstr ""
+
+#: template/index.html.j2:22
+msgid ""
+"Zrythm is a digital audio workstation designed to be featureful and easy "
+"to use. It allows limitless automation, supports LV2 plugins, works with "
+"the JACK audio backend and provides chord assistance."
+msgstr ""
+
+#: template/index.html.j2:35
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr ""
+
+#: template/index.html.j2:51
+msgid "Overview"
+msgstr ""
+
+#: template/index.html.j2:57
+msgid ""
+"Zrythm is a cross-platform digital audio workstation designed to be "
+"featureful and easy to use."
+msgstr ""
+
+#: template/index.html.j2:71
+msgid "Limitless automation"
+msgstr ""
+
+#: template/index.html.j2:76
+msgid ""
+"Automate almost anything with automation events using straight lines, "
+"ramps and curves, or with LFOs and envelopes."
+msgstr ""
+
+#: template/index.html.j2:89
+msgid "LV2 plugins"
+msgstr ""
+
+#: template/index.html.j2:94
+msgid ""
+"Complete support for LV2, a free and extensible standard for audio "
+"plugins."
+msgstr ""
+
+#: template/index.html.j2:109
+msgid "Multi-backend support"
+msgstr ""
+
+#: template/index.html.j2:114
+msgid ""
+"Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
+"Windows MME, CoreMidi and CoreAudio."
+msgstr ""
+
+#: template/index.html.j2:127
+msgid "Chord assistance"
+msgstr ""
+
+#: template/index.html.j2:132
+msgid ""
+"Featuring a chord pad for quickly trying out chords in a scale and a "
+"chord track to help with chord progressions."
+msgstr ""
+
+#: template/index.html.j2:147
+msgid "Liberating"
+msgstr ""
+
+#: template/index.html.j2:152
+#, python-format
+msgid ""
+"Zrythm is 100% free software that gives users the freedom to use, study, "
+"share and improve it."
+msgstr ""
+
+#: template/index.html.j2:164
+msgid "Multilingual"
+msgstr ""
+
+#: template/index.html.j2:169
+msgid ""
+"Thanks to contributors, Zrythm is available in English, French, "
+"Portuguese, Japanese and German."
+msgstr ""
+
+#: template/learn.html.j2:22
+msgid "Zrythm reference pages - user manual - tutorials"
+msgstr ""
+
+#: template/learn.html.j2:37
+msgid "Tutorials"
+msgstr ""
+
+#: template/learn.html.j2:50 template/learn.html.j2:74
+msgid "Basic demo"
+msgstr ""
+
+#: template/learn.html.j2:62
+msgid "ZLFO demo"
+msgstr ""
+
+#: template/learn.html.j2:82
+msgid "User manual"
+msgstr ""
+
+#: template/learn.html.j2:89 template/learn.html.j2:106
+msgid "Browse Online"
+msgstr ""
+
+#: template/learn.html.j2:92
+msgid "Download as HTML"
+msgstr ""
+
+#: template/learn.html.j2:95
+msgid "Download as PDF"
+msgstr ""
+
+#: template/learn.html.j2:99
+msgid "Developer docs"
+msgstr ""
+
+#: template/plugins.html.j2:22
+msgid "Plugins bundled with Zrythm"
+msgstr ""
+
+#: template/plugins.html.j2:40
+msgid "ZLFO"
+msgstr ""
+
+#: template/plugins.html.j2:48
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr ""
+
+#: template/plugins.html.j2:70
+msgid "ZChordz"
+msgstr ""
+
+#: template/plugins.html.j2:78
+msgid "ZChordz maps the chords of a minor or major scale to white keys"
+msgstr ""
+
+#: template/plugins.html.j2:92
+msgid "Plugin"
+msgstr ""
+
+#: template/plugins.html.j2:97
+msgid "Coming soon"
+msgstr ""
+
+#: template/purchase-thanks.html.j2:19
+msgid "Thank You"
+msgstr ""
+
+#: template/purchase-thanks.html.j2:31
+msgid ""
+"Thank you for supporting development! You will receive an email soon with"
+" instructions how to download your installer."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:38
+msgid ""
+"Once you download the zip file, extract it and run "
+"<code>./installer.sh</code> in a terminal. If you experience any "
+"problems, please contact us."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:45
+msgid "Go back to home page"
+msgstr ""
