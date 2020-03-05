@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-04 23:54+0000\n"
+"POT-Creation-Date: 2020-03-05 11:01+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -229,11 +229,9 @@ msgstr "Oversikt"
 
 #: template/index.html.j2:57
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy to "
-"use."
+"Zrythm is a cross-platform digital audio workstation designed to be "
+"featureful and easy to use."
 msgstr ""
-"Zrythm er en digital lyd-arbeidsstasjon designet for rik funksjonalitet og "
-"intuitiv bruk."
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
@@ -251,22 +249,24 @@ msgstr "LV2-programtillegg"
 
 #: template/index.html.j2:94
 msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins."
+"Complete support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
 
 #: template/index.html.j2:109
-msgid "JACK support"
-msgstr "JACK-støtte"
+msgid "Multi-backend support"
+msgstr ""
 
 #: template/index.html.j2:114
-msgid "Fully JACK aware, including support for JACK transport."
-msgstr "Fullkompatibel med JACK, inkludert støtte for JACK-transport."
+msgid ""
+"Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
+"Windows MME, CoreMidi and CoreAudio."
+msgstr ""
 
-#: template/index.html.j2:126
+#: template/index.html.j2:127
 msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:132
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
@@ -274,19 +274,22 @@ msgstr ""
 "Inneholder en akkord-flate for rask utprøving av akkorder i en skala og et "
 "akkortspor til hjelp med akkordprogresjoner."
 
-#: template/index.html.j2:146
-msgid "Free software"
-msgstr "Fri programvare"
-
-#: template/index.html.j2:151
-msgid "Use, study, share and improve freely."
+#: template/index.html.j2:147
+msgid "Liberating"
 msgstr ""
 
-#: template/index.html.j2:162
+#: template/index.html.j2:152
+#, python-format
+msgid ""
+"Zrythm is 100% free software that gives users the freedom to use, study, "
+"share and improve it."
+msgstr ""
+
+#: template/index.html.j2:164
 msgid "Multilingual"
 msgstr "Flerspråklig"
 
-#: template/index.html.j2:167
+#: template/index.html.j2:169
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
@@ -376,6 +379,9 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr ""
+
+#~ msgid "JACK support"
+#~ msgstr "JACK-støtte"
 
 #~ msgid "Installation"
 #~ msgstr "Installasjon"

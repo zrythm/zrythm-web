@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-04 23:54+0000\n"
+"POT-Creation-Date: 2020-03-05 11:01+0000\n"
 "PO-Revision-Date: 2020-01-11 14:21+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -229,11 +229,9 @@ msgstr ""
 
 #: template/index.html.j2:57
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy to "
-"use."
+"Zrythm is a cross-platform digital audio workstation designed to be "
+"featureful and easy to use."
 msgstr ""
-"Zrythm - это цифровая звуковая рабочая станция, разработанная для того, "
-"чтобы быть функциональной и простой в использовании."
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
@@ -253,41 +251,45 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid ""
-"Full support for LV2, a free and extensible standard for audio plugins."
+"Complete support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
-"Полная поддержка LV2, бесплатный и расширяемый стандарт для аудио плагинов."
 
 #: template/index.html.j2:109
-msgid "JACK support"
+msgid "Multi-backend support"
 msgstr ""
 
 #: template/index.html.j2:114
-msgid "Fully JACK aware, including support for JACK transport."
+msgid ""
+"Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
+"Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
-#: template/index.html.j2:126
+#: template/index.html.j2:127
 msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:132
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:146
-msgid "Free software"
+#: template/index.html.j2:147
+msgid "Liberating"
 msgstr ""
 
-#: template/index.html.j2:151
-msgid "Use, study, share and improve freely."
+#: template/index.html.j2:152
+#, python-format
+msgid ""
+"Zrythm is 100% free software that gives users the freedom to use, study, "
+"share and improve it."
 msgstr ""
 
-#: template/index.html.j2:162
+#: template/index.html.j2:164
 msgid "Multilingual"
 msgstr ""
 
-#: template/index.html.j2:167
+#: template/index.html.j2:169
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
