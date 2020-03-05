@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-05 11:01+0000\n"
-"PO-Revision-Date: 2020-02-29 12:53+0000\n"
+"PO-Revision-Date: 2020-03-07 09:50+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -46,7 +47,7 @@ msgstr "学ぶ"
 #: common/navigation.j2.inc:40 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "プラグイン"
 
 #: common/navigation.j2.inc:45 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -139,7 +140,7 @@ msgstr "GNU/Linux"
 
 #: template/download.html.j2:101
 msgid "download zip"
-msgstr ""
+msgstr "zipをダウンロード"
 
 #: template/download.html.j2:115 template/download.html.j2:209
 #: template/download.html.j2:228
@@ -148,19 +149,19 @@ msgstr "Windows 64-bit"
 
 #: template/download.html.j2:121
 msgid "download exe"
-msgstr ""
+msgstr "exeをダウンロード"
 
 #: template/download.html.j2:139
 msgid "download dmg"
-msgstr ""
+msgstr "dmgをダウンロード"
 
 #: template/download.html.j2:155
 msgid "Full version"
-msgstr "フル版"
+msgstr "完全版"
 
 #: template/download.html.j2:163
 msgid "alpha"
-msgstr ""
+msgstr "アルファ"
 
 #: template/download.html.j2:166
 msgid "alpha/beta"
@@ -172,12 +173,12 @@ msgstr "サブスクリプション"
 
 #: template/download.html.j2:175
 msgid "Latest version"
-msgstr ""
+msgstr "最新版"
 
 #: template/download.html.j2:176 template/download.html.j2:183
 #: template/download.html.j2:191
 msgid "Bundled plugins"
-msgstr "プラグインがバンドルされている"
+msgstr "バンドルされているプラグイン"
 
 #: template/download.html.j2:177
 msgid "<b>$5</b> one-time purchase"
@@ -185,11 +186,11 @@ msgstr "<b>$5</b>の一回限り購入"
 
 #: template/download.html.j2:182 template/download.html.j2:190
 msgid "Always latest version"
-msgstr ""
+msgstr "いつも最新版"
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
-msgstr ""
+msgstr "アルファ/ベタ版リリースに対して無料アップグレード"
 
 #: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
@@ -197,7 +198,7 @@ msgstr "<s>$25</s> <b>$12.50</b>の1回限り購入"
 
 #: template/download.html.j2:192
 msgid "Free upgrades during subscription"
-msgstr ""
+msgstr "サブしている間に無料アップグレード"
 
 #: template/download.html.j2:193
 msgid "<b>$5</b> per month"
@@ -237,7 +238,7 @@ msgstr "概要"
 msgid ""
 "Zrythm is a cross-platform digital audio workstation designed to be "
 "featureful and easy to use."
-msgstr ""
+msgstr "Zrythmは、機能が豊富で使いやすいように設計されたクロスプラットフォームのデジタルオーディオワークステーションです。"
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
@@ -256,17 +257,18 @@ msgstr "LV2プラグイン"
 #: template/index.html.j2:94
 msgid ""
 "Complete support for LV2, a free and extensible standard for audio plugins."
-msgstr ""
+msgstr "オーディオプラグインのウープンスタンダードで拡張可能な標準であるLV2を完全に対応。"
 
 #: template/index.html.j2:109
 msgid "Multi-backend support"
-msgstr ""
+msgstr "多バックエンド対応"
 
 #: template/index.html.j2:114
 msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"ALSA、WASAPI、Windows MME、CoreMidiおよびCoreAudioに加えて、JACKトランスポートを含む、完全なJACK対応。"
 
 #: template/index.html.j2:127
 msgid "Chord assistance"
@@ -280,7 +282,7 @@ msgstr "和音進行に役立つコードトラック、音階および和音を
 
 #: template/index.html.j2:147
 msgid "Liberating"
-msgstr ""
+msgstr "自由的"
 
 #: template/index.html.j2:152
 #, python-format
@@ -313,7 +315,7 @@ msgstr "基本デモ"
 
 #: template/learn.html.j2:62
 msgid "ZLFO demo"
-msgstr ""
+msgstr "ZLFOのデモ"
 
 #: template/learn.html.j2:82
 msgid "User manual"
@@ -337,31 +339,31 @@ msgstr "開発者向けドキュメント"
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Zrythmにバンドルされているプラグイン"
 
 #: template/plugins.html.j2:40
 msgid "ZLFO"
-msgstr ""
+msgstr "ZLFO"
 
 #: template/plugins.html.j2:48
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
 
 #: template/plugins.html.j2:70
 msgid "ZChordz"
-msgstr ""
+msgstr "ZChordz"
 
 #: template/plugins.html.j2:78
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
 
 #: template/plugins.html.j2:92
 msgid "Plugin"
-msgstr ""
+msgstr "プラグイン"
 
 #: template/plugins.html.j2:97
 msgid "Coming soon"
-msgstr ""
+msgstr "近日公開"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
