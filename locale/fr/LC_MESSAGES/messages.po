@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-05 11:01+0000\n"
-"PO-Revision-Date: 2020-03-03 20:33+0000\n"
+"PO-Revision-Date: 2020-03-07 09:50+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -46,7 +46,7 @@ msgstr "Apprendre"
 #: common/navigation.j2.inc:40 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Greffons"
 
 #: common/navigation.j2.inc:45 template/community.html.j2:19
 #: template/community.html.j2:32
@@ -162,7 +162,7 @@ msgstr "Version complète"
 
 #: template/download.html.j2:163
 msgid "alpha"
-msgstr ""
+msgstr "alpha"
 
 #: template/download.html.j2:166
 msgid "alpha/beta"
@@ -174,7 +174,7 @@ msgstr "souscription"
 
 #: template/download.html.j2:175
 msgid "Latest version"
-msgstr ""
+msgstr "Dernière version"
 
 #: template/download.html.j2:176 template/download.html.j2:183
 #: template/download.html.j2:191
@@ -187,11 +187,11 @@ msgstr "<b>$5</b> achat unique"
 
 #: template/download.html.j2:182 template/download.html.j2:190
 msgid "Always latest version"
-msgstr ""
+msgstr "Toujours la dernière version"
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
-msgstr ""
+msgstr "Mises à jour gratuites pour les versions alpha/bêta"
 
 #: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
@@ -199,7 +199,7 @@ msgstr "<s>$25</s> <b>$12.50</b> achat unique"
 
 #: template/download.html.j2:192
 msgid "Free upgrades during subscription"
-msgstr ""
+msgstr "Mises à jour gratuites pendant l'abonnement"
 
 #: template/download.html.j2:193
 msgid "<b>$5</b> per month"
@@ -243,6 +243,8 @@ msgid ""
 "Zrythm is a cross-platform digital audio workstation designed to be "
 "featureful and easy to use."
 msgstr ""
+"Zrythm est une station de travail audio numérique multi-plateforme conçue "
+"pour être fonctionnelle et facile à utiliser."
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
@@ -265,16 +267,20 @@ msgstr "Greffons LV2"
 msgid ""
 "Complete support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
+"Prise en charge complète de LV2, un standard libre et extensible pour les "
+"greffons audio."
 
 #: template/index.html.j2:109
 msgid "Multi-backend support"
-msgstr ""
+msgstr "Support multi-dorsaux"
 
 #: template/index.html.j2:114
 msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Compatible totalement avec JACK, y compris le support pour le transport "
+"JACK, ALSA, WASAPI, Windows MME, CoreMidi et CoreAudio."
 
 #: template/index.html.j2:127
 msgid "Chord assistance"
@@ -290,7 +296,7 @@ msgstr ""
 
 #: template/index.html.j2:147
 msgid "Liberating"
-msgstr ""
+msgstr "Libération"
 
 #: template/index.html.j2:152
 #, python-format
@@ -298,6 +304,8 @@ msgid ""
 "Zrythm is 100% free software that gives users the freedom to use, study, "
 "share and improve it."
 msgstr ""
+"Zrythm est un logiciel 100% libre qui donne aux utilisateurs la liberté de "
+"l'utiliser, de l'étudier, de le partager et de l'améliorer."
 
 #: template/index.html.j2:164
 msgid "Multilingual"
@@ -349,31 +357,33 @@ msgstr "Docs développeur"
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Greffons embarqués avec Zrythm"
 
 #: template/plugins.html.j2:40
 msgid "ZLFO"
-msgstr ""
+msgstr "ZLFO"
 
 #: template/plugins.html.j2:48
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
 #: template/plugins.html.j2:70
 msgid "ZChordz"
-msgstr ""
+msgstr "ZChordz"
 
 #: template/plugins.html.j2:78
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
+"ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
+"touches blanches"
 
 #: template/plugins.html.j2:92
 msgid "Plugin"
-msgstr ""
+msgstr "Greffon"
 
 #: template/plugins.html.j2:97
 msgid "Coming soon"
-msgstr ""
+msgstr "Arrive bientôt"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
