@@ -66,9 +66,7 @@ GNU Affero General Public License for more details.
     </h3>
     <p class="section">
       {% for key in langs_full.keys() %}
-        <a href="{{ self_localized(key) }}">
-          {{ langs_full[key] }}
-        </a>
+        <a href="{{ self_localized(key) }}">{{ langs_full[key] }}</a>
       {% endfor %}
     </p>
   </div>
