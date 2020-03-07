@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-07 13:44+0000\n"
-"PO-Revision-Date: 2020-03-07 09:50+0000\n"
+"PO-Revision-Date: 2020-03-07 22:21+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -221,10 +221,12 @@ msgstr "Souscrire"
 #, python-format
 msgid "This month we received $%(monthly_earning_str)s. Our goal is $3,000."
 msgstr ""
+"Ce mois-ci, nous avons reçu $%(monthly_earning_str)s. Notre objectif est de "
+"3 000 $."
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Station de travail audio numérique"
 
 #: template/index.html.j2:22
 msgid ""
@@ -310,6 +312,8 @@ msgstr "Libération"
 #: template/index.html.j2:152
 msgid "Zrythm is free software. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm est un logiciel libre. Utilisez, étudiez, partagez et améliorez-le "
+"librement."
 
 #: template/index.html.j2:163
 msgid "Multilingual"
