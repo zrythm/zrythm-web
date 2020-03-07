@@ -1,7 +1,23 @@
 #!/usr/bin/env python3
 # coding: utf-8
 #
-# Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+#
+# This file is part of Zrythm
+#
+# Zrythm is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Zrythm is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# This file incorporates work covered by the following copyright and
+# permission notice:
+#
 # Copyright (C) 2017, 2018, 2019 GNUnet e.V.
 #
 # Copying and distribution of this file, with or without modification,
@@ -32,6 +48,7 @@ import codecs
 import jinja2
 import i18nfix
 import polib
+import requests
 
 # for news
 import pprint
@@ -50,55 +67,59 @@ if (os.getenv("DEBUG")):
     print(sys.path)
 
 langs_full = {
+        "ar": "العربية",
+        "cs": "Czech",
+        "da": "Dansk",
+        "de": "Deutsch",
         "en": "English",
         "en_GB": "English UK",
-        "fr": "Français",
-        "it": "Italiano",
+        "el": "Ελληνικά",
         "es": "Español",
+        "et": "Eeti",
+        "fi": "Suomi",
+        "fr": "Français",
+        "gd": "Gaelic",
+        "gl": "Galego",
+        "hi": "हिन्दी",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "nb_NO": "Bokmål",
+        "nl": "Nederlands",
+        "pl": "Polski",
         "pt": "Português",
         "pt_BR": "Português BR",
-        "cs": "Czech",
-        "de": "Deutsch",
-        "pl": "Polski",
-        "da": "Dansk",
-        "nl": "Nederlands",
-        "et": "Eeti",
-        "gd": "Gaelic",
-        "el": "Ελληνικά",
-        "nb_NO": "Bokmål",
-        "fi": "Suomi",
-        "sv": "Svenska",
         "ru": "русский",
-        "ja": "日本語",
+        "sv": "Svenska",
         "zh": "中文",
-        "ko": "한국어",
-        "ar": "العربية",
-        "hi": "हिन्दी"}
+        }
 lang_flags = {
+        "ar": "[ar]",
+        "cs": "[cs]",
+        "da": "[da]",
+        "de": "[de]",
         "en": "[en]",
         "en_GB": "[en]",
-        "fr": "[fr]",
-        "it": "[it]",
+        "el": "[el]",
         "es": "[es]",
+        "et": "[et]",
+        "fi": "[fi]",
+        "fr": "[fr]",
+        "gd": "[gd]",
+        "gl": "[gl]",
+        "hi": "[hi]",
+        "it": "[it]",
+        "ja": "[ja]",
+        "ko": "[ko]",
+        "nb_NO": "[nb]",
+        "nl": "[nl]",
+        "pl": "[pl]",
         "pt": "[pt]",
         "pt_BR": "[pt]",
-        "cs": "[cs]",
-        "de": "[de]",
-        "pl": "[pl]",
-        "da": "[da]",
-        "nl": "[nl]",
-        "et": "[et]",
-        "gd": "[gd]",
-        "el": "[el]",
-        "nb_NO": "[nb]",
-        "fi": "[fi]",
-        "sv": "[sv]",
         "ru": "[ru]",
-        "ja": "[ja]",
+        "sv": "[sv]",
         "zh": "[zh]",
-        "ko": "[ko]",
-        "ar": "[ar]",
-        "hi": "[hi]"}
+        }
 git_base_url = 'https://git.zrythm.org/cgit/'
 git_url = git_base_url + 'zrythm'
 git_web_url = git_base_url + 'zrythm-web'
@@ -112,6 +133,84 @@ aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
 obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm'
 copr_package_url = 'https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/package/zrythm/'
 freshports_url = 'https://www.freshports.org/audio/zrythm/'
+
+# get monthly orders
+orders_url = 'https://{}:{}@www.sendowl.com/api/v1/orders'.format(
+        os.getenv('SENDOWL_KEY'), os.getenv('SENDOWL_SECRET'))
+headers = {
+    'Accept': 'application/json',
+    'Content-type': 'application/json',
+    'Accept-Charset': 'UTF-8',
+    }
+payload = {
+    'from': datetime.datetime.utcnow().replace(day=1).strftime('%Y-%m-%d'),
+    'to': datetime.datetime.utcnow().strftime('%Y-%m-%d'),
+    'state': 'complete',
+    }
+r = requests.get(orders_url, params=payload, headers=headers)
+if r.status_code == 200:
+    monthly_earning = 0
+    num_monthly_orders = 0
+    for _order in r.json():
+        num_monthly_orders += 1
+        order = order['order']
+        if order['gateway'] != 'PayPal':
+            profit = float(order['settled_gross']) - float(order['settled_gateway_fee'])
+            print ('adding {} sendowl earnings'.format(profit))
+            monthly_earning += profit
+else:
+    print (r.json())
+
+# get paypal earnings
+access_token_url = 'https://{}:{}@api.paypal.com/v1/oauth2/token'.format(
+        os.getenv('PAYPAL_CLIENT_ID'), os.getenv('PAYPAL_SECRET'))
+headers = {
+    'Accept': 'application/json',
+    'Accept-Language': 'en_US',
+    }
+payload = {
+    'grant_type': 'client_credentials',
+    }
+r = requests.post(access_token_url, params=payload, headers=headers)
+if r.status_code == 200:
+    access_token = r.json()['access_token']
+    transactions_url = 'https://api.paypal.com/v1/reporting/transactions'
+    headers = {
+        'Accept': 'application/json',
+        'Content-type': 'application/json',
+        'Accept-Charset': 'UTF-8',
+        'Authorization': 'Bearer ' + access_token,
+        }
+    payload = {
+        'start_date': datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
+        'end_date': datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
+        'transaction_status': 'S',
+        }
+    r = requests.get(transactions_url, params=payload, headers=headers)
+    if r.status_code == 200:
+        for _tx in r.json()['transaction_details']:
+            tx = _tx['transaction_info']
+            if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
+                profit = float(tx['transaction_amount']['value']) + float(tx['fee_amount']['value'])
+                if profit > 0:
+                    print ('adding {} paypal earnings'.format(profit))
+                    monthly_earning += profit
+    else:
+        print (r.json())
+else:
+    print (r.json())
+
+# get liberapay earnings
+r = requests.get("https://liberapay.com/Zrythm/public.json")
+if r.status_code == 200:
+    profit = float(r.json()['receiving']['amount']) * 4.0 * 1.30 # exchange rate
+    profit = float('%.2f' % profit)
+    print ('adding {} liberapay earnings'.format(profit))
+    monthly_earning += profit
+else:
+    print (r.json())
+
+monthly_earning_str = '{0:.2f}'.format(monthly_earning)
 
 # get latest version
 from subprocess import check_output
@@ -266,6 +365,9 @@ for in_file in glob.glob("template/*.j2"):
                               downloads_url=downloads_url,
                               news=news,
                               datetime_parse=parse,
+                              num_monthly_orders=num_monthly_orders,
+                              monthly_earning=monthly_earning,
+                              monthly_earning_str=monthly_earning_str,
                               issue_tracker=issue_tracker,
                               git_blob_url=git_blob_url,
                               version=version,

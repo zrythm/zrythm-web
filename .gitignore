@@ -29,3 +29,5 @@ futility_engine_loader.sh
 
 # vim files
 *.swp
+
+.credentials

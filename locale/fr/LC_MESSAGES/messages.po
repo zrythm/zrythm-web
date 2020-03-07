@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-05 11:01+0000\n"
+"POT-Creation-Date: 2020-03-07 13:44+0000\n"
 "PO-Revision-Date: 2020-03-07 09:50+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -217,6 +217,15 @@ msgstr "Sélectionnez votre SE"
 msgid "Subscribe"
 msgstr "Souscrire"
 
+#: template/download.html.j2:252
+#, python-format
+msgid "This month we received $%(monthly_earning_str)s. Our goal is $3,000."
+msgstr ""
+
+#: template/index.html.j2:19
+msgid "Digital Audio Workstation"
+msgstr ""
+
 #: template/index.html.j2:22
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
@@ -299,19 +308,14 @@ msgid "Liberating"
 msgstr "Libération"
 
 #: template/index.html.j2:152
-#, python-format
-msgid ""
-"Zrythm is 100% free software that gives users the freedom to use, study, "
-"share and improve it."
+msgid "Zrythm is free software. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm est un logiciel 100% libre qui donne aux utilisateurs la liberté de "
-"l'utiliser, de l'étudier, de le partager et de l'améliorer."
 
-#: template/index.html.j2:164
+#: template/index.html.j2:163
 msgid "Multilingual"
 msgstr "Polyglotte"
 
-#: template/index.html.j2:169
+#: template/index.html.j2:168
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."

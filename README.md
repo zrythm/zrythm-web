@@ -9,6 +9,10 @@ original authors.
 The original project can be found here:
 https://git.gnunet.org/www.git/
 
+# Environment
+Set `SENDOWL_KEY`, `SENDOWL_SECRET`, `PAYPAL_CLIENT_ID`
+and `PAYPAL_SECRET` to get order data.
+
 # Building
 `make` will create the full bundle in `rendered`
 
@@ -17,7 +21,7 @@ https://git.gnunet.org/www.git/
 
 ----
 
-Copyright (C) 2019 Alexandros Theodotou
+Copyright (C) 2019-2020 Alexandros Theodotou
 
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright

@@ -248,7 +248,12 @@ GNU Affero General Public License for more details.
       </div>
     </div>
   </div>
-  <div class="centered"><small>These downloads help fund the full-time development of Zrythm</small></div>
+  <div class="centered"><small>
+    {% trans %}
+    This month we received ${{ monthly_earning_str }}. Our goal is $3,000.
+    {% endtrans %}
+    <progress value="{{ monthly_earning }}" max="3000" class="inline primary income_progress"></progress>
+  </small></div>
 </div>
 </left>
 <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>
