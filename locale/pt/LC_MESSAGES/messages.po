@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-08 17:42+0000\n"
+"POT-Creation-Date: 2020-03-08 17:47+0000\n"
 "PO-Revision-Date: 2019-12-29 02:42+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -186,7 +186,7 @@ msgid "<b>$5</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:182
-msgid "Always latest (alpha/beta) version"
+msgid "Always latest alpha/beta version"
 msgstr ""
 
 #: template/download.html.j2:184

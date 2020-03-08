@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-08 17:42+0000\n"
+"POT-Creation-Date: 2020-03-08 17:47+0000\n"
 "PO-Revision-Date: 2020-03-07 22:21+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -186,7 +186,7 @@ msgstr "<b>$5</b> pago único"
 
 #: template/download.html.j2:182
 #| msgid "Always latest version"
-msgid "Always latest (alpha/beta) version"
+msgid "Always latest alpha/beta version"
 msgstr ""
 
 #: template/download.html.j2:184
