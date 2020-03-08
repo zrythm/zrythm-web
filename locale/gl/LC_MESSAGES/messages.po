@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-07 13:44+0000\n"
-"PO-Revision-Date: 2020-03-07 09:50+0000\n"
+"PO-Revision-Date: 2020-03-07 22:21+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>"
+"\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -95,7 +96,7 @@ msgstr "Desenvolvedores de programas"
 
 #: template/community.html.j2:120
 msgid "Issue tracker"
-msgstr "Informar problemas"
+msgstr "Notificar problemas"
 
 #: template/community.html.j2:132 template/community.html.j2:154
 msgid "zrythm project"
@@ -219,11 +220,11 @@ msgstr "Subscríbete"
 #: template/download.html.j2:252
 #, python-format
 msgid "This month we received $%(monthly_earning_str)s. Our goal is $3,000."
-msgstr ""
+msgstr "Este mes obtivemos $%(monthly_earning_str)s. O noso obxectivo é $3,000."
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Estación de Traballo de Audio Dixital"
 
 #: template/index.html.j2:22
 msgid ""
@@ -238,8 +239,7 @@ msgstr ""
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
-"unha moi automatizada e intuitiva estación de traballo de audio dixital"
+msgstr "unha estación de traballo de audio dixital intuitiva e moi automatizada"
 
 #: template/index.html.j2:51
 msgid "Overview"
@@ -285,7 +285,7 @@ msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
 msgstr ""
-"Enteiramente compatible con JACK, incluíndo soporte para transporte JACK, "
+"Enteiramente compatible con JACK, incluíndo soporte para JACK transport, "
 "ALSA, WASAPI, Windows MME, CoreMidi e CoreAudio."
 
 #: template/index.html.j2:127
@@ -307,6 +307,7 @@ msgstr "Liberador"
 #: template/index.html.j2:152
 msgid "Zrythm is free software. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm é software libre. Úsao, estúdao, compárteo e mellórao libremente."
 
 #: template/index.html.j2:163
 msgid "Multilingual"
