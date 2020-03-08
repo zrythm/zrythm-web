@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-08 19:39+0000\n"
+"POT-Creation-Date: 2020-03-08 19:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,7 +240,7 @@ msgstr ""
 
 #: template/index.html.j2:57
 msgid ""
-"Zrythm is a cross-platform digital audio workstation designed to be "
+"Zrythm™ is a cross-platform digital audio workstation designed to be "
 "featureful and easy to use."
 msgstr ""
 
