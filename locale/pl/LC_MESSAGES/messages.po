@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-07 13:44+0000\n"
+"POT-Creation-Date: 2020-03-08 17:42+0000\n"
 "PO-Revision-Date: 2019-11-02 13:27+0000\n"
 "Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -180,8 +180,8 @@ msgstr ""
 msgid "<b>$5</b> one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:182 template/download.html.j2:190
-msgid "Always latest version"
+#: template/download.html.j2:182
+msgid "Always latest (alpha/beta) version"
 msgstr ""
 
 #: template/download.html.j2:184
@@ -190,6 +190,10 @@ msgstr ""
 
 #: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
+msgstr ""
+
+#: template/download.html.j2:190
+msgid "Always latest version"
 msgstr ""
 
 #: template/download.html.j2:192

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-07 13:44+0000\n"
+"POT-Creation-Date: 2020-03-08 17:42+0000\n"
 "PO-Revision-Date: 2020-03-07 22:21+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -185,9 +185,10 @@ msgstr "Greffons embarqués"
 msgid "<b>$5</b> one-time purchase"
 msgstr "<b>$5</b> achat unique"
 
-#: template/download.html.j2:182 template/download.html.j2:190
-msgid "Always latest version"
-msgstr "Toujours la dernière version"
+#: template/download.html.j2:182
+#| msgid "Always latest version"
+msgid "Always latest (alpha/beta) version"
+msgstr ""
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
@@ -196,6 +197,10 @@ msgstr "Mises à jour gratuites pour les versions alpha/bêta"
 #: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr "<s>$25</s> <b>$12.50</b> achat unique"
+
+#: template/download.html.j2:190
+msgid "Always latest version"
+msgstr "Toujours la dernière version"
 
 #: template/download.html.j2:192
 msgid "Free upgrades during subscription"

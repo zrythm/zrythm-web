@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-07 13:44+0000\n"
+"POT-Creation-Date: 2020-03-08 17:42+0000\n"
 "PO-Revision-Date: 2020-03-07 13:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -183,9 +183,10 @@ msgstr "バンドルされているプラグイン"
 msgid "<b>$5</b> one-time purchase"
 msgstr "<b>$5</b>の一回限り購入"
 
-#: template/download.html.j2:182 template/download.html.j2:190
-msgid "Always latest version"
-msgstr "いつも最新版"
+#: template/download.html.j2:182
+#| msgid "Always latest version"
+msgid "Always latest (alpha/beta) version"
+msgstr ""
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
@@ -194,6 +195,10 @@ msgstr "アルファ/ベタ版リリースに対して無料アップグレー�
 #: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
 msgstr "<s>$25</s> <b>$12.50</b>の1回限り購入"
+
+#: template/download.html.j2:190
+msgid "Always latest version"
+msgstr "いつも最新版"
 
 #: template/download.html.j2:192
 msgid "Free upgrades during subscription"

@@ -153,7 +153,7 @@ if r.status_code == 200:
     num_monthly_orders = 0
     for _order in r.json():
         num_monthly_orders += 1
-        order = order['order']
+        order = _order['order']
         if order['gateway'] != 'PayPal':
             profit = float(order['settled_gross']) - float(order['settled_gateway_fee'])
             print ('adding {} sendowl earnings'.format(profit))

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-07 14:02+0000\n"
+"POT-Creation-Date: 2020-03-08 17:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,8 +178,8 @@ msgstr ""
 msgid "<b>$5</b> one-time purchase"
 msgstr ""
 
-#: template/download.html.j2:182 template/download.html.j2:190
-msgid "Always latest version"
+#: template/download.html.j2:182
+msgid "Always latest (alpha/beta) version"
 msgstr ""
 
 #: template/download.html.j2:184
@@ -188,6 +188,10 @@ msgstr ""
 
 #: template/download.html.j2:185
 msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
+msgstr ""
+
+#: template/download.html.j2:190
+msgid "Always latest version"
 msgstr ""
 
 #: template/download.html.j2:192
