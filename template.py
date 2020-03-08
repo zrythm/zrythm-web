@@ -134,6 +134,8 @@ obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aa
 copr_package_url = 'https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/package/zrythm/'
 freshports_url = 'https://www.freshports.org/audio/zrythm/'
 
+usd_to_gbp = 0.77
+
 # get monthly orders
 orders_url = 'https://{}:{}@www.sendowl.com/api/v1/orders'.format(
         os.getenv('SENDOWL_KEY'), os.getenv('SENDOWL_SECRET'))
@@ -156,6 +158,8 @@ if r.status_code == 200:
         order = _order['order']
         if order['gateway'] != 'PayPal':
             profit = float(order['settled_gross']) - float(order['settled_gateway_fee'])
+            if order['settled_currency'] == 'USD':
+                profit *= usd_to_gbp
             print ('adding {} sendowl earnings'.format(profit))
             monthly_earning += profit
 else:
@@ -192,6 +196,8 @@ if r.status_code == 200:
             tx = _tx['transaction_info']
             if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
                 profit = float(tx['transaction_amount']['value']) + float(tx['fee_amount']['value'])
+                if tx['transaction_amount']['currency_code'] == 'USD':
+                    profit *= usd_to_gbp
                 if profit > 0:
                     print ('adding {} paypal earnings'.format(profit))
                     monthly_earning += profit
@@ -203,7 +209,7 @@ else:
 # get liberapay earnings
 r = requests.get("https://liberapay.com/Zrythm/public.json")
 if r.status_code == 200:
-    profit = float(r.json()['receiving']['amount']) * 4.0 * 1.30 # exchange rate
+    profit = float(r.json()['receiving']['amount']) * 4.0
     profit = float('%.2f' % profit)
     print ('adding {} liberapay earnings'.format(profit))
     monthly_earning += profit

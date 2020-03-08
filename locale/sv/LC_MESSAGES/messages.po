@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-08 17:47+0000\n"
+"POT-Creation-Date: 2020-03-08 19:23+0000\n"
 "PO-Revision-Date: 2019-11-08 17:04+0000\n"
 "Last-Translator: Anders Löfgren <a.loefgren@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -177,7 +177,7 @@ msgid "Bundled plugins"
 msgstr ""
 
 #: template/download.html.j2:177
-msgid "<b>$5</b> one-time purchase"
+msgid "<b>£5</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:182
@@ -189,7 +189,7 @@ msgid "Free upgrades for alpha/beta releases"
 msgstr ""
 
 #: template/download.html.j2:185
-msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
+msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:190
@@ -201,7 +201,7 @@ msgid "Free upgrades during subscription"
 msgstr ""
 
 #: template/download.html.j2:193
-msgid "<b>$5</b> per month"
+msgid "<b>£5</b> per month"
 msgstr ""
 
 #: template/download.html.j2:201 template/download.html.j2:220
@@ -218,7 +218,7 @@ msgstr ""
 
 #: template/download.html.j2:252
 #, python-format
-msgid "This month we received $%(monthly_earning_str)s. Our goal is $3,000."
+msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
 
 #: template/index.html.j2:19

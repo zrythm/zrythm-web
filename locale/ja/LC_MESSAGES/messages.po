@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-08 17:47+0000\n"
+"POT-Creation-Date: 2020-03-08 19:23+0000\n"
 "PO-Revision-Date: 2020-03-07 13:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -180,11 +180,10 @@ msgid "Bundled plugins"
 msgstr "バンドルされているプラグイン"
 
 #: template/download.html.j2:177
-msgid "<b>$5</b> one-time purchase"
-msgstr "<b>$5</b>の一回限り購入"
+msgid "<b>£5</b> one-time purchase"
+msgstr ""
 
 #: template/download.html.j2:182
-#| msgid "Always latest version"
 msgid "Always latest alpha/beta version"
 msgstr ""
 
@@ -193,8 +192,8 @@ msgid "Free upgrades for alpha/beta releases"
 msgstr "アルファ/ベタ版リリースに対して無料アップグレード"
 
 #: template/download.html.j2:185
-msgid "<s>$25</s> <b>$12.50</b> one-time purchase"
-msgstr "<s>$25</s> <b>$12.50</b>の1回限り購入"
+msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
+msgstr ""
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -205,8 +204,8 @@ msgid "Free upgrades during subscription"
 msgstr "サブしている間に無料アップグレード"
 
 #: template/download.html.j2:193
-msgid "<b>$5</b> per month"
-msgstr "月額<b>$5</b>"
+msgid "<b>£5</b> per month"
+msgstr ""
 
 #: template/download.html.j2:201 template/download.html.j2:220
 msgid "Buy Now"
@@ -222,8 +221,8 @@ msgstr "登録"
 
 #: template/download.html.j2:252
 #, python-format
-msgid "This month we received $%(monthly_earning_str)s. Our goal is $3,000."
-msgstr "今月は$%(monthly_earning_str)sを受け取りました。目標は$3,000です。"
+msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
+msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"

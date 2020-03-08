@@ -174,7 +174,7 @@ GNU Affero General Public License for more details.
         <p>
           <p>{{ _('Latest version') }}</p>
           <p>{{ _('Bundled plugins') }}</p>
-          <p>{{ _('<b>$5</b> one-time purchase') }}</p>
+          <p>{{ _('<b>£5</b> one-time purchase') }}</p>
         </p>
       </div>
       <div class="col-sm-4">
@@ -182,7 +182,7 @@ GNU Affero General Public License for more details.
           <p>{{ _('Always latest alpha/beta version') }}</p>
           <p>{{ _('Bundled plugins') }}</p>
           <p>{{ _('Free upgrades for alpha/beta releases') }}</p>
-          <p>{{ _('<s>$25</s> <b>$12.50</b> one-time purchase') }}</p>
+          <p>{{ _('<s>£25</s> <b>£12.50</b> one-time purchase') }}</p>
         </p>
       </div>
       <div class="col-sm-4">
@@ -190,7 +190,7 @@ GNU Affero General Public License for more details.
           <p>{{ _('Always latest version') }}</p>
           <p>{{ _('Bundled plugins') }}</p>
           <p>{{ _('Free upgrades during subscription') }}</p>
-          <p>{{ _('<b>$5</b> per month') }}</p>
+          <p>{{ _('<b>£5</b> per month') }}</p>
         </p>
       </div>
     </div>
@@ -239,7 +239,7 @@ GNU Affero General Public License for more details.
             <form action="https://www.paypal.com/cgi-bin/webscr"
                   class="no_css_form" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="QPVLCKJYGNT8A">
+              <input type="hidden" name="hosted_button_id" value="TW2KFULQ4LBAN">
               <input type="submit" class="button primary" value="{{ _('Subscribe') }}"
                      name="submit">
             </form>
@@ -250,7 +250,7 @@ GNU Affero General Public License for more details.
   </div>
   <div class="centered"><small>
     {% trans %}
-    This month we received ${{ monthly_earning_str }}. Our goal is $3,000.
+    This month we received £{{ monthly_earning_str }}. Our goal is £3,000.
     {% endtrans %}
     <progress value="{{ monthly_earning }}" max="3000" class="inline primary income_progress"></progress>
   </small></div>
