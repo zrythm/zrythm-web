@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-08 19:50+0000\n"
-"PO-Revision-Date: 2020-03-07 13:56+0000\n"
+"PO-Revision-Date: 2020-03-11 18:33+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -181,11 +182,11 @@ msgstr "バンドルされているプラグイン"
 
 #: template/download.html.j2:177
 msgid "<b>£5</b> one-time purchase"
-msgstr ""
+msgstr "<b>£5</b>の一回限りの購入"
 
 #: template/download.html.j2:182
 msgid "Always latest alpha/beta version"
-msgstr ""
+msgstr "常に最新のアルファ/ベータ版"
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
@@ -193,7 +194,7 @@ msgstr "アルファ/ベタ版リリースに対して無料アップグレー�
 
 #: template/download.html.j2:185
 msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
-msgstr ""
+msgstr "<s>£25</s> <b>£12.50</b>の一回限りの購入"
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -205,7 +206,7 @@ msgstr "サブしている間に無料アップグレード"
 
 #: template/download.html.j2:193
 msgid "<b>£5</b> per month"
-msgstr ""
+msgstr "月額<b>£5</b>"
 
 #: template/download.html.j2:201 template/download.html.j2:220
 msgid "Buy Now"
@@ -222,7 +223,7 @@ msgstr "登録"
 #: template/download.html.j2:252
 #, python-format
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
-msgstr ""
+msgstr "今月は£%(monthly_earning_str)sをいただきました。目標は£3,000です。"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -247,13 +248,10 @@ msgid "Overview"
 msgstr "概要"
 
 #: template/index.html.j2:57
-#| msgid ""
-#| "Zrythm is a cross-platform digital audio workstation designed to be "
-#| "featureful and easy to use."
 msgid ""
 "Zrythm™ is a cross-platform digital audio workstation designed to be "
 "featureful and easy to use."
-msgstr ""
+msgstr "Zrythm™ は、機能が豊富で使いやすいように設計されたクロスプラットフォームのデジタルオーディオワークステーションです。"
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
