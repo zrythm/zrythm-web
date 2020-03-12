@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-08 19:50+0000\n"
-"PO-Revision-Date: 2020-03-07 22:21+0000\n"
+"PO-Revision-Date: 2020-03-11 18:33+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>"
+"\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -182,11 +183,11 @@ msgstr "Plugins incluídos"
 
 #: template/download.html.j2:177
 msgid "<b>£5</b> one-time purchase"
-msgstr ""
+msgstr "<b>£5</b> pago único"
 
 #: template/download.html.j2:182
 msgid "Always latest alpha/beta version"
-msgstr ""
+msgstr "Sempre a versión alfa/beta máis recente"
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
@@ -194,7 +195,7 @@ msgstr "Actualizacións gratuítas para as versións alfa e beta"
 
 #: template/download.html.j2:185
 msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
-msgstr ""
+msgstr "<s>£25</s> <b>£12.50</b> pago único"
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -206,7 +207,7 @@ msgstr "Actualizacións gratuítas durante a subscrición"
 
 #: template/download.html.j2:193
 msgid "<b>£5</b> per month"
-msgstr ""
+msgstr "<b>£5</b> mensuais"
 
 #: template/download.html.j2:201 template/download.html.j2:220
 msgid "Buy Now"
@@ -224,6 +225,7 @@ msgstr "Subscríbete"
 #, python-format
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
+"Este mes conseguimos £%(monthly_earning_str)s. O noso obxectivo é £3,000."
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -254,6 +256,8 @@ msgid ""
 "Zrythm™ is a cross-platform digital audio workstation designed to be "
 "featureful and easy to use."
 msgstr ""
+"Zrythm™ é unha estación de traballo de audio dixital multiplataforma, "
+"deseñada para ser completa e doada de utilizar."
 
 #: template/index.html.j2:71
 msgid "Limitless automation"
