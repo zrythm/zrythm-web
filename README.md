@@ -13,6 +13,14 @@ https://git.gnunet.org/www.git/
 Set `SENDOWL_KEY`, `SENDOWL_SECRET`, `PAYPAL_CLIENT_ID`
 and `PAYPAL_SECRET` to get order data.
 
+These should be in `.credentials`:
+```
+export SENDOWL_KEY=...
+export SENDOWL_SECRET=...
+export PAYPAL_CLIENT_ID=...
+export PAYPAL_SECRET=...
+```
+
 # Building
 `make` will create the full bundle in `rendered`
 
