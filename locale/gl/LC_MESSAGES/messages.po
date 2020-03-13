@@ -7,17 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-14 15:15+0000\n"
-"PO-Revision-Date: 2020-03-11 18:33+0000\n"
+"POT-Creation-Date: 2020-03-13 15:59+0000\n"
+"PO-Revision-Date: 2020-03-14 20:36+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>"
+"\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -100,7 +101,7 @@ msgstr "Desenvolvedores de programas"
 
 #: template/community.html.j2:120
 msgid "Issue tracker"
-msgstr ""
+msgstr "Rastreador de problemas"
 
 #: template/community.html.j2:132 template/community.html.j2:154
 msgid "zrythm project"
@@ -108,7 +109,7 @@ msgstr "Proxecto Zrythm"
 
 #: template/community.html.j2:142
 msgid "Translations"
-msgstr ""
+msgstr "Traducións"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
@@ -307,6 +308,12 @@ msgid ""
 "editing and producing audio files\">digital audio workstation</span> "
 "designed to be featureful and easy to use."
 msgstr ""
+"Zrythm é unha </span> <span class=\"tooltip\" aria-label=\"Unha estación de "
+"traballo de audio dixital é un programa que serve para gravar, editar e "
+"producir ficheiros de son\">estación de traballo de audio dixital</span> <"
+"span class=\"tooltip\" aria-label=\"Zrythm funciona en GNU/Linux, FreeBSD, "
+"MacOS e Windows\"> multiplataforma </span> deseñada para ser completa e "
+"doada de empregar."
 
 #: template/index.html.j2:72
 msgid "Limitless automation"
@@ -328,6 +335,8 @@ msgstr "Plugins LV2"
 msgid ""
 "Complete support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
+"Soporte completo para LV2, un estándar de plugins de audio gratuíto e "
+"extensible."
 
 #: template/index.html.j2:110
 msgid "Multi-backend support"
@@ -338,6 +347,8 @@ msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Completamente compatible con JACK, incluído soporte para JACK transport, "
+"ALSA, WASAPI, Windows MME, CoreMidi e CoreAudio."
 
 #: template/index.html.j2:128
 msgid "Chord assistance"
@@ -361,6 +372,9 @@ msgid ""
 "software” means software that respects users' freedom and community\">free "
 "software</span>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm é <span class=\"tooltip tooltip_shifted\" aria-label=\"“Software "
+"libre” significa que respecta a liberdade dos usuarios e a comunidade\">"
+"software libre</span>. Úsao, estúdao, compárteo e mellórao libremente."
 
 #: template/index.html.j2:167
 msgid "Multilingual"
@@ -417,15 +431,15 @@ msgstr "Documentos para desenvolvedores"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Información legal"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Información legal, de licenza e marca"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Licenza"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -434,6 +448,9 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
+"Zrythm ten copiright a nome de Alexandros Theodotou e outros contribuidores. "
+"Zrythm publícase baixo a <a href=\"https://www.gnu.org/licenses/agpl-3.0."
+"html\">Licenza Pública Xeral GNU Affero, versión 3 ou posterior</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -441,14 +458,17 @@ msgid ""
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Os textos e materiais na páxina de Zrythm publícanse baixo <a href=\""
+"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:58
 msgid "Trademarks"
-msgstr ""
+msgstr "Marcas comerciais"
 
 #: template/legal.html.j2:64
 msgid "Zrythm is a trademark of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm é unha marca propiedade de Alexandros Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
