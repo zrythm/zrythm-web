@@ -1,0 +1,72 @@
+{#
+Copyright (C) 2020 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block head_content %}
+<title>Zrythm - {{ _('Legal information') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Legal, licensing and trademark information
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/legal.html">
+{% endblock head_content %}
+
+{% block body_content %}
+<div class="container features_box">
+  <h1 class="page_title">
+    {% trans %}
+    Legal information
+    {% endtrans %}
+  </h1>
+
+  <h2 class="page_subtitle">
+    {% trans %}
+    Licensing
+    {% endtrans %}
+  </h2>
+  <div>
+    <p>
+      {% trans %}
+      Zrythm is copyrighted by Alexandros Theodotou and other
+      contributors. Zrythm is released under the
+      <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License, version 3 or later</a>.
+      {% endtrans %}
+    </p>
+    <p>
+      {% trans %}
+      Text and media found on the Zrythm website are
+      released under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
+      {% endtrans %}
+    </p>
+  </div>
+
+  <h2 class="page_subtitle">
+    {% trans %}
+    Trademarks
+    {% endtrans %}
+  </h2>
+  <div>
+    <p>
+      {% trans %}
+      Zrythm is a trademark of Alexandros Theodotou.
+      {% endtrans %}
+    </p>
+  </div>
+
+</div>
+
+{% endblock body_content %}

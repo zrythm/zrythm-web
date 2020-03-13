@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-08 19:50+0000\n"
+"POT-Creation-Date: 2020-03-13 15:59+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/hi/>\n"
@@ -26,31 +26,31 @@ msgid ""
 "LV2, JACK"
 msgstr ""
 
-#: common/navigation.j2.inc:25
+#: common/navigation.j2.inc:27
 msgid "Home"
 msgstr ""
 
-#: common/navigation.j2.inc:30 template/download.html.j2:19
+#: common/navigation.j2.inc:33 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
 msgstr ""
 
-#: common/navigation.j2.inc:35 template/learn.html.j2:19
+#: common/navigation.j2.inc:39 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
 msgstr ""
 
-#: common/navigation.j2.inc:40 template/plugins.html.j2:19
+#: common/navigation.j2.inc:45 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
 msgstr ""
 
-#: common/navigation.j2.inc:45 template/community.html.j2:19
+#: common/navigation.j2.inc:51 template/community.html.j2:19
 #: template/community.html.j2:32
 msgid "Community"
 msgstr "कम्युनिटी"
 
-#: common/navigation.j2.inc:63
+#: common/navigation.j2.inc:69
 msgid "Language"
 msgstr ""
 
@@ -242,62 +242,68 @@ msgstr ""
 
 #: template/index.html.j2:57
 msgid ""
-"Zrythm™ is a cross-platform digital audio workstation designed to be "
-"featureful and easy to use."
+"Zrythm is a <span class=\"tooltip\" aria-label=\"Zrythm works on GNU/Linux, "
+"FreeBSD, MacOS and Windows\">cross-platform</span> <span class=\"tooltip\" "
+"aria-label=\"A digital audio workstation is software used for recording, "
+"editing and producing audio files\">digital audio workstation</span> "
+"designed to be featureful and easy to use."
 msgstr ""
 
-#: template/index.html.j2:71
+#: template/index.html.j2:72
 msgid "Limitless automation"
 msgstr ""
 
-#: template/index.html.j2:76
+#: template/index.html.j2:77
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
 
-#: template/index.html.j2:89
+#: template/index.html.j2:90
 msgid "LV2 plugins"
 msgstr ""
 
-#: template/index.html.j2:94
+#: template/index.html.j2:95
 msgid ""
 "Complete support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
 
-#: template/index.html.j2:109
+#: template/index.html.j2:110
 msgid "Multi-backend support"
 msgstr ""
 
-#: template/index.html.j2:114
+#: template/index.html.j2:115
 msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
-#: template/index.html.j2:127
+#: template/index.html.j2:128
 msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:132
+#: template/index.html.j2:133
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:147
+#: template/index.html.j2:148
 msgid "Liberating"
 msgstr ""
 
-#: template/index.html.j2:152
-msgid "Zrythm is free software. Use, study, share and improve it freely."
+#: template/index.html.j2:153
+msgid ""
+"Zrythm is <span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
+"software” means software that respects users' freedom and community\">free "
+"software</span>. Use, study, share and improve it freely."
 msgstr ""
 
-#: template/index.html.j2:163
+#: template/index.html.j2:167
 msgid "Multilingual"
 msgstr ""
 
-#: template/index.html.j2:168
+#: template/index.html.j2:172
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
@@ -337,6 +343,41 @@ msgstr ""
 
 #: template/learn.html.j2:99
 msgid "Developer docs"
+msgstr ""
+
+#: template/legal.html.j2:19 template/legal.html.j2:31
+msgid "Legal information"
+msgstr ""
+
+#: template/legal.html.j2:22
+msgid "Legal, licensing and trademark information"
+msgstr ""
+
+#: template/legal.html.j2:37
+msgid "Licensing"
+msgstr ""
+
+#: template/legal.html.j2:43
+msgid ""
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
+" is released under the <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
+"Public License, version 3 or later</a>."
+msgstr ""
+
+#: template/legal.html.j2:50
+msgid ""
+"Text and media found on the Zrythm website are released under <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Attribution-ShareAlike 4.0 International</a>."
+msgstr ""
+
+#: template/legal.html.j2:58
+msgid "Trademarks"
+msgstr ""
+
+#: template/legal.html.j2:64
+msgid "Zrythm is a trademark of Alexandros Theodotou."
 msgstr ""
 
 #: template/plugins.html.j2:22

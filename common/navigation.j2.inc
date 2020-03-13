@@ -15,33 +15,39 @@ GNU Affero General Public License for more details.
 #}
 
 <header>
-  <a href="index.html" class="logo">
+  <a href="{{ url(lang + '/index.html') }}"
+     class="logo">
     <img class="logo_img" width=28
        src="{{ url('static/icons/zrythm/z_frame_8.svg') }}"
        alt="Logo">
     </img>
   </a>
-  <a href="index.html" class="button">
+  <a href="{{ url(lang + '/index.html') }}"
+     class="button">
     {% trans %}
     Home
     {% endtrans %}
   </a>
-  <a href="download.html" class="button">
+  <a href="{{ url(lang + '/download.html') }}"
+     class="button">
     {% trans %}
     Download
     {% endtrans %}
   </a>
-  <a href="learn.html" class="button">
+  <a href="{{ url(lang + '/learn.html') }}"
+     class="button">
     {% trans %}
     Learn
     {% endtrans %}
   </a>
-  <a href="plugins.html" class="button">
+  <a href="{{ url(lang + '/plugins.html') }}"
+     class="button">
     {% trans %}
     Plugins
     {% endtrans %}
   </a>
-  <a href="community.html" class="button">
+  <a href="{{ url(lang + '/community.html') }}"
+     class="button">
     {% trans %}
     Community
     {% endtrans %}
@@ -57,14 +63,14 @@ GNU Affero General Public License for more details.
 
 <input type="checkbox" id="modal-control" class="modal">
 <div>
-  <div class="card">
+  <div class="card large">
     <label for="modal-control" class="modal-close"></label>
     <h3 class="section">
       {% trans %}
       Language
       {% endtrans %}
     </h3>
-    <p class="section">
+    <p class="section centered" style="word-break: keep-all;">
       {% for key in langs_full.keys() %}
         <a href="{{ self_localized(key) }}">{{ langs_full[key] }}</a>
       {% endfor %}

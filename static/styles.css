@@ -129,6 +129,10 @@ a:hover:not(.button) {
   /*color: #32a7ed;*/
 }
 
+.tooltip_shifted::after {
+  transform: translateX(-35%);
+}
+
 .first_col {
   width: 180px;
 }
