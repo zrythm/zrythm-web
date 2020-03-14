@@ -51,18 +51,23 @@ GNU Affero General Public License for more details.
         {% endtrans %}
       </div>
       <div>
-        <b>Features</b>
+        <b>{{ _('Features') }}</b>
         <ul>
-          <li>Multi-oscillator with custom wave</li>
-          <li>Phase shift</li>
-          <li>Vertical/horizontal inversion</li>
-          <li>Step mode</li>
-          <li>Editable range</li>
-          <li>Sync to host or free-form</li>
+          <li>{{ _('Multi-oscillator with custom wave') }}</li>
+          <li>{{ _('Phase shift') }}</li>
+          <li>{{ _('Vertical/horizontal inversion') }}</li>
+          <li>{{ _('Step mode') }}</li>
+          <li>{{ _('Editable range') }}</li>
+          <li>{{ _('Sync to host or free-form') }}</li>
         </ul>
       </div>
       <div>
+        {% trans %}
         Designed by Mire
+        {% endtrans %}
+      </div>
+      <div class="centered">
+        <a href="https://www.zrythm.org/plugins/ZLFO">{{ _('Technical specs') }}</a>
       </div>
     </div>
     <div class="col-sm col-md-normal">

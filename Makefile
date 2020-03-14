@@ -26,11 +26,7 @@ all: locale/messages.pot locale template
 	# Consider using pax instead of cp.
 	cp -R dist rendered/
 	cp -R static rendered/
-	cp rendered/static/robots.txt rendered/robots.txt
-	cp rendered/static/robots.txt rendered/dist/robots.txt
-	for lang in $(LANGUAGES); do \
-		cp rendered/static/robots.txt rendered/$$lang/robots.txt; \
-	done
+	cp -R static-unprefixed/* rendered/
 	/bin/sh make_sitemap.sh
 	cp rendered/sitemap.xml rendered/en/sitemap.xml
 	#cp rss.xml rendered/rss.xml

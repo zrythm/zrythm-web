@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-13 15:59+0000\n"
+"POT-Creation-Date: 2020-03-14 12:26+0000\n"
 "PO-Revision-Date: 2020-03-11 18:33+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -398,19 +398,55 @@ msgstr "ZLFO"
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
 
+#: template/plugins.html.j2:54
+msgid "Features"
+msgstr "特長"
+
+#: template/plugins.html.j2:56
+msgid "Multi-oscillator with custom wave"
+msgstr ""
+
+#: template/plugins.html.j2:57
+msgid "Phase shift"
+msgstr ""
+
+#: template/plugins.html.j2:58
+msgid "Vertical/horizontal inversion"
+msgstr ""
+
+#: template/plugins.html.j2:59
+msgid "Step mode"
+msgstr ""
+
+#: template/plugins.html.j2:60
+msgid "Editable range"
+msgstr ""
+
+#: template/plugins.html.j2:61
+msgid "Sync to host or free-form"
+msgstr ""
+
+#: template/plugins.html.j2:65
+msgid "Designed by Mire"
+msgstr ""
+
 #: template/plugins.html.j2:70
+msgid "Technical specs"
+msgstr ""
+
+#: template/plugins.html.j2:75
 msgid "ZChordz"
 msgstr "ZChordz"
 
-#: template/plugins.html.j2:78
+#: template/plugins.html.j2:83
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
 
-#: template/plugins.html.j2:92
+#: template/plugins.html.j2:97
 msgid "Plugin"
 msgstr "プラグイン"
 
-#: template/plugins.html.j2:97
+#: template/plugins.html.j2:102
 msgid "Coming soon"
 msgstr "近日公開"
 
@@ -879,9 +915,6 @@ msgstr "ホームページに戻る"
 #~ "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
 #~ "Arranger Minimap, etc."
 #~ msgstr "オートメーションカーブ、バス、LV2プラグインとオーディオファイル、アレンジャーミニマップなど。"
-
-#~ msgid "Features"
-#~ msgstr "特長"
 
 #~ msgid "Built-in Modulators"
 #~ msgstr "内蔵モジュレータ"
