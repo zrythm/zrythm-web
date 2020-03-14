@@ -1,0 +1,116 @@
+{#
+Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block head_content %}
+<title>Zrythm - {{ _('Explore') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Zrythm list of features and functionality
+      {% endtrans %}" />
+<link rel="canonical" href="https://www.zrythm.org/{{ lang }}/features.html">
+{% endblock head_content %}
+
+{% block body_content %}
+<div class="container features_box">
+  <h1 class="page_title">
+    {% trans %}
+    Features
+    {% endtrans %}
+  </h1>
+
+  <br/>
+  <div class="row">
+    <div class="col-sm-3">
+      <img class="feature_img"
+           src="{{ url('static/images/piano-roll.gif') }}"
+           alt="{{ _('Piano roll') }}">
+    </div>
+    <div class="col-sm-9 feature_description">
+      <h3>
+        {% trans %}
+        Piano roll
+        {% endtrans %}
+      </h3>
+      <p>
+        {% trans %}
+        Create, edit and arrange MIDI events in a dedicated piano roll.
+        {% endtrans %}
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-9 feature_description right">
+      <h3>
+        {% trans %}
+        Anywhere-to-anywhere connections
+        {% endtrans %}
+      </h3>
+      <p>
+        {% trans %}
+        Connect anything to anything.
+        {% endtrans %}
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <img class="feature_img"
+           src="{{ url('static/images/anywhere-to-anywhere-connections.gif') }}"
+           alt="{{ _('Anywhere-to-anywhere connections') }}">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <img class="feature_img"
+           src="{{ url('static/images/bounce-in-place.gif') }}"
+           alt="{{ _('Bounce in place') }}">
+    </div>
+    <div class="col-sm-9 feature_description">
+      <h3>
+        {% trans %}
+        Bounce in-place
+        {% endtrans %}
+      </h3>
+      <p>
+        {% trans %}
+        Quickly bounce selected material to audio.
+        {% endtrans %}
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-9 feature_description right">
+      <h3>
+        {% trans %}
+        Automation curves
+        {% endtrans %}
+      </h3>
+      <p>
+        {% trans %}
+        Automate parameters with straight lines or curves.
+        {% endtrans %}
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <img class="feature_img"
+           src="{{ url('static/images/automation-curves.gif') }}"
+           alt="{{ _('Automation curves') }}">
+    </div>
+  </div>
+
+</div>
+
+{% endblock body_content %}

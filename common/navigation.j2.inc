@@ -34,6 +34,12 @@ GNU Affero General Public License for more details.
     Download
     {% endtrans %}
   </a>
+  <a href="{{ url(lang + '/features.html') }}"
+     class="button">
+    {% trans %}
+    Features
+    {% endtrans %}
+  </a>
   <a href="{{ url(lang + '/learn.html') }}"
      class="button">
     {% trans %}

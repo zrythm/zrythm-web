@@ -1,0 +1,761 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix log:  <http://lv2plug.in/ns/ext/log#> .
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix midi: <http://lv2plug.in/ns/ext/midi#> .
+@prefix pprop: <http://lv2plug.in/ns/ext/port-props#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://lv2plug.in/ns/ext/time#> .
+@prefix urid: <http://lv2plug.in/ns/ext/urid#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+
+<https://www.zrythm.org/plugins>
+  a doap:Project ;
+  doap:name "Zrythm plugins" .
+
+<https://www.zrythm.org/plugins/ZLFO>
+  a lv2:Plugin,
+    lv2:OscillatorPlugin ;
+  doap:name "ZLFO" ;
+  doap:maintainer [
+    foaf:name """Alexandros Theodotou""" ;
+    foaf:homepage <https://www.zrythm.org> ;
+  ] ;
+  doap:license <https://www.gnu.org/licenses/agpl-3.0.html> ;
+  lv2:project <https://www.zrythm.org/plugins> ;
+  lv2:requiredFeature urid:map ;
+  lv2:optionalFeature lv2:hardRTCapable ;
+  lv2:optionalFeature log:log ;
+  lv2:port [
+    a lv2:InputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    atom:supports time:Position ;
+    lv2:index 0 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "control" ;
+    lv2:name "Control" ;
+    rdfs:comment "GUI/host to plugin communication" ;
+  ] , [
+    a lv2:OutputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    lv2:index 1 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "notify" ;
+    lv2:name "Notify" ;
+    rdfs:comment "Plugin to GUI communication" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:ControlPort ;
+    lv2:index 2 ;
+    lv2:symbol "sample_to_ui" ;
+    lv2:name "Sample to UI" ;
+    rdfs:comment "Plugin to GUI communication" ;
+    lv2:default 0 ;
+    lv2:minimum 0 ;
+    lv2:maximum 30720000 ;
+    lv2:portProperty lv2:integer ;
+    lv2:portProperty pprop:notOnGUI ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:CVPort ;
+    lv2:index 3 ;
+    lv2:symbol "cv_gate" ;
+    lv2:name "Gate" ;
+    rdfs:comment "CV gate" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:CVPort ;
+    lv2:index 4 ;
+    lv2:symbol "cv_trigger" ;
+    lv2:name "Trigger" ;
+    rdfs:comment "CV trigger" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty pprop:trigger, pprop:discreteCV ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 5 ;
+    lv2:symbol "gate" ;
+    lv2:name "Gate" ;
+    rdfs:comment "Not used at the moment" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 6 ;
+    lv2:symbol "trigger" ;
+    lv2:name "Trigger" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty pprop:trigger ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 7 ;
+    lv2:symbol "gated_mode" ;
+    lv2:name "Gated mode" ;
+    rdfs:comment "If this is on, output will only be produced if gate or CV gate have a non-zero signal" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 8 ;
+    lv2:symbol "sync_rate" ;
+    lv2:name "Sync rate" ;
+    lv2:default 5 ;
+    lv2:minimum 0 ;
+    lv2:maximum 14 ;
+    lv2:portProperty lv2:integer ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 9 ;
+    lv2:symbol "sync_rate_type" ;
+    lv2:name "Sync rate type" ;
+    lv2:default 0 ;
+    lv2:minimum 0 ;
+    lv2:maximum 2 ;
+    lv2:portProperty lv2:integer ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 10 ;
+    lv2:symbol "freq" ;
+    lv2:name "Frequency" ;
+    rdfs:comment "Frequency if free running" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.010000 ;
+    lv2:maximum 60.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 11 ;
+    lv2:symbol "shift" ;
+    lv2:name "Shift" ;
+    rdfs:comment "Shift (phase)" ;
+    lv2:default 0.500000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 12 ;
+    lv2:symbol "range_min" ;
+    lv2:name "Range min" ;
+    lv2:default -1.000000 ;
+    lv2:minimum -1.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 13 ;
+    lv2:symbol "range_max" ;
+    lv2:name "Range max" ;
+    lv2:default 1.000000 ;
+    lv2:minimum -1.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 14 ;
+    lv2:symbol "step_mode" ;
+    lv2:name "Step mode" ;
+    rdfs:comment "Step mode enabled" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 15 ;
+    lv2:symbol "free_running" ;
+    lv2:name "Free running" ;
+    rdfs:comment "Free run toggle" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 16 ;
+    lv2:symbol "grid_step" ;
+    lv2:name "Grid step" ;
+    lv2:default 3 ;
+    lv2:minimum 0 ;
+    lv2:maximum 5 ;
+    lv2:portProperty lv2:integer ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 17 ;
+    lv2:symbol "hinvert" ;
+    lv2:name "H invert" ;
+    rdfs:comment "Horizontal invert" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 18 ;
+    lv2:symbol "vinvert" ;
+    lv2:name "V invert" ;
+    rdfs:comment "Vertical invert" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 19 ;
+    lv2:symbol "sine_toggle" ;
+    lv2:name "Sine toggle" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 20 ;
+    lv2:symbol "saw_toggle" ;
+    lv2:name "Saw toggle" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 21 ;
+    lv2:symbol "square_toggle" ;
+    lv2:name "Square toggle" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 22 ;
+    lv2:symbol "triangle_toggle" ;
+    lv2:name "Triangle toggle" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 23 ;
+    lv2:symbol "custom_toggle" ;
+    lv2:name "Custom toggle" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+    lv2:portProperty lv2:toggled ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 24 ;
+    lv2:symbol "node_1_pos" ;
+    lv2:name "Node 1 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 25 ;
+    lv2:symbol "node_1_val" ;
+    lv2:name "Node 1 value" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 26 ;
+    lv2:symbol "node_1_curve" ;
+    lv2:name "Node 1 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 27 ;
+    lv2:symbol "node_2_pos" ;
+    lv2:name "Node 2 position" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 28 ;
+    lv2:symbol "node_2_val" ;
+    lv2:name "Node 2 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 29 ;
+    lv2:symbol "node_2_curve" ;
+    lv2:name "Node 2 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 30 ;
+    lv2:symbol "node_3_pos" ;
+    lv2:name "Node 3 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 31 ;
+    lv2:symbol "node_3_val" ;
+    lv2:name "Node 3 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 32 ;
+    lv2:symbol "node_3_curve" ;
+    lv2:name "Node 3 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 33 ;
+    lv2:symbol "node_4_pos" ;
+    lv2:name "Node 4 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 34 ;
+    lv2:symbol "node_4_val" ;
+    lv2:name "Node 4 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 35 ;
+    lv2:symbol "node_4_curve" ;
+    lv2:name "Node 4 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 36 ;
+    lv2:symbol "node_5_pos" ;
+    lv2:name "Node 5 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 37 ;
+    lv2:symbol "node_5_val" ;
+    lv2:name "Node 5 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 38 ;
+    lv2:symbol "node_5_curve" ;
+    lv2:name "Node 5 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 39 ;
+    lv2:symbol "node_6_pos" ;
+    lv2:name "Node 6 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 40 ;
+    lv2:symbol "node_6_val" ;
+    lv2:name "Node 6 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 41 ;
+    lv2:symbol "node_6_curve" ;
+    lv2:name "Node 6 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 42 ;
+    lv2:symbol "node_7_pos" ;
+    lv2:name "Node 7 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 43 ;
+    lv2:symbol "node_7_val" ;
+    lv2:name "Node 7 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 44 ;
+    lv2:symbol "node_7_curve" ;
+    lv2:name "Node 7 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 45 ;
+    lv2:symbol "node_8_pos" ;
+    lv2:name "Node 8 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 46 ;
+    lv2:symbol "node_8_val" ;
+    lv2:name "Node 8 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 47 ;
+    lv2:symbol "node_8_curve" ;
+    lv2:name "Node 8 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 48 ;
+    lv2:symbol "node_9_pos" ;
+    lv2:name "Node 9 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 49 ;
+    lv2:symbol "node_9_val" ;
+    lv2:name "Node 9 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 50 ;
+    lv2:symbol "node_9_curve" ;
+    lv2:name "Node 9 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 51 ;
+    lv2:symbol "node_10_pos" ;
+    lv2:name "Node 10 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 52 ;
+    lv2:symbol "node_10_val" ;
+    lv2:name "Node 10 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 53 ;
+    lv2:symbol "node_10_curve" ;
+    lv2:name "Node 10 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 54 ;
+    lv2:symbol "node_11_pos" ;
+    lv2:name "Node 11 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 55 ;
+    lv2:symbol "node_11_val" ;
+    lv2:name "Node 11 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 56 ;
+    lv2:symbol "node_11_curve" ;
+    lv2:name "Node 11 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 57 ;
+    lv2:symbol "node_12_pos" ;
+    lv2:name "Node 12 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 58 ;
+    lv2:symbol "node_12_val" ;
+    lv2:name "Node 12 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 59 ;
+    lv2:symbol "node_12_curve" ;
+    lv2:name "Node 12 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 60 ;
+    lv2:symbol "node_13_pos" ;
+    lv2:name "Node 13 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 61 ;
+    lv2:symbol "node_13_val" ;
+    lv2:name "Node 13 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 62 ;
+    lv2:symbol "node_13_curve" ;
+    lv2:name "Node 13 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 63 ;
+    lv2:symbol "node_14_pos" ;
+    lv2:name "Node 14 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 64 ;
+    lv2:symbol "node_14_val" ;
+    lv2:name "Node 14 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 65 ;
+    lv2:symbol "node_14_curve" ;
+    lv2:name "Node 14 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 66 ;
+    lv2:symbol "node_15_pos" ;
+    lv2:name "Node 15 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 67 ;
+    lv2:symbol "node_15_val" ;
+    lv2:name "Node 15 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 68 ;
+    lv2:symbol "node_15_curve" ;
+    lv2:name "Node 15 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 69 ;
+    lv2:symbol "node_16_pos" ;
+    lv2:name "Node 16 position" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 70 ;
+    lv2:symbol "node_16_val" ;
+    lv2:name "Node 16 value" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 71 ;
+    lv2:symbol "node_16_curve" ;
+    lv2:name "Node 16 curve" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 72 ;
+    lv2:symbol "num_nodes" ;
+    lv2:name "Node count" ;
+    lv2:default 2 ;
+    lv2:minimum 2 ;
+    lv2:maximum 16 ;
+    lv2:portProperty lv2:integer ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:CVPort ;
+    lv2:index 73 ;
+    lv2:symbol "sine_out" ;
+    lv2:name "Sine" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:CVPort ;
+    lv2:index 74 ;
+    lv2:symbol "triangle_out" ;
+    lv2:name "Triangle" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:CVPort ;
+    lv2:index 75 ;
+    lv2:symbol "saw_out" ;
+    lv2:name "Saw" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:CVPort ;
+    lv2:index 76 ;
+    lv2:symbol "square_out" ;
+    lv2:name "Square" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:CVPort ;
+    lv2:index 77 ;
+    lv2:symbol "custom_out" ;
+    lv2:name "Custom" ;
+  ] .
+
+<https://www.zrythm.org/plugins/ZLFO#UI>
+  a ui:X11UI ;
+  lv2:requiredFeature urid:map ,
+                      ui:idleInterface ;
+  lv2:optionalFeature log:log ,
+                      ui:noUserResize ;
+  lv2:extensionData ui:idleInterface ,
+                    ui:showInterface ;
+  ui:portNotification [
+    ui:plugin <https://www.zrythm.org/plugins/ZLFO> ;
+    lv2:symbol "notify" ;
+    ui:notifyType atom:Blank ;
+  ] .

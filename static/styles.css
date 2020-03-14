@@ -37,8 +37,29 @@
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
 .screenshot_img {
   max-width: 78%;
+}
+
+.feature_img {
+  /*max-height: 180px;*/
+  max-width: 96%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.feature_description {
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
 .features_box {

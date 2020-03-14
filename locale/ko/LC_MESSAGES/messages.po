@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-14 12:25+0000\n"
+"POT-Creation-Date: 2020-03-14 15:15+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -35,22 +35,27 @@ msgstr ""
 msgid "Download"
 msgstr "다운로드"
 
-#: common/navigation.j2.inc:39 template/learn.html.j2:19
+#: common/navigation.j2.inc:39 template/features.html.j2:31
+#: template/plugins.html.j2:54
+msgid "Features"
+msgstr "특징 설명"
+
+#: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
 msgstr ""
 
-#: common/navigation.j2.inc:45 template/plugins.html.j2:19
+#: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
 msgstr ""
 
-#: common/navigation.j2.inc:51 template/community.html.j2:19
+#: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:32
 msgid "Community"
 msgstr ""
 
-#: common/navigation.j2.inc:69
+#: common/navigation.j2.inc:75
 msgid "Language"
 msgstr ""
 
@@ -221,6 +226,50 @@ msgstr ""
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
 
+#: template/features.html.j2:19
+msgid "Explore"
+msgstr ""
+
+#: template/features.html.j2:22
+msgid "Zrythm list of features and functionality"
+msgstr ""
+
+#: template/features.html.j2:41 template/features.html.j2:45
+msgid "Piano roll"
+msgstr ""
+
+#: template/features.html.j2:50
+msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
+msgstr ""
+
+#: template/features.html.j2:59 template/features.html.j2:72
+msgid "Anywhere-to-anywhere connections"
+msgstr ""
+
+#: template/features.html.j2:64
+msgid "Connect anything to anything."
+msgstr ""
+
+#: template/features.html.j2:79
+msgid "Bounce in place"
+msgstr ""
+
+#: template/features.html.j2:83
+msgid "Bounce in-place"
+msgstr ""
+
+#: template/features.html.j2:88
+msgid "Quickly bounce selected material to audio."
+msgstr ""
+
+#: template/features.html.j2:97 template/features.html.j2:110
+msgid "Automation curves"
+msgstr ""
+
+#: template/features.html.j2:102
+msgid "Automate parameters with straight lines or curves."
+msgstr ""
+
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr ""
@@ -309,6 +358,10 @@ msgid ""
 "Japanese and German."
 msgstr ""
 
+#: template/index.html.j2:182
+msgid "Learn more"
+msgstr ""
+
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
 msgstr ""
@@ -392,10 +445,6 @@ msgstr ""
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template/plugins.html.j2:54
-msgid "Features"
-msgstr "특징 설명"
-
 #: template/plugins.html.j2:56
 msgid "Multi-oscillator with custom wave"
 msgstr ""
@@ -476,9 +525,6 @@ msgstr ""
 
 #~ msgid "Glossary"
 #~ msgstr "용어 사전"
-
-#~ msgid "Automated"
-#~ msgstr "자동화 됨"
 
 #~ msgid "Intuitive"
 #~ msgstr "직관적인"
