@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-14 15:15+0000\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -188,11 +188,11 @@ msgstr "Greffons embarqués"
 
 #: template/download.html.j2:177
 msgid "<b>£5</b> one-time purchase"
-msgstr ""
+msgstr "<b>5£</b> achat ponctuel"
 
 #: template/download.html.j2:182
 msgid "Always latest alpha/beta version"
-msgstr ""
+msgstr "Toujours la dernière version alpha/beta"
 
 #: template/download.html.j2:184
 msgid "Free upgrades for alpha/beta releases"
@@ -200,7 +200,7 @@ msgstr "Mises à jour gratuites pour les versions alpha/bêta"
 
 #: template/download.html.j2:185
 msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
-msgstr ""
+msgstr "<s>25£</s><b>12.50£</b> achat ponctuel"
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -212,7 +212,7 @@ msgstr "Mises à jour gratuites pendant l'abonnement"
 
 #: template/download.html.j2:193
 msgid "<b>£5</b> per month"
-msgstr ""
+msgstr "<b>5£</b> par mois"
 
 #: template/download.html.j2:201 template/download.html.j2:220
 msgid "Buy Now"
@@ -230,30 +230,35 @@ msgstr "Souscrire"
 #, python-format
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
+"Ce mois ci, nous avons reçu %(monthly_earning_str)s£. Notre objectif est "
+"3000£."
 
 #: template/features.html.j2:19
 msgid "Explore"
-msgstr ""
+msgstr "Explorer"
 
 #: template/features.html.j2:22
 msgid "Zrythm list of features and functionality"
-msgstr ""
+msgstr "La liste des caractéristiques et fonctionnalités de Zrythm"
 
 #: template/features.html.j2:41 template/features.html.j2:45
 msgid "Piano roll"
-msgstr ""
+msgstr "Piano roll"
 
 #: template/features.html.j2:50
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
+"Créez, éditez et organisez des événements MIDI dans un piano roll dédié."
 
 #: template/features.html.j2:59 template/features.html.j2:72
+#, fuzzy
 msgid "Anywhere-to-anywhere connections"
-msgstr ""
+msgstr "Des connexions de n'importe où à n'importe quel endroit"
 
 #: template/features.html.j2:64
+#, fuzzy
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "Connecter n'importe quoi à n'importe quoi."
 
 #: template/features.html.j2:79
 msgid "Bounce in place"
@@ -272,8 +277,9 @@ msgid "Automation curves"
 msgstr ""
 
 #: template/features.html.j2:102
+#, fuzzy
 msgid "Automate parameters with straight lines or curves."
-msgstr ""
+msgstr "Automatisez les paramètres à l'aide de lignes droites ou de courbes."
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -301,6 +307,7 @@ msgid "Overview"
 msgstr "Vue générale"
 
 #: template/index.html.j2:57
+#, fuzzy
 msgid ""
 "Zrythm is a <span class=\"tooltip\" aria-label=\"Zrythm works on GNU/Linux, "
 "FreeBSD, MacOS and Windows\">cross-platform</span> <span class=\"tooltip\" "
@@ -308,6 +315,11 @@ msgid ""
 "editing and producing audio files\">digital audio workstation</span> "
 "designed to be featureful and easy to use."
 msgstr ""
+"Zrythm est une <span class=\"tooltip\" aria-label=\"A digital audio "
+"workstation is software used for recording, editing and producing audio "
+"files\">station de travail audio numérique</span><span class=\"tooltip\" "
+"aria-label=\"Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows\">multi-"
+"plateforme</span> conçue pour être fonctionnelle et facile à utiliser."
 
 #: template/index.html.j2:72
 msgid "Limitless automation"
@@ -342,6 +354,8 @@ msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Compatible totalement avec JACK, y compris le support pour le transport "
+"JACK, ALSA, WASAPI, Windows MME, CoreMidi et CoreAudio."
 
 #: template/index.html.j2:128
 msgid "Chord assistance"
@@ -365,6 +379,9 @@ msgid ""
 "software” means software that respects users' freedom and community\">free "
 "software</span>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm est un<span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
+"software” means software that respects users' freedom and community\">"
+"logiciel libre</span>. Utilisez, étudiez, partagez et améliorez-le librement."
 
 #: template/index.html.j2:167
 msgid "Multilingual"
@@ -379,9 +396,8 @@ msgstr ""
 "portugais, japonais et allemand."
 
 #: template/index.html.j2:182
-#| msgid "Learn"
 msgid "Learn more"
-msgstr ""
+msgstr "En savoir plus"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -420,39 +436,52 @@ msgid "Developer docs"
 msgstr "Docs développeur"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
+#, fuzzy
 msgid "Legal information"
-msgstr ""
+msgstr "Informations légales"
 
 #: template/legal.html.j2:22
+#, fuzzy
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Informations légales, sur les licences et les marques"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Licences"
 
 #: template/legal.html.j2:43
+#, fuzzy
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
+"Zrythm est protégé par les droits d'auteur d'Alexandros Theodotou et "
+"d'autres contributeurs. Zrythm est publié sous <a href=\"https://www.gnu.org/"
+"licenses/agpl-3.0.html\">GNU Affero General Public License, version 3 or "
+"supérieure</a>."
 
 #: template/legal.html.j2:50
+#, fuzzy
 msgid ""
 "Text and media found on the Zrythm website are released under <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Les textes et médias trouvés sur le site web de Zrythm sont publiés sous "
+"licence <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:58
+#, fuzzy
 msgid "Trademarks"
-msgstr ""
+msgstr "Marques déposées"
 
 #: template/legal.html.j2:64
+#, fuzzy
 msgid "Zrythm is a trademark of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm est une marque de déposée d'Alexandros Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
@@ -468,35 +497,40 @@ msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
 #: template/plugins.html.j2:56
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Multi-oscillateur avec onde personnalisée"
 
 #: template/plugins.html.j2:57
+#, fuzzy
 msgid "Phase shift"
-msgstr ""
+msgstr "Décalage des phases"
 
 #: template/plugins.html.j2:58
+#, fuzzy
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Inversion verticale/horizontale"
 
 #: template/plugins.html.j2:59
+#, fuzzy
 msgid "Step mode"
-msgstr ""
+msgstr "Mode à pas"
 
 #: template/plugins.html.j2:60
+#, fuzzy
 msgid "Editable range"
-msgstr ""
+msgstr "Plage modifiable"
 
 #: template/plugins.html.j2:61
+#, fuzzy
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Synchronisation avec l'hôte ou la forme libre"
 
 #: template/plugins.html.j2:65
 msgid "Designed by Mire"
-msgstr ""
+msgstr "Conçu par Mire"
 
 #: template/plugins.html.j2:70
 msgid "Technical specs"
-msgstr ""
+msgstr "Spécifications techniques"
 
 #: template/plugins.html.j2:75
 msgid "ZChordz"
