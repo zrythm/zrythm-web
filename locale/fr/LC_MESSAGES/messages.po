@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -251,14 +251,12 @@ msgstr ""
 "Créez, éditez et organisez des événements MIDI dans un piano roll dédié."
 
 #: template/features.html.j2:59 template/features.html.j2:72
-#, fuzzy
 msgid "Anywhere-to-anywhere connections"
-msgstr "Des connexions de n'importe où à n'importe quel endroit"
+msgstr ""
 
 #: template/features.html.j2:64
-#, fuzzy
 msgid "Connect anything to anything."
-msgstr "Connecter n'importe quoi à n'importe quoi."
+msgstr ""
 
 #: template/features.html.j2:79
 msgid "Bounce in place"
@@ -277,9 +275,8 @@ msgid "Automation curves"
 msgstr ""
 
 #: template/features.html.j2:102
-#, fuzzy
 msgid "Automate parameters with straight lines or curves."
-msgstr "Automatisez les paramètres à l'aide de lignes droites ou de courbes."
+msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -307,7 +304,6 @@ msgid "Overview"
 msgstr "Vue générale"
 
 #: template/index.html.j2:57
-#, fuzzy
 msgid ""
 "Zrythm is a <span class=\"tooltip\" aria-label=\"Zrythm works on GNU/Linux, "
 "FreeBSD, MacOS and Windows\">cross-platform</span> <span class=\"tooltip\" "
@@ -315,11 +311,6 @@ msgid ""
 "editing and producing audio files\">digital audio workstation</span> "
 "designed to be featureful and easy to use."
 msgstr ""
-"Zrythm est une <span class=\"tooltip\" aria-label=\"A digital audio "
-"workstation is software used for recording, editing and producing audio "
-"files\">station de travail audio numérique</span><span class=\"tooltip\" "
-"aria-label=\"Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows\">multi-"
-"plateforme</span> conçue pour être fonctionnelle et facile à utiliser."
 
 #: template/index.html.j2:72
 msgid "Limitless automation"
@@ -380,8 +371,9 @@ msgid ""
 "software</span>. Use, study, share and improve it freely."
 msgstr ""
 "Zrythm est un<span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
-"software” means software that respects users' freedom and community\">"
-"logiciel libre</span>. Utilisez, étudiez, partagez et améliorez-le librement."
+"software” means software that respects users' freedom and "
+"community\">logiciel libre</span>. Utilisez, étudiez, partagez et améliorez-"
+"le librement."
 
 #: template/index.html.j2:167
 msgid "Multilingual"
@@ -436,52 +428,39 @@ msgid "Developer docs"
 msgstr "Docs développeur"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
-#, fuzzy
 msgid "Legal information"
-msgstr "Informations légales"
+msgstr ""
 
 #: template/legal.html.j2:22
-#, fuzzy
 msgid "Legal, licensing and trademark information"
-msgstr "Informations légales, sur les licences et les marques"
+msgstr ""
 
 #: template/legal.html.j2:37
 msgid "Licensing"
 msgstr "Licences"
 
 #: template/legal.html.j2:43
-#, fuzzy
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
-"Zrythm est protégé par les droits d'auteur d'Alexandros Theodotou et "
-"d'autres contributeurs. Zrythm est publié sous <a href=\"https://www.gnu.org/"
-"licenses/agpl-3.0.html\">GNU Affero General Public License, version 3 or "
-"supérieure</a>."
 
 #: template/legal.html.j2:50
-#, fuzzy
 msgid ""
 "Text and media found on the Zrythm website are released under <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
-"Les textes et médias trouvés sur le site web de Zrythm sont publiés sous "
-"licence <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
-"Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:58
-#, fuzzy
 msgid "Trademarks"
-msgstr "Marques déposées"
+msgstr ""
 
 #: template/legal.html.j2:64
-#, fuzzy
 msgid "Zrythm is a trademark of Alexandros Theodotou."
-msgstr "Zrythm est une marque de déposée d'Alexandros Theodotou."
+msgstr ""
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
@@ -500,29 +479,24 @@ msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
 #: template/plugins.html.j2:57
-#, fuzzy
 msgid "Phase shift"
-msgstr "Décalage des phases"
+msgstr ""
 
 #: template/plugins.html.j2:58
-#, fuzzy
 msgid "Vertical/horizontal inversion"
-msgstr "Inversion verticale/horizontale"
+msgstr ""
 
 #: template/plugins.html.j2:59
-#, fuzzy
 msgid "Step mode"
-msgstr "Mode à pas"
+msgstr ""
 
 #: template/plugins.html.j2:60
-#, fuzzy
 msgid "Editable range"
-msgstr "Plage modifiable"
+msgstr ""
 
 #: template/plugins.html.j2:61
-#, fuzzy
 msgid "Sync to host or free-form"
-msgstr "Synchronisation avec l'hôte ou la forme libre"
+msgstr ""
 
 #: template/plugins.html.j2:65
 msgid "Designed by Mire"

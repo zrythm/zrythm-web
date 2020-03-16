@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-14 15:15+0000\n"
+"POT-Creation-Date: 2020-03-15 23:59+0000\n"
 "PO-Revision-Date: 2020-03-01 23:33+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -376,7 +376,6 @@ msgstr ""
 "francés, portugués, japonés y alemán."
 
 #: template/index.html.j2:182
-#| msgid "Learn"
 msgid "Learn more"
 msgstr ""
 
