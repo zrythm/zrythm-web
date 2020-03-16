@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-15 23:59+0000\n"
-"PO-Revision-Date: 2020-03-14 20:36+0000\n"
+"PO-Revision-Date: 2020-03-17 13:36+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>"
+"\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -41,7 +42,7 @@ msgstr "Descargar"
 #: common/navigation.j2.inc:39 template/features.html.j2:31
 #: template/plugins.html.j2:54
 msgid "Features"
-msgstr ""
+msgstr "Características"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
@@ -233,47 +234,47 @@ msgstr ""
 
 #: template/features.html.j2:19
 msgid "Explore"
-msgstr ""
+msgstr "Explorar"
 
 #: template/features.html.j2:22
 msgid "Zrythm list of features and functionality"
-msgstr ""
+msgstr "Lista de características e funcionalidades de Zrythm"
 
 #: template/features.html.j2:41 template/features.html.j2:45
 msgid "Piano roll"
-msgstr ""
+msgstr "Piano roll"
 
 #: template/features.html.j2:50
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr ""
+msgstr "Crea, edita e arranxa eventos MIDI nun piano roll adicado."
 
 #: template/features.html.j2:59 template/features.html.j2:72
 msgid "Anywhere-to-anywhere connections"
-msgstr ""
+msgstr "Conexións calquera-a-calquera"
 
 #: template/features.html.j2:64
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "Conecta calquera cousa a calquera cousa."
 
 #: template/features.html.j2:79
 msgid "Bounce in place"
-msgstr ""
+msgstr "Converter a audio aquí"
 
 #: template/features.html.j2:83
 msgid "Bounce in-place"
-msgstr ""
+msgstr "Converter a audio aquí"
 
 #: template/features.html.j2:88
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "Converte o material seleccionado a audio rapidamente."
 
 #: template/features.html.j2:97 template/features.html.j2:110
 msgid "Automation curves"
-msgstr ""
+msgstr "Curvas de automatización"
 
 #: template/features.html.j2:102
 msgid "Automate parameters with straight lines or curves."
-msgstr ""
+msgstr "Automatiza parámetro con liñas rectas ou curvas."
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -307,12 +308,12 @@ msgid ""
 "editing and producing audio files\">digital audio workstation</span> "
 "designed to be featureful and easy to use."
 msgstr ""
-"Zrythm é unha </span> <span class=\"tooltip\" aria-label=\"Unha estación de "
-"traballo de audio dixital é un programa que serve para gravar, editar e "
-"producir ficheiros de son\">estación de traballo de audio dixital</span> "
-"<span class=\"tooltip\" aria-label=\"Zrythm funciona en GNU/Linux, FreeBSD, "
-"MacOS e Windows\"> multiplataforma </span> deseñada para ser completa e "
-"doada de empregar."
+"Zrythm é unha <span class=\"tooltip\" aria-label=\"Unha estación de traballo "
+"de audio dixital é un programa que serve para gravar, editar e producir "
+"ficheiros de son\">estación de traballo de audio dixital</span> <span class="
+"\"tooltip\" aria-label=\"Zrythm funciona en GNU/Linux, FreeBSD, MacOS e "
+"Windows\"> multiplataforma </span> deseñada para ser completa e doada de "
+"empregar."
 
 #: template/index.html.j2:72
 msgid "Limitless automation"
@@ -390,7 +391,7 @@ msgstr ""
 
 #: template/index.html.j2:182
 msgid "Learn more"
-msgstr ""
+msgstr "Aprender máis"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -484,35 +485,35 @@ msgstr "ZLFO é un completo LFO para automatización baseada en CV"
 
 #: template/plugins.html.j2:56
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Oscilador múltiple con onda personalizada"
 
 #: template/plugins.html.j2:57
 msgid "Phase shift"
-msgstr ""
+msgstr "Invertir fase"
 
 #: template/plugins.html.j2:58
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Inversión vertical/horizontal"
 
 #: template/plugins.html.j2:59
 msgid "Step mode"
-msgstr ""
+msgstr "Modo escalonado"
 
 #: template/plugins.html.j2:60
 msgid "Editable range"
-msgstr ""
+msgstr "Rango editable"
 
 #: template/plugins.html.j2:61
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Sincronizar ou forma libre"
 
 #: template/plugins.html.j2:65
 msgid "Designed by Mire"
-msgstr ""
+msgstr "Deseñado por Mire"
 
 #: template/plugins.html.j2:70
 msgid "Technical specs"
-msgstr ""
+msgstr "Especificacións técnicas"
 
 #: template/plugins.html.j2:75
 msgid "ZChordz"
