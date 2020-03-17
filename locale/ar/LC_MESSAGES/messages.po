@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-14 15:15+0000\n"
+"POT-Creation-Date: 2020-03-17 23:03+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Arabic <https://translate.zrythm.org/projects/zrythm/website/ar/>\n"
@@ -35,9 +35,9 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: common/navigation.j2.inc:39 template/features.html.j2:31
-#: template/plugins.html.j2:54
-msgid "Features"
+#: common/navigation.j2.inc:39 template/explore.html.j2:19
+#: template/explore.html.j2:31
+msgid "Explore"
 msgstr ""
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
@@ -226,47 +226,51 @@ msgstr ""
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
 
-#: template/features.html.j2:19
-msgid "Explore"
-msgstr ""
-
-#: template/features.html.j2:22
+#: template/explore.html.j2:22
 msgid "Zrythm list of features and functionality"
 msgstr ""
 
-#: template/features.html.j2:41 template/features.html.j2:45
+#: template/explore.html.j2:37
+msgid "Reviews"
+msgstr ""
+
+#: template/explore.html.j2:55 template/plugins.html.j2:54
+msgid "Features"
+msgstr ""
+
+#: template/explore.html.j2:63 template/explore.html.j2:67
 msgid "Piano roll"
 msgstr ""
 
-#: template/features.html.j2:50
+#: template/explore.html.j2:72
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 
-#: template/features.html.j2:59 template/features.html.j2:72
+#: template/explore.html.j2:81 template/explore.html.j2:94
 msgid "Anywhere-to-anywhere connections"
 msgstr ""
 
-#: template/features.html.j2:64
+#: template/explore.html.j2:86
 msgid "Connect anything to anything."
 msgstr ""
 
-#: template/features.html.j2:79
+#: template/explore.html.j2:101
 msgid "Bounce in place"
 msgstr ""
 
-#: template/features.html.j2:83
+#: template/explore.html.j2:105
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/features.html.j2:88
+#: template/explore.html.j2:110
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/features.html.j2:97 template/features.html.j2:110
+#: template/explore.html.j2:119 template/explore.html.j2:132
 msgid "Automation curves"
 msgstr ""
 
-#: template/features.html.j2:102
+#: template/explore.html.j2:124
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 

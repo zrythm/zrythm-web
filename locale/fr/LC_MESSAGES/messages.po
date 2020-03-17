@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-14 15:15+0000\n"
+"POT-Creation-Date: 2020-03-17 23:03+0000\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -38,10 +38,10 @@ msgstr "Accueil"
 msgid "Download"
 msgstr "Téléchargement"
 
-#: common/navigation.j2.inc:39 template/features.html.j2:31
-#: template/plugins.html.j2:54
-msgid "Features"
-msgstr "Fonctionnalités"
+#: common/navigation.j2.inc:39 template/explore.html.j2:19
+#: template/explore.html.j2:31
+msgid "Explore"
+msgstr "Explorer"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
@@ -233,48 +233,52 @@ msgstr ""
 "Ce mois ci, nous avons reçu %(monthly_earning_str)s£. Notre objectif est "
 "3000£."
 
-#: template/features.html.j2:19
-msgid "Explore"
-msgstr "Explorer"
-
-#: template/features.html.j2:22
+#: template/explore.html.j2:22
 msgid "Zrythm list of features and functionality"
 msgstr "La liste des caractéristiques et fonctionnalités de Zrythm"
 
-#: template/features.html.j2:41 template/features.html.j2:45
+#: template/explore.html.j2:37
+msgid "Reviews"
+msgstr ""
+
+#: template/explore.html.j2:55 template/plugins.html.j2:54
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: template/explore.html.j2:63 template/explore.html.j2:67
 msgid "Piano roll"
 msgstr "Piano roll"
 
-#: template/features.html.j2:50
+#: template/explore.html.j2:72
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Créez, éditez et organisez des événements MIDI dans un piano roll dédié."
 
-#: template/features.html.j2:59 template/features.html.j2:72
+#: template/explore.html.j2:81 template/explore.html.j2:94
 msgid "Anywhere-to-anywhere connections"
 msgstr ""
 
-#: template/features.html.j2:64
+#: template/explore.html.j2:86
 msgid "Connect anything to anything."
 msgstr ""
 
-#: template/features.html.j2:79
+#: template/explore.html.j2:101
 msgid "Bounce in place"
 msgstr ""
 
-#: template/features.html.j2:83
+#: template/explore.html.j2:105
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/features.html.j2:88
+#: template/explore.html.j2:110
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/features.html.j2:97 template/features.html.j2:110
+#: template/explore.html.j2:119 template/explore.html.j2:132
 msgid "Automation curves"
 msgstr ""
 
-#: template/features.html.j2:102
+#: template/explore.html.j2:124
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
