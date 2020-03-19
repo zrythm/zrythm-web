@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-17 23:03+0000\n"
+"POT-Creation-Date: 2020-03-19 08:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,50 +225,58 @@ msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
 
 #: template/explore.html.j2:22
-msgid "Zrythm list of features and functionality"
+msgid "List of features, functionality, and reviews"
 msgstr ""
 
 #: template/explore.html.j2:37
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:55 template/plugins.html.j2:54
+#: template/explore.html.j2:45
+msgid "unfa livestream: Synthesizing snare drums with Geonkick"
+msgstr ""
+
+#: template/explore.html.j2:53
+msgid "Article from Issue 229/2019 of Linux Magazine"
+msgstr ""
+
+#: template/explore.html.j2:63 template/plugins.html.j2:54
 msgid "Features"
 msgstr ""
 
-#: template/explore.html.j2:63 template/explore.html.j2:67
+#: template/explore.html.j2:71 template/explore.html.j2:75
 msgid "Piano roll"
 msgstr ""
 
-#: template/explore.html.j2:72
+#: template/explore.html.j2:80
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 
-#: template/explore.html.j2:81 template/explore.html.j2:94
+#: template/explore.html.j2:89 template/explore.html.j2:102
 msgid "Anywhere-to-anywhere connections"
 msgstr ""
 
-#: template/explore.html.j2:86
+#: template/explore.html.j2:94
 msgid "Connect anything to anything."
 msgstr ""
 
-#: template/explore.html.j2:101
+#: template/explore.html.j2:109
 msgid "Bounce in place"
 msgstr ""
 
-#: template/explore.html.j2:105
+#: template/explore.html.j2:113
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/explore.html.j2:110
+#: template/explore.html.j2:118
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/explore.html.j2:119 template/explore.html.j2:132
+#: template/explore.html.j2:127 template/explore.html.j2:140
 msgid "Automation curves"
 msgstr ""
 
-#: template/explore.html.j2:124
+#: template/explore.html.j2:132
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
