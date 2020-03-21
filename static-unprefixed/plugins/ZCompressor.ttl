@@ -1,0 +1,110 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix log:  <http://lv2plug.in/ns/ext/log#> .
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix midi: <http://lv2plug.in/ns/ext/midi#> .
+@prefix pprop: <http://lv2plug.in/ns/ext/port-props#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsz:  <http://lv2plug.in/ns/ext/resize-port#> .
+@prefix time:  <http://lv2plug.in/ns/ext/time#> .
+@prefix urid: <http://lv2plug.in/ns/ext/urid#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+@prefix units:   <http://lv2plug.in/ns/extensions/units#> .
+@prefix work:  <http://lv2plug.in/ns/ext/worker#> .
+
+<https://www.zrythm.org/plugins/ZCompressor>
+  a lv2:Plugin,
+    lv2:CompressorPlugin ;
+  doap:name "ZCompressor" ;
+  doap:license <https://www.gnu.org/licenses/agpl-3.0.html> ;
+  lv2:project <https://www.zrythm.org/plugins> ;
+  lv2:requiredFeature urid:map ;
+  lv2:optionalFeature log:log ,
+                      lv2:hardRTCapable ;
+  lv2:port [
+    a lv2:InputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    lv2:index 0 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "control" ;
+    lv2:name "Control" ;
+    rdfs:comment "GUI/host to plugin communication" ;
+  ] , [
+    a lv2:OutputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    lv2:index 1 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "notify" ;
+    lv2:name "Notify" ;
+    rdfs:comment "Plugin to GUI communication" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:AudioPort ;
+    lv2:index 2 ;
+    lv2:symbol "stereo_in_l" ;
+    lv2:name "Stereo In L" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:AudioPort ;
+    lv2:index 3 ;
+    lv2:symbol "stereo_in_r" ;
+    lv2:name "Stereo In L" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 4 ;
+    lv2:symbol "attack" ;
+    lv2:name "Attack" ;
+    lv2:default 0.100000 ;
+    lv2:minimum 0.000001 ;
+    lv2:maximum 10.000000 ;
+    lv2:portProperty pprop:logarithmic; 
+    rdfs:comment "Compressor attack" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 5 ;
+    lv2:symbol "release" ;
+    lv2:name "Release" ;
+    lv2:default 0.100000 ;
+    lv2:minimum 0.000001 ;
+    lv2:maximum 10.000000 ;
+    lv2:portProperty pprop:logarithmic; 
+    rdfs:comment "Compressor release" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 6 ;
+    lv2:symbol "ratio" ;
+    lv2:name "Ratio" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 1.000000 ;
+    lv2:maximum 40.000000 ;
+    rdfs:comment "Ratio to compress with. A value > 1 will compress" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 7 ;
+    lv2:symbol "threshold" ;
+    lv2:name "Threshold" ;
+    lv2:default 0.000000 ;
+    lv2:minimum -80.000000 ;
+    lv2:maximum 0.000000 ;
+    units:unit units:db ;
+    rdfs:comment "Threshold (in dB) 0 = max" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:AudioPort ;
+    lv2:index 8 ;
+    lv2:symbol "stereo_out_l" ;
+    lv2:name "Stereo Out L" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:AudioPort ;
+    lv2:index 9 ;
+    lv2:symbol "stereo_out_r" ;
+    lv2:name "Stereo Out R" ;
+  ] .

@@ -10,3 +10,8 @@ trim_blocks = True
 encoding = utf-8
 lstrip_blocks = True
 ltrim_blocks = True
+
+[python: template.py]
+encoding = utf-8
+lstrip_blocks = True
+ltrim_blocks = True

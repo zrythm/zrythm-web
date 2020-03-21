@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 08:39+0000\n"
+"POT-Creation-Date: 2020-03-21 22:34+0000\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -19,6 +19,62 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+
+#: template.py:368
+msgid "ZChordz maps the chords of a minor or major scale to white keys"
+msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
+
+#: template.py:369
+msgid "Major or minor scale"
+msgstr ""
+
+#: template.py:370
+msgid "Velocity multiplier per note"
+msgstr ""
+
+#: template.py:373
+msgid "ZCompressor is a simple compressor"
+msgstr ""
+
+#: template.py:374
+msgid "Attack, Release, Ratio and Threshold parameters"
+msgstr ""
+
+#: template.py:378
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
+
+#: template.py:379
+msgid "Multi-oscillator with custom wave"
+msgstr "多オシレータおよびカスタム"
+
+#: template.py:380
+msgid "Phase shift"
+msgstr "位相シフト"
+
+#: template.py:381
+msgid "Vertical/horizontal inversion"
+msgstr "垂直/水平インバート"
+
+#: template.py:382
+msgid "Step mode"
+msgstr "ステップモード"
+
+#: template.py:383
+msgid "Editable range"
+msgstr "編集可能な出力範囲"
+
+#: template.py:384
+msgid "Sync to host or free-form"
+msgstr "ホストと同期または自由周波数"
+
+#: template.py:387
+msgid "ZSaw is a supersaw synth with 1 parameter"
+msgstr ""
+
+#: template.py:388
+msgid "Single knob to control detune"
+msgstr ""
 
 #: common/header.j2.inc:24
 msgid ""
@@ -245,7 +301,7 @@ msgstr ""
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:63 template/plugins.html.j2:54
+#: template/explore.html.j2:63 template/plugins.html.j2:53
 msgid "Features"
 msgstr "特長"
 
@@ -466,61 +522,13 @@ msgstr "ZrythmはAlexandros Theodotouの商標です。"
 msgid "Plugins bundled with Zrythm"
 msgstr "Zrythmにバンドルされているプラグイン"
 
-#: template/plugins.html.j2:40
-msgid "ZLFO"
-msgstr "ZLFO"
-
-#: template/plugins.html.j2:48
-msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
-
-#: template/plugins.html.j2:56
-msgid "Multi-oscillator with custom wave"
-msgstr "多オシレータおよびカスタム"
-
-#: template/plugins.html.j2:57
-msgid "Phase shift"
-msgstr "位相シフト"
-
-#: template/plugins.html.j2:58
-msgid "Vertical/horizontal inversion"
-msgstr "垂直/水平インバート"
-
-#: template/plugins.html.j2:59
-msgid "Step mode"
-msgstr "ステップモード"
-
-#: template/plugins.html.j2:60
-msgid "Editable range"
-msgstr "編集可能な出力範囲"
+#: template/plugins.html.j2:47
+msgid "{} screenshot"
+msgstr ""
 
 #: template/plugins.html.j2:61
-msgid "Sync to host or free-form"
-msgstr "ホストと同期または自由周波数"
-
-#: template/plugins.html.j2:65
-msgid "Designed by Mire"
-msgstr "デザイン: Mire"
-
-#: template/plugins.html.j2:70
 msgid "Technical specs"
 msgstr "技術仕様"
-
-#: template/plugins.html.j2:75
-msgid "ZChordz"
-msgstr "ZChordz"
-
-#: template/plugins.html.j2:83
-msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
-
-#: template/plugins.html.j2:97
-msgid "Plugin"
-msgstr "プラグイン"
-
-#: template/plugins.html.j2:102
-msgid "Coming soon"
-msgstr "近日公開"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
@@ -544,6 +552,21 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "ホームページに戻る"
+
+#~ msgid "ZChordz"
+#~ msgstr "ZChordz"
+
+#~ msgid "Designed by Mire"
+#~ msgstr "デザイン: Mire"
+
+#~ msgid "ZLFO"
+#~ msgstr "ZLFO"
+
+#~ msgid "Coming soon"
+#~ msgstr "近日公開"
+
+#~ msgid "Plugin"
+#~ msgstr "プラグイン"
 
 #~ msgid "Zrythm is free software. Use, study, share and improve it freely."
 #~ msgstr "Zrythmは自由なソフトウェアです。自由に使用、勉学、共有、改善できます。"

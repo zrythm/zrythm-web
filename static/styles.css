@@ -49,6 +49,17 @@
   max-width: 78%;
 }
 
+.plugin_screenshot_div {
+  max-width: 96%;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.plugin_screenshot_div img {
+  max-height: 200px;
+}
+
 .feature_img {
   /*max-height: 180px;*/
   max-width: 96%;

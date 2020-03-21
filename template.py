@@ -226,6 +226,14 @@ feed = feedparser.parse('https://savannah.nongnu.org/news/atom.php?group=zrythm'
 pp = pprint.PrettyPrinter(indent=2)
 news = feed['entries'][0:4]
 
+class Plugin:
+    def __init__(self,name,is_img_static,img,summary,features):
+        self.name = name
+        self.is_img_static = is_img_static
+        self.img = img
+        self.summary = summary
+        self.features = features
+
 for in_file in glob.glob("template/*.j2"):
     name, ext = re.match(r"(.*)\.([^.]+)$", in_file.rstrip(".j2")).groups()
     tmpl = env.get_template(in_file)
@@ -349,8 +357,36 @@ for in_file in glob.glob("template/*.j2"):
                                  fallback= locale == 'en')
 
         tr.gettext = i18nfix.wrap_gettext(tr.gettext)
+        _ = tr.gettext
 
         env.install_gettext_translations(tr, newstyle=True)
+
+        # plugins
+        plugins = [
+            Plugin(
+                'ZChordz', True, 'zchordz-mar-21-2020.png',
+                _('ZChordz maps the chords of a minor or major scale to white keys'),
+                [ _('Major or minor scale'),
+                    _('Velocity multiplier per note') ]),
+            Plugin(
+                'ZCompressor', True, 'zcompressor-mar-21-2020.png',
+                _('ZCompressor is a simple compressor'),
+                [ _('Attack, Release, Ratio and Threshold parameters') ]),
+            Plugin(
+                'ZLFO', False,
+                'https://git.zrythm.org/cgit/ZLFO/plain/screenshots/2020_feb_12_zlfo.png',
+                _('ZLFO is a fully featured LFO for CV-based automation'),
+                [ _('Multi-oscillator with custom wave'),
+                    _('Phase shift'),
+                    _('Vertical/horizontal inversion'),
+                    _('Step mode'),
+                    _('Editable range'),
+                    _('Sync to host or free-form') ]),
+            Plugin(
+                'ZSaw', True, 'zsaw-mar-21-2020.png',
+                _('ZSaw is a supersaw synth with 1 parameter'),
+                [ _('Single knob to control detune') ]),
+            ]
 
         content = tmpl.render(lang=locale,
                               lang_flag=lang_flags[locale],
@@ -374,6 +410,7 @@ for in_file in glob.glob("template/*.j2"):
                               monthly_earning=monthly_earning,
                               monthly_earning_str=monthly_earning_str,
                               issue_tracker=issue_tracker,
+                              plugins=plugins,
                               git_blob_url=git_blob_url,
                               version=version,
                               pronunciation=pronunciation,

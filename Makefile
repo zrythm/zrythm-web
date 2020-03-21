@@ -37,7 +37,7 @@ all: locale/messages.pot locale template
 # Extract translateable strings from jinja2 templates.
 # Because of the local i18nfix extractor module we need
 # to set the pythonpath before invoking pybabel.
-locale/messages.pot: common/*.j2.inc template/*.j2
+locale/messages.pot: common/*.j2.inc template/*.j2 template.py
 	PYTHONPATH="${PYTHONPATH}:." $(BABEL) -v extract -F locale/babel.map -o locale/messages.pot .
 
 # Update translation (.po) files with new strings.

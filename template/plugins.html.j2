@@ -35,75 +35,34 @@ GNU Affero General Public License for more details.
   </h1>
 
   <div class="row">
-    <div class="col-sm col-md-first">
-      <h2 class="centered">
-        {% trans %}
-        ZLFO
-        {% endtrans %}
-      </h2>
-      <img class="centered"
-           src="https://git.zrythm.org/cgit/ZLFO/plain/screenshots/2020_feb_12_zlfo.png"
-           alt="ZLFO screenshot">
-      <div class="centered">
-        {% trans %}
-        ZLFO is a fully featured LFO for CV-based
-        automation
-        {% endtrans %}
+
+    {% for pl in plugins %}
+      <div class="col-sm">
+        <h2 class="centered">
+          {{ pl.name }}
+        </h2>
+        <div class="plugin_screenshot_div">
+          <img class="centered"
+               src="{{ url('static/images/' + pl.img) if pl.is_img_static else pl.img }}"
+               alt="{{ _('{} screenshot').format(pl.name) }}">
+        </div>
+        <div class="centered">
+          {{ pl.summary }}
+        </div>
+        <div>
+          <b>{% trans %}Features{% endtrans %}</b>
+          <ul>
+            {% for feature in pl.features %}
+              <li>{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="centered">
+          <a href="https://www.zrythm.org/plugins/{{ pl.name }}">{{ _('Technical specs') }}</a>
+        </div>
       </div>
-      <div>
-        <b>{{ _('Features') }}</b>
-        <ul>
-          <li>{{ _('Multi-oscillator with custom wave') }}</li>
-          <li>{{ _('Phase shift') }}</li>
-          <li>{{ _('Vertical/horizontal inversion') }}</li>
-          <li>{{ _('Step mode') }}</li>
-          <li>{{ _('Editable range') }}</li>
-          <li>{{ _('Sync to host or free-form') }}</li>
-        </ul>
-      </div>
-      <div>
-        {% trans %}
-        Designed by Mire
-        {% endtrans %}
-      </div>
-      <div class="centered">
-        <a href="https://www.zrythm.org/plugins/ZLFO">{{ _('Technical specs') }}</a>
-      </div>
-    </div>
-    <div class="col-sm col-md-normal">
-      <h2 class="centered">
-        {% trans %}
-        ZChordz
-        {% endtrans %}
-      </h2>
-      <img class="centered"
-           src="{{ url('static/images/zchordz-mar-4-2020.png') }}"
-           alt="ZChordz screenshot">
-      <div class="centered">
-        {% trans %}
-        ZChordz maps the chords of a minor or major scale
-        to white keys
-        {% endtrans %}
-      </div>
-      <div>
-        <b>Features</b>
-        <ul>
-          <li>Velocity multiplier per note</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-sm col-md-last">
-      <h2 class="centered">
-        {% trans %}
-        Plugin
-        {% endtrans %}
-      </h2>
-      <div class="video_caption">
-        {% trans %}
-        Coming soon
-        {% endtrans %}
-      </div>
-    </div>
+    {% endfor %}
+
   </div>
 </div>
 

@@ -1,0 +1,170 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix log:  <http://lv2plug.in/ns/ext/log#> .
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix midi: <http://lv2plug.in/ns/ext/midi#> .
+@prefix pprop: <http://lv2plug.in/ns/ext/port-props#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsz:  <http://lv2plug.in/ns/ext/resize-port#> .
+@prefix time:  <http://lv2plug.in/ns/ext/time#> .
+@prefix urid: <http://lv2plug.in/ns/ext/urid#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+@prefix work:  <http://lv2plug.in/ns/ext/worker#> .
+
+<https://www.zrythm.org/plugins/ZChordz>
+  a lv2:Plugin,
+    lv2:MIDIPlugin ;
+  doap:name "ZChordz" ;
+  doap:license <https://www.gnu.org/licenses/agpl-3.0.html> ;
+  lv2:project <https://www.zrythm.org/plugins> ;
+  lv2:requiredFeature urid:map ;
+  lv2:optionalFeature log:log ,
+                      lv2:hardRTCapable ;
+  lv2:port [
+    a lv2:InputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    atom:supports <http://lv2plug.in/ns/ext/midi#MidiEvent> ;
+    rsz:minimumSize 2048 ;
+    lv2:index 0 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "control" ;
+    lv2:name "Control" ;
+    rdfs:comment "GUI/host to plugin communication" ;
+  ] , [
+    a lv2:OutputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    lv2:index 1 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "notify" ;
+    lv2:name "Notify" ;
+    rdfs:comment "Plugin to GUI communication" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 2 ;
+    lv2:symbol "scale" ;
+    lv2:name "Scale" ;
+    lv2:portProperty lv2:integer ;
+    lv2:portProperty lv2:enumeration ;
+    lv2:scalePoint [ rdfs:label "C"; rdf:value 0 ] ;
+    lv2:scalePoint [ rdfs:label "Db"; rdf:value 1 ] ;
+    lv2:scalePoint [ rdfs:label "D"; rdf:value 2 ] ;
+    lv2:scalePoint [ rdfs:label "Eb"; rdf:value 3 ] ;
+    lv2:scalePoint [ rdfs:label "E"; rdf:value 4 ] ;
+    lv2:scalePoint [ rdfs:label "F"; rdf:value 5 ] ;
+    lv2:scalePoint [ rdfs:label "F#"; rdf:value 6 ] ;
+    lv2:scalePoint [ rdfs:label "G"; rdf:value 7 ] ;
+    lv2:scalePoint [ rdfs:label "Ab"; rdf:value 8 ] ;
+    lv2:scalePoint [ rdfs:label "A"; rdf:value 9 ] ;
+    lv2:scalePoint [ rdfs:label "Bb"; rdf:value 10 ] ;
+    lv2:scalePoint [ rdfs:label "B"; rdf:value 11 ] ;
+    lv2:default 0 ;
+    lv2:minimum 0 ;
+    lv2:maximum 11 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 3 ;
+    lv2:symbol "major" ;
+    lv2:name "Major" ;
+    lv2:portProperty lv2:toggled ;
+    lv2:default 1 ;
+    lv2:minimum 0 ;
+    lv2:maximum 1 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 4 ;
+    lv2:symbol "bass" ;
+    lv2:name "Bass" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 5 ;
+    lv2:symbol "first" ;
+    lv2:name "1st" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 6 ;
+    lv2:symbol "third" ;
+    lv2:name "3rd" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 7 ;
+    lv2:symbol "fifth" ;
+    lv2:name "5th" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 8 ;
+    lv2:symbol "seventh" ;
+    lv2:name "7th" ;
+    lv2:default 1.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 9 ;
+    lv2:symbol "octave" ;
+    lv2:name "Octave" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 10 ;
+    lv2:symbol "ninth" ;
+    lv2:name "9th" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 11 ;
+    lv2:symbol "eleventh" ;
+    lv2:name "11th" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 12 ;
+    lv2:symbol "thirteenth" ;
+    lv2:name "13th" ;
+    lv2:default 0.000000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:OutputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    atom:supports <http://lv2plug.in/ns/ext/midi#MidiEvent> ;
+    rsz:minimumSize 2048 ;
+    lv2:index 13 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "midi_out" ;
+    lv2:name "MIDI out" ;
+    rdfs:comment "MIDI output" ;
+  ] .
+

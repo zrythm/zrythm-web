@@ -1,0 +1,67 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix log:  <http://lv2plug.in/ns/ext/log#> .
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix midi: <http://lv2plug.in/ns/ext/midi#> .
+@prefix pprop: <http://lv2plug.in/ns/ext/port-props#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsz:  <http://lv2plug.in/ns/ext/resize-port#> .
+@prefix time:  <http://lv2plug.in/ns/ext/time#> .
+@prefix urid: <http://lv2plug.in/ns/ext/urid#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+@prefix work:  <http://lv2plug.in/ns/ext/worker#> .
+
+<https://www.zrythm.org/plugins/ZSaw>
+  a lv2:Plugin,
+    lv2:InstrumentPlugin ;
+  doap:name "ZSaw" ;
+  doap:license <https://www.gnu.org/licenses/agpl-3.0.html> ;
+  lv2:project <https://www.zrythm.org/plugins> ;
+  lv2:requiredFeature urid:map ,
+                      work:schedule ;
+  lv2:optionalFeature log:log ,
+                      lv2:hardRTCapable ;
+  lv2:extensionData work:interface ;
+  lv2:port [
+    a lv2:InputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    atom:supports <http://lv2plug.in/ns/ext/midi#MidiEvent> ;
+    rsz:minimumSize 2048 ;
+    lv2:index 0 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "control" ;
+    lv2:name "Control" ;
+    rdfs:comment "GUI/host to plugin communication" ;
+  ] , [
+    a lv2:OutputPort ,
+      atom:AtomPort ;
+    atom:bufferType atom:Sequence ;
+    lv2:index 1 ;
+    lv2:designation lv2:control ;
+    lv2:symbol "notify" ;
+    lv2:name "Notify" ;
+    rdfs:comment "Plugin to GUI communication" ;
+  ] , [
+    a lv2:InputPort ,
+      lv2:ControlPort ;
+    lv2:index 2 ;
+    lv2:symbol "amount" ;
+    lv2:name "Amount" ;
+    lv2:default 0.120000 ;
+    lv2:minimum 0.000000 ;
+    lv2:maximum 1.000000 ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:AudioPort ;
+    lv2:index 3 ;
+    lv2:symbol "out_l" ;
+    lv2:name "Stereo Out L" ;
+  ] , [
+    a lv2:OutputPort ,
+      lv2:AudioPort ;
+    lv2:index 4 ;
+    lv2:symbol "out_r" ;
+    lv2:name "Stereo Out R" ;
+  ] .
+

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 08:39+0000\n"
+"POT-Creation-Date: 2020-03-21 22:34+0000\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -18,6 +18,64 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
+
+#: template.py:368
+msgid "ZChordz maps the chords of a minor or major scale to white keys"
+msgstr ""
+"ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
+"touches blanches"
+
+#: template.py:369
+msgid "Major or minor scale"
+msgstr ""
+
+#: template.py:370
+msgid "Velocity multiplier per note"
+msgstr ""
+
+#: template.py:373
+msgid "ZCompressor is a simple compressor"
+msgstr ""
+
+#: template.py:374
+msgid "Attack, Release, Ratio and Threshold parameters"
+msgstr ""
+
+#: template.py:378
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
+
+#: template.py:379
+msgid "Multi-oscillator with custom wave"
+msgstr "Multi-oscillateur avec onde personnalisée"
+
+#: template.py:380
+msgid "Phase shift"
+msgstr ""
+
+#: template.py:381
+msgid "Vertical/horizontal inversion"
+msgstr ""
+
+#: template.py:382
+msgid "Step mode"
+msgstr ""
+
+#: template.py:383
+msgid "Editable range"
+msgstr ""
+
+#: template.py:384
+msgid "Sync to host or free-form"
+msgstr ""
+
+#: template.py:387
+msgid "ZSaw is a supersaw synth with 1 parameter"
+msgstr ""
+
+#: template.py:388
+msgid "Single knob to control detune"
+msgstr ""
 
 #: common/header.j2.inc:24
 msgid ""
@@ -249,7 +307,7 @@ msgstr ""
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:63 template/plugins.html.j2:54
+#: template/explore.html.j2:63 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Fonctionnalités"
 
@@ -478,63 +536,13 @@ msgstr ""
 msgid "Plugins bundled with Zrythm"
 msgstr "Greffons embarqués avec Zrythm"
 
-#: template/plugins.html.j2:40
-msgid "ZLFO"
-msgstr "ZLFO"
-
-#: template/plugins.html.j2:48
-msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
-
-#: template/plugins.html.j2:56
-msgid "Multi-oscillator with custom wave"
-msgstr "Multi-oscillateur avec onde personnalisée"
-
-#: template/plugins.html.j2:57
-msgid "Phase shift"
-msgstr ""
-
-#: template/plugins.html.j2:58
-msgid "Vertical/horizontal inversion"
-msgstr ""
-
-#: template/plugins.html.j2:59
-msgid "Step mode"
-msgstr ""
-
-#: template/plugins.html.j2:60
-msgid "Editable range"
+#: template/plugins.html.j2:47
+msgid "{} screenshot"
 msgstr ""
 
 #: template/plugins.html.j2:61
-msgid "Sync to host or free-form"
-msgstr ""
-
-#: template/plugins.html.j2:65
-msgid "Designed by Mire"
-msgstr "Conçu par Mire"
-
-#: template/plugins.html.j2:70
 msgid "Technical specs"
 msgstr "Spécifications techniques"
-
-#: template/plugins.html.j2:75
-msgid "ZChordz"
-msgstr "ZChordz"
-
-#: template/plugins.html.j2:83
-msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
-"ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
-"touches blanches"
-
-#: template/plugins.html.j2:97
-msgid "Plugin"
-msgstr "Greffon"
-
-#: template/plugins.html.j2:102
-msgid "Coming soon"
-msgstr "Arrive bientôt"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
@@ -561,6 +569,21 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
+
+#~ msgid "ZChordz"
+#~ msgstr "ZChordz"
+
+#~ msgid "Designed by Mire"
+#~ msgstr "Conçu par Mire"
+
+#~ msgid "ZLFO"
+#~ msgstr "ZLFO"
+
+#~ msgid "Coming soon"
+#~ msgstr "Arrive bientôt"
+
+#~ msgid "Plugin"
+#~ msgstr "Greffon"
 
 #~ msgid "Zrythm is free software. Use, study, share and improve it freely."
 #~ msgstr ""
