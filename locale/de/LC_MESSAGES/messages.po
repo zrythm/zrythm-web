@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-21 22:34+0000\n"
+"POT-Creation-Date: 2020-03-26 14:48+0000\n"
 "PO-Revision-Date: 2019-10-25 17:53+0000\n"
 "Last-Translator: André Menrath <andre.menrath@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -502,7 +502,7 @@ msgid "Trademarks"
 msgstr ""
 
 #: template/legal.html.j2:64
-msgid "Zrythm is a trademark of Alexandros Theodotou."
+msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
 
 #: template/plugins.html.j2:22

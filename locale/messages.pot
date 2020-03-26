@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-21 22:36+0000\n"
+"POT-Creation-Date: 2020-03-26 14:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:368
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -498,7 +498,7 @@ msgid "Trademarks"
 msgstr ""
 
 #: template/legal.html.j2:64
-msgid "Zrythm is a trademark of Alexandros Theodotou."
+msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
 
 #: template/plugins.html.j2:22
