@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -29,6 +29,44 @@ GNU Affero General Public License for more details.
 {% endblock head_content %}
 
 {% block body_content %}
+<input type="checkbox" id="modal-privacy" class="modal" checked>
+<div>
+  <div class="card fluid" style="max-height: unset; margin: 24px;">
+    <label for="modal-privacy" class="modal-close" ></label>
+    <h3 class="section">Your privacy</h3>
+    <p class="section"><b>
+        We use cookies to improve your life experience by letting ad companies track you and know what pages you visit.</b>
+    </p>
+    <p class="centered">
+      We totally require cookies to show you crap on our website because, like, y'know, that's how the internet works, right? We don't even have a login form or anything like that or any reason at all to remember any information about what you do on this website, but why the hell not set cookies anyway so we can collect information about you and sell it to ad companies for revenue? They're, like, totally required to <s>screw visitors over for a few extra bucks</s> show crap in a web browser. Totally, dude.
+    </p>
+    <p>
+      But anyway, we really value your privacy. You can trust
+      us because we're so trustworthy ^.
+      You can find out more by reading our <a href="https://www.gnu.org/philosophy/free-sw.html">Privacy Policy</a> and <a href="https://www.gnu.org/philosophy/your-freedom-needs-free-software.html">Cookie Policy</a>.
+    </p>
+    <p>
+      Here's your <i>choices</i>:
+    </p>
+    <p>
+      <big><b><label for="modal-privacy" class="button primary">I agree because big button</label></b></big>
+      <small><a href="" class="button">Waste my time with meaningless cookie settings so I won't bother and click Accept anyway. Also make the other button bigger and more clickable because there isn't really a choice</a></small>
+    </p>
+    <br><br>
+    <p><small>
+      Note: This is a joke and will be pulled down after
+      April 1st. There are no cookies (and no javascript - no wonder everything loads instantly)
+      used on this website
+      (except maybe the payment forms from SendOwl - those
+      are not managed by us).
+      Most websites don't really need cookies, unless you want them to
+      remember login information or a session or things like
+      that. You should complain if a website asks you to
+      accept cookies for no legitimate reason.
+      </small></p>
+  </div>
+</div>
+
 <div class="centered">
   <h1>Zrythm
     <small>

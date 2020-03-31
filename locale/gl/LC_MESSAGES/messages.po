@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-31 05:56+0100\n"
+"POT-Creation-Date: 2020-03-31 21:25+0100\n"
 "PO-Revision-Date: 2020-03-26 14:57+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -357,16 +357,16 @@ msgstr ""
 "plugins LV2, funciona co backend de son de JACK e inclúe asistente de "
 "acordes."
 
-#: template/index.html.j2:35
+#: template/index.html.j2:73
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
 "unha estación de traballo de audio dixital intuitiva e moi automatizada"
 
-#: template/index.html.j2:51
+#: template/index.html.j2:89
 msgid "Overview"
 msgstr "Información xeral"
 
-#: template/index.html.j2:57
+#: template/index.html.j2:95
 msgid ""
 "Zrythm is a <span class=\"tooltip\" aria-label=\"Zrythm works on GNU/Linux, "
 "FreeBSD, MacOS and Windows\">cross-platform</span> <span class=\"tooltip\" "
@@ -381,11 +381,11 @@ msgstr ""
 "e Windows\"> multiplataforma </span> deseñada para ser completa e doada de "
 "empregar."
 
-#: template/index.html.j2:72
+#: template/index.html.j2:110
 msgid "Limitless automation"
 msgstr "Automatización ilimitada"
 
-#: template/index.html.j2:77
+#: template/index.html.j2:115
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
@@ -393,22 +393,22 @@ msgstr ""
 "Automatiza case calquera cousa cos eventos de automatización, empregando "
 "liñas rectas, ramplas e curvas, ou con LFOs e envolventes."
 
-#: template/index.html.j2:90
+#: template/index.html.j2:128
 msgid "LV2 plugins"
 msgstr "Plugins LV2"
 
-#: template/index.html.j2:95
+#: template/index.html.j2:133
 msgid ""
 "Complete support for LV2, a free and extensible standard for audio plugins."
 msgstr ""
 "Soporte completo para LV2, un estándar de plugins de audio gratuíto e "
 "extensible."
 
-#: template/index.html.j2:110
+#: template/index.html.j2:148
 msgid "Multi-backend support"
 msgstr "Soporte multi-backend"
 
-#: template/index.html.j2:115
+#: template/index.html.j2:153
 msgid ""
 "Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
 "Windows MME, CoreMidi and CoreAudio."
@@ -416,11 +416,11 @@ msgstr ""
 "Completamente compatible con JACK, incluído soporte para JACK transport, "
 "ALSA, WASAPI, Windows MME, CoreMidi e CoreAudio."
 
-#: template/index.html.j2:128
+#: template/index.html.j2:166
 msgid "Chord assistance"
 msgstr "Asistente de acordes"
 
-#: template/index.html.j2:133
+#: template/index.html.j2:171
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
@@ -428,11 +428,11 @@ msgstr ""
 "Inclúe un pad de acordes para probar rapidamente acordes nunha escala e unha"
 " pista de acordes para axudar coas progresións harmónicas."
 
-#: template/index.html.j2:148
+#: template/index.html.j2:186
 msgid "Liberating"
 msgstr "Liberador"
 
-#: template/index.html.j2:153
+#: template/index.html.j2:191
 msgid ""
 "Zrythm is <span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
 "software” means software that respects users' freedom and community\">free "
@@ -443,11 +443,11 @@ msgstr ""
 "comunidade\">software libre</span>. Úsao, estúdao, compárteo e mellórao "
 "libremente."
 
-#: template/index.html.j2:167
+#: template/index.html.j2:205
 msgid "Multilingual"
 msgstr "Multilingüe"
 
-#: template/index.html.j2:172
+#: template/index.html.j2:210
 msgid ""
 "Thanks to contributors, Zrythm is available in English, French, Portuguese, "
 "Japanese and German."
@@ -455,7 +455,7 @@ msgstr ""
 "Grazas aos colaboradores, ademais de en galego, Zrythm está dispoñible en "
 "inglés, francés, portugués, xaponés e alemán."
 
-#: template/index.html.j2:182
+#: template/index.html.j2:220
 msgid "Learn more"
 msgstr "Aprender máis"
 
