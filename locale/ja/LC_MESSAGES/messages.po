@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-31 05:41+0100\n"
+"POT-Creation-Date: 2020-03-31 05:56+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -32,47 +32,43 @@ msgstr ""
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:373
-msgid "ZCompressor is a simple compressor"
-msgstr ""
-
 #: template.py:374
-msgid "Attack, Release, Ratio and Threshold parameters"
+msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:378
-msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
-
-#: template.py:379
+#: template.py:375
 msgid "Multi-oscillator with custom wave"
 msgstr "多オシレータおよびカスタム"
 
-#: template.py:380
+#: template.py:376
 msgid "Phase shift"
 msgstr "位相シフト"
 
-#: template.py:381
+#: template.py:377
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平インバート"
 
-#: template.py:382
+#: template.py:378
 msgid "Step mode"
 msgstr "ステップモード"
 
-#: template.py:383
+#: template.py:379
 msgid "Editable range"
 msgstr "編集可能な出力範囲"
 
-#: template.py:384
+#: template.py:380
 msgid "Sync to host or free-form"
 msgstr "ホストと同期または自由周波数"
 
-#: template.py:387
+#: template.py:383
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:388
+#: template.py:384
+msgid "7 sawtooth oscillators"
+msgstr ""
+
+#: template.py:385
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -254,8 +250,8 @@ msgid "Free upgrades for alpha/beta releases"
 msgstr "アルファ/ベタ版リリースに対して無料アップグレード"
 
 #: template/download.html.j2:185
-msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
-msgstr "<s>£25</s> <b>£12.50</b>の一回限りの購入"
+msgid "<b>£25</b> one-time purchase"
+msgstr ""
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -553,6 +549,9 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "ホームページに戻る"
+
+#~ msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
+#~ msgstr "<s>£25</s> <b>£12.50</b>の一回限りの購入"
 
 #~ msgid "ZChordz"
 #~ msgstr "ZChordz"

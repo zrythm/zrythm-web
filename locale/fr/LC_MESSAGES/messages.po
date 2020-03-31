@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-31 05:41+0100\n"
+"POT-Creation-Date: 2020-03-31 05:56+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -33,47 +33,43 @@ msgstr ""
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:373
-msgid "ZCompressor is a simple compressor"
-msgstr ""
-
 #: template.py:374
-msgid "Attack, Release, Ratio and Threshold parameters"
+msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:378
-msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
-
-#: template.py:379
+#: template.py:375
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
-#: template.py:380
+#: template.py:376
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:381
+#: template.py:377
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:382
+#: template.py:378
 msgid "Step mode"
 msgstr ""
 
-#: template.py:383
+#: template.py:379
 msgid "Editable range"
 msgstr ""
 
-#: template.py:384
+#: template.py:380
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:387
+#: template.py:383
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:388
+#: template.py:384
+msgid "7 sawtooth oscillators"
+msgstr ""
+
+#: template.py:385
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -258,8 +254,8 @@ msgid "Free upgrades for alpha/beta releases"
 msgstr "Mises à jour gratuites pour les versions alpha/bêta"
 
 #: template/download.html.j2:185
-msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
-msgstr "<s>25£</s><b>12.50£</b> achat ponctuel"
+msgid "<b>£25</b> one-time purchase"
+msgstr ""
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -570,6 +566,9 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
+
+#~ msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
+#~ msgstr "<s>25£</s><b>12.50£</b> achat ponctuel"
 
 #~ msgid "ZChordz"
 #~ msgstr "ZChordz"

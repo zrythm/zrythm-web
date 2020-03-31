@@ -369,10 +369,6 @@ for in_file in glob.glob("template/*.j2"):
                 [ _('Major or minor scale'),
                     _('Velocity multiplier per note') ]),
             Plugin(
-                'ZCompressor', True, 'zcompressor-mar-21-2020.png',
-                _('ZCompressor is a simple compressor'),
-                [ _('Attack, Release, Ratio and Threshold parameters') ]),
-            Plugin(
                 'ZLFO', False,
                 'https://git.zrythm.org/cgit/ZLFO/plain/screenshots/2020_feb_12_zlfo.png',
                 _('ZLFO is a fully featured LFO for CV-based automation'),
@@ -385,7 +381,8 @@ for in_file in glob.glob("template/*.j2"):
             Plugin(
                 'ZSaw', True, 'zsaw-mar-21-2020.png',
                 _('ZSaw is a supersaw synth with 1 parameter'),
-                [ _('Single knob to control detune') ]),
+                [ _('7 sawtooth oscillators'),
+                    _('Single knob to control detune') ]),
             ]
 
         content = tmpl.render(lang=locale,
