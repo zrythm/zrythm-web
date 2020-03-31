@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-21 22:34+0000\n"
+"POT-Creation-Date: 2020-03-31 05:41+0100\n"
 "PO-Revision-Date: 2020-03-26 14:57+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -196,7 +196,8 @@ msgstr "Cifrado GPG"
 msgid "Trial version"
 msgstr "Versión de proba"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:95 template/download.html.j2:208
+#: template/download.html.j2:227
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 

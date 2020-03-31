@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-26 14:48+0000\n"
+"POT-Creation-Date: 2020-03-31 05:41+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -194,7 +194,8 @@ msgstr "GPG署名キー"
 msgid "Trial version"
 msgstr "体験版"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:95 template/download.html.j2:208
+#: template/download.html.j2:227
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-26 14:48+0000\n"
+"POT-Creation-Date: 2020-03-31 05:41+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/el/>\n"
@@ -192,7 +192,8 @@ msgstr ""
 msgid "Trial version"
 msgstr ""
 
-#: template/download.html.j2:95
+#: template/download.html.j2:95 template/download.html.j2:208
+#: template/download.html.j2:227
 msgid "GNU/Linux"
 msgstr ""
 
