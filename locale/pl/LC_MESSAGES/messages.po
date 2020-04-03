@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-03 19:04+0100\n"
+"POT-Creation-Date: 2020-04-03 19:12+0100\n"
 "PO-Revision-Date: 2019-11-02 13:27+0000\n"
 "Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -284,11 +284,17 @@ msgid ""
 "usually within an hour, but may take up to 24 hours."
 msgstr ""
 
-#: template/download.html.j2:256
+#: template/download.html.j2:250
+msgid ""
+"To avoid receiving multiple emails (one for each OS), you can send your OS "
+"preference to alex (at) zrythm (dot) org."
+msgstr ""
+
+#: template/download.html.j2:258
 msgid "OK, Subscribe"
 msgstr ""
 
-#: template/download.html.j2:267
+#: template/download.html.j2:269
 #, python-format
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
@@ -449,35 +455,40 @@ msgstr ""
 msgid "Tutorials"
 msgstr "Samouczki"
 
-#: template/learn.html.j2:49
+#: template/learn.html.j2:46 template/learn.html.j2:60
+#: template/learn.html.j2:75
+msgid "Your browser does not support HTML5 video"
+msgstr ""
+
+#: template/learn.html.j2:51
 msgid "Basic demo"
 msgstr ""
 
-#: template/learn.html.j2:61
+#: template/learn.html.j2:65
 msgid "ZLFO demo"
 msgstr ""
 
-#: template/learn.html.j2:74
+#: template/learn.html.j2:80
 msgid "MIDI tracks"
 msgstr ""
 
-#: template/learn.html.j2:82
+#: template/learn.html.j2:88
 msgid "User manual"
 msgstr ""
 
-#: template/learn.html.j2:89 template/learn.html.j2:106
+#: template/learn.html.j2:95 template/learn.html.j2:112
 msgid "Browse Online"
 msgstr ""
 
-#: template/learn.html.j2:92
+#: template/learn.html.j2:98
 msgid "Download as HTML"
 msgstr ""
 
-#: template/learn.html.j2:95
+#: template/learn.html.j2:101
 msgid "Download as PDF"
 msgstr ""
 
-#: template/learn.html.j2:99
+#: template/learn.html.j2:105
 msgid "Developer docs"
 msgstr "Dokumentacja dla programistów"
 
