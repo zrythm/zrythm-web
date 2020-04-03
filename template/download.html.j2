@@ -236,13 +236,28 @@ GNU Affero General Public License for more details.
       <div class="col-sm-4">
         <p>
           <center>
-            <form action="https://www.paypal.com/cgi-bin/webscr"
-                  class="no_css_form" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="TW2KFULQ4LBAN">
-              <input type="submit" class="button primary" value="{{ _('Subscribe') }}"
-                     name="submit">
-            </form>
+            <label class="button primary" for="modal-subscribe">{{ _('Subscribe') }}</label>
+            <input type="checkbox" id="modal-subscribe" class="modal">
+            <div>
+              <div class="card fluid" style="max-width: 80vw">
+                <label for="modal-subscribe" class="modal-close" ></label>
+                <h3 class="section">{{ _('Note') }}</h3>
+                <p>
+                  {% trans %}
+                  The first time you subscribe, the subscription will be processed manually, usually within an hour, but may take up to 24 hours.
+                  {% endtrans %}
+                <br>
+                  To avoid receiving multiple emails (one for each OS), you can send your OS preference to alex (at) zrythm (dot) org.
+                </p>
+                <form action="https://www.paypal.com/cgi-bin/webscr"
+                      class="no_css_form" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="TW2KFULQ4LBAN">
+                  <input type="submit" class="button primary" value="{{ _('OK, Subscribe') }}"
+                         name="submit">
+                </form>
+              </div>
+            </div>
           </center>
         </p>
       </div>
