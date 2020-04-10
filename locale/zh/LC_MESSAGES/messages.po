@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-03 19:12+0100\n"
+"POT-Creation-Date: 2020-04-07 13:02+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -247,7 +247,7 @@ msgid "Free upgrades for alpha/beta releases"
 msgstr ""
 
 #: template/download.html.j2:185
-msgid "<b>£25</b> one-time purchase"
+msgid "<b>£15</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:190

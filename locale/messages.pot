@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-03 19:12+0100\n"
+"POT-Creation-Date: 2020-04-10 22:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:368
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -245,7 +245,7 @@ msgid "Free upgrades for alpha/beta releases"
 msgstr ""
 
 #: template/download.html.j2:185
-msgid "<b>£25</b> one-time purchase"
+msgid "<b>£15</b> one-time purchase"
 msgstr ""
 
 #: template/download.html.j2:190
