@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-07 13:02+0100\n"
+"POT-Creation-Date: 2020-04-12 14:31+0100\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -103,7 +103,7 @@ msgid "Plugins"
 msgstr ""
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
-#: template/community.html.j2:32
+#: template/community.html.j2:31
 msgid "Community"
 msgstr "Fellesskap"
 
@@ -115,47 +115,31 @@ msgstr "Språk"
 msgid "Zrythm's community pages and communication channels"
 msgstr ""
 
-#: template/community.html.j2:38
+#: template/community.html.j2:37
 msgid "Chat"
 msgstr ""
 
-#: template/community.html.j2:46
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:52
-msgid "#zrythm on irc.freenode.net"
-msgstr "#zrythm på irc.freenode.net"
-
-#: template/community.html.j2:60
-msgid "Matrix"
-msgstr "Matrix"
-
-#: template/community.html.j2:72
-msgid "Discord"
-msgstr ""
-
-#: template/community.html.j2:86
+#: template/community.html.j2:55
 msgid "Mail"
 msgstr ""
 
-#: template/community.html.j2:94
-msgid "User"
+#: template/community.html.j2:62
+msgid "Users"
 msgstr ""
 
-#: template/community.html.j2:106
-msgid "Developer"
-msgstr "Utvikler"
+#: template/community.html.j2:65
+msgid "Developers"
+msgstr ""
 
-#: template/community.html.j2:120
+#: template/community.html.j2:69
+msgid "Project"
+msgstr ""
+
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr "Problemsporer"
 
-#: template/community.html.j2:132 template/community.html.j2:154
-msgid "zrythm project"
-msgstr "Zrythm-prosjektet"
-
-#: template/community.html.j2:142
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr ""
 
@@ -562,6 +546,21 @@ msgstr ""
 msgid "Go back to home page"
 msgstr ""
 
+#~ msgid "Donate"
+#~ msgstr "Doner"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "#zrythm på irc.freenode.net"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrix"
+
+#~ msgid "zrythm project"
+#~ msgstr "Zrythm-prosjektet"
+
 #~ msgid "JACK support"
 #~ msgstr "JACK-støtte"
 
@@ -749,9 +748,6 @@ msgstr ""
 #~ msgid "Design"
 #~ msgstr "Design"
 
-#~ msgid "Donate"
-#~ msgstr "Doner"
-
 #~ msgid "Team"
 #~ msgstr "Laget"
 
@@ -760,9 +756,6 @@ msgstr ""
 
 #~ msgid "FAQ"
 #~ msgstr "O-S-S"
-
-#~ msgid "Support Us"
-#~ msgstr "Støtt oss"
 
 #~ msgid "Forum"
 #~ msgstr "Forum"

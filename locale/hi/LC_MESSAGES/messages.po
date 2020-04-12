@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-07 13:02+0100\n"
+"POT-Creation-Date: 2020-04-12 14:31+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/hi/>\n"
@@ -103,7 +103,7 @@ msgid "Plugins"
 msgstr ""
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
-#: template/community.html.j2:32
+#: template/community.html.j2:31
 msgid "Community"
 msgstr "कम्युनिटी"
 
@@ -115,47 +115,31 @@ msgstr ""
 msgid "Zrythm's community pages and communication channels"
 msgstr ""
 
-#: template/community.html.j2:38
+#: template/community.html.j2:37
 msgid "Chat"
 msgstr ""
 
-#: template/community.html.j2:46
-msgid "IRC"
-msgstr ""
-
-#: template/community.html.j2:52
-msgid "#zrythm on irc.freenode.net"
-msgstr ""
-
-#: template/community.html.j2:60
-msgid "Matrix"
-msgstr ""
-
-#: template/community.html.j2:72
-msgid "Discord"
-msgstr ""
-
-#: template/community.html.j2:86
+#: template/community.html.j2:55
 msgid "Mail"
 msgstr ""
 
-#: template/community.html.j2:94
-msgid "User"
+#: template/community.html.j2:62
+msgid "Users"
 msgstr ""
 
-#: template/community.html.j2:106
-msgid "Developer"
+#: template/community.html.j2:65
+msgid "Developers"
 msgstr ""
 
-#: template/community.html.j2:120
+#: template/community.html.j2:69
+msgid "Project"
+msgstr ""
+
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:132 template/community.html.j2:154
-msgid "zrythm project"
-msgstr ""
-
-#: template/community.html.j2:142
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-07 13:02+0100\n"
+"POT-Creation-Date: 2020-04-12 14:31+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -108,7 +108,7 @@ msgid "Plugins"
 msgstr "Greffons"
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
-#: template/community.html.j2:32
+#: template/community.html.j2:31
 msgid "Community"
 msgstr "Communauté"
 
@@ -120,47 +120,31 @@ msgstr "Langue"
 msgid "Zrythm's community pages and communication channels"
 msgstr "Les pages communautaires et les canaux de communication de Zrythm"
 
-#: template/community.html.j2:38
+#: template/community.html.j2:37
 msgid "Chat"
 msgstr "Tchat"
 
-#: template/community.html.j2:46
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:52
-msgid "#zrythm on irc.freenode.net"
-msgstr "#zrythm sur irc.freenode.net"
-
-#: template/community.html.j2:60
-msgid "Matrix"
-msgstr "Matrice"
-
-#: template/community.html.j2:72
-msgid "Discord"
-msgstr "Discord"
-
-#: template/community.html.j2:86
+#: template/community.html.j2:55
 msgid "Mail"
 msgstr "Courriel"
 
-#: template/community.html.j2:94
-msgid "User"
-msgstr "Utilisateur"
+#: template/community.html.j2:62
+msgid "Users"
+msgstr ""
 
-#: template/community.html.j2:106
-msgid "Developer"
-msgstr "Développeur"
+#: template/community.html.j2:65
+msgid "Developers"
+msgstr ""
 
-#: template/community.html.j2:120
+#: template/community.html.j2:69
+msgid "Project"
+msgstr ""
+
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr "Suivi des problèmes"
 
-#: template/community.html.j2:132 template/community.html.j2:154
-msgid "zrythm project"
-msgstr "projet zrythm"
-
-#: template/community.html.j2:142
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr "Translations"
 
@@ -596,6 +580,24 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
 
+#~ msgid "Donate"
+#~ msgstr "Faire un don"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "#zrythm sur irc.freenode.net"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrice"
+
+#~ msgid "Discord"
+#~ msgstr "Discord"
+
+#~ msgid "zrythm project"
+#~ msgstr "projet zrythm"
+
 #~ msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
 #~ msgstr "<s>25£</s><b>12.50£</b> achat ponctuel"
 
@@ -1011,9 +1013,6 @@ msgstr "Retour à la page d'accueil"
 #~ "changer son design sans trop connaître le code. Regardez <a "
 #~ "href=\"%(git_blob_url)s/resources/theme.css\">ici</a>."
 
-#~ msgid "Donate"
-#~ msgstr "Faire un don"
-
 #~ msgid ""
 #~ "We appreciate contributions of any size -- donations enable us to spend more"
 #~ " time working on the project, and help cover our infrastructure expenses. "
@@ -1088,9 +1087,6 @@ msgstr "Retour à la page d'accueil"
 
 #~ msgid "FAQ"
 #~ msgstr "FAQ"
-
-#~ msgid "Support Us"
-#~ msgstr "Soutenez-nous"
 
 #~ msgid "Forum"
 #~ msgstr "Forum"
@@ -1235,9 +1231,6 @@ msgstr "Retour à la page d'accueil"
 
 #~ msgid "Happy translating!"
 #~ msgstr "Bonne traduction !"
-
-#~ msgid "New Mailing Lists Are Up"
-#~ msgstr "Les nouvelles listes de diffusion sont fonctionnelles"
 
 #~ msgid "Older News"
 #~ msgstr "Anciennes actualités"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-07 13:02+0100\n"
+"POT-Creation-Date: 2020-04-12 14:31+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -106,7 +106,7 @@ msgid "Plugins"
 msgstr "プラグイン"
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
-#: template/community.html.j2:32
+#: template/community.html.j2:31
 msgid "Community"
 msgstr "コミュニティ"
 
@@ -118,47 +118,31 @@ msgstr "言語"
 msgid "Zrythm's community pages and communication channels"
 msgstr "Zrythmのコミュニティページとコミュニケーションチャネル"
 
-#: template/community.html.j2:38
+#: template/community.html.j2:37
 msgid "Chat"
 msgstr "チャット"
 
-#: template/community.html.j2:46
-msgid "IRC"
-msgstr "IRC"
-
-#: template/community.html.j2:52
-msgid "#zrythm on irc.freenode.net"
-msgstr "irc.freenode.netの#zrythm"
-
-#: template/community.html.j2:60
-msgid "Matrix"
-msgstr "Matrix"
-
-#: template/community.html.j2:72
-msgid "Discord"
-msgstr "Discord"
-
-#: template/community.html.j2:86
+#: template/community.html.j2:55
 msgid "Mail"
 msgstr "メール"
 
-#: template/community.html.j2:94
-msgid "User"
-msgstr "ユーザー"
+#: template/community.html.j2:62
+msgid "Users"
+msgstr ""
 
-#: template/community.html.j2:106
-msgid "Developer"
-msgstr "開発者"
+#: template/community.html.j2:65
+msgid "Developers"
+msgstr ""
 
-#: template/community.html.j2:120
+#: template/community.html.j2:69
+msgid "Project"
+msgstr ""
+
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr "課題管理システム"
 
-#: template/community.html.j2:132 template/community.html.j2:154
-msgid "zrythm project"
-msgstr "zrythmプロジェクト"
-
-#: template/community.html.j2:142
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr "翻訳"
 
@@ -579,6 +563,24 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "ホームページに戻る"
 
+#~ msgid "Donate"
+#~ msgstr "支援する"
+
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgid "#zrythm on irc.freenode.net"
+#~ msgstr "irc.freenode.netの#zrythm"
+
+#~ msgid "Matrix"
+#~ msgstr "Matrix"
+
+#~ msgid "Discord"
+#~ msgstr "Discord"
+
+#~ msgid "zrythm project"
+#~ msgstr "zrythmプロジェクト"
+
 #~ msgid "<s>£25</s> <b>£12.50</b> one-time purchase"
 #~ msgstr "<s>£25</s> <b>£12.50</b>の一回限りの購入"
 
@@ -914,9 +916,6 @@ msgstr "ホームページに戻る"
 #~ "Zrythm自体は完全にCSSのテーマを使用しているので、コードについてあまり知らなくても簡単にデザインを変更できます。<a "
 #~ "href=\"%(git_blob_url)s/resources/theme.css\">こちら</a>見てください。"
 
-#~ msgid "Donate"
-#~ msgstr "支援する"
-
 #~ msgid ""
 #~ "We appreciate contributions of any size -- donations enable us to spend more"
 #~ " time working on the project, and help cover our infrastructure expenses. "
@@ -976,9 +975,6 @@ msgstr "ホームページに戻る"
 
 #~ msgid "FAQ"
 #~ msgstr "よくある質問"
-
-#~ msgid "Support Us"
-#~ msgstr "支援する"
 
 #~ msgid "Forum"
 #~ msgstr "フォーラム"
