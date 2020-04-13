@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-12 14:31+0100\n"
+"POT-Creation-Date: 2020-04-14 00:19+0100\n"
 "PO-Revision-Date: 2020-03-26 14:57+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: template.py:368
+#: template.py:379
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea os acordes dunha escala maior ou menor nas teclas brancas"
 
-#: template.py:369
+#: template.py:380
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:370
+#: template.py:381
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador da intensidade por nota"
 
-#: template.py:374
+#: template.py:385
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:375
+#: template.py:386
 msgid "Multi-oscillator with custom wave"
 msgstr "Oscilador múltiple con onda personalizada"
 
-#: template.py:376
+#: template.py:387
 msgid "Phase shift"
 msgstr "Invertir fase"
 
-#: template.py:377
+#: template.py:388
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:378
+#: template.py:389
 msgid "Step mode"
 msgstr "Modo escalonado"
 
-#: template.py:379
+#: template.py:390
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:380
+#: template.py:391
 msgid "Sync to host or free-form"
 msgstr "Sincronizar ou forma libre"
 
-#: template.py:383
+#: template.py:394
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é un sintetizador de supersaw cun único parámetro"
 
-#: template.py:384
+#: template.py:395
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:385
+#: template.py:396
 msgid "Single knob to control detune"
 msgstr "Un único botón para controlar a desafinación"
 

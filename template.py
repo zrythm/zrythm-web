@@ -215,6 +215,17 @@ if r.status_code == 200:
 else:
     print (r.json())
 
+# add opencollective earnings
+r = requests.get("https://opencollective.com/zrythm.json")
+if r.status_code == 200:
+    profit = float(r.json()['yearlyIncome']) / 1200.0
+    profit *= usd_to_gbp
+    profit = float('%.2f' % profit)
+    print ('adding {} opencollective earnings (estimated)'.format(profit))
+    monthly_earning += profit
+else:
+    print (r.json())
+
 monthly_earning_str = '{0:.2f}'.format(monthly_earning)
 
 # get latest version

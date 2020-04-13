@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-12 14:31+0100\n"
+"POT-Creation-Date: 2020-04-14 00:19+0100\n"
 "PO-Revision-Date: 2019-10-25 17:53+0000\n"
 "Last-Translator: André Menrath <andre.menrath@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.9.1-dev\n"
 
-#: template.py:368
+#: template.py:379
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:369
+#: template.py:380
 msgid "Major or minor scale"
 msgstr ""
 
-#: template.py:370
+#: template.py:381
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:374
+#: template.py:385
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:375
+#: template.py:386
 msgid "Multi-oscillator with custom wave"
 msgstr ""
 
-#: template.py:376
+#: template.py:387
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:377
+#: template.py:388
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:378
+#: template.py:389
 msgid "Step mode"
 msgstr ""
 
-#: template.py:379
+#: template.py:390
 msgid "Editable range"
 msgstr ""
 
-#: template.py:380
+#: template.py:391
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:383
+#: template.py:394
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:384
+#: template.py:395
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:385
+#: template.py:396
 msgid "Single knob to control detune"
 msgstr ""
 
