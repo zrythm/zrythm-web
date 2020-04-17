@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-04-17 21:27+0100\n"
-"PO-Revision-Date: 2020-03-26 14:57+0000\n"
+"PO-Revision-Date: 2020-04-16 22:11+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
 "Language: gl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.0.1-dev\n"
 
 #: template.py:379
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -34,7 +34,7 @@ msgstr "Multiplicador da intensidade por nota"
 
 #: template.py:385
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO é un LFO completo para automatización baseada en CV"
 
 #: template.py:386
 msgid "Multi-oscillator with custom wave"
@@ -66,7 +66,7 @@ msgstr "ZSaw é un sintetizador de supersaw cun único parámetro"
 
 #: template.py:395
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 osciladores dente de serra"
 
 #: template.py:396
 msgid "Single knob to control detune"
@@ -237,7 +237,7 @@ msgstr "Actualizacións gratuítas para as versións alfa e beta"
 
 #: template/download.html.j2:185
 msgid "<b>£15</b> one-time purchase"
-msgstr ""
+msgstr "<b>£15</b> pago único"
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -265,17 +265,19 @@ msgstr "Subscríbete"
 
 #: template/download.html.j2:244
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: template/download.html.j2:246
 msgid ""
 "Subscriptions are handled manually. Please allow up to 24 hours to receive "
 "your first downloads."
 msgstr ""
+"A primeira vez que te subscribes, a subscrición procesarase manualmente, "
+"xeralmente no lapso dunha hora, aínda que pode levar até 24 horas."
 
 #: template/download.html.j2:255
 msgid "OK, Subscribe"
-msgstr ""
+msgstr "OK, Subscribirme"
 
 #: template/download.html.j2:266
 #, python-format
@@ -376,8 +378,7 @@ msgstr ""
 " de audio dixital é un programa que serve para gravar, editar e producir "
 "ficheiros de son\">estación de traballo de audio dixital</span> <span "
 "class=\"tooltip\" aria-label=\"Zrythm funciona en GNU/Linux, FreeBSD, MacOS "
-"e Windows\"> multiplataforma </span> deseñada para ser completa e doada de "
-"empregar."
+"e Windows\"> multiplataforma </span> deseñada para ser completa e doada."
 
 #: template/index.html.j2:72
 msgid "Limitless automation"
@@ -459,7 +460,7 @@ msgstr "Titoriais"
 #: template/learn.html.j2:46 template/learn.html.j2:60
 #: template/learn.html.j2:75
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "O teu navegador non soporta vídeo HTML5"
 
 #: template/learn.html.j2:51
 msgid "Basic demo"
@@ -471,7 +472,7 @@ msgstr "Demo do ZLFO"
 
 #: template/learn.html.j2:80
 msgid "MIDI tracks"
-msgstr ""
+msgstr "Pistas MIDI"
 
 #: template/learn.html.j2:88
 msgid "User manual"
@@ -534,6 +535,7 @@ msgstr "Marcas comerciais"
 #: template/legal.html.j2:64
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
+"Zrythm e o logo de Zrythm son marcas comerciais de Alexandros Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
