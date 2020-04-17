@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-14 00:19+0100\n"
+"POT-Creation-Date: 2020-04-17 21:24+0100\n"
 "PO-Revision-Date: 2020-02-26 13:12+0000\n"
 "Last-Translator: Alexandros Theodotou\n"
 "Language-Team: English (UK) <https://hosted.weblate.org/projects/zrythm/web/en_GB/>\n"
@@ -264,21 +264,15 @@ msgstr ""
 
 #: template/download.html.j2:246
 msgid ""
-"The first time you subscribe, the subscription will be processed manually, "
-"usually within an hour, but may take up to 24 hours."
+"Subscriptions are handled manually. Please allow up to 24 hours to receive "
+"your first downloads."
 msgstr ""
 
-#: template/download.html.j2:250
-msgid ""
-"To avoid receiving multiple emails (one for each OS), you can send your OS "
-"preference to alex (at) zrythm (dot) org."
-msgstr ""
-
-#: template/download.html.j2:258
+#: template/download.html.j2:255
 msgid "OK, Subscribe"
 msgstr ""
 
-#: template/download.html.j2:269
+#: template/download.html.j2:266
 #, python-format
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr ""
@@ -378,56 +372,57 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:90
-msgid "LV2 plugins"
+msgid "Audio plugins"
 msgstr ""
 
 #: template/index.html.j2:95
 msgid ""
-"Complete support for LV2, a free and extensible standard for audio plugins."
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+"experimental support for VST3."
 msgstr ""
 
-#: template/index.html.j2:110
+#: template/index.html.j2:109
 msgid "Multi-backend support"
 msgstr ""
 
-#: template/index.html.j2:115
+#: template/index.html.j2:114
 msgid ""
-"Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
-"Windows MME, CoreMidi and CoreAudio."
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
+"for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
-#: template/index.html.j2:128
+#: template/index.html.j2:127
 msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:133
+#: template/index.html.j2:132
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:148
+#: template/index.html.j2:147
 msgid "Liberating"
 msgstr ""
 
-#: template/index.html.j2:153
+#: template/index.html.j2:152
 msgid ""
-"Zrythm is <span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
-"software” means software that respects users' freedom and community\">free "
-"software</span>. Use, study, share and improve it freely."
+"Zrythm is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">free "
+"software</a>. Use, study, share and improve it freely."
 msgstr ""
 
-#: template/index.html.j2:167
+#: template/index.html.j2:164
 msgid "Multilingual"
 msgstr ""
 
-#: template/index.html.j2:172
+#: template/index.html.j2:169
 msgid ""
-"Thanks to contributors, Zrythm is available in English, French, Portuguese, "
-"Japanese and German."
+"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
+"languages</a> including English, French, Galician, Portuguese, Japanese and "
+"German."
 msgstr ""
 
-#: template/index.html.j2:182
+#: template/index.html.j2:180
 msgid "Learn more"
 msgstr ""
 

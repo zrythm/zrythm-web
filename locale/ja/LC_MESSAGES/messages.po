@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-14 00:19+0100\n"
+"POT-Creation-Date: 2020-04-17 21:27+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -267,21 +267,15 @@ msgstr ""
 
 #: template/download.html.j2:246
 msgid ""
-"The first time you subscribe, the subscription will be processed manually, "
-"usually within an hour, but may take up to 24 hours."
+"Subscriptions are handled manually. Please allow up to 24 hours to receive "
+"your first downloads."
 msgstr ""
 
-#: template/download.html.j2:250
-msgid ""
-"To avoid receiving multiple emails (one for each OS), you can send your OS "
-"preference to alex (at) zrythm (dot) org."
-msgstr ""
-
-#: template/download.html.j2:258
+#: template/download.html.j2:255
 msgid "OK, Subscribe"
 msgstr ""
 
-#: template/download.html.j2:269
+#: template/download.html.j2:266
 #, python-format
 msgid "This month we received £%(monthly_earning_str)s. Our goal is £3,000."
 msgstr "今月は£%(monthly_earning_str)sをいただきました。目標は£3,000です。"
@@ -388,59 +382,57 @@ msgid ""
 msgstr "直線、スロープ、カーブ、または LFO とエンベロープを使用して、オートメーション イベントを使用してほぼすべてを自動化できます。"
 
 #: template/index.html.j2:90
-msgid "LV2 plugins"
-msgstr "LV2プラグイン"
+msgid "Audio plugins"
+msgstr ""
 
 #: template/index.html.j2:95
 msgid ""
-"Complete support for LV2, a free and extensible standard for audio plugins."
-msgstr "オーディオプラグインのオープンスタンダードで拡張可能な標準であるLV2を完全に対応。"
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+"experimental support for VST3."
+msgstr ""
 
-#: template/index.html.j2:110
+#: template/index.html.j2:109
 msgid "Multi-backend support"
 msgstr "多バックエンド対応"
 
-#: template/index.html.j2:115
+#: template/index.html.j2:114
 msgid ""
-"Fully JACK aware, including support for JACK transport, ALSA, WASAPI, "
-"Windows MME, CoreMidi and CoreAudio."
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
+"for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
-"ALSA、WASAPI、Windows MME、CoreMidiおよびCoreAudioに加えて、JACKトランスポートを含む、完全なJACK対応。"
 
-#: template/index.html.j2:128
+#: template/index.html.j2:127
 msgid "Chord assistance"
 msgstr "和音援助"
 
-#: template/index.html.j2:133
+#: template/index.html.j2:132
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr "和音進行に役立つコードトラック、音階および和音をすばやく試聴するためのコードパッドを備えています。"
 
-#: template/index.html.j2:148
+#: template/index.html.j2:147
 msgid "Liberating"
 msgstr "自由的"
 
-#: template/index.html.j2:153
+#: template/index.html.j2:152
 msgid ""
-"Zrythm is <span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
-"software” means software that respects users' freedom and community\">free "
-"software</span>. Use, study, share and improve it freely."
+"Zrythm is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">free "
+"software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythmは<span class=\"tooltip tooltip_shifted\" aria-"
-"label=\"「自由なソフトウェア」は利用者の自由とコミュニティを尊重するソフトウェアを意味します\">自由なソフトウェア</span>です。自由に使用、勉学、共有、改善できます。"
 
-#: template/index.html.j2:167
+#: template/index.html.j2:164
 msgid "Multilingual"
 msgstr "多言語に対応"
 
-#: template/index.html.j2:172
+#: template/index.html.j2:169
 msgid ""
-"Thanks to contributors, Zrythm is available in English, French, Portuguese, "
-"Japanese and German."
-msgstr "貢献者のおかげで、Zrythmは英語、フランス語、ポルトガル語、日本語、ドイツ語でご利用いただけます。"
+"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
+"languages</a> including English, French, Galician, Portuguese, Japanese and "
+"German."
+msgstr ""
 
-#: template/index.html.j2:182
+#: template/index.html.j2:180
 msgid "Learn more"
 msgstr "詳細"
 
@@ -563,6 +555,21 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "ホームページに戻る"
 
+#~ msgid "LV2 plugins"
+#~ msgstr "LV2プラグイン"
+
+#~ msgid ""
+#~ "Complete support for LV2, a free and extensible standard for audio plugins."
+#~ msgstr "オーディオプラグインのオープンスタンダードで拡張可能な標準であるLV2を完全に対応。"
+
+#~ msgid ""
+#~ "Zrythm is <span class=\"tooltip tooltip_shifted\" aria-label=\"“Free "
+#~ "software” means software that respects users' freedom and community\">free "
+#~ "software</span>. Use, study, share and improve it freely."
+#~ msgstr ""
+#~ "Zrythmは<span class=\"tooltip tooltip_shifted\" aria-"
+#~ "label=\"「自由なソフトウェア」は利用者の自由とコミュニティを尊重するソフトウェアを意味します\">自由なソフトウェア</span>です。自由に使用、勉学、共有、改善できます。"
+
 #~ msgid "Donate"
 #~ msgstr "支援する"
 
@@ -598,9 +605,6 @@ msgstr "ホームページに戻る"
 
 #~ msgid "Plugin"
 #~ msgstr "プラグイン"
-
-#~ msgid "Zrythm is free software. Use, study, share and improve it freely."
-#~ msgstr "Zrythmは自由なソフトウェアです。自由に使用、勉学、共有、改善できます。"
 
 #~ msgid "JACK support"
 #~ msgstr "JACK対応"
@@ -1043,11 +1047,6 @@ msgstr "ホームページに戻る"
 
 #~ msgid "Speaks Your Language"
 #~ msgstr "あなたの言語を話す"
-
-#~ msgid ""
-#~ "Available in English, German, French, Italian, Spanish, Japanese and many "
-#~ "more languages."
-#~ msgstr "英語、ドイツ語、フランス語、イタリア語、スペイン語、日本語、その他多数の言語で利用可能です。"
 
 #~ msgid "Cross-platform"
 #~ msgstr "クロスプラットフォーム"
