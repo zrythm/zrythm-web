@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:24+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2020-03-30 22:14+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -110,7 +110,11 @@ msgstr "Plugins"
 msgid "Community"
 msgstr "Comunidade"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "Fórum"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr "Idioma"
 
@@ -752,9 +756,6 @@ msgstr "Voltar à página inicial"
 
 #~ msgid "FAQ"
 #~ msgstr "FAQ"
-
-#~ msgid "Forum"
-#~ msgstr "Fórum"
 
 #~ msgid "Join Us"
 #~ msgstr "Junte-se a nós"

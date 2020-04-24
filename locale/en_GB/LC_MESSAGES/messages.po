@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:24+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2020-02-26 13:12+0000\n"
 "Last-Translator: Alexandros Theodotou\n"
 "Language-Team: English (UK) <https://hosted.weblate.org/projects/zrythm/web/en_GB/>\n"
@@ -107,7 +107,11 @@ msgstr ""
 msgid "Community"
 msgstr ""
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr ""
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr ""
 

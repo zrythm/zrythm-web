@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:27+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2020-04-11 22:09+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -112,7 +112,11 @@ msgstr "Greffons"
 msgid "Community"
 msgstr "Communauté"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "Forum"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr "Langue"
 
@@ -1086,9 +1090,6 @@ msgstr "Retour à la page d'accueil"
 
 #~ msgid "FAQ"
 #~ msgstr "FAQ"
-
-#~ msgid "Forum"
-#~ msgstr "Forum"
 
 #~ msgid "Discussion"
 #~ msgstr "Discussion"

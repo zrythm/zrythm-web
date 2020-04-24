@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:27+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2020-03-15 23:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -110,7 +110,11 @@ msgstr "プラグイン"
 msgid "Community"
 msgstr "コミュニティ"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "フォーラム"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr "言語"
 
@@ -979,9 +983,6 @@ msgstr "ホームページに戻る"
 
 #~ msgid "FAQ"
 #~ msgstr "よくある質問"
-
-#~ msgid "Forum"
-#~ msgstr "フォーラム"
 
 #~ msgid "Discussion"
 #~ msgstr "ディスカッション"

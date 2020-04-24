@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:24+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -107,7 +107,11 @@ msgstr ""
 msgid "Community"
 msgstr "Fellesskap"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "Forum"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr "Språk"
 
@@ -751,9 +755,6 @@ msgstr ""
 
 #~ msgid "FAQ"
 #~ msgstr "O-S-S"
-
-#~ msgid "Forum"
-#~ msgstr "Forum"
 
 #~ msgid "Discussion"
 #~ msgstr "Diskusjon"

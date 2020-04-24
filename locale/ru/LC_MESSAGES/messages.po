@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:24+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2020-03-30 12:27+0000\n"
 "Last-Translator: Viktor S <awsswa59@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -107,7 +107,11 @@ msgstr ""
 msgid "Community"
 msgstr "Сообщество"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "Форум"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr ""
 
@@ -617,9 +621,6 @@ msgstr ""
 
 #~ msgid "FAQ"
 #~ msgstr "Вопросы и ответы"
-
-#~ msgid "Forum"
-#~ msgstr "Форум"
 
 #~ msgid "Discussion"
 #~ msgstr "Обсуждение"

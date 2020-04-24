@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:24+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2020-03-01 23:33+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -110,7 +110,11 @@ msgstr ""
 msgid "Community"
 msgstr "Comunidad"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "Foro"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr "Idioma"
 
@@ -620,9 +624,6 @@ msgstr "Volver a la página principal"
 
 #~ msgid "FAQ"
 #~ msgstr "Preguntas Frecuentes"
-
-#~ msgid "Forum"
-#~ msgstr "Foro"
 
 #~ msgid "Discussion"
 #~ msgstr "Discusión"

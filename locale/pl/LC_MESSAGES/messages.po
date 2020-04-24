@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-17 21:24+0100\n"
+"POT-Creation-Date: 2020-04-24 21:31+0100\n"
 "PO-Revision-Date: 2019-11-02 13:27+0000\n"
 "Last-Translator: Desmond <xenhiltv@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -107,7 +107,11 @@ msgstr ""
 msgid "Community"
 msgstr "Społeczność"
 
-#: common/navigation.j2.inc:75
+#: common/navigation.j2.inc:63
+msgid "Forum"
+msgstr "Forum"
+
+#: common/navigation.j2.inc:81
 msgid "Language"
 msgstr "Język"
 
@@ -764,9 +768,6 @@ msgstr ""
 
 #~ msgid "Zrythm installation instructions: <ul> <li>TODO</li> </ul>"
 #~ msgstr "Instrukcje dotyczące instalacji Zrythm: <ul> <li>TODO</li> </ul>"
-
-#~ msgid "Forum"
-#~ msgstr "Forum"
 
 #~ msgid "Discussion"
 #~ msgstr "Dyskusja"

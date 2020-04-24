@@ -58,6 +58,12 @@ GNU Affero General Public License for more details.
     Community
     {% endtrans %}
   </a>
+  <a href="https://forum.zrythm.org"
+     class="button">
+    {% trans %}
+    Forum
+    {% endtrans %}
+  </a>
   <label for="modal-control"
      class="button globe">
     <img class="logo_img" width=28
