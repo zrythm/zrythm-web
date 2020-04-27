@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-04-17 21:27+0100\n"
-"PO-Revision-Date: 2020-03-15 23:58+0000\n"
+"PO-Revision-Date: 2020-04-28 13:35+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.0.2\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.0-dev\n"
 
 #: template.py:379
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -26,15 +27,15 @@ msgstr "ZChordz は、マイナーまたはメジャースケールの和音を�
 
 #: template.py:380
 msgid "Major or minor scale"
-msgstr ""
+msgstr "メジャーまたはマイナー音階"
 
 #: template.py:381
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "音符ごとのベロシティ乗数"
 
 #: template.py:385
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
 
 #: template.py:386
 msgid "Multi-oscillator with custom wave"
@@ -62,15 +63,15 @@ msgstr "ホストと同期または自由周波数"
 
 #: template.py:394
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSawは1つのパラメータを持つスーパーソーシンセである"
 
 #: template.py:395
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7つのノコギリオシレータ"
 
 #: template.py:396
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "シングルノブでデチューンを調整"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -128,15 +129,15 @@ msgstr "メール"
 
 #: template/community.html.j2:62
 msgid "Users"
-msgstr ""
+msgstr "ユーザ"
 
 #: template/community.html.j2:65
 msgid "Developers"
-msgstr ""
+msgstr "開発者"
 
 #: template/community.html.j2:69
 msgid "Project"
-msgstr ""
+msgstr "プロジェクト"
 
 #: template/community.html.j2:76
 msgid "Issue tracker"
@@ -235,7 +236,7 @@ msgstr "アルファ/ベタ版リリースに対して無料アップグレー�
 
 #: template/download.html.j2:185
 msgid "<b>£15</b> one-time purchase"
-msgstr ""
+msgstr "<b>£15</b>の一回限りの購入"
 
 #: template/download.html.j2:190
 msgid "Always latest version"
@@ -263,17 +264,17 @@ msgstr "登録"
 
 #: template/download.html.j2:244
 msgid "Note"
-msgstr ""
+msgstr "注:"
 
 #: template/download.html.j2:246
 msgid ""
 "Subscriptions are handled manually. Please allow up to 24 hours to receive "
 "your first downloads."
-msgstr ""
+msgstr "サブスクリプションは手動で処理されます。最初のダウンロードを受け取るまでに最大24時間かかります。"
 
 #: template/download.html.j2:255
 msgid "OK, Subscribe"
-msgstr ""
+msgstr "OK, サブする"
 
 #: template/download.html.j2:266
 #, python-format
@@ -282,19 +283,20 @@ msgstr "今月は£%(monthly_earning_str)sをいただきました。目標は£
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr ""
+msgstr "機能・レビュー一覧"
 
 #: template/explore.html.j2:37
 msgid "Reviews"
-msgstr ""
+msgstr "レビュー"
 
 #: template/explore.html.j2:45
+#, fuzzy
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr ""
+msgstr "unfaのライブストリーム。Geonkickでスネアドラムを合成する"
 
 #: template/explore.html.j2:53
 msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr ""
+msgstr "Linuxマガジン229/2019号の記事"
 
 #: template/explore.html.j2:63 template/plugins.html.j2:53
 msgid "Features"
@@ -383,23 +385,26 @@ msgstr "直線、スロープ、カーブ、または LFO とエンベロープ�
 
 #: template/index.html.j2:90
 msgid "Audio plugins"
-msgstr ""
+msgstr "オーディオプラグイン"
 
 #: template/index.html.j2:95
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3."
-msgstr ""
+msgstr "<a href=\"https://lv2plug.in/\"> LV2 </a>およびVST2を完全に対応、VST3を試験的に対応します。"
 
 #: template/index.html.j2:109
 msgid "Multi-backend support"
 msgstr "多バックエンド対応"
 
 #: template/index.html.j2:114
+#, fuzzy
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"<a href=\"https://jackaudio.org/\">JACK</a>を完全に認識し、JACKトランスポート、ALSA、WASAPI、"
+"Windows MME、CoreMidi、CoreAudioをサポート。"
 
 #: template/index.html.j2:127
 msgid "Chord assistance"
@@ -420,6 +425,8 @@ msgid ""
 "Zrythm is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythmは<a href=\"https://www.gnu.org/philosophy/free-sw.html\""
+">自由なソフトウェア</a>です。自由に使用、勉学、共有、改善できます。"
 
 #: template/index.html.j2:164
 msgid "Multilingual"
@@ -431,6 +438,8 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
+"英語、フランス語、ガリシア語、ポルトガル語、日本語、ドイツ語を含む<a href=\"https://hosted.weblate.org/engage/"
+"zrythm/\">複数の言語</a>で利用可能。"
 
 #: template/index.html.j2:180
 msgid "Learn more"
@@ -447,7 +456,7 @@ msgstr "チュートリアル"
 #: template/learn.html.j2:46 template/learn.html.j2:60
 #: template/learn.html.j2:75
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "お使いのブラウザはHTML5ビデオをサポートしていません"
 
 #: template/learn.html.j2:51
 msgid "Basic demo"
@@ -459,7 +468,7 @@ msgstr "ZLFOのデモ"
 
 #: template/learn.html.j2:80
 msgid "MIDI tracks"
-msgstr ""
+msgstr "MIDIトラック"
 
 #: template/learn.html.j2:88
 msgid "User manual"
@@ -518,7 +527,7 @@ msgstr "商標"
 
 #: template/legal.html.j2:64
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr ""
+msgstr "ZrythmおよびZrythmのロゴはAlexandros Theodotouの商標です。"
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
@@ -526,7 +535,7 @@ msgstr "Zrythmにバンドルされているプラグイン"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} スクリーンショット"
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
