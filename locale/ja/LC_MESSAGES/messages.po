@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:16+0100\n"
+"POT-Creation-Date: 2020-04-30 00:28+0100\n"
 "PO-Revision-Date: 2020-04-28 13:35+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -353,6 +353,11 @@ msgstr "オートメーション・カーブ"
 msgid "Automate parameters with straight lines or curves."
 msgstr "直線または曲線でパラメータをオートメート。"
 
+#: template/index.html.j2:19 template/index.html.j2:33
+#| msgid "zrythm"
+msgid "Zrythm"
+msgstr ""
+
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr "デジタル・オーディオ・ワークステーション"
@@ -387,7 +392,7 @@ msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
-"a DAW is used for composing, recording, editing, arranging, mixing and "
+"A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
 
@@ -688,9 +693,6 @@ msgstr "ホームページに戻る"
 
 #~ msgid "Installer"
 #~ msgstr "インストーラー"
-
-#~ msgid "zrythm"
-#~ msgstr "zrythm"
 
 #~ msgid "Debian (unofficial)"
 #~ msgstr "Debian (非公式)"

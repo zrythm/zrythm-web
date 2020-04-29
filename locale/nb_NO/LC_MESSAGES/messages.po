@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:16+0100\n"
+"POT-Creation-Date: 2020-04-30 00:28+0100\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -350,6 +350,11 @@ msgstr ""
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
+#: template/index.html.j2:19 template/index.html.j2:33
+#| msgid "zrythm"
+msgid "Zrythm"
+msgstr ""
+
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr ""
@@ -381,7 +386,7 @@ msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
-"a DAW is used for composing, recording, editing, arranging, mixing and "
+"A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
 
@@ -612,9 +617,6 @@ msgstr ""
 
 #~ msgid "Reference"
 #~ msgstr "Referanse"
-
-#~ msgid "zrythm"
-#~ msgstr "zrythm"
 
 #~ msgid "Debian (unofficial)"
 #~ msgstr "Debian (uoffisiell)"

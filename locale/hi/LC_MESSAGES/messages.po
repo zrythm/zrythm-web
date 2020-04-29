@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:16+0100\n"
+"POT-Creation-Date: 2020-04-30 00:28+0100\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/hi/>\n"
@@ -350,6 +350,11 @@ msgstr ""
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
+#: template/index.html.j2:19 template/index.html.j2:33
+#| msgid "About Zrythm"
+msgid "Zrythm"
+msgstr ""
+
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr ""
@@ -381,7 +386,7 @@ msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
-"a DAW is used for composing, recording, editing, arranging, mixing and "
+"A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
 
@@ -565,9 +570,6 @@ msgstr ""
 
 #~ msgid "Contact"
 #~ msgstr "संपर्क"
-
-#~ msgid "About Zrythm"
-#~ msgstr "Zrythm के बारे में"
 
 #~ msgid "FAQ"
 #~ msgstr "सामान्य प्रश्न"

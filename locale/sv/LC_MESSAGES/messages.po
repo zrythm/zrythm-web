@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:16+0100\n"
+"POT-Creation-Date: 2020-04-30 00:28+0100\n"
 "PO-Revision-Date: 2020-04-29 22:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.2\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Weblate 4.0.2\n"
 
 #: template.py:379
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -350,6 +350,10 @@ msgstr ""
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
+#: template/index.html.j2:19 template/index.html.j2:33
+msgid "Zrythm"
+msgstr ""
+
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr ""
@@ -381,7 +385,7 @@ msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
-"a DAW is used for composing, recording, editing, arranging, mixing and "
+"A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
 

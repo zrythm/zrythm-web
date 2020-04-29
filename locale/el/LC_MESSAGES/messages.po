@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:16+0100\n"
+"POT-Creation-Date: 2020-04-30 00:28+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/el/>\n"
@@ -351,6 +351,11 @@ msgstr ""
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
+#: template/index.html.j2:19 template/index.html.j2:33
+#| msgid "About Zrythm"
+msgid "Zrythm"
+msgstr ""
+
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr ""
@@ -382,7 +387,7 @@ msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
-"a DAW is used for composing, recording, editing, arranging, mixing and "
+"A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
 
@@ -580,9 +585,6 @@ msgstr ""
 #~ "Εκτελέστε <code>glib-compile-schemas data/</code> και στη συνέχεια εκτελέστε"
 #~ " το zrythm χρησιμοποιώντας <code>GSETTINGS_SCHEMA_DIR=data "
 #~ "./build/zrythm</code>"
-
-#~ msgid "About Zrythm"
-#~ msgstr "Σχετικά με το Zrythm"
 
 #~ msgid ""
 #~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
