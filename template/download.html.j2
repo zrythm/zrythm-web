@@ -263,9 +263,13 @@ GNU Affero General Public License for more details.
     </div>
   </div>
   <div class="centered"><small>
-    {% trans %}
-    This month we received £{{ monthly_earning_str }}. Our goal is £3,000.
-    {% endtrans %}
+    {{ _('This month we received £{amount}.').format(
+    amount = '<span class="tooltip" aria-label="' +
+      _('This includes income from LiberaPay, OpenCollective, downloads and subscriptions') +
+      '">' + monthly_earning_str + '</span>') }}
+    {{ '<span class="tooltip" aria-label="' +
+      _('All income goes towards the full-time development of Zrythm') + '">' +
+      _('Our goal is £3,000.') + '</span>' }}
     <progress value="{{ monthly_earning }}" max="3000" class="inline primary income_progress"></progress>
   </small></div>
 </div>

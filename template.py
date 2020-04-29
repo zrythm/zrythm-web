@@ -156,11 +156,11 @@ if r.status_code == 200:
     for _order in r.json():
         num_monthly_orders += 1
         order = _order['order']
-        profit = float(order['settled_gross']) - float(order['settled_gateway_fee'])
+        amount = float(order['settled_gross']) - float(order['settled_gateway_fee'])
         if order['settled_currency'] == 'USD':
-            profit *= usd_to_gbp
-        print ('adding {} sendowl earnings'.format(profit))
-        monthly_earning += profit
+            amount *= usd_to_gbp
+        print ('adding {} sendowl earnings'.format(amount))
+        monthly_earning += amount
 else:
     print (r.json())
 
@@ -194,12 +194,12 @@ if r.status_code == 200:
         for _tx in r.json()['transaction_details']:
             tx = _tx['transaction_info']
             if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
-                profit = float(tx['transaction_amount']['value']) + float(tx['fee_amount']['value'])
+                amount = float(tx['transaction_amount']['value']) + float(tx['fee_amount']['value'])
                 if tx['transaction_amount']['currency_code'] == 'USD':
-                    profit *= usd_to_gbp
-                if profit > 0:
-                    print ('adding {} paypal earnings'.format(profit))
-                    monthly_earning += profit
+                    amount *= usd_to_gbp
+                if amount > 0:
+                    print ('adding {} paypal earnings'.format(amount))
+                    monthly_earning += amount
     else:
         print (r.json())
 else:
@@ -208,21 +208,21 @@ else:
 # get liberapay earnings
 r = requests.get("https://liberapay.com/Zrythm/public.json")
 if r.status_code == 200:
-    profit = float(r.json()['receiving']['amount']) * 4.0
-    profit = float('%.2f' % profit)
-    print ('adding {} liberapay earnings'.format(profit))
-    monthly_earning += profit
+    amount = float(r.json()['receiving']['amount']) * 4.0
+    amount = float('%.2f' % amount)
+    print ('adding {} liberapay earnings'.format(amount))
+    monthly_earning += amount
 else:
     print (r.json())
 
 # add opencollective earnings
 r = requests.get("https://opencollective.com/zrythm.json")
 if r.status_code == 200:
-    profit = float(r.json()['yearlyIncome']) / 1200.0
-    profit *= usd_to_gbp
-    profit = float('%.2f' % profit)
-    print ('adding {} opencollective earnings (estimated)'.format(profit))
-    monthly_earning += profit
+    amount = float(r.json()['yearlyIncome']) / 1200.0
+    amount *= usd_to_gbp
+    amount = float('%.2f' % amount)
+    print ('adding {} opencollective earnings (estimated)'.format(amount))
+    monthly_earning += amount
 else:
     print (r.json())
 

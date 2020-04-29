@@ -54,12 +54,16 @@ GNU Affero General Public License for more details.
   </h2>
 
   <p>
-    {% trans %}
-    Zrythm is a
-    <span class="tooltip" aria-label="Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows">cross-platform</span>
-    <span class="tooltip" aria-label="A digital audio workstation is software used for recording, editing and producing audio files">digital audio workstation</span> designed to be
-    featureful and easy to use.
-    {% endtrans %}
+    {{ _('Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio workstation{endtooltip} designed to be featureful and easy to use.').format(
+    tooltip1 =
+      '<span class="tooltip" aria-label="' +
+      _('Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows') +
+      '">',
+    tooltip2 =
+      '<span class="tooltip" aria-label="' +
+      _('A DAW is used for composing, recording, editing, arranging, mixing and mastering music') +
+      '">',
+    endtooltip = '</span>') }}
   </p>
   <div class="container">
     <div class="row">
