@@ -419,9 +419,6 @@ msgid "Audio plugins"
 msgstr "Plugins de Audio"
 
 #: template/index.html.j2:99
-#| msgid ""
-#| "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-#| "experimental support for VST3."
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."

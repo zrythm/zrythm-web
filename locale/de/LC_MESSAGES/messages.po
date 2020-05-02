@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: template.py:380
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -559,8 +559,8 @@ msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
-"Danke, dass Sie die Entwicklung unterstützen! Sie erhalten demnächst eine E-"
-"Mail mit Anweisungen zum Herunterladen Ihres Installationsprogramms."
+"Danke, dass Sie die Entwicklung unterstützen! Sie erhalten demnächst eine "
+"E-Mail mit Anweisungen zum Herunterladen Ihres Installationsprogramms."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
