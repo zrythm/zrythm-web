@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:28+0100\n"
+"POT-Creation-Date: 2020-05-02 23:27+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
-"Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/"
-"zrythm/website/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 3.6.1\n"
 
-#: template.py:379
+#: template.py:380
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:380
+#: template.py:381
 msgid "Major or minor scale"
 msgstr ""
 
-#: template.py:381
+#: template.py:382
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:385
+#: template.py:386
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:386
+#: template.py:387
 msgid "Multi-oscillator with custom wave"
 msgstr ""
 
-#: template.py:387
+#: template.py:388
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:388
+#: template.py:389
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:389
+#: template.py:390
 msgid "Step mode"
 msgstr ""
 
-#: template.py:390
+#: template.py:391
 msgid "Editable range"
 msgstr ""
 
-#: template.py:391
+#: template.py:392
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:394
+#: template.py:395
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:395
+#: template.py:396
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:396
+#: template.py:397
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -407,7 +406,7 @@ msgstr ""
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-"experimental support for VST3."
+"experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
 
 #: template/index.html.j2:113
@@ -514,15 +513,16 @@ msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
-"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm "
-"is released under the <a href=\"https://www.gnu.org/licenses/agpl-3.0.html"
-"\">GNU Affero General Public License, version 3 or later</a>."
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
+" is released under the <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
+"Public License, version 3 or later</a>."
 msgstr ""
 
 #: template/legal.html.j2:50
 msgid ""
-"Text and media found on the Zrythm website are released under <a href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Text and media found on the Zrythm website are released under <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
@@ -558,8 +558,9 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
-"Once you download the zip file, extract it and run <code>./installer.sh</"
-"code> in a terminal. If you experience any problems, please contact us."
+"Once you download the zip file, extract it and run "
+"<code>./installer.sh</code> in a terminal. If you experience any problems, "
+"please contact us."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:45
@@ -582,9 +583,9 @@ msgstr ""
 #~ "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
 #~ "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
 #~ msgstr ""
-#~ "运行<code>glib-compile-schemas data/</code>然后使用"
-#~ "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>运行"
-#~ "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
+#~ "运行<code>glib-compile-schemas data/</code>然后使用<code>GSETTINGS_SCHEMA_DIR=data"
+#~ " ./build/zrythm</code>运行<code>GSETTINGS_SCHEMA_DIR=data "
+#~ "./build/zrythm</code>"
 
 #~ msgid "I get unmet dependencies when installing on Ubuntu"
 #~ msgstr "在Ubuntu上安装时，我得到了未满足的依赖项"
@@ -593,15 +594,14 @@ msgstr ""
 #~ msgstr "启用Universe存储库："
 
 #~ msgid ""
-#~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 "
-#~ "toolkit and borrows ideas, concepts and code from other projects such as "
-#~ "Ardour and Jalv. It is designed to be intuitive to use and is built with "
-#~ "the intention to provide GNU/Linux users a full-featured alternative to "
-#~ "proprietary DAWs, while offering a unique approach to workflow that other "
-#~ "GNU/Linux DAWs lack."
+#~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
+#~ " and borrows ideas, concepts and code from other projects such as Ardour and"
+#~ " Jalv. It is designed to be intuitive to use and is built with the intention"
+#~ " to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
+#~ " while offering a unique approach to workflow that other GNU/Linux DAWs "
+#~ "lack."
 #~ msgstr ""
-#~ "Zrythm是一个使用C和GTK +3工具包构建的本机GNU / Linux应用程序，并借用其他项"
-#~ "目的想法，概念和代码，如Ardor和Jalv"
+#~ "Zrythm是一个使用C和GTK +3工具包构建的本机GNU / Linux应用程序，并借用其他项目的想法，概念和代码，如Ardor和Jalv"
 
 #~ msgid "Contacting individuals"
 #~ msgstr "联系个人"
@@ -625,15 +625,12 @@ msgstr ""
 #~ "If you are a web designer, icon designer or graphic designer and want to "
 #~ "help, please get in touch with us. Things that you might want to do are "
 #~ "logos, icons and other graphics, CSS, etc."
-#~ msgstr ""
-#~ "如果您是网页设计师，图标设计师或平面设计师，并希望提供帮助，请与我们联系"
+#~ msgstr "如果您是网页设计师，图标设计师或平面设计师，并希望提供帮助，请与我们联系"
 
 #~ msgid ""
 #~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
 #~ "intuitive ways of getting work done enabling a faster workflow."
-#~ msgstr ""
-#~ "Zrythm尝试保持界面清洁和愉快，使用直观的方式完成工作，从而实现更快的工作流"
-#~ "程。"
+#~ msgstr "Zrythm尝试保持界面清洁和愉快，使用直观的方式完成工作，从而实现更快的工作流程。"
 
 #~ msgid "FAQ"
 #~ msgstr "常问问题"

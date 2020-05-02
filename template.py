@@ -206,14 +206,15 @@ else:
     print (r.json())
 
 # get liberapay earnings
-r = requests.get("https://liberapay.com/Zrythm/public.json")
-if r.status_code == 200:
-    amount = float(r.json()['receiving']['amount']) * 4.0
-    amount = float('%.2f' % amount)
-    print ('adding {} liberapay earnings'.format(amount))
-    monthly_earning += amount
-else:
-    print (r.json())
+for lp_account in [ 'Zrythm', 'alextee' ]:
+    r = requests.get('https://liberapay.com/' + lp_account + '/public.json')
+    if r.status_code == 200:
+        amount = float(r.json()['receiving']['amount']) * 4.0
+        amount = float('%.2f' % amount)
+        print ('adding {} liberapay earnings'.format(amount))
+        monthly_earning += amount
+    else:
+        print (r.json())
 
 # add opencollective earnings
 r = requests.get("https://opencollective.com/zrythm.json")

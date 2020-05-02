@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:28+0100\n"
+"POT-Creation-Date: 2020-05-02 23:27+0100\n"
 "PO-Revision-Date: 2020-04-29 15:11+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.0.2\n"
 
-#: template.py:379
+#: template.py:380
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea os acordes dunha escala maior ou menor nas teclas brancas"
 
-#: template.py:380
+#: template.py:381
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:381
+#: template.py:382
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador da intensidade por nota"
 
-#: template.py:385
+#: template.py:386
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO é un LFO completo para automatización baseada en CV"
 
-#: template.py:386
+#: template.py:387
 msgid "Multi-oscillator with custom wave"
 msgstr "Oscilador múltiple con onda personalizada"
 
-#: template.py:387
+#: template.py:388
 msgid "Phase shift"
 msgstr "Invertir fase"
 
-#: template.py:388
+#: template.py:389
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:389
+#: template.py:390
 msgid "Step mode"
 msgstr "Modo escalonado"
 
-#: template.py:390
+#: template.py:391
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:391
+#: template.py:392
 msgid "Sync to host or free-form"
 msgstr "Sincronizar ou forma libre"
 
-#: template.py:394
+#: template.py:395
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é un sintetizador de supersaw cun único parámetro"
 
-#: template.py:395
+#: template.py:396
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores dente de serra"
 
-#: template.py:396
+#: template.py:397
 msgid "Single knob to control detune"
 msgstr "Un único botón para controlar a desafinación"
 
@@ -419,12 +419,13 @@ msgid "Audio plugins"
 msgstr "Plugins de Audio"
 
 #: template/index.html.j2:99
+#| msgid ""
+#| "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+#| "experimental support for VST3."
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-"experimental support for VST3."
+"experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
-"Soporte completo para <a href=\"https://lv2plug.in/\">LV2</a> e VST2, con "
-"soporte experimental para VST3."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"

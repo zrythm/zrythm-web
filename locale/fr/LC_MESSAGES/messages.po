@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-30 00:28+0100\n"
+"POT-Creation-Date: 2020-05-02 23:27+0100\n"
 "PO-Revision-Date: 2020-04-11 22:09+0000\n"
 "Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: template.py:379
+#: template.py:380
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
 "touches blanches"
 
-#: template.py:380
+#: template.py:381
 msgid "Major or minor scale"
 msgstr "Gamme majeure ou mineure"
 
-#: template.py:381
+#: template.py:382
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:385
+#: template.py:386
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
-#: template.py:386
+#: template.py:387
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
-#: template.py:387
+#: template.py:388
 msgid "Phase shift"
 msgstr "Décalage des phases"
 
-#: template.py:388
+#: template.py:389
 msgid "Vertical/horizontal inversion"
 msgstr "Inversion verticale/horizontale"
 
-#: template.py:389
+#: template.py:390
 msgid "Step mode"
 msgstr "Mode à pas"
 
-#: template.py:390
+#: template.py:391
 msgid "Editable range"
 msgstr "Plage modifiable"
 
-#: template.py:391
+#: template.py:392
 msgid "Sync to host or free-form"
 msgstr "Synchronisation avec l'hôte ou la forme libre"
 
-#: template.py:394
+#: template.py:395
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:395
+#: template.py:396
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:396
+#: template.py:397
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -359,7 +359,6 @@ msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
 #: template/index.html.j2:19 template/index.html.j2:33
-#| msgid "zrythm"
 msgid "Zrythm"
 msgstr ""
 
@@ -424,7 +423,7 @@ msgstr ""
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-"experimental support for VST3."
+"experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
 
 #: template/index.html.j2:113
