@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-05-02 23:27+0100\n"
-"PO-Revision-Date: 2019-09-05 07:58+0000\n"
-"Last-Translator: Hannu Martinet <swann.ranskassa@laposte.net>\n"
+"PO-Revision-Date: 2020-05-02 22:30+0000\n"
+"Last-Translator: Jeannette <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.9-dev\n"
 
 #: template.py:380
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: template/index.html.j2:19 template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -529,7 +529,7 @@ msgstr ""
 
 #: template/legal.html.j2:58
 msgid "Trademarks"
-msgstr ""
+msgstr "Marchi"
 
 #: template/legal.html.j2:64
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
@@ -541,11 +541,11 @@ msgstr ""
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} schermata"
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
+msgstr "Specifiche tecniche"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
@@ -556,6 +556,8 @@ msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
+"Grazie per il sostegno allo sviluppo! Riceverai presto un'e-mail con le "
+"istruzioni per scaricare il tuo installatore."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
