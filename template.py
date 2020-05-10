@@ -136,6 +136,8 @@ freshports_url = 'https://www.freshports.org/audio/zrythm/'
 
 usd_to_gbp = 0.77
 
+prev_month_earning = 100
+
 # get monthly orders
 orders_url = 'https://{}:{}@www.sendowl.com/api/v1/orders'.format(
         os.getenv('SENDOWL_KEY'), os.getenv('SENDOWL_SECRET'))
@@ -228,6 +230,8 @@ else:
     print (r.json())
 
 monthly_earning_str = '{0:.2f}'.format(monthly_earning)
+prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)
+prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_month_earning))
 
 # get latest version
 from subprocess import check_output
@@ -418,6 +422,8 @@ for in_file in glob.glob("template/*.j2"):
                               num_monthly_orders=num_monthly_orders,
                               monthly_earning=monthly_earning,
                               monthly_earning_str=monthly_earning_str,
+                              prev_month_earning_str=prev_month_earning_str,
+                              prev_month_comparison_perc=prev_month_comparison_perc,
                               issue_tracker=issue_tracker,
                               plugins=plugins,
                               git_blob_url=git_blob_url,

@@ -18,7 +18,7 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-8">
         <p>
-        Copyright &copy; 2019-2020 Alexandros Theodotou ~
+        Copyright &copy; 2019-2020 The Zrythm contributors ~
         <a href="{{ url(lang + '/legal.html') }}">Legal</a>
         </p>
       </div>

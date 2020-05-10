@@ -83,6 +83,7 @@ GNU Affero General Public License for more details.
     </tbody>
   </table>
 
+  {#
   <h2>
     {% trans %}
     Trial version
@@ -150,20 +151,22 @@ GNU Affero General Public License for more details.
       </tr>
     </tbody>
   </table>
+  #}
 
   <h2>
     {% trans %}
-    Full version
+    Installer
     {% endtrans %}
   </h2>
   <div class="container centered">
     <div class="row centered">
       <div class="col-sm-4">
-        <h3>
-          {{ version }} <small style="display: inline;">({{ _('alpha') }})</small></h3>
+        <h3>trial</h3>
+        {# {{ version }} <small style="display: inline;">({{ _('alpha') }})</small></h3> #}
       </div>
       <div class="col-sm-4">
-        <h3>{{ _('alpha/beta') }}</h3>
+        <!--<h3>{{ _('alpha/beta') }}</h3>-->
+        <h3>{{ _('full') }}</h3>
       </div>
       <div class="col-sm-4">
         <h3>{{ _('subscription') }}</h3>
@@ -172,25 +175,28 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-4">
         <p>
-          <p>{{ _('Latest version') }}</p>
-          <p>{{ _('Bundled plugins') }}</p>
-          <p>{{ _('<b>£5</b> one-time purchase') }}</p>
+          <p>{{ _('Bundled plugins (basic)') }}</p>
+          <p>{{ _('Goes silent after 10 minutes') }}</p>
+          <p>{{ _('Save/load is disabled') }}</p>
+          <p>{{ _('<b>£0</b>') }}</p>
         </p>
       </div>
       <div class="col-sm-4">
         <p>
-          <p>{{ _('Always latest alpha/beta version') }}</p>
-          <p>{{ _('Bundled plugins') }}</p>
-          <p>{{ _('Free upgrades for alpha/beta releases') }}</p>
-          <p>{{ _('<b>£15</b> one-time purchase') }}</p>
+          <p>{{ _('Compiled with all features') }}</p>
+          <p>{{ _('Bundled plugins (all)') }}</p>
+          <p>{{ _('PDF user manual <small>*starting from next release</small>') }}</p>
+          <p>{{ _('No limitations') }}</p>
+          <p>{{ _('<b>£5</b>') }}</p>
+          {#<p>{{ _('Pay +<b>£10</b> and get free alpha/beta upgrades') }}</p>#}
         </p>
       </div>
       <div class="col-sm-4">
         <p>
-          <p>{{ _('Always latest version') }}</p>
-          <p>{{ _('Bundled plugins') }}</p>
-          <p>{{ _('Free upgrades during subscription') }}</p>
-          <p>{{ _('<b>£5</b> per month') }}</p>
+          <p>{{ _('Full version') }}</p>
+          <p>{{ _('Free upgrades') }}</p>
+          <p>{{ _('Support Zrythm development') }}</p>
+          <p>{{ _('<b>£5/month</b>') }}</p>
         </p>
       </div>
     </div>
@@ -198,16 +204,24 @@ GNU Affero General Public License for more details.
       <div class="col-sm-4">
         <p>
           <center>
-            <label class="button" for="modal-buy-single">{{ _('Buy Now') }}</label>
+            <label class="button" for="modal-buy-single">{{ _('Try Now') }}</label>
             <input type="checkbox" id="modal-buy-single" class="modal">
             <div>
               <div class="card fluid">
                 <label for="modal-buy-single" class="modal-close" ></label>
-                <h3 class="section">{{ _('Select your OS') }}</h3>
+                <h3 class="section">Try Zrythm</h3>
+                <p>
+                  This is a trial version with limited functionality. If you want to support our work, please consider buying it.
+                </p>
                 <p class="section">
+                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip" rel="nofollow" class="button">{{ _('GNU/Linux') }}</a>
+                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.exe" rel="nofollow" class="button">{{ _('Windows 64-bit') }}</a>
+                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-setup.dmg" rel="nofollow" class="button">MacOS</a>
+                  {#
                   <a href="https://transactions.sendowl.com/products/78268576/0799EAB5/view" rel="nofollow" class="button">{{ _('GNU/Linux') }}</a>
                   <a href="https://transactions.sendowl.com/products/78268519/7624CCD1/view" rel="nofollow" class="button">{{ _('Windows 64-bit') }}</a>
                   <a href="https://transactions.sendowl.com/products/78268504/93C96268/view" rel="nofollow" class="button">MacOS</a>
+                  #}
                 </p>
               </div>
             </div>
@@ -222,12 +236,26 @@ GNU Affero General Public License for more details.
             <div>
               <div class="card fluid">
                 <label for="modal-buy-alpha" class="modal-close" ></label>
-                <h3 class="section">{{ _('Select your OS') }}</h3>
+                <h3 class="section">Purchase Zrythm</h3>
+                <h3>{{ _('Single version - <b>£5</b>') }}</h3>
+                <p>
+                  Purchase this if you only want to buy a single version ({{ version.strip() }}).
+                </p>
                 <p class="section">
+                  <a href="https://transactions.sendowl.com/products/78268576/0799EAB5/view" rel="nofollow" class="button secondary">{{ _('GNU/Linux') }}</a>
+                  <a href="https://transactions.sendowl.com/products/78268519/7624CCD1/view" rel="nofollow" class="button secondary">{{ _('Windows 64-bit') }}</a>
+                  <a href="https://transactions.sendowl.com/products/78268504/93C96268/view" rel="nofollow" class="button secondary">MacOS</a>
+                </p>
+                <h3>{{ _('Free upgrades - <b>£15</b>') }}</h3>
+                <p>
+                  Purchase this if you want to receive free upgrades for all releases up to version 1.0.
+                </p>
+                <p>
                   <a href="https://transactions.sendowl.com/products/78169986/2B0FE183/view" rel="nofollow" class="button secondary">{{ _('GNU/Linux') }}</a>
                   <a href="https://transactions.sendowl.com/products/78186269/B7856C8B/view" rel="nofollow" class="button secondary">{{ _('Windows 64-bit') }}</a>
                   <a href="https://transactions.sendowl.com/products/78217260/11CE10F2/view" rel="nofollow" class="button secondary">MacOS</a>
                 </p>
+                <a href="http://irc.lc/freenode/zrythm" class="right">Need help?</a>
               </div>
             </div>
           </center>
@@ -241,20 +269,24 @@ GNU Affero General Public License for more details.
             <div>
               <div class="card fluid" style="max-width: 80vw">
                 <label for="modal-subscribe" class="modal-close" ></label>
-                <h3 class="section">{{ _('Note') }}</h3>
+                <h3 class="section">{{ _('Subscribe') }}</h3>
                 <p>
-                  {% trans %}
-                  Subscriptions are handled manually. Please allow up to 24 hours
-                  to receive your first downloads.
-                  {% endtrans %}
+                  You will receive a Zrythm installer and upgrades on every release.
                 </p>
-                <form action="https://www.paypal.com/cgi-bin/webscr"
-                      class="no_css_form" method="post" target="_top">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="TW2KFULQ4LBAN">
-                  <input type="submit" class="button primary" value="{{ _('OK, Subscribe') }}"
-                         name="submit">
-                </form>
+                <p>
+                  <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-9AR282174C077022GL24BBIY" rel="nofollow" class="button primary">{{ _('GNU/Linux') }}</a>
+                  <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6C408767YB497360NL24BIVI" rel="nofollow" class="button primary">{{ _('Windows 64-bit') }}</a>
+                  <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6RL58138LS2209901L24BJOA" rel="nofollow" class="button primary">MacOS</a>
+                </p>
+                <p><small>
+                  {% trans %}
+                  <b>Note:</b> It usually takes us less than an hour to process subscriptions,
+                    but please allow up to 24 hours to receive your first downloads.<br>
+                    <b>Note 2:</b> If you are not satisfied, we offer refunds of the first
+                    month's subscription amount within the first 30 days.
+                  {% endtrans %}
+                </small></p>
+                <a href="http://irc.lc/freenode/zrythm" class="right">Need help?</a>
               </div>
             </div>
           </center>
@@ -263,14 +295,17 @@ GNU Affero General Public License for more details.
     </div>
   </div>
   <div class="centered"><small>
-    {{ _('This month we received £{amount}.').format(
-    amount = '<span class="tooltip" aria-label="' +
-      _('This includes income from LiberaPay, OpenCollective, downloads and subscriptions') +
-      '">' + monthly_earning_str + '</span>') }}
-    {{ '<span class="tooltip" aria-label="' +
-      _('All income goes towards the full-time development of Zrythm') + '">' +
-      _('Our goal is £3,000.') + '</span>' }}
-    <progress value="{{ monthly_earning }}" max="3000" class="inline primary income_progress"></progress>
+      {{ _('Support Zrythm by purchasing an installer.') }}
+      {{ _('This month we received £{amount}.').format (
+        amount = '<span class="tooltip" aria-label="' +
+          _('This includes donations from LiberaPay, OpenCollective, downloads and subscriptions') +
+          '">' + monthly_earning_str + '</span>') }}
+
+        {#
+        ({perc}%% of last month\'s amount).').format(
+    perc = prev_month_comparison_perc) }}
+    <progress value="{{ monthly_earning }}" max="{{ prev_month_earning_str }}" class="inline primary income_progress"></progress>
+    #}
   </small></div>
 </div>
 </left>

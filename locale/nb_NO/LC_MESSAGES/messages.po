@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-02 23:27+0100\n"
+"POT-Creation-Date: 2020-05-10 16:31+0100\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 3.9-dev\n"
 
-#: template.py:380
+#: template.py:384
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:381
+#: template.py:385
 msgid "Major or minor scale"
 msgstr ""
 
-#: template.py:382
+#: template.py:386
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:386
+#: template.py:390
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:387
+#: template.py:391
 msgid "Multi-oscillator with custom wave"
 msgstr ""
 
-#: template.py:388
+#: template.py:392
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:389
+#: template.py:393
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:390
+#: template.py:394
 msgid "Step mode"
 msgstr ""
 
-#: template.py:391
+#: template.py:395
 msgid "Editable range"
 msgstr ""
 
-#: template.py:392
+#: template.py:396
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:395
+#: template.py:399
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:396
+#: template.py:400
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:397
+#: template.py:401
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -171,127 +171,124 @@ msgstr ""
 msgid "GPG signing key"
 msgstr "GPG-signeringsnøkkel"
 
-#: template/download.html.j2:87
-msgid "Trial version"
+#: template/download.html.j2:157
+msgid "Installer"
 msgstr ""
 
-#: template/download.html.j2:95 template/download.html.j2:208
-#: template/download.html.j2:227
-msgid "GNU/Linux"
-msgstr ""
-
-#: template/download.html.j2:101
-msgid "download zip"
-msgstr ""
-
-#: template/download.html.j2:115 template/download.html.j2:209
-#: template/download.html.j2:228
-msgid "Windows 64-bit"
-msgstr ""
-
-#: template/download.html.j2:121
-msgid "download exe"
-msgstr ""
-
-#: template/download.html.j2:139
-msgid "download dmg"
-msgstr ""
-
-#: template/download.html.j2:155
-msgid "Full version"
-msgstr ""
-
-#: template/download.html.j2:163
-msgid "alpha"
-msgstr ""
-
-#: template/download.html.j2:166
+#: template/download.html.j2:168
 msgid "alpha/beta"
 msgstr ""
 
 #: template/download.html.j2:169
+msgid "full"
+msgstr ""
+
+#: template/download.html.j2:172
 msgid "subscription"
 msgstr ""
 
-#: template/download.html.j2:175
-msgid "Latest version"
+#: template/download.html.j2:178
+msgid "Bundled plugins (basic)"
 msgstr ""
 
-#: template/download.html.j2:176 template/download.html.j2:183
-#: template/download.html.j2:191
-msgid "Bundled plugins"
+#: template/download.html.j2:179
+msgid "Goes silent after 10 minutes"
 msgstr ""
 
-#: template/download.html.j2:177
-msgid "<b>£5</b> one-time purchase"
+#: template/download.html.j2:180
+msgid "Save/load is disabled"
 msgstr ""
 
-#: template/download.html.j2:182
-msgid "Always latest alpha/beta version"
+#: template/download.html.j2:181
+msgid "<b>£0</b>"
 msgstr ""
 
-#: template/download.html.j2:184
-msgid "Free upgrades for alpha/beta releases"
+#: template/download.html.j2:186
+msgid "Compiled with all features"
 msgstr ""
 
-#: template/download.html.j2:185
-msgid "<b>£15</b> one-time purchase"
+#: template/download.html.j2:187
+msgid "Bundled plugins (all)"
+msgstr ""
+
+#: template/download.html.j2:188
+msgid "PDF user manual <small>*starting from next release</small>"
+msgstr ""
+
+#: template/download.html.j2:189
+msgid "No limitations"
 msgstr ""
 
 #: template/download.html.j2:190
-msgid "Always latest version"
+msgid "<b>£5</b>"
 msgstr ""
 
-#: template/download.html.j2:192
-msgid "Free upgrades during subscription"
+#: template/download.html.j2:196
+msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:193
-msgid "<b>£5</b> per month"
+#: template/download.html.j2:197
+msgid "Free upgrades"
 msgstr ""
 
-#: template/download.html.j2:201 template/download.html.j2:220
+#: template/download.html.j2:198
+msgid "Support Zrythm development"
+msgstr ""
+
+#: template/download.html.j2:199
+msgid "<b>£5/month</b>"
+msgstr ""
+
+#: template/download.html.j2:207
+msgid "Try Now"
+msgstr ""
+
+#: template/download.html.j2:217 template/download.html.j2:245
+#: template/download.html.j2:254 template/download.html.j2:277
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/download.html.j2:218 template/download.html.j2:246
+#: template/download.html.j2:255 template/download.html.j2:278
+msgid "Windows 64-bit"
+msgstr ""
+
+#: template/download.html.j2:234
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:206 template/download.html.j2:225
-msgid "Select your OS"
+#: template/download.html.j2:240
+msgid "Single version - <b>£5</b>"
 msgstr ""
 
-#: template/download.html.j2:239
+#: template/download.html.j2:249
+msgid "Free upgrades - <b>£15</b>"
+msgstr ""
+
+#: template/download.html.j2:267 template/download.html.j2:272
 msgid "Subscribe"
 msgstr ""
 
-#: template/download.html.j2:244
-msgid "Note"
-msgstr ""
-
-#: template/download.html.j2:246
+#: template/download.html.j2:282
 msgid ""
-"Subscriptions are handled manually. Please allow up to 24 hours to receive "
-"your first downloads."
+"<b>Note:</b> It usually takes us less than an hour to process subscriptions,"
+" but please allow up to 24 hours to receive your first downloads.<br> "
+"<b>Note 2:</b> If you are not satisfied, we offer refunds of the first "
+"month's subscription amount within the first 30 days."
 msgstr ""
 
-#: template/download.html.j2:255
-msgid "OK, Subscribe"
+#: template/download.html.j2:298
+msgid "Support Zrythm by purchasing an installer."
 msgstr ""
 
-#: template/download.html.j2:266
+#: template/download.html.j2:299
 msgid "This month we received £{amount}."
 msgstr ""
 
-#: template/download.html.j2:268
+#: template/download.html.j2:301
 msgid ""
-"This includes income from LiberaPay, OpenCollective, downloads and "
+"This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
-msgstr ""
-
-#: template/download.html.j2:271
-msgid "All income goes towards the full-time development of Zrythm"
-msgstr ""
-
-#: template/download.html.j2:272
-msgid "Our goal is £3,000."
 msgstr ""
 
 #: template/explore.html.j2:22
@@ -482,24 +479,16 @@ msgid "MIDI tracks"
 msgstr ""
 
 #: template/learn.html.j2:88
-msgid "User manual"
-msgstr ""
+msgid "Documentation"
+msgstr "Dokumentasjon"
 
-#: template/learn.html.j2:95 template/learn.html.j2:112
-msgid "Browse Online"
+#: template/learn.html.j2:95
+msgid "User Manual"
 msgstr ""
 
 #: template/learn.html.j2:98
-msgid "Download as HTML"
+msgid "Developer Reference"
 msgstr ""
-
-#: template/learn.html.j2:101
-msgid "Download as PDF"
-msgstr ""
-
-#: template/learn.html.j2:105
-msgid "Developer docs"
-msgstr "Utviklerdokumentasjon"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
@@ -587,9 +576,6 @@ msgstr ""
 #~ msgid "JACK support"
 #~ msgstr "JACK-støtte"
 
-#~ msgid "Installation"
-#~ msgstr "Installasjon"
-
 #~ msgid "online docs"
 #~ msgstr "nettbasert dokumentasjon"
 
@@ -601,9 +587,6 @@ msgstr ""
 
 #~ msgid "online manual"
 #~ msgstr "nettbasert manual"
-
-#~ msgid "browse manual"
-#~ msgstr "utforsk manualen"
 
 #~ msgid "HTML-render (zip)"
 #~ msgstr "HTML-opptegning (ZIP)"
@@ -785,9 +768,6 @@ msgstr ""
 
 #~ msgid "Development"
 #~ msgstr "Utvikling"
-
-#~ msgid "Documentation"
-#~ msgstr "Dokumentasjon"
 
 #~ msgid "Glossary"
 #~ msgstr "Ordliste"
