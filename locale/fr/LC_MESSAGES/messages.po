@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-05-10 16:31+0100\n"
-"PO-Revision-Date: 2020-05-10 07:35+0000\n"
-"Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
+"PO-Revision-Date: 2020-05-13 11:25+0000\n"
+"Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -180,7 +180,7 @@ msgstr "clé de signature GPG"
 
 #: template/download.html.j2:157
 msgid "Installer"
-msgstr ""
+msgstr "Installateur"
 
 #: template/download.html.j2:168
 msgid "alpha/beta"
@@ -188,7 +188,7 @@ msgstr "alpha/bêta"
 
 #: template/download.html.j2:169
 msgid "full"
-msgstr ""
+msgstr "total"
 
 #: template/download.html.j2:172
 msgid "subscription"
@@ -196,59 +196,60 @@ msgstr "souscription"
 
 #: template/download.html.j2:178
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Greffons embarqués (de base)"
 
 #: template/download.html.j2:179
 msgid "Goes silent after 10 minutes"
-msgstr ""
+msgstr "Devient silencieux après 10 minutes"
 
 #: template/download.html.j2:180
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "Sauvegarde/Chargement sont désactivés"
 
 #: template/download.html.j2:181
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>0£</b>"
 
 #: template/download.html.j2:186
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Compilé avec toutes les fonctionnalités"
 
 #: template/download.html.j2:187
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Greffons embarqués (tous)"
 
 #: template/download.html.j2:188
 msgid "PDF user manual <small>*starting from next release</small>"
 msgstr ""
+"Manuel utilisateur PDF <small>*à compter de la prochaine version</small>"
 
 #: template/download.html.j2:189
 msgid "No limitations"
-msgstr ""
+msgstr "Pas de limites"
 
 #: template/download.html.j2:190
 msgid "<b>£5</b>"
-msgstr ""
+msgstr "<b>5£</b>"
 
 #: template/download.html.j2:196
 msgid "Full version"
-msgstr ""
+msgstr "Version complète"
 
 #: template/download.html.j2:197
 msgid "Free upgrades"
-msgstr ""
+msgstr "Mises à jour gratuites"
 
 #: template/download.html.j2:198
 msgid "Support Zrythm development"
-msgstr ""
+msgstr "Soutien du développement de Zrythm"
 
 #: template/download.html.j2:199
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>5£/mois</b>"
 
 #: template/download.html.j2:207
 msgid "Try Now"
-msgstr ""
+msgstr "Essayez maintenant"
 
 #: template/download.html.j2:217 template/download.html.j2:245
 #: template/download.html.j2:254 template/download.html.j2:277
@@ -266,11 +267,12 @@ msgstr "Acheter maintenant"
 
 #: template/download.html.j2:240
 msgid "Single version - <b>£5</b>"
-msgstr ""
+msgstr "Version unique -<b>5£</b>"
 
 #: template/download.html.j2:249
+#, fuzzy
 msgid "Free upgrades - <b>£15</b>"
-msgstr ""
+msgstr "Mises à jour -<b>15£</b>"
 
 #: template/download.html.j2:267 template/download.html.j2:272
 msgid "Subscribe"
@@ -283,20 +285,27 @@ msgid ""
 "<b>Note 2:</b> If you are not satisfied, we offer refunds of the first "
 "month's subscription amount within the first 30 days."
 msgstr ""
+"<b>à noter:</b> Nous validons en général les souscriptions en moins d'une "
+"heure, veuillez cependant nous accorder jusqu'à 24 heures avant de recevoir "
+"votre premier téléchargement.<br> <b>à noter (2)</b>Si vous n'êtes pas "
+"satisfait, nous nous proposons de rembourser la première souscription durant "
+"la période des 30 premiers jours."
 
 #: template/download.html.j2:298
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Soutenir Zrythm en achetant un installateur."
 
 #: template/download.html.j2:299
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Ce mois-ci nous avons reçu {amount}£."
 
 #: template/download.html.j2:301
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
 msgstr ""
+"Ce montant comprend les dons de LiberPay, OpenCollective, les "
+"téléchargements et les souscriptions"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -516,7 +525,7 @@ msgstr "Documentation"
 
 #: template/learn.html.j2:95
 msgid "User Manual"
-msgstr ""
+msgstr "Manuel utilisateur"
 
 #: template/learn.html.j2:98
 msgid "Developer Reference"
