@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: template.py:384
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -287,8 +287,8 @@ msgstr ""
 "<b>à noter:</b> Nous validons en général les souscriptions en moins d'une "
 "heure, veuillez cependant nous accorder jusqu'à 24 heures avant de recevoir "
 "votre premier téléchargement.<br> <b> à noter (2): </b> Si vous n'êtes pas "
-"satisfait, nous nous proposons de rembourser la première souscription durant "
-"la période des 30 premiers jours."
+"satisfait, nous nous proposons de rembourser la première souscription durant"
+" la période des 30 premiers jours."
 
 #: template/download.html.j2:298
 msgid "Support Zrythm by purchasing an installer."
