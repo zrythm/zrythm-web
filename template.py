@@ -219,6 +219,7 @@ for lp_account in [ 'Zrythm', 'alextee' ]:
         print (r.json())
 
 # add opencollective earnings
+'''
 r = requests.get("https://opencollective.com/zrythm.json")
 if r.status_code == 200:
     amount = float(r.json()['yearlyIncome']) / 1200.0
@@ -228,6 +229,7 @@ if r.status_code == 200:
     monthly_earning += amount
 else:
     print (r.json())
+'''
 
 monthly_earning_str = '{0:.2f}'.format(monthly_earning)
 prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-13 12:13+0100\n"
+"POT-Creation-Date: 2020-05-16 02:33+0100\n"
 "PO-Revision-Date: 2020-05-02 22:30+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.1-dev\n"
 
-#: template.py:384
+#: template.py:386
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "O ZChordz mapeia os acordes de escala menor ou maior a teclas brancas"
 
-#: template.py:385
+#: template.py:387
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:386
+#: template.py:388
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:390
+#: template.py:392
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:391
+#: template.py:393
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:392
+#: template.py:394
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:393
+#: template.py:395
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical / horizontal"
 
-#: template.py:394
+#: template.py:396
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:395
+#: template.py:397
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:396
+#: template.py:398
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:399
+#: template.py:401
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é um sintetizador de superserra com 1 parâmetro"
 
-#: template.py:400
+#: template.py:402
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de dente de serra"
 
-#: template.py:401
+#: template.py:403
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -217,7 +217,7 @@ msgid "Bundled plugins (all)"
 msgstr ""
 
 #: template/download.html.j2:188
-msgid "PDF user manual <small>*starting from next release</small>"
+msgid "PDF user manual"
 msgstr ""
 
 #: template/download.html.j2:189
