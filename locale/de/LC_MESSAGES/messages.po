@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-16 02:33+0100\n"
+"POT-Creation-Date: 2020-05-19 04:52+0100\n"
 "PO-Revision-Date: 2020-05-02 22:30+0000\n"
 "Last-Translator: Jeannette <j.lavoie@net-c.ca>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -175,6 +175,10 @@ msgstr "GPG-Signierungsschlüssel"
 msgid "Installer"
 msgstr ""
 
+#: template/download.html.j2:164
+msgid "trial"
+msgstr ""
+
 #: template/download.html.j2:168
 msgid "alpha/beta"
 msgstr ""
@@ -223,69 +227,57 @@ msgstr ""
 msgid "<b>£5</b>"
 msgstr ""
 
-#: template/download.html.j2:196
+#: template/download.html.j2:195
 msgid "Full version"
 msgstr ""
 
+#: template/download.html.j2:196
+msgid "Upgrades included"
+msgstr ""
+
 #: template/download.html.j2:197
-msgid "Latest upgrades"
+msgid "Access to nightly builds <small>* coming soon</small>"
 msgstr ""
 
 #: template/download.html.j2:198
-msgid "Support Zrythm development"
-msgstr ""
-
-#: template/download.html.j2:199
 msgid "<b>£5/month</b>"
 msgstr ""
 
-#: template/download.html.j2:207
+#: template/download.html.j2:206
 msgid "Try Now"
 msgstr ""
 
-#: template/download.html.j2:217 template/download.html.j2:245
-#: template/download.html.j2:254 template/download.html.j2:277
+#: template/download.html.j2:213
+msgid ""
+"This is a trial version with limited functionality. Please select your "
+"operating system."
+msgstr ""
+
+#: template/download.html.j2:216
 msgid "GNU/Linux"
 msgstr ""
 
-#: template/download.html.j2:218 template/download.html.j2:246
-#: template/download.html.j2:255 template/download.html.j2:278
+#: template/download.html.j2:217
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:234
+#: template/download.html.j2:228
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:240
-msgid "Single version - <b>£5</b>"
-msgstr ""
-
-#: template/download.html.j2:249
-msgid "Alpha/beta upgrades - <b>£15</b>"
-msgstr ""
-
-#: template/download.html.j2:267 template/download.html.j2:272
+#: template/download.html.j2:235
 msgid "Subscribe"
 msgstr ""
 
-#: template/download.html.j2:282
-msgid ""
-"<b>Note:</b> It usually takes us less than an hour to process subscriptions,"
-" but please allow up to 24 hours to receive your first downloads.<br> "
-"<b>Note 2:</b> If you are not satisfied, we offer refunds of the first "
-"month's subscription amount within the first 30 days."
-msgstr ""
-
-#: template/download.html.j2:298
+#: template/download.html.j2:242
 msgid "Support Zrythm by purchasing an installer."
 msgstr ""
 
-#: template/download.html.j2:299
+#: template/download.html.j2:243
 msgid "This month we received £{amount}."
 msgstr ""
 
-#: template/download.html.j2:301
+#: template/download.html.j2:245
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"

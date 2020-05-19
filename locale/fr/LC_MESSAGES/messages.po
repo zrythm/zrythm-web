@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-16 02:33+0100\n"
+"POT-Creation-Date: 2020-05-19 04:52+0100\n"
 "PO-Revision-Date: 2020-05-13 12:41+0000\n"
 "Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -182,6 +182,11 @@ msgstr "clé de signature GPG"
 msgid "Installer"
 msgstr "Installateur"
 
+#: template/download.html.j2:164
+#| msgid "Tutorials"
+msgid "trial"
+msgstr ""
+
 #: template/download.html.j2:168
 msgid "alpha/beta"
 msgstr "alpha/bêta"
@@ -230,74 +235,57 @@ msgstr "Pas de limites"
 msgid "<b>£5</b>"
 msgstr "<b>5£</b>"
 
-#: template/download.html.j2:196
+#: template/download.html.j2:195
 msgid "Full version"
 msgstr "Version complète"
 
+#: template/download.html.j2:196
+msgid "Upgrades included"
+msgstr ""
+
 #: template/download.html.j2:197
-msgid "Latest upgrades"
-msgstr "Dernières mise à jours"
+msgid "Access to nightly builds <small>* coming soon</small>"
+msgstr ""
 
 #: template/download.html.j2:198
-msgid "Support Zrythm development"
-msgstr "Soutien du développement de Zrythm"
-
-#: template/download.html.j2:199
 msgid "<b>£5/month</b>"
 msgstr "<b>5£/mois</b>"
 
-#: template/download.html.j2:207
+#: template/download.html.j2:206
 msgid "Try Now"
 msgstr "Essayez maintenant"
 
-#: template/download.html.j2:217 template/download.html.j2:245
-#: template/download.html.j2:254 template/download.html.j2:277
+#: template/download.html.j2:213
+msgid ""
+"This is a trial version with limited functionality. Please select your "
+"operating system."
+msgstr ""
+
+#: template/download.html.j2:216
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/download.html.j2:218 template/download.html.j2:246
-#: template/download.html.j2:255 template/download.html.j2:278
+#: template/download.html.j2:217
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:234
+#: template/download.html.j2:228
 msgid "Buy Now"
 msgstr "Acheter maintenant"
 
-#: template/download.html.j2:240
-msgid "Single version - <b>£5</b>"
-msgstr "Version unique -<b>5£</b>"
-
-#: template/download.html.j2:249
-msgid "Alpha/beta upgrades - <b>£15</b>"
-msgstr "Mises à jour Alpha/beta -<b>15£</b>"
-
-#: template/download.html.j2:267 template/download.html.j2:272
+#: template/download.html.j2:235
 msgid "Subscribe"
 msgstr "S'abonner"
 
-#: template/download.html.j2:282
-msgid ""
-"<b>Note:</b> It usually takes us less than an hour to process subscriptions,"
-" but please allow up to 24 hours to receive your first downloads.<br> "
-"<b>Note 2:</b> If you are not satisfied, we offer refunds of the first "
-"month's subscription amount within the first 30 days."
-msgstr ""
-"<b>à noter:</b> Nous validons en général les souscriptions en moins d'une "
-"heure, veuillez cependant nous accorder jusqu'à 24 heures avant de recevoir "
-"votre premier téléchargement.<br> <b> à noter (2): </b> Si vous n'êtes pas "
-"satisfait, nous nous proposons de rembourser la première souscription durant"
-" la période des 30 premiers jours."
-
-#: template/download.html.j2:298
+#: template/download.html.j2:242
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Soutenir Zrythm en achetant un installateur."
 
-#: template/download.html.j2:299
+#: template/download.html.j2:243
 msgid "This month we received £{amount}."
 msgstr "Ce mois-ci nous avons reçu {amount}£."
 
-#: template/download.html.j2:301
+#: template/download.html.j2:245
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
@@ -610,6 +598,30 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
+
+#~ msgid "Latest upgrades"
+#~ msgstr "Dernières mise à jours"
+
+#~ msgid "Support Zrythm development"
+#~ msgstr "Soutien du développement de Zrythm"
+
+#~ msgid "Single version - <b>£5</b>"
+#~ msgstr "Version unique -<b>5£</b>"
+
+#~ msgid "Alpha/beta upgrades - <b>£15</b>"
+#~ msgstr "Mises à jour Alpha/beta -<b>15£</b>"
+
+#~ msgid ""
+#~ "<b>Note:</b> It usually takes us less than an hour to process subscriptions,"
+#~ " but please allow up to 24 hours to receive your first downloads.<br> "
+#~ "<b>Note 2:</b> If you are not satisfied, we offer refunds of the first "
+#~ "month's subscription amount within the first 30 days."
+#~ msgstr ""
+#~ "<b>à noter:</b> Nous validons en général les souscriptions en moins d'une "
+#~ "heure, veuillez cependant nous accorder jusqu'à 24 heures avant de recevoir "
+#~ "votre premier téléchargement.<br> <b> à noter (2): </b> Si vous n'êtes pas "
+#~ "satisfait, nous nous proposons de rembourser la première souscription durant"
+#~ " la période des 30 premiers jours."
 
 #~ msgid "PDF user manual <small>*starting from next release</small>"
 #~ msgstr ""
