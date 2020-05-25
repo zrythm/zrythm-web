@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-19 21:58+0100\n"
+"POT-Creation-Date: 2020-05-25 01:06+0100\n"
 "PO-Revision-Date: 2020-04-29 22:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -225,11 +225,11 @@ msgid "PDF user manual"
 msgstr ""
 
 #: template/download.html.j2:189
-msgid "No limitations"
+msgid "<b>£5</b> single version"
 msgstr ""
 
 #: template/download.html.j2:190
-msgid "<b>£5</b>"
+msgid "<b>+£10</b> beta bundle"
 msgstr ""
 
 #: template/download.html.j2:195
@@ -237,11 +237,11 @@ msgid "Full version"
 msgstr ""
 
 #: template/download.html.j2:196
-msgid "Upgrades included"
+msgid "Upgrades to new releases"
 msgstr ""
 
 #: template/download.html.j2:197
-msgid "Access to nightly builds <small>* coming soon</small>"
+msgid "Access to nightly builds"
 msgstr ""
 
 #: template/download.html.j2:198

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-19 21:58+0100\n"
+"POT-Creation-Date: 2020-05-25 01:06+0100\n"
 "PO-Revision-Date: 2020-05-13 12:41+0000\n"
 "Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -227,23 +227,23 @@ msgid "PDF user manual"
 msgstr ""
 
 #: template/download.html.j2:189
-msgid "No limitations"
-msgstr "Pas de limites"
+msgid "<b>£5</b> single version"
+msgstr ""
 
 #: template/download.html.j2:190
-msgid "<b>£5</b>"
-msgstr "<b>5£</b>"
+msgid "<b>+£10</b> beta bundle"
+msgstr ""
 
 #: template/download.html.j2:195
 msgid "Full version"
 msgstr "Version complète"
 
 #: template/download.html.j2:196
-msgid "Upgrades included"
+msgid "Upgrades to new releases"
 msgstr ""
 
 #: template/download.html.j2:197
-msgid "Access to nightly builds <small>* coming soon</small>"
+msgid "Access to nightly builds"
 msgstr ""
 
 #: template/download.html.j2:198
@@ -598,6 +598,12 @@ msgstr ""
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
 
+#~ msgid "No limitations"
+#~ msgstr "Pas de limites"
+
+#~ msgid "<b>£5</b>"
+#~ msgstr "<b>5£</b>"
+
 #~ msgid "Latest upgrades"
 #~ msgstr "Dernières mise à jours"
 
@@ -666,17 +672,8 @@ msgstr "Retour à la page d'accueil"
 #~ msgid "download dmg"
 #~ msgstr "télécharger dmg"
 
-#~ msgid "<b>£5</b> one-time purchase"
-#~ msgstr "<b>5£</b> achat ponctuel"
-
 #~ msgid "Always latest alpha/beta version"
 #~ msgstr "Toujours la dernière version alpha/beta"
-
-#~ msgid "Free upgrades for alpha/beta releases"
-#~ msgstr "Mises à jour gratuites pour les versions alpha/bêta"
-
-#~ msgid "<b>£15</b> one-time purchase"
-#~ msgstr "achat unique de <b>15 £</b>"
 
 #~ msgid "LV2 plugins"
 #~ msgstr "Greffons LV2"

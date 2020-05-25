@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-19 21:58+0100\n"
+"POT-Creation-Date: 2020-05-25 01:06+0100\n"
 "PO-Revision-Date: 2020-04-28 13:35+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -223,11 +223,11 @@ msgid "PDF user manual"
 msgstr ""
 
 #: template/download.html.j2:189
-msgid "No limitations"
+msgid "<b>£5</b> single version"
 msgstr ""
 
 #: template/download.html.j2:190
-msgid "<b>£5</b>"
+msgid "<b>+£10</b> beta bundle"
 msgstr ""
 
 #: template/download.html.j2:195
@@ -235,11 +235,11 @@ msgid "Full version"
 msgstr ""
 
 #: template/download.html.j2:196
-msgid "Upgrades included"
+msgid "Upgrades to new releases"
 msgstr ""
 
 #: template/download.html.j2:197
-msgid "Access to nightly builds <small>* coming soon</small>"
+msgid "Access to nightly builds"
 msgstr ""
 
 #: template/download.html.j2:198
@@ -597,17 +597,8 @@ msgstr "ホームページに戻る"
 #~ msgid "download dmg"
 #~ msgstr "dmgをダウンロード"
 
-#~ msgid "<b>£5</b> one-time purchase"
-#~ msgstr "<b>£5</b>の一回限りの購入"
-
 #~ msgid "Always latest alpha/beta version"
 #~ msgstr "常に最新のアルファ/ベータ版"
-
-#~ msgid "Free upgrades for alpha/beta releases"
-#~ msgstr "アルファ/ベタ版リリースに対して無料アップグレード"
-
-#~ msgid "<b>£15</b> one-time purchase"
-#~ msgstr "<b>£15</b>の一回限りの購入"
 
 #~ msgid ""
 #~ "Zrythm is a <span class=\"tooltip\" aria-label=\"Zrythm works on GNU/Linux, "
