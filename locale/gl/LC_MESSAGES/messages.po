@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-05-19 21:58+0100\n"
-"PO-Revision-Date: 2020-04-29 15:11+0000\n"
+"PO-Revision-Date: 2020-05-26 22:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>"
+"\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.0.2\n"
 
 #: template.py:384
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -178,11 +179,11 @@ msgstr "Cifrado GPG"
 
 #: template/download.html.j2:157
 msgid "Installer"
-msgstr ""
+msgstr "Instalador"
 
 #: template/download.html.j2:164
 msgid "trial"
-msgstr ""
+msgstr "proba"
 
 #: template/download.html.j2:168
 msgid "alpha/beta"
@@ -190,7 +191,7 @@ msgstr "alfa/beta"
 
 #: template/download.html.j2:169
 msgid "full"
-msgstr ""
+msgstr "completo"
 
 #: template/download.html.j2:172
 msgid "subscription"
@@ -198,65 +199,69 @@ msgstr "subscrición"
 
 #: template/download.html.j2:178
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Plugins incluídos (básicos)"
 
 #: template/download.html.j2:179
 msgid "Goes silent after 10 minutes"
-msgstr ""
+msgstr "Silénciase tras 10 minutos"
 
 #: template/download.html.j2:180
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "Gardar/cargar está desactivado"
 
 #: template/download.html.j2:181
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:186
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Compilado con tódalas características"
 
 #: template/download.html.j2:187
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Plugins incluídos (todos)"
 
 #: template/download.html.j2:188
 msgid "PDF user manual"
-msgstr ""
+msgstr "Manual do usuario en PDF"
 
 #: template/download.html.j2:189
 msgid "No limitations"
-msgstr ""
+msgstr "Sen límites"
 
 #: template/download.html.j2:190
 msgid "<b>£5</b>"
-msgstr ""
+msgstr "<b>£5</b>"
 
 #: template/download.html.j2:195
 msgid "Full version"
-msgstr ""
+msgstr "Versión completa"
 
 #: template/download.html.j2:196
 msgid "Upgrades included"
-msgstr ""
+msgstr "Actualizacións incluídas"
 
 #: template/download.html.j2:197
 msgid "Access to nightly builds <small>* coming soon</small>"
 msgstr ""
+"Acceso ás actualizacións diarias (nightly builds) <small>* "
+"proximamente</small>"
 
 #: template/download.html.j2:198
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/mes</b>"
 
 #: template/download.html.j2:206
 msgid "Try Now"
-msgstr ""
+msgstr "Próbao agora"
 
 #: template/download.html.j2:213
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Esta é unha versión de proba con funcións limitadas. Por favor, escolle o "
+"teu sistema operativo."
 
 #: template/download.html.j2:216
 msgid "GNU/Linux"
@@ -276,17 +281,17 @@ msgstr "Subscríbete"
 
 #: template/download.html.j2:242
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Apoia a Zrythm mercando un instalador."
 
 #: template/download.html.j2:243
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Este mes recibimos £{amount}."
 
 #: template/download.html.j2:245
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
-msgstr ""
+msgstr "Inclúe doazóns de LiberaPay, OpenCollective, descargas e subscricións"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -347,7 +352,7 @@ msgstr "Automatiza parámetro con liñas rectas ou curvas."
 
 #: template/index.html.j2:19 template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -378,16 +383,21 @@ msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
+"Zrythm é unha {tooltip2}estación de audio dixital{endtooltip} "
+"{tooltip1}multiplataforma{endtooltip} deseñada para ser completa e doada de "
+"usar."
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm funciona en GNU/Linux, FreeBSD, MacOS e Windows"
 
 #: template/index.html.j2:64
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
+"Unha DAW utilízase para compoñer, gravar, editar, facer arranxos, mesturar e "
+"masterizar música"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
@@ -410,6 +420,8 @@ msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"Soporte completo para <a href=\"https://lv2plug.in/\">LV2</a> e VST2, con "
+"soporte experimental para VST3, AU, SFZ e SF2."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
@@ -493,15 +505,15 @@ msgstr "Pistas MIDI"
 
 #: template/learn.html.j2:88
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: template/learn.html.j2:95
 msgid "User Manual"
-msgstr ""
+msgstr "Manual do Usuario"
 
 #: template/learn.html.j2:98
 msgid "Developer Reference"
-msgstr ""
+msgstr "Referencia do desenvolvedor"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
@@ -567,6 +579,8 @@ msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
+"Grazas por apoiar o desenvolvemento! Axiña recibirás un correo coas "
+"instrucións para descargar o teu instalador."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
