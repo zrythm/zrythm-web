@@ -150,6 +150,7 @@ payload = {
     'from': datetime.datetime.utcnow().replace(day=1).strftime('%Y-%m-%d'),
     'to': datetime.datetime.utcnow().strftime('%Y-%m-%d'),
     'state': 'complete',
+    'per_page': '50',
     }
 r = requests.get(orders_url, params=payload, headers=headers)
 if r.status_code == 200:
