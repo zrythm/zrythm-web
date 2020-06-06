@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2020-05-29 00:46+0100\n"
 "PO-Revision-Date: 2020-06-02 16:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
-">\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: template.py:385
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -258,8 +257,8 @@ msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
-"Esta é uma versão de teste com funcionalidade limitada. Por favor, selecione "
-"o seu sistema operacional."
+"Esta é uma versão de teste com funcionalidade limitada. Por favor, selecione"
+" o seu sistema operacional."
 
 #: template/download.html.j2:216
 msgid "GNU/Linux"
@@ -302,9 +301,8 @@ msgid "Reviews"
 msgstr "Avaliações"
 
 #: template/explore.html.j2:45
-#, fuzzy
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr "unfa livestream: Sintetizar tambores de armadilha com Geonkick"
+msgstr ""
 
 #: template/explore.html.j2:53
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -320,7 +318,8 @@ msgstr "Cilindros de piano"
 
 #: template/explore.html.j2:80
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr "Criar, editar e organizar eventos MIDI em dedicados cilindros de piano."
+msgstr ""
+"Criar, editar e organizar eventos MIDI em dedicados cilindros de piano."
 
 #: template/explore.html.j2:89 template/explore.html.j2:102
 msgid "Anywhere-to-anywhere connections"
