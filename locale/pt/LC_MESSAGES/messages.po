@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-05-29 00:46+0100\n"
-"PO-Revision-Date: 2020-06-02 16:41+0000\n"
+"PO-Revision-Date: 2020-06-11 20:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.1-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: template.py:385
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -226,11 +227,11 @@ msgstr "Manual do utilizador em PDF"
 
 #: template/download.html.j2:189
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b> versão única"
 
 #: template/download.html.j2:190
 msgid "<b>+£10</b> beta bundle"
-msgstr ""
+msgstr "<b>+£10</b> pacote beta"
 
 #: template/download.html.j2:195
 msgid "Full version"
@@ -238,7 +239,7 @@ msgstr "Versão completa"
 
 #: template/download.html.j2:196
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Atualizações para novos lançamentos"
 
 #: template/download.html.j2:197
 msgid "Access to nightly builds"
@@ -355,7 +356,7 @@ msgstr "Zrythm"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Estação De Trabalho De Áudio Digital"
 
 #: template/index.html.j2:22
 msgid ""
@@ -382,16 +383,21 @@ msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
+"Zrythm é uma {tooltip1}multiplataforma{endtooltip} {tooltip2}estação de "
+"trabalho de áudio digital{endtooltip} para ser cheia de funções e fácil de "
+"usar."
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm funciona no GNU/Linux, FreeBSD, MacOS e Windows"
 
 #: template/index.html.j2:64
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
+"Um DAW usa-se para compor, gravar, editar, organizar, misturar e masterizar "
+"música"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
@@ -407,23 +413,28 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr ""
+msgstr "Plugins de áudio"
 
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"Suporte completo para <a href=\"https://lv2plug.in/\">LV2</a> e VST2, com "
+"suporte experimental para VST3, AU, SFZ e SF2."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr ""
+msgstr "Suporte de multi-backend"
 
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Totalmente ciente de <a href=\"https://jackaudio.org/\">JACK</a>, incluindo "
+"suporte para o transporte de JACK, ALSA, WASAPI, Windows MME, CoreMidi e "
+"CoreAudio."
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
@@ -439,13 +450,15 @@ msgstr ""
 
 #: template/index.html.j2:151
 msgid "Liberating"
-msgstr ""
+msgstr "Libertador"
 
 #: template/index.html.j2:156
 msgid ""
 "Zrythm is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm é <a href=\"https://www.gnu.org/philosophy/free-sw.html\">software "
+"livre</a>. Use, estude, compartilhe e melhore-o livremente."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
@@ -457,10 +470,12 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
+"Disponível em <a href=\"https://hosted.weblate.org/engage/zrythm/\">vários "
+"idiomas</a> incluindo inglês, francês, galego, português, japonês e alemão."
 
 #: template/index.html.j2:184
 msgid "Learn more"
-msgstr ""
+msgstr "Saiba mais"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
