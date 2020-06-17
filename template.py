@@ -161,6 +161,7 @@ if r.status_code == 200:
         order = _order['order']
         if order['gateway'] == 'BitPay':
             amount = float(order['settled_gross'])
+            amount -= amount / 100.0
         else:
             amount = float(order['settled_gross']) - float(order['settled_gateway_fee'])
         if order['settled_currency'] == 'USD':
