@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-06-17 03:16+0100\n"
-"PO-Revision-Date: 2020-04-28 13:35+0000\n"
+"PO-Revision-Date: 2020-06-30 21:22+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.0.2\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -176,11 +177,11 @@ msgstr "GPG署名キー"
 
 #: template/download.html.j2:157
 msgid "Installer"
-msgstr ""
+msgstr "インストーラ"
 
 #: template/download.html.j2:164
 msgid "trial"
-msgstr ""
+msgstr "トライアル"
 
 #: template/download.html.j2:168
 msgid "alpha/beta"
@@ -188,7 +189,7 @@ msgstr "アルファ/ベータ版"
 
 #: template/download.html.j2:169
 msgid "full"
-msgstr ""
+msgstr "フル版"
 
 #: template/download.html.j2:172
 msgid "subscription"
@@ -196,65 +197,65 @@ msgstr "サブスクリプション"
 
 #: template/download.html.j2:178
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "同梱のプラグイン(基本)"
 
 #: template/download.html.j2:179
 msgid "Goes silent after 10 minutes"
-msgstr ""
+msgstr "10分後に無音になる"
 
 #: template/download.html.j2:180
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "保存/読み込みが無効"
 
 #: template/download.html.j2:181
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:186
 msgid "Compiled with all features"
-msgstr ""
+msgstr "めとすべての機能"
 
 #: template/download.html.j2:187
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "同梱のプラグイン(全て)"
 
 #: template/download.html.j2:188
 msgid "PDF user manual"
-msgstr ""
+msgstr "PDFユーザーマニュアル"
 
 #: template/download.html.j2:189
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b>シングルバージョン"
 
 #: template/download.html.j2:190
 msgid "<b>+£10</b> beta bundle"
-msgstr ""
+msgstr "<b>+£10</b>ベタバンドル"
 
 #: template/download.html.j2:195
 msgid "Full version"
-msgstr ""
+msgstr "完全版"
 
 #: template/download.html.j2:196
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "新リリースへのアップグレード"
 
 #: template/download.html.j2:197
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "デイリービルドへのアクセス"
 
 #: template/download.html.j2:198
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/月</b>"
 
 #: template/download.html.j2:206
 msgid "Try Now"
-msgstr ""
+msgstr "今すぐ試す"
 
 #: template/download.html.j2:213
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
-msgstr ""
+msgstr "機能が限定されたお試し版です。お使いのオペレーティングシステムを選択してください。"
 
 #: template/download.html.j2:216
 msgid "GNU/Linux"
@@ -274,17 +275,17 @@ msgstr "登録"
 
 #: template/download.html.j2:242
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "インストーラーを購入してZrythmをサポートしましょう。"
 
 #: template/download.html.j2:243
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "今月は£{amount}をいただきました。"
 
 #: template/download.html.j2:245
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
-msgstr ""
+msgstr "これには、LiberaPayの寄付、OpenCollective、ダウンロード、サブスクリプションが含まれます"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -296,7 +297,7 @@ msgstr "レビュー"
 
 #: template/explore.html.j2:45
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr ""
+msgstr "unfaのライブストリーム：Geonkickでスネアドラムを合成する"
 
 #: template/explore.html.j2:53
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -344,7 +345,7 @@ msgstr "直線または曲線でパラメータをオートメート。"
 
 #: template/index.html.j2:19 template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -373,16 +374,18 @@ msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
+"Zrythmは{tooltip1}クロスプラットフォーム{endtooltip}な機能的で使いやすいように設計された{tooltip2}デジタルオーディオ"
+"ワークステーション{endtooltip}です。"
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm は GNU/Linux, FreeBSD, MacOS と Windows で動作します"
 
 #: template/index.html.j2:64
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
-msgstr ""
+msgstr "DAWは、作曲、録音、編集、アレンジ、ミキシング、マスタリングに使用されるソフトウェアです"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
@@ -403,6 +406,8 @@ msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"<a href=\"https://lv2plug.in/\""
+">LV2</a>とVST2を完全にサポートし、VST3、AU、SFZ、SF2を実験的にサポート。"
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
@@ -413,6 +418,8 @@ msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"JACKトランスポート、ALSA、WASAPI、Windows MME、CoreMidi、CoreAudioのサポートに加えて、完全な<a href="
+"\"https://jackaudio.org/\">JACK</a>対応。"
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
@@ -484,11 +491,11 @@ msgstr "ドキュメント"
 
 #: template/learn.html.j2:95
 msgid "User Manual"
-msgstr ""
+msgstr "マニュアル"
 
 #: template/learn.html.j2:98
 msgid "Developer Reference"
-msgstr ""
+msgstr "開発者向けリファレンス"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
@@ -549,7 +556,7 @@ msgstr "ご購入いただきありがとうございました"
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
-msgstr ""
+msgstr "開発を支援していただきありがとうございます!インストーラのダウンロード方法を記載したメールがまもなく届きます。"
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
