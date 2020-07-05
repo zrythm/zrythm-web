@@ -18,8 +18,8 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-8">
         <p>
-        Copyright &copy; 2019-2020 The Zrythm contributors ~
-        <a href="{{ url(lang + '/legal.html') }}">Legal</a>
+        Copyright &copy; 2019-2020 {{ _('The Zrythm contributors') }} ~
+        <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a>
         </p>
       </div>
       <div class="col-sm-4">

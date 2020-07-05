@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-17 03:16+0100\n"
+"POT-Creation-Date: 2020-07-05 12:56+0100\n"
 "PO-Revision-Date: 2020-05-04 02:11+0000\n"
 "Last-Translator: Samuel Carvalho de Araújo <samuelnegro12345@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -70,6 +70,14 @@ msgstr ""
 
 #: template.py:406
 msgid "Single knob to control detune"
+msgstr ""
+
+#: common/footer.j2.inc:21
+msgid "The Zrythm contributors"
+msgstr ""
+
+#: common/footer.j2.inc:22
+msgid "Legal"
 msgstr ""
 
 #: common/header.j2.inc:24

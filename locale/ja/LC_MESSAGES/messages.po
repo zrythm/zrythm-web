@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-17 03:16+0100\n"
+"POT-Creation-Date: 2020-07-05 12:56+0100\n"
 "PO-Revision-Date: 2020-06-30 21:22+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -71,7 +70,15 @@ msgstr "7つのノコギリオシレータ"
 
 #: template.py:406
 msgid "Single knob to control detune"
-msgstr "シングルノブでデチューンを調整"
+msgstr "シングル・ノブでデチューンを調整"
+
+#: common/footer.j2.inc:21
+msgid "The Zrythm contributors"
+msgstr "Zrythmの貢献者"
+
+#: common/footer.j2.inc:22
+msgid "Legal"
+msgstr "著作権/商標に関する情報"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -94,7 +101,7 @@ msgstr "ダウンロード"
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr "探索"
+msgstr "詳細"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
@@ -145,7 +152,7 @@ msgstr "プロジェクト"
 
 #: template/community.html.j2:76
 msgid "Issue tracker"
-msgstr "課題管理システム"
+msgstr "課題管理"
 
 #: template/community.html.j2:79
 msgid "Translations"
@@ -181,7 +188,7 @@ msgstr "インストーラ"
 
 #: template/download.html.j2:164
 msgid "trial"
-msgstr "トライアル"
+msgstr "お試し版"
 
 #: template/download.html.j2:168
 msgid "alpha/beta"
@@ -189,7 +196,7 @@ msgstr "アルファ/ベータ版"
 
 #: template/download.html.j2:169
 msgid "full"
-msgstr "フル版"
+msgstr "完全版"
 
 #: template/download.html.j2:172
 msgid "subscription"
@@ -213,7 +220,7 @@ msgstr "<b>£0</b>"
 
 #: template/download.html.j2:186
 msgid "Compiled with all features"
-msgstr "めとすべての機能"
+msgstr "すべての機能"
 
 #: template/download.html.j2:187
 msgid "Bundled plugins (all)"
@@ -221,15 +228,15 @@ msgstr "同梱のプラグイン(全て)"
 
 #: template/download.html.j2:188
 msgid "PDF user manual"
-msgstr "PDFユーザーマニュアル"
+msgstr "PDFマニュアル"
 
 #: template/download.html.j2:189
 msgid "<b>£5</b> single version"
-msgstr "<b>£5</b>シングルバージョン"
+msgstr "<b>£5</b>シングル・バージョン"
 
 #: template/download.html.j2:190
 msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+£10</b>ベタバンドル"
+msgstr "<b>+£10</b>ベタ・バンドル"
 
 #: template/download.html.j2:195
 msgid "Full version"
@@ -241,7 +248,7 @@ msgstr "新リリースへのアップグレード"
 
 #: template/download.html.j2:197
 msgid "Access to nightly builds"
-msgstr "デイリービルドへのアクセス"
+msgstr "デイリー・ビルドへのアクセス"
 
 #: template/download.html.j2:198
 msgid "<b>£5/month</b>"
@@ -263,7 +270,7 @@ msgstr "GNU/Linux"
 
 #: template/download.html.j2:217
 msgid "Windows 64-bit"
-msgstr "Windows 64-bit"
+msgstr "Windows 64ビット"
 
 #: template/download.html.j2:228
 msgid "Buy Now"
@@ -317,11 +324,11 @@ msgstr "専用のピアノロールでMIDIイベントを作成、編集、ア�
 
 #: template/explore.html.j2:89 template/explore.html.j2:102
 msgid "Anywhere-to-anywhere connections"
-msgstr "カスタムな接続"
+msgstr "カスタムなコネクション"
 
 #: template/explore.html.j2:94
 msgid "Connect anything to anything."
-msgstr "どこからどこでも接続可能。"
+msgstr "どこからどこでもコネクト可能。"
 
 #: template/explore.html.j2:109
 msgid "Bounce in place"
@@ -333,7 +340,7 @@ msgstr "イン・プレースのバウンシング"
 
 #: template/explore.html.j2:118
 msgid "Quickly bounce selected material to audio."
-msgstr "選択したものをオーディオにすばやくバウンス。"
+msgstr "選択したものを素早くオーディオ化する。"
 
 #: template/explore.html.j2:127 template/explore.html.j2:140
 msgid "Automation curves"
@@ -374,8 +381,7 @@ msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
-"Zrythmは{tooltip1}クロスプラットフォーム{endtooltip}な機能的で使いやすいように設計された{tooltip2}デジタルオーディオ"
-"ワークステーション{endtooltip}です。"
+"Zrythmは{tooltip1}クロスプラットフォーム{endtooltip}な機能的で使いやすいように設計された{tooltip2}デジタルオーディオワークステーション{endtooltip}です。"
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
@@ -406,8 +412,8 @@ msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
-"<a href=\"https://lv2plug.in/\""
-">LV2</a>とVST2を完全にサポートし、VST3、AU、SFZ、SF2を実験的にサポート。"
+"<a "
+"href=\"https://lv2plug.in/\">LV2</a>とVST2を完全にサポートし、VST3、AU、SFZ、SF2を実験的にサポート。"
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
@@ -418,8 +424,8 @@ msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
-"JACKトランスポート、ALSA、WASAPI、Windows MME、CoreMidi、CoreAudioのサポートに加えて、完全な<a href="
-"\"https://jackaudio.org/\">JACK</a>対応。"
+"JACKトランスポート、ALSA、WASAPI、Windows MME、CoreMidi、CoreAudioのサポートに加えて、完全な<a "
+"href=\"https://jackaudio.org/\">JACK</a>対応。"
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
