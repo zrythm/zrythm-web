@@ -78,7 +78,7 @@ msgstr "Zrythmの貢献者"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr "著作権/商標に関する情報"
+msgstr "法的事項"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -505,7 +505,7 @@ msgstr "開発者向けリファレンス"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr "著作権や商標の情報"
+msgstr "法的事項"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
