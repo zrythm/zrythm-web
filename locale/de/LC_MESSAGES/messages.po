@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-09 18:08+0100\n"
+"POT-Creation-Date: 2020-07-09 18:13+0100\n"
 "PO-Revision-Date: 2020-05-02 22:30+0000\n"
 "Last-Translator: Jeannette <j.lavoie@net-c.ca>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -163,129 +163,121 @@ msgstr ""
 msgid "Source code"
 msgstr "Quellcode"
 
-#: template/download.html.j2:47
-msgid "git repositories"
-msgstr "git-Repositorys"
+#: template/download.html.j2:49
+msgid "Releases"
+msgstr ""
 
-#: template/download.html.j2:59
-msgid "stable releases"
-msgstr "Stabile Veröffentlichungen"
+#: template/download.html.j2:52
+msgid "GPG Key"
+msgstr ""
 
-#: template/download.html.j2:65
-msgid "releases"
-msgstr "Veröffentlichungen"
-
-#: template/download.html.j2:73
-msgid "GPG signing key"
-msgstr "GPG-Signierungsschlüssel"
-
-#: template/download.html.j2:157
+#: template/download.html.j2:126
 msgid "Installer"
 msgstr ""
 
-#: template/download.html.j2:164
+#: template/download.html.j2:133
 msgid "trial"
 msgstr ""
 
-#: template/download.html.j2:168
+#: template/download.html.j2:137
 msgid "alpha/beta"
 msgstr ""
 
-#: template/download.html.j2:169
+#: template/download.html.j2:138
 msgid "full"
 msgstr ""
 
-#: template/download.html.j2:172
+#: template/download.html.j2:141
 msgid "subscription"
 msgstr ""
 
-#: template/download.html.j2:178
+#: template/download.html.j2:147
 msgid "Bundled plugins (basic)"
 msgstr ""
 
-#: template/download.html.j2:179
+#: template/download.html.j2:148
 msgid "Goes silent after 10 minutes"
 msgstr ""
 
-#: template/download.html.j2:180
+#: template/download.html.j2:149
 msgid "Save/load is disabled"
 msgstr ""
 
-#: template/download.html.j2:181
+#: template/download.html.j2:150
 msgid "<b>£0</b>"
 msgstr ""
 
-#: template/download.html.j2:186
+#: template/download.html.j2:155
 msgid "Compiled with all features"
 msgstr ""
 
-#: template/download.html.j2:187
+#: template/download.html.j2:156
 msgid "Bundled plugins (all)"
 msgstr ""
 
-#: template/download.html.j2:188
+#: template/download.html.j2:157
 msgid "PDF user manual"
 msgstr ""
 
-#: template/download.html.j2:189
+#: template/download.html.j2:158
 msgid "<b>£5</b> single version"
 msgstr ""
 
-#: template/download.html.j2:190
+#: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
 msgstr ""
 
-#: template/download.html.j2:195
+#: template/download.html.j2:164
 msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:196
+#: template/download.html.j2:165
 msgid "Upgrades to new releases"
 msgstr ""
 
-#: template/download.html.j2:197
+#: template/download.html.j2:166
 msgid "Access to nightly builds"
 msgstr ""
 
-#: template/download.html.j2:198
+#: template/download.html.j2:167
 msgid "<b>£5/month</b>"
 msgstr ""
 
-#: template/download.html.j2:206
+#: template/download.html.j2:175
 msgid "Try Now"
 msgstr ""
 
-#: template/download.html.j2:213
+#: template/download.html.j2:182
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
 
-#: template/download.html.j2:216
+#: template/download.html.j2:185
 msgid "GNU/Linux"
 msgstr ""
 
-#: template/download.html.j2:217
+#: template/download.html.j2:186
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:228
+#: template/download.html.j2:197
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:235
+#: template/download.html.j2:204
 msgid "Subscribe"
 msgstr ""
 
-#: template/download.html.j2:242
+#: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
 msgstr ""
 
-#: template/download.html.j2:243
+#: template/download.html.j2:212
 msgid "This month we received £{amount}."
 msgstr ""
 
-#: template/download.html.j2:245
+#: template/download.html.j2:214
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
@@ -569,6 +561,15 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr ""
+
+#~ msgid "git repositories"
+#~ msgstr "git-Repositorys"
+
+#~ msgid "stable releases"
+#~ msgstr "Stabile Veröffentlichungen"
+
+#~ msgid "GPG signing key"
+#~ msgstr "GPG-Signierungsschlüssel"
 
 #~ msgid "IRC"
 #~ msgstr "IRC"
