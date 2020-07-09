@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-05 12:56+0100\n"
+"POT-Creation-Date: 2020-07-09 18:08+0100\n"
 "PO-Revision-Date: 2020-05-13 12:41+0000\n"
 "Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -497,7 +497,7 @@ msgid "Tutorials"
 msgstr "Tutoriels"
 
 #: template/learn.html.j2:46 template/learn.html.j2:60
-#: template/learn.html.j2:75
+#: template/learn.html.j2:81
 msgid "Your browser does not support HTML5 video"
 msgstr "Votre navigateur ne prend pas en charge la vidéo HTML5"
 
@@ -509,19 +509,27 @@ msgstr "Démo basique"
 msgid "ZLFO demo"
 msgstr "Démo ZLFO"
 
-#: template/learn.html.j2:80
-msgid "MIDI tracks"
-msgstr "Pistes MIDI"
+#: template/learn.html.j2:70
+msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
+msgstr ""
 
-#: template/learn.html.j2:88
+#: template/learn.html.j2:86
+msgid "Routing"
+msgstr ""
+
+#: template/learn.html.j2:91
+msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+msgstr ""
+
+#: template/learn.html.j2:100
 msgid "Documentation"
 msgstr "Documentation"
 
-#: template/learn.html.j2:95
+#: template/learn.html.j2:107
 msgid "User Manual"
 msgstr "Manuel utilisateur"
 
-#: template/learn.html.j2:98
+#: template/learn.html.j2:110
 msgid "Developer Reference"
 msgstr "Documentation pour développeurs"
 
@@ -605,6 +613,9 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
+
+#~ msgid "MIDI tracks"
+#~ msgstr "Pistes MIDI"
 
 #~ msgid "No limitations"
 #~ msgstr "Pas de limites"

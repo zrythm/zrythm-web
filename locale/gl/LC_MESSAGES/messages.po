@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-05 12:56+0100\n"
+"POT-Creation-Date: 2020-07-09 18:08+0100\n"
 "PO-Revision-Date: 2020-06-29 19:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -492,7 +492,7 @@ msgid "Tutorials"
 msgstr "Titoriais"
 
 #: template/learn.html.j2:46 template/learn.html.j2:60
-#: template/learn.html.j2:75
+#: template/learn.html.j2:81
 msgid "Your browser does not support HTML5 video"
 msgstr "O teu navegador non soporta vídeo HTML5"
 
@@ -504,19 +504,27 @@ msgstr "Demo básica"
 msgid "ZLFO demo"
 msgstr "Demo do ZLFO"
 
-#: template/learn.html.j2:80
-msgid "MIDI tracks"
-msgstr "Pistas MIDI"
+#: template/learn.html.j2:70
+msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
+msgstr ""
 
-#: template/learn.html.j2:88
+#: template/learn.html.j2:86
+msgid "Routing"
+msgstr ""
+
+#: template/learn.html.j2:91
+msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+msgstr ""
+
+#: template/learn.html.j2:100
 msgid "Documentation"
 msgstr "Documentación"
 
-#: template/learn.html.j2:95
+#: template/learn.html.j2:107
 msgid "User Manual"
 msgstr "Manual do Usuario"
 
-#: template/learn.html.j2:98
+#: template/learn.html.j2:110
 msgid "Developer Reference"
 msgstr "Referencia do desenvolvedor"
 
@@ -600,6 +608,9 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Volver á páxina de inicio"
+
+#~ msgid "MIDI tracks"
+#~ msgstr "Pistas MIDI"
 
 #~ msgid "Browse Online"
 #~ msgstr "Explorar en liña"
