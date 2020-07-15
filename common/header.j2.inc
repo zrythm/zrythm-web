@@ -34,6 +34,7 @@ GNU Affero General Public License for more details.
 <script type="text/javascript">
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDoNotTrack", true]);
   _paq.push(["setDomains", ["*.www.zrythm.org"]]);
   _paq.push(["disableCookies"]);
   _paq.push(['trackPageView']);
