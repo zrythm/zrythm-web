@@ -19,7 +19,8 @@ GNU Affero General Public License for more details.
       <div class="col-sm-8">
         <p>
         Copyright &copy; 2019-2020 {{ _('The Zrythm contributors') }} ~
-        <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a>
+        <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a> -
+        <a href="{{ url(lang + '/privacy.html') }}">{{ _('Privacy') }}</a>
         </p>
       </div>
       <div class="col-sm-4">

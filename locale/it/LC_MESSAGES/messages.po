@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-09 18:13+0100\n"
+"POT-Creation-Date: 2020-07-15 08:09+0100\n"
 "PO-Revision-Date: 2020-05-02 22:30+0000\n"
 "Last-Translator: Jeannette <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -77,6 +77,10 @@ msgstr ""
 
 #: common/footer.j2.inc:22
 msgid "Legal"
+msgstr ""
+
+#: common/footer.j2.inc:23
+msgid "Privacy"
 msgstr ""
 
 #: common/header.j2.inc:24
@@ -535,6 +539,11 @@ msgstr "{} schermata"
 #: template/plugins.html.j2:61
 msgid "Technical specs"
 msgstr "Specifiche tecniche"
+
+#: template/privacy.html.j2:19 template/privacy.html.j2:22
+#: template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
