@@ -49,3 +49,6 @@ GNU Affero General Public License for more details.
 </script>
 <noscript><img src="https://zrythm.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></noscript>
 <!-- End Matomo Code -->
+
+<!-- Plausible analytics test -->
+<script async defer data-domain="zrythm.org" src="https://plausible.io/js/plausible.js"></script>

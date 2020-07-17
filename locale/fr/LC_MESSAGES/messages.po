@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-15 08:09+0100\n"
+"POT-Creation-Date: 2020-07-17 14:41+0100\n"
 "PO-Revision-Date: 2020-05-13 12:41+0000\n"
 "Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -81,7 +81,11 @@ msgstr ""
 msgid "Legal"
 msgstr ""
 
-#: common/footer.j2.inc:23
+#: common/footer.j2.inc:23 template/legal.html.j2:58
+msgid "Trademarks"
+msgstr "Marques"
+
+#: common/footer.j2.inc:24
 msgid "Privacy"
 msgstr ""
 
@@ -555,17 +559,10 @@ msgstr ""
 
 #: template/legal.html.j2:50
 msgid ""
-"Text and media found on the Zrythm website are released under <a "
+"Videos found on the Zrythm website are released under <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
-"Le texte et les médias trouvés sur le site web de Zrythm sont publiés sous "
-"licence<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
-"Commons Attribution-ShareAlike 4.0 International</a>."
-
-#: template/legal.html.j2:58
-msgid "Trademarks"
-msgstr "Marques"
 
 #: template/legal.html.j2:64
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
@@ -614,6 +611,14 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Retour à la page d'accueil"
+
+#: template/trademarks.html.j2:19
+msgid "Trademark Policy"
+msgstr ""
+
+#: template/trademarks.html.j2:22
+msgid "Zrythm Trademark Policy"
+msgstr ""
 
 #~ msgid "git repositories"
 #~ msgstr "dépôts git"

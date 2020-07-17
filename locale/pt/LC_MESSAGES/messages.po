@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-15 08:09+0100\n"
+"POT-Creation-Date: 2020-07-17 14:07+0100\n"
 "PO-Revision-Date: 2020-06-11 20:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -79,7 +79,11 @@ msgstr ""
 msgid "Legal"
 msgstr ""
 
-#: common/footer.j2.inc:23
+#: common/footer.j2.inc:23 template/legal.html.j2:58
+msgid "Trademarks"
+msgstr ""
+
+#: common/footer.j2.inc:24
 msgid "Privacy"
 msgstr ""
 
@@ -547,13 +551,9 @@ msgstr ""
 
 #: template/legal.html.j2:50
 msgid ""
-"Text and media found on the Zrythm website are released under <a "
+"Videos found on the Zrythm website are released under <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
-msgstr ""
-
-#: template/legal.html.j2:58
-msgid "Trademarks"
 msgstr ""
 
 #: template/legal.html.j2:64
@@ -600,6 +600,14 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Voltar à página inicial"
+
+#: template/trademarks.html.j2:19
+msgid "Trademark Policy"
+msgstr ""
+
+#: template/trademarks.html.j2:22
+msgid "Zrythm Trademark Policy"
+msgstr ""
 
 #~ msgid "git repositories"
 #~ msgstr "Repositórios git"
