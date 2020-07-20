@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-17 14:41+0100\n"
+"POT-Creation-Date: 2020-07-20 12:00+0100\n"
 "PO-Revision-Date: 2020-05-13 12:41+0000\n"
 "Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -305,57 +305,94 @@ msgid "List of features, functionality, and reviews"
 msgstr "Liste des caractéristiques, fonctionnalités et avis"
 
 #: template/explore.html.j2:37
-msgid "Reviews"
-msgstr "Avis"
+msgid "Demos"
+msgstr ""
 
-#: template/explore.html.j2:45
-msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr "unfa livestream : Synthesizing snare drums with Geonkick"
+#: template/explore.html.j2:46 template/explore.html.j2:60
+#: template/explore.html.j2:80 template/learn.html.j2:46
+#: template/learn.html.j2:60 template/learn.html.j2:79
+msgid "Your browser does not support HTML5 video"
+msgstr "Votre navigateur ne prend pas en charge la vidéo HTML5"
 
-#: template/explore.html.j2:53
-msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr "Article du numéro 229/2019 de Linux Magazine"
+#: template/explore.html.j2:51
+msgid "Basic demo"
+msgstr "Démo basique"
 
-#: template/explore.html.j2:63 template/plugins.html.j2:53
+#: template/explore.html.j2:65
+msgid "Zrythm + Geonkick future bass"
+msgstr ""
+
+#: template/explore.html.j2:70
+msgid ""
+"Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+msgstr ""
+
+#: template/explore.html.j2:85
+msgid "Zrythm + BJumblr jam"
+msgstr ""
+
+#: template/explore.html.j2:90
+msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
+msgstr ""
+
+#: template/explore.html.j2:99 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: template/explore.html.j2:71 template/explore.html.j2:75
+#: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
 msgstr "Piano roll"
 
-#: template/explore.html.j2:80
+#: template/explore.html.j2:116
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Créez, éditez et organisez des événements MIDI dans un piano roll dédié."
 
-#: template/explore.html.j2:89 template/explore.html.j2:102
+#: template/explore.html.j2:125 template/explore.html.j2:138
 msgid "Anywhere-to-anywhere connections"
 msgstr "Des connexions de n'importe où à n'importe quel endroit"
 
-#: template/explore.html.j2:94
+#: template/explore.html.j2:130
 msgid "Connect anything to anything."
 msgstr "Reliez tout à tout."
 
-#: template/explore.html.j2:109
+#: template/explore.html.j2:145
 msgid "Bounce in place"
 msgstr "Export sur place"
 
-#: template/explore.html.j2:113
+#: template/explore.html.j2:149
 msgid "Bounce in-place"
 msgstr "Export sur place"
 
-#: template/explore.html.j2:118
+#: template/explore.html.j2:154
 msgid "Quickly bounce selected material to audio."
 msgstr "Exporter rapidement en audio la sélection."
 
-#: template/explore.html.j2:127 template/explore.html.j2:140
+#: template/explore.html.j2:163 template/explore.html.j2:176
 msgid "Automation curves"
 msgstr "Courbes d'automatisation"
 
-#: template/explore.html.j2:132
+#: template/explore.html.j2:168
 msgid "Automate parameters with straight lines or curves."
 msgstr "Automatisez les paramètres avec des lignes droites ou des courbes."
+
+#: template/explore.html.j2:181
+msgid "Reviews"
+msgstr "Avis"
+
+#: template/explore.html.j2:189
+msgid "unfa livestream: Synthesizing snare drums with Geonkick"
+msgstr "unfa livestream : Synthesizing snare drums with Geonkick"
+
+#: template/explore.html.j2:197
+msgid "Article from Issue 229/2019 of Linux Magazine"
+msgstr "Article du numéro 229/2019 de Linux Magazine"
+
+#: template/explore.html.j2:205
+msgid ""
+"Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
+"digital audio workstation"
+msgstr ""
 
 #: template/index.html.j2:19 template/index.html.j2:33
 msgid "Zrythm"
@@ -496,40 +533,31 @@ msgstr "Pages de référence Zrythm - manuel utilisateur - didacticiels"
 msgid "Tutorials"
 msgstr "Tutoriels"
 
-#: template/learn.html.j2:46 template/learn.html.j2:60
-#: template/learn.html.j2:81
-msgid "Your browser does not support HTML5 video"
-msgstr "Votre navigateur ne prend pas en charge la vidéo HTML5"
-
 #: template/learn.html.j2:51
-msgid "Basic demo"
-msgstr "Démo basique"
+msgid "Install (source)"
+msgstr ""
 
-#: template/learn.html.j2:65
-msgid "ZLFO demo"
-msgstr "Démo ZLFO"
-
-#: template/learn.html.j2:70
+#: template/learn.html.j2:68
 msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
 msgstr ""
 
-#: template/learn.html.j2:86
+#: template/learn.html.j2:84
 msgid "Routing"
 msgstr ""
 
-#: template/learn.html.j2:91
+#: template/learn.html.j2:89
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 msgstr ""
 
-#: template/learn.html.j2:100
+#: template/learn.html.j2:98
 msgid "Documentation"
 msgstr "Documentation"
 
-#: template/learn.html.j2:107
+#: template/learn.html.j2:105
 msgid "User Manual"
 msgstr "Manuel utilisateur"
 
-#: template/learn.html.j2:110
+#: template/learn.html.j2:108
 msgid "Developer Reference"
 msgstr "Documentation pour développeurs"
 
@@ -619,6 +647,9 @@ msgstr ""
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "ZLFO demo"
+#~ msgstr "Démo ZLFO"
 
 #~ msgid "git repositories"
 #~ msgstr "dépôts git"
@@ -989,9 +1020,6 @@ msgstr ""
 
 #~ msgid "on"
 #~ msgstr "sur"
-
-#~ msgid "More news"
-#~ msgstr "Plus d'actualités"
 
 #~ msgid ""
 #~ "Zrythm [<em>%(pronunciation)s</em>] is a highly automated Digital Audio "

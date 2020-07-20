@@ -35,26 +35,62 @@ GNU Affero General Public License for more details.
 
   <h2>
     {% trans %}
-    Reviews
+    Demos
     {% endtrans %}
   </h2>
-  <div class="container centered">
-    <div class="row centered">
-      <div class="col-md-6 col-sm-12">
-        <a href="https://tube.netzspielplatz.de/videos/watch/1687653d-382f-435c-8984-545bab75830a">
-          {% trans %}
-          unfa livestream: Synthesizing snare drums with Geonkick
-          {% endtrans %}
-        </a>
-        <blockquote cite="unfa">I was suprised how optimized Zrythm is for what I wanted to do</blockquote>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <video class="video" controls>
+        <source src="https://www.zrythm.org/videos/zrythm_demo_2020_01_15.webm"
+                type="video/webm">
+        {% trans %}
+        Your browser does not support HTML5 video
+        {% endtrans %}
+      </video>
+      <div class="video_caption">
+        {% trans %}
+        Basic demo
+        {% endtrans %}
       </div>
-      <div class="col-md-6 col-sm-12">
-        <a href="https://www.linux-magazine.com/Issues/2019/229/FOSSPicks">
-          {% trans %}
-          Article from Issue 229/2019 of Linux Magazine
-          {% endtrans %}
-        </a>
-        <blockquote cite="Graham Morrison">it is one of the best ways of composing music and exporting the audio files on Linux</blockquote>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <video class="video" controls>
+        <source src="https://www.zrythm.org/videos/zrythm-rgh-lmc-project.webm"
+                type="video/webm">
+        {% trans %}
+        Your browser does not support HTML5 video
+        {% endtrans %}
+      </video>
+      <div class="video_caption">
+        {% trans %}
+        Zrythm + Geonkick future bass
+        {% endtrans %}
+        <br>
+        <small>
+        {% trans %}
+        Composed by <a href="https://sonomu.club/@rghvdberg">Rob van den Berg</a>
+        {% endtrans %}
+        </small>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <video class="video" controls>
+        <source src="https://www.zrythm.org/videos/zrythm-bjumblr-jam.webm"
+                type="video/webm">
+        {% trans %}
+        Your browser does not support HTML5 video
+        {% endtrans %}
+      </video>
+      <div class="video_caption">
+        {% trans %}
+        Zrythm + BJumblr jam
+        {% endtrans %}
+        <br>
+        <small>
+        {% trans %}
+        Video by <a href="https://mastodon.social/@unfa">unfa</a>
+        {% endtrans %}
+        </small>
       </div>
     </div>
   </div>
@@ -138,6 +174,40 @@ GNU Affero General Public License for more details.
       <img class="feature_img"
            src="{{ url('static/images/automation-curves.gif') }}"
            alt="{{ _('Automation curves') }}">
+    </div>
+  </div>
+
+  <h2>
+    {% trans %}
+    Reviews
+    {% endtrans %}
+  </h2>
+  <div class="container centered">
+    <div class="row centered">
+      <div class="col-md-4 col-sm-12">
+        <a href="https://tube.netzspielplatz.de/videos/watch/1687653d-382f-435c-8984-545bab75830a">
+          {% trans %}
+          unfa livestream: Synthesizing snare drums with Geonkick
+          {% endtrans %}
+        </a>
+        <blockquote cite="unfa">I was suprised how optimized Zrythm is for what I wanted to do</blockquote>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <a href="https://www.linux-magazine.com/Issues/2019/229/FOSSPicks">
+          {% trans %}
+          Article from Issue 229/2019 of Linux Magazine
+          {% endtrans %}
+        </a>
+        <blockquote cite="Graham Morrison">it is one of the best ways of composing music and exporting the audio files on Linux</blockquote>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <a href="https://www.phoronix.com/scan.php?page=news_item&px=Zrythm-0.8.694-Open-Source-DAW">
+          {% trans %}
+          Phoronix news: Zrythm approaching beta as an easy-to-use, open-source digital audio workstation
+          {% endtrans %}
+        </a>
+        <blockquote cite="Michael Larabel">Zrythm continues advancing as another promising open-source digital audio workstation</blockquote>
+      </div>
     </div>
   </div>
 
