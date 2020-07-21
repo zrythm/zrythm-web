@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-07-05 12:56+0100\n"
-"PO-Revision-Date: 2020-07-12 15:41+0000\n"
+"PO-Revision-Date: 2020-07-22 13:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
 ">\n"
@@ -310,9 +310,8 @@ msgid "Reviews"
 msgstr "Avaliações"
 
 #: template/explore.html.j2:45
-#, fuzzy
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr "livestream da unfa: Sintetizar tarolas com Geonkick"
+msgstr "livestream da unfa: Sintetizar caixas com Geonkick"
 
 #: template/explore.html.j2:53
 msgid "Article from Issue 229/2019 of Linux Magazine"
