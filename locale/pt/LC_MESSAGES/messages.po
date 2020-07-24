@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-07-20 15:27+0100\n"
-"PO-Revision-Date: 2020-06-11 20:41+0000\n"
+"PO-Revision-Date: 2020-07-22 13:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -73,15 +73,15 @@ msgstr "Botão único para controlar a desintonização"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "Os colaboradores da Zrythm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Informação legal"
 
 #: common/footer.j2.inc:23 template/legal.html.j2:58
 msgid "Trademarks"
-msgstr ""
+msgstr "Marcas comerciais"
 
 #: common/footer.j2.inc:24
 msgid "Privacy"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
-msgstr ""
+msgstr "Demonstração básica"
 
 #: template/explore.html.j2:65
 msgid "Zrythm + Geonkick future bass"
@@ -382,7 +382,7 @@ msgstr "Avaliações"
 
 #: template/explore.html.j2:189
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr ""
+msgstr "livestream da unfa: Sintetizar caixas com Geonkick"
 
 #: template/explore.html.j2:197
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -523,11 +523,11 @@ msgstr "Saiba mais"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Páginas de referência de Zrythm - manual do utilizador - tutoriais"
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriais"
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
@@ -547,27 +547,27 @@ msgstr ""
 
 #: template/learn.html.j2:105
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: template/learn.html.j2:112
 msgid "User Manual"
-msgstr ""
+msgstr "Manual do Utilizador"
 
 #: template/learn.html.j2:115
 msgid "Developer Reference"
-msgstr ""
+msgstr "Referência Do Programador"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Informações legais"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Informações legais, de licenciamento e de marca"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Licenciamento"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -576,6 +576,10 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
+"Zrythm é protegido por direitos autorais por Alexandros Theodotou e outros "
+"colaboradores. O Zrythm é lançado sob a <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
+"Public License, versão 3 ou posterior</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -583,22 +587,26 @@ msgid ""
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Texto e mídia à disposição no site da Zrythm são lançados sob <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:64
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
+"Zrythm e o logótipo Zrythm são marcas registadas de Alexandros Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Suplementos fornecidos com o Zrythm"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} captura do ecrã"
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
+msgstr "Especificações técnicas"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
@@ -614,6 +622,8 @@ msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
+"Obrigado por apoiar o desenvolvimento! Receberá um e-mail em breve com "
+"instruções para descarregar o seu instalador."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""

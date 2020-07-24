@@ -1,31 +1,29 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# Weblate <noreply@weblate.org>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 15:27+0100\n"
-"PO-Revision-Date: 2020-07-24 14:02+0000\n"
-"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/zrythm/web/nl/>\n"
-"Language: nl\n"
+"POT-Creation-Date: 2020-07-05 12:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ia\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.2-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz wijst de mineur of majeur akkoorden toe aan de witte toetsen"
+msgstr ""
 
 #: template.py:390
 msgid "Major or minor scale"
-msgstr "Majeur of mineur"
+msgstr ""
 
 #: template.py:391
 msgid "Velocity multiplier per note"
@@ -33,11 +31,11 @@ msgstr ""
 
 #: template.py:395
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO is een volledig uitgeruste LFO voor CV-gebaseerde automatisering"
+msgstr ""
 
 #: template.py:396
 msgid "Multi-oscillator with custom wave"
-msgstr "Multi-oscillator met custom golf"
+msgstr ""
 
 #: template.py:397
 msgid "Phase shift"
@@ -45,15 +43,15 @@ msgstr ""
 
 #: template.py:398
 msgid "Vertical/horizontal inversion"
-msgstr "verticale/horizontale inversie"
+msgstr ""
 
 #: template.py:399
 msgid "Step mode"
-msgstr "Getrapte modus"
+msgstr ""
 
 #: template.py:400
 msgid "Editable range"
-msgstr "Aanpasbaar bereik"
+msgstr ""
 
 #: template.py:401
 msgid "Sync to host or free-form"
@@ -73,18 +71,10 @@ msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr "De Zrythm bijdragers"
+msgstr ""
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr "Juridisch"
-
-#: common/footer.j2.inc:23 template/legal.html.j2:58
-msgid "Trademarks"
-msgstr ""
-
-#: common/footer.j2.inc:24
-msgid "Privacy"
 msgstr ""
 
 #: common/header.j2.inc:24
@@ -106,17 +96,17 @@ msgstr ""
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr "Ontdek"
+msgstr ""
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr "Leer"
+msgstr ""
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr "Plugins"
+msgstr ""
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -171,121 +161,129 @@ msgstr ""
 msgid "Source code"
 msgstr ""
 
-#: template/download.html.j2:49
-msgid "Releases"
+#: template/download.html.j2:47
+msgid "git repositories"
 msgstr ""
 
-#: template/download.html.j2:52
-msgid "GPG Key"
+#: template/download.html.j2:59
+msgid "stable releases"
 msgstr ""
 
-#: template/download.html.j2:126
-msgid "Installer"
+#: template/download.html.j2:65
+msgid "releases"
 msgstr ""
 
-#: template/download.html.j2:133
-msgid "trial"
-msgstr ""
-
-#: template/download.html.j2:137
-msgid "alpha/beta"
-msgstr ""
-
-#: template/download.html.j2:138
-msgid "full"
-msgstr ""
-
-#: template/download.html.j2:141
-msgid "subscription"
-msgstr ""
-
-#: template/download.html.j2:147
-msgid "Bundled plugins (basic)"
-msgstr ""
-
-#: template/download.html.j2:148
-msgid "Goes silent after 10 minutes"
-msgstr ""
-
-#: template/download.html.j2:149
-msgid "Save/load is disabled"
-msgstr ""
-
-#: template/download.html.j2:150
-msgid "<b>£0</b>"
-msgstr ""
-
-#: template/download.html.j2:155
-msgid "Compiled with all features"
-msgstr ""
-
-#: template/download.html.j2:156
-msgid "Bundled plugins (all)"
+#: template/download.html.j2:73
+msgid "GPG signing key"
 msgstr ""
 
 #: template/download.html.j2:157
-msgid "PDF user manual"
-msgstr ""
-
-#: template/download.html.j2:158
-msgid "<b>£5</b> single version"
-msgstr ""
-
-#: template/download.html.j2:159
-msgid "<b>+£10</b> beta bundle"
+msgid "Installer"
 msgstr ""
 
 #: template/download.html.j2:164
+msgid "trial"
+msgstr ""
+
+#: template/download.html.j2:168
+msgid "alpha/beta"
+msgstr ""
+
+#: template/download.html.j2:169
+msgid "full"
+msgstr ""
+
+#: template/download.html.j2:172
+msgid "subscription"
+msgstr ""
+
+#: template/download.html.j2:178
+msgid "Bundled plugins (basic)"
+msgstr ""
+
+#: template/download.html.j2:179
+msgid "Goes silent after 10 minutes"
+msgstr ""
+
+#: template/download.html.j2:180
+msgid "Save/load is disabled"
+msgstr ""
+
+#: template/download.html.j2:181
+msgid "<b>£0</b>"
+msgstr ""
+
+#: template/download.html.j2:186
+msgid "Compiled with all features"
+msgstr ""
+
+#: template/download.html.j2:187
+msgid "Bundled plugins (all)"
+msgstr ""
+
+#: template/download.html.j2:188
+msgid "PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:189
+msgid "<b>£5</b> single version"
+msgstr ""
+
+#: template/download.html.j2:190
+msgid "<b>+£10</b> beta bundle"
+msgstr ""
+
+#: template/download.html.j2:195
 msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:165
+#: template/download.html.j2:196
 msgid "Upgrades to new releases"
 msgstr ""
 
-#: template/download.html.j2:166
+#: template/download.html.j2:197
 msgid "Access to nightly builds"
 msgstr ""
 
-#: template/download.html.j2:167
+#: template/download.html.j2:198
 msgid "<b>£5/month</b>"
 msgstr ""
 
-#: template/download.html.j2:175
+#: template/download.html.j2:206
 msgid "Try Now"
 msgstr ""
 
-#: template/download.html.j2:182
+#: template/download.html.j2:213
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
 
-#: template/download.html.j2:185
+#: template/download.html.j2:216
 msgid "GNU/Linux"
 msgstr ""
 
-#: template/download.html.j2:186
+#: template/download.html.j2:217
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:197
+#: template/download.html.j2:228
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:204
+#: template/download.html.j2:235
 msgid "Subscribe"
 msgstr ""
 
-#: template/download.html.j2:211
+#: template/download.html.j2:242
 msgid "Support Zrythm by purchasing an installer."
 msgstr ""
 
-#: template/download.html.j2:212
+#: template/download.html.j2:243
 msgid "This month we received £{amount}."
 msgstr ""
 
-#: template/download.html.j2:214
+#: template/download.html.j2:245
 msgid ""
 "This includes donations from LiberaPay, OpenCollective, downloads and "
 "subscriptions"
@@ -296,92 +294,55 @@ msgid "List of features, functionality, and reviews"
 msgstr ""
 
 #: template/explore.html.j2:37
-msgid "Demos"
-msgstr ""
-
-#: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:80 template/learn.html.j2:47
-#: template/learn.html.j2:67 template/learn.html.j2:86
-msgid "Your browser does not support HTML5 video"
-msgstr ""
-
-#: template/explore.html.j2:51
-msgid "Basic demo"
-msgstr ""
-
-#: template/explore.html.j2:65
-msgid "Zrythm + Geonkick future bass"
-msgstr ""
-
-#: template/explore.html.j2:70
-msgid ""
-"Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr ""
-
-#: template/explore.html.j2:85
-msgid "Zrythm + BJumblr jam"
-msgstr ""
-
-#: template/explore.html.j2:90
-msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr ""
-
-#: template/explore.html.j2:99 template/plugins.html.j2:53
-msgid "Features"
-msgstr ""
-
-#: template/explore.html.j2:107 template/explore.html.j2:111
-msgid "Piano roll"
-msgstr ""
-
-#: template/explore.html.j2:116
-msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr ""
-
-#: template/explore.html.j2:125 template/explore.html.j2:138
-msgid "Anywhere-to-anywhere connections"
-msgstr ""
-
-#: template/explore.html.j2:130
-msgid "Connect anything to anything."
-msgstr ""
-
-#: template/explore.html.j2:145
-msgid "Bounce in place"
-msgstr ""
-
-#: template/explore.html.j2:149
-msgid "Bounce in-place"
-msgstr ""
-
-#: template/explore.html.j2:154
-msgid "Quickly bounce selected material to audio."
-msgstr ""
-
-#: template/explore.html.j2:163 template/explore.html.j2:176
-msgid "Automation curves"
-msgstr ""
-
-#: template/explore.html.j2:168
-msgid "Automate parameters with straight lines or curves."
-msgstr ""
-
-#: template/explore.html.j2:181
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:189
+#: template/explore.html.j2:45
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgstr ""
 
-#: template/explore.html.j2:197
+#: template/explore.html.j2:53
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:205
-msgid ""
-"Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
-"digital audio workstation"
+#: template/explore.html.j2:63 template/plugins.html.j2:53
+msgid "Features"
+msgstr ""
+
+#: template/explore.html.j2:71 template/explore.html.j2:75
+msgid "Piano roll"
+msgstr ""
+
+#: template/explore.html.j2:80
+msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
+msgstr ""
+
+#: template/explore.html.j2:89 template/explore.html.j2:102
+msgid "Anywhere-to-anywhere connections"
+msgstr ""
+
+#: template/explore.html.j2:94
+msgid "Connect anything to anything."
+msgstr ""
+
+#: template/explore.html.j2:109
+msgid "Bounce in place"
+msgstr ""
+
+#: template/explore.html.j2:113
+msgid "Bounce in-place"
+msgstr ""
+
+#: template/explore.html.j2:118
+msgid "Quickly bounce selected material to audio."
+msgstr ""
+
+#: template/explore.html.j2:127 template/explore.html.j2:140
+msgid "Automation curves"
+msgstr ""
+
+#: template/explore.html.j2:132
+msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
 #: template/index.html.j2:19 template/index.html.j2:33
@@ -496,31 +457,32 @@ msgstr ""
 msgid "Tutorials"
 msgstr ""
 
-#: template/learn.html.j2:52
-msgid "Looping regions"
-msgstr ""
-
-#: template/learn.html.j2:57 template/learn.html.j2:96
-msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr ""
-
+#: template/learn.html.j2:46 template/learn.html.j2:60
 #: template/learn.html.j2:75
-msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
+msgid "Your browser does not support HTML5 video"
 msgstr ""
 
-#: template/learn.html.j2:91
-msgid "Routing"
+#: template/learn.html.j2:51
+msgid "Basic demo"
 msgstr ""
 
-#: template/learn.html.j2:105
+#: template/learn.html.j2:65
+msgid "ZLFO demo"
+msgstr ""
+
+#: template/learn.html.j2:80
+msgid "MIDI tracks"
+msgstr ""
+
+#: template/learn.html.j2:88
 msgid "Documentation"
 msgstr ""
 
-#: template/learn.html.j2:112
+#: template/learn.html.j2:95
 msgid "User Manual"
 msgstr ""
 
-#: template/learn.html.j2:115
+#: template/learn.html.j2:98
 msgid "Developer Reference"
 msgstr ""
 
@@ -546,9 +508,13 @@ msgstr ""
 
 #: template/legal.html.j2:50
 msgid ""
-"Videos found on the Zrythm website are released under <a "
+"Text and media found on the Zrythm website are released under <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International</a>."
+msgstr ""
+
+#: template/legal.html.j2:58
+msgid "Trademarks"
 msgstr ""
 
 #: template/legal.html.j2:64
@@ -565,11 +531,6 @@ msgstr ""
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
-
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
 msgstr ""
 
 #: template/purchase-thanks.html.j2:19
@@ -591,12 +552,4 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
-
-#: template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr ""
-
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
 msgstr ""
