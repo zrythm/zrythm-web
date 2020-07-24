@@ -8,22 +8,24 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-07-05 12:56+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-07-24 14:02+0000\n"
+"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/zrythm/web/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz wijst de mineur of majeur akkoorden toe aan de witte toetsen"
 
 #: template.py:390
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Majeur of mineur"
 
 #: template.py:391
 msgid "Velocity multiplier per note"
@@ -31,11 +33,11 @@ msgstr ""
 
 #: template.py:395
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO is een volledig uitgeruste LFO voor CV-gebaseerde automatisering"
 
 #: template.py:396
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Multi-oscillator met custom golf"
 
 #: template.py:397
 msgid "Phase shift"
@@ -43,15 +45,15 @@ msgstr ""
 
 #: template.py:398
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "verticale/horizontale inversie"
 
 #: template.py:399
 msgid "Step mode"
-msgstr ""
+msgstr "Getrapte modus"
 
 #: template.py:400
 msgid "Editable range"
-msgstr ""
+msgstr "Aanpasbaar bereik"
 
 #: template.py:401
 msgid "Sync to host or free-form"
@@ -71,11 +73,11 @@ msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "De Zrythm bijdragers"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Juridisch"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -96,17 +98,17 @@ msgstr ""
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "Ontdek"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Leer"
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
