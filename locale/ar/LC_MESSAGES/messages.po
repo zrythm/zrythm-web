@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-07-20 15:27+0100\n"
-"PO-Revision-Date: 2020-07-26 12:06+0000\n"
+"PO-Revision-Date: 2020-07-27 12:41+0000\n"
 "Last-Translator: YoGo <officialyogomusic@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
 "Language: ar\n"
@@ -107,7 +107,7 @@ msgstr ""
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr "يكتشف"
+msgstr "اكتشف"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
