@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 20:59+0100\n"
+"POT-Creation-Date: 2020-07-30 18:52+0100\n"
 "PO-Revision-Date: 2020-06-30 21:22+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -207,8 +207,8 @@ msgid "Bundled plugins (basic)"
 msgstr "同梱のプラグイン(基本)"
 
 #: template/download.html.j2:148
-msgid "Goes silent after 10 minutes"
-msgstr "10分後に無音になる"
+msgid "Goes silent after 30 minutes"
+msgstr "30分後に無音になる"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"

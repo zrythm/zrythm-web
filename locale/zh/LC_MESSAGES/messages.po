@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 20:59+0100\n"
+"POT-Creation-Date: 2020-07-30 18:52+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Arif Sarker\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -205,8 +205,8 @@ msgid "Bundled plugins (basic)"
 msgstr "捆绑插件（基本）"
 
 #: template/download.html.j2:148
-msgid "Goes silent after 10 minutes"
-msgstr "10分钟后静音"
+msgid "Goes silent after 30 minutes"
+msgstr "30分钟后静音"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"

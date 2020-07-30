@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-26 20:59+0100\n"
+"POT-Creation-Date: 2020-07-30 18:52+0100\n"
 "PO-Revision-Date: 2020-07-29 19:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
-">\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -210,8 +209,8 @@ msgid "Bundled plugins (basic)"
 msgstr "Plugins empacotados (básico)"
 
 #: template/download.html.j2:148
-msgid "Goes silent after 10 minutes"
-msgstr "Fica em silêncio depois de 10 minutos"
+msgid "Goes silent after 30 minutes"
+msgstr "Fica em silêncio depois de 30 minutos"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
@@ -326,8 +325,7 @@ msgstr ""
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr ""
-"Vídeo por <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+msgstr "Vídeo por <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
