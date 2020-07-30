@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-07-26 20:59+0100\n"
-"PO-Revision-Date: 2020-07-26 12:06+0000\n"
+"PO-Revision-Date: 2020-07-29 19:41+0000\n"
 "Last-Translator: YoGo <officialyogomusic@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
 "Language: ar\n"
@@ -33,7 +33,7 @@ msgstr "مضاعف السرعة لكل ملاحظة"
 
 #: template.py:395
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO هو LFO لاكن مميز بالكامل للأتمتة المستندة إلى السيرة الذاتية"
+msgstr "ZLFO هو LFO لاكن مميز بالكامل للأتممة المستندة إلى السيرة الذاتية"
 
 #: template.py:396
 msgid "Multi-oscillator with custom wave"
@@ -65,19 +65,19 @@ msgstr "ZSaw هو موالفة supersaw مع معلمة 1"
 
 #: template.py:405
 msgid "7 sawtooth oscillators"
-msgstr "7 مذبذبات سن المنشار"
+msgstr "7 مذبذبات sawtooth"
 
 #: template.py:406
 msgid "Single knob to control detune"
-msgstr "مقبض واحد للسيطرة على detune"
+msgstr "مقبض واحد للتحكم على detune"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr "المساهمون Zrythm"
+msgstr "المساهمون فى Zrythm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr "قانوني"
+msgstr "القانون"
 
 #: common/footer.j2.inc:23 template/legal.html.j2:58
 msgid "Trademarks"
@@ -106,7 +106,7 @@ msgstr ""
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr "يكتشف"
+msgstr "اكتشف"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
@@ -153,7 +153,7 @@ msgstr "المطورين"
 
 #: template/community.html.j2:69
 msgid "Project"
-msgstr "مشروع"
+msgstr "المشروع"
 
 #: template/community.html.j2:76
 msgid "Issue tracker"
@@ -185,7 +185,7 @@ msgstr "المثبت"
 
 #: template/download.html.j2:133
 msgid "trial"
-msgstr "التجربة"
+msgstr "تجربة"
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
@@ -205,19 +205,19 @@ msgstr "الإضافات المجمعة (الأساسية)"
 
 #: template/download.html.j2:148
 msgid "Goes silent after 10 minutes"
-msgstr "يصمت بعد 10 دقائق"
+msgstr "يصمت بعد ١٠ دقائق"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
-msgstr "تم تعطيل الحفظ / التحميل"
+msgstr "الحفظ / التحميل غير موجود"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
-msgstr "جمعت مع جميع الميزات"
+msgstr "جمعت مع جميع المميزات"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
@@ -233,19 +233,19 @@ msgstr "<b>£5</b> نسخة واحدة"
 
 #: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+£10</b> حزمة بيتا"
+msgstr "<b>+£10</b> نسخة بيتا"
 
 #: template/download.html.j2:164
 msgid "Full version"
-msgstr "النسخة الكاملة"
+msgstr "نسخة كاملة"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
-msgstr "ترقيات للإصدارات الجديدة"
+msgstr "تحديثات للإصدارات الجديدة"
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr "الوصول إلى البنيات الليلية"
+msgstr "الحصول على نسخ البيتا"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
@@ -308,11 +308,11 @@ msgstr "متصفحك لا يدعم فيديو HTML5"
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
-msgstr "عرض أساسي"
+msgstr "عرض تجريبي"
 
 #: template/explore.html.j2:65
 msgid "Just For Kicks"
-msgstr ""
+msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
@@ -323,7 +323,7 @@ msgstr ""
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
-msgstr ""
+msgstr "Zrythm + BJumblr jam"
 
 #: template/explore.html.j2:90
 msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
@@ -335,11 +335,11 @@ msgstr "المميزات"
 
 #: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
-msgstr ""
+msgstr "Piano roll"
 
 #: template/explore.html.j2:116
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr "إنشاء وتحرير وترتيب أحداث MIDI في Piano roll مخصصة."
+msgstr "إنشاء وتحرير وترتيب نغمات MIDI في Piano roll مخصصة."
 
 #: template/explore.html.j2:125 template/explore.html.j2:138
 msgid "Anywhere-to-anywhere connections"
@@ -359,7 +359,7 @@ msgstr "ترتد في المكان"
 
 #: template/explore.html.j2:154
 msgid "Quickly bounce selected material to audio."
-msgstr "ارتداد المواد المحددة بسرعة إلى الصوت."
+msgstr "سرعة ارتداد الاشياء المحددة إلى الصوت."
 
 #: template/explore.html.j2:163 template/explore.html.j2:176
 msgid "Automation curves"
@@ -367,7 +367,7 @@ msgstr "منحنيات التشغيل الآلي"
 
 #: template/explore.html.j2:168
 msgid "Automate parameters with straight lines or curves."
-msgstr "أتمتة المعلمات بخطوط مستقيمة أو منحنيات."
+msgstr "أتمام موازين البارات بخطوط مستقيمة أو منحنيات."
 
 #: template/explore.html.j2:181
 msgid "Reviews"
@@ -375,7 +375,7 @@ msgstr "المراجعات"
 
 #: template/explore.html.j2:189
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr ""
+msgstr "بث مباشر ل انفا: Synthesizing snare drums with Geonkick"
 
 #: template/explore.html.j2:197
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -391,7 +391,7 @@ msgstr ""
 
 #: template/index.html.j2:19 template/index.html.j2:33
 msgid "Zrythm"
-msgstr "ذريسم"
+msgstr "Zrythm"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -451,8 +451,8 @@ msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
-"دعم كامل لـ <a href=\"https://lv2plug.in/\">LV2</a> و VST2 ، مع دعم تجريبي "
-"لـ VST3 و AU و SFZ و SF2."
+"دعم كامل ل <a href=\"https://lv2plug.in/\">LV2</a> و VST2 مع دعم تجريبي ل "
+"VST3 و AU و SFZ و SF2."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
@@ -463,8 +463,8 @@ msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
-"علم <a href=\"https://jackaudio.org/\"> JACK </a> تمامًا ، بما في ذلك دعم "
-"نقل JACK و ALSA و WASAPI و Windows MME و CoreMidi و CoreAudio."
+"يدعم <a href=\"https://jackaudio.org/\"> JACK </a> تمامًا ، بما في ذلك دعم "
+"JACK transport و ALSA و WASAPI و Windows MME و CoreMidi و CoreAudio."
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
@@ -485,8 +485,8 @@ msgid ""
 "Zrythm is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"ذريسم هو <a href=\"https://www.gnu.org/philosophy/free-sw.html\"> برنامج "
-"مجاني </a>. استخدامة ودراسة ومشاركتة وتحسينة بحرية."
+"Zrythm هو <a href=\"https://www.gnu.org/philosophy/free-sw.html\"> برنامج "
+"مجاني </a>. فى استخدامة و دراسة ومشاركتة وتحسينة بحرية."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
@@ -512,7 +512,7 @@ msgstr "صفحات مرجعية Zrythm - دليل المستخدم - دروس"
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr "دروس"
+msgstr "الدروس"
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
@@ -520,7 +520,7 @@ msgstr "مناطق التكرار"
 
 #: template/learn.html.j2:75
 msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-msgstr "فيديو من <a href=\"https://mamot.fr/@tillparisot\"> تل باريسوت </a>"
+msgstr "فيديو من <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
 
 #: template/learn.html.j2:91
 msgid "Routing"
@@ -528,11 +528,11 @@ msgstr "التوجيه"
 
 #: template/learn.html.j2:105
 msgid "Documentation"
-msgstr "توثيق"
+msgstr "الوثائق"
 
 #: template/learn.html.j2:112
 msgid "User Manual"
-msgstr "دليل الاستخدام"
+msgstr "دليل المستخدم"
 
 #: template/learn.html.j2:115
 msgid "Developer Reference"
@@ -544,7 +544,7 @@ msgstr "المعلومات القانونية"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr "المعلومات القانونية والترخيص والعلامات التجارية"
+msgstr "المعلومات القانونية والترخيصية ومعلومات العلامات التجارية"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
@@ -622,7 +622,7 @@ msgstr "سياسة العلامات التجارية"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr "سياسة Zrythm للعلامات التجارية"
+msgstr "سياسة Zrythm للعلامة التجارية"
 
 #~ msgid ""
 #~ "Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
