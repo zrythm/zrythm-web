@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 15:27+0100\n"
+"POT-Creation-Date: 2020-07-26 20:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -308,12 +308,12 @@ msgid "Basic demo"
 msgstr ""
 
 #: template/explore.html.j2:65
-msgid "Zrythm + Geonkick future bass"
+msgid "Just For Kicks"
 msgstr ""
 
-#: template/explore.html.j2:70
-msgid ""
-"Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+#: template/explore.html.j2:70 template/learn.html.j2:57
+#: template/learn.html.j2:96
+msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 msgstr ""
 
 #: template/explore.html.j2:85
@@ -496,10 +496,6 @@ msgstr ""
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
-msgstr ""
-
-#: template/learn.html.j2:57 template/learn.html.j2:96
-msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 msgstr ""
 
 #: template/learn.html.j2:75

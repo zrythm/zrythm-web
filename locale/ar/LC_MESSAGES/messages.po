@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-20 15:27+0100\n"
+"POT-Creation-Date: 2020-07-26 20:59+0100\n"
 "PO-Revision-Date: 2020-07-26 12:06+0000\n"
 "Last-Translator: YoGo <officialyogomusic@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
@@ -311,13 +311,15 @@ msgid "Basic demo"
 msgstr "عرض أساسي"
 
 #: template/explore.html.j2:65
-msgid "Zrythm + Geonkick future bass"
+msgid "Just For Kicks"
 msgstr ""
 
-#: template/explore.html.j2:70
-msgid ""
-"Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr "تأليف <a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg </a>"
+#: template/explore.html.j2:70 template/learn.html.j2:57
+#: template/learn.html.j2:96
+msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+msgstr ""
+"مقطع فيديو من <a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg "
+"</a>"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
@@ -516,12 +518,6 @@ msgstr "دروس"
 msgid "Looping regions"
 msgstr "مناطق التكرار"
 
-#: template/learn.html.j2:57 template/learn.html.j2:96
-msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr ""
-"مقطع فيديو من <a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg "
-"</a>"
-
 #: template/learn.html.j2:75
 msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
 msgstr "فيديو من <a href=\"https://mamot.fr/@tillparisot\"> تل باريسوت </a>"
@@ -627,6 +623,10 @@ msgstr "سياسة العلامات التجارية"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "سياسة Zrythm للعلامات التجارية"
+
+#~ msgid ""
+#~ "Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+#~ msgstr "تأليف <a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg </a>"
 
 #~ msgid "Contact"
 #~ msgstr "الاتصال"
