@@ -232,11 +232,11 @@ msgstr "PDFマニュアル"
 
 #: template/download.html.j2:158
 msgid "<b>£5</b> single version"
-msgstr "<b>£5</b>シングル・バージョン"
+msgstr "シングル・バージョン<b>£5</b>"
 
 #: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+£10</b>ベタ・バンドル"
+msgstr "ベタ・バンドル<b>+£10</b>"
 
 #: template/download.html.j2:164
 msgid "Full version"
@@ -252,7 +252,7 @@ msgstr "デイリー・ビルドへのアクセス"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
-msgstr "<b>£5/月</b>"
+msgstr "<b>月£5</b>"
 
 #: template/download.html.j2:175
 msgid "Try Now"
@@ -282,7 +282,7 @@ msgstr "登録"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
-msgstr "インストーラーを購入してZrythmをサポートしましょう。"
+msgstr "インストーラーを購入し、Zrythmを支援しませんか？"
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."

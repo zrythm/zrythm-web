@@ -204,7 +204,6 @@ msgid "Bundled plugins (basic)"
 msgstr "الإضافات المجمعة (الأساسية)"
 
 #: template/download.html.j2:148
-#| msgid "Goes silent after 10 minutes"
 msgid "Goes silent after 30 minutes"
 msgstr ""
 
