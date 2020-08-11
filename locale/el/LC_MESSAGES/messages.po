@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-30 18:52+0100\n"
+"POT-Creation-Date: 2020-08-08 11:04+0100\n"
 "PO-Revision-Date: 2019-06-01 22:01+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/el/>\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Legal"
 msgstr ""
 
-#: common/footer.j2.inc:23 template/legal.html.j2:58
+#: common/footer.j2.inc:23 template/legal.html.j2:63
 msgid "Trademarks"
 msgstr ""
 
@@ -470,7 +470,8 @@ msgstr ""
 
 #: template/index.html.j2:156
 msgid ""
-"Zrythm is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">free "
+"Zrythm is <a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
 
@@ -543,12 +544,12 @@ msgstr ""
 
 #: template/legal.html.j2:50
 msgid ""
-"Videos found on the Zrythm website are released under <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
-"Attribution-ShareAlike 4.0 International</a>."
+"Unless otherwise stated, Videos found on the Zrythm website are released "
+"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
-#: template/legal.html.j2:64
+#: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
 
