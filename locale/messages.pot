@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-12 10:39+0100\n"
+"POT-Creation-Date: 2020-08-12 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,27 +133,27 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
-#: template/community.html.j2:55
+#: template/community.html.j2:52
 msgid "Mail"
 msgstr ""
 
-#: template/community.html.j2:62
+#: template/community.html.j2:59
 msgid "Users"
 msgstr ""
 
-#: template/community.html.j2:65
+#: template/community.html.j2:62
 msgid "Developers"
 msgstr ""
 
-#: template/community.html.j2:69
+#: template/community.html.j2:66
 msgid "Project"
 msgstr ""
 
-#: template/community.html.j2:76
+#: template/community.html.j2:73
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:79
+#: template/community.html.j2:76
 msgid "Translations"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-12 10:39+0100\n"
+"POT-Creation-Date: 2020-08-12 13:01+0100\n"
 "PO-Revision-Date: 2020-06-29 19:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -139,27 +139,27 @@ msgstr "Páxinas comunitarias de Zrythm e canles de comunicación"
 msgid "Chat"
 msgstr "Chat"
 
-#: template/community.html.j2:55
+#: template/community.html.j2:52
 msgid "Mail"
 msgstr "Enderezos electrónicos"
 
-#: template/community.html.j2:62
+#: template/community.html.j2:59
 msgid "Users"
 msgstr "Usuarios"
 
-#: template/community.html.j2:65
+#: template/community.html.j2:62
 msgid "Developers"
 msgstr "Desenvolvedores"
 
-#: template/community.html.j2:69
+#: template/community.html.j2:66
 msgid "Project"
 msgstr "Proxecto"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:73
 msgid "Issue tracker"
 msgstr "Rastreador de problemas"
 
-#: template/community.html.j2:79
+#: template/community.html.j2:76
 msgid "Translations"
 msgstr "Traducións"
 

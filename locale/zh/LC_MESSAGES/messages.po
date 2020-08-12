@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-12 10:39+0100\n"
+"POT-Creation-Date: 2020-08-12 13:01+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Arif Sarker\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -136,27 +136,27 @@ msgstr "Zrythm的社区页面和交流渠道"
 msgid "Chat"
 msgstr "聊天"
 
-#: template/community.html.j2:55
+#: template/community.html.j2:52
 msgid "Mail"
 msgstr "邮件"
 
-#: template/community.html.j2:62
+#: template/community.html.j2:59
 msgid "Users"
 msgstr "用户"
 
-#: template/community.html.j2:65
+#: template/community.html.j2:62
 msgid "Developers"
 msgstr "开发人员"
 
-#: template/community.html.j2:69
+#: template/community.html.j2:66
 msgid "Project"
 msgstr "项目"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:73
 msgid "Issue tracker"
 msgstr "问题跟踪程序"
 
-#: template/community.html.j2:79
+#: template/community.html.j2:76
 msgid "Translations"
 msgstr "翻译"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-12 10:39+0100\n"
+"POT-Creation-Date: 2020-08-12 13:01+0100\n"
 "PO-Revision-Date: 2020-05-02 22:30+0000\n"
 "Last-Translator: Jeannette <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -135,27 +135,27 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
-#: template/community.html.j2:55
+#: template/community.html.j2:52
 msgid "Mail"
 msgstr ""
 
-#: template/community.html.j2:62
+#: template/community.html.j2:59
 msgid "Users"
 msgstr ""
 
-#: template/community.html.j2:65
+#: template/community.html.j2:62
 msgid "Developers"
 msgstr ""
 
-#: template/community.html.j2:69
+#: template/community.html.j2:66
 msgid "Project"
 msgstr ""
 
-#: template/community.html.j2:76
+#: template/community.html.j2:73
 msgid "Issue tracker"
 msgstr "Rilevamento dei problemi"
 
-#: template/community.html.j2:79
+#: template/community.html.j2:76
 msgid "Translations"
 msgstr ""
 
@@ -392,7 +392,6 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:33
-#| msgid "zrythm-git"
 msgid "Zrythm"
 msgstr ""
 
