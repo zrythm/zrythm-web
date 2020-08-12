@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -20,7 +20,6 @@ GNU Affero General Public License for more details.
         <p>
         Copyright &copy; 2019-2020 {{ _('The Zrythm contributors') }} ~
         <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a> -
-        <a href="{{ url(lang + '/trademarks.html') }}">{{ _('Trademarks') }}</a> -
         <a href="{{ url(lang + '/privacy.html') }}">{{ _('Privacy') }}</a>
         </p>
       </div>
@@ -53,4 +52,15 @@ GNU Affero General Public License for more details.
         </right>
       </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p style="text-align: center; line-height: 1;"><small>
+          Zrythm is a registered trademark of Alexandros Theodotou in the United Kingdom.
+          The Zrythm logo is a trademark of Alexandros Theodotou pending registration. See our
+          <a href="{{ url(lang + '/trademarks.html') }}">Trademark Policy</a> for usage
+          guidelines.
+        </small></p>
+      </div>
+    </div>
+  </div>
 </footer>

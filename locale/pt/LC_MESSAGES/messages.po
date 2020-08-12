@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-08 11:04+0100\n"
+"POT-Creation-Date: 2020-08-12 10:39+0100\n"
 "PO-Revision-Date: 2020-07-29 19:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -79,11 +79,7 @@ msgstr "Os colaboradores da Zrythm"
 msgid "Legal"
 msgstr "Informação legal"
 
-#: common/footer.j2.inc:23 template/legal.html.j2:63
-msgid "Trademarks"
-msgstr "Marcas comerciais"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:23
 msgid "Privacy"
 msgstr "Privacidade"
 
@@ -294,11 +290,9 @@ msgstr "Este mês recebemos £{amount}."
 
 #: template/download.html.j2:214
 msgid ""
-"This includes donations from LiberaPay, OpenCollective, downloads and "
-"subscriptions"
+"This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
+"and subscriptions"
 msgstr ""
-"Isso inclui doações do LiberaPay, OpenCollective, descarregamentos e "
-"assinaturas"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -396,10 +390,6 @@ msgstr ""
 "Notícias da Phoronix: Zrythm aproxima-se da beta como uma estação de "
 "trabalho de áudio digital de código aberto e fácil de usar"
 
-#: template/index.html.j2:19 template/index.html.j2:33
-msgid "Zrythm"
-msgstr "Zrythm"
-
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr "Estação De Trabalho De Áudio Digital"
@@ -414,6 +404,11 @@ msgstr ""
 "de recursos e fácil de usar. Permite uma automação sem limites, suporta "
 "plugins LV2, funciona com o backend de áudio JACK e fornece assistência de "
 "acordes."
+
+#: template/index.html.j2:33
+#| msgid "zrythm-git"
+msgid "Zrythm"
+msgstr ""
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -518,9 +513,26 @@ msgstr ""
 "Disponível em <a href=\"https://hosted.weblate.org/engage/zrythm/\">vários "
 "idiomas</a> incluindo inglês, francês, galego, português, japonês e alemão."
 
-#: template/index.html.j2:184
+#: template/index.html.j2:183
 msgid "Learn more"
 msgstr "Saiba mais"
+
+#: template/index.html.j2:190
+msgid "Sponsors"
+msgstr ""
+
+#: template/index.html.j2:195
+msgid "No public sponsors."
+msgstr ""
+
+#: template/index.html.j2:200
+msgid ""
+"Donate £100 or more on <a "
+"href=\"https://liberapay.com/Zrythm\">LiberaPay</a> or <a "
+"href=\"https://paypal.me/zrythm\">PayPal</a> and have your logo visible here"
+" for 2 months. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> for "
+"more info."
+msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -584,6 +596,10 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+
+#: template/legal.html.j2:63
+msgid "Trademarks"
+msgstr "Marcas comerciais"
 
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
@@ -763,12 +779,6 @@ msgstr "Política de Marcas Registadas da Zrythm"
 
 #~ msgid "Enable the universe repository:"
 #~ msgstr "Ative o repositório do universo:"
-
-#~ msgid "zrythm-git"
-#~ msgstr "zrythm-git"
-
-#~ msgid "About Zrythm"
-#~ msgstr "Sobre o Zrythm"
 
 #~ msgid ""
 #~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"

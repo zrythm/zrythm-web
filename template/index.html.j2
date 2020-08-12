@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -16,7 +16,7 @@ GNU Affero General Public License for more details.
 
 {% extends "common/base.j2" %}
 {% block head_content %}
-<title>{{ _('Zrythm') }} - {{ _('Digital Audio Workstation') }}</title>
+<title>Zrythm - {{ _('Digital Audio Workstation') }}</title>
 <meta name="description"
       content=
       "{% trans %}
@@ -178,12 +178,30 @@ GNU Affero General Public License for more details.
       </div>
     </div>
   </div>
-
   <div>
-    <p>
+    <p style="text-align: right">
       <a href="{{ url(lang + '/explore.html') }}">{{ _('Learn more') }}</a>
     </p>
   </div>
 </div>
+
+<div class="container features_box sponsors_box">
+  <h2>
+    {% trans %}
+    Sponsors
+    {% endtrans %}
+  </h2>
+  <p>
+    {% trans %}
+    No public sponsors.
+    {% endtrans %}
+  </p>
+  <p><small>
+    {% trans %}
+    Donate £100 or more on <a href="https://liberapay.com/Zrythm">LiberaPay</a> or
+    <a href="https://paypal.me/zrythm">PayPal</a> and have your logo visible here
+    for 2 months. <a href="mailto:sponsor[at]zrythm.org">Contact us</a> for more info.
+    {% endtrans %}
+  </small></p>
 </left>
 {% endblock body_content %}

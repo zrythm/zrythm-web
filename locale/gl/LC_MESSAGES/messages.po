@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-08 11:04+0100\n"
+"POT-Creation-Date: 2020-08-12 10:39+0100\n"
 "PO-Revision-Date: 2020-06-29 19:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -80,11 +80,7 @@ msgstr ""
 msgid "Legal"
 msgstr ""
 
-#: common/footer.j2.inc:23 template/legal.html.j2:63
-msgid "Trademarks"
-msgstr "Marcas comerciais"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:23
 msgid "Privacy"
 msgstr ""
 
@@ -294,9 +290,9 @@ msgstr "Este mes recibimos £{amount}."
 
 #: template/download.html.j2:214
 msgid ""
-"This includes donations from LiberaPay, OpenCollective, downloads and "
-"subscriptions"
-msgstr "Inclúe doazóns de LiberaPay, OpenCollective, descargas e subscricións"
+"This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
+"and subscriptions"
+msgstr ""
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -392,10 +388,6 @@ msgid ""
 "digital audio workstation"
 msgstr ""
 
-#: template/index.html.j2:19 template/index.html.j2:33
-msgid "Zrythm"
-msgstr "Zrythm"
-
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr "Estación de Traballo de Audio Dixital"
@@ -410,6 +402,10 @@ msgstr ""
 "completa e sinxela de empregar. Permite automatizacións sen límite, soporta "
 "plugins LV2, funciona co backend de son de JACK e inclúe asistente de "
 "acordes."
+
+#: template/index.html.j2:33
+msgid "Zrythm"
+msgstr ""
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -515,9 +511,26 @@ msgstr ""
 "href=\"https://hosted.weblate.org/engage/zrythm/\">múltiples idiomas</a> "
 "incluíndo inglés, francés, galego, portugués, xaponés e alemán."
 
-#: template/index.html.j2:184
+#: template/index.html.j2:183
 msgid "Learn more"
 msgstr "Aprender máis"
+
+#: template/index.html.j2:190
+msgid "Sponsors"
+msgstr ""
+
+#: template/index.html.j2:195
+msgid "No public sponsors."
+msgstr ""
+
+#: template/index.html.j2:200
+msgid ""
+"Donate £100 or more on <a "
+"href=\"https://liberapay.com/Zrythm\">LiberaPay</a> or <a "
+"href=\"https://paypal.me/zrythm\">PayPal</a> and have your logo visible here"
+" for 2 months. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> for "
+"more info."
+msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -581,6 +594,10 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+
+#: template/legal.html.j2:63
+msgid "Trademarks"
+msgstr "Marcas comerciais"
 
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."

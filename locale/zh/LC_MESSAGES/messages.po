@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-08 11:04+0100\n"
+"POT-Creation-Date: 2020-08-12 10:39+0100\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Arif Sarker\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -79,11 +79,7 @@ msgstr "Zrythm的贡献者"
 msgid "Legal"
 msgstr "合法"
 
-#: common/footer.j2.inc:23 template/legal.html.j2:63
-msgid "Trademarks"
-msgstr ""
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:23
 msgid "Privacy"
 msgstr ""
 
@@ -288,9 +284,9 @@ msgstr "本月我们收到了£{amount}。"
 
 #: template/download.html.j2:214
 msgid ""
-"This includes donations from LiberaPay, OpenCollective, downloads and "
-"subscriptions"
-msgstr "这包括来自LiberaPay，OpenCollective，下载和订阅"
+"This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
+"and subscriptions"
+msgstr ""
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -385,10 +381,6 @@ msgid ""
 "digital audio workstation"
 msgstr ""
 
-#: template/index.html.j2:19 template/index.html.j2:33
-msgid "Zrythm"
-msgstr "Zrythm"
-
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
 msgstr "数字音频工作站"
@@ -399,6 +391,10 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr "Zrythm是一个数字音频工作站，设计得很有特色，操作很简便它允许无限的自动化，支持LV2插件，与杰克音频后端相连并提供和弦帮助。"
+
+#: template/index.html.j2:33
+msgid "Zrythm"
+msgstr ""
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -492,9 +488,26 @@ msgstr ""
 "可在<a "
 "href=\"https://hosted.weblate.org/engage/zrythm/\">多语言</a>包括英语，法语，加利西亚语，葡萄牙语，日语和德语。"
 
-#: template/index.html.j2:184
+#: template/index.html.j2:183
 msgid "Learn more"
 msgstr "了解更多信息"
+
+#: template/index.html.j2:190
+msgid "Sponsors"
+msgstr ""
+
+#: template/index.html.j2:195
+msgid "No public sponsors."
+msgstr ""
+
+#: template/index.html.j2:200
+msgid ""
+"Donate £100 or more on <a "
+"href=\"https://liberapay.com/Zrythm\">LiberaPay</a> or <a "
+"href=\"https://paypal.me/zrythm\">PayPal</a> and have your logo visible here"
+" for 2 months. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> for "
+"more info."
+msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -556,6 +569,10 @@ msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
+msgstr ""
+
+#: template/legal.html.j2:63
+msgid "Trademarks"
 msgstr ""
 
 #: template/legal.html.j2:69
