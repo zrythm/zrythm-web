@@ -56,14 +56,14 @@ GNU Affero General Public License for more details.
   <p>
     {{ _('Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio workstation{endtooltip} designed to be featureful and easy to use.').format(
     tooltip1 =
-      '<span class="tooltip" aria-label="' +
+      '<u class="dashed"><span class="tooltip" aria-label="' +
       _('Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows') +
       '">',
     tooltip2 =
-      '<span class="tooltip" aria-label="' +
+      '<u class="dashed"><span class="tooltip" aria-label="' +
       _('A DAW is used for composing, recording, editing, arranging, mixing and mastering music') +
       '">',
-    endtooltip = '</span>') }}
+    endtooltip = '</span></u>') }}
   </p>
   <div class="container">
     <div class="row">
@@ -198,9 +198,10 @@ GNU Affero General Public License for more details.
   </p>
   <p><small>
     {% trans %}
-    Donate £100 or more on <a href="https://liberapay.com/Zrythm">LiberaPay</a> or
+    Donate £100 or more on <a href="https://liberapay.com/Zrythm">LiberaPay</a>,
+    <a href="https://opencollective.com/zrythm">OpenCollective</a> or
     <a href="https://paypal.me/zrythm">PayPal</a> and have your logo visible here
-    for 2 months. <a href="mailto:sponsor[at]zrythm.org">Contact us</a> for more info.
+    for 3 months. <a href="mailto:sponsor[at]zrythm.org">Contact us</a> for more info.
     {% endtrans %}
   </small></p>
 </left>

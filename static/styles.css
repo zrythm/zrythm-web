@@ -86,6 +86,11 @@
   vertical-align: middle;
 }
 
+u.dashed {
+  border-bottom: 1px dashed #999;
+  text-decoration: none;
+}
+
 .footer_btn {
   vertical-align: middle;
   float: right;
