@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-13 20:12+0100\n"
-"PO-Revision-Date: 2020-08-14 22:35+0000\n"
+"POT-Creation-Date: 2020-07-26 20:59+0100\n"
+"PO-Revision-Date: 2020-08-14 22:40+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: template.py:395
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO ist ein voll funktionsumfänglicher LFO für CV-basierte Automation"
 
 #: template.py:396
 msgid "Multi-oscillator with custom wave"
@@ -42,11 +42,11 @@ msgstr ""
 
 #: template.py:397
 msgid "Phase shift"
-msgstr ""
+msgstr "Phasenverschiebung"
 
 #: template.py:398
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Vertikale/horizontale Inversion"
 
 #: template.py:399
 msgid "Step mode"
