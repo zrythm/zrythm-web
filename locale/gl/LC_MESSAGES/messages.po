@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-13 20:12+0100\n"
+"POT-Creation-Date: 2020-08-15 09:29+0100\n"
 "PO-Revision-Date: 2020-06-29 19:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -520,17 +520,9 @@ msgid "Sponsors"
 msgstr ""
 
 #: template/index.html.j2:195
-msgid "No public sponsors."
-msgstr ""
-
-#: template/index.html.j2:200
 msgid ""
-"Donate £100 or more on <a "
-"href=\"https://liberapay.com/Zrythm\">LiberaPay</a>, <a "
-"href=\"https://opencollective.com/zrythm\">OpenCollective</a> or <a "
-"href=\"https://paypal.me/zrythm\">PayPal</a> and have your logo visible here"
-" for 3 months. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> for "
-"more info."
+"No public sponsors. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> "
+"if you would like to be a sponsor."
 msgstr ""
 
 #: template/learn.html.j2:22
