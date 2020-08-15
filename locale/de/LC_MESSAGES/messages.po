@@ -34,7 +34,8 @@ msgstr ""
 
 #: template.py:395
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO ist ein voll funktionsumfänglicher LFO für CV-basierte Automation"
+msgstr ""
+"ZLFO ist ein voll funktionsumfänglicher LFO für CV-basierte Automation"
 
 #: template.py:396
 msgid "Multi-oscillator with custom wave"
@@ -484,8 +485,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm ist <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
-"webm\">freie Software</a>. Nutze, studiere, teile und verbessere sie frei."
+"Zrythm ist <a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">freie "
+"Software</a>. Nutze, studiere, teile und verbessere sie frei."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
