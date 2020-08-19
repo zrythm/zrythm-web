@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -208,9 +208,8 @@ msgid "Save/load is disabled"
 msgstr "Salva/carica è disabilitato"
 
 #: template/download.html.j2:150
-#, fuzzy
 msgid "<b>£0</b>"
-msgstr "<b>£0</b>"
+msgstr ""
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
@@ -259,14 +258,12 @@ msgid ""
 msgstr ""
 
 #: template/download.html.j2:185
-#, fuzzy
 msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgstr ""
 
 #: template/download.html.j2:186
-#, fuzzy
 msgid "Windows 64-bit"
-msgstr "Windows 64-bit"
+msgstr ""
 
 #: template/download.html.j2:197
 msgid "Buy Now"
@@ -395,9 +392,8 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:33
-#, fuzzy
 msgid "Zrythm"
-msgstr "Zrythm"
+msgstr ""
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -474,9 +470,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm è un <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
-"webm\">programma libero</a>. Usalo, studialo, condividilo e miglioralo "
-"liberamente."
+"Zrythm è un <a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">programma"
+" libero</a>. Usalo, studialo, condividilo e miglioralo liberamente."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
