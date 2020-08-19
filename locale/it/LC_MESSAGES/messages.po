@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-15 09:29+0100\n"
-"PO-Revision-Date: 2020-05-02 22:30+0000\n"
-"Last-Translator: Jeannette <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2020-08-19 21:44+0000\n"
+"Last-Translator: Roberto Albano De Rosa <robertoaldm@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.1-dev\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "I contributori di Zrythm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
@@ -102,7 +102,7 @@ msgstr "Scarica"
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "Esplora"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
@@ -141,15 +141,15 @@ msgstr ""
 
 #: template/community.html.j2:59
 msgid "Users"
-msgstr ""
+msgstr "Utenti"
 
 #: template/community.html.j2:62
 msgid "Developers"
-msgstr ""
+msgstr "Sviluppatori"
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr ""
+msgstr "Progetto"
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
@@ -169,11 +169,11 @@ msgstr "Codice sorgente"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Rilasci"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "Chiave GPG"
 
 #: template/download.html.j2:126
 msgid "Installer"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: template/download.html.j2:133
 msgid "trial"
-msgstr ""
+msgstr "prova"
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
@@ -201,19 +201,20 @@ msgstr ""
 
 #: template/download.html.j2:148
 msgid "Goes silent after 30 minutes"
-msgstr ""
+msgstr "Si silenzia dopo 30 minuti"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "Salva/carica è disabilitato"
 
 #: template/download.html.j2:150
+#, fuzzy
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Compilato con tutte le funzionalità"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
@@ -221,11 +222,11 @@ msgstr ""
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
-msgstr ""
+msgstr "Manuale utente PDF"
 
 #: template/download.html.j2:158
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b> singola versione"
 
 #: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
@@ -233,7 +234,7 @@ msgstr ""
 
 #: template/download.html.j2:164
 msgid "Full version"
-msgstr ""
+msgstr "Versione completa"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
@@ -258,12 +259,14 @@ msgid ""
 msgstr ""
 
 #: template/download.html.j2:185
+#, fuzzy
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/download.html.j2:186
+#, fuzzy
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:197
 msgid "Buy Now"
@@ -271,7 +274,7 @@ msgstr ""
 
 #: template/download.html.j2:204
 msgid "Subscribe"
-msgstr ""
+msgstr "Iscriviti"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
@@ -299,7 +302,7 @@ msgstr ""
 #: template/explore.html.j2:80 template/learn.html.j2:47
 #: template/learn.html.j2:67 template/learn.html.j2:86
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "Il tuo browser non supporta i video HTML5"
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
@@ -392,8 +395,9 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:33
+#, fuzzy
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -412,7 +416,7 @@ msgstr ""
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm funziona su GNU/Linux, FreeBSD, MacOs e Windows"
 
 #: template/index.html.j2:64
 msgid ""
@@ -470,6 +474,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm è un <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
+"webm\">programma libero</a>. Usalo, studialo, condividilo e miglioralo "
+"liberamente."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
@@ -522,7 +529,7 @@ msgstr "Documentazione"
 
 #: template/learn.html.j2:112
 msgid "User Manual"
-msgstr ""
+msgstr "Manuale utente"
 
 #: template/learn.html.j2:115
 msgid "Developer Reference"
