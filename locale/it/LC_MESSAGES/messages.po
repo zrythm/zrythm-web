@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-15 09:29+0100\n"
-"PO-Revision-Date: 2020-08-19 21:44+0000\n"
+"PO-Revision-Date: 2020-08-21 18:36+0000\n"
 "Last-Translator: Roberto Albano De Rosa <robertoaldm@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:389
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: template.py:390
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Scala maggiore o minore"
 
 #: template.py:391
 msgid "Velocity multiplier per note"
@@ -107,7 +107,7 @@ msgstr "Esplora"
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Impara"
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
@@ -177,7 +177,7 @@ msgstr "Chiave GPG"
 
 #: template/download.html.j2:126
 msgid "Installer"
-msgstr ""
+msgstr "Installatore"
 
 #: template/download.html.j2:133
 msgid "trial"
@@ -237,33 +237,36 @@ msgstr "Versione completa"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Aggiornamenti alle nuove versioni"
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Accesso alle nightly build"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/mese</b>"
 
 #: template/download.html.j2:175
 msgid "Try Now"
-msgstr ""
+msgstr "Prova adesso"
 
 #: template/download.html.j2:182
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Questa è una versione di prova con funzionalità limitate. Per favore "
+"seleziona il tuo sistema operativo."
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/download.html.j2:186
+#, fuzzy
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:197
 msgid "Buy Now"
@@ -279,17 +282,19 @@ msgstr ""
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Questo mese abbiamo ricevuto £{amount}."
 
 #: template/download.html.j2:214
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
 msgstr ""
+"Include donazioni tramite LiberaPay, PayPal, OpenCollective, scaricamenti e "
+"iscrizioni."
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr ""
+msgstr "Elenco di caratteristiche, funzionalità e recensioni"
 
 #: template/explore.html.j2:37
 msgid "Demos"
@@ -320,7 +325,7 @@ msgstr ""
 
 #: template/explore.html.j2:90
 msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr ""
+msgstr "Video di <a href=\"https://mastodon.social/@unfa\">unfa</a>"
 
 #: template/explore.html.j2:99 template/plugins.html.j2:53
 msgid "Features"
@@ -364,7 +369,7 @@ msgstr ""
 
 #: template/explore.html.j2:181
 msgid "Reviews"
-msgstr ""
+msgstr "Recensioni"
 
 #: template/explore.html.j2:189
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
@@ -439,6 +444,8 @@ msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"Supporto completo per <a href=\"https://lv2plug.in/\">LV2</a> e VST2, con "
+"supporto sperimentale per VST3, AU, SFZ e SF2."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
@@ -487,7 +494,7 @@ msgstr ""
 
 #: template/index.html.j2:183
 msgid "Learn more"
-msgstr ""
+msgstr "Scopri di più"
 
 #: template/index.html.j2:190
 msgid "Sponsors"
@@ -513,7 +520,7 @@ msgstr ""
 
 #: template/learn.html.j2:75
 msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-msgstr ""
+msgstr "Video di <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
 
 #: template/learn.html.j2:91
 msgid "Routing"
