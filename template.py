@@ -91,34 +91,8 @@ langs_full = {
         "pt_BR": "Português BR",
         "ru": "русский",
         "sv": "Svenska",
-        "zh": "中文",
-        }
-lang_flags = {
-        "ar": "[ar]",
-        "cs": "[cs]",
-        "da": "[da]",
-        "de": "[de]",
-        "en": "[en]",
-        "en_GB": "[en]",
-        "el": "[el]",
-        "es": "[es]",
-        "et": "[et]",
-        "fi": "[fi]",
-        "fr": "[fr]",
-        "gd": "[gd]",
-        "gl": "[gl]",
-        "hi": "[hi]",
-        "it": "[it]",
-        "ja": "[ja]",
-        "ko": "[ko]",
-        "nb_NO": "[nb]",
-        "nl": "[nl]",
-        "pl": "[pl]",
-        "pt": "[pt]",
-        "pt_BR": "[pt]",
-        "ru": "[ru]",
-        "sv": "[sv]",
-        "zh": "[zh]",
+        "zh_Hans": "简体中文",
+        "zh_Hant": "繁體中文",
         }
 git_base_url = 'https://git.zrythm.org/cgit/'
 git_url = git_base_url + 'zrythm'
@@ -407,8 +381,6 @@ for in_file in glob.glob("template/*.j2"):
             ]
 
         content = tmpl.render(lang=locale,
-                              lang_flag=lang_flags[locale],
-                              lang_flags=lang_flags,
                               lang_full=langs_full[locale],
                               langs_full=langs_full,
                               url=url,

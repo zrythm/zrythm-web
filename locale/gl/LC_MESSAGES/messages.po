@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-15 09:29+0100\n"
+"POT-Creation-Date: 2020-08-29 16:18+0100\n"
 "PO-Revision-Date: 2020-06-29 19:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.2-dev\n"
 
-#: template.py:389
+#: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea os acordes dunha escala maior ou menor nas teclas brancas"
 
-#: template.py:390
+#: template.py:364
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:391
+#: template.py:365
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador da intensidade por nota"
 
-#: template.py:395
+#: template.py:369
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO é un LFO completo para automatización baseada en CV"
 
-#: template.py:396
+#: template.py:370
 msgid "Multi-oscillator with custom wave"
 msgstr "Oscilador múltiple con onda personalizada"
 
-#: template.py:397
+#: template.py:371
 msgid "Phase shift"
 msgstr "Invertir fase"
 
-#: template.py:398
+#: template.py:372
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:399
+#: template.py:373
 msgid "Step mode"
 msgstr "Modo escalonado"
 
-#: template.py:400
+#: template.py:374
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:401
+#: template.py:375
 msgid "Sync to host or free-form"
 msgstr "Sincronizar ou forma libre"
 
-#: template.py:404
+#: template.py:378
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é un sintetizador de supersaw cun único parámetro"
 
-#: template.py:405
+#: template.py:379
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores dente de serra"
 
-#: template.py:406
+#: template.py:380
 msgid "Single knob to control detune"
 msgstr "Un único botón para controlar a desafinación"
 
