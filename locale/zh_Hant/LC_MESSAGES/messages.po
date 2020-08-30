@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-08-29 15:15+0000\n"
+"PO-Revision-Date: 2020-08-30 01:01+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.2.1-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -77,7 +78,7 @@ msgstr "貢獻者"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "法律資訊"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
@@ -102,7 +103,7 @@ msgstr ""
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "探索"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
@@ -141,7 +142,7 @@ msgstr ""
 
 #: template/community.html.j2:59
 msgid "Users"
-msgstr ""
+msgstr "使用者"
 
 #: template/community.html.j2:62
 msgid "Developers"
@@ -149,7 +150,7 @@ msgstr "開發者"
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr ""
+msgstr "專案"
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
@@ -189,7 +190,7 @@ msgstr ""
 
 #: template/download.html.j2:138
 msgid "full"
-msgstr ""
+msgstr "完整版"
 
 #: template/download.html.j2:141
 msgid "subscription"
@@ -205,7 +206,7 @@ msgstr ""
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "無法存檔或開啟舊檔"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
@@ -213,7 +214,7 @@ msgstr ""
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
-msgstr ""
+msgstr "自行編譯以取得完整功能"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
@@ -233,7 +234,7 @@ msgstr ""
 
 #: template/download.html.j2:164
 msgid "Full version"
-msgstr ""
+msgstr "完整版"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
@@ -241,7 +242,7 @@ msgstr ""
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "取得每晚構建版 (nighty builds)"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
@@ -249,7 +250,7 @@ msgstr ""
 
 #: template/download.html.j2:175
 msgid "Try Now"
-msgstr ""
+msgstr "開始試用"
 
 #: template/download.html.j2:182
 msgid ""
@@ -259,11 +260,11 @@ msgstr ""
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/download.html.j2:186
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:197
 msgid "Buy Now"
@@ -271,11 +272,11 @@ msgstr ""
 
 #: template/download.html.j2:204
 msgid "Subscribe"
-msgstr ""
+msgstr "訂閱"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "購買安裝程式以支持 Zrythm"
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."
@@ -299,7 +300,7 @@ msgstr ""
 #: template/explore.html.j2:80 template/learn.html.j2:47
 #: template/learn.html.j2:67 template/learn.html.j2:86
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "您的瀏覽器不支援 HTML5 視訊"
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
@@ -307,7 +308,7 @@ msgstr ""
 
 #: template/explore.html.j2:65
 msgid "Just For Kicks"
-msgstr ""
+msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
@@ -324,7 +325,7 @@ msgstr ""
 
 #: template/explore.html.j2:99 template/plugins.html.j2:53
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
@@ -382,7 +383,7 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "數位音樂工作站"
 
 #: template/index.html.j2:22
 msgid ""
@@ -441,7 +442,7 @@ msgstr ""
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr ""
+msgstr "支援多個後端"
 
 #: template/index.html.j2:118
 msgid ""
@@ -483,11 +484,11 @@ msgstr ""
 
 #: template/index.html.j2:183
 msgid "Learn more"
-msgstr ""
+msgstr "了解更多"
 
 #: template/index.html.j2:190
 msgid "Sponsors"
-msgstr ""
+msgstr "贊助商"
 
 #: template/index.html.j2:195
 msgid ""
@@ -501,7 +502,7 @@ msgstr ""
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr ""
+msgstr "教學"
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
@@ -517,19 +518,19 @@ msgstr ""
 
 #: template/learn.html.j2:105
 msgid "Documentation"
-msgstr ""
+msgstr "文件"
 
 #: template/learn.html.j2:112
 msgid "User Manual"
-msgstr ""
+msgstr "使用者手冊"
 
 #: template/learn.html.j2:115
 msgid "Developer Reference"
-msgstr ""
+msgstr "開發者指南"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "法律資訊"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
@@ -556,7 +557,7 @@ msgstr ""
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
-msgstr ""
+msgstr "商標"
 
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
@@ -564,7 +565,7 @@ msgstr ""
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Zrythm 內建的外掛程式"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
@@ -577,7 +578,7 @@ msgstr ""
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隱私權政策"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
