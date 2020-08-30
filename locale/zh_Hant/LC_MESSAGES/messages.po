@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-08-30 01:20+0000\n"
+"PO-Revision-Date: 2020-08-30 13:41+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.2.1-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -61,7 +62,7 @@ msgstr ""
 
 #: template.py:378
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw 是帶有一個參數的 suersaw 合成器"
 
 #: template.py:379
 msgid "7 sawtooth oscillators"
@@ -69,11 +70,11 @@ msgstr "七個鋸齒波振盪器"
 
 #: template.py:380
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "有一個旋鈕可以控制 detune"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr "貢獻者"
+msgstr "Zrythm 貢獻者"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
@@ -81,7 +82,7 @@ msgstr "法律資訊"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr "隱私權政策"
+msgstr "隱私權"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -107,7 +108,7 @@ msgstr "探索"
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr "學習"
+msgstr "學習資源"
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
@@ -169,11 +170,11 @@ msgstr ""
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Releases"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG 金鑰"
 
 #: template/download.html.j2:126
 msgid "Installer"
@@ -193,15 +194,15 @@ msgstr "完整版"
 
 #: template/download.html.j2:141
 msgid "subscription"
-msgstr ""
+msgstr "訂閱"
 
 #: template/download.html.j2:147
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "包含基本的內建外掛"
 
 #: template/download.html.j2:148
 msgid "Goes silent after 30 minutes"
-msgstr ""
+msgstr "30 分鐘後無法發出聲音"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
@@ -209,27 +210,28 @@ msgstr "無法存檔或開啟舊檔"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
-msgstr "自行編譯以取得完整功能"
+msgstr "擁有完整功能"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "包含所有的內建外掛"
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
 msgstr "PDF 使用手冊"
 
 #: template/download.html.j2:158
+#, fuzzy
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b> single version"
 
 #: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
-msgstr ""
+msgstr "<b>+£10</b> 獲取 beta 版"
 
 #: template/download.html.j2:164
 msgid "Full version"
@@ -241,21 +243,21 @@ msgstr ""
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr "取得每晚構建版 (nighty builds)"
+msgstr "可獲得每晚構建版 (nighty builds)"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/每月</b>"
 
 #: template/download.html.j2:175
 msgid "Try Now"
-msgstr "開始試用"
+msgstr "立即試用"
 
 #: template/download.html.j2:182
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
-msgstr ""
+msgstr "這是試用版，有部份功能限制。請選擇您的作業系統。"
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
@@ -271,21 +273,21 @@ msgstr ""
 
 #: template/download.html.j2:204
 msgid "Subscribe"
-msgstr "訂閱"
+msgstr "立即訂閱"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
-msgstr "購買安裝程式以支持 Zrythm"
+msgstr "購買安裝程式以支持 Zrythm。"
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "這個月我們收到了£{amount}。"
 
 #: template/download.html.j2:214
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
-msgstr ""
+msgstr "所有捐款來在 LiberaPay、PayPal、OpenCollective、安裝程式下載和訂閱服務"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -293,7 +295,7 @@ msgstr ""
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr ""
+msgstr "示範"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
 #: template/explore.html.j2:80 template/learn.html.j2:47
@@ -303,7 +305,7 @@ msgstr "您的瀏覽器不支援 HTML5 視訊"
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
-msgstr ""
+msgstr "基本操作示範"
 
 #: template/explore.html.j2:65
 msgid "Just For Kicks"
@@ -311,9 +313,8 @@ msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
-#, fuzzy
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr "由 <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a> 製作"
+msgstr "由 <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a> 創作"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
@@ -321,7 +322,7 @@ msgstr "Zrythm + BJumblr jam"
 
 #: template/explore.html.j2:90
 msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr ""
+msgstr "由 <a href=\"https://mastodon.social/@unfa\">unfa</a> 製作"
 
 #: template/explore.html.j2:99 template/plugins.html.j2:53
 msgid "Features"
@@ -329,7 +330,7 @@ msgstr "功能"
 
 #: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
-msgstr ""
+msgstr "Piano roll"
 
 #: template/explore.html.j2:116
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -365,21 +366,23 @@ msgstr ""
 
 #: template/explore.html.j2:181
 msgid "Reviews"
-msgstr ""
+msgstr "評論"
 
 #: template/explore.html.j2:189
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr ""
+msgstr "unfa livestream: Synthesizing snare drums with Geonkick"
 
 #: template/explore.html.j2:197
 msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr ""
+msgstr "Article from Issue 229/2019 of Linux Magazine"
 
 #: template/explore.html.j2:205
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
 msgstr ""
+"Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
+"digital audio workstation"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -394,7 +397,7 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -409,16 +412,17 @@ msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
+"Zrythm 是{tooltip1}跨平台{endtooltip}的 {tooltip2}數位音樂工作站{endtooltip}，功能完整且容易使用。"
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm 支援 GNU/Linux, FreeBSD, MacOS 和 Windows"
 
 #: template/index.html.j2:64
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
-msgstr ""
+msgstr "數位音樂工作站可以用於作曲、錄音、編曲、混音、編輯音訊和母帶後期製作"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
@@ -432,13 +436,15 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr ""
+msgstr "外掛"
 
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"完整支援<a href=\"https://lv2plug.in/\">LV2</a> 和 VST2，VST3、AU、SFZ 和 SF2 "
+"目前處於實驗階段。"
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
@@ -481,6 +487,8 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
+"支援<a href=\"https://hosted.weblate.org/engage/zrythm/\""
+">多種語言</a>，包括英文、法文、加利西亞語、葡萄牙語、日語和德文。"
 
 #: template/index.html.j2:183
 msgid "Learn more"
@@ -488,13 +496,13 @@ msgstr "了解更多"
 
 #: template/index.html.j2:190
 msgid "Sponsors"
-msgstr "贊助商"
+msgstr "贊助"
 
 #: template/index.html.j2:195
 msgid ""
 "No public sponsors. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> "
 "if you would like to be a sponsor."
-msgstr ""
+msgstr "我們目前沒有贊助商。<a href=\"mailto:sponsor[at]zrythm.org\">如果您想成為贊助商,請聯繫我們</a>。"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -510,7 +518,7 @@ msgstr ""
 
 #: template/learn.html.j2:75
 msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-msgstr ""
+msgstr "影片由<a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a> 製作"
 
 #: template/learn.html.j2:91
 msgid "Routing"
@@ -534,11 +542,11 @@ msgstr "法律資訊"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "法律、授權和商標資訊"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "授權條款"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -607,4 +615,4 @@ msgstr ""
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "商標政策"
