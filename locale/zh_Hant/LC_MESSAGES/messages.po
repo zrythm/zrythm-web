@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-08-30 01:01+0000\n"
+"PO-Revision-Date: 2020-08-30 01:20+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -311,12 +311,13 @@ msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
+#, fuzzy
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr ""
+msgstr "由 <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a> 製作"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
-msgstr ""
+msgstr "Zrythm + BJumblr jam"
 
 #: template/explore.html.j2:90
 msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
