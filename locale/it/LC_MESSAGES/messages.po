@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -506,8 +506,9 @@ msgid ""
 "No public sponsors. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> "
 "if you would like to be a sponsor."
 msgstr ""
-"Nessuno sponsor pubblico. <a href=\"mailto:sponsor[at]zrythm.org\""
-">Contattaci</a> se vuoi essere uno sponsor."
+"Nessuno sponsor pubblico. <a "
+"href=\"mailto:sponsor[at]zrythm.org\">Contattaci</a> se vuoi essere uno "
+"sponsor."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
