@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-09-03 05:24+0000\n"
+"PO-Revision-Date: 2020-09-04 18:36+0000\n"
 "Last-Translator: Roberto Albano De Rosa <robertoaldm@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.3-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -77,7 +77,7 @@ msgstr "I contributori di Zrythm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Informazioni legali"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
@@ -129,7 +129,7 @@ msgstr "Lingua"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Pagine della comunità e canali di comunicazione di Zrythm"
 
 #: template/community.html.j2:37
 msgid "Chat"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: template/community.html.j2:52
 msgid "Mail"
-msgstr ""
+msgstr "Posta elettronica"
 
 #: template/community.html.j2:59
 msgid "Users"
@@ -157,11 +157,13 @@ msgstr "Rilevamento dei problemi"
 
 #: template/community.html.j2:76
 msgid "Translations"
-msgstr ""
+msgstr "Traduzioni"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr ""
+"Scarica il codice sorgente di Zrythm o acquista un pacchetto binario di "
+"installazione"
 
 #: template/download.html.j2:39
 msgid "Source code"
@@ -189,7 +191,7 @@ msgstr ""
 
 #: template/download.html.j2:138
 msgid "full"
-msgstr ""
+msgstr "versione completa"
 
 #: template/download.html.j2:141
 msgid "subscription"
@@ -277,7 +279,7 @@ msgstr "Iscriviti"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Supporta Zrythm comprando il pacchetto per l'installazione."
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."
@@ -317,6 +319,7 @@ msgstr ""
 #: template/learn.html.j2:96
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 msgstr ""
+"Video di <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
@@ -336,7 +339,7 @@ msgstr ""
 
 #: template/explore.html.j2:116
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr ""
+msgstr "Crea, modifica e arrangia eventi MIDI in un piano roll dedicato."
 
 #: template/explore.html.j2:125 template/explore.html.j2:138
 msgid "Anywhere-to-anywhere connections"
@@ -394,10 +397,14 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm è una digital audio workstation progettata per essere ricca di "
+"funzionalità e facile da usare. Consente un'automazione illimitata, supporta "
+"i plugin LV2, funziona con il backend audio JACK e fornisce assistenza per "
+"gli accordi."
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -460,7 +467,7 @@ msgstr ""
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
-msgstr ""
+msgstr "Assistenza per gli accordi"
 
 #: template/index.html.j2:136
 msgid ""
@@ -492,6 +499,9 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
+"Disponibile in <a href=\"https://hosted.weblate.org/engage/zrythm/\">diverse "
+"lingue</a> fra cui inglese, francese, galiziano, portoghese, giapponese e "
+"tedesco."
 
 #: template/index.html.j2:183
 msgid "Learn more"
@@ -561,6 +571,10 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
+"Zrythm è protetto da copyright di Alexandros Theodotou e di altri "
+"collaboratori. Zrythm è rilasciato sotto licenza <a href=\"https://www.gnu."
+"org/licenses/agpl-3.0.html\">GNU Affero General Public License, versione 3 o "
+"superiore</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -568,6 +582,9 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Salvo dove diversamente specificato, i video presenti sul sito di Zrythm "
+"sono rilasciati sotto <a href=\"https://creativecommons.org/licenses/by-sa/4."
+"0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
@@ -576,10 +593,11 @@ msgstr "Marchi"
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
+"Zrythm e il logo di Zrythm sono marchi registrati di Alexandros Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Plugin allegati con Zrythm"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
@@ -596,7 +614,7 @@ msgstr "Politica sul trattamento dei dati personali"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Grazie"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
@@ -612,10 +630,12 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"Una volta scaricato il file zip, estrailo ed esegui <code>./installer.sh</"
+"code> in un terminale. In caso di problemi non esitare a contattarci."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
+msgstr "Torna alla pagina iniziale"
 
 #: template/trademarks.html.j2:19
 msgid "Trademark Policy"
