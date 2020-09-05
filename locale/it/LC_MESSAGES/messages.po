@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-09-04 18:36+0000\n"
+"PO-Revision-Date: 2020-09-06 14:36+0000\n"
 "Last-Translator: Roberto Albano De Rosa <robertoaldm@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: template.py:372
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Inversione verticale/orizzontale"
 
 #: template.py:373
 msgid "Step mode"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: template.py:374
 msgid "Editable range"
-msgstr ""
+msgstr "Intervallo modificabile"
 
 #: template.py:375
 msgid "Sync to host or free-form"
@@ -211,7 +211,7 @@ msgstr "Salva/carica è disabilitato"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
@@ -267,11 +267,11 @@ msgstr "GNU/Linux"
 
 #: template/download.html.j2:186
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:197
 msgid "Buy Now"
-msgstr ""
+msgstr "Compra adesso"
 
 #: template/download.html.j2:204
 msgid "Subscribe"
@@ -335,7 +335,7 @@ msgstr "Funzionalità"
 
 #: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
-msgstr ""
+msgstr "Piano roll"
 
 #: template/explore.html.j2:116
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -363,11 +363,11 @@ msgstr ""
 
 #: template/explore.html.j2:163 template/explore.html.j2:176
 msgid "Automation curves"
-msgstr ""
+msgstr "Curve di automazione"
 
 #: template/explore.html.j2:168
 msgid "Automate parameters with straight lines or curves."
-msgstr ""
+msgstr "Automatizza i parametri con linee rette o curve."
 
 #: template/explore.html.j2:181
 msgid "Reviews"
