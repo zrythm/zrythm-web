@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-09-09 10:30+0000\n"
+"PO-Revision-Date: 2020-09-10 15:36+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hant/>\n"
@@ -353,7 +353,7 @@ msgstr "Bounce in-place"
 
 #: template/explore.html.j2:154
 msgid "Quickly bounce selected material to audio."
-msgstr "快速將已選取的素材轉換爲音訊。"
+msgstr "快速將已選取的素材轉換為音訊。"
 
 #: template/explore.html.j2:163 template/explore.html.j2:176
 msgid "Automation curves"
@@ -563,9 +563,8 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
-"Zrythm的版權爲 Alexandros Theodotou 和其他貢獻者所有。Zrythm 以<a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\"> GNU Affero "
-"通用公眾授權條款第三版，或更高版本</a>釋出。"
+"Zrythm 的版權為 Alexandros Theodotou 和其他貢獻者所有。Zrythm 以<a href=\"https://www.gnu."
+"org/licenses/agpl-3.0.html\"> GNU Affero 通用公眾授權條款第三版，或更高版本</a>釋出。"
 
 #: template/legal.html.j2:50
 msgid ""
