@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
 "PO-Revision-Date: 2020-09-11 17:18+0000\n"
-"Last-Translator: sonata-chen <sonatachen39@gmail.com>\n"
+"Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -89,7 +89,7 @@ msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK"
-msgstr "DAW、數位音樂工作站、音樂製作、音訊、專業音訊、Linux、GNU/Linux、自由軟體、聲音編輯器、作曲、MIDI、LV2、JACK。"
+msgstr "DAW、數位音樂工作站、音樂製作、音訊、專業音訊、Linux、GNU/Linux、自由軟體、聲音編輯器、作曲、MIDI、LV2、JACK"
 
 #: common/navigation.j2.inc:27
 msgid "Home"
@@ -341,7 +341,7 @@ msgstr "Anywhere-to-anywhere connections"
 
 #: template/explore.html.j2:130
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "串接、連接任何訊號"
 
 #: template/explore.html.j2:145
 msgid "Bounce in place"
