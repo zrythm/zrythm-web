@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -318,8 +318,7 @@ msgstr ""
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr ""
-"Video di <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+msgstr "Video di <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
@@ -398,8 +397,8 @@ msgid ""
 "JACK audio backend and provides chord assistance."
 msgstr ""
 "Zrythm è una digital audio workstation progettata per essere ricca di "
-"funzionalità e facile da usare. Consente un'automazione illimitata, supporta "
-"i plugin LV2, funziona con il backend audio JACK e fornisce assistenza per "
+"funzionalità e facile da usare. Consente un'automazione illimitata, supporta"
+" i plugin LV2, funziona con il backend audio JACK e fornisce assistenza per "
 "gli accordi."
 
 #: template/index.html.j2:33
@@ -499,8 +498,8 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
-"Disponibile in <a href=\"https://hosted.weblate.org/engage/zrythm/\">diverse "
-"lingue</a> fra cui inglese, francese, galiziano, portoghese, giapponese e "
+"Disponibile in <a href=\"https://hosted.weblate.org/engage/zrythm/\">diverse"
+" lingue</a> fra cui inglese, francese, galiziano, portoghese, giapponese e "
 "tedesco."
 
 #: template/index.html.j2:183
@@ -572,9 +571,9 @@ msgid ""
 "Public License, version 3 or later</a>."
 msgstr ""
 "Zrythm è protetto da copyright di Alexandros Theodotou e di altri "
-"collaboratori. Zrythm è rilasciato sotto licenza <a href=\"https://www.gnu."
-"org/licenses/agpl-3.0.html\">GNU Affero General Public License, versione 3 o "
-"superiore</a>."
+"collaboratori. Zrythm è rilasciato sotto licenza <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
+"Public License, versione 3 o superiore</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -583,8 +582,8 @@ msgid ""
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 "Salvo dove diversamente specificato, i video presenti sul sito di Zrythm "
-"sono rilasciati sotto <a href=\"https://creativecommons.org/licenses/by-sa/4."
-"0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+"sono rilasciati sotto <a href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
@@ -630,8 +629,9 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
-"Una volta scaricato il file zip, estrailo ed esegui <code>./installer.sh</"
-"code> in un terminale. In caso di problemi non esitare a contattarci."
+"Una volta scaricato il file zip, estrailo ed esegui "
+"<code>./installer.sh</code> in un terminale. In caso di problemi non esitare"
+" a contattarci."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
