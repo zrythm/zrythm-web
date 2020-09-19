@@ -8,80 +8,83 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-03-30 12:27+0000\n"
-"Last-Translator: Viktor S <awsswa59@gmail.com>\n"
+"PO-Revision-Date: 2020-09-19 22:53+0000\n"
+"Last-Translator: ilya <mrzarp@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.0-dev\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
+"ZChordz позволяет отобразить аккорды мажорной или минорной гаммы на белые "
+"клавиши"
 
 #: template.py:364
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Мажорная или минорная гамма"
 
 #: template.py:365
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "Коэффицент силы звука для каждой ноты"
 
 #: template.py:369
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO - это полнофункциональный LFO для автоматизации на основе CV"
 
 #: template.py:370
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Мульти-осциллятор с произвольной волной"
 
 #: template.py:371
 msgid "Phase shift"
-msgstr ""
+msgstr "Сдвиг фазы"
 
 #: template.py:372
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Вертикальная/Горизонтальная инверсия"
 
 #: template.py:373
 msgid "Step mode"
-msgstr ""
+msgstr "Режим ступеней"
 
 #: template.py:374
 msgid "Editable range"
-msgstr ""
+msgstr "Редактируемый диапазон"
 
 #: template.py:375
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Синхронизация с хостом или в свободной форме"
 
 #: template.py:378
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw - это синтезатор supersaw с одним параметром"
 
 #: template.py:379
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 осцилляторов sawtooth"
 
 #: template.py:380
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Один ручка для управления detune"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "Сообщество Zrythm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Правовая информация"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Конфиденциальность"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -102,17 +105,17 @@ msgstr ""
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "Обзор"
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Обучение"
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Плагины"
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -141,15 +144,15 @@ msgstr ""
 
 #: template/community.html.j2:59
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #: template/community.html.j2:62
 msgid "Developers"
-msgstr ""
+msgstr "Разработчики"
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr ""
+msgstr "Проект"
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
@@ -169,19 +172,19 @@ msgstr ""
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Релизы"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "Ключи GPG"
 
 #: template/download.html.j2:126
 msgid "Installer"
-msgstr ""
+msgstr "Программа установки"
 
 #: template/download.html.j2:133
 msgid "trial"
-msgstr ""
+msgstr "Пробная версия"
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
@@ -197,15 +200,15 @@ msgstr ""
 
 #: template/download.html.j2:147
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Плагины в комплекте (basic)"
 
 #: template/download.html.j2:148
 msgid "Goes silent after 30 minutes"
-msgstr ""
+msgstr "Через 30 минут использования исчезает звук"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "Невозможно сохранить/открыть проект"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
@@ -213,57 +216,60 @@ msgstr ""
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Все функции включены"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Плагины в комплекте (все)"
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
-msgstr ""
+msgstr "Руководство в PDF"
 
 #: template/download.html.j2:158
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b> одна версия"
 
 #: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
-msgstr ""
+msgstr "<b>+£10</b> комплект beta"
 
 #: template/download.html.j2:164
 msgid "Full version"
-msgstr ""
+msgstr "Полная версия"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Обновления до новых релизов"
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Доступ к сборкам nigthly"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/месяц</b>"
 
 #: template/download.html.j2:175
 msgid "Try Now"
-msgstr ""
+msgstr "Попробуйте сейчас"
 
 #: template/download.html.j2:182
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Это пробная версия с ограниченным функционалом. Пожалуйста выберите свою "
+"операционную систему."
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/download.html.j2:186
+#, fuzzy
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:197
 msgid "Buy Now"
@@ -271,39 +277,41 @@ msgstr ""
 
 #: template/download.html.j2:204
 msgid "Subscribe"
-msgstr ""
+msgstr "Подписка"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Поддержите Zrythm, приобретая программу установки"
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "В этом месяце мы получили £{amount}."
 
 #: template/download.html.j2:214
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
 msgstr ""
+"Это включает пожертвования с LiberaPay, PayPal, OpenCollective, загрузок и "
+"подписок"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr ""
+msgstr "Список функции и отзывы"
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr ""
+msgstr "Демонстрация"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
 #: template/explore.html.j2:80 template/learn.html.j2:47
 #: template/learn.html.j2:67 template/learn.html.j2:86
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "Ваш браузер не поддерживает видео в HTML5"
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
-msgstr ""
+msgstr "Простая демонстрация"
 
 #: template/explore.html.j2:65
 msgid "Just For Kicks"
@@ -313,6 +321,8 @@ msgstr ""
 #: template/learn.html.j2:96
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 msgstr ""
+"Видео, записанное <a href=\"https://sonomu.club/@rghvdberg\">Rob van den "
+"Berg</a>"
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
@@ -320,19 +330,19 @@ msgstr ""
 
 #: template/explore.html.j2:90
 msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr ""
+msgstr "Видео, записанное <a href=\"https://mastodon.social/@unfa\">unfa</a>"
 
 #: template/explore.html.j2:99 template/plugins.html.j2:53
 msgid "Features"
-msgstr "Характеристики"
+msgstr "Функции"
 
 #: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
-msgstr ""
+msgstr "Редактор нот"
 
 #: template/explore.html.j2:116
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr ""
+msgstr "Создавайте, редактируйте события MIDI в редакторе нот."
 
 #: template/explore.html.j2:125 template/explore.html.j2:138
 msgid "Anywhere-to-anywhere connections"
