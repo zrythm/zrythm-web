@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
 "PO-Revision-Date: 2020-09-19 22:53+0000\n"
-"Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
+"Last-Translator: sonata-chen <sonatachen39@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -402,7 +402,7 @@ msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "一個直觀且能高度自動化控制參數的數位音樂工作站"
 
 #: template/index.html.j2:51
 msgid "Overview"
