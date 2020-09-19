@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-08-29 16:18+0100\n"
-"PO-Revision-Date: 2020-09-13 07:20+0000\n"
-"Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
+"PO-Revision-Date: 2020-09-19 22:53+0000\n"
+"Last-Translator: sonata-chen <sonatachen39@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.3-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -340,7 +341,7 @@ msgstr "Anywhere-to-anywhere connections"
 
 #: template/explore.html.j2:130
 msgid "Connect anything to anything."
-msgstr "串接、連接任何訊號"
+msgstr "串接、連接任何訊號。"
 
 #: template/explore.html.j2:145
 msgid "Bounce in place"
@@ -401,11 +402,11 @@ msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "一個直觀且能高度自動化控制參數的數位音樂工作站"
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr ""
+msgstr "概述"
 
 #: template/index.html.j2:57
 msgid ""
@@ -519,7 +520,7 @@ msgstr "教學"
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
-msgstr ""
+msgstr "片段循環"
 
 #: template/learn.html.j2:75
 msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
