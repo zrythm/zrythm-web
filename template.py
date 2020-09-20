@@ -47,6 +47,7 @@ import glob
 import codecs
 import jinja2
 import i18nfix
+import urllib3
 import polib
 import requests
 
@@ -214,7 +215,31 @@ prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_mont
 
 # get latest version
 from subprocess import check_output
-version = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sed -e "s/-/\\./g" | sort -r | head -n 1 | grep -o "[^\/]*$"', shell=True).decode("utf-8")
+normal_version = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | head -n 1 | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
+print ('normal version: ' + normal_version)
+version = normal_version.replace ('-', '.')
+print ('version: ' + version)
+
+def check_url(url):
+    print ('checking ' + url + '...')
+    try:
+        with requests.get(url, stream=True) as response:
+            try:
+                response.raise_for_status()
+            except requests.exceptions.HTTPError:
+                print ('error fetching ' + url + ': ' + str (status))
+                exit (1)
+    except requests.exceptions.ConnectionError:
+        print ('error fetching ' + url + ': ' + str (status))
+        exit (1)
+
+# verify that tarball and trials exist
+print ('verifying release and trial packages...')
+check_url (releases_url + 'zrythm-' + normal_version + '.tar.xz')
+check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
+check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
+check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
+print ('done')
 
 # for news
 feed = feedparser.parse('https://savannah.nongnu.org/news/atom.php?group=zrythm')

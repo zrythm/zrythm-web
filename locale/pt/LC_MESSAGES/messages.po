@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-29 16:18+0100\n"
+"POT-Creation-Date: 2020-09-20 11:11+0100\n"
 "PO-Revision-Date: 2020-09-13 07:20+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:363
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "O ZChordz mapeia os acordes de escala menor ou maior a teclas brancas"
 
-#: template.py:364
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:365
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:369
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:370
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:371
+#: template.py:396
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:372
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical / horizontal"
 
-#: template.py:373
+#: template.py:398
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:374
+#: template.py:399
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:375
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:378
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é um sintetizador de superserra com 1 parâmetro"
 
-#: template.py:379
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de dente de serra"
 
-#: template.py:380
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr "Botão único para controlar a desintonização"
 
@@ -527,12 +527,9 @@ msgstr "Patrocinadores"
 
 #: template/index.html.j2:195
 msgid ""
-"No public sponsors. <a href=\"mailto:sponsor[at]zrythm.org\">Contact us</a> "
-"if you would like to be a sponsor."
+"No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> if "
+"you would like to be a sponsor."
 msgstr ""
-"Sem patrocinadores públicos. <a "
-"href=\"mailto:sponsor[at]zrythm.org\">Contacte-nos</a> se quiser ser um "
-"patrocinador."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
