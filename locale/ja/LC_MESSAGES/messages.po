@@ -472,7 +472,7 @@ msgstr "和音進行に役立つコードトラック、音階および和音を
 
 #: template/index.html.j2:151
 msgid "Liberating"
-msgstr "自由的"
+msgstr "フリー"
 
 #: template/index.html.j2:156
 msgid ""
@@ -482,7 +482,7 @@ msgid ""
 msgstr ""
 "Zrythm は <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\"> "
-"自由なソフトウェア </a> です。自由に使用、研究、共有、改善してください。"
+"フリーソフトウェア </a> です。自由に使用、研究、共有、改善してください。"
 
 #: template/index.html.j2:168
 msgid "Multilingual"
