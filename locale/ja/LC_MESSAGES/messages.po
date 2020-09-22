@@ -11,15 +11,14 @@ msgstr ""
 "POT-Creation-Date: 2020-09-20 11:11+0100\n"
 "PO-Revision-Date: 2020-09-22 18:08+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -315,9 +314,8 @@ msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/learn.html.j2:57
 #: template/learn.html.j2:96
-#, fuzzy
 msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr "<a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg </a>によるビデオ"
+msgstr ""
 
 #: template/explore.html.j2:85
 msgid "Zrythm + BJumblr jam"
@@ -482,8 +480,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm は <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
-"webm\"> 自由なソフトウェア </a> です。自由に使用、研究、共有、改善してください。"
+"Zrythm は <a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\"> "
+"自由なソフトウェア </a> です。自由に使用、研究、共有、改善してください。"
 
 #: template/index.html.j2:168
 msgid "Multilingual"
@@ -511,8 +510,8 @@ msgid ""
 "No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> if "
 "you would like to be a sponsor."
 msgstr ""
-"公的なスポンサーはありません。<a href=\"mailto:sponsor@zrythm.org\""
-">スポンサーになりたい場合は、お問い合わせください</a>。"
+"公的なスポンサーはありません。<a "
+"href=\"mailto:sponsor@zrythm.org\">スポンサーになりたい場合は、お問い合わせください</a>。"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -574,8 +573,9 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
-"特に明記されていない限り、Zrythmのウェブサイトに掲載されている動画は<a href=\"https://creativecommons.org/"
-"licenses/by-sa/4.0/\">クリエイティブ・コモンズ 表示-継承4.0 国際</a>の下で公開されています。"
+"特に明記されていない限り、Zrythmのウェブサイトに掲載されている動画は<a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">クリエイティブ・コモンズ 表示-"
+"継承4.0 国際</a>の下で公開されています。"
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
