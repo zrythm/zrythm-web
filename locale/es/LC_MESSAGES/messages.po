@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-20 11:11+0100\n"
-"PO-Revision-Date: 2020-07-24 14:02+0000\n"
+"PO-Revision-Date: 2020-09-24 02:45+0000\n"
 "Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -16,12 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
+"ZChordz mapea los acordes de una escala mayor o menor a las teclas blancas"
 
 #: template.py:389
 msgid "Major or minor scale"
@@ -33,19 +34,19 @@ msgstr "Multiplicador de velocidad por nota"
 
 #: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO es un LFO completo para automatizaciones basadas en CV"
 
 #: template.py:395
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Multi oscilador con onda personalizada"
 
 #: template.py:396
 msgid "Phase shift"
-msgstr ""
+msgstr "Desplazamiento de fase"
 
 #: template.py:397
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Inversión vertical/horizontal"
 
 #: template.py:398
 msgid "Step mode"
@@ -115,7 +116,7 @@ msgstr "Aprender"
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
