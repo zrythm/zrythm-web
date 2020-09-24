@@ -1,52 +1,49 @@
 # Translations template for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# Alex <alex@zrythm.org>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-24 03:47+0100\n"
-"PO-Revision-Date: 2020-09-24 02:45+0000\n"
-"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
-"Language: es\n"
+"PO-Revision-Date: 2020-09-24 03:54+0100\n"
+"Last-Translator: Alex <alex@zrythm.org>\n"
+"Language-Team: Afrikaans <i18n@af.org.za>\n"
+"Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.3-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mapea los acordes de una escala mayor o menor a las teclas blancas"
 
 #: template.py:391
 msgid "Major or minor scale"
-msgstr "Escala mayor o menor"
+msgstr ""
 
 #: template.py:392
 msgid "Velocity multiplier per note"
-msgstr "Multiplicador de velocidad por nota"
+msgstr ""
 
 #: template.py:396
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO es un LFO completo para automatizaciones basadas en CV"
+msgstr ""
 
 #: template.py:397
 msgid "Multi-oscillator with custom wave"
-msgstr "Multi oscilador con onda personalizada"
+msgstr ""
 
 #: template.py:398
 msgid "Phase shift"
-msgstr "Desplazamiento de fase"
+msgstr ""
 
 #: template.py:399
 msgid "Vertical/horizontal inversion"
-msgstr "Inversión vertical/horizontal"
+msgstr ""
 
 #: template.py:400
 msgid "Step mode"
@@ -90,70 +87,67 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK"
 msgstr ""
-"DAW, estación de trabajo digital para audio, producción musical, sonido, "
-"audio profesional, Linux, GNU/Linux, software libre, editor de sonido, "
-"composición, MIDI, LV2, JACK"
 
 #: common/navigation.j2.inc:27
 msgid "Home"
-msgstr "Inicio"
+msgstr ""
 
 #: common/navigation.j2.inc:33 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
-msgstr "Descargar"
+msgstr ""
 
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr "Explora"
+msgstr ""
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr "Aprender"
+msgstr ""
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr "Plugins"
+msgstr ""
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
-msgstr "Comunidad"
+msgstr ""
 
 #: common/navigation.j2.inc:63
 msgid "Forum"
-msgstr "Foro"
+msgstr ""
 
 #: common/navigation.j2.inc:81
 msgid "Language"
-msgstr "Idioma"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr "Páginas comunitarias y canales de comunicación de Zrythm"
+msgstr ""
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr "Charla"
+msgstr ""
 
 #: template/community.html.j2:52
 msgid "Mail"
-msgstr "Correo"
+msgstr ""
 
 #: template/community.html.j2:59
 msgid "Users"
-msgstr "Usuarios"
+msgstr ""
 
 #: template/community.html.j2:62
 msgid "Developers"
-msgstr "Desarrolladores"
+msgstr ""
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr "Proyecto"
+msgstr ""
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
@@ -166,12 +160,10 @@ msgstr ""
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr ""
-"Descargar el código fuente de Zrythm o comprar un instalador de paquetes "
-"binarios"
 
 #: template/download.html.j2:39
 msgid "Source code"
-msgstr "Código fuente"
+msgstr ""
 
 #: template/download.html.j2:49
 msgid "Releases"
@@ -191,7 +183,7 @@ msgstr ""
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
-msgstr "alfa/beta"
+msgstr ""
 
 #: template/download.html.j2:138
 msgid "full"
@@ -199,7 +191,7 @@ msgstr ""
 
 #: template/download.html.j2:141
 msgid "subscription"
-msgstr "suscripción"
+msgstr ""
 
 #: template/download.html.j2:147
 msgid "Bundled plugins (basic)"
@@ -239,7 +231,7 @@ msgstr ""
 
 #: template/download.html.j2:164
 msgid "Full version"
-msgstr "Versión completa"
+msgstr ""
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
@@ -265,19 +257,19 @@ msgstr ""
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgstr ""
 
 #: template/download.html.j2:186
 msgid "Windows 64-bit"
-msgstr "Windows de 64 bits"
+msgstr ""
 
 #: template/download.html.j2:197
 msgid "Buy Now"
-msgstr "Comprar ahora"
+msgstr ""
 
 #: template/download.html.j2:204
 msgid "Subscribe"
-msgstr "Suscribirse"
+msgstr ""
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
@@ -295,7 +287,7 @@ msgstr ""
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr "Lista de características, funcionalidad y reseñas"
+msgstr ""
 
 #: template/explore.html.j2:37
 msgid "Demos"
@@ -309,7 +301,7 @@ msgstr ""
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
-msgstr "Demostración básica"
+msgstr ""
 
 #: template/explore.html.j2:65
 msgid "Just For Kicks"
@@ -330,7 +322,7 @@ msgstr ""
 
 #: template/explore.html.j2:99 template/plugins.html.j2:53
 msgid "Features"
-msgstr "Características"
+msgstr ""
 
 #: template/explore.html.j2:107 template/explore.html.j2:111
 msgid "Piano roll"
@@ -346,11 +338,11 @@ msgstr ""
 
 #: template/explore.html.j2:130
 msgid "Connect anything to anything."
-msgstr "Conecta lo que sea a lo que sea"
+msgstr ""
 
 #: template/explore.html.j2:145
 msgid "Bounce in place"
-msgstr "Brinca en el lugar"
+msgstr ""
 
 #: template/explore.html.j2:149
 msgid "Bounce in-place"
@@ -362,15 +354,15 @@ msgstr ""
 
 #: template/explore.html.j2:163 template/explore.html.j2:176
 msgid "Automation curves"
-msgstr "Curvas de automatización"
+msgstr ""
 
 #: template/explore.html.j2:168
 msgid "Automate parameters with straight lines or curves."
-msgstr "Automatiza parámetros con lineas rectas o curvas."
+msgstr ""
 
 #: template/explore.html.j2:181
 msgid "Reviews"
-msgstr "Reseñas"
+msgstr ""
 
 #: template/explore.html.j2:189
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
@@ -388,7 +380,7 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr "Estación de trabajo de Audio Digital"
+msgstr ""
 
 #: template/index.html.j2:22
 msgid ""
@@ -396,10 +388,6 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythm es una estación de trabajo de audio digital diseñada para ser "
-"funcional y fácil de utilizar. Le brinda una automatización sin límites, "
-"admite complementos LV2, funciona con el dorsal de audio JACK y provee "
-"asistencia armónica."
 
 #: template/index.html.j2:33
 msgid "Zrythm"
@@ -408,12 +396,10 @@ msgstr ""
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
-"una estación de trabajo digital para audio altamente automatizada e "
-"intuitiva"
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr "Generalidades"
+msgstr ""
 
 #: template/index.html.j2:57
 msgid ""
@@ -433,15 +419,13 @@ msgstr ""
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr "Automatización sin límites"
+msgstr ""
 
 #: template/index.html.j2:81
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
-"Automatice casi todo a través de sucesos, utilizando líneas rectas, rampas y"
-" curvas, o bien mediante LFO y envolventes."
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
@@ -465,15 +449,13 @@ msgstr ""
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
-msgstr "Asistencia armónica"
+msgstr ""
 
 #: template/index.html.j2:136
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
-"Incluye un panel de acordes para probar rápidamente acordes en escala, así "
-"como una pista de acordes para ayudar con las progresiones armónicas."
 
 #: template/index.html.j2:151
 msgid "Liberating"
@@ -488,7 +470,7 @@ msgstr ""
 
 #: template/index.html.j2:168
 msgid "Multilingual"
-msgstr "Plurilingüe"
+msgstr ""
 
 #: template/index.html.j2:173
 msgid ""
@@ -513,11 +495,11 @@ msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr "Páginas de referencia de Zrythm: manual de usuario, tutoriales…"
+msgstr ""
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr "Tutoriales"
+msgstr ""
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
@@ -533,7 +515,7 @@ msgstr ""
 
 #: template/learn.html.j2:105
 msgid "Documentation"
-msgstr "Documentación"
+msgstr ""
 
 #: template/learn.html.j2:112
 msgid "User Manual"
@@ -597,7 +579,7 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr "Gracias"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
@@ -611,13 +593,10 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
-"Una vez descargado el archivo .zip, extráigalo y ejecute "
-"<code>./installer.sh</code> en un terminal. Contáctenos si tiene algún "
-"problema."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr "Volver a la página principal"
+msgstr ""
 
 #: template/trademarks.html.j2:19
 msgid "Trademark Policy"
@@ -626,107 +605,3 @@ msgstr ""
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
-
-#~ msgid "ZLFO demo"
-#~ msgstr "Demostración de ZLFO"
-
-#~ msgid "git repositories"
-#~ msgstr "repositorios Git"
-
-#~ msgid "stable releases"
-#~ msgstr "versiones estables"
-
-#~ msgid "GPG signing key"
-#~ msgstr "Clave de firma GPG"
-
-#~ msgid "Browse Online"
-#~ msgstr "Explorar en línea"
-
-#~ msgid "Download as HTML"
-#~ msgstr "Descargar como HTML"
-
-#~ msgid "Download as PDF"
-#~ msgstr "Descargar como PDF"
-
-#~ msgid "OK, Subscribe"
-#~ msgstr "OK, Suscribirse"
-
-#~ msgid "Note"
-#~ msgstr "Nota"
-
-#~ msgid "Select your OS"
-#~ msgstr "Seleccione su SO"
-
-#~ msgid "alpha"
-#~ msgstr "alpha"
-
-#~ msgid "Free upgrades during subscription"
-#~ msgstr "Actualizaciones gratis durante suscripción"
-
-#~ msgid "download zip"
-#~ msgstr "descargar zip"
-
-#~ msgid "download exe"
-#~ msgstr "descargar exe"
-
-#~ msgid "IRC"
-#~ msgstr "IRC"
-
-#~ msgid "#zrythm on irc.freenode.net"
-#~ msgstr "#zrythm en irc.freenode.net"
-
-#~ msgid "Matrix"
-#~ msgstr "Matrix"
-
-#~ msgid "Discord"
-#~ msgstr "Discord"
-
-#~ msgid "zrythm project"
-#~ msgstr "Proyecto Zrythm"
-
-#~ msgid "JACK support"
-#~ msgstr "Admite JACK"
-
-#~ msgid "Binary package (installer)"
-#~ msgstr "Paquete binario (instalador)"
-
-#, python-format
-#~ msgid "download %(version)s (zip)"
-#~ msgstr "descargar %(version)s (.zip)"
-
-#, python-format
-#~ msgid "download %(version)s (exe)"
-#~ msgstr "descargar %(version)s (.exe)"
-
-#~ msgid "online docs"
-#~ msgstr "documentación en línea"
-
-#~ msgid "browse docs"
-#~ msgstr "explorar la documentación"
-
-#~ msgid "Contact"
-#~ msgstr "Contacto"
-
-#~ msgid "online manual"
-#~ msgstr "manual en línea"
-
-#~ msgid "HTML-render (zip)"
-#~ msgstr "Versión en HTML (.zip)"
-
-#~ msgid "PDF-render"
-#~ msgstr "Versión en PDF"
-
-#~ msgid "ePUB-render"
-#~ msgstr "Versión en ePUB"
-
-#~ msgid "Reference"
-#~ msgstr "Referencia"
-
-#~ msgid "FAQ"
-#~ msgstr "Preguntas Frecuentes"
-
-#~ msgid "Discussion"
-#~ msgstr "Discusión"
-
-#~ msgid "Glossary"
-#~ msgstr "Glosario"

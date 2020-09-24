@@ -67,7 +67,9 @@ env = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__
 if (os.getenv("DEBUG")):
     print(sys.path)
 
+# Note: also edit the Makefile when adding languages
 langs_full = {
+        "af_ZA": "Afrikaans",
         "ar": "العربية",
         "cs": "Czech",
         "da": "Dansk",

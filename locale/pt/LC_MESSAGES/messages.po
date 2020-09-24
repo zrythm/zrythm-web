@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-20 11:11+0100\n"
+"POT-Creation-Date: 2020-09-24 03:47+0100\n"
 "PO-Revision-Date: 2020-09-13 07:20+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:388
+#: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "O ZChordz mapeia os acordes de escala menor ou maior a teclas brancas"
 
-#: template.py:389
+#: template.py:391
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:390
+#: template.py:392
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:394
+#: template.py:396
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:395
+#: template.py:397
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:396
+#: template.py:398
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:397
+#: template.py:399
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical / horizontal"
 
-#: template.py:398
+#: template.py:400
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:399
+#: template.py:401
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:400
+#: template.py:402
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:403
+#: template.py:405
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é um sintetizador de superserra com 1 parâmetro"
 
-#: template.py:404
+#: template.py:406
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de dente de serra"
 
-#: template.py:405
+#: template.py:407
 msgid "Single knob to control detune"
 msgstr "Botão único para controlar a desintonização"
 
