@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-24 03:47+0100\n"
-"PO-Revision-Date: 2020-09-25 22:43+0000\n"
+"PO-Revision-Date: 2020-09-26 00:18+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: template/download.html.j2:126
 msgid "Installer"
-msgstr ""
+msgstr "Εγκαταστάτης"
 
 #: template/download.html.j2:133
 msgid "trial"
