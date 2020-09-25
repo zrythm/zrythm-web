@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-24 03:47+0100\n"
-"PO-Revision-Date: 2019-06-01 22:01+0000\n"
-"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
-"Language-Team: Greek <https://translate.zrythm.org/projects/zrythm/website/el/>\n"
+"PO-Revision-Date: 2020-09-25 22:43+0000\n"
+"Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 3.6.1\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -394,7 +394,7 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
