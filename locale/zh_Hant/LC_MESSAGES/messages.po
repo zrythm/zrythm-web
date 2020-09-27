@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-24 03:47+0100\n"
-"PO-Revision-Date: 2020-09-27 07:42+0000\n"
+"PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hant/>\n"
@@ -54,7 +54,7 @@ msgstr "步進模式"
 
 #: template.py:401
 msgid "Editable range"
-msgstr "可調整範圍"
+msgstr "可調整動態範圍"
 
 #: template.py:402
 msgid "Sync to host or free-form"
