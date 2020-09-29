@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-29 02:06+0100\n"
-"PO-Revision-Date: 2020-09-13 07:20+0000\n"
+"PO-Revision-Date: 2020-09-29 22:22+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.3-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -322,7 +323,7 @@ msgstr "Só Por Diversão"
 #: template/learn.html.j2:57 template/learn.html.j2:76
 #: template/learn.html.j2:98
 msgid "Video by"
-msgstr ""
+msgstr "Vídeo de"
 
 #: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
@@ -527,6 +528,8 @@ msgid ""
 "No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> if "
 "you would like to be a sponsor."
 msgstr ""
+"Sem patrocinadores públicos. <a href=\"mailto:sponsor@zrythm.org\">Contacte-"
+"nos</a> se quiser ser um patrocinador."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
