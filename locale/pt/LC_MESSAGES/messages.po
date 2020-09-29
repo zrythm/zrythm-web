@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-24 03:47+0100\n"
+"POT-Creation-Date: 2020-09-29 02:06+0100\n"
 "PO-Revision-Date: 2020-09-13 07:20+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -305,8 +305,8 @@ msgid "Demos"
 msgstr "Demonstrações"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:80 template/learn.html.j2:47
-#: template/learn.html.j2:67 template/learn.html.j2:86
+#: template/explore.html.j2:81 template/learn.html.j2:47
+#: template/learn.html.j2:68 template/learn.html.j2:88
 msgid "Your browser does not support HTML5 video"
 msgstr "O seu navegador não suporta vídeo HTML5"
 
@@ -318,73 +318,70 @@ msgstr "Demonstração básica"
 msgid "Just For Kicks"
 msgstr "Só Por Diversão"
 
-#: template/explore.html.j2:70 template/learn.html.j2:57
-#: template/learn.html.j2:96
-msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr "Vídeo por <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+#: template/explore.html.j2:70 template/explore.html.j2:91
+#: template/learn.html.j2:57 template/learn.html.j2:76
+#: template/learn.html.j2:98
+msgid "Video by"
+msgstr ""
 
-#: template/explore.html.j2:85
+#: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
 msgstr "Zrythm + BJumblr jam"
 
-#: template/explore.html.j2:90
-msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr "Vídeo por <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-
-#: template/explore.html.j2:99 template/plugins.html.j2:53
+#: template/explore.html.j2:101 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Características"
 
-#: template/explore.html.j2:107 template/explore.html.j2:111
+#: template/explore.html.j2:109 template/explore.html.j2:113
 msgid "Piano roll"
 msgstr "Cilindros de piano"
 
-#: template/explore.html.j2:116
+#: template/explore.html.j2:118
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Criar, editar e organizar eventos MIDI em dedicados cilindros de piano."
 
-#: template/explore.html.j2:125 template/explore.html.j2:138
+#: template/explore.html.j2:127 template/explore.html.j2:140
 msgid "Anywhere-to-anywhere connections"
 msgstr "Conexões de qualquer lugar para qualquer lugar"
 
-#: template/explore.html.j2:130
+#: template/explore.html.j2:132
 msgid "Connect anything to anything."
 msgstr "Conecte tudo a tudo."
 
-#: template/explore.html.j2:145
+#: template/explore.html.j2:147
 msgid "Bounce in place"
 msgstr "Saltar no lugar"
 
-#: template/explore.html.j2:149
+#: template/explore.html.j2:151
 msgid "Bounce in-place"
 msgstr "Saltar no lugar"
 
-#: template/explore.html.j2:154
+#: template/explore.html.j2:156
 msgid "Quickly bounce selected material to audio."
 msgstr "Saltar material selecionado rápidamente para áudio."
 
-#: template/explore.html.j2:163 template/explore.html.j2:176
+#: template/explore.html.j2:165 template/explore.html.j2:178
 msgid "Automation curves"
 msgstr "Curvas de automação"
 
-#: template/explore.html.j2:168
+#: template/explore.html.j2:170
 msgid "Automate parameters with straight lines or curves."
 msgstr "Automatizar parâmetros com linhas retas ou curvas."
 
-#: template/explore.html.j2:181
+#: template/explore.html.j2:183
 msgid "Reviews"
 msgstr "Avaliações"
 
-#: template/explore.html.j2:189
+#: template/explore.html.j2:191
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgstr "livestream da unfa: Sintetizar caixas com Geonkick"
 
-#: template/explore.html.j2:197
+#: template/explore.html.j2:199
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Artigo da Edição 229/2019 da Linux Magazine"
 
-#: template/explore.html.j2:205
+#: template/explore.html.j2:207
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -543,23 +540,19 @@ msgstr "Tutoriais"
 msgid "Looping regions"
 msgstr "Regiões em loop"
 
-#: template/learn.html.j2:75
-msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-msgstr "Vídeo por <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-
-#: template/learn.html.j2:91
+#: template/learn.html.j2:93
 msgid "Routing"
 msgstr "Roteamento"
 
-#: template/learn.html.j2:105
+#: template/learn.html.j2:108
 msgid "Documentation"
 msgstr "Documentação"
 
-#: template/learn.html.j2:112
+#: template/learn.html.j2:115
 msgid "User Manual"
 msgstr "Manual do Utilizador"
 
-#: template/learn.html.j2:115
+#: template/learn.html.j2:118
 msgid "Developer Reference"
 msgstr "Referência Do Programador"
 
@@ -656,6 +649,15 @@ msgstr "Política de Marcas Registadas"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Política de Marcas Registadas da Zrythm"
+
+#~ msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+#~ msgstr "Vídeo por <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+
+#~ msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
+#~ msgstr "Vídeo por <a href=\"https://mastodon.social/@unfa\">unfa</a>"
+
+#~ msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
+#~ msgstr "Vídeo por <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
 
 #~ msgid "git repositories"
 #~ msgstr "Repositórios git"

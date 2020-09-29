@@ -83,9 +83,9 @@ msgstr ""
 
 #: common/header.j2.inc:24
 msgid ""
-"DAW, digital audio workstation, music production, audio, pro audio, "
-"Linux, GNU/Linux, free software, libre software, sound editor, "
-"composition, MIDI, LV2, JACK"
+"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
+"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
+"LV2, JACK"
 msgstr ""
 
 #: common/navigation.j2.inc:27
@@ -281,8 +281,8 @@ msgstr ""
 
 #: template/download.html.j2:214
 msgid ""
-"This includes donations from LiberaPay, PayPal, OpenCollective, downloads"
-" and subscriptions"
+"This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
+"and subscriptions"
 msgstr ""
 
 #: template/explore.html.j2:22
@@ -384,9 +384,9 @@ msgstr ""
 
 #: template/index.html.j2:22
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy "
-"to use. It allows limitless automation, supports LV2 plugins, works with "
-"the JACK audio backend and provides chord assistance."
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use. It allows limitless automation, supports LV2 plugins, works with the "
+"JACK audio backend and provides chord assistance."
 msgstr ""
 
 #: template/index.html.j2:33
@@ -423,8 +423,8 @@ msgstr ""
 
 #: template/index.html.j2:81
 msgid ""
-"Automate almost anything with automation events using straight lines, "
-"ramps and curves, or with LFOs and envelopes."
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
 msgstr ""
 
 #: template/index.html.j2:94
@@ -433,8 +433,8 @@ msgstr ""
 
 #: template/index.html.j2:99
 msgid ""
-"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, "
-"with experimental support for VST3, AU, SFZ and SF2."
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+"experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
 
 #: template/index.html.j2:113
@@ -443,9 +443,8 @@ msgstr ""
 
 #: template/index.html.j2:118
 msgid ""
-"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including "
-"support for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and "
-"CoreAudio."
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
+"for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
 #: template/index.html.j2:131
@@ -454,8 +453,8 @@ msgstr ""
 
 #: template/index.html.j2:136
 msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a "
-"chord track to help with chord progressions."
+"Featuring a chord pad for quickly trying out chords in a scale and a chord "
+"track to help with chord progressions."
 msgstr ""
 
 #: template/index.html.j2:151
@@ -465,8 +464,8 @@ msgstr ""
 #: template/index.html.j2:156
 msgid ""
 "Zrythm is <a "
-"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free"
-" software</a>. Use, study, share and improve it freely."
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
+"software</a>. Use, study, share and improve it freely."
 msgstr ""
 
 #: template/index.html.j2:168
@@ -475,9 +474,9 @@ msgstr ""
 
 #: template/index.html.j2:173
 msgid ""
-"Available in <a "
-"href=\"https://hosted.weblate.org/engage/zrythm/\">multiple languages</a>"
-" including English, French, Galician, Portuguese, Japanese and German."
+"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
+"languages</a> including English, French, Galician, Portuguese, Japanese and "
+"German."
 msgstr ""
 
 #: template/index.html.j2:183
@@ -490,8 +489,8 @@ msgstr ""
 
 #: template/index.html.j2:195
 msgid ""
-"No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> "
-"if you would like to be a sponsor."
+"No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> if "
+"you would like to be a sponsor."
 msgstr ""
 
 #: template/learn.html.j2:22
@@ -540,8 +539,8 @@ msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
-"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
-"Zrythm is released under the <a "
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
+" is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
@@ -549,8 +548,8 @@ msgstr ""
 #: template/legal.html.j2:50
 msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
-"under <a href=\"https://creativecommons.org/licenses/by-"
-"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
 #: template/legal.html.j2:63
@@ -584,15 +583,15 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
-"Thank you for supporting development! You will receive an email soon with"
-" instructions to download your installer."
+"Thank you for supporting development! You will receive an email soon with "
+"instructions to download your installer."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
 "Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any "
-"problems, please contact us."
+"<code>./installer.sh</code> in a terminal. If you experience any problems, "
+"please contact us."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:45

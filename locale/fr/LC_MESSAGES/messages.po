@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-24 03:47+0100\n"
+"POT-Creation-Date: 2020-09-29 02:06+0100\n"
 "PO-Revision-Date: 2020-05-13 12:41+0000\n"
 "Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -303,8 +303,8 @@ msgid "Demos"
 msgstr ""
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:80 template/learn.html.j2:47
-#: template/learn.html.j2:67 template/learn.html.j2:86
+#: template/explore.html.j2:81 template/learn.html.j2:47
+#: template/learn.html.j2:68 template/learn.html.j2:88
 msgid "Your browser does not support HTML5 video"
 msgstr "Votre navigateur ne prend pas en charge la vidéo HTML5"
 
@@ -316,73 +316,70 @@ msgstr "Démo basique"
 msgid "Just For Kicks"
 msgstr ""
 
-#: template/explore.html.j2:70 template/learn.html.j2:57
-#: template/learn.html.j2:96
-msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+#: template/explore.html.j2:70 template/explore.html.j2:91
+#: template/learn.html.j2:57 template/learn.html.j2:76
+#: template/learn.html.j2:98
+msgid "Video by"
 msgstr ""
 
-#: template/explore.html.j2:85
+#: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
 msgstr ""
 
-#: template/explore.html.j2:90
-msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr ""
-
-#: template/explore.html.j2:99 template/plugins.html.j2:53
+#: template/explore.html.j2:101 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: template/explore.html.j2:107 template/explore.html.j2:111
+#: template/explore.html.j2:109 template/explore.html.j2:113
 msgid "Piano roll"
 msgstr "Piano roll"
 
-#: template/explore.html.j2:116
+#: template/explore.html.j2:118
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Créez, éditez et organisez des événements MIDI dans un piano roll dédié."
 
-#: template/explore.html.j2:125 template/explore.html.j2:138
+#: template/explore.html.j2:127 template/explore.html.j2:140
 msgid "Anywhere-to-anywhere connections"
 msgstr "Des connexions de n'importe où à n'importe quel endroit"
 
-#: template/explore.html.j2:130
+#: template/explore.html.j2:132
 msgid "Connect anything to anything."
 msgstr "Reliez tout à tout."
 
-#: template/explore.html.j2:145
+#: template/explore.html.j2:147
 msgid "Bounce in place"
 msgstr "Export sur place"
 
-#: template/explore.html.j2:149
+#: template/explore.html.j2:151
 msgid "Bounce in-place"
 msgstr "Export sur place"
 
-#: template/explore.html.j2:154
+#: template/explore.html.j2:156
 msgid "Quickly bounce selected material to audio."
 msgstr "Exporter rapidement en audio la sélection."
 
-#: template/explore.html.j2:163 template/explore.html.j2:176
+#: template/explore.html.j2:165 template/explore.html.j2:178
 msgid "Automation curves"
 msgstr "Courbes d'automatisation"
 
-#: template/explore.html.j2:168
+#: template/explore.html.j2:170
 msgid "Automate parameters with straight lines or curves."
 msgstr "Automatisez les paramètres avec des lignes droites ou des courbes."
 
-#: template/explore.html.j2:181
+#: template/explore.html.j2:183
 msgid "Reviews"
 msgstr "Avis"
 
-#: template/explore.html.j2:189
+#: template/explore.html.j2:191
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgstr "unfa livestream : Synthesizing snare drums with Geonkick"
 
-#: template/explore.html.j2:197
+#: template/explore.html.j2:199
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Article du numéro 229/2019 de Linux Magazine"
 
-#: template/explore.html.j2:205
+#: template/explore.html.j2:207
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -540,23 +537,19 @@ msgstr "Tutoriels"
 msgid "Looping regions"
 msgstr ""
 
-#: template/learn.html.j2:75
-msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-msgstr ""
-
-#: template/learn.html.j2:91
+#: template/learn.html.j2:93
 msgid "Routing"
 msgstr ""
 
-#: template/learn.html.j2:105
+#: template/learn.html.j2:108
 msgid "Documentation"
 msgstr "Documentation"
 
-#: template/learn.html.j2:112
+#: template/learn.html.j2:115
 msgid "User Manual"
 msgstr "Manuel utilisateur"
 
-#: template/learn.html.j2:115
+#: template/learn.html.j2:118
 msgid "Developer Reference"
 msgstr "Documentation pour développeurs"
 

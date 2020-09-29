@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-24 03:47+0100\n"
+"POT-Creation-Date: 2020-09-29 02:06+0100\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"zrythm/web/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -297,8 +296,8 @@ msgid "Demos"
 msgstr "示範"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:80 template/learn.html.j2:47
-#: template/learn.html.j2:67 template/learn.html.j2:86
+#: template/explore.html.j2:81 template/learn.html.j2:47
+#: template/learn.html.j2:68 template/learn.html.j2:88
 msgid "Your browser does not support HTML5 video"
 msgstr "您的瀏覽器不支援 HTML5 視訊"
 
@@ -310,72 +309,69 @@ msgstr "基本操作示範"
 msgid "Just For Kicks"
 msgstr "Just For Kicks"
 
-#: template/explore.html.j2:70 template/learn.html.j2:57
-#: template/learn.html.j2:96
-msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-msgstr "由 <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a> 創作"
+#: template/explore.html.j2:70 template/explore.html.j2:91
+#: template/learn.html.j2:57 template/learn.html.j2:76
+#: template/learn.html.j2:98
+msgid "Video by"
+msgstr ""
 
-#: template/explore.html.j2:85
+#: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
 msgstr "Zrythm + BJumblr jam"
 
-#: template/explore.html.j2:90
-msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-msgstr "由 <a href=\"https://mastodon.social/@unfa\">unfa</a> 創作"
-
-#: template/explore.html.j2:99 template/plugins.html.j2:53
+#: template/explore.html.j2:101 template/plugins.html.j2:53
 msgid "Features"
 msgstr "功能"
 
-#: template/explore.html.j2:107 template/explore.html.j2:111
+#: template/explore.html.j2:109 template/explore.html.j2:113
 msgid "Piano roll"
 msgstr "Piano roll"
 
-#: template/explore.html.j2:116
+#: template/explore.html.j2:118
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr "在 Piano roll 裡新增、編輯、編排 MIDI 音符。"
 
-#: template/explore.html.j2:125 template/explore.html.j2:138
+#: template/explore.html.j2:127 template/explore.html.j2:140
 msgid "Anywhere-to-anywhere connections"
 msgstr "Anywhere-to-anywhere connections"
 
-#: template/explore.html.j2:130
+#: template/explore.html.j2:132
 msgid "Connect anything to anything."
 msgstr "串接、連接任何訊號。"
 
-#: template/explore.html.j2:145
+#: template/explore.html.j2:147
 msgid "Bounce in place"
 msgstr "Bounce in place"
 
-#: template/explore.html.j2:149
+#: template/explore.html.j2:151
 msgid "Bounce in-place"
 msgstr "Bounce in-place"
 
-#: template/explore.html.j2:154
+#: template/explore.html.j2:156
 msgid "Quickly bounce selected material to audio."
 msgstr "快速將已選取的素材轉換為音訊。"
 
-#: template/explore.html.j2:163 template/explore.html.j2:176
+#: template/explore.html.j2:165 template/explore.html.j2:178
 msgid "Automation curves"
 msgstr "Automation 曲線"
 
-#: template/explore.html.j2:168
+#: template/explore.html.j2:170
 msgid "Automate parameters with straight lines or curves."
 msgstr "用直線或曲線自動控制參數。"
 
-#: template/explore.html.j2:181
+#: template/explore.html.j2:183
 msgid "Reviews"
 msgstr "評論"
 
-#: template/explore.html.j2:189
+#: template/explore.html.j2:191
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgstr "unfa livestream: Synthesizing snare drums with Geonkick"
 
-#: template/explore.html.j2:197
+#: template/explore.html.j2:199
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "節錄自 Issue 229/2019 of Linux Magazine"
 
-#: template/explore.html.j2:205
+#: template/explore.html.j2:207
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -522,23 +518,19 @@ msgstr "教學"
 msgid "Looping regions"
 msgstr "片段循環"
 
-#: template/learn.html.j2:75
-msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-msgstr "由 <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a> 創作"
-
-#: template/learn.html.j2:91
+#: template/learn.html.j2:93
 msgid "Routing"
 msgstr "訊號串接 (Routing)"
 
-#: template/learn.html.j2:105
+#: template/learn.html.j2:108
 msgid "Documentation"
 msgstr "文件"
 
-#: template/learn.html.j2:112
+#: template/learn.html.j2:115
 msgid "User Manual"
 msgstr "使用者手冊"
 
-#: template/learn.html.j2:115
+#: template/learn.html.j2:118
 msgid "Developer Reference"
 msgstr "開發者指南"
 
@@ -628,3 +620,12 @@ msgstr "商標政策"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm 商標政策"
+
+#~ msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
+#~ msgstr "由 <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a> 創作"
+
+#~ msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
+#~ msgstr "由 <a href=\"https://mastodon.social/@unfa\">unfa</a> 創作"
+
+#~ msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
+#~ msgstr "由 <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a> 創作"
