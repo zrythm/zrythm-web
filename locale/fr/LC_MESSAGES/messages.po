@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-29 02:06+0100\n"
-"PO-Revision-Date: 2020-05-13 12:41+0000\n"
-"Last-Translator: JEHANNIN <sahaa.thyva@laposte.net>\n"
+"PO-Revision-Date: 2020-09-29 22:22+0000\n"
+"Last-Translator: Sahaathyva <sahaa.thyva@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.1-dev\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -75,15 +75,15 @@ msgstr "Un seul bouton pour contrôler le désaccord"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "Les contributeurs à Zruthm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Déclaration légale"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Vie privée"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -162,7 +162,7 @@ msgstr "Suivi des problèmes"
 
 #: template/community.html.j2:76
 msgid "Translations"
-msgstr "Translations"
+msgstr "Traductions"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
@@ -176,7 +176,7 @@ msgstr "Code source"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Sorties"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
@@ -188,7 +188,7 @@ msgstr "Installateur"
 
 #: template/download.html.j2:133
 msgid "trial"
-msgstr ""
+msgstr "essai"
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
@@ -228,15 +228,15 @@ msgstr "Greffons embarqués (tous)"
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
-msgstr ""
+msgstr "Manuel utilisateur PDF"
 
 #: template/download.html.j2:158
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "version simple à <b>£5</b>"
 
 #: template/download.html.j2:159
 msgid "<b>+£10</b> beta bundle"
-msgstr ""
+msgstr "Pack bêta à <b>+£10</b>"
 
 #: template/download.html.j2:164
 msgid "Full version"
@@ -244,11 +244,11 @@ msgstr "Version complète"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Mises à jours vers nouvelles sorties"
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Accès aux versions \"Nighly\""
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
@@ -263,6 +263,8 @@ msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Ceci est une version d'essai comportant certaines fonctions limitées. "
+"Veuillez SVP choisir votre système d'exploitation."
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
@@ -293,6 +295,8 @@ msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
 msgstr ""
+"Ceci inclus les dons venant de LiberaPay, PayPal, OpenCollective, les "
+"téléchargements et les abonnements"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
@@ -300,7 +304,7 @@ msgstr "Liste des caractéristiques, fonctionnalités et avis"
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr ""
+msgstr "Démos"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
 #: template/explore.html.j2:81 template/learn.html.j2:47
@@ -314,17 +318,17 @@ msgstr "Démo basique"
 
 #: template/explore.html.j2:65
 msgid "Just For Kicks"
-msgstr ""
+msgstr "Just for Kicks"
 
 #: template/explore.html.j2:70 template/explore.html.j2:91
 #: template/learn.html.j2:57 template/learn.html.j2:76
 #: template/learn.html.j2:98
 msgid "Video by"
-msgstr ""
+msgstr "Video de"
 
 #: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
-msgstr ""
+msgstr "Boeuf avec Zrythm + BJumblr"
 
 #: template/explore.html.j2:101 template/plugins.html.j2:53
 msgid "Features"
@@ -384,6 +388,8 @@ msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
 msgstr ""
+"Phoronix news: Zrythm approche de sa version bêta comme une station audio "
+"numérique libre(open source) et facile à utiliser"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -402,7 +408,7 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -495,6 +501,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm est un <a href=\"https://www.zrythm.org/videos/"
+"TEDxGE2014_Stallman05_LQ.webm\">Logiciel Libre</a>. Utilisez ,étudiez , "
+"partagez et améliorez le en toute liberté."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
@@ -517,13 +526,15 @@ msgstr "En savoir plus"
 
 #: template/index.html.j2:190
 msgid "Sponsors"
-msgstr ""
+msgstr "Sponsors"
 
 #: template/index.html.j2:195
 msgid ""
 "No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> if "
 "you would like to be a sponsor."
 msgstr ""
+"Pas de sponsors publics actuellement. <a href=\"mailto:sponsor@zrythm.org\""
+">Contactez nous</a> si vous voulez devenir sponsor."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -535,11 +546,11 @@ msgstr "Tutoriels"
 
 #: template/learn.html.j2:52
 msgid "Looping regions"
-msgstr ""
+msgstr "Régions de bouclage"
 
 #: template/learn.html.j2:93
 msgid "Routing"
-msgstr ""
+msgstr "Routage"
 
 #: template/learn.html.j2:108
 msgid "Documentation"
@@ -583,6 +594,10 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"À moins de spécification contraire, toutes les vidéos visualisables sur le "
+"site internet de Zrythm sont sous licence <a href=\"https://creativecommons."
+"org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 "
+"International</a>."
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
@@ -608,7 +623,7 @@ msgstr "Spécifications techniques"
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Politique de confidentialité"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
@@ -638,11 +653,11 @@ msgstr "Retour à la page d'accueil"
 
 #: template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Politique de marque"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Politique de marque Zrythm"
 
 #~ msgid "ZLFO demo"
 #~ msgstr "Démo ZLFO"
