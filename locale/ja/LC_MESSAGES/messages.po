@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-29 02:06+0100\n"
-"PO-Revision-Date: 2020-09-25 18:02+0000\n"
-"Last-Translator: Alexandros Theodotou <alextee@posteo.net>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"PO-Revision-Date: 2020-09-30 22:58+0000\n"
+"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.3-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -316,7 +317,7 @@ msgstr "Just For Kicks"
 #: template/learn.html.j2:57 template/learn.html.j2:76
 #: template/learn.html.j2:98
 msgid "Video by"
-msgstr ""
+msgstr "動画 by"
 
 #: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
