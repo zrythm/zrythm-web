@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-29 02:06+0100\n"
-"PO-Revision-Date: 2020-10-03 13:24+0000\n"
+"PO-Revision-Date: 2020-10-05 12:12+0000\n"
 "Last-Translator: iLyd <mrzarp@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
@@ -155,7 +155,7 @@ msgstr "Разработчики"
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr "Проект"
+msgstr "Проект (Project)"
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
