@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-29 02:06+0100\n"
-"PO-Revision-Date: 2020-08-15 14:14+0000\n"
-"Last-Translator: Waui <wau-wau@tutanota.de>\n"
+"PO-Revision-Date: 2020-10-05 12:12+0000\n"
+"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.2-dev\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -159,11 +159,13 @@ msgstr "Problemverwaltung"
 
 #: template/community.html.j2:76
 msgid "Translations"
-msgstr ""
+msgstr "Übersetzungen"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr ""
+"Den Quellcode herunterladen oder ein bereits kompiliertes Installationspaket "
+"kaufen"
 
 #: template/download.html.j2:39
 msgid "Source code"
@@ -187,7 +189,7 @@ msgstr "Probe"
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
-msgstr ""
+msgstr "Alpha/Beta"
 
 #: template/download.html.j2:138
 msgid "full"
@@ -199,7 +201,7 @@ msgstr "Abonnement"
 
 #: template/download.html.j2:147
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Mitgelieferte Erweiterungen (Basis)"
 
 #: template/download.html.j2:148
 msgid "Goes silent after 30 minutes"
@@ -211,7 +213,7 @@ msgstr "Speichern/Laden ist deaktiviert"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>0 £</b>"
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
@@ -219,7 +221,7 @@ msgstr "Mit allen Funktionen kompiliert"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Mitgelieferte Erweiterungen (vollständig)"
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
@@ -247,7 +249,7 @@ msgstr "Zugriff auf Nightly Builds"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>5 £ monatlich</b>"
 
 #: template/download.html.j2:175
 msgid "Try Now"
@@ -271,7 +273,7 @@ msgstr "Windows 64-Bit"
 
 #: template/download.html.j2:197
 msgid "Buy Now"
-msgstr ""
+msgstr "Jetzt kaufen"
 
 #: template/download.html.j2:204
 msgid "Subscribe"
@@ -319,7 +321,7 @@ msgstr ""
 #: template/learn.html.j2:57 template/learn.html.j2:76
 #: template/learn.html.j2:98
 msgid "Video by"
-msgstr ""
+msgstr "Video von"
 
 #: template/explore.html.j2:86
 msgid "Zrythm + BJumblr jam"
@@ -623,7 +625,7 @@ msgstr ""
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Zrythm-Markenrichtlinie"
 
 #~ msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
 #~ msgstr "Video von <a href=\"https://mastodon.social/@unfa\">unfa</a>"
