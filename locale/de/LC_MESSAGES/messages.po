@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-29 02:06+0100\n"
+"POT-Creation-Date: 2020-10-05 17:42+0100\n"
 "PO-Revision-Date: 2020-08-15 14:14+0000\n"
 "Last-Translator: Waui <wau-wau@tutanota.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -510,8 +510,8 @@ msgstr "Sponsoren"
 
 #: template/index.html.j2:195
 msgid ""
-"No public sponsors. <a href=\"mailto:sponsor@zrythm.org\">Contact us</a> if "
-"you would like to be a sponsor."
+"No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
+"if you would like to be a sponsor."
 msgstr ""
 
 #: template/learn.html.j2:22
