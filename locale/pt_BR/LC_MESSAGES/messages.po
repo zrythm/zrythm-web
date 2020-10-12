@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-10-05 17:42+0100\n"
-"PO-Revision-Date: 2020-09-27 02:26+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
+"PO-Revision-Date: 2020-10-11 10:49+0000\n"
+"Last-Translator: Tércio Martins <tecnotercio@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr ""
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -126,7 +126,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:81
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -150,7 +150,7 @@ msgstr ""
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr ""
+msgstr "Projeto"
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
@@ -380,7 +380,7 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Estação de Áudio Digital"
 
 #: template/index.html.j2:22
 msgid ""
@@ -391,11 +391,11 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "uma estação de áudio digital altamente automatizada e intuitiva"
 
 #: template/index.html.j2:51
 msgid "Overview"
