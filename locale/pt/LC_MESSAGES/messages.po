@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-10-05 17:42+0100\n"
-"PO-Revision-Date: 2020-10-13 10:36+0000\n"
+"PO-Revision-Date: 2020-10-18 09:26+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.3.1-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: template.py:390
@@ -203,7 +203,7 @@ msgstr "subscrição"
 
 #: template/download.html.j2:147
 msgid "Bundled plugins (basic)"
-msgstr "Plugins empacotados (básico)"
+msgstr "Suplementos empacotados (básico)"
 
 #: template/download.html.j2:148
 msgid "Goes silent after 30 minutes"
@@ -223,7 +223,7 @@ msgstr "Compilado com todas as funcionalidades"
 
 #: template/download.html.j2:156
 msgid "Bundled plugins (all)"
-msgstr "Plugins empacotados (todos)"
+msgstr "Suplementos empacotados (todos)"
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
@@ -402,8 +402,8 @@ msgid ""
 msgstr ""
 "Zrythm é uma estação de trabalho de áudio digital projetada para ser cheia "
 "de recursos e fácil de usar. Permite uma automação sem limites, suporta "
-"plugins LV2, funciona com o backend de áudio JACK e fornece assistência de "
-"acordes."
+"suplementos LV2, funciona com o backend de áudio JACK e fornece assistência "
+"de acordes."
 
 #: template/index.html.j2:33
 msgid "Zrythm"
@@ -453,7 +453,7 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr "Plugins de áudio"
+msgstr "Suplementos de áudio"
 
 #: template/index.html.j2:99
 msgid ""
