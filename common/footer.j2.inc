@@ -55,10 +55,9 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-12">
         <p style="text-align: center; line-height: 1;"><small>
-          Zrythm is a registered trademark of Alexandros Theodotou in the United Kingdom.
-          The Zrythm logo is a trademark of Alexandros Theodotou pending registration. See our
-          <a href="{{ url(lang + '/trademarks.html') }}">Trademark Policy</a> for usage
-          guidelines.
+          Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou in the United Kingdom.
+          See our
+          <a href="{{ url(lang + '/trademarks.html') }}">Trademark Policy</a> for details.
         </small></p>
       </div>
     </div>
