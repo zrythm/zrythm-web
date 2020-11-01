@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-10-05 17:42+0100\n"
+"POT-Creation-Date: 2020-11-01 17:10+0000\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Arif Sarker\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -297,8 +297,9 @@ msgid "Demos"
 msgstr "演示"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:81 template/learn.html.j2:47
-#: template/learn.html.j2:68 template/learn.html.j2:88
+#: template/explore.html.j2:81 template/explore.html.j2:102
+#: template/learn.html.j2:47 template/learn.html.j2:68
+#: template/learn.html.j2:88
 msgid "Your browser does not support HTML5 video"
 msgstr "您的浏览器不支持HTML5视频"
 
@@ -311,8 +312,8 @@ msgid "Just For Kicks"
 msgstr ""
 
 #: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/learn.html.j2:57 template/learn.html.j2:76
-#: template/learn.html.j2:98
+#: template/explore.html.j2:112 template/learn.html.j2:57
+#: template/learn.html.j2:76 template/learn.html.j2:98
 msgid "Video by"
 msgstr ""
 
@@ -320,59 +321,63 @@ msgstr ""
 msgid "Zrythm + BJumblr jam"
 msgstr ""
 
-#: template/explore.html.j2:101 template/plugins.html.j2:53
+#: template/explore.html.j2:107
+msgid "For River (Piano)"
+msgstr ""
+
+#: template/explore.html.j2:122 template/plugins.html.j2:53
 msgid "Features"
 msgstr "功能"
 
-#: template/explore.html.j2:109 template/explore.html.j2:113
+#: template/explore.html.j2:130 template/explore.html.j2:134
 msgid "Piano roll"
 msgstr "Piano roll"
 
-#: template/explore.html.j2:118
+#: template/explore.html.j2:139
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr "在一个专用的Piano roll中创建，编辑和安排MIDI项目。"
 
-#: template/explore.html.j2:127 template/explore.html.j2:140
+#: template/explore.html.j2:148 template/explore.html.j2:161
 msgid "Anywhere-to-anywhere connections"
 msgstr "无处不在的连接"
 
-#: template/explore.html.j2:132
+#: template/explore.html.j2:153
 msgid "Connect anything to anything."
 msgstr "连接任何东西。"
 
-#: template/explore.html.j2:147
+#: template/explore.html.j2:168
 msgid "Bounce in place"
 msgstr "弹回到位"
 
-#: template/explore.html.j2:151
+#: template/explore.html.j2:172
 msgid "Bounce in-place"
 msgstr "弹回到位"
 
-#: template/explore.html.j2:156
+#: template/explore.html.j2:177
 msgid "Quickly bounce selected material to audio."
 msgstr "快速将选定的材料弹回到音频。"
 
-#: template/explore.html.j2:165 template/explore.html.j2:178
+#: template/explore.html.j2:186 template/explore.html.j2:199
 msgid "Automation curves"
 msgstr "自动化曲线"
 
-#: template/explore.html.j2:170
+#: template/explore.html.j2:191
 msgid "Automate parameters with straight lines or curves."
 msgstr "用直线或曲线将参数自动化。"
 
-#: template/explore.html.j2:183
+#: template/explore.html.j2:204
 msgid "Reviews"
 msgstr "评论"
 
-#: template/explore.html.j2:191
+#: template/explore.html.j2:212
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgstr "unfa直播:用Geonkick合成军鼓"
 
-#: template/explore.html.j2:199
+#: template/explore.html.j2:220
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Linux杂志第229/2019期文章"
 
-#: template/explore.html.j2:207
+#: template/explore.html.j2:228
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"

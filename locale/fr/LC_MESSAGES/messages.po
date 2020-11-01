@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-10-05 17:42+0100\n"
+"POT-Creation-Date: 2020-11-01 17:10+0000\n"
 "PO-Revision-Date: 2020-10-13 10:36+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -307,8 +307,9 @@ msgid "Demos"
 msgstr "Démos"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:81 template/learn.html.j2:47
-#: template/learn.html.j2:68 template/learn.html.j2:88
+#: template/explore.html.j2:81 template/explore.html.j2:102
+#: template/learn.html.j2:47 template/learn.html.j2:68
+#: template/learn.html.j2:88
 msgid "Your browser does not support HTML5 video"
 msgstr "Votre navigateur ne prend pas en charge la vidéo HTML5"
 
@@ -321,8 +322,8 @@ msgid "Just For Kicks"
 msgstr "Just for Kicks"
 
 #: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/learn.html.j2:57 template/learn.html.j2:76
-#: template/learn.html.j2:98
+#: template/explore.html.j2:112 template/learn.html.j2:57
+#: template/learn.html.j2:76 template/learn.html.j2:98
 msgid "Video by"
 msgstr "Video de"
 
@@ -330,60 +331,64 @@ msgstr "Video de"
 msgid "Zrythm + BJumblr jam"
 msgstr "Boeuf avec Zrythm + BJumblr"
 
-#: template/explore.html.j2:101 template/plugins.html.j2:53
+#: template/explore.html.j2:107
+msgid "For River (Piano)"
+msgstr ""
+
+#: template/explore.html.j2:122 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: template/explore.html.j2:109 template/explore.html.j2:113
+#: template/explore.html.j2:130 template/explore.html.j2:134
 msgid "Piano roll"
 msgstr "Piano roll"
 
-#: template/explore.html.j2:118
+#: template/explore.html.j2:139
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Créez, éditez et organisez des événements MIDI dans un piano roll dédié."
 
-#: template/explore.html.j2:127 template/explore.html.j2:140
+#: template/explore.html.j2:148 template/explore.html.j2:161
 msgid "Anywhere-to-anywhere connections"
 msgstr "Des connexions de n'importe où à n'importe quel endroit"
 
-#: template/explore.html.j2:132
+#: template/explore.html.j2:153
 msgid "Connect anything to anything."
 msgstr "Reliez tout à tout."
 
-#: template/explore.html.j2:147
+#: template/explore.html.j2:168
 msgid "Bounce in place"
 msgstr "Export sur place"
 
-#: template/explore.html.j2:151
+#: template/explore.html.j2:172
 msgid "Bounce in-place"
 msgstr "Export sur place"
 
-#: template/explore.html.j2:156
+#: template/explore.html.j2:177
 msgid "Quickly bounce selected material to audio."
 msgstr "Exporter rapidement en audio la sélection."
 
-#: template/explore.html.j2:165 template/explore.html.j2:178
+#: template/explore.html.j2:186 template/explore.html.j2:199
 msgid "Automation curves"
 msgstr "Courbes d'automatisation"
 
-#: template/explore.html.j2:170
+#: template/explore.html.j2:191
 msgid "Automate parameters with straight lines or curves."
 msgstr "Automatisez les paramètres avec des lignes droites ou des courbes."
 
-#: template/explore.html.j2:183
+#: template/explore.html.j2:204
 msgid "Reviews"
 msgstr "Avis"
 
-#: template/explore.html.j2:191
+#: template/explore.html.j2:212
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgstr "unfa livestream : Synthesizing snare drums with Geonkick"
 
-#: template/explore.html.j2:199
+#: template/explore.html.j2:220
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Article du numéro 229/2019 de Linux Magazine"
 
-#: template/explore.html.j2:207
+#: template/explore.html.j2:228
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
