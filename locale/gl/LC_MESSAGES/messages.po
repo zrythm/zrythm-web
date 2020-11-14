@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 05:07+0000\n"
+"POT-Creation-Date: 2020-11-14 22:56+0000\n"
 "PO-Revision-Date: 2020-06-29 19:41+0000\n"
 "Last-Translator: Gabino S <gvgrandio@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -144,22 +144,27 @@ msgid "Mail"
 msgstr "Enderezos electrónicos"
 
 #: template/community.html.j2:59
-msgid "Users"
-msgstr "Usuarios"
+msgid "Announcements"
+msgstr ""
 
 #: template/community.html.j2:62
-msgid "Developers"
-msgstr "Desenvolvedores"
+msgid "User discussion"
+msgstr ""
 
-#: template/community.html.j2:66
+#: template/community.html.j2:65
+#| msgid "Developer Reference"
+msgid "Development"
+msgstr ""
+
+#: template/community.html.j2:69
 msgid "Project"
 msgstr "Proxecto"
 
-#: template/community.html.j2:73
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr "Rastreador de problemas"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr "Traducións"
 
@@ -673,6 +678,9 @@ msgstr ""
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
 
 #~ msgid "ZLFO demo"
 #~ msgstr "Demo do ZLFO"

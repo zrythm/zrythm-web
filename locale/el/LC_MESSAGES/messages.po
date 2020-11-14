@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 05:07+0000\n"
+"POT-Creation-Date: 2020-11-14 22:56+0000\n"
 "PO-Revision-Date: 2020-10-08 23:04+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -146,22 +146,27 @@ msgid "Mail"
 msgstr "Μήνυμα"
 
 #: template/community.html.j2:59
-msgid "Users"
-msgstr "Χρήστες"
+msgid "Announcements"
+msgstr ""
 
 #: template/community.html.j2:62
-msgid "Developers"
-msgstr "Προγραμματιστές"
+msgid "User discussion"
+msgstr ""
 
-#: template/community.html.j2:66
+#: template/community.html.j2:65
+#| msgid "Developer Reference"
+msgid "Development"
+msgstr ""
+
+#: template/community.html.j2:69
 msgid "Project"
 msgstr "Έργο"
 
-#: template/community.html.j2:73
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr "Ιχνηλάτης προβλήματων"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr "Μεταφράσεις"
 
@@ -691,6 +696,9 @@ msgstr "Πολιτική εμπορικών σημάτων"
 msgid "Zrythm Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων Zrythm"
 
+#~ msgid "Users"
+#~ msgstr "Χρήστες"
+
 #~ msgid "Donate"
 #~ msgstr "Κάντε δωρεά"
 
@@ -806,9 +814,6 @@ msgstr "Πολιτική εμπορικών σημάτων Zrythm"
 
 #~ msgid "FAQ"
 #~ msgstr "Συχνές ερωτήσεις"
-
-#~ msgid "Discussion"
-#~ msgstr "Συζήτηση"
 
 #~ msgid "Join Us"
 #~ msgstr "Γίνε μέλος μας"

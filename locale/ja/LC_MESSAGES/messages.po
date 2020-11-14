@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 05:07+0000\n"
+"POT-Creation-Date: 2020-11-14 22:56+0000\n"
 "PO-Revision-Date: 2020-09-30 22:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -143,22 +143,27 @@ msgid "Mail"
 msgstr "メール"
 
 #: template/community.html.j2:59
-msgid "Users"
-msgstr "ユーザ"
+#| msgid "Announcements Mailing List"
+msgid "Announcements"
+msgstr ""
 
 #: template/community.html.j2:62
-msgid "Developers"
-msgstr "開発者"
+msgid "User discussion"
+msgstr ""
 
-#: template/community.html.j2:66
+#: template/community.html.j2:65
+msgid "Development"
+msgstr "開発"
+
+#: template/community.html.j2:69
 msgid "Project"
 msgstr "プロジェクト"
 
-#: template/community.html.j2:73
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr "課題管理"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr "翻訳"
 
@@ -657,6 +662,12 @@ msgstr "商標ポリシー"
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythmの商標ポリシー"
 
+#~ msgid "Users"
+#~ msgstr "ユーザ"
+
+#~ msgid "Developers"
+#~ msgstr "開発者"
+
 #~ msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 #~ msgstr "動画 by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 
@@ -987,9 +998,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgstr ""
 #~ "メーリングリストを使用したり、チャットルームに参加したり、開発に追いついたり、技術的なヘルプを見つけたり、Zrythmについて話し合うことができます。"
 
-#~ msgid "Announcements Mailing List"
-#~ msgstr "お知らせメーリングリスト"
-
 #~ msgid "General Help Mailing List"
 #~ msgstr "一般メーリングリスト"
 
@@ -1031,9 +1039,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgstr ""
 #~ "グラフィックデザイナー、プログラマー、外国語を話せる人、またはZrythmの改善に関するアイデアをお持ちの場合は、<a "
 #~ "href=\"engage.html\">自由に参加ください</a>。"
-
-#~ msgid "Develop"
-#~ msgstr "開発する"
 
 #~ msgid "Patches are welcome in the <a href=\"%(git_url)s\"> main repository</a>."
 #~ msgstr "パッチは<a href=\"%(git_url)s\"> メインリポジトリ</a>で歓迎されています。"
@@ -1133,14 +1138,8 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgid "FAQ"
 #~ msgstr "よくある質問"
 
-#~ msgid "Discussion"
-#~ msgstr "ディスカッション"
-
 #~ msgid "Join Us"
 #~ msgstr "参加する"
-
-#~ msgid "Development"
-#~ msgstr "開発"
 
 #~ msgid "Glossary"
 #~ msgstr "用語集"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 05:07+0000\n"
+"POT-Creation-Date: 2020-11-14 22:56+0000\n"
 "PO-Revision-Date: 2020-09-25 18:02+0000\n"
 "Last-Translator: Felix Paulsson <fpaulsson@protonmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -142,22 +142,26 @@ msgid "Mail"
 msgstr ""
 
 #: template/community.html.j2:59
-msgid "Users"
+msgid "Announcements"
 msgstr ""
 
 #: template/community.html.j2:62
-msgid "Developers"
+msgid "User discussion"
 msgstr ""
 
-#: template/community.html.j2:66
+#: template/community.html.j2:65
+msgid "Development"
+msgstr ""
+
+#: template/community.html.j2:69
 msgid "Project"
 msgstr "Projekt"
 
-#: template/community.html.j2:73
+#: template/community.html.j2:76
 msgid "Issue tracker"
 msgstr ""
 
-#: template/community.html.j2:76
+#: template/community.html.j2:79
 msgid "Translations"
 msgstr ""
 
