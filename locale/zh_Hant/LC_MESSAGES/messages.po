@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-01 17:10+0000\n"
+"POT-Creation-Date: 2020-11-14 05:07+0000\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -297,8 +297,10 @@ msgstr "示範"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
 #: template/explore.html.j2:81 template/explore.html.j2:102
-#: template/learn.html.j2:47 template/learn.html.j2:68
-#: template/learn.html.j2:88
+#: template/learn.html.j2:51 template/learn.html.j2:71
+#: template/learn.html.j2:99 template/learn.html.j2:120
+#: template/learn.html.j2:141 template/learn.html.j2:162
+#: template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
 msgstr "您的瀏覽器不支援 HTML5 視訊"
 
@@ -311,8 +313,10 @@ msgid "Just For Kicks"
 msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/explore.html.j2:112 template/learn.html.j2:57
-#: template/learn.html.j2:76 template/learn.html.j2:98
+#: template/explore.html.j2:112 template/learn.html.j2:59
+#: template/learn.html.j2:81 template/learn.html.j2:109
+#: template/learn.html.j2:130 template/learn.html.j2:151
+#: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
 msgstr ""
 
@@ -519,23 +523,47 @@ msgstr "Zrythm 參考頁-使用者手冊-教學"
 msgid "Tutorials"
 msgstr "教學"
 
-#: template/learn.html.j2:52
-msgid "Looping regions"
-msgstr "片段循環"
+#: template/learn.html.j2:42
+msgid "General"
+msgstr ""
 
-#: template/learn.html.j2:93
+#: template/learn.html.j2:76
 msgid "Routing"
 msgstr "訊號串接 (Routing)"
 
-#: template/learn.html.j2:108
+#: template/learn.html.j2:90
+msgid "Editing"
+msgstr ""
+
+#: template/learn.html.j2:104
+msgid "Select/Stretch Tool"
+msgstr ""
+
+#: template/learn.html.j2:125
+msgid "Edit Tool"
+msgstr ""
+
+#: template/learn.html.j2:146
+msgid "Cut Tool"
+msgstr ""
+
+#: template/learn.html.j2:167
+msgid "Ramp Tool"
+msgstr ""
+
+#: template/learn.html.j2:189
+msgid "Looping regions"
+msgstr "片段循環"
+
+#: template/learn.html.j2:204
 msgid "Documentation"
 msgstr "文件"
 
-#: template/learn.html.j2:115
+#: template/learn.html.j2:211
 msgid "User Manual"
 msgstr "使用者手冊"
 
-#: template/learn.html.j2:118
+#: template/learn.html.j2:214
 msgid "Developer Reference"
 msgstr "開發者指南"
 

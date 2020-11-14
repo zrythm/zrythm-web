@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-01 17:10+0000\n"
+"POT-Creation-Date: 2020-11-14 05:07+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -297,8 +297,10 @@ msgstr ""
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
 #: template/explore.html.j2:81 template/explore.html.j2:102
-#: template/learn.html.j2:47 template/learn.html.j2:68
-#: template/learn.html.j2:88
+#: template/learn.html.j2:51 template/learn.html.j2:71
+#: template/learn.html.j2:99 template/learn.html.j2:120
+#: template/learn.html.j2:141 template/learn.html.j2:162
+#: template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
 msgstr ""
 
@@ -311,8 +313,10 @@ msgid "Just For Kicks"
 msgstr ""
 
 #: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/explore.html.j2:112 template/learn.html.j2:57
-#: template/learn.html.j2:76 template/learn.html.j2:98
+#: template/explore.html.j2:112 template/learn.html.j2:59
+#: template/learn.html.j2:81 template/learn.html.j2:109
+#: template/learn.html.j2:130 template/learn.html.j2:151
+#: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
 msgstr ""
 
@@ -507,23 +511,47 @@ msgstr ""
 msgid "Tutorials"
 msgstr "Veiledninger"
 
-#: template/learn.html.j2:52
-msgid "Looping regions"
+#: template/learn.html.j2:42
+msgid "General"
 msgstr ""
 
-#: template/learn.html.j2:93
+#: template/learn.html.j2:76
 msgid "Routing"
 msgstr ""
 
-#: template/learn.html.j2:108
+#: template/learn.html.j2:90
+msgid "Editing"
+msgstr ""
+
+#: template/learn.html.j2:104
+msgid "Select/Stretch Tool"
+msgstr ""
+
+#: template/learn.html.j2:125
+msgid "Edit Tool"
+msgstr ""
+
+#: template/learn.html.j2:146
+msgid "Cut Tool"
+msgstr ""
+
+#: template/learn.html.j2:167
+msgid "Ramp Tool"
+msgstr ""
+
+#: template/learn.html.j2:189
+msgid "Looping regions"
+msgstr ""
+
+#: template/learn.html.j2:204
 msgid "Documentation"
 msgstr "Dokumentasjon"
 
-#: template/learn.html.j2:115
+#: template/learn.html.j2:211
 msgid "User Manual"
 msgstr ""
 
-#: template/learn.html.j2:118
+#: template/learn.html.j2:214
 msgid "Developer Reference"
 msgstr ""
 
