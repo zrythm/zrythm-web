@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: 2020-09-26 11:50+0000\n"
-"Last-Translator: Marc <marc.izquierdo.hu@gmail.com>\n"
+"PO-Revision-Date: 2020-11-16 19:28+0000\n"
+"Last-Translator: Bianca Roșu <bianca.rosu32@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.3-dev\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -50,39 +50,42 @@ msgstr "Inversión vertical/horizontal"
 
 #: template.py:400
 msgid "Step mode"
-msgstr ""
+msgstr "Modo paso"
 
 #: template.py:401
 msgid "Editable range"
-msgstr ""
+msgstr "Rango editable"
 
 #: template.py:402
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Sincronizar con el host o de forma libre"
 
 #: template.py:405
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw es un sintetizador de súper-sierra con 1 parámetro"
 
 #: template.py:406
+#, fuzzy
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 osciladores de onda de sierra"
 
 #: template.py:407
+#, fuzzy
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Botón único para controlar la desafinación"
 
 #: common/footer.j2.inc:21
+#, fuzzy
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "Los colaboradores de Zrythm"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Información legal"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidad"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -136,8 +139,9 @@ msgid "Zrythm's community pages and communication channels"
 msgstr "Páginas comunitarias y canales de comunicación de Zrythm"
 
 #: template/community.html.j2:37
+#, fuzzy
 msgid "Chat"
-msgstr "Charla"
+msgstr "Chat"
 
 #: template/community.html.j2:52
 msgid "Mail"
@@ -156,12 +160,13 @@ msgid "Project"
 msgstr "Proyecto"
 
 #: template/community.html.j2:73
+#, fuzzy
 msgid "Issue tracker"
-msgstr ""
+msgstr "Seguimiento de incidentes"
 
 #: template/community.html.j2:76
 msgid "Translations"
-msgstr ""
+msgstr "Traducciones"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
@@ -175,19 +180,19 @@ msgstr "Código fuente"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Lanzamientos"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "Clave GPG"
 
 #: template/download.html.j2:126
 msgid "Installer"
-msgstr ""
+msgstr "Instalador"
 
 #: template/download.html.j2:133
 msgid "trial"
-msgstr ""
+msgstr "Prueba"
 
 #: template/download.html.j2:137
 msgid "alpha/beta"
@@ -195,47 +200,51 @@ msgstr "alfa/beta"
 
 #: template/download.html.j2:138
 msgid "full"
-msgstr ""
+msgstr "completo"
 
 #: template/download.html.j2:141
 msgid "subscription"
 msgstr "suscripción"
 
 #: template/download.html.j2:147
+#, fuzzy
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Plugins incluidos (básicos)"
 
 #: template/download.html.j2:148
 msgid "Goes silent after 30 minutes"
-msgstr ""
+msgstr "Se queda en silencio después de 30 minutos"
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
-msgstr ""
+msgstr "Guardar / cargar está deshabilitado"
 
 #: template/download.html.j2:150
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b> 0 £ </b>"
 
 #: template/download.html.j2:155
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Compilado con todas las funciones"
 
 #: template/download.html.j2:156
+#, fuzzy
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Plugins incluidos (todos)"
 
 #: template/download.html.j2:157
 msgid "PDF user manual"
-msgstr ""
+msgstr "Manual de usuario en PDF"
 
 #: template/download.html.j2:158
+#, fuzzy
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>5£</b> versión individual"
 
 #: template/download.html.j2:159
+#, fuzzy
 msgid "<b>+£10</b> beta bundle"
-msgstr ""
+msgstr "<b>+10£</b> paquete beta"
 
 #: template/download.html.j2:164
 msgid "Full version"
@@ -243,25 +252,28 @@ msgstr "Versión completa"
 
 #: template/download.html.j2:165
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Actualizaciones a nuevos lanzamientos"
 
 #: template/download.html.j2:166
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Acceso a compilaciones nocturnas"
 
 #: template/download.html.j2:167
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b> 5 £ / mes </b>"
 
 #: template/download.html.j2:175
+#, fuzzy
 msgid "Try Now"
-msgstr ""
+msgstr "Pruébelo ahora"
 
 #: template/download.html.j2:182
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Esta es una versión de prueba con una funcionalidad limitada. Por favor, "
+"seleccione su sistema operativo."
 
 #: template/download.html.j2:185
 msgid "GNU/Linux"
@@ -281,25 +293,29 @@ msgstr "Suscribirse"
 
 #: template/download.html.j2:211
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Apoye a Zrythm comprando un instalador."
 
 #: template/download.html.j2:212
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Este mes recibimos {amount}£."
 
 #: template/download.html.j2:214
+#, fuzzy
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
 msgstr ""
+"Esto incluye donaciones de LiberaPay, PayPal, OpenCollective, descargas y "
+"suscripciones"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
 msgstr "Lista de características, funcionalidad y reseñas"
 
 #: template/explore.html.j2:37
+#, fuzzy
 msgid "Demos"
-msgstr ""
+msgstr "Demos"
 
 #: template/explore.html.j2:46 template/explore.html.j2:60
 #: template/explore.html.j2:81 template/explore.html.j2:102
@@ -307,16 +323,18 @@ msgstr ""
 #: template/learn.html.j2:99 template/learn.html.j2:120
 #: template/learn.html.j2:141 template/learn.html.j2:162
 #: template/learn.html.j2:184
+#, fuzzy
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "Su navegador no es compatible con el formato vídeo HTML5"
 
 #: template/explore.html.j2:51
 msgid "Basic demo"
 msgstr "Demostración básica"
 
 #: template/explore.html.j2:65
+#, fuzzy
 msgid "Just For Kicks"
-msgstr ""
+msgstr "Just For Kicks"
 
 #: template/explore.html.j2:70 template/explore.html.j2:91
 #: template/explore.html.j2:112 template/learn.html.j2:59
@@ -324,15 +342,17 @@ msgstr ""
 #: template/learn.html.j2:130 template/learn.html.j2:151
 #: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
-msgstr ""
+msgstr "Vídeo por"
 
 #: template/explore.html.j2:86
+#, fuzzy
 msgid "Zrythm + BJumblr jam"
-msgstr ""
+msgstr "Zrythm + BJumblr jam"
 
 #: template/explore.html.j2:107
+#, fuzzy
 msgid "For River (Piano)"
-msgstr ""
+msgstr "For River (Piano)"
 
 #: template/explore.html.j2:122 template/plugins.html.j2:53
 msgid "Features"
@@ -340,15 +360,16 @@ msgstr "Características"
 
 #: template/explore.html.j2:130 template/explore.html.j2:134
 msgid "Piano roll"
-msgstr ""
+msgstr "Rollo de piano"
 
 #: template/explore.html.j2:139
+#, fuzzy
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr ""
+msgstr "Crea, edita y organiza eventos MIDI en un rollo de piano dedicado."
 
 #: template/explore.html.j2:148 template/explore.html.j2:161
 msgid "Anywhere-to-anywhere connections"
-msgstr ""
+msgstr "Conexiones de cualquier lugar a cualquier lugar"
 
 #: template/explore.html.j2:153
 msgid "Connect anything to anything."
@@ -359,12 +380,14 @@ msgid "Bounce in place"
 msgstr "Brinca en el lugar"
 
 #: template/explore.html.j2:172
+#, fuzzy
 msgid "Bounce in-place"
-msgstr ""
+msgstr "Bounce en el lugar"
 
 #: template/explore.html.j2:177
+#, fuzzy
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "Realiza un bounce rápidamente del material seleccionado a audio."
 
 #: template/explore.html.j2:186 template/explore.html.j2:199
 msgid "Automation curves"
@@ -379,18 +402,21 @@ msgid "Reviews"
 msgstr "Reseñas"
 
 #: template/explore.html.j2:212
+#, fuzzy
 msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr ""
+msgstr "transmisión en directo de unfa: Sintetizando tambores con Geonkick"
 
 #: template/explore.html.j2:220
 msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr ""
+msgstr "Artículo del número 229/2019 de Linux Magazine"
 
 #: template/explore.html.j2:228
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
 msgstr ""
+"Noticias de Phoronix: Zrythm se acerca a la versión beta como una estación "
+"de trabajo de audio digital de código abierto fácil de usar"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -422,20 +448,27 @@ msgid "Overview"
 msgstr "Generalidades"
 
 #: template/index.html.j2:57
+#, fuzzy
 msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
+"Zrythm es una {tooltip1} multiplataforma {endtooltip} {tooltip2} estación de "
+"trabajo de audio digital {endtooltip} diseñada para ser funcional y fácil de "
+"usar."
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm funciona en GNU / Linux, FreeBSD, MacOS y Windows"
 
 #: template/index.html.j2:64
+#, fuzzy
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
+"Una DAW se utiliza para componer, grabar, editar, arreglar, mezclar y "
+"dominar música"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
@@ -451,23 +484,28 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr ""
+msgstr "Plugins de audio"
 
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"Soporte completo para <a href=\"https://lv2plug.in/\"> LV2 </a> y VST2, con "
+"soporte experimental para VST3, AU, SFZ y SF2."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr ""
+msgstr "Soporte multi-backend"
 
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Totalmente <a href=\"https://jackaudio.org/\"> compatible con JACK </a>, "
+"incluido el soporte para transporte JACK, ALSA, WASAPI, Windows MME, "
+"CoreMidi y CoreAudio."
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
@@ -483,14 +521,18 @@ msgstr ""
 
 #: template/index.html.j2:151
 msgid "Liberating"
-msgstr ""
+msgstr "Liberador"
 
 #: template/index.html.j2:156
+#, fuzzy
 msgid ""
 "Zrythm is <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm es un <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ"
+".webm\">software libre</a>. Úsalo, estúdialo, compártelo y mejóralo "
+"libremente."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
@@ -502,20 +544,27 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
+"Disponible en <a href=\"https://hosted.weblate.org/engage/zrythm/\"> varios "
+"idiomas </a>, incluidos inglés, francés, gallego, portugués, japonés y "
+"alemán."
 
 #: template/index.html.j2:183
 msgid "Learn more"
-msgstr ""
+msgstr "Más información"
 
 #: template/index.html.j2:190
 msgid "Sponsors"
-msgstr ""
+msgstr "Patrocinadores"
 
 #: template/index.html.j2:195
+#, fuzzy
 msgid ""
 "No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
 "if you would like to be a sponsor."
 msgstr ""
+"No hay patrocinadores públicos. \n"
+" <a href=\"mailto:sponsor_AT_zrythm.org\">Póngase en contacto con nosotros</"
+"a> si desea ser patrocinador."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -527,35 +576,36 @@ msgstr "Tutoriales"
 
 #: template/learn.html.j2:42
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: template/learn.html.j2:76
+#, fuzzy
 msgid "Routing"
-msgstr ""
+msgstr "Routing"
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr ""
+msgstr "Edición"
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "Herramienta Seleccionar / Estirar"
 
 #: template/learn.html.j2:125
 msgid "Edit Tool"
-msgstr ""
+msgstr "Herramienta Editar"
 
 #: template/learn.html.j2:146
 msgid "Cut Tool"
-msgstr ""
+msgstr "Herramienta Cortar"
 
 #: template/learn.html.j2:167
 msgid "Ramp Tool"
-msgstr ""
+msgstr "Herramienta Rampa"
 
 #: template/learn.html.j2:189
 msgid "Looping regions"
-msgstr ""
+msgstr "Regiones de bucle"
 
 #: template/learn.html.j2:204
 msgid "Documentation"
@@ -563,63 +613,76 @@ msgstr "Documentación"
 
 #: template/learn.html.j2:211
 msgid "User Manual"
-msgstr ""
+msgstr "Manual del usuario"
 
 #: template/learn.html.j2:214
 msgid "Developer Reference"
-msgstr ""
+msgstr "Referencia del desarrollador"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Información legal"
 
 #: template/legal.html.j2:22
+#, fuzzy
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Información legal, de licencias y marcas registradas"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Licencias"
 
 #: template/legal.html.j2:43
+#, fuzzy
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
+"Zrythm tiene los derechos de autor de Alexandros Theodotou y otros "
+"colaboradores. Zrythm se publica bajo la  <a href=\"https://www.gnu.org/"
+"licenses/agpl-3.0.html\">GNU Affero General Public License, versión 3 o "
+"superior</a>."
 
 #: template/legal.html.j2:50
+#, fuzzy
 msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"A menos que se indique lo contrario, los vídeos que se encuentran en el "
+"sitio web de Zrythm se publican bajo  <a href=\"https://creativecommons.org/"
+"licenses/by-sa/4.0/\">el Creative Commons Attribution-ShareAlike 4.0 "
+"International</a>."
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
-msgstr ""
+msgstr "Marcas registradas"
 
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
+"Zrythm y el logotipo de Zrythm son marcas registradas de Alexandros "
+"Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Plugins incluidos con Zrythm"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} captura de pantalla"
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
+msgstr "Especificaciones técnicas"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de privacidad"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
@@ -630,6 +693,8 @@ msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
+"¡Gracias por apoyar el desarrollo! Pronto recibirá un correo electrónico con "
+"instrucciones para descargar su instalador."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
@@ -647,11 +712,11 @@ msgstr "Volver a la página principal"
 
 #: template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Política de marcas registradas"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Política de marcas registradas de Zrythm"
 
 #~ msgid "ZLFO demo"
 #~ msgstr "Demostración de ZLFO"
