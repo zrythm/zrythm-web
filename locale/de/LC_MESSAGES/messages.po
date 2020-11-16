@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 22:56+0000\n"
+"POT-Creation-Date: 2020-11-16 07:04+0000\n"
 "PO-Revision-Date: 2020-10-08 23:04+0000\n"
 "Last-Translator: André Menrath <andre.menrath@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -153,7 +153,6 @@ msgid "User discussion"
 msgstr ""
 
 #: template/community.html.j2:65
-#| msgid "Developer Reference"
 msgid "Development"
 msgstr ""
 

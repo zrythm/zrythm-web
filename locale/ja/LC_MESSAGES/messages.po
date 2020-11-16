@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 22:56+0000\n"
+"POT-Creation-Date: 2020-11-16 07:04+0000\n"
 "PO-Revision-Date: 2020-09-30 22:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -143,7 +143,6 @@ msgid "Mail"
 msgstr "メール"
 
 #: template/community.html.j2:59
-#| msgid "Announcements Mailing List"
 msgid "Announcements"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 22:56+0000\n"
+"POT-Creation-Date: 2020-11-16 07:04+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -140,7 +140,6 @@ msgid "Mail"
 msgstr ""
 
 #: template/community.html.j2:59
-#| msgid "Announcements Mailing List"
 msgid "Announcements"
 msgstr ""
 

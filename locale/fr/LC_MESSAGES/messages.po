@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 22:56+0000\n"
+"POT-Creation-Date: 2020-11-16 07:04+0000\n"
 "PO-Revision-Date: 2020-10-13 10:36+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -145,7 +145,6 @@ msgid "Mail"
 msgstr "Courriel"
 
 #: template/community.html.j2:59
-#| msgid "Announcements Mailing List"
 msgid "Announcements"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-14 22:56+0000\n"
+"POT-Creation-Date: 2020-11-16 07:04+0000\n"
 "PO-Revision-Date: 2020-04-29 22:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -140,7 +140,6 @@ msgid "Mail"
 msgstr "Adres e-mail"
 
 #: template/community.html.j2:59
-#| msgid "Announcements Mailing List"
 msgid "Announcements"
 msgstr ""
 
