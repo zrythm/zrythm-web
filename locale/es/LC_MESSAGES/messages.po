@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: 2020-11-16 19:28+0000\n"
+"PO-Revision-Date: 2020-11-18 18:28+0000\n"
 "Last-Translator: Bianca Roșu <bianca.rosu32@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -160,9 +160,8 @@ msgid "Project"
 msgstr "Proyecto"
 
 #: template/community.html.j2:73
-#, fuzzy
 msgid "Issue tracker"
-msgstr "Seguimiento de incidentes"
+msgstr "Seguimiento de incidencias"
 
 #: template/community.html.j2:76
 msgid "Translations"
