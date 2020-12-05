@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: 2020-12-05 19:04+0000\n"
+"PO-Revision-Date: 2020-12-05 20:09+0000\n"
 "Last-Translator: Bianca Roșu <bianca.rosu32@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -136,7 +136,6 @@ msgid "Zrythm's community pages and communication channels"
 msgstr "Páginas comunitarias y canales de comunicación de Zrythm"
 
 #: template/community.html.j2:37
-#, fuzzy
 msgid "Chat"
 msgstr "Chat"
 
@@ -357,7 +356,7 @@ msgstr "Conexiones de cualquier lugar a cualquier lugar"
 
 #: template/explore.html.j2:153
 msgid "Connect anything to anything."
-msgstr "Conecta lo que sea a lo que sea"
+msgstr "Conecta lo que sea a lo que sea."
 
 #: template/explore.html.j2:168
 msgid "Bounce in place"
