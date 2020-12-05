@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
 "PO-Revision-Date: 2020-12-05 20:09+0000\n"
-"Last-Translator: Bianca Roșu <bianca.rosu32@gmail.com>\n"
+"Last-Translator: Andrea Ibeas Martinez <andrea.ibeas@e-campus.uab.cat>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -400,7 +400,7 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr "Estación de trabajo de Audio Digital"
+msgstr "Estación de trabajo de audio digital"
 
 #: template/index.html.j2:22
 msgid ""
