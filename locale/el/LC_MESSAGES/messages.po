@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: 2020-10-08 23:04+0000\n"
+"PO-Revision-Date: 2020-12-09 02:29+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.3-dev\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -553,7 +553,7 @@ msgstr "Διδακτικό υλικό"
 
 #: template/learn.html.j2:42
 msgid "General"
-msgstr ""
+msgstr "Γενικά"
 
 #: template/learn.html.j2:76
 msgid "Routing"
