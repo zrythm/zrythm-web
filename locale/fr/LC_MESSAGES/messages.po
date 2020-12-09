@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-16 07:04+0000\n"
+"POT-Creation-Date: 2020-12-09 02:38+0000\n"
 "PO-Revision-Date: 2020-10-13 10:36+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:390
+#: template.py:391
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
 "touches blanches"
 
-#: template.py:391
+#: template.py:392
 msgid "Major or minor scale"
 msgstr "Gamme majeure ou mineure"
 
-#: template.py:392
+#: template.py:393
 msgid "Velocity multiplier per note"
 msgstr "Multiplicateur de vitesse par note"
 
-#: template.py:396
+#: template.py:397
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
-#: template.py:397
+#: template.py:398
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
-#: template.py:398
+#: template.py:399
 msgid "Phase shift"
 msgstr "Décalage des phases"
 
-#: template.py:399
+#: template.py:400
 msgid "Vertical/horizontal inversion"
 msgstr "Inversion verticale/horizontale"
 
-#: template.py:400
+#: template.py:401
 msgid "Step mode"
 msgstr "Mode à pas"
 
-#: template.py:401
+#: template.py:402
 msgid "Editable range"
 msgstr "Plage modifiable"
 
-#: template.py:402
+#: template.py:403
 msgid "Sync to host or free-form"
 msgstr "Synchronisation avec l'hôte ou la forme libre"
 
-#: template.py:405
+#: template.py:406
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw est un synthétiseur supersaw à 1 paramètre"
 
-#: template.py:406
+#: template.py:407
 msgid "7 sawtooth oscillators"
 msgstr "7 oscillateurs en dents de scie"
 
-#: template.py:407
+#: template.py:408
 msgid "Single knob to control detune"
 msgstr "Un seul bouton pour contrôler le désaccord"
 
@@ -161,10 +161,14 @@ msgid "Project"
 msgstr "Projet"
 
 #: template/community.html.j2:76
-msgid "Issue tracker"
-msgstr "Suivi des problèmes"
+msgid "Feature tracker"
+msgstr ""
 
 #: template/community.html.j2:79
+msgid "Bug tracker"
+msgstr ""
+
+#: template/community.html.j2:82
 msgid "Translations"
 msgstr "Traductions"
 

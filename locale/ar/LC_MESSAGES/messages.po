@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-16 07:04+0000\n"
+"POT-Creation-Date: 2020-12-09 02:38+0000\n"
 "PO-Revision-Date: 2020-07-29 19:41+0000\n"
 "Last-Translator: YoGo <officialyogomusic@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.2-dev\n"
 
-#: template.py:390
+#: template.py:391
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "يرسم ZChordz أوتار النطاق الصغير أو الرئيسي للمفاتيح البيضاء"
 
-#: template.py:391
+#: template.py:392
 msgid "Major or minor scale"
 msgstr "مقياس رئيسي أو ثانوي"
 
-#: template.py:392
+#: template.py:393
 msgid "Velocity multiplier per note"
 msgstr "مضاعف السرعة لكل ملاحظة"
 
-#: template.py:396
+#: template.py:397
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO هو LFO لاكن مميز بالكامل للأتممة المستندة إلى السيرة الذاتية"
 
-#: template.py:397
+#: template.py:398
 msgid "Multi-oscillator with custom wave"
 msgstr "مذبذب متعدد بموجة مخصصة"
 
-#: template.py:398
+#: template.py:399
 msgid "Phase shift"
 msgstr "مرحلة التحول"
 
-#: template.py:399
+#: template.py:400
 msgid "Vertical/horizontal inversion"
 msgstr "الانقلاب الرأسي / الأفقي"
 
-#: template.py:400
+#: template.py:401
 msgid "Step mode"
 msgstr "وضع الخطوة"
 
-#: template.py:401
+#: template.py:402
 msgid "Editable range"
 msgstr "نطاق قابل للتعديل"
 
-#: template.py:402
+#: template.py:403
 msgid "Sync to host or free-form"
 msgstr "مزامنة لاستضافة أو شكل حر"
 
-#: template.py:405
+#: template.py:406
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw هو موالفة supersaw مع معلمة 1"
 
-#: template.py:406
+#: template.py:407
 msgid "7 sawtooth oscillators"
 msgstr "7 مذبذبات sawtooth"
 
-#: template.py:407
+#: template.py:408
 msgid "Single knob to control detune"
 msgstr "مقبض واحد للتحكم على detune"
 
@@ -156,10 +156,14 @@ msgid "Project"
 msgstr "المشروع"
 
 #: template/community.html.j2:76
-msgid "Issue tracker"
+msgid "Feature tracker"
 msgstr ""
 
 #: template/community.html.j2:79
+msgid "Bug tracker"
+msgstr ""
+
+#: template/community.html.j2:82
 msgid "Translations"
 msgstr ""
 
