@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: 2020-12-09 02:29+0000\n"
+"PO-Revision-Date: 2020-12-09 23:01+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
@@ -335,7 +335,7 @@ msgstr "τζαμάρισμα με Zrythm + BJumblr"
 
 #: template/explore.html.j2:107
 msgid "For River (Piano)"
-msgstr ""
+msgstr "Για το River (πιάνο)"
 
 #: template/explore.html.j2:122 template/plugins.html.j2:53
 msgid "Features"
@@ -561,23 +561,23 @@ msgstr "Δρομολόγηση"
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "Εργαλείο επιλογής/τεντώματος"
 
 #: template/learn.html.j2:125
 msgid "Edit Tool"
-msgstr ""
+msgstr "Εργαλείο επεξεργασίας"
 
 #: template/learn.html.j2:146
 msgid "Cut Tool"
-msgstr ""
+msgstr "Εργαλείο αποκοπής"
 
 #: template/learn.html.j2:167
 msgid "Ramp Tool"
-msgstr ""
+msgstr "Εργαλείο ράμπας"
 
 #: template/learn.html.j2:189
 msgid "Looping regions"
