@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-09 02:38+0000\n"
+"POT-Creation-Date: 2020-12-12 21:02+0000\n"
 "PO-Revision-Date: 2019-09-08 23:51+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -208,7 +208,7 @@ msgid "Bundled plugins (basic)"
 msgstr ""
 
 #: template/download.html.j2:148
-msgid "Goes silent after 30 minutes"
+msgid "Goes silent after 40 minutes"
 msgstr ""
 
 #: template/download.html.j2:149
@@ -303,92 +303,87 @@ msgstr ""
 msgid "Demos"
 msgstr ""
 
-#: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:81 template/explore.html.j2:102
-#: template/learn.html.j2:51 template/learn.html.j2:71
-#: template/learn.html.j2:99 template/learn.html.j2:120
-#: template/learn.html.j2:141 template/learn.html.j2:162
-#: template/learn.html.j2:184
+#: template/explore.html.j2:46 template/explore.html.j2:67
+#: template/explore.html.j2:88 template/learn.html.j2:51
+#: template/learn.html.j2:71 template/learn.html.j2:99
+#: template/learn.html.j2:120 template/learn.html.j2:141
+#: template/learn.html.j2:162 template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
 msgstr ""
 
 #: template/explore.html.j2:51
-msgid "Basic demo"
-msgstr ""
-
-#: template/explore.html.j2:65
 msgid "Just For Kicks"
 msgstr ""
 
-#: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/explore.html.j2:112 template/learn.html.j2:59
+#: template/explore.html.j2:56 template/explore.html.j2:77
+#: template/explore.html.j2:98 template/learn.html.j2:59
 #: template/learn.html.j2:81 template/learn.html.j2:109
 #: template/learn.html.j2:130 template/learn.html.j2:151
 #: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
 msgstr ""
 
-#: template/explore.html.j2:86
-msgid "Zrythm + BJumblr jam"
-msgstr ""
-
-#: template/explore.html.j2:107
+#: template/explore.html.j2:72
 msgid "For River (Piano)"
 msgstr ""
 
-#: template/explore.html.j2:122 template/plugins.html.j2:53
+#: template/explore.html.j2:93
+msgid "Geometry"
+msgstr ""
+
+#: template/explore.html.j2:108 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Funksjoner"
 
-#: template/explore.html.j2:130 template/explore.html.j2:134
+#: template/explore.html.j2:116 template/explore.html.j2:120
 msgid "Piano roll"
 msgstr ""
 
-#: template/explore.html.j2:139
+#: template/explore.html.j2:125
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 
-#: template/explore.html.j2:148 template/explore.html.j2:161
+#: template/explore.html.j2:134 template/explore.html.j2:147
 msgid "Anywhere-to-anywhere connections"
 msgstr ""
 
-#: template/explore.html.j2:153
+#: template/explore.html.j2:139
 msgid "Connect anything to anything."
 msgstr ""
 
-#: template/explore.html.j2:168
+#: template/explore.html.j2:154
 msgid "Bounce in place"
 msgstr ""
 
-#: template/explore.html.j2:172
+#: template/explore.html.j2:158
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/explore.html.j2:177
+#: template/explore.html.j2:163
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/explore.html.j2:186 template/explore.html.j2:199
+#: template/explore.html.j2:172 template/explore.html.j2:185
 msgid "Automation curves"
 msgstr ""
 
-#: template/explore.html.j2:191
+#: template/explore.html.j2:177
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
-#: template/explore.html.j2:204
+#: template/explore.html.j2:190
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:212
-msgid "unfa livestream: Synthesizing snare drums with Geonkick"
+#: template/explore.html.j2:198
+msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:220
+#: template/explore.html.j2:206
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:228
+#: template/explore.html.j2:214
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"

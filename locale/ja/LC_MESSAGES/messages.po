@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-09 02:38+0000\n"
+"POT-Creation-Date: 2020-12-12 21:02+0000\n"
 "PO-Revision-Date: 2020-09-30 22:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -211,8 +211,9 @@ msgid "Bundled plugins (basic)"
 msgstr "同梱のプラグイン(基本)"
 
 #: template/download.html.j2:148
-msgid "Goes silent after 30 minutes"
-msgstr "30分後に無音になる"
+#| msgid "Goes silent after 30 minutes"
+msgid "Goes silent after 40 minutes"
+msgstr ""
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
@@ -306,92 +307,88 @@ msgstr "機能・レビュー一覧"
 msgid "Demos"
 msgstr "デモ"
 
-#: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:81 template/explore.html.j2:102
-#: template/learn.html.j2:51 template/learn.html.j2:71
-#: template/learn.html.j2:99 template/learn.html.j2:120
-#: template/learn.html.j2:141 template/learn.html.j2:162
-#: template/learn.html.j2:184
+#: template/explore.html.j2:46 template/explore.html.j2:67
+#: template/explore.html.j2:88 template/learn.html.j2:51
+#: template/learn.html.j2:71 template/learn.html.j2:99
+#: template/learn.html.j2:120 template/learn.html.j2:141
+#: template/learn.html.j2:162 template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
 msgstr "お使いのブラウザはHTML5ビデオをサポートしていません"
 
 #: template/explore.html.j2:51
-msgid "Basic demo"
-msgstr "基本デモ"
-
-#: template/explore.html.j2:65
 msgid "Just For Kicks"
 msgstr "Just For Kicks"
 
-#: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/explore.html.j2:112 template/learn.html.j2:59
+#: template/explore.html.j2:56 template/explore.html.j2:77
+#: template/explore.html.j2:98 template/learn.html.j2:59
 #: template/learn.html.j2:81 template/learn.html.j2:109
 #: template/learn.html.j2:130 template/learn.html.j2:151
 #: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
 msgstr "動画 by"
 
-#: template/explore.html.j2:86
-msgid "Zrythm + BJumblr jam"
-msgstr "Zrythm + BJumblrジャム"
-
-#: template/explore.html.j2:107
+#: template/explore.html.j2:72
 msgid "For River (Piano)"
 msgstr ""
 
-#: template/explore.html.j2:122 template/plugins.html.j2:53
+#: template/explore.html.j2:93
+msgid "Geometry"
+msgstr ""
+
+#: template/explore.html.j2:108 template/plugins.html.j2:53
 msgid "Features"
 msgstr "特長"
 
-#: template/explore.html.j2:130 template/explore.html.j2:134
+#: template/explore.html.j2:116 template/explore.html.j2:120
 msgid "Piano roll"
 msgstr "ピアノロール"
 
-#: template/explore.html.j2:139
+#: template/explore.html.j2:125
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr "専用のピアノロールでMIDIイベントを作成、編集、アレンジ。"
 
-#: template/explore.html.j2:148 template/explore.html.j2:161
+#: template/explore.html.j2:134 template/explore.html.j2:147
 msgid "Anywhere-to-anywhere connections"
 msgstr "カスタムなコネクション"
 
-#: template/explore.html.j2:153
+#: template/explore.html.j2:139
 msgid "Connect anything to anything."
 msgstr "どこからどこでもコネクト可能。"
 
-#: template/explore.html.j2:168
+#: template/explore.html.j2:154
 msgid "Bounce in place"
 msgstr "インプレースのバウンシング"
 
-#: template/explore.html.j2:172
+#: template/explore.html.j2:158
 msgid "Bounce in-place"
 msgstr "イン・プレースのバウンシング"
 
-#: template/explore.html.j2:177
+#: template/explore.html.j2:163
 msgid "Quickly bounce selected material to audio."
 msgstr "選択したものを素早くオーディオ化する。"
 
-#: template/explore.html.j2:186 template/explore.html.j2:199
+#: template/explore.html.j2:172 template/explore.html.j2:185
 msgid "Automation curves"
 msgstr "オートメーション・カーブ"
 
-#: template/explore.html.j2:191
+#: template/explore.html.j2:177
 msgid "Automate parameters with straight lines or curves."
 msgstr "直線または曲線でパラメータをオートメート。"
 
-#: template/explore.html.j2:204
+#: template/explore.html.j2:190
 msgid "Reviews"
 msgstr "レビュー"
 
-#: template/explore.html.j2:212
-msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr "unfaのライブストリーム：Geonkickでスネアドラムを合成する"
+#: template/explore.html.j2:198
+#| msgid "unfa livestream: Synthesizing snare drums with Geonkick"
+msgid "unfa livestream: Making a track with Zrythm"
+msgstr ""
 
-#: template/explore.html.j2:220
+#: template/explore.html.j2:206
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Linuxマガジン229/2019号の記事"
 
-#: template/explore.html.j2:228
+#: template/explore.html.j2:214
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -664,6 +661,12 @@ msgstr "商標ポリシー"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythmの商標ポリシー"
+
+#~ msgid "Zrythm + BJumblr jam"
+#~ msgstr "Zrythm + BJumblrジャム"
+
+#~ msgid "Basic demo"
+#~ msgstr "基本デモ"
 
 #~ msgid "Users"
 #~ msgstr "ユーザ"

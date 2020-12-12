@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-09 02:38+0000\n"
+"POT-Creation-Date: 2020-12-12 21:02+0000\n"
 "PO-Revision-Date: 2020-10-08 23:04+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -214,8 +214,9 @@ msgid "Bundled plugins (basic)"
 msgstr "Δέσμη προσθέτων (βασικά)"
 
 #: template/download.html.j2:148
-msgid "Goes silent after 30 minutes"
-msgstr "Μπαίνει σε σίγαση μετά από 30 λεπτά"
+#| msgid "Goes silent after 30 minutes"
+msgid "Goes silent after 40 minutes"
+msgstr ""
 
 #: template/download.html.j2:149
 msgid "Save/load is disabled"
@@ -312,93 +313,89 @@ msgstr "Λίστα χαρακτηριστικών, λειτουργικότητ�
 msgid "Demos"
 msgstr "Demos"
 
-#: template/explore.html.j2:46 template/explore.html.j2:60
-#: template/explore.html.j2:81 template/explore.html.j2:102
-#: template/learn.html.j2:51 template/learn.html.j2:71
-#: template/learn.html.j2:99 template/learn.html.j2:120
-#: template/learn.html.j2:141 template/learn.html.j2:162
-#: template/learn.html.j2:184
+#: template/explore.html.j2:46 template/explore.html.j2:67
+#: template/explore.html.j2:88 template/learn.html.j2:51
+#: template/learn.html.j2:71 template/learn.html.j2:99
+#: template/learn.html.j2:120 template/learn.html.j2:141
+#: template/learn.html.j2:162 template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
 msgstr "Ο περιηγητής σας δεν υποστηρίζει βίντεο HTML5"
 
 #: template/explore.html.j2:51
-msgid "Basic demo"
-msgstr "Βασικό demo"
-
-#: template/explore.html.j2:65
 msgid "Just For Kicks"
 msgstr "Just For Kicks"
 
-#: template/explore.html.j2:70 template/explore.html.j2:91
-#: template/explore.html.j2:112 template/learn.html.j2:59
+#: template/explore.html.j2:56 template/explore.html.j2:77
+#: template/explore.html.j2:98 template/learn.html.j2:59
 #: template/learn.html.j2:81 template/learn.html.j2:109
 #: template/learn.html.j2:130 template/learn.html.j2:151
 #: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
 msgstr "Βίντεο από"
 
-#: template/explore.html.j2:86
-msgid "Zrythm + BJumblr jam"
-msgstr "τζαμάρισμα με Zrythm + BJumblr"
-
-#: template/explore.html.j2:107
+#: template/explore.html.j2:72
 msgid "For River (Piano)"
 msgstr ""
 
-#: template/explore.html.j2:122 template/plugins.html.j2:53
+#: template/explore.html.j2:93
+msgid "Geometry"
+msgstr ""
+
+#: template/explore.html.j2:108 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Χαρακτηριστικά"
 
-#: template/explore.html.j2:130 template/explore.html.j2:134
+#: template/explore.html.j2:116 template/explore.html.j2:120
 msgid "Piano roll"
 msgstr "Ρολό πιάνου"
 
-#: template/explore.html.j2:139
+#: template/explore.html.j2:125
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Δημιουργία, επεξεργασία και διάταξη γεγονότων MIDI σε ειδικό ρολό πιάνου."
 
-#: template/explore.html.j2:148 template/explore.html.j2:161
+#: template/explore.html.j2:134 template/explore.html.j2:147
 msgid "Anywhere-to-anywhere connections"
 msgstr "Συνδέσεις από οπουδήποτε σε οπουδήποτε"
 
-#: template/explore.html.j2:153
+#: template/explore.html.j2:139
 msgid "Connect anything to anything."
 msgstr "Σύνδεση οτιδήποτε σε οτιδήποτε."
 
-#: template/explore.html.j2:168
+#: template/explore.html.j2:154
 msgid "Bounce in place"
 msgstr "Μετατροπή ήχου επί τόπου"
 
-#: template/explore.html.j2:172
+#: template/explore.html.j2:158
 msgid "Bounce in-place"
 msgstr "Μετατροπή ήχου επί τόπου"
 
-#: template/explore.html.j2:177
+#: template/explore.html.j2:163
 msgid "Quickly bounce selected material to audio."
 msgstr "Γρήγορη μετατροπή επιλεγμένου υλικού σε ήχο."
 
-#: template/explore.html.j2:186 template/explore.html.j2:199
+#: template/explore.html.j2:172 template/explore.html.j2:185
 msgid "Automation curves"
 msgstr "Καμπύλες αυτοματισμού"
 
-#: template/explore.html.j2:191
+#: template/explore.html.j2:177
 msgid "Automate parameters with straight lines or curves."
 msgstr "Αυτοματοποιήστε παραμέτρους με ίσιες γραμμές ή με καμπύλες."
 
-#: template/explore.html.j2:204
+#: template/explore.html.j2:190
 msgid "Reviews"
 msgstr "Κριτικές"
 
-#: template/explore.html.j2:212
-msgid "unfa livestream: Synthesizing snare drums with Geonkick"
-msgstr "unfa livestream: Συνθέτοντας ταμπούρα με Geonkick"
+#: template/explore.html.j2:198
+#| msgid "unfa livestream: Synthesizing snare drums with Geonkick"
+msgid "unfa livestream: Making a track with Zrythm"
+msgstr ""
 
-#: template/explore.html.j2:220
+#: template/explore.html.j2:206
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Άρθρο από το τεύχος 229/2019 του Linux Magazine"
 
-#: template/explore.html.j2:228
+#: template/explore.html.j2:214
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -698,6 +695,12 @@ msgstr "Πολιτική εμπορικών σημάτων"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων Zrythm"
+
+#~ msgid "Zrythm + BJumblr jam"
+#~ msgstr "τζαμάρισμα με Zrythm + BJumblr"
+
+#~ msgid "Basic demo"
+#~ msgstr "Βασικό demo"
 
 #~ msgid "Users"
 #~ msgstr "Χρήστες"
