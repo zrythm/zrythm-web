@@ -63,9 +63,10 @@ locale: locale-update locale-compile
 
 # Run the jinja2 templating engine to expand templates to HTML
 # incorporating translations.
-template: locale-compile .credentials
+template: locale-compile .credentials template/styles.scss
 	. ./.credentials && \
-	$(PYTHON) ./template.py
+	$(PYTHON) ./template.py && \
+	sass --sourcemap=none template/styles.scss static/styles.css
 
 it: template
 

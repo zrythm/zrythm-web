@@ -31,3 +31,6 @@ futility_engine_loader.sh
 *.swp
 
 .credentials
+
+# css
+.sass-cache

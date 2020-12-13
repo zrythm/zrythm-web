@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-12 21:02+0000\n"
+"POT-Creation-Date: 2020-12-13 13:56+0000\n"
 "PO-Revision-Date: 2019-05-04 23:29+0000\n"
 "Last-Translator: Arif Sarker\n"
 "Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
@@ -81,6 +81,31 @@ msgstr "合法"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
+msgstr ""
+
+#: common/footer.j2.inc:29
+msgid "Donate using Ethereum"
+msgstr ""
+
+#: common/footer.j2.inc:37
+msgid "Donate using Bitcoin"
+msgstr ""
+
+#: common/footer.j2.inc:45
+msgid "Donate using PayPal"
+msgstr ""
+
+#: common/footer.j2.inc:53
+msgid "Donate using LiberaPay"
+msgstr ""
+
+#: common/footer.j2.inc:60
+#| msgid "The Zrythm contributors"
+msgid "Zrythm on Twitter"
+msgstr ""
+
+#: common/footer.j2.inc:68
+msgid "Zrythm on Mastodon"
 msgstr ""
 
 #: common/header.j2.inc:24
@@ -209,7 +234,6 @@ msgid "Bundled plugins (basic)"
 msgstr "捆绑插件（基本）"
 
 #: template/download.html.j2:148
-#| msgid "Goes silent after 30 minutes"
 msgid "Goes silent after 40 minutes"
 msgstr ""
 
@@ -378,7 +402,6 @@ msgid "Reviews"
 msgstr "评论"
 
 #: template/explore.html.j2:198
-#| msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 

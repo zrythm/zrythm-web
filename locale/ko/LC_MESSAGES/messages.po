@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-12 21:02+0000\n"
+"POT-Creation-Date: 2020-12-13 13:56+0000\n"
 "PO-Revision-Date: 2019-05-09 09:52+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
 "Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
@@ -81,6 +81,30 @@ msgstr ""
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
+msgstr ""
+
+#: common/footer.j2.inc:29
+msgid "Donate using Ethereum"
+msgstr ""
+
+#: common/footer.j2.inc:37
+msgid "Donate using Bitcoin"
+msgstr ""
+
+#: common/footer.j2.inc:45
+msgid "Donate using PayPal"
+msgstr ""
+
+#: common/footer.j2.inc:53
+msgid "Donate using LiberaPay"
+msgstr ""
+
+#: common/footer.j2.inc:60
+msgid "Zrythm on Twitter"
+msgstr ""
+
+#: common/footer.j2.inc:68
+msgid "Zrythm on Mastodon"
 msgstr ""
 
 #: common/header.j2.inc:24

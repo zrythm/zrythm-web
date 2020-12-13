@@ -25,7 +25,10 @@ export PAYPAL_SECRET=...
 `make` will create the full bundle in `rendered`
 
 # Dependencies
-`python-babel` `python-feedparser` `python-polib`
+- python-babel
+- python-feedparser`
+- python-polib
+- sass
 
 ----
 

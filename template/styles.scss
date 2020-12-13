@@ -16,185 +16,211 @@
  * You should have received a copy of the GNU General Affero Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+
 .logo_img {
   vertical-align: middle;
-  width: 28; }
+  width: 28;
+}
 
 .globe {
   /* float doesnt work in older versions of firefox */
   /*float: right;*/
   position: absolute !important;
-  right: 0px; }
+  right: 0px;
+}
 
 .page_title {
-  text-align: center; }
+  text-align: center;
+}
 
 .centered {
-  text-align: center; }
+  text-align: center;
+}
 
 .left {
-  text-align: left; }
+  text-align: left;
+}
 
 .right {
-  text-align: right; }
+  text-align: right;
+}
 
 .screenshot_img {
-  max-width: 78%; }
+  max-width: 78%;
+}
 
 .plugin_screenshot_div {
   max-width: 96%;
   height: 200px;
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .plugin_screenshot_div img {
-  max-height: 200px; }
+  max-height: 200px;
+}
 
 .feature_img {
   /*max-height: 180px;*/
   max-width: 96%;
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+}
 
 .feature_description {
   padding-left: 10px;
   padding-right: 10px;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .features_box {
-  max-width: 78%; }
+  max-width: 78%;
+}
 
 .sponsors_box {
-  padding-bottom: 3%; }
+  padding-bottom: 3%;
+}
 
 .tiny {
   font-size: 0.5em;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 u.dashed {
   border-bottom: 1px dashed #999;
-  text-decoration: none; }
+  text-decoration: none;
+}
+
+@mixin footer_btn($property) {
+  vertical-align: middle;
+  float: right;
+  height: 24px !important;
+  margin-left: $property;
+  transition: all 0.3s;
+  position: relative;
+  top: 6px;
+}
 
 .footer_btn1 {
-  vertical-align: middle;
-  float: right;
-  height: 24px !important;
-  margin-left: 1px;
-  transition: all 0.3s;
-  position: relative;
-  top: 6px; }
+  @include footer_btn(1px);
+}
 
 .footer_btn2 {
-  vertical-align: middle;
-  float: right;
-  height: 24px !important;
-  margin-left: 2px;
-  transition: all 0.3s;
-  position: relative;
-  top: 6px; }
+  @include footer_btn(2px);
+}
 
 .footer_btn4 {
-  vertical-align: middle;
-  float: right;
-  height: 24px !important;
-  margin-left: 4px;
-  transition: all 0.3s;
-  position: relative;
-  top: 6px; }
+  @include footer_btn(4px);
+}
 
 .footer_btn6 {
-  vertical-align: middle;
-  float: right;
-  height: 24px !important;
-  margin-left: 6px;
-  transition: all 0.3s;
-  position: relative;
-  top: 6px; }
+  @include footer_btn(6px);
+}
 
 .footer_btn:hover {
-  filter: brightness(70%); }
+  filter: brightness(70%);
+}
 
 .footer_container {
   /*max-width: 98%;*/
-  max-width: 70%; }
+  max-width: 70%;
+}
 
 .no_css_form {
   background: unset !important;
   border: unset !important;
-  padding: unset !important; }
+  padding: unset !important;
+}
 
 .video {
   display: block;
   margin: 0 auto;
-  width: 92%; }
+  width: 92%;
+}
 
 .video_caption {
   text-align: center;
-  margin-top: 6px; }
+  margin-top: 6px;
+}
 
 .income_progress {
-  width: 30% !important; }
+  width: 30% !important;
+}
 
 .button_group {
   margin: auto;
-  text-align: center; }
+  text-align: center;
+}
 
 tbody {
-  border-width: 0px !important; }
+  border-width: 0px !important;
+}
 
 table caption {
-  flex: inherit; }
+  flex: inherit;
+}
 
 table {
-  max-height: 100% !important; }
+  max-height: 100% !important;
+}
 
 table td {
   padding: 2px !important;
   border-top: 0px !important;
-  flex: initial !important; }
+  flex: initial !important;
+}
 
 a:link:not(.button) {
   /*color: #0277bd;*/
-  color: #2297dd; }
+  color: #2297dd;
+}
 
 a:visited:not(.button) {
   /*color: #01579b;*/
   /*color: #2177bb;*/
-  color: #2297dd; }
+  color: #2297dd;
+}
 
 a:hover:not(.button) {
-  /*color: #32a7ed;*/ }
+  /*color: #32a7ed;*/
+}
 
 .tooltip_shifted::after {
-  transform: translateX(-35%); }
+  transform: translateX(-35%);
+}
 
 .first_col {
-  width: 180px; }
+  width: 180px;
+}
 
 .second_col {
-  /*width: 70%;*/ }
+  /*width: 70%;*/
+}
 
 /* banner */
 div#banner {
-  position: absolute;
-  top: 3.1875rem;
-  left: 0;
-  background-color: #b47801;
-  width: 100%; }
-
+ position: absolute;
+ top: 3.1875rem;
+ left: 0;
+ background-color: rgb(180, 120, 1.0);
+ width: 100%;
+}
 div#banner-content {
-  width: 900px;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+ width: 900px;
+ margin: 0 auto;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
 
 .centered {
-  text-align: center; }
+  text-align: center;
+}
 
-/*Uncomment for banner */
+ /*Uncomment for banner */
 /*div#body_content {*/
-/*padding-top: 3.1875rem;*/
+ /*padding-top: 3.1875rem;*/
 /*}*/
+
 /* Snow effect. see
  * https://designshack.net/articles/css/make-it-snow-on-your-website-with-css-keyframe-animations/ */
 /*

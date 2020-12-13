@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-12 21:02+0000\n"
+"POT-Creation-Date: 2020-12-13 13:56+0000\n"
 "PO-Revision-Date: 2020-10-13 10:36+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -84,6 +84,31 @@ msgstr "Déclaration légale"
 #: common/footer.j2.inc:23
 msgid "Privacy"
 msgstr "Vie privée"
+
+#: common/footer.j2.inc:29
+msgid "Donate using Ethereum"
+msgstr ""
+
+#: common/footer.j2.inc:37
+msgid "Donate using Bitcoin"
+msgstr ""
+
+#: common/footer.j2.inc:45
+msgid "Donate using PayPal"
+msgstr ""
+
+#: common/footer.j2.inc:53
+msgid "Donate using LiberaPay"
+msgstr ""
+
+#: common/footer.j2.inc:60
+#| msgid "The Zrythm contributors"
+msgid "Zrythm on Twitter"
+msgstr ""
+
+#: common/footer.j2.inc:68
+msgid "Zrythm on Mastodon"
+msgstr ""
 
 #: common/header.j2.inc:24
 msgid ""
@@ -215,7 +240,6 @@ msgid "Bundled plugins (basic)"
 msgstr "Greffons embarqués (de base)"
 
 #: template/download.html.j2:148
-#| msgid "Goes silent after 30 minutes"
 msgid "Goes silent after 40 minutes"
 msgstr ""
 
@@ -389,7 +413,6 @@ msgid "Reviews"
 msgstr "Avis"
 
 #: template/explore.html.j2:198
-#| msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 

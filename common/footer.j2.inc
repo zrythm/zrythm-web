@@ -25,27 +25,50 @@ GNU Affero General Public License for more details.
       </div>
       <div class="col-sm-4">
         <right>
-          <a href="https://paypal.me/zrythm">
+          <a rel="payment"
+             title="{{ _('Donate using Ethereum') }}"
+             href="ethereum:0x5f63960fdad91c3603825756cbfa645089b25f78">
             <img
-               class="footer_btn"
+               class="footer_btn1"
+               alt="Donate using Ethereum"
+               src="{{ url('dist/fork-awesome/ethereum.svg') }}">
+          </a>
+          <a rel="payment"
+             title="{{ _('Donate using Bitcoin') }}"
+             href="bitcoin:18x1qZvtzQzUY1TrDiRWFAvavS74o2ddfU?message=Zrythm donation">
+            <img
+               class="footer_btn2"
+               alt="Donate using Bitcoin"
+               src="{{ url('dist/fork-awesome/btc.svg') }}">
+          </a>
+          <a rel="payment"
+             title="{{ _('Donate using PayPal') }}"
+             href="https://paypal.me/zrythm">
+            <img
+               class="footer_btn6"
                alt="Donate using PayPal"
                src="{{ url('dist/fork-awesome/paypal.svg') }}">
           </a>
-          <a href="https://liberapay.com/Zrythm">
+          <a rel="payment"
+             title="{{ _('Donate using LiberaPay') }}"
+             href="https://liberapay.com/Zrythm">
             <img
-               class="footer_btn"
-               alt="Donate using Liberapay"
+               class="footer_btn6"
+               alt="Donate using LiberaPay"
                src="{{ url('dist/fork-awesome/liberapay.svg') }}">
           </a>
-          <a href="https://twitter.com/zrythmdaw">
+          <a title="{{ _('Zrythm on Twitter') }}"
+             href="https://twitter.com/zrythmdaw">
             <img
-               class="footer_btn"
+               class="footer_btn6"
                alt="Zrythm on Twitter"
                src="{{ url('dist/fork-awesome/twitter.svg') }}">
           </a>
-          <a rel="me" href="https://mastodon.social/@zrythm">
+          <a rel="me"
+             title="{{ _('Zrythm on Mastodon') }}"
+             href="https://mastodon.social/@zrythm">
             <img
-               class="footer_btn"
+               class="footer_btn6"
                alt="Zrythm on Mastodon"
                src="{{ url('dist/fork-awesome/mastodon.svg') }}">
           </a>

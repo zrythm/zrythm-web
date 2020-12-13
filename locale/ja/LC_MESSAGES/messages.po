@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-12 21:02+0000\n"
+"POT-Creation-Date: 2020-12-13 13:56+0000\n"
 "PO-Revision-Date: 2020-09-30 22:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -83,6 +83,31 @@ msgstr "法的事項"
 #: common/footer.j2.inc:23
 msgid "Privacy"
 msgstr "プライバシー"
+
+#: common/footer.j2.inc:29
+msgid "Donate using Ethereum"
+msgstr ""
+
+#: common/footer.j2.inc:37
+msgid "Donate using Bitcoin"
+msgstr ""
+
+#: common/footer.j2.inc:45
+msgid "Donate using PayPal"
+msgstr ""
+
+#: common/footer.j2.inc:53
+msgid "Donate using LiberaPay"
+msgstr ""
+
+#: common/footer.j2.inc:60
+#| msgid "The Zrythm contributors"
+msgid "Zrythm on Twitter"
+msgstr ""
+
+#: common/footer.j2.inc:68
+msgid "Zrythm on Mastodon"
+msgstr ""
 
 #: common/header.j2.inc:24
 msgid ""
@@ -211,7 +236,6 @@ msgid "Bundled plugins (basic)"
 msgstr "同梱のプラグイン(基本)"
 
 #: template/download.html.j2:148
-#| msgid "Goes silent after 30 minutes"
 msgid "Goes silent after 40 minutes"
 msgstr ""
 
@@ -380,7 +404,6 @@ msgid "Reviews"
 msgstr "レビュー"
 
 #: template/explore.html.j2:198
-#| msgid "unfa livestream: Synthesizing snare drums with Geonkick"
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
