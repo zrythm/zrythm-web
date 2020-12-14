@@ -25,22 +25,56 @@ GNU Affero General Public License for more details.
       </div>
       <div class="col-sm-4">
         <right>
-          <a rel="payment"
-             title="{{ _('Donate using Ethereum') }}"
-             href="ethereum:0x5f63960fdad91c3603825756cbfa645089b25f78">
+         <label for="donate-ethereum"
+                class="crypto_donation_label"
+                title="{{ _('Donate using Ethereum') }}">
             <img
                class="footer_btn1"
                alt="Donate using Ethereum"
                src="{{ url('dist/fork-awesome/ethereum.svg') }}">
-          </a>
-          <a rel="payment"
-             title="{{ _('Donate using Bitcoin') }}"
-             href="bitcoin:18x1qZvtzQzUY1TrDiRWFAvavS74o2ddfU?message=Zrythm donation">
+          </label>
+          <input type="checkbox" id="donate-ethereum" class="modal">
+          <div>
+            <div class="card fluid centered">
+              <label for="donate-ethereum" class="modal-close" ></label>
+              <h3 class="section">{{ _('Donate Ethereum (ETH)') }}</h3>
+              <p>
+                <img src="{{ url('static/images/ethereum_qr.svg') }}">
+                <br>
+                ERC20 address: 0x5f63960fdad91c3603825756cbfa645089b25f78
+                <br>
+                <a rel="payment"
+                   href="ethereum:0x5f63960fdad91c3603825756cbfa645089b25f78">
+                  ERC-67 URI
+                </a>
+              </p>
+            </div>
+          </div>
+         <label for="donate-bitcoin"
+                class="crypto_donation_label"
+                title="{{ _('Donate using Bitcoin') }}">
             <img
-               class="footer_btn2"
+               class="footer_btn1"
                alt="Donate using Bitcoin"
                src="{{ url('dist/fork-awesome/btc.svg') }}">
-          </a>
+          </label>
+          <input type="checkbox" id="donate-bitcoin" class="modal">
+          <div>
+            <div class="card fluid centered">
+              <label for="donate-bitcoin" class="modal-close" ></label>
+              <h3 class="section">{{ _('Donate Bitcoin (BTC)') }}</h3>
+              <p>
+                <img src="{{ url('static/images/bitcoin_qr.svg') }}">
+                <br>
+                BTC address: 18x1qZvtzQzUY1TrDiRWFAvavS74o2ddfU
+                <br>
+                <a rel="payment"
+                   href="bitcoin:18x1qZvtzQzUY1TrDiRWFAvavS74o2ddfU?message=Zrythm donation">
+                  BIP-21 URI
+                </a>
+              </p>
+            </div>
+          </div>
           <a rel="payment"
              title="{{ _('Donate using PayPal') }}"
              href="https://paypal.me/zrythm">

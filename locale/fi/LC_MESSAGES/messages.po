@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-13 13:56+0000\n"
+"POT-Creation-Date: 2020-12-14 21:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -81,27 +81,35 @@ msgstr ""
 msgid "Privacy"
 msgstr ""
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:30
 msgid "Donate using Ethereum"
 msgstr ""
 
-#: common/footer.j2.inc:37
+#: common/footer.j2.inc:40
+msgid "Donate Ethereum (ETH)"
+msgstr ""
+
+#: common/footer.j2.inc:55
 msgid "Donate using Bitcoin"
 msgstr ""
 
-#: common/footer.j2.inc:45
+#: common/footer.j2.inc:65
+msgid "Donate Bitcoin (BTC)"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Donate using PayPal"
 msgstr ""
 
-#: common/footer.j2.inc:53
+#: common/footer.j2.inc:87
 msgid "Donate using LiberaPay"
 msgstr ""
 
-#: common/footer.j2.inc:60
+#: common/footer.j2.inc:94
 msgid "Zrythm on Twitter"
 msgstr ""
 
-#: common/footer.j2.inc:68
+#: common/footer.j2.inc:102
 msgid "Zrythm on Mastodon"
 msgstr ""
 
