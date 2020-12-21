@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-14 21:05+0000\n"
+"POT-Creation-Date: 2020-12-21 20:11+0000\n"
 "PO-Revision-Date: 2020-09-30 22:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -593,14 +593,26 @@ msgid "Looping regions"
 msgstr "リージョンをループする"
 
 #: template/learn.html.j2:204
+msgid "Other"
+msgstr ""
+
+#: template/learn.html.j2:215
+msgid "French"
+msgstr ""
+
+#: template/learn.html.j2:218
+msgid "Playlist by"
+msgstr ""
+
+#: template/learn.html.j2:229
 msgid "Documentation"
 msgstr "ドキュメント"
 
-#: template/learn.html.j2:211
+#: template/learn.html.j2:236
 msgid "User Manual"
 msgstr "マニュアル"
 
-#: template/learn.html.j2:214
+#: template/learn.html.j2:239
 msgid "Developer Reference"
 msgstr "開発者向けリファレンス"
 

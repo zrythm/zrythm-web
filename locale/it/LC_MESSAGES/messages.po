@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-14 21:05+0000\n"
+"POT-Creation-Date: 2020-12-21 20:11+0000\n"
 "PO-Revision-Date: 2020-09-06 14:36+0000\n"
 "Last-Translator: Roberto Albano De Rosa <robertoaldm@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -598,14 +598,26 @@ msgid "Looping regions"
 msgstr ""
 
 #: template/learn.html.j2:204
+msgid "Other"
+msgstr ""
+
+#: template/learn.html.j2:215
+msgid "French"
+msgstr ""
+
+#: template/learn.html.j2:218
+msgid "Playlist by"
+msgstr ""
+
+#: template/learn.html.j2:229
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: template/learn.html.j2:211
+#: template/learn.html.j2:236
 msgid "User Manual"
 msgstr "Manuale utente"
 
-#: template/learn.html.j2:214
+#: template/learn.html.j2:239
 msgid "Developer Reference"
 msgstr ""
 

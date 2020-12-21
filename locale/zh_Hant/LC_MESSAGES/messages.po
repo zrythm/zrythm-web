@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-14 21:05+0000\n"
+"POT-Creation-Date: 2020-12-21 20:11+0000\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -591,14 +591,26 @@ msgid "Looping regions"
 msgstr "片段循環"
 
 #: template/learn.html.j2:204
+msgid "Other"
+msgstr ""
+
+#: template/learn.html.j2:215
+msgid "French"
+msgstr ""
+
+#: template/learn.html.j2:218
+msgid "Playlist by"
+msgstr ""
+
+#: template/learn.html.j2:229
 msgid "Documentation"
 msgstr "文件"
 
-#: template/learn.html.j2:211
+#: template/learn.html.j2:236
 msgid "User Manual"
 msgstr "使用者手冊"
 
-#: template/learn.html.j2:214
+#: template/learn.html.j2:239
 msgid "Developer Reference"
 msgstr "開發者指南"
 
