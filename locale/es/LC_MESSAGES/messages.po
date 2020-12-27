@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-21 20:11+0000\n"
+"POT-Creation-Date: 2020-12-27 20:18+0000\n"
 "PO-Revision-Date: 2020-09-26 11:50+0000\n"
 "Last-Translator: Marc <marc.izquierdo.hu@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:391
+#: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea los acordes de una escala mayor o menor a las teclas blancas"
 
-#: template.py:392
+#: template.py:406
 msgid "Major or minor scale"
 msgstr "Escala mayor o menor"
 
-#: template.py:393
+#: template.py:407
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidad por nota"
 
-#: template.py:397
+#: template.py:411
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO es un LFO completo para automatizaciones basadas en CV"
 
-#: template.py:398
+#: template.py:412
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi oscilador con onda personalizada"
 
-#: template.py:399
+#: template.py:413
 msgid "Phase shift"
 msgstr "Desplazamiento de fase"
 
-#: template.py:400
+#: template.py:414
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:401
+#: template.py:415
 msgid "Step mode"
 msgstr ""
 
-#: template.py:402
+#: template.py:416
 msgid "Editable range"
 msgstr ""
 
-#: template.py:403
+#: template.py:417
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:406
+#: template.py:420
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:407
+#: template.py:421
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:408
+#: template.py:422
 msgid "Single knob to control detune"
 msgstr ""
 

@@ -113,6 +113,7 @@ copr_package_url = 'https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/pac
 freshports_url = 'https://www.freshports.org/audio/zrythm/'
 
 usd_to_gbp = 0.77
+eur_to_gbp = 0.92
 
 prev_month_earning = 100
 
@@ -179,11 +180,24 @@ if r.status_code == 200:
         for _tx in r.json()['transaction_details']:
             tx = _tx['transaction_info']
             if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
-                amount = float(tx['transaction_amount']['value']) + float(tx['fee_amount']['value'])
+                amount = float(tx['transaction_amount']['value'])
+                if 'fee_amound' in tx:
+                    amount += float(tx['fee_amount']['value'])
                 if tx['transaction_amount']['currency_code'] == 'USD':
                     amount *= usd_to_gbp
                 if amount > 0:
-                    print ('adding {} paypal earnings'.format(amount))
+                    print ('adding {} paypal subscription earnings'.format(amount))
+                    monthly_earning += amount
+            elif 'invoice_id' not in tx and tx['transaction_event_code'] == 'T0000':
+                amount = float(tx['transaction_amount']['value'])
+                if 'fee_amound' in tx:
+                    amount += float(tx['fee_amount']['value'])
+                if tx['transaction_amount']['currency_code'] == 'USD':
+                    amount *= usd_to_gbp
+                elif tx['transaction_amount']['currency_code'] == 'EUR':
+                    amount *= eur_to_gbp
+                if amount > 0:
+                    print ('adding {} paypal custom donation earnings'.format(amount))
                     monthly_earning += amount
     else:
         print (r.json())
