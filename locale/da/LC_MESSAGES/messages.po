@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-12-30 23:03+0000\n"
+"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/zrythm/web/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: template.py:390
@@ -23,7 +25,7 @@ msgstr ""
 
 #: template.py:391
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Dur eller mol skala"
 
 #: template.py:392
 msgid "Velocity multiplier per note"
@@ -123,7 +125,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:81
 msgid "Language"
-msgstr ""
+msgstr "Sprog"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -147,7 +149,7 @@ msgstr ""
 
 #: template/community.html.j2:66
 msgid "Project"
-msgstr ""
+msgstr "Projekt"
 
 #: template/community.html.j2:73
 msgid "Issue tracker"
