@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-12-27 20:18+0000\n"
-"PO-Revision-Date: 2020-10-08 23:04+0000\n"
+"PO-Revision-Date: 2020-12-09 23:01+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -366,7 +366,7 @@ msgstr "Βίντεο από"
 
 #: template/explore.html.j2:72
 msgid "For River (Piano)"
-msgstr ""
+msgstr "Για το River (πιάνο)"
 
 #: template/explore.html.j2:93
 msgid "Geometry"
@@ -588,7 +588,7 @@ msgstr "Διδακτικό υλικό"
 
 #: template/learn.html.j2:42
 msgid "General"
-msgstr ""
+msgstr "Γενικά"
 
 #: template/learn.html.j2:76
 msgid "Routing"
@@ -596,23 +596,23 @@ msgstr "Δρομολόγηση"
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "Εργαλείο επιλογής/τεντώματος"
 
 #: template/learn.html.j2:125
 msgid "Edit Tool"
-msgstr ""
+msgstr "Εργαλείο επεξεργασίας"
 
 #: template/learn.html.j2:146
 msgid "Cut Tool"
-msgstr ""
+msgstr "Εργαλείο αποκοπής"
 
 #: template/learn.html.j2:167
 msgid "Ramp Tool"
-msgstr ""
+msgstr "Εργαλείο ράμπας"
 
 #: template/learn.html.j2:189
 msgid "Looping regions"
