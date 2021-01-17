@@ -29,7 +29,7 @@ GNU Affero General Public License for more details.
                 class="crypto_donation_label"
                 title="{{ _('Donate using Ethereum') }}">
             <img
-               class="footer_btn1"
+               class="footer_btn2"
                alt="Donate using Ethereum"
                src="{{ url('dist/fork-awesome/ethereum.svg') }}">
           </label>
@@ -54,7 +54,7 @@ GNU Affero General Public License for more details.
                 class="crypto_donation_label"
                 title="{{ _('Donate using Bitcoin') }}">
             <img
-               class="footer_btn1"
+               class="footer_btn2"
                alt="Donate using Bitcoin"
                src="{{ url('dist/fork-awesome/btc.svg') }}">
           </label>
@@ -90,13 +90,6 @@ GNU Affero General Public License for more details.
                class="footer_btn6"
                alt="Donate using LiberaPay"
                src="{{ url('dist/fork-awesome/liberapay.svg') }}">
-          </a>
-          <a title="{{ _('Zrythm on Twitter') }}"
-             href="https://twitter.com/zrythmdaw">
-            <img
-               class="footer_btn6"
-               alt="Zrythm on Twitter"
-               src="{{ url('dist/fork-awesome/twitter.svg') }}">
           </a>
           <a rel="me"
              title="{{ _('Zrythm on Mastodon') }}"

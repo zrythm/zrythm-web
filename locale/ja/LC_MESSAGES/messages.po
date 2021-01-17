@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-27 20:18+0000\n"
+"POT-Creation-Date: 2021-01-17 00:42+0000\n"
 "PO-Revision-Date: 2020-09-30 22:58+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -108,11 +108,7 @@ msgstr ""
 msgid "Donate using LiberaPay"
 msgstr ""
 
-#: common/footer.j2.inc:94
-msgid "Zrythm on Twitter"
-msgstr ""
-
-#: common/footer.j2.inc:102
+#: common/footer.j2.inc:95
 msgid "Zrythm on Mastodon"
 msgstr ""
 
