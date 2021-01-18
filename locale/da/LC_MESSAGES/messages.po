@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-17 00:42+0000\n"
+"POT-Creation-Date: 2021-01-18 12:26+0000\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/zrythm/web/da/>\n"
@@ -211,113 +211,113 @@ msgstr ""
 msgid "GPG Key"
 msgstr ""
 
-#: template/download.html.j2:126
+#: template/download.html.j2:56
 msgid "Installer"
 msgstr ""
 
-#: template/download.html.j2:133
+#: template/download.html.j2:63
 msgid "trial"
 msgstr ""
 
-#: template/download.html.j2:137
+#: template/download.html.j2:67
 msgid "alpha/beta"
 msgstr ""
 
-#: template/download.html.j2:138
+#: template/download.html.j2:68
 msgid "full"
 msgstr ""
 
-#: template/download.html.j2:141
+#: template/download.html.j2:71
 msgid "subscription"
 msgstr ""
 
-#: template/download.html.j2:147
+#: template/download.html.j2:77
 msgid "Bundled plugins (basic)"
 msgstr ""
 
-#: template/download.html.j2:148
+#: template/download.html.j2:78
 msgid "Goes silent after 40 minutes"
 msgstr ""
 
-#: template/download.html.j2:149
+#: template/download.html.j2:79
 msgid "Save/load is disabled"
 msgstr ""
 
-#: template/download.html.j2:150
+#: template/download.html.j2:80
 msgid "<b>£0</b>"
 msgstr ""
 
-#: template/download.html.j2:155
+#: template/download.html.j2:85
 msgid "Compiled with all features"
 msgstr ""
 
-#: template/download.html.j2:156
+#: template/download.html.j2:86
 msgid "Bundled plugins (all)"
 msgstr ""
 
-#: template/download.html.j2:157
+#: template/download.html.j2:87
 msgid "PDF user manual"
 msgstr ""
 
-#: template/download.html.j2:158
+#: template/download.html.j2:88
 msgid "<b>£5</b> single version"
 msgstr ""
 
-#: template/download.html.j2:159
+#: template/download.html.j2:89
 msgid "<b>+£10</b> beta bundle"
 msgstr ""
 
-#: template/download.html.j2:164
+#: template/download.html.j2:94
 msgid "Full version"
 msgstr ""
 
-#: template/download.html.j2:165
+#: template/download.html.j2:95
 msgid "Upgrades to new releases"
 msgstr ""
 
-#: template/download.html.j2:166
+#: template/download.html.j2:96
 msgid "Access to nightly builds"
 msgstr ""
 
-#: template/download.html.j2:167
+#: template/download.html.j2:97
 msgid "<b>£5/month</b>"
 msgstr ""
 
-#: template/download.html.j2:175
+#: template/download.html.j2:105
 msgid "Try Now"
 msgstr ""
 
-#: template/download.html.j2:182
+#: template/download.html.j2:112
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
 
-#: template/download.html.j2:185
+#: template/download.html.j2:115
 msgid "GNU/Linux"
 msgstr ""
 
-#: template/download.html.j2:186
+#: template/download.html.j2:116
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:197
+#: template/download.html.j2:127
 msgid "Buy Now"
 msgstr ""
 
-#: template/download.html.j2:204
+#: template/download.html.j2:134
 msgid "Subscribe"
 msgstr ""
 
-#: template/download.html.j2:211
+#: template/download.html.j2:141
 msgid "Support Zrythm by purchasing an installer."
 msgstr ""
 
-#: template/download.html.j2:212
+#: template/download.html.j2:142
 msgid "This month we received £{amount}."
 msgstr ""
 
-#: template/download.html.j2:214
+#: template/download.html.j2:144
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -400,18 +400,38 @@ msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
 #: template/explore.html.j2:190
+msgid "Screenshots"
+msgstr ""
+
+#: template/explore.html.j2:198 template/explore.html.j2:215
+msgid "Screenshot"
+msgstr ""
+
+#: template/explore.html.j2:200
+msgid "Mixing"
+msgstr ""
+
+#: template/explore.html.j2:205 template/explore.html.j2:222
+msgid "Screenshot by"
+msgstr ""
+
+#: template/explore.html.j2:217
+msgid "Audio Editor"
+msgstr ""
+
+#: template/explore.html.j2:232
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:198
+#: template/explore.html.j2:240
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:206
+#: template/explore.html.j2:248
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:214
+#: template/explore.html.j2:256
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"

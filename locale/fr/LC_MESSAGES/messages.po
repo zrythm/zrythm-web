@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-17 00:42+0000\n"
+"POT-Creation-Date: 2021-01-18 12:26+0000\n"
 "PO-Revision-Date: 2020-10-13 10:36+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -218,83 +218,83 @@ msgstr "Sorties"
 msgid "GPG Key"
 msgstr "Clé GPG"
 
-#: template/download.html.j2:126
+#: template/download.html.j2:56
 msgid "Installer"
 msgstr "Installateur"
 
-#: template/download.html.j2:133
+#: template/download.html.j2:63
 msgid "trial"
 msgstr "essai"
 
-#: template/download.html.j2:137
+#: template/download.html.j2:67
 msgid "alpha/beta"
 msgstr "alpha/bêta"
 
-#: template/download.html.j2:138
+#: template/download.html.j2:68
 msgid "full"
 msgstr "total"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:71
 msgid "subscription"
 msgstr "souscription"
 
-#: template/download.html.j2:147
+#: template/download.html.j2:77
 msgid "Bundled plugins (basic)"
 msgstr "Greffons embarqués (de base)"
 
-#: template/download.html.j2:148
+#: template/download.html.j2:78
 msgid "Goes silent after 40 minutes"
 msgstr ""
 
-#: template/download.html.j2:149
+#: template/download.html.j2:79
 msgid "Save/load is disabled"
 msgstr "Sauvegarde/Chargement sont désactivés"
 
-#: template/download.html.j2:150
+#: template/download.html.j2:80
 msgid "<b>£0</b>"
 msgstr "<b>0£</b>"
 
-#: template/download.html.j2:155
+#: template/download.html.j2:85
 msgid "Compiled with all features"
 msgstr "Compilé avec toutes les fonctionnalités"
 
-#: template/download.html.j2:156
+#: template/download.html.j2:86
 msgid "Bundled plugins (all)"
 msgstr "Greffons embarqués (tous)"
 
-#: template/download.html.j2:157
+#: template/download.html.j2:87
 msgid "PDF user manual"
 msgstr "Manuel utilisateur PDF"
 
-#: template/download.html.j2:158
+#: template/download.html.j2:88
 msgid "<b>£5</b> single version"
 msgstr "version simple à <b>£5</b>"
 
-#: template/download.html.j2:159
+#: template/download.html.j2:89
 msgid "<b>+£10</b> beta bundle"
 msgstr "Pack bêta à <b>+£10</b>"
 
-#: template/download.html.j2:164
+#: template/download.html.j2:94
 msgid "Full version"
 msgstr "Version complète"
 
-#: template/download.html.j2:165
+#: template/download.html.j2:95
 msgid "Upgrades to new releases"
 msgstr "Mises à jours vers nouvelles sorties"
 
-#: template/download.html.j2:166
+#: template/download.html.j2:96
 msgid "Access to nightly builds"
 msgstr "Accès aux versions \"Nighly\""
 
-#: template/download.html.j2:167
+#: template/download.html.j2:97
 msgid "<b>£5/month</b>"
 msgstr "<b>5£/mois</b>"
 
-#: template/download.html.j2:175
+#: template/download.html.j2:105
 msgid "Try Now"
 msgstr "Essayez maintenant"
 
-#: template/download.html.j2:182
+#: template/download.html.j2:112
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
@@ -302,31 +302,31 @@ msgstr ""
 "Ceci est une version d'essai comportant certaines fonctions limitées. "
 "Veuillez SVP choisir votre système d'exploitation."
 
-#: template/download.html.j2:185
+#: template/download.html.j2:115
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/download.html.j2:186
+#: template/download.html.j2:116
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:197
+#: template/download.html.j2:127
 msgid "Buy Now"
 msgstr "Acheter maintenant"
 
-#: template/download.html.j2:204
+#: template/download.html.j2:134
 msgid "Subscribe"
 msgstr "S'abonner"
 
-#: template/download.html.j2:211
+#: template/download.html.j2:141
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Soutenir Zrythm en achetant un installateur."
 
-#: template/download.html.j2:212
+#: template/download.html.j2:142
 msgid "This month we received £{amount}."
 msgstr "Ce mois-ci nous avons reçu {amount}£."
 
-#: template/download.html.j2:214
+#: template/download.html.j2:144
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -412,18 +412,41 @@ msgid "Automate parameters with straight lines or curves."
 msgstr "Automatisez les paramètres avec des lignes droites ou des courbes."
 
 #: template/explore.html.j2:190
+#| msgid "{} screenshot"
+msgid "Screenshots"
+msgstr ""
+
+#: template/explore.html.j2:198 template/explore.html.j2:215
+#| msgid "{} screenshot"
+msgid "Screenshot"
+msgstr ""
+
+#: template/explore.html.j2:200
+msgid "Mixing"
+msgstr ""
+
+#: template/explore.html.j2:205 template/explore.html.j2:222
+#| msgid "{} screenshot"
+msgid "Screenshot by"
+msgstr ""
+
+#: template/explore.html.j2:217
+msgid "Audio Editor"
+msgstr ""
+
+#: template/explore.html.j2:232
 msgid "Reviews"
 msgstr "Avis"
 
-#: template/explore.html.j2:198
+#: template/explore.html.j2:240
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:206
+#: template/explore.html.j2:248
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Article du numéro 229/2019 de Linux Magazine"
 
-#: template/explore.html.j2:214
+#: template/explore.html.j2:256
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
