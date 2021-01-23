@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-23 16:54+0000\n"
+"POT-Creation-Date: 2021-01-23 17:11+0000\n"
 "PO-Revision-Date: 2020-09-24 03:54+0100\n"
 "Last-Translator: Alex <alex@zrythm.org>\n"
 "Language-Team: Afrikaans <i18n@af.org.za>\n"
@@ -343,107 +343,95 @@ msgstr ""
 msgid "Demos"
 msgstr ""
 
-#: template/explore.html.j2:46 template/explore.html.j2:67
-#: template/explore.html.j2:88 template/learn.html.j2:51
+#: template/explore.html.j2:46 template/explore.html.j2:65
+#: template/explore.html.j2:84 template/learn.html.j2:51
 #: template/learn.html.j2:71 template/learn.html.j2:99
 #: template/learn.html.j2:120 template/learn.html.j2:141
 #: template/learn.html.j2:162 template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
 msgstr ""
 
-#: template/explore.html.j2:51
-msgid "Just For Kicks"
-msgstr ""
-
-#: template/explore.html.j2:56 template/explore.html.j2:77
-#: template/explore.html.j2:98 template/learn.html.j2:59
+#: template/explore.html.j2:54 template/explore.html.j2:73
+#: template/explore.html.j2:92 template/learn.html.j2:59
 #: template/learn.html.j2:81 template/learn.html.j2:109
 #: template/learn.html.j2:130 template/learn.html.j2:151
 #: template/learn.html.j2:172 template/learn.html.j2:194
 msgid "Video by"
 msgstr ""
 
-#: template/explore.html.j2:72
-msgid "For River (Piano)"
-msgstr ""
-
-#: template/explore.html.j2:93
-msgid "Geometry"
-msgstr ""
-
-#: template/explore.html.j2:108 template/plugins.html.j2:53
+#: template/explore.html.j2:102 template/plugins.html.j2:53
 msgid "Features"
 msgstr ""
 
-#: template/explore.html.j2:116 template/explore.html.j2:120
+#: template/explore.html.j2:110 template/explore.html.j2:114
 msgid "Piano roll"
 msgstr ""
 
-#: template/explore.html.j2:125
+#: template/explore.html.j2:119
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 
-#: template/explore.html.j2:134 template/explore.html.j2:147
+#: template/explore.html.j2:128 template/explore.html.j2:141
 msgid "Anywhere-to-anywhere connections"
 msgstr ""
 
-#: template/explore.html.j2:139
+#: template/explore.html.j2:133
 msgid "Connect anything to anything."
 msgstr ""
 
-#: template/explore.html.j2:154
+#: template/explore.html.j2:148
 msgid "Bounce in place"
 msgstr ""
 
-#: template/explore.html.j2:158
+#: template/explore.html.j2:152
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/explore.html.j2:163
+#: template/explore.html.j2:157
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/explore.html.j2:172 template/explore.html.j2:185
+#: template/explore.html.j2:166 template/explore.html.j2:179
 msgid "Automation curves"
 msgstr ""
 
-#: template/explore.html.j2:177
+#: template/explore.html.j2:171
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
-#: template/explore.html.j2:190
+#: template/explore.html.j2:184
 msgid "Screenshots"
 msgstr ""
 
-#: template/explore.html.j2:198 template/explore.html.j2:215
+#: template/explore.html.j2:192 template/explore.html.j2:209
 msgid "Screenshot"
 msgstr ""
 
-#: template/explore.html.j2:200
+#: template/explore.html.j2:194
 msgid "Mixing"
 msgstr ""
 
-#: template/explore.html.j2:205 template/explore.html.j2:222
+#: template/explore.html.j2:199 template/explore.html.j2:216
 msgid "Screenshot by"
 msgstr ""
 
-#: template/explore.html.j2:217
+#: template/explore.html.j2:211
 msgid "Audio Editor"
 msgstr ""
 
-#: template/explore.html.j2:232
+#: template/explore.html.j2:226
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:240
+#: template/explore.html.j2:234
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:248
+#: template/explore.html.j2:242
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:256
+#: template/explore.html.j2:250
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
