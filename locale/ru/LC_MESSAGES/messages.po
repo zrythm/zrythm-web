@@ -114,8 +114,6 @@ msgid "Zrythm on Mastodon"
 msgstr ""
 
 #: common/footer.j2.inc:108
-#| msgid ""
-#| "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."

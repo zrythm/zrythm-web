@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-01-23 16:54+0000\n"
-"PO-Revision-Date: 2020-10-13 10:36+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2021-01-06 20:29+0000\n"
+"Last-Translator: Romain Alb <romain.alb@lilo.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -114,8 +114,6 @@ msgid "Zrythm on Mastodon"
 msgstr ""
 
 #: common/footer.j2.inc:108
-#| msgid ""
-#| "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -630,7 +628,7 @@ msgstr "Routage"
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr ""
+msgstr "Édition"
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"

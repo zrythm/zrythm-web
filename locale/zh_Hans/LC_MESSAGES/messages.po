@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-01-23 16:54+0000\n"
-"PO-Revision-Date: 2019-05-04 23:29+0000\n"
-"Last-Translator: Arif Sarker\n"
-"Language-Team: Chinese (Simplified) <https://translate.zrythm.org/projects/zrythm/website/zh_Hans/>\n"
-"Language: zh\n"
+"PO-Revision-Date: 2021-01-09 06:32+0000\n"
+"Last-Translator: Eric <spice2wolf@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/Language: zh_Hans\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -112,8 +112,6 @@ msgid "Zrythm on Mastodon"
 msgstr ""
 
 #: common/footer.j2.inc:108
-#| msgid ""
-#| "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -593,7 +591,7 @@ msgstr ""
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr ""
+msgstr "编辑中"
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"

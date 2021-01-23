@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-01-23 16:54+0000\n"
-"PO-Revision-Date: 2020-11-29 10:28+0000\n"
+"PO-Revision-Date: 2021-01-05 14:29+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -85,35 +85,33 @@ msgstr "Privacidade"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Ethereum"
-msgstr ""
+msgstr "Doe através de Ethereum"
 
 #: common/footer.j2.inc:40
 msgid "Donate Ethereum (ETH)"
-msgstr ""
+msgstr "Doe Ethereum (ETH)"
 
 #: common/footer.j2.inc:55
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Doe através de Bitcoin"
 
 #: common/footer.j2.inc:65
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Doe Bitcoin (BTC)"
 
 #: common/footer.j2.inc:79
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Doe através de PayPal"
 
 #: common/footer.j2.inc:87
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "Doe através de LiberaPay"
 
 #: common/footer.j2.inc:95
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Zrythm em Mastodon"
 
 #: common/footer.j2.inc:108
-#| msgid ""
-#| "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -188,15 +186,15 @@ msgstr "E-mail"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Anúncios"
 
 #: template/community.html.j2:62
 msgid "User discussion"
-msgstr ""
+msgstr "Discussão do utilizador"
 
 #: template/community.html.j2:65
 msgid "Development"
-msgstr ""
+msgstr "Desenvolvimento"
 
 #: template/community.html.j2:69
 msgid "Project"
@@ -204,11 +202,11 @@ msgstr "Projeto"
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
-msgstr ""
+msgstr "Rastreador de recursos"
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "Rastreador de erros"
 
 #: template/community.html.j2:82
 msgid "Translations"
@@ -258,7 +256,7 @@ msgstr "Suplementos empacotados (básico)"
 
 #: template/download.html.j2:78
 msgid "Goes silent after 40 minutes"
-msgstr ""
+msgstr "Silencia depois de 40 minutos"
 
 #: template/download.html.j2:79
 msgid "Save/load is disabled"
@@ -382,7 +380,7 @@ msgstr "For River (Piano)"
 
 #: template/explore.html.j2:93
 msgid "Geometry"
-msgstr ""
+msgstr "Geometria"
 
 #: template/explore.html.j2:108 template/plugins.html.j2:53
 msgid "Features"
@@ -451,7 +449,7 @@ msgstr "Avaliações"
 
 #: template/explore.html.j2:240
 msgid "unfa livestream: Making a track with Zrythm"
-msgstr ""
+msgstr "transmissão ao vivo do unfa: criar uma faixa com Zrythm"
 
 #: template/explore.html.j2:248
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -649,15 +647,15 @@ msgstr "Regiões em loop"
 
 #: template/learn.html.j2:204
 msgid "Other"
-msgstr ""
+msgstr "Outros"
 
 #: template/learn.html.j2:215
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 #: template/learn.html.j2:218
 msgid "Playlist by"
-msgstr ""
+msgstr "Lista de reprodução por"
 
 #: template/learn.html.j2:229
 msgid "Documentation"
@@ -985,3 +983,6 @@ msgstr "Política de Marcas Registadas da Zrythm"
 
 #~ msgid "Thank you for your support!"
 #~ msgstr "Muito obrigado pelo seu apoio!"
+
+#~ msgid "Zrythm on Twitter"
+#~ msgstr "Zrythm no Twitter"
