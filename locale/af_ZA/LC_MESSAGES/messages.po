@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-18 12:26+0000\n"
+"POT-Creation-Date: 2021-01-23 16:54+0000\n"
 "PO-Revision-Date: 2020-09-24 03:54+0100\n"
 "Last-Translator: Alex <alex@zrythm.org>\n"
 "Language-Team: Afrikaans <i18n@af.org.za>\n"
@@ -107,6 +107,20 @@ msgstr ""
 
 #: common/footer.j2.inc:95
 msgid "Zrythm on Mastodon"
+msgstr ""
+
+#: common/footer.j2.inc:108
+msgid ""
+"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
+" in the United Kingdom."
+msgstr ""
+
+#: common/footer.j2.inc:109
+msgid "See our {trademarkpolicy} for details."
+msgstr ""
+
+#: common/footer.j2.inc:111 template/trademarks.html.j2:19
+msgid "Trademark Policy"
 msgstr ""
 
 #: common/header.j2.inc:24
@@ -685,10 +699,6 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
-
-#: template/trademarks.html.j2:19
-msgid "Trademark Policy"
 msgstr ""
 
 #: template/trademarks.html.j2:22

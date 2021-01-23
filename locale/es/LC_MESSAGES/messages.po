@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-18 12:26+0000\n"
+"POT-Creation-Date: 2021-01-23 16:54+0000\n"
 "PO-Revision-Date: 2020-12-05 20:09+0000\n"
 "Last-Translator: Andrea Ibeas Martinez <andrea.ibeas@e-campus.uab.cat>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -111,6 +111,22 @@ msgstr ""
 #: common/footer.j2.inc:95
 msgid "Zrythm on Mastodon"
 msgstr ""
+
+#: common/footer.j2.inc:108
+#| msgid ""
+#| "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
+msgid ""
+"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
+" in the United Kingdom."
+msgstr ""
+
+#: common/footer.j2.inc:109
+msgid "See our {trademarkpolicy} for details."
+msgstr ""
+
+#: common/footer.j2.inc:111 template/trademarks.html.j2:19
+msgid "Trademark Policy"
+msgstr "Política de marcas registradas"
 
 #: common/header.j2.inc:24
 msgid ""
@@ -410,12 +426,10 @@ msgid "Automate parameters with straight lines or curves."
 msgstr "Automatiza parámetros con lineas rectas o curvas."
 
 #: template/explore.html.j2:190
-#| msgid "{} screenshot"
 msgid "Screenshots"
 msgstr ""
 
 #: template/explore.html.j2:198 template/explore.html.j2:215
-#| msgid "{} screenshot"
 msgid "Screenshot"
 msgstr ""
 
@@ -424,7 +438,6 @@ msgid "Mixing"
 msgstr ""
 
 #: template/explore.html.j2:205 template/explore.html.j2:222
-#| msgid "{} screenshot"
 msgid "Screenshot by"
 msgstr ""
 
@@ -747,10 +760,6 @@ msgstr ""
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
 msgstr "Volver a la página principal"
-
-#: template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "Política de marcas registradas"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"

@@ -105,9 +105,11 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-12">
         <p style="text-align: center; line-height: 1;"><small>
-          Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou in the United Kingdom.
-          See our
-          <a href="{{ url(lang + '/trademarks.html') }}">Trademark Policy</a> for details.
+          {{ _('Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou in the United Kingdom.') }}
+          {{ _('See our {trademarkpolicy} for details.').format (
+          trademarkpolicy = '<a href="' + url(lang + '/trademarks.html') + '">' +
+              _('Trademark Policy') +
+              '</a>') }}
         </small></p>
       </div>
     </div>
