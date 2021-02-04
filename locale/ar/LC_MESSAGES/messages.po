@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-23 17:11+0000\n"
+"POT-Creation-Date: 2021-02-04 02:07+0000\n"
 "PO-Revision-Date: 2020-07-29 19:41+0000\n"
 "Last-Translator: YoGo <officialyogomusic@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.2-dev\n"
 
-#: template.py:405
+#: template.py:410
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "يرسم ZChordz أوتار النطاق الصغير أو الرئيسي للمفاتيح البيضاء"
 
-#: template.py:406
+#: template.py:411
 msgid "Major or minor scale"
 msgstr "مقياس رئيسي أو ثانوي"
 
-#: template.py:407
+#: template.py:412
 msgid "Velocity multiplier per note"
 msgstr "مضاعف السرعة لكل ملاحظة"
 
-#: template.py:411
+#: template.py:416
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO هو LFO لاكن مميز بالكامل للأتممة المستندة إلى السيرة الذاتية"
 
-#: template.py:412
+#: template.py:417
 msgid "Multi-oscillator with custom wave"
 msgstr "مذبذب متعدد بموجة مخصصة"
 
-#: template.py:413
+#: template.py:418
 msgid "Phase shift"
 msgstr "مرحلة التحول"
 
-#: template.py:414
+#: template.py:419
 msgid "Vertical/horizontal inversion"
 msgstr "الانقلاب الرأسي / الأفقي"
 
-#: template.py:415
+#: template.py:420
 msgid "Step mode"
 msgstr "وضع الخطوة"
 
-#: template.py:416
+#: template.py:421
 msgid "Editable range"
 msgstr "نطاق قابل للتعديل"
 
-#: template.py:417
+#: template.py:422
 msgid "Sync to host or free-form"
 msgstr "مزامنة لاستضافة أو شكل حر"
 
-#: template.py:420
+#: template.py:425
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw هو موالفة supersaw مع معلمة 1"
 
-#: template.py:421
+#: template.py:426
 msgid "7 sawtooth oscillators"
 msgstr "7 مذبذبات sawtooth"
 
-#: template.py:422
+#: template.py:427
 msgid "Single knob to control detune"
 msgstr "مقبض واحد للتحكم على detune"
 

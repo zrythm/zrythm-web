@@ -26,8 +26,9 @@ export PAYPAL_SECRET=...
 
 # Dependencies
 - python-babel
-- python-feedparser`
+- python-feedparser
 - python-polib
+- python-semver
 - sass
 
 ----

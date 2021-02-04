@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 #
-# Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
 #
 # This file is part of Zrythm
 #
@@ -50,6 +50,7 @@ import i18nfix
 import urllib3
 import polib
 import requests
+import semver
 
 # for news
 import pprint
@@ -232,9 +233,13 @@ prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_mont
 
 # get latest version
 from subprocess import check_output
-normal_version = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | head -n 1 | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
-print ('normal version: ' + normal_version)
-version = normal_version.replace ('-', '.')
+versions = check_output('git ls-remote --tags https://git.zrythm.org/git/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
+latest_ver = "0.0.0"
+for ver in versions.split('\n'):
+    if (semver.compare(ver, latest_ver) > 0):
+        latest_ver = ver
+print ('normal version: ' + latest_ver)
+version = latest_ver.replace ('-', '.')
 print ('version: ' + version)
 
 def check_url(url):
@@ -252,7 +257,7 @@ def check_url(url):
 
 # verify that tarball and trials exist
 print ('verifying release and trial packages...')
-check_url (releases_url + 'zrythm-' + normal_version + '.tar.xz')
+check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz')
 check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
 check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
 check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
