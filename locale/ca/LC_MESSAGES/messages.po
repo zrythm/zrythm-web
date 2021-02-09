@@ -1,83 +1,81 @@
 # Translations template for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# Weblate Admin <weblate.admin@zrythm.org>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-04 02:07+0000\n"
-"PO-Revision-Date: 2021-02-08 11:50+0000\n"
-"Last-Translator: Eric <spice2wolf@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
-"Language: zh_Hans\n"
+"POT-Creation-Date: 2021-01-23 17:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.5-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: template.py:410
+#: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz将小调或大调的和弦映射到白键上"
+msgstr ""
+
+#: template.py:406
+msgid "Major or minor scale"
+msgstr ""
+
+#: template.py:407
+msgid "Velocity multiplier per note"
+msgstr ""
 
 #: template.py:411
-msgid "Major or minor scale"
-msgstr "大调音阶或小调音阶"
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr ""
 
 #: template.py:412
-msgid "Velocity multiplier per note"
-msgstr "每个音符的速度乘数"
+msgid "Multi-oscillator with custom wave"
+msgstr ""
+
+#: template.py:413
+msgid "Phase shift"
+msgstr ""
+
+#: template.py:414
+msgid "Vertical/horizontal inversion"
+msgstr ""
+
+#: template.py:415
+msgid "Step mode"
+msgstr ""
 
 #: template.py:416
-msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO是一款功能齐全的基于CV自动化的LFO"
+msgid "Editable range"
+msgstr ""
 
 #: template.py:417
-msgid "Multi-oscillator with custom wave"
-msgstr "带自定义波的多振荡器"
-
-#: template.py:418
-msgid "Phase shift"
-msgstr "相移"
-
-#: template.py:419
-msgid "Vertical/horizontal inversion"
-msgstr "垂直/水平反演"
+msgid "Sync to host or free-form"
+msgstr ""
 
 #: template.py:420
-msgid "Step mode"
-msgstr "步进模式"
+msgid "ZSaw is a supersaw synth with 1 parameter"
+msgstr ""
 
 #: template.py:421
-msgid "Editable range"
-msgstr "可编辑范围"
+msgid "7 sawtooth oscillators"
+msgstr ""
 
 #: template.py:422
-msgid "Sync to host or free-form"
-msgstr "同步到主机或自由格式"
-
-#: template.py:425
-msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr "ZSaw是一个带有1个参数的supersaw合成器"
-
-#: template.py:426
-msgid "7 sawtooth oscillators"
-msgstr "7锯齿振荡器"
-
-#: template.py:427
 msgid "Single knob to control detune"
-msgstr "单旋钮控制失谐"
+msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr "Zrythm的贡献者"
+msgstr ""
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr "合法"
+msgstr ""
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
@@ -131,56 +129,55 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK"
 msgstr ""
-"DAW，数字音频工作站，音乐制作，音频，专业音频，Linux，GNU/Linux，自由软件，免费软件，声音编辑器，作曲，MIDI，LV2，杰克"
 
 #: common/navigation.j2.inc:27
 msgid "Home"
-msgstr "主页"
+msgstr ""
 
 #: common/navigation.j2.inc:33 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
-msgstr "下载"
+msgstr ""
 
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr "探索"
+msgstr ""
 
 #: common/navigation.j2.inc:45 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr "学习"
+msgstr ""
 
 #: common/navigation.j2.inc:51 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr "插件"
+msgstr ""
 
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
-msgstr "社区"
+msgstr ""
 
 #: common/navigation.j2.inc:63
 msgid "Forum"
-msgstr "论坛"
+msgstr ""
 
 #: common/navigation.j2.inc:81
 msgid "Language"
-msgstr "语言"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr "Zrythm的社区页面和交流渠道"
+msgstr ""
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr "聊天"
+msgstr ""
 
 #: template/community.html.j2:52
 msgid "Mail"
-msgstr "邮件"
+msgstr ""
 
 #: template/community.html.j2:59
 msgid "Announcements"
@@ -196,7 +193,7 @@ msgstr ""
 
 #: template/community.html.j2:69
 msgid "Project"
-msgstr "项目"
+msgstr ""
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
@@ -208,47 +205,47 @@ msgstr ""
 
 #: template/community.html.j2:82
 msgid "Translations"
-msgstr "翻译"
+msgstr ""
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
-msgstr "下载zrythm的源代码或购买二进制软件包安装程序"
+msgstr ""
 
 #: template/download.html.j2:39
 msgid "Source code"
-msgstr "源代码"
+msgstr ""
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr "发布"
+msgstr ""
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr "GPG签名密钥"
+msgstr ""
 
 #: template/download.html.j2:56
 msgid "Installer"
-msgstr "安装程序"
+msgstr ""
 
 #: template/download.html.j2:63
 msgid "trial"
-msgstr "试用"
+msgstr ""
 
 #: template/download.html.j2:67
 msgid "alpha/beta"
-msgstr "alpha/beta"
+msgstr ""
 
 #: template/download.html.j2:68
 msgid "full"
-msgstr "已满"
+msgstr ""
 
 #: template/download.html.j2:71
 msgid "subscription"
-msgstr "订阅"
+msgstr ""
 
 #: template/download.html.j2:77
 msgid "Bundled plugins (basic)"
-msgstr "捆绑插件（基本）"
+msgstr ""
 
 #: template/download.html.j2:78
 msgid "Goes silent after 40 minutes"
@@ -256,81 +253,81 @@ msgstr ""
 
 #: template/download.html.j2:79
 msgid "Save/load is disabled"
-msgstr "已禁用保存/加载"
+msgstr ""
 
 #: template/download.html.j2:80
 msgid "<b>£0</b>"
-msgstr "<b>£0</b>"
+msgstr ""
 
 #: template/download.html.j2:85
 msgid "Compiled with all features"
-msgstr "具备所有功能"
+msgstr ""
 
 #: template/download.html.j2:86
 msgid "Bundled plugins (all)"
-msgstr "捆绑插件（全部）"
+msgstr ""
 
 #: template/download.html.j2:87
 msgid "PDF user manual"
-msgstr "PDF用户手册"
+msgstr ""
 
 #: template/download.html.j2:88
 msgid "<b>£5</b> single version"
-msgstr "<b>£5</b>单一版本"
+msgstr ""
 
 #: template/download.html.j2:89
 msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+£10</b>beta包"
+msgstr ""
 
 #: template/download.html.j2:94
 msgid "Full version"
-msgstr "完整版"
+msgstr ""
 
 #: template/download.html.j2:95
 msgid "Upgrades to new releases"
-msgstr "升级到新版本"
+msgstr ""
 
 #: template/download.html.j2:96
 msgid "Access to nightly builds"
-msgstr "访问夜间构建"
+msgstr ""
 
 #: template/download.html.j2:97
 msgid "<b>£5/month</b>"
-msgstr "<b>£5/每月</b>"
+msgstr ""
 
 #: template/download.html.j2:105
 msgid "Try Now"
-msgstr "立即尝试"
+msgstr ""
 
 #: template/download.html.j2:112
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
-msgstr "这是一个功能有限的试用版。请选择您的操作系统。"
+msgstr ""
 
 #: template/download.html.j2:115
 msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgstr ""
 
 #: template/download.html.j2:116
 msgid "Windows 64-bit"
-msgstr "Windows 64位"
+msgstr ""
 
 #: template/download.html.j2:127
 msgid "Buy Now"
-msgstr "立即购买"
+msgstr ""
 
 #: template/download.html.j2:134
 msgid "Subscribe"
-msgstr "订阅"
+msgstr ""
 
 #: template/download.html.j2:141
 msgid "Support Zrythm by purchasing an installer."
-msgstr "通过购买安装程序来支持Zrythm."
+msgstr ""
 
 #: template/download.html.j2:142
 msgid "This month we received £{amount}."
-msgstr "本月我们收到了£{amount}。"
+msgstr ""
 
 #: template/download.html.j2:144
 msgid ""
@@ -340,11 +337,11 @@ msgstr ""
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr "特点，功能和评论列表"
+msgstr ""
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr "演示"
+msgstr ""
 
 #: template/explore.html.j2:46 template/explore.html.j2:65
 #: template/explore.html.j2:84 template/learn.html.j2:51
@@ -352,7 +349,7 @@ msgstr "演示"
 #: template/learn.html.j2:120 template/learn.html.j2:141
 #: template/learn.html.j2:162 template/learn.html.j2:184
 msgid "Your browser does not support HTML5 video"
-msgstr "您的浏览器不支持HTML5视频"
+msgstr ""
 
 #: template/explore.html.j2:54 template/explore.html.j2:73
 #: template/explore.html.j2:92 template/learn.html.j2:59
@@ -364,43 +361,43 @@ msgstr ""
 
 #: template/explore.html.j2:102 template/plugins.html.j2:53
 msgid "Features"
-msgstr "功能"
+msgstr ""
 
 #: template/explore.html.j2:110 template/explore.html.j2:114
 msgid "Piano roll"
-msgstr "钢琴卷帘"
+msgstr ""
 
 #: template/explore.html.j2:119
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr "在一个专用的Piano roll中创建，编辑和安排MIDI项目。"
+msgstr ""
 
 #: template/explore.html.j2:128 template/explore.html.j2:141
 msgid "Anywhere-to-anywhere connections"
-msgstr "无处不在的连接"
+msgstr ""
 
 #: template/explore.html.j2:133
 msgid "Connect anything to anything."
-msgstr "连接任何东西。"
+msgstr ""
 
 #: template/explore.html.j2:148
 msgid "Bounce in place"
-msgstr "弹回到位"
+msgstr ""
 
 #: template/explore.html.j2:152
 msgid "Bounce in-place"
-msgstr "弹回到位"
+msgstr ""
 
 #: template/explore.html.j2:157
 msgid "Quickly bounce selected material to audio."
-msgstr "快速将选定的材料弹回到音频。"
+msgstr ""
 
 #: template/explore.html.j2:166 template/explore.html.j2:179
 msgid "Automation curves"
-msgstr "自动化曲线"
+msgstr ""
 
 #: template/explore.html.j2:171
 msgid "Automate parameters with straight lines or curves."
-msgstr "用直线或曲线将参数自动化。"
+msgstr ""
 
 #: template/explore.html.j2:184
 msgid "Screenshots"
@@ -424,7 +421,7 @@ msgstr ""
 
 #: template/explore.html.j2:226
 msgid "Reviews"
-msgstr "评论"
+msgstr ""
 
 #: template/explore.html.j2:234
 msgid "unfa livestream: Making a track with Zrythm"
@@ -432,7 +429,7 @@ msgstr ""
 
 #: template/explore.html.j2:242
 msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr "Linux杂志第229/2019期文章"
+msgstr ""
 
 #: template/explore.html.j2:250
 msgid ""
@@ -442,90 +439,86 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr "数字音频工作站"
+msgstr ""
 
 #: template/index.html.j2:22
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
-msgstr "Zrythm是一个数字音频工作站，设计得很有特色，操作很简便它允许无限的自动化，支持LV2插件，与杰克音频后端相连并提供和弦帮助。"
+msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr "Zrythm"
+msgstr ""
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr "一个高度自动化且直观的数字的音频工作站"
+msgstr ""
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr "概述"
+msgstr ""
 
 #: template/index.html.j2:57
 msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
-"Zrythm是一个{tooltip1}跨平台{endtooltip}{tooltip2}数字音频工作站{endtooltip}设计得功能丰富且易于使用。"
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr "Zrythm适用于GNU/Linux，FreeBSD，MacOS和Windows"
+msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
-msgstr "DAW用于作曲，录音，编辑，编排，混音和掌握音乐"
+msgstr ""
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr "无限自动化"
+msgstr ""
 
 #: template/index.html.j2:81
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
-msgstr "使用直线，坡道，自动化事件来自动化几乎所有的事情和曲线，或带有LFO和包络。"
+msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr "音频插件"
+msgstr ""
 
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
-"完全支持<a href=\"https://lv2plug.in/\">LV2</a>和VST2，并使用对VST3，AU，SFZ和SF2的实验支持。"
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr "多后端支持"
+msgstr ""
 
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
-"完全了解<a href=\"https://jackaudio.org/\">JACK</a>，包括支持用于JACK "
-"transport，ALSA，WASAPI，Windows MME，CoreMidi和CoreAudio。"
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
-msgstr "和弦辅助"
+msgstr ""
 
 #: template/index.html.j2:136
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
-msgstr "有一个和弦垫，可以快速尝试一个音阶和一个和弦跟踪以帮助和弦进行。"
+msgstr ""
 
 #: template/index.html.j2:151
 msgid "Liberating"
-msgstr "释放"
+msgstr ""
 
 #: template/index.html.j2:156
 msgid ""
@@ -536,7 +529,7 @@ msgstr ""
 
 #: template/index.html.j2:168
 msgid "Multilingual"
-msgstr "多语言"
+msgstr ""
 
 #: template/index.html.j2:173
 msgid ""
@@ -544,12 +537,10 @@ msgid ""
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
-"可在<a "
-"href=\"https://hosted.weblate.org/engage/zrythm/\">多语言</a>包括英语，法语，加利西亚语，葡萄牙语，日语和德语。"
 
 #: template/index.html.j2:183
 msgid "Learn more"
-msgstr "了解更多信息"
+msgstr ""
 
 #: template/index.html.j2:190
 msgid "Sponsors"
@@ -563,15 +554,15 @@ msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr "Zrythm参考页面-用户手册-教程"
+msgstr ""
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr "教程"
+msgstr ""
 
 #: template/learn.html.j2:42
 msgid "General"
-msgstr "一般设置"
+msgstr ""
 
 #: template/learn.html.j2:76
 msgid "Routing"
@@ -579,7 +570,7 @@ msgstr ""
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr "编辑中"
+msgstr ""
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"
@@ -615,27 +606,27 @@ msgstr ""
 
 #: template/learn.html.j2:229
 msgid "Documentation"
-msgstr "文档"
+msgstr ""
 
 #: template/learn.html.j2:236
 msgid "User Manual"
-msgstr "用户手册"
+msgstr ""
 
 #: template/learn.html.j2:239
 msgid "Developer Reference"
-msgstr "开发人员参考"
+msgstr ""
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr "法律信息"
+msgstr ""
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr "法律，许可和商标信息"
+msgstr ""
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr "许可"
+msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
@@ -644,9 +635,6 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3 or later</a>."
 msgstr ""
-"Zrythm版权归Alexandros Theodotou和其他贡献者所有。Zrythm在下发布<a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License</a>，版本3或比更高版本。"
 
 #: template/legal.html.j2:50
 msgid ""
@@ -661,19 +649,19 @@ msgstr ""
 
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr "Zrythm和Zrythm标志是属于Alexandros Theodotou的商标。"
+msgstr ""
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr "与zrythm捆绑的插件"
+msgstr ""
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr "{}截图"
+msgstr ""
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr "技术规范"
+msgstr ""
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
@@ -682,125 +670,25 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr "谢谢"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
-msgstr "感谢您对开发的支持！您将很快收到一封电子邮件，内容为下载安装程序的说明。"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
 "Once you download the zip file, extract it and run "
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
-msgstr "下载zip文件后，解压缩并运行<code>./installer.sh</code>在终端中。如果遇到任何问题，请联系我们。"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr "返回主页"
+msgstr ""
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
-
-#~ msgid "Basic demo"
-#~ msgstr "基本演示"
-
-#~ msgid "Users"
-#~ msgstr "用户"
-
-#~ msgid "Contact"
-#~ msgstr "联系方式"
-
-#~ msgid "What plugin protocols are supported?"
-#~ msgstr "支持哪些插件协议？"
-
-#~ msgid "LV2 at the moment. VST2 and VST3 coming soon."
-#~ msgstr "LV2此刻. VST2 and VST3 coming soon."
-
-#~ msgid "I'm building from source and I want to run Zrythm without installing"
-#~ msgstr "我是从源码构建的，我想在没有安装的情况下运行Zrythm"
-
-#~ msgid ""
-#~ "Run <code>glib-compile-schemas data/</code> and then run zrythm using "
-#~ "<code>GSETTINGS_SCHEMA_DIR=data ./build/zrythm</code>"
-#~ msgstr ""
-#~ "运行<code>glib-compile-schemas data/</code>然后使用<code>GSETTINGS_SCHEMA_DIR=data"
-#~ " ./build/zrythm</code>运行<code>GSETTINGS_SCHEMA_DIR=data "
-#~ "./build/zrythm</code>"
-
-#~ msgid "I get unmet dependencies when installing on Ubuntu"
-#~ msgstr "在Ubuntu上安装时，我得到了未满足的依赖项"
-
-#~ msgid "Enable the universe repository:"
-#~ msgstr "启用Universe存储库："
-
-#~ msgid ""
-#~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
-#~ " and borrows ideas, concepts and code from other projects such as Ardour and"
-#~ " Jalv. It is designed to be intuitive to use and is built with the intention"
-#~ " to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
-#~ " while offering a unique approach to workflow that other GNU/Linux DAWs "
-#~ "lack."
-#~ msgstr ""
-#~ "Zrythm是一个使用C和GTK +3工具包构建的本机GNU / Linux应用程序，并借用其他项目的想法，概念和代码，如Ardor和Jalv"
-
-#~ msgid "Contacting individuals"
-#~ msgstr "联系个人"
-
-#~ msgid "Reporting bugs"
-#~ msgstr "报告缺陷"
-
-#~ msgid "Talk With Us"
-#~ msgstr "与我们联系"
-
-#~ msgid "Join the Zrythm Team"
-#~ msgstr "加入Zrythm团队"
-
-#~ msgid "Design"
-#~ msgstr "设计"
-
-#~ msgid ""
-#~ "If you are a web designer, icon designer or graphic designer and want to "
-#~ "help, please get in touch with us. Things that you might want to do are "
-#~ "logos, icons and other graphics, CSS, etc."
-#~ msgstr "如果您是网页设计师，图标设计师或平面设计师，并希望提供帮助，请与我们联系"
-
-#~ msgid ""
-#~ "Zrythm tries to keep the interface clean and pleasant to work with, with "
-#~ "intuitive ways of getting work done enabling a faster workflow."
-#~ msgstr "Zrythm尝试保持界面清洁和愉快，使用直观的方式完成工作，从而实现更快的工作流程。"
-
-#~ msgid "FAQ"
-#~ msgstr "常问问题"
-
-#~ msgid "Join Us"
-#~ msgstr "加入我们"
-
-#~ msgid "Glossary"
-#~ msgstr "术语表"
-
-#~ msgid "Join &amp; support us!"
-#~ msgstr "加入并支持我们！"
-
-#~ msgid "Intuitive"
-#~ msgstr "直觀"
-
-#~ msgid "Featureful"
-#~ msgstr "特性吧"
-
-#~ msgid ""
-#~ "Automation Curves, Busses, drag and drop LV2 Plugins and Audio files, "
-#~ "Arranger Minimap, etc."
-#~ msgstr "自动化曲线，总线，拖放LV2插件和音频文件，Arranger Minimap等。"
-
-#~ msgid "Speaks Your Language"
-#~ msgstr "说你的语言"
-
-#~ msgid "Cross-platform"
-#~ msgstr "跨平台"
-
-#~ msgid "News"
-#~ msgstr "新闻"
