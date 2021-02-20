@@ -98,12 +98,9 @@ langs_full = {
         "zh_Hans": "简体中文",
         "zh_Hant": "繁體中文",
         }
-git_base_url = 'https://git.zrythm.org/cgit/'
-git_url = git_base_url + 'zrythm'
-git_web_url = git_base_url + 'zrythm-web'
+git_url = 'https://sr.ht/~alextee/zrythm'
 feature_tracker = 'https://todo.sr.ht/~alextee/zrythm-feature'
 bug_tracker = 'https://todo.sr.ht/~alextee/zrythm-bug'
-git_blob_url = git_url + '/tree'
 pronunciation = 'ziˈrɪðəm'
 releases_url = 'https://www.zrythm.org/releases/'
 downloads_url = 'https://www.zrythm.org/downloads/'
@@ -431,9 +428,7 @@ for in_file in glob.glob("template/*.j2"):
                               lang_full=langs_full[locale],
                               langs_full=langs_full,
                               url=url,
-                              git_base_url=git_base_url,
                               git_url=git_url,
-                              git_web_url=git_web_url,
                               aur_git_url=aur_git_url,
                               aur_stable_url=aur_stable_url,
                               freshports_url=freshports_url,
@@ -451,7 +446,6 @@ for in_file in glob.glob("template/*.j2"):
                               feature_tracker=feature_tracker,
                               bug_tracker=bug_tracker,
                               plugins=plugins,
-                              git_blob_url=git_blob_url,
                               version=version,
                               pronunciation=pronunciation,
                               self_localized=self_localized,

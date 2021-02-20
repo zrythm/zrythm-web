@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-04 02:07+0000\n"
+"POT-Creation-Date: 2021-02-20 09:37+0000\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: Ma Ho <mhojo74@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/zrythm/web/nl/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:410
+#: template.py:407
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz wijst de mineur of majeur akkoorden toe aan de witte toetsen"
 
-#: template.py:411
+#: template.py:408
 msgid "Major or minor scale"
 msgstr "Majeur of mineur"
 
-#: template.py:412
+#: template.py:409
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:416
+#: template.py:413
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO is een volledig uitgeruste LFO voor CV-gebaseerde automatisering"
 
-#: template.py:417
+#: template.py:414
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillator met custom golf"
 
-#: template.py:418
+#: template.py:415
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:419
+#: template.py:416
 msgid "Vertical/horizontal inversion"
 msgstr "verticale/horizontale inversie"
 
-#: template.py:420
+#: template.py:417
 msgid "Step mode"
 msgstr "Getrapte modus"
 
-#: template.py:421
+#: template.py:418
 msgid "Editable range"
 msgstr "Aanpasbaar bereik"
 
-#: template.py:422
+#: template.py:419
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:425
+#: template.py:422
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:426
+#: template.py:423
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:427
+#: template.py:424
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -406,6 +406,7 @@ msgid "Screenshots"
 msgstr ""
 
 #: template/explore.html.j2:192 template/explore.html.j2:209
+#: template/explore.html.j2:226
 msgid "Screenshot"
 msgstr ""
 
@@ -414,6 +415,7 @@ msgid "Mixing"
 msgstr ""
 
 #: template/explore.html.j2:199 template/explore.html.j2:216
+#: template/explore.html.j2:233
 msgid "Screenshot by"
 msgstr ""
 
@@ -421,19 +423,23 @@ msgstr ""
 msgid "Audio Editor"
 msgstr ""
 
-#: template/explore.html.j2:226
+#: template/explore.html.j2:228
+msgid "Localized UI"
+msgstr ""
+
+#: template/explore.html.j2:243
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:234
+#: template/explore.html.j2:251
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:242
+#: template/explore.html.j2:259
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:250
+#: template/explore.html.j2:267
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -505,7 +511,8 @@ msgstr ""
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
-"for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
+"for JACK transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and "
+"CoreAudio."
 msgstr ""
 
 #: template/index.html.j2:131
