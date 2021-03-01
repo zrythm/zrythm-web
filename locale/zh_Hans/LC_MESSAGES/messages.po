@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-20 14:54+0000\n"
+"POT-Creation-Date: 2021-02-21 06:20+0000\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -251,7 +251,7 @@ msgid "Bundled plugins (basic)"
 msgstr "捆绑插件（基本）"
 
 #: template/download.html.j2:78
-msgid "Goes silent after 40 minutes"
+msgid "Goes silent after 1 hour"
 msgstr ""
 
 #: template/download.html.j2:79
