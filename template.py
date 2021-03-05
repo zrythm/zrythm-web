@@ -53,8 +53,6 @@ import requests
 import semver
 
 # for news
-import pprint
-import feedparser
 import datetime
 from dateutil.parser import parse
 
@@ -260,11 +258,6 @@ check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
 check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
 print ('done')
 
-# for news
-feed = feedparser.parse('https://savannah.nongnu.org/news/atom.php?group=zrythm')
-pp = pprint.PrettyPrinter(indent=2)
-news = feed['entries'][0:4]
-
 class Plugin:
     def __init__(self,name,is_img_static,img,summary,features):
         self.name = name
@@ -436,7 +429,6 @@ for in_file in glob.glob("template/*.j2"):
                               copr_package_url=copr_package_url,
                               releases_url=releases_url,
                               downloads_url=downloads_url,
-                              news=news,
                               datetime_parse=parse,
                               num_monthly_orders=num_monthly_orders,
                               monthly_earning=monthly_earning,

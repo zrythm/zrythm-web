@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-21 06:20+0000\n"
+"POT-Creation-Date: 2021-03-05 17:00+0000\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: template.py:407
+#: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "O ZChordz mapeia os acordes de escala menor ou maior para teclas brancas"
 
-#: template.py:408
+#: template.py:401
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:409
+#: template.py:402
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:413
+#: template.py:406
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:414
+#: template.py:407
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:415
+#: template.py:408
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:416
+#: template.py:409
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical/horizontal"
 
-#: template.py:417
+#: template.py:410
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:418
+#: template.py:411
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:419
+#: template.py:412
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:422
+#: template.py:415
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:423
+#: template.py:416
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:424
+#: template.py:417
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -512,51 +512,51 @@ msgstr ""
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
-"for JACK transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and "
-"CoreAudio."
+"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:132
 msgid "Chord assistance"
 msgstr ""
 
-#: template/index.html.j2:136
+#: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:151
+#: template/index.html.j2:152
 msgid "Liberating"
 msgstr ""
 
-#: template/index.html.j2:156
+#: template/index.html.j2:157
 msgid ""
 "Zrythm is <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
 
-#: template/index.html.j2:168
+#: template/index.html.j2:169
 msgid "Multilingual"
 msgstr ""
 
-#: template/index.html.j2:173
+#: template/index.html.j2:174
 msgid ""
 "Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
 "German."
 msgstr ""
 
-#: template/index.html.j2:183
+#: template/index.html.j2:184
 msgid "Learn more"
 msgstr ""
 
-#: template/index.html.j2:190
+#: template/index.html.j2:191
 msgid "Sponsors"
 msgstr ""
 
-#: template/index.html.j2:195
+#: template/index.html.j2:196
 msgid ""
 "No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
 "if you would like to be a sponsor."

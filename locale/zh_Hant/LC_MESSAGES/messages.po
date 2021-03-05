@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-21 06:20+0000\n"
+"POT-Creation-Date: 2021-03-05 17:00+0000\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:407
+#: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz 將小調或大調上的順接和弦對應到鋼琴白键上"
 
-#: template.py:408
+#: template.py:401
 msgid "Major or minor scale"
 msgstr "大調或小調音階"
 
-#: template.py:409
+#: template.py:402
 msgid "Velocity multiplier per note"
 msgstr "可調整和弦組成音的力度比例"
 
-#: template.py:413
+#: template.py:406
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO 是個功能齊全的低頻振盪器 (CV-based)"
 
-#: template.py:414
+#: template.py:407
 msgid "Multi-oscillator with custom wave"
 msgstr "包含多個振盪器，也可自訂波形"
 
-#: template.py:415
+#: template.py:408
 msgid "Phase shift"
 msgstr "相位偏移"
 
-#: template.py:416
+#: template.py:409
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反轉波形"
 
-#: template.py:417
+#: template.py:410
 msgid "Step mode"
 msgstr "步進模式"
 
-#: template.py:418
+#: template.py:411
 msgid "Editable range"
 msgstr "可調整動態範圍"
 
-#: template.py:419
+#: template.py:412
 msgid "Sync to host or free-form"
 msgstr "同步或自由模式"
 
-#: template.py:422
+#: template.py:415
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw 是帶有一個參數的 supersaw 合成器"
 
-#: template.py:423
+#: template.py:416
 msgid "7 sawtooth oscillators"
 msgstr "七個鋸齒波振盪器"
 
-#: template.py:424
+#: template.py:417
 msgid "Single knob to control detune"
 msgstr "有一個旋鈕可以控制 detune"
 
@@ -518,25 +518,25 @@ msgstr "支援多個後端"
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
-"for JACK transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and "
-"CoreAudio."
+"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:132
 msgid "Chord assistance"
 msgstr "和弦幫手"
 
-#: template/index.html.j2:136
+#: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr "使用 chord pad 快速嘗試音階上的和弦，chord track 讓你編寫和弦進行時更方便。"
 
-#: template/index.html.j2:151
+#: template/index.html.j2:152
 msgid "Liberating"
 msgstr "自由"
 
-#: template/index.html.j2:156
+#: template/index.html.j2:157
 msgid ""
 "Zrythm is <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
@@ -546,11 +546,11 @@ msgstr ""
 "href=\"https://www.zrythm.org/video/TEDxGE2014_Stallman05_LQ.webm\">自由軟體</a>。任何人皆可自由地使用、研究、分享、改進"
 " Zrythm。"
 
-#: template/index.html.j2:168
+#: template/index.html.j2:169
 msgid "Multilingual"
 msgstr "多種語言"
 
-#: template/index.html.j2:173
+#: template/index.html.j2:174
 msgid ""
 "Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
 "languages</a> including English, French, Galician, Portuguese, Japanese and "
@@ -559,15 +559,15 @@ msgstr ""
 "支援<a "
 "href=\"https://hosted.weblate.org/engage/zrythm/\">多種語言</a>，包括英文、法文、加利西亞語、葡萄牙語、日語和德文。"
 
-#: template/index.html.j2:183
+#: template/index.html.j2:184
 msgid "Learn more"
 msgstr "了解更多"
 
-#: template/index.html.j2:190
+#: template/index.html.j2:191
 msgid "Sponsors"
 msgstr "贊助"
 
-#: template/index.html.j2:195
+#: template/index.html.j2:196
 msgid ""
 "No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
 "if you would like to be a sponsor."
