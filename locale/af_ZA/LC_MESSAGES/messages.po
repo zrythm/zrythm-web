@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-05 17:00+0000\n"
+"POT-Creation-Date: 2021-03-08 02:54+0000\n"
 "PO-Revision-Date: 2020-09-24 03:54+0100\n"
 "Last-Translator: Alex <alex@zrythm.org>\n"
 "Language-Team: Afrikaans <i18n@af.org.za>\n"
@@ -343,101 +343,101 @@ msgstr ""
 msgid "Demos"
 msgstr ""
 
-#: template/explore.html.j2:46 template/explore.html.j2:65
-#: template/explore.html.j2:84 template/learn.html.j2:51
-#: template/learn.html.j2:71 template/learn.html.j2:99
-#: template/learn.html.j2:120 template/learn.html.j2:141
-#: template/learn.html.j2:162 template/learn.html.j2:184
+#: template/explore.html.j2:48 template/explore.html.j2:68
+#: template/explore.html.j2:89 template/learn.html.j2:51
+#: template/learn.html.j2:71 template/learn.html.j2:100
+#: template/learn.html.j2:122 template/learn.html.j2:144
+#: template/learn.html.j2:166 template/learn.html.j2:188
 msgid "Your browser does not support HTML5 video"
 msgstr ""
 
-#: template/explore.html.j2:54 template/explore.html.j2:73
-#: template/explore.html.j2:92 template/learn.html.j2:59
-#: template/learn.html.j2:81 template/learn.html.j2:109
-#: template/learn.html.j2:130 template/learn.html.j2:151
-#: template/learn.html.j2:172 template/learn.html.j2:194
+#: template/explore.html.j2:56 template/explore.html.j2:76
+#: template/explore.html.j2:97 template/learn.html.j2:59
+#: template/learn.html.j2:81 template/learn.html.j2:110
+#: template/learn.html.j2:132 template/learn.html.j2:154
+#: template/learn.html.j2:176 template/learn.html.j2:198
 msgid "Video by"
 msgstr ""
 
-#: template/explore.html.j2:102 template/plugins.html.j2:53
+#: template/explore.html.j2:107 template/plugins.html.j2:53
 msgid "Features"
 msgstr ""
 
-#: template/explore.html.j2:110 template/explore.html.j2:114
+#: template/explore.html.j2:115 template/explore.html.j2:119
 msgid "Piano roll"
 msgstr ""
 
-#: template/explore.html.j2:119
+#: template/explore.html.j2:124
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 
-#: template/explore.html.j2:128 template/explore.html.j2:141
+#: template/explore.html.j2:133 template/explore.html.j2:146
 msgid "Anywhere-to-anywhere connections"
 msgstr ""
 
-#: template/explore.html.j2:133
+#: template/explore.html.j2:138
 msgid "Connect anything to anything."
 msgstr ""
 
-#: template/explore.html.j2:148
+#: template/explore.html.j2:153
 msgid "Bounce in place"
 msgstr ""
 
-#: template/explore.html.j2:152
+#: template/explore.html.j2:157
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/explore.html.j2:157
+#: template/explore.html.j2:162
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/explore.html.j2:166 template/explore.html.j2:179
+#: template/explore.html.j2:171 template/explore.html.j2:184
 msgid "Automation curves"
 msgstr ""
 
-#: template/explore.html.j2:171
+#: template/explore.html.j2:176
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
-#: template/explore.html.j2:184
+#: template/explore.html.j2:189
 msgid "Screenshots"
 msgstr ""
 
-#: template/explore.html.j2:192 template/explore.html.j2:209
-#: template/explore.html.j2:226
+#: template/explore.html.j2:197 template/explore.html.j2:214
+#: template/explore.html.j2:231
 msgid "Screenshot"
 msgstr ""
 
-#: template/explore.html.j2:194
+#: template/explore.html.j2:199
 msgid "Mixing"
 msgstr ""
 
-#: template/explore.html.j2:199 template/explore.html.j2:216
-#: template/explore.html.j2:233
+#: template/explore.html.j2:204 template/explore.html.j2:221
+#: template/explore.html.j2:238
 msgid "Screenshot by"
 msgstr ""
 
-#: template/explore.html.j2:211
+#: template/explore.html.j2:216
 msgid "Audio Editor"
 msgstr ""
 
-#: template/explore.html.j2:228
+#: template/explore.html.j2:233
 msgid "Localized UI"
 msgstr ""
 
-#: template/explore.html.j2:243
+#: template/explore.html.j2:248
 msgid "Reviews"
 msgstr ""
 
-#: template/explore.html.j2:251
+#: template/explore.html.j2:256
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:259
+#: template/explore.html.j2:264
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr ""
 
-#: template/explore.html.j2:267
+#: template/explore.html.j2:272
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -579,47 +579,47 @@ msgstr ""
 msgid "Editing"
 msgstr ""
 
-#: template/learn.html.j2:104
+#: template/learn.html.j2:105
 msgid "Select/Stretch Tool"
 msgstr ""
 
-#: template/learn.html.j2:125
+#: template/learn.html.j2:127
 msgid "Edit Tool"
 msgstr ""
 
-#: template/learn.html.j2:146
+#: template/learn.html.j2:149
 msgid "Cut Tool"
 msgstr ""
 
-#: template/learn.html.j2:167
+#: template/learn.html.j2:171
 msgid "Ramp Tool"
 msgstr ""
 
-#: template/learn.html.j2:189
+#: template/learn.html.j2:193
 msgid "Looping regions"
 msgstr ""
 
-#: template/learn.html.j2:204
+#: template/learn.html.j2:208
 msgid "Other"
 msgstr ""
 
-#: template/learn.html.j2:215
+#: template/learn.html.j2:219
 msgid "French"
 msgstr ""
 
-#: template/learn.html.j2:218
+#: template/learn.html.j2:222
 msgid "Playlist by"
 msgstr ""
 
-#: template/learn.html.j2:229
+#: template/learn.html.j2:233
 msgid "Documentation"
 msgstr ""
 
-#: template/learn.html.j2:236
+#: template/learn.html.j2:240
 msgid "User Manual"
 msgstr ""
 
-#: template/learn.html.j2:239
+#: template/learn.html.j2:243
 msgid "Developer Reference"
 msgstr ""
 
