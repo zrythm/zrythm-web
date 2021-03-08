@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-08 02:54+0000\n"
-"PO-Revision-Date: 2020-12-05 20:09+0000\n"
-"Last-Translator: Andrea Ibeas Martinez <andrea.ibeas@e-campus.uab.cat>\n"
+"PO-Revision-Date: 2021-02-20 00:50+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -265,7 +265,7 @@ msgstr "Guardar/Cargar está desactivado"
 
 #: template/download.html.j2:80
 msgid "<b>£0</b>"
-msgstr "<b>0€</b>"
+msgstr "<b>0£</b>"
 
 #: template/download.html.j2:85
 msgid "Compiled with all features"
@@ -281,11 +281,11 @@ msgstr "Manual del usuario en PDF"
 
 #: template/download.html.j2:88
 msgid "<b>£5</b> single version"
-msgstr "<b>5,55€</b> versión individual"
+msgstr "<b>5£</b> versión individual"
 
 #: template/download.html.j2:89
 msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+11,11€</b> paquete beta"
+msgstr "<b>+10£</b> paquete beta"
 
 #: template/download.html.j2:94
 msgid "Full version"
@@ -301,7 +301,7 @@ msgstr "Acceso a nightly builds"
 
 #: template/download.html.j2:97
 msgid "<b>£5/month</b>"
-msgstr "<b>5,55€/mes</b>"
+msgstr "<b>5£/mes</b>"
 
 #: template/download.html.j2:105
 msgid "Try Now"
@@ -337,7 +337,7 @@ msgstr "Apoya a Zrythm comprando un instalador."
 
 #: template/download.html.j2:142
 msgid "This month we received £{amount}."
-msgstr "Este mes recibimos {amount} €."
+msgstr "Este mes recibimos {amount} £."
 
 #: template/download.html.j2:144
 msgid ""

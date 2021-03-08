@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-08 02:54+0000\n"
-"PO-Revision-Date: 2020-09-06 14:36+0000\n"
-"Last-Translator: Roberto Albano De Rosa <robertoaldm@gmail.com>\n"
+"PO-Revision-Date: 2021-02-20 00:50+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -409,12 +409,12 @@ msgstr "Automatizza i parametri con linee rette o curve."
 
 #: template/explore.html.j2:189
 msgid "Screenshots"
-msgstr ""
+msgstr "Schermate"
 
 #: template/explore.html.j2:197 template/explore.html.j2:214
 #: template/explore.html.j2:231
 msgid "Screenshot"
-msgstr ""
+msgstr "Schermata"
 
 #: template/explore.html.j2:199
 msgid "Mixing"
@@ -423,7 +423,7 @@ msgstr ""
 #: template/explore.html.j2:204 template/explore.html.j2:221
 #: template/explore.html.j2:238
 msgid "Screenshot by"
-msgstr ""
+msgstr "Schermata da"
 
 #: template/explore.html.j2:216
 msgid "Audio Editor"
