@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-08 02:54+0000\n"
+"POT-Creation-Date: 2021-03-09 17:40+0000\n"
 "PO-Revision-Date: 2021-02-03 19:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -356,102 +356,102 @@ msgstr "Lista de recursos, funcionalidades e avaliações"
 msgid "Demos"
 msgstr "Demonstrações"
 
-#: template/explore.html.j2:48 template/explore.html.j2:68
-#: template/explore.html.j2:89 template/learn.html.j2:51
+#: template/explore.html.j2:48 template/explore.html.j2:69
+#: template/explore.html.j2:90 template/learn.html.j2:51
 #: template/learn.html.j2:71 template/learn.html.j2:100
 #: template/learn.html.j2:122 template/learn.html.j2:144
 #: template/learn.html.j2:166 template/learn.html.j2:188
 msgid "Your browser does not support HTML5 video"
 msgstr "O seu navegador não suporta vídeo HTML5"
 
-#: template/explore.html.j2:56 template/explore.html.j2:76
-#: template/explore.html.j2:97 template/learn.html.j2:59
+#: template/explore.html.j2:56 template/explore.html.j2:77
+#: template/explore.html.j2:98 template/learn.html.j2:59
 #: template/learn.html.j2:81 template/learn.html.j2:110
 #: template/learn.html.j2:132 template/learn.html.j2:154
 #: template/learn.html.j2:176 template/learn.html.j2:198
 msgid "Video by"
 msgstr "Vídeo de"
 
-#: template/explore.html.j2:107 template/plugins.html.j2:53
+#: template/explore.html.j2:108 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Características"
 
-#: template/explore.html.j2:115 template/explore.html.j2:119
+#: template/explore.html.j2:116 template/explore.html.j2:120
 msgid "Piano roll"
 msgstr "Cilindros de piano"
 
-#: template/explore.html.j2:124
+#: template/explore.html.j2:125
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Criar, editar e organizar eventos MIDI em dedicados cilindros de piano."
 
-#: template/explore.html.j2:133 template/explore.html.j2:146
+#: template/explore.html.j2:134 template/explore.html.j2:147
 msgid "Anywhere-to-anywhere connections"
 msgstr "Conexões de qualquer lugar para qualquer lugar"
 
-#: template/explore.html.j2:138
+#: template/explore.html.j2:139
 msgid "Connect anything to anything."
 msgstr "Conecte tudo a tudo."
 
-#: template/explore.html.j2:153
+#: template/explore.html.j2:154
 msgid "Bounce in place"
 msgstr "Saltar no lugar"
 
-#: template/explore.html.j2:157
+#: template/explore.html.j2:158
 msgid "Bounce in-place"
 msgstr "Saltar no lugar"
 
-#: template/explore.html.j2:162
+#: template/explore.html.j2:163
 msgid "Quickly bounce selected material to audio."
 msgstr "Saltar material selecionado rápidamente para áudio."
 
-#: template/explore.html.j2:171 template/explore.html.j2:184
+#: template/explore.html.j2:172 template/explore.html.j2:185
 msgid "Automation curves"
 msgstr "Curvas de automação"
 
-#: template/explore.html.j2:176
+#: template/explore.html.j2:177
 msgid "Automate parameters with straight lines or curves."
 msgstr "Automatizar parâmetros com linhas retas ou curvas."
 
-#: template/explore.html.j2:189
+#: template/explore.html.j2:190
 msgid "Screenshots"
 msgstr "Capturas de ecrã"
 
-#: template/explore.html.j2:197 template/explore.html.j2:214
-#: template/explore.html.j2:231
+#: template/explore.html.j2:198 template/explore.html.j2:215
+#: template/explore.html.j2:232
 msgid "Screenshot"
 msgstr "Captura de ecrã"
 
-#: template/explore.html.j2:199
+#: template/explore.html.j2:200
 msgid "Mixing"
 msgstr "Misturar"
 
-#: template/explore.html.j2:204 template/explore.html.j2:221
-#: template/explore.html.j2:238
+#: template/explore.html.j2:205 template/explore.html.j2:222
+#: template/explore.html.j2:239
 msgid "Screenshot by"
 msgstr "Captura de ecrã por"
 
-#: template/explore.html.j2:216
+#: template/explore.html.j2:217
 msgid "Audio Editor"
 msgstr "Editor de áudio"
 
-#: template/explore.html.j2:233
+#: template/explore.html.j2:234
 msgid "Localized UI"
 msgstr ""
 
-#: template/explore.html.j2:248
+#: template/explore.html.j2:249
 msgid "Reviews"
 msgstr "Avaliações"
 
-#: template/explore.html.j2:256
+#: template/explore.html.j2:257
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr "transmissão ao vivo do unfa: criar uma faixa com Zrythm"
 
-#: template/explore.html.j2:264
+#: template/explore.html.j2:265
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Artigo da Edição 229/2019 da Linux Magazine"
 
-#: template/explore.html.j2:272
+#: template/explore.html.j2:273
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
@@ -592,12 +592,10 @@ msgstr "Patrocinadores"
 
 #: template/index.html.j2:196
 msgid ""
-"No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
-"if you would like to be a sponsor."
+"No public sponsors. <a "
+"href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
+" us</a> if you would like to be a sponsor."
 msgstr ""
-"Nenhuns patrocinadores públicos. <a "
-"href=\"mailto:sponsor_AT_zrythm.org\">Contacte-nos</a> se quiser ser um "
-"patrocinador."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -752,6 +750,14 @@ msgstr "Voltar à página inicial"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Política de Marcas Registadas da Zrythm"
+
+#~ msgid ""
+#~ "No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
+#~ "if you would like to be a sponsor."
+#~ msgstr ""
+#~ "Nenhuns patrocinadores públicos. <a "
+#~ "href=\"mailto:sponsor_AT_zrythm.org\">Contacte-nos</a> se quiser ser um "
+#~ "patrocinador."
 
 #~ msgid "Just For Kicks"
 #~ msgstr "Só Por Diversão"
