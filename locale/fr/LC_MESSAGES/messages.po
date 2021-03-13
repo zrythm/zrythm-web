@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-13 16:59+0000\n"
-"PO-Revision-Date: 2021-02-22 09:50+0000\n"
+"PO-Revision-Date: 2021-03-10 12:02+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.5\n"
 
 #: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -182,7 +182,7 @@ msgstr "Les pages communautaires et les canaux de communication de Zrythm"
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr "Tchat"
+msgstr "Tchate"
 
 #: template/community.html.j2:52
 msgid "Mail"
@@ -260,7 +260,7 @@ msgstr "Greffons embarqués (de base)"
 
 #: template/download.html.j2:78
 msgid "Goes silent after 1 hour"
-msgstr ""
+msgstr "Devient silencieux après une heure"
 
 #: template/download.html.j2:79
 msgid "Save/load is disabled"
@@ -439,7 +439,7 @@ msgstr "Éditeur audio"
 
 #: template/explore.html.j2:234
 msgid "Localized UI"
-msgstr ""
+msgstr "Interface graphique localisée"
 
 #: template/explore.html.j2:249
 msgid "Reviews"
@@ -458,8 +458,8 @@ msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
 "digital audio workstation"
 msgstr ""
-"Phoronix news: Zrythm approche de sa version bêta comme une station audio "
-"numérique libre(open source) et facile à utiliser"
+"Nouvelles Phoronix : Zrythm approche de sa version bêta en tant que station "
+"audio numérique libre (open source) et facile à utiliser"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -546,6 +546,10 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Fonctionne complètement avec <a href=\"https://jackaudio.org/\">JACK</a>, "
+"incluant une prise en charge pour <a href=\"https://pipewire.org/\""
+">PipeWire</a>, le transport JACK, ALSA, PulseAudio, WASAPI, Windows MME, "
+"CoreMidi et CoreAudio."
 
 #: template/index.html.j2:132
 msgid "Chord assistance"
