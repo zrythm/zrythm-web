@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-13 16:59+0000\n"
-"PO-Revision-Date: 2021-01-23 17:11+0000\n"
+"PO-Revision-Date: 2021-03-18 10:18+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.5-dev\n"
 
 #: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -136,8 +137,9 @@ msgstr ""
 "リブレソフトウェア, サウンドエディタ, 作曲, MIDI, LV2, JACK"
 
 #: common/navigation.j2.inc:27
+#, fuzzy
 msgid "Home"
-msgstr "トップ"
+msgstr "ホーム"
 
 #: common/navigation.j2.inc:33 template/download.html.j2:19
 #: template/download.html.j2:33
