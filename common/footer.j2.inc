@@ -64,12 +64,12 @@ GNU Affero General Public License for more details.
               <label for="donate-bitcoin" class="modal-close" ></label>
               <h3 class="section">{{ _('Donate Bitcoin (BTC)') }}</h3>
               <p>
-                <img src="{{ url('static/images/bitcoin_qr.svg') }}">
+                <img src="{{ url('static/images/bitcoin_qr.png') }}">
                 <br>
-                BTC address: 18x1qZvtzQzUY1TrDiRWFAvavS74o2ddfU
+                BTC address: bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j
                 <br>
                 <a rel="payment"
-                   href="bitcoin:18x1qZvtzQzUY1TrDiRWFAvavS74o2ddfU?message=Zrythm donation">
+                   href="bitcoin:bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j?message=Zrythm%20donations&time=1550598458">
                   BIP-21 URI
                 </a>
               </p>
