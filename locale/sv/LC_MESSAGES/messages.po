@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-13 16:26+0000\n"
+"POT-Creation-Date: 2021-03-23 10:22+0000\n"
 "PO-Revision-Date: 2020-09-25 18:02+0000\n"
 "Last-Translator: Felix Paulsson <fpaulsson@protonmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -86,44 +86,36 @@ msgid "Privacy"
 msgstr ""
 
 #: common/footer.j2.inc:30
-msgid "Donate using Ethereum"
-msgstr ""
-
-#: common/footer.j2.inc:40
-msgid "Donate Ethereum (ETH)"
-msgstr ""
-
-#: common/footer.j2.inc:55
 msgid "Donate using Bitcoin"
 msgstr ""
 
-#: common/footer.j2.inc:65
+#: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
 msgstr ""
 
-#: common/footer.j2.inc:79
+#: common/footer.j2.inc:55
 msgid "Donate using PayPal"
 msgstr ""
 
-#: common/footer.j2.inc:87
+#: common/footer.j2.inc:63
 msgid "Donate using LiberaPay"
 msgstr ""
 
-#: common/footer.j2.inc:95
+#: common/footer.j2.inc:71
 msgid "Zrythm on Mastodon"
 msgstr ""
 
-#: common/footer.j2.inc:108
+#: common/footer.j2.inc:84
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
 
-#: common/footer.j2.inc:109
+#: common/footer.j2.inc:85
 msgid "See our {trademarkpolicy} for details."
 msgstr ""
 
-#: common/footer.j2.inc:111 template/trademarks.html.j2:19
+#: common/footer.j2.inc:87 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr ""
 

@@ -18,38 +18,13 @@ GNU Affero General Public License for more details.
     <div class="row">
       <div class="col-sm-8">
         <p>
-        Copyright &copy; 2019-2020 {{ _('The Zrythm contributors') }} ~
+        Copyright &copy; 2019-2021 {{ _('The Zrythm contributors') }} ~
         <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a> -
         <a href="{{ url(lang + '/privacy.html') }}">{{ _('Privacy') }}</a>
         </p>
       </div>
       <div class="col-sm-4">
         <right>
-         <label for="donate-ethereum"
-                class="crypto_donation_label"
-                title="{{ _('Donate using Ethereum') }}">
-            <img
-               class="footer_btn2"
-               alt="Donate using Ethereum"
-               src="{{ url('dist/fork-awesome/ethereum.svg') }}">
-          </label>
-          <input type="checkbox" id="donate-ethereum" class="modal">
-          <div>
-            <div class="card fluid centered">
-              <label for="donate-ethereum" class="modal-close" ></label>
-              <h3 class="section">{{ _('Donate Ethereum (ETH)') }}</h3>
-              <p>
-                <img src="{{ url('static/images/ethereum_qr.svg') }}">
-                <br>
-                ERC20 address: 0x5f63960fdad91c3603825756cbfa645089b25f78
-                <br>
-                <a rel="payment"
-                   href="ethereum:0x5f63960fdad91c3603825756cbfa645089b25f78">
-                  ERC-67 URI
-                </a>
-              </p>
-            </div>
-          </div>
          <label for="donate-bitcoin"
                 class="crypto_donation_label"
                 title="{{ _('Donate using Bitcoin') }}">
@@ -64,7 +39,8 @@ GNU Affero General Public License for more details.
               <label for="donate-bitcoin" class="modal-close" ></label>
               <h3 class="section">{{ _('Donate Bitcoin (BTC)') }}</h3>
               <p>
-                <img src="{{ url('static/images/bitcoin_qr.png') }}">
+                <img class="qr_code"
+                     src="{{ url('static/images/bitcoin_qr.png') }}">
                 <br>
                 BTC address: bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j
                 <br>

@@ -22,6 +22,10 @@
   width: 28;
 }
 
+.qr_code {
+  max-height: 200px;
+}
+
 .globe {
   /* float doesnt work in older versions of firefox */
   /*float: right;*/
