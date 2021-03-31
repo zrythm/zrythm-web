@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-23 10:23+0000\n"
+"POT-Creation-Date: 2021-03-30 22:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -336,18 +336,18 @@ msgid "Demos"
 msgstr ""
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
-#: template/explore.html.j2:90 template/learn.html.j2:51
-#: template/learn.html.j2:71 template/learn.html.j2:100
-#: template/learn.html.j2:122 template/learn.html.j2:144
-#: template/learn.html.j2:166 template/learn.html.j2:188
+#: template/explore.html.j2:90 template/learn.html.j2:52
+#: template/learn.html.j2:74 template/learn.html.j2:96
+#: template/learn.html.j2:118 template/learn.html.j2:140
+#: template/learn.html.j2:170 template/learn.html.j2:190
 msgid "Your browser does not support HTML5 video"
 msgstr ""
 
 #: template/explore.html.j2:56 template/explore.html.j2:77
-#: template/explore.html.j2:98 template/learn.html.j2:59
-#: template/learn.html.j2:81 template/learn.html.j2:110
-#: template/learn.html.j2:132 template/learn.html.j2:154
-#: template/learn.html.j2:176 template/learn.html.j2:198
+#: template/explore.html.j2:98 template/learn.html.j2:62
+#: template/learn.html.j2:84 template/learn.html.j2:106
+#: template/learn.html.j2:128 template/learn.html.j2:150
+#: template/learn.html.j2:178 template/learn.html.j2:200
 msgid "Video by"
 msgstr ""
 
@@ -561,58 +561,58 @@ msgid "Tutorials"
 msgstr ""
 
 #: template/learn.html.j2:42
-msgid "General"
-msgstr ""
-
-#: template/learn.html.j2:76
-msgid "Routing"
-msgstr ""
-
-#: template/learn.html.j2:90
 msgid "Editing"
 msgstr ""
 
-#: template/learn.html.j2:105
+#: template/learn.html.j2:57
 msgid "Select/Stretch Tool"
 msgstr ""
 
-#: template/learn.html.j2:127
+#: template/learn.html.j2:79
 msgid "Edit Tool"
 msgstr ""
 
-#: template/learn.html.j2:149
+#: template/learn.html.j2:101
 msgid "Cut Tool"
 msgstr ""
 
-#: template/learn.html.j2:171
+#: template/learn.html.j2:123
 msgid "Ramp Tool"
 msgstr ""
 
-#: template/learn.html.j2:193
+#: template/learn.html.j2:145
 msgid "Looping regions"
 msgstr ""
 
-#: template/learn.html.j2:208
-msgid "Other"
+#: template/learn.html.j2:160
+msgid "Routing"
 msgstr ""
 
-#: template/learn.html.j2:219
+#: template/learn.html.j2:195
+msgid "Port Routing"
+msgstr ""
+
+#: template/learn.html.j2:210
+msgid "Walkthroughs"
+msgstr ""
+
+#: template/learn.html.j2:221
 msgid "French"
 msgstr ""
 
-#: template/learn.html.j2:222
+#: template/learn.html.j2:224
 msgid "Playlist by"
 msgstr ""
 
-#: template/learn.html.j2:233
+#: template/learn.html.j2:235
 msgid "Documentation"
 msgstr ""
 
-#: template/learn.html.j2:240
+#: template/learn.html.j2:242
 msgid "User Manual"
 msgstr ""
 
-#: template/learn.html.j2:243
+#: template/learn.html.j2:245
 msgid "Developer Reference"
 msgstr ""
 
@@ -633,7 +633,7 @@ msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
 "Zrythm is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3 or later</a>."
+"Public License, version 3</a>."
 msgstr ""
 
 #: template/legal.html.j2:50
