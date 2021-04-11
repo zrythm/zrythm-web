@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-13 16:59+0000\n"
-"PO-Revision-Date: 2021-02-08 11:50+0000\n"
-"Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
+"PO-Revision-Date: 2021-04-11 23:05+0000\n"
+"Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.5-dev\n"
 
 #: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -88,41 +88,43 @@ msgstr "Προστασία δεδομένων"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Ethereum"
-msgstr ""
+msgstr "Κάνετε δωρεά με Ethereum"
 
 #: common/footer.j2.inc:40
 msgid "Donate Ethereum (ETH)"
-msgstr ""
+msgstr "Δωρεά Ethereum (ETH)"
 
 #: common/footer.j2.inc:55
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Κάνετε δωρεά με Bitcoin"
 
 #: common/footer.j2.inc:65
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Δωρεά Bitcoin (BTC)"
 
 #: common/footer.j2.inc:79
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Κάνετε δωρεά με PayPal"
 
 #: common/footer.j2.inc:87
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "Κάνετε δωρεά με LiberaPay"
 
 #: common/footer.j2.inc:95
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Το Zrythm στο Mastodon"
 
 #: common/footer.j2.inc:108
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
+"Το Zrythm και το λογότυπο του Zrythm είναι κατοχυρωμένα εμπορικά σήματα του "
+"Αλέξανδρου Θεοδότου στο Ηνωμένο Βασίλειο."
 
 #: common/footer.j2.inc:109
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειες."
 
 #: common/footer.j2.inc:111 template/trademarks.html.j2:19
 msgid "Trademark Policy"
@@ -189,15 +191,15 @@ msgstr "Μήνυμα"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Ανακοινώσεις"
 
 #: template/community.html.j2:62
 msgid "User discussion"
-msgstr ""
+msgstr "Συζήτηση χρηστών"
 
 #: template/community.html.j2:65
 msgid "Development"
-msgstr ""
+msgstr "Ανάπτυξη"
 
 #: template/community.html.j2:69
 msgid "Project"
@@ -205,11 +207,11 @@ msgstr "Έργο"
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
-msgstr ""
+msgstr "Παρακολουθητής χαρακτηριστικών"
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "Παρακολουθητής σφαλμάτων"
 
 #: template/community.html.j2:82
 msgid "Translations"
@@ -257,7 +259,7 @@ msgstr "Δέσμη προσθέτων (βασικά)"
 
 #: template/download.html.j2:78
 msgid "Goes silent after 1 hour"
-msgstr ""
+msgstr "Τίθεται σε σίγαση μετά από 1 ώρα"
 
 #: template/download.html.j2:79
 msgid "Save/load is disabled"
@@ -352,7 +354,7 @@ msgstr "Λίστα χαρακτηριστικών, λειτουργικότητ�
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr "Demos"
+msgstr "Κομμάτια επίδειξης"
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
 #: template/explore.html.j2:90 template/learn.html.j2:51
@@ -393,11 +395,11 @@ msgstr "Σύνδεση οτιδήποτε σε οτιδήποτε."
 
 #: template/explore.html.j2:154
 msgid "Bounce in place"
-msgstr "Μετατροπή ήχου επί τόπου"
+msgstr "Μετατροπή ήχου επιτόπου"
 
 #: template/explore.html.j2:158
 msgid "Bounce in-place"
-msgstr "Μετατροπή ήχου επί τόπου"
+msgstr "Μετατροπή ήχου επιτόπου"
 
 #: template/explore.html.j2:163
 msgid "Quickly bounce selected material to audio."
@@ -413,29 +415,29 @@ msgstr "Αυτοματοποιήστε παραμέτρους με ίσιες γ
 
 #: template/explore.html.j2:190
 msgid "Screenshots"
-msgstr ""
+msgstr "Στιγμιότυπα οθόνης"
 
 #: template/explore.html.j2:198 template/explore.html.j2:215
 #: template/explore.html.j2:232
 msgid "Screenshot"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης"
 
 #: template/explore.html.j2:200
 msgid "Mixing"
-msgstr ""
+msgstr "Μίξη"
 
 #: template/explore.html.j2:205 template/explore.html.j2:222
 #: template/explore.html.j2:239
 msgid "Screenshot by"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης από"
 
 #: template/explore.html.j2:217
 msgid "Audio Editor"
-msgstr ""
+msgstr "Επεξεργαστής ήχου"
 
 #: template/explore.html.j2:234
 msgid "Localized UI"
-msgstr ""
+msgstr "Τοπικοποιημένη διεπαφή χρήστη"
 
 #: template/explore.html.j2:249
 msgid "Reviews"
@@ -443,7 +445,7 @@ msgstr "Κριτικές"
 
 #: template/explore.html.j2:257
 msgid "unfa livestream: Making a track with Zrythm"
-msgstr ""
+msgstr "Ζωντανή μετάδοση του unfa: δημιουργία ενός κομματιού με το Zrythm"
 
 #: template/explore.html.j2:265
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -541,6 +543,10 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Λειτουγεί πλήρως με <a href=\"https://jackaudio.org/\">JACK</a>, ενώ "
+"συμπεριλαμβάνεται υποστήριξη για <a href=\"https://pipewire.org/\">PipeWire</"
+"a>, JACK transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMIDI και "
+"CoreAudio."
 
 #: template/index.html.j2:132
 msgid "Chord assistance"
@@ -579,6 +585,9 @@ msgid ""
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
+"Διαθέσιμο σε <a href=\"https://hosted.weblate.org/engage/zrythm/\">πολλαπλές "
+"γλώσσες</a>, όπως Αγγλικά, Γαλλικά, Ισπανικά, Πορτογαλικά, Ιαπωνικά και "
+"Γερμανικά."
 
 #: template/index.html.j2:184
 msgid "Learn more"
@@ -594,6 +603,9 @@ msgid ""
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
+"Δεν υπάρχουν δημόσιοι χορηγοί. <a href=\"mailto:&#115;&#112;&#111;&#110;&#115"
+";&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#10"
+"3;\">Επικοινωνήστε μαζί μας</a> αν θα θέλατε να γίνετε χορηγός."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
