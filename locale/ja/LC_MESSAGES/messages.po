@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-13 16:59+0000\n"
-"PO-Revision-Date: 2021-03-18 10:18+0000\n"
+"PO-Revision-Date: 2021-04-18 14:00+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
 "\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:400
@@ -137,9 +137,8 @@ msgstr ""
 "リブレソフトウェア, サウンドエディタ, 作曲, MIDI, LV2, JACK"
 
 #: common/navigation.j2.inc:27
-#, fuzzy
 msgid "Home"
-msgstr "ホーム"
+msgstr "トップ"
 
 #: common/navigation.j2.inc:33 template/download.html.j2:19
 #: template/download.html.j2:33
@@ -256,7 +255,7 @@ msgstr "同梱のプラグイン(基本)"
 
 #: template/download.html.j2:78
 msgid "Goes silent after 1 hour"
-msgstr ""
+msgstr "1時間後に無音になる"
 
 #: template/download.html.j2:79
 msgid "Save/load is disabled"
@@ -430,7 +429,7 @@ msgstr "オーディオエディタ"
 
 #: template/explore.html.j2:234
 msgid "Localized UI"
-msgstr ""
+msgstr "ローカライズされたUI"
 
 #: template/explore.html.j2:249
 msgid "Reviews"
@@ -525,6 +524,10 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"<a href=\"https://pipewire.org/\"> PipeWire "
+"</a>、JACKトランスポート、ALSA、PulseAudio、WASAPI、Windows "
+"MME、CoreMidi、CoreAudioサポートに加え、完全な<a href=\"https://jackaudio.org/\"> JACK "
+"</a>対応。"
 
 #: template/index.html.j2:132
 msgid "Chord assistance"
@@ -560,6 +563,8 @@ msgid ""
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
+"英語、フランス語、スペイン語、ポルトガル語、日本語、ドイツ語を含む<a href=\"https://hosted.weblate.org/engage/"
+"zrythm/\">複数の言語</a>で利用可能。"
 
 #: template/index.html.j2:184
 msgid "Learn more"
@@ -575,6 +580,9 @@ msgid ""
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
+"公的スポンサーはありません。スポンサーになりたい場合は <a href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#"
+"111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;"
+"\">お問い合わせください</a>。"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
