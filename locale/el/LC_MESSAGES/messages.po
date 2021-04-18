@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-30 22:18+0100\n"
+"POT-Creation-Date: 2021-04-18 14:39+0100\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -20,57 +20,57 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: template.py:400
+#: template.py:329
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "Το ZChordz χαρτογραφεί τις συγχορδίες ελάσσονος ή μείζονος κλίμακας σε λευκά"
 " πλήκτρα"
 
-#: template.py:401
+#: template.py:330
 msgid "Major or minor scale"
 msgstr "Μείζων ή ελάσσων κλίμακα"
 
-#: template.py:402
+#: template.py:331
 msgid "Velocity multiplier per note"
 msgstr "Πολλαπλασιαστής ταχύτητας ανά νότα"
 
-#: template.py:406
+#: template.py:335
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "Το ZLFO είναι ένα πλήρες LFO για αυτοματισμό βασισμένο σε CV"
 
-#: template.py:407
+#: template.py:336
 msgid "Multi-oscillator with custom wave"
 msgstr "Πολυ-ταλαντωτής με προσαρμοσμένο κύμα"
 
-#: template.py:408
+#: template.py:337
 msgid "Phase shift"
 msgstr "Μετατόπιση φάσης"
 
-#: template.py:409
+#: template.py:338
 msgid "Vertical/horizontal inversion"
 msgstr "Κάθετη/οριζόντια αναστροφή"
 
-#: template.py:410
+#: template.py:339
 msgid "Step mode"
 msgstr "Λειτουργία βημάτων"
 
-#: template.py:411
+#: template.py:340
 msgid "Editable range"
 msgstr "Επεξεργάσιμο εύρος"
 
-#: template.py:412
+#: template.py:341
 msgid "Sync to host or free-form"
 msgstr "Συγχρονισμός με τον εξυπηρετητή ή ελεύθερη μορφή"
 
-#: template.py:415
+#: template.py:344
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "Το ZSaw είναι supersaw συνθεσάιζερ με 1 παράμετρο"
 
-#: template.py:416
+#: template.py:345
 msgid "7 sawtooth oscillators"
 msgstr "7 ταλαντωτές sawtooth"
 
-#: template.py:417
+#: template.py:346
 msgid "Single knob to control detune"
 msgstr "Μονός περιστροφικός επιλογέας για έλεγχο αποσυντονισμού"
 
@@ -120,50 +120,47 @@ msgstr ""
 msgid "Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων"
 
-#: common/header.j2.inc:24
+#: common/header.j2.inc:30
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK"
+"LV2, JACK, VST, audio plugin"
 msgstr ""
-"DAW, ψηφιακός σταθμός επεξεργασίας ήχου, μουσική παραγωγή, ήχος, "
-"επαγγελματικός ήχος, Linux, GNU/Linux, ελεύθερο λογισμικό, επεξεργαστής "
-"ήχου, σύνθεση, MIDI, LV2, JACK"
 
-#: common/navigation.j2.inc:27
+#: common/navigation.j2.inc:28
 msgid "Home"
 msgstr "Αρχική"
 
-#: common/navigation.j2.inc:33 template/download.html.j2:19
+#: common/navigation.j2.inc:34 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
 msgstr "Λήψη"
 
-#: common/navigation.j2.inc:39 template/explore.html.j2:19
+#: common/navigation.j2.inc:40 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
 msgstr "Εξερεύνηση"
 
-#: common/navigation.j2.inc:45 template/learn.html.j2:19
+#: common/navigation.j2.inc:46 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
 msgstr "Μάθηση"
 
-#: common/navigation.j2.inc:51 template/plugins.html.j2:19
+#: common/navigation.j2.inc:52 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
 msgstr "Πρόσθετα"
 
-#: common/navigation.j2.inc:57 template/community.html.j2:19
+#: common/navigation.j2.inc:58 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
 msgstr "Κοινότητα"
 
-#: common/navigation.j2.inc:63
+#: common/navigation.j2.inc:64
 msgid "Forum"
 msgstr "Φόρουμ"
 
-#: common/navigation.j2.inc:81
+#: common/navigation.j2.inc:83
 msgid "Language"
 msgstr "Γλώσσα"
 

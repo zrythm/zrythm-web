@@ -22,48 +22,50 @@ GNU Affero General Public License for more details.
        alt="Logo">
     </img>
   </a>
-  <a href="{{ url(lang + '/index.html') }}"
-     class="button">
-    {% trans %}
-    Home
-    {% endtrans %}
-  </a>
-  <a href="{{ url(lang + '/download.html') }}"
-     class="button">
-    {% trans %}
-    Download
-    {% endtrans %}
-  </a>
-  <a href="{{ url(lang + '/explore.html') }}"
-     class="button">
-    {% trans %}
-    Explore
-    {% endtrans %}
-  </a>
-  <a href="{{ url(lang + '/learn.html') }}"
-     class="button">
-    {% trans %}
-    Learn
-    {% endtrans %}
-  </a>
-  <a href="{{ url(lang + '/plugins.html') }}"
-     class="button">
-    {% trans %}
-    Plugins
-    {% endtrans %}
-  </a>
-  <a href="{{ url(lang + '/community.html') }}"
-     class="button">
-    {% trans %}
-    Community
-    {% endtrans %}
-  </a>
-  <a href="https://forum.zrythm.org"
-     class="button">
-    {% trans %}
-    Forum
-    {% endtrans %}
-  </a>
+  <nav>
+    <a href="{{ url(lang + '/index.html') }}"
+       class="button">
+      {% trans %}
+      Home
+      {% endtrans %}
+    </a>
+    <a href="{{ url(lang + '/download.html') }}"
+       class="button">
+      {% trans %}
+      Download
+      {% endtrans %}
+    </a>
+    <a href="{{ url(lang + '/explore.html') }}"
+       class="button">
+      {% trans %}
+      Explore
+      {% endtrans %}
+    </a>
+    <a href="{{ url(lang + '/learn.html') }}"
+       class="button">
+      {% trans %}
+      Learn
+      {% endtrans %}
+    </a>
+    <a href="{{ url(lang + '/plugins.html') }}"
+       class="button">
+      {% trans %}
+      Plugins
+      {% endtrans %}
+    </a>
+    <a href="{{ url(lang + '/community.html') }}"
+       class="button">
+      {% trans %}
+      Community
+      {% endtrans %}
+    </a>
+    <a href="https://forum.zrythm.org"
+       class="button">
+      {% trans %}
+      Forum
+      {% endtrans %}
+    </a>
+  </nav>
   <label for="modal-control"
      class="button globe">
     <img class="logo_img" width=28

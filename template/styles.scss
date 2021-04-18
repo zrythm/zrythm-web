@@ -17,6 +17,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+nav {
+  display: contents;
+  border: unset;
+}
+
+:root {
+  --nav-link-color: unset;
+}
+
 .logo_img {
   vertical-align: middle;
   width: 28;

@@ -1,3 +1,3 @@
 User-agent: *
 Crawl-delay: 10
-sitemap: https://www.zrythm.org/en/sitemap.xml
+sitemap: https://www.zrythm.org/sitemap.xml

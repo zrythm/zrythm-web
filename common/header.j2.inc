@@ -16,12 +16,18 @@ GNU Affero General Public License for more details.
 
 <meta charset="UTF-8"/>
 {% for key in langs_full.keys() %}
-  <link rel="alternate" hreflang="{{ key }}" href="{{ self_localized(key) }}" />
+<link rel="alternate" hreflang="{{ key }}" href="{{ self_localized(key) }}" />
 {% endfor %}
+
+<!-- OpenGraph -->
+<meta name="og:title" content="Zrythm DAW">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.zrythm.org/en/index.html" />
+<meta property="og:image" content="{{ screenshot }}" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Alexandros Theodotou">
-<meta name="keywords" content="{{ _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK') }}">
+<meta name="keywords" content="{{ _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK, VST, audio plugin') }}">
 <link rel="icon" href="{{ url('static/favicon.ico') }}">
 
 <!-- mini.css -->

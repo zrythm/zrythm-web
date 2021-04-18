@@ -258,6 +258,13 @@ check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
 check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
 print ('done')
 
+def url(x):
+    # TODO: look at the app root environment variable
+    # TODO: check if file exists
+    return "../" + x
+
+screenshot = url('static/images/feb-20-2021.png')
+
 class Plugin:
     def __init__(self,name,is_img_static,img,summary,features):
         self.name = name
@@ -285,84 +292,6 @@ for in_file in glob.glob("template/*.j2"):
             return "../" + filename + ".svg"
         else:
             return "../" + lf
-
-    # truncate html for news
-    # taken from https://djangosnippets.org/snippets/1477/ under the
-    # terms of service states that "you grant any third party who sees the code
-    # you post a royalty-free, non-exclusive license to copy and distribute
-    # that code and to make and distribute derivative works based on that code"
-    import re
-    tag_end_re = re.compile(r'(\w+)[^>]*>')
-    entity_end_re = re.compile(r'(\w+;)')
-    def truncatehtml(string, length, ellipsis='...'):
-        """Truncate HTML string, preserving tag structure and character entities."""
-        length = int(length)
-        output_length = 0
-        i = 0
-        pending_close_tags = {}
-
-        while output_length < length and i < len(string):
-            c = string[i]
-
-            if c == '<':
-                # probably some kind of tag
-                if i in pending_close_tags:
-                    # just pop and skip if it's closing tag we already knew about
-                    i += len(pending_close_tags.pop(i))
-                else:
-                    # else maybe add tag
-                    i += 1
-                    match = tag_end_re.match(string[i:])
-                    if match:
-                        tag = match.groups()[0]
-                        i += match.end()
-
-                        # save the end tag for possible later use if there is one
-                        match = re.search(r'(</' + tag + '[^>]*>)', string[i:], re.IGNORECASE)
-                        if match:
-                            pending_close_tags[i + match.start()] = match.groups()[0]
-                    else:
-                        output_length += 1 # some kind of garbage, but count it in
-
-            elif c == '&':
-                # possible character entity, we need to skip it
-                i += 1
-                match = entity_end_re.match(string[i:])
-                if match:
-                    i += match.end()
-
-                # this is either a weird character or just '&', both count as 1
-                output_length += 1
-            else:
-                # plain old characters
-
-                skip_to = string.find('<', i, i + length)
-                if skip_to == -1:
-                    skip_to = string.find('&', i, i + length)
-                if skip_to == -1:
-                    skip_to = i + length
-
-                # clamp
-                delta = min(skip_to - i,
-                            length - output_length,
-                            len(string) - i)
-
-                output_length += delta
-                i += delta
-
-        output = [string[:i]]
-        if output_length == length:
-            output.append(ellipsis)
-
-        for k in sorted(pending_close_tags.keys()):
-            output.append(pending_close_tags[k])
-
-        return "".join(output)
-
-    def url(x):
-        # TODO: look at the app root environment variable
-        # TODO: check if file exists
-        return "../" + x
 
     # remove fuzzies
     for dirname, dirnames, filenames in os.walk('locale'):
@@ -443,7 +372,7 @@ for in_file in glob.glob("template/*.j2"):
                               self_localized=self_localized,
                               url_localized=url_localized,
                               svg_localized=svg_localized,
-                              truncatehtml=truncatehtml,
+                              screenshot=screenshot,
                               filename=name + "." + ext)
         out_name = "./rendered/" + locale + "/" + in_file.replace('template/', '').rstrip(".j2")
         os.makedirs("./rendered/" + locale, exist_ok=True)

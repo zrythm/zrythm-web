@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-30 22:18+0100\n"
+"POT-Creation-Date: 2021-04-18 14:39+0100\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: template.py:400
+#: template.py:329
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea os acordes dunha escala maior ou menor nas teclas brancas"
 
-#: template.py:401
+#: template.py:330
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:402
+#: template.py:331
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador da intensidade por nota"
 
-#: template.py:406
+#: template.py:335
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO é un LFO completo para automatización baseada en CV"
 
-#: template.py:407
+#: template.py:336
 msgid "Multi-oscillator with custom wave"
 msgstr "Oscilador múltiple con onda personalizada"
 
-#: template.py:408
+#: template.py:337
 msgid "Phase shift"
 msgstr "Invertir fase"
 
-#: template.py:409
+#: template.py:338
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:410
+#: template.py:339
 msgid "Step mode"
 msgstr "Modo escalonado"
 
-#: template.py:411
+#: template.py:340
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:412
+#: template.py:341
 msgid "Sync to host or free-form"
 msgstr "Sincronizar ou forma libre"
 
-#: template.py:415
+#: template.py:344
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é un sintetizador de supersaw cun único parámetro"
 
-#: template.py:416
+#: template.py:345
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores dente de serra"
 
-#: template.py:417
+#: template.py:346
 msgid "Single knob to control detune"
 msgstr "Un único botón para controlar a desafinación"
 
@@ -118,50 +118,47 @@ msgstr ""
 msgid "Trademark Policy"
 msgstr ""
 
-#: common/header.j2.inc:24
+#: common/header.j2.inc:30
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK"
+"LV2, JACK, VST, audio plugin"
 msgstr ""
-"DAW, estación de traballo de audio dixital, produción musical, son, son "
-"profesional, Linux, GNU/Linux, software libre, editor de son, composición, "
-"MIDI, LV2, JACK"
 
-#: common/navigation.j2.inc:27
+#: common/navigation.j2.inc:28
 msgid "Home"
 msgstr "Inicio"
 
-#: common/navigation.j2.inc:33 template/download.html.j2:19
+#: common/navigation.j2.inc:34 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
 msgstr "Descargar"
 
-#: common/navigation.j2.inc:39 template/explore.html.j2:19
+#: common/navigation.j2.inc:40 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
 msgstr "Explorar"
 
-#: common/navigation.j2.inc:45 template/learn.html.j2:19
+#: common/navigation.j2.inc:46 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
 msgstr "Aprender"
 
-#: common/navigation.j2.inc:51 template/plugins.html.j2:19
+#: common/navigation.j2.inc:52 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
 msgstr "Plugins"
 
-#: common/navigation.j2.inc:57 template/community.html.j2:19
+#: common/navigation.j2.inc:58 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
 msgstr "Comunidade"
 
-#: common/navigation.j2.inc:63
+#: common/navigation.j2.inc:64
 msgid "Forum"
 msgstr "Foro"
 
-#: common/navigation.j2.inc:81
+#: common/navigation.j2.inc:83
 msgid "Language"
 msgstr "Idioma"
 
