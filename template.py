@@ -91,8 +91,9 @@ langs_full = {
         "pl": "Polski",
         "pt": "Português",
         "pt_BR": "Português BR",
-        "ru": "русский",
+        "ru": "Ру́сский",
         "sv": "Svenska",
+        "uk": "Українська",
         "zh_Hans": "简体中文",
         "zh_Hant": "繁體中文",
         }
