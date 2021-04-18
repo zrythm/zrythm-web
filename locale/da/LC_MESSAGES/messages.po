@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-18 14:39+0100\n"
+"POT-Creation-Date: 2021-04-18 15:10+0100\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/zrythm/web/da/>\n"
@@ -341,7 +341,7 @@ msgstr ""
 #: template/explore.html.j2:90 template/learn.html.j2:52
 #: template/learn.html.j2:74 template/learn.html.j2:96
 #: template/learn.html.j2:118 template/learn.html.j2:140
-#: template/learn.html.j2:170 template/learn.html.j2:190
+#: template/learn.html.j2:170 template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
 msgstr ""
 
@@ -349,7 +349,7 @@ msgstr ""
 #: template/explore.html.j2:98 template/learn.html.j2:62
 #: template/learn.html.j2:84 template/learn.html.j2:106
 #: template/learn.html.j2:128 template/learn.html.j2:150
-#: template/learn.html.j2:178 template/learn.html.j2:200
+#: template/learn.html.j2:180 template/learn.html.j2:202
 msgid "Video by"
 msgstr ""
 
@@ -590,31 +590,35 @@ msgstr ""
 msgid "Routing"
 msgstr ""
 
-#: template/learn.html.j2:195
+#: template/learn.html.j2:175
+msgid "FX Sends"
+msgstr ""
+
+#: template/learn.html.j2:197
 msgid "Port Routing"
 msgstr ""
 
-#: template/learn.html.j2:210
+#: template/learn.html.j2:212
 msgid "Walkthroughs"
 msgstr ""
 
-#: template/learn.html.j2:221
+#: template/learn.html.j2:223
 msgid "French"
 msgstr ""
 
-#: template/learn.html.j2:224
+#: template/learn.html.j2:226
 msgid "Playlist by"
 msgstr ""
 
-#: template/learn.html.j2:235
+#: template/learn.html.j2:237
 msgid "Documentation"
 msgstr ""
 
-#: template/learn.html.j2:242
+#: template/learn.html.j2:244
 msgid "User Manual"
 msgstr ""
 
-#: template/learn.html.j2:245
+#: template/learn.html.j2:247
 msgid "Developer Reference"
 msgstr ""
 
@@ -645,11 +649,25 @@ msgid ""
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
-#: template/legal.html.j2:63
+#: template/legal.html.j2:56
+msgid ""
+"The <em>Richard Stallman: Free software, free society</em> video is licensed"
+" under Creative Commons BY-SA-ND 3.0."
+msgstr ""
+
+#: template/legal.html.j2:60
+msgid ""
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
+"himself and Ynternet.org foundation."
+msgstr ""
+
+#: template/legal.html.j2:68
 msgid "Trademarks"
 msgstr ""
 
-#: template/legal.html.j2:69
+#: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
 
