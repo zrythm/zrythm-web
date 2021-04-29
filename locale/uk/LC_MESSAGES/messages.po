@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-14 05:07+0000\n"
-"PO-Revision-Date: 2021-04-21 16:29+0000\n"
+"PO-Revision-Date: 2021-04-30 08:31+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
 "\n"
@@ -411,10 +411,10 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythm - це цифрова звукова робоча станція, створена функціональною й "
-"простою у використанні. Вона забезпечує безлімітну автоматизацію, підтримує "
-"LV2-розширення, працює з аудіобекендом JACK і забезпечує легкість в роботі з"
-" акордами."
+"Zrythm - це цифрова звукова робоча станція, функціональна й проста у "
+"використанні. Вона забезпечує необмежену автоматизацію, підтримує LV2-"
+"розширення, працює з аудіобекендом JACK і забезпечує легкість в роботі з "
+"акордами."
 
 #: template/index.html.j2:33
 msgid "Zrythm"
@@ -453,7 +453,7 @@ msgstr ""
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr "Безмежна автоматизація"
+msgstr "Необмежена автоматизація"
 
 #: template/index.html.j2:81
 msgid ""
@@ -466,7 +466,7 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr "Звукорозширення"
+msgstr "Аудіо-розширення"
 
 #: template/index.html.j2:99
 msgid ""
