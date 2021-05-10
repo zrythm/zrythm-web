@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-18 17:45+0100\n"
+"POT-Creation-Date: 2021-05-10 10:11+0100\n"
 "PO-Revision-Date: 2020-11-14 04:34+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -117,7 +117,12 @@ msgstr ""
 msgid "Trademark Policy"
 msgstr ""
 
-#: common/header.j2.inc:30
+#: common/header.j2.inc:24
+#| msgid "a highly automated and intuitive digital audio workstation"
+msgid "A highly automated and intuitive digital audio workstation"
+msgstr ""
+
+#: common/header.j2.inc:31
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
@@ -433,8 +438,8 @@ msgstr ""
 
 #: template/explore.html.j2:273
 msgid ""
-"Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
-"digital audio workstation"
+"Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
+"freedom] digital audio workstation"
 msgstr ""
 
 #: template/index.html.j2:19

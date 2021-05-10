@@ -21,6 +21,7 @@ GNU Affero General Public License for more details.
 
 <!-- OpenGraph -->
 <meta name="og:title" content="Zrythm DAW">
+<meta property="og:description" content="{{ _('A highly automated and intuitive digital audio workstation.') }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zrythm.org/en/index.html" />
 <meta property="og:image" content="{{ screenshot }}" />

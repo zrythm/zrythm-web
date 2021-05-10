@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-18 17:45+0100\n"
+"POT-Creation-Date: 2021-05-10 10:11+0100\n"
 "PO-Revision-Date: 2021-04-11 23:05+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -122,7 +122,12 @@ msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειε
 msgid "Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων"
 
-#: common/header.j2.inc:30
+#: common/header.j2.inc:24
+#| msgid "a highly automated and intuitive digital audio workstation"
+msgid "A highly automated and intuitive digital audio workstation"
+msgstr ""
+
+#: common/header.j2.inc:31
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
@@ -442,11 +447,9 @@ msgstr "Άρθρο από το τεύχος 229/2019 του Linux Magazine"
 
 #: template/explore.html.j2:273
 msgid ""
-"Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
-"digital audio workstation"
+"Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
+"freedom] digital audio workstation"
 msgstr ""
-"Phoronix news: Το Zrythm πλησιάζει την έκδοση beta ως ένας έυκολος, ανοιχτού"
-" κώδικα ψηφιακός σταθμός επεξεργασίας ήχου"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
