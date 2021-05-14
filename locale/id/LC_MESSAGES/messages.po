@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-01-23 17:11+0000\n"
-"PO-Revision-Date: 2021-05-03 07:31+0000\n"
+"PO-Revision-Date: 2021-05-14 21:35+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/"
 ">\n"
@@ -408,7 +408,7 @@ msgstr ""
 
 #: template/explore.html.j2:184
 msgid "Screenshots"
-msgstr ""
+msgstr "Cuplikan"
 
 #: template/explore.html.j2:192 template/explore.html.j2:209
 msgid "Screenshot"
@@ -420,23 +420,23 @@ msgstr ""
 
 #: template/explore.html.j2:199 template/explore.html.j2:216
 msgid "Screenshot by"
-msgstr ""
+msgstr "Tangkapan layar oleh"
 
 #: template/explore.html.j2:211
 msgid "Audio Editor"
-msgstr ""
+msgstr "Editor Audio"
 
 #: template/explore.html.j2:226
 msgid "Reviews"
-msgstr ""
+msgstr "Ulasan"
 
 #: template/explore.html.j2:234
 msgid "unfa livestream: Making a track with Zrythm"
-msgstr ""
+msgstr "unfa livestream: Membuat lagu dengan Zrythm"
 
 #: template/explore.html.j2:242
 msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr ""
+msgstr "Artikel dari Edisi 229/2019 Linux Magazine"
 
 #: template/explore.html.j2:250
 msgid ""
@@ -446,7 +446,7 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Workstation Audio Digital"
 
 #: template/index.html.j2:22
 msgid ""
@@ -457,15 +457,15 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "Workstation audio digital yang sangat otomatis dan intuitif"
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr ""
+msgstr "Ikhtisar"
 
 #: template/index.html.j2:57
 msgid ""
@@ -475,17 +475,19 @@ msgstr ""
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm bisa gunakan di GNU / Linux, FreeBSD, MacOS dan Windows"
 
 #: template/index.html.j2:64
 msgid ""
 "A DAW is used for composing, recording, editing, arranging, mixing and "
 "mastering music"
 msgstr ""
+"DAW digunakan untuk membuat, merekam, mengedit, mengatur, mixing, dan "
+"menguasai musik"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr ""
+msgstr "Otomatisasi tanpa batas"
 
 #: template/index.html.j2:81
 msgid ""
@@ -495,17 +497,19 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr ""
+msgstr "Plugin audio"
 
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"Dukungan penuh <a href=\"https://lv2plug.in/\"> LV2 </a> dan VST2, dengan "
+"dukungan eksperimental untuk VST3, AU, SFZ dan SF2."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr ""
+msgstr "Dukungan multi-backend"
 
 #: template/index.html.j2:118
 msgid ""
@@ -515,7 +519,7 @@ msgstr ""
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
-msgstr ""
+msgstr "Asisten akord"
 
 #: template/index.html.j2:136
 msgid ""
@@ -533,10 +537,13 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm adalah perangkat lunak bebas <a href=\"https://www.zrythm.org/videos/"
+"TEDxGE2014_Stallman05_LQ.webm\"></a>. Gunakan, pelajari, bagikan, dan "
+"tingkatkan dengan bebas."
 
 #: template/index.html.j2:168
 msgid "Multilingual"
-msgstr ""
+msgstr "Multi bahasa"
 
 #: template/index.html.j2:173
 msgid ""
@@ -547,11 +554,11 @@ msgstr ""
 
 #: template/index.html.j2:183
 msgid "Learn more"
-msgstr ""
+msgstr "Pelajari lebih"
 
 #: template/index.html.j2:190
 msgid "Sponsors"
-msgstr ""
+msgstr "Sponsor"
 
 #: template/index.html.j2:195
 msgid ""
@@ -561,11 +568,11 @@ msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Halaman referensi Zrythm - panduan pengguna - tutorial"
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutorial"
 
 #: template/learn.html.j2:42
 msgid "General"
@@ -573,11 +580,11 @@ msgstr ""
 
 #: template/learn.html.j2:76
 msgid "Routing"
-msgstr ""
+msgstr "Routing"
 
 #: template/learn.html.j2:90
 msgid "Editing"
-msgstr ""
+msgstr "Pengeditan"
 
 #: template/learn.html.j2:104
 msgid "Select/Stretch Tool"
@@ -605,35 +612,35 @@ msgstr ""
 
 #: template/learn.html.j2:215
 msgid "French"
-msgstr ""
+msgstr "Perancis"
 
 #: template/learn.html.j2:218
 msgid "Playlist by"
-msgstr ""
+msgstr "Daftar putar oleh"
 
 #: template/learn.html.j2:229
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasi"
 
 #: template/learn.html.j2:236
 msgid "User Manual"
-msgstr ""
+msgstr "Panduan pengguna"
 
 #: template/learn.html.j2:239
 msgid "Developer Reference"
-msgstr ""
+msgstr "Referensi Pengembang"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Informasi Legal"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Informasi legal, lisensi dan merek dagang"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Lisensi"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -652,32 +659,32 @@ msgstr ""
 
 #: template/legal.html.j2:63
 msgid "Trademarks"
-msgstr ""
+msgstr "Merek dagang"
 
 #: template/legal.html.j2:69
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm dan logo Zrythm adalah merek dagang dari Alexandros Theodotou."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Plugin yang dibundel dengan Zrythm"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} tangkapan layar"
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
+msgstr "Spesifikasi teknis"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Kebijakan Privasi"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Terima kasih"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
@@ -694,8 +701,8 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
+msgstr "Kembali ke beranda"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Kebijakan Merek Dagang Zrythm"
