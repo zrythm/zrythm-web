@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-12 01:08+0100\n"
-"PO-Revision-Date: 2021-03-11 13:52+0000\n"
+"PO-Revision-Date: 2021-04-30 08:31+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: template.py:330
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -459,8 +459,8 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythm - це цифрова звукова робоча станція, створена функціональною й "
-"простою у використанні. Вона забезпечує безлімітну автоматизацію, підтримує "
+"Zrythm - це цифрова звукова робоча станція, функціональна й проста у "
+"використанні. Вона забезпечує необмежену автоматизацію, підтримує "
 "LV2-розширення, працює з аудіобекендом JACK і забезпечує легкість в роботі з"
 " акордами."
 
@@ -501,7 +501,7 @@ msgstr ""
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr "Безмежна автоматизація"
+msgstr "Необмежена автоматизація"
 
 #: template/index.html.j2:81
 msgid ""
@@ -514,7 +514,7 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr "Звукорозширення"
+msgstr "Аудіо-розширення"
 
 #: template/index.html.j2:99
 msgid ""
@@ -534,6 +534,8 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Повністю включає <a href=\"https://jackaudio.org/\">JACK</a> включаючи JACK-"
+"транспорт, ALSA, WASAPI, Windows MME, CoreMidi та CoreAudio."
 
 #: template/index.html.j2:132
 msgid "Chord assistance"
@@ -764,3 +766,30 @@ msgstr "Політика щодо торгових знаків Zrythm"
 
 #~ msgid "General"
 #~ msgstr "Загальне"
+
+#~ msgid "Users"
+#~ msgstr "Користувачі"
+
+#~ msgid "Developers"
+#~ msgstr "Розробники"
+
+#~ msgid "Issue tracker"
+#~ msgstr "Зневаджувач"
+
+#~ msgid "Goes silent after 30 minutes"
+#~ msgstr "Знешумлення через 30 хвилин"
+
+#~ msgid "Basic demo"
+#~ msgstr "Основна демонстрація"
+
+#~ msgid "Just For Kicks"
+#~ msgstr "Заради забавки"
+
+#~ msgid "Zrythm + BJumblr jam"
+#~ msgstr "Zrythm + BJumblr jam"
+
+#~ msgid "For River (Piano)"
+#~ msgstr "Для Райвер (піаніно)"
+
+#~ msgid "unfa livestream: Synthesizing snare drums with Geonkick"
+#~ msgstr "unfa livestream: Синтезувальні барабани з Geonkick"
