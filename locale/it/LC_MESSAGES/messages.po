@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-10 10:11+0100\n"
+"POT-Creation-Date: 2021-05-12 01:08+0100\n"
 "PO-Revision-Date: 2021-02-20 00:50+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -118,8 +118,7 @@ msgid "Trademark Policy"
 msgstr ""
 
 #: common/header.j2.inc:24
-#| msgid "a highly automated and intuitive digital audio workstation"
-msgid "A highly automated and intuitive digital audio workstation"
+msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
 
 #: common/header.j2.inc:31
