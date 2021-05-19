@@ -205,6 +205,15 @@ div#banner-content {
   cursor: pointer; }
 
 /*Uncomment for banner */
+div#body_content {
+  padding-top: 3.1875rem; }
+
+/* Set banner link color */
+/*
+#banner-content a {
+  color: #0277bd;
+}
+*/
 /* Snow effect. see
  * https://designshack.net/articles/css/make-it-snow-on-your-website-with-css-keyframe-animations/ */
 /*

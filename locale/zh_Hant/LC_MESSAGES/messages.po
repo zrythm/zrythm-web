@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-12 01:08+0100\n"
+"POT-Creation-Date: 2021-05-19 20:01+0100\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -70,6 +70,12 @@ msgstr "七個鋸齒波振盪器"
 #: template.py:347
 msgid "Single knob to control detune"
 msgstr "有一個旋鈕可以控制 detune"
+
+#: common/base.j2:29
+msgid ""
+"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
+"round"
+msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"

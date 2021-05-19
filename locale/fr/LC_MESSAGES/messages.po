@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-12 01:08+0100\n"
+"POT-Creation-Date: 2021-05-19 20:01+0100\n"
 "PO-Revision-Date: 2021-03-14 18:02+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -72,6 +72,12 @@ msgstr "7 oscillateurs en dents de scie"
 #: template.py:347
 msgid "Single knob to control detune"
 msgstr "Un seul bouton pour contrôler le désaccord"
+
+#: common/base.j2:29
+msgid ""
+"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
+"round"
+msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"

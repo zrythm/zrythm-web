@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-12 01:08+0100\n"
+"POT-Creation-Date: 2021-05-19 20:01+0100\n"
 "PO-Revision-Date: 2021-02-20 00:50+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -72,6 +72,12 @@ msgstr "7 Sägezahn-Oszillatoren"
 #: template.py:347
 msgid "Single knob to control detune"
 msgstr "Ein einziger Knopf zum Kontrollieren der Stimmung"
+
+#: common/base.j2:29
+msgid ""
+"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
+"round"
+msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
