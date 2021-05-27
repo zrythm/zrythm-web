@@ -51,6 +51,28 @@ GNU Affero General Public License for more details.
               </p>
             </div>
           </div>
+         <label for="donate-monero"
+                class="crypto_donation_label"
+                title="{{ _('Donate using Monero') }}">
+            <img
+               class="footer_btn2"
+               alt="Donate using Bitcoin"
+               src="{{ url('dist/font-awesome/monero.svg') }}">
+          </label>
+          <input type="checkbox" id="donate-monero" class="modal">
+          <div>
+            <div class="card fluid centered">
+              <label for="donate-monero" class="modal-close" ></label>
+              <h3 class="section">{{ _('Donate Monero (XMR)') }}</h3>
+              <p>
+                <img class="qr_code"
+                     src="{{ url('static/images/monero_qr.png') }}">
+                <br>
+                XMR address: <small>87YVi6nqwDhAQwfAuB8a7UeD6wrr81PJG4yBxkkGT3Ri5ng9D1E91hdbCCQsi3ZzRuXiX3aRWesS95S8ij49YMBKG3oEfnr</small>
+                <br>
+              </p>
+            </div>
+          </div>
           <a rel="payment"
              title="{{ _('Donate using PayPal') }}"
              href="https://paypal.me/zrythm">

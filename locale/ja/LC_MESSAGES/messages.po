@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-19 20:01+0100\n"
+"POT-Creation-Date: 2021-05-26 06:41+0100\n"
 "PO-Revision-Date: 2021-04-18 14:00+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -98,29 +98,37 @@ msgstr "ビットコインを使用して寄付する"
 msgid "Donate Bitcoin (BTC)"
 msgstr "ビットコイン（BTC）を寄付する"
 
-#: common/footer.j2.inc:55
+#: common/footer.j2.inc:56
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:66
+msgid "Donate Monero (XMR)"
+msgstr ""
+
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "PayPalを使用して寄付する"
 
-#: common/footer.j2.inc:63
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "LiberaPayを使用して寄付する"
 
-#: common/footer.j2.inc:71
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm@Mastodon"
 
-#: common/footer.j2.inc:84
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr "ZrythmおよびZrythmのロゴは、英国におけるAlexandrosTheodotouの登録商標です。"
 
-#: common/footer.j2.inc:85
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "詳細については、{trademarkpolicy}を参照してください。"
 
-#: common/footer.j2.inc:87 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "商標ポリシー"
 
@@ -183,35 +191,35 @@ msgstr "Zrythmのコミュニティページとコミュニケーションチャ
 msgid "Chat"
 msgstr "チャット"
 
-#: template/community.html.j2:52
+#: template/community.html.j2:50
 msgid "Mail"
 msgstr "メール"
 
-#: template/community.html.j2:59
+#: template/community.html.j2:57
 msgid "Announcements"
 msgstr "お知らせ"
 
-#: template/community.html.j2:62
+#: template/community.html.j2:60
 msgid "User discussion"
 msgstr "ユーザーディスカッション"
 
-#: template/community.html.j2:65
+#: template/community.html.j2:63
 msgid "Development"
 msgstr "開発"
 
-#: template/community.html.j2:69
+#: template/community.html.j2:67
 msgid "Project"
 msgstr "プロジェクト"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:74
 msgid "Feature tracker"
 msgstr "機能トラッカー"
 
-#: template/community.html.j2:79
+#: template/community.html.j2:77
 msgid "Bug tracker"
 msgstr "バグトラッカー"
 
-#: template/community.html.j2:82
+#: template/community.html.j2:80
 msgid "Translations"
 msgstr "翻訳"
 

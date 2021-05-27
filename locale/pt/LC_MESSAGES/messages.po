@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-19 20:01+0100\n"
+"POT-Creation-Date: 2021-05-26 06:41+0100\n"
 "PO-Revision-Date: 2021-02-03 19:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -97,19 +97,27 @@ msgstr "Doe através de Bitcoin"
 msgid "Donate Bitcoin (BTC)"
 msgstr "Doe Bitcoin (BTC)"
 
-#: common/footer.j2.inc:55
+#: common/footer.j2.inc:56
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:66
+msgid "Donate Monero (XMR)"
+msgstr ""
+
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "Doe através de PayPal"
 
-#: common/footer.j2.inc:63
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "Doe através de LiberaPay"
 
-#: common/footer.j2.inc:71
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm em Mastodon"
 
-#: common/footer.j2.inc:84
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -117,11 +125,11 @@ msgstr ""
 "Zrythm e o logótipo Zrythm são marcas registadas de Alexandros Theodotou no "
 "Reino Unido."
 
-#: common/footer.j2.inc:85
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "Consulte a nossa {trademarkpolicy} para obter detalhes."
 
-#: common/footer.j2.inc:87 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Política de Marcas Registadas"
 
@@ -181,35 +189,35 @@ msgstr "Páginas comunitárias e canais de comunicação da Zrythm"
 msgid "Chat"
 msgstr "Conversação"
 
-#: template/community.html.j2:52
+#: template/community.html.j2:50
 msgid "Mail"
 msgstr "E-mail"
 
-#: template/community.html.j2:59
+#: template/community.html.j2:57
 msgid "Announcements"
 msgstr "Anúncios"
 
-#: template/community.html.j2:62
+#: template/community.html.j2:60
 msgid "User discussion"
 msgstr "Discussão do utilizador"
 
-#: template/community.html.j2:65
+#: template/community.html.j2:63
 msgid "Development"
 msgstr "Desenvolvimento"
 
-#: template/community.html.j2:69
+#: template/community.html.j2:67
 msgid "Project"
 msgstr "Projeto"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:74
 msgid "Feature tracker"
 msgstr "Rastreador de recursos"
 
-#: template/community.html.j2:79
+#: template/community.html.j2:77
 msgid "Bug tracker"
 msgstr "Rastreador de erros"
 
-#: template/community.html.j2:82
+#: template/community.html.j2:80
 msgid "Translations"
 msgstr "Traduções"
 
@@ -1013,6 +1021,3 @@ msgstr "Política de Marcas Registadas da Zrythm"
 
 #~ msgid "Thank you for your support!"
 #~ msgstr "Muito obrigado pelo seu apoio!"
-
-#~ msgid "Zrythm on Twitter"
-#~ msgstr "Zrythm no Twitter"

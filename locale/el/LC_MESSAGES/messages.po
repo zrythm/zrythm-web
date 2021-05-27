@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-19 20:01+0100\n"
+"POT-Creation-Date: 2021-05-26 06:41+0100\n"
 "PO-Revision-Date: 2021-04-11 23:05+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -100,19 +100,27 @@ msgstr "Κάνετε δωρεά με Bitcoin"
 msgid "Donate Bitcoin (BTC)"
 msgstr "Δωρεά Bitcoin (BTC)"
 
-#: common/footer.j2.inc:55
+#: common/footer.j2.inc:56
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:66
+msgid "Donate Monero (XMR)"
+msgstr ""
+
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "Κάνετε δωρεά με PayPal"
 
-#: common/footer.j2.inc:63
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "Κάνετε δωρεά με LiberaPay"
 
-#: common/footer.j2.inc:71
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Το Zrythm στο Mastodon"
 
-#: common/footer.j2.inc:84
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -120,11 +128,11 @@ msgstr ""
 "Το Zrythm και το λογότυπο του Zrythm είναι κατοχυρωμένα εμπορικά σήματα του "
 "Αλέξανδρου Θεοδότου στο Ηνωμένο Βασίλειο."
 
-#: common/footer.j2.inc:85
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειες."
 
-#: common/footer.j2.inc:87 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων"
 
@@ -184,35 +192,35 @@ msgstr "Οι σελίδες κοινότητας και κανάλια επικ�
 msgid "Chat"
 msgstr "Συνομιλία"
 
-#: template/community.html.j2:52
+#: template/community.html.j2:50
 msgid "Mail"
 msgstr "Μήνυμα"
 
-#: template/community.html.j2:59
+#: template/community.html.j2:57
 msgid "Announcements"
 msgstr "Ανακοινώσεις"
 
-#: template/community.html.j2:62
+#: template/community.html.j2:60
 msgid "User discussion"
 msgstr "Συζήτηση χρηστών"
 
-#: template/community.html.j2:65
+#: template/community.html.j2:63
 msgid "Development"
 msgstr "Ανάπτυξη"
 
-#: template/community.html.j2:69
+#: template/community.html.j2:67
 msgid "Project"
 msgstr "Έργο"
 
-#: template/community.html.j2:76
+#: template/community.html.j2:74
 msgid "Feature tracker"
 msgstr "Παρακολουθητής χαρακτηριστικών"
 
-#: template/community.html.j2:79
+#: template/community.html.j2:77
 msgid "Bug tracker"
 msgstr "Παρακολουθητής σφαλμάτων"
 
-#: template/community.html.j2:82
+#: template/community.html.j2:80
 msgid "Translations"
 msgstr "Μεταφράσεις"
 
