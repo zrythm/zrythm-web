@@ -35,7 +35,7 @@ GNU Affero General Public License for more details.
 <link href="{{ url('dist/mini.css/mini-dark.css') }}" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="{{ url('static/styles.css?v=20210519') }}" rel="stylesheet">
+<link href="{{ url('static/styles.css?v=20210528') }}" rel="stylesheet">
 
 <!-- Matomo -->
 <script type="text/javascript">
