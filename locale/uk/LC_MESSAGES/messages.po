@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-26 06:41+0100\n"
+"POT-Creation-Date: 2021-05-28 00:58+0100\n"
 "PO-Revision-Date: 2021-04-30 08:31+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -189,35 +189,35 @@ msgstr "Сторінки спільноти Zrythm та канали спілк�
 msgid "Chat"
 msgstr "Бесіда (Chat)"
 
-#: template/community.html.j2:50
+#: template/community.html.j2:52
 msgid "Mail"
 msgstr "Пошта"
 
-#: template/community.html.j2:57
+#: template/community.html.j2:59
 msgid "Announcements"
 msgstr ""
 
-#: template/community.html.j2:60
+#: template/community.html.j2:62
 msgid "User discussion"
 msgstr ""
 
-#: template/community.html.j2:63
+#: template/community.html.j2:65
 msgid "Development"
 msgstr ""
 
-#: template/community.html.j2:67
+#: template/community.html.j2:69
 msgid "Project"
 msgstr "Проєкт"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:76
 msgid "Feature tracker"
 msgstr ""
 
-#: template/community.html.j2:77
+#: template/community.html.j2:79
 msgid "Bug tracker"
 msgstr ""
 
-#: template/community.html.j2:80
+#: template/community.html.j2:82
 msgid "Translations"
 msgstr "Переклади"
 

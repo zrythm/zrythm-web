@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-26 06:41+0100\n"
+"POT-Creation-Date: 2021-05-28 00:58+0100\n"
 "PO-Revision-Date: 2021-04-18 14:00+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -191,35 +191,35 @@ msgstr "Zrythmのコミュニティページとコミュニケーションチャ
 msgid "Chat"
 msgstr "チャット"
 
-#: template/community.html.j2:50
+#: template/community.html.j2:52
 msgid "Mail"
 msgstr "メール"
 
-#: template/community.html.j2:57
+#: template/community.html.j2:59
 msgid "Announcements"
 msgstr "お知らせ"
 
-#: template/community.html.j2:60
+#: template/community.html.j2:62
 msgid "User discussion"
 msgstr "ユーザーディスカッション"
 
-#: template/community.html.j2:63
+#: template/community.html.j2:65
 msgid "Development"
 msgstr "開発"
 
-#: template/community.html.j2:67
+#: template/community.html.j2:69
 msgid "Project"
 msgstr "プロジェクト"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:76
 msgid "Feature tracker"
 msgstr "機能トラッカー"
 
-#: template/community.html.j2:77
+#: template/community.html.j2:79
 msgid "Bug tracker"
 msgstr "バグトラッカー"
 
-#: template/community.html.j2:80
+#: template/community.html.j2:82
 msgid "Translations"
 msgstr "翻訳"
 
