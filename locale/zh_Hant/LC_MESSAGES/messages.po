@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-28 00:58+0100\n"
+"POT-Creation-Date: 2021-05-29 11:25+0100\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -73,8 +73,8 @@ msgstr "有一個旋鈕可以控制 detune"
 
 #: common/base.j2:29
 msgid ""
-"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
-"round"
+"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+"more{tag_end}"
 msgstr ""
 
 #: common/footer.j2.inc:21
@@ -171,11 +171,7 @@ msgstr "外掛"
 msgid "Community"
 msgstr "社群"
 
-#: common/navigation.j2.inc:64
-msgid "Forum"
-msgstr "討論區"
-
-#: common/navigation.j2.inc:83
+#: common/navigation.j2.inc:77
 msgid "Language"
 msgstr "語言"
 
@@ -537,8 +533,8 @@ msgstr "和弦幫手"
 #: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
-msgstr "使用 chord pad 快速嘗試音階上的和弦，chord track 讓你編寫和弦進行時更方便。"
+"track to assist with chord progressions."
+msgstr ""
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -741,6 +737,9 @@ msgstr "返回首頁"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm 商標政策"
+
+#~ msgid "Forum"
+#~ msgstr "討論區"
 
 #~ msgid "Just For Kicks"
 #~ msgstr "Just For Kicks"

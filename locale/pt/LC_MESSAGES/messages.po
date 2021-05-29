@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-28 00:58+0100\n"
+"POT-Creation-Date: 2021-05-29 11:25+0100\n"
 "PO-Revision-Date: 2021-02-03 19:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -73,8 +73,8 @@ msgstr "Botão único para controlar a desintonização"
 
 #: common/base.j2:29
 msgid ""
-"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
-"round"
+"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+"more{tag_end}"
 msgstr ""
 
 #: common/footer.j2.inc:21
@@ -173,11 +173,7 @@ msgstr "Suplementos"
 msgid "Community"
 msgstr "Comunidade"
 
-#: common/navigation.j2.inc:64
-msgid "Forum"
-msgstr "Fórum"
-
-#: common/navigation.j2.inc:83
+#: common/navigation.j2.inc:77
 msgid "Language"
 msgstr "Idioma"
 
@@ -555,10 +551,8 @@ msgstr "Assistência de acordes"
 #: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
+"track to assist with chord progressions."
 msgstr ""
-"Apresentando um \"pad\" de acordes para experimentar rapidamente os acordes "
-"numa escala e uma faixa de acordes para ajudar nas progressões dos acordes."
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -767,6 +761,9 @@ msgstr "Voltar à página inicial"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Política de Marcas Registadas da Zrythm"
+
+#~ msgid "Forum"
+#~ msgstr "Fórum"
 
 #~ msgid "General"
 #~ msgstr "Geral"

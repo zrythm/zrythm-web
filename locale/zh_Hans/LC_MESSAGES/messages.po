@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-28 00:58+0100\n"
+"POT-Creation-Date: 2021-05-29 11:25+0100\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -73,8 +73,8 @@ msgstr "单旋钮控制失谐"
 
 #: common/base.j2:29
 msgid ""
-"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
-"round"
+"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+"more{tag_end}"
 msgstr ""
 
 #: common/footer.j2.inc:21
@@ -171,11 +171,7 @@ msgstr "插件"
 msgid "Community"
 msgstr "社区"
 
-#: common/navigation.j2.inc:64
-msgid "Forum"
-msgstr "论坛"
-
-#: common/navigation.j2.inc:83
+#: common/navigation.j2.inc:77
 msgid "Language"
 msgstr "语言"
 
@@ -534,8 +530,8 @@ msgstr "和弦辅助"
 #: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
-msgstr "有一个和弦垫，可以快速尝试一个音阶和一个和弦跟踪以帮助和弦进行。"
+"track to assist with chord progressions."
+msgstr ""
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -732,6 +728,9 @@ msgstr "返回主页"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "Forum"
+#~ msgstr "论坛"
 
 #~ msgid "General"
 #~ msgstr "一般设置"

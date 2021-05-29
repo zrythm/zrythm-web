@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-28 00:58+0100\n"
+"POT-Creation-Date: 2021-05-29 11:25+0100\n"
 "PO-Revision-Date: 2020-11-14 04:34+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -73,8 +73,8 @@ msgstr ""
 
 #: common/base.j2:29
 msgid ""
-"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
-"round"
+"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+"more{tag_end}"
 msgstr ""
 
 #: common/footer.j2.inc:21
@@ -171,11 +171,7 @@ msgstr ""
 msgid "Community"
 msgstr "Fellesskap"
 
-#: common/navigation.j2.inc:64
-msgid "Forum"
-msgstr "Forum"
-
-#: common/navigation.j2.inc:83
+#: common/navigation.j2.inc:77
 msgid "Language"
 msgstr "Språk"
 
@@ -532,10 +528,8 @@ msgstr ""
 #: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
+"track to assist with chord progressions."
 msgstr ""
-"Inneholder en akkord-flate for rask utprøving av akkorder i en skala og et "
-"akkortspor til hjelp med akkordprogresjoner."
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -732,6 +726,9 @@ msgstr ""
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "Forum"
+#~ msgstr "Forum"
 
 #~ msgid "git repositories"
 #~ msgstr "Git-kodelager"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-28 00:58+0100\n"
+"POT-Creation-Date: 2021-05-29 11:25+0100\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -74,8 +74,8 @@ msgstr "Un único botón para controlar a desafinación"
 
 #: common/base.j2:29
 msgid ""
-"Please support Zrythm on {tag1_start}FundOSS{tag1_end} during the pilot "
-"round"
+"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+"more{tag_end}"
 msgstr ""
 
 #: common/footer.j2.inc:21
@@ -172,11 +172,7 @@ msgstr "Plugins"
 msgid "Community"
 msgstr "Comunidade"
 
-#: common/navigation.j2.inc:64
-msgid "Forum"
-msgstr "Foro"
-
-#: common/navigation.j2.inc:83
+#: common/navigation.j2.inc:77
 msgid "Language"
 msgstr "Idioma"
 
@@ -550,10 +546,8 @@ msgstr "Asistente de acordes"
 #: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
+"track to assist with chord progressions."
 msgstr ""
-"Inclúe un pad de acordes para probar rapidamente acordes nunha escala e unha"
-" pista de acordes para axudar coas progresións harmónicas."
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -756,6 +750,9 @@ msgstr "Volver á páxina de inicio"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "Forum"
+#~ msgstr "Foro"
 
 #~ msgid "Basic demo"
 #~ msgstr "Demo básica"
