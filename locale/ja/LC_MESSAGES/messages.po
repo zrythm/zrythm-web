@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-30 02:36+0100\n"
-"PO-Revision-Date: 2021-04-18 14:00+0000\n"
+"PO-Revision-Date: 2021-06-04 09:16+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.6-dev\n"
 
 #: template.py:330
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -76,7 +77,7 @@ msgstr "シングル・ノブでデチューンを調整"
 msgid ""
 "Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
 "more{tag_end}"
-msgstr ""
+msgstr "{tag1_start}FundOSS{tag_end} で Zrythm を支援 - {tag2_start}詳細{tag_end}"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
@@ -100,19 +101,19 @@ msgstr "ビットコイン（BTC）を寄付する"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Bitcoin Cashを使用して寄付する"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Bitcoin Cash (BCH)を寄付する"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "モネロを使用して寄付する"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "モネロ（XMR）を寄付する"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
@@ -142,7 +143,7 @@ msgstr "商標ポリシー"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "高度に自動化された直感的なデジタルオーディオワークステーション。"
 
 #: common/header.j2.inc:31
 msgid ""
@@ -461,7 +462,7 @@ msgstr "Linuxマガジン229/2019号の記事"
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
-msgstr ""
+msgstr "Phoronixニュース：Zrythm、使いやすい[自由な]デジタルオーディオワークステーションとしてベータ版に迫る"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -551,7 +552,7 @@ msgstr "和音援助"
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
-msgstr ""
+msgstr "コード進行に役立つコードトラック、音階および和音をすばやく試聴できるコードパッド機能を搭載。"
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -684,6 +685,9 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"ZrythmはAlexandros Theodotouと他の貢献者によって著作権で保護されています。Zrythmは<a href=\"https"
+"://www.gnu.org/licenses/agpl-3.0.html\""
+">GNUアフェロ一般公衆ライセンス、バージョン3</a>でライセンスされています。"
 
 #: template/legal.html.j2:50
 msgid ""
@@ -700,6 +704,8 @@ msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"<em>リチャード・ストールマン：Free software, free society</em> の動画はCreative Commons BY-SA-"
+"ND 3.0でライセンスされています。"
 
 #: template/legal.html.j2:60
 msgid ""
@@ -708,6 +714,9 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"クレジット: リチャード・ストールマンおよび Ynternet.org foundationのアイデアに基づいて、Christian Nogareda "
+"(Kwis、Http://kwis.tumblr.com)、Valentin Pasquier (http://utopiqdream."
+"deviantart.com) によって作成された CC-BY-ND 3.0 の下の図面。"
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
