@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-29 11:25+0100\n"
+"POT-Creation-Date: 2021-05-30 02:36+0100\n"
 "PO-Revision-Date: 2021-04-11 23:05+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -101,26 +101,34 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "Δωρεά Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Monero"
+msgid "Donate using Bitcoin Cash"
 msgstr ""
 
 #: common/footer.j2.inc:66
+msgid "Donate Bitcoin Cash (BCH)"
+msgstr ""
+
+#: common/footer.j2.inc:82
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
 msgstr ""
 
-#: common/footer.j2.inc:77
+#: common/footer.j2.inc:103
 msgid "Donate using PayPal"
 msgstr "Κάνετε δωρεά με PayPal"
 
-#: common/footer.j2.inc:85
+#: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
 msgstr "Κάνετε δωρεά με LiberaPay"
 
-#: common/footer.j2.inc:93
+#: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
 msgstr "Το Zrythm στο Mastodon"
 
-#: common/footer.j2.inc:106
+#: common/footer.j2.inc:132
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -128,11 +136,11 @@ msgstr ""
 "Το Zrythm και το λογότυπο του Zrythm είναι κατοχυρωμένα εμπορικά σήματα του "
 "Αλέξανδρου Θεοδότου στο Ηνωμένο Βασίλειο."
 
-#: common/footer.j2.inc:107
+#: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
 msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειες."
 
-#: common/footer.j2.inc:109 template/trademarks.html.j2:19
+#: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων"
 

@@ -29,7 +29,7 @@ GNU Affero General Public License for more details.
                 class="crypto_donation_label"
                 title="{{ _('Donate using Bitcoin') }}">
             <img
-               class="footer_btn2"
+               class="footer_btn1"
                alt="Donate using Bitcoin"
                src="{{ url('dist/fork-awesome/btc.svg') }}">
           </label>
@@ -46,6 +46,32 @@ GNU Affero General Public License for more details.
                 <br>
                 <a rel="payment"
                    href="bitcoin:bc1qjfyu2ruyfwv3r6u4hf2nvdh900djep2dlk746j?message=Zrythm%20donations&time=1550598458">
+                  BIP-21 URI
+                </a>
+              </p>
+            </div>
+          </div>
+         <label for="donate-bitcoin-cash"
+                class="crypto_donation_label"
+                title="{{ _('Donate using Bitcoin Cash') }}">
+            <img
+               class="footer_btn6"
+               alt="Donate using Bitcoin Cash"
+               src="{{ url('static/icons/cryptoicons/bitcoin-cash.svg') }}">
+          </label>
+          <input type="checkbox" id="donate-bitcoin-cash" class="modal">
+          <div>
+            <div class="card fluid centered">
+              <label for="donate-bitcoin-cash" class="modal-close" ></label>
+              <h3 class="section">{{ _('Donate Bitcoin Cash (BCH)') }}</h3>
+              <p>
+                <img class="qr_code"
+                     src="{{ url('static/images/bitcoin_cash_qr.png') }}">
+                <br>
+                BCH address: bitcoincash:qrqmv758xzmje83jjnfkajhflneqr8puyvcv2clf0x
+                <br>
+                <a rel="payment"
+                   href="bitcoincash:qrqmv758xzmje83jjnfkajhflneqr8puyvcv2clf0x">
                   BIP-21 URI
                 </a>
               </p>
@@ -77,7 +103,7 @@ GNU Affero General Public License for more details.
              title="{{ _('Donate using PayPal') }}"
              href="https://paypal.me/zrythm">
             <img
-               class="footer_btn6"
+               class="footer_btn4"
                alt="Donate using PayPal"
                src="{{ url('dist/fork-awesome/paypal.svg') }}">
           </a>

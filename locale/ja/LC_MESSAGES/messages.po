@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-29 11:25+0100\n"
+"POT-Creation-Date: 2021-05-30 02:36+0100\n"
 "PO-Revision-Date: 2021-04-18 14:00+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -99,36 +99,44 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "ビットコイン（BTC）を寄付する"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Monero"
+msgid "Donate using Bitcoin Cash"
 msgstr ""
 
 #: common/footer.j2.inc:66
+msgid "Donate Bitcoin Cash (BCH)"
+msgstr ""
+
+#: common/footer.j2.inc:82
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
 msgstr ""
 
-#: common/footer.j2.inc:77
+#: common/footer.j2.inc:103
 msgid "Donate using PayPal"
 msgstr "PayPalを使用して寄付する"
 
-#: common/footer.j2.inc:85
+#: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
 msgstr "LiberaPayを使用して寄付する"
 
-#: common/footer.j2.inc:93
+#: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm@Mastodon"
 
-#: common/footer.j2.inc:106
+#: common/footer.j2.inc:132
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr "ZrythmおよびZrythmのロゴは、英国におけるAlexandrosTheodotouの登録商標です。"
 
-#: common/footer.j2.inc:107
+#: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
 msgstr "詳細については、{trademarkpolicy}を参照してください。"
 
-#: common/footer.j2.inc:109 template/trademarks.html.j2:19
+#: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "商標ポリシー"
 
