@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-30 02:34+0100\n"
-"PO-Revision-Date: 2021-04-30 08:31+0000\n"
+"PO-Revision-Date: 2021-06-04 06:12+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
 "Language: uk\n"
@@ -93,11 +93,11 @@ msgstr "Приватність"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Пожертвуйте за допомогою Біткоїна"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Пожертвувати Біткоїном (BTC)"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
@@ -117,15 +117,15 @@ msgstr ""
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Пожертвувати через PayPal"
 
 #: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "Пожертвувати через Liberapay"
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Zrythm на Mastodon"
 
 #: common/footer.j2.inc:132
 msgid ""
