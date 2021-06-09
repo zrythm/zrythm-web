@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-30 02:36+0100\n"
+"POT-Creation-Date: 2021-06-09 10:51+0100\n"
 "PO-Revision-Date: 2021-06-04 09:16+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -364,100 +364,102 @@ msgid "Demos"
 msgstr "デモ"
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
-#: template/explore.html.j2:90 template/learn.html.j2:52
-#: template/learn.html.j2:74 template/learn.html.j2:96
-#: template/learn.html.j2:118 template/learn.html.j2:140
-#: template/learn.html.j2:170 template/learn.html.j2:192
+#: template/explore.html.j2:90 template/explore.html.j2:111
+#: template/learn.html.j2:52 template/learn.html.j2:74
+#: template/learn.html.j2:96 template/learn.html.j2:118
+#: template/learn.html.j2:140 template/learn.html.j2:170
+#: template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
 msgstr "お使いのブラウザはHTML5ビデオをサポートしていません"
 
 #: template/explore.html.j2:56 template/explore.html.j2:77
-#: template/explore.html.j2:98 template/learn.html.j2:62
-#: template/learn.html.j2:84 template/learn.html.j2:106
-#: template/learn.html.j2:128 template/learn.html.j2:150
-#: template/learn.html.j2:180 template/learn.html.j2:202
+#: template/explore.html.j2:98 template/explore.html.j2:119
+#: template/learn.html.j2:62 template/learn.html.j2:84
+#: template/learn.html.j2:106 template/learn.html.j2:128
+#: template/learn.html.j2:150 template/learn.html.j2:180
+#: template/learn.html.j2:202
 msgid "Video by"
 msgstr "動画 by"
 
-#: template/explore.html.j2:108 template/plugins.html.j2:53
+#: template/explore.html.j2:129 template/plugins.html.j2:53
 msgid "Features"
 msgstr "特長"
 
-#: template/explore.html.j2:116 template/explore.html.j2:120
+#: template/explore.html.j2:137 template/explore.html.j2:141
 msgid "Piano roll"
 msgstr "ピアノロール"
 
-#: template/explore.html.j2:125
+#: template/explore.html.j2:146
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr "専用のピアノロールでMIDIイベントを作成、編集、アレンジ。"
 
-#: template/explore.html.j2:134 template/explore.html.j2:147
+#: template/explore.html.j2:155 template/explore.html.j2:168
 msgid "Anywhere-to-anywhere connections"
 msgstr "カスタムなコネクション"
 
-#: template/explore.html.j2:139
+#: template/explore.html.j2:160
 msgid "Connect anything to anything."
 msgstr "どこからどこでもコネクト可能。"
 
-#: template/explore.html.j2:154
+#: template/explore.html.j2:175
 msgid "Bounce in place"
 msgstr "インプレースのバウンシング"
 
-#: template/explore.html.j2:158
+#: template/explore.html.j2:179
 msgid "Bounce in-place"
 msgstr "イン・プレースのバウンシング"
 
-#: template/explore.html.j2:163
+#: template/explore.html.j2:184
 msgid "Quickly bounce selected material to audio."
 msgstr "選択したものを素早くオーディオ化する。"
 
-#: template/explore.html.j2:172 template/explore.html.j2:185
+#: template/explore.html.j2:193 template/explore.html.j2:206
 msgid "Automation curves"
 msgstr "オートメーション・カーブ"
 
-#: template/explore.html.j2:177
+#: template/explore.html.j2:198
 msgid "Automate parameters with straight lines or curves."
 msgstr "直線または曲線でパラメータをオートメート。"
 
-#: template/explore.html.j2:190
+#: template/explore.html.j2:211
 msgid "Screenshots"
 msgstr "スクリーンショット"
 
-#: template/explore.html.j2:198 template/explore.html.j2:215
-#: template/explore.html.j2:232
+#: template/explore.html.j2:219 template/explore.html.j2:236
+#: template/explore.html.j2:253
 msgid "Screenshot"
 msgstr "スクリーンショット"
 
-#: template/explore.html.j2:200
+#: template/explore.html.j2:221
 msgid "Mixing"
 msgstr "ミキシング"
 
-#: template/explore.html.j2:205 template/explore.html.j2:222
-#: template/explore.html.j2:239
+#: template/explore.html.j2:226 template/explore.html.j2:243
+#: template/explore.html.j2:260
 msgid "Screenshot by"
 msgstr "スクリーンショット by"
 
-#: template/explore.html.j2:217
+#: template/explore.html.j2:238
 msgid "Audio Editor"
 msgstr "オーディオエディタ"
 
-#: template/explore.html.j2:234
+#: template/explore.html.j2:255
 msgid "Localized UI"
 msgstr "ローカライズされたUI"
 
-#: template/explore.html.j2:249
+#: template/explore.html.j2:270
 msgid "Reviews"
 msgstr "レビュー"
 
-#: template/explore.html.j2:257
+#: template/explore.html.j2:278
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr "unfaのライブストリーム：Zrythmで曲を作る"
 
-#: template/explore.html.j2:265
+#: template/explore.html.j2:286
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Linuxマガジン229/2019号の記事"
 
-#: template/explore.html.j2:273
+#: template/explore.html.j2:294
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
