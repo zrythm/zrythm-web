@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-30 02:34+0100\n"
-"PO-Revision-Date: 2021-02-20 00:50+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2021-06-13 17:32+0000\n"
+"Last-Translator: Jesus Meneses <jesusm0812@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.5\n"
 
 #: template.py:330
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -77,6 +77,8 @@ msgid ""
 "Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
 "more{tag_end}"
 msgstr ""
+"Apoya a Zrythm en {tag1_start}FundOSS {tag_end} - {tag2_start}más "
+"información {tag_end}"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
@@ -92,39 +94,40 @@ msgstr "Privacidad"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Donar usando Bitcoin"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Donar Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Donar usando Bitcoin Cash"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Donar Bitcoin Cash (BCH)"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Donar usando Monero"
 
 #: common/footer.j2.inc:92
+#, fuzzy
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Donar Monero (XMR)"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Donar mediante PayPal"
 
 #: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "Dona usando LiberaPay"
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Zrythm en Mastodon"
 
 #: common/footer.j2.inc:132
 msgid ""
@@ -134,7 +137,7 @@ msgstr ""
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Consulte nuestra {trademarkpolicy} para más detalles."
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
@@ -143,6 +146,7 @@ msgstr "Política de marcas registradas"
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
+"Una estación de trabajo de audio digital altamente automatizada e intuitiva."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -150,6 +154,9 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin"
 msgstr ""
+"DAW, estación de trabajo de audio digital, producción musical, audio, audio "
+"profesional, Linux, GNU/Linux, software libre, software gratuito, editor de "
+"sonido, composición, MIDI, LV2, JACK, VST, plugin de audio"
 
 #: common/navigation.j2.inc:28
 msgid "Home"
