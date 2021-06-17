@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -113,9 +113,8 @@ msgid "Donate using Monero"
 msgstr "Donar usando Monero"
 
 #: common/footer.j2.inc:92
-#, fuzzy
 msgid "Donate Monero (XMR)"
-msgstr "Donar Monero (XMR)"
+msgstr ""
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
