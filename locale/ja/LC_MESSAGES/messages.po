@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-14 18:45+0100\n"
-"PO-Revision-Date: 2021-06-04 09:16+0000\n"
+"PO-Revision-Date: 2021-06-18 00:36+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.7-dev\n"
 
 #: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -327,11 +328,11 @@ msgstr "機能が限定されたお試し版です。お使いのオペレーテ
 
 #: template/download.html.j2:115
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU / Linux (パッケージ)"
 
 #: template/download.html.j2:116
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU / Linux (AppImage※)"
 
 #: template/download.html.j2:117
 msgid "Windows 64-bit"
@@ -339,7 +340,7 @@ msgstr "Windows 64ビット"
 
 #: template/download.html.j2:121
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "※AppImageのビルドは実験的です"
 
 #: template/download.html.j2:134
 msgid "Buy Now"
@@ -596,7 +597,7 @@ msgstr "詳細"
 
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
-msgstr ""
+msgstr "スポンサー / ホスティング プロバイダー"
 
 #: template/index.html.j2:211
 msgid ""
@@ -604,6 +605,9 @@ msgid ""
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
+"スポンサーになることを希望される方は、<a href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114"
+";&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\""
+">お問い合わせ</a>ください。"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
