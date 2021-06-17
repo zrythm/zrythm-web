@@ -103,6 +103,7 @@ bug_tracker = 'https://todo.sr.ht/~alextee/zrythm-bug'
 pronunciation = 'ziˈrɪðəm'
 releases_url = 'https://www.zrythm.org/releases/'
 downloads_url = 'https://www.zrythm.org/downloads/'
+s3_bucket_url = 'https://sendowl-bucket.s3.amazonaws.com'
 aur_git_url = 'https://aur.archlinux.org/packages/zrythm-git/'
 aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
 obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aalextee&package=zrythm'
@@ -254,6 +255,7 @@ def check_url(url):
 # verify that tarball and trials exist
 print ('verifying release and trial packages...')
 check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz')
+check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.AppImage')
 check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
 check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
 check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
@@ -359,6 +361,7 @@ for in_file in glob.glob("template/*.j2"):
                               copr_package_url=copr_package_url,
                               releases_url=releases_url,
                               downloads_url=downloads_url,
+                              s3_bucket_url=s3_bucket_url,
                               datetime_parse=parse,
                               num_monthly_orders=num_monthly_orders,
                               monthly_earning=monthly_earning,

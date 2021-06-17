@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-09 10:51+0100\n"
+"POT-Creation-Date: 2021-06-14 18:45+0100\n"
 "PO-Revision-Date: 2021-04-11 23:05+0000\n"
 "Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -20,57 +20,57 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: template.py:330
+#: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "Το ZChordz χαρτογραφεί τις συγχορδίες ελάσσονος ή μείζονος κλίμακας σε λευκά"
 " πλήκτρα"
 
-#: template.py:331
+#: template.py:333
 msgid "Major or minor scale"
 msgstr "Μείζων ή ελάσσων κλίμακα"
 
-#: template.py:332
+#: template.py:334
 msgid "Velocity multiplier per note"
 msgstr "Πολλαπλασιαστής ταχύτητας ανά νότα"
 
-#: template.py:336
+#: template.py:338
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "Το ZLFO είναι ένα πλήρες LFO για αυτοματισμό βασισμένο σε CV"
 
-#: template.py:337
+#: template.py:339
 msgid "Multi-oscillator with custom wave"
 msgstr "Πολυ-ταλαντωτής με προσαρμοσμένο κύμα"
 
-#: template.py:338
+#: template.py:340
 msgid "Phase shift"
 msgstr "Μετατόπιση φάσης"
 
-#: template.py:339
+#: template.py:341
 msgid "Vertical/horizontal inversion"
 msgstr "Κάθετη/οριζόντια αναστροφή"
 
-#: template.py:340
+#: template.py:342
 msgid "Step mode"
 msgstr "Λειτουργία βημάτων"
 
-#: template.py:341
+#: template.py:343
 msgid "Editable range"
 msgstr "Επεξεργάσιμο εύρος"
 
-#: template.py:342
+#: template.py:344
 msgid "Sync to host or free-form"
 msgstr "Συγχρονισμός με τον εξυπηρετητή ή ελεύθερη μορφή"
 
-#: template.py:345
+#: template.py:347
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "Το ZSaw είναι supersaw συνθεσάιζερ με 1 παράμετρο"
 
-#: template.py:346
+#: template.py:348
 msgid "7 sawtooth oscillators"
 msgstr "7 ταλαντωτές sawtooth"
 
-#: template.py:347
+#: template.py:349
 msgid "Single knob to control detune"
 msgstr "Μονός περιστροφικός επιλογέας για έλεγχο αποσυντονισμού"
 
@@ -329,30 +329,38 @@ msgstr ""
 "το λειτουργικό σας σύστημα."
 
 #: template/download.html.j2:115
-msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgid "GNU/Linux (package)"
+msgstr ""
 
 #: template/download.html.j2:116
+msgid "GNU/Linux (AppImage*)"
+msgstr ""
+
+#: template/download.html.j2:117
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:127
+#: template/download.html.j2:121
+msgid "* The AppImage build is experimental"
+msgstr ""
+
+#: template/download.html.j2:134
 msgid "Buy Now"
 msgstr "Αγορά τώρα"
 
-#: template/download.html.j2:134
+#: template/download.html.j2:141
 msgid "Subscribe"
 msgstr "Εγγραφή"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:148
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Υποστηρίξτε το Zrythm αγοράζοντας έναν εγκαταστάτη."
 
-#: template/download.html.j2:142
+#: template/download.html.j2:149
 msgid "This month we received £{amount}."
 msgstr "Αυτόν τον μήνα λάβαμε £{amount}."
 
-#: template/download.html.j2:144
+#: template/download.html.j2:151
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -603,18 +611,15 @@ msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
 #: template/index.html.j2:191
-msgid "Sponsors"
-msgstr "Χορηγοί"
+msgid "Sponsors / Hosting Providers"
+msgstr ""
 
-#: template/index.html.j2:196
+#: template/index.html.j2:211
 msgid ""
-"No public sponsors. <a "
+"<a "
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
-"Δεν υπάρχουν δημόσιοι χορηγοί. <a "
-"href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Επικοινωνήστε"
-" μαζί μας</a> αν θα θέλατε να γίνετε χορηγός."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -785,6 +790,9 @@ msgstr "Επιστρέψτε στην αρχική σελίδα"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων Zrythm"
+
+#~ msgid "Sponsors"
+#~ msgstr "Χορηγοί"
 
 #~ msgid "Forum"
 #~ msgstr "Φόρουμ"

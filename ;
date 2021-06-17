@@ -189,27 +189,37 @@ GNU Affero General Public License for more details.
 <div class="container features_box sponsors_box">
   <h2>
     {% trans %}
-    Sponsors / Hosting Providers
+    Sponsors
     {% endtrans %}
   </h2>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <a href="https://weblate.org/{{ lang }}/">
-          <img
-             class="shadowed"
-             src="{{ url('static/images/weblate-logo-darktext-borders.png') }}"
-             alt="Weblate">
-          </img>
-        </a>
-      </div>
-      {#<div class="col-sm-4"></div>#}
-      {#<div class="col-sm-4"></div>#}
+      <div class="col-sm-4"></div>  <div class="col-sm-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2"></div>  <div class="col-sm-10"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3"></div>  <div class="col-sm-9"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4"></div>  <div class="col-sm-8"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-5"></div>  <div class="col-sm-7"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6"></div>  <div class="col-sm-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12"></div>
+    <div class="row">
+      <div class="col-sm"></div>  <div class="col-sm"></div>
     </div>
   </div>
   <p>
     {% trans %}
-    <a href="mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;">Contact us</a> if
+    No public sponsors. <a href="mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;">Contact us</a> if
     you would like to be a sponsor.
     {% endtrans %}
   </p>

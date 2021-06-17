@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-09 10:51+0100\n"
+"POT-Creation-Date: 2021-06-14 18:45+0100\n"
 "PO-Revision-Date: 2020-11-14 04:34+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: template.py:330
+#: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:331
+#: template.py:333
 msgid "Major or minor scale"
 msgstr ""
 
-#: template.py:332
+#: template.py:334
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:336
+#: template.py:338
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:337
+#: template.py:339
 msgid "Multi-oscillator with custom wave"
 msgstr ""
 
-#: template.py:338
+#: template.py:340
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:339
+#: template.py:341
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:340
+#: template.py:342
 msgid "Step mode"
 msgstr ""
 
-#: template.py:341
+#: template.py:343
 msgid "Editable range"
 msgstr ""
 
-#: template.py:342
+#: template.py:344
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:345
+#: template.py:347
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:346
+#: template.py:348
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:347
+#: template.py:349
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -322,30 +322,38 @@ msgid ""
 msgstr ""
 
 #: template/download.html.j2:115
-msgid "GNU/Linux"
+msgid "GNU/Linux (package)"
 msgstr ""
 
 #: template/download.html.j2:116
+msgid "GNU/Linux (AppImage*)"
+msgstr ""
+
+#: template/download.html.j2:117
 msgid "Windows 64-bit"
 msgstr ""
 
-#: template/download.html.j2:127
-msgid "Buy Now"
+#: template/download.html.j2:121
+msgid "* The AppImage build is experimental"
 msgstr ""
 
 #: template/download.html.j2:134
-msgid "Subscribe"
+msgid "Buy Now"
 msgstr ""
 
 #: template/download.html.j2:141
+msgid "Subscribe"
+msgstr ""
+
+#: template/download.html.j2:148
 msgid "Support Zrythm by purchasing an installer."
 msgstr ""
 
-#: template/download.html.j2:142
+#: template/download.html.j2:149
 msgid "This month we received £{amount}."
 msgstr ""
 
-#: template/download.html.j2:144
+#: template/download.html.j2:151
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -568,12 +576,12 @@ msgid "Learn more"
 msgstr ""
 
 #: template/index.html.j2:191
-msgid "Sponsors"
+msgid "Sponsors / Hosting Providers"
 msgstr ""
 
-#: template/index.html.j2:196
+#: template/index.html.j2:211
 msgid ""
-"No public sponsors. <a "
+"<a "
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
@@ -802,9 +810,6 @@ msgstr ""
 
 #~ msgid "FreeBSD (Freshports)"
 #~ msgstr "FreeBSD (FreshPorts)"
-
-#~ msgid "GNU Linux packages"
-#~ msgstr "Linux|GNU-pakker"
 
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "Ofte stilte spørsmål"

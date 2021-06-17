@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-09 10:51+0100\n"
+"POT-Creation-Date: 2021-06-14 18:45+0100\n"
 "PO-Revision-Date: 2021-03-14 18:02+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5.2-dev\n"
 
-#: template.py:330
+#: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
 "touches blanches"
 
-#: template.py:331
+#: template.py:333
 msgid "Major or minor scale"
 msgstr "Gamme majeure ou mineure"
 
-#: template.py:332
+#: template.py:334
 msgid "Velocity multiplier per note"
 msgstr "Multiplicateur de vitesse par note"
 
-#: template.py:336
+#: template.py:338
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
-#: template.py:337
+#: template.py:339
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
-#: template.py:338
+#: template.py:340
 msgid "Phase shift"
 msgstr "Décalage des phases"
 
-#: template.py:339
+#: template.py:341
 msgid "Vertical/horizontal inversion"
 msgstr "Inversion verticale/horizontale"
 
-#: template.py:340
+#: template.py:342
 msgid "Step mode"
 msgstr "Mode à pas"
 
-#: template.py:341
+#: template.py:343
 msgid "Editable range"
 msgstr "Plage modifiable"
 
-#: template.py:342
+#: template.py:344
 msgid "Sync to host or free-form"
 msgstr "Synchronisation avec l'hôte ou la forme libre"
 
-#: template.py:345
+#: template.py:347
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw est un synthétiseur supersaw à 1 paramètre"
 
-#: template.py:346
+#: template.py:348
 msgid "7 sawtooth oscillators"
 msgstr "7 oscillateurs en dents de scie"
 
-#: template.py:347
+#: template.py:349
 msgid "Single knob to control detune"
 msgstr "Un seul bouton pour contrôler le désaccord"
 
@@ -330,30 +330,38 @@ msgstr ""
 "Veuillez SVP choisir votre système d'exploitation."
 
 #: template/download.html.j2:115
-msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgid "GNU/Linux (package)"
+msgstr ""
 
 #: template/download.html.j2:116
+msgid "GNU/Linux (AppImage*)"
+msgstr ""
+
+#: template/download.html.j2:117
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:127
+#: template/download.html.j2:121
+msgid "* The AppImage build is experimental"
+msgstr ""
+
+#: template/download.html.j2:134
 msgid "Buy Now"
 msgstr "Acheter maintenant"
 
-#: template/download.html.j2:134
+#: template/download.html.j2:141
 msgid "Subscribe"
 msgstr "S'abonner"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:148
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Soutenir Zrythm en achetant un installateur."
 
-#: template/download.html.j2:142
+#: template/download.html.j2:149
 msgid "This month we received £{amount}."
 msgstr "Ce mois-ci nous avons reçu {amount} £."
 
-#: template/download.html.j2:144
+#: template/download.html.j2:151
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -606,18 +614,15 @@ msgid "Learn more"
 msgstr "En savoir plus"
 
 #: template/index.html.j2:191
-msgid "Sponsors"
-msgstr "Sponsors"
+msgid "Sponsors / Hosting Providers"
+msgstr ""
 
-#: template/index.html.j2:196
+#: template/index.html.j2:211
 msgid ""
-"No public sponsors. <a "
+"<a "
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
-"Aucun sponsor public. <a "
-"href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contactez"
-" nous</a> si vous souhaitez être un sponsor."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -787,6 +792,9 @@ msgstr "Retour à la page d'accueil"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Politique de marque Zrythm"
+
+#~ msgid "Sponsors"
+#~ msgstr "Sponsors"
 
 #~ msgid "Forum"
 #~ msgstr "Forum"
@@ -1035,9 +1043,6 @@ msgstr "Politique de marque Zrythm"
 #~ "sur <a "
 #~ "href=\"https://www.defectivebydesign.org\">DefectiveByDesign.org</a>>--> "
 #~ "<!--"
-
-#~ msgid "GNU Linux packages"
-#~ msgstr "Paquets GNU Linux"
 
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "Foire aux questions"

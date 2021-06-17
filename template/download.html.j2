@@ -112,9 +112,16 @@ GNU Affero General Public License for more details.
                   {{ _('This is a trial version with limited functionality. Please select your operating system.') }}
                 </p>
                 <p class="section">
-                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip" rel="nofollow" class="button">{{ _('GNU/Linux') }}</a>
+                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip" rel="nofollow" class="button">{{ _('GNU/Linux (package)') }}</a>
+                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-x86_64.AppImage" rel="nofollow" class="button">{{ _('GNU/Linux (AppImage*)') }}</a>
                   <a href="{{ downloads_url }}zrythm-trial-{{ version }}-ms-setup.exe" rel="nofollow" class="button">{{ _('Windows 64-bit') }}</a>
                   <a href="{{ downloads_url }}zrythm-trial-{{ version }}-osx-installer.zip" rel="nofollow" class="button">MacOS</a>
+                  <br>
+                  <small>
+                  {% trans %}
+                  * The AppImage build is experimental
+                  {% endtrans %}
+                  </small>
                 </p>
               </div>
             </div>
@@ -124,7 +131,7 @@ GNU Affero General Public License for more details.
       <div class="col-sm-4">
         <p>
           <center>
-            <a href="https://transactions.sendowl.com/packages/813232/AA083883/view" rel="nofollow" class="button secondary">{{ _('Buy Now') }}</a>
+            <a href="https://transactions.sendowl.com/packages/813389/8D75899D/view" rel="nofollow" class="button secondary">{{ _('Buy Now') }}</a>
           </center>
         </p>
       </div>

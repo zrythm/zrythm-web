@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-09 10:51+0100\n"
+"POT-Creation-Date: 2021-06-14 18:45+0100\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: template.py:330
+#: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz将小调或大调的和弦映射到白键上"
 
-#: template.py:331
+#: template.py:333
 msgid "Major or minor scale"
 msgstr "大调音阶或小调音阶"
 
-#: template.py:332
+#: template.py:334
 msgid "Velocity multiplier per note"
 msgstr "每个音符的速度乘数"
 
-#: template.py:336
+#: template.py:338
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO是一款功能齐全的基于CV自动化的LFO"
 
-#: template.py:337
+#: template.py:339
 msgid "Multi-oscillator with custom wave"
 msgstr "带自定义波的多振荡器"
 
-#: template.py:338
+#: template.py:340
 msgid "Phase shift"
 msgstr "相移"
 
-#: template.py:339
+#: template.py:341
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反演"
 
-#: template.py:340
+#: template.py:342
 msgid "Step mode"
 msgstr "步进模式"
 
-#: template.py:341
+#: template.py:343
 msgid "Editable range"
 msgstr "可编辑范围"
 
-#: template.py:342
+#: template.py:344
 msgid "Sync to host or free-form"
 msgstr "同步到主机或自由格式"
 
-#: template.py:345
+#: template.py:347
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw是一个带有1个参数的supersaw合成器"
 
-#: template.py:346
+#: template.py:348
 msgid "7 sawtooth oscillators"
 msgstr "7锯齿振荡器"
 
-#: template.py:347
+#: template.py:349
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 
@@ -322,30 +322,38 @@ msgid ""
 msgstr "这是一个功能有限的试用版。请选择您的操作系统。"
 
 #: template/download.html.j2:115
-msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgid "GNU/Linux (package)"
+msgstr ""
 
 #: template/download.html.j2:116
+msgid "GNU/Linux (AppImage*)"
+msgstr ""
+
+#: template/download.html.j2:117
 msgid "Windows 64-bit"
 msgstr "Windows 64位"
 
-#: template/download.html.j2:127
+#: template/download.html.j2:121
+msgid "* The AppImage build is experimental"
+msgstr ""
+
+#: template/download.html.j2:134
 msgid "Buy Now"
 msgstr "立即购买"
 
-#: template/download.html.j2:134
+#: template/download.html.j2:141
 msgid "Subscribe"
 msgstr "订阅"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:148
 msgid "Support Zrythm by purchasing an installer."
 msgstr "通过购买安装程序来支持Zrythm."
 
-#: template/download.html.j2:142
+#: template/download.html.j2:149
 msgid "This month we received £{amount}."
 msgstr "本月我们收到了£{amount}。"
 
-#: template/download.html.j2:144
+#: template/download.html.j2:151
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -570,12 +578,12 @@ msgid "Learn more"
 msgstr "了解更多信息"
 
 #: template/index.html.j2:191
-msgid "Sponsors"
+msgid "Sponsors / Hosting Providers"
 msgstr ""
 
-#: template/index.html.j2:196
+#: template/index.html.j2:211
 msgid ""
-"No public sponsors. <a "
+"<a "
 "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
 " us</a> if you would like to be a sponsor."
 msgstr ""
