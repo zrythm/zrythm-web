@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-14 18:45+0100\n"
+"POT-Creation-Date: 2021-06-20 02:32+0100\n"
 "PO-Revision-Date: 2021-06-16 22:32+0000\n"
 "Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -446,7 +446,7 @@ msgid "Screenshots"
 msgstr "Скриншоты"
 
 #: template/explore.html.j2:219 template/explore.html.j2:236
-#: template/explore.html.j2:253
+#: template/explore.html.j2:253 template/explore.html.j2:270
 msgid "Screenshot"
 msgstr "Скриншот"
 
@@ -455,7 +455,7 @@ msgid "Mixing"
 msgstr "Микширование"
 
 #: template/explore.html.j2:226 template/explore.html.j2:243
-#: template/explore.html.j2:260
+#: template/explore.html.j2:260 template/explore.html.j2:277
 msgid "Screenshot by"
 msgstr "Скриншот сделан"
 
@@ -467,19 +467,23 @@ msgstr "Звуковой редактор"
 msgid "Localized UI"
 msgstr "Локализованный пользовательский интерфейс"
 
-#: template/explore.html.j2:270
+#: template/explore.html.j2:272
+msgid "CSS Theme"
+msgstr ""
+
+#: template/explore.html.j2:287
 msgid "Reviews"
 msgstr "Отзывы"
 
-#: template/explore.html.j2:278
+#: template/explore.html.j2:295
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr "Прямая трансляция от unfa: Создание трека с помощью Zrythm"
 
-#: template/explore.html.j2:286
+#: template/explore.html.j2:303
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Статья из выпуска 229/2019 журнала Linux Magazine"
 
-#: template/explore.html.j2:294
+#: template/explore.html.j2:311
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
@@ -625,16 +629,6 @@ msgstr "Узнать больше"
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
 msgstr ""
-
-#: template/index.html.j2:211
-msgid ""
-"<a "
-"href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
-" us</a> if you would like to be a sponsor."
-msgstr ""
-"Нет общественных спонсоров. <a "
-"href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Свяжитесь"
-" с нами</a>, если вы хотите стать спонсором."
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -814,6 +808,15 @@ msgstr "Вернуться на главную страницу"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Политика товарных знаков Zrythm"
+
+#~ msgid ""
+#~ "<a "
+#~ "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
+#~ " us</a> if you would like to be a sponsor."
+#~ msgstr ""
+#~ "Нет общественных спонсоров. <a "
+#~ "href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Свяжитесь"
+#~ " с нами</a>, если вы хотите стать спонсором."
 
 #~ msgid "Sponsors"
 #~ msgstr "Спонсоры"

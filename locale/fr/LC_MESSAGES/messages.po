@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-14 18:45+0100\n"
+"POT-Creation-Date: 2021-06-20 02:32+0100\n"
 "PO-Revision-Date: 2021-03-14 18:02+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -441,7 +441,7 @@ msgid "Screenshots"
 msgstr "Captures d'écran"
 
 #: template/explore.html.j2:219 template/explore.html.j2:236
-#: template/explore.html.j2:253
+#: template/explore.html.j2:253 template/explore.html.j2:270
 msgid "Screenshot"
 msgstr "Capture d'écran"
 
@@ -450,7 +450,7 @@ msgid "Mixing"
 msgstr "Mixage"
 
 #: template/explore.html.j2:226 template/explore.html.j2:243
-#: template/explore.html.j2:260
+#: template/explore.html.j2:260 template/explore.html.j2:277
 msgid "Screenshot by"
 msgstr "Capture d'écran de"
 
@@ -462,19 +462,23 @@ msgstr "Éditeur audio"
 msgid "Localized UI"
 msgstr "Interface graphique localisée"
 
-#: template/explore.html.j2:270
+#: template/explore.html.j2:272
+msgid "CSS Theme"
+msgstr ""
+
+#: template/explore.html.j2:287
 msgid "Reviews"
 msgstr "Avis"
 
-#: template/explore.html.j2:278
+#: template/explore.html.j2:295
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr "Livestream d'unfa : créer une piste avec Zrythm"
 
-#: template/explore.html.j2:286
+#: template/explore.html.j2:303
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Article du numéro 229/2019 de Linux Magazine"
 
-#: template/explore.html.j2:294
+#: template/explore.html.j2:311
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
@@ -615,13 +619,6 @@ msgstr "En savoir plus"
 
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
-msgstr ""
-
-#: template/index.html.j2:211
-msgid ""
-"<a "
-"href=\"mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;\">Contact"
-" us</a> if you would like to be a sponsor."
 msgstr ""
 
 #: template/learn.html.j2:22
