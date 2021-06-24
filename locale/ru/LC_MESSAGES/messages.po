@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-24 19:54+0100\n"
-"PO-Revision-Date: 2021-06-16 22:32+0000\n"
+"PO-Revision-Date: 2021-06-23 06:32+0000\n"
 "Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: template.py:332
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -243,7 +243,7 @@ msgstr "Исходный код"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr "Релизы"
+msgstr "Выпуски"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
@@ -311,7 +311,7 @@ msgstr "Полная версия"
 
 #: template/download.html.j2:95
 msgid "Upgrades to new releases"
-msgstr "Обновления до новых релизов"
+msgstr "Обновления до новых выпусков"
 
 #: template/download.html.j2:96
 msgid "Access to nightly builds"
@@ -335,11 +335,11 @@ msgstr ""
 
 #: template/download.html.j2:115
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU/Linux (пакет)"
 
 #: template/download.html.j2:116
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU/Linux (AppImage*)"
 
 #: template/download.html.j2:117
 msgid "Windows 64-bit"
@@ -347,7 +347,7 @@ msgstr "Windows 64-bit"
 
 #: template/download.html.j2:121
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* Сборка AppImage является экспериментальной"
 
 #: template/download.html.j2:134
 msgid "Buy Now"
@@ -626,7 +626,7 @@ msgstr "Узнать больше"
 
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
-msgstr ""
+msgstr "Спонсоры / Хостинг-провайдеры"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
