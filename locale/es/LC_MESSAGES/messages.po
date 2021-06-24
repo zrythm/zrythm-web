@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-20 02:32+0100\n"
+"POT-Creation-Date: 2021-06-24 19:54+0100\n"
 "PO-Revision-Date: 2021-06-13 17:32+0000\n"
 "Last-Translator: Andrus Diaz German <andrusdiazaleman@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -74,11 +74,9 @@ msgstr "Botón único para controlar la desafinación"
 
 #: common/base.j2:29
 msgid ""
-"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
-"more{tag_end}"
+"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
+"support!"
 msgstr ""
-"Apoya a Zrythm en {tag1_start}FundOSS {tag_end} - {tag2_start}más "
-"información {tag_end}"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
@@ -785,6 +783,13 @@ msgstr "Volver a la página principal"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Política de marcas registradas de Zrythm"
+
+#~ msgid ""
+#~ "Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+#~ "more{tag_end}"
+#~ msgstr ""
+#~ "Apoya a Zrythm en {tag1_start}FundOSS {tag_end} - {tag2_start}más "
+#~ "información {tag_end}"
 
 #~ msgid "Sponsors"
 #~ msgstr "Patrocinadores"

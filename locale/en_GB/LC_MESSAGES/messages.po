@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-20 02:32+0100\n"
+"POT-Creation-Date: 2021-06-24 19:54+0100\n"
 "PO-Revision-Date: 2021-01-03 23:56+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/zrythm/web/en_GB/>\n"
@@ -73,8 +73,8 @@ msgstr ""
 
 #: common/base.j2:29
 msgid ""
-"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
-"more{tag_end}"
+"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
+"support!"
 msgstr ""
 
 #: common/footer.j2.inc:21

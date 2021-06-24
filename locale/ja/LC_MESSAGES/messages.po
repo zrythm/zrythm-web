@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-20 02:32+0100\n"
+"POT-Creation-Date: 2021-06-24 19:54+0100\n"
 "PO-Revision-Date: 2021-06-04 09:16+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -74,9 +74,9 @@ msgstr "シングル・ノブでデチューンを調整"
 
 #: common/base.j2:29
 msgid ""
-"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
-"more{tag_end}"
-msgstr "{tag1_start}FundOSS{tag_end} で Zrythm を支援 - {tag2_start}詳細{tag_end}"
+"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
+"support!"
+msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
@@ -772,6 +772,11 @@ msgstr "ホームページに戻る"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythmの商標ポリシー"
+
+#~ msgid ""
+#~ "Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+#~ "more{tag_end}"
+#~ msgstr "{tag1_start}FundOSS{tag_end} で Zrythm を支援 - {tag2_start}詳細{tag_end}"
 
 #~ msgid "Sponsors"
 #~ msgstr "スポンサー"

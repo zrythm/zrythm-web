@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-20 02:32+0100\n"
+"POT-Creation-Date: 2021-06-24 19:54+0100\n"
 "PO-Revision-Date: 2021-06-14 22:32+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -75,11 +75,9 @@ msgstr "Одна ручка для керування detune"
 
 #: common/base.j2:29
 msgid ""
-"Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
-"more{tag_end}"
+"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
+"support!"
 msgstr ""
-"Підтримати Zrythm на {tag1_start}FundOSS{tag_end} - {tag2_start} "
-"докладніше{tag_end}"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
@@ -780,6 +778,13 @@ msgstr "Повернутися на домашню сторінку"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Політика щодо торгових знаків Zrythm"
+
+#~ msgid ""
+#~ "Support Zrythm on {tag1_start}FundOSS{tag_end} - {tag2_start}learn "
+#~ "more{tag_end}"
+#~ msgstr ""
+#~ "Підтримати Zrythm на {tag1_start}FundOSS{tag_end} - {tag2_start} "
+#~ "докладніше{tag_end}"
 
 #~ msgid "Sponsors"
 #~ msgstr "Жертводавці"
