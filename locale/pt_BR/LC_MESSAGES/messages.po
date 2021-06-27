@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-24 19:54+0100\n"
+"POT-Creation-Date: 2021-06-27 01:55+0100\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -19,63 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: template.py:332
+#: template.py:333
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "O ZChordz mapeia os acordes de escala menor ou maior para teclas brancas"
 
-#: template.py:333
+#: template.py:334
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:334
+#: template.py:335
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:338
+#: template.py:339
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:339
+#: template.py:340
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:340
+#: template.py:341
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:341
+#: template.py:342
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical/horizontal"
 
-#: template.py:342
+#: template.py:343
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:343
+#: template.py:344
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:344
+#: template.py:345
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:347
+#: template.py:348
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:348
+#: template.py:349
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:349
+#: template.py:350
 msgid "Single knob to control detune"
-msgstr ""
-
-#: common/base.j2:29
-msgid ""
-"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
-"support!"
 msgstr ""
 
 #: common/footer.j2.inc:21

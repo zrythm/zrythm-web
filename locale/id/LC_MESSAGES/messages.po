@@ -7,67 +7,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-01-23 17:11+0000\n"
+"POT-Creation-Date: 2021-06-27 01:55+0100\n"
 "PO-Revision-Date: 2021-06-16 22:32+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: template.py:405
+#: template.py:333
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:406
+#: template.py:334
 msgid "Major or minor scale"
 msgstr "Tangga nada mayor atau minor"
 
-#: template.py:407
+#: template.py:335
 msgid "Velocity multiplier per note"
 msgstr "Pengganda kecepatan per nada"
 
-#: template.py:411
+#: template.py:339
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO adalah LFO berfitur lengkap untuk otomatisasi berbasis CV"
 
-#: template.py:412
+#: template.py:340
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-osilator dengan gelombang kustom"
 
-#: template.py:413
+#: template.py:341
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:414
+#: template.py:342
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:415
+#: template.py:343
 msgid "Step mode"
 msgstr ""
 
-#: template.py:416
+#: template.py:344
 msgid "Editable range"
 msgstr ""
 
-#: template.py:417
+#: template.py:345
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:420
+#: template.py:348
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:421
+#: template.py:349
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:422
+#: template.py:350
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -84,88 +84,101 @@ msgid "Privacy"
 msgstr "Privasi"
 
 #: common/footer.j2.inc:30
-msgid "Donate using Ethereum"
-msgstr ""
-
-#: common/footer.j2.inc:40
-msgid "Donate Ethereum (ETH)"
-msgstr ""
-
-#: common/footer.j2.inc:55
 msgid "Donate using Bitcoin"
 msgstr "Donasi melalui Bitcoin"
 
-#: common/footer.j2.inc:65
+#: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
 msgstr "Donasi Bitcoin (BTC)"
 
-#: common/footer.j2.inc:79
+#: common/footer.j2.inc:56
+#| msgid "Donate using Bitcoin"
+msgid "Donate using Bitcoin Cash"
+msgstr ""
+
+#: common/footer.j2.inc:66
+#| msgid "Donate Bitcoin (BTC)"
+msgid "Donate Bitcoin Cash (BCH)"
+msgstr ""
+
+#: common/footer.j2.inc:82
+#| msgid "Donate using Bitcoin"
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:92
+#| msgid "Donate Bitcoin (BTC)"
+msgid "Donate Monero (XMR)"
+msgstr ""
+
+#: common/footer.j2.inc:103
 msgid "Donate using PayPal"
 msgstr "Donasi melalui PayPal"
 
-#: common/footer.j2.inc:87
+#: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
 msgstr "Donasi melalui LiberaPay"
 
-#: common/footer.j2.inc:95
+#: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm di Mastodon"
 
-#: common/footer.j2.inc:108
+#: common/footer.j2.inc:132
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
 
-#: common/footer.j2.inc:109
+#: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
 msgstr ""
 
-#: common/footer.j2.inc:111 template/trademarks.html.j2:19
+#: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr ""
 
 #: common/header.j2.inc:24
+#| msgid "a highly automated and intuitive digital audio workstation"
+msgid "A highly automated and intuitive digital audio workstation."
+msgstr ""
+
+#: common/header.j2.inc:31
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK"
+"LV2, JACK, VST, audio plugin"
 msgstr ""
 
-#: common/navigation.j2.inc:27
+#: common/navigation.j2.inc:28
 msgid "Home"
 msgstr "Beranda"
 
-#: common/navigation.j2.inc:33 template/download.html.j2:19
+#: common/navigation.j2.inc:34 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
 msgstr "Unduh"
 
-#: common/navigation.j2.inc:39 template/explore.html.j2:19
+#: common/navigation.j2.inc:40 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
 msgstr "Jelajahi"
 
-#: common/navigation.j2.inc:45 template/learn.html.j2:19
+#: common/navigation.j2.inc:46 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
 msgstr "Belajar"
 
-#: common/navigation.j2.inc:51 template/plugins.html.j2:19
+#: common/navigation.j2.inc:52 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
 msgstr "Plugin"
 
-#: common/navigation.j2.inc:57 template/community.html.j2:19
+#: common/navigation.j2.inc:58 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
 msgstr "Komunitas"
 
-#: common/navigation.j2.inc:63
-msgid "Forum"
-msgstr "Forum"
-
-#: common/navigation.j2.inc:81
+#: common/navigation.j2.inc:77
 msgid "Language"
 msgstr "Bahasa"
 
@@ -250,7 +263,7 @@ msgid "Bundled plugins (basic)"
 msgstr "Plugin yang dibundel (dasar)"
 
 #: template/download.html.j2:78
-msgid "Goes silent after 40 minutes"
+msgid "Goes silent after 1 hour"
 msgstr ""
 
 #: template/download.html.j2:79
@@ -310,30 +323,40 @@ msgstr ""
 "sistem operasi Anda."
 
 #: template/download.html.j2:115
-msgid "GNU/Linux"
-msgstr "GNU/Linux"
+#| msgid "GNU/Linux"
+msgid "GNU/Linux (package)"
+msgstr ""
 
 #: template/download.html.j2:116
+#| msgid "GNU/Linux"
+msgid "GNU/Linux (AppImage*)"
+msgstr ""
+
+#: template/download.html.j2:117
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:127
+#: template/download.html.j2:121
+msgid "* The AppImage build is experimental"
+msgstr ""
+
+#: template/download.html.j2:134
 msgid "Buy Now"
 msgstr "Beli Sekarang"
 
-#: template/download.html.j2:134
+#: template/download.html.j2:141
 msgid "Subscribe"
 msgstr "Berlangganan"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:148
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Dukung Zrythm dengan membeli penginstal."
 
-#: template/download.html.j2:142
+#: template/download.html.j2:149
 msgid "This month we received £{amount}."
 msgstr "Bulan ini kami menerima £{amount}."
 
-#: template/download.html.j2:144
+#: template/download.html.j2:151
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -349,98 +372,110 @@ msgstr "Daftar fitur, fungsionalitas, dan ulasan"
 msgid "Demos"
 msgstr "Demo"
 
-#: template/explore.html.j2:46 template/explore.html.j2:65
-#: template/explore.html.j2:84 template/learn.html.j2:51
-#: template/learn.html.j2:71 template/learn.html.j2:99
-#: template/learn.html.j2:120 template/learn.html.j2:141
-#: template/learn.html.j2:162 template/learn.html.j2:184
+#: template/explore.html.j2:48 template/explore.html.j2:69
+#: template/explore.html.j2:90 template/explore.html.j2:111
+#: template/learn.html.j2:52 template/learn.html.j2:74
+#: template/learn.html.j2:96 template/learn.html.j2:118
+#: template/learn.html.j2:140 template/learn.html.j2:170
+#: template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
 msgstr "Browser Anda tidak mendukung video HTML5"
 
-#: template/explore.html.j2:54 template/explore.html.j2:73
-#: template/explore.html.j2:92 template/learn.html.j2:59
-#: template/learn.html.j2:81 template/learn.html.j2:109
-#: template/learn.html.j2:130 template/learn.html.j2:151
-#: template/learn.html.j2:172 template/learn.html.j2:194
+#: template/explore.html.j2:56 template/explore.html.j2:77
+#: template/explore.html.j2:98 template/explore.html.j2:119
+#: template/learn.html.j2:62 template/learn.html.j2:84
+#: template/learn.html.j2:106 template/learn.html.j2:128
+#: template/learn.html.j2:150 template/learn.html.j2:180
+#: template/learn.html.j2:202
 msgid "Video by"
 msgstr "Video oleh"
 
-#: template/explore.html.j2:102 template/plugins.html.j2:53
+#: template/explore.html.j2:129 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Fitur"
 
-#: template/explore.html.j2:110 template/explore.html.j2:114
+#: template/explore.html.j2:137 template/explore.html.j2:141
 msgid "Piano roll"
 msgstr "Gulungan piano"
 
-#: template/explore.html.j2:119
+#: template/explore.html.j2:146
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr "Buat, edit, dan atur MIDI dalam piano roll khusus."
 
-#: template/explore.html.j2:128 template/explore.html.j2:141
+#: template/explore.html.j2:155 template/explore.html.j2:168
 msgid "Anywhere-to-anywhere connections"
 msgstr "Koneksi dari mana saja ke mana saja"
 
-#: template/explore.html.j2:133
+#: template/explore.html.j2:160
 msgid "Connect anything to anything."
 msgstr "Hubungkan apapun dengan apapun."
 
-#: template/explore.html.j2:148
+#: template/explore.html.j2:175
 msgid "Bounce in place"
 msgstr ""
 
-#: template/explore.html.j2:152
+#: template/explore.html.j2:179
 msgid "Bounce in-place"
 msgstr ""
 
-#: template/explore.html.j2:157
+#: template/explore.html.j2:184
 msgid "Quickly bounce selected material to audio."
 msgstr ""
 
-#: template/explore.html.j2:166 template/explore.html.j2:179
+#: template/explore.html.j2:193 template/explore.html.j2:206
 msgid "Automation curves"
 msgstr ""
 
-#: template/explore.html.j2:171
+#: template/explore.html.j2:198
 msgid "Automate parameters with straight lines or curves."
 msgstr ""
 
-#: template/explore.html.j2:184
+#: template/explore.html.j2:211
 msgid "Screenshots"
 msgstr "Cuplikan"
 
-#: template/explore.html.j2:192 template/explore.html.j2:209
+#: template/explore.html.j2:219 template/explore.html.j2:236
+#: template/explore.html.j2:253 template/explore.html.j2:270
 msgid "Screenshot"
 msgstr "Tangkapan Layar"
 
-#: template/explore.html.j2:194
+#: template/explore.html.j2:221
 msgid "Mixing"
 msgstr ""
 
-#: template/explore.html.j2:199 template/explore.html.j2:216
+#: template/explore.html.j2:226 template/explore.html.j2:243
+#: template/explore.html.j2:260 template/explore.html.j2:277
 msgid "Screenshot by"
 msgstr "Tangkapan layar oleh"
 
-#: template/explore.html.j2:211
+#: template/explore.html.j2:238
 msgid "Audio Editor"
 msgstr "Editor Audio"
 
-#: template/explore.html.j2:226
+#: template/explore.html.j2:255
+msgid "Localized UI"
+msgstr ""
+
+#: template/explore.html.j2:272
+msgid "CSS Theme"
+msgstr ""
+
+#: template/explore.html.j2:287
 msgid "Reviews"
 msgstr "Ulasan"
 
-#: template/explore.html.j2:234
+#: template/explore.html.j2:295
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr "unfa livestream: Membuat lagu dengan Zrythm"
 
-#: template/explore.html.j2:242
+#: template/explore.html.j2:303
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Artikel dari Edisi 229/2019 Linux Magazine"
 
-#: template/explore.html.j2:250
+#: template/explore.html.j2:311
 msgid ""
-"Phoronix news: Zrythm approaching beta as an easy-to-use, open-source "
-"digital audio workstation"
+"Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
+"freedom] digital audio workstation"
 msgstr ""
 
 #: template/index.html.j2:19
@@ -513,24 +548,25 @@ msgstr "Dukungan multi-backend"
 #: template/index.html.j2:118
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
-"for JACK transport, ALSA, WASAPI, Windows MME, CoreMidi and CoreAudio."
+"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
-#: template/index.html.j2:131
+#: template/index.html.j2:132
 msgid "Chord assistance"
 msgstr "Asisten akord"
 
-#: template/index.html.j2:136
+#: template/index.html.j2:137
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to help with chord progressions."
+"track to assist with chord progressions."
 msgstr ""
 
-#: template/index.html.j2:151
+#: template/index.html.j2:152
 msgid "Liberating"
 msgstr ""
 
-#: template/index.html.j2:156
+#: template/index.html.j2:157
 msgid ""
 "Zrythm is <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
@@ -540,29 +576,23 @@ msgstr ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\"></a>. "
 "Gunakan, pelajari, bagikan, dan tingkatkan dengan bebas."
 
-#: template/index.html.j2:168
+#: template/index.html.j2:169
 msgid "Multilingual"
 msgstr "Multi bahasa"
 
-#: template/index.html.j2:173
+#: template/index.html.j2:174
 msgid ""
 "Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
-"languages</a> including English, French, Galician, Portuguese, Japanese and "
+"languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
 
-#: template/index.html.j2:183
+#: template/index.html.j2:184
 msgid "Learn more"
 msgstr "Pelajari lebih"
 
-#: template/index.html.j2:190
-msgid "Sponsors"
-msgstr "Sponsor"
-
-#: template/index.html.j2:195
-msgid ""
-"No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
-"if you would like to be a sponsor."
+#: template/index.html.j2:191
+msgid "Sponsors / Hosting Providers"
 msgstr ""
 
 #: template/learn.html.j2:22
@@ -574,58 +604,63 @@ msgid "Tutorials"
 msgstr "Tutorial"
 
 #: template/learn.html.j2:42
-msgid "General"
-msgstr ""
-
-#: template/learn.html.j2:76
-msgid "Routing"
-msgstr "Routing"
-
-#: template/learn.html.j2:90
 msgid "Editing"
 msgstr "Pengeditan"
 
-#: template/learn.html.j2:104
+#: template/learn.html.j2:57
 msgid "Select/Stretch Tool"
 msgstr ""
 
-#: template/learn.html.j2:125
+#: template/learn.html.j2:79
 msgid "Edit Tool"
 msgstr ""
 
-#: template/learn.html.j2:146
+#: template/learn.html.j2:101
 msgid "Cut Tool"
 msgstr ""
 
-#: template/learn.html.j2:167
+#: template/learn.html.j2:123
 msgid "Ramp Tool"
 msgstr ""
 
-#: template/learn.html.j2:189
+#: template/learn.html.j2:145
 msgid "Looping regions"
 msgstr ""
 
-#: template/learn.html.j2:204
-msgid "Other"
+#: template/learn.html.j2:160
+msgid "Routing"
+msgstr "Routing"
+
+#: template/learn.html.j2:175
+msgid "FX Sends"
 msgstr ""
 
-#: template/learn.html.j2:215
+#: template/learn.html.j2:197
+#| msgid "Routing"
+msgid "Port Routing"
+msgstr ""
+
+#: template/learn.html.j2:212
+msgid "Walkthroughs"
+msgstr ""
+
+#: template/learn.html.j2:223
 msgid "French"
 msgstr "Perancis"
 
-#: template/learn.html.j2:218
+#: template/learn.html.j2:226
 msgid "Playlist by"
 msgstr "Daftar putar oleh"
 
-#: template/learn.html.j2:229
+#: template/learn.html.j2:237
 msgid "Documentation"
 msgstr "Dokumentasi"
 
-#: template/learn.html.j2:236
+#: template/learn.html.j2:244
 msgid "User Manual"
 msgstr "Panduan pengguna"
 
-#: template/learn.html.j2:239
+#: template/learn.html.j2:247
 msgid "Developer Reference"
 msgstr "Referensi Pengembang"
 
@@ -646,7 +681,7 @@ msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3 or later</a>."
+"Public License, version 3</a>."
 msgstr ""
 
 #: template/legal.html.j2:50
@@ -656,11 +691,25 @@ msgid ""
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
-#: template/legal.html.j2:63
+#: template/legal.html.j2:56
+msgid ""
+"The <em>Richard Stallman: Free software, free society</em> video is licensed"
+" under Creative Commons BY-SA-ND 3.0."
+msgstr ""
+
+#: template/legal.html.j2:60
+msgid ""
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
+"himself and Ynternet.org foundation."
+msgstr ""
+
+#: template/legal.html.j2:68
 msgid "Trademarks"
 msgstr "Merek dagang"
 
-#: template/legal.html.j2:69
+#: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr "Zrythm dan logo Zrythm adalah merek dagang dari Alexandros Theodotou."
 
@@ -705,3 +754,9 @@ msgstr "Kembali ke beranda"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Kebijakan Merek Dagang Zrythm"
+
+#~ msgid "Forum"
+#~ msgstr "Forum"
+
+#~ msgid "Sponsors"
+#~ msgstr "Sponsor"

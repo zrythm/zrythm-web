@@ -83,6 +83,7 @@ langs_full = {
         "gd": "Gaelic",
         "gl": "Galego",
         "hi": "हिन्दी",
+        'id': 'bahasa Indonesia',
         "it": "Italiano",
         "ja": "日本語",
         "ko": "한국어",

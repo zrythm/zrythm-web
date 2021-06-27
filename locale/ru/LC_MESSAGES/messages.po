@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-24 19:54+0100\n"
+"POT-Creation-Date: 2021-06-27 01:55+0100\n"
 "PO-Revision-Date: 2021-06-23 06:32+0000\n"
 "Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -19,65 +19,59 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.7.1-dev\n"
 
-#: template.py:332
+#: template.py:333
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz позволяет отобразить аккорды мажорной или минорной гаммы на белые "
 "клавиши"
 
-#: template.py:333
+#: template.py:334
 msgid "Major or minor scale"
 msgstr "Мажорная или минорная гамма"
 
-#: template.py:334
+#: template.py:335
 msgid "Velocity multiplier per note"
 msgstr "Коэффицент силы звука для каждой ноты"
 
-#: template.py:338
+#: template.py:339
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO - это полнофункциональный LFO для автоматизации на основе CV"
 
-#: template.py:339
+#: template.py:340
 msgid "Multi-oscillator with custom wave"
 msgstr "Мульти-осциллятор с произвольной волной"
 
-#: template.py:340
+#: template.py:341
 msgid "Phase shift"
 msgstr "Сдвиг фазы"
 
-#: template.py:341
+#: template.py:342
 msgid "Vertical/horizontal inversion"
 msgstr "Вертикальная/Горизонтальная инверсия"
 
-#: template.py:342
+#: template.py:343
 msgid "Step mode"
 msgstr "Режим ступеней"
 
-#: template.py:343
+#: template.py:344
 msgid "Editable range"
 msgstr "Редактируемый диапазон"
 
-#: template.py:344
+#: template.py:345
 msgid "Sync to host or free-form"
 msgstr "Синхронизация с хостом или в свободной форме"
 
-#: template.py:347
+#: template.py:348
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw - это синтезатор supersaw с одним параметром"
 
-#: template.py:348
+#: template.py:349
 msgid "7 sawtooth oscillators"
 msgstr "7 осцилляторов sawtooth"
 
-#: template.py:349
+#: template.py:350
 msgid "Single knob to control detune"
 msgstr "Одна ручка для управления detune"
-
-#: common/base.j2:29
-msgid ""
-"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
-"support!"
-msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"

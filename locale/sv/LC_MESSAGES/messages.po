@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-24 19:54+0100\n"
+"POT-Creation-Date: 2021-06-27 01:55+0100\n"
 "PO-Revision-Date: 2020-09-25 18:02+0000\n"
 "Last-Translator: Felix Paulsson <fpaulsson@protonmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -19,64 +19,58 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: template.py:332
+#: template.py:333
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz kartlägger ackorden av en mindre eller större skala till vita "
 "tangenter"
 
-#: template.py:333
+#: template.py:334
 msgid "Major or minor scale"
 msgstr "Mindre eller större skala"
 
-#: template.py:334
+#: template.py:335
 msgid "Velocity multiplier per note"
 msgstr "Hastighets multiplikator per not"
 
-#: template.py:338
+#: template.py:339
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO är en fullt funktionsrik LFO för CV-baserad automation."
 
-#: template.py:339
+#: template.py:340
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillator med justerbar våg"
 
-#: template.py:340
+#: template.py:341
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:341
+#: template.py:342
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:342
+#: template.py:343
 msgid "Step mode"
 msgstr ""
 
-#: template.py:343
+#: template.py:344
 msgid "Editable range"
 msgstr ""
 
-#: template.py:344
+#: template.py:345
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:347
+#: template.py:348
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:348
+#: template.py:349
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:349
+#: template.py:350
 msgid "Single knob to control detune"
-msgstr ""
-
-#: common/base.j2:29
-msgid ""
-"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
-"support!"
 msgstr ""
 
 #: common/footer.j2.inc:21

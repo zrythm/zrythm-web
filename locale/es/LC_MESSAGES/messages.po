@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-24 19:54+0100\n"
+"POT-Creation-Date: 2021-06-27 01:55+0100\n"
 "PO-Revision-Date: 2021-06-13 17:32+0000\n"
 "Last-Translator: Andrus Diaz German <andrusdiazaleman@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -19,64 +19,58 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: template.py:332
+#: template.py:333
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea los acordes de una escala mayor o menor a las teclas blancas"
 
-#: template.py:333
+#: template.py:334
 msgid "Major or minor scale"
 msgstr "Escala mayor o menor"
 
-#: template.py:334
+#: template.py:335
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidad por nota"
 
-#: template.py:338
+#: template.py:339
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO es un LFO completo para automatizaciones basadas en CV"
 
-#: template.py:339
+#: template.py:340
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi oscilador con onda personalizada"
 
-#: template.py:340
+#: template.py:341
 msgid "Phase shift"
 msgstr "Desplazamiento de fase"
 
-#: template.py:341
+#: template.py:342
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:342
+#: template.py:343
 msgid "Step mode"
 msgstr "Modo paso"
 
-#: template.py:343
+#: template.py:344
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:344
+#: template.py:345
 msgid "Sync to host or free-form"
 msgstr "Sincronización con el host o de forma libre"
 
-#: template.py:347
+#: template.py:348
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw es un sintetizador supersaw con 1 parámetro"
 
-#: template.py:348
+#: template.py:349
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de onda de sierra"
 
-#: template.py:349
+#: template.py:350
 msgid "Single knob to control detune"
 msgstr "Botón único para controlar la desafinación"
-
-#: common/base.j2:29
-msgid ""
-"The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your "
-"support!"
-msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
