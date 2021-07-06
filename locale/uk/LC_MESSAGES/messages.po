@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-06 16:17+0100\n"
+"POT-Creation-Date: 2021-07-06 21:52+0100\n"
 "PO-Revision-Date: 2021-06-14 22:32+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -365,107 +365,118 @@ msgstr "Показ можливостей"
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
 #: template/explore.html.j2:90 template/explore.html.j2:111
-#: template/learn.html.j2:52 template/learn.html.j2:74
-#: template/learn.html.j2:96 template/learn.html.j2:118
-#: template/learn.html.j2:140 template/learn.html.j2:170
-#: template/learn.html.j2:192
+#: template/explore.html.j2:132 template/learn.html.j2:52
+#: template/learn.html.j2:74 template/learn.html.j2:96
+#: template/learn.html.j2:118 template/learn.html.j2:140
+#: template/learn.html.j2:170 template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
 msgstr "Ваш веб-оглядач не підтримує відео HTML5"
 
 #: template/explore.html.j2:56 template/explore.html.j2:77
 #: template/explore.html.j2:98 template/explore.html.j2:119
-#: template/learn.html.j2:62 template/learn.html.j2:84
-#: template/learn.html.j2:106 template/learn.html.j2:128
-#: template/learn.html.j2:150 template/learn.html.j2:180
-#: template/learn.html.j2:202
+#: template/explore.html.j2:140 template/learn.html.j2:62
+#: template/learn.html.j2:84 template/learn.html.j2:106
+#: template/learn.html.j2:128 template/learn.html.j2:150
+#: template/learn.html.j2:180 template/learn.html.j2:202
 msgid "Video by"
 msgstr "Відео від"
 
-#: template/explore.html.j2:129 template/plugins.html.j2:53
+#: template/explore.html.j2:137
+msgid "Remake"
+msgstr ""
+
+#: template/explore.html.j2:150 template/plugins.html.j2:53
 msgid "Features"
 msgstr "Можливості"
 
-#: template/explore.html.j2:137 template/explore.html.j2:141
+#: template/explore.html.j2:158 template/explore.html.j2:162
 msgid "Piano roll"
 msgstr "Редактор нот"
 
-#: template/explore.html.j2:146
+#: template/explore.html.j2:167
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr ""
 "Створюйте, редагуйте та упорядковуйте MIDI-події у спеціальному редакторі "
 "нот."
 
-#: template/explore.html.j2:155 template/explore.html.j2:168
+#: template/explore.html.j2:176 template/explore.html.j2:189
 msgid "Anywhere-to-anywhere connections"
 msgstr "З'єднання чого завгодно"
 
-#: template/explore.html.j2:160
+#: template/explore.html.j2:181
 msgid "Connect anything to anything."
 msgstr "З'єднуйте між собою будь-що."
 
-#: template/explore.html.j2:175
+#: template/explore.html.j2:196
 msgid "Bounce in place"
 msgstr "Конвертація на місці"
 
-#: template/explore.html.j2:179
+#: template/explore.html.j2:200
 msgid "Bounce in-place"
 msgstr "Конвертація на місці"
 
-#: template/explore.html.j2:184
+#: template/explore.html.j2:205
 msgid "Quickly bounce selected material to audio."
 msgstr "Швидко і зручно перетворюйте вибрані елементи в аудіоформат."
 
-#: template/explore.html.j2:193 template/explore.html.j2:206
+#: template/explore.html.j2:214 template/explore.html.j2:227
 msgid "Automation curves"
 msgstr "Криві автоматизації"
 
-#: template/explore.html.j2:198
+#: template/explore.html.j2:219
 msgid "Automate parameters with straight lines or curves."
 msgstr "Автоматизуйте параметри за допомогою кривих або прямих ліній."
 
-#: template/explore.html.j2:211
+#: template/explore.html.j2:232
 msgid "Screenshots"
 msgstr ""
 
-#: template/explore.html.j2:219 template/explore.html.j2:236
-#: template/explore.html.j2:253 template/explore.html.j2:270
+#: template/explore.html.j2:240 template/explore.html.j2:257
+#: template/explore.html.j2:274 template/explore.html.j2:291
+#: template/explore.html.j2:308
 msgid "Screenshot"
 msgstr ""
 
-#: template/explore.html.j2:221
+#: template/explore.html.j2:242
 msgid "Mixing"
 msgstr ""
 
-#: template/explore.html.j2:226 template/explore.html.j2:243
-#: template/explore.html.j2:260 template/explore.html.j2:277
+#: template/explore.html.j2:247 template/explore.html.j2:264
+#: template/explore.html.j2:281 template/explore.html.j2:298
+#: template/explore.html.j2:315
 msgid "Screenshot by"
 msgstr ""
 
-#: template/explore.html.j2:238
+#: template/explore.html.j2:259
 msgid "Audio Editor"
 msgstr ""
 
-#: template/explore.html.j2:255
+#: template/explore.html.j2:276
 msgid "Localized UI"
 msgstr ""
 
-#: template/explore.html.j2:272
+#: template/explore.html.j2:293
 msgid "CSS Theme"
 msgstr ""
 
-#: template/explore.html.j2:287
+#: template/explore.html.j2:310
+#| msgid "Overview"
+msgid "Mixer view"
+msgstr ""
+
+#: template/explore.html.j2:325
 msgid "Reviews"
 msgstr "Відгуки"
 
-#: template/explore.html.j2:295
+#: template/explore.html.j2:333
 msgid "unfa livestream: Making a track with Zrythm"
 msgstr ""
 
-#: template/explore.html.j2:303
+#: template/explore.html.j2:341
 msgid "Article from Issue 229/2019 of Linux Magazine"
 msgstr "Стаття з випуску 229/2019 журналу Linux Magazine"
 
-#: template/explore.html.j2:311
+#: template/explore.html.j2:349
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
