@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-05 04:09+0100\n"
+"POT-Creation-Date: 2021-07-06 16:17+0100\n"
 "PO-Revision-Date: 2021-06-18 00:36+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -20,55 +20,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.7\n"
 
-#: template.py:333
+#: template.py:336
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
 
-#: template.py:334
+#: template.py:337
 msgid "Major or minor scale"
 msgstr "メジャーまたはマイナー音階"
 
-#: template.py:335
+#: template.py:338
 msgid "Velocity multiplier per note"
 msgstr "音符ごとのベロシティ乗数"
 
-#: template.py:339
+#: template.py:342
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
 
-#: template.py:340
+#: template.py:343
 msgid "Multi-oscillator with custom wave"
 msgstr "多オシレータおよびカスタム"
 
-#: template.py:341
+#: template.py:344
 msgid "Phase shift"
 msgstr "位相シフト"
 
-#: template.py:342
+#: template.py:345
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平インバート"
 
-#: template.py:343
+#: template.py:346
 msgid "Step mode"
 msgstr "ステップモード"
 
-#: template.py:344
+#: template.py:347
 msgid "Editable range"
 msgstr "編集可能な出力範囲"
 
-#: template.py:345
+#: template.py:348
 msgid "Sync to host or free-form"
 msgstr "ホストと同期または自由周波数"
 
-#: template.py:348
+#: template.py:351
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSawは1つのパラメータを持つスーパーソーシンセである"
 
-#: template.py:349
+#: template.py:352
 msgid "7 sawtooth oscillators"
 msgstr "7つのノコギリオシレータ"
 
-#: template.py:350
+#: template.py:353
 msgid "Single knob to control detune"
 msgstr "シングル・ノブでデチューンを調整"
 
@@ -286,7 +286,6 @@ msgid "<b>£5</b> single version"
 msgstr "シングル・バージョン<b>£5</b>"
 
 #: template/download.html.j2:87
-#| msgid "<b>+£10</b> beta bundle"
 msgid "<b>+£10</b> v1 bundle"
 msgstr ""
 

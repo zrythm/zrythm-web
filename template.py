@@ -54,6 +54,7 @@ import semver
 
 # for news
 import datetime
+import dateutil
 from dateutil.parser import parse
 
 env = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
@@ -117,35 +118,37 @@ eur_to_gbp = 0.92
 prev_month_earning = 100
 
 # get monthly orders
-orders_url = 'https://{}:{}@www.sendowl.com/api/v1/orders'.format(
-        os.getenv('SENDOWL_KEY'), os.getenv('SENDOWL_SECRET'))
+orders_url = 'https://accounts.zrythm.org/api/v1/orders/'
 headers = {
     'Accept': 'application/json',
     'Content-type': 'application/json',
     'Accept-Charset': 'UTF-8',
+    'Authorization': 'Token %s' % os.getenv ('ZRYTHM_ACCOUNTS_TOKEN'),
     }
 payload = {
-    'from': datetime.datetime.utcnow().replace(day=1).strftime('%Y-%m-%d'),
-    'to': datetime.datetime.utcnow().strftime('%Y-%m-%d'),
-    'state': 'complete',
-    'per_page': '50',
+    'limit': '100',
+    'status': 'Completed',
+    'ordering': '-updated_at',
     }
 r = requests.get(orders_url, params=payload, headers=headers)
 if r.status_code == 200:
     monthly_earning = 0
     num_monthly_orders = 0
-    for _order in r.json():
-        num_monthly_orders += 1
-        order = _order['order']
-        if order['gateway'] == 'BitPay':
-            amount = float(order['settled_gross'])
-            amount -= amount / 100.0
-        else:
-            amount = float(order['settled_gross']) - float(order['settled_gateway_fee'])
-        if order['settled_currency'] == 'USD':
-            amount *= usd_to_gbp
-        print ('adding {} sendowl earnings'.format(amount))
+    start_datetime = datetime.datetime.utcnow().replace(day=5,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
+    # TODO change to following next month
+    # start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
+    for order in r.json()['results']:
+        product = order['product']
+        if product['type'] == 'Subscription':
+            continue
+        updated_at = dateutil.parser.isoparse (order['updated_at'])
+        if updated_at < start_datetime:
+            continue
+        amount = float (product['price_gbp'])
+        amount -= (amount * 0.05)
+        print ('adding {} zrythm accounts earnings'.format(amount))
         monthly_earning += amount
+        num_monthly_orders += 1
 else:
     print (r.json())
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-05 04:09+0100\n"
+"POT-Creation-Date: 2021-07-06 16:17+0100\n"
 "PO-Revision-Date: 2021-03-14 18:02+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5.2-dev\n"
 
-#: template.py:333
+#: template.py:336
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
 "touches blanches"
 
-#: template.py:334
+#: template.py:337
 msgid "Major or minor scale"
 msgstr "Gamme majeure ou mineure"
 
-#: template.py:335
+#: template.py:338
 msgid "Velocity multiplier per note"
 msgstr "Multiplicateur de vitesse par note"
 
-#: template.py:339
+#: template.py:342
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
-#: template.py:340
+#: template.py:343
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
-#: template.py:341
+#: template.py:344
 msgid "Phase shift"
 msgstr "Décalage des phases"
 
-#: template.py:342
+#: template.py:345
 msgid "Vertical/horizontal inversion"
 msgstr "Inversion verticale/horizontale"
 
-#: template.py:343
+#: template.py:346
 msgid "Step mode"
 msgstr "Mode à pas"
 
-#: template.py:344
+#: template.py:347
 msgid "Editable range"
 msgstr "Plage modifiable"
 
-#: template.py:345
+#: template.py:348
 msgid "Sync to host or free-form"
 msgstr "Synchronisation avec l'hôte ou la forme libre"
 
-#: template.py:348
+#: template.py:351
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw est un synthétiseur supersaw à 1 paramètre"
 
-#: template.py:349
+#: template.py:352
 msgid "7 sawtooth oscillators"
 msgstr "7 oscillateurs en dents de scie"
 
-#: template.py:350
+#: template.py:353
 msgid "Single knob to control detune"
 msgstr "Un seul bouton pour contrôler le désaccord"
 
@@ -288,7 +288,6 @@ msgid "<b>£5</b> single version"
 msgstr "version simple à <b>5 £</b>"
 
 #: template/download.html.j2:87
-#| msgid "<b>+£10</b> beta bundle"
 msgid "<b>+£10</b> v1 bundle"
 msgstr ""
 
