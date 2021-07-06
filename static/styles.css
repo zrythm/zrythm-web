@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+ * Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
  *
  * This file is part of Zrythm
  *
@@ -64,8 +64,13 @@ nav {
   /*max-height: 180px;*/
   max-width: 96%;
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  transition: transform .2s;
+  /* animation */ }
 
+@media all and (min-width: 769px) {
+  .feature_img:hover {
+    transform: scale(1.8); } }
 .feature_description {
   padding-left: 10px;
   padding-right: 10px;

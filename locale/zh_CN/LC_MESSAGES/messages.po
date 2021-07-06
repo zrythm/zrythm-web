@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-27 01:55+0100\n"
+"POT-Creation-Date: 2021-07-05 04:09+0100\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -241,113 +241,110 @@ msgstr "安装程序"
 msgid "trial"
 msgstr "试用"
 
-#: template/download.html.j2:67
-msgid "alpha/beta"
-msgstr "alpha/beta"
-
-#: template/download.html.j2:68
+#: template/download.html.j2:66
 msgid "full"
 msgstr "已满"
 
-#: template/download.html.j2:71
+#: template/download.html.j2:69
 msgid "subscription"
 msgstr "订阅"
 
-#: template/download.html.j2:77
+#: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
 msgstr "捆绑插件（基本）"
 
-#: template/download.html.j2:78
+#: template/download.html.j2:76
 msgid "Goes silent after 1 hour"
 msgstr ""
 
-#: template/download.html.j2:79
+#: template/download.html.j2:77
 msgid "Save/load is disabled"
 msgstr "已禁用保存/加载"
 
-#: template/download.html.j2:80
+#: template/download.html.j2:78
 msgid "<b>£0</b>"
 msgstr "<b>£0</b>"
 
-#: template/download.html.j2:85
+#: template/download.html.j2:83
 msgid "Compiled with all features"
 msgstr "具备所有功能"
 
-#: template/download.html.j2:86
+#: template/download.html.j2:84
 msgid "Bundled plugins (all)"
 msgstr "捆绑插件（全部）"
 
-#: template/download.html.j2:87
+#: template/download.html.j2:85
 msgid "PDF user manual"
 msgstr "PDF用户手册"
 
-#: template/download.html.j2:88
+#: template/download.html.j2:86
 msgid "<b>£5</b> single version"
 msgstr "<b>£5</b>单一版本"
 
-#: template/download.html.j2:89
-msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+£10</b>beta包"
+#: template/download.html.j2:87
+#| msgid "<b>+£10</b> beta bundle"
+msgid "<b>+£10</b> v1 bundle"
+msgstr ""
 
-#: template/download.html.j2:94
+#: template/download.html.j2:92
 msgid "Full version"
 msgstr "完整版"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:93
 msgid "Upgrades to new releases"
 msgstr "升级到新版本"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:94
 msgid "Access to nightly builds"
 msgstr "访问夜间构建"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:95
 msgid "<b>£5/month</b>"
 msgstr "<b>£5/每月</b>"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:103
 msgid "Try Now"
 msgstr "立即尝试"
 
-#: template/download.html.j2:112
+#: template/download.html.j2:110
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr "这是一个功能有限的试用版。请选择您的操作系统。"
 
-#: template/download.html.j2:115
+#: template/download.html.j2:113
 msgid "GNU/Linux (package)"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:114
 msgid "GNU/Linux (AppImage*)"
 msgstr ""
 
-#: template/download.html.j2:117
+#: template/download.html.j2:115
 msgid "Windows 64-bit"
 msgstr "Windows 64位"
 
-#: template/download.html.j2:121
+#: template/download.html.j2:119
 msgid "* The AppImage build is experimental"
 msgstr ""
 
-#: template/download.html.j2:134
+#: template/download.html.j2:132
 msgid "Buy Now"
 msgstr "立即购买"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:139
 msgid "Subscribe"
 msgstr "订阅"
 
-#: template/download.html.j2:148
+#: template/download.html.j2:146
 msgid "Support Zrythm by purchasing an installer."
 msgstr "通过购买安装程序来支持Zrythm."
 
-#: template/download.html.j2:149
+#: template/download.html.j2:147
 msgid "This month we received £{amount}."
 msgstr "本月我们收到了£{amount}。"
 
-#: template/download.html.j2:151
+#: template/download.html.j2:149
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -737,6 +734,9 @@ msgstr "返回主页"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "alpha/beta"
+#~ msgstr "alpha/beta"
 
 #~ msgid "Forum"
 #~ msgstr "论坛"

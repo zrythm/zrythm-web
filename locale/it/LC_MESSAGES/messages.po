@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-27 01:55+0100\n"
+"POT-Creation-Date: 2021-07-05 04:09+0100\n"
 "PO-Revision-Date: 2021-02-20 00:50+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -243,75 +243,72 @@ msgstr "Installatore"
 msgid "trial"
 msgstr "prova"
 
-#: template/download.html.j2:67
-msgid "alpha/beta"
-msgstr ""
-
-#: template/download.html.j2:68
+#: template/download.html.j2:66
 msgid "full"
 msgstr "versione completa"
 
-#: template/download.html.j2:71
+#: template/download.html.j2:69
 msgid "subscription"
 msgstr "abbonamento"
 
-#: template/download.html.j2:77
+#: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
 msgstr "Plugin inclusi (di base)"
 
-#: template/download.html.j2:78
+#: template/download.html.j2:76
 msgid "Goes silent after 1 hour"
 msgstr ""
 
-#: template/download.html.j2:79
+#: template/download.html.j2:77
 msgid "Save/load is disabled"
 msgstr "Salva/carica è disabilitato"
 
-#: template/download.html.j2:80
+#: template/download.html.j2:78
 msgid "<b>£0</b>"
 msgstr "<b>£0</b>"
 
-#: template/download.html.j2:85
+#: template/download.html.j2:83
 msgid "Compiled with all features"
 msgstr "Compilato con tutte le funzionalità"
 
-#: template/download.html.j2:86
+#: template/download.html.j2:84
 msgid "Bundled plugins (all)"
 msgstr "Plugin inclusi (tutti)"
 
-#: template/download.html.j2:87
+#: template/download.html.j2:85
 msgid "PDF user manual"
 msgstr "Manuale utente PDF"
 
-#: template/download.html.j2:88
+#: template/download.html.j2:86
 msgid "<b>£5</b> single version"
 msgstr "<b>£5</b> singola versione"
 
-#: template/download.html.j2:89
-msgid "<b>+£10</b> beta bundle"
+#: template/download.html.j2:87
+#| msgid "<b>£0</b>"
+msgid "<b>+£10</b> v1 bundle"
 msgstr ""
 
-#: template/download.html.j2:94
+#: template/download.html.j2:92
 msgid "Full version"
 msgstr "Versione completa"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:93
 msgid "Upgrades to new releases"
 msgstr "Aggiornamenti alle nuove versioni"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:94
 msgid "Access to nightly builds"
 msgstr "Accesso alle nightly build"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:95
 msgid "<b>£5/month</b>"
 msgstr "<b>£5/mese</b>"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:103
 msgid "Try Now"
 msgstr "Prova adesso"
 
-#: template/download.html.j2:112
+#: template/download.html.j2:110
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
@@ -319,39 +316,39 @@ msgstr ""
 "Questa è una versione di prova con funzionalità limitate. Per favore "
 "seleziona il tuo sistema operativo."
 
-#: template/download.html.j2:115
+#: template/download.html.j2:113
 msgid "GNU/Linux (package)"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:114
 msgid "GNU/Linux (AppImage*)"
 msgstr ""
 
-#: template/download.html.j2:117
+#: template/download.html.j2:115
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:121
+#: template/download.html.j2:119
 msgid "* The AppImage build is experimental"
 msgstr ""
 
-#: template/download.html.j2:134
+#: template/download.html.j2:132
 msgid "Buy Now"
 msgstr "Compra adesso"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:139
 msgid "Subscribe"
 msgstr "Iscriviti"
 
-#: template/download.html.j2:148
+#: template/download.html.j2:146
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Supporta Zrythm comprando il pacchetto per l'installazione."
 
-#: template/download.html.j2:149
+#: template/download.html.j2:147
 msgid "This month we received £{amount}."
 msgstr "Questo mese abbiamo ricevuto £{amount}."
 
-#: template/download.html.j2:151
+#: template/download.html.j2:149
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"

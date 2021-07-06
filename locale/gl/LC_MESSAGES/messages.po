@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-27 01:55+0100\n"
+"POT-Creation-Date: 2021-07-05 04:09+0100\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/zrythm/web/gl/>\n"
@@ -243,75 +243,72 @@ msgstr "Instalador"
 msgid "trial"
 msgstr "proba"
 
-#: template/download.html.j2:67
-msgid "alpha/beta"
-msgstr "alfa/beta"
-
-#: template/download.html.j2:68
+#: template/download.html.j2:66
 msgid "full"
 msgstr "completo"
 
-#: template/download.html.j2:71
+#: template/download.html.j2:69
 msgid "subscription"
 msgstr "subscrición"
 
-#: template/download.html.j2:77
+#: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
 msgstr "Plugins incluídos (básicos)"
 
-#: template/download.html.j2:78
+#: template/download.html.j2:76
 msgid "Goes silent after 1 hour"
 msgstr ""
 
-#: template/download.html.j2:79
+#: template/download.html.j2:77
 msgid "Save/load is disabled"
 msgstr "Gardar/cargar está desactivado"
 
-#: template/download.html.j2:80
+#: template/download.html.j2:78
 msgid "<b>£0</b>"
 msgstr "<b>£0</b>"
 
-#: template/download.html.j2:85
+#: template/download.html.j2:83
 msgid "Compiled with all features"
 msgstr "Compilado con tódalas características"
 
-#: template/download.html.j2:86
+#: template/download.html.j2:84
 msgid "Bundled plugins (all)"
 msgstr "Plugins incluídos (todos)"
 
-#: template/download.html.j2:87
+#: template/download.html.j2:85
 msgid "PDF user manual"
 msgstr "Manual do usuario en PDF"
 
-#: template/download.html.j2:88
+#: template/download.html.j2:86
 msgid "<b>£5</b> single version"
 msgstr "<b>£5</b> versión única"
 
-#: template/download.html.j2:89
-msgid "<b>+£10</b> beta bundle"
-msgstr "<b>+£10</b> paquete beta"
+#: template/download.html.j2:87
+#| msgid "<b>+£10</b> beta bundle"
+msgid "<b>+£10</b> v1 bundle"
+msgstr ""
 
-#: template/download.html.j2:94
+#: template/download.html.j2:92
 msgid "Full version"
 msgstr "Versión completa"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:93
 msgid "Upgrades to new releases"
 msgstr "Actualizacións a versións novas"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:94
 msgid "Access to nightly builds"
 msgstr "Acceso ás actualizacións diarias (nightly builds)"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:95
 msgid "<b>£5/month</b>"
 msgstr "<b>£5/mes</b>"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:103
 msgid "Try Now"
 msgstr "Próbao agora"
 
-#: template/download.html.j2:112
+#: template/download.html.j2:110
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
@@ -319,39 +316,39 @@ msgstr ""
 "Esta é unha versión de proba con funcións limitadas. Por favor, escolle o "
 "teu sistema operativo."
 
-#: template/download.html.j2:115
+#: template/download.html.j2:113
 msgid "GNU/Linux (package)"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:114
 msgid "GNU/Linux (AppImage*)"
 msgstr ""
 
-#: template/download.html.j2:117
+#: template/download.html.j2:115
 msgid "Windows 64-bit"
 msgstr "Windows 64-bit"
 
-#: template/download.html.j2:121
+#: template/download.html.j2:119
 msgid "* The AppImage build is experimental"
 msgstr ""
 
-#: template/download.html.j2:134
+#: template/download.html.j2:132
 msgid "Buy Now"
 msgstr "Mercar Agora"
 
-#: template/download.html.j2:141
+#: template/download.html.j2:139
 msgid "Subscribe"
 msgstr "Subscríbete"
 
-#: template/download.html.j2:148
+#: template/download.html.j2:146
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Apoia a Zrythm mercando un instalador."
 
-#: template/download.html.j2:149
+#: template/download.html.j2:147
 msgid "This month we received £{amount}."
 msgstr "Este mes recibimos £{amount}."
 
-#: template/download.html.j2:151
+#: template/download.html.j2:149
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
@@ -759,6 +756,9 @@ msgstr "Volver á páxina de inicio"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "alpha/beta"
+#~ msgstr "alfa/beta"
 
 #~ msgid "Forum"
 #~ msgstr "Foro"
