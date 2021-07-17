@@ -96,6 +96,7 @@ langs_full = {
         "ru": "Русский",
         "sv": "Svenska",
         "uk": "Українська",
+        "vi": "Tiếng Việt",
         "zh_CN": "简体中文",
         "zh_TW": "繁體中文",
         }

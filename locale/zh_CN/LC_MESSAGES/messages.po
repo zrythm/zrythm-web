@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-06 21:52+0100\n"
+"POT-Creation-Date: 2021-07-17 10:48+0100\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: template.py:336
+#: template.py:337
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz将小调或大调的和弦映射到白键上"
 
-#: template.py:337
+#: template.py:338
 msgid "Major or minor scale"
 msgstr "大调音阶或小调音阶"
 
-#: template.py:338
+#: template.py:339
 msgid "Velocity multiplier per note"
 msgstr "每个音符的速度乘数"
 
-#: template.py:342
+#: template.py:343
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO是一款功能齐全的基于CV自动化的LFO"
 
-#: template.py:343
+#: template.py:344
 msgid "Multi-oscillator with custom wave"
 msgstr "带自定义波的多振荡器"
 
-#: template.py:344
+#: template.py:345
 msgid "Phase shift"
 msgstr "相移"
 
-#: template.py:345
+#: template.py:346
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反演"
 
-#: template.py:346
+#: template.py:347
 msgid "Step mode"
 msgstr "步进模式"
 
-#: template.py:347
+#: template.py:348
 msgid "Editable range"
 msgstr "可编辑范围"
 
-#: template.py:348
+#: template.py:349
 msgid "Sync to host or free-form"
 msgstr "同步到主机或自由格式"
 
-#: template.py:351
+#: template.py:352
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw是一个带有1个参数的supersaw合成器"
 
-#: template.py:352
+#: template.py:353
 msgid "7 sawtooth oscillators"
 msgstr "7锯齿振荡器"
 
-#: template.py:353
+#: template.py:354
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 
@@ -452,7 +452,6 @@ msgid "CSS Theme"
 msgstr ""
 
 #: template/explore.html.j2:310
-#| msgid "Overview"
 msgid "Mixer view"
 msgstr ""
 
