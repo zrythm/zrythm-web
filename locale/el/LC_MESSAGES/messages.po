@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-07-17 10:48+0100\n"
-"PO-Revision-Date: 2021-04-11 23:05+0000\n"
-"Last-Translator: Panos Alevropoulos <panosalevropoulos@protonmail.com>\n"
+"PO-Revision-Date: 2021-07-19 19:34+0000\n"
+"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.6-dev\n"
 
 #: template.py:337
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -96,19 +96,19 @@ msgstr "Δωρεά Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Δωρεά με Bitcoin Cash"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Δωρεά Bitcoin Cash (BCH)"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Δωρεά με Monero"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Δωρεά Monero (XMR)"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
@@ -141,6 +141,8 @@ msgstr "Πολιτική εμπορικών σημάτων"
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
+"Ένας εξαιρετικά αυτοματοποιημένος και εύληπτος ψηφιακός σταθμός επεξεργασίας "
+"ήχου."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -288,7 +290,7 @@ msgstr "μονή έκδοση <b>£5</b>"
 
 #: template/download.html.j2:87
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "δέσμη v1 <b>+£10</b>"
 
 #: template/download.html.j2:92
 msgid "Full version"
