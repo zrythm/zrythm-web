@@ -1,0 +1,741 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-07-17 10:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: template.py:337
+msgid "ZChordz maps the chords of a minor or major scale to white keys"
+msgstr ""
+
+#: template.py:338
+msgid "Major or minor scale"
+msgstr ""
+
+#: template.py:339
+msgid "Velocity multiplier per note"
+msgstr ""
+
+#: template.py:343
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr ""
+
+#: template.py:344
+msgid "Multi-oscillator with custom wave"
+msgstr ""
+
+#: template.py:345
+msgid "Phase shift"
+msgstr ""
+
+#: template.py:346
+msgid "Vertical/horizontal inversion"
+msgstr ""
+
+#: template.py:347
+msgid "Step mode"
+msgstr ""
+
+#: template.py:348
+msgid "Editable range"
+msgstr ""
+
+#: template.py:349
+msgid "Sync to host or free-form"
+msgstr ""
+
+#: template.py:352
+msgid "ZSaw is a supersaw synth with 1 parameter"
+msgstr ""
+
+#: template.py:353
+msgid "7 sawtooth oscillators"
+msgstr ""
+
+#: template.py:354
+msgid "Single knob to control detune"
+msgstr ""
+
+#: common/footer.j2.inc:21
+msgid "The Zrythm contributors"
+msgstr ""
+
+#: common/footer.j2.inc:22
+msgid "Legal"
+msgstr ""
+
+#: common/footer.j2.inc:23
+msgid "Privacy"
+msgstr ""
+
+#: common/footer.j2.inc:30
+msgid "Donate using Bitcoin"
+msgstr ""
+
+#: common/footer.j2.inc:40
+msgid "Donate Bitcoin (BTC)"
+msgstr ""
+
+#: common/footer.j2.inc:56
+msgid "Donate using Bitcoin Cash"
+msgstr ""
+
+#: common/footer.j2.inc:66
+msgid "Donate Bitcoin Cash (BCH)"
+msgstr ""
+
+#: common/footer.j2.inc:82
+msgid "Donate using Monero"
+msgstr ""
+
+#: common/footer.j2.inc:92
+msgid "Donate Monero (XMR)"
+msgstr ""
+
+#: common/footer.j2.inc:103
+msgid "Donate using PayPal"
+msgstr ""
+
+#: common/footer.j2.inc:111
+msgid "Donate using LiberaPay"
+msgstr ""
+
+#: common/footer.j2.inc:119
+msgid "Zrythm on Mastodon"
+msgstr ""
+
+#: common/footer.j2.inc:132
+msgid ""
+"Zrythm and the Zrythm logo are registered trademarks of Alexandros "
+"Theodotou in the United Kingdom."
+msgstr ""
+
+#: common/footer.j2.inc:133
+msgid "See our {trademarkpolicy} for details."
+msgstr ""
+
+#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+msgid "Trademark Policy"
+msgstr ""
+
+#: common/header.j2.inc:24
+msgid "A highly automated and intuitive digital audio workstation."
+msgstr ""
+
+#: common/header.j2.inc:31
+msgid ""
+"DAW, digital audio workstation, music production, audio, pro audio, "
+"Linux, GNU/Linux, free software, libre software, sound editor, "
+"composition, MIDI, LV2, JACK, VST, audio plugin"
+msgstr ""
+
+#: common/navigation.j2.inc:28
+msgid "Home"
+msgstr ""
+
+#: common/navigation.j2.inc:34 template/download.html.j2:19
+#: template/download.html.j2:33
+msgid "Download"
+msgstr ""
+
+#: common/navigation.j2.inc:40 template/explore.html.j2:19
+#: template/explore.html.j2:31
+msgid "Explore"
+msgstr ""
+
+#: common/navigation.j2.inc:46 template/learn.html.j2:19
+#: template/learn.html.j2:31
+msgid "Learn"
+msgstr ""
+
+#: common/navigation.j2.inc:52 template/plugins.html.j2:19
+#: template/plugins.html.j2:32
+msgid "Plugins"
+msgstr ""
+
+#: common/navigation.j2.inc:58 template/community.html.j2:19
+#: template/community.html.j2:31
+msgid "Community"
+msgstr ""
+
+#: common/navigation.j2.inc:77
+msgid "Language"
+msgstr ""
+
+#: template/community.html.j2:22
+msgid "Zrythm's community pages and communication channels"
+msgstr ""
+
+#: template/community.html.j2:37
+msgid "Chat"
+msgstr ""
+
+#: template/community.html.j2:52
+msgid "Mail"
+msgstr ""
+
+#: template/community.html.j2:59
+msgid "Announcements"
+msgstr ""
+
+#: template/community.html.j2:62
+msgid "User discussion"
+msgstr ""
+
+#: template/community.html.j2:65
+msgid "Development"
+msgstr ""
+
+#: template/community.html.j2:69
+msgid "Project"
+msgstr ""
+
+#: template/community.html.j2:76
+msgid "Feature tracker"
+msgstr ""
+
+#: template/community.html.j2:79
+msgid "Bug tracker"
+msgstr ""
+
+#: template/community.html.j2:82
+msgid "Translations"
+msgstr ""
+
+#: template/download.html.j2:22
+msgid "Download Zrythm's source code or purchase a binary package installer"
+msgstr ""
+
+#: template/download.html.j2:39
+msgid "Source code"
+msgstr ""
+
+#: template/download.html.j2:49
+msgid "Releases"
+msgstr ""
+
+#: template/download.html.j2:52
+msgid "GPG Key"
+msgstr ""
+
+#: template/download.html.j2:56
+msgid "Installer"
+msgstr ""
+
+#: template/download.html.j2:63
+msgid "trial"
+msgstr ""
+
+#: template/download.html.j2:66
+msgid "full"
+msgstr ""
+
+#: template/download.html.j2:69
+msgid "subscription"
+msgstr ""
+
+#: template/download.html.j2:75
+msgid "Bundled plugins (basic)"
+msgstr ""
+
+#: template/download.html.j2:76
+msgid "Goes silent after 1 hour"
+msgstr ""
+
+#: template/download.html.j2:77
+msgid "Save/load is disabled"
+msgstr ""
+
+#: template/download.html.j2:78
+msgid "<b>£0</b>"
+msgstr ""
+
+#: template/download.html.j2:83
+msgid "Compiled with all features"
+msgstr ""
+
+#: template/download.html.j2:84
+msgid "Bundled plugins (all)"
+msgstr ""
+
+#: template/download.html.j2:85
+msgid "PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:86
+msgid "<b>£5</b> single version"
+msgstr ""
+
+#: template/download.html.j2:87
+msgid "<b>+£10</b> v1 bundle"
+msgstr ""
+
+#: template/download.html.j2:92
+msgid "Full version"
+msgstr ""
+
+#: template/download.html.j2:93
+msgid "Upgrades to new releases"
+msgstr ""
+
+#: template/download.html.j2:94
+msgid "Access to nightly builds"
+msgstr ""
+
+#: template/download.html.j2:95
+msgid "<b>£5/month</b>"
+msgstr ""
+
+#: template/download.html.j2:103
+msgid "Try Now"
+msgstr ""
+
+#: template/download.html.j2:110
+msgid ""
+"This is a trial version with limited functionality. Please select your "
+"operating system."
+msgstr ""
+
+#: template/download.html.j2:113
+msgid "GNU/Linux (package)"
+msgstr ""
+
+#: template/download.html.j2:114
+msgid "GNU/Linux (AppImage*)"
+msgstr ""
+
+#: template/download.html.j2:115
+msgid "Windows 64-bit"
+msgstr ""
+
+#: template/download.html.j2:119
+msgid "* The AppImage build is experimental"
+msgstr ""
+
+#: template/download.html.j2:132
+msgid "Buy Now"
+msgstr ""
+
+#: template/download.html.j2:139
+msgid "Subscribe"
+msgstr ""
+
+#: template/download.html.j2:146
+msgid "Support Zrythm by purchasing an installer."
+msgstr ""
+
+#: template/download.html.j2:147
+msgid "This month we received £{amount}."
+msgstr ""
+
+#: template/download.html.j2:149
+msgid ""
+"This includes donations from LiberaPay, PayPal, OpenCollective, downloads"
+" and subscriptions"
+msgstr ""
+
+#: template/explore.html.j2:22
+msgid "List of features, functionality, and reviews"
+msgstr ""
+
+#: template/explore.html.j2:37
+msgid "Demos"
+msgstr ""
+
+#: template/explore.html.j2:48 template/explore.html.j2:69
+#: template/explore.html.j2:90 template/explore.html.j2:111
+#: template/explore.html.j2:132 template/learn.html.j2:52
+#: template/learn.html.j2:74 template/learn.html.j2:96
+#: template/learn.html.j2:118 template/learn.html.j2:140
+#: template/learn.html.j2:170 template/learn.html.j2:192
+msgid "Your browser does not support HTML5 video"
+msgstr ""
+
+#: template/explore.html.j2:56 template/explore.html.j2:77
+#: template/explore.html.j2:98 template/explore.html.j2:119
+#: template/explore.html.j2:140 template/learn.html.j2:62
+#: template/learn.html.j2:84 template/learn.html.j2:106
+#: template/learn.html.j2:128 template/learn.html.j2:150
+#: template/learn.html.j2:180 template/learn.html.j2:202
+msgid "Video by"
+msgstr ""
+
+#: template/explore.html.j2:137
+msgid "Remake"
+msgstr ""
+
+#: template/explore.html.j2:150 template/plugins.html.j2:53
+msgid "Features"
+msgstr ""
+
+#: template/explore.html.j2:158 template/explore.html.j2:162
+msgid "Piano roll"
+msgstr ""
+
+#: template/explore.html.j2:167
+msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
+msgstr ""
+
+#: template/explore.html.j2:176 template/explore.html.j2:189
+msgid "Anywhere-to-anywhere connections"
+msgstr ""
+
+#: template/explore.html.j2:181
+msgid "Connect anything to anything."
+msgstr ""
+
+#: template/explore.html.j2:196
+msgid "Bounce in place"
+msgstr ""
+
+#: template/explore.html.j2:200
+msgid "Bounce in-place"
+msgstr ""
+
+#: template/explore.html.j2:205
+msgid "Quickly bounce selected material to audio."
+msgstr ""
+
+#: template/explore.html.j2:214 template/explore.html.j2:227
+msgid "Automation curves"
+msgstr ""
+
+#: template/explore.html.j2:219
+msgid "Automate parameters with straight lines or curves."
+msgstr ""
+
+#: template/explore.html.j2:232
+msgid "Screenshots"
+msgstr ""
+
+#: template/explore.html.j2:240 template/explore.html.j2:257
+#: template/explore.html.j2:274 template/explore.html.j2:291
+#: template/explore.html.j2:308
+msgid "Screenshot"
+msgstr ""
+
+#: template/explore.html.j2:242
+msgid "Mixing"
+msgstr ""
+
+#: template/explore.html.j2:247 template/explore.html.j2:264
+#: template/explore.html.j2:281 template/explore.html.j2:298
+#: template/explore.html.j2:315
+msgid "Screenshot by"
+msgstr ""
+
+#: template/explore.html.j2:259
+msgid "Audio Editor"
+msgstr ""
+
+#: template/explore.html.j2:276
+msgid "Localized UI"
+msgstr ""
+
+#: template/explore.html.j2:293
+msgid "CSS Theme"
+msgstr ""
+
+#: template/explore.html.j2:310
+msgid "Mixer view"
+msgstr ""
+
+#: template/explore.html.j2:325
+msgid "Reviews"
+msgstr ""
+
+#: template/explore.html.j2:333
+msgid "unfa livestream: Making a track with Zrythm"
+msgstr ""
+
+#: template/explore.html.j2:341
+msgid "Article from Issue 229/2019 of Linux Magazine"
+msgstr ""
+
+#: template/explore.html.j2:349
+msgid ""
+"Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
+"freedom] digital audio workstation"
+msgstr ""
+
+#: template/index.html.j2:19
+msgid "Digital Audio Workstation"
+msgstr ""
+
+#: template/index.html.j2:22
+msgid ""
+"Zrythm is a digital audio workstation designed to be featureful and easy "
+"to use. It allows limitless automation, supports LV2 plugins, works with "
+"the JACK audio backend and provides chord assistance."
+msgstr ""
+
+#: template/index.html.j2:33
+msgid "Zrythm"
+msgstr ""
+
+#: template/index.html.j2:35
+msgid "a highly automated and intuitive digital audio workstation"
+msgstr ""
+
+#: template/index.html.j2:51
+msgid "Overview"
+msgstr ""
+
+#: template/index.html.j2:57
+msgid ""
+"Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
+"workstation{endtooltip} designed to be featureful and easy to use."
+msgstr ""
+
+#: template/index.html.j2:60
+msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
+msgstr ""
+
+#: template/index.html.j2:64
+msgid ""
+"A DAW is used for composing, recording, editing, arranging, mixing and "
+"mastering music"
+msgstr ""
+
+#: template/index.html.j2:76
+msgid "Limitless automation"
+msgstr ""
+
+#: template/index.html.j2:81
+msgid ""
+"Automate almost anything with automation events using straight lines, "
+"ramps and curves, or with LFOs and envelopes."
+msgstr ""
+
+#: template/index.html.j2:94
+msgid "Audio plugins"
+msgstr ""
+
+#: template/index.html.j2:99
+msgid ""
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, "
+"with experimental support for VST3, AU, SFZ and SF2."
+msgstr ""
+
+#: template/index.html.j2:113
+msgid "Multi-backend support"
+msgstr ""
+
+#: template/index.html.j2:118
+msgid ""
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including "
+"support for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK "
+"transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
+msgstr ""
+
+#: template/index.html.j2:132
+msgid "Chord assistance"
+msgstr ""
+
+#: template/index.html.j2:137
+msgid ""
+"Featuring a chord pad for quickly trying out chords in a scale and a "
+"chord track to assist with chord progressions."
+msgstr ""
+
+#: template/index.html.j2:152
+msgid "Liberating"
+msgstr ""
+
+#: template/index.html.j2:157
+msgid ""
+"Zrythm is <a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free"
+" software</a>. Use, study, share and improve it freely."
+msgstr ""
+
+#: template/index.html.j2:169
+msgid "Multilingual"
+msgstr ""
+
+#: template/index.html.j2:174
+msgid ""
+"Available in <a "
+"href=\"https://hosted.weblate.org/engage/zrythm/\">multiple languages</a>"
+" including English, French, Spanish, Portuguese, Japanese and German."
+msgstr ""
+
+#: template/index.html.j2:184
+msgid "Learn more"
+msgstr ""
+
+#: template/index.html.j2:191
+msgid "Sponsors / Hosting Providers"
+msgstr ""
+
+#: template/learn.html.j2:22
+msgid "Zrythm reference pages - user manual - tutorials"
+msgstr ""
+
+#: template/learn.html.j2:37
+msgid "Tutorials"
+msgstr ""
+
+#: template/learn.html.j2:42
+msgid "Editing"
+msgstr ""
+
+#: template/learn.html.j2:57
+msgid "Select/Stretch Tool"
+msgstr ""
+
+#: template/learn.html.j2:79
+msgid "Edit Tool"
+msgstr ""
+
+#: template/learn.html.j2:101
+msgid "Cut Tool"
+msgstr ""
+
+#: template/learn.html.j2:123
+msgid "Ramp Tool"
+msgstr ""
+
+#: template/learn.html.j2:145
+msgid "Looping regions"
+msgstr ""
+
+#: template/learn.html.j2:160
+msgid "Routing"
+msgstr ""
+
+#: template/learn.html.j2:175
+msgid "FX Sends"
+msgstr ""
+
+#: template/learn.html.j2:197
+msgid "Port Routing"
+msgstr ""
+
+#: template/learn.html.j2:212
+msgid "Walkthroughs"
+msgstr ""
+
+#: template/learn.html.j2:223
+msgid "French"
+msgstr ""
+
+#: template/learn.html.j2:226
+msgid "Playlist by"
+msgstr ""
+
+#: template/learn.html.j2:237
+msgid "Documentation"
+msgstr ""
+
+#: template/learn.html.j2:244
+msgid "User Manual"
+msgstr ""
+
+#: template/learn.html.j2:247
+msgid "Developer Reference"
+msgstr ""
+
+#: template/legal.html.j2:19 template/legal.html.j2:31
+msgid "Legal information"
+msgstr ""
+
+#: template/legal.html.j2:22
+msgid "Legal, licensing and trademark information"
+msgstr ""
+
+#: template/legal.html.j2:37
+msgid "Licensing"
+msgstr ""
+
+#: template/legal.html.j2:43
+msgid ""
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
+"Zrythm is released under the <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
+"Public License, version 3</a>."
+msgstr ""
+
+#: template/legal.html.j2:50
+msgid ""
+"Unless otherwise stated, Videos found on the Zrythm website are released "
+"under <a href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+msgstr ""
+
+#: template/legal.html.j2:56
+msgid ""
+"The <em>Richard Stallman: Free software, free society</em> video is "
+"licensed under Creative Commons BY-SA-ND 3.0."
+msgstr ""
+
+#: template/legal.html.j2:60
+msgid ""
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis,"
+" Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
+"by himself and Ynternet.org foundation."
+msgstr ""
+
+#: template/legal.html.j2:68
+msgid "Trademarks"
+msgstr ""
+
+#: template/legal.html.j2:74
+msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
+msgstr ""
+
+#: template/plugins.html.j2:22
+msgid "Plugins bundled with Zrythm"
+msgstr ""
+
+#: template/plugins.html.j2:47
+msgid "{} screenshot"
+msgstr ""
+
+#: template/plugins.html.j2:61
+msgid "Technical specs"
+msgstr ""
+
+#: template/privacy.html.j2:19 template/privacy.html.j2:22
+#: template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr ""
+
+#: template/purchase-thanks.html.j2:19
+msgid "Thank You"
+msgstr ""
+
+#: template/purchase-thanks.html.j2:31
+msgid ""
+"Thank you for supporting development! You will receive an email soon with"
+" instructions to download your installer."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:38
+msgid ""
+"Once you download the zip file, extract it and run "
+"<code>./installer.sh</code> in a terminal. If you experience any "
+"problems, please contact us."
+msgstr ""
+
+#: template/purchase-thanks.html.j2:45
+msgid "Go back to home page"
+msgstr ""
+
+#: template/trademarks.html.j2:22
+msgid "Zrythm Trademark Policy"
+msgstr ""
