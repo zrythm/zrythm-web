@@ -8,30 +8,32 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-07-17 10:48+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-23 09:33+0000\n"
+"Last-Translator: Tarık Yıldız <tariky113@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: template.py:337
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz, minör veya majör gamın akorlarını beyaz tuşlara eşler"
 
 #: template.py:338
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Majör veya minör ölçek"
 
 #: template.py:339
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "Nota başına hız çarpanı"
 
 #: template.py:343
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO, CV tabanlı otomasyon için tam özellikli bir LFO'dur"
 
 #: template.py:344
 msgid "Multi-oscillator with custom wave"
