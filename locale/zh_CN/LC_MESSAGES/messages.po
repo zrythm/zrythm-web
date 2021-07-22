@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-07-17 10:48+0100\n"
-"PO-Revision-Date: 2021-07-21 17:02+0000\n"
-"Last-Translator: UnluckyNinja <unluckyninja1994@gmail.com>\n"
+"PO-Revision-Date: 2021-07-23 09:33+0000\n"
+"Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -454,7 +454,7 @@ msgstr ""
 
 #: template/explore.html.j2:310
 msgid "Mixer view"
-msgstr ""
+msgstr "混音器视图"
 
 #: template/explore.html.j2:325
 msgid "Reviews"
