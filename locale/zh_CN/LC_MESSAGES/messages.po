@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-17 10:48+0100\n"
+"POT-Creation-Date: 2021-07-23 23:39+0100\n"
 "PO-Revision-Date: 2021-02-08 11:50+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: template.py:337
+#: template.py:338
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz将小调或大调的和弦映射到白键上"
 
-#: template.py:338
+#: template.py:339
 msgid "Major or minor scale"
 msgstr "大调音阶或小调音阶"
 
-#: template.py:339
+#: template.py:340
 msgid "Velocity multiplier per note"
 msgstr "每个音符的速度乘数"
 
-#: template.py:343
+#: template.py:344
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO是一款功能齐全的基于CV自动化的LFO"
 
-#: template.py:344
+#: template.py:345
 msgid "Multi-oscillator with custom wave"
 msgstr "带自定义波的多振荡器"
 
-#: template.py:345
+#: template.py:346
 msgid "Phase shift"
 msgstr "相移"
 
-#: template.py:346
+#: template.py:347
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反演"
 
-#: template.py:347
+#: template.py:348
 msgid "Step mode"
 msgstr "步进模式"
 
-#: template.py:348
+#: template.py:349
 msgid "Editable range"
 msgstr "可编辑范围"
 
-#: template.py:349
+#: template.py:350
 msgid "Sync to host or free-form"
 msgstr "同步到主机或自由格式"
 
-#: template.py:352
+#: template.py:353
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw是一个带有1个参数的supersaw合成器"
 
-#: template.py:353
+#: template.py:354
 msgid "7 sawtooth oscillators"
 msgstr "7锯齿振荡器"
 
-#: template.py:354
+#: template.py:355
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 
@@ -254,96 +254,92 @@ msgid "Bundled plugins (basic)"
 msgstr "捆绑插件（基本）"
 
 #: template/download.html.j2:76
-msgid "Goes silent after 1 hour"
+msgid "Save/load disabled"
 msgstr ""
 
 #: template/download.html.j2:77
-msgid "Save/load is disabled"
-msgstr "已禁用保存/加载"
-
-#: template/download.html.j2:78
 msgid "<b>£0</b>"
 msgstr "<b>£0</b>"
 
-#: template/download.html.j2:83
+#: template/download.html.j2:82
 msgid "Compiled with all features"
 msgstr "具备所有功能"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:83
 msgid "Bundled plugins (all)"
 msgstr "捆绑插件（全部）"
 
-#: template/download.html.j2:85
+#: template/download.html.j2:84
 msgid "PDF user manual"
 msgstr "PDF用户手册"
 
-#: template/download.html.j2:86
+#: template/download.html.j2:85
 msgid "<b>£5</b> single version"
 msgstr "<b>£5</b>单一版本"
 
-#: template/download.html.j2:87
+#: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
 msgstr ""
 
-#: template/download.html.j2:92
+#: template/download.html.j2:91
 msgid "Full version"
 msgstr "完整版"
 
-#: template/download.html.j2:93
+#: template/download.html.j2:92
 msgid "Upgrades to new releases"
 msgstr "升级到新版本"
 
-#: template/download.html.j2:94
+#: template/download.html.j2:93
 msgid "Access to nightly builds"
 msgstr "访问夜间构建"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:94
 msgid "<b>£5/month</b>"
 msgstr "<b>£5/每月</b>"
 
-#: template/download.html.j2:103
+#: template/download.html.j2:102
 msgid "Try Now"
 msgstr "立即尝试"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:109
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr "这是一个功能有限的试用版。请选择您的操作系统。"
 
-#: template/download.html.j2:113
+#: template/download.html.j2:112
 msgid "GNU/Linux (package)"
 msgstr ""
 
-#: template/download.html.j2:114
+#: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
 msgstr ""
 
-#: template/download.html.j2:115
+#: template/download.html.j2:114
 msgid "Windows 64-bit"
 msgstr "Windows 64位"
 
-#: template/download.html.j2:119
+#: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
 msgstr ""
 
-#: template/download.html.j2:132
+#: template/download.html.j2:131
 msgid "Buy Now"
 msgstr "立即购买"
 
-#: template/download.html.j2:139
+#: template/download.html.j2:138
 msgid "Subscribe"
 msgstr "订阅"
 
-#: template/download.html.j2:146
+#: template/download.html.j2:145
 msgid "Support Zrythm by purchasing an installer."
 msgstr "通过购买安装程序来支持Zrythm."
 
-#: template/download.html.j2:147
+#: template/download.html.j2:146
 msgid "This month we received £{amount}."
 msgstr "本月我们收到了£{amount}。"
 
-#: template/download.html.j2:149
+#: template/download.html.j2:148
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"

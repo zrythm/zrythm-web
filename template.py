@@ -129,7 +129,7 @@ headers = {
 payload = {
     'limit': '100',
     'status': 'Completed',
-    'ordering': '-updated_at',
+    'ordering': '-created_at',
     }
 r = requests.get(orders_url, params=payload, headers=headers)
 if r.status_code == 200:
@@ -142,8 +142,8 @@ if r.status_code == 200:
         product = order['product']
         if product['type'] == 'Subscription':
             continue
-        updated_at = dateutil.parser.isoparse (order['updated_at'])
-        if updated_at < start_datetime:
+        created_at = dateutil.parser.isoparse (order['created_at'])
+        if created_at < start_datetime:
             continue
         amount = float (product['price_gbp'])
         amount -= (amount * 0.05)
@@ -318,6 +318,7 @@ for in_file in glob.glob("template/*.j2"):
 
     for l in langs_full.keys():
         locale = l
+        locale_for_accounts = l.lower().replace ('_', '-').replace ('zh-cn', 'zh-hans').replace ('zh-tw', 'zh-hant')
 
         tr = gettext.translation("messages",
                                  localedir="locale",
@@ -355,6 +356,7 @@ for in_file in glob.glob("template/*.j2"):
             ]
 
         content = tmpl.render(lang=locale,
+                              lang_for_accounts=locale_for_accounts,
                               lang_full=langs_full[locale],
                               langs_full=langs_full,
                               url=url,

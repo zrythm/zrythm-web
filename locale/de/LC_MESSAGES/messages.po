@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-17 10:48+0100\n"
+"POT-Creation-Date: 2021-07-23 23:39+0100\n"
 "PO-Revision-Date: 2021-02-20 00:50+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5\n"
 
-#: template.py:337
+#: template.py:338
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mappt die Akkorde einer Dur- oder Mollskala auf die weißen Tasten"
 
-#: template.py:338
+#: template.py:339
 msgid "Major or minor scale"
 msgstr "Dur- oder Mollskala"
 
-#: template.py:339
+#: template.py:340
 msgid "Velocity multiplier per note"
 msgstr "Anpassung der Anschlagsdynamik pro Note"
 
-#: template.py:343
+#: template.py:344
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 "ZLFO ist ein voll funktionsumfänglicher LFO für CV-basierte Automation"
 
-#: template.py:344
+#: template.py:345
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-Oszillator mit eigener Welle"
 
-#: template.py:345
+#: template.py:346
 msgid "Phase shift"
 msgstr "Phasenverschiebung"
 
-#: template.py:346
+#: template.py:347
 msgid "Vertical/horizontal inversion"
 msgstr "Vertikale/horizontale Inversion"
 
-#: template.py:347
+#: template.py:348
 msgid "Step mode"
 msgstr "Stufen-Modus"
 
-#: template.py:348
+#: template.py:349
 msgid "Editable range"
 msgstr "Editierbarer Bereich"
 
-#: template.py:349
+#: template.py:350
 msgid "Sync to host or free-form"
 msgstr "Synchronisiere zum Host oder Freiform"
 
-#: template.py:352
+#: template.py:353
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw ist ein Supersaw-Synth mit einem Parameter"
 
-#: template.py:353
+#: template.py:354
 msgid "7 sawtooth oscillators"
 msgstr "7 Sägezahn-Oszillatoren"
 
-#: template.py:354
+#: template.py:355
 msgid "Single knob to control detune"
 msgstr "Ein einziger Knopf zum Kontrollieren der Stimmung"
 
@@ -258,58 +258,54 @@ msgid "Bundled plugins (basic)"
 msgstr "Mitgelieferte Erweiterungen (Basis)"
 
 #: template/download.html.j2:76
-msgid "Goes silent after 1 hour"
+msgid "Save/load disabled"
 msgstr ""
 
 #: template/download.html.j2:77
-msgid "Save/load is disabled"
-msgstr "Speichern/Laden ist deaktiviert"
-
-#: template/download.html.j2:78
 msgid "<b>£0</b>"
 msgstr "<b>0 £</b>"
 
-#: template/download.html.j2:83
+#: template/download.html.j2:82
 msgid "Compiled with all features"
 msgstr "Mit allen Funktionen kompiliert"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:83
 msgid "Bundled plugins (all)"
 msgstr "Mitgelieferte Erweiterungen (vollständig)"
 
-#: template/download.html.j2:85
+#: template/download.html.j2:84
 msgid "PDF user manual"
 msgstr "PDF-Benutzerhandbuch"
 
-#: template/download.html.j2:86
+#: template/download.html.j2:85
 msgid "<b>£5</b> single version"
 msgstr "<b>5 £</b> Eine Version"
 
-#: template/download.html.j2:87
+#: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
 msgstr ""
 
-#: template/download.html.j2:92
+#: template/download.html.j2:91
 msgid "Full version"
 msgstr "Vollversion"
 
-#: template/download.html.j2:93
+#: template/download.html.j2:92
 msgid "Upgrades to new releases"
 msgstr "Aktualisierungen auf neue Veröffentlichungen"
 
-#: template/download.html.j2:94
+#: template/download.html.j2:93
 msgid "Access to nightly builds"
 msgstr "Zugriff auf Nightly Builds"
 
-#: template/download.html.j2:95
+#: template/download.html.j2:94
 msgid "<b>£5/month</b>"
 msgstr "<b>5 £ monatlich</b>"
 
-#: template/download.html.j2:103
+#: template/download.html.j2:102
 msgid "Try Now"
 msgstr "Jetzt ausprobieren"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:109
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
@@ -317,39 +313,39 @@ msgstr ""
 "Das ist eine Probeversion mit begrenzter Funktionalität. Bitte wähle dein "
 "Betriebssystem aus."
 
-#: template/download.html.j2:113
+#: template/download.html.j2:112
 msgid "GNU/Linux (package)"
 msgstr ""
 
-#: template/download.html.j2:114
+#: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
 msgstr ""
 
-#: template/download.html.j2:115
+#: template/download.html.j2:114
 msgid "Windows 64-bit"
 msgstr "Windows 64-Bit"
 
-#: template/download.html.j2:119
+#: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
 msgstr ""
 
-#: template/download.html.j2:132
+#: template/download.html.j2:131
 msgid "Buy Now"
 msgstr "Jetzt kaufen"
 
-#: template/download.html.j2:139
+#: template/download.html.j2:138
 msgid "Subscribe"
 msgstr "Abonnieren"
 
-#: template/download.html.j2:146
+#: template/download.html.j2:145
 msgid "Support Zrythm by purchasing an installer."
 msgstr "Unterstütze Zrythm mit dem Kauf eines Installers."
 
-#: template/download.html.j2:147
+#: template/download.html.j2:146
 msgid "This month we received £{amount}."
 msgstr "Diesen Monat haben wir {amount} £ erhalten."
 
-#: template/download.html.j2:149
+#: template/download.html.j2:148
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
