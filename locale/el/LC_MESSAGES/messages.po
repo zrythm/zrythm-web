@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: template.py:338
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -141,8 +141,8 @@ msgstr "Πολιτική εμπορικών σημάτων"
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
-"Ένας εξαιρετικά αυτοματοποιημένος και εύληπτος ψηφιακός σταθμός επεξεργασίας "
-"ήχου."
+"Ένας εξαιρετικά αυτοματοποιημένος και εύληπτος ψηφιακός σταθμός επεξεργασίας"
+" ήχου."
 
 #: common/header.j2.inc:31
 msgid ""

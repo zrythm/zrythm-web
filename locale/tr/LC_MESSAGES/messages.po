@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: template.py:337
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -121,8 +121,8 @@ msgstr ""
 
 #: common/footer.j2.inc:132
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros "
-"Theodotou in the United Kingdom."
+"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
+" in the United Kingdom."
 msgstr ""
 
 #: common/footer.j2.inc:133
@@ -139,9 +139,9 @@ msgstr ""
 
 #: common/header.j2.inc:31
 msgid ""
-"DAW, digital audio workstation, music production, audio, pro audio, "
-"Linux, GNU/Linux, free software, libre software, sound editor, "
-"composition, MIDI, LV2, JACK, VST, audio plugin"
+"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
+"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
+"LV2, JACK, VST, audio plugin"
 msgstr ""
 
 #: common/navigation.j2.inc:28
@@ -345,8 +345,8 @@ msgstr ""
 
 #: template/download.html.j2:149
 msgid ""
-"This includes donations from LiberaPay, PayPal, OpenCollective, downloads"
-" and subscriptions"
+"This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
+"and subscriptions"
 msgstr ""
 
 #: template/explore.html.j2:22
@@ -479,9 +479,9 @@ msgstr ""
 
 #: template/index.html.j2:22
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy "
-"to use. It allows limitless automation, supports LV2 plugins, works with "
-"the JACK audio backend and provides chord assistance."
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use. It allows limitless automation, supports LV2 plugins, works with the "
+"JACK audio backend and provides chord assistance."
 msgstr ""
 
 #: template/index.html.j2:33
@@ -518,8 +518,8 @@ msgstr ""
 
 #: template/index.html.j2:81
 msgid ""
-"Automate almost anything with automation events using straight lines, "
-"ramps and curves, or with LFOs and envelopes."
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
 msgstr ""
 
 #: template/index.html.j2:94
@@ -528,8 +528,8 @@ msgstr ""
 
 #: template/index.html.j2:99
 msgid ""
-"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, "
-"with experimental support for VST3, AU, SFZ and SF2."
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+"experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
 
 #: template/index.html.j2:113
@@ -538,9 +538,9 @@ msgstr ""
 
 #: template/index.html.j2:118
 msgid ""
-"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including "
-"support for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK "
-"transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
+"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
 #: template/index.html.j2:132
@@ -549,8 +549,8 @@ msgstr ""
 
 #: template/index.html.j2:137
 msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a "
-"chord track to assist with chord progressions."
+"Featuring a chord pad for quickly trying out chords in a scale and a chord "
+"track to assist with chord progressions."
 msgstr ""
 
 #: template/index.html.j2:152
@@ -560,8 +560,8 @@ msgstr ""
 #: template/index.html.j2:157
 msgid ""
 "Zrythm is <a "
-"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free"
-" software</a>. Use, study, share and improve it freely."
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
+"software</a>. Use, study, share and improve it freely."
 msgstr ""
 
 #: template/index.html.j2:169
@@ -570,9 +570,9 @@ msgstr ""
 
 #: template/index.html.j2:174
 msgid ""
-"Available in <a "
-"href=\"https://hosted.weblate.org/engage/zrythm/\">multiple languages</a>"
-" including English, French, Spanish, Portuguese, Japanese and German."
+"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
+"languages</a> including English, French, Spanish, Portuguese, Japanese and "
+"German."
 msgstr ""
 
 #: template/index.html.j2:184
@@ -665,8 +665,8 @@ msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
-"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
-"Zrythm is released under the <a "
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
+" is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
@@ -674,22 +674,22 @@ msgstr ""
 #: template/legal.html.j2:50
 msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
-"under <a href=\"https://creativecommons.org/licenses/by-"
-"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
 #: template/legal.html.j2:56
 msgid ""
-"The <em>Richard Stallman: Free software, free society</em> video is "
-"licensed under Creative Commons BY-SA-ND 3.0."
+"The <em>Richard Stallman: Free software, free society</em> video is licensed"
+" under Creative Commons BY-SA-ND 3.0."
 msgstr ""
 
 #: template/legal.html.j2:60
 msgid ""
-"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis,"
-" Http://kwis.tumblr.com), Valentin Pasquier "
-"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
-"by himself and Ynternet.org foundation."
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
+"himself and Ynternet.org foundation."
 msgstr ""
 
 #: template/legal.html.j2:68
@@ -723,15 +723,15 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
-"Thank you for supporting development! You will receive an email soon with"
-" instructions to download your installer."
+"Thank you for supporting development! You will receive an email soon with "
+"instructions to download your installer."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
 "Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any "
-"problems, please contact us."
+"<code>./installer.sh</code> in a terminal. If you experience any problems, "
+"please contact us."
 msgstr ""
 
 #: template/purchase-thanks.html.j2:45
