@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-07-23 23:39+0100\n"
-"PO-Revision-Date: 2021-03-14 18:02+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2021-07-28 14:34+0000\n"
+"Last-Translator: sub26nico10b0a294e11e4b4b <faurenicolas5595@neuf.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.5.2-dev\n"
 
 #: template.py:338
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -95,19 +95,19 @@ msgstr "Faire un don de Bitcoins (BTC)"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Faire un don en utilisant Bitcoin Cash"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Faire un don de Bitcoin Cash (BCH)"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Faire un don en utilisant Monero"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Faire un don de Monero (XMR)"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
@@ -140,6 +140,7 @@ msgstr "Politique de marque"
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
+"Une station de travail audio numérique hautement automatisée et intuitive."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -147,6 +148,9 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin"
 msgstr ""
+"DAW, station de travail audio numérique, production musicale, audio, pro "
+"audio, Linux, GNU/Linux, logiciel libre, logiciel libre, éditeur de sons, "
+"composition, MIDI, LV2, JACK, VST, plugin audio"
 
 #: common/navigation.j2.inc:28
 msgid "Home"
@@ -285,7 +289,7 @@ msgstr "version simple à <b>5 £</b>"
 
 #: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "<b>+£10</b> ensemble v1"
 
 #: template/download.html.j2:91
 msgid "Full version"
@@ -317,11 +321,11 @@ msgstr ""
 
 #: template/download.html.j2:112
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU/Linux (paquet)"
 
 #: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU/Linux (AppImage*)"
 
 #: template/download.html.j2:114
 msgid "Windows 64-bit"
@@ -329,7 +333,7 @@ msgstr "Windows 64-bit"
 
 #: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* La version AppImage est expérimentale"
 
 #: template/download.html.j2:131
 msgid "Buy Now"
@@ -383,7 +387,7 @@ msgstr "Vidéo de"
 
 #: template/explore.html.j2:137
 msgid "Remake"
-msgstr ""
+msgstr "Refaire"
 
 #: template/explore.html.j2:150 template/plugins.html.j2:53
 msgid "Features"
@@ -456,11 +460,11 @@ msgstr "Interface graphique localisée"
 
 #: template/explore.html.j2:293
 msgid "CSS Theme"
-msgstr ""
+msgstr "Thème CSS"
 
 #: template/explore.html.j2:310
 msgid "Mixer view"
-msgstr ""
+msgstr "Vue du Mixeur"
 
 #: template/explore.html.j2:325
 msgid "Reviews"
@@ -479,6 +483,8 @@ msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
 msgstr ""
+"Nouvelles de Phoronix: Zrythm approche de la version bêta comme une station "
+"de travail audio numérique facile à utiliser, [logiciel libre]"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -579,6 +585,8 @@ msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
 msgstr ""
+"Avec un pavé d'accords pour essayer rapidement des accords dans une gamme et "
+"une piste d'accords pour vous aider avec les progressions d'accords."
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -615,7 +623,7 @@ msgstr "En savoir plus"
 
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
-msgstr ""
+msgstr "Sponsors / Hébergeurs"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -655,15 +663,15 @@ msgstr "Routage"
 
 #: template/learn.html.j2:175
 msgid "FX Sends"
-msgstr ""
+msgstr "Envois d'effets"
 
 #: template/learn.html.j2:197
 msgid "Port Routing"
-msgstr ""
+msgstr "Routage des ports"
 
 #: template/learn.html.j2:212
 msgid "Walkthroughs"
-msgstr ""
+msgstr "Procédures pas à pas"
 
 #: template/learn.html.j2:223
 msgid "French"
@@ -704,6 +712,10 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Zrythm est protégé par les droits d'auteur d'Alexandros Theodotou et "
+"d'autres contributeurs. Zrythm est publié sous la <a href=\"https://www.gnu."
+"org/licenses/agpl-3.0.html\">GNU Affero General Public License, version 3 ou "
+"ultérieure</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -721,6 +733,8 @@ msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"La vidéo <em>Richard Stallman : Logiciel libre, société libre</em> vidéo est "
+"sous licence Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -729,6 +743,10 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Crédits : Dessins sous CC-BY-ND 3.0 créés par Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream.deviantart."
+"com) basés sur les idées de Richard Stallman, par lui-même et la fondation "
+"Ynternet.org."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"

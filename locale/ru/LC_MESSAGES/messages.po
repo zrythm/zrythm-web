@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-07-23 23:39+0100\n"
-"PO-Revision-Date: 2021-06-23 06:32+0000\n"
-"Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
+"PO-Revision-Date: 2021-07-19 19:34+0000\n"
+"Last-Translator: Anna Malinovskaia <tacitcoast@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.7.1-dev\n"
 
 #: template.py:338
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -289,7 +290,7 @@ msgstr "<b>£5</b> одна версия"
 
 #: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "<b>+£10</b> v1 bundle"
 
 #: template/download.html.j2:91
 msgid "Full version"
@@ -387,7 +388,7 @@ msgstr "Видео, записанное"
 
 #: template/explore.html.j2:137
 msgid "Remake"
-msgstr ""
+msgstr "Remake"
 
 #: template/explore.html.j2:150 template/plugins.html.j2:53
 msgid "Features"
@@ -459,11 +460,11 @@ msgstr "Локализованный пользовательский интер
 
 #: template/explore.html.j2:293
 msgid "CSS Theme"
-msgstr ""
+msgstr "Тема CSS"
 
 #: template/explore.html.j2:310
 msgid "Mixer view"
-msgstr ""
+msgstr "Вид микшера"
 
 #: template/explore.html.j2:325
 msgid "Reviews"
