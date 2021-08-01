@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-23 23:39+0100\n"
+"POT-Creation-Date: 2021-08-01 21:21+0100\n"
 "PO-Revision-Date: 2021-07-19 19:34+0000\n"
 "Last-Translator: Anna Malinovskaia <tacitcoast@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -470,8 +470,9 @@ msgid "Reviews"
 msgstr "Отзывы"
 
 #: template/explore.html.j2:333
-msgid "unfa livestream: Making a track with Zrythm"
-msgstr "Прямая трансляция от unfa: Создание трека с помощью Zrythm"
+#| msgid "unfa livestream: Making a track with Zrythm"
+msgid "unfa livestream: Checking out Zrythm"
+msgstr ""
 
 #: template/explore.html.j2:341
 msgid "Article from Issue 229/2019 of Linux Magazine"

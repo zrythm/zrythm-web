@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-01 17:57+0100\n"
+"POT-Creation-Date: 2021-08-01 21:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -454,7 +454,7 @@ msgid "Reviews"
 msgstr ""
 
 #: template/explore.html.j2:333
-msgid "unfa livestream: Making a track with Zrythm"
+msgid "unfa livestream: Checking out Zrythm"
 msgstr ""
 
 #: template/explore.html.j2:341

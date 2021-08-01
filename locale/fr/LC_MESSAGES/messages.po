@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-23 23:39+0100\n"
+"POT-Creation-Date: 2021-08-01 21:21+0100\n"
 "PO-Revision-Date: 2021-07-28 14:34+0000\n"
 "Last-Translator: sub26nico10b0a294e11e4b4b <faurenicolas5595@neuf.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -471,8 +471,9 @@ msgid "Reviews"
 msgstr "Avis"
 
 #: template/explore.html.j2:333
-msgid "unfa livestream: Making a track with Zrythm"
-msgstr "Livestream d'unfa : créer une piste avec Zrythm"
+#| msgid "unfa livestream: Making a track with Zrythm"
+msgid "unfa livestream: Checking out Zrythm"
+msgstr ""
 
 #: template/explore.html.j2:341
 msgid "Article from Issue 229/2019 of Linux Magazine"
