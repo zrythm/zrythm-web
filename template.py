@@ -271,7 +271,7 @@ def url(x):
     # TODO: check if file exists
     return "../" + x
 
-screenshot = url('static/images/feb-20-2021.png')
+screenshot = url('static/images/screenshots/aug-1-2021.png')
 
 class Plugin:
     def __init__(self,name,is_img_static,img,summary,features):
