@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-01 21:21+0100\n"
+"POT-Creation-Date: 2021-08-04 01:09+0100\n"
 "PO-Revision-Date: 2021-07-19 19:34+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -460,8 +460,7 @@ msgid "Reviews"
 msgstr "レビュー"
 
 #: template/explore.html.j2:333
-#| msgid "unfa livestream: Making a track with Zrythm"
-msgid "unfa livestream: Checking out Zrythm"
+msgid "unfa livestream: Making a funky song in Zrythm"
 msgstr ""
 
 #: template/explore.html.j2:341
@@ -742,6 +741,10 @@ msgstr "技術仕様"
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
 msgstr "プライバシー・ポリシー"
+
+#: template/privacy.html.j2:355
+msgid "Last updated on 4 Aug 2021"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-01 21:21+0100\n"
+"POT-Creation-Date: 2021-08-04 01:09+0100\n"
 "PO-Revision-Date: 2020-09-27 15:23+0000\n"
 "Last-Translator: xunil-cloud <freed602om@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -456,7 +456,7 @@ msgid "Reviews"
 msgstr "評論"
 
 #: template/explore.html.j2:333
-msgid "unfa livestream: Checking out Zrythm"
+msgid "unfa livestream: Making a funky song in Zrythm"
 msgstr ""
 
 #: template/explore.html.j2:341
@@ -722,6 +722,10 @@ msgstr "查看技術文件"
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
 msgstr "隱私權政策"
+
+#: template/privacy.html.j2:355
+msgid "Last updated on 4 Aug 2021"
+msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
