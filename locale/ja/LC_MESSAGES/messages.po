@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-07 11:47+0100\n"
-"PO-Revision-Date: 2021-07-19 19:34+0000\n"
+"PO-Revision-Date: 2021-08-07 17:32+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 
 #: template.py:340
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -259,7 +260,7 @@ msgstr "同梱のプラグイン(基本)"
 
 #: template/download.html.j2:76
 msgid "Save/load disabled"
-msgstr ""
+msgstr "保存/読み込みが無効"
 
 #: template/download.html.j2:77
 msgid "<b>£0</b>"
@@ -461,7 +462,7 @@ msgstr "レビュー"
 
 #: template/explore.html.j2:333
 msgid "unfa livestream: Making a funky song in Zrythm"
-msgstr ""
+msgstr "unfa のライブストリーム： Zrythm でファンキーな曲を作る"
 
 #: template/explore.html.j2:341
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -483,9 +484,8 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythmは、機能が豊富で使いやすいように設計されたデジタルオーディオワークステーションです。It allows limitless "
-"automation, supports LV2 plugins, works with the JACK audio backend and "
-"provides chord assistance."
+"Zrythmは、機能が豊富で使いやすいように設計されたデジタルオーディオワークステーションです。無限のオートメーションを可能にし、LV2プラグインをサポー"
+"トし、JACKオーディオバックエンドで動作し、コードアシスタンスを提供しています。"
 
 #: template/index.html.j2:33
 msgid "Zrythm"
@@ -744,7 +744,7 @@ msgstr "プライバシー・ポリシー"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "最終更新日：2021年8月4日"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
