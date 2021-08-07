@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-04 01:09+0100\n"
+"POT-Creation-Date: 2021-08-07 11:47+0100\n"
 "PO-Revision-Date: 2021-07-19 19:34+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -20,55 +20,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.7.2-dev\n"
 
-#: template.py:338
+#: template.py:340
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
 
-#: template.py:339
+#: template.py:341
 msgid "Major or minor scale"
 msgstr "メジャーまたはマイナー音階"
 
-#: template.py:340
+#: template.py:342
 msgid "Velocity multiplier per note"
 msgstr "音符ごとのベロシティ乗数"
 
-#: template.py:344
+#: template.py:346
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
 
-#: template.py:345
+#: template.py:347
 msgid "Multi-oscillator with custom wave"
 msgstr "多オシレータおよびカスタム"
 
-#: template.py:346
+#: template.py:348
 msgid "Phase shift"
 msgstr "位相シフト"
 
-#: template.py:347
+#: template.py:349
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平インバート"
 
-#: template.py:348
+#: template.py:350
 msgid "Step mode"
 msgstr "ステップモード"
 
-#: template.py:349
+#: template.py:351
 msgid "Editable range"
 msgstr "編集可能な出力範囲"
 
-#: template.py:350
+#: template.py:352
 msgid "Sync to host or free-form"
 msgstr "ホストと同期または自由周波数"
 
-#: template.py:353
+#: template.py:355
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSawは1つのパラメータを持つスーパーソーシンセである"
 
-#: template.py:354
+#: template.py:356
 msgid "7 sawtooth oscillators"
 msgstr "7つのノコギリオシレータ"
 
-#: template.py:355
+#: template.py:357
 msgid "Single knob to control detune"
 msgstr "シングル・ノブでデチューンを調整"
 

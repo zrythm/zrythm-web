@@ -20,7 +20,7 @@
 
 include config.mk
 
-LANGUAGES = af_ZA en en_GB gd de es el fr gl id it nl ja pt pt_BR ru hi ar ko nb_NO cs pl da et fi sv uk vi zh_CN zh_TW
+LANGUAGES = af_ZA en en_GB gd de es el fr gl id it nl ja pt pt_BR ru hi ar ko nb_NO cs pl da et fi sv th uk vi zh_CN zh_TW
 
 all: locale/messages.pot locale template
 	# Consider using pax instead of cp.
@@ -40,11 +40,16 @@ all: locale/messages.pot locale template
 locale/messages.pot: common/*.j2.inc template/*.j2 template.py
 	PYTHONPATH="${PYTHONPATH}:." $(BABEL) -v extract -F locale/babel.map -o locale/messages.pot .
 
-# Update translation (.po) files with new strings.
+# Update or create translation (.po) files with new strings.
 locale-update: locale/messages.pot
 	for lang in $(LANGUAGES); do \
 		if [[ "x$$lang" != "xen" ]] ; then \
-			msgmerge -U -m --previous locale/$$lang/LC_MESSAGES/messages.po locale/messages.pot ; \
+			po_file_basedir=locale/$$lang/LC_MESSAGES ; \
+			po_file=$$po_file_basedir/messages.po ; \
+			if [ ! -f "$$po_file" ]; then \
+				$(BABEL) -v init -i locale/messages.pot -d locale -l $$lang ; \
+			fi ; \
+			msgmerge -U -m --previous "$$po_file" locale/messages.pot ; \
 		fi \
 	done
 

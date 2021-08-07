@@ -69,36 +69,37 @@ if (os.getenv("DEBUG")):
 
 # Note: also edit the Makefile when adding languages
 langs_full = {
-        "af_ZA": "Afrikaans",
-        "ar": "العربية",
-        "cs": "Czech",
-        "da": "Dansk",
-        "de": "Deutsch",
-        "en": "English",
-        "en_GB": "English UK",
-        "el": "Ελληνικά",
-        "es": "Español",
-        "et": "Eeti",
-        "fi": "Suomi",
-        "fr": "Français",
-        "gd": "Gaelic",
-        "gl": "Galego",
-        "hi": "हिन्दी",
+        'af_ZA': 'Afrikaans',
+        'ar': 'العربية',
+        'cs': 'Czech',
+        'da': 'Dansk',
+        'de': 'Deutsch',
+        'en': 'English',
+        'en_GB': 'English UK',
+        'el': 'Ελληνικά',
+        'es': 'Español',
+        'et': 'Eeti',
+        'fi': 'Suomi',
+        'fr': 'Français',
+        'gd': 'Gaelic',
+        'gl': 'Galego',
+        'hi': 'हिन्दी',
         'id': 'bahasa Indonesia',
-        "it": "Italiano",
-        "ja": "日本語",
-        "ko": "한국어",
-        "nb_NO": "Bokmål",
-        "nl": "Nederlands",
-        "pl": "Polski",
-        "pt": "Português",
-        "pt_BR": "Português BR",
-        "ru": "Русский",
-        "sv": "Svenska",
-        "uk": "Українська",
-        "vi": "Tiếng Việt",
-        "zh_CN": "简体中文",
-        "zh_TW": "繁體中文",
+        'it': 'Italiano',
+        'ja': '日本語',
+        'ko': '한국어',
+        'nb_NO': 'Bokmål',
+        'nl': 'Nederlands',
+        'pl': 'Polski',
+        'pt': 'Português',
+        'pt_BR': 'Português BR',
+        'ru': 'Русский',
+        'sv': 'Svenska',
+        'th': 'ภาษาไทย',
+        'uk': 'Українська',
+        'vi': 'Tiếng Việt',
+        'zh_CN': '简体中文',
+        'zh_TW': '繁體中文',
         }
 git_url = 'https://sr.ht/~alextee/zrythm'
 feature_tracker = 'https://todo.sr.ht/~alextee/zrythm-feature'
@@ -131,11 +132,12 @@ payload = {
     'status': 'Completed',
     'ordering': '-created_at',
     }
+print ('getting zrythm-accounts orders...')
 r = requests.get(orders_url, params=payload, headers=headers)
 if r.status_code == 200:
     monthly_earning = 0
     num_monthly_orders = 0
-    start_datetime = datetime.datetime.utcnow().replace(day=5,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
+    start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
     # TODO change to following next month
     # start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
     for order in r.json()['results']:
