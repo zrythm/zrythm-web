@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-07 11:47+0100\n"
+"POT-Creation-Date: 2021-08-09 03:54+0100\n"
 "PO-Revision-Date: 2021-07-19 19:34+0000\n"
 "Last-Translator: Anna Malinovskaia <tacitcoast@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -228,8 +228,8 @@ msgid "Translations"
 msgstr "Переводы"
 
 #: template/download.html.j2:22
-msgid "Download Zrythm's source code or purchase a binary package installer"
-msgstr "Скачайте исходный код или купите программу установки"
+msgid "Download Zrythm's source code or purchase a binary package installer."
+msgstr ""
 
 #: template/download.html.j2:39
 msgid "Source code"

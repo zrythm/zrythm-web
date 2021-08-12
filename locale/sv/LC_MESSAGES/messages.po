@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-07 11:47+0100\n"
+"POT-Creation-Date: 2021-08-09 03:54+0100\n"
 "PO-Revision-Date: 2020-09-25 18:02+0000\n"
 "Last-Translator: Felix Paulsson <fpaulsson@protonmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -220,7 +220,7 @@ msgid "Translations"
 msgstr ""
 
 #: template/download.html.j2:22
-msgid "Download Zrythm's source code or purchase a binary package installer"
+msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
 
 #: template/download.html.j2:39
