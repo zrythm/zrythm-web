@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-07-17 10:48+0100\n"
-"PO-Revision-Date: 2021-08-14 12:52+0000\n"
+"PO-Revision-Date: 2021-08-16 20:34+0000\n"
 "Last-Translator: Burak Hüseyin Ekseli <burakekseli@yandex.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
 "Language: tr\n"
@@ -49,11 +49,11 @@ msgstr "Dikey/yatay inversiyon"
 
 #: template.py:347
 msgid "Step mode"
-msgstr ""
+msgstr "Adım modu"
 
 #: template.py:348
 msgid "Editable range"
-msgstr ""
+msgstr "Düzenlenebilir aralık"
 
 #: template.py:349
 msgid "Sync to host or free-form"
@@ -77,65 +77,67 @@ msgstr ""
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Yasal"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Bitcoin kullanarak bağış yap"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Bitcoin (BTC) bağışla"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Bitcoin Cash kullanarak bağış yap"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Bitcoin Cash (BCH) bağışla"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Monero kullanarak bağış yap"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Monero (XMR) bağışla"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Paypal kullanarak bağış yap"
 
 #: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "LiberaPay kullanarak bağış yap"
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Mastodon'da Zrythm"
 
 #: common/footer.j2.inc:132
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
+"Zrythm ve Zrythm logosu Birleşik Krallık'ta Alexandros Theodotou adına "
+"müseccel markadır."
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Daha fazla bilgi için bakınız:{trademarkpolicy}."
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Ticari marka politikası"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Yüksek düzeyde otomatize ve sezgisel dijital ses çalışma yeri."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -146,112 +148,113 @@ msgstr ""
 
 #: common/navigation.j2.inc:28
 msgid "Home"
-msgstr ""
+msgstr "Başlangıç"
 
 #: common/navigation.j2.inc:34 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: common/navigation.j2.inc:40 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "Keşfet"
 
 #: common/navigation.j2.inc:46 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Öğren"
 
 #: common/navigation.j2.inc:52 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Pluginler"
 
 #: common/navigation.j2.inc:58 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
-msgstr ""
+msgstr "Topluluk"
 
 #: common/navigation.j2.inc:77
 msgid "Language"
-msgstr ""
+msgstr "Dil"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Zrythm topluluk sayfaları ve iletişim kanalları"
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr ""
+msgstr "Sohbet"
 
 #: template/community.html.j2:52
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Duyurular"
 
 #: template/community.html.j2:62
 msgid "User discussion"
-msgstr ""
+msgstr "Kullanıcı tartışma alanı"
 
 #: template/community.html.j2:65
 msgid "Development"
-msgstr ""
+msgstr "Geliştirme"
 
 #: template/community.html.j2:69
 msgid "Project"
-msgstr ""
+msgstr "Proje"
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
-msgstr ""
+msgstr "Özellik izleyici"
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "Hata izleyici"
 
 #: template/community.html.j2:82
 msgid "Translations"
-msgstr ""
+msgstr "Çeviriler"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr ""
+"Zrythm kaynak kodunu indiriniz veya bir biner paket yükleyicisi satın alınız"
 
 #: template/download.html.j2:39
 msgid "Source code"
-msgstr ""
+msgstr "Kaynak kod"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Sürümler"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG Anahtarı"
 
 #: template/download.html.j2:56
 msgid "Installer"
-msgstr ""
+msgstr "Yükleyici"
 
 #: template/download.html.j2:63
 msgid "trial"
-msgstr ""
+msgstr "deneme"
 
 #: template/download.html.j2:66
 msgid "full"
-msgstr ""
+msgstr "tam"
 
 #: template/download.html.j2:69
 msgid "subscription"
-msgstr ""
+msgstr "abonelik"
 
 #: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Plugin paketleri (temel)"
 
 #: template/download.html.j2:76
 msgid "Goes silent after 1 hour"
@@ -263,99 +266,103 @@ msgstr ""
 
 #: template/download.html.j2:78
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:83
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Bütün özellikleriyle birlikte derlenmiş"
 
 #: template/download.html.j2:84
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Plugin paketleri (tümü)"
 
 #: template/download.html.j2:85
 msgid "PDF user manual"
-msgstr ""
+msgstr "PDF kullanım talimatları"
 
 #: template/download.html.j2:86
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b> tekli versiyon"
 
 #: template/download.html.j2:87
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "<b>+£10</b> v1 paketi"
 
 #: template/download.html.j2:92
 msgid "Full version"
-msgstr ""
+msgstr "Tam versiyon"
 
 #: template/download.html.j2:93
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Yeni sürümlere günceller"
 
 #: template/download.html.j2:94
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Nightly builds'e eriş"
 
 #: template/download.html.j2:95
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/aylık</b>"
 
 #: template/download.html.j2:103
 msgid "Try Now"
-msgstr ""
+msgstr "Şimdi Dene"
 
 #: template/download.html.j2:110
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Bu sınırlı işlevleri olan bir deneme sürümüdür. Lütfen işletim sisteminizi "
+"seçiniz."
 
 #: template/download.html.j2:113
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU/Linux (package)"
 
 #: template/download.html.j2:114
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU/Linux (AppImage*)"
 
 #: template/download.html.j2:115
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:119
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* AppImage sürümü deneyseldir"
 
 #: template/download.html.j2:132
 msgid "Buy Now"
-msgstr ""
+msgstr "Şimdi Satın Al"
 
 #: template/download.html.j2:139
 msgid "Subscribe"
-msgstr ""
+msgstr "Abone ol"
 
 #: template/download.html.j2:146
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Yükleyici satın alarak Zrythm'i destekle."
 
 #: template/download.html.j2:147
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Bu ay şu kadar aldık: {amount}£."
 
 #: template/download.html.j2:149
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
 msgstr ""
+"Bu miktara LiberaPay, PayPal, OpenCollective bağışları, indirmeler ve "
+"abonelikler dahildir"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr ""
+msgstr "Özellikler listesi, işlevsellik ve yorumlar"
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr ""
+msgstr "Demolar"
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
 #: template/explore.html.j2:90 template/explore.html.j2:111
@@ -364,7 +371,7 @@ msgstr ""
 #: template/learn.html.j2:118 template/learn.html.j2:140
 #: template/learn.html.j2:170 template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "İnternet tarayıcını HTML5 video'yu desteklememektedir"
 
 #: template/explore.html.j2:56 template/explore.html.j2:77
 #: template/explore.html.j2:98 template/explore.html.j2:119
@@ -381,7 +388,7 @@ msgstr ""
 
 #: template/explore.html.j2:150 template/plugins.html.j2:53
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: template/explore.html.j2:158 template/explore.html.j2:162
 msgid "Piano roll"
