@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-07 11:47+0100\n"
-"PO-Revision-Date: 2021-08-17 06:10+0000\n"
-"Last-Translator: Anthonyucky <lucerno.ant@gmail.com>\n"
+"PO-Revision-Date: 2021-08-17 22:37+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -473,7 +473,7 @@ msgstr "Avis"
 
 #: template/explore.html.j2:333
 msgid "unfa livestream: Making a funky song in Zrythm"
-msgstr ""
+msgstr "diffusion en direct d'unfa : création d'un morceau funky dans Zrythm"
 
 #: template/explore.html.j2:341
 msgid "Article from Issue 229/2019 of Linux Magazine"
