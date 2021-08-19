@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-12 20:14+0100\n"
-"PO-Revision-Date: 2020-11-14 04:34+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
+"PO-Revision-Date: 2021-08-10 04:32+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
+"web/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.4-dev\n"
 
 #: template.py:340
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -37,11 +38,11 @@ msgstr ""
 
 #: template.py:347
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Multi-oscillator med egendefinert bølgeform"
 
 #: template.py:348
 msgid "Phase shift"
-msgstr ""
+msgstr "Faseendring"
 
 #: template.py:349
 msgid "Vertical/horizontal inversion"
@@ -65,7 +66,7 @@ msgstr ""
 
 #: template.py:356
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7-sagtannsoscillatorer"
 
 #: template.py:357
 msgid "Single knob to control detune"
@@ -73,51 +74,52 @@ msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "Zrythm-bidragsyterne"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Juridisk"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Personvern"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Doner ved bruk av bitcoin"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Doner bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Doner ved bruk av Bitcoin Cash"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Doner Bitcoin Cash (BCH)"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Doner ved bruk av Monero"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Doner Monero (XMR)"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Doner ved bruk av PayPal"
 
 #: common/footer.j2.inc:111
+#, fuzzy
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "Doner ved bruk av Liberapay"
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Zrythm på Mastodon"
 
 #: common/footer.j2.inc:132
 msgid ""
@@ -127,11 +129,11 @@ msgstr ""
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Sjekk vår {trademarkpolicy} for detaljer."
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Varemerkepraksis"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
@@ -156,17 +158,17 @@ msgstr "Last ned"
 #: common/navigation.j2.inc:40 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "Utforsk"
 
 #: common/navigation.j2.inc:46 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Lær"
 
 #: common/navigation.j2.inc:52 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Programtillegg"
 
 #: common/navigation.j2.inc:58 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -183,23 +185,23 @@ msgstr ""
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr ""
+msgstr "Sludring"
 
 #: template/community.html.j2:52
 msgid "Mail"
-msgstr ""
+msgstr "E-post"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Kunngjøringer"
 
 #: template/community.html.j2:62
 msgid "User discussion"
-msgstr ""
+msgstr "Brukerdiskusjon"
 
 #: template/community.html.j2:65
 msgid "Development"
-msgstr ""
+msgstr "Utvikling"
 
 #: template/community.html.j2:69
 msgid "Project"
@@ -211,11 +213,11 @@ msgstr ""
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "Feilsporer"
 
 #: template/community.html.j2:82
 msgid "Translations"
-msgstr ""
+msgstr "Oversettelser"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -227,11 +229,11 @@ msgstr "Kildekode"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Utgivelser"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG-nøkkel"
 
 #: template/download.html.j2:56
 msgid "Installer"
@@ -239,15 +241,15 @@ msgstr ""
 
 #: template/download.html.j2:63
 msgid "trial"
-msgstr ""
+msgstr "prøveversjon"
 
 #: template/download.html.j2:66
 msgid "full"
-msgstr ""
+msgstr "fullversjon"
 
 #: template/download.html.j2:69
 msgid "subscription"
-msgstr ""
+msgstr "abonnement"
 
 #: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
@@ -258,20 +260,21 @@ msgid "Save/load disabled"
 msgstr ""
 
 #: template/download.html.j2:77
+#, fuzzy
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>0 £</b>"
 
 #: template/download.html.j2:82
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Kompilert med alle funksjoner"
 
 #: template/download.html.j2:83
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Medfølgende programtillegg (alle)"
 
 #: template/download.html.j2:84
 msgid "PDF user manual"
-msgstr ""
+msgstr "PDF-brukermanual"
 
 #: template/download.html.j2:85
 msgid "<b>£5</b> single version"
@@ -283,15 +286,15 @@ msgstr ""
 
 #: template/download.html.j2:91
 msgid "Full version"
-msgstr ""
+msgstr "Fullversjon"
 
 #: template/download.html.j2:92
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Oppgrader til nye utgaver"
 
 #: template/download.html.j2:93
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Tilgang til nattlige bygg"
 
 #: template/download.html.j2:94
 msgid "<b>£5/month</b>"
@@ -299,7 +302,7 @@ msgstr ""
 
 #: template/download.html.j2:102
 msgid "Try Now"
-msgstr ""
+msgstr "Prøv nå"
 
 #: template/download.html.j2:109
 msgid ""
@@ -309,35 +312,35 @@ msgstr ""
 
 #: template/download.html.j2:112
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "Linux|GNU (pakke)"
 
 #: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "Linux|GNU (AppImage*)"
 
 #: template/download.html.j2:114
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-biters"
 
 #: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* AppImage-bygget er eksperimentelt"
 
 #: template/download.html.j2:131
 msgid "Buy Now"
-msgstr ""
+msgstr "Kjøp nå"
 
 #: template/download.html.j2:138
 msgid "Subscribe"
-msgstr ""
+msgstr "Abonner"
 
 #: template/download.html.j2:145
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Støtt Zrythm ved å kjøpe en installasjonskandidat."
 
 #: template/download.html.j2:146
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Denne måneden har vi mottatt {amount} £."
 
 #: template/download.html.j2:148
 msgid ""
@@ -351,7 +354,7 @@ msgstr ""
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr ""
+msgstr "Demoer"
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
 #: template/explore.html.j2:90 template/explore.html.j2:111
@@ -361,7 +364,7 @@ msgstr ""
 #: template/learn.html.j2:140 template/learn.html.j2:170
 #: template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "Nettleseren din støtter ikke HTML5-video"
 
 #: template/explore.html.j2:56 template/explore.html.j2:77
 #: template/explore.html.j2:98 template/explore.html.j2:119
@@ -371,7 +374,7 @@ msgstr ""
 #: template/learn.html.j2:150 template/learn.html.j2:180
 #: template/learn.html.j2:202
 msgid "Video by"
-msgstr ""
+msgstr "Video av"
 
 #: template/explore.html.j2:137
 msgid "Remake"
@@ -391,11 +394,11 @@ msgstr ""
 
 #: template/explore.html.j2:197 template/explore.html.j2:210
 msgid "Anywhere-to-anywhere connections"
-msgstr ""
+msgstr "Hvor som helst til hvor som helst-tilkoblinger"
 
 #: template/explore.html.j2:202
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "Koble hva som helst til hva som helst."
 
 #: template/explore.html.j2:217
 msgid "Bounce in place"
@@ -411,51 +414,51 @@ msgstr ""
 
 #: template/explore.html.j2:235 template/explore.html.j2:248
 msgid "Automation curves"
-msgstr ""
+msgstr "Automasjonskurver"
 
 #: template/explore.html.j2:240
 msgid "Automate parameters with straight lines or curves."
-msgstr ""
+msgstr "Automatiser parametre med rette linjer eller kurver."
 
 #: template/explore.html.j2:253
 msgid "Screenshots"
-msgstr ""
+msgstr "Skjermavbildninger"
 
 #: template/explore.html.j2:261 template/explore.html.j2:278
 #: template/explore.html.j2:295 template/explore.html.j2:312
 #: template/explore.html.j2:329
 msgid "Screenshot"
-msgstr ""
+msgstr "Skjermavbildning"
 
 #: template/explore.html.j2:263
 msgid "Mixing"
-msgstr ""
+msgstr "Miksing"
 
 #: template/explore.html.j2:268 template/explore.html.j2:285
 #: template/explore.html.j2:302 template/explore.html.j2:319
 #: template/explore.html.j2:336
 msgid "Screenshot by"
-msgstr ""
+msgstr "Skjermavbildning av"
 
 #: template/explore.html.j2:280
 msgid "Audio Editor"
-msgstr ""
+msgstr "Lydredigerer"
 
 #: template/explore.html.j2:297
 msgid "Localized UI"
-msgstr ""
+msgstr "Oversatt grensesnitt"
 
 #: template/explore.html.j2:314
 msgid "CSS Theme"
-msgstr ""
+msgstr "CSS-drakt"
 
 #: template/explore.html.j2:331
 msgid "Mixer view"
-msgstr ""
+msgstr "Mikser-visning"
 
 #: template/explore.html.j2:346
 msgid "Reviews"
-msgstr ""
+msgstr "Vurderinger"
 
 #: template/explore.html.j2:354
 msgid "unfa livestream: Making a funky song in Zrythm"
@@ -473,7 +476,7 @@ msgstr ""
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Arbeidsstasjon for digital lyd"
 
 #: template/index.html.j2:22
 msgid ""
@@ -484,7 +487,7 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -501,8 +504,9 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:60
+#, fuzzy
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm fungerer på Linux|GNU, FreeBSD, macOS og Windows"
 
 #: template/index.html.j2:64
 msgid ""
@@ -522,7 +526,7 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr ""
+msgstr "Lyd-programtillegg"
 
 #: template/index.html.j2:99
 msgid ""
@@ -532,7 +536,7 @@ msgstr ""
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr ""
+msgstr "Støtte for flere bakender"
 
 #: template/index.html.j2:118
 msgid ""
@@ -553,7 +557,7 @@ msgstr ""
 
 #: template/index.html.j2:152
 msgid "Liberating"
-msgstr ""
+msgstr "Befriende"
 
 #: template/index.html.j2:157
 msgid ""
@@ -575,11 +579,11 @@ msgstr ""
 
 #: template/index.html.j2:184
 msgid "Learn more"
-msgstr ""
+msgstr "Lær mer"
 
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
-msgstr ""
+msgstr "Sponsorer/vertskapstilbydere"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -591,7 +595,7 @@ msgstr "Veiledninger"
 
 #: template/learn.html.j2:42
 msgid "Editing"
-msgstr ""
+msgstr "Redigering"
 
 #: template/learn.html.j2:57
 msgid "Select/Stretch Tool"
@@ -599,11 +603,11 @@ msgstr ""
 
 #: template/learn.html.j2:79
 msgid "Edit Tool"
-msgstr ""
+msgstr "Redigeringsverktøy"
 
 #: template/learn.html.j2:101
 msgid "Cut Tool"
-msgstr ""
+msgstr "Klippeverktøy"
 
 #: template/learn.html.j2:123
 msgid "Ramp Tool"
@@ -631,11 +635,11 @@ msgstr ""
 
 #: template/learn.html.j2:223
 msgid "French"
-msgstr ""
+msgstr "Fransk"
 
 #: template/learn.html.j2:226
 msgid "Playlist by"
-msgstr ""
+msgstr "Spilleliste av"
 
 #: template/learn.html.j2:237
 msgid "Documentation"
@@ -643,23 +647,23 @@ msgstr "Dokumentasjon"
 
 #: template/learn.html.j2:244
 msgid "User Manual"
-msgstr ""
+msgstr "Brukermanual"
 
 #: template/learn.html.j2:247
 msgid "Developer Reference"
-msgstr ""
+msgstr "Utviklingsreferanse"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Juridisk info"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Retts- lisensierings- og varemerkeinfo"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Lisensiering"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -668,6 +672,9 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Opphavsretten til Zrythm tilhører Alexandros Theodotou og andre "
+"bidragsytere. Lisensiert <a href=\"https://www.gnu.org/licenses/agpl-3.0."
+"html\">AGPLv3+."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -692,7 +699,7 @@ msgstr ""
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
-msgstr ""
+msgstr "Varemerker"
 
 #: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
@@ -708,26 +715,28 @@ msgstr ""
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
+msgstr "Tekniske spesifikasjoner"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Personvernspraksis"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Sist oppdatert 4 Aug. 2021"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Takk"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
+"Takk for at du støtter utviklingen. Du vil motta en e-post snart med "
+"instruks for nedlasting av din installasjonskandidat."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
@@ -735,14 +744,17 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"Når du har lastet ned ZIP-filen, pakker du den ut og kjører <code>./installer"
+".sh</code> i en terminal. Hvis du har problemer kan du kontakte oss."
 
 #: template/purchase-thanks.html.j2:45
+#, fuzzy
 msgid "Go back to home page"
-msgstr ""
+msgstr "Gå tilbake til hjemmesiden"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Zrythm-varemerkepraksis"
 
 #~ msgid "Forum"
 #~ msgstr "Forum"

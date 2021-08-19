@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-12 20:14+0100\n"
-"PO-Revision-Date: 2020-12-30 23:03+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
+"PO-Revision-Date: 2021-08-19 22:52+0000\n"
+"Last-Translator: Jimi Togni <jimitogni@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.4.1-dev\n"
 
 #: template.py:340
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -82,19 +83,20 @@ msgstr ""
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidade"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Doar usando Bitcoin"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Doar Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
+#, fuzzy
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Doar utilizando Bitcoin Cash"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"

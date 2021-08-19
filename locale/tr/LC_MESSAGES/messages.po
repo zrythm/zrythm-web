@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-17 22:26+0100\n"
-"PO-Revision-Date: 2021-07-23 09:33+0000\n"
-"Last-Translator: Tarık Yıldız <tariky113@gmail.com>\n"
+"PO-Revision-Date: 2021-08-19 19:35+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 
 #: template.py:340
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -37,23 +37,23 @@ msgstr "ZLFO, CV tabanlı otomasyon için tam özellikli bir LFO'dur"
 
 #: template.py:347
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Özel dalgalı çoklu-osilatör"
 
 #: template.py:348
 msgid "Phase shift"
-msgstr ""
+msgstr "Faz değişimi"
 
 #: template.py:349
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Dikey/yatay inversiyon"
 
 #: template.py:350
 msgid "Step mode"
-msgstr ""
+msgstr "Adım modu"
 
 #: template.py:351
 msgid "Editable range"
-msgstr ""
+msgstr "Düzenlenebilir aralık"
 
 #: template.py:352
 msgid "Sync to host or free-form"
@@ -73,69 +73,71 @@ msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "Zrythm'e katkıda bulunanlar"
 
 #: common/footer.j2.inc:22
 msgid "Legal"
-msgstr ""
+msgstr "Yasal"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr ""
+msgstr "Bitcoin kullanarak bağış yap"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
-msgstr ""
+msgstr "Bitcoin (BTC) bağışla"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Bitcoin Cash kullanarak bağış yap"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Bitcoin Cash (BCH) bağışla"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Monero kullanarak bağış yap"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Monero (XMR) bağışla"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
-msgstr ""
+msgstr "Paypal kullanarak bağış yap"
 
 #: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
-msgstr ""
+msgstr "LiberaPay kullanarak bağış yap"
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
-msgstr ""
+msgstr "Mastodon'da Zrythm"
 
 #: common/footer.j2.inc:132
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
+"Zrythm ve Zrythm logosu Birleşik Krallık'ta Alexandros Theodotou adına "
+"müseccel markadır."
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Daha fazla bilgi için bakınız:{trademarkpolicy}."
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Ticari marka politikası"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Yüksek düzeyde otomatize ve sezgisel dijital ses çalışma yeri."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -146,112 +148,113 @@ msgstr ""
 
 #: common/navigation.j2.inc:28
 msgid "Home"
-msgstr ""
+msgstr "Ev"
 
 #: common/navigation.j2.inc:34 template/download.html.j2:19
 #: template/download.html.j2:33
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: common/navigation.j2.inc:40 template/explore.html.j2:19
 #: template/explore.html.j2:31
 msgid "Explore"
-msgstr ""
+msgstr "Keşfet"
 
 #: common/navigation.j2.inc:46 template/learn.html.j2:19
 #: template/learn.html.j2:31
 msgid "Learn"
-msgstr ""
+msgstr "Öğren"
 
 #: common/navigation.j2.inc:52 template/plugins.html.j2:19
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Eklentiler"
 
 #: common/navigation.j2.inc:58 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
-msgstr ""
+msgstr "Topluluk"
 
 #: common/navigation.j2.inc:77
 msgid "Language"
-msgstr ""
+msgstr "Dil"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Zrythm topluluk sayfaları ve iletişim kanalları"
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr ""
+msgstr "Sohbet"
 
 #: template/community.html.j2:52
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Duyurular"
 
 #: template/community.html.j2:62
 msgid "User discussion"
-msgstr ""
+msgstr "Kullanıcı tartışma alanı"
 
 #: template/community.html.j2:65
 msgid "Development"
-msgstr ""
+msgstr "Geliştirme"
 
 #: template/community.html.j2:69
 msgid "Project"
-msgstr ""
+msgstr "Proje"
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
-msgstr ""
+msgstr "Özellik izleyici"
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "Hata izleyici"
 
 #: template/community.html.j2:82
 msgid "Translations"
-msgstr ""
+msgstr "Çeviriler"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
+"Zrythm kaynak kodunu indiriniz veya bir biner paket yükleyicisi satın alınız"
 
 #: template/download.html.j2:39
 msgid "Source code"
-msgstr ""
+msgstr "Kaynak kod"
 
 #: template/download.html.j2:49
 msgid "Releases"
-msgstr ""
+msgstr "Sürümler"
 
 #: template/download.html.j2:52
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG Anahtarı"
 
 #: template/download.html.j2:56
 msgid "Installer"
-msgstr ""
+msgstr "Yükleyici"
 
 #: template/download.html.j2:63
 msgid "trial"
-msgstr ""
+msgstr "deneme"
 
 #: template/download.html.j2:66
 msgid "full"
-msgstr ""
+msgstr "tam"
 
 #: template/download.html.j2:69
 msgid "subscription"
-msgstr ""
+msgstr "abonelik"
 
 #: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "Eklenti paketleri (temel)"
 
 #: template/download.html.j2:76
 msgid "Save/load disabled"
@@ -259,99 +262,103 @@ msgstr ""
 
 #: template/download.html.j2:77
 msgid "<b>£0</b>"
-msgstr ""
+msgstr "<b>£0</b>"
 
 #: template/download.html.j2:82
 msgid "Compiled with all features"
-msgstr ""
+msgstr "Bütün özellikleriyle birlikte derlenmiş"
 
 #: template/download.html.j2:83
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "Eklenti paketleri (tümü)"
 
 #: template/download.html.j2:84
 msgid "PDF user manual"
-msgstr ""
+msgstr "PDF kullanım talimatları"
 
 #: template/download.html.j2:85
 msgid "<b>£5</b> single version"
-msgstr ""
+msgstr "<b>£5</b> tekli versiyon"
 
 #: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "<b>+£10</b> v1 paketi"
 
 #: template/download.html.j2:91
 msgid "Full version"
-msgstr ""
+msgstr "Tam versiyon"
 
 #: template/download.html.j2:92
 msgid "Upgrades to new releases"
-msgstr ""
+msgstr "Yeni sürümlere günceller"
 
 #: template/download.html.j2:93
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Nightly builds'e eriş"
 
 #: template/download.html.j2:94
 msgid "<b>£5/month</b>"
-msgstr ""
+msgstr "<b>£5/aylık</b>"
 
 #: template/download.html.j2:102
 msgid "Try Now"
-msgstr ""
+msgstr "Şimdi Dene"
 
 #: template/download.html.j2:109
 msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
+"Bu sınırlı işlevleri olan bir deneme sürümüdür. Lütfen işletim sisteminizi "
+"seçiniz."
 
 #: template/download.html.j2:112
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU/Linux (package)"
 
 #: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU/Linux (AppImage*)"
 
 #: template/download.html.j2:114
 msgid "Windows 64-bit"
-msgstr ""
+msgstr "Windows 64-bit"
 
 #: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* AppImage sürümü deneyseldir"
 
 #: template/download.html.j2:131
 msgid "Buy Now"
-msgstr ""
+msgstr "Şimdi Satın Al"
 
 #: template/download.html.j2:138
 msgid "Subscribe"
-msgstr ""
+msgstr "Abone ol"
 
 #: template/download.html.j2:145
 msgid "Support Zrythm by purchasing an installer."
-msgstr ""
+msgstr "Yükleyici satın alarak Zrythm'i destekle."
 
 #: template/download.html.j2:146
 msgid "This month we received £{amount}."
-msgstr ""
+msgstr "Bu ay şu kadar aldık: {amount}£."
 
 #: template/download.html.j2:148
 msgid ""
 "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
 "and subscriptions"
 msgstr ""
+"Bu miktara LiberaPay, PayPal, OpenCollective bağışları, indirmeler ve "
+"abonelikler dahildir"
 
 #: template/explore.html.j2:22
 msgid "List of features, functionality, and reviews"
-msgstr ""
+msgstr "Özellikler listesi, işlevsellik ve yorumlar"
 
 #: template/explore.html.j2:37
 msgid "Demos"
-msgstr ""
+msgstr "Demolar"
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
 #: template/explore.html.j2:90 template/explore.html.j2:111
@@ -361,7 +368,7 @@ msgstr ""
 #: template/learn.html.j2:140 template/learn.html.j2:170
 #: template/learn.html.j2:192
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "İnternet tarayıcını HTML5 video'yu desteklememektedir"
 
 #: template/explore.html.j2:56 template/explore.html.j2:77
 #: template/explore.html.j2:98 template/explore.html.j2:119
@@ -379,7 +386,7 @@ msgstr ""
 
 #: template/explore.html.j2:171 template/plugins.html.j2:53
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: template/explore.html.j2:179 template/explore.html.j2:183
 msgid "Piano roll"
@@ -419,13 +426,13 @@ msgstr ""
 
 #: template/explore.html.j2:253
 msgid "Screenshots"
-msgstr ""
+msgstr "Ekran görüntüleri"
 
 #: template/explore.html.j2:261 template/explore.html.j2:278
 #: template/explore.html.j2:295 template/explore.html.j2:312
 #: template/explore.html.j2:329
 msgid "Screenshot"
-msgstr ""
+msgstr "Ekran görüntüsü"
 
 #: template/explore.html.j2:263
 msgid "Mixing"
@@ -439,15 +446,15 @@ msgstr ""
 
 #: template/explore.html.j2:280
 msgid "Audio Editor"
-msgstr ""
+msgstr "Ses Düzenleyici"
 
 #: template/explore.html.j2:297
 msgid "Localized UI"
-msgstr ""
+msgstr "Yerelleştirilmiş Kullanıcı Arayüzü"
 
 #: template/explore.html.j2:314
 msgid "CSS Theme"
-msgstr ""
+msgstr "CSS Teması"
 
 #: template/explore.html.j2:331
 msgid "Mixer view"
@@ -484,7 +491,7 @@ msgstr ""
 
 #: template/index.html.j2:33
 msgid "Zrythm"
-msgstr ""
+msgstr "Zrythm"
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
@@ -502,7 +509,7 @@ msgstr ""
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr ""
+msgstr "Zrythm GNU/Linux, FreeBSD, MacOS ve Windows üzerinde çalışır"
 
 #: template/index.html.j2:64
 msgid ""
@@ -522,17 +529,19 @@ msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
-msgstr ""
+msgstr "Ses eklentileri"
 
 #: template/index.html.j2:99
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"<a href=\"https://lv2plug.in/\">LV2</a> ve VST2 için tam destek, VST3, AU, "
+"SFZ ve SF2 için deneysel destek."
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr ""
+msgstr "Çoklu arka uç desteği"
 
 #: template/index.html.j2:118
 msgid ""
@@ -553,7 +562,7 @@ msgstr ""
 
 #: template/index.html.j2:152
 msgid "Liberating"
-msgstr ""
+msgstr "Özgürleştirici"
 
 #: template/index.html.j2:157
 msgid ""
@@ -561,10 +570,13 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
+"webm\">özgür yazılımdır</a>. Özgürce kullanın, inceleyin, paylaşın ve "
+"geliştirin."
 
 #: template/index.html.j2:169
 msgid "Multilingual"
-msgstr ""
+msgstr "Çok dilli"
 
 #: template/index.html.j2:174
 msgid ""
@@ -572,6 +584,9 @@ msgid ""
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
+"İngilizce, Fransızca, İspanyolca, Portekizce, Japonca ve Almanca dahil <a "
+"href=\"https://hosted.weblate.org/engage/zrythm/\">birden çok dilde</a> "
+"kullanılabilir."
 
 #: template/index.html.j2:184
 msgid "Learn more"
@@ -643,7 +658,7 @@ msgstr ""
 
 #: template/learn.html.j2:244
 msgid "User Manual"
-msgstr ""
+msgstr "Kullanıcı Kılavuzu"
 
 #: template/learn.html.j2:247
 msgid "Developer Reference"
@@ -651,15 +666,15 @@ msgstr ""
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Yasal bilgiler"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Yasal, lisans ve ticari marka bilgileri"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Lisanslama"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -668,6 +683,9 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Zrythm'in telif hakkı Alexandros Theodotou ve diğer katkıda bulunanlara "
+"aittir. Zrythm, <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU "
+"Affero Genel Kamu Lisansı, sürüm 3</a> altında yayınlanmıştır."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -675,12 +693,17 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Aksi belirtilmedikçe, Zrythm web sitesinde bulunan videolar <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Atıf-"
+"AynıLisanslaPaylaş 4.0 Uluslararası lisansı</a> altında yayınlanmıştır."
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"<em>Richard Stallman: Özgür yazılım, özgür toplum</em> videosu Creative "
+"Commons BY-SA-ND 3.0 altında lisanslanmıştır."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -692,28 +715,28 @@ msgstr ""
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
-msgstr ""
+msgstr "Ticari markalar"
 
 #: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm ve Zrythm logosu, Alexandros Theodotou'nun ticari markalarıdır."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Zrythm ile birlikte gelen eklentiler"
 
 #: template/plugins.html.j2:47
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} ekran görüntüsü"
 
 #: template/plugins.html.j2:61
 msgid "Technical specs"
-msgstr ""
+msgstr "Teknik özellikler"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Gizlilik Politikası"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
@@ -721,13 +744,15 @@ msgstr ""
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Teşekkürler"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
 "Thank you for supporting development! You will receive an email soon with "
 "instructions to download your installer."
 msgstr ""
+"Geliştirilmesini desteklediğiniz için teşekkür ederiz! Yakında kurucunuzu "
+"indirme talimatlarını içeren bir e-posta alacaksınız."
 
 #: template/purchase-thanks.html.j2:38
 msgid ""
@@ -735,11 +760,14 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"Zip dosyasını indirdikten sonra çıkartın ve bir terminalde <code>./installer."
+"sh</code> dosyasını çalıştırın. Herhangi bir sorun yaşarsanız lütfen bizimle "
+"iletişime geçin."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
+msgstr "Ana sayfaya geri dön"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Zrythm Ticari Marka Politikası"

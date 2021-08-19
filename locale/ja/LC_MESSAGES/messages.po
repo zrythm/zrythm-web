@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-12 20:14+0100\n"
-"PO-Revision-Date: 2021-08-07 17:32+0000\n"
+"PO-Revision-Date: 2021-08-10 04:32+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
@@ -82,7 +82,7 @@ msgstr "法的事項"
 
 #: common/footer.j2.inc:23
 msgid "Privacy"
-msgstr "プライバシー"
+msgstr "個人情報"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
