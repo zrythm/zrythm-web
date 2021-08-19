@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-17 22:26+0100\n"
+"POT-Creation-Date: 2021-08-19 23:58+0100\n"
 "PO-Revision-Date: 2021-08-19 19:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -16,58 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Weblate 4.8-dev\n"
 
-#: template.py:340
+#: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz, minör veya majör gamın akorlarını beyaz tuşlara eşler"
 
-#: template.py:341
+#: template.py:342
 msgid "Major or minor scale"
 msgstr "Majör veya minör ölçek"
 
-#: template.py:342
+#: template.py:343
 msgid "Velocity multiplier per note"
 msgstr "Nota başına hız çarpanı"
 
-#: template.py:346
+#: template.py:347
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO, CV tabanlı otomasyon için tam özellikli bir LFO'dur"
 
-#: template.py:347
+#: template.py:348
 msgid "Multi-oscillator with custom wave"
 msgstr "Özel dalgalı çoklu-osilatör"
 
-#: template.py:348
+#: template.py:349
 msgid "Phase shift"
 msgstr "Faz değişimi"
 
-#: template.py:349
+#: template.py:350
 msgid "Vertical/horizontal inversion"
 msgstr "Dikey/yatay inversiyon"
 
-#: template.py:350
+#: template.py:351
 msgid "Step mode"
 msgstr "Adım modu"
 
-#: template.py:351
+#: template.py:352
 msgid "Editable range"
 msgstr "Düzenlenebilir aralık"
 
-#: template.py:352
+#: template.py:353
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:355
+#: template.py:356
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:356
+#: template.py:357
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:357
+#: template.py:358
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -570,9 +570,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
-"webm\">özgür yazılımdır</a>. Özgürce kullanın, inceleyin, paylaşın ve "
-"geliştirin."
+"Zrythm <a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">özgür "
+"yazılımdır</a>. Özgürce kullanın, inceleyin, paylaşın ve geliştirin."
 
 #: template/index.html.j2:169
 msgid "Multilingual"
@@ -693,9 +693,9 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
-"Aksi belirtilmedikçe, Zrythm web sitesinde bulunan videolar <a href=\"https"
-"://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Atıf-"
-"AynıLisanslaPaylaş 4.0 Uluslararası lisansı</a> altında yayınlanmıştır."
+"Aksi belirtilmedikçe, Zrythm web sitesinde bulunan videolar <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Atıf-AynıLisanslaPaylaş 4.0 Uluslararası lisansı</a> altında yayınlanmıştır."
 
 #: template/legal.html.j2:56
 msgid ""
@@ -719,7 +719,8 @@ msgstr "Ticari markalar"
 
 #: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr "Zrythm ve Zrythm logosu, Alexandros Theodotou'nun ticari markalarıdır."
+msgstr ""
+"Zrythm ve Zrythm logosu, Alexandros Theodotou'nun ticari markalarıdır."
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
@@ -760,9 +761,9 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
-"Zip dosyasını indirdikten sonra çıkartın ve bir terminalde <code>./installer."
-"sh</code> dosyasını çalıştırın. Herhangi bir sorun yaşarsanız lütfen bizimle "
-"iletişime geçin."
+"Zip dosyasını indirdikten sonra çıkartın ve bir terminalde "
+"<code>./installer.sh</code> dosyasını çalıştırın. Herhangi bir sorun "
+"yaşarsanız lütfen bizimle iletişime geçin."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"

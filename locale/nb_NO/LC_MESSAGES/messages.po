@@ -7,68 +7,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 20:14+0100\n"
+"POT-Creation-Date: 2021-08-19 23:58+0100\n"
 "PO-Revision-Date: 2021-08-10 04:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/"
-"web/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.8-dev\n"
 
-#: template.py:340
+#: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:341
+#: template.py:342
 msgid "Major or minor scale"
 msgstr ""
 
-#: template.py:342
+#: template.py:343
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:346
+#: template.py:347
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:347
+#: template.py:348
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillator med egendefinert bølgeform"
 
-#: template.py:348
+#: template.py:349
 msgid "Phase shift"
 msgstr "Faseendring"
 
-#: template.py:349
+#: template.py:350
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:350
+#: template.py:351
 msgid "Step mode"
 msgstr ""
 
-#: template.py:351
+#: template.py:352
 msgid "Editable range"
 msgstr ""
 
-#: template.py:352
+#: template.py:353
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:355
+#: template.py:356
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:356
+#: template.py:357
 msgid "7 sawtooth oscillators"
 msgstr "7-sagtannsoscillatorer"
 
-#: template.py:357
+#: template.py:358
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -113,9 +112,8 @@ msgid "Donate using PayPal"
 msgstr "Doner ved bruk av PayPal"
 
 #: common/footer.j2.inc:111
-#, fuzzy
 msgid "Donate using LiberaPay"
-msgstr "Doner ved bruk av Liberapay"
+msgstr ""
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
@@ -260,9 +258,8 @@ msgid "Save/load disabled"
 msgstr ""
 
 #: template/download.html.j2:77
-#, fuzzy
 msgid "<b>£0</b>"
-msgstr "<b>0 £</b>"
+msgstr ""
 
 #: template/download.html.j2:82
 msgid "Compiled with all features"
@@ -504,9 +501,8 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:60
-#, fuzzy
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr "Zrythm fungerer på Linux|GNU, FreeBSD, macOS og Windows"
+msgstr ""
 
 #: template/index.html.j2:64
 msgid ""
@@ -673,8 +669,8 @@ msgid ""
 "Public License, version 3</a>."
 msgstr ""
 "Opphavsretten til Zrythm tilhører Alexandros Theodotou og andre "
-"bidragsytere. Lisensiert <a href=\"https://www.gnu.org/licenses/agpl-3.0."
-"html\">AGPLv3+."
+"bidragsytere. Lisensiert <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">AGPLv3+."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -744,13 +740,13 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
-"Når du har lastet ned ZIP-filen, pakker du den ut og kjører <code>./installer"
-".sh</code> i en terminal. Hvis du har problemer kan du kontakte oss."
+"Når du har lastet ned ZIP-filen, pakker du den ut og kjører "
+"<code>./installer.sh</code> i en terminal. Hvis du har problemer kan du "
+"kontakte oss."
 
 #: template/purchase-thanks.html.j2:45
-#, fuzzy
 msgid "Go back to home page"
-msgstr "Gå tilbake til hjemmesiden"
+msgstr ""
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"

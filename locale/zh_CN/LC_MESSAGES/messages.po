@@ -7,68 +7,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 20:14+0100\n"
+"POT-Creation-Date: 2021-08-19 23:58+0100\n"
 "PO-Revision-Date: 2021-08-16 20:34+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"zrythm/web/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.8-dev\n"
 
-#: template.py:340
+#: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz将小调或大调的和弦映射到白键上"
 
-#: template.py:341
+#: template.py:342
 msgid "Major or minor scale"
 msgstr "大调音阶或小调音阶"
 
-#: template.py:342
+#: template.py:343
 msgid "Velocity multiplier per note"
 msgstr "每个音符的速度乘数"
 
-#: template.py:346
+#: template.py:347
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO是一款功能齐全的基于CV自动化的LFO"
 
-#: template.py:347
+#: template.py:348
 msgid "Multi-oscillator with custom wave"
 msgstr "带自定义波的多振荡器"
 
-#: template.py:348
+#: template.py:349
 msgid "Phase shift"
 msgstr "相移"
 
-#: template.py:349
+#: template.py:350
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反演"
 
-#: template.py:350
+#: template.py:351
 msgid "Step mode"
 msgstr "步进模式"
 
-#: template.py:351
+#: template.py:352
 msgid "Editable range"
 msgstr "可编辑范围"
 
-#: template.py:352
+#: template.py:353
 msgid "Sync to host or free-form"
 msgstr "同步到主机或自由格式"
 
-#: template.py:355
+#: template.py:356
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw是一个带有1个参数的supersaw合成器"
 
-#: template.py:356
+#: template.py:357
 msgid "7 sawtooth oscillators"
 msgstr "7锯齿振荡器"
 
-#: template.py:357
+#: template.py:358
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 

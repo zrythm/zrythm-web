@@ -7,68 +7,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 20:14+0100\n"
+"POT-Creation-Date: 2021-08-19 23:58+0100\n"
 "PO-Revision-Date: 2021-08-10 04:32+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
-">\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.8-dev\n"
 
-#: template.py:340
+#: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "O ZChordz mapeia os acordes de escala menor ou maior a teclas brancas"
 
-#: template.py:341
+#: template.py:342
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:342
+#: template.py:343
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:346
+#: template.py:347
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:347
+#: template.py:348
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:348
+#: template.py:349
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:349
+#: template.py:350
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical / horizontal"
 
-#: template.py:350
+#: template.py:351
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:351
+#: template.py:352
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:352
+#: template.py:353
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:355
+#: template.py:356
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw é um sintetizador de superserra com 1 parâmetro"
 
-#: template.py:356
+#: template.py:357
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de dente de serra"
 
-#: template.py:357
+#: template.py:358
 msgid "Single knob to control detune"
 msgstr "Botão único para controlar a desintonização"
 
@@ -609,7 +608,8 @@ msgid ""
 "German."
 msgstr ""
 "Disponível em <a href=\"https://hosted.weblate.org/engage/zrythm/\">vários "
-"idiomas</a> incluindo inglês, francês, espanhol, português, japonês e alemão."
+"idiomas</a> incluindo inglês, francês, espanhol, português, japonês e "
+"alemão."
 
 #: template/index.html.j2:184
 msgid "Learn more"
@@ -707,9 +707,9 @@ msgid ""
 "Public License, version 3</a>."
 msgstr ""
 "Zrythm é protegido por direitos autorais por Alexandros Theodotou e outros "
-"colaboradores. O Zrythm é lançado sob a <a href=\"https://www.gnu.org/"
-"licenses/agpl-3.0.html\">GNU Affero General Public License, versão 3 ou "
-"posterior</a>."
+"colaboradores. O Zrythm é lançado sob a <a "
+"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
+"Public License, versão 3 ou posterior</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -737,9 +737,9 @@ msgid ""
 "himself and Ynternet.org foundation."
 msgstr ""
 "Créditos: Desenhos sob CC-BY-ND 3.0 criados por Christian Nogareda (Kwis, "
-"Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream.deviantart."
-"com) baseados em ideias de Richard Stallman, por ele mesmo e pela fundação "
-"Ynternet.org."
+"Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) baseados em ideias de Richard Stallman, "
+"por ele mesmo e pela fundação Ynternet.org."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"

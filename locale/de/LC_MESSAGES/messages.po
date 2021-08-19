@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 20:14+0100\n"
+"POT-Creation-Date: 2021-08-19 23:58+0100\n"
 "PO-Revision-Date: 2021-02-20 00:50+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.5\n"
 
-#: template.py:340
+#: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mappt die Akkorde einer Dur- oder Mollskala auf die weißen Tasten"
 
-#: template.py:341
+#: template.py:342
 msgid "Major or minor scale"
 msgstr "Dur- oder Mollskala"
 
-#: template.py:342
+#: template.py:343
 msgid "Velocity multiplier per note"
 msgstr "Anpassung der Anschlagsdynamik pro Note"
 
-#: template.py:346
+#: template.py:347
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 "ZLFO ist ein voll funktionsumfänglicher LFO für CV-basierte Automation"
 
-#: template.py:347
+#: template.py:348
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-Oszillator mit eigener Welle"
 
-#: template.py:348
+#: template.py:349
 msgid "Phase shift"
 msgstr "Phasenverschiebung"
 
-#: template.py:349
+#: template.py:350
 msgid "Vertical/horizontal inversion"
 msgstr "Vertikale/horizontale Inversion"
 
-#: template.py:350
+#: template.py:351
 msgid "Step mode"
 msgstr "Stufen-Modus"
 
-#: template.py:351
+#: template.py:352
 msgid "Editable range"
 msgstr "Editierbarer Bereich"
 
-#: template.py:352
+#: template.py:353
 msgid "Sync to host or free-form"
 msgstr "Synchronisiere zum Host oder Freiform"
 
-#: template.py:355
+#: template.py:356
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw ist ein Supersaw-Synth mit einem Parameter"
 
-#: template.py:356
+#: template.py:357
 msgid "7 sawtooth oscillators"
 msgstr "7 Sägezahn-Oszillatoren"
 
-#: template.py:357
+#: template.py:358
 msgid "Single knob to control detune"
 msgstr "Ein einziger Knopf zum Kontrollieren der Stimmung"
 
