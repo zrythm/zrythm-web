@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-19 23:58+0100\n"
-"PO-Revision-Date: 2021-08-17 22:37+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
+"PO-Revision-Date: 2021-08-23 09:43+0000\n"
+"Last-Translator: Florent berthelot <florentius.b@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.8-dev\n"
 
 #: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -228,6 +228,8 @@ msgstr "Traductions"
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
+"Télécharger le code source de Zrythm ou acheter un installateur de paquet "
+"binaire."
 
 #: template/download.html.j2:39
 msgid "Source code"
