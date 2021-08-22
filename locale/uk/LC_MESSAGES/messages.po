@@ -8,16 +8,18 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-19 23:58+0100\n"
-"PO-Revision-Date: 2021-06-14 22:32+0000\n"
-"Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
+"PO-Revision-Date: 2021-08-23 09:43+0000\n"
+"Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
+"\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.7-dev\n"
 
 #: template.py:341
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -103,11 +105,11 @@ msgstr "Пожертвувати Біткоїн Кеш (BCH)"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Пожертвувати за допомогою Монеро"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Пожертвувати Монеро (XMR)"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
@@ -126,10 +128,12 @@ msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
+"Zrythm і логотип Zrythm є зареєстрованими торговими марками Александроса "
+"Теодоту (Alexandros Theodotou) у Великобританії."
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Докладніше про це можна дізнатися з нашої сторінки {trademarkpolicy}."
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
@@ -138,6 +142,7 @@ msgstr "Політика щодо торгових знаків"
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
+"Високоавтоматизована та інтуїтивно зрозуміла цифрова звукова робоча станція."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -145,6 +150,10 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin"
 msgstr ""
+"Цифрова звукова робоча станція, виробництво музики, аудіо, професійне аудіо, "
+"Linux, GNU/Linux, вільне програмне забезпечення, безплатне програмне "
+"забезпечення, звуковий редактор, композиція, MIDI, LV2, JACK, VST, аудіо "
+"плагін, безкоштовне програмне забезпечення"
 
 #: common/navigation.j2.inc:28
 msgid "Home"
@@ -193,15 +202,15 @@ msgstr "Пошта"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Оголошення"
 
 #: template/community.html.j2:62
 msgid "User discussion"
-msgstr ""
+msgstr "Обговорення користувачів"
 
 #: template/community.html.j2:65
 msgid "Development"
-msgstr ""
+msgstr "Розробка"
 
 #: template/community.html.j2:69
 msgid "Project"
@@ -209,11 +218,11 @@ msgstr "Проєкт"
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
-msgstr ""
+msgstr "Відстеження функцій"
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "Відстеження вад"
 
 #: template/community.html.j2:82
 msgid "Translations"
@@ -222,6 +231,7 @@ msgstr "Переклади"
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
+"Завантажте вихідний код Zrythm або придбайте установник двійкових пакетів."
 
 #: template/download.html.j2:39
 msgid "Source code"
@@ -257,7 +267,7 @@ msgstr "Розширення в наборі (основні)"
 
 #: template/download.html.j2:76
 msgid "Save/load disabled"
-msgstr ""
+msgstr "Збереження/завантаження вимкнено"
 
 #: template/download.html.j2:77
 msgid "<b>£0</b>"
@@ -281,7 +291,7 @@ msgstr "<b>£5</b> одна версія"
 
 #: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "<b>+£10</b> v1 набір"
 
 #: template/download.html.j2:91
 msgid "Full version"
@@ -313,11 +323,11 @@ msgstr ""
 
 #: template/download.html.j2:112
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU/Linux (пакунок)"
 
 #: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU/Linux (AppImage*)"
 
 #: template/download.html.j2:114
 msgid "Windows 64-bit"
@@ -325,7 +335,7 @@ msgstr "Windows 64-біт"
 
 #: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* Збірка AppImage є експериментальною"
 
 #: template/download.html.j2:131
 msgid "Buy Now"
@@ -381,7 +391,7 @@ msgstr "Відео від"
 
 #: template/explore.html.j2:137
 msgid "Remake"
-msgstr ""
+msgstr "Переріб"
 
 #: template/explore.html.j2:171 template/plugins.html.j2:53
 msgid "Features"
@@ -427,39 +437,39 @@ msgstr "Автоматизуйте параметри за допомогою к
 
 #: template/explore.html.j2:253
 msgid "Screenshots"
-msgstr ""
+msgstr "Знятки екрана"
 
 #: template/explore.html.j2:261 template/explore.html.j2:278
 #: template/explore.html.j2:295 template/explore.html.j2:312
 #: template/explore.html.j2:329
 msgid "Screenshot"
-msgstr ""
+msgstr "Зняток екрана"
 
 #: template/explore.html.j2:263
 msgid "Mixing"
-msgstr ""
+msgstr "Зведення"
 
 #: template/explore.html.j2:268 template/explore.html.j2:285
 #: template/explore.html.j2:302 template/explore.html.j2:319
 #: template/explore.html.j2:336
 msgid "Screenshot by"
-msgstr ""
+msgstr "Зняток екрана зроблено"
 
 #: template/explore.html.j2:280
 msgid "Audio Editor"
-msgstr ""
+msgstr "Аудіоредактор"
 
 #: template/explore.html.j2:297
 msgid "Localized UI"
-msgstr ""
+msgstr "Локалізований інтерфейс"
 
 #: template/explore.html.j2:314
 msgid "CSS Theme"
-msgstr ""
+msgstr "Тема CSS"
 
 #: template/explore.html.j2:331
 msgid "Mixer view"
-msgstr ""
+msgstr "Вид мікшера"
 
 #: template/explore.html.j2:346
 msgid "Reviews"
@@ -467,7 +477,7 @@ msgstr "Відгуки"
 
 #: template/explore.html.j2:354
 msgid "unfa livestream: Making a funky song in Zrythm"
-msgstr ""
+msgstr "Стрім unfa: робимо фанкову пісню в Zrythm"
 
 #: template/explore.html.j2:362
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -478,6 +488,8 @@ msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
 msgstr ""
+"Новини Phoronix: Zrythm наближається до бетаверсії як проста у використанні, "
+"вільна цифрова робоча аудіо станція"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -576,6 +588,8 @@ msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
 msgstr ""
+"У ній є список акордів для швидкого випробування акордів в гамі та трек "
+"акордів для роботи з акордовими прогресіями."
 
 #: template/index.html.j2:152
 msgid "Liberating"
@@ -601,6 +615,9 @@ msgid ""
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
+"Доступна <a href=\"https://hosted.weblate.org/engage/zrythm/\">декількома "
+"мовами</a> , включаючи англійську, французьку, іспанську, португальську, "
+"японську і німецьку."
 
 #: template/index.html.j2:184
 msgid "Learn more"
@@ -608,7 +625,7 @@ msgstr "Докладніше"
 
 #: template/index.html.j2:191
 msgid "Sponsors / Hosting Providers"
-msgstr ""
+msgstr "Спонсори / Постачальники хостингу"
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -648,23 +665,23 @@ msgstr "Маршрутизація (Routing)"
 
 #: template/learn.html.j2:175
 msgid "FX Sends"
-msgstr ""
+msgstr "Посилані сигнали FX (FX Sends)"
 
 #: template/learn.html.j2:197
 msgid "Port Routing"
-msgstr ""
+msgstr "Маршрутизація порта (Port Routing)"
 
 #: template/learn.html.j2:212
 msgid "Walkthroughs"
-msgstr ""
+msgstr "Покрокові вказівки"
 
 #: template/learn.html.j2:223
 msgid "French"
-msgstr ""
+msgstr "Французька"
 
 #: template/learn.html.j2:226
 msgid "Playlist by"
-msgstr ""
+msgstr "Список відтворення від"
 
 #: template/learn.html.j2:237
 msgid "Documentation"
@@ -697,6 +714,10 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Авторські права на Zrythm належать Александросу Теодоту (Alexandros "
+"Theodotou) і іншим співавторам. Zrythm випускається під <a href=\"https://www"
+".gnu.org/licenses/agpl-3.0.html\">Стандартною суспільною ліцензією GNU "
+"Аферо, версії 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -713,6 +734,8 @@ msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"<em>Річард Столлман: Вільне програмне забезпечення, вільне суспільне</em> "
+"відео ліцензовано під Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -721,6 +744,10 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Подяки: Малюнки під CC-BY-ND 3.0 створені Крістіаном Ноґаредою (Christian "
+"Nogareda) (Kwis, Http://kwis.tumblr.com), Валентином Паськ'є (Valentin "
+"Pasquier) (http://utopiqdream.deviantart.com) на основі ідей Річарда "
+"Столлмана (Richard Stallman), їм самим і фондом ynternet.org."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
@@ -749,7 +776,7 @@ msgstr "Політика приватності"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Останнє оновлення: 4 серп 2021"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
