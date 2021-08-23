@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-19 23:58+0100\n"
+"POT-Creation-Date: 2021-08-23 10:54+0100\n"
 "PO-Revision-Date: 2021-06-14 22:32+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: template.py:341
+#: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz дозволяє відобразити акорди мажорної або мінорної гами на білі "
 "клавіші"
 
-#: template.py:342
+#: template.py:355
 msgid "Major or minor scale"
 msgstr "Мажорна або мінорна гама"
 
-#: template.py:343
+#: template.py:356
 msgid "Velocity multiplier per note"
 msgstr "Множник сили звуку для кожної ноти"
 
-#: template.py:347
+#: template.py:360
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO - це повнофункціональний LFO для автоматизації на основі CV"
 
-#: template.py:348
+#: template.py:361
 msgid "Multi-oscillator with custom wave"
 msgstr "Мультиосцилятор з довільною хвилею"
 
-#: template.py:349
+#: template.py:362
 msgid "Phase shift"
 msgstr "Зсув фази"
 
-#: template.py:350
+#: template.py:363
 msgid "Vertical/horizontal inversion"
 msgstr "Вертикальна/горизонтальна інверсія"
 
-#: template.py:351
+#: template.py:364
 msgid "Step mode"
 msgstr "Режим ступенів"
 
-#: template.py:352
+#: template.py:365
 msgid "Editable range"
 msgstr "Редаговуваний діапазон"
 
-#: template.py:353
+#: template.py:366
 msgid "Sync to host or free-form"
 msgstr "Синхронізація з хостом або у вільній формі"
 
-#: template.py:356
+#: template.py:369
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw - це синтезатор supersaw з одним параметром"
 
-#: template.py:357
+#: template.py:370
 msgid "7 sawtooth oscillators"
 msgstr "7 осциляторів sawtooth"
 
-#: template.py:358
+#: template.py:371
 msgid "Single knob to control detune"
 msgstr "Одна ручка для керування detune"
 

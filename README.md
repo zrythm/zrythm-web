@@ -10,19 +10,21 @@ The original project can be found here:
 https://git.gnunet.org/www.git/
 
 # Environment
-Set `SENDOWL_KEY`, `SENDOWL_SECRET`, `PAYPAL_CLIENT_ID`
-and `PAYPAL_SECRET` to get order data.
+Create a file called `.credentials` with the following
+content:
+```
+export PAYPAL_CLIENT_ID=
+export PAYPAL_SECRET=
+export ZRYTHM_ACCOUNTS_TOKEN=
+export VERIFY_TRIAL_PACKAGE_URLS=
+export GET_VERSION=
+```
 
-These should be in `.credentials`:
-```
-export SENDOWL_KEY=...
-export SENDOWL_SECRET=...
-export PAYPAL_CLIENT_ID=...
-export PAYPAL_SECRET=...
-```
+These are used for fetching order data. Setting them to
+empty values will skip fetching order data.
 
 # Building
-`make` will create the full bundle in `rendered`
+`make` will create the full bundle in directory `rendered`
 
 # Dependencies
 - python-babel
@@ -33,7 +35,7 @@ export PAYPAL_SECRET=...
 
 ----
 
-Copyright (C) 2019-2020 Alexandros Theodotou
+Copyright (C) 2019-2021 Alexandros Theodotou
 
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright

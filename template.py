@@ -67,6 +67,14 @@ env = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__
 if (os.getenv("DEBUG")):
     print(sys.path)
 
+PAYPAL_CLIENT_ID = os.getenv ('PAYPAL_CLIENT_ID')
+PAYPAL_SECRET = os.getenv ('PAYPAL_SECRET')
+ZRYTHM_ACCOUNTS_TOKEN = os.getenv ('ZRYTHM_ACCOUNTS_TOKEN')
+
+fetch_orders = PAYPAL_CLIENT_ID and PAYPAL_SECRET and ZRYTHM_ACCOUNTS_TOKEN
+verify_trial_package_urls = os.getenv ('VERIFY_TRIAL_PACKAGE_URLS') == 'YES'
+get_version = os.getenv ('GET_VERSION') == 'YES'
+
 # Note: also edit the Makefile when adding languages
 langs_full = {
         'af_ZA': 'Afrikaans',
@@ -119,133 +127,137 @@ usd_to_gbp = 0.77
 eur_to_gbp = 0.92
 
 prev_month_earning = 100
+monthly_earning = 0
+num_monthly_orders = 0
 
 # get monthly orders
-orders_url = 'https://accounts.zrythm.org/api/v1/orders/'
-headers = {
-    'Accept': 'application/json',
-    'Content-type': 'application/json',
-    'Accept-Charset': 'UTF-8',
-    'Authorization': 'Token %s' % os.getenv ('ZRYTHM_ACCOUNTS_TOKEN'),
-    }
-payload = {
-    'limit': '100',
-    'status': 'Completed',
-    'ordering': '-created_at',
-    }
-print ('getting zrythm-accounts orders...')
-r = requests.get(orders_url, params=payload, headers=headers)
-if r.status_code == 200:
-    monthly_earning = 0
-    num_monthly_orders = 0
-    start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
-    # TODO change to following next month
-    # start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
-    for order in r.json()['results']:
-        product = order['product']
-        if product['type'] == 'Subscription':
-            continue
-        created_at = dateutil.parser.isoparse (order['created_at'])
-        if created_at < start_datetime:
-            continue
-        amount = float (product['price_gbp'])
-        amount -= (amount * 0.05)
-        print ('adding {} zrythm accounts earnings'.format(amount))
-        monthly_earning += amount
-        num_monthly_orders += 1
-else:
-    print (r.json())
-
-# get paypal earnings
-access_token_url = 'https://{}:{}@api.paypal.com/v1/oauth2/token'.format(
-        os.getenv('PAYPAL_CLIENT_ID'), os.getenv('PAYPAL_SECRET'))
-headers = {
-    'Accept': 'application/json',
-    'Accept-Language': 'en_US',
-    }
-payload = {
-    'grant_type': 'client_credentials',
-    }
-r = requests.post(access_token_url, params=payload, headers=headers)
-if r.status_code == 200:
-    access_token = r.json()['access_token']
-    transactions_url = 'https://api.paypal.com/v1/reporting/transactions'
+if fetch_orders:
+    orders_url = 'https://accounts.zrythm.org/api/v1/orders/'
     headers = {
         'Accept': 'application/json',
         'Content-type': 'application/json',
         'Accept-Charset': 'UTF-8',
-        'Authorization': 'Bearer ' + access_token,
+        'Authorization': 'Token %s' % os.getenv ('ZRYTHM_ACCOUNTS_TOKEN'),
         }
     payload = {
-        'start_date': datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
-        'end_date': datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
-        'transaction_status': 'S',
+        'limit': '100',
+        'status': 'Completed',
+        'ordering': '-created_at',
         }
-    r = requests.get(transactions_url, params=payload, headers=headers)
+    print ('getting zrythm-accounts orders...')
+    r = requests.get(orders_url, params=payload, headers=headers)
     if r.status_code == 200:
-        for _tx in r.json()['transaction_details']:
-            tx = _tx['transaction_info']
-            if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
-                amount = float(tx['transaction_amount']['value'])
-                if 'fee_amound' in tx:
-                    amount += float(tx['fee_amount']['value'])
-                if tx['transaction_amount']['currency_code'] == 'USD':
-                    amount *= usd_to_gbp
-                if amount > 0:
-                    print ('adding {} paypal subscription earnings'.format(amount))
-                    monthly_earning += amount
-            elif 'invoice_id' not in tx and tx['transaction_event_code'] == 'T0000':
-                amount = float(tx['transaction_amount']['value'])
-                if 'fee_amound' in tx:
-                    amount += float(tx['fee_amount']['value'])
-                if tx['transaction_amount']['currency_code'] == 'USD':
-                    amount *= usd_to_gbp
-                elif tx['transaction_amount']['currency_code'] == 'EUR':
-                    amount *= eur_to_gbp
-                if amount > 0:
-                    print ('adding {} paypal custom donation earnings'.format(amount))
-                    monthly_earning += amount
+        start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
+        # TODO change to following next month
+        # start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
+        for order in r.json()['results']:
+            product = order['product']
+            if product['type'] == 'Subscription':
+                continue
+            created_at = dateutil.parser.isoparse (order['created_at'])
+            if created_at < start_datetime:
+                continue
+            amount = float (product['price_gbp'])
+            amount -= (amount * 0.05)
+            print ('adding {} zrythm accounts earnings'.format(amount))
+            monthly_earning += amount
+            num_monthly_orders += 1
     else:
         print (r.json())
-else:
-    print (r.json())
+
+# get paypal earnings
+    access_token_url = 'https://{}:{}@api.paypal.com/v1/oauth2/token'.format(
+            os.getenv('PAYPAL_CLIENT_ID'), os.getenv('PAYPAL_SECRET'))
+    headers = {
+        'Accept': 'application/json',
+        'Accept-Language': 'en_US',
+        }
+    payload = {
+        'grant_type': 'client_credentials',
+        }
+    r = requests.post(access_token_url, params=payload, headers=headers)
+    if r.status_code == 200:
+        access_token = r.json()['access_token']
+        transactions_url = 'https://api.paypal.com/v1/reporting/transactions'
+        headers = {
+            'Accept': 'application/json',
+            'Content-type': 'application/json',
+            'Accept-Charset': 'UTF-8',
+            'Authorization': 'Bearer ' + access_token,
+            }
+        payload = {
+            'start_date': datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
+            'end_date': datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
+            'transaction_status': 'S',
+            }
+        r = requests.get(transactions_url, params=payload, headers=headers)
+        if r.status_code == 200:
+            for _tx in r.json()['transaction_details']:
+                tx = _tx['transaction_info']
+                if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
+                    amount = float(tx['transaction_amount']['value'])
+                    if 'fee_amound' in tx:
+                        amount += float(tx['fee_amount']['value'])
+                    if tx['transaction_amount']['currency_code'] == 'USD':
+                        amount *= usd_to_gbp
+                    if amount > 0:
+                        print ('adding {} paypal subscription earnings'.format(amount))
+                        monthly_earning += amount
+                elif 'invoice_id' not in tx and tx['transaction_event_code'] == 'T0000':
+                    amount = float(tx['transaction_amount']['value'])
+                    if 'fee_amound' in tx:
+                        amount += float(tx['fee_amount']['value'])
+                    if tx['transaction_amount']['currency_code'] == 'USD':
+                        amount *= usd_to_gbp
+                    elif tx['transaction_amount']['currency_code'] == 'EUR':
+                        amount *= eur_to_gbp
+                    if amount > 0:
+                        print ('adding {} paypal custom donation earnings'.format(amount))
+                        monthly_earning += amount
+        else:
+            print (r.json())
+    else:
+        print (r.json())
 
 # get liberapay earnings
-for lp_account in [ 'Zrythm', 'alextee' ]:
-    r = requests.get('https://liberapay.com/' + lp_account + '/public.json')
+    for lp_account in [ 'Zrythm', 'alextee' ]:
+        r = requests.get('https://liberapay.com/' + lp_account + '/public.json')
+        if r.status_code == 200:
+            amount = float(r.json()['receiving']['amount']) * 4.0
+            amount = float('%.2f' % amount)
+            print ('adding {} liberapay earnings'.format(amount))
+            monthly_earning += amount
+        else:
+            print (r.json())
+
+# add opencollective earnings
+    r = requests.get("https://opencollective.com/zrythm.json")
     if r.status_code == 200:
-        amount = float(r.json()['receiving']['amount']) * 4.0
+        amount = float(r.json()['yearlyIncome']) / 1200.0
+        amount *= usd_to_gbp
         amount = float('%.2f' % amount)
-        print ('adding {} liberapay earnings'.format(amount))
+        print ('adding {} opencollective earnings (estimated)'.format(amount))
         monthly_earning += amount
     else:
         print (r.json())
-
-# add opencollective earnings
-r = requests.get("https://opencollective.com/zrythm.json")
-if r.status_code == 200:
-    amount = float(r.json()['yearlyIncome']) / 1200.0
-    amount *= usd_to_gbp
-    amount = float('%.2f' % amount)
-    print ('adding {} opencollective earnings (estimated)'.format(amount))
-    monthly_earning += amount
-else:
-    print (r.json())
 
 monthly_earning_str = '{0:.2f}'.format(monthly_earning)
 prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)
 prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_month_earning))
 
+if get_version:
 # get latest version
-from subprocess import check_output
-versions = check_output('git ls-remote --tags https://git.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
-latest_ver = "0.0.0"
-for ver in versions.split('\n'):
-    if (semver.compare(ver, latest_ver) > 0):
-        latest_ver = ver
-print ('normal version: ' + latest_ver)
-version = latest_ver.replace ('-', '.')
-print ('version: ' + version)
+    from subprocess import check_output
+    versions = check_output('git ls-remote --tags https://git.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
+    latest_ver = "0.0.0"
+    for ver in versions.split('\n'):
+        if (semver.compare(ver, latest_ver) > 0):
+            latest_ver = ver
+    print ('normal version: ' + latest_ver)
+    version = latest_ver.replace ('-', '.')
+    print ('version: ' + version)
+else:
+    version = '1'
 
 def check_url(url):
     print ('checking ' + url + '...')
@@ -261,13 +273,14 @@ def check_url(url):
         exit (1)
 
 # verify that tarball and trials exist
-print ('verifying release and trial packages...')
-check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz')
-check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.AppImage')
-check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
-check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
-check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
-print ('done')
+if verify_trial_package_urls:
+    print ('verifying release and trial packages...')
+    check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz')
+    check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.AppImage')
+    check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
+    check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
+    check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
+    print ('done')
 
 def url(x):
     # TODO: look at the app root environment variable
