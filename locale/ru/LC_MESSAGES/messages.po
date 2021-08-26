@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-19 23:58+0100\n"
-"PO-Revision-Date: 2021-08-23 09:43+0000\n"
+"PO-Revision-Date: 2021-08-27 01:39+0000\n"
 "Last-Translator: Nikita Saschenko <neketa777@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
@@ -246,7 +246,7 @@ msgstr "Ключи GPG"
 
 #: template/download.html.j2:56
 msgid "Installer"
-msgstr "Программа установки (Installer)"
+msgstr "Установщик (Installer)"
 
 #: template/download.html.j2:63
 msgid "trial"
