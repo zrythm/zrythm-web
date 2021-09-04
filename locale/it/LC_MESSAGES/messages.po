@@ -739,35 +739,31 @@ msgstr "Politica sul trattamento dei dati personali"
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "Grazie"
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr ""
-"Grazie per il sostegno allo sviluppo! Riceverai presto un'e-mail con le "
-"istruzioni per scaricare il tuo installatore."
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-"Una volta scaricato il file zip, estrailo ed esegui "
-"<code>./installer.sh</code> in un terminale. In caso di problemi non esitare"
-" a contattarci."
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "Torna alla pagina iniziale"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr ""
+
+#~ msgid "Thank You"
+#~ msgstr "Grazie"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr ""
+#~ "Grazie per il sostegno allo sviluppo! Riceverai presto un'e-mail con le "
+#~ "istruzioni per scaricare il tuo installatore."
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr ""
+#~ "Una volta scaricato il file zip, estrailo ed esegui "
+#~ "<code>./installer.sh</code> in un terminale. In caso di problemi non esitare"
+#~ " a contattarci."
+
+#~ msgid "Go back to home page"
+#~ msgstr "Torna alla pagina iniziale"
 
 #~ msgid "Forum"
 #~ msgstr "Forum"

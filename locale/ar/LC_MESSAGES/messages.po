@@ -15,10 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -726,32 +725,19 @@ msgstr "سياسة خاصة"
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr ""
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr ""
-"شكرا لدعم التنمية! ستتلقى بريدًا إلكترونيًا قريبًا مع تعليمات لتنزيل برنامج "
-"التثبيت."
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "أرجع الى قائمه رئيسيه"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "سياسة Zrythm للعلامة التجارية"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr ""
+#~ "شكرا لدعم التنمية! ستتلقى بريدًا إلكترونيًا قريبًا مع تعليمات لتنزيل برنامج "
+#~ "التثبيت."
+
+#~ msgid "Go back to home page"
+#~ msgstr "أرجع الى قائمه رئيسيه"
 
 #~ msgid "Forum"
 #~ msgstr "المنتدى"

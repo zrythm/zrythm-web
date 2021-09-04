@@ -762,35 +762,31 @@ msgstr "Πολιτική απορρήτου"
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "Ευχαριστούμε"
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr ""
-"Ευχαριστούμε για την υποστήριξη! Θα λάβετε σύντομα ένα email με οδηγίες "
-"λήψης του εγκαταστατή σας."
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-"Μόλις κάνετε λήψη του αρχείου zip, αποσυμπιέστε το και εκτελέστε "
-"<code>./installer.sh</code> σε ένα τερματικό. Αν αντιμετωπίσετε πρόβλημα, "
-"παρακαλούμε ενημερώστε μας."
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "Επιστρέψτε στην αρχική σελίδα"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων Zrythm"
+
+#~ msgid "Thank You"
+#~ msgstr "Ευχαριστούμε"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr ""
+#~ "Ευχαριστούμε για την υποστήριξη! Θα λάβετε σύντομα ένα email με οδηγίες "
+#~ "λήψης του εγκαταστατή σας."
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr ""
+#~ "Μόλις κάνετε λήψη του αρχείου zip, αποσυμπιέστε το και εκτελέστε "
+#~ "<code>./installer.sh</code> σε ένα τερματικό. Αν αντιμετωπίσετε πρόβλημα, "
+#~ "παρακαλούμε ενημερώστε μας."
+
+#~ msgid "Go back to home page"
+#~ msgstr "Επιστρέψτε στην αρχική σελίδα"
 
 #~ msgid "Goes silent after 1 hour"
 #~ msgstr "Τίθεται σε σίγαση μετά από 1 ώρα"

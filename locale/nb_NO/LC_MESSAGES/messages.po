@@ -722,35 +722,28 @@ msgstr "Personvernspraksis"
 msgid "Last updated on 4 Aug 2021"
 msgstr "Sist oppdatert 4 Aug. 2021"
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "Takk"
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr ""
-"Takk for at du støtter utviklingen. Du vil motta en e-post snart med "
-"instruks for nedlasting av din installasjonskandidat."
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-"Når du har lastet ned ZIP-filen, pakker du den ut og kjører "
-"<code>./installer.sh</code> i en terminal. Hvis du har problemer kan du "
-"kontakte oss."
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr ""
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm-varemerkepraksis"
+
+#~ msgid "Thank You"
+#~ msgstr "Takk"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr ""
+#~ "Takk for at du støtter utviklingen. Du vil motta en e-post snart med "
+#~ "instruks for nedlasting av din installasjonskandidat."
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr ""
+#~ "Når du har lastet ned ZIP-filen, pakker du den ut og kjører "
+#~ "<code>./installer.sh</code> i en terminal. Hvis du har problemer kan du "
+#~ "kontakte oss."
 
 #~ msgid "Forum"
 #~ msgstr "Forum"

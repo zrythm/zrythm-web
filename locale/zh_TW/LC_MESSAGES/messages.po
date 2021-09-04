@@ -729,31 +729,27 @@ msgstr "隱私權政策"
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "謝謝"
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr "感謝您對軟體開發的支持！您將收到一封電子郵件，請查看郵件以了解如何下載安裝程式。"
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-"下載並解壓縮 zip 壓縮檔後，在終端機中執行<code> ./ installer.sh </code>。如果您遇到任何問題，請與我們聯繫。"
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "返回首頁"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm 商標政策"
+
+#~ msgid "Thank You"
+#~ msgstr "謝謝"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr "感謝您對軟體開發的支持！您將收到一封電子郵件，請查看郵件以了解如何下載安裝程式。"
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr ""
+#~ "下載並解壓縮 zip 壓縮檔後，在終端機中執行<code> ./ installer.sh </code>。如果您遇到任何問題，請與我們聯繫。"
+
+#~ msgid "Go back to home page"
+#~ msgstr "返回首頁"
 
 #~ msgid "alpha/beta"
 #~ msgstr "alpha/beta"

@@ -746,35 +746,31 @@ msgstr "Datenschutzerklärung"
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "Vielen Dank."
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr ""
-"Danke, dass Sie die Entwicklung unterstützen! Sie erhalten demnächst eine "
-"E-Mail mit Anweisungen zum Herunterladen Ihres Installationsprogramms."
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-"Nachdem Sie die Zip-Datei heruntergeladen und extrahiert haben, führen Sie "
-"die <code>./installer.sh</code> in einem Terminal aus. Wenn Sie irgendwelche"
-" Schwierigkeiten haben sollten, kontaktieren Sie uns bitte."
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "Zurück zur Startseite"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm-Markenrichtlinie"
+
+#~ msgid "Thank You"
+#~ msgstr "Vielen Dank."
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr ""
+#~ "Danke, dass Sie die Entwicklung unterstützen! Sie erhalten demnächst eine "
+#~ "E-Mail mit Anweisungen zum Herunterladen Ihres Installationsprogramms."
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr ""
+#~ "Nachdem Sie die Zip-Datei heruntergeladen und extrahiert haben, führen Sie "
+#~ "die <code>./installer.sh</code> in einem Terminal aus. Wenn Sie irgendwelche"
+#~ " Schwierigkeiten haben sollten, kontaktieren Sie uns bitte."
+
+#~ msgid "Go back to home page"
+#~ msgstr "Zurück zur Startseite"
 
 #~ msgid "alpha/beta"
 #~ msgstr "Alpha/Beta"

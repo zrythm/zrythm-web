@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -780,35 +780,31 @@ msgstr "Politique de confidentialité"
 msgid "Last updated on 4 Aug 2021"
 msgstr "Dernière mise à jour le 4 août 2021"
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "Merci"
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr ""
-"Merci de soutenir le développement ! Vous recevrez bientôt un courriel avec "
-"les instructions pour télécharger votre installateur."
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr ""
-"Une fois le fichier zip téléchargé, l'extraire et exécutez "
-"<code>./installer.sh</code> dans un terminal. Si vous rencontrez des "
-"problèmes, veuillez nous contacter."
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "Retour à la page d'accueil"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Politique de marque Zrythm"
+
+#~ msgid "Thank You"
+#~ msgstr "Merci"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr ""
+#~ "Merci de soutenir le développement ! Vous recevrez bientôt un courriel avec "
+#~ "les instructions pour télécharger votre installateur."
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr ""
+#~ "Une fois le fichier zip téléchargé, l'extraire et exécutez "
+#~ "<code>./installer.sh</code> dans un terminal. Si vous rencontrez des "
+#~ "problèmes, veuillez nous contacter."
+
+#~ msgid "Go back to home page"
+#~ msgstr "Retour à la page d'accueil"
 
 #~ msgid "Goes silent after 1 hour"
 #~ msgstr "Devient silencieux après une heure"

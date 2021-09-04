@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
 "PO-Revision-Date: 2021-09-04 14:12+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"zrythm/web/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -519,11 +518,10 @@ msgid "Limitless automation"
 msgstr "无限自动化"
 
 #: template/index.html.j2:81
-#, fuzzy
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
-msgstr "使用直线，坡道，自动化事件来自动化几乎所有的事情和曲线，或带有LFO和包络。"
+msgstr ""
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
@@ -568,8 +566,9 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm 是<a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
-"webm\">自由软件 </a>。自由使用、学习、分享和改进。"
+"Zrythm 是<a "
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">自由软件 "
+"</a>。自由使用、学习、分享和改进。"
 
 #: template/index.html.j2:169
 msgid "Multilingual"
@@ -684,16 +683,16 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
-"除非另有说明，Zrythm 网站上的视频均在<a href=\"https://creativecommons.org/licenses/by-sa/4."
-"0/\">《知识共享 署名-相同方式共享 4.0 国际》</a>许可证下发布。"
+"除非另有说明，Zrythm 网站上的视频均在<a href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\">《知识共享 署名-相同方式共享 4.0 国际》</a>许可证下发布。"
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
-"视频《理查德·斯托曼：自由软件，自由社会》（<em>Richard Stallman: Free software, free society</em>）"
-"采用知识共享 BY-SA-ND 3.0 许可。"
+"视频《理查德·斯托曼：自由软件，自由社会》（<em>Richard Stallman: Free software, free "
+"society</em>）采用知识共享 BY-SA-ND 3.0 许可。"
 
 #: template/legal.html.j2:60
 msgid ""
@@ -708,9 +707,8 @@ msgid "Trademarks"
 msgstr "商标"
 
 #: template/legal.html.j2:74
-#, fuzzy
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr "Zrythm和Zrythm标志是属于Alexandros Theodotou的商标。"
+msgstr ""
 
 #: template/plugins.html.j2:22
 msgid "Plugins bundled with Zrythm"
@@ -733,30 +731,26 @@ msgstr "隐私策略"
 msgid "Last updated on 4 Aug 2021"
 msgstr "最后更新于 2021 年 8 月 4 日"
 
-#: template/purchase-thanks.html.j2:19
-msgid "Thank You"
-msgstr "谢谢"
-
-#: template/purchase-thanks.html.j2:31
-msgid ""
-"Thank you for supporting development! You will receive an email soon with "
-"instructions to download your installer."
-msgstr "感谢您对开发的支持！您将很快收到一封电子邮件，内容为下载安装程序的说明。"
-
-#: template/purchase-thanks.html.j2:38
-msgid ""
-"Once you download the zip file, extract it and run "
-"<code>./installer.sh</code> in a terminal. If you experience any problems, "
-"please contact us."
-msgstr "下载 zip 文件后，解压缩并在终端中运行 <code>./installer.sh</code>。如果遇到任何问题，请联系我们。"
-
-#: template/purchase-thanks.html.j2:45
-msgid "Go back to home page"
-msgstr "返回主页"
-
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm 商标策略"
+
+#~ msgid "Thank You"
+#~ msgstr "谢谢"
+
+#~ msgid ""
+#~ "Thank you for supporting development! You will receive an email soon with "
+#~ "instructions to download your installer."
+#~ msgstr "感谢您对开发的支持！您将很快收到一封电子邮件，内容为下载安装程序的说明。"
+
+#~ msgid ""
+#~ "Once you download the zip file, extract it and run "
+#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
+#~ "please contact us."
+#~ msgstr "下载 zip 文件后，解压缩并在终端中运行 <code>./installer.sh</code>。如果遇到任何问题，请联系我们。"
+
+#~ msgid "Go back to home page"
+#~ msgstr "返回主页"
 
 #~ msgid "alpha/beta"
 #~ msgstr "alpha/beta"
