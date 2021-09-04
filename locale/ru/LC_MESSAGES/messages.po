@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-08-19 19:35+0000\n"
+"PO-Revision-Date: 2021-08-27 01:39+0000\n"
 "Last-Translator: Nikita Saschenko <neketa777@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.8-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -245,7 +246,7 @@ msgstr "Ключи GPG"
 
 #: template/download.html.j2:56
 msgid "Installer"
-msgstr "Программа установки (Installer)"
+msgstr "Установщик (Installer)"
 
 #: template/download.html.j2:63
 msgid "trial"
@@ -443,7 +444,7 @@ msgstr "Скриншот"
 
 #: template/explore.html.j2:263
 msgid "Mixing"
-msgstr "Микширование"
+msgstr "Сведение"
 
 #: template/explore.html.j2:268 template/explore.html.j2:285
 #: template/explore.html.j2:302 template/explore.html.j2:319
@@ -485,7 +486,7 @@ msgid ""
 "freedom] digital audio workstation"
 msgstr ""
 "Новости Phoronix: Zrythm приближается к бета-версии как простая в "
-"использовании, свободная цифровая рабочая станция"
+"использовании, свободная цифровая рабочая аудио станция"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -499,7 +500,7 @@ msgid ""
 msgstr ""
 "Zrythm - это цифровая звуковая рабочая станция, созданная функциональной и "
 "простой в использовании. Она обеспечивает безлимитную автоматизацию, "
-"поддерживает LV2 плагины, работает с аудио-бэкэндом JACK и обеспечивает "
+"поддерживает LV2 плагины, работает с аудио-бэкендом JACK и обеспечивает "
 "лёгкость в работе с аккордами."
 
 #: template/index.html.j2:33
@@ -537,7 +538,7 @@ msgid ""
 "mastering music"
 msgstr ""
 "Цифровая звуковая рабочая станция используется для сочинения, "
-"редактирования, аранжирования, микширования и мастеринга музыки"
+"редактирования, аранжировки, сведения и мастеринга музыки"
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
@@ -566,7 +567,7 @@ msgstr ""
 
 #: template/index.html.j2:113
 msgid "Multi-backend support"
-msgstr "Поддержка нескольких аудио бэкэндов"
+msgstr "Поддержка нескольких аудио бэкендов"
 
 #: template/index.html.j2:118
 msgid ""
@@ -660,7 +661,7 @@ msgstr "Зацикленные регионы"
 
 #: template/learn.html.j2:160
 msgid "Routing"
-msgstr "Направление (Routing)"
+msgstr "Маршрутизация"
 
 #: template/learn.html.j2:175
 msgid "FX Sends"

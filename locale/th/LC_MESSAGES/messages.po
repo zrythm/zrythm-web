@@ -8,34 +8,36 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-27 21:57+0000\n"
+"Last-Translator: N. <nontawatchaiyokad@gmail.com>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/zrythm/web/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz จับคู่คอร์ดของสเกลไมเนอร์หรือเมเจอร์กับคีย์สีขาว"
 
 #: template.py:355
 msgid "Major or minor scale"
-msgstr ""
+msgstr "มาตราส่วนหลักหรือรอง"
 
 #: template.py:356
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "ตัวคูณความเร็วต่อโน้ต"
 
 #: template.py:360
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO เป็น LFO ที่มีคุณลักษณะครบถ้วนสำหรับระบบอัตโนมัติที่ใช้ CV"
 
 #: template.py:361
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "ออสซิลเลเตอร์หลายตัวพร้อม wave แบบกำหนดเอง"
 
 #: template.py:362
 msgid "Phase shift"
@@ -144,7 +146,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:28
 msgid "Home"
-msgstr ""
+msgstr "บ้าน"
 
 #: common/navigation.j2.inc:34 template/download.html.j2:19
 #: template/download.html.j2:33

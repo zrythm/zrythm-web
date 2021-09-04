@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-08-19 19:35+0000\n"
+"PO-Revision-Date: 2021-08-21 04:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
 "Language: tr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.9.1\n"
 "X-Generator: Weblate 4.8-dev\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -222,7 +222,7 @@ msgstr "Çeviriler"
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
-"Zrythm kaynak kodunu indiriniz veya bir biner paket yükleyicisi satın alınız"
+"Zrythm kaynak kodlarını indirin veya bir ikili paket kurucusu satın alın."
 
 #: template/download.html.j2:39
 msgid "Source code"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr ""
+msgstr "Genel bakış"
 
 #: template/index.html.j2:57
 msgid ""
@@ -519,7 +519,7 @@ msgstr ""
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr ""
+msgstr "Sınırsız otomasyon"
 
 #: template/index.html.j2:81
 msgid ""
@@ -602,11 +602,11 @@ msgstr ""
 
 #: template/learn.html.j2:37
 msgid "Tutorials"
-msgstr ""
+msgstr "Öğreticiler"
 
 #: template/learn.html.j2:42
 msgid "Editing"
-msgstr ""
+msgstr "Düzenleme"
 
 #: template/learn.html.j2:57
 msgid "Select/Stretch Tool"
@@ -741,7 +741,7 @@ msgstr "Gizlilik Politikası"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Son güncelleme: 4 Ağustos 2021"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
