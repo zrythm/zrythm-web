@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-19 23:58+0100\n"
-"PO-Revision-Date: 2021-09-04 10:19+0000\n"
-"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
+"PO-Revision-Date: 2021-09-04 14:12+0000\n"
+"Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -121,7 +121,6 @@ msgid "Zrythm on Mastodon"
 msgstr "Mastodon 上的 Zrythm"
 
 #: common/footer.j2.inc:132
-#, fuzzy
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
