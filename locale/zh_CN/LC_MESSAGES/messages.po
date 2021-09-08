@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-09-04 14:12+0000\n"
-"Last-Translator: Eric <spice2wolf@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2021-09-09 14:34+0000\n"
+"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.8.1-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -127,7 +128,7 @@ msgstr "Zrythm 和 Zrythm 标志是 Alexandros Theodotou 在英国的注册商�
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "有关详细信息，请参阅我们的{trademarkpolicy}。"
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
@@ -207,11 +208,11 @@ msgstr "项目"
 
 #: template/community.html.j2:76
 msgid "Feature tracker"
-msgstr ""
+msgstr "功能跟踪器"
 
 #: template/community.html.j2:79
 msgid "Bug tracker"
-msgstr ""
+msgstr "错误跟踪器"
 
 #: template/community.html.j2:82
 msgid "Translations"
@@ -255,7 +256,7 @@ msgstr "捆绑插件（基本）"
 
 #: template/download.html.j2:76
 msgid "Save/load disabled"
-msgstr ""
+msgstr "无法使用保存与加载"
 
 #: template/download.html.j2:77
 msgid "<b>£0</b>"
@@ -419,13 +420,13 @@ msgstr "用直线或曲线将参数自动化。"
 
 #: template/explore.html.j2:253
 msgid "Screenshots"
-msgstr ""
+msgstr "截图"
 
 #: template/explore.html.j2:261 template/explore.html.j2:278
 #: template/explore.html.j2:295 template/explore.html.j2:312
 #: template/explore.html.j2:329
 msgid "Screenshot"
-msgstr ""
+msgstr "截图"
 
 #: template/explore.html.j2:263
 msgid "Mixing"
@@ -469,7 +470,7 @@ msgstr "Linux 杂志第 229/2019 期文章"
 msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
-msgstr ""
+msgstr "Phoronix 新闻：Zrythm 作为一个易于使用的、[自由的]数字音频工作站即将进入测试阶段"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
@@ -545,6 +546,9 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"完全了解 <a href=\"https://jackaudio.org/\">JACK</a>，包括对 <a href=\"https"
+"://pipewire.org/\">PipeWire</a>、JACK 传输、ALSA、PulseAudio、WASAPI、Windows MME、"
+"CoreMidi 和 CoreAudio 的支持。"
 
 #: template/index.html.j2:132
 msgid "Chord assistance"
@@ -580,6 +584,8 @@ msgid ""
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
+"提供<a href=\"https://hosted.weblate.org/engage/zrythm/\""
+">多种语言</a>，包括英语、法语、西班牙语、葡萄牙语、日语和德语。"
 
 #: template/index.html.j2:184
 msgid "Learn more"
@@ -603,7 +609,7 @@ msgstr "编辑中"
 
 #: template/learn.html.j2:57
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "选择/拉伸工具"
 
 #: template/learn.html.j2:79
 msgid "Edit Tool"
@@ -611,7 +617,7 @@ msgstr "编辑工具"
 
 #: template/learn.html.j2:101
 msgid "Cut Tool"
-msgstr ""
+msgstr "切割工具"
 
 #: template/learn.html.j2:123
 msgid "Ramp Tool"
@@ -619,7 +625,7 @@ msgstr ""
 
 #: template/learn.html.j2:145
 msgid "Looping regions"
-msgstr ""
+msgstr "循环区域"
 
 #: template/learn.html.j2:160
 msgid "Routing"
