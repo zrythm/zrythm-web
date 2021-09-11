@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
 "PO-Revision-Date: 2021-09-13 10:46+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
+"Last-Translator: Andrus Diaz German <andrusdiazaleman@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgstr "Privacidad"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr "Donar usando Bitcoin"
+msgstr "Donar utilizando Bitcoin"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
@@ -110,11 +110,11 @@ msgstr ""
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
-msgstr "Donar mediante PayPal"
+msgstr "Donar utilizando PayPal"
 
 #: common/footer.j2.inc:111
 msgid "Donate using LiberaPay"
-msgstr "Dona usando LiberaPay"
+msgstr "Donar utilizando LiberaPay"
 
 #: common/footer.j2.inc:119
 msgid "Zrythm on Mastodon"
@@ -198,7 +198,7 @@ msgstr "Correo"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Anuncios"
 
 #: template/community.html.j2:62
 msgid "User discussion"
