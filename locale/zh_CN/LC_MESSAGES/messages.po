@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-09-09 14:34+0000\n"
-"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
+"PO-Revision-Date: 2021-09-13 10:46+0000\n"
+"Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:354
@@ -519,10 +519,11 @@ msgid "Limitless automation"
 msgstr "无限自动化"
 
 #: template/index.html.j2:81
+#, fuzzy
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
-msgstr ""
+msgstr "通过使用直线、坡道和曲线的自动化事件或 LFO 和包络来自动化几乎所有的事情。"
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
