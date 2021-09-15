@@ -110,7 +110,7 @@ langs_full = {
         'zh_CN': '简体中文',
         'zh_TW': '繁體中文',
         }
-git_url = 'https://sr.ht/~alextee/zrythm'
+git_url = 'https://git.sr.ht/~alextee/zrythm'
 feature_tracker = 'https://todo.sr.ht/~alextee/zrythm-feature'
 bug_tracker = 'https://todo.sr.ht/~alextee/zrythm-bug'
 pronunciation = 'ziˈrɪðəm'
