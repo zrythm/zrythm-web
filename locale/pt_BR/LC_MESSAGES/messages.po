@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-08-19 22:52+0000\n"
-"Last-Translator: Jimi Togni <jimitogni@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
+"PO-Revision-Date: 2021-09-18 21:53+0000\n"
+"Last-Translator: Yuri Musachio Montezuma da Cruz <yuri.musachio@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.8-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -176,7 +177,7 @@ msgstr ""
 
 #: common/navigation.j2.inc:77
 msgid "Language"
-msgstr "Idioma"
+msgstr "Linguagem"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
