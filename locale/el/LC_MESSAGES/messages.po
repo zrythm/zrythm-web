@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-23 10:54+0100\n"
+"POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-07-19 19:34+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -95,34 +95,26 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "Δωρεά Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Bitcoin Cash"
-msgstr "Δωρεά με Bitcoin Cash"
-
-#: common/footer.j2.inc:66
-msgid "Donate Bitcoin Cash (BCH)"
-msgstr "Δωρεά Bitcoin Cash (BCH)"
-
-#: common/footer.j2.inc:82
 msgid "Donate using Monero"
 msgstr "Δωρεά με Monero"
 
-#: common/footer.j2.inc:92
+#: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
 msgstr "Δωρεά Monero (XMR)"
 
-#: common/footer.j2.inc:103
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "Κάνετε δωρεά με PayPal"
 
-#: common/footer.j2.inc:111
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "Κάνετε δωρεά με LiberaPay"
 
-#: common/footer.j2.inc:119
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Το Zrythm στο Mastodon"
 
-#: common/footer.j2.inc:132
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -130,11 +122,11 @@ msgstr ""
 "Το Zrythm και το λογότυπο του Zrythm είναι κατοχυρωμένα εμπορικά σήματα του "
 "Αλέξανδρου Θεοδότου στο Ηνωμένο Βασίλειο."
 
-#: common/footer.j2.inc:133
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειες."
 
-#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων"
 
@@ -615,7 +607,7 @@ msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
 #: template/index.html.j2:191
-msgid "Sponsors / Hosting Providers"
+msgid "Sponsors & Affiliates"
 msgstr ""
 
 #: template/learn.html.j2:22
@@ -765,6 +757,12 @@ msgstr ""
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Πολιτική εμπορικών σημάτων Zrythm"
+
+#~ msgid "Donate using Bitcoin Cash"
+#~ msgstr "Δωρεά με Bitcoin Cash"
+
+#~ msgid "Donate Bitcoin Cash (BCH)"
+#~ msgstr "Δωρεά Bitcoin Cash (BCH)"
 
 #~ msgid "Thank You"
 #~ msgstr "Ευχαριστούμε"

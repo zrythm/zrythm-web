@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-23 10:54+0100\n"
+"POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-06-13 17:32+0000\n"
 "Last-Translator: Andrus Diaz German <andrusdiazaleman@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -93,34 +93,26 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "Donar Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Bitcoin Cash"
-msgstr "Donar usando Bitcoin Cash"
-
-#: common/footer.j2.inc:66
-msgid "Donate Bitcoin Cash (BCH)"
-msgstr "Donar Bitcoin Cash (BCH)"
-
-#: common/footer.j2.inc:82
 msgid "Donate using Monero"
 msgstr "Donar usando Monero"
 
-#: common/footer.j2.inc:92
+#: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
 msgstr ""
 
-#: common/footer.j2.inc:103
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "Donar mediante PayPal"
 
-#: common/footer.j2.inc:111
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "Dona usando LiberaPay"
 
-#: common/footer.j2.inc:119
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm en Mastodon"
 
-#: common/footer.j2.inc:132
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -128,11 +120,11 @@ msgstr ""
 "Zrythm y el logo Zrythm son marcas registradas por Alexandros Theodotou en "
 "El Reino Unido."
 
-#: common/footer.j2.inc:133
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "Consulte nuestra {trademarkpolicy} para más detalles."
 
-#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Política de marcas registradas"
 
@@ -607,7 +599,7 @@ msgid "Learn more"
 msgstr "Leer más"
 
 #: template/index.html.j2:191
-msgid "Sponsors / Hosting Providers"
+msgid "Sponsors & Affiliates"
 msgstr ""
 
 #: template/learn.html.j2:22
@@ -757,6 +749,12 @@ msgstr ""
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Política de marcas registradas de Zrythm"
+
+#~ msgid "Donate using Bitcoin Cash"
+#~ msgstr "Donar usando Bitcoin Cash"
+
+#~ msgid "Donate Bitcoin Cash (BCH)"
+#~ msgstr "Donar Bitcoin Cash (BCH)"
 
 #~ msgid "Thank You"
 #~ msgstr "Gracias"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-23 10:54+0100\n"
+"POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-09-04 14:12+0000\n"
 "Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -92,44 +92,36 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "捐赠比特币 (BTC)"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Bitcoin Cash"
-msgstr "使用比特币现金捐赠"
-
-#: common/footer.j2.inc:66
-msgid "Donate Bitcoin Cash (BCH)"
-msgstr "捐赠比特币现金 (BCH)"
-
-#: common/footer.j2.inc:82
 msgid "Donate using Monero"
 msgstr "使用门罗币捐赠"
 
-#: common/footer.j2.inc:92
+#: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
 msgstr "捐赠门罗币 (XMR)"
 
-#: common/footer.j2.inc:103
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "使用 PayPal 捐赠"
 
-#: common/footer.j2.inc:111
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "使用 Liberapay 捐赠"
 
-#: common/footer.j2.inc:119
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Mastodon 上的 Zrythm"
 
-#: common/footer.j2.inc:132
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr "Zrythm 和 Zrythm 标志是 Alexandros Theodotou 在英国的注册商标。"
 
-#: common/footer.j2.inc:133
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr ""
 
-#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "商标策略"
 
@@ -586,8 +578,8 @@ msgid "Learn more"
 msgstr "了解更多信息"
 
 #: template/index.html.j2:191
-msgid "Sponsors / Hosting Providers"
-msgstr "赞助商及托管服务提供商"
+msgid "Sponsors & Affiliates"
+msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -734,6 +726,12 @@ msgstr "最后更新于 2021 年 8 月 4 日"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm 商标策略"
+
+#~ msgid "Donate using Bitcoin Cash"
+#~ msgstr "使用比特币现金捐赠"
+
+#~ msgid "Donate Bitcoin Cash (BCH)"
+#~ msgstr "捐赠比特币现金 (BCH)"
 
 #~ msgid "Thank You"
 #~ msgstr "谢谢"

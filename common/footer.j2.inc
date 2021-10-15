@@ -51,32 +51,6 @@ GNU Affero General Public License for more details.
               </p>
             </div>
           </div>
-         <label for="donate-bitcoin-cash"
-                class="crypto_donation_label"
-                title="{{ _('Donate using Bitcoin Cash') }}">
-            <img
-               class="footer_btn6"
-               alt="Donate using Bitcoin Cash"
-               src="{{ url('static/icons/cryptoicons/bitcoin-cash.svg') }}">
-          </label>
-          <input type="checkbox" id="donate-bitcoin-cash" class="modal">
-          <div>
-            <div class="card fluid centered">
-              <label for="donate-bitcoin-cash" class="modal-close" ></label>
-              <h3 class="section">{{ _('Donate Bitcoin Cash (BCH)') }}</h3>
-              <p>
-                <img class="qr_code"
-                     src="{{ url('static/images/bitcoin_cash_qr.png') }}">
-                <br>
-                BCH address: bitcoincash:qrqmv758xzmje83jjnfkajhflneqr8puyvcv2clf0x
-                <br>
-                <a rel="payment"
-                   href="bitcoincash:qrqmv758xzmje83jjnfkajhflneqr8puyvcv2clf0x">
-                  BIP-21 URI
-                </a>
-              </p>
-            </div>
-          </div>
          <label for="donate-monero"
                 class="crypto_donation_label"
                 title="{{ _('Donate using Monero') }}">

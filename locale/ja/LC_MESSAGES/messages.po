@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-23 10:54+0100\n"
+"POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-08-27 21:57+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -93,44 +93,36 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "ビットコイン（BTC）を寄付する"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Bitcoin Cash"
-msgstr "Bitcoin Cashを使用して寄付する"
-
-#: common/footer.j2.inc:66
-msgid "Donate Bitcoin Cash (BCH)"
-msgstr "Bitcoin Cash (BCH)を寄付する"
-
-#: common/footer.j2.inc:82
 msgid "Donate using Monero"
 msgstr "モネロを使用して寄付する"
 
-#: common/footer.j2.inc:92
+#: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
 msgstr "モネロ（XMR）を寄付する"
 
-#: common/footer.j2.inc:103
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "PayPalを使用して寄付する"
 
-#: common/footer.j2.inc:111
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "LiberaPayを使用して寄付する"
 
-#: common/footer.j2.inc:119
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm@Mastodon"
 
-#: common/footer.j2.inc:132
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr "ZrythmおよびZrythmのロゴは、英国におけるAlexandrosTheodotouの登録商標です。"
 
-#: common/footer.j2.inc:133
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "詳細については、{trademarkpolicy}を参照してください。"
 
-#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "商標ポリシー"
 
@@ -595,8 +587,8 @@ msgid "Learn more"
 msgstr "詳細"
 
 #: template/index.html.j2:191
-msgid "Sponsors / Hosting Providers"
-msgstr "スポンサー / ホスティング プロバイダー"
+msgid "Sponsors & Affiliates"
+msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -749,6 +741,12 @@ msgstr "最終更新日：2021年8月4日"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythmの商標ポリシー"
+
+#~ msgid "Donate using Bitcoin Cash"
+#~ msgstr "Bitcoin Cashを使用して寄付する"
+
+#~ msgid "Donate Bitcoin Cash (BCH)"
+#~ msgstr "Bitcoin Cash (BCH)を寄付する"
 
 #~ msgid "Thank You"
 #~ msgstr "ご購入いただきありがとうございました"

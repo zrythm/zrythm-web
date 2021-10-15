@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-23 10:54+0100\n"
+"POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-08-10 04:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -92,44 +92,36 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "Doner bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Bitcoin Cash"
-msgstr "Doner ved bruk av Bitcoin Cash"
-
-#: common/footer.j2.inc:66
-msgid "Donate Bitcoin Cash (BCH)"
-msgstr "Doner Bitcoin Cash (BCH)"
-
-#: common/footer.j2.inc:82
 msgid "Donate using Monero"
 msgstr "Doner ved bruk av Monero"
 
-#: common/footer.j2.inc:92
+#: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
 msgstr "Doner Monero (XMR)"
 
-#: common/footer.j2.inc:103
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "Doner ved bruk av PayPal"
 
-#: common/footer.j2.inc:111
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr ""
 
-#: common/footer.j2.inc:119
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Zrythm på Mastodon"
 
-#: common/footer.j2.inc:132
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
 
-#: common/footer.j2.inc:133
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "Sjekk vår {trademarkpolicy} for detaljer."
 
-#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Varemerkepraksis"
 
@@ -578,8 +570,8 @@ msgid "Learn more"
 msgstr "Lær mer"
 
 #: template/index.html.j2:191
-msgid "Sponsors / Hosting Providers"
-msgstr "Sponsorer/vertskapstilbydere"
+msgid "Sponsors & Affiliates"
+msgstr ""
 
 #: template/learn.html.j2:22
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -725,6 +717,12 @@ msgstr "Sist oppdatert 4 Aug. 2021"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm-varemerkepraksis"
+
+#~ msgid "Donate using Bitcoin Cash"
+#~ msgstr "Doner ved bruk av Bitcoin Cash"
+
+#~ msgid "Donate Bitcoin Cash (BCH)"
+#~ msgstr "Doner Bitcoin Cash (BCH)"
 
 #~ msgid "Thank You"
 #~ msgstr "Takk"

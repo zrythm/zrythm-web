@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-23 10:54+0100\n"
+"POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-08-21 04:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -92,34 +92,26 @@ msgid "Donate Bitcoin (BTC)"
 msgstr "Bitcoin (BTC) bağışla"
 
 #: common/footer.j2.inc:56
-msgid "Donate using Bitcoin Cash"
-msgstr "Bitcoin Cash kullanarak bağış yap"
-
-#: common/footer.j2.inc:66
-msgid "Donate Bitcoin Cash (BCH)"
-msgstr "Bitcoin Cash (BCH) bağışla"
-
-#: common/footer.j2.inc:82
 msgid "Donate using Monero"
 msgstr "Monero kullanarak bağış yap"
 
-#: common/footer.j2.inc:92
+#: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
 msgstr "Monero (XMR) bağışla"
 
-#: common/footer.j2.inc:103
+#: common/footer.j2.inc:77
 msgid "Donate using PayPal"
 msgstr "Paypal kullanarak bağış yap"
 
-#: common/footer.j2.inc:111
+#: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
 msgstr "LiberaPay kullanarak bağış yap"
 
-#: common/footer.j2.inc:119
+#: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
 msgstr "Mastodon'da Zrythm"
 
-#: common/footer.j2.inc:132
+#: common/footer.j2.inc:106
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
@@ -127,11 +119,11 @@ msgstr ""
 "Zrythm ve Zrythm logosu Birleşik Krallık'ta Alexandros Theodotou adına "
 "müseccel markadır."
 
-#: common/footer.j2.inc:133
+#: common/footer.j2.inc:107
 msgid "See our {trademarkpolicy} for details."
 msgstr "Daha fazla bilgi için bakınız:{trademarkpolicy}."
 
-#: common/footer.j2.inc:135 template/trademarks.html.j2:19
+#: common/footer.j2.inc:109 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Ticari marka politikası"
 
@@ -593,7 +585,7 @@ msgid "Learn more"
 msgstr ""
 
 #: template/index.html.j2:191
-msgid "Sponsors / Hosting Providers"
+msgid "Sponsors & Affiliates"
 msgstr ""
 
 #: template/learn.html.j2:22
@@ -746,6 +738,12 @@ msgstr "Son güncelleme: 4 Ağustos 2021"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm Ticari Marka Politikası"
+
+#~ msgid "Donate using Bitcoin Cash"
+#~ msgstr "Bitcoin Cash kullanarak bağış yap"
+
+#~ msgid "Donate Bitcoin Cash (BCH)"
+#~ msgstr "Bitcoin Cash (BCH) bağışla"
 
 #~ msgid "Thank You"
 #~ msgstr "Teşekkürler"
