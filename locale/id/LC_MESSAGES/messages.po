@@ -8,20 +8,21 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-06-16 22:32+0000\n"
+"PO-Revision-Date: 2021-10-16 08:36+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/"
+">\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.7-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz memetakan akord dari skala minor atau mayor ke kunci putih"
 
 #: template.py:355
 msgid "Major or minor scale"
@@ -41,35 +42,35 @@ msgstr "Multi-osilator dengan gelombang kustom"
 
 #: template.py:362
 msgid "Phase shift"
-msgstr ""
+msgstr "Pergeseran fase"
 
 #: template.py:363
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Inversi vertikal/horizontal"
 
 #: template.py:364
 msgid "Step mode"
-msgstr ""
+msgstr "Mode step"
 
 #: template.py:365
 msgid "Editable range"
-msgstr ""
+msgstr "Rentang yang dapat diedit"
 
 #: template.py:366
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Selaraskan ke host atau free-from"
 
 #: template.py:369
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw adalah synth supersaw dengan 1 parameter"
 
 #: template.py:370
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 osilator sawtooth"
 
 #: template.py:371
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Kenop tunggal untuk mengontrol detune"
 
 #: common/footer.j2.inc:21
 msgid "The Zrythm contributors"
@@ -93,19 +94,19 @@ msgstr "Donasi Bitcoin (BTC)"
 
 #: common/footer.j2.inc:56
 msgid "Donate using Bitcoin Cash"
-msgstr ""
+msgstr "Donasi dengan Bitcoin Cash"
 
 #: common/footer.j2.inc:66
 msgid "Donate Bitcoin Cash (BCH)"
-msgstr ""
+msgstr "Donasi Bitcoin Cash (BCH)"
 
 #: common/footer.j2.inc:82
 msgid "Donate using Monero"
-msgstr ""
+msgstr "Donasi menggunakan Monero"
 
 #: common/footer.j2.inc:92
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Donasi Monero (XMR)"
 
 #: common/footer.j2.inc:103
 msgid "Donate using PayPal"
@@ -124,18 +125,20 @@ msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
+"Zrythm dan logo Zrythm adalah merek dagang terdaftar dari Alexandros "
+"Theodotou di Inggris."
 
 #: common/footer.j2.inc:133
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Baca {trademarkpolicy} kami untuk detailnya."
 
 #: common/footer.j2.inc:135 template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Kebijakan Merek Dagang"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Workstation audio digital yang sangat otomatis dan intuitif."
 
 #: common/header.j2.inc:31
 msgid ""
@@ -143,6 +146,9 @@ msgid ""
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin"
 msgstr ""
+"DAW, digital audio workstation, produksi musik, audio, pro audio, Linux, GNU/"
+"Linux, free software, libre software, editor suara, komposisi, MIDI, LV2, "
+"JACK, VST, plugin audio"
 
 #: common/navigation.j2.inc:28
 msgid "Home"
@@ -219,7 +225,7 @@ msgstr "Terjemahan"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
-msgstr ""
+msgstr "Unduh kode sumber Zrythm atau beli binary package installer."
 
 #: template/download.html.j2:39
 msgid "Source code"
@@ -255,7 +261,7 @@ msgstr "Plugin yang dibundel (dasar)"
 
 #: template/download.html.j2:76
 msgid "Save/load disabled"
-msgstr ""
+msgstr "Simpan/muat dinonaktifkan"
 
 #: template/download.html.j2:77
 msgid "<b>£0</b>"
@@ -279,7 +285,7 @@ msgstr "<b>£5</b> versi tunggal"
 
 #: template/download.html.j2:86
 msgid "<b>+£10</b> v1 bundle"
-msgstr ""
+msgstr "<b>+£10</b> v1 bundel"
 
 #: template/download.html.j2:91
 msgid "Full version"
@@ -311,11 +317,11 @@ msgstr ""
 
 #: template/download.html.j2:112
 msgid "GNU/Linux (package)"
-msgstr ""
+msgstr "GNU/Linux (package)"
 
 #: template/download.html.j2:113
 msgid "GNU/Linux (AppImage*)"
-msgstr ""
+msgstr "GNU/Linux (AppImage*)"
 
 #: template/download.html.j2:114
 msgid "Windows 64-bit"
@@ -323,7 +329,7 @@ msgstr "Windows 64-bit"
 
 #: template/download.html.j2:118
 msgid "* The AppImage build is experimental"
-msgstr ""
+msgstr "* AppImage masih dalam eksperimen"
 
 #: template/download.html.j2:131
 msgid "Buy Now"
@@ -379,7 +385,7 @@ msgstr "Video oleh"
 
 #: template/explore.html.j2:137
 msgid "Remake"
-msgstr ""
+msgstr "Remake"
 
 #: template/explore.html.j2:171 template/plugins.html.j2:53
 msgid "Features"
@@ -415,7 +421,7 @@ msgstr ""
 
 #: template/explore.html.j2:235 template/explore.html.j2:248
 msgid "Automation curves"
-msgstr ""
+msgstr "Kurva otomatisasi"
 
 #: template/explore.html.j2:240
 msgid "Automate parameters with straight lines or curves."
@@ -447,15 +453,15 @@ msgstr "Editor Audio"
 
 #: template/explore.html.j2:297
 msgid "Localized UI"
-msgstr ""
+msgstr "UI yang telah dilokalisasi"
 
 #: template/explore.html.j2:314
 msgid "CSS Theme"
-msgstr ""
+msgstr "Tema CSS"
 
 #: template/explore.html.j2:331
 msgid "Mixer view"
-msgstr ""
+msgstr "Tampilan mixer"
 
 #: template/explore.html.j2:346
 msgid "Reviews"
@@ -503,6 +509,8 @@ msgid ""
 "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
 "workstation{endtooltip} designed to be featureful and easy to use."
 msgstr ""
+"Zrythm adalah {tooltip1}digital audio workstation{endtooltip} {tooltip2"
+"}lintas-platform{endtooltip} dengan ragam fitur dan mudah digunakan."
 
 #: template/index.html.j2:60
 msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
@@ -679,6 +687,9 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Zrythm dilindungi hak cipta oleh Alexandros Theodotou dan kontributor "
+"lainnya. Zrythm dirilis di bawah <a href=\"https://www.gnu.org/licenses/"
+"agpl-3.0.html\">GNU Affero General Public License, versi 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -686,12 +697,17 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Kecuali dinyatakan lain, Video yang ditemukan di situs web Zrythm dirilis di "
+"bawah <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"Video <em> Richard Stallman: Perangkat lunak bebas, masyarakat bebas </em> "
+"dilisensikan di bawah Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -700,6 +716,10 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Kredit: Gambar di bawah CC-BY-ND 3.0 yang dibuat oleh Christian Nogareda ("
+"Kwis, Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream."
+"deviantart.com) berdasarkan ide-ide Richard Stallman, oleh dirinya sendiri "
+"dan Ynternet.org foundation."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
@@ -728,7 +748,7 @@ msgstr "Kebijakan Privasi"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Pembaruan terakhir 4 Agu 2021"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
