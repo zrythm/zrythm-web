@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2021-10-15 19:42+0100\n"
 "PO-Revision-Date: 2021-10-04 01:40+0000\n"
 "Last-Translator: Vinicius Monego <monego@posteo.net>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
-"zrythm/web/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -135,15 +134,11 @@ msgstr ""
 "Uma estação de trabalho de áudio digital altamente automatizada e intuitiva."
 
 #: common/header.j2.inc:31
-#, fuzzy
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin"
 msgstr ""
-"DAW, estação de trabalho de áudio digital, produção musical, áudio, áudio "
-"profissional, Linux, GNU / Linux, software livre, editor de som, composição, "
-"MIDI, LV2, JACK, VST, plugin de áudio"
 
 #: common/navigation.j2.inc:28
 msgid "Home"
@@ -183,14 +178,12 @@ msgid "Zrythm's community pages and communication channels"
 msgstr "Páginas da comunidade e canais de comunicação do Zrythm"
 
 #: template/community.html.j2:37
-#, fuzzy
 msgid "Chat"
-msgstr "Bate-papo"
+msgstr ""
 
 #: template/community.html.j2:52
-#, fuzzy
 msgid "Mail"
-msgstr "Listas de e-mail"
+msgstr ""
 
 #: template/community.html.j2:59
 msgid "Announcements"
@@ -310,8 +303,8 @@ msgid ""
 "This is a trial version with limited functionality. Please select your "
 "operating system."
 msgstr ""
-"Esta é uma versão de teste com funcionalidade limitada. Por favor, selecione "
-"o seu sistema operacional."
+"Esta é uma versão de teste com funcionalidade limitada. Por favor, selecione"
+" o seu sistema operacional."
 
 #: template/download.html.j2:112
 msgid "GNU/Linux (package)"
@@ -358,9 +351,8 @@ msgid "List of features, functionality, and reviews"
 msgstr "Lista de recursos, funcionalidades e análises"
 
 #: template/explore.html.j2:37
-#, fuzzy
 msgid "Demos"
-msgstr "Demos"
+msgstr ""
 
 #: template/explore.html.j2:48 template/explore.html.j2:69
 #: template/explore.html.j2:90 template/explore.html.j2:111
@@ -568,14 +560,11 @@ msgid "Liberating"
 msgstr ""
 
 #: template/index.html.j2:157
-#, fuzzy
 msgid ""
 "Zrythm is <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
 "software</a>. Use, study, share and improve it freely."
 msgstr ""
-"Zrythm é <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
-"webm\">software livre</a>. Use, estude, compartilhe e melhore-o livremente."
 
 #: template/index.html.j2:169
 msgid "Multilingual"
@@ -587,9 +576,9 @@ msgid ""
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
-"Disponível em vários idiomas <a href=\"https://hosted.weblate.org/engage/"
-"zrythm/\"> </a> incluindo inglês, francês, espanhol, português, japonês e "
-"alemão."
+"Disponível em vários idiomas <a "
+"href=\"https://hosted.weblate.org/engage/zrythm/\"> </a> incluindo inglês, "
+"francês, espanhol, português, japonês e alemão."
 
 #: template/index.html.j2:184
 msgid "Learn more"
