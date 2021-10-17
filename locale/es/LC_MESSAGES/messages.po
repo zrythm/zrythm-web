@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-15 19:42+0100\n"
-"PO-Revision-Date: 2021-06-13 17:32+0000\n"
-"Last-Translator: Andrus Diaz German <andrusdiazaleman@gmail.com>\n"
+"PO-Revision-Date: 2021-09-13 10:46+0000\n"
+"Last-Translator: Yokox1 <mryokox@outlook.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.7-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -86,7 +86,7 @@ msgstr "Privacidad"
 
 #: common/footer.j2.inc:30
 msgid "Donate using Bitcoin"
-msgstr "Donar usando Bitcoin"
+msgstr "Donar utilizando Bitcoin"
 
 #: common/footer.j2.inc:40
 msgid "Donate Bitcoin (BTC)"
@@ -98,15 +98,15 @@ msgstr "Donar usando Monero"
 
 #: common/footer.j2.inc:66
 msgid "Donate Monero (XMR)"
-msgstr ""
+msgstr "Donar Monero (XMR)"
 
 #: common/footer.j2.inc:77
 msgid "Donate using PayPal"
-msgstr "Donar mediante PayPal"
+msgstr "Donar utilizando PayPal"
 
 #: common/footer.j2.inc:85
 msgid "Donate using LiberaPay"
-msgstr "Dona usando LiberaPay"
+msgstr "Donar utilizando LiberaPay"
 
 #: common/footer.j2.inc:93
 msgid "Zrythm on Mastodon"
@@ -174,7 +174,7 @@ msgstr "Comunidad"
 
 #: common/navigation.j2.inc:77
 msgid "Language"
-msgstr "Idioma"
+msgstr "Lenguaje"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -190,7 +190,7 @@ msgstr "Correo"
 
 #: template/community.html.j2:59
 msgid "Announcements"
-msgstr ""
+msgstr "Anuncios"
 
 #: template/community.html.j2:62
 msgid "User discussion"

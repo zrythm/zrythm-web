@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-15 19:42+0100\n"
-"PO-Revision-Date: 2020-04-29 22:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-09-18 21:53+0000\n"
+"Last-Translator: Mateusz Skórka <mateusz@skorka.hub.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.0.2\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -29,7 +30,7 @@ msgstr "Skala durowa lub molowa"
 
 #: template.py:356
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "Mnożnik prędkości na nutę"
 
 #: template.py:360
 msgid "ZLFO is a fully featured LFO for CV-based automation"

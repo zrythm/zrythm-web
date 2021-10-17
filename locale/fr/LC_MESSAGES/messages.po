@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-15 19:42+0100\n"
-"PO-Revision-Date: 2021-08-25 11:35+0000\n"
-"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"PO-Revision-Date: 2021-10-17 15:40+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.8.1-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -466,7 +466,7 @@ msgstr "Avis"
 
 #: template/explore.html.j2:354
 msgid "unfa livestream: Making a funky song in Zrythm"
-msgstr "diffusion en direct d'unfa : création d'un morceau funky dans Zrythm"
+msgstr "Live Unfa : création d'un morceau funky avec Zrythm"
 
 #: template/explore.html.j2:362
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -477,8 +477,8 @@ msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
 msgstr ""
-"Nouvelles de Phoronix: Zrythm approche de la version bêta comme une station "
-"de travail audio numérique facile à utiliser, [logiciel libre]"
+"Nouvelles de Phoronix : Zrythm approche de la version bêta en tant que une "
+"station de travail audio numérique facile à utiliser et [libre]"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
