@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-08-23 10:54+0100\n"
-"PO-Revision-Date: 2021-10-17 09:25+0000\n"
-"Last-Translator: Anthonyucky <lucerno.ant@gmail.com>\n"
+"PO-Revision-Date: 2021-10-17 15:40+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -474,7 +474,7 @@ msgstr "Avis"
 
 #: template/explore.html.j2:354
 msgid "unfa livestream: Making a funky song in Zrythm"
-msgstr " "
+msgstr "Live Unfa : création d'un morceau funky avec Zrythm"
 
 #: template/explore.html.j2:362
 msgid "Article from Issue 229/2019 of Linux Magazine"
@@ -485,8 +485,8 @@ msgid ""
 "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
 "freedom] digital audio workstation"
 msgstr ""
-"Nouvelles de Phoronix : Zrythm approche de la version bêta comme une station "
-"de travail audio numérique facile à utiliser, [logiciel libre]"
+"Nouvelles de Phoronix : Zrythm approche de la version bêta en tant que une "
+"station de travail audio numérique facile à utiliser et [libre]"
 
 #: template/index.html.j2:19
 msgid "Digital Audio Workstation"
