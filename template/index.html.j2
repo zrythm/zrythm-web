@@ -194,7 +194,7 @@ GNU Affero General Public License for more details.
   </h2>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 centered">
         <a href="https://weblate.org/{{ lang }}/">
           <img
              class="shadowed"
@@ -203,7 +203,21 @@ GNU Affero General Public License for more details.
           </img>
         </a>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 centered">
+        <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=63054&url_id=902">
+          <img
+             class="shadowed"
+             {% if lang in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'nl', 'pt', 'zh'] %}
+             src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-{lang}.png'.format (lang = lang)) }}"
+             {% else %}
+             src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-us.png') }}"
+             {% endif %}
+             alt="NordVPN">
+          </img>
+        </a>
+      </div>
+      {#
+      <div class="col-sm-4 centered">
         <a href="https://www.bluehost.com/track/zrythmdaw/">
           <img
              class="shadowed"
@@ -212,6 +226,7 @@ GNU Affero General Public License for more details.
           </img>
         </a>
       </div>
+      #}
       {#<div class="col-sm-4"></div>#}
     </div>
   </div>
