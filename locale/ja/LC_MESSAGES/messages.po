@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-15 19:42+0100\n"
+"POT-Creation-Date: 2021-10-23 07:46+0100\n"
 "PO-Revision-Date: 2021-09-24 16:35+0000\n"
 "Last-Translator: tkgpwr <tkgpwr39@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -72,406 +72,333 @@ msgstr "7つのノコギリオシレータ"
 msgid "Single knob to control detune"
 msgstr "シングル・ノブでデチューンを調整"
 
-#: common/footer.j2.inc:21
+#: common/footer.j2.inc:19
 msgid "The Zrythm contributors"
 msgstr "Zrythmの貢献者"
 
-#: common/footer.j2.inc:22
+#: common/footer.j2.inc:20
 msgid "Legal"
 msgstr "法的事項"
 
-#: common/footer.j2.inc:23
+#: common/footer.j2.inc:21
 msgid "Privacy"
 msgstr "個人情報"
 
-#: common/footer.j2.inc:30
-msgid "Donate using Bitcoin"
-msgstr "ビットコインを使用して寄付する"
-
-#: common/footer.j2.inc:40
-msgid "Donate Bitcoin (BTC)"
-msgstr "ビットコイン（BTC）を寄付する"
-
-#: common/footer.j2.inc:56
-msgid "Donate using Monero"
-msgstr "モネロを使用して寄付する"
-
-#: common/footer.j2.inc:66
-msgid "Donate Monero (XMR)"
-msgstr "モネロ（XMR）を寄付する"
-
-#: common/footer.j2.inc:77
-msgid "Donate using PayPal"
-msgstr "PayPalを使用して寄付する"
-
-#: common/footer.j2.inc:85
-msgid "Donate using LiberaPay"
-msgstr "LiberaPayを使用して寄付する"
-
-#: common/footer.j2.inc:93
-msgid "Zrythm on Mastodon"
-msgstr "Zrythm@Mastodon"
-
-#: common/footer.j2.inc:106
+#: common/footer.j2.inc:24
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr "ZrythmおよびZrythmのロゴは、英国におけるAlexandrosTheodotouの登録商標です。"
 
-#: common/footer.j2.inc:107
+#: common/footer.j2.inc:25
 msgid "See our {trademarkpolicy} for details."
 msgstr "詳細については、{trademarkpolicy}を参照してください。"
 
-#: common/footer.j2.inc:109 template/trademarks.html.j2:19
+#: common/footer.j2.inc:27 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "商標ポリシー"
+
+#: common/footer.j2.inc:29
+msgid "Designed by Andrew Harter"
+msgstr ""
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr "高度に自動化された直感的なデジタルオーディオワークステーション。"
 
-#: common/header.j2.inc:31
+#: common/header.j2.inc:32
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK, VST, audio plugin"
+"LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
+" mastering"
 msgstr ""
-"DAW, デジタル・オーディオ・ワークステーション, 作曲, オーディオ, pro audio, Linux, GNU/Linux, free "
-"software, libre software, オーディオエディター, アレンジ, MIDI, LV2, JACK, VST, "
-"オーディオプラグイン, 自由ソフトウェア, 作曲ソフト"
 
-#: common/navigation.j2.inc:28
-msgid "Home"
-msgstr "トップ"
+#: common/navigation.j2.inc:26 template/features.html.j2:20
+#: template/features.html.j2:32
+msgid "Features"
+msgstr "特長"
 
-#: common/navigation.j2.inc:34 template/download.html.j2:19
-#: template/download.html.j2:33
-msgid "Download"
-msgstr "ダウンロード"
-
-#: common/navigation.j2.inc:40 template/explore.html.j2:19
-#: template/explore.html.j2:31
-msgid "Explore"
-msgstr "詳細"
-
-#: common/navigation.j2.inc:46 template/learn.html.j2:19
-#: template/learn.html.j2:31
-msgid "Learn"
-msgstr "学ぶ"
-
-#: common/navigation.j2.inc:52 template/plugins.html.j2:19
+#: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
 msgstr "プラグイン"
 
-#: common/navigation.j2.inc:58 template/community.html.j2:19
-#: template/community.html.j2:31
-msgid "Community"
-msgstr "コミュニティ"
+#: common/navigation.j2.inc:28 template/learn.html.j2:20
+#: template/learn.html.j2:32
+msgid "Learn"
+msgstr "学ぶ"
 
-#: common/navigation.j2.inc:77
-msgid "Language"
-msgstr "言語"
+#: common/navigation.j2.inc:29 template/community.html.j2:19
+#: template/community.html.j2:31
+msgid "Get Involved"
+msgstr ""
+
+#: common/navigation.j2.inc:30 template/download.html.j2:19
+#: template/download.html.j2:67 template/index.html.j2:38
+msgid "Download"
+msgstr "ダウンロード"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Zrythmのコミュニティページとコミュニケーションチャネル"
 
-#: template/community.html.j2:37
-msgid "Chat"
-msgstr "チャット"
+#: template/community.html.j2:38
+msgid "Contribute"
+msgstr ""
 
-#: template/community.html.j2:52
-msgid "Mail"
-msgstr "メール"
+#: template/community.html.j2:44
+msgid "Join Development"
+msgstr ""
 
-#: template/community.html.j2:59
-msgid "Announcements"
-msgstr "お知らせ"
+#: template/community.html.j2:47
+msgid ""
+"Send an email to our development mailing list for development discussion"
+msgstr ""
+
+#: template/community.html.j2:53
+msgid "Submit Feature Requests"
+msgstr ""
+
+#: template/community.html.j2:56
+msgid "Browse our feature tracker and submit feature requests."
+msgstr ""
 
 #: template/community.html.j2:62
-msgid "User discussion"
-msgstr "ユーザーディスカッション"
+msgid "Submit Bug Reports"
+msgstr ""
 
 #: template/community.html.j2:65
-msgid "Development"
-msgstr "開発"
+msgid "Browse our bug tracker and submit bug reports."
+msgstr ""
 
-#: template/community.html.j2:69
-msgid "Project"
-msgstr "プロジェクト"
+#: template/community.html.j2:71
+msgid "Translate Zrythm"
+msgstr ""
 
-#: template/community.html.j2:76
-msgid "Feature tracker"
-msgstr "機能トラッカー"
+#: template/community.html.j2:74
+msgid ""
+"Translate the Zrythm DAW, the user manual and our websites into your "
+"language."
+msgstr ""
 
-#: template/community.html.j2:79
-msgid "Bug tracker"
-msgstr "バグトラッカー"
+#: template/community.html.j2:81
+msgid "Get in Touch"
+msgstr ""
 
-#: template/community.html.j2:82
-msgid "Translations"
-msgstr "翻訳"
+#: template/community.html.j2:87
+msgid "Chat with us on IRC"
+msgstr ""
+
+#: template/community.html.j2:90
+msgid ""
+"Our IRC channel is #zrythm on Libera.Chat "
+"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
+"for a <code>zrythm/user/*</code> cloak."
+msgstr ""
+
+#: template/community.html.j2:96
+msgid "Chat with us on Matrix"
+msgstr ""
+
+#: template/community.html.j2:99
+msgid ""
+"Matrix is an open standard for secure and decentralized communication. Our "
+"Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
+msgstr ""
+
+#: template/community.html.j2:105
+msgid "Join our User Discussion Mailing List"
+msgstr ""
+
+#: template/community.html.j2:108
+msgid ""
+"Join our user discussion mailing list and share your experience with the "
+"rest of the community."
+msgstr ""
+
+#: template/community.html.j2:114
+msgid "Subscribe to the Announce Mailing List"
+msgstr ""
+
+#: template/community.html.j2:117
+msgid ""
+"Subscribe to our read-only and low volume Announce mailing list to stay up "
+"to date with important announcements."
+msgstr ""
+
+#: template/community.html.j2:123
+msgid "Follow us on Mastodon"
+msgstr ""
+
+#: template/community.html.j2:126
+msgid ""
+"Follow us on Mastodon to get updates on new releases and get sneak peeks at "
+"new features, vote in polls, and more."
+msgstr ""
+
+#: template/community.html.j2:133
+msgid "Donate"
+msgstr "支援する"
+
+#: template/community.html.j2:139
+msgid "Donate CryptoCurrency"
+msgstr ""
+
+#: template/community.html.j2:142
+msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
+msgstr ""
+
+#: template/community.html.j2:148
+msgid "Donate on LiberaPay"
+msgstr ""
+
+#: template/community.html.j2:151
+msgid ""
+"Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
+"bank account in Europe."
+msgstr ""
+
+#: template/community.html.j2:157
+msgid "Donate on Open Collective"
+msgstr ""
+
+#: template/community.html.j2:160
+msgid "Donate on Open Collective and view our public expenses."
+msgstr ""
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr "Zrythmのソースコードをダウンロードするか、バイナリパッケージのインストーラーを購入してください。"
 
-#: template/download.html.j2:39
-msgid "Source code"
-msgstr "ソースコード"
+#: template/download.html.j2:33
+msgid "Select Platform"
+msgstr ""
 
 #: template/download.html.j2:49
-msgid "Releases"
-msgstr "リリース"
+msgid "Downloads"
+msgstr ""
 
-#: template/download.html.j2:52
-msgid "GPG Key"
-msgstr "GPG鍵"
+#: template/download.html.j2:55
+msgid "Installers"
+msgstr ""
 
-#: template/download.html.j2:56
-msgid "Installer"
-msgstr "インストーラ"
+#: template/download.html.j2:60
+msgid "Basic"
+msgstr ""
+
+#: template/download.html.j2:61
+msgid "Free"
+msgstr ""
 
 #: template/download.html.j2:63
-msgid "trial"
-msgstr "お試し版"
-
-#: template/download.html.j2:66
-msgid "full"
-msgstr "完全版"
-
-#: template/download.html.j2:69
-msgid "subscription"
-msgstr "サブスクリプション"
-
-#: template/download.html.j2:75
 msgid "Bundled plugins (basic)"
 msgstr "同梱プラグイン(基本)"
 
-#: template/download.html.j2:76
+#: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "保存/読込無効"
 
-#: template/download.html.j2:77
-msgid "<b>£0</b>"
-msgstr "<b>£0</b>"
-
-#: template/download.html.j2:82
+#: template/download.html.j2:74 template/download.html.j2:86
+#: template/download.html.j2:99
 msgid "Compiled with all features"
 msgstr "全機能"
 
-#: template/download.html.j2:83
+#: template/download.html.j2:75 template/download.html.j2:87
+#: template/download.html.j2:100
 msgid "Bundled plugins (all)"
 msgstr "同梱プラグイン(全)"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:76 template/download.html.j2:88
+#: template/download.html.j2:101
 msgid "PDF user manual"
 msgstr "PDFマニュアル"
 
-#: template/download.html.j2:85
-msgid "<b>£5</b> single version"
-msgstr "シングル・バージョン<b>£5</b>"
+#: template/download.html.j2:79 template/download.html.j2:91
+msgid "Purchase"
+msgstr ""
 
-#: template/download.html.j2:86
-msgid "<b>+£10</b> v1 bundle"
-msgstr "<b>+£10</b> v1 バンドル"
+#: template/download.html.j2:83
+msgid "Bundle"
+msgstr ""
 
-#: template/download.html.j2:91
-msgid "Full version"
-msgstr "完全版"
+#: template/download.html.j2:89 template/download.html.j2:102
+msgid "Access to all v1 releases"
+msgstr ""
 
-#: template/download.html.j2:92
-msgid "Upgrades to new releases"
-msgstr "新リリースへアップグレード"
+#: template/download.html.j2:95
+msgid "Nightly"
+msgstr ""
 
-#: template/download.html.j2:93
+#: template/download.html.j2:97
+msgid "mo"
+msgstr ""
+
+#: template/download.html.j2:103
 msgid "Access to nightly builds"
 msgstr "デイリー・ビルドへアクセス"
 
-#: template/download.html.j2:94
-msgid "<b>£5/month</b>"
-msgstr "<b>月£5</b>"
-
-#: template/download.html.j2:102
-msgid "Try Now"
-msgstr "今すぐ試す"
-
-#: template/download.html.j2:109
-msgid ""
-"This is a trial version with limited functionality. Please select your "
-"operating system."
-msgstr "機能が限定されたお試し版です。お使いのオペレーティングシステムを選択してください。"
-
-#: template/download.html.j2:112
-msgid "GNU/Linux (package)"
-msgstr "GNU / Linux (パッケージ)"
-
-#: template/download.html.j2:113
-msgid "GNU/Linux (AppImage*)"
-msgstr "GNU / Linux (AppImage※)"
-
-#: template/download.html.j2:114
-msgid "Windows 64-bit"
-msgstr "Windows 64ビット"
-
-#: template/download.html.j2:118
-msgid "* The AppImage build is experimental"
-msgstr "※AppImageのビルドは実験的です"
-
-#: template/download.html.j2:131
-msgid "Buy Now"
-msgstr "今すぐ購入"
-
-#: template/download.html.j2:138
+#: template/download.html.j2:105
 msgid "Subscribe"
 msgstr "登録"
 
-#: template/download.html.j2:145
-msgid "Support Zrythm by purchasing an installer."
-msgstr "インストーラーを購入し、Zrythmを支援しませんか？"
+#: template/download.html.j2:110
+msgid "Support Zrythm by purchasing an installer. This month we received:"
+msgstr ""
 
-#: template/download.html.j2:146
-msgid "This month we received £{amount}."
-msgstr "今月は£{amount}をいただきました。"
+#: template/download.html.j2:119
+msgid "Source Code"
+msgstr ""
 
-#: template/download.html.j2:148
-msgid ""
-"This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
-"and subscriptions"
-msgstr "これには、LiberaPay、PayPal、OpenCollective、ダウンロード、サブスクリプションからの寄付が含まれます"
+#: template/download.html.j2:122
+msgid "Releases"
+msgstr "リリース"
 
-#: template/explore.html.j2:22
-msgid "List of features, functionality, and reviews"
-msgstr "機能・レビュー一覧"
+#: template/download.html.j2:123
+msgid "GPG Key"
+msgstr "GPG鍵"
 
-#: template/explore.html.j2:37
-msgid "Demos"
-msgstr "デモ"
+#: template/features.html.j2:23
+msgid "List of features."
+msgstr ""
 
-#: template/explore.html.j2:48 template/explore.html.j2:69
-#: template/explore.html.j2:90 template/explore.html.j2:111
-#: template/explore.html.j2:132 template/explore.html.j2:153
-#: template/learn.html.j2:52 template/learn.html.j2:74
-#: template/learn.html.j2:96 template/learn.html.j2:118
-#: template/learn.html.j2:140 template/learn.html.j2:170
-#: template/learn.html.j2:192
-msgid "Your browser does not support HTML5 video"
-msgstr "お使いのブラウザはHTML5ビデオをサポートしていません"
+#: template/features.html.j2:40
+msgid "Piano Roll"
+msgstr ""
 
-#: template/explore.html.j2:56 template/explore.html.j2:77
-#: template/explore.html.j2:98 template/explore.html.j2:119
-#: template/explore.html.j2:140 template/explore.html.j2:161
-#: template/learn.html.j2:62 template/learn.html.j2:84
-#: template/learn.html.j2:106 template/learn.html.j2:128
-#: template/learn.html.j2:150 template/learn.html.j2:180
-#: template/learn.html.j2:202
-msgid "Video by"
-msgstr "動画 by"
-
-#: template/explore.html.j2:137
-msgid "Remake"
-msgstr "リメイク"
-
-#: template/explore.html.j2:171 template/plugins.html.j2:53
-msgid "Features"
-msgstr "特長"
-
-#: template/explore.html.j2:179 template/explore.html.j2:183
-msgid "Piano roll"
-msgstr "ピアノロール"
-
-#: template/explore.html.j2:188
+#: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 msgstr "専用のピアノロールでMIDIイベントを作成、編集、アレンジ。"
 
-#: template/explore.html.j2:197 template/explore.html.j2:210
-msgid "Anywhere-to-anywhere connections"
-msgstr "カスタムなコネクション"
+#: template/features.html.j2:51
+msgid "Anywhere-to-Anywhere Connections"
+msgstr ""
 
-#: template/explore.html.j2:202
+#: template/features.html.j2:53
 msgid "Connect anything to anything."
 msgstr "どこからどこでもコネクト可能。"
 
-#: template/explore.html.j2:217
-msgid "Bounce in place"
-msgstr "インプレースのバウンシング"
+#: template/features.html.j2:63
+msgid "Bounce in Place"
+msgstr ""
 
-#: template/explore.html.j2:221
-msgid "Bounce in-place"
-msgstr "イン・プレースのバウンシング"
-
-#: template/explore.html.j2:226
+#: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
 msgstr "選択したものを素早くオーディオ化する。"
 
-#: template/explore.html.j2:235 template/explore.html.j2:248
-msgid "Automation curves"
-msgstr "オートメーション・カーブ"
+#: template/features.html.j2:75
+msgid "Automation Curves"
+msgstr ""
 
-#: template/explore.html.j2:240
+#: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
 msgstr "直線または曲線でパラメータをオートメート。"
 
-#: template/explore.html.j2:253
-msgid "Screenshots"
-msgstr "スクリーンショット"
-
-#: template/explore.html.j2:261 template/explore.html.j2:278
-#: template/explore.html.j2:295 template/explore.html.j2:312
-#: template/explore.html.j2:329
-msgid "Screenshot"
-msgstr "スクリーンショット"
-
-#: template/explore.html.j2:263
-msgid "Mixing"
-msgstr "ミキシング"
-
-#: template/explore.html.j2:268 template/explore.html.j2:285
-#: template/explore.html.j2:302 template/explore.html.j2:319
-#: template/explore.html.j2:336
-msgid "Screenshot by"
-msgstr "スクリーンショット by"
-
-#: template/explore.html.j2:280
-msgid "Audio Editor"
-msgstr "オーディオエディタ"
-
-#: template/explore.html.j2:297
-msgid "Localized UI"
-msgstr "ローカライズされたUI"
-
-#: template/explore.html.j2:314
-msgid "CSS Theme"
-msgstr "CSSテーマ"
-
-#: template/explore.html.j2:331
-msgid "Mixer view"
-msgstr "ミキサー画面"
-
-#: template/explore.html.j2:346
-msgid "Reviews"
-msgstr "レビュー"
-
-#: template/explore.html.j2:354
-msgid "unfa livestream: Making a funky song in Zrythm"
-msgstr "unfa のライブストリーム： Zrythm でファンキーな曲を作る"
-
-#: template/explore.html.j2:362
-msgid "Article from Issue 229/2019 of Linux Magazine"
-msgstr "Linuxマガジン229/2019号の記事"
-
-#: template/explore.html.j2:370
-msgid ""
-"Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
-"freedom] digital audio workstation"
-msgstr "Phoronixニュース：Zrythm、使いやすい[自由な]デジタルオーディオワークステーションとしてベータ版に迫る"
-
-#: template/index.html.j2:19
+#: template/index.html.j2:20
 msgid "Digital Audio Workstation"
 msgstr "デジタル・オーディオ・ワークステーション"
 
-#: template/index.html.j2:22
+#: template/index.html.j2:23
 msgid ""
 "Zrythm is a digital audio workstation designed to be featureful and easy to "
 "use. It allows limitless automation, supports LV2 plugins, works with the "
@@ -479,50 +406,33 @@ msgid ""
 msgstr ""
 "Zrythmは、機能が豊富で使いやすいように設計されたデジタルオーディオワークステーションです。無限のオートメーションを可能にし、LV2プラグインをサポートし、JACKオーディオバックエンドで動作し、コードアシスタンスを提供しています。"
 
-#: template/index.html.j2:33
-msgid "Zrythm"
-msgstr "Zrythm"
+#: template/index.html.j2:36
+msgid "A highly automated and intuitive digital audio workstation"
+msgstr ""
 
-#: template/index.html.j2:35
-msgid "a highly automated and intuitive digital audio workstation"
-msgstr "高度に自動化された直感的なデジタルオーディオワークステーション"
+#: template/index.html.j2:39
+msgid "Learn More"
+msgstr ""
 
 #: template/index.html.j2:51
-msgid "Overview"
-msgstr "概要"
-
-#: template/index.html.j2:57
-msgid ""
-"Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
-"workstation{endtooltip} designed to be featureful and easy to use."
-msgstr ""
-"Zrythmは{tooltip1}クロスプラットフォーム{endtooltip}な機能的で使いやすいように設計された{tooltip2}デジタルオーディオワークステーション{endtooltip}です。"
-
-#: template/index.html.j2:60
-msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-msgstr "Zrythm は GNU/Linux, FreeBSD, MacOS と Windows で動作します"
-
-#: template/index.html.j2:64
-msgid ""
-"A DAW is used for composing, recording, editing, arranging, mixing and "
-"mastering music"
-msgstr "DAWは、作曲、録音、編集、アレンジ、ミキシング、マスタリングに使用されるソフトウェアです"
-
-#: template/index.html.j2:76
 msgid "Limitless automation"
 msgstr "無限のオートメーション"
 
-#: template/index.html.j2:81
+#: template/index.html.j2:53
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr "直線、スロープ、カーブ、または LFO とエンベロープを使用して、オートメーション イベントを使用してほぼすべてを自動化できます。"
 
-#: template/index.html.j2:94
-msgid "Audio plugins"
-msgstr "オーディオプラグイン"
+#: template/index.html.j2:60
+msgid "Automation curves"
+msgstr "オートメーション・カーブ"
 
-#: template/index.html.j2:99
+#: template/index.html.j2:65
+msgid "Audio Plugins"
+msgstr ""
+
+#: template/index.html.j2:67
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
 "experimental support for VST3, AU, SFZ and SF2."
@@ -530,11 +440,15 @@ msgstr ""
 "<a "
 "href=\"https://lv2plug.in/\">LV2</a>とVST2を完全にサポートし、VST3、AU、SFZ、SF2を実験的にサポート。"
 
-#: template/index.html.j2:113
-msgid "Multi-backend support"
-msgstr "多バックエンド対応"
+#: template/index.html.j2:73
+msgid "Audio plugins"
+msgstr ""
 
-#: template/index.html.j2:118
+#: template/index.html.j2:78
+msgid "Multi-Backend Support"
+msgstr ""
+
+#: template/index.html.j2:80
 msgid ""
 "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
@@ -545,21 +459,29 @@ msgstr ""
 "MME、CoreMidi、CoreAudioサポートに加え、完全な<a href=\"https://jackaudio.org/\"> JACK "
 "</a>対応。"
 
-#: template/index.html.j2:132
-msgid "Chord assistance"
-msgstr "和音援助"
+#: template/index.html.j2:88
+msgid "Audio backends"
+msgstr ""
 
-#: template/index.html.j2:137
+#: template/index.html.j2:93
+msgid "Chord Assistance"
+msgstr ""
+
+#: template/index.html.j2:95
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
 msgstr "コード進行に役立つコードトラック、音階および和音をすばやく試聴できるコードパッド機能を搭載。"
 
-#: template/index.html.j2:152
-msgid "Liberating"
-msgstr "フリー"
+#: template/index.html.j2:102
+msgid "Chord highlighting"
+msgstr ""
 
-#: template/index.html.j2:157
+#: template/index.html.j2:107
+msgid "Liberating"
+msgstr "開放的"
+
+#: template/index.html.j2:109
 msgid ""
 "Zrythm is <a "
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
@@ -569,11 +491,15 @@ msgstr ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\"> "
 "フリーソフトウェア </a> です。自由に使用、研究、共有、改善してください。"
 
-#: template/index.html.j2:169
+#: template/index.html.j2:115
+msgid "Programming"
+msgstr ""
+
+#: template/index.html.j2:120
 msgid "Multilingual"
 msgstr "多言語に対応"
 
-#: template/index.html.j2:174
+#: template/index.html.j2:122
 msgid ""
 "Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
@@ -582,79 +508,96 @@ msgstr ""
 "英語、フランス語、スペイン語、ポルトガル語、日本語、ドイツ語を含む<a "
 "href=\"https://hosted.weblate.org/engage/zrythm/\">複数の言語</a>で利用可能。"
 
-#: template/index.html.j2:184
-msgid "Learn more"
-msgstr "詳細"
-
-#: template/index.html.j2:191
-msgid "Sponsors & Affiliates"
+#: template/index.html.j2:128
+msgid "Multi-language support"
 msgstr ""
 
-#: template/learn.html.j2:22
+#: template/index.html.j2:133
+msgid "Showcase"
+msgstr ""
+
+#: template/index.html.j2:142 template/index.html.j2:156
+#: template/index.html.j2:170 template/index.html.j2:184
+#: template/index.html.j2:198 template/index.html.j2:212
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: template/index.html.j2:225
+msgid "Testimonials"
+msgstr ""
+
+#: template/index.html.j2:254
+msgid "Affiliates"
+msgstr ""
+
+#: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
 msgstr "Zrythmのリファレンスページ・ユーザーマニュアル・チュートリアル"
 
-#: template/learn.html.j2:37
+#: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr "チュートリアル"
+msgstr ""
 
-#: template/learn.html.j2:42
+#: template/learn.html.j2:41
 msgid "Editing"
 msgstr "編集"
 
-#: template/learn.html.j2:57
+#: template/learn.html.j2:47 template/learn.html.j2:57
+#: template/learn.html.j2:67 template/learn.html.j2:77
+#: template/learn.html.j2:87 template/learn.html.j2:102
+#: template/learn.html.j2:112
+msgid "Your browser does not support HTML5 video"
+msgstr "お使いのブラウザはHTML5ビデオをサポートしていません"
+
+#: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
 msgstr "選択・ストレッチツール"
 
-#: template/learn.html.j2:79
+#: template/learn.html.j2:61
 msgid "Edit Tool"
 msgstr "鉛筆ツール"
 
-#: template/learn.html.j2:101
+#: template/learn.html.j2:71
 msgid "Cut Tool"
 msgstr "カットツール"
 
-#: template/learn.html.j2:123
+#: template/learn.html.j2:81
 msgid "Ramp Tool"
 msgstr "ランプツール"
 
-#: template/learn.html.j2:145
-msgid "Looping regions"
-msgstr "リージョンをループする"
+#: template/learn.html.j2:91
+msgid "Looping Regions"
+msgstr ""
 
-#: template/learn.html.j2:160
+#: template/learn.html.j2:96
 msgid "Routing"
 msgstr "ルーティング"
 
-#: template/learn.html.j2:175
+#: template/learn.html.j2:106
 msgid "FX Sends"
 msgstr "FXセンド"
 
-#: template/learn.html.j2:197
+#: template/learn.html.j2:116
 msgid "Port Routing"
 msgstr "ポートのルーティング"
 
-#: template/learn.html.j2:212
+#: template/learn.html.j2:122
 msgid "Walkthroughs"
 msgstr "ウォークスルー"
 
-#: template/learn.html.j2:223
+#: template/learn.html.j2:130
 msgid "French"
 msgstr "フランス語"
 
-#: template/learn.html.j2:226
-msgid "Playlist by"
-msgstr "プレイリスト by"
-
-#: template/learn.html.j2:237
+#: template/learn.html.j2:136
 msgid "Documentation"
 msgstr "ドキュメント"
 
-#: template/learn.html.j2:244
+#: template/learn.html.j2:138
 msgid "User Manual"
 msgstr "マニュアル"
 
-#: template/learn.html.j2:247
+#: template/learn.html.j2:139
 msgid "Developer Reference"
 msgstr "開発者向けリファレンス"
 
@@ -717,17 +660,25 @@ msgstr "商標"
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr "ZrythmおよびZrythmのロゴはAlexandros Theodotouの商標です。"
 
-#: template/plugins.html.j2:22
+#: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
 msgstr "Zrythmにバンドルされているプラグイン"
 
-#: template/plugins.html.j2:47
+#: template/plugins.html.j2:38
+msgid "Basic Plugins"
+msgstr ""
+
+#: template/plugins.html.j2:43
 msgid "{} screenshot"
 msgstr "{} スクリーンショット"
 
-#: template/plugins.html.j2:61
+#: template/plugins.html.j2:57
 msgid "Technical specs"
 msgstr "技術仕様"
+
+#: template/plugins.html.j2:64
+msgid "Premium Plugins"
+msgstr ""
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
@@ -741,6 +692,194 @@ msgstr "最終更新日：2021年8月4日"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythmの商標ポリシー"
+
+#~ msgid "Try Now"
+#~ msgstr "今すぐ試す"
+
+#~ msgid ""
+#~ "This is a trial version with limited functionality. Please select your "
+#~ "operating system."
+#~ msgstr "機能が限定されたお試し版です。お使いのオペレーティングシステムを選択してください。"
+
+#~ msgid "GNU/Linux (package)"
+#~ msgstr "GNU / Linux (パッケージ)"
+
+#~ msgid "GNU/Linux (AppImage*)"
+#~ msgstr "GNU / Linux (AppImage※)"
+
+#~ msgid "Windows 64-bit"
+#~ msgstr "Windows 64ビット"
+
+#~ msgid "* The AppImage build is experimental"
+#~ msgstr "※AppImageのビルドは実験的です"
+
+#~ msgid "Buy Now"
+#~ msgstr "今すぐ購入"
+
+#~ msgid "Support Zrythm by purchasing an installer."
+#~ msgstr "インストーラーを購入し、Zrythmを支援しませんか？"
+
+#~ msgid "This month we received £{amount}."
+#~ msgstr "今月は£{amount}をいただきました。"
+
+#~ msgid ""
+#~ "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
+#~ "and subscriptions"
+#~ msgstr "これには、LiberaPay、PayPal、OpenCollective、ダウンロード、サブスクリプションからの寄付が含まれます"
+
+#~ msgid "Installer"
+#~ msgstr "インストーラ"
+
+#~ msgid "full"
+#~ msgstr "完全版"
+
+#~ msgid "subscription"
+#~ msgstr "サブスクリプション"
+
+#~ msgid "<b>£0</b>"
+#~ msgstr "<b>£0</b>"
+
+#~ msgid "<b>£5</b> single version"
+#~ msgstr "シングル・バージョン<b>£5</b>"
+
+#~ msgid "<b>+£10</b> v1 bundle"
+#~ msgstr "<b>+£10</b> v1 バンドル"
+
+#~ msgid "Full version"
+#~ msgstr "完全版"
+
+#~ msgid "Upgrades to new releases"
+#~ msgstr "新リリースへアップグレード"
+
+#~ msgid "<b>£5/month</b>"
+#~ msgstr "<b>月£5</b>"
+
+#~ msgid "Project"
+#~ msgstr "プロジェクト"
+
+#~ msgid "Feature tracker"
+#~ msgstr "機能トラッカー"
+
+#~ msgid "Bug tracker"
+#~ msgstr "バグトラッカー"
+
+#~ msgid "Translations"
+#~ msgstr "翻訳"
+
+#~ msgid "Chat"
+#~ msgstr "チャット"
+
+#~ msgid "Mail"
+#~ msgstr "メール"
+
+#~ msgid "Announcements"
+#~ msgstr "お知らせ"
+
+#~ msgid "User discussion"
+#~ msgstr "ユーザーディスカッション"
+
+#~ msgid "Community"
+#~ msgstr "コミュニティ"
+
+#~ msgid "Video by"
+#~ msgstr "動画 by"
+
+#~ msgid "Playlist by"
+#~ msgstr "プレイリスト by"
+
+#~ msgid "Explore"
+#~ msgstr "詳細"
+
+#~ msgid "List of features, functionality, and reviews"
+#~ msgstr "機能・レビュー一覧"
+
+#~ msgid "Demos"
+#~ msgstr "デモ"
+
+#~ msgid "Remake"
+#~ msgstr "リメイク"
+
+#~ msgid "Bounce in-place"
+#~ msgstr "イン・プレースのバウンシング"
+
+#~ msgid "Screenshots"
+#~ msgstr "スクリーンショット"
+
+#~ msgid "Screenshot"
+#~ msgstr "スクリーンショット"
+
+#~ msgid "Mixing"
+#~ msgstr "ミキシング"
+
+#~ msgid "Screenshot by"
+#~ msgstr "スクリーンショット by"
+
+#~ msgid "Audio Editor"
+#~ msgstr "オーディオエディタ"
+
+#~ msgid "Localized UI"
+#~ msgstr "ローカライズされたUI"
+
+#~ msgid "CSS Theme"
+#~ msgstr "CSSテーマ"
+
+#~ msgid "Mixer view"
+#~ msgstr "ミキサー画面"
+
+#~ msgid "Reviews"
+#~ msgstr "レビュー"
+
+#~ msgid "unfa livestream: Making a funky song in Zrythm"
+#~ msgstr "unfa のライブストリーム： Zrythm でファンキーな曲を作る"
+
+#~ msgid "Article from Issue 229/2019 of Linux Magazine"
+#~ msgstr "Linuxマガジン229/2019号の記事"
+
+#~ msgid ""
+#~ "Phoronix news: Zrythm approaching beta as an easy-to-use, [free as in "
+#~ "freedom] digital audio workstation"
+#~ msgstr "Phoronixニュース：Zrythm、使いやすい[自由な]デジタルオーディオワークステーションとしてベータ版に迫る"
+
+#~ msgid "Zrythm"
+#~ msgstr "Zrythm"
+
+#~ msgid "a highly automated and intuitive digital audio workstation"
+#~ msgstr "高度に自動化された直感的なデジタルオーディオワークステーション"
+
+#~ msgid "Overview"
+#~ msgstr "概要"
+
+#~ msgid ""
+#~ "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
+#~ "workstation{endtooltip} designed to be featureful and easy to use."
+#~ msgstr ""
+#~ "Zrythmは{tooltip1}クロスプラットフォーム{endtooltip}な機能的で使いやすいように設計された{tooltip2}デジタルオーディオワークステーション{endtooltip}です。"
+
+#~ msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
+#~ msgstr "Zrythm は GNU/Linux, FreeBSD, MacOS と Windows で動作します"
+
+#~ msgid ""
+#~ "A DAW is used for composing, recording, editing, arranging, mixing and "
+#~ "mastering music"
+#~ msgstr "DAWは、作曲、録音、編集、アレンジ、ミキシング、マスタリングに使用されるソフトウェアです"
+
+#~ msgid "Home"
+#~ msgstr "トップ"
+
+#~ msgid "Language"
+#~ msgstr "言語"
+
+#~ msgid "Donate using Bitcoin"
+#~ msgstr "ビットコインを使用して寄付する"
+
+#~ msgid "Donate Bitcoin (BTC)"
+#~ msgstr "ビットコイン（BTC）を寄付する"
+
+#~ msgid "Donate using Monero"
+#~ msgstr "モネロを使用して寄付する"
+
+#~ msgid "Donate Monero (XMR)"
+#~ msgstr "モネロ（XMR）を寄付する"
 
 #~ msgid "Donate using Bitcoin Cash"
 #~ msgstr "Bitcoin Cashを使用して寄付する"
@@ -809,14 +948,8 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgid "Zrythm + BJumblr jam"
 #~ msgstr "Zrythm + BJumblrジャム"
 
-#~ msgid "Basic demo"
-#~ msgstr "基本デモ"
-
 #~ msgid "Users"
 #~ msgstr "ユーザ"
-
-#~ msgid "Developers"
-#~ msgstr "開発者"
 
 #~ msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
 #~ msgstr "動画 by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
@@ -832,9 +965,6 @@ msgstr "Zrythmの商標ポリシー"
 
 #~ msgid "git repositories"
 #~ msgstr "gitリポジトリ"
-
-#~ msgid "stable releases"
-#~ msgstr "安定版リリース"
 
 #~ msgid "GPG signing key"
 #~ msgstr "GPG署名キー"
@@ -890,9 +1020,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ " class=\"tooltip\" aria-"
 #~ "label=\"デジタル・オーディオ・ワークステーション（DAW）は、録音、編集、ミキシング、編曲など一連の作業を可能にするソフトウェアです\">デジタルオーディオワークステーション</span>です。"
 
-#~ msgid "LV2 plugins"
-#~ msgstr "LV2プラグイン"
-
 #~ msgid ""
 #~ "Complete support for LV2, a free and extensible standard for audio plugins."
 #~ msgstr "オーディオプラグインのオープンスタンダードで拡張可能な標準であるLV2を完全に対応。"
@@ -904,9 +1031,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgstr ""
 #~ "Zrythmは<span class=\"tooltip tooltip_shifted\" aria-"
 #~ "label=\"「自由なソフトウェア」は利用者の自由とコミュニティを尊重するソフトウェアを意味します\">自由なソフトウェア</span>です。自由に使用、勉学、共有、改善できます。"
-
-#~ msgid "Donate"
-#~ msgstr "支援する"
 
 #~ msgid "IRC"
 #~ msgstr "IRC"
@@ -928,9 +1052,6 @@ msgstr "Zrythmの商標ポリシー"
 
 #~ msgid "ZChordz"
 #~ msgstr "ZChordz"
-
-#~ msgid "Designed by Mire"
-#~ msgstr "デザイン: Mire"
 
 #~ msgid "ZLFO"
 #~ msgstr "ZLFO"
@@ -997,9 +1118,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgid "Others (unofficial)"
 #~ msgstr "その他（非公式）"
 
-#~ msgid "Other Platforms"
-#~ msgstr "その他のプラットフォーム"
-
 #~ msgid "FreeBSD (Freshports)"
 #~ msgstr "FreeBSD (Freshports)"
 
@@ -1059,9 +1177,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgid ""
 #~ "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
 #~ msgstr "最初のコミットは<code>水 7月25日 22:35:01 2018 +0900</code>に行われました。"
-
-#~ msgid "Current Stage"
-#~ msgstr "現状況"
 
 #~ msgid ""
 #~ "Early alpha. Somewhat functional but has unimplemented features and crashes "

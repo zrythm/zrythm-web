@@ -1,5 +1,6 @@
 {#
 Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
 
@@ -29,172 +30,229 @@ GNU Affero General Public License for more details.
 {% endblock head_content %}
 
 {% block body_content %}
-<div class="centered">
-  <h1>{{ _('Zrythm') }}
-    <small>
-    {% trans %}
-    a highly automated and intuitive digital audio workstation
-    {% endtrans %}
-    </small>
-  </h1>
+    <section class="hero">
+        <section class="hero__container container">
+            <h1 class="hero__brand">ZRYTHM</h1>
+            <h5 class="hero__subtext">{{ _('A highly automated and intuitive digital audio workstation') }}</h5>
+            <div class="hero__buttons">
+              <a class="hero__button btn btn--primary" href="{{ url(lang + '/download.html') }}">{{ _('Download') }}</a>
+                <a class="hero__button btn" href="#highlights">{{ _('Learn More') }}</a>
+            </div>
+            <div class="hero__screenshot">
+               <img src="{{ screenshot }}" class="hero__image">
+            </div>
+        </section>
+    </section>
 
-  <img
-     class="screenshot_img shadowed"
-     src="{{ screenshot }}"
-     alt="Screenshot">
-  </img>
-</div>
+    <section class="highlights" id="highlights">
 
-<left>
-<div class="container features_box">
-  <h2>
-    {% trans %}
-    Overview
-    {% endtrans %}
-  </h2>
+        <div class="highlights__row">
+            <div class="highlights__content">
+                <h3 class="highlights__header">{{ _('Limitless automation') }}</h3>
+                <p class="highlights__text">
+                    {% trans %}
+                    Automate almost anything with automation events
+                    using straight lines, ramps and curves, or with
+                    LFOs and envelopes.
+                    {% endtrans %}
+                </p>
+            </div>
+            <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/automation-curves.gif') }}" alt="{{ _('Automation curves') }}"></div>
+        </div>
 
-  <p>
-    {{ _('Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio workstation{endtooltip} designed to be featureful and easy to use.').format(
-    tooltip1 =
-      '<u class="dashed"><span class="tooltip" aria-label="' +
-      _('Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows') +
-      '">',
-    tooltip2 =
-      '<u class="dashed"><span class="tooltip" aria-label="' +
-      _('A DAW is used for composing, recording, editing, arranging, mixing and mastering music') +
-      '">',
-    endtooltip = '</span></u>') }}
-  </p>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <h3>
-          <img class="logo_img" width=28
-             src="{{ url('static/icons/breeze/format-node-curve.svg') }}"
-             alt="Logo">
-          </img>
-          {% trans %}
-          Limitless automation
-          {% endtrans %}
-        </h3>
-        <p>
-          {% trans %}
-          Automate almost anything with automation events
-          using straight lines, ramps and curves, or with
-          LFOs and envelopes.
-          {% endtrans %}
-        </p>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <h3>
-          <img class="logo_img" width=28
-             src="{{ url('static/icons/zrythm/audio.svg') }}"
-             alt="Logo">
-          </img>
-          {% trans %}
-          Audio plugins
-          {% endtrans %}
-        </h3>
-        <p>
-          {% trans %}
-          Complete support for <a href="https://lv2plug.in/">LV2</a> and VST2, with experimental
-          support for VST3, AU, SFZ and SF2.
-          {% endtrans %}
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <h3>
-          <img class="logo_img" width=28
-             src="{{ url('static/icons/zrythm/midi-connector.svg') }}"
-             alt="Logo">
-          </img>
-          {% trans %}
-          Multi-backend support
-          {% endtrans %}
-        </h3>
-        <p>
-          {% trans %}
-          Fully <a href="https://jackaudio.org/">JACK</a> aware,
-          including support for <a href="https://pipewire.org/">PipeWire</a>, JACK
-          transport, ALSA, PulseAudio, WASAPI, Windows MME,
-          CoreMidi and CoreAudio.
-          {% endtrans %}
-        </p>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <h3>
-          <img class="logo_img" width=28
-             src="{{ url('static/icons/breeze/minuet-chords.svg') }}"
-             alt="Logo">
-          </img>
-          {% trans %}
-          Chord assistance
-          {% endtrans %}
-        </h3>
-        <p>
-          {% trans %}
-          Featuring a chord pad for quickly trying out
-          chords in a scale and a chord track to assist with
-          chord progressions.
-          {% endtrans %}
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <h3>
-          <img class="logo_img" width=28
-             src="{{ url('static/icons/breeze/folder-script.svg') }}"
-             alt="Logo">
-          </img>
-          {% trans %}
-          Liberating
-          {% endtrans %}
-        </h3>
-        <p>
-          {% trans %}
-          Zrythm is <a href="https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm">free software</a>.
-          Use, study, share and improve it freely.
-          {% endtrans %}
-        </p>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <h3>
-          <img class="logo_img" width=28
-             src="{{ url('static/icons/breeze/globe.svg') }}"
-             alt="Logo">
-          </img>
-          {% trans %}
-          Multilingual
-          {% endtrans %}
-        </h3>
-        <p>
-          {% trans %}
-          Available in <a href="https://hosted.weblate.org/engage/zrythm/">multiple languages</a>
-          including English, French, Spanish, Portuguese, Japanese and German.
-          {% endtrans %}
-        </p>
-      </div>
-    </div>
-  </div>
-  <div>
-    <p style="text-align: right">
-      <a href="{{ url(lang + '/explore.html') }}">{{ _('Learn more') }}</a>
-    </p>
-  </div>
-</div>
+        <div class="highlights__row highlights__row--alt">
+            <div class="highlights__content">
+                <h3 class="highlights__header">{{ _('Audio Plugins') }}</h3>
+                <p class="highlights__text">
+                    {% trans %}
+                    Complete support for <a href="https://lv2plug.in/">LV2</a> and VST2, with experimental
+                    support for VST3, AU, SFZ and SF2.
+                    {% endtrans %}
+                </p>
+            </div>
+            <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/plugin-showcase.png') }}" alt="{{ _('Audio plugins') }}"></div>
+        </div>
 
-<div class="container features_box sponsors_box">
-  <h2>
-    {% trans %}
-    Sponsors & Affiliates
-    {% endtrans %}
-  </h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 centered">
+        <div class="highlights__row">
+            <div class="highlights__content">
+                <h3 class="highlights__header">{{ _('Multi-Backend Support') }}</h3>
+                <p class="highlights__text">
+                    {% trans %}
+                    Fully <a href="https://jackaudio.org/">JACK</a> aware,
+                    including support for <a href="https://pipewire.org/">PipeWire</a>, JACK
+                    transport, ALSA, PulseAudio, WASAPI, Windows MME,
+                    CoreMidi and CoreAudio.
+                    {% endtrans %}
+                </p>
+            </div>
+            <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/audio-backend-selection.png') }}" alt="{{ _('Audio backends') }}"></div>
+        </div>
+
+        <div class="highlights__row highlights__row--alt">
+            <div class="highlights__content">
+                <h3 class="highlights__header">{{ _('Chord Assistance') }}</h3>
+                <p class="highlights__text">
+                    {% trans %}
+                    Featuring a chord pad for quickly trying out
+                    chords in a scale and a chord track to assist with
+                    chord progressions.
+                    {% endtrans %}
+                </p>
+            </div>
+            <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/chord-highlighting.png') }}" alt="{{ _('Chord highlighting') }}"></div>
+        </div>
+
+        <div class="highlights__row">
+            <div class="highlights__content">
+                <h3 class="highlights__header">{{ _('Liberating') }}</h3>
+                <p class="highlights__text">
+                    {% trans %}
+                    Zrythm is <a href="https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm">free software</a>.
+                    Use, study, share and improve it freely.
+                    {% endtrans %}
+                </p>
+            </div>
+            <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/programming.png') }}" alt="{{ _('Programming') }}"></div>
+        </div>
+
+        <div class="highlights__row highlights__row--alt">
+            <div class="highlights__content">
+                <h3 class="highlights__header">{{ _('Multilingual') }}</h3>
+                <p class="highlights__text">
+                    {% trans %}
+                    Available in <a href="https://hosted.weblate.org/engage/zrythm/">multiple languages</a>
+                    including English, French, Spanish, Portuguese, Japanese and German.
+                    {% endtrans %}
+                </p>
+            </div>
+            <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/screenshots/feb-15-2021.png') }}" alt="{{ _('Multi-language support') }}"></div>
+        </div>
+
+    </section>
+
+    <h3 class="header--underline">{{ _('Showcase') }}</h3>
+    <section class="showcase container">
+        <div class="container">
+            <div class="learn__grid">
+                <div class="learn__card">
+                    <video controls class="learn__video" poster="https://www.zrythm.org/videos/lmc2-just-for-kicks.png">
+                    <source src="https://www.zrythm.org/videos/lmc2-just-for-kicks.webm"
+                            type="video/webm; codecs=vp9,opus"
+                            preload="metadata">
+                      {% trans %}
+                      Your browser does not support HTML5 video.
+                      {% endtrans %}
+                    </video>
+                    <p class="learn__title">
+                      Just For Kicks ~
+                      <a href="https://sonomu.club/@rghvdberg">Rob van den Berg</a>
+                    </p>
+                </div>
+                <div class="learn__card">
+                    <video controls class="learn__video" poster="https://www.zrythm.org/videos/mylofy-alphatunez.png">
+                    <source src="https://www.zrythm.org/videos/mylofy-alphatunez.webm"
+                            type="video/webm; codecs=vp8,vorbis"
+                            preload="metadata">
+                      {% trans %}
+                      Your browser does not support HTML5 video.
+                      {% endtrans %}
+                    </video>
+                    <p class="learn__title">
+                      Alphatunez ~
+                      <a href="https://soundcloud.com/mylofymusic">MyLoFy</a>
+                    </p>
+                </div>
+                <div class="learn__card">
+                    <video controls class="learn__video" poster="https://www.zrythm.org/videos/sahaathyva-dubz.png">
+                    <source src="https://www.zrythm.org/videos/sahaathyva-dubz.webm"
+                            type="video/webm; codecs=vp9,opus"
+                            preload="metadata">
+                      {% trans %}
+                      Your browser does not support HTML5 video.
+                      {% endtrans %}
+                    </video>
+                    <p class="learn__title">
+                      dubZ ~
+                      <a href="https://soundcloud.com/user-301824472">SahaaThyva</a>
+                    </p>
+                </div>
+                <div class="learn__card">
+                    <video controls class="learn__video" poster="https://www.zrythm.org/videos/mylofy-window-into-the-air.png">
+                    <source src="https://www.zrythm.org/videos/mylofy-window-into-the-air.webm"
+                            type="video/webm; codecs=vp9,opus"
+                            preload="metadata">
+                      {% trans %}
+                      Your browser does not support HTML5 video.
+                      {% endtrans %}
+                    </video>
+                    <p class="learn__title">
+                      Window Into The Air ~
+                      <a href="https://soundcloud.com/mylofymusic">MyLoFy</a>
+                    </p>
+                </div>
+                <div class="learn__card">
+                    <video controls class="learn__video" poster="https://www.zrythm.org/videos/yukota-nainai.png">
+                    <source src="https://www.zrythm.org/videos/yukota-nainai.webm"
+                            type="video/webm; codecs=vp9,opus"
+                            preload="metadata">
+                      {% trans %}
+                      Your browser does not support HTML5 video.
+                      {% endtrans %}
+                    </video>
+                    <p class="learn__title">
+                      ないない ~
+                      <a href="https://www.youtube.com/channel/UC0hw6Md1OxhUX8IP6FU0E0w">yukota</a>
+                    </p>
+                </div>
+                <div class="learn__card">
+                    <video controls class="learn__video" poster="https://www.zrythm.org/videos/mylofy-talisman.png">
+                    <source src="https://www.zrythm.org/videos/mylofy-talisman.webm"
+                            type="video/webm; codecs=vp9,opus"
+                            preload="metadata">
+                      {% trans %}
+                      Your browser does not support HTML5 video.
+                      {% endtrans %}
+                    </video>
+                    <p class="learn__title">
+                      TALisman ~
+                      <a href="https://soundcloud.com/mylofymusic">MyLoFy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h3 class="header--underline">{{ _('Testimonials') }}</h3>
+    <section class="testimonials container">
+
+        <div class="testimonals__card">
+            <img src="{{ url('static/icons/zrythm/z_frame_8.svg') }}" class="testimonials__portrait">
+            <h4 class="testimonials__name">Unfa</h4>
+            <p class="testimonials__text">
+                "I was surprised how optimized Zrythm is for what I wanted to do"
+            </p>
+            <a href="https://www.youtube.com/watch?v=hVyTdUL7iOQ" class="testimonials__source">livestream: Making a funky song in Zrythm</a>
+        </div>
+        <div class="testimonals__card">
+            <img src="{{ url('static/icons/zrythm/z_frame_8.svg') }}" class="testimonials__portrait">
+            <h4 class="testimonials__name">Linux Magazine</h4>
+            <p class="testimonials__text">
+                "it is one of the best ways of composing music and exporting the audio files on [GNU/Linux]"
+            </p>
+            <a href="https://www.linux-magazine.com/Issues/2019/229/FOSSPicks" class="testimonials__source">Article from Issue 229/2019</a>
+        </div>
+        <div class="testimonals__card">
+            <img src="{{ url('static/icons/zrythm/z_frame_8.svg') }}" class="testimonials__portrait">
+            <h4 class="testimonials__name">Phoronix</h4>
+            <p class="testimonials__text">
+                "Zrythm continues advancing as another promising [free as in freedom] digital audio workstation"
+            </p>
+            <a href="https://www.phoronix.com/scan.php?page=news_item&px=Zrythm-0.8.694-Open-Source-DAW" class="testimonials__source">Zrythm approaching beta as an easy-to-use, [free as in freedom] digital audio workstation</a>
+        </div>
+    </section>
+
+    <h3 class="header--underline">{{ _('Affiliates') }}</h3>
+    <section class="container">
         <a href="https://weblate.org/{{ lang }}/">
           <img
              class="shadowed"
@@ -202,8 +260,6 @@ GNU Affero General Public License for more details.
              alt="Weblate">
           </img>
         </a>
-      </div>
-      <div class="col-sm-4 centered">
         <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=63054&url_id=902">
           <img
              class="shadowed"
@@ -212,12 +268,11 @@ GNU Affero General Public License for more details.
              {% else %}
              src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-us.png') }}"
              {% endif %}
+             style="max-width:280px;"
              alt="NordVPN">
           </img>
         </a>
-      </div>
-      {#
-      <div class="col-sm-4 centered">
+        {#
         <a href="https://www.bluehost.com/track/zrythmdaw/">
           <img
              class="shadowed"
@@ -225,18 +280,7 @@ GNU Affero General Public License for more details.
              alt="BlueHost">
           </img>
         </a>
-      </div>
-      #}
-      {#<div class="col-sm-4"></div>#}
-    </div>
-  </div>
-  {#
-  <p>
-    {% trans %}
-    <a href="mailto:&#115;&#112;&#111;&#110;&#115;&#111;&#114;&#064;&#122;&#114;&#121;&#116;&#104;&#109;&#046;&#111;&#114;&#103;">Contact us</a> if
-    you would like to be a sponsor.
-    {% endtrans %}
-  </p>
-  #}
-</left>
+        #}
+    </section>
+
 {% endblock body_content %}

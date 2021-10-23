@@ -1,5 +1,6 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
 
@@ -26,227 +27,117 @@ GNU Affero General Public License for more details.
 {% endblock head_content %}
 
 {% block body_content %}
-<div class="container features_box sponsors_box">
-  <h1 class="page_title">
-    {% trans %}
-    Learn
-    {% endtrans %}
-  </h1>
+<section class="hero">
+    <section class="hero__container container">
+        <h2 class="hero__title">{{ _('Learn') }}</h2>
+    </section>
 
-  <h2 class="page_subtitle">
-    {% trans %}
-    Tutorials
-    {% endtrans %}
-  </h2>
-  <h3 class="page_subtitle">
-    {% trans %}
-    Editing
-    {% endtrans %}
-  </h3>
-  <div class="row">
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             poster="https://www.zrythm.org/videos/select-stretch_2020_11_03.png">
-        <source src="https://www.zrythm.org/videos/select-stretch_2020_11_03.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        Select/Stretch Tool
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://mastodon.eus/@porru">Porrumentzio</a>
-        </small>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             poster="https://www.zrythm.org/videos/edit-tool_2020_11_14.png">
-        <source src="https://www.zrythm.org/videos/edit-tool_2020_11_14.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        Edit Tool
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://mastodon.eus/@porru">Porrumentzio</a>
-        </small>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             poster="https://www.zrythm.org/videos/cut-tool_2020_11_14.png">
-        <source src="https://www.zrythm.org/videos/cut-tool_2020_11_14.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        Cut Tool
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://mastodon.eus/@porru">Porrumentzio</a>
-        </small>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             poster="https://www.zrythm.org/videos/ramp-tool_2020_11_14.png">
-        <source src="https://www.zrythm.org/videos/ramp-tool_2020_11_14.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        Ramp Tool
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://mastodon.eus/@porru">Porrumentzio</a>
-        </small>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             {#poster="https://www.zrythm.org/videos/midi_tracks_2020_04_03.jpg"#}>
-        <source src="https://www.zrythm.org/videos/zrythm-loop-audio2-2020-07-20.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        Looping regions
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://sonomu.club/@rghvdberg">Rob van den Berg</a>
-        </small>
-      </div>
-    </div>
-  </div>
+</section>
 
-  <h3 class="page_subtitle">
-    {% trans %}
-    Routing
-    {% endtrans %}
-  </h3>
-  <div class="row">
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             poster="https://www.zrythm.org/videos/fx-busses-sends.png">
-        <source src="https://www.zrythm.org/videos/fx-busses-sends.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        FX Sends
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://soundcloud.com/user-301824472">SahaaThyva</a>
-        </small>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <video class="video" controls
-             {#poster="https://www.zrythm.org/videos/midi_tracks_2020_04_03.jpg"#}>
-        <source src="https://www.zrythm.org/videos/routing_2020_07_07.webm"
-                type="video/webm">
-        {% trans %}
-        Your browser does not support HTML5 video
-        {% endtrans %}
-      </video>
-      <div class="video_caption">
-        {% trans %}
-        Port Routing
-        {% endtrans %}
-        <br>
-        <small>
-          {% trans %}
-          Video by
-          {% endtrans %}
-          <a href="https://sonomu.club/@rghvdberg">Rob van den Berg</a>
-        </small>
-      </div>
-    </div>
-  </div>
 
-  <h2 class="page_subtitle">
-    {% trans %}
-    Walkthroughs
-    {% endtrans %}
-  </h2>
-  <div class="centered">
-    <div class="row">
-      <div class="col-sm-12 col-md-4">
-        <iframe sandbox="allow-same-origin allow-scripts allow-popups"
-                src="https://video.tedomum.net/video-playlists/embed/679e2079-5102-4d07-9777-fc71e5fae017?playlistPosition=1"
-                frameborder="0" allowfullscreen></iframe>
-        <div class="video_caption">
-          TUTO Zrythm ({{ _('French') }})
-          <br>
-          <small>
-            {% trans %}
-            Playlist by
-            {% endtrans %}
-            <a href="https://mamot.fr/@tillparisot">Till Parisot</a>
-          </small>
+<section>
+    <h3 class="header--underline">{{ _('Tutorials') }}</h3>
+    <div class="container">
+        <h3 class="learn__category">{{ _('Editing') }}</h3>
+        <div class="learn__grid">
+
+            <div class="learn__card">
+                <video controls class="learn__video" poster="https://www.zrythm.org/videos/select-stretch_2020_11_03.png">
+                    <source src="https://www.zrythm.org/videos/select-stretch_2020_11_03.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('Select/Stretch Tool') }} ~ <a href="https://mastodon.eus/@porru">Porrumentzio</a></p>
+            </div>
+
+            <div class="learn__card">
+                <video controls class="learn__video" poster="https://www.zrythm.org/videos/edit-tool_2020_11_14.png">
+                    <source src="https://www.zrythm.org/videos/edit-tool_2020_11_14.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('Edit Tool') }} ~ <a href="https://mastodon.eus/@porru">Porrumentzio</a></p>
+            </div>
+
+            <div class="learn__card">
+                <video controls class="learn__video" poster="https://www.zrythm.org/videos/cut-tool_2020_11_14.png">
+                    <source src="https://www.zrythm.org/videos/cut-tool_2020_11_14.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('Cut Tool') }} ~ <a href="https://mastodon.eus/@porru">Porrumentzio</a></p>
+            </div>
+
+            <div class="learn__card">
+                <video controls class="learn__video" poster="https://www.zrythm.org/videos/ramp-tool_2020_11_14.png">
+                    <source src="https://www.zrythm.org/videos/ramp-tool_2020_11_14.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('Ramp Tool') }} ~ <a href="https://mastodon.eus/@porru">Porrumentzio</a></p>
+            </div>
+
+            <div class="learn__card">
+                <video controls class="learn__video">
+                    <source src="https://www.zrythm.org/videos/zrythm-loop-audio2-2020-07-20.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('Looping Regions') }} ~ <a href="https://sonomu.club/@rghvdberg">Rob van den Berg</a></p>
+            </div>
+
         </div>
-      </div>
+
+        <h3 class="learn__category">{{ _('Routing') }}</h3>
+        <div class="learn__grid">
+
+            <div class="learn__card">
+                <video controls class="learn__video" poster="https://www.zrythm.org/videos/fx-busses-sends.png">
+                    <source src="https://www.zrythm.org/videos/fx-busses-sends.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('FX Sends') }} ~ <a href="https://soundcloud.com/user-301824472">SahaaThyva</a></p>
+            </div>
+
+            <div class="learn__card">
+                <video controls class="learn__video">
+                    <source src="https://www.zrythm.org/videos/routing_2020_07_07.webm" type="video/webm">
+                    {% trans %}
+                    Your browser does not support HTML5 video
+                    {% endtrans %}
+                </video>
+                <p class="learn__title">{{ _('Port Routing') }} ~ <a href="https://sonomu.club/@rghvdberg">Rob van den Berg</a></p>
+            </div>
+
+        </div>
     </div>
-  </div>
 
-  <h2 class="page_subtitle">
-    {% trans %}
-    Documentation
-    {% endtrans %}
-  </h2>
-  <div class="button_group">
-    <a class="button"
-       href="https://manual.zrythm.org/{{ lang }}/index.html">
-      {{ _('User Manual') }}</a>
-    <a class="button"
-       href="https://docs.zrythm.org/">
-      {{ _('Developer Reference') }}</a>
-  </div>
+    <h3 class="header--underline">{{ _('Walkthroughs') }}</h3>
+    <div class="container">
+        <div class="learn__grid">
 
-</div>
+            <div class="learn__card">
+                <iframe sandbox="allow-same-origin allow-scripts allow-popups"
+                        src="https://video.tedomum.net/video-playlists/embed/679e2079-5102-4d07-9777-fc71e5fae017?playlistPosition=1"
+                        frameborder="0" allowfullscreen></iframe>
+                <p class="learn__title">TUTO Zrythm ({{ _('French') }}) ~ <a href="https://mamot.fr/@tillparisot">Till Parisot</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <h3 class="header--underline">{{ _('Documentation') }}</h3>
+    <div class="container learn__buttons">
+        <a class="btn learn__button" href="https://manual.zrythm.org/{{ lang }}/index.html">{{ _('User Manual') }}</a>
+        <a class="btn learn__button" href="https://docs.zrythm.org/">{{ _('Developer Reference') }}</a>
+    </div>
+</section>
 
 {% endblock body_content %}

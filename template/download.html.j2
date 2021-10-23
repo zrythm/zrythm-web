@@ -27,135 +27,100 @@ GNU Affero General Public License for more details.
 {% endblock head_content %}
 
 {% block body_content %}
-<left>
-<div class="container features_box sponsors_box">
-  <h1 class="page_title">
-    {% trans %}
-    Download
-    {% endtrans %}
-  </h1>
-
-  <h2>
-    {% trans %}
-    Source code
-    {% endtrans %}
-  </h2>
-  <div class="button_group">
-    <a class="button"
-       href="{{ git_url }}">
-      Git</a>
-    <a class="button"
-       href="{{ releases_url }}">
-      {{ _('Releases') }}</a>
-    <a class="button"
-       href="{{ url('static/gpg_key.txt') }}">
-      {{ _('GPG Key') }}</a>
-  </div>
-
-  <h2>
-    {% trans %}
-    Installer
-    {% endtrans %}
-  </h2>
-  <div class="container centered">
-    <div class="row centered">
-      <div class="col-sm-4">
-        <h3>{{ _('trial') }}</h3>
-      </div>
-      <div class="col-sm-4">
-        <h3>{{ _('full') }}</h3>
-      </div>
-      <div class="col-sm-4">
-        <h3>{{ _('subscription') }}</h3>
-      </div>
+<div class="modal" id="osmodal">
+    <div class="modal__dialog">
+        <div class="modal__header">
+            <h4 class="modal__title">{{ _('Select Platform') }}</h4>
+            <a href="#" class="modal__close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </a>
+        </div>
+        <div class="modal__list">
+            <a class="modal__list-item" href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip">GNU/Linux package</a>
+            <a class="modal__list-item" href="{{ downloads_url }}zrythm-trial-{{ version }}-x86_64.AppImage">GNU/Linux AppImage (experimental)</a>
+            <a class="modal__list-item" href="{{ downloads_url }}zrythm-trial-{{ version }}-ms-setup.exe">Windows</a>
+            <a class="modal__list-item" href="{{ downloads_url }}zrythm-trial-{{ version }}-osx-installer.zip">MacOS</a>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <p>
-          <p>{{ _('Bundled plugins (basic)') }}</p>
-          <p>{{ _('Save/load disabled') }}</p>
-          <p>{{ _('<b>£0</b>') }}</p>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <p>{{ _('Compiled with all features') }}</p>
-          <p>{{ _('Bundled plugins (all)') }}</p>
-          <p>{{ _('PDF user manual') }}</p>
-          <p>{{ _('<b>£5</b> single version') }}</p>
-          <p>{{ _('<b>+£10</b> v1 bundle') }}</p>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <p>{{ _('Full version') }}</p>
-          <p>{{ _('Upgrades to new releases') }}</p>
-          <p>{{ _('Access to nightly builds') }}</p>
-          <p>{{ _('<b>£5/month</b>') }}</p>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <p>
-          <center>
-            <label class="button" for="modal-buy-single">{{ _('Try Now') }}</label>
-            <input type="checkbox" id="modal-buy-single" class="modal">
-            <div>
-              <div class="card fluid">
-                <label for="modal-buy-single" class="modal-close" ></label>
-                <h3 class="section">Try Zrythm</h3>
-                <p>
-                  {{ _('This is a trial version with limited functionality. Please select your operating system.') }}
-                </p>
-                <p class="section">
-                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-installer.zip" rel="nofollow" class="button">{{ _('GNU/Linux (package)') }}</a>
-                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-x86_64.AppImage" rel="nofollow" class="button">{{ _('GNU/Linux (AppImage*)') }}</a>
-                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-ms-setup.exe" rel="nofollow" class="button">{{ _('Windows 64-bit') }}</a>
-                  <a href="{{ downloads_url }}zrythm-trial-{{ version }}-osx-installer.zip" rel="nofollow" class="button">MacOS</a>
-                  <br>
-                  <small>
-                  {% trans %}
-                  * The AppImage build is experimental
-                  {% endtrans %}
-                  </small>
-                </p>
-              </div>
-            </div>
-          </center>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <center>
-            <a href="https://accounts.zrythm.org/{{ lang_for_accounts }}/products/selection?skip=subscription" rel="nofollow" class="button secondary">{{ _('Buy Now') }}</a>
-          </center>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <center>
-            <a href="https://accounts.zrythm.org/{{ lang_for_accounts }}/products/subscription/view" rel="nofollow" class="button primary">{{ _('Subscribe') }}</a>
-          </center>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="centered"><small>
-      {{ _('Support Zrythm by purchasing an installer.') }}
-      {{ _('This month we received £{amount}.').format (
-        amount = '<span class="tooltip" aria-label="' +
-          _('This includes donations from LiberaPay, PayPal, OpenCollective, downloads and subscriptions') +
-          '">' + monthly_earning_str + '</span>') }}
-
-        {#
-        ({perc}%% of last month\'s amount).').format(
-    perc = prev_month_comparison_perc) }}
-    <progress value="{{ monthly_earning }}" max="{{ prev_month_earning_str }}" class="inline primary income_progress"></progress>
-    #}
-  </small></div>
 </div>
-</left>
-{#<script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js" ></script>#}
+
+<section class="hero">
+    <section class="hero__container container">
+        <h2 class="hero__title">{{ _('Downloads') }}</h2>
+    </section>
+
+</section>
+
+
+<h3 class="header--underline">{{ _('Installers') }}</h3>
+<section class="downloads">
+
+    <div class="downloads__container container">
+        <div class="downloads__card">
+            <h4 class="downloads__title">{{ _('Basic') }}</h4>
+            <h2 class="downloads__price">{{ _('Free') }}</h2>
+            <ul class="downloads__features">
+                <li class="downloads__feature">{{ _('Bundled plugins (basic)') }}</li>
+                <li class="downloads__feature">{{ _('Save/load disabled') }}</li>
+                <li class="downloads__feature">v{{ version }}</li>
+            </ul>
+            <a href="#osmodal"class="downloads__btn btn">{{ _('Download') }}</a>
+        </div>
+
+        <div class="downloads__card">
+            <h4 class="downloads__title header--tertiary">Single</h4>
+            <h2 class="downloads__price">£5</h2>
+            <ul class="downloads__features">
+                <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
+                <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
+                <li class="downloads__feature">{{ _('PDF user manual') }}</li>
+                <li class="downloads__feature">v{{ version }}</li>
+            </ul>
+            <a href="https://accounts.zrythm.org/en/products/single/view" class="downloads__btn btn btn--tertiary">{{ _('Purchase') }}</a>
+        </div>
+
+        <div class="downloads__card">
+            <h4 class="downloads__title header--primary">{{ _('Bundle') }}</h4>
+            <h2 class="downloads__price">£15</h2>
+            <ul class="downloads__features">
+                <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
+                <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
+                <li class="downloads__feature">{{ _('PDF user manual') }}</li>
+                <li class="downloads__feature">{{ _('Access to all v1 releases') }}</li>
+            </ul>
+            <a href="https://accounts.zrythm.org/en/products/bundle/view" class="downloads__btn btn btn--primary">{{ _('Purchase') }}</a>
+        </div>
+
+        <div class="downloads__card">
+            <h4 class="downloads__title header--secondary">{{ _('Nightly') }}</h4>
+            {# TRANSLATORS: mo = month #}
+            <h2 class="downloads__price">£5<p style="display: inline;">/{{ _('mo') }}</p></h2>
+            <ul class="downloads__features">
+                <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
+                <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
+                <li class="downloads__feature">{{ _('PDF user manual') }}</li>
+                <li class="downloads__feature">{{ _('Access to all v1 releases') }}</li>
+                <li class="downloads__feature">{{ _('Access to nightly builds') }}</li>
+            </ul>
+            <a href="https://accounts.zrythm.org/en/products/subscription/view" class="downloads__btn btn btn--secondary">{{ _('Subscribe') }}</a>
+        </div>
+    </div>
+    <div class="downloads__funds-container container">
+        <div class="downloads__funds">
+            <p class="downloads__funds-text">{{ _('Support Zrythm by purchasing an installer. This month we received:') }}</p>
+            <h3 class="downloads__funds-amount">£{{ monthly_earning_str }}</h3>
+        </div>
+    </div>
+
+</section>
+
+
+
+<h3 class="header--underline">{{ _('Source Code') }}</h3>
+<section class="downloads__source container">
+    <a class="downloads__sourcebtn btn" href="{{ git_url }}">Git</a>
+    <a class="downloads__sourcebtn btn" href="{{ releases_url }}">{{ _('Releases') }}</a>
+    <a class="downloads__sourcebtn btn" href="{{ url('static/gpg_key.txt') }}">{{ _('GPG Key') }}</a>
+</section>
 
 {% endblock body_content %}

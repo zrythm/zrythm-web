@@ -1,5 +1,6 @@
 {#
 Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
 
@@ -26,44 +27,64 @@ GNU Affero General Public License for more details.
 {% endblock head_content %}
 
 {% block body_content %}
-<left>
-<div class="container features_box sponsors_box">
-  <h1 class="page_title">
-    {% trans %}
-    Plugins
-    {% endtrans %}
-  </h1>
+<section class="hero">
+    <section class="hero__container container">
+        <h2 class="hero__title">{{ _('Plugins') }}</h2>
+    </section>
 
-  <div class="row">
+</section>
 
-    {% for pl in plugins %}
-      <div class="col-sm">
-        <h2 class="centered">
-          {{ pl.name }}
-        </h2>
-        <div class="plugin_screenshot_div">
-          <img class="centered"
-               src="{{ url('static/images/' + pl.img) if pl.is_img_static else pl.img }}"
-               alt="{{ _('{} screenshot').format(pl.name) }}">
-        </div>
-        <div class="centered">
-          {{ pl.summary }}
-        </div>
-        <div>
-          <b>{% trans %}Features{% endtrans %}</b>
-          <ul>
-            {% for feature in pl.features %}
-              <li>{{ feature }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="centered">
-          <a href="https://www.zrythm.org/plugins/{{ pl.name }}">{{ _('Technical specs') }}</a>
-        </div>
-      </div>
-    {% endfor %}
+<!-- <section class="plugins"> -->
+    <h3 class="header--underline">{{ _('Basic Plugins') }}</h3>
+    <section class="plugins__group container">
 
-  </div>
-</div>
+        {% for pl in plugins %}
+        <div class="plugins__card">
+            <img src="{{ url('static/images/' + pl.img) if pl.is_img_static else pl.img }}" class="plugins__thumbnail" alt="{{ _('{} screenshot').format(pl.name) }}">
+            <div class="plugins__content">
+                <div class="plugins__text">
+                    <h4 class="plugins__title">{{ pl.name }}</h4>
+                    <p class="plugins__description">
+                      {{ pl.summary }}
+                    </p>
+                    <ul class="plugins__specs">
+                      {% for feature in pl.features %}
+                        <li class="plugins__spec">{{ feature }}</li>
+                      {% endfor %}
+                    </ul>
+                </div>
+
+                <a href="https://www.zrythm.org/plugins/{{ pl.name }}">{{ _('Technical specs') }}</a>
+            </div>
+        </div>
+        {% endfor %}
+
+    </section>
+
+    <h3 class="header--underline">{{ _('Premium Plugins') }}</h3>
+    <section class="plugins__group container">
+
+        <div class="plugins__card">
+            <img src="#" class="plugins__thumbnail">
+            <div class="plugins__content">
+                <div class="plugins__text">
+                    <h4 class="plugins__title">Coming Soon</h4>
+                    <p class="plugins__description">
+                      Coming Soon
+                    </p>
+                    <ul class="plugins__specs">
+                        <li class="plugins__spec">Spec #1</li>
+                        <li class="plugins__spec">Spec #2</li>
+
+                    </ul>
+                </div>
+
+                <a href="#">More specs</a>
+            </div>
+
+        </div>
+
+
+    </section>
 
 {% endblock body_content %}

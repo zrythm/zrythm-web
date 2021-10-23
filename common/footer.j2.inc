@@ -1,5 +1,6 @@
 {#
-Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
 
@@ -13,16 +14,22 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
 #}
-<footer>
-  <div class="container footer_container">
-    <div class="row">
-      <div class="col-sm-8">
-        <p>
+<footer class="footer">
+    <p class="footer__copyright">
         Copyright &copy; 2019-2021 {{ _('The Zrythm contributors') }} ~
         <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a> -
         <a href="{{ url(lang + '/privacy.html') }}">{{ _('Privacy') }}</a>
-        </p>
-      </div>
+    </p>
+    <small class="footer__trademark">
+        {{ _('Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou in the United Kingdom.') }}
+        {{ _('See our {trademarkpolicy} for details.').format (
+        trademarkpolicy = '<a href="' + url(lang + '/trademarks.html') + '" class="text_small">' +
+            _('Trademark Policy') +
+            '</a>') }} ~
+        {{ _('Designed by Andrew Harter') }}
+    </small>
+</footer>
+{#
       <div class="col-sm-4">
         <right>
          <label for="donate-bitcoin"
@@ -100,16 +107,6 @@ GNU Affero General Public License for more details.
         </right>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <p style="text-align: center; line-height: 1;"><small>
-          {{ _('Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou in the United Kingdom.') }}
-          {{ _('See our {trademarkpolicy} for details.').format (
-          trademarkpolicy = '<a href="' + url(lang + '/trademarks.html') + '">' +
-              _('Trademark Policy') +
-              '</a>') }}
-        </small></p>
-      </div>
-    </div>
   </div>
 </footer>
+#}

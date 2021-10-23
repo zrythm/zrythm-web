@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -26,16 +26,17 @@ GNU Affero General Public License for more details.
 <meta property="og:url" content="https://www.zrythm.org/en/index.html" />
 <meta property="og:image" content="{{ screenshot }}" />
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Alexandros Theodotou">
-<meta name="keywords" content="{{ _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK, VST, audio plugin') }}">
+<meta name="keywords" content="{{ _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing, mastering') }}">
 <link rel="icon" href="{{ url('static/favicon.ico') }}">
 
 <!-- mini.css -->
-<link href="{{ url('dist/mini.css/mini-dark.css') }}" rel="stylesheet">
+{#<link href="{{ url('dist/mini.css/mini-dark.css') }}" rel="stylesheet">#}
 
 <!-- Custom styles for this template -->
-<link href="{{ url('static/styles.css?v=20210626') }}" rel="stylesheet">
+<link href="{{ url('static/styles.css?v=20211023') }}" rel="stylesheet">
 
 <!-- Matomo -->
 <script type="text/javascript">
