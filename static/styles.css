@@ -762,7 +762,11 @@ svg {
   padding: 1rem;
   margin: 1rem;
   border-radius: var(--border-radius-300);
-  max-width: 512px; }
+  max-width: 425px; }
+
+.affiliates__grid {
+  display: flex;
+  justify-content: center; }
 
 .community__title {
   margin-top: 1rem; }

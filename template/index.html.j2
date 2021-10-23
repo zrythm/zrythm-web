@@ -253,34 +253,38 @@ GNU Affero General Public License for more details.
 
     <h3 class="header--underline">{{ _('Affiliates') }}</h3>
     <section class="container">
-        <a href="https://weblate.org/{{ lang }}/">
-          <img
-             class="shadowed"
-             src="{{ url('static/images/weblate-logo-darktext-borders.png') }}"
-             alt="Weblate">
-          </img>
-        </a>
-        <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=63054&url_id=902">
-          <img
-             class="shadowed"
-             {% if lang in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'nl', 'pt', 'zh'] %}
-             src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-{lang}.png'.format (lang = lang)) }}"
-             {% else %}
-             src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-us.png') }}"
-             {% endif %}
-             style="max-width:280px;"
-             alt="NordVPN">
-          </img>
-        </a>
-        {#
-        <a href="https://www.bluehost.com/track/zrythmdaw/">
-          <img
-             class="shadowed"
-             src="{{ url('static/images/bluehost-120x90BW.png') }}"
-             alt="BlueHost">
-          </img>
-        </a>
-        #}
+        <div class="container">
+            <div class="affiliates__grid">
+                <a href="https://weblate.org/{{ lang }}/">
+                  <img
+                     class="shadowed"
+                     src="{{ url('static/images/weblate-logo-darktext-borders.png') }}"
+                     alt="Weblate">
+                  </img>
+                </a>
+                <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=63054&url_id=902">
+                  <img
+                     class="shadowed"
+                     {% if lang in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'nl', 'pt', 'zh'] %}
+                     src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-{lang}.png'.format (lang = lang)) }}"
+                     {% else %}
+                     src="{{ url('static/images/nordvpn-banners/cool-off-72%25-1200x628-us.png') }}"
+                     {% endif %}
+                     style="max-width:280px;"
+                     alt="NordVPN">
+                  </img>
+                </a>
+                {#
+                <a href="https://www.bluehost.com/track/zrythmdaw/">
+                  <img
+                     class="shadowed"
+                     src="{{ url('static/images/bluehost-120x90BW.png') }}"
+                     alt="BlueHost">
+                  </img>
+                </a>
+                #}
+            </div>
+        </div>
     </section>
 
 {% endblock body_content %}
