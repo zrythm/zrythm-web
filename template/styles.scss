@@ -606,6 +606,7 @@ svg {
   background: var(--color-grayscale-100);
   -webkit-box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.46);
   box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.46);
+  width: 100%; // temporary solution to width issue
 }
 
 .highlights__row--alt {
