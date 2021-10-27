@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 07:46+0100\n"
-"PO-Revision-Date: 2021-10-27 18:12+0000\n"
-"Last-Translator: Jack Pownall <bonjour@jackpownall.fr>\n"
+"PO-Revision-Date: 2021-10-28 18:44+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -712,7 +712,7 @@ msgstr "Greffons embarqués avec Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr "Plugins fondamentaux"
+msgstr "Greffons fondamentaux"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
@@ -724,7 +724,7 @@ msgstr "Spécifications techniques"
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
-msgstr "Plugins premium"
+msgstr "Greffons premium"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
