@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 07:46+0100\n"
-"PO-Revision-Date: 2021-11-09 18:52+0000\n"
+"PO-Revision-Date: 2021-11-10 19:50+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: template.py:354
@@ -138,7 +138,7 @@ msgstr "Μάθηση"
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "Συμμετέχετε"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
@@ -151,11 +151,11 @@ msgstr "Οι σελίδες κοινότητας και κανάλια επικ�
 
 #: template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Συνεισφέρετε"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "Εγγραφείτε στην ανάπτυξη"
 
 #: template/community.html.j2:47
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "Υποβολή αναφορών σφαλμάτων"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
@@ -180,7 +180,7 @@ msgstr ""
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Μεταφράστε το Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
@@ -190,11 +190,11 @@ msgstr ""
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "Επικοινωνήστε"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "Συνομιλήστε μαζί μας στο IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -205,7 +205,7 @@ msgstr ""
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Συνομιλήστε μαζί μας στο Matrix"
 
 #: template/community.html.j2:99
 msgid ""
