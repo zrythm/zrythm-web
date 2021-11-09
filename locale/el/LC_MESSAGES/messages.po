@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 07:46+0100\n"
-"PO-Revision-Date: 2021-07-19 19:34+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
+"PO-Revision-Date: 2021-11-09 18:52+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -104,7 +104,7 @@ msgstr "Πολιτική εμπορικών σημάτων"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Σχεδιασμένο από τον Andrew Harter"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
