@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 07:46+0100\n"
-"PO-Revision-Date: 2021-11-16 00:51+0000\n"
+"PO-Revision-Date: 2021-11-17 10:53+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
 "\n"
@@ -288,7 +288,7 @@ msgstr ""
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Пожертвуйте на Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
