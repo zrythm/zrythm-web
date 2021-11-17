@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 07:46+0100\n"
-"PO-Revision-Date: 2021-11-17 10:53+0000\n"
+"PO-Revision-Date: 2021-11-17 14:28+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
 "\n"
@@ -293,6 +293,7 @@ msgstr "Пожертвуйте на Open Collective"
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
 msgstr ""
+"Зробіть пожертвування на Open Collective та перегляньте наші прозорі витрати."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -301,23 +302,23 @@ msgstr ""
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Виберіть платформу"
 
 #: template/download.html.j2:49
 msgid "Downloads"
-msgstr ""
+msgstr "Завантаження"
 
 #: template/download.html.j2:55
 msgid "Installers"
-msgstr ""
+msgstr "Установники"
 
 #: template/download.html.j2:60
 msgid "Basic"
-msgstr ""
+msgstr "Основна"
 
 #: template/download.html.j2:61
 msgid "Free"
-msgstr ""
+msgstr "Безплатна"
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
@@ -344,23 +345,23 @@ msgstr "Посібник у PDF"
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
-msgstr ""
+msgstr "Придбати"
 
 #: template/download.html.j2:83
 msgid "Bundle"
-msgstr ""
+msgstr "Набір"
 
 #: template/download.html.j2:89 template/download.html.j2:102
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Доступ до всіх випусків v1"
 
 #: template/download.html.j2:95
 msgid "Nightly"
-msgstr ""
+msgstr "Нічна"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "міс"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
@@ -372,11 +373,11 @@ msgstr "Підписатися"
 
 #: template/download.html.j2:110
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
+msgstr "Підтримайте Zrythm, придбавши установник. Цього місяця ми отримали:"
 
 #: template/download.html.j2:119
 msgid "Source Code"
-msgstr ""
+msgstr "Джерельний код"
 
 #: template/download.html.j2:122
 msgid "Releases"
@@ -388,11 +389,11 @@ msgstr "Ключі GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Список можливостей."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
-msgstr ""
+msgstr "Піано Ролл"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -402,7 +403,7 @@ msgstr ""
 
 #: template/features.html.j2:51
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "З’єднання з будь-якого місця"
 
 #: template/features.html.j2:53
 msgid "Connect anything to anything."
@@ -410,7 +411,7 @@ msgstr "З'єднуйте між собою будь-що."
 
 #: template/features.html.j2:63
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Відскок на місці (Bounce in Place)"
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
@@ -418,7 +419,7 @@ msgstr "Швидко і зручно перетворюйте вибрані е�
 
 #: template/features.html.j2:75
 msgid "Automation Curves"
-msgstr ""
+msgstr "Криві автоматизації"
 
 #: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
@@ -442,10 +443,11 @@ msgstr ""
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
 msgstr ""
+"Високоавтоматизована та інтуїтивно зрозуміла цифрова робоча аудіостанція"
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "Дізнатися більше"
 
 #: template/index.html.j2:51
 msgid "Limitless automation"
@@ -466,7 +468,7 @@ msgstr "Криві автоматизації"
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Аудіорозширення"
 
 #: template/index.html.j2:67
 msgid ""
@@ -478,11 +480,11 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr ""
+msgstr "Аудіорозширення"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
-msgstr ""
+msgstr "Підтримка мультибекендів"
 
 #: template/index.html.j2:80
 msgid ""
@@ -495,11 +497,11 @@ msgstr ""
 
 #: template/index.html.j2:88
 msgid "Audio backends"
-msgstr ""
+msgstr "Аудіобекенди"
 
 #: template/index.html.j2:93
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Акордна допомога"
 
 #: template/index.html.j2:95
 msgid ""
@@ -511,7 +513,7 @@ msgstr ""
 
 #: template/index.html.j2:102
 msgid "Chord highlighting"
-msgstr ""
+msgstr "Підсвічування акордів"
 
 #: template/index.html.j2:107
 msgid "Liberating"
@@ -529,7 +531,7 @@ msgstr ""
 
 #: template/index.html.j2:115
 msgid "Programming"
-msgstr ""
+msgstr "Програмування"
 
 #: template/index.html.j2:120
 msgid "Multilingual"
@@ -547,25 +549,25 @@ msgstr ""
 
 #: template/index.html.j2:128
 msgid "Multi-language support"
-msgstr ""
+msgstr "Підтримка багатомовності"
 
 #: template/index.html.j2:133
 msgid "Showcase"
-msgstr ""
+msgstr "Показ"
 
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Ваш браузер не підтримує відео HTML5."
 
 #: template/index.html.j2:225
 msgid "Testimonials"
-msgstr ""
+msgstr "Відгуки"
 
 #: template/index.html.j2:254
 msgid "Affiliates"
-msgstr ""
+msgstr "Партнери"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -573,7 +575,7 @@ msgstr "Довідка - Посібник - Уроки"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "Уроки"
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -604,7 +606,7 @@ msgstr "Знаряддя Рамп"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Запетлені регіони"
 
 #: template/learn.html.j2:96
 msgid "Routing"
@@ -706,7 +708,7 @@ msgstr "Розширення в наборі зі Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Основні розширення"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
@@ -718,7 +720,7 @@ msgstr "Технічні характеристики"
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
-msgstr ""
+msgstr "Преміальні розширення"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
