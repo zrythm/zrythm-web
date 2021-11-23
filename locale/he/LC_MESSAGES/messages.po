@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 09:22+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-11-23 16:33+0000\n"
+"Last-Translator: moshe <shinmem58@gmail.com>\n"
+"Language-Team: Hebrew <https://hosted.weblate.org/projects/zrythm/web/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: template.py:354
@@ -23,7 +26,7 @@ msgstr ""
 
 #: template.py:355
 msgid "Major or minor scale"
-msgstr ""
+msgstr "סולם מינורי או מז'ורי"
 
 #: template.py:356
 msgid "Velocity multiplier per note"
@@ -43,15 +46,15 @@ msgstr ""
 
 #: template.py:363
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "היפוך אנכי/אופקי"
 
 #: template.py:364
 msgid "Step mode"
-msgstr ""
+msgstr "מצב צעד"
 
 #: template.py:365
 msgid "Editable range"
-msgstr ""
+msgstr "טווח הניתן לעריכה"
 
 #: template.py:366
 msgid "Sync to host or free-form"
@@ -71,37 +74,39 @@ msgstr ""
 
 #: common/footer.j2.inc:19
 msgid "The Zrythm contributors"
-msgstr ""
+msgstr "התורמים של Zrythm"
 
 #: common/footer.j2.inc:20
 msgid "Legal"
-msgstr ""
+msgstr "חוקי"
 
 #: common/footer.j2.inc:21
 msgid "Privacy"
-msgstr ""
+msgstr "פרטיות"
 
 #: common/footer.j2.inc:24
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros "
 "Theodotou in the United Kingdom."
 msgstr ""
+"Zrythm והלוגו של Zrythm הם סימנים מסחריים רשומים של Alexandros Theodotou "
+"בבריטניה."
 
 #: common/footer.j2.inc:25
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "עיין ב{מדיניות הסימנים המסחריים} שלנו לפרטים."
 
 #: common/footer.j2.inc:27 template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr ""
+msgstr "מדיניות סימנים מסחריים"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "עוצב על ידי Andrew Harter"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "תחנת עבודה לאודיו דיגיטלית אוטומטית ואינטואיטיבית במיוחד."
 
 #: common/header.j2.inc:32
 msgid ""
@@ -114,39 +119,39 @@ msgstr ""
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
 msgid "Features"
-msgstr ""
+msgstr "תכונות"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "תוספים"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Learn"
-msgstr ""
+msgstr "למד"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "קח חלק בפרוייקט"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
-msgstr ""
+msgstr "הורדה"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "דפי הקהילה וערוצי התקשורת של Zrythm"
 
 #: template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "השתתף"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "הצטרף לפיתוח"
 
 #: template/community.html.j2:47
 msgid "Send an email to our development mailing list for development discussion"
