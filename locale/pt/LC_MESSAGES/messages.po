@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-10-19 07:37+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -140,6 +140,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Transferir"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -302,6 +306,10 @@ msgstr "Suplementos empacotados (básico)"
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "Gravar/carregar está desativado"
+
+#: template/download.html.j2:71
+msgid "Single"
+msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -533,6 +541,10 @@ msgstr ""
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
 msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
+msgstr "Refazer"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -816,9 +828,6 @@ msgstr "Política de Marcas Registadas da Zrythm"
 #~ msgid "Demos"
 #~ msgstr "Demonstrações"
 
-#~ msgid "Remake"
-#~ msgstr "Refazer"
-
 #~ msgid "Bounce in-place"
 #~ msgstr "Saltar no lugar"
 
@@ -892,9 +901,6 @@ msgstr "Política de Marcas Registadas da Zrythm"
 
 #~ msgid "Home"
 #~ msgstr "Início"
-
-#~ msgid "Language"
-#~ msgstr "Idioma"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "Doe através de Bitcoin"

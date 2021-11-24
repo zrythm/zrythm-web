@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-10-23 08:18+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -141,6 +141,10 @@ msgstr "参加する"
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "ダウンロード"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr "言語を選択してください"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -304,6 +308,10 @@ msgstr "同梱プラグイン(基本)"
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "保存/読込無効"
+
+#: template/download.html.j2:71
+msgid "Single"
+msgstr "シングル"
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -527,6 +535,10 @@ msgstr "ショーケース"
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
 msgstr "お使いのブラウザはHTML5ビデオに対応していません。"
+
+#: template/index.html.j2:203
+msgid "Remake"
+msgstr "リメイク"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -802,9 +814,6 @@ msgstr "Zrythmの商標ポリシー"
 #~ msgid "Demos"
 #~ msgstr "デモ"
 
-#~ msgid "Remake"
-#~ msgstr "リメイク"
-
 #~ msgid "Bounce in-place"
 #~ msgstr "イン・プレースのバウンシング"
 
@@ -871,9 +880,6 @@ msgstr "Zrythmの商標ポリシー"
 
 #~ msgid "Home"
 #~ msgstr "トップ"
-
-#~ msgid "Language"
-#~ msgstr "言語"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "ビットコインを使用して寄付する"

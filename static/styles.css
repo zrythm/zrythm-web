@@ -217,7 +217,8 @@ svg {
 .container {
   max-width: 1280px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  overflow-x: none; }
 
 .mt--auto {
   margin-top: auto; }
@@ -767,7 +768,8 @@ svg {
 
 .affiliates__grid {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .community__title {
   margin-top: 1rem; }

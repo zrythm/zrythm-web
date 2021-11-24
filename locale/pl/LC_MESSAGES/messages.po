@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:43+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-09-18 21:53+0000\n"
 "Last-Translator: Mateusz Skórka <mateusz@skorka.hub.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
@@ -137,6 +137,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Pobierz"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -296,6 +300,10 @@ msgstr ""
 
 #: template/download.html.j2:64
 msgid "Save/load disabled"
+msgstr ""
+
+#: template/download.html.j2:71
+msgid "Single"
 msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
@@ -509,6 +517,10 @@ msgstr ""
 msgid "Your browser does not support HTML5 video."
 msgstr ""
 
+#: template/index.html.j2:203
+msgid "Remake"
+msgstr ""
+
 #: template/index.html.j2:225
 msgid "Testimonials"
 msgstr ""
@@ -684,9 +696,6 @@ msgstr ""
 
 #~ msgid "Home"
 #~ msgstr "Strona główna"
-
-#~ msgid "Language"
-#~ msgstr "Język"
 
 #~ msgid "Forum"
 #~ msgstr "Forum"

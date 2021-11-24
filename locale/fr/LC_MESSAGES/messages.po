@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-10-17 15:40+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -142,6 +142,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Télécharger"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -304,6 +308,10 @@ msgstr "Greffons embarqués (de base)"
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "Enregistrement/chargement désactivé"
+
+#: template/download.html.j2:71
+msgid "Single"
+msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -538,6 +546,10 @@ msgstr ""
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
 msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
+msgstr "Refaire"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -822,9 +834,6 @@ msgstr "Politique de marque Zrythm"
 #~ msgid "Demos"
 #~ msgstr "Démos"
 
-#~ msgid "Remake"
-#~ msgstr "Refaire"
-
 #~ msgid "Bounce in-place"
 #~ msgstr "Export sur place"
 
@@ -899,9 +908,6 @@ msgstr "Politique de marque Zrythm"
 
 #~ msgid "Home"
 #~ msgstr "Accueil"
-
-#~ msgid "Language"
-#~ msgstr "Langue"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "Faire un don en Bitcoins"

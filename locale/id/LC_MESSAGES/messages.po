@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-10-16 08:36+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
@@ -139,6 +139,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Unduh"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -299,6 +303,10 @@ msgstr "Plugin yang dibundel (dasar)"
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "Simpan/muat dinonaktifkan"
+
+#: template/download.html.j2:71
+msgid "Single"
+msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -515,6 +523,10 @@ msgstr ""
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
 msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
+msgstr "Remake"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -797,9 +809,6 @@ msgstr "Kebijakan Merek Dagang Zrythm"
 #~ msgid "Demos"
 #~ msgstr "Demo"
 
-#~ msgid "Remake"
-#~ msgstr "Remake"
-
 #~ msgid "Screenshots"
 #~ msgstr "Cuplikan"
 
@@ -856,9 +865,6 @@ msgstr "Kebijakan Merek Dagang Zrythm"
 
 #~ msgid "Home"
 #~ msgstr "Beranda"
-
-#~ msgid "Language"
-#~ msgstr "Bahasa"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "Donasi melalui Bitcoin"

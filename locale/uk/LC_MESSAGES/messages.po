@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-10-20 13:56+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -142,6 +142,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Завантажити"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -303,6 +307,10 @@ msgstr "Розширення в наборі (основні)"
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "Збереження/завантаження вимкнено"
+
+#: template/download.html.j2:71
+msgid "Single"
+msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -535,6 +543,10 @@ msgstr ""
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
 msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
+msgstr "Переріб"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -817,9 +829,6 @@ msgstr "Політика щодо торгових знаків Zrythm"
 #~ msgid "Demos"
 #~ msgstr "Показ можливостей"
 
-#~ msgid "Remake"
-#~ msgstr "Переріб"
-
 #~ msgid "Bounce in-place"
 #~ msgstr "Конвертація на місці"
 
@@ -894,9 +903,6 @@ msgstr "Політика щодо торгових знаків Zrythm"
 
 #~ msgid "Home"
 #~ msgstr "Домівка"
-
-#~ msgid "Language"
-#~ msgstr "Мова"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "Пожертвуйте за допомогою Біткоїна"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-10-04 01:40+0000\n"
 "Last-Translator: Vinicius Monego <monego@posteo.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -141,6 +141,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Baixar"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -302,6 +306,10 @@ msgstr ""
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr "Salvar/carregar desativado"
+
+#: template/download.html.j2:71
+msgid "Single"
+msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -515,6 +523,10 @@ msgstr ""
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
 msgstr ""
 
 #: template/index.html.j2:225
@@ -810,9 +822,6 @@ msgstr "Política de Marca Comercial do Zrythm"
 #~ msgstr ""
 #~ "Um DAW é usado para compor, gravar, editar, arranjar, mixar e masterizar "
 #~ "música"
-
-#~ msgid "Language"
-#~ msgstr "Linguagem"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "Doar utilizando Bitcoin"

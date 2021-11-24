@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 07:46+0100\n"
+"POT-Creation-Date: 2021-10-23 12:58+0100\n"
 "PO-Revision-Date: 2021-08-10 04:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -137,6 +137,10 @@ msgstr ""
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
 msgstr "Last ned"
+
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -296,6 +300,10 @@ msgstr ""
 
 #: template/download.html.j2:64
 msgid "Save/load disabled"
+msgstr ""
+
+#: template/download.html.j2:71
+msgid "Single"
 msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
@@ -507,6 +515,10 @@ msgstr ""
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
 msgstr ""
 
 #: template/index.html.j2:225
@@ -780,9 +792,6 @@ msgstr "Zrythm-varemerkepraksis"
 
 #~ msgid "Home"
 #~ msgstr "Hjem"
-
-#~ msgid "Language"
-#~ msgstr "Språk"
 
 #~ msgid "Donate using Bitcoin"
 #~ msgstr "Doner ved bruk av bitcoin"
