@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2021-08-21 04:35+0000\n"
+"PO-Revision-Date: 2021-11-25 22:50+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
 "Language: tr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Weblate 4.8-dev\n"
 
 #: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -101,7 +101,7 @@ msgstr "Ticari marka politikası"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Andrew Harter tarafından tasarlandı"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
@@ -114,6 +114,10 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, dijital ses iş istasyonu, müzik prodüksiyonu, ses, profesyonel ses, "
+"Linux, GNU/Linux, özgür yazılım, ses düzenleyici, kompozisyon, MIDI, LV2, "
+"JACK, VST, ses eklentisi, kayıt, düzenleme, aranjman, aranjör, karıştırma, "
+"mastering"
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
@@ -133,7 +137,7 @@ msgstr "Öğren"
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "Dahil Ol"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
@@ -142,7 +146,7 @@ msgstr "İndir"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
-msgstr ""
+msgstr "Dil Seç"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -150,50 +154,53 @@ msgstr "Zrythm topluluk sayfaları ve iletişim kanalları"
 
 #: template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Katkıda Bulun"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "Geliştirmeye Katıl"
 
 #: template/community.html.j2:47
 msgid ""
 "Send an email to our development mailing list for development discussion"
 msgstr ""
+"Geliştirmeyle ilgili tartışmalar için geliştirme posta listemize bir e-posta "
+"gönderin"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "Özellik İstekleri Gönder"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
-msgstr ""
+msgstr "Özellik izleyicimize göz atın ve özellik istekleri gönderin."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "Hata Bildirimleri Gönder"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
+msgstr "Hata izleyicimize göz atın ve hata bildirimleri gönderin."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Zrythm'i Çevir"
 
 #: template/community.html.j2:74
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
+"Zrythm DAW, kullanım kılavuzu ve web sitelerimizi kendi dilinize çevirin."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "İrtibata Geç"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "IRC'de bizimle sohbet edin"
 
 #: template/community.html.j2:90
 msgid ""
@@ -201,76 +208,90 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"IRC kanalımız Libera.Chat'te #zrythm (<code>irc://irc.libera.chat/"
+"zrythm</code>). <code>zrythm/user/*</code> pelerini için bir operatör ping "
+"atmaktan çekinmeyin."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Matrix'te bizimle sohbet edin"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix, güvenli ve dağıtık iletişim için açık bir standarttır. #zrythmdaw:"
+"matrix.org Matrix kanalımızdır ve IRC ile köprülenmiştir."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "Kullanıcı Tartışması Posta Listemize Katılın"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
 msgstr ""
+"Kullanıcı tartışması posta listemize katılın ve deneyiminizi topluluğun geri "
+"kalanıyla paylaşın."
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "Duyuru Posta Listesine Abone Olun"
 
 #: template/community.html.j2:117
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay up "
 "to date with important announcements."
 msgstr ""
+"Önemli duyurulardan haberdar olmak için salt okunur ve düşük hacimli Duyuru "
+"e-posta listemize abone olun."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Bizi Mastodon'da takip edin"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Yeni sürümler hakkında güncellemeler almak ve yeni özelliklere önceden göz "
+"atmak, anketlerde oy kullanmak ve daha fazlası için bizi Mastodon'da takip "
+"edin."
 
 #: template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "Bağış Yap"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "Kripto para bağışla"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Bize Bitcoin (BTC), Litecoin (LTC) veya Monero (XMR) gönderin."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "LiberaPay'de bağış yap"
 
 #: template/community.html.j2:151
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
+"LiberaPay'de sponsor olun. PayPal kullanarak bağış yapabilir veya Avrupa'da "
+"bir banka hesabıyla ödeme yapabilirsiniz."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Open Collective'de bağış yap"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Open Collective'de bağış yapın ve herkese açık harcamalarımızı görün."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -279,23 +300,23 @@ msgstr ""
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Platform Seç"
 
 #: template/download.html.j2:49
 msgid "Downloads"
-msgstr ""
+msgstr "İndirmeler"
 
 #: template/download.html.j2:55
 msgid "Installers"
-msgstr ""
+msgstr "Kurucular"
 
 #: template/download.html.j2:60
 msgid "Basic"
-msgstr ""
+msgstr "Temel"
 
 #: template/download.html.j2:61
 msgid "Free"
-msgstr ""
+msgstr "Ücretsiz"
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
@@ -303,11 +324,11 @@ msgstr "Eklenti paketleri (temel)"
 
 #: template/download.html.j2:64
 msgid "Save/load disabled"
-msgstr ""
+msgstr "Kaydet/yükle devre dışı"
 
 #: template/download.html.j2:71
 msgid "Single"
-msgstr ""
+msgstr "Tek"
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -326,7 +347,7 @@ msgstr "PDF kullanım talimatları"
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
-msgstr ""
+msgstr "Satın al"
 
 #: template/download.html.j2:83
 msgid "Bundle"
@@ -334,15 +355,15 @@ msgstr ""
 
 #: template/download.html.j2:89 template/download.html.j2:102
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Tüm v1 sürümlerine erişim"
 
 #: template/download.html.j2:95
 msgid "Nightly"
-msgstr ""
+msgstr "Gecelik"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "ay"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
@@ -354,11 +375,11 @@ msgstr "Abone ol"
 
 #: template/download.html.j2:110
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
+msgstr "Bir kurucu satın alarak Zrythm'i destekleyin. Bu ay aldığımız:"
 
 #: template/download.html.j2:119
 msgid "Source Code"
-msgstr ""
+msgstr "Kaynak Kodu"
 
 #: template/download.html.j2:122
 msgid "Releases"
@@ -370,7 +391,7 @@ msgstr "GPG Anahtarı"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Özellikler listesi."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
@@ -406,7 +427,7 @@ msgstr ""
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Dijital Ses İş İstasyonu"
 
 #: template/index.html.j2:23
 msgid ""
@@ -439,7 +460,7 @@ msgstr ""
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Ses Eklentileri"
 
 #: template/index.html.j2:67
 msgid ""
@@ -451,11 +472,11 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr ""
+msgstr "Ses eklentileri"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
-msgstr ""
+msgstr "Çoklu Arka Uç Desteği"
 
 #: template/index.html.j2:80
 msgid ""
@@ -466,7 +487,7 @@ msgstr ""
 
 #: template/index.html.j2:88
 msgid "Audio backends"
-msgstr ""
+msgstr "Ses arka uçları"
 
 #: template/index.html.j2:93
 msgid "Chord Assistance"
@@ -498,7 +519,7 @@ msgstr ""
 
 #: template/index.html.j2:115
 msgid "Programming"
-msgstr ""
+msgstr "Programlama"
 
 #: template/index.html.j2:120
 msgid "Multilingual"
@@ -516,7 +537,7 @@ msgstr ""
 
 #: template/index.html.j2:128
 msgid "Multi-language support"
-msgstr ""
+msgstr "Çoklu dil desteği"
 
 #: template/index.html.j2:133
 msgid "Showcase"
@@ -526,7 +547,7 @@ msgstr ""
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Tarayıcınız HTML5 videoyu desteklemiyor."
 
 #: template/index.html.j2:203
 msgid "Remake"
@@ -546,7 +567,7 @@ msgstr ""
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "Öğreticiler"
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -675,7 +696,7 @@ msgstr "Zrythm ile birlikte gelen eklentiler"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Temel Eklentiler"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
