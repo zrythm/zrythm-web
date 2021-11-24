@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 12:58+0100\n"
-"PO-Revision-Date: 2021-09-13 10:46+0000\n"
-"Last-Translator: Yokox1 <mryokox@outlook.com>\n"
+"PO-Revision-Date: 2021-11-23 16:32+0000\n"
+"Last-Translator: moshe <shinmem58@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -102,7 +102,7 @@ msgstr "Política de marcas registradas"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Diseñado por Andrew Harter"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."

@@ -1,93 +1,90 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# Weblate Admin <weblate.admin@zrythm.org>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 12:58+0100\n"
-"PO-Revision-Date: 2021-10-28 18:44+0000\n"
-"Last-Translator: Alaa alden Aldroubi <alaa.aldroubi@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
-"Language: ar\n"
+"POT-Creation-Date: 2021-10-23 09:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.9-dev\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "يرسم ZChordz أوتار النطاق الصغير أو الرئيسي للمفاتيح البيضاء"
+msgstr ""
 
 #: template.py:355
 msgid "Major or minor scale"
-msgstr "مقياس رئيسي أو ثانوي"
+msgstr ""
 
 #: template.py:356
 msgid "Velocity multiplier per note"
-msgstr "مضاعف السرعة لكل ملاحظة"
+msgstr ""
 
 #: template.py:360
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO هو LFO لاكن مميز بالكامل للأتممة المستندة إلى السيرة الذاتية"
+msgstr ""
 
 #: template.py:361
 msgid "Multi-oscillator with custom wave"
-msgstr "مذبذب متعدد بموجة مخصصة"
+msgstr ""
 
 #: template.py:362
 msgid "Phase shift"
-msgstr "مرحلة التحول"
+msgstr ""
 
 #: template.py:363
 msgid "Vertical/horizontal inversion"
-msgstr "الانقلاب الرأسي / الأفقي"
+msgstr ""
 
 #: template.py:364
 msgid "Step mode"
-msgstr "وضع الخطوة"
+msgstr ""
 
 #: template.py:365
 msgid "Editable range"
-msgstr "نطاق قابل للتعديل"
+msgstr ""
 
 #: template.py:366
 msgid "Sync to host or free-form"
-msgstr "مزامنة لاستضافة أو شكل حر"
+msgstr ""
 
 #: template.py:369
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr "ZSaw هو موالفة supersaw مع معلمة 1"
+msgstr ""
 
 #: template.py:370
 msgid "7 sawtooth oscillators"
-msgstr "7 مذبذبات sawtooth"
+msgstr ""
 
 #: template.py:371
 msgid "Single knob to control detune"
-msgstr "مقبض واحد للتحكم على detune"
+msgstr ""
 
 #: common/footer.j2.inc:19
 msgid "The Zrythm contributors"
-msgstr "المساهمون فى Zrythm"
+msgstr ""
 
 #: common/footer.j2.inc:20
 msgid "Legal"
-msgstr "القانون"
+msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "Privacy"
-msgstr "خصوصية"
+msgstr ""
 
 #: common/footer.j2.inc:24
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are registered trademarks of Alexandros "
+"Theodotou in the United Kingdom."
 msgstr ""
 
 #: common/footer.j2.inc:25
@@ -96,7 +93,7 @@ msgstr ""
 
 #: common/footer.j2.inc:27 template/trademarks.html.j2:19
 msgid "Trademark Policy"
-msgstr "سياسة العلامات التجارية"
+msgstr ""
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
@@ -108,39 +105,35 @@ msgstr ""
 
 #: common/header.j2.inc:32
 msgid ""
-"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
-"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
-" mastering"
+"DAW, digital audio workstation, music production, audio, pro audio, "
+"Linux, GNU/Linux, free software, libre software, sound editor, "
+"composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, "
+"arrange, arranger, mixing, mastering"
 msgstr ""
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
 msgid "Features"
-msgstr "المميزات"
+msgstr ""
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr "الإضافات"
+msgstr ""
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Learn"
-msgstr "تعلم"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr "شارك"
+msgstr ""
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
-msgstr "تنزيل"
-
-#: common/navigation.j2.inc:40
-msgid "Select Language"
 msgstr ""
 
 #: template/community.html.j2:22
@@ -156,8 +149,7 @@ msgid "Join Development"
 msgstr ""
 
 #: template/community.html.j2:47
-msgid ""
-"Send an email to our development mailing list for development discussion"
+msgid "Send an email to our development mailing list for development discussion"
 msgstr ""
 
 #: template/community.html.j2:53
@@ -197,8 +189,8 @@ msgstr ""
 #: template/community.html.j2:90
 msgid ""
 "Our IRC channel is #zrythm on Libera.Chat "
-"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
-"for a <code>zrythm/user/*</code> cloak."
+"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an "
+"operator for a <code>zrythm/user/*</code> cloak."
 msgstr ""
 
 #: template/community.html.j2:96
@@ -207,8 +199,8 @@ msgstr ""
 
 #: template/community.html.j2:99
 msgid ""
-"Matrix is an open standard for secure and decentralized communication. Our "
-"Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
+"Matrix is an open standard for secure and decentralized communication. "
+"Our Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
 
 #: template/community.html.j2:105
@@ -227,8 +219,8 @@ msgstr ""
 
 #: template/community.html.j2:117
 msgid ""
-"Subscribe to our read-only and low volume Announce mailing list to stay up "
-"to date with important announcements."
+"Subscribe to our read-only and low volume Announce mailing list to stay "
+"up to date with important announcements."
 msgstr ""
 
 #: template/community.html.j2:123
@@ -237,8 +229,8 @@ msgstr ""
 
 #: template/community.html.j2:126
 msgid ""
-"Follow us on Mastodon to get updates on new releases and get sneak peeks at "
-"new features, vote in polls, and more."
+"Follow us on Mastodon to get updates on new releases and get sneak peeks "
+"at new features, vote in polls, and more."
 msgstr ""
 
 #: template/community.html.j2:133
@@ -297,30 +289,26 @@ msgstr ""
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
-msgstr "الإضافات المجمعة (الأساسية)"
+msgstr ""
 
 #: template/download.html.j2:64
 msgid "Save/load disabled"
 msgstr ""
 
-#: template/download.html.j2:71
-msgid "Single"
-msgstr ""
-
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
 msgid "Compiled with all features"
-msgstr "جمعت مع جميع المميزات"
+msgstr ""
 
 #: template/download.html.j2:75 template/download.html.j2:87
 #: template/download.html.j2:100
 msgid "Bundled plugins (all)"
-msgstr "الإضافات المجمعة (الكل)"
+msgstr ""
 
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:101
 msgid "PDF user manual"
-msgstr "دليل مستخدم PDF"
+msgstr ""
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
@@ -344,11 +332,11 @@ msgstr ""
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr "الحصول على نسخ البيتا"
+msgstr ""
 
 #: template/download.html.j2:105
 msgid "Subscribe"
-msgstr "الإشتراك"
+msgstr ""
 
 #: template/download.html.j2:110
 msgid "Support Zrythm by purchasing an installer. This month we received:"
@@ -360,11 +348,11 @@ msgstr ""
 
 #: template/download.html.j2:122
 msgid "Releases"
-msgstr "الإصدارات"
+msgstr ""
 
 #: template/download.html.j2:123
 msgid "GPG Key"
-msgstr "مفتاح GPG"
+msgstr ""
 
 #: template/features.html.j2:23
 msgid "List of features."
@@ -376,7 +364,7 @@ msgstr ""
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr "إنشاء وتحرير وترتيب نغمات MIDI في Piano roll مخصصة."
+msgstr ""
 
 #: template/features.html.j2:51
 msgid "Anywhere-to-Anywhere Connections"
@@ -384,7 +372,7 @@ msgstr ""
 
 #: template/features.html.j2:53
 msgid "Connect anything to anything."
-msgstr "قم بتوصيل أي شيء بأي شيء."
+msgstr ""
 
 #: template/features.html.j2:63
 msgid "Bounce in Place"
@@ -392,7 +380,7 @@ msgstr ""
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
-msgstr "سرعة ارتداد الاشياء المحددة إلى الصوت."
+msgstr ""
 
 #: template/features.html.j2:75
 msgid "Automation Curves"
@@ -400,17 +388,17 @@ msgstr ""
 
 #: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
-msgstr "أتمام موازين البارات بخطوط مستقيمة أو منحنيات."
+msgstr ""
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr "محطة عمل الصوت الرقمي"
+msgstr ""
 
 #: template/index.html.j2:23
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy to "
-"use. It allows limitless automation, supports LV2 plugins, works with the "
-"JACK audio backend and provides chord assistance."
+"Zrythm is a digital audio workstation designed to be featureful and easy "
+"to use. It allows limitless automation, supports LV2 plugins, works with "
+"the JACK audio backend and provides chord assistance."
 msgstr ""
 
 #: template/index.html.j2:36
@@ -427,13 +415,13 @@ msgstr ""
 
 #: template/index.html.j2:53
 msgid ""
-"Automate almost anything with automation events using straight lines, ramps "
-"and curves, or with LFOs and envelopes."
+"Automate almost anything with automation events using straight lines, "
+"ramps and curves, or with LFOs and envelopes."
 msgstr ""
 
 #: template/index.html.j2:60
 msgid "Automation curves"
-msgstr "منحنيات التشغيل الآلي"
+msgstr ""
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
@@ -441,11 +429,9 @@ msgstr ""
 
 #: template/index.html.j2:67
 msgid ""
-"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-"experimental support for VST3, AU, SFZ and SF2."
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, "
+"with experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
-"دعم كامل ل <a href=\"https://lv2plug.in/\">LV2</a> و VST2 مع دعم تجريبي ل "
-"VST3 و AU و SFZ و SF2."
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
@@ -457,9 +443,9 @@ msgstr ""
 
 #: template/index.html.j2:80
 msgid ""
-"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
-"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
-"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including "
+"support for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK "
+"transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
 #: template/index.html.j2:88
@@ -472,8 +458,8 @@ msgstr ""
 
 #: template/index.html.j2:95
 msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to assist with chord progressions."
+"Featuring a chord pad for quickly trying out chords in a scale and a "
+"chord track to assist with chord progressions."
 msgstr ""
 
 #: template/index.html.j2:102
@@ -482,13 +468,13 @@ msgstr ""
 
 #: template/index.html.j2:107
 msgid "Liberating"
-msgstr "تحرير"
+msgstr ""
 
 #: template/index.html.j2:109
 msgid ""
 "Zrythm is <a "
-"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
-"software</a>. Use, study, share and improve it freely."
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free"
+" software</a>. Use, study, share and improve it freely."
 msgstr ""
 
 #: template/index.html.j2:115
@@ -501,9 +487,9 @@ msgstr ""
 
 #: template/index.html.j2:122
 msgid ""
-"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
-"languages</a> including English, French, Spanish, Portuguese, Japanese and "
-"German."
+"Available in <a "
+"href=\"https://hosted.weblate.org/engage/zrythm/\">multiple languages</a>"
+" including English, French, Spanish, Portuguese, Japanese and German."
 msgstr ""
 
 #: template/index.html.j2:128
@@ -520,10 +506,6 @@ msgstr ""
 msgid "Your browser does not support HTML5 video."
 msgstr ""
 
-#: template/index.html.j2:203
-msgid "Remake"
-msgstr ""
-
 #: template/index.html.j2:225
 msgid "Testimonials"
 msgstr ""
@@ -534,7 +516,7 @@ msgstr ""
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr "صفحات مرجعية Zrythm - دليل المستخدم - دروس"
+msgstr ""
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
@@ -549,7 +531,7 @@ msgstr ""
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr "متصفحك لا يدعم فيديو HTML5"
+msgstr ""
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
@@ -573,7 +555,7 @@ msgstr ""
 
 #: template/learn.html.j2:96
 msgid "Routing"
-msgstr "التوجيه"
+msgstr ""
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
@@ -593,32 +575,32 @@ msgstr ""
 
 #: template/learn.html.j2:136
 msgid "Documentation"
-msgstr "الوثائق"
+msgstr ""
 
 #: template/learn.html.j2:138
 msgid "User Manual"
-msgstr "دليل المستخدم"
+msgstr ""
 
 #: template/learn.html.j2:139
 msgid "Developer Reference"
-msgstr "مرجع المطور"
+msgstr ""
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr "المعلومات القانونية"
+msgstr ""
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr "المعلومات القانونية والترخيصية ومعلومات العلامات التجارية"
+msgstr ""
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr "الترخيص"
+msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
-"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
-" is released under the <a "
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
+"Zrythm is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
@@ -626,35 +608,35 @@ msgstr ""
 #: template/legal.html.j2:50
 msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
-"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
-"Commons Attribution-ShareAlike 4.0 International</a>."
+"under <a href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
 #: template/legal.html.j2:56
 msgid ""
-"The <em>Richard Stallman: Free software, free society</em> video is licensed"
-" under Creative Commons BY-SA-ND 3.0."
+"The <em>Richard Stallman: Free software, free society</em> video is "
+"licensed under Creative Commons BY-SA-ND 3.0."
 msgstr ""
 
 #: template/legal.html.j2:60
 msgid ""
-"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
-"Http://kwis.tumblr.com), Valentin Pasquier "
-"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
-"himself and Ynternet.org foundation."
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis,"
+" Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
+"by himself and Ynternet.org foundation."
 msgstr ""
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
-msgstr "العلامات التجارية"
+msgstr ""
 
 #: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr "Zrythm وشعار Zrythm هما علامتان تجاريتان لشركة Alexandros Theodotou."
+msgstr ""
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr "الإضافات المجمعة مع Zrythm"
+msgstr ""
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
@@ -662,11 +644,11 @@ msgstr ""
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
-msgstr "{} لقطة شاشة"
+msgstr ""
 
 #: template/plugins.html.j2:57
 msgid "Technical specs"
-msgstr "المواصفات التقنية"
+msgstr ""
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
@@ -675,7 +657,7 @@ msgstr ""
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr "سياسة خاصة"
+msgstr ""
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
@@ -683,141 +665,4 @@ msgstr ""
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr "سياسة Zrythm للعلامة التجارية"
-
-#~ msgid "Try Now"
-#~ msgstr "جرب الآن"
-
-#~ msgid ""
-#~ "This is a trial version with limited functionality. Please select your "
-#~ "operating system."
-#~ msgstr "هذه نسخة تجريبية بوظائف محدودة. يرجى تحديد نظام التشغيل الخاص بك."
-
-#~ msgid "Windows 64-bit"
-#~ msgstr "ويندوز ٦٤-بت"
-
-#~ msgid "Support Zrythm by purchasing an installer."
-#~ msgstr "دعم Zrythm عن طريق شراء المثبت."
-
-#~ msgid "This month we received £{amount}."
-#~ msgstr "تلقينا هذا الشهر £{amount}."
-
-#~ msgid "Installer"
-#~ msgstr "المثبت"
-
-#~ msgid "full"
-#~ msgstr "كامل"
-
-#~ msgid "subscription"
-#~ msgstr "اشتراك"
-
-#~ msgid "<b>£0</b>"
-#~ msgstr "<b>£0</b>"
-
-#~ msgid "<b>£5</b> single version"
-#~ msgstr "<b>£5</b> نسخة واحدة"
-
-#~ msgid "Full version"
-#~ msgstr "نسخة كاملة"
-
-#~ msgid "Upgrades to new releases"
-#~ msgstr "تحديثات للإصدارات الجديدة"
-
-#~ msgid "<b>£5/month</b>"
-#~ msgstr "<b>£5/شهر</b>"
-
-#~ msgid "Project"
-#~ msgstr "المشروع"
-
-#~ msgid "Chat"
-#~ msgstr "رساله"
-
-#~ msgid "Community"
-#~ msgstr "المجتمع"
-
-#~ msgid "Explore"
-#~ msgstr "اكتشف"
-
-#~ msgid "List of features, functionality, and reviews"
-#~ msgstr "قائمة الميزات والوظائف والمراجعات"
-
-#~ msgid "Demos"
-#~ msgstr "تجريبي"
-
-#~ msgid "Bounce in-place"
-#~ msgstr "ترتد في المكان"
-
-#~ msgid "Reviews"
-#~ msgstr "المراجعات"
-
-#~ msgid "Article from Issue 229/2019 of Linux Magazine"
-#~ msgstr "مقالة من العدد 229/2019 من مجلة لينكس"
-
-#~ msgid ""
-#~ "Zrythm is a {tooltip1}cross-platform{endtooltip} {tooltip2}digital audio "
-#~ "workstation{endtooltip} designed to be featureful and easy to use."
-#~ msgstr ""
-#~ "Zrythm عبارة عن {tooltip1} عبر الأنظمة الأساسية {endtooltip} {tooltip2} محطة"
-#~ " عمل صوتية رقمية {endtooltip} تم تصميمها لتكون مميزة وسهلة الاستخدام."
-
-#~ msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-#~ msgstr "يعمل Zrythm على جنو / لينكس و ماك أو إس و ويندوز"
-
-#~ msgid ""
-#~ "A DAW is used for composing, recording, editing, arranging, mixing and "
-#~ "mastering music"
-#~ msgstr ""
-#~ "يتم استخدام محطة عمل الصوت الرقمي لتأليف الموسيقى وتسجيلها وتحريرها وترتيبها"
-#~ " وخلطها وإتقانها"
-
-#~ msgid "Donate using Bitcoin"
-#~ msgstr "تبرع بواسطة البتكوين"
-
-#~ msgid ""
-#~ "Thank you for supporting development! You will receive an email soon with "
-#~ "instructions to download your installer."
-#~ msgstr ""
-#~ "شكرا لدعم التنمية! ستتلقى بريدًا إلكترونيًا قريبًا مع تعليمات لتنزيل برنامج "
-#~ "التثبيت."
-
-#~ msgid "Go back to home page"
-#~ msgstr "أرجع الى قائمه رئيسيه"
-
-#~ msgid "Forum"
-#~ msgstr "المنتدى"
-
-#~ msgid "Just For Kicks"
-#~ msgstr "Just For Kicks"
-
-#~ msgid "Zrythm + BJumblr jam"
-#~ msgstr "Zrythm + BJumblr jam"
-
-#~ msgid "Users"
-#~ msgstr "المستخدمون"
-
-#~ msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-#~ msgstr ""
-#~ "مقطع فيديو من <a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg "
-#~ "</a>"
-
-#~ msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-#~ msgstr "فيديو من <a href=\"https://mastodon.social/@unfa\"> unfa </a>"
-
-#~ msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-#~ msgstr "فيديو من <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-
-#~ msgid ""
-#~ "Composed by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-#~ msgstr "تأليف <a href=\"https://sonomu.club/@rghvdberg\"> Rob van den Berg </a>"
-
-#~ msgid "Contact"
-#~ msgstr "الاتصال"
-
-#~ msgid "FAQ"
-#~ msgstr "سؤال شائع"
-
-#~ msgid "Join Us"
-#~ msgstr "انضم الينا"
-
-#~ msgid "Glossary"
-#~ msgstr "مسرد"
+msgstr ""

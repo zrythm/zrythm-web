@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 12:58+0100\n"
-"PO-Revision-Date: 2021-10-17 15:40+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2021-11-23 16:32+0000\n"
+"Last-Translator: Antoine Do Nascimento <antoinedn@live.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -103,7 +103,7 @@ msgstr "Politique de marque"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Conçu par Andrew Harter"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
@@ -117,6 +117,10 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"STAN, station audio numérique, production sonore, audio, pro audio, Linux, "
+"GNU/Linux, logiciel gratuit, logiciel libre, éditeur audio, composition, "
+"MIDI, LV2, JACK, VST, greffon audio, enregistrement, édition, arrangement, "
+"arrangeur, mixage, mastering"
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
@@ -136,7 +140,7 @@ msgstr "Apprendre"
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "Participez"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
@@ -153,50 +157,58 @@ msgstr "Les pages communautaires et les canaux de communication de Zrythm"
 
 #: template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuez"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "Rejoindre le développement"
 
 #: template/community.html.j2:47
 msgid ""
 "Send an email to our development mailing list for development discussion"
 msgstr ""
+"Envoyez un courriel à notre liste de diffusion de développement pour "
+"discuter de développement"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "Soumettez des demandes de fonctionnalité"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
 msgstr ""
+"Parcourir notre suivi de fonctionnalités et soumettez des demandes de "
+"fonctionnalités."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "Soumettez des rapports de bogue"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
 msgstr ""
+"Parcourir notre système de suivi des bogues et soumettez des rapports de "
+"bogues."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Traduire Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
+"Traduire la STAN Zrythm, le manuel utilisateur et nos sites web dans votre "
+"langue."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "Contactez-nous"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "Discuter avec nous sur IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -204,46 +216,59 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"Notre canal IRC est #zrythm sur Libera.Chat (<code>irc://irc.libera.chat/"
+"zrythm</code>). Sentez vous libre de demander un cloak <code>zrythm/user/*</"
+"code> à un opérateur."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Discuter avec nous sur Matrix"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix est un standard ouvert pour la communication sécurisée et "
+"décentralisée. Notre canal Matrix est #zrythmdaw:matrix.org et il est relié "
+"avec IRC."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "Rejoignez notre liste de diffusion pour les discussions utilisateurs"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
 msgstr ""
+"Rejoignez notre liste de discussion des utilisateurs et partagez votre "
+"expérience avec le reste de la communauté."
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "Abonnez-vous à la liste de diffusion d'annonces"
 
 #: template/community.html.j2:117
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay up "
 "to date with important announcements."
 msgstr ""
+"Inscrivez-vous à notre liste de diffusion Announce en lecture seule et à "
+"faible volume pour rester au courant des annonces importantes."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Suivez-nous sur Mastodon"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Suivez-nous sur Mastodon pour recevoir des mises à jour sur les nouvelles "
+"versions et découvrir en avant-première les nouvelles fonctionnalités, voter "
+"dans les sondages, et plus encore."
 
 #: template/community.html.j2:133
 msgid "Donate"
@@ -251,29 +276,31 @@ msgstr "Faire un don"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "Donnez de la crypto-monnaie"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Envoyez-nous des Bitcoin (BTC), des Litecoin (LTC) ou des Monero (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "Donnez sur LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
+"Devenir un sponsor sur LiberaPay. Vous pouvez donner par le biais de PayPal, "
+"ou payer avec un compte bancaire en Europe."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Donnez sur Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Donnez sur Open Collective et consultez nos dépenses publiques."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -283,23 +310,23 @@ msgstr ""
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Choisir une plateforme"
 
 #: template/download.html.j2:49
 msgid "Downloads"
-msgstr ""
+msgstr "Téléchargements"
 
 #: template/download.html.j2:55
 msgid "Installers"
-msgstr ""
+msgstr "Installateurs"
 
 #: template/download.html.j2:60
 msgid "Basic"
-msgstr ""
+msgstr "Basique"
 
 #: template/download.html.j2:61
 msgid "Free"
-msgstr ""
+msgstr "Gratuit"
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
@@ -330,27 +357,27 @@ msgstr "Manuel utilisateur PDF"
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
-msgstr ""
+msgstr "Acheter"
 
 #: template/download.html.j2:83
 msgid "Bundle"
-msgstr ""
+msgstr "Paquet"
 
 #: template/download.html.j2:89 template/download.html.j2:102
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Accès à toutes nos versions v1"
 
 #: template/download.html.j2:95
 msgid "Nightly"
-msgstr ""
+msgstr "Nocturne"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "mo"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr "Accès aux versions nighly"
+msgstr "Accès aux constructions nocturnes"
 
 #: template/download.html.j2:105
 msgid "Subscribe"
@@ -359,10 +386,11 @@ msgstr "S'abonner"
 #: template/download.html.j2:110
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
+"Soutenir Zrythm en achetant un installateur. Ce mois ci, nous avons reçu :"
 
 #: template/download.html.j2:119
 msgid "Source Code"
-msgstr ""
+msgstr "Code source"
 
 #: template/download.html.j2:122
 msgid "Releases"
@@ -374,11 +402,11 @@ msgstr "Clé GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Liste de fonctionnalités."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
-msgstr ""
+msgstr "Piano Roll"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -387,7 +415,7 @@ msgstr ""
 
 #: template/features.html.j2:51
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "Connexions de partout vers partout"
 
 #: template/features.html.j2:53
 msgid "Connect anything to anything."
@@ -403,7 +431,7 @@ msgstr "Exporter rapidement en audio la sélection."
 
 #: template/features.html.j2:75
 msgid "Automation Curves"
-msgstr ""
+msgstr "Courbes d'automatisation"
 
 #: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
@@ -426,11 +454,11 @@ msgstr ""
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "Une station audio numérique hautement automatisée et intuitive"
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "En savoir plus"
 
 #: template/index.html.j2:51
 msgid "Limitless automation"
@@ -451,7 +479,7 @@ msgstr "Courbes d'automatisation"
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Greffons audio"
 
 #: template/index.html.j2:67
 msgid ""
@@ -463,11 +491,11 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr ""
+msgstr "Greffons audio"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
-msgstr ""
+msgstr "Support multi-dorsal"
 
 #: template/index.html.j2:80
 msgid ""
@@ -482,11 +510,11 @@ msgstr ""
 
 #: template/index.html.j2:88
 msgid "Audio backends"
-msgstr ""
+msgstr "Dorsaux audio"
 
 #: template/index.html.j2:93
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Assistance d'accords"
 
 #: template/index.html.j2:95
 msgid ""
@@ -498,7 +526,7 @@ msgstr ""
 
 #: template/index.html.j2:102
 msgid "Chord highlighting"
-msgstr ""
+msgstr "Surlignage d'accords"
 
 #: template/index.html.j2:107
 msgid "Liberating"
@@ -516,7 +544,7 @@ msgstr ""
 
 #: template/index.html.j2:115
 msgid "Programming"
-msgstr ""
+msgstr "Programmation"
 
 #: template/index.html.j2:120
 msgid "Multilingual"
@@ -535,17 +563,17 @@ msgstr ""
 
 #: template/index.html.j2:128
 msgid "Multi-language support"
-msgstr ""
+msgstr "Support multi-langues"
 
 #: template/index.html.j2:133
 msgid "Showcase"
-msgstr ""
+msgstr "Vitrine"
 
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Votre navigateur ne supporte pas la vidéo HTML5."
 
 #: template/index.html.j2:203
 msgid "Remake"
@@ -553,11 +581,11 @@ msgstr "Refaire"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
-msgstr ""
+msgstr "Témoignages"
 
 #: template/index.html.j2:254
 msgid "Affiliates"
-msgstr ""
+msgstr "Nos affiliés"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -565,7 +593,7 @@ msgstr "Pages de référence Zrythm - manuel utilisateur - didacticiels"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "Didacticiels"
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -596,7 +624,7 @@ msgstr "Outil de rampe"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Régions de bouclage"
 
 #: template/learn.html.j2:96
 msgid "Routing"
@@ -700,7 +728,7 @@ msgstr "Greffons embarqués avec Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Greffons fondamentaux"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
@@ -712,7 +740,7 @@ msgstr "Spécifications techniques"
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
-msgstr ""
+msgstr "Greffons premium"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31

@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 12:58+0100\n"
-"PO-Revision-Date: 2021-10-19 03:36+0000\n"
-"Last-Translator: Eric <spice2wolf@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2021-11-16 00:51+0000\n"
+"Last-Translator: Paul Leung <labrusca@live.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -99,7 +100,7 @@ msgstr "商标策略"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "由Andrew Harter设计"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
@@ -148,20 +149,20 @@ msgstr "Zrythm 的社区页面和交流渠道"
 
 #: template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "贡献"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "加入开发"
 
 #: template/community.html.j2:47
 msgid ""
 "Send an email to our development mailing list for development discussion"
-msgstr ""
+msgstr "发送一封电子邮件到我们的开发邮件列表以进行开发讨论"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "提交功能请求"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
@@ -177,7 +178,7 @@ msgstr ""
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "翻译Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
