@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-10-23 09:22+0100\n"
-"PO-Revision-Date: 2021-11-23 16:33+0000\n"
+"PO-Revision-Date: 2021-11-24 11:40+0000\n"
 "Last-Translator: moshe <shinmem58@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/zrythm/web/he/>\n"
 "Language: he\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: template.py:354
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "Zchordz יוצר מפת אקורדים של סולם מינורי או מז'ורי על הקלידים הלבנים"
 
 #: template.py:355
 msgid "Major or minor scale"
@@ -30,19 +30,19 @@ msgstr "סולם מינורי או מז'ורי"
 
 #: template.py:356
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "מכפיל מהירות לפי תו"
 
 #: template.py:360
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO הוא LFO בעל כל התכונות בכדי לבצע אוטומציה על בסיס CV"
 
 #: template.py:361
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "מולטי מתנד עם גל מותאם אישית"
 
 #: template.py:362
 msgid "Phase shift"
-msgstr ""
+msgstr "שינוי פאזה"
 
 #: template.py:363
 msgid "Vertical/horizontal inversion"
@@ -58,19 +58,19 @@ msgstr "טווח הניתן לעריכה"
 
 #: template.py:366
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "סנכרון למארח או בצורה חופשית"
 
 #: template.py:369
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw הוא סינת' supersaw עם פרמטר אחד"
 
 #: template.py:370
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 מתנדי sawtooth"
 
 #: template.py:371
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "ידית יחידה לשליטה ב-detune"
 
 #: common/footer.j2.inc:19
 msgid "The Zrythm contributors"
@@ -115,11 +115,14 @@ msgid ""
 "composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, "
 "arrange, arranger, mixing, mastering"
 msgstr ""
+"DAW, תחנת עבודה אודיו דיגיטלית, הפקת מוזיקה, אודיו, פרו אודיו, לינוקס, GNU / "
+"Linux, תוכנה חינמית, תוכנה חופשית, עורך סאונד, קומפוזיציה, MIDI, LV2, JACK, "
+"VST, תוסף אודיו, הקלטה, עריכה, לסדר, מסדר, מיקסינג, מאסטרינג"
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
 msgid "Features"
-msgstr "תכונות"
+msgstr "פיצ'רים"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -155,41 +158,41 @@ msgstr "הצטרף לפיתוח"
 
 #: template/community.html.j2:47
 msgid "Send an email to our development mailing list for development discussion"
-msgstr ""
+msgstr "שלח מייל לרשימת התפוצה של הפיתוח בשביל דיונים בנושאי פיתוח"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "שלח בקשות לפיצ'רים"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
-msgstr ""
+msgstr "עיין בעוקב הפיצ'רים שלנו ושלח בקשות לפיצ'רים."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "שלח דוחות על באגים"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
+msgstr "עיין בעוקב הבאגים שלנו ושלח דוחות באגים."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "תרגם את Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
-msgstr ""
+msgstr "תרגם את Zrythm DAW, את מדריך המשתמש והאתר שלנו לשפה שלך."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "צור קשר"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "שוחח איתנו ב-IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -197,207 +200,218 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an "
 "operator for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"ערוץ ה-IRC שלנו הוא #zrythm ב-Librea. צ'אט (<code>irc://irc.libera.chat/"
+"zrythm</code>). תרגישו חופשי לשלוח פינג לאופרטור עבור <code>zrythm/user/*</"
+"code> גלימה."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "שוחח איתנו ב-Matrix"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. "
 "Our Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"מטריקס הוא תקן פתוח לתקשורת מאובטחת ומבוזרת. ערוץ המטריקס שלנו הוא "
+"#zrythmdaw:matrix.org ומגושר עם IRC."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "הצטרף לרשימת התפוצה של דיוני המשתמשים"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
-msgstr ""
+msgstr "הצטרף לרשימת התפוצה של דיוני המשתמשים ושתף את הקהילה בחוויותך."
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "הירשם לרשימת התפוצה של הכרזות"
 
 #: template/community.html.j2:117
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay "
 "up to date with important announcements."
 msgstr ""
+"הירשם לרשימת התפוצה שלנו לקריאה בלבד ובנפח נמוך כדי להישאר מעודכן בהודעות "
+"חשובות."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "עקבו אחרנו ב-Mastodon"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks "
 "at new features, vote in polls, and more."
 msgstr ""
+"עקבו אחרנו ב-Mastodon בכדי לקבל עדכונים בנוגע למהדורות חדשות וקבל הצצה "
+"לפיצ'רים חדשים, הצבע בסקרים ועוד."
 
 #: template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "תרום"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "תרום מטבעות-קריפטו"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "שלח לנו ביטקויין (BTC), לייטקויין (LTC) או מונרו (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "תרום ב-LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
+"הפוך לפטרון ב-LiberaPay. ניתן לתרום באמצעות PayPal, או לשלם באמצעות חשבון "
+"בנק באירופה."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "תרום ב-Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "תרמו ב-Open Collective וצפו בהוצאות הציבוריות שלנו."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
-msgstr ""
+msgstr "הורד את קוד המקור של Zrythm או רכוש מתקין חבילות בינאריות."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "בחר פלטפורמה"
 
 #: template/download.html.j2:49
 msgid "Downloads"
-msgstr ""
+msgstr "הורדות"
 
 #: template/download.html.j2:55
 msgid "Installers"
-msgstr ""
+msgstr "מתקינים"
 
 #: template/download.html.j2:60
 msgid "Basic"
-msgstr ""
+msgstr "בסיסי"
 
 #: template/download.html.j2:61
 msgid "Free"
-msgstr ""
+msgstr "חינם"
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
-msgstr ""
+msgstr "תוספים מצורפים (בסיסי)"
 
 #: template/download.html.j2:64
 msgid "Save/load disabled"
-msgstr ""
+msgstr "שמור/טען מושבתות"
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
 msgid "Compiled with all features"
-msgstr ""
+msgstr "מהודר עם כל הפיצ'רים"
 
 #: template/download.html.j2:75 template/download.html.j2:87
 #: template/download.html.j2:100
 msgid "Bundled plugins (all)"
-msgstr ""
+msgstr "תוספים מצורפים (כולם)"
 
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:101
 msgid "PDF user manual"
-msgstr ""
+msgstr "מדריך למשתמש בפורמט PDF"
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
-msgstr ""
+msgstr "רכישה"
 
 #: template/download.html.j2:83
 msgid "Bundle"
-msgstr ""
+msgstr "חבילה"
 
 #: template/download.html.j2:89 template/download.html.j2:102
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "גישה לכל מהדורת גרסת 1"
 
 #: template/download.html.j2:95
 msgid "Nightly"
-msgstr ""
+msgstr "ליילי"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "לחודש"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "גישה לבניות לייליות"
 
 #: template/download.html.j2:105
 msgid "Subscribe"
-msgstr ""
+msgstr "הירשם"
 
 #: template/download.html.j2:110
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
+msgstr "תמכו ב-Zrythm על ידי רכישת מתקין. החודש קיבלנו:"
 
 #: template/download.html.j2:119
 msgid "Source Code"
-msgstr ""
+msgstr "קוד מקור"
 
 #: template/download.html.j2:122
 msgid "Releases"
-msgstr ""
+msgstr "מהדורות"
 
 #: template/download.html.j2:123
 msgid "GPG Key"
-msgstr ""
+msgstr "מפתח GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "רשימת הפיצ'רים."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
-msgstr ""
+msgstr "גליל פסנתר"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-msgstr ""
+msgstr "צור, ערוך וסדר אירועי MIDI בגליל פסנתר ייעודי."
 
 #: template/features.html.j2:51
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "חיבורים מכל מקום לכל מקום"
 
 #: template/features.html.j2:53
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "חבר כל דבר לכל דבר אחר."
 
 #: template/features.html.j2:63
 msgid "Bounce in Place"
-msgstr ""
+msgstr "קפוץ במקום"
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "עבור במהירות מחומר שנבחר לאודיו."
 
 #: template/features.html.j2:75
 msgid "Automation Curves"
-msgstr ""
+msgstr "עקומות אוטומציה"
 
 #: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
-msgstr ""
+msgstr "הפעל אוטומציה על פרמטרים עם עקומות או קווים ישרים."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "עמדת עבודה לאודיו דיגיטלית"
 
 #: template/index.html.j2:23
 msgid ""
@@ -405,46 +419,53 @@ msgid ""
 "to use. It allows limitless automation, supports LV2 plugins, works with "
 "the JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm היא תחנת עבודה לאודיו דיגיטלית שנועדה להיות פונקציונלית וקלה לשימוש. "
+"הוא מאפשר אוטומציה בלתי מוגבלת, תומכת בתוספי LV2, עובד עם קצה השמע JACK "
+"ומספק סיוע באקורדים."
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "תחנת עבודה לאודיו דיגיטלית אוטומטית ואינטואיטיבית במיוחד"
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "למד עוד"
 
 #: template/index.html.j2:51
 msgid "Limitless automation"
-msgstr ""
+msgstr "אוטומציה ללא הגבלה"
 
 #: template/index.html.j2:53
 msgid ""
 "Automate almost anything with automation events using straight lines, "
 "ramps and curves, or with LFOs and envelopes."
 msgstr ""
+"הפעצ אוטומציה על כמעט כל דבר עם אירועי אוטומציה באמצעות קווים ישרים, רמפות "
+"ועקומות, או עם LFOs ומעטפות."
 
 #: template/index.html.j2:60
 msgid "Automation curves"
-msgstr ""
+msgstr "עקומות אוטומציה"
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
-msgstr ""
+msgstr "תוספי אודיו"
 
 #: template/index.html.j2:67
 msgid ""
 "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, "
 "with experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
+"תמיכה מלאה עבור <a href=\"https://lv2plug.in/\">LV2</a> ו-VST2, עם תמיכה "
+"ניסיונית עבור VST3, AU, SFZ ו-SF2."
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr ""
+msgstr "תוספי אודיו"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
-msgstr ""
+msgstr "תמיכה בכמה קצוות אחוריים"
 
 #: template/index.html.j2:80
 msgid ""
@@ -452,28 +473,33 @@ msgid ""
 "support for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK "
 "transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"מודע לחלוטין ל<a href=\"https://jackaudio.org/\">JACK</a>, כולל תמיכה ב-<a "
+"href=\"https://pipewire.org/\">PipeWire</a>, העברת JACK, ALSA, PulseAudio, "
+"WASAPI, Windows MME, CoreMidi ו-CoreAudio."
 
 #: template/index.html.j2:88
 msgid "Audio backends"
-msgstr ""
+msgstr "קצוות אחוריים של אודיו"
 
 #: template/index.html.j2:93
 msgid "Chord Assistance"
-msgstr ""
+msgstr "עזרה באקורדים"
 
 #: template/index.html.j2:95
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a "
 "chord track to assist with chord progressions."
 msgstr ""
+"כולל פד לאקורדים לניסיון מהיר של אקורדים בסולם ורצועת אקורדים כדי לסייע "
+"ברצפי אקורדים."
 
 #: template/index.html.j2:102
 msgid "Chord highlighting"
-msgstr ""
+msgstr "הדגשת אקורדים"
 
 #: template/index.html.j2:107
 msgid "Liberating"
-msgstr ""
+msgstr "משחרר"
 
 #: template/index.html.j2:109
 msgid ""
@@ -481,14 +507,16 @@ msgid ""
 "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free"
 " software</a>. Use, study, share and improve it freely."
 msgstr ""
+"Zrythm היא <a href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ."
+"webm\">תוכנה חינמית</a>. השתמש, למד, שתף ושפר אותה באופן חופשי."
 
 #: template/index.html.j2:115
 msgid "Programming"
-msgstr ""
+msgstr "תכנות"
 
 #: template/index.html.j2:120
 msgid "Multilingual"
-msgstr ""
+msgstr "מרובה שפות"
 
 #: template/index.html.j2:122
 msgid ""
@@ -496,111 +524,113 @@ msgid ""
 "href=\"https://hosted.weblate.org/engage/zrythm/\">multiple languages</a>"
 " including English, French, Spanish, Portuguese, Japanese and German."
 msgstr ""
+"זמין ב<a href=\"https://hosted.weblate.org/engage/zrythm/\">מספר שפות</a> "
+"כולל אנגלית, צרפתית, ספרדית, פורטוגזית, יפנית וגרמנית."
 
 #: template/index.html.j2:128
 msgid "Multi-language support"
-msgstr ""
+msgstr "תמיכה בשפות רבות"
 
 #: template/index.html.j2:133
 msgid "Showcase"
-msgstr ""
+msgstr "חלון ראווה"
 
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "הדפדפן שלך אינו תומך בווידאו HTML5."
 
 #: template/index.html.j2:225
 msgid "Testimonials"
-msgstr ""
+msgstr "המלצות"
 
 #: template/index.html.j2:254
 msgid "Affiliates"
-msgstr ""
+msgstr "שותפים"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "‬דפי עזר של Zrythm - מדריך למשתמש - הדרכות"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "הדרכות"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "עריכה"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "הדפדפן שלך אינו תומך בווידאו HTML5"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "כלי הבחירה/מתיחה"
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "כלי העריכה"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
-msgstr ""
+msgstr "כלי החתיכה"
 
 #: template/learn.html.j2:81
 msgid "Ramp Tool"
-msgstr ""
+msgstr "כלי הרמפה"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "אזורי לולאות"
 
 #: template/learn.html.j2:96
 msgid "Routing"
-msgstr ""
+msgstr "ניתוב"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr ""
+msgstr "שולח FX"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
-msgstr ""
+msgstr "ניתוב פורטים"
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
-msgstr ""
+msgstr "הדרכות"
 
 #: template/learn.html.j2:130
 msgid "French"
-msgstr ""
+msgstr "צרפתית"
 
 #: template/learn.html.j2:136
 msgid "Documentation"
-msgstr ""
+msgstr "תיעודים"
 
 #: template/learn.html.j2:138
 msgid "User Manual"
-msgstr ""
+msgstr "מדריך למשתמש"
 
 #: template/learn.html.j2:139
 msgid "Developer Reference"
-msgstr ""
+msgstr "הפניה למפתחים"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "מידע משפטי"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "מידע משפטי, על רישוי וסימנים מסחריים"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "רישוי"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -609,6 +639,9 @@ msgid ""
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Zrythm מוגן בזכויות יוצרים על שם Alexandros Theodotou ותורמים אחרים. Zrythm "
+"מופץ תחת <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">רישיון "
+"הציבור הציבורי של GNU Affero, גרסה 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -616,12 +649,17 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-"
 "sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"אלא אם מוצהר אחרת, סרטונים באתר של Zrythm מופצים תחת רשיון <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-"
+"ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is "
 "licensed under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"הסרטון <em>Richard Stallman: Free software, free society</em> תחת רשיון "
+"Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -630,44 +668,47 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
 "by himself and Ynternet.org foundation."
 msgstr ""
+"קרדיט: ציורים תחת CC-BY-ND 3.0 נוצרו על ידי Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream.deviantart."
+"com) מבוססים על רעיונות של Richard Stallman, על ידי עצמו וקרן Ynternet.org."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
-msgstr ""
+msgstr "סימנים מסחריים"
 
 #: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm והלוגו של Zrythm הם סימנים מסחריים של Alexandros Theodotou."
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "תוספים מצורפים עם Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "תוספים בסיסיים"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} תמונת מסך"
 
 #: template/plugins.html.j2:57
 msgid "Technical specs"
-msgstr ""
+msgstr "מפרט טכני"
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
-msgstr ""
+msgstr "תוספים פרימיום"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "מדיניות פרטיות"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "עודכן לאחרונה ב-4 לאוגוסט 2021"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "מדיניות סימנים מסחריים של Zrythm"
