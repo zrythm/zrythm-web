@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2021-11-24 11:40+0000\n"
+"PO-Revision-Date: 2021-11-24 12:42+0000\n"
 "Last-Translator: moshe <shinmem58@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/zrythm/web/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
-"Generated-By: Babel 2.9.1\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Weblate 4.10-dev\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -145,7 +146,7 @@ msgstr "הורדה"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
-msgstr ""
+msgstr "בחר שפה"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -320,7 +321,7 @@ msgstr "שמור/טען מושבתות"
 
 #: template/download.html.j2:71
 msgid "Single"
-msgstr ""
+msgstr "יחיד"
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -552,7 +553,7 @@ msgstr "הדפדפן שלך אינו תומך בווידאו HTML5."
 
 #: template/index.html.j2:203
 msgid "Remake"
-msgstr ""
+msgstr "מהדורה חדשה"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
