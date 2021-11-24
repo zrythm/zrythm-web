@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 12:58+0100\n"
+"POT-Creation-Date: 2021-11-24 11:46+0000\n"
 "PO-Revision-Date: 2021-11-23 16:32+0000\n"
 "Last-Translator: Antoine Do Nascimento <antoinedn@live.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -16,60 +16,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.10-dev\n"
 
-#: template.py:354
+#: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz fait correspondre les accords d'une gamme mineure ou majeure aux "
 "touches blanches"
 
-#: template.py:355
+#: template.py:357
 msgid "Major or minor scale"
 msgstr "Gamme majeure ou mineure"
 
-#: template.py:356
+#: template.py:358
 msgid "Velocity multiplier per note"
 msgstr "Multiplicateur de vitesse par note"
 
-#: template.py:360
+#: template.py:362
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO est un LFO complet pour l'automatisation basée sur CV"
 
-#: template.py:361
+#: template.py:363
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
-#: template.py:362
+#: template.py:364
 msgid "Phase shift"
 msgstr "Décalage des phases"
 
-#: template.py:363
+#: template.py:365
 msgid "Vertical/horizontal inversion"
 msgstr "Inversion verticale/horizontale"
 
-#: template.py:364
+#: template.py:366
 msgid "Step mode"
 msgstr "Mode à pas"
 
-#: template.py:365
+#: template.py:367
 msgid "Editable range"
 msgstr "Plage modifiable"
 
-#: template.py:366
+#: template.py:368
 msgid "Sync to host or free-form"
 msgstr "Synchronisation avec l'hôte ou la forme libre"
 
-#: template.py:369
+#: template.py:371
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw est un synthétiseur supersaw à 1 paramètre"
 
-#: template.py:370
+#: template.py:372
 msgid "7 sawtooth oscillators"
 msgstr "7 oscillateurs en dents de scie"
 
-#: template.py:371
+#: template.py:373
 msgid "Single knob to control detune"
 msgstr "Un seul bouton pour contrôler le désaccord"
 
@@ -216,9 +216,9 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
-"Notre canal IRC est #zrythm sur Libera.Chat (<code>irc://irc.libera.chat/"
-"zrythm</code>). Sentez vous libre de demander un cloak <code>zrythm/user/*</"
-"code> à un opérateur."
+"Notre canal IRC est #zrythm sur Libera.Chat "
+"(<code>irc://irc.libera.chat/zrythm</code>). Sentez vous libre de demander "
+"un cloak <code>zrythm/user/*</code> à un opérateur."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -267,8 +267,8 @@ msgid ""
 "new features, vote in polls, and more."
 msgstr ""
 "Suivez-nous sur Mastodon pour recevoir des mises à jour sur les nouvelles "
-"versions et découvrir en avant-première les nouvelles fonctionnalités, voter "
-"dans les sondages, et plus encore."
+"versions et découvrir en avant-première les nouvelles fonctionnalités, voter"
+" dans les sondages, et plus encore."
 
 #: template/community.html.j2:133
 msgid "Donate"
@@ -280,7 +280,8 @@ msgstr "Donnez de la crypto-monnaie"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr "Envoyez-nous des Bitcoin (BTC), des Litecoin (LTC) ou des Monero (XMR)."
+msgstr ""
+"Envoyez-nous des Bitcoin (BTC), des Litecoin (LTC) ou des Monero (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
@@ -291,8 +292,8 @@ msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
-"Devenir un sponsor sur LiberaPay. Vous pouvez donner par le biais de PayPal, "
-"ou payer avec un compte bancaire en Europe."
+"Devenir un sponsor sur LiberaPay. Vous pouvez donner par le biais de PayPal,"
+" ou payer avec un compte bancaire en Europe."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"

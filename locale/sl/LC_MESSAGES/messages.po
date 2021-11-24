@@ -7,65 +7,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 09:22+0100\n"
+"POT-Creation-Date: 2021-11-24 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: template.py:354
+#: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:355
+#: template.py:357
 msgid "Major or minor scale"
 msgstr ""
 
-#: template.py:356
+#: template.py:358
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:360
+#: template.py:362
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:361
+#: template.py:363
 msgid "Multi-oscillator with custom wave"
 msgstr ""
 
-#: template.py:362
+#: template.py:364
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:363
+#: template.py:365
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:364
+#: template.py:366
 msgid "Step mode"
 msgstr ""
 
-#: template.py:365
+#: template.py:367
 msgid "Editable range"
 msgstr ""
 
-#: template.py:366
+#: template.py:368
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:369
+#: template.py:371
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:370
+#: template.py:372
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:371
+#: template.py:373
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -83,8 +83,8 @@ msgstr ""
 
 #: common/footer.j2.inc:24
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros "
-"Theodotou in the United Kingdom."
+"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
+" in the United Kingdom."
 msgstr ""
 
 #: common/footer.j2.inc:25
@@ -105,10 +105,10 @@ msgstr ""
 
 #: common/header.j2.inc:32
 msgid ""
-"DAW, digital audio workstation, music production, audio, pro audio, "
-"Linux, GNU/Linux, free software, libre software, sound editor, "
-"composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, "
-"arrange, arranger, mixing, mastering"
+"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
+"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
+"LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
+" mastering"
 msgstr ""
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
@@ -136,6 +136,10 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
+#: common/navigation.j2.inc:40
+msgid "Select Language"
+msgstr ""
+
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr ""
@@ -149,7 +153,8 @@ msgid "Join Development"
 msgstr ""
 
 #: template/community.html.j2:47
-msgid "Send an email to our development mailing list for development discussion"
+msgid ""
+"Send an email to our development mailing list for development discussion"
 msgstr ""
 
 #: template/community.html.j2:53
@@ -189,8 +194,8 @@ msgstr ""
 #: template/community.html.j2:90
 msgid ""
 "Our IRC channel is #zrythm on Libera.Chat "
-"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an "
-"operator for a <code>zrythm/user/*</code> cloak."
+"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
+"for a <code>zrythm/user/*</code> cloak."
 msgstr ""
 
 #: template/community.html.j2:96
@@ -199,8 +204,8 @@ msgstr ""
 
 #: template/community.html.j2:99
 msgid ""
-"Matrix is an open standard for secure and decentralized communication. "
-"Our Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
+"Matrix is an open standard for secure and decentralized communication. Our "
+"Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
 
 #: template/community.html.j2:105
@@ -219,8 +224,8 @@ msgstr ""
 
 #: template/community.html.j2:117
 msgid ""
-"Subscribe to our read-only and low volume Announce mailing list to stay "
-"up to date with important announcements."
+"Subscribe to our read-only and low volume Announce mailing list to stay up "
+"to date with important announcements."
 msgstr ""
 
 #: template/community.html.j2:123
@@ -229,8 +234,8 @@ msgstr ""
 
 #: template/community.html.j2:126
 msgid ""
-"Follow us on Mastodon to get updates on new releases and get sneak peeks "
-"at new features, vote in polls, and more."
+"Follow us on Mastodon to get updates on new releases and get sneak peeks at "
+"new features, vote in polls, and more."
 msgstr ""
 
 #: template/community.html.j2:133
@@ -293,6 +298,10 @@ msgstr ""
 
 #: template/download.html.j2:64
 msgid "Save/load disabled"
+msgstr ""
+
+#: template/download.html.j2:71
+msgid "Single"
 msgstr ""
 
 #: template/download.html.j2:74 template/download.html.j2:86
@@ -396,9 +405,9 @@ msgstr ""
 
 #: template/index.html.j2:23
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy "
-"to use. It allows limitless automation, supports LV2 plugins, works with "
-"the JACK audio backend and provides chord assistance."
+"Zrythm is a digital audio workstation designed to be featureful and easy to "
+"use. It allows limitless automation, supports LV2 plugins, works with the "
+"JACK audio backend and provides chord assistance."
 msgstr ""
 
 #: template/index.html.j2:36
@@ -415,8 +424,8 @@ msgstr ""
 
 #: template/index.html.j2:53
 msgid ""
-"Automate almost anything with automation events using straight lines, "
-"ramps and curves, or with LFOs and envelopes."
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
 msgstr ""
 
 #: template/index.html.j2:60
@@ -429,8 +438,8 @@ msgstr ""
 
 #: template/index.html.j2:67
 msgid ""
-"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, "
-"with experimental support for VST3, AU, SFZ and SF2."
+"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+"experimental support for VST3, AU, SFZ and SF2."
 msgstr ""
 
 #: template/index.html.j2:73
@@ -443,9 +452,9 @@ msgstr ""
 
 #: template/index.html.j2:80
 msgid ""
-"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including "
-"support for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK "
-"transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
+"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
+"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 
 #: template/index.html.j2:88
@@ -458,8 +467,8 @@ msgstr ""
 
 #: template/index.html.j2:95
 msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a "
-"chord track to assist with chord progressions."
+"Featuring a chord pad for quickly trying out chords in a scale and a chord "
+"track to assist with chord progressions."
 msgstr ""
 
 #: template/index.html.j2:102
@@ -473,8 +482,8 @@ msgstr ""
 #: template/index.html.j2:109
 msgid ""
 "Zrythm is <a "
-"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free"
-" software</a>. Use, study, share and improve it freely."
+"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
+"software</a>. Use, study, share and improve it freely."
 msgstr ""
 
 #: template/index.html.j2:115
@@ -487,9 +496,9 @@ msgstr ""
 
 #: template/index.html.j2:122
 msgid ""
-"Available in <a "
-"href=\"https://hosted.weblate.org/engage/zrythm/\">multiple languages</a>"
-" including English, French, Spanish, Portuguese, Japanese and German."
+"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
+"languages</a> including English, French, Spanish, Portuguese, Japanese and "
+"German."
 msgstr ""
 
 #: template/index.html.j2:128
@@ -504,6 +513,10 @@ msgstr ""
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: template/index.html.j2:203
+msgid "Remake"
 msgstr ""
 
 #: template/index.html.j2:225
@@ -599,8 +612,8 @@ msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
-"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
-"Zrythm is released under the <a "
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
+" is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
@@ -608,22 +621,22 @@ msgstr ""
 #: template/legal.html.j2:50
 msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
-"under <a href=\"https://creativecommons.org/licenses/by-"
-"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
 
 #: template/legal.html.j2:56
 msgid ""
-"The <em>Richard Stallman: Free software, free society</em> video is "
-"licensed under Creative Commons BY-SA-ND 3.0."
+"The <em>Richard Stallman: Free software, free society</em> video is licensed"
+" under Creative Commons BY-SA-ND 3.0."
 msgstr ""
 
 #: template/legal.html.j2:60
 msgid ""
-"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis,"
-" Http://kwis.tumblr.com), Valentin Pasquier "
-"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
-"by himself and Ynternet.org foundation."
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
+"himself and Ynternet.org foundation."
 msgstr ""
 
 #: template/legal.html.j2:68

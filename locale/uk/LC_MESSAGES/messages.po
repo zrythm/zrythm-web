@@ -7,71 +7,69 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-23 12:58+0100\n"
+"POT-Creation-Date: 2021-11-24 11:46+0000\n"
 "PO-Revision-Date: 2021-11-17 14:28+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
-"\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
-#: template.py:354
+#: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz дозволяє відобразити акорди мажорної або мінорної гами на білі "
 "клавіші"
 
-#: template.py:355
+#: template.py:357
 msgid "Major or minor scale"
 msgstr "Мажорна або мінорна гама"
 
-#: template.py:356
+#: template.py:358
 msgid "Velocity multiplier per note"
 msgstr "Множник сили звуку для кожної ноти"
 
-#: template.py:360
+#: template.py:362
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO - це повнофункціональний LFO для автоматизації на основі CV"
 
-#: template.py:361
+#: template.py:363
 msgid "Multi-oscillator with custom wave"
 msgstr "Мультиосцилятор з довільною хвилею"
 
-#: template.py:362
+#: template.py:364
 msgid "Phase shift"
 msgstr "Зсув фази"
 
-#: template.py:363
+#: template.py:365
 msgid "Vertical/horizontal inversion"
 msgstr "Вертикальна/горизонтальна інверсія"
 
-#: template.py:364
+#: template.py:366
 msgid "Step mode"
 msgstr "Режим ступенів"
 
-#: template.py:365
+#: template.py:367
 msgid "Editable range"
 msgstr "Редаговуваний діапазон"
 
-#: template.py:366
+#: template.py:368
 msgid "Sync to host or free-form"
 msgstr "Синхронізація з хостом або у вільній формі"
 
-#: template.py:369
+#: template.py:371
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw - це синтезатор supersaw з одним параметром"
 
-#: template.py:370
+#: template.py:372
 msgid "7 sawtooth oscillators"
 msgstr "7 осциляторів sawtooth"
 
-#: template.py:371
+#: template.py:373
 msgid "Single knob to control detune"
 msgstr "Одна ручка для керування detune"
 
@@ -214,9 +212,9 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
-"Наш IRC-канал #zrythm на Libera.Chat (<code>irc://irc.libera.chat/"
-"zrythm</code>). Не соромтеся писати оператору для плаща <code>zrythm/user/"
-"*</code>."
+"Наш IRC-канал #zrythm на Libera.Chat "
+"(<code>irc://irc.libera.chat/zrythm</code>). Не соромтеся писати оператору "
+"для плаща <code>zrythm/user/*</code>."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -227,8 +225,8 @@ msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
-"Matrix – це відкритий стандарт для безпечного та децентралізованого зв’язку. "
-"Наш канал Matrix — #zrythmdaw:matrix.org і пов’язаний із IRC."
+"Matrix – це відкритий стандарт для безпечного та децентралізованого зв’язку."
+" Наш канал Matrix — #zrythmdaw:matrix.org і пов’язаний із IRC."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
@@ -297,7 +295,8 @@ msgstr "Пожертвуйте на Open Collective"
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
 msgstr ""
-"Зробіть пожертвування на Open Collective та перегляньте наші прозорі витрати."
+"Зробіть пожертвування на Open Collective та перегляньте наші прозорі "
+"витрати."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."

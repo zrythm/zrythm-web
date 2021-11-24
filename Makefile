@@ -20,7 +20,7 @@
 
 include config.mk
 
-LANGUAGES = af_ZA en en_GB gd de es el fr gl id it nl ja pt pt_BR ru hi ar ko nb_NO cs pl da et fi sv th tr uk vi zh_CN zh_TW
+LANGUAGES = af_ZA en en_GB gd de es el fr gl he id it nl ja pt pt_BR ru hi ar ko nb_NO cs pl da et fi sl sv th tr uk vi zh_CN zh_TW
 
 all: locale/messages.pot locale template
 	# Consider using pax instead of cp.
