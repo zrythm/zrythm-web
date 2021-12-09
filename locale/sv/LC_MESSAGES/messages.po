@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2021-10-16 08:36+0000\n"
-"Last-Translator: Henrik Mattsson-Mårn <h@archkive.org>\n"
+"PO-Revision-Date: 2021-12-10 18:50+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -43,7 +43,7 @@ msgstr "Multi-oscillator med justerbar våg"
 
 #: template.py:364
 msgid "Phase shift"
-msgstr ""
+msgstr "Fasförskjutning"
 
 #: template.py:365
 msgid "Vertical/horizontal inversion"
