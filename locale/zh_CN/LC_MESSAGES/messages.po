@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2021-11-16 00:51+0000\n"
-"Last-Translator: Paul Leung <labrusca@live.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2021-12-19 16:54+0000\n"
+"Last-Translator: Erdong Zhang <takato3000@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.9.1-dev\n"
 
 #: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -140,7 +141,7 @@ msgstr "下载"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
-msgstr ""
+msgstr "选择语言"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -165,15 +166,15 @@ msgstr "提交功能请求"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
-msgstr ""
+msgstr "查看功能追踪器并且提交功能需求"
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "提交缺陷报告"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
+msgstr "查看我们的缺陷追踪器并且提交缺陷报告。"
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
@@ -191,7 +192,7 @@ msgstr ""
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "通过 IRC 和我们取得联系"
 
 #: template/community.html.j2:90
 msgid ""
@@ -202,51 +203,53 @@ msgstr ""
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "通过 Matrix 和我们取得联系"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix 是一个为安全和去中心化社区交流而生的开放标准。我们的 Matrix 频道是 #zrythmdaw:matrix.org 并且和我们的 "
+"IRC 频道连通。"
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "加入我们的讨论邮件列表"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
-msgstr ""
+msgstr "加入我们的讨论邮件列表，与社区分享您的经验。"
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "订阅公告邮件列表"
 
 #: template/community.html.j2:117
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay up "
 "to date with important announcements."
-msgstr ""
+msgstr "通过订阅我们只读且低打扰的公告邮件列表，获取重要的公告信息。"
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "关注我们的 Mastodon"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
-msgstr ""
+msgstr "关注我们的 Mastodon 以获取新版本的信息，预览新鲜功能，投票以及更多。"
 
 #: template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "捐赠"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "通过加密货币捐赠"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
@@ -254,7 +257,7 @@ msgstr ""
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "通过 LibraPay 捐赠"
 
 #: template/community.html.j2:151
 msgid ""
@@ -264,11 +267,11 @@ msgstr ""
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "通过 Open Collective 捐赠"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "通过 Open Collective 捐赠并浏览我们的公共开支"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -280,11 +283,11 @@ msgstr ""
 
 #: template/download.html.j2:49
 msgid "Downloads"
-msgstr ""
+msgstr "下载"
 
 #: template/download.html.j2:55
 msgid "Installers"
-msgstr ""
+msgstr "安装文件"
 
 #: template/download.html.j2:60
 msgid "Basic"
@@ -292,7 +295,7 @@ msgstr ""
 
 #: template/download.html.j2:61
 msgid "Free"
-msgstr ""
+msgstr "免费"
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
@@ -304,7 +307,7 @@ msgstr "无法使用保存与加载"
 
 #: template/download.html.j2:71
 msgid "Single"
-msgstr ""
+msgstr "单独版本"
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -323,23 +326,23 @@ msgstr "PDF 用户手册"
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
-msgstr ""
+msgstr "购买"
 
 #: template/download.html.j2:83
 msgid "Bundle"
-msgstr ""
+msgstr "合集"
 
 #: template/download.html.j2:89 template/download.html.j2:102
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "获得所有 v1 版本"
 
 #: template/download.html.j2:95
 msgid "Nightly"
-msgstr ""
+msgstr "测试版"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "月"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
@@ -355,7 +358,7 @@ msgstr ""
 
 #: template/download.html.j2:119
 msgid "Source Code"
-msgstr ""
+msgstr "源代码"
 
 #: template/download.html.j2:122
 msgid "Releases"
