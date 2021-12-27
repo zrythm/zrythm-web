@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2021-12-19 16:54+0000\n"
+"PO-Revision-Date: 2021-12-28 09:51+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: template.py:356
@@ -416,7 +416,7 @@ msgstr "Conecte tudo a tudo."
 
 #: template/features.html.j2:63
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Converter para áudio no lugar"
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
