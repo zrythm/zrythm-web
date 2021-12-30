@@ -16,19 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Weblate 4.10\n"
 
 #: template.py:356
-#, fuzzy
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz kartoittaa molli- tai duuriasteikon sointuja valkoisiin koskettimiin"
 
 #: template.py:357
-#, fuzzy
 msgid "Major or minor scale"
-msgstr "Duurin tai Mollin mittakaava"
+msgstr ""
 
 #: template.py:358
 msgid "Velocity multiplier per note"

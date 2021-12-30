@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
 "PO-Revision-Date: 2021-12-28 09:51+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
-">\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -206,15 +205,11 @@ msgid "Chat with us on IRC"
 msgstr "Converse conosco no IRC"
 
 #: template/community.html.j2:90
-#, fuzzy
 msgid ""
 "Our IRC channel is #zrythm on Libera.Chat "
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
-"O nosso canal IRC é #zrythm no Libera.Chat (<code>irc://irc.libera.chat/"
-"zrythm</code>). Sinta-se à vontade a pingar um operador para um cloak <code>"
-"zrythm/user/*</code>."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -261,8 +256,8 @@ msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
-"Siga-nos no Mastodon para obter atualizações sobre novos lançamentos e obter "
-"espreitadelas em novas funcionalidades, votar nas sondagens, e muito mais."
+"Siga-nos no Mastodon para obter atualizações sobre novos lançamentos e obter"
+" espreitadelas em novas funcionalidades, votar nas sondagens, e muito mais."
 
 #: template/community.html.j2:133
 msgid "Donate"
@@ -285,8 +280,8 @@ msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
-"Torne-se um patrono na LiberaPay. Pode doar a usar o PayPal ou pagar com uma "
-"conta bancária na Europa."
+"Torne-se um patrono na LiberaPay. Pode doar a usar o PayPal ou pagar com uma"
+" conta bancária na Europa."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
@@ -379,7 +374,8 @@ msgstr "Subscrever"
 
 #: template/download.html.j2:110
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr "Apoie a Zrythm através da compra de um instalador. Neste mês recebemos:"
+msgstr ""
+"Apoie a Zrythm através da compra de um instalador. Neste mês recebemos:"
 
 #: template/download.html.j2:119
 msgid "Source Code"
