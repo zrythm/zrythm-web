@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-04-30 00:28+0100\n"
-"PO-Revision-Date: 2021-12-19 16:54+0000\n"
+"PO-Revision-Date: 2022-01-02 22:52+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/zrythm/web/pt_PT/>\n"
+"Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
+"zrythm/web/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.10\n"
 
 #: template.py:379
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -72,20 +73,25 @@ msgid "Single knob to control detune"
 msgstr "Botão único para controlar a desintonização"
 
 #: common/header.j2.inc:24
+#, fuzzy
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK"
 msgstr ""
+"DAW, estação de trabalho de áudio digital, produção musical, áudio, pró "
+"áudio, Linux, GNU/Linux, software livre, software libre, editor de som, "
+"composição, MIDI, LV2, JACK"
 
 #: common/navigation.j2.inc:27
 msgid "Home"
-msgstr ""
+msgstr "Início"
 
 #: common/navigation.j2.inc:33 template/download.html.j2:19
 #: template/download.html.j2:33
+#, fuzzy
 msgid "Download"
-msgstr ""
+msgstr "Transferir"
 
 #: common/navigation.j2.inc:39 template/explore.html.j2:19
 #: template/explore.html.j2:31
@@ -105,7 +111,7 @@ msgstr "Suplementos"
 #: common/navigation.j2.inc:57 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Community"
-msgstr ""
+msgstr "Comunidade"
 
 #: common/navigation.j2.inc:63
 msgid "Forum"
@@ -113,19 +119,19 @@ msgstr "Fórum"
 
 #: common/navigation.j2.inc:81
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Páginas comunitárias e canais de comunicação da Zrythm"
 
 #: template/community.html.j2:37
 msgid "Chat"
-msgstr ""
+msgstr "Bate-papo"
 
 #: template/community.html.j2:55
 msgid "Mail"
-msgstr ""
+msgstr "Correio"
 
 #: template/community.html.j2:62
 msgid "Users"
@@ -141,35 +147,37 @@ msgstr "Projeto"
 
 #: template/community.html.j2:76
 msgid "Issue tracker"
-msgstr ""
+msgstr "Gestor de problemas"
 
 #: template/community.html.j2:79
 msgid "Translations"
-msgstr ""
+msgstr "Traduções"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer"
 msgstr ""
+"Descarregue o código-fonte do Zrythm's ou compre um instalador de pacotes "
+"binários"
 
 #: template/download.html.j2:39
 msgid "Source code"
-msgstr ""
+msgstr "Código-fonte"
 
 #: template/download.html.j2:47
 msgid "git repositories"
-msgstr ""
+msgstr "repositórios de git"
 
 #: template/download.html.j2:59
 msgid "stable releases"
-msgstr ""
+msgstr "lançamentos estáveis"
 
 #: template/download.html.j2:65
 msgid "releases"
-msgstr ""
+msgstr "lançamentos"
 
 #: template/download.html.j2:73
 msgid "GPG signing key"
-msgstr ""
+msgstr "Chave de assinatura GPG"
 
 #: template/download.html.j2:87
 msgid "Trial version"
@@ -207,7 +215,7 @@ msgstr "alfa"
 
 #: template/download.html.j2:166
 msgid "alpha/beta"
-msgstr ""
+msgstr "alfa/beta"
 
 #: template/download.html.j2:169
 msgid "subscription"
@@ -252,7 +260,7 @@ msgstr "<b>£5</b> por mês"
 
 #: template/download.html.j2:201 template/download.html.j2:220
 msgid "Buy Now"
-msgstr ""
+msgstr "Compre já"
 
 #: template/download.html.j2:206 template/download.html.j2:225
 msgid "Select your OS"
@@ -370,14 +378,19 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm é uma estação de trabalho de áudio digital projetada para ser cheia "
+"de recursos e fácil de usar. Permite uma automação sem limites, suporta "
+"suplementos LV2, funciona com o backend de áudio JACK e fornece assistência "
+"de acordes."
 
 #: template/index.html.j2:35
 msgid "a highly automated and intuitive digital audio workstation"
 msgstr ""
+"uma estação de trabalho de áudio digital altamente automatizada e intuitiva"
 
 #: template/index.html.j2:51
 msgid "Overview"
-msgstr ""
+msgstr "Visão geral"
 
 #: template/index.html.j2:57
 msgid ""
@@ -402,13 +415,15 @@ msgstr ""
 
 #: template/index.html.j2:76
 msgid "Limitless automation"
-msgstr ""
+msgstr "Automação ilimitada"
 
 #: template/index.html.j2:81
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
+"Automatize quase tudo com eventos de automação utilizando linhas retas, "
+"rampas e curvas ou com LFOs e envelopes."
 
 #: template/index.html.j2:94
 msgid "Audio plugins"
@@ -437,13 +452,15 @@ msgstr ""
 
 #: template/index.html.j2:131
 msgid "Chord assistance"
-msgstr ""
+msgstr "Assistência de acordes"
 
 #: template/index.html.j2:136
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to help with chord progressions."
 msgstr ""
+"Com um bloco de acordes para experimentar rapidamente acordes em escala e "
+"uma faixa de acordes para ajudar na progressão dos acordes."
 
 #: template/index.html.j2:151
 msgid "Liberating"
@@ -459,7 +476,7 @@ msgstr ""
 
 #: template/index.html.j2:168
 msgid "Multilingual"
-msgstr ""
+msgstr "Multilingue"
 
 #: template/index.html.j2:173
 msgid ""
@@ -517,7 +534,7 @@ msgstr "Descarregar como PDF"
 
 #: template/learn.html.j2:105
 msgid "Developer docs"
-msgstr ""
+msgstr "Documentos do programador"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
@@ -576,7 +593,7 @@ msgstr "Especificações técnicas"
 
 #: template/purchase-thanks.html.j2:19
 msgid "Thank You"
-msgstr ""
+msgstr "Obrigado"
 
 #: template/purchase-thanks.html.j2:31
 msgid ""
@@ -592,7 +609,10 @@ msgid ""
 "<code>./installer.sh</code> in a terminal. If you experience any problems, "
 "please contact us."
 msgstr ""
+"Após descarregar o ficheiro zip, extraia-o e execute <code>./installer.sh</"
+"code> num terminal. Se tiver algum problema, por favor entre em contacto "
+"connosco."
 
 #: template/purchase-thanks.html.j2:45
 msgid "Go back to home page"
-msgstr ""
+msgstr "Voltar à página inicial"
