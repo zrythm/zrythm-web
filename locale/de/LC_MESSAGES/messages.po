@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2021-02-20 00:50+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2022-01-12 21:53+0000\n"
+"Last-Translator: Wolfiarmy <wolfiarmy@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.5\n"
 
 #: template.py:356
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -86,26 +86,32 @@ msgid "Privacy"
 msgstr "Privatssphäre"
 
 #: common/footer.j2.inc:24
+#, fuzzy
 msgid ""
 "Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
 " in the United Kingdom."
 msgstr ""
+"Zrythm und das Zrythm-Logo sind eingetragene Warenzeichen von Alexandros "
+"Theodotou im Vereinigten Königreich."
 
 #: common/footer.j2.inc:25
+#, fuzzy
 msgid "See our {trademarkpolicy} for details."
-msgstr ""
+msgstr "Weitere Informationen finden Sie in unserer {trademarkpolicy}."
 
 #: common/footer.j2.inc:27 template/trademarks.html.j2:19
 msgid "Trademark Policy"
 msgstr "Markenrichtlinie"
 
 #: common/footer.j2.inc:29
+#, fuzzy
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Entworfen von Andrew Harter"
 
 #: common/header.j2.inc:24
+#, fuzzy
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Eine hochautomatisierte und intuitive digitale Audio-Workstation."
 
 #: common/header.j2.inc:32
 msgid ""
@@ -132,8 +138,9 @@ msgstr "Lernen"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
+#, fuzzy
 msgid "Get Involved"
-msgstr ""
+msgstr "Beteiligen Sie sich"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
@@ -141,37 +148,46 @@ msgid "Download"
 msgstr "Herunterladen"
 
 #: common/navigation.j2.inc:40
+#, fuzzy
 msgid "Select Language"
-msgstr ""
+msgstr "Sprache auswählen"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Zrythms Community-Seiten und Kommunikationskanäle"
 
 #: template/community.html.j2:38
+#, fuzzy
 msgid "Contribute"
-msgstr ""
+msgstr "Beitragen"
 
 #: template/community.html.j2:44
+#, fuzzy
 msgid "Join Development"
-msgstr ""
+msgstr "Werden Sie Mitglied der Entwicklung"
 
 #: template/community.html.j2:47
+#, fuzzy
 msgid ""
 "Send an email to our development mailing list for development discussion"
 msgstr ""
+"Senden Sie eine E-Mail an unsere Entwicklungs-Mailingliste zur "
+"Entwicklungsdiskussion"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
 msgstr ""
 
 #: template/community.html.j2:56
+#, fuzzy
 msgid "Browse our feature tracker and submit feature requests."
 msgstr ""
+"Durchsuchen Sie unseren Feature-Tracker und senden Sie Feature-Anfragen."
 
 #: template/community.html.j2:62
+#, fuzzy
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "Fehlerberichte einreichen"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
