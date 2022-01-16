@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-24 11:46+0000\n"
-"PO-Revision-Date: 2022-01-02 22:52+0000\n"
+"PO-Revision-Date: 2022-01-18 18:52+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: template.py:356
@@ -144,7 +144,7 @@ msgstr "Envolva-se"
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
-msgstr "Transferir"
+msgstr "Descarregar"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
@@ -367,7 +367,7 @@ msgstr "Noturno"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "mês"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
@@ -616,7 +616,7 @@ msgstr "Ferramenta de rampa"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Regiões de loop"
 
 #: template/learn.html.j2:96
 msgid "Routing"
