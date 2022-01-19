@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: template.py:405
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
