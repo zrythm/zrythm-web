@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-08 23:12+0000\n"
-"PO-Revision-Date: 2021-12-28 09:51+0000\n"
+"PO-Revision-Date: 2022-01-18 18:52+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.11-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.10.1\n"
 
 #: template.py:362
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -143,7 +144,7 @@ msgstr "Envolva-se"
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
 msgid "Download"
-msgstr "Transferir"
+msgstr "Descarregar"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
@@ -205,11 +206,15 @@ msgid "Chat with us on IRC"
 msgstr "Converse conosco no IRC"
 
 #: template/community.html.j2:90
+#, fuzzy
 msgid ""
 "Our IRC channel is #zrythm on Libera.Chat "
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"O nosso canal IRC é #zrythm no Libera.Chat (<code>irc://irc.libera.chat/"
+"zrythm</code>). Sinta-se livre a pingar um operador para um <code>zrythm/"
+"user/*</code> cloak."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -362,7 +367,7 @@ msgstr "Noturno"
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "mês"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
@@ -611,7 +616,7 @@ msgstr "Ferramenta de rampa"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Regiões de loop"
 
 #: template/learn.html.j2:96
 msgid "Routing"
