@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-24 11:46+0000\n"
+"POT-Creation-Date: 2022-01-08 23:12+0000\n"
 "PO-Revision-Date: 2021-11-24 12:42+0000\n"
 "Last-Translator: moshe <shinmem58@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/zrythm/web/he/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 "X-Generator: Weblate 4.10-dev\n"
 
-#: template.py:356
+#: template.py:362
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "Zchordz יוצר מפת אקורדים של סולם מינורי או מז'ורי על הקלידים הלבנים"
 
-#: template.py:357
+#: template.py:363
 msgid "Major or minor scale"
 msgstr "סולם מינורי או מז'ורי"
 
-#: template.py:358
+#: template.py:364
 msgid "Velocity multiplier per note"
 msgstr "מכפיל מהירות לפי תו"
 
-#: template.py:362
+#: template.py:368
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO הוא LFO בעל כל התכונות בכדי לבצע אוטומציה על בסיס CV"
 
-#: template.py:363
+#: template.py:369
 msgid "Multi-oscillator with custom wave"
 msgstr "מולטי מתנד עם גל מותאם אישית"
 
-#: template.py:364
+#: template.py:370
 msgid "Phase shift"
 msgstr "שינוי פאזה"
 
-#: template.py:365
+#: template.py:371
 msgid "Vertical/horizontal inversion"
 msgstr "היפוך אנכי/אופקי"
 
-#: template.py:366
+#: template.py:372
 msgid "Step mode"
 msgstr "מצב צעד"
 
-#: template.py:367
+#: template.py:373
 msgid "Editable range"
 msgstr "טווח הניתן לעריכה"
 
-#: template.py:368
+#: template.py:374
 msgid "Sync to host or free-form"
 msgstr "סנכרון למארח או בצורה חופשית"
 
-#: template.py:371
+#: template.py:377
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw הוא סינת' supersaw עם פרמטר אחד"
 
-#: template.py:372
+#: template.py:378
 msgid "7 sawtooth oscillators"
 msgstr "7 מתנדי sawtooth"
 
-#: template.py:373
+#: template.py:379
 msgid "Single knob to control detune"
 msgstr "ידית יחידה לשליטה ב-detune"
 

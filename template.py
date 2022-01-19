@@ -230,7 +230,10 @@ if fetch_orders:
             print ('adding {} liberapay earnings'.format(amount))
             monthly_earning += amount
         else:
-            print (r.json())
+            if r:
+                print (r.json())
+            else:
+                print ('No response from liberapay')
 
 # add opencollective earnings
     r = requests.get("https://opencollective.com/zrythm.json")
@@ -241,7 +244,10 @@ if fetch_orders:
         print ('adding {} opencollective earnings (estimated)'.format(amount))
         monthly_earning += amount
     else:
-        print (r.json())
+            if r:
+                print (r.json())
+            else:
+                print ('No response from OpenCollective')
 
 monthly_earning_str = '{0:.2f}'.format(monthly_earning)
 prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)
@@ -289,7 +295,7 @@ def url(x):
     # TODO: check if file exists
     return "../" + x
 
-screenshot = url('static/images/screenshots/aug-1-2021.png')
+screenshot = url('static/images/screenshots/Screenshot_20220119_110052.png')
 
 class Plugin:
     def __init__(self,name,is_img_static,img,summary,features):

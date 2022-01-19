@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2022 Alexandros Theodotou <alex at zrythm dot org>
 Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
@@ -16,7 +16,7 @@ GNU Affero General Public License for more details.
 #}
 <footer class="footer">
     <p class="footer__copyright">
-        Copyright &copy; 2019-2021 {{ _('The Zrythm contributors') }} ~
+        Copyright &copy; 2019-2022 {{ _('The Zrythm contributors') }} ~
         <a href="{{ url(lang + '/legal.html') }}">{{ _('Legal') }}</a> -
         <a href="{{ url(lang + '/privacy.html') }}">{{ _('Privacy') }}</a>
     </p>
