@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-08 23:12+0000\n"
-"PO-Revision-Date: 2021-12-19 16:54+0000\n"
-"Last-Translator: Paul Leung <labrusca@live.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2022-01-22 02:53+0000\n"
+"Last-Translator: 刘韬 <lyuutau@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.10\n"
 
 #: template.py:362
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -165,7 +166,7 @@ msgstr "提交功能请求"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
-msgstr "查看功能追踪器并且提交功能需求"
+msgstr "浏览我们的功能跟踪器并提交功能请求。"
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
@@ -183,11 +184,11 @@ msgstr "翻译Zrythm"
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
-msgstr ""
+msgstr "将 Zrythm DAW、用户手册和我们的网站翻译成您的语言。"
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "联系我们"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -252,7 +253,7 @@ msgstr "通过加密货币捐赠"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "向我们发送比特币（BTC），莱特币（LTC）或门罗币（XMR）。"
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
@@ -270,7 +271,7 @@ msgstr "通过 Open Collective 捐赠"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr "通过 Open Collective 捐赠并浏览我们的公共开支"
+msgstr "在 Open Collective 上捐款并查看我们的公共开支。"
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -278,7 +279,7 @@ msgstr "下载 Zrythm 的源代码或购买二进制软件包安装程序。"
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "选择平台"
 
 #: template/download.html.j2:49
 msgid "Downloads"
@@ -290,7 +291,7 @@ msgstr "安装文件"
 
 #: template/download.html.j2:60
 msgid "Basic"
-msgstr ""
+msgstr "基本"
 
 #: template/download.html.j2:61
 msgid "Free"
@@ -369,11 +370,12 @@ msgstr "GPG 密钥"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "功能列表。"
 
 #: template/features.html.j2:40
+#, fuzzy
 msgid "Piano Roll"
-msgstr ""
+msgstr "钢琴卷"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -397,7 +399,7 @@ msgstr "快速将选定的材料弹回到音频。"
 
 #: template/features.html.j2:75
 msgid "Automation Curves"
-msgstr ""
+msgstr "自动化曲线"
 
 #: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
@@ -421,7 +423,7 @@ msgstr ""
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "了解更多信息"
 
 #: template/index.html.j2:51
 msgid "Limitless automation"
@@ -439,7 +441,7 @@ msgstr "自动化曲线"
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
-msgstr ""
+msgstr "音频插件"
 
 #: template/index.html.j2:67
 msgid ""
@@ -451,11 +453,11 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr ""
+msgstr "音频插件"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
-msgstr ""
+msgstr "多后端支持"
 
 #: template/index.html.j2:80
 msgid ""
@@ -469,11 +471,12 @@ msgstr ""
 
 #: template/index.html.j2:88
 msgid "Audio backends"
-msgstr ""
+msgstr "音频后端"
 
 #: template/index.html.j2:93
+#, fuzzy
 msgid "Chord Assistance"
-msgstr ""
+msgstr "和弦辅助"
 
 #: template/index.html.j2:95
 msgid ""
@@ -482,8 +485,9 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:102
+#, fuzzy
 msgid "Chord highlighting"
-msgstr ""
+msgstr "和弦高亮显示"
 
 #: template/index.html.j2:107
 msgid "Liberating"
@@ -500,8 +504,9 @@ msgstr ""
 "</a>。自由使用、学习、分享和改进。"
 
 #: template/index.html.j2:115
+#, fuzzy
 msgid "Programming"
-msgstr ""
+msgstr "编程"
 
 #: template/index.html.j2:120
 msgid "Multilingual"
@@ -518,7 +523,7 @@ msgstr ""
 
 #: template/index.html.j2:128
 msgid "Multi-language support"
-msgstr ""
+msgstr "多语言支持"
 
 #: template/index.html.j2:133
 msgid "Showcase"
@@ -528,7 +533,7 @@ msgstr ""
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "您的浏览器不支持 HTML5 视频。"
 
 #: template/index.html.j2:203
 msgid "Remake"
@@ -548,7 +553,7 @@ msgstr "Zrythm参考页面-用户手册-教程"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "教程"
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -579,7 +584,7 @@ msgstr ""
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "循环区域"
 
 #: template/learn.html.j2:96
 msgid "Routing"
@@ -672,7 +677,7 @@ msgstr "与 Zrythm 捆绑的插件"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "基本插件"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
@@ -684,7 +689,7 @@ msgstr "技术规范"
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
-msgstr ""
+msgstr "高级插件"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
