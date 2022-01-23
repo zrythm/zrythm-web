@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-08 23:12+0000\n"
-"PO-Revision-Date: 2022-01-22 02:53+0000\n"
+"PO-Revision-Date: 2022-01-24 20:56+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hans/>\n"
@@ -375,7 +375,7 @@ msgstr "功能列表。"
 #: template/features.html.j2:40
 #, fuzzy
 msgid "Piano Roll"
-msgstr "钢琴卷"
+msgstr "钢琴滚筒"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
