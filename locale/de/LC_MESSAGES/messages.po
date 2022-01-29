@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-08 23:12+0000\n"
-"PO-Revision-Date: 2022-01-24 20:56+0000\n"
+"PO-Revision-Date: 2022-01-30 17:55+0000\n"
 "Last-Translator: Ulrich <drulli@airmail.cc>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -450,7 +450,7 @@ msgstr ""
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "Eine stark automatisierte und intuitive Digitale Audio Workstation"
 
 #: template/index.html.j2:39
 msgid "Learn More"
