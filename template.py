@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 #
-# Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2019-2022 Alexandros Theodotou <alex at zrythm dot org>
 #
 # This file is part of Zrythm
 #
@@ -79,6 +79,7 @@ get_version = os.getenv ('GET_VERSION') == 'YES'
 langs_full = {
     'af_ZA': ['🇿🇦', 'Afrikaans'],
     'ar': ['🇦🇪', 'العربية'],
+    'ca': ['🇦🇩', 'Català'],
     'cs': ['🇨🇿', 'Czech'],
     'da': ['🇩🇰', 'Dansk'],
     'de': ['🇩🇪', 'Deutsch'],

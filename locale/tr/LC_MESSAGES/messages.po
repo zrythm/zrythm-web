@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-08 23:12+0000\n"
+"POT-Creation-Date: 2022-01-30 23:04+0000\n"
 "PO-Revision-Date: 2022-01-22 02:53+0000\n"
 "Last-Translator: benjamin <itsbenx@outlook.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -16,58 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
-#: template.py:362
+#: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz, minör veya majör gamın akorlarını beyaz tuşlara eşler"
 
-#: template.py:363
+#: template.py:364
 msgid "Major or minor scale"
 msgstr "Majör veya minör ölçek"
 
-#: template.py:364
+#: template.py:365
 msgid "Velocity multiplier per note"
 msgstr "Nota başına hız çarpanı"
 
-#: template.py:368
+#: template.py:369
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO, CV tabanlı otomasyon için tam özellikli bir LFO'dur"
 
-#: template.py:369
+#: template.py:370
 msgid "Multi-oscillator with custom wave"
 msgstr "Özel dalgalı çoklu-osilatör"
 
-#: template.py:370
+#: template.py:371
 msgid "Phase shift"
 msgstr "Faz değişimi"
 
-#: template.py:371
+#: template.py:372
 msgid "Vertical/horizontal inversion"
 msgstr "Dikey/yatay inversiyon"
 
-#: template.py:372
+#: template.py:373
 msgid "Step mode"
 msgstr "Adım modu"
 
-#: template.py:373
+#: template.py:374
 msgid "Editable range"
 msgstr "Düzenlenebilir aralık"
 
-#: template.py:374
+#: template.py:375
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:377
+#: template.py:378
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:378
+#: template.py:379
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:379
+#: template.py:380
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -436,8 +436,8 @@ msgid ""
 "JACK audio backend and provides chord assistance."
 msgstr ""
 "Zrythm özellik dolu ve kullanımı kolay olmak için tasarlanmış dijital ses "
-"istasyonudur. Sınırsız otomasyon, LV2 eklenti desteği, JACK ses altyapısı ve "
-"akor desteği gibi imkanlara sahiptir."
+"istasyonudur. Sınırsız otomasyon, LV2 eklenti desteği, JACK ses altyapısı ve"
+" akor desteği gibi imkanlara sahiptir."
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
