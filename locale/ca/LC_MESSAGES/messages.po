@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-30 23:04+0000\n"
-"PO-Revision-Date: 2022-01-29 10:55+0000\n"
+"PO-Revision-Date: 2022-02-02 16:53+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.11-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:363
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -104,12 +104,12 @@ msgstr "Política de marques registrades"
 
 #: common/footer.j2.inc:29
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Dissenyat per Andrew Harter"
 
 #: common/header.j2.inc:24
-#| msgid "a highly automated and intuitive digital audio workstation"
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
+"Una estació de treball d'àudio digital altament automatitzada i intuïtiva."
 
 #: common/header.j2.inc:32
 #| msgid ""
@@ -149,9 +149,8 @@ msgid "Download"
 msgstr "Descarregar"
 
 #: common/navigation.j2.inc:40
-#| msgid "Language"
 msgid "Select Language"
-msgstr ""
+msgstr "Seleccionar idioma"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -255,7 +254,7 @@ msgstr ""
 
 #: template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "Donar"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -359,7 +358,7 @@ msgstr ""
 
 #: template/download.html.j2:97
 msgid "mo"
-msgstr ""
+msgstr "mes"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
@@ -392,9 +391,8 @@ msgid "List of features."
 msgstr ""
 
 #: template/features.html.j2:40
-#| msgid "Piano roll"
 msgid "Piano Roll"
-msgstr ""
+msgstr "Rotlle de pianola"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -561,18 +559,16 @@ msgstr ""
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
-#| msgid "Your browser does not support HTML5 video"
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "El navegador no admet vídeo HTML5."
 
 #: template/index.html.j2:203
 msgid "Remake"
 msgstr ""
 
 #: template/index.html.j2:225
-#| msgid "Tutorials"
 msgid "Testimonials"
-msgstr ""
+msgstr "Testimonis"
 
 #: template/index.html.j2:254
 msgid "Affiliates"
@@ -633,7 +629,7 @@ msgstr ""
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
-msgstr ""
+msgstr "Pas a pas"
 
 #: template/learn.html.j2:130
 msgid "French"
@@ -645,7 +641,7 @@ msgstr "Documentació"
 
 #: template/learn.html.j2:138
 msgid "User Manual"
-msgstr ""
+msgstr "Manual d'usuari"
 
 #: template/learn.html.j2:139
 msgid "Developer Reference"
@@ -719,7 +715,7 @@ msgstr ""
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} captura de pantalla"
 
 #: template/plugins.html.j2:57
 msgid "Technical specs"
