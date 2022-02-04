@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-30 23:04+0000\n"
-"PO-Revision-Date: 2022-02-02 16:53+0000\n"
+"PO-Revision-Date: 2022-02-04 23:41+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -75,8 +75,9 @@ msgid "Single knob to control detune"
 msgstr "Un botó per a controlar la desafinació"
 
 #: common/footer.j2.inc:19
+#, fuzzy
 msgid "The Zrythm contributors"
-msgstr "Els col·laboradors de Zrythm"
+msgstr "Col·laboradors del Zrythm"
 
 #: common/footer.j2.inc:20
 msgid "Legal"
@@ -141,7 +142,7 @@ msgstr "Aprendre"
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "Implica’t"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:67 template/index.html.j2:38
@@ -440,9 +441,9 @@ msgstr ""
 "assistència per a acords."
 
 #: template/index.html.j2:36
-#| msgid "a highly automated and intuitive digital audio workstation"
 msgid "A highly automated and intuitive digital audio workstation"
 msgstr ""
+"Una estació de treball d'àudio digital altament automatitzada i intuïtiva"
 
 #: template/index.html.j2:39
 #| msgid "Learn more"
