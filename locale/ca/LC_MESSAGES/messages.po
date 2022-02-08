@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-30 23:04+0000\n"
-"PO-Revision-Date: 2022-02-08 16:21+0000\n"
+"PO-Revision-Date: 2022-02-09 17:55+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -295,52 +295,50 @@ msgstr ""
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Fes una donació a Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
 msgstr ""
+"Fes una donació a Open Collective i consulta les nostres despeses públiques."
 
 #: template/download.html.j2:22
-#| msgid ""
-#| "Download Zrythm's source code or purchase a binary package installer"
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
+"Descarrega el codi font del Zrythm o compra un instal·lador de paquets "
+"binaris."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Selecciona la plataforma"
 
 #: template/download.html.j2:49
-#| msgid "Download"
 msgid "Downloads"
-msgstr ""
+msgstr "Baixades"
 
 #: template/download.html.j2:55
-#| msgid "Installer"
 msgid "Installers"
-msgstr ""
+msgstr "Instal·ladors"
 
 #: template/download.html.j2:60
 msgid "Basic"
-msgstr ""
+msgstr "Bàsic"
 
 #: template/download.html.j2:61
 msgid "Free"
-msgstr ""
+msgstr "Lliure"
 
 #: template/download.html.j2:63
 msgid "Bundled plugins (basic)"
 msgstr "Connectors inclosos (bàsics)"
 
 #: template/download.html.j2:64
-#| msgid "Save/load is disabled"
 msgid "Save/load disabled"
-msgstr ""
+msgstr "Desar / carregar inhabilitat"
 
 #: template/download.html.j2:71
 msgid "Single"
-msgstr ""
+msgstr "Únic"
 
 #: template/download.html.j2:74 template/download.html.j2:86
 #: template/download.html.j2:99
@@ -359,20 +357,19 @@ msgstr "Manual d'usuari en PDF"
 
 #: template/download.html.j2:79 template/download.html.j2:91
 msgid "Purchase"
-msgstr ""
+msgstr "Comprar"
 
 #: template/download.html.j2:83
 msgid "Bundle"
-msgstr ""
+msgstr "Paquet"
 
 #: template/download.html.j2:89 template/download.html.j2:102
-#| msgid "Upgrades to new releases"
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Accés a totes les versions v1"
 
 #: template/download.html.j2:95
 msgid "Nightly"
-msgstr ""
+msgstr "Nocturn"
 
 #: template/download.html.j2:97
 msgid "mo"
@@ -387,14 +384,14 @@ msgid "Subscribe"
 msgstr "Subscriu-te"
 
 #: template/download.html.j2:110
-#| msgid "Support Zrythm by purchasing an installer."
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
+"Dóna suport a Zrythm mitjançant la compra d'un instal·lador. Aquest mes hem "
+"rebut:"
 
 #: template/download.html.j2:119
-#| msgid "Source code"
 msgid "Source Code"
-msgstr ""
+msgstr "Codi font"
 
 #: template/download.html.j2:122
 msgid "Releases"
@@ -406,7 +403,7 @@ msgstr "Clau GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Llista de característiques."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
@@ -419,7 +416,7 @@ msgstr ""
 
 #: template/features.html.j2:51
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "Connexions de qualsevol lloc a qualsevol lloc"
 
 #: template/features.html.j2:53
 msgid "Connect anything to anything."
@@ -427,16 +424,15 @@ msgstr "Connectar-ho tot amb tot."
 
 #: template/features.html.j2:63
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Rebota al lloc"
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
 msgstr "Exportar ràpidament la selecció a àudio."
 
 #: template/features.html.j2:75
-#| msgid "Automation curves"
 msgid "Automation Curves"
-msgstr ""
+msgstr "Corbes d'automatització"
 
 #: template/features.html.j2:77
 msgid "Automate parameters with straight lines or curves."
@@ -463,9 +459,8 @@ msgstr ""
 "Una estació de treball d'àudio digital altament automatitzada i intuïtiva"
 
 #: template/index.html.j2:39
-#| msgid "Learn more"
 msgid "Learn More"
-msgstr ""
+msgstr "Saber-ne més"
 
 #: template/index.html.j2:51
 msgid "Limitless automation"
@@ -484,9 +479,8 @@ msgid "Automation curves"
 msgstr "Corbes d'automatització"
 
 #: template/index.html.j2:65
-#| msgid "Audio plugins"
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Complements d'àudio"
 
 #: template/index.html.j2:67
 msgid ""
@@ -501,9 +495,8 @@ msgid "Audio plugins"
 msgstr "Connectors d'àudio"
 
 #: template/index.html.j2:78
-#| msgid "Multi-backend support"
 msgid "Multi-Backend Support"
-msgstr ""
+msgstr "Assistència tècnica de multi-backend"
 
 #: template/index.html.j2:80
 msgid ""
@@ -511,25 +504,29 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"Conscient de <a href=\"https://jackaudio.org/\">Jack</a> complet, incloent "
+"suport per <a href=\"https://pipewire.org/\">PipeWire</a>, jack transport, "
+"ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi i CoreAudio."
 
 #: template/index.html.j2:88
 msgid "Audio backends"
-msgstr ""
+msgstr "Backends d'àudio"
 
 #: template/index.html.j2:93
-#| msgid "Chord assistance"
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Assistència d'acords"
 
 #: template/index.html.j2:95
 msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
 msgstr ""
+"Amb un pad d'acords per a provar ràpidament acords en una escala i una pista "
+"d'acords per ajudar amb les progressions d'acords."
 
 #: template/index.html.j2:102
 msgid "Chord highlighting"
-msgstr ""
+msgstr "Ressaltat d'acords"
 
 #: template/index.html.j2:107
 msgid "Liberating"
@@ -548,31 +545,29 @@ msgstr ""
 
 #: template/index.html.j2:115
 msgid "Programming"
-msgstr ""
+msgstr "Programació"
 
 #: template/index.html.j2:120
 msgid "Multilingual"
 msgstr "Multilingüe"
 
 #: template/index.html.j2:122
-#| msgid ""
-#| "Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
-#| "languages</a> including English, French, Galician, Portuguese, Japanese and "
-#| "German."
 msgid ""
 "Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
 "languages</a> including English, French, Spanish, Portuguese, Japanese and "
 "German."
 msgstr ""
+"Disponible en <a href=\"https://hosted.weblate.org/engage/zrythm/\">diversos "
+"idiomes</a> , incloent anglès, francès, espanyol, portuguès, japonès i "
+"alemany."
 
 #: template/index.html.j2:128
-#| msgid "Multi-backend support"
 msgid "Multi-language support"
-msgstr ""
+msgstr "Assistència multillengua"
 
 #: template/index.html.j2:133
 msgid "Showcase"
-msgstr ""
+msgstr "Vitrina"
 
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170 template/index.html.j2:184
@@ -582,7 +577,7 @@ msgstr "El navegador no admet vídeo HTML5."
 
 #: template/index.html.j2:203
 msgid "Remake"
-msgstr ""
+msgstr "Refer"
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -590,7 +585,7 @@ msgstr "Testimonis"
 
 #: template/index.html.j2:254
 msgid "Affiliates"
-msgstr ""
+msgstr "Afiliats"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -616,34 +611,36 @@ msgid "Select/Stretch Tool"
 msgstr "Eina de selecció/estirament"
 
 #: template/learn.html.j2:61
+#, fuzzy
 msgid "Edit Tool"
 msgstr "Eina Editar"
 
 #: template/learn.html.j2:71
+#, fuzzy
 msgid "Cut Tool"
 msgstr "Eina Tallar"
 
 #: template/learn.html.j2:81
+#, fuzzy
 msgid "Ramp Tool"
 msgstr "Eina Rampa"
 
 #: template/learn.html.j2:91
-#| msgid "Looping regions"
 msgid "Looping Regions"
-msgstr ""
+msgstr "Regions en bucle"
 
 #: template/learn.html.j2:96
+#, fuzzy
 msgid "Routing"
 msgstr "Encaminament"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr ""
+msgstr "Enviaments FX"
 
 #: template/learn.html.j2:116
-#| msgid "Routing"
 msgid "Port Routing"
-msgstr ""
+msgstr "Encaminament del port"
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
@@ -663,32 +660,30 @@ msgstr "Manual d'usuari"
 
 #: template/learn.html.j2:139
 msgid "Developer Reference"
-msgstr ""
+msgstr "Referència del desenvolupador"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Informació legal"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Informació legal, de llicències i de marques"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Llicències"
 
 #: template/legal.html.j2:43
-#| msgid ""
-#| "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
-#| " is released under the <a "
-#| "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-#| "Public License, version 3 or later</a>."
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
 "href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
 "Public License, version 3</a>."
 msgstr ""
+"Zrythm té drets d'autor d'Alexandros Theodotou i altres col·laboradors. "
+"Zrythm és llançat sota la <a href=\"https://www.gnu.org/licenses/agpl-3.0."
+"html\">Llicència Pública General de GNU Affero, versió 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -705,6 +700,8 @@ msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"El vídeo <em>Richard Stallman: Programari lliure, societat lliure </em> està "
+"llicenciat per Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -713,23 +710,27 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Crèdits: Dibuixos sota CC-BY-ND 3.0 creats per Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream.deviantart."
+"com) basats en idees de Richard Stallman, per ell mateix i Ynternet.org "
+"fundació."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
-msgstr ""
+msgstr "Marques"
 
 #: template/legal.html.j2:74
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
+"Zrythm i el logotip de Zrythm són marques registrades d'Alexandros Theodotou."
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
 msgstr "Connectors inclosos amb Zrythm"
 
 #: template/plugins.html.j2:38
-#| msgid "Plugins"
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Complements bàsics"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
@@ -737,25 +738,24 @@ msgstr "{} captura de pantalla"
 
 #: template/plugins.html.j2:57
 msgid "Technical specs"
-msgstr ""
+msgstr "Especificacions tècniques"
 
 #: template/plugins.html.j2:64
-#| msgid "Plugins"
 msgid "Premium Plugins"
-msgstr ""
+msgstr "Complements Premium"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de privadesa"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Darrera actualització de 4 d'agost de 2021"
 
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
-msgstr ""
+msgstr "Política de marques de Zrythm"
 
 #~ msgid "Donate using Ethereum"
 #~ msgstr "Dona amb Ethereum"
