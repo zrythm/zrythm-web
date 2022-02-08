@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-30 23:04+0000\n"
-"PO-Revision-Date: 2022-02-08 09:06+0000\n"
+"PO-Revision-Date: 2022-02-08 16:21+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -112,16 +112,16 @@ msgstr ""
 "Una estació de treball d'àudio digital altament automatitzada i intuïtiva."
 
 #: common/header.j2.inc:32
-#| msgid ""
-#| "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
-#| "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-#| "LV2, JACK"
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, estació de treball d'àudio digital, producció musical, àudio, àudio "
+"professional, Linux, GNU/Linux, programari lliure, programari libre, editor "
+"de so, composició, MIDI, LV2, JACK, VST, connector d'àudio, gravació, "
+"edició, arranjament, arranjador, mescla, masterització"
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
@@ -161,48 +161,53 @@ msgid "Contribute"
 msgstr "Contribuir"
 
 #: template/community.html.j2:44
-#| msgid "Development"
 msgid "Join Development"
-msgstr ""
+msgstr "Ajuda al desenvolupament"
 
 #: template/community.html.j2:47
 msgid ""
 "Send an email to our development mailing list for development discussion"
 msgstr ""
+"Envia un correu electrònic a la nostra llista de correu de desenvolupament "
+"per a la discussió sobre el desenvolupament"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "Envia sol·licituds de funcionalitats"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
 msgstr ""
+"Exploreu el nostre rastrejador de funcionalitats i envia sol·licituds de "
+"funcionalitats."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "Envia informes d'errors"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
+msgstr "Explora el nostre rastrejador d'errors i envia informes d'errors."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Tradueix Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
+"Tradueix el Zrythm DAW, el manual d'usuari i els nostres llocs web al teu "
+"idioma."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "Posar-se en contacte"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "Xateja amb nosaltres per IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -210,47 +215,59 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"El nostre canal IRC és #zrythm a Libera. Xat (<code>irc://irc.libera.chat/"
+"zrythm</code>). No dubtis a sol·licitar també una capa de <code>zrythm/user/"
+"*</code>."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Xateja amb nosaltres a Matrix"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix és un estàndard obert per a una comunicació segura i "
+"descentralitzada. El nostre canal de Matrix és #zrythmdaw:matrix.org i està "
+"connectat amb IRC."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "Uneix-te a la nostra llista de correu de discussió d'usuaris"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
 msgstr ""
+"Uneix-te a la nostra llista de correu de discussió d'usuaris i comparteix la "
+"teva experiència amb la resta de la comunitat."
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "Subscriu-te a la llista de correu d'anuncis"
 
 #: template/community.html.j2:117
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay up "
 "to date with important announcements."
 msgstr ""
+"Subscriu-te a la nostra llista de correu d'anuncis de només lectura i de "
+"baix volum per estar al dia dels anuncis importants."
 
 #: template/community.html.j2:123
-#| msgid "Zrythm on Mastodon"
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Segueix-nos a Mastodon"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Segueix-nos a Mastodon per a rebre actualitzacions sobre nous llançaments i "
+"fer un cop d'ull a les noves funcionalitats, votar a les enquestes i molt "
+"més."
 
 #: template/community.html.j2:133
 msgid "Donate"
@@ -258,22 +275,23 @@ msgstr "Donar"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "Donar criptomoneda"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Envieu-nos Bitcoin (BTC), Litecoin (LTC) o Monero (XMR)."
 
 #: template/community.html.j2:148
-#| msgid "Donate using LiberaPay"
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "Dona a LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
+"Fes-te mecenes a LiberaPay. Pots fer una donació mitjançant PayPal o pagar "
+"amb un compte bancari d'Europa."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
