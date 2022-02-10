@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-01-30 23:04+0000\n"
-"PO-Revision-Date: 2022-02-09 17:55+0000\n"
+"PO-Revision-Date: 2022-02-11 08:32+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -608,20 +608,17 @@ msgstr "El navegador no admet vídeo HTML5"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr "Eina de selecció/estirament"
+msgstr "Eina seleccionar / estirar"
 
 #: template/learn.html.j2:61
-#, fuzzy
 msgid "Edit Tool"
 msgstr "Eina Editar"
 
 #: template/learn.html.j2:71
-#, fuzzy
 msgid "Cut Tool"
 msgstr "Eina Tallar"
 
 #: template/learn.html.j2:81
-#, fuzzy
 msgid "Ramp Tool"
 msgstr "Eina Rampa"
 
@@ -630,7 +627,6 @@ msgid "Looping Regions"
 msgstr "Regions en bucle"
 
 #: template/learn.html.j2:96
-#, fuzzy
 msgid "Routing"
 msgstr "Encaminament"
 
