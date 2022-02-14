@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-30 23:04+0000\n"
+"POT-Creation-Date: 2022-02-14 02:44+0000\n"
 "PO-Revision-Date: 2022-01-04 11:52+0000\n"
 "Last-Translator: tommyliu313 <liuchaktin@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.10.1\n"
 
-#: template.py:363
+#: template.py:364
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz 將小調或大調上的順接和弦對應到鋼琴白键上"
 
-#: template.py:364
+#: template.py:365
 msgid "Major or minor scale"
 msgstr "大調或小調音階"
 
-#: template.py:365
+#: template.py:366
 msgid "Velocity multiplier per note"
 msgstr "可調整和弦組成音的力度比例"
 
-#: template.py:369
+#: template.py:370
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO 是個功能齊全的低頻振盪器 (CV-based)"
 
-#: template.py:370
+#: template.py:371
 msgid "Multi-oscillator with custom wave"
 msgstr "包含多個振盪器，也可自訂波形"
 
-#: template.py:371
+#: template.py:372
 msgid "Phase shift"
 msgstr "相位偏移"
 
-#: template.py:372
+#: template.py:373
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反轉波形"
 
-#: template.py:373
+#: template.py:374
 msgid "Step mode"
 msgstr "步進模式"
 
-#: template.py:374
+#: template.py:375
 msgid "Editable range"
 msgstr "可調整動態範圍"
 
-#: template.py:375
+#: template.py:376
 msgid "Sync to host or free-form"
 msgstr "同步或自由模式"
 
-#: template.py:378
+#: template.py:379
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw 是帶有一個參數的 supersaw 合成器"
 
-#: template.py:379
+#: template.py:380
 msgid "7 sawtooth oscillators"
 msgstr "七個鋸齒波振盪器"
 
-#: template.py:380
+#: template.py:381
 msgid "Single knob to control detune"
 msgstr "有一個旋鈕可以控制 detune"
 
@@ -134,7 +134,7 @@ msgid "Get Involved"
 msgstr ""
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:67 template/index.html.j2:38
+#: template/download.html.j2:68 template/index.html.j2:38
 msgid "Download"
 msgstr "下載"
 
@@ -278,90 +278,90 @@ msgstr ""
 msgid "Select Platform"
 msgstr "選擇平台"
 
-#: template/download.html.j2:49
+#: template/download.html.j2:50
 msgid "Downloads"
 msgstr "下載"
 
-#: template/download.html.j2:55
+#: template/download.html.j2:56
 msgid "Installers"
 msgstr ""
 
-#: template/download.html.j2:60
+#: template/download.html.j2:61
 msgid "Basic"
 msgstr "基本"
 
-#: template/download.html.j2:61
+#: template/download.html.j2:62
 msgid "Free"
 msgstr "免費"
 
-#: template/download.html.j2:63
+#: template/download.html.j2:64
 msgid "Bundled plugins (basic)"
 msgstr "包含基本的外掛"
 
-#: template/download.html.j2:64
+#: template/download.html.j2:65
 msgid "Save/load disabled"
 msgstr ""
 
-#: template/download.html.j2:71
+#: template/download.html.j2:72
 msgid "Single"
 msgstr ""
 
-#: template/download.html.j2:74 template/download.html.j2:86
-#: template/download.html.j2:99
+#: template/download.html.j2:75 template/download.html.j2:87
+#: template/download.html.j2:100
 msgid "Compiled with all features"
 msgstr "無功能限制"
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:100
+#: template/download.html.j2:76 template/download.html.j2:88
+#: template/download.html.j2:101
 msgid "Bundled plugins (all)"
 msgstr "包含所有的外掛"
 
-#: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:101
+#: template/download.html.j2:77 template/download.html.j2:89
+#: template/download.html.j2:102
 msgid "PDF user manual"
 msgstr "PDF 使用手冊"
 
-#: template/download.html.j2:79 template/download.html.j2:91
+#: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
 msgstr "購買"
 
-#: template/download.html.j2:83
+#: template/download.html.j2:84
 msgid "Bundle"
 msgstr ""
 
-#: template/download.html.j2:89 template/download.html.j2:102
+#: template/download.html.j2:90 template/download.html.j2:103
 msgid "Access to all v1 releases"
 msgstr ""
 
-#: template/download.html.j2:95
+#: template/download.html.j2:96
 msgid "Nightly"
 msgstr ""
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "mo"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "可取得每晚構建版 (nighty builds)"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "立即訂閱"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:119
+#: template/download.html.j2:120
 msgid "Source Code"
 msgstr ""
 
-#: template/download.html.j2:122
+#: template/download.html.j2:123
 msgid "Releases"
 msgstr "發行版 (Releases)"
 
-#: template/download.html.j2:123
+#: template/download.html.j2:124
 msgid "GPG Key"
 msgstr "GPG 金鑰"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-30 23:04+0000\n"
+"POT-Creation-Date: 2022-02-14 02:44+0000\n"
 "PO-Revision-Date: 2022-01-18 18:52+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.11-dev\n"
 
-#: template.py:363
+#: template.py:364
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea los acordes de una escala mayor o menor a las teclas blancas"
 
-#: template.py:364
+#: template.py:365
 msgid "Major or minor scale"
 msgstr "Escala mayor o menor"
 
-#: template.py:365
+#: template.py:366
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidad por nota"
 
-#: template.py:369
+#: template.py:370
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO es un LFO completo para automatizaciones basadas en CV"
 
-#: template.py:370
+#: template.py:371
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi oscilador con onda personalizada"
 
-#: template.py:371
+#: template.py:372
 msgid "Phase shift"
 msgstr "Desplazamiento de fase"
 
-#: template.py:372
+#: template.py:373
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:373
+#: template.py:374
 msgid "Step mode"
 msgstr "Modo paso"
 
-#: template.py:374
+#: template.py:375
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:375
+#: template.py:376
 msgid "Sync to host or free-form"
 msgstr "Sincronización con el host o de forma libre"
 
-#: template.py:378
+#: template.py:379
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw es un sintetizador supersaw con 1 parámetro"
 
-#: template.py:379
+#: template.py:380
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de onda de sierra"
 
-#: template.py:380
+#: template.py:381
 msgid "Single knob to control detune"
 msgstr "Botón único para controlar la desafinación"
 
@@ -138,7 +138,7 @@ msgid "Get Involved"
 msgstr "Involúcrate"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:67 template/index.html.j2:38
+#: template/download.html.j2:68 template/index.html.j2:38
 msgid "Download"
 msgstr "Descargar"
 
@@ -282,90 +282,90 @@ msgstr ""
 msgid "Select Platform"
 msgstr ""
 
-#: template/download.html.j2:49
+#: template/download.html.j2:50
 msgid "Downloads"
 msgstr ""
 
-#: template/download.html.j2:55
+#: template/download.html.j2:56
 msgid "Installers"
 msgstr ""
 
-#: template/download.html.j2:60
+#: template/download.html.j2:61
 msgid "Basic"
 msgstr ""
 
-#: template/download.html.j2:61
+#: template/download.html.j2:62
 msgid "Free"
 msgstr ""
 
-#: template/download.html.j2:63
+#: template/download.html.j2:64
 msgid "Bundled plugins (basic)"
 msgstr "Plugins incluidos (básicos)"
 
-#: template/download.html.j2:64
+#: template/download.html.j2:65
 msgid "Save/load disabled"
 msgstr ""
 
-#: template/download.html.j2:71
+#: template/download.html.j2:72
 msgid "Single"
 msgstr ""
 
-#: template/download.html.j2:74 template/download.html.j2:86
-#: template/download.html.j2:99
+#: template/download.html.j2:75 template/download.html.j2:87
+#: template/download.html.j2:100
 msgid "Compiled with all features"
 msgstr "Compilado con todas las funciones"
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:100
+#: template/download.html.j2:76 template/download.html.j2:88
+#: template/download.html.j2:101
 msgid "Bundled plugins (all)"
 msgstr "Plugins incluidos (todos)"
 
-#: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:101
+#: template/download.html.j2:77 template/download.html.j2:89
+#: template/download.html.j2:102
 msgid "PDF user manual"
 msgstr "Manual del usuario en PDF"
 
-#: template/download.html.j2:79 template/download.html.j2:91
+#: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
 msgstr ""
 
-#: template/download.html.j2:83
+#: template/download.html.j2:84
 msgid "Bundle"
 msgstr ""
 
-#: template/download.html.j2:89 template/download.html.j2:102
+#: template/download.html.j2:90 template/download.html.j2:103
 msgid "Access to all v1 releases"
 msgstr ""
 
-#: template/download.html.j2:95
+#: template/download.html.j2:96
 msgid "Nightly"
 msgstr ""
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "mo"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "Acceso a nightly builds"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "Suscribirse"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:119
+#: template/download.html.j2:120
 msgid "Source Code"
 msgstr ""
 
-#: template/download.html.j2:122
+#: template/download.html.j2:123
 msgid "Releases"
 msgstr "Lanzamientos"
 
-#: template/download.html.j2:123
+#: template/download.html.j2:124
 msgid "GPG Key"
 msgstr "Clave GPG"
 
