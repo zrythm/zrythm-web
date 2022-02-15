@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-14 02:44+0000\n"
-"PO-Revision-Date: 2022-01-24 20:56+0000\n"
+"PO-Revision-Date: 2022-02-08 09:06+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.11-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:364
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -262,7 +263,7 @@ msgstr "通过 LibraPay 捐赠"
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
-msgstr ""
+msgstr "成为 LiberaPay 的赞助人。 您可以使用 PayPal 捐款，或使用欧洲的银行账户付款。"
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
@@ -373,7 +374,7 @@ msgstr "功能列表。"
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
-msgstr ""
+msgstr "钢琴滚筒"
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -473,7 +474,7 @@ msgstr "音频后端"
 
 #: template/index.html.j2:93
 msgid "Chord Assistance"
-msgstr ""
+msgstr "和弦辅助"
 
 #: template/index.html.j2:95
 msgid ""
