@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-14 02:44+0000\n"
-"PO-Revision-Date: 2022-02-11 08:32+0000\n"
+"PO-Revision-Date: 2022-02-18 17:36+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.11-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:364
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -34,9 +34,11 @@ msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocitat per nota"
 
 #: template.py:370
+#, fuzzy
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
-"ZLFO és un ZLFO amb totes les funcions per a l'automatització basada en CV"
+"ZLFO és un ZLFO amb totes les funcionalitats per a l'automatització basada "
+"en CV"
 
 #: template.py:371
 msgid "Multi-oscillator with custom wave"
@@ -120,13 +122,13 @@ msgid ""
 msgstr ""
 "DAW, estació de treball d'àudio digital, producció musical, àudio, àudio "
 "professional, Linux, GNU/Linux, programari lliure, programari libre, editor "
-"de so, composició, MIDI, LV2, JACK, VST, connector d'àudio, gravació, "
+"de so, composició, MIDI, LV2, JACK, VST, complement d'àudio, gravació, "
 "edició, arranjament, arranjador, mescla, masterització"
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
 msgid "Features"
-msgstr "Característiques"
+msgstr "Funcionalitats"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -178,7 +180,7 @@ msgstr "Envia sol·licituds de funcionalitats"
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
 msgstr ""
-"Exploreu el nostre rastrejador de funcionalitats i envia sol·licituds de "
+"Explora el nostre rastrejador de funcionalitats i envia sol·licituds de "
 "funcionalitats."
 
 #: template/community.html.j2:62
@@ -314,7 +316,7 @@ msgstr "Selecciona la plataforma"
 
 #: template/download.html.j2:50
 msgid "Downloads"
-msgstr "Baixades"
+msgstr "Descàrregues"
 
 #: template/download.html.j2:56
 msgid "Installers"
@@ -330,7 +332,7 @@ msgstr "Lliure"
 
 #: template/download.html.j2:64
 msgid "Bundled plugins (basic)"
-msgstr "Connectors inclosos (bàsics)"
+msgstr "Complements inclosos (bàsics)"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
@@ -338,17 +340,17 @@ msgstr "Desar / carregar inhabilitat"
 
 #: template/download.html.j2:72
 msgid "Single"
-msgstr "Únic"
+msgstr "Senzilla"
 
 #: template/download.html.j2:75 template/download.html.j2:87
 #: template/download.html.j2:100
 msgid "Compiled with all features"
-msgstr "Compilat amb totes les funcions"
+msgstr "Compilat amb totes les funcionalitats"
 
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:101
 msgid "Bundled plugins (all)"
-msgstr "Connectors inclosos (tots)"
+msgstr "Complements inclosos (tots)"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:102
@@ -356,6 +358,7 @@ msgid "PDF user manual"
 msgstr "Manual d'usuari en PDF"
 
 #: template/download.html.j2:80 template/download.html.j2:92
+#, fuzzy
 msgid "Purchase"
 msgstr "Comprar"
 
@@ -403,7 +406,7 @@ msgstr "Clau GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr "Llista de característiques."
+msgstr "Llista de funcionalitats."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
@@ -450,7 +453,7 @@ msgid ""
 msgstr ""
 "Zrythm és una estació de treball d'àudio digital dissenyada per a ser "
 "funcional i fàcil d'utilitzar. Permet una automatització il·limitada, admet "
-"connectors LV2, funciona amb el backend d'àudio JACK i proporciona "
+"complements LV2, funciona amb el backend d'àudio JACK i proporciona "
 "assistència per a acords."
 
 #: template/index.html.j2:36
@@ -492,7 +495,7 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr "Connectors d'àudio"
+msgstr "Complements d'àudio"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
@@ -608,7 +611,7 @@ msgstr "El navegador no admet vídeo HTML5"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr "Eina seleccionar / estirar"
+msgstr "Eina Seleccionar / Estirar"
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
@@ -724,7 +727,7 @@ msgstr ""
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr "Connectors inclosos amb Zrythm"
+msgstr "Complements inclosos amb Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
