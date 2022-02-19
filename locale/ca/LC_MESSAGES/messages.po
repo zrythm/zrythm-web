@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-14 02:44+0000\n"
-"PO-Revision-Date: 2022-02-18 17:36+0000\n"
+"PO-Revision-Date: 2022-02-20 12:12+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -22,8 +22,7 @@ msgstr ""
 #: template.py:364
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mapeja els acords d'una escala menor o major per a les tecles "
-"blanques"
+"ZChordz mapeja els acords d'una escala menor o major a les tecles blanques"
 
 #: template.py:365
 msgid "Major or minor scale"
@@ -34,11 +33,10 @@ msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocitat per nota"
 
 #: template.py:370
-#, fuzzy
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
-"ZLFO és un ZLFO amb totes les funcionalitats per a l'automatització basada "
-"en CV"
+"ZLFO és un LFO amb totes les funcionalitats per a l'automatització basada en "
+"CV"
 
 #: template.py:371
 msgid "Multi-oscillator with custom wave"
@@ -358,7 +356,6 @@ msgid "PDF user manual"
 msgstr "Manual d'usuari en PDF"
 
 #: template/download.html.j2:80 template/download.html.j2:92
-#, fuzzy
 msgid "Purchase"
 msgstr "Comprar"
 
@@ -372,7 +369,7 @@ msgstr "Accés a totes les versions v1"
 
 #: template/download.html.j2:96
 msgid "Nightly"
-msgstr "Nocturn"
+msgstr "Cada nit"
 
 #: template/download.html.j2:98
 msgid "mo"
@@ -627,7 +624,7 @@ msgstr "Eina Rampa"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr "Regions en bucle"
+msgstr "Regions de repetició"
 
 #: template/learn.html.j2:96
 msgid "Routing"
