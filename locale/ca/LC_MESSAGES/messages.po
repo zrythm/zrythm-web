@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-14 02:44+0000\n"
-"PO-Revision-Date: 2022-02-22 09:58+0000\n"
+"PO-Revision-Date: 2022-02-25 21:56+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: template.py:364
@@ -72,7 +72,7 @@ msgstr "7 oscil·ladors de dents de serra"
 
 #: template.py:381
 msgid "Single knob to control detune"
-msgstr "Un botó per a controlar la desafinació"
+msgstr "Una rodeta única per a controlar la desafinació"
 
 #: common/footer.j2.inc:19
 msgid "The Zrythm contributors"
@@ -254,7 +254,7 @@ msgid ""
 "to date with important announcements."
 msgstr ""
 "Subscriu-te a la nostra llista de correu d'anuncis de només lectura i de "
-"baix volum per estar al dia dels anuncis importants."
+"baix volum per a estar al dia dels anuncis importants."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
