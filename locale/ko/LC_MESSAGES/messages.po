@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-02-14 02:44+0000\n"
-"PO-Revision-Date: 2019-05-09 09:52+0000\n"
-"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
-"Language-Team: Korean <https://translate.zrythm.org/projects/zrythm/website/ko/>\n"
+"PO-Revision-Date: 2022-02-28 18:13+0000\n"
+"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/zrythm/web/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 3.6.1\n"
 
 #: template.py:364
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: template.py:365
 msgid "Major or minor scale"
-msgstr ""
+msgstr "장음계 또는 단음계"
 
 #: template.py:366
 msgid "Velocity multiplier per note"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: common/footer.j2.inc:21
 msgid "Privacy"
-msgstr ""
+msgstr "개인 정보 보호"
 
 #: common/footer.j2.inc:24
 msgid ""
@@ -177,13 +177,13 @@ msgstr ""
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Zrythm 번역"
 
 #: template/community.html.j2:74
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
-msgstr ""
+msgstr "Zrythm DAW, 사용 설명서 및 웹 사이트를 해당 언어로 번역합니다."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
@@ -280,7 +280,7 @@ msgstr ""
 
 #: template/download.html.j2:50
 msgid "Downloads"
-msgstr ""
+msgstr "다운로드"
 
 #: template/download.html.j2:56
 msgid "Installers"
@@ -304,7 +304,7 @@ msgstr ""
 
 #: template/download.html.j2:72
 msgid "Single"
-msgstr ""
+msgstr "단일"
 
 #: template/download.html.j2:75 template/download.html.j2:87
 #: template/download.html.j2:100
@@ -323,11 +323,11 @@ msgstr ""
 
 #: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
-msgstr ""
+msgstr "구입"
 
 #: template/download.html.j2:84
 msgid "Bundle"
-msgstr ""
+msgstr "번들"
 
 #: template/download.html.j2:90 template/download.html.j2:103
 msgid "Access to all v1 releases"
@@ -335,7 +335,7 @@ msgstr ""
 
 #: template/download.html.j2:96
 msgid "Nightly"
-msgstr ""
+msgstr "나이틀리"
 
 #: template/download.html.j2:98
 msgid "mo"
@@ -458,6 +458,9 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
+"<a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+"PulseAudio, WASAPI, Windows MME, CoreMidi 및 CoreAudio에 대한 지원을 "
+"포함하여 <a href=\"https://jackaudio.org/\">JACK</a>을 완벽하게 인식합니다."
 
 #: template/index.html.j2:88
 msgid "Audio backends"
