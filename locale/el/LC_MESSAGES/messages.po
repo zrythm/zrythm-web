@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-02-14 02:44+0000\n"
+"POT-Creation-Date: 2022-03-12 14:48+0000\n"
 "PO-Revision-Date: 2021-11-10 19:50+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -20,57 +20,57 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.9.1-dev\n"
 
-#: template.py:364
+#: template.py:387
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "Το ZChordz χαρτογραφεί τις συγχορδίες ελάσσονος ή μείζονος κλίμακας σε λευκά"
 " πλήκτρα"
 
-#: template.py:365
+#: template.py:388
 msgid "Major or minor scale"
 msgstr "Μείζων ή ελάσσων κλίμακα"
 
-#: template.py:366
+#: template.py:389
 msgid "Velocity multiplier per note"
 msgstr "Πολλαπλασιαστής ταχύτητας ανά νότα"
 
-#: template.py:370
+#: template.py:393
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "Το ZLFO είναι ένα πλήρες LFO για αυτοματισμό βασισμένο σε CV"
 
-#: template.py:371
+#: template.py:394
 msgid "Multi-oscillator with custom wave"
 msgstr "Πολυ-ταλαντωτής με προσαρμοσμένο κύμα"
 
-#: template.py:372
+#: template.py:395
 msgid "Phase shift"
 msgstr "Μετατόπιση φάσης"
 
-#: template.py:373
+#: template.py:396
 msgid "Vertical/horizontal inversion"
 msgstr "Κάθετη/οριζόντια αναστροφή"
 
-#: template.py:374
+#: template.py:397
 msgid "Step mode"
 msgstr "Λειτουργία βημάτων"
 
-#: template.py:375
+#: template.py:398
 msgid "Editable range"
 msgstr "Επεξεργάσιμο εύρος"
 
-#: template.py:376
+#: template.py:399
 msgid "Sync to host or free-form"
 msgstr "Συγχρονισμός με τον εξυπηρετητή ή ελεύθερη μορφή"
 
-#: template.py:379
+#: template.py:402
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "Το ZSaw είναι supersaw συνθεσάιζερ με 1 παράμετρο"
 
-#: template.py:380
+#: template.py:403
 msgid "7 sawtooth oscillators"
 msgstr "7 ταλαντωτές sawtooth"
 
-#: template.py:381
+#: template.py:404
 msgid "Single knob to control detune"
 msgstr "Μονός περιστροφικός επιλογέας για έλεγχο αποσυντονισμού"
 
@@ -357,18 +357,22 @@ msgid "Subscribe"
 msgstr "Εγγραφή"
 
 #: template/download.html.j2:111
+msgid "* Prices in this currency are estimated"
+msgstr ""
+
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:120
+#: template/download.html.j2:125
 msgid "Source Code"
 msgstr ""
 
-#: template/download.html.j2:123
+#: template/download.html.j2:128
 msgid "Releases"
 msgstr "Κυκλοφορίες"
 
-#: template/download.html.j2:124
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "Κλειδί GPG"
 

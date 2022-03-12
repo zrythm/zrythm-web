@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-02-14 02:44+0000\n"
+"POT-Creation-Date: 2022-03-12 14:48+0000\n"
 "PO-Revision-Date: 2021-10-28 18:44+0000\n"
 "Last-Translator: Alaa alden Aldroubi <alaa.aldroubi@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: template.py:364
+#: template.py:387
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "يرسم ZChordz أوتار النطاق الصغير أو الرئيسي للمفاتيح البيضاء"
 
-#: template.py:365
+#: template.py:388
 msgid "Major or minor scale"
 msgstr "مقياس رئيسي أو ثانوي"
 
-#: template.py:366
+#: template.py:389
 msgid "Velocity multiplier per note"
 msgstr "مضاعف السرعة لكل ملاحظة"
 
-#: template.py:370
+#: template.py:393
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO هو LFO لاكن مميز بالكامل للأتممة المستندة إلى السيرة الذاتية"
 
-#: template.py:371
+#: template.py:394
 msgid "Multi-oscillator with custom wave"
 msgstr "مذبذب متعدد بموجة مخصصة"
 
-#: template.py:372
+#: template.py:395
 msgid "Phase shift"
 msgstr "مرحلة التحول"
 
-#: template.py:373
+#: template.py:396
 msgid "Vertical/horizontal inversion"
 msgstr "الانقلاب الرأسي / الأفقي"
 
-#: template.py:374
+#: template.py:397
 msgid "Step mode"
 msgstr "وضع الخطوة"
 
-#: template.py:375
+#: template.py:398
 msgid "Editable range"
 msgstr "نطاق قابل للتعديل"
 
-#: template.py:376
+#: template.py:399
 msgid "Sync to host or free-form"
 msgstr "مزامنة لاستضافة أو شكل حر"
 
-#: template.py:379
+#: template.py:402
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw هو موالفة supersaw مع معلمة 1"
 
-#: template.py:380
+#: template.py:403
 msgid "7 sawtooth oscillators"
 msgstr "7 مذبذبات sawtooth"
 
-#: template.py:381
+#: template.py:404
 msgid "Single knob to control detune"
 msgstr "مقبض واحد للتحكم على detune"
 
@@ -350,18 +350,22 @@ msgid "Subscribe"
 msgstr "الإشتراك"
 
 #: template/download.html.j2:111
+msgid "* Prices in this currency are estimated"
+msgstr ""
+
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:120
+#: template/download.html.j2:125
 msgid "Source Code"
 msgstr ""
 
-#: template/download.html.j2:123
+#: template/download.html.j2:128
 msgid "Releases"
 msgstr "الإصدارات"
 
-#: template/download.html.j2:124
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "مفتاح GPG"
 

@@ -70,7 +70,7 @@ GNU Affero General Public License for more details.
 
         <div class="downloads__card">
             <h4 class="downloads__title header--tertiary">{{ _('Single') }}</h4>
-            <h2 class="downloads__price">£10</h2>
+            <h2 class="downloads__price">{{ single_price_for_locale }}</h2>
             <ul class="downloads__features">
                 <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
                 <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
@@ -82,7 +82,7 @@ GNU Affero General Public License for more details.
 
         <div class="downloads__card">
             <h4 class="downloads__title header--primary">{{ _('Bundle') }}</h4>
-            <h2 class="downloads__price">£25</h2>
+            <h2 class="downloads__price">{{ bundle_price_for_locale }}</h2>
             <ul class="downloads__features">
                 <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
                 <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
@@ -95,7 +95,7 @@ GNU Affero General Public License for more details.
         <div class="downloads__card">
             <h4 class="downloads__title header--secondary">{{ _('Nightly') }}</h4>
             {# TRANSLATORS: mo = month #}
-            <h2 class="downloads__price">£12<p style="display: inline;">/{{ _('mo') }}</p></h2>
+            <h2 class="downloads__price">{{ subscription_price_for_locale }}<p style="display: inline;">/{{ _('mo') }}</p></h2>
             <ul class="downloads__features">
                 <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
                 <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
@@ -106,10 +106,15 @@ GNU Affero General Public License for more details.
             <a href="https://accounts.zrythm.org/en/products/subscription/view" class="downloads__btn btn btn--secondary">{{ _('Subscribe') }}</a>
         </div>
     </div>
+    {% if currency_for_locale != 'GBP' %}
+    <div class="downloads__funds-container container">
+      {{ _('* Prices in this currency are estimated') }}
+    </div>
+    {% endif %}
     <div class="downloads__funds-container container">
         <div class="downloads__funds">
             <p class="downloads__funds-text">{{ _('Support Zrythm by purchasing an installer. This month we received:') }}</p>
-            <h3 class="downloads__funds-amount">£{{ monthly_earning_str }}</h3>
+            <h3 class="downloads__funds-amount">{{ monthly_earning_str }}</h3>
         </div>
     </div>
 

@@ -77,41 +77,41 @@ get_version = os.getenv ('GET_VERSION') == 'YES'
 
 # Note: also edit the Makefile when adding languages
 langs_full = {
-    'af_ZA': ['🇿🇦', 'Afrikaans'],
-    'ar': ['🇦🇪', 'العربية'],
-    'ca': ['🇦🇩', 'Català'],
-    'cs': ['🇨🇿', 'Czech'],
-    'da': ['🇩🇰', 'Dansk'],
-    'de': ['🇩🇪', 'Deutsch'],
-    'en': ['🇺🇸', 'English US'],
-    'en_GB': ['🇬🇧', 'English UK'],
-    'el': ['🇬🇷', 'Ελληνικά'],
-    'es': ['🇪🇸', 'Español'],
-    'et': ['🇪🇪', 'Eeti'],
-    'fi': ['🇫🇮', 'Suomi'],
-    'fr': ['🇫🇷', 'Français'],
-    'gd': ['🏴󠁧󠁢󠁳󠁣󠁴󠁿', 'Gaelic'],
-    'gl': ['🇪🇸', 'Galego'],
-    'he': ['🇮🇱', 'עִבְרִית'],
-    'hi': ['🇮🇳', 'हिन्दी'],
-    'id': ['🇮🇩', 'bahasa Indonesia'],
-    'it': ['🇮🇹', 'Italiano'],
-    'ja': ['🇯🇵', '日本語'],
-    'ko': ['🇰🇷', '한국어'],
-    'nb_NO': ['🇳🇴', 'Bokmål'],
-    'nl': ['🇳🇱', 'Nederlands'],
-    'pl': ['🇵🇱', 'Polski'],
-    'pt': ['🇵🇹', 'Português'],
-    'pt_BR': ['🇧🇷', 'Português BR'],
-    'ru': ['🇷🇺', 'Русский'],
-    'sl': ['🇸🇮', 'Slovenščina'],
-    'sv': ['🇸🇪', 'Svenska'],
-    'th': ['🇹🇭', 'ภาษาไทย'],
-    'tr': ['🇹🇷', 'Türkiye'],
-    'uk': ['🇺🇦', 'Українська'],
-    'vi': ['🇻🇳', 'Tiếng Việt'],
-    'zh_CN': ['🇨🇳', '简体中文'],
-    'zh_TW': ['🇹🇼', '繁體中文'],
+    'af_ZA': ['🇿🇦', 'Afrikaans', 'USD'],
+    'ar': ['🇦🇪', 'العربية', 'USD'],
+    'ca': ['🇦🇩', 'Català', 'EUR'],
+    'cs': ['🇨🇿', 'Czech', 'EUR'],
+    'da': ['🇩🇰', 'Dansk', 'EUR'],
+    'de': ['🇩🇪', 'Deutsch', 'EUR'],
+    'en': ['🇺🇸', 'English US', 'USD'],
+    'en_GB': ['🇬🇧', 'English UK', 'GBP'],
+    'el': ['🇬🇷', 'Ελληνικά', 'EUR'],
+    'es': ['🇪🇸', 'Español', 'EUR'],
+    'et': ['🇪🇪', 'Eeti', 'EUR'],
+    'fi': ['🇫🇮', 'Suomi', 'EUR'],
+    'fr': ['🇫🇷', 'Français', 'EUR'],
+    'gd': ['🏴󠁧󠁢󠁳󠁣󠁴󠁿', 'Gaelic', 'GBP'],
+    'gl': ['🇪🇸', 'Galego', 'EUR'],
+    'he': ['🇮🇱', 'עִבְרִית', 'USD'],
+    'hi': ['🇮🇳', 'हिन्दी', 'USD'],
+    'id': ['🇮🇩', 'bahasa Indonesia', 'USD'],
+    'it': ['🇮🇹', 'Italiano', 'EUR'],
+    'ja': ['🇯🇵', '日本語', 'JPY'],
+    'ko': ['🇰🇷', '한국어', 'USD'],
+    'nb_NO': ['🇳🇴', 'Bokmål', 'EUR'],
+    'nl': ['🇳🇱', 'Nederlands', 'EUR'],
+    'pl': ['🇵🇱', 'Polski', 'EUR'],
+    'pt': ['🇵🇹', 'Português', 'EUR'],
+    'pt_BR': ['🇧🇷', 'Português BR', 'USD'],
+    'ru': ['🇷🇺', 'Русский', 'USD'],
+    'sl': ['🇸🇮', 'Slovenščina', 'EUR'],
+    'sv': ['🇸🇪', 'Svenska', 'EUR'],
+    'th': ['🇹🇭', 'ภาษาไทย', 'USD'],
+    'tr': ['🇹🇷', 'Türkiye', 'USD'],
+    'uk': ['🇺🇦', 'Українська', 'EUR'],
+    'vi': ['🇻🇳', 'Tiếng Việt', 'USD'],
+    'zh_CN': ['🇨🇳', '简体中文', 'CNY'],
+    'zh_TW': ['🇹🇼', '繁體中文', 'TWD'],
     }
 git_url = 'https://git.sr.ht/~alextee/zrythm'
 feature_tracker = 'https://todo.sr.ht/~alextee/zrythm-feature'
@@ -126,8 +126,31 @@ obs_package_url = 'https://software.opensuse.org//download.html?project=home%3Aa
 copr_package_url = 'https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/package/zrythm/'
 freshports_url = 'https://www.freshports.org/audio/zrythm/'
 
-usd_to_gbp = 0.77
-eur_to_gbp = 0.92
+currency_symbols = {
+    'USD': '$',
+    'GBP': '£',
+    'EUR': '€',
+    'JPY': '¥',
+    'CNY': '¥',
+    'TWD': 'NT$',
+    }
+forex_url = 'https://open.er-api.com/v6/latest/GBP'
+headers = {
+    'Accept': 'application/json',
+    'Content-type': 'application/json',
+    'Accept-Charset': 'UTF-8',
+    }
+print ('getting forex rates...')
+currency_rates = { }
+r = requests.get(forex_url, headers=headers)
+if r.status_code == 200:
+    res_json = r.json ()
+    rates = res_json['rates']
+    for sym in currency_symbols.keys():
+        currency_rates[sym] = float (rates[sym])
+else:
+    print (r.json())
+    exit (1)
 
 prev_month_earning = 100
 monthly_earning = 0
@@ -240,7 +263,7 @@ if fetch_orders:
     r = requests.get("https://opencollective.com/zrythm.json")
     if r.status_code == 200:
         amount = float(r.json()['yearlyIncome']) / 1200.0
-        amount *= usd_to_gbp
+        amount = amount / currency_rates['USD']
         amount = float('%.2f' % amount)
         print ('adding {} opencollective earnings (estimated)'.format(amount))
         monthly_earning += amount
@@ -381,10 +404,31 @@ for in_file in glob.glob("template/*.j2"):
                     _('Single knob to control detune') ]),
             ]
 
+        currency_for_locale = langs_full[locale][2]
+        currency_sym_for_locale = currency_symbols[currency_for_locale]
+        single_price_for_locale = round (10 * currency_rates[currency_for_locale])
+        bundle_price_for_locale = round (25 * currency_rates[currency_for_locale])
+        subscription_price_for_locale = round (12 * currency_rates[currency_for_locale])
+        monthly_earning_for_locale = round (monthly_earning * currency_rates[currency_for_locale])
+        # if JPY, round again to 100s
+        if currency_for_locale == 'JPY':
+            single_price_for_locale = round (single_price_for_locale, -2)
+            bundle_price_for_locale = round (bundle_price_for_locale, -2)
+            subscription_price_for_locale = round (subscription_price_for_locale, -2)
+            monthly_earning_for_locale = round (monthly_earning_for_locale, -2)
+        single_price_for_locale = '{}{}'.format (currency_sym_for_locale, single_price_for_locale)
+        bundle_price_for_locale = '{}{}'.format (currency_sym_for_locale, bundle_price_for_locale)
+        subscription_price_for_locale = '{}{}'.format (currency_sym_for_locale, subscription_price_for_locale)
+        monthly_earning_str = '{}{}'.format (currency_sym_for_locale, monthly_earning_for_locale)
+
         content = tmpl.render(lang=locale,
                               lang_for_accounts=locale_for_accounts,
                               lang_full=langs_full[locale],
                               langs_full=langs_full,
+                              currency_for_locale=currency_for_locale,
+                              single_price_for_locale=single_price_for_locale,
+                              bundle_price_for_locale=bundle_price_for_locale,
+                              subscription_price_for_locale=subscription_price_for_locale,
                               url=url,
                               git_url=git_url,
                               aur_git_url=aur_git_url,

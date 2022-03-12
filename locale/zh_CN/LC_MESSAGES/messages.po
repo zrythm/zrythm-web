@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-02-14 02:44+0000\n"
+"POT-Creation-Date: 2022-03-12 14:48+0000\n"
 "PO-Revision-Date: 2022-02-08 09:06+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.11-dev\n"
 
-#: template.py:364
+#: template.py:387
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz 将小调或大调的和弦映射到白键上"
 
-#: template.py:365
+#: template.py:388
 msgid "Major or minor scale"
 msgstr "大调音阶或小调音阶"
 
-#: template.py:366
+#: template.py:389
 msgid "Velocity multiplier per note"
 msgstr "每个音符的速度乘数"
 
-#: template.py:370
+#: template.py:393
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO 是一款功能齐全的基于 CV 自动化的 LFO"
 
-#: template.py:371
+#: template.py:394
 msgid "Multi-oscillator with custom wave"
 msgstr "带自定义波的多振荡器"
 
-#: template.py:372
+#: template.py:395
 msgid "Phase shift"
 msgstr "相移"
 
-#: template.py:373
+#: template.py:396
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反演"
 
-#: template.py:374
+#: template.py:397
 msgid "Step mode"
 msgstr "步进模式"
 
-#: template.py:375
+#: template.py:398
 msgid "Editable range"
 msgstr "可编辑范围"
 
-#: template.py:376
+#: template.py:399
 msgid "Sync to host or free-form"
 msgstr "同步到主机或自由格式"
 
-#: template.py:379
+#: template.py:402
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw 是一个带有 1 个参数的 supersaw 合成器"
 
-#: template.py:380
+#: template.py:403
 msgid "7 sawtooth oscillators"
 msgstr "7 锯齿振荡器"
 
-#: template.py:381
+#: template.py:404
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 
@@ -352,18 +352,22 @@ msgid "Subscribe"
 msgstr "订阅"
 
 #: template/download.html.j2:111
+msgid "* Prices in this currency are estimated"
+msgstr ""
+
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:120
+#: template/download.html.j2:125
 msgid "Source Code"
 msgstr "源代码"
 
-#: template/download.html.j2:123
+#: template/download.html.j2:128
 msgid "Releases"
 msgstr "发布"
 
-#: template/download.html.j2:124
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "GPG 密钥"
 

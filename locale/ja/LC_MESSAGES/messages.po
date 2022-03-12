@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-02-14 02:44+0000\n"
+"POT-Creation-Date: 2022-03-12 14:48+0000\n"
 "PO-Revision-Date: 2021-10-23 08:18+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -20,55 +20,55 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: template.py:364
+#: template.py:387
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz は、マイナーまたはメジャースケールの和音を白いキーにマップします"
 
-#: template.py:365
+#: template.py:388
 msgid "Major or minor scale"
 msgstr "メジャーまたはマイナー音階"
 
-#: template.py:366
+#: template.py:389
 msgid "Velocity multiplier per note"
 msgstr "音符ごとのベロシティ乗数"
 
-#: template.py:370
+#: template.py:393
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFOはCVベースのオートメーションのための十分に特色にされたLFOである"
 
-#: template.py:371
+#: template.py:394
 msgid "Multi-oscillator with custom wave"
 msgstr "多オシレータおよびカスタム"
 
-#: template.py:372
+#: template.py:395
 msgid "Phase shift"
 msgstr "位相シフト"
 
-#: template.py:373
+#: template.py:396
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平インバート"
 
-#: template.py:374
+#: template.py:397
 msgid "Step mode"
 msgstr "ステップモード"
 
-#: template.py:375
+#: template.py:398
 msgid "Editable range"
 msgstr "編集可能な出力範囲"
 
-#: template.py:376
+#: template.py:399
 msgid "Sync to host or free-form"
 msgstr "ホストと同期または自由周波数"
 
-#: template.py:379
+#: template.py:402
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSawは1つのパラメータを持つスーパーソーシンセである"
 
-#: template.py:380
+#: template.py:403
 msgid "7 sawtooth oscillators"
 msgstr "7つのノコギリオシレータ"
 
-#: template.py:381
+#: template.py:404
 msgid "Single knob to control detune"
 msgstr "シングル・ノブでデチューンを調整"
 
@@ -357,18 +357,22 @@ msgid "Subscribe"
 msgstr "登録"
 
 #: template/download.html.j2:111
+msgid "* Prices in this currency are estimated"
+msgstr "※円建ての価格は概算です"
+
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr "インストーラを購入することで Zrythm を支援します。今月いただいた額："
 
-#: template/download.html.j2:120
+#: template/download.html.j2:125
 msgid "Source Code"
 msgstr "ソースコード"
 
-#: template/download.html.j2:123
+#: template/download.html.j2:128
 msgid "Releases"
 msgstr "リリース"
 
-#: template/download.html.j2:124
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "GPG鍵"
 
