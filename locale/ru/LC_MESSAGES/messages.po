@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-12 14:48+0000\n"
-"PO-Revision-Date: 2021-12-10 18:50+0000\n"
-"Last-Translator: Даниил Морозюк <morozdan2003@gmail.com>\n"
+"PO-Revision-Date: 2022-02-25 21:56+0000\n"
+"Last-Translator: nawsikaya <yducks@bk.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.10-dev\n"
 
 #: template.py:387
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -175,7 +176,7 @@ msgstr ""
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "Отправить сообщение об ошибке"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
@@ -183,7 +184,7 @@ msgstr ""
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Перевести Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
@@ -193,7 +194,7 @@ msgstr ""
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "Связаться с нами"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -228,7 +229,7 @@ msgstr ""
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "Подписаться на список рассылок"
 
 #: template/community.html.j2:117
 msgid ""
@@ -282,15 +283,15 @@ msgstr ""
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Выбрать платформу"
 
 #: template/download.html.j2:50
 msgid "Downloads"
-msgstr ""
+msgstr "Загрузки"
 
 #: template/download.html.j2:56
 msgid "Installers"
-msgstr ""
+msgstr "Установщики"
 
 #: template/download.html.j2:61
 msgid "Basic"
@@ -298,7 +299,7 @@ msgstr ""
 
 #: template/download.html.j2:62
 msgid "Free"
-msgstr ""
+msgstr "Бесплатно"
 
 #: template/download.html.j2:64
 msgid "Bundled plugins (basic)"
@@ -333,7 +334,7 @@ msgstr ""
 
 #: template/download.html.j2:84
 msgid "Bundle"
-msgstr ""
+msgstr "Пакет"
 
 #: template/download.html.j2:90 template/download.html.j2:103
 msgid "Access to all v1 releases"
@@ -365,7 +366,7 @@ msgstr ""
 
 #: template/download.html.j2:125
 msgid "Source Code"
-msgstr ""
+msgstr "Исходный код"
 
 #: template/download.html.j2:128
 msgid "Releases"
@@ -432,7 +433,7 @@ msgstr ""
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "Узнать больше"
 
 #: template/index.html.j2:51
 msgid "Limitless automation"
@@ -453,7 +454,7 @@ msgstr "Кривые автоматизации"
 
 #: template/index.html.j2:65
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Аудио плагины"
 
 #: template/index.html.j2:67
 msgid ""
@@ -465,7 +466,7 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr ""
+msgstr "Аудио плагины"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
@@ -700,7 +701,7 @@ msgstr "Плагины в комплекте с Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Основные плагины"
 
 #: template/plugins.html.j2:43
 msgid "{} screenshot"
@@ -712,7 +713,7 @@ msgstr "Технические характеристики"
 
 #: template/plugins.html.j2:64
 msgid "Premium Plugins"
-msgstr ""
+msgstr "Премиум плагины"
 
 #: template/privacy.html.j2:19 template/privacy.html.j2:22
 #: template/privacy.html.j2:31

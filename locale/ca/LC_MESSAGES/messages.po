@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-12 14:48+0000\n"
-"PO-Revision-Date: 2022-02-11 08:32+0000\n"
+"PO-Revision-Date: 2022-02-28 18:13+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,14 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.11-dev\n"
 
 #: template.py:387
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mapeja els acords d'una escala menor o major per a les tecles "
-"blanques"
+"ZChordz mapeja els acords d'una escala menor o major a les tecles blanques"
 
 #: template.py:388
 msgid "Major or minor scale"
@@ -36,11 +35,12 @@ msgstr "Multiplicador de velocitat per nota"
 #: template.py:393
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
-"ZLFO és un ZLFO amb totes les funcions per a l'automatització basada en CV"
+"ZLFO és un LFO amb totes les funcionalitats per a l'automatització basada en "
+"CV"
 
 #: template.py:394
 msgid "Multi-oscillator with custom wave"
-msgstr "Multi oscil·lador amb ona personalitzada"
+msgstr "Multioscil·lador amb ona personalitzada"
 
 #: template.py:395
 msgid "Phase shift"
@@ -72,11 +72,11 @@ msgstr "7 oscil·ladors de dents de serra"
 
 #: template.py:404
 msgid "Single knob to control detune"
-msgstr "Un botó per a controlar la desafinació"
+msgstr "Una rodeta única per a controlar la desafinació"
 
 #: common/footer.j2.inc:19
 msgid "The Zrythm contributors"
-msgstr "Col·laboradors del Zrythm"
+msgstr "Col·laboradors de Zrythm"
 
 #: common/footer.j2.inc:20
 msgid "Legal"
@@ -120,13 +120,13 @@ msgid ""
 msgstr ""
 "DAW, estació de treball d'àudio digital, producció musical, àudio, àudio "
 "professional, Linux, GNU/Linux, programari lliure, programari libre, editor "
-"de so, composició, MIDI, LV2, JACK, VST, connector d'àudio, gravació, "
+"de so, composició, MIDI, LV2, JACK, VST, complement d'àudio, gravació, "
 "edició, arranjament, arranjador, mescla, masterització"
 
 #: common/navigation.j2.inc:26 template/features.html.j2:20
 #: template/features.html.j2:32
 msgid "Features"
-msgstr "Característiques"
+msgstr "Funcionalitats"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -162,7 +162,7 @@ msgstr "Contribuir"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr "Ajuda al desenvolupament"
+msgstr "Uneix-te al desenvolupament"
 
 #: template/community.html.j2:47
 msgid ""
@@ -178,16 +178,16 @@ msgstr "Envia sol·licituds de funcionalitats"
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
 msgstr ""
-"Exploreu el nostre rastrejador de funcionalitats i envia sol·licituds de "
+"Navega pel nostre rastrejador de funcionalitats i envia sol·licituds de "
 "funcionalitats."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr "Envia informes d'errors"
+msgstr "Enviar informes d'errors"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr "Explora el nostre rastrejador d'errors i envia informes d'errors."
+msgstr "Navega pel nostre rastrejador d'errors i envia informes d'errors."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
@@ -198,7 +198,7 @@ msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
-"Tradueix el Zrythm DAW, el manual d'usuari i els nostres llocs web al teu "
+"Tradueix Zrythm DAW, el manual d'usuari i els nostres llocs web al teu "
 "idioma."
 
 #: template/community.html.j2:81
@@ -207,7 +207,7 @@ msgstr "Posar-se en contacte"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr "Xateja amb nosaltres per IRC"
+msgstr "Xateja amb nosaltres a IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -230,7 +230,7 @@ msgid ""
 msgstr ""
 "Matrix és un estàndard obert per a una comunicació segura i "
 "descentralitzada. El nostre canal de Matrix és #zrythmdaw:matrix.org i està "
-"connectat amb IRC."
+"pontat amb IRC."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
@@ -254,7 +254,7 @@ msgid ""
 "to date with important announcements."
 msgstr ""
 "Subscriu-te a la nostra llista de correu d'anuncis de només lectura i de "
-"baix volum per estar al dia dels anuncis importants."
+"baix volum per a estar al dia dels anuncis importants."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
@@ -279,42 +279,43 @@ msgstr "Donar criptomoneda"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr "Envieu-nos Bitcoin (BTC), Litecoin (LTC) o Monero (XMR)."
+msgstr "Envia'ns Bitcoin (BTC), Litecoin (LTC) o Monero (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr "Dona a LiberaPay"
+msgstr "Dona amb LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
-"Fes-te mecenes a LiberaPay. Pots fer una donació mitjançant PayPal o pagar "
+"Fes-te mecenes amb LiberaPay. Pots fer una donació mitjançant PayPal o pagar "
 "amb un compte bancari d'Europa."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr "Fes una donació a Open Collective"
+msgstr "Fes una donació amb Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
 msgstr ""
-"Fes una donació a Open Collective i consulta les nostres despeses públiques."
+"Fes una donació amb Open Collective i consulta les nostres despeses "
+"públiques."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
-"Descarrega el codi font del Zrythm o compra un instal·lador de paquets "
+"Descarregar el codi font de Zrythm o comprar un instal·lador de paquets "
 "binaris."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr "Selecciona la plataforma"
+msgstr "Seleccionar plataforma"
 
 #: template/download.html.j2:50
 msgid "Downloads"
-msgstr "Baixades"
+msgstr "Descàrregues"
 
 #: template/download.html.j2:56
 msgid "Installers"
@@ -330,7 +331,7 @@ msgstr "Lliure"
 
 #: template/download.html.j2:64
 msgid "Bundled plugins (basic)"
-msgstr "Connectors inclosos (bàsics)"
+msgstr "Complements inclosos (bàsics)"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
@@ -338,17 +339,17 @@ msgstr "Desar / carregar inhabilitat"
 
 #: template/download.html.j2:72
 msgid "Single"
-msgstr "Únic"
+msgstr "Senzilla"
 
 #: template/download.html.j2:75 template/download.html.j2:87
 #: template/download.html.j2:100
 msgid "Compiled with all features"
-msgstr "Compilat amb totes les funcions"
+msgstr "Compilat amb totes les funcionalitats"
 
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:101
 msgid "Bundled plugins (all)"
-msgstr "Connectors inclosos (tots)"
+msgstr "Complements inclosos (tots)"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:102
@@ -369,7 +370,7 @@ msgstr "Accés a totes les versions v1"
 
 #: template/download.html.j2:96
 msgid "Nightly"
-msgstr "Nocturn"
+msgstr "Nightly"
 
 #: template/download.html.j2:98
 msgid "mo"
@@ -377,7 +378,7 @@ msgstr "mes"
 
 #: template/download.html.j2:104
 msgid "Access to nightly builds"
-msgstr "Accés a nightly builds"
+msgstr "Accés a construccions nightly"
 
 #: template/download.html.j2:106
 msgid "Subscribe"
@@ -407,7 +408,7 @@ msgstr "Clau GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr "Llista de característiques."
+msgstr "Llista de funcionalitats."
 
 #: template/features.html.j2:40
 msgid "Piano Roll"
@@ -432,7 +433,7 @@ msgstr "Rebota al lloc"
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
-msgstr "Exportar ràpidament la selecció a àudio."
+msgstr "Rebota ràpidament el material seleccionat en àudio."
 
 #: template/features.html.j2:75
 msgid "Automation Curves"
@@ -454,7 +455,7 @@ msgid ""
 msgstr ""
 "Zrythm és una estació de treball d'àudio digital dissenyada per a ser "
 "funcional i fàcil d'utilitzar. Permet una automatització il·limitada, admet "
-"connectors LV2, funciona amb el backend d'àudio JACK i proporciona "
+"complements LV2, funciona amb el backend d'àudio JACK i proporciona "
 "assistència per a acords."
 
 #: template/index.html.j2:36
@@ -496,11 +497,11 @@ msgstr ""
 
 #: template/index.html.j2:73
 msgid "Audio plugins"
-msgstr "Connectors d'àudio"
+msgstr "Complements d'àudio"
 
 #: template/index.html.j2:78
 msgid "Multi-Backend Support"
-msgstr "Assistència tècnica de multi-backend"
+msgstr "Suport tècnic de multibackend"
 
 #: template/index.html.j2:80
 msgid ""
@@ -508,9 +509,9 @@ msgid ""
 "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
-"Conscient de <a href=\"https://jackaudio.org/\">Jack</a> complet, incloent "
-"suport per <a href=\"https://pipewire.org/\">PipeWire</a>, jack transport, "
-"ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi i CoreAudio."
+"Funciona completament amb <a href=\"https://jackaudio.org/\">Jack</a> , "
+"incloent suport per a <a href=\"https://pipewire.org/\">PipeWire</a>, jack "
+"transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi i CoreAudio."
 
 #: template/index.html.j2:88
 msgid "Audio backends"
@@ -525,8 +526,8 @@ msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
 msgstr ""
-"Amb un pad d'acords per a provar ràpidament acords en una escala i una pista"
-" d'acords per ajudar amb les progressions d'acords."
+"Inclou un pad d'acords per a provar ràpidament acords en una escala i en una "
+"pista d'acords per a ajudar amb les progressions d'acords."
 
 #: template/index.html.j2:102
 msgid "Chord highlighting"
@@ -534,7 +535,7 @@ msgstr "Ressaltat d'acords"
 
 #: template/index.html.j2:107
 msgid "Liberating"
-msgstr "Alliberador"
+msgstr "Alliberació"
 
 #: template/index.html.j2:109
 msgid ""
@@ -567,7 +568,7 @@ msgstr ""
 
 #: template/index.html.j2:128
 msgid "Multi-language support"
-msgstr "Assistència multillengua"
+msgstr "Suport multiidioma"
 
 #: template/index.html.j2:133
 msgid "Showcase"
@@ -577,7 +578,7 @@ msgstr "Vitrina"
 #: template/index.html.j2:170 template/index.html.j2:184
 #: template/index.html.j2:198 template/index.html.j2:212
 msgid "Your browser does not support HTML5 video."
-msgstr "El navegador no admet vídeo HTML5."
+msgstr "El teu navegador no admet vídeo HTML5."
 
 #: template/index.html.j2:203
 msgid "Remake"
@@ -608,11 +609,11 @@ msgstr "Edició"
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr "El navegador no admet vídeo HTML5"
+msgstr "El teu navegador no admet vídeo HTML5"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr "Eina seleccionar / estirar"
+msgstr "Eina Seleccionar / Estirar"
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
@@ -628,7 +629,7 @@ msgstr "Eina Rampa"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr "Regions en bucle"
+msgstr "Regions de repetició"
 
 #: template/learn.html.j2:96
 msgid "Routing"
@@ -712,9 +713,9 @@ msgid ""
 "himself and Ynternet.org foundation."
 msgstr ""
 "Crèdits: Dibuixos sota CC-BY-ND 3.0 creats per Christian Nogareda (Kwis, "
-"Http://kwis.tumblr.com), Valentin Pasquier "
-"(http://utopiqdream.deviantart.com) basats en idees de Richard Stallman, per"
-" ell mateix i Ynternet.org fundació."
+"Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream.deviantart."
+"com) basats en idees de Richard Stallman, per ell mateix i la fundació "
+"Ynternet.org ."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"
@@ -728,7 +729,7 @@ msgstr ""
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr "Connectors inclosos amb Zrythm"
+msgstr "Complements inclosos amb Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
