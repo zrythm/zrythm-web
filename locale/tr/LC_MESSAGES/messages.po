@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2022-02-16 21:16+0000\n"
 "Last-Translator: Muhammed YILMAZ <yilmazmu15@itu.edu.tr>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -16,58 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz, minör veya majör gamın akorlarını beyaz tuşlara eşler"
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Majör veya minör ölçek"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Nota başına hız çarpanı"
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO, CV tabanlı otomasyon için tam özellikli bir LFO'dur"
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Özel dalgalı çoklu-osilatör"
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr "Faz değişimi"
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Dikey/yatay inversiyon"
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr "Adım modu"
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr "Düzenlenebilir aralık"
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Ana makineye veya serbest biçime senkronize edin"
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr ""
 

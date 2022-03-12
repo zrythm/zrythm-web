@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2021-10-04 01:40+0000\n"
 "Last-Translator: Vinicius Monego <monego@posteo.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "O ZChordz mapeia os acordes de escala menor ou maior para teclas brancas"
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Escala maior ou menor"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidade por nota"
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "O ZLFO é um LFO completo para automação baseada em CV"
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscilador com onda personalizada"
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr "Mudança de fase"
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Inversão vertical/horizontal"
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr "Modo de passo"
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr "Intervalo editável"
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Sincronizar com host ou de forma livre"
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores dente de serra"
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr ""
 

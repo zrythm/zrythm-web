@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2021-11-30 19:51+0000\n"
 "Last-Translator: Ghibran Aljabbar <GhibranResearch@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
@@ -19,55 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.10-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz memetakan akord dari skala minor atau mayor ke kunci putih"
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Tangga nada mayor atau minor"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Pengganda kecepatan per nada"
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO adalah LFO berfitur lengkap untuk otomatisasi berbasis CV"
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-osilator dengan gelombang kustom"
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr "Pergeseran fase"
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Inversi vertikal/horizontal"
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr "Mode step"
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr "Rentang yang dapat diedit"
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Selaraskan ke host atau free-from"
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw adalah synth supersaw dengan 1 parameter"
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr "7 osilator sawtooth"
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr "Kenop tunggal untuk mengontrol detune"
 

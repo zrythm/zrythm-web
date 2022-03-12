@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2022-01-18 18:52+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -19,56 +19,56 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.11-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapea los acordes de una escala mayor o menor a las teclas blancas"
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Escala mayor o menor"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocidad por nota"
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO es un LFO completo para automatizaciones basadas en CV"
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi oscilador con onda personalizada"
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr "Desplazamiento de fase"
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Inversión vertical/horizontal"
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr "Modo paso"
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr "Rango editable"
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Sincronización con el host o de forma libre"
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw es un sintetizador supersaw con 1 parámetro"
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr "7 osciladores de onda de sierra"
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr "Botón único para controlar la desafinación"
 

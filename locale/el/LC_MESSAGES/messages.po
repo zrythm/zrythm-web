@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2022-03-06 09:46+0000\n"
 "Last-Translator: Anthony V. <batmanplayer123@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -17,60 +17,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.12-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "Το ZChordz χαρτογραφεί τις συγχορδίες ελάσσονος ή μείζονος κλίμακας σε λευκά"
 " πλήκτρα"
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Μείζων ή ελάσσων κλίμακα"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Πολλαπλασιαστής ταχύτητας ανά νότα"
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "Το ZLFO είναι ένα πλήρες LFO για αυτοματισμό βασισμένο σε CV"
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Πολυ-ταλαντωτής με προσαρμοσμένο κύμα"
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr "Μετατόπιση φάσης"
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Κάθετη/οριζόντια αναστροφή"
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr "Λειτουργία βημάτων"
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr "Επεξεργάσιμο εύρος"
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Συγχρονισμός με τον εξυπηρετητή ή ελεύθερη μορφή"
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "Το ZSaw είναι supersaw συνθεσάιζερ με 1 παράμετρο"
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr "7 ταλαντωτές sawtooth"
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr "Μονός περιστροφικός επιλογέας για έλεγχο αποσυντονισμού"
 
@@ -162,10 +162,9 @@ msgid "Join Development"
 msgstr "Εγγραφείτε στην ανάπτυξη"
 
 #: template/community.html.j2:47
-#, fuzzy
 msgid ""
 "Send an email to our development mailing list for development discussion"
-msgstr "Στείλτε ένα email στην λίστα ανάπτυξης για συζήτηση ανάπτυξης"
+msgstr ""
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
@@ -210,9 +209,9 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
-"Το IRC κανάλι είναι #zrythm στο Libera.Chat (<code>irc://irc.libera.chat/"
-"zrythm</code>). Μην διστάσετε να κάνετε ping έναν διαχειριστή για ένα <code>"
-"zrythm/user/*</code> μανδύα."
+"Το IRC κανάλι είναι #zrythm στο Libera.Chat "
+"(<code>irc://irc.libera.chat/zrythm</code>). Μην διστάσετε να κάνετε ping "
+"έναν διαχειριστή για ένα <code>zrythm/user/*</code> μανδύα."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -240,18 +239,14 @@ msgstr ""
 "εμπειρία σας με την υπόλοιπη κοινότητα."
 
 #: template/community.html.j2:114
-#, fuzzy
 msgid "Subscribe to the Announce Mailing List"
-msgstr "Εγγραφτείτε στην Λίστα Αλληλογραφίας Ενημέρωσης"
+msgstr ""
 
 #: template/community.html.j2:117
-#, fuzzy
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay up "
 "to date with important announcements."
 msgstr ""
-"Εγγραφτείτε στην Λίστα Αλληλογραφίας Ενημέρωσης μόνο για ανάγνωση και "
-"μείνετε ενημερωμένοι για σημαντικές ενημερώσεις."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
@@ -283,13 +278,10 @@ msgid "Donate on LiberaPay"
 msgstr "Κάντε δωρεά στο LiberaPay"
 
 #: template/community.html.j2:151
-#, fuzzy
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
-"Γίνετε προστάτης στο LiberaPay. Μπορείτε να κάνετε δωρεά μέσω PayPal, ή να "
-"πληρώσετε μέσω τραπέζης στην Ευρώπη."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
@@ -302,8 +294,8 @@ msgstr "Κάντε δωρεά στο Open Collective και δείτε τις δ
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
-"Κατεβάστε τον πηγαίο κώδικα του Zrythm ή αγοράστε ένα πρόγραμμα εγκατάστασης "
-"δυαδικού πακέτου."
+"Κατεβάστε τον πηγαίο κώδικα του Zrythm ή αγοράστε ένα πρόγραμμα εγκατάστασης"
+" δυαδικού πακέτου."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
@@ -365,9 +357,8 @@ msgid "Access to all v1 releases"
 msgstr "Αποκτήστε πρόσβαση σε όλες τις v1 εκδόσεις"
 
 #: template/download.html.j2:96
-#, fuzzy
 msgid "Nightly"
-msgstr "\"Νυχτερινή\""
+msgstr ""
 
 #: template/download.html.j2:98
 msgid "mo"
@@ -388,8 +379,8 @@ msgstr ""
 #: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
-"Υποστηρίξτε το Zrythm αγοράζοντας ένα πρόγραμμα εγκατάστασης. Αυτόν τον μήνα "
-"λάβαμε:"
+"Υποστηρίξτε το Zrythm αγοράζοντας ένα πρόγραμμα εγκατάστασης. Αυτόν τον μήνα"
+" λάβαμε:"
 
 #: template/download.html.j2:125
 msgid "Source Code"
@@ -408,9 +399,8 @@ msgid "List of features."
 msgstr "Λίστα δυνατοτήτων."
 
 #: template/features.html.j2:40
-#, fuzzy
 msgid "Piano Roll"
-msgstr "Ρολό πιάνου"
+msgstr ""
 
 #: template/features.html.j2:42
 msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
@@ -418,18 +408,16 @@ msgstr ""
 "Δημιουργία, επεξεργασία και διάταξη γεγονότων MIDI σε ειδικό ρολό πιάνου."
 
 #: template/features.html.j2:51
-#, fuzzy
 msgid "Anywhere-to-Anywhere Connections"
-msgstr "Παντού-από-Παντού Συνδέσεις"
+msgstr ""
 
 #: template/features.html.j2:53
 msgid "Connect anything to anything."
 msgstr "Σύνδεση οτιδήποτε σε οτιδήποτε."
 
 #: template/features.html.j2:63
-#, fuzzy
 msgid "Bounce in Place"
-msgstr "Αναπήδηση στην θέση του"
+msgstr ""
 
 #: template/features.html.j2:65
 msgid "Quickly bounce selected material to audio."
@@ -459,10 +447,8 @@ msgstr ""
 "βοηθό συγχορδιών."
 
 #: template/index.html.j2:36
-#, fuzzy
 msgid "A highly automated and intuitive digital audio workstation"
 msgstr ""
-"Ένας υψηλά αυτοματοποιημένος και διαισθητικός ψηφιακός σταθμός εργασίας ήχου"
 
 #: template/index.html.j2:39
 msgid "Learn More"
@@ -501,9 +487,8 @@ msgid "Audio plugins"
 msgstr "Πρόσθετα ήχου"
 
 #: template/index.html.j2:78
-#, fuzzy
 msgid "Multi-Backend Support"
-msgstr "Υποστήριξη Πολυ-Παρασκηνιακών"
+msgstr ""
 
 #: template/index.html.j2:80
 msgid ""
@@ -521,9 +506,8 @@ msgid "Audio backends"
 msgstr "Παρασκήνια Ήχου"
 
 #: template/index.html.j2:93
-#, fuzzy
 msgid "Chord Assistance"
-msgstr "Βοήθεια Συγχορδιών"
+msgstr ""
 
 #: template/index.html.j2:95
 msgid ""
@@ -532,9 +516,8 @@ msgid ""
 msgstr ""
 
 #: template/index.html.j2:102
-#, fuzzy
 msgid "Chord highlighting"
-msgstr "Επισήμανση Συγχορδίας"
+msgstr ""
 
 #: template/index.html.j2:107
 msgid "Liberating"
@@ -570,14 +553,12 @@ msgstr ""
 "Γερμανικά."
 
 #: template/index.html.j2:128
-#, fuzzy
 msgid "Multi-language support"
-msgstr "Πολυγλωσσική υποστήριξη"
+msgstr ""
 
 #: template/index.html.j2:133
-#, fuzzy
 msgid "Showcase"
-msgstr "Βιτρίνα"
+msgstr ""
 
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170 template/index.html.j2:184
@@ -586,9 +567,8 @@ msgid "Your browser does not support HTML5 video."
 msgstr "Ο περιηγητής σας δεν υποστηρίζει HTML5 βίντεο."
 
 #: template/index.html.j2:203
-#, fuzzy
 msgid "Remake"
-msgstr "Αναδημιουργία"
+msgstr ""
 
 #: template/index.html.j2:225
 msgid "Testimonials"
@@ -603,9 +583,8 @@ msgid "Zrythm reference pages - user manual - tutorials"
 msgstr "Σελίδες αναφοράς Zrythm - εγχειρίδιο χρήστη - οδηγοί"
 
 #: template/learn.html.j2:39
-#, fuzzy
 msgid "Tutorials"
-msgstr "Μαθήματα"
+msgstr ""
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -643,9 +622,8 @@ msgid "Routing"
 msgstr "Δρομολόγηση"
 
 #: template/learn.html.j2:106
-#, fuzzy
 msgid "FX Sends"
-msgstr "Αποστολές FX"
+msgstr ""
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
@@ -707,26 +685,18 @@ msgstr ""
 "Commons Αναφορά - Παρόμοια Διανομή 4.0 Διεθνές</a>."
 
 #: template/legal.html.j2:56
-#, fuzzy
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
-"Το <em>Richard Stallman: Free software, free society</em> βίντεο έχει άδεια "
-"χρήσης σύμφωνα με Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
-#, fuzzy
 msgid ""
 "Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
 "Http://kwis.tumblr.com), Valentin Pasquier "
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
-"Πίστωση: Ζωγραφιές με βάση το CC-BY-ND 3.0 δημιουργήθηκαν από τον Christian "
-"Nogareda (Kwis, Http://kwis.tumblr.com), Valentin Pasquier "
-"(http://utopiqdream.deviantart.com) βασισμένες σε ιδέες του Richard "
-"Stallman, του ίδιου και του ιδρύματος Ynternet.org."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"

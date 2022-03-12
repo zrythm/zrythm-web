@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2022-02-28 18:13+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
@@ -16,61 +16,61 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz mapeja els acords d'una escala menor o major a les tecles blanques"
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "Escala major o menor"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr "Multiplicador de velocitat per nota"
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
-"ZLFO és un LFO amb totes les funcionalitats per a l'automatització basada en "
-"CV"
+"ZLFO és un LFO amb totes les funcionalitats per a l'automatització basada en"
+" CV"
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr "Multioscil·lador amb ona personalitzada"
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr "Desplaçament de fase"
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr "Inversió vertical/horitzontal"
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr "Mode de pas"
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr "Interval modificable"
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr "Sincronitza amb l'amfitrió o de forma lliure"
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw és un sintetitzador supersaw amb 1 paràmetre"
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr "7 oscil·ladors de dents de serra"
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr "Una rodeta única per a controlar la desafinació"
 
@@ -290,8 +290,8 @@ msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
-"Fes-te mecenes amb LiberaPay. Pots fer una donació mitjançant PayPal o pagar "
-"amb un compte bancari d'Europa."
+"Fes-te mecenes amb LiberaPay. Pots fer una donació mitjançant PayPal o pagar"
+" amb un compte bancari d'Europa."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
@@ -526,8 +526,8 @@ msgid ""
 "Featuring a chord pad for quickly trying out chords in a scale and a chord "
 "track to assist with chord progressions."
 msgstr ""
-"Inclou un pad d'acords per a provar ràpidament acords en una escala i en una "
-"pista d'acords per a ajudar amb les progressions d'acords."
+"Inclou un pad d'acords per a provar ràpidament acords en una escala i en una"
+" pista d'acords per a ajudar amb les progressions d'acords."
 
 #: template/index.html.j2:102
 msgid "Chord highlighting"
@@ -713,9 +713,9 @@ msgid ""
 "himself and Ynternet.org foundation."
 msgstr ""
 "Crèdits: Dibuixos sota CC-BY-ND 3.0 creats per Christian Nogareda (Kwis, "
-"Http://kwis.tumblr.com), Valentin Pasquier (http://utopiqdream.deviantart."
-"com) basats en idees de Richard Stallman, per ell mateix i la fundació "
-"Ynternet.org ."
+"Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) basats en idees de Richard Stallman, per"
+" ell mateix i la fundació Ynternet.org ."
 
 #: template/legal.html.j2:68
 msgid "Trademarks"

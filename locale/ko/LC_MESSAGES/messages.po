@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 14:48+0000\n"
+"POT-Creation-Date: 2022-03-12 15:18+0000\n"
 "PO-Revision-Date: 2022-02-28 18:13+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/zrythm/web/ko/>\n"
@@ -16,58 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
-#: template.py:387
+#: template.py:388
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 
-#: template.py:388
+#: template.py:389
 msgid "Major or minor scale"
 msgstr "장음계 또는 단음계"
 
-#: template.py:389
+#: template.py:390
 msgid "Velocity multiplier per note"
 msgstr ""
 
-#: template.py:393
+#: template.py:394
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 
-#: template.py:394
+#: template.py:395
 msgid "Multi-oscillator with custom wave"
 msgstr ""
 
-#: template.py:395
+#: template.py:396
 msgid "Phase shift"
 msgstr ""
 
-#: template.py:396
+#: template.py:397
 msgid "Vertical/horizontal inversion"
 msgstr ""
 
-#: template.py:397
+#: template.py:398
 msgid "Step mode"
 msgstr ""
 
-#: template.py:398
+#: template.py:399
 msgid "Editable range"
 msgstr ""
 
-#: template.py:399
+#: template.py:400
 msgid "Sync to host or free-form"
 msgstr ""
 
-#: template.py:402
+#: template.py:403
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr ""
 
-#: template.py:403
+#: template.py:404
 msgid "7 sawtooth oscillators"
 msgstr ""
 
-#: template.py:404
+#: template.py:405
 msgid "Single knob to control detune"
 msgstr ""
 
@@ -463,8 +463,8 @@ msgid ""
 "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
 msgstr ""
 "<a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
-"PulseAudio, WASAPI, Windows MME, CoreMidi 및 CoreAudio에 대한 지원을 "
-"포함하여 <a href=\"https://jackaudio.org/\">JACK</a>을 완벽하게 인식합니다."
+"PulseAudio, WASAPI, Windows MME, CoreMidi 및 CoreAudio에 대한 지원을 포함하여 <a "
+"href=\"https://jackaudio.org/\">JACK</a>을 완벽하게 인식합니다."
 
 #: template/index.html.j2:88
 msgid "Audio backends"
