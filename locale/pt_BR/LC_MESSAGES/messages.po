@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 15:18+0000\n"
+"POT-Creation-Date: 2022-03-12 18:43+0000\n"
 "PO-Revision-Date: 2021-10-04 01:40+0000\n"
 "Last-Translator: Vinicius Monego <monego@posteo.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -355,7 +355,7 @@ msgid "Subscribe"
 msgstr "Assinar"
 
 #: template/download.html.j2:111
-msgid "* Prices in this currency are estimated"
+msgid "* Prices in this currency are estimates"
 msgstr ""
 
 #: template/download.html.j2:116

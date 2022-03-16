@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 15:18+0000\n"
+"POT-Creation-Date: 2022-03-12 18:43+0000\n"
 "PO-Revision-Date: 2021-11-05 02:33+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/zrythm/web/nb_NO/>\n"
@@ -350,7 +350,7 @@ msgid "Subscribe"
 msgstr "Abonner"
 
 #: template/download.html.j2:111
-msgid "* Prices in this currency are estimated"
+msgid "* Prices in this currency are estimates"
 msgstr ""
 
 #: template/download.html.j2:116

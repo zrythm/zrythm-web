@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 15:18+0000\n"
+"POT-Creation-Date: 2022-03-12 18:43+0000\n"
 "PO-Revision-Date: 2021-12-21 11:52+0000\n"
 "Last-Translator: Oftox <oftox@protonmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/zrythm/web/fi/>\n"
@@ -350,7 +350,7 @@ msgid "Subscribe"
 msgstr ""
 
 #: template/download.html.j2:111
-msgid "* Prices in this currency are estimated"
+msgid "* Prices in this currency are estimates"
 msgstr ""
 
 #: template/download.html.j2:116

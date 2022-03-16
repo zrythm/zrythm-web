@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 15:18+0000\n"
+"POT-Creation-Date: 2022-03-12 18:43+0000\n"
 "PO-Revision-Date: 2022-02-28 18:13+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
@@ -385,7 +385,7 @@ msgid "Subscribe"
 msgstr "Subscriu-te"
 
 #: template/download.html.j2:111
-msgid "* Prices in this currency are estimated"
+msgid "* Prices in this currency are estimates"
 msgstr ""
 
 #: template/download.html.j2:116

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 15:18+0000\n"
+"POT-Creation-Date: 2022-03-12 18:43+0000\n"
 "PO-Revision-Date: 2021-11-25 22:50+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -379,7 +379,7 @@ msgid "Subscribe"
 msgstr "Підписатися"
 
 #: template/download.html.j2:111
-msgid "* Prices in this currency are estimated"
+msgid "* Prices in this currency are estimates"
 msgstr ""
 
 #: template/download.html.j2:116

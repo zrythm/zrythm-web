@@ -281,7 +281,7 @@ prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_mont
 if get_version:
 # get latest version
     from subprocess import check_output
-    versions = check_output('git ls-remote --tags https://git.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-alpha\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
+    versions = check_output('git ls-remote --tags https://git.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-beta\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
     latest_ver = "0.0.0"
     for ver in versions.split('\n'):
         if (semver.compare(ver, latest_ver) > 0):
@@ -321,7 +321,7 @@ def url(x):
     # TODO: check if file exists
     return "../" + x
 
-screenshot = url('static/images/screenshots/mar-8-2022.png')
+screenshot = url('static/images/screenshots/mar-16-2022.png')
 
 class Plugin:
     def __init__(self,name,is_img_static,img,summary,features):
