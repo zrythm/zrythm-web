@@ -343,7 +343,6 @@ msgid "year"
 msgstr ""
 
 #: template/download.html.j2:102
-#| msgid "Upgrades to new releases"
 msgid "Access to all releases"
 msgstr ""
 
