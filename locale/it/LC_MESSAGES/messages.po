@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 18:43+0000\n"
+"POT-Creation-Date: 2022-03-18 11:21+0000\n"
 "PO-Revision-Date: 2022-01-24 20:56+0000\n"
 "Last-Translator: G R <gradaellig@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
@@ -308,17 +308,17 @@ msgid "Single"
 msgstr ""
 
 #: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:100
+#: template/download.html.j2:99
 msgid "Compiled with all features"
 msgstr "Compilato con tutte le funzionalità"
 
 #: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:101
+#: template/download.html.j2:100
 msgid "Bundled plugins (all)"
 msgstr "Plugin inclusi (tutti)"
 
 #: template/download.html.j2:77 template/download.html.j2:89
-#: template/download.html.j2:102
+#: template/download.html.j2:101
 msgid "PDF user manual"
 msgstr "Manuale utente PDF"
 
@@ -330,7 +330,7 @@ msgstr ""
 msgid "Bundle"
 msgstr ""
 
-#: template/download.html.j2:90 template/download.html.j2:103
+#: template/download.html.j2:90
 msgid "Access to all v1 releases"
 msgstr ""
 
@@ -338,35 +338,40 @@ msgstr ""
 msgid "Nightly"
 msgstr ""
 
-#: template/download.html.j2:98
-msgid "mo"
+#: template/download.html.j2:97
+msgid "year"
 msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:102
+#| msgid "Upgrades to new releases"
+msgid "Access to all releases"
+msgstr ""
+
+#: template/download.html.j2:103
 msgid "Access to nightly builds"
 msgstr "Accesso alle nightly build"
 
-#: template/download.html.j2:106
+#: template/download.html.j2:105
 msgid "Subscribe"
 msgstr "Iscriviti"
 
-#: template/download.html.j2:111
+#: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:125
+#: template/download.html.j2:124
 msgid "Source Code"
 msgstr ""
 
-#: template/download.html.j2:128
+#: template/download.html.j2:127
 msgid "Releases"
 msgstr "Rilasci"
 
-#: template/download.html.j2:129
+#: template/download.html.j2:128
 msgid "GPG Key"
 msgstr "Chiave GPG"
 
@@ -746,9 +751,6 @@ msgstr ""
 
 #~ msgid "Full version"
 #~ msgstr "Versione completa"
-
-#~ msgid "Upgrades to new releases"
-#~ msgstr "Aggiornamenti alle nuove versioni"
 
 #~ msgid "<b>£5/month</b>"
 #~ msgstr "<b>£5/mese</b>"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 18:43+0000\n"
+"POT-Creation-Date: 2022-03-18 11:21+0000\n"
 "PO-Revision-Date: 2022-02-20 12:12+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -309,17 +309,17 @@ msgid "Single"
 msgstr "单独版本"
 
 #: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:100
+#: template/download.html.j2:99
 msgid "Compiled with all features"
 msgstr "具备所有功能"
 
 #: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:101
+#: template/download.html.j2:100
 msgid "Bundled plugins (all)"
 msgstr "捆绑插件（全部）"
 
 #: template/download.html.j2:77 template/download.html.j2:89
-#: template/download.html.j2:102
+#: template/download.html.j2:101
 msgid "PDF user manual"
 msgstr "PDF 用户手册"
 
@@ -331,7 +331,7 @@ msgstr "购买"
 msgid "Bundle"
 msgstr "合集"
 
-#: template/download.html.j2:90 template/download.html.j2:103
+#: template/download.html.j2:90
 msgid "Access to all v1 releases"
 msgstr "获得所有 v1 版本"
 
@@ -339,35 +339,40 @@ msgstr "获得所有 v1 版本"
 msgid "Nightly"
 msgstr "每夜版"
 
-#: template/download.html.j2:98
-msgid "mo"
-msgstr "月"
+#: template/download.html.j2:97
+msgid "year"
+msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:102
+#| msgid "Access to all v1 releases"
+msgid "Access to all releases"
+msgstr ""
+
+#: template/download.html.j2:103
 msgid "Access to nightly builds"
 msgstr "访问夜间构建"
 
-#: template/download.html.j2:106
+#: template/download.html.j2:105
 msgid "Subscribe"
 msgstr "订阅"
 
-#: template/download.html.j2:111
+#: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:125
+#: template/download.html.j2:124
 msgid "Source Code"
 msgstr "源代码"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:127
 msgid "Releases"
 msgstr "发布"
 
-#: template/download.html.j2:129
+#: template/download.html.j2:128
 msgid "GPG Key"
 msgstr "GPG 密钥"
 
@@ -702,6 +707,9 @@ msgstr "最后更新于 2021 年 8 月 4 日"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm 商标策略"
+
+#~ msgid "mo"
+#~ msgstr "月"
 
 #~ msgid "Try Now"
 #~ msgstr "立即尝试"

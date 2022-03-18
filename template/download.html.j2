@@ -94,13 +94,12 @@ GNU Affero General Public License for more details.
 
         <div class="downloads__card">
             <h4 class="downloads__title header--secondary">{{ _('Nightly') }}</h4>
-            {# TRANSLATORS: mo = month #}
-            <h2 class="downloads__price">{{ subscription_price_for_locale }}<p style="display: inline;">/{{ _('mo') }}</p></h2>
+            <h2 class="downloads__price">{{ subscription_price_for_locale }}<p style="display: inline;">/{{ _('year') }}</p></h2>
             <ul class="downloads__features">
                 <li class="downloads__feature">{{ _('Compiled with all features') }}</li>
                 <li class="downloads__feature">{{ _('Bundled plugins (all)') }}</li>
                 <li class="downloads__feature">{{ _('PDF user manual') }}</li>
-                <li class="downloads__feature">{{ _('Access to all v1 releases') }}</li>
+                <li class="downloads__feature">{{ _('Access to all releases') }}</li>
                 <li class="downloads__feature">{{ _('Access to nightly builds') }}</li>
             </ul>
             <a href="https://accounts.zrythm.org/en/products/subscription/view" class="downloads__btn btn btn--secondary">{{ _('Subscribe') }}</a>

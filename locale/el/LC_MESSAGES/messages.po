@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 18:43+0000\n"
+"POT-Creation-Date: 2022-03-18 11:21+0000\n"
 "PO-Revision-Date: 2022-03-06 09:46+0000\n"
 "Last-Translator: Anthony V. <batmanplayer123@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -330,17 +330,17 @@ msgid "Single"
 msgstr "Μονό"
 
 #: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:100
+#: template/download.html.j2:99
 msgid "Compiled with all features"
 msgstr "Μεταγλωττισμένο με όλα τα χαρακτηριστικά"
 
 #: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:101
+#: template/download.html.j2:100
 msgid "Bundled plugins (all)"
 msgstr "Δέσμη προσθέτων (όλα)"
 
 #: template/download.html.j2:77 template/download.html.j2:89
-#: template/download.html.j2:102
+#: template/download.html.j2:101
 msgid "PDF user manual"
 msgstr "Εγχειρίδιο χρήστη PDF"
 
@@ -352,7 +352,7 @@ msgstr "Αγορά"
 msgid "Bundle"
 msgstr "Πακέτο"
 
-#: template/download.html.j2:90 template/download.html.j2:103
+#: template/download.html.j2:90
 msgid "Access to all v1 releases"
 msgstr "Αποκτήστε πρόσβαση σε όλες τις v1 εκδόσεις"
 
@@ -360,37 +360,42 @@ msgstr "Αποκτήστε πρόσβαση σε όλες τις v1 εκδόσε
 msgid "Nightly"
 msgstr ""
 
-#: template/download.html.j2:98
-msgid "mo"
+#: template/download.html.j2:97
+msgid "year"
 msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:102
+#| msgid "Access to all v1 releases"
+msgid "Access to all releases"
+msgstr ""
+
+#: template/download.html.j2:103
 msgid "Access to nightly builds"
 msgstr "Πρόσβαση στις νυχτερινές εκδόσεις"
 
-#: template/download.html.j2:106
+#: template/download.html.j2:105
 msgid "Subscribe"
 msgstr "Εγγραφή"
 
-#: template/download.html.j2:111
+#: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 "Υποστηρίξτε το Zrythm αγοράζοντας ένα πρόγραμμα εγκατάστασης. Αυτόν τον μήνα"
 " λάβαμε:"
 
-#: template/download.html.j2:125
+#: template/download.html.j2:124
 msgid "Source Code"
 msgstr "Πηγαίος Κώδικας"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:127
 msgid "Releases"
 msgstr "Κυκλοφορίες"
 
-#: template/download.html.j2:129
+#: template/download.html.j2:128
 msgid "GPG Key"
 msgstr "Κλειδί GPG"
 

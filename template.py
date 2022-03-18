@@ -409,7 +409,7 @@ for in_file in glob.glob("template/*.j2"):
         currency_sym_for_locale = currency_symbols[currency_for_locale]
         single_price_for_locale = round (10 * currency_rates[currency_for_locale])
         bundle_price_for_locale = round (25 * currency_rates[currency_for_locale])
-        subscription_price_for_locale = round (12 * currency_rates[currency_for_locale])
+        subscription_price_for_locale = round (35 * currency_rates[currency_for_locale])
         monthly_earning_for_locale = round (monthly_earning * currency_rates[currency_for_locale])
         # if JPY, round again to 100s
         if currency_for_locale == 'JPY' or currency_for_locale == 'RUB':

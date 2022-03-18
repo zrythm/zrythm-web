@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-12 18:43+0000\n"
+"POT-Creation-Date: 2022-03-18 11:21+0000\n"
 "PO-Revision-Date: 2022-02-16 21:16+0000\n"
 "Last-Translator: Muhammed YILMAZ <yilmazmu15@itu.edu.tr>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -331,17 +331,17 @@ msgid "Single"
 msgstr "Tek"
 
 #: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:100
+#: template/download.html.j2:99
 msgid "Compiled with all features"
 msgstr "Bütün özellikleriyle birlikte derlenmiş"
 
 #: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:101
+#: template/download.html.j2:100
 msgid "Bundled plugins (all)"
 msgstr "Eklenti paketleri (tümü)"
 
 #: template/download.html.j2:77 template/download.html.j2:89
-#: template/download.html.j2:102
+#: template/download.html.j2:101
 msgid "PDF user manual"
 msgstr "PDF kullanım talimatları"
 
@@ -353,7 +353,7 @@ msgstr "Satın al"
 msgid "Bundle"
 msgstr ""
 
-#: template/download.html.j2:90 template/download.html.j2:103
+#: template/download.html.j2:90
 msgid "Access to all v1 releases"
 msgstr "Tüm v1 sürümlerine erişim"
 
@@ -361,35 +361,40 @@ msgstr "Tüm v1 sürümlerine erişim"
 msgid "Nightly"
 msgstr "Gecelik"
 
-#: template/download.html.j2:98
-msgid "mo"
-msgstr "ay"
+#: template/download.html.j2:97
+msgid "year"
+msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:102
+#| msgid "Access to all v1 releases"
+msgid "Access to all releases"
+msgstr ""
+
+#: template/download.html.j2:103
 msgid "Access to nightly builds"
 msgstr "Nightly builds'e eriş"
 
-#: template/download.html.j2:106
+#: template/download.html.j2:105
 msgid "Subscribe"
 msgstr "Abone ol"
 
-#: template/download.html.j2:111
+#: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr "Bir kurucu satın alarak Zrythm'i destekleyin. Bu ay aldığımız:"
 
-#: template/download.html.j2:125
+#: template/download.html.j2:124
 msgid "Source Code"
 msgstr "Kaynak Kodu"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:127
 msgid "Releases"
 msgstr "Sürümler"
 
-#: template/download.html.j2:129
+#: template/download.html.j2:128
 msgid "GPG Key"
 msgstr "GPG Anahtarı"
 
@@ -729,6 +734,9 @@ msgstr "Son güncelleme: 4 Ağustos 2021"
 #: template/trademarks.html.j2:22
 msgid "Zrythm Trademark Policy"
 msgstr "Zrythm Ticari Marka Politikası"
+
+#~ msgid "mo"
+#~ msgstr "ay"
 
 #~ msgid "Try Now"
 #~ msgstr "Şimdi Dene"
