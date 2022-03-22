@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:43+0000\n"
 "PO-Revision-Date: 2022-02-25 22:59+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -73,35 +73,75 @@ msgstr "7 oscillateurs en dents de scie"
 msgid "Single knob to control detune"
 msgstr "Un seul bouton pour contrôler le désaccord"
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "Les contributeurs à Zrythm"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "Déclaration légale"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "Vie privée"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
-"Zrythm et le logo Zrythm sont des marques déposées d'Alexandros Theodotou au"
-" Royaume-Uni."
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "Consultez notre {trademarkpolicy} pour plus de détails."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "Projet"
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "Politique de marque"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "Fonctionnalités"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "Manuel utilisateur"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "Sorties"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "Communauté"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "Tchat"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "Contribuez"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr "Faire un don"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "Code source"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "Conçu par Andrew Harter"
 
@@ -121,11 +161,6 @@ msgstr ""
 "GNU/Linux, logiciel gratuit, logiciel libre, éditeur audio, composition, "
 "MIDI, LV2, JACK, VST, greffon audio, enregistrement, édition, arrangement, "
 "arrangeur, mixage, mastering"
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "Fonctionnalités"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -154,10 +189,6 @@ msgstr "Sélectionner la langue"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Les pages communautaires et les canaux de communication de Zrythm"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "Contribuez"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -269,10 +300,6 @@ msgstr ""
 "Suivez-nous sur Mastodon pour recevoir des mises à jour sur les nouvelles "
 "versions et découvrir en avant-première les nouvelles fonctionnalités, voter"
 " dans les sondages, et plus encore."
-
-#: template/community.html.j2:133
-msgid "Donate"
-msgstr "Faire un don"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -396,14 +423,6 @@ msgstr ""
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 "Soutenir Zrythm en achetant un installateur. Ce mois ci, nous avons reçu :"
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "Code source"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "Sorties"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -651,19 +670,15 @@ msgstr "Routage des ports"
 msgid "Walkthroughs"
 msgstr "Procédures pas à pas"
 
-#: template/learn.html.j2:130
-msgid "French"
-msgstr "français"
+#: template/learn.html.j2:132
+msgid "Send us your video"
+msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "Documentation"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "Manuel utilisateur"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "Documentation pour développeurs"
 
@@ -683,13 +698,9 @@ msgstr "Licences"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
-"Zrythm est protégé par les droits d'auteur d'Alexandros Theodotou et "
-"d'autres contributeurs. Zrythm est publié sous la <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3 ou ultérieure</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -751,18 +762,30 @@ msgstr "Spécifications techniques"
 msgid "Premium Plugins"
 msgstr "Greffons premium"
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "Politique de confidentialité"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Dernière mise à jour le 4 août 2021"
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "Politique de marque Zrythm"
+#~ msgid "French"
+#~ msgstr "français"
+
+#~ msgid "Trademark Policy"
+#~ msgstr "Politique de marque"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "Politique de marque Zrythm"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "Les contributeurs à Zrythm"
+
+#~ msgid "Legal"
+#~ msgstr "Déclaration légale"
+
+#~ msgid "Privacy"
+#~ msgstr "Vie privée"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "Consultez notre {trademarkpolicy} pour plus de détails."
 
 #~ msgid "mo"
 #~ msgstr "mo"
@@ -832,9 +855,6 @@ msgstr "Politique de marque Zrythm"
 #~ msgid "<b>£5/month</b>"
 #~ msgstr "<b>5 £/mois</b>"
 
-#~ msgid "Project"
-#~ msgstr "Projet"
-
 #~ msgid "Feature tracker"
 #~ msgstr "Suivi des fonctionnalités"
 
@@ -844,9 +864,6 @@ msgstr "Politique de marque Zrythm"
 #~ msgid "Translations"
 #~ msgstr "Traductions"
 
-#~ msgid "Chat"
-#~ msgstr "Tchat"
-
 #~ msgid "Mail"
 #~ msgstr "Courriel"
 
@@ -855,9 +872,6 @@ msgstr "Politique de marque Zrythm"
 
 #~ msgid "User discussion"
 #~ msgstr "Discussion utilisateur"
-
-#~ msgid "Community"
-#~ msgstr "Communauté"
 
 #~ msgid "Video by"
 #~ msgstr "Vidéo de"
@@ -1354,9 +1368,6 @@ msgstr "Politique de marque Zrythm"
 #~ "Voir la page de l&#39; <a href=\"team.html\">équipe</a> pour les "
 #~ "informations de contact de chaque personne."
 
-#~ msgid "Reporting bugs"
-#~ msgstr "Rapporter les bogues"
-
 #~ msgid ""
 #~ "We track open feature requests and bugs for projects within Zrythm in our <a"
 #~ " href=\"%(git_url)s/issues\">Issue tracker</a>. You can also report bugs or "
@@ -1398,9 +1409,6 @@ msgstr "Politique de marque Zrythm"
 #~ msgstr ""
 #~ "Utilisez les listes de diffusion et rejoignez nos salons de discussion pour "
 #~ "suivre le développement, trouver une aide technique et discuter de Zrythm."
-
-#~ msgid "General Help Mailing List"
-#~ msgstr "Liste de diffusion d'aide générale"
 
 #~ msgid "Development Mailing List"
 #~ msgstr "Liste de diffusion du développement"

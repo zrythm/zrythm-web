@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:43+0000\n"
 "PO-Revision-Date: 2022-03-06 09:46+0000\n"
 "Last-Translator: Anthony V. <batmanplayer123@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
@@ -74,35 +74,75 @@ msgstr "7 ταλαντωτές sawtooth"
 msgid "Single knob to control detune"
 msgstr "Μονός περιστροφικός επιλογέας για έλεγχο αποσυντονισμού"
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "Οι συνεργάτες του Zrythm"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "Νομική δήλωση"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "Προστασία δεδομένων"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
-"Το Zrythm και το λογότυπο του Zrythm είναι κατοχυρωμένα εμπορικά σήματα του "
-"Αλέξανδρου Θεοδότου στο Ηνωμένο Βασίλειο."
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειες."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "Έργο"
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "Πολιτική εμπορικών σημάτων"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "Χαρακτηριστικά"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "Εγχειρίδιο χρήστη"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "Κυκλοφορίες"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "Κοινότητα"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "Συνομιλία"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "Συνεισφέρετε"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr "Κάντε δωρεά"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "Πηγαίος Κώδικας"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "Πολιτική απορρήτου"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "Σχεδιασμένο από τον Andrew Harter"
 
@@ -119,11 +159,6 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "Χαρακτηριστικά"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -152,10 +187,6 @@ msgstr "Επιλέξτε Γλώσσα"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Οι σελίδες κοινότητας και κανάλια επικοινωνίας του Zrythm"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "Συνεισφέρετε"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -260,10 +291,6 @@ msgstr ""
 "Ακολουθήστε μας στο Mastodon για να λαμβάνετε ενημερώσεις για νέες εκδόσεις "
 "και πάρτε κρυφές ματιές σε νέες δυνατότητες, ψηφίστε σε δημοσκοπήσεις, και "
 "πολλά άλλα."
-
-#: template/community.html.j2:133
-msgid "Donate"
-msgstr "Κάντε δωρεά"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -385,14 +412,6 @@ msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 "Υποστηρίξτε το Zrythm αγοράζοντας ένα πρόγραμμα εγκατάστασης. Αυτόν τον μήνα"
 " λάβαμε:"
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "Πηγαίος Κώδικας"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "Κυκλοφορίες"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -637,19 +656,15 @@ msgstr "Δρομολόγηση Θύρας"
 msgid "Walkthroughs"
 msgstr ""
 
-#: template/learn.html.j2:130
-msgid "French"
-msgstr "Γαλλικά"
+#: template/learn.html.j2:132
+msgid "Send us your video"
+msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "Εγχειρίδια"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "Εγχειρίδιο χρήστη"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "Εγχειρίδιο για προγραμματιστές"
 
@@ -669,13 +684,9 @@ msgstr "Αδειοδότηση"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
-"Το Zrythm προστατεύεται από πνευματικά δικαιώματα από τον Alexandros "
-"Theodotou και άλλους συνεισφέροντες. Το Zrythm κυκλοφορεί βάσει άδειας "
-"χρήσης <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero "
-"General Public License, version 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -732,18 +743,30 @@ msgstr "Τεχνικές προδιαγραφές"
 msgid "Premium Plugins"
 msgstr ""
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "Πολιτική απορρήτου"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "Πολιτική εμπορικών σημάτων Zrythm"
+#~ msgid "French"
+#~ msgstr "Γαλλικά"
+
+#~ msgid "Trademark Policy"
+#~ msgstr "Πολιτική εμπορικών σημάτων"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "Πολιτική εμπορικών σημάτων Zrythm"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "Οι συνεργάτες του Zrythm"
+
+#~ msgid "Legal"
+#~ msgstr "Νομική δήλωση"
+
+#~ msgid "Privacy"
+#~ msgstr "Προστασία δεδομένων"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "Δείτε την {trademarkpolicy} μας για λεπτομέρειες."
 
 #~ msgid "Try Now"
 #~ msgstr "Δοκιμάστε τώρα"
@@ -800,9 +823,6 @@ msgstr "Πολιτική εμπορικών σημάτων Zrythm"
 #~ msgid "<b>£5/month</b>"
 #~ msgstr "<b>£5/μήνα</b>"
 
-#~ msgid "Project"
-#~ msgstr "Έργο"
-
 #~ msgid "Feature tracker"
 #~ msgstr "Παρακολουθητής χαρακτηριστικών"
 
@@ -812,9 +832,6 @@ msgstr "Πολιτική εμπορικών σημάτων Zrythm"
 #~ msgid "Translations"
 #~ msgstr "Μεταφράσεις"
 
-#~ msgid "Chat"
-#~ msgstr "Συνομιλία"
-
 #~ msgid "Mail"
 #~ msgstr "Μήνυμα"
 
@@ -823,9 +840,6 @@ msgstr "Πολιτική εμπορικών σημάτων Zrythm"
 
 #~ msgid "User discussion"
 #~ msgstr "Συζήτηση χρηστών"
-
-#~ msgid "Community"
-#~ msgstr "Κοινότητα"
 
 #~ msgid "Video by"
 #~ msgstr "Βίντεο από"
@@ -1017,9 +1031,6 @@ msgstr "Πολιτική εμπορικών σημάτων Zrythm"
 #~ msgstr ""
 #~ "Δείτε τη σελίδα της <a href=\"team.html\">Ομάδας</a> για τα στοιχεία "
 #~ "επικοινωνίας κάθε ατόμου."
-
-#~ msgid "Reporting bugs"
-#~ msgstr "Αναφορά σφαλμάτων"
 
 #~ msgid "Talk With Us"
 #~ msgstr "Μιλήστε μαζί μας"

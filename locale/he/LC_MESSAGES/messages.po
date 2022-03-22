@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:43+0000\n"
 "PO-Revision-Date: 2021-11-24 12:42+0000\n"
 "Last-Translator: moshe <shinmem58@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/zrythm/web/he/>\n"
@@ -71,35 +71,75 @@ msgstr "7 מתנדי sawtooth"
 msgid "Single knob to control detune"
 msgstr "ידית יחידה לשליטה ב-detune"
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "התורמים של Zrythm"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "חוקי"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "פרטיות"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
-"Zrythm והלוגו של Zrythm הם סימנים מסחריים רשומים של Alexandros Theodotou "
-"בבריטניה."
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "שלנו לפרטים {trademarkpolicy}עיין ב."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr ""
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "מדיניות סימנים מסחריים"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "פיצ'רים"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "מדריך למשתמש"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "מהדורות"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr ""
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr ""
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "השתתף"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr "תרום"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "קוד מקור"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "מדיניות פרטיות"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "עוצב על ידי Andrew Harter"
 
@@ -117,11 +157,6 @@ msgstr ""
 "DAW, תחנת עבודה אודיו דיגיטלית, הפקת מוזיקה, אודיו, פרו אודיו, לינוקס, GNU /"
 " Linux, תוכנה חינמית, תוכנה חופשית, עורך סאונד, קומפוזיציה, MIDI, LV2, JACK,"
 " VST, תוסף אודיו, הקלטה, עריכה, לסדר, מסדר, מיקסינג, מאסטרינג"
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "פיצ'רים"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -150,10 +185,6 @@ msgstr "בחר שפה"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "דפי הקהילה וערוצי התקשורת של Zrythm"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "השתתף"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -253,10 +284,6 @@ msgid ""
 msgstr ""
 "עקבו אחרנו ב-Mastodon בכדי לקבל עדכונים בנוגע למהדורות חדשות וקבל הצצה "
 "לפיצ'רים חדשים, הצבע בסקרים ועוד."
-
-#: template/community.html.j2:133
-msgid "Donate"
-msgstr "תרום"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -376,14 +403,6 @@ msgstr ""
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr "תמכו ב-Zrythm על ידי רכישת מתקין. החודש קיבלנו:"
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "קוד מקור"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "מהדורות"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -625,19 +644,15 @@ msgstr "ניתוב פורטים"
 msgid "Walkthroughs"
 msgstr "הדרכות"
 
-#: template/learn.html.j2:130
-msgid "French"
-msgstr "צרפתית"
+#: template/learn.html.j2:132
+msgid "Send us your video"
+msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "תיעודים"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "מדריך למשתמש"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "הפניה למפתחים"
 
@@ -657,12 +672,9 @@ msgstr "רישוי"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
-"Zrythm מוגן בזכויות יוצרים על שם Alexandros Theodotou ותורמים אחרים. Zrythm "
-"מופץ תחת <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">רישיון "
-"הציבור הציבורי של GNU Affero, גרסה 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -722,18 +734,30 @@ msgstr "מפרט טכני"
 msgid "Premium Plugins"
 msgstr "תוספים פרימיום"
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "מדיניות פרטיות"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "עודכן לאחרונה ב-4 לאוגוסט 2021"
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "מדיניות סימנים מסחריים של Zrythm"
+#~ msgid "French"
+#~ msgstr "צרפתית"
+
+#~ msgid "Trademark Policy"
+#~ msgstr "מדיניות סימנים מסחריים"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "מדיניות סימנים מסחריים של Zrythm"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "התורמים של Zrythm"
+
+#~ msgid "Legal"
+#~ msgstr "חוקי"
+
+#~ msgid "Privacy"
+#~ msgstr "פרטיות"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "שלנו לפרטים {trademarkpolicy}עיין ב."
 
 #~ msgid "mo"
 #~ msgstr "לחודש"

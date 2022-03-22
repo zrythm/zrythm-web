@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:41+0000\n"
 "PO-Revision-Date: 2021-12-10 18:50+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
@@ -73,33 +73,75 @@ msgstr "7 sågtandsoscillatorer"
 msgid "Single knob to control detune"
 msgstr ""
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr ""
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr ""
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr ""
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "Projekt"
+
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "Funktioner"
+
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "Användarmanual"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
 msgstr ""
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
+#: common/footer.j2.inc:42
+msgid "Git"
 msgstr ""
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr ""
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "Chatt"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr ""
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr ""
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr ""
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr ""
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr ""
 
@@ -114,11 +156,6 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "Funktioner"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -146,10 +183,6 @@ msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
-
-#: template/community.html.j2:38
-msgid "Contribute"
 msgstr ""
 
 #: template/community.html.j2:44
@@ -240,10 +273,6 @@ msgstr ""
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
-msgstr ""
-
-#: template/community.html.j2:133
-msgid "Donate"
 msgstr ""
 
 #: template/community.html.j2:139
@@ -361,14 +390,6 @@ msgstr ""
 
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr ""
-
-#: template/download.html.j2:127
-msgid "Releases"
 msgstr ""
 
 #: template/download.html.j2:128
@@ -594,19 +615,15 @@ msgstr ""
 msgid "Walkthroughs"
 msgstr "Genomgångar"
 
-#: template/learn.html.j2:130
-msgid "French"
+#: template/learn.html.j2:132
+msgid "Send us your video"
 msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "Användarmanual"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr ""
 
@@ -626,8 +643,8 @@ msgstr ""
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
 
 #: template/legal.html.j2:50
@@ -679,17 +696,8 @@ msgstr "Teknisk specifikation"
 msgid "Premium Plugins"
 msgstr ""
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr ""
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
-
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
 msgstr ""
 
 #~ msgid "Try Now"
@@ -713,14 +721,8 @@ msgstr ""
 #~ msgid "subscription"
 #~ msgstr "prenumeration"
 
-#~ msgid "Project"
-#~ msgstr "Projekt"
-
 #~ msgid "Translations"
 #~ msgstr "Översättningar"
-
-#~ msgid "Chat"
-#~ msgstr "Chatt"
 
 #~ msgid "Mail"
 #~ msgstr "E-post"

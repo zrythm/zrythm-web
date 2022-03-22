@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:43+0000\n"
 "PO-Revision-Date: 2022-02-28 18:13+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
@@ -74,35 +74,75 @@ msgstr "7 oscil·ladors de dents de serra"
 msgid "Single knob to control detune"
 msgstr "Una rodeta única per a controlar la desafinació"
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "Col·laboradors de Zrythm"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "Legal"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "Privadesa"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
-"Zrythm i el logotip de Zrythm són marques registrades d'Alexandros Theodotou"
-" al Regne Unit."
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "Consulta la nostra {trademarkpolicy} per a més informació."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "Projecte"
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "Política de marques registrades"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "Funcionalitats"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "Manual d'usuari"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "Llançaments"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "Comunitat"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "Xat"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "Contribuir"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr "Donar"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "Codi font"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "Política de privadesa"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "Dissenyat per Andrew Harter"
 
@@ -122,11 +162,6 @@ msgstr ""
 "professional, Linux, GNU/Linux, programari lliure, programari libre, editor "
 "de so, composició, MIDI, LV2, JACK, VST, complement d'àudio, gravació, "
 "edició, arranjament, arranjador, mescla, masterització"
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "Funcionalitats"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -155,10 +190,6 @@ msgstr "Seleccionar idioma"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Pàgines de la comunitat i canals de comunicació de Zrythm"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "Contribuir"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -268,10 +299,6 @@ msgstr ""
 "Segueix-nos a Mastodon per a rebre actualitzacions sobre nous llançaments i "
 "fer un cop d'ull a les noves funcionalitats, votar a les enquestes i molt "
 "més."
-
-#: template/community.html.j2:133
-msgid "Donate"
-msgstr "Donar"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -397,14 +424,6 @@ msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 "Dóna suport a Zrythm mitjançant la compra d'un instal·lador. Aquest mes hem "
 "rebut:"
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "Codi font"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "Llançaments"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -651,19 +670,15 @@ msgstr "Encaminament del port"
 msgid "Walkthroughs"
 msgstr "Pas a pas"
 
-#: template/learn.html.j2:130
-msgid "French"
-msgstr "Francès"
+#: template/learn.html.j2:132
+msgid "Send us your video"
+msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "Documentació"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "Manual d'usuari"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "Referència del desenvolupador"
 
@@ -683,13 +698,9 @@ msgstr "Llicències"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
-"Zrythm té drets d'autor d'Alexandros Theodotou i altres col·laboradors. "
-"Zrythm és llançat sota la <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">Llicència Pública "
-"General de GNU Affero, versió 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -751,18 +762,30 @@ msgstr "Especificacions tècniques"
 msgid "Premium Plugins"
 msgstr "Complements Premium"
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "Política de privadesa"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Darrera actualització de 4 d'agost de 2021"
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "Política de marques de Zrythm"
+#~ msgid "French"
+#~ msgstr "Francès"
+
+#~ msgid "Trademark Policy"
+#~ msgstr "Política de marques registrades"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "Política de marques de Zrythm"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "Col·laboradors de Zrythm"
+
+#~ msgid "Legal"
+#~ msgstr "Legal"
+
+#~ msgid "Privacy"
+#~ msgstr "Privadesa"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "Consulta la nostra {trademarkpolicy} per a més informació."
 
 #~ msgid "mo"
 #~ msgstr "mes"
@@ -788,14 +811,8 @@ msgstr "Política de marques de Zrythm"
 #~ msgid "Explore"
 #~ msgstr "Explorar"
 
-#~ msgid "Community"
-#~ msgstr "Comunitat"
-
 #~ msgid "Forum"
 #~ msgstr "Fòrum"
-
-#~ msgid "Chat"
-#~ msgstr "Xat"
 
 #~ msgid "Mail"
 #~ msgstr "Correu"
@@ -805,9 +822,6 @@ msgstr "Política de marques de Zrythm"
 
 #~ msgid "User discussion"
 #~ msgstr "Discussió d'usuaris"
-
-#~ msgid "Project"
-#~ msgstr "Projecte"
 
 #~ msgid "Feature tracker"
 #~ msgstr "Rastrejador de funcions"

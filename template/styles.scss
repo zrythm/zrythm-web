@@ -1,6 +1,6 @@
 /*
 Copyright (C) 2019, 2021 Alexandros Theodotou <alex at zrythm dot org>
-Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
+Copyright (C) 2021-2022 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
 
@@ -1230,33 +1230,63 @@ svg {
   margin-top: 0px;
 }
 
-// .footer {
-//   background-color: var(--color-grayscale-100);
-//   margin-top: 3rem;
-// }
+.footer__container {
+  color: var(--color-grayscale-900);
+  margin-top: 3rem;
+  background-color: var(--color-grayscale-100);
+}
 
-// .footer__container {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   padding: 2rem;
-// }
+.footer__container a {
+  color: var(--color-grayscale-900);
 
-// .footer__header-left {
-//   text-align: start;
-//   border-left: solid 2px var(--color-primary-300);
-//   padding: .2rem 1rem;
-// }
+  &:hover {
+    color: var(--color-primary-300);
+  }
+}
 
-// .footer__header-right {
-//   text-align: end;
-//   border-right: solid 2px var(--color-primary-300);
-//   padding: .2rem 1rem;
-// }
+.footer__container ul {
+  list-style: none;
+  padding: 0;
 
-// .footer__trademark {
-//   flex-basis: 100%;
-//   text-align: center;
-// }
+}
 
+.footer__title {
+  margin: 0;
+}
+
+.footer__title--bold {
+  font-weight: bold;
+}
+
+.footer__container .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.footer__section--copyright {
+  max-width: 445px;
+}
+
+.footer__logo {
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__image {
+  max-width: 3.5rem;
+
+}
+
+.footer__logo--text {
+  font-weight: bold;
+  margin: 1rem;
+}

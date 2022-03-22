@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:43+0000\n"
 "PO-Revision-Date: 2022-02-20 12:12+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -71,33 +71,75 @@ msgstr "7 锯齿振荡器"
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "Zrythm 之贡献者"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "法律信息"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "隐私条款"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
-msgstr "Zrythm 和 Zrythm 标志是 Alexandros Theodotou 在英国的注册商标。"
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
+msgstr ""
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "有关详细信息，请参阅我们的{trademarkpolicy}。"
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "项目"
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "商标策略"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "功能"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "用户手册"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "发布"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "社区"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "聊天"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "贡献"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr "捐赠"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "源代码"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "隐私策略"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "由Andrew Harter设计"
 
@@ -112,11 +154,6 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "功能"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -145,10 +182,6 @@ msgstr "选择语言"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Zrythm 的社区页面和交流渠道"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "贡献"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -241,10 +274,6 @@ msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr "关注我们的 Mastodon 以获取新版本的信息，预览新鲜功能，投票以及更多。"
-
-#: template/community.html.j2:133
-msgid "Donate"
-msgstr "捐赠"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -362,14 +391,6 @@ msgstr ""
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "源代码"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "发布"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -605,19 +626,15 @@ msgstr "端口路由"
 msgid "Walkthroughs"
 msgstr ""
 
-#: template/learn.html.j2:130
-msgid "French"
+#: template/learn.html.j2:132
+msgid "Send us your video"
 msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "文档"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "用户手册"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "开发人员参考"
 
@@ -637,8 +654,8 @@ msgstr "许可"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
 
 #: template/legal.html.j2:50
@@ -694,18 +711,27 @@ msgstr "技术规范"
 msgid "Premium Plugins"
 msgstr "高级插件"
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "隐私策略"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "最后更新于 2021 年 8 月 4 日"
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "Zrythm 商标策略"
+#~ msgid "Trademark Policy"
+#~ msgstr "商标策略"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "Zrythm 商标策略"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "Zrythm 之贡献者"
+
+#~ msgid "Legal"
+#~ msgstr "法律信息"
+
+#~ msgid "Privacy"
+#~ msgstr "隐私条款"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "有关详细信息，请参阅我们的{trademarkpolicy}。"
 
 #~ msgid "mo"
 #~ msgstr "月"
@@ -763,9 +789,6 @@ msgstr "Zrythm 商标策略"
 #~ msgid "<b>£5/month</b>"
 #~ msgstr "<b>£5/每月</b>"
 
-#~ msgid "Project"
-#~ msgstr "项目"
-
 #~ msgid "Feature tracker"
 #~ msgstr "功能跟踪器"
 
@@ -775,9 +798,6 @@ msgstr "Zrythm 商标策略"
 #~ msgid "Translations"
 #~ msgstr "翻译"
 
-#~ msgid "Chat"
-#~ msgstr "聊天"
-
 #~ msgid "Mail"
 #~ msgstr "邮件"
 
@@ -786,9 +806,6 @@ msgstr "Zrythm 商标策略"
 
 #~ msgid "User discussion"
 #~ msgstr "用户讨论"
-
-#~ msgid "Community"
-#~ msgstr "社区"
 
 #~ msgid "Video by"
 #~ msgstr "视频作者："
@@ -952,9 +969,6 @@ msgstr "Zrythm 商标策略"
 
 #~ msgid "Contacting individuals"
 #~ msgstr "联系个人"
-
-#~ msgid "Reporting bugs"
-#~ msgstr "报告缺陷"
 
 #~ msgid "Talk With Us"
 #~ msgstr "与我们联系"

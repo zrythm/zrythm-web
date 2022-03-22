@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:41+0000\n"
 "PO-Revision-Date: 2022-02-25 21:56+0000\n"
 "Last-Translator: nawsikaya <yducks@bk.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -73,35 +73,75 @@ msgstr "7 осцилляторов sawtooth"
 msgid "Single knob to control detune"
 msgstr "Одна ручка для управления detune"
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "Разработчики Zrythm"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "Правовая информация"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "Конфиденциальность"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
-"Zrythm и логотип Zrythm являются зарегистрированными торговыми марками "
-"Александрос Теодоту (Alexandros Theodotou) в Великобритании."
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "Подробности смотреть в: {trademarkpolicy}."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "Проект (Project)"
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "Политика товарных знаков"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "Функции"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "Пользовательское руководство"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "Выпуски"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "Сообщество"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "Чат (Chat)"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "Внести вклад"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr ""
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "Исходный код"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "Дизайнер: Эндрю Хартер"
 
@@ -118,11 +158,6 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "Функции"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -151,10 +186,6 @@ msgstr "Выбрать язык"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Страницы сообщества и каналы общения Zrythm"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "Внести вклад"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -244,10 +275,6 @@ msgstr ""
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
-msgstr ""
-
-#: template/community.html.j2:133
-msgid "Donate"
 msgstr ""
 
 #: template/community.html.j2:139
@@ -366,14 +393,6 @@ msgstr ""
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "Исходный код"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "Выпуски"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -618,19 +637,15 @@ msgstr "Маршрутизация порта (Port Routing)"
 msgid "Walkthroughs"
 msgstr "Руководства"
 
-#: template/learn.html.j2:130
-msgid "French"
-msgstr "Французский"
+#: template/learn.html.j2:132
+msgid "Send us your video"
+msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "Документация"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "Пользовательское руководство"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "Справка для разработчиков"
 
@@ -650,13 +665,9 @@ msgstr "Лицензирование"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
-"Авторские права на Zrythm принадлежат Александросу Теодоту (Alexandros "
-"Theodotou) и другим соавторам. Zrythm выпускается под <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">Стандартной общественной"
-" лицензией GNU Афферо, версии 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -718,18 +729,30 @@ msgstr "Технические характеристики"
 msgid "Premium Plugins"
 msgstr "Премиум плагины"
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "Политика конфиденциальности"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "Политика товарных знаков Zrythm"
+#~ msgid "French"
+#~ msgstr "Французский"
+
+#~ msgid "Trademark Policy"
+#~ msgstr "Политика товарных знаков"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "Политика товарных знаков Zrythm"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "Разработчики Zrythm"
+
+#~ msgid "Legal"
+#~ msgstr "Правовая информация"
+
+#~ msgid "Privacy"
+#~ msgstr "Конфиденциальность"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "Подробности смотреть в: {trademarkpolicy}."
 
 #~ msgid "Try Now"
 #~ msgstr "Попробуйте сейчас"
@@ -793,9 +816,6 @@ msgstr "Политика товарных знаков Zrythm"
 #~ msgid "<b>£5/month</b>"
 #~ msgstr "<b>£5/месяц</b>"
 
-#~ msgid "Project"
-#~ msgstr "Проект (Project)"
-
 #~ msgid "Feature tracker"
 #~ msgstr "Отслеживание функций"
 
@@ -805,9 +825,6 @@ msgstr "Политика товарных знаков Zrythm"
 #~ msgid "Translations"
 #~ msgstr "Переводы"
 
-#~ msgid "Chat"
-#~ msgstr "Чат (Chat)"
-
 #~ msgid "Mail"
 #~ msgstr "Почта"
 
@@ -816,9 +833,6 @@ msgstr "Политика товарных знаков Zrythm"
 
 #~ msgid "User discussion"
 #~ msgstr "Обсуждение пользователей"
-
-#~ msgid "Community"
-#~ msgstr "Сообщество"
 
 #~ msgid "Video by"
 #~ msgstr "Видео, записанное"
@@ -1040,9 +1054,6 @@ msgstr "Политика товарных знаков Zrythm"
 
 #~ msgid "Contacting individuals"
 #~ msgstr "Связаться с людьми"
-
-#~ msgid "Reporting bugs"
-#~ msgstr "Сообщения об ошибках"
 
 #~ msgid "Talk With Us"
 #~ msgstr "Связаться с нами"

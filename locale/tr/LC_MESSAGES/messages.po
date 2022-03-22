@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-18 11:21+0000\n"
+"POT-Creation-Date: 2022-03-22 10:43+0000\n"
 "PO-Revision-Date: 2022-02-16 21:16+0000\n"
 "Last-Translator: Muhammed YILMAZ <yilmazmu15@itu.edu.tr>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -71,35 +71,75 @@ msgstr ""
 msgid "Single knob to control detune"
 msgstr ""
 
-#: common/footer.j2.inc:19
-msgid "The Zrythm contributors"
-msgstr "Zrythm'e katkıda bulunanlar"
-
-#: common/footer.j2.inc:20
-msgid "Legal"
-msgstr "Yasal"
-
-#: common/footer.j2.inc:21
-msgid "Privacy"
-msgstr "Gizlilik"
-
-#: common/footer.j2.inc:24
+#: common/footer.j2.inc:26
 msgid ""
-"Zrythm and the Zrythm logo are registered trademarks of Alexandros Theodotou"
-" in the United Kingdom."
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
 msgstr ""
-"Zrythm ve Zrythm logosu Birleşik Krallık'ta Alexandros Theodotou adına "
-"müseccel markadır."
 
-#: common/footer.j2.inc:25
-msgid "See our {trademarkpolicy} for details."
-msgstr "Daha fazla bilgi için bakınız:{trademarkpolicy}."
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "Proje"
 
-#: common/footer.j2.inc:27 template/trademarks.html.j2:19
-msgid "Trademark Policy"
-msgstr "Ticari marka politikası"
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "Özellikler"
 
-#: common/footer.j2.inc:29
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "Kullanıcı Kılavuzu"
+
+#: common/footer.j2.inc:39 template/download.html.j2:127
+msgid "Releases"
+msgstr "Sürümler"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr ""
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "Topluluk"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "Sohbet"
+
+#: common/footer.j2.inc:53
+msgid "User Mailing List"
+msgstr ""
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "Katkıda Bulun"
+
+#: common/footer.j2.inc:59 template/community.html.j2:133
+msgid "Donate"
+msgstr "Bağış Yap"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr ""
+
+#: common/footer.j2.inc:67 template/download.html.j2:124
+msgid "Source Code"
+msgstr "Kaynak Kodu"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr ""
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr ""
+
+#: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
 msgstr "Andrew Harter tarafından tasarlandı"
 
@@ -118,11 +158,6 @@ msgstr ""
 "Linux, GNU/Linux, özgür yazılım, ses düzenleyici, kompozisyon, MIDI, LV2, "
 "JACK, VST, ses eklentisi, kayıt, düzenleme, aranjman, aranjör, karıştırma, "
 "mastering"
-
-#: common/navigation.j2.inc:26 template/features.html.j2:20
-#: template/features.html.j2:32
-msgid "Features"
-msgstr "Özellikler"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -151,10 +186,6 @@ msgstr "Dil Seç"
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
 msgstr "Zrythm topluluk sayfaları ve iletişim kanalları"
-
-#: template/community.html.j2:38
-msgid "Contribute"
-msgstr "Katkıda Bulun"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -260,10 +291,6 @@ msgstr ""
 "Yeni sürümler hakkında güncellemeler almak ve yeni özelliklere önceden göz "
 "atmak, anketlerde oy kullanmak ve daha fazlası için bizi Mastodon'da takip "
 "edin."
-
-#: template/community.html.j2:133
-msgid "Donate"
-msgstr "Bağış Yap"
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -384,14 +411,6 @@ msgstr ""
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr "Bir kurucu satın alarak Zrythm'i destekleyin. Bu ay aldığımız:"
-
-#: template/download.html.j2:124
-msgid "Source Code"
-msgstr "Kaynak Kodu"
-
-#: template/download.html.j2:127
-msgid "Releases"
-msgstr "Sürümler"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -627,19 +646,15 @@ msgstr ""
 msgid "Walkthroughs"
 msgstr ""
 
-#: template/learn.html.j2:130
-msgid "French"
-msgstr "Fransızca"
+#: template/learn.html.j2:132
+msgid "Send us your video"
+msgstr ""
 
-#: template/learn.html.j2:136
+#: template/learn.html.j2:138
 msgid "Documentation"
 msgstr "Belgelendirme"
 
-#: template/learn.html.j2:138
-msgid "User Manual"
-msgstr "Kullanıcı Kılavuzu"
-
-#: template/learn.html.j2:139
+#: template/learn.html.j2:141
 msgid "Developer Reference"
 msgstr "Geliştirici Referansı"
 
@@ -659,12 +674,9 @@ msgstr "Lisanslama"
 msgid ""
 "Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
 " is released under the <a "
-"href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU Affero General "
-"Public License, version 3</a>."
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
 msgstr ""
-"Zrythm'in telif hakkı Alexandros Theodotou ve diğer katkıda bulunanlara "
-"aittir. Zrythm, <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">GNU "
-"Affero Genel Kamu Lisansı, sürüm 3</a> altında yayınlanmıştır."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -721,18 +733,30 @@ msgstr "Teknik özellikler"
 msgid "Premium Plugins"
 msgstr "Premium Eklentiler"
 
-#: template/privacy.html.j2:19 template/privacy.html.j2:22
-#: template/privacy.html.j2:31
-msgid "Privacy Policy"
-msgstr "Gizlilik Politikası"
-
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Son güncelleme: 4 Ağustos 2021"
 
-#: template/trademarks.html.j2:22
-msgid "Zrythm Trademark Policy"
-msgstr "Zrythm Ticari Marka Politikası"
+#~ msgid "French"
+#~ msgstr "Fransızca"
+
+#~ msgid "Trademark Policy"
+#~ msgstr "Ticari marka politikası"
+
+#~ msgid "Zrythm Trademark Policy"
+#~ msgstr "Zrythm Ticari Marka Politikası"
+
+#~ msgid "The Zrythm contributors"
+#~ msgstr "Zrythm'e katkıda bulunanlar"
+
+#~ msgid "Legal"
+#~ msgstr "Yasal"
+
+#~ msgid "Privacy"
+#~ msgstr "Gizlilik"
+
+#~ msgid "See our {trademarkpolicy} for details."
+#~ msgstr "Daha fazla bilgi için bakınız:{trademarkpolicy}."
 
 #~ msgid "mo"
 #~ msgstr "ay"
@@ -802,9 +826,6 @@ msgstr "Zrythm Ticari Marka Politikası"
 #~ msgid "<b>£5/month</b>"
 #~ msgstr "<b>£5/aylık</b>"
 
-#~ msgid "Project"
-#~ msgstr "Proje"
-
 #~ msgid "Feature tracker"
 #~ msgstr "Özellik izleyici"
 
@@ -814,9 +835,6 @@ msgstr "Zrythm Ticari Marka Politikası"
 #~ msgid "Translations"
 #~ msgstr "Çeviriler"
 
-#~ msgid "Chat"
-#~ msgstr "Sohbet"
-
 #~ msgid "Mail"
 #~ msgstr "Mail"
 
@@ -825,9 +843,6 @@ msgstr "Zrythm Ticari Marka Politikası"
 
 #~ msgid "User discussion"
 #~ msgstr "Kullanıcı tartışma alanı"
-
-#~ msgid "Community"
-#~ msgstr "Topluluk"
 
 #~ msgid "Explore"
 #~ msgstr "Keşfet"
