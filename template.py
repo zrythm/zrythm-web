@@ -331,6 +331,17 @@ class Plugin:
         self.summary = summary
         self.features = features
 
+class FeatureGroup:
+    def __init__(self,title,features):
+        self.title = title
+        self.features = features
+
+class Feature:
+    def __init__(self,title,img,summary):
+        self.title = title
+        self.img = img
+        self.summary = summary
+
 for in_file in glob.glob("template/*.j2"):
     name, ext = re.match(r"(.*)\.([^.]+)$", in_file.rstrip(".j2")).groups()
     tmpl = env.get_template(in_file)
@@ -405,6 +416,248 @@ for in_file in glob.glob("template/*.j2"):
                     _('Single knob to control detune') ]),
             ]
 
+        # features
+        feature_groups = [
+            FeatureGroup(
+                _('Intuitive Editing'),
+                [
+                    Feature(
+                        _('Flexible Select Tool'), 'piano-roll.gif',
+                        _('Select, move, resize, clone, link, loop, delete and cut objects with a single tool.')),
+                    Feature(
+                        _('Extensive Toolbox'), 'https://manual.zrythm.org/en/_images/toolbox.png',
+                        _('Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp or Audition tools.')),
+                    Feature(
+                        _('Adaptive Snapping'), 'https://manual.zrythm.org/en/_images/snap-grid-options.png',
+                        _('Snapping behavior adjusts to the current zoom level.')),
+                    Feature(
+                        _('Looping'), 'https://manual.zrythm.org/en/_images/looping-regions.png',
+                        _('Loop audio, MIDI, automation and chord clips.')),
+                ]),
+            FeatureGroup(
+                _('Featureful Timeline'),
+                [
+                    Feature(
+                        _('Track Lanes'), 'https://manual.zrythm.org/en/_images/track-lanes.png',
+                        _('Add multiple layers of audio/MIDI to the same track using track lanes.')),
+                    Feature(
+                        _('Bounce in Place'), 'bounce-in-place.gif',
+                        _('Quickly bounce selected material to audio.')),
+                    Feature(
+                        _('Stretching'), 'piano-roll.gif',
+                        _('Stretch any type of region')),
+                ]),
+            FeatureGroup(
+                _('Powerful Editors'),
+                [
+                    Feature(
+                        _('Piano Roll'), 'chord-highlighting.png',
+                        _('Create, edit and arrange MIDI events in a dedicated piano roll with chord integration.')),
+                    Feature(
+                        _('Drum View'), 'https://manual.zrythm.org/en/_images/drum-mode.png',
+                        _('One-click switch to drum view for editing single-hit instruments.')),
+                    Feature(
+                        _('Velocity Editor'), 'https://manual.zrythm.org/en/_images/ramp-tool.png',
+                        _('Edit multiple velocities simultaneously with the select tool or draw with the pencil or ramp tool.')),
+                    Feature(
+                        _('Audio Editor'), 'https://manual.zrythm.org/en/_images/audio-editor.png',
+                        _('Adjust fades/gain and edit parts of audio clips using audio functions inside the audio editor.')),
+                    Feature(
+                        _('List Editors'), 'https://manual.zrythm.org/en/_images/timeline-event-viewer.png',
+                        _('Edit object parameters manually in the event viewer.')),
+                    Feature(
+                        _('Editor Functions'), 'piano-roll.gif',
+                        _('Quickly apply functions like Legato, Invert and Fade Out to the selected objects.')),
+                    Feature(
+                        _('External App Integration'), 'https://manual.zrythm.org/en/_images/edit-audio-external-app.png',
+                        _('Edit selected audio parts in any external app.')),
+                ]),
+            FeatureGroup(
+                _('Recording Capabilities'),
+                [
+                    Feature(
+                        _('Audio/MIDI Recording'), 'https://manual.zrythm.org/en/_images/audio-track-recording.png',
+                        _('Record audio/MIDI from any of your devices, or even from other apps using JACK.')),
+                    Feature(
+                        _('Comprehensive Recording Settings'), 'https://manual.zrythm.org/en/_images/recording-modes.png',
+                        _('Use punch in/punch out, record on MIDI input, and optionally create multiple takes.')),
+                    Feature(
+                        _('Automation Recording'), 'https://manual.zrythm.org/en/_images/automation-touch.png',
+                        _('Record automation in latch/touch mode.')),
+                    Feature(
+                        _('Device Controls'), 'https://manual.zrythm.org/en/_images/midi-bindings.png',
+                        _('Bind your device knobs to controls inside Zrythm and record your actions.')),
+                ]),
+            FeatureGroup(
+                _('Mixing Capabilities'),
+                [
+                    Feature(
+                        _('Group Tracks'), 'https://manual.zrythm.org/en/_images/audio-group-track.png',
+                        _('Organize audio/MIDI signal groups with group tracks.')),
+                    Feature(
+                        _('Aux Sends'), 'https://manual.zrythm.org/en/_images/track-sends.png',
+                        _('Easily route signals to FX tracks and plugin sidechain inputs.')),
+                    Feature(
+                        _('In-Context Listening'), 'https://manual.zrythm.org/en/_images/channel.png',
+                        _('Listen to specified tracks in the context of the mix by dimming down every other track.')),
+                    Feature(
+                        _('Monitor Section'), 'https://manual.zrythm.org/en/_images/monitor-out-knob.png',
+                        _('Change listen/mute/solo behavior and adjust what goes to your speakers.')),
+                ]),
+            FeatureGroup(
+                _('Unlimited Automation'),
+                [
+                    Feature(
+                        _('Anywhere-to-Anywhere Connections'), 'anywhere-to-anywhere-connections.gif',
+                        _('Connect anything to anything.')),
+                    Feature(
+                        _('Automation Curves'), 'automation-curves.gif',
+                        _('Automate parameters with straight lines or curves, choosing from multiple curve algorithms, such as Exponential and Elliptic curves.')),
+                    Feature(
+                        _('Envelopes'), 'https://manual.zrythm.org/en/_images/modulators-tab.png',
+                        _('Automate parameters with CV signals or envelopes, including macro knobs and LFO plugins such as ZLFO.')),
+                    Feature(
+                        _('Automate Anything'), 'https://manual.zrythm.org/en/_images/tempo-track.png',
+                        _('Automate any possible parameter, including the project\'s BPM and time signature.')),
+                ]),
+            FeatureGroup(
+                _('Intuitive User Interface'),
+                [
+                    Feature(
+                        _('Detachable Views'), 'https://manual.zrythm.org/en/_images/timeline-detached.png',
+                        _('Detach views from any panel and work efficiently with multi-monitor setups.')),
+                    Feature(
+                        _('Searchable Preferences'), 'https://manual.zrythm.org/en/_images/preferences-searching.png',
+                        _('Start typing to locate the preference you\'re looking for.')),
+                    Feature(
+                        _('Inspector Pages'), 'https://manual.zrythm.org/en/_images/track-inspector.png',
+                        _('Edit all track and plugin parameters in the inspector.')),
+                ]),
+            FeatureGroup(
+                _('Plugin Capabilities'),
+                [
+                    Feature(
+                        _('Plugin Support'), 'plugin-showcase.png',
+                        _('Thanks to Carla, Zrythm supports a variety of plugin formats including LV2, VST2, VST3 and AU.')),
+                    Feature(
+                        _('SoundFonts as Plugins'), 'piano-roll.gif',
+                        _('Use SFZ and SF2 soundfonts as instrument plugins.')),
+                    Feature(
+                        _('Flexible Plugin Browser'), 'https://manual.zrythm.org/en/_images/plugin-browser.png',
+                        _('Easily filter plugins by author, format or category, and organize your favorite plugins with plugin collections.')),
+                    Feature(
+                        _('Plugin Bridging'), 'https://manual.zrythm.org/en/_images/open-plugin-bridged.png',
+                        _('Sandbox plugins by opening them in bridge mode.')),
+                    Feature(
+                        _('Automatable Bypass Mode'), 'piano-roll.gif',
+                        _('Easily bypass plugins in the signal chain with an automatable control.')),
+                ]),
+            FeatureGroup(
+                _('Comprehensive Import/Export'),
+                [
+                    Feature(
+                        _('File Browser'), 'https://manual.zrythm.org/en/_images/file-browser.png',
+                        _('Browse and audition MIDI and audio files, and organize your favorite paths with favorites.')),
+                    Feature(
+                        _('Audio Files'), 'https://manual.zrythm.org/en/_images/file-filter-buttons.png',
+                        _('Import or export any format supported by libsndfile, with additional MP3 import support.')),
+                    Feature(
+                        _('MIDI'), 'piano-roll.gif',
+                        _('Import or export any part of the project in MIDI Type 0 or Type 1 formats.')),
+                    Feature(
+                        _('Stem Export'), 'https://manual.zrythm.org/en/_images/export-dialog.png',
+                        _('Export stems for specific tracks and share them with other producers.')),
+                ]),
+            FeatureGroup(
+                _('Chord Assistance'),
+                [
+                    Feature(
+                        _('Chord Audition'), 'https://manual.zrythm.org/en/_images/chord-pad.png',
+                        _('Quickly listen to chords by clicking the pads or pressing notes on your MIDI keyboard, and drag-and-drop chords to the timeline.')),
+                    Feature(
+                        _('Chord Editing'), 'https://manual.zrythm.org/en/_images/chord-selector.png',
+                        _('Invert chords with a single click or use the chord selector to choose any chord, with an option to filter chords in the current scale.')),
+                    Feature(
+                        _('Recordable Chord Track'), 'https://manual.zrythm.org/en/_images/chord-track.png',
+                        _('Dictate or record the scale and chord progression of the project, and optionally route the output to an instrument.')),
+                    Feature(
+                        _('Chord Presets'), 'piano-roll.gif',
+                        _('Generate chords from a wide range of scales, load included chord presets for various genres, or save your own.')),
+                ]),
+            FeatureGroup(
+                _('Never Lose Work'),
+                [
+                    Feature(
+                        _('Project Backups'), 'piano-roll.gif',
+                        _('Backups taken automatically at user-specified intervals.')),
+                    Feature(
+                        _('Undoable Actions'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
+                        _('Almost every user action is undoable.')),
+                    Feature(
+                        _('Serializable Undo History'), 'piano-roll.gif',
+                        _('Keep your undo history when saving projects.')),
+                ]),
+            FeatureGroup(
+                _('Scripting'),
+                [
+                    Feature(
+                        _('Extend Zrythm'), 'piano-roll.gif',
+                        _('Extend the capabilities of Zrythm by editing its state using GNU Guile scripts.')),
+                    Feature(
+                        _('Custom Editor Functions'), 'piano-roll.gif',
+                        _('Implement your own MIDI/audio/automation functions (coming soon).')),
+                    Feature(
+                        _('Project Generation'), 'piano-roll.gif',
+                        _('Generate projects with GNU Guile scripts.')),
+                ]),
+            FeatureGroup(
+                _('Optimized Performance'),
+                [
+                    Feature(
+                        _('Hardware accelerated UI'), 'https://manual.zrythm.org/en/_images/first-run-interface.png',
+                        _('Most of the user interface is drawn on the GPU thanks to GTK4.')),
+                    Feature(
+                        _('SIMD-optimized DSP'), 'piano-roll.gif',
+                        _('Zrythm uses lsp-dsp-lib which implements SIMD extensions such as SSE, AVX and FMA when available to speed up audio processing and minimize DSP usage.')),
+                    Feature(
+                        _('Extensive Caching'), 'piano-roll.gif',
+                        _('Expensive computations are pre-calculated and the result is re-used during processing.')),
+                ]),
+            FeatureGroup(
+                _('Cross-Platform Support'),
+                [
+                    Feature(
+                        _('Multiple Platforms'), 'piano-roll.gif',
+                        _('Zrythm is designed to run on a wide variety of platforms and architectures including x86 architectures, PowerPC, RISC-V, ARMv7 and ARMv8.')),
+                    Feature(
+                        _('Multiple Backends'), 'audio-backend-selection.png',
+                        _('Support for almost all major audio and MIDI backends, including JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI.')),
+                ]),
+            FeatureGroup(
+                _('Localization'),
+                [
+                    Feature(
+                        _('Localized UI'), 'screenshots/feb-15-2021.png',
+                        _('Use Zrythm in your preferred language.')),
+                    Feature(
+                        _('Easily Add Translations'), 'piano-roll.gif',
+                        _('Add missing translations and locales on Weblate.')),
+                ]),
+            FeatureGroup(
+                _('User Liberty'),
+                [
+                    Feature(
+                        _('Free Software'), 'programming.png',
+                        _('With all source code released as copyleft free software, Zrythm is committed to ensuring the freedom of computer users.')),
+                    Feature(
+                        _('Open Standards'), 'piano-roll.gif',
+                        _('Zrythm supports open standards such as MIDI, LV2, FLAC and OGG.')),
+                    Feature(
+                        _('Cooperation'), 'piano-roll.gif',
+                        _('We work with the free software community to ensure Zrythm works without issues on all libre platforms.')),
+                ]),
+            ]
+
         currency_for_locale = langs_full[locale][2]
         currency_sym_for_locale = currency_symbols[currency_for_locale]
         single_price_for_locale = round (10 * currency_rates[currency_for_locale])
@@ -449,6 +702,7 @@ for in_file in glob.glob("template/*.j2"):
                               feature_tracker=feature_tracker,
                               bug_tracker=bug_tracker,
                               plugins=plugins,
+                              feature_groups=feature_groups,
                               version=version,
                               pronunciation=pronunciation,
                               self_localized=self_localized,

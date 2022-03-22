@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2022 Alexandros Theodotou <alex at zrythm dot org>
 Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
@@ -34,54 +34,25 @@ GNU Affero General Public License for more details.
 
 </section>
 
+{% for group in feature_groups %}
+<h3 class="header--underline">{{ group.title }}</h3>
+<section>
+
+{% for feature in group.features %}
 <section class="highlights" id="highlights">
-    <div class="highlights__row">
+  <div class="highlights__row{{ loop.cycle ('', ' highlights__row--alt') }}">
         <div class="highlights__content">
-            <h3 class="highlights__header">{{ _('Piano Roll') }}</h3>
+            <h3 class="highlights__header">{{ feature.title }}</h3>
             <p class="highlights__text">
-              {% trans %}
-              Create, edit and arrange MIDI events in a dedicated piano roll.
-              {% endtrans %}
+              {{ feature.summary }}
             </p>
         </div>
-        <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/piano-roll.gif') }}"></div>
+        <div class="highlights__screenshot"><img class="highlights__image" src="{{ feature.img if 'https' in feature.img else url('static/images/' + feature.img) }}"></div>
     </div>
-    <div class="highlights__row highlights__row--alt">
-        <div class="highlights__content">
-            <h3 class="highlights__header">{{ _('Anywhere-to-Anywhere Connections') }}</h3>
-            <p class="highlights__text">
-              {% trans %}
-              Connect anything to anything.
-              {% endtrans %}
-            </p>
-        </div>
-        <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/anywhere-to-anywhere-connections.gif') }}"></div>
-    </div>
-
-    <div class="highlights__row">
-        <div class="highlights__content">
-            <h3 class="highlights__header">{{ _('Bounce in Place') }}</h3>
-            <p class="highlights__text">
-              {% trans %}
-              Quickly bounce selected material to audio.
-              {% endtrans %}
-            </p>
-        </div>
-        <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/bounce-in-place.gif') }}"></div>
-    </div>
-
-    <div class="highlights__row highlights__row--alt">
-        <div class="highlights__content">
-            <h3 class="highlights__header">{{ _('Automation Curves') }}</h3>
-            <p class="highlights__text">
-              {% trans %}
-              Automate parameters with straight lines or curves.
-              {% endtrans %}
-            </p>
-        </div>
-        <div class="highlights__screenshot"><img class="highlights__image" src="{{ url('static/images/automation-curves.gif') }}"></div>
-    </div>
+</section>
+{% endfor %}
 
 </section>
+{% endfor %}
 
 {% endblock body_content %}
