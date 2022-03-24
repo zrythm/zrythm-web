@@ -637,7 +637,7 @@ for in_file in glob.glob("template/*.j2"):
                 _('Localization'),
                 [
                     Feature(
-                        _('Localized UI'), 'screenshots/feb-15-2021.png',
+                        _('Localized UI'), 'localized-ui.png',
                         _('Use Zrythm in your preferred language.')),
                     Feature(
                         _('Easily Add Translations'), 'piano-roll.gif',
@@ -656,6 +656,34 @@ for in_file in glob.glob("template/*.j2"):
                         _('Cooperation'), 'piano-roll.gif',
                         _('We work with the free software community to ensure Zrythm works without issues on all libre platforms.')),
                 ]),
+            ]
+
+        # highlights
+        highlights = [
+            Feature(
+                _('Intuitive Editing'), 'piano-roll.gif',
+                _('Easily select, move, resize, clone, link, loop, delete and cut objects with a single tool or extend its functionality with additional specialized tools, and enjoy adaptive snapping in every arranger.')),
+            Feature(
+                _('Limitless Automation'), 'automation-curves.gif',
+                _('Automate almost anything with automation events using straight lines, ramps and curves, or with LFOs and envelopes.')),
+            Feature(
+                _('Mixing Capabilities'), 'https://manual.zrythm.org/en/_images/mixer.png',
+                _('In-context listening, signal groups, FX tracks, MIDI effect and insert slots, pre and post-fader aux sends and anywhere-to-anywhere routing.')),
+            Feature(
+                _('Chord Assistance'), 'chord-highlighting.png',
+                _('Generate chords from scales in the chord pad, audition and invert chords or save your own chord presets, manage your chord progression in the chord track and enjoy chord highlighting in the piano roll.')),
+            Feature(
+                _('Audio Plugins'), 'plugin-showcase.png',
+                _('Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, VST3 and AU, with additional support for SFZ and SF2 soundfonts and sandboxing thanks to {carla_ref}Carla{endref}.').format (lv2_ref = '<a href="https://lv2plug.in/">', carla_ref = '<a href="https://kx.studio/Applications:Carla">', endref = '</a>')),
+            Feature(
+                _('Featureful Timeline'), 'https://manual.zrythm.org/en/_images/track-lanes.png',
+                _('Organize your work into multiple layers in the same track using track lanes, quickly bounce anything to audio, import/export a wide variety of audio and MIDI formats, stretch or loop any kind of region and select from an array of track types for every purpose.')),
+            Feature(
+                _('Never Lose Work'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
+                _('Recover your work with automatic project backups, undo almost any user action and even save your undo history with projects.')),
+            Feature(
+                _('Liberating'), 'programming.png',
+                _('Zrythm is {copyleft_ref}copyleft{endref} {free_software_ref}free software</a> with fully auditable source code. Use, study, share and improve it freely.').format (copyleft_ref = '<a href="https://en.wikipedia.org/wiki/Copyleft">', free_software_ref = '<a href="https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm">', endref = '</a>')),
             ]
 
         currency_for_locale = langs_full[locale][2]
@@ -701,6 +729,7 @@ for in_file in glob.glob("template/*.j2"):
                               prev_month_comparison_perc=prev_month_comparison_perc,
                               feature_tracker=feature_tracker,
                               bug_tracker=bug_tracker,
+                              highlights=highlights,
                               plugins=plugins,
                               feature_groups=feature_groups,
                               version=version,

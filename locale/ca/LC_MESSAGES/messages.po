@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-22 18:24+0000\n"
+"POT-Creation-Date: 2022-03-24 08:18+0000\n"
 "PO-Revision-Date: 2022-02-28 18:13+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
@@ -74,7 +74,7 @@ msgstr "7 oscil·ladors de dents de serra"
 msgid "Single knob to control detune"
 msgstr "Una rodeta única per a controlar la desafinació"
 
-#: template.py:422
+#: template.py:422 template.py:664
 msgid "Intuitive Editing"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 msgid "Loop audio, MIDI, automation and chord clips."
 msgstr ""
 
-#: template.py:438
+#: template.py:438 template.py:679
 msgid "Featureful Timeline"
 msgstr ""
 
@@ -251,7 +251,7 @@ msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
 
-#: template.py:492
+#: template.py:492 template.py:670
 msgid "Mixing Capabilities"
 msgstr ""
 
@@ -450,7 +450,7 @@ msgstr ""
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
 
-#: template.py:572 template/index.html.j2:93
+#: template.py:572 template.py:673
 msgid "Chord Assistance"
 msgstr "Assistència d'acords"
 
@@ -494,7 +494,7 @@ msgid ""
 " various genres, or save your own."
 msgstr ""
 
-#: template.py:588
+#: template.py:588 template.py:682
 msgid "Never Lose Work"
 msgstr ""
 
@@ -658,6 +658,74 @@ msgstr ""
 msgid ""
 "We work with the free software community to ensure Zrythm works without "
 "issues on all libre platforms."
+msgstr ""
+
+#: template.py:665
+msgid ""
+"Easily select, move, resize, clone, link, loop, delete and cut objects with "
+"a single tool or extend its functionality with additional specialized tools,"
+" and enjoy adaptive snapping in every arranger."
+msgstr ""
+
+#: template.py:667
+msgid "Limitless Automation"
+msgstr ""
+
+#: template.py:668
+msgid ""
+"Automate almost anything with automation events using straight lines, ramps "
+"and curves, or with LFOs and envelopes."
+msgstr ""
+"Automatitza gairebé qualsevol cosa amb esdeveniments d'automatització "
+"mitjançant rectes, rampes i corbes, o amb LFO i envolupants."
+
+#: template.py:671
+msgid ""
+"In-context listening, signal groups, FX tracks, MIDI effect and insert "
+"slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
+msgstr ""
+
+#: template.py:674
+msgid ""
+"Generate chords from scales in the chord pad, audition and invert chords or "
+"save your own chord presets, manage your chord progression in the chord "
+"track and enjoy chord highlighting in the piano roll."
+msgstr ""
+
+#: template.py:676
+msgid "Audio Plugins"
+msgstr "Complements d'àudio"
+
+#: template.py:677
+msgid ""
+"Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
+"VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
+"sandboxing thanks to {carla_ref}Carla{endref}."
+msgstr ""
+
+#: template.py:680
+msgid ""
+"Organize your work into multiple layers in the same track using track lanes,"
+" quickly bounce anything to audio, import/export a wide variety of audio and"
+" MIDI formats, stretch or loop any kind of region and select from an array "
+"of track types for every purpose."
+msgstr ""
+
+#: template.py:683
+msgid ""
+"Recover your work with automatic project backups, undo almost any user "
+"action and even save your undo history with projects."
+msgstr ""
+
+#: template.py:685
+msgid "Liberating"
+msgstr "Alliberació"
+
+#: template.py:686
+msgid ""
+"Zrythm is {copyleft_ref}copyleft{endref} {free_software_ref}free "
+"software</a> with fully auditable source code. Use, study, share and improve"
+" it freely."
 msgstr ""
 
 #: common/footer.j2.inc:26
@@ -1043,124 +1111,25 @@ msgstr ""
 msgid "Learn More"
 msgstr "Saber-ne més"
 
-#: template/index.html.j2:51
-msgid "Limitless automation"
-msgstr "Automatització sense límits"
-
-#: template/index.html.j2:53
-msgid ""
-"Automate almost anything with automation events using straight lines, ramps "
-"and curves, or with LFOs and envelopes."
-msgstr ""
-"Automatitza gairebé qualsevol cosa amb esdeveniments d'automatització "
-"mitjançant rectes, rampes i corbes, o amb LFO i envolupants."
-
-#: template/index.html.j2:60
-msgid "Automation curves"
-msgstr "Corbes d'automatització"
-
-#: template/index.html.j2:65
-msgid "Audio Plugins"
-msgstr "Complements d'àudio"
-
-#: template/index.html.j2:67
-msgid ""
-"Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-"experimental support for VST3, AU, SFZ and SF2."
-msgstr ""
-"Suport complet per a <a href=\"https://lv2plug.in/\">LV2</a> i VST2, i "
-"suport experimental per a VST3, AU, SFZ i SF2."
-
-#: template/index.html.j2:73
-msgid "Audio plugins"
-msgstr "Complements d'àudio"
-
-#: template/index.html.j2:78
-msgid "Multi-Backend Support"
-msgstr "Suport tècnic de multibackend"
-
-#: template/index.html.j2:80
-msgid ""
-"Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
-"for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
-"PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
-msgstr ""
-"Funciona completament amb <a href=\"https://jackaudio.org/\">Jack</a> , "
-"incloent suport per a <a href=\"https://pipewire.org/\">PipeWire</a>, jack "
-"transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi i CoreAudio."
-
-#: template/index.html.j2:88
-msgid "Audio backends"
-msgstr "Backends d'àudio"
-
-#: template/index.html.j2:95
-msgid ""
-"Featuring a chord pad for quickly trying out chords in a scale and a chord "
-"track to assist with chord progressions."
-msgstr ""
-"Inclou un pad d'acords per a provar ràpidament acords en una escala i en una"
-" pista d'acords per a ajudar amb les progressions d'acords."
-
-#: template/index.html.j2:102
-msgid "Chord highlighting"
-msgstr "Ressaltat d'acords"
-
-#: template/index.html.j2:107
-msgid "Liberating"
-msgstr "Alliberació"
-
-#: template/index.html.j2:109
-msgid ""
-"Zrythm is <a "
-"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
-"software</a>. Use, study, share and improve it freely."
-msgstr ""
-"Zrythm és un <a "
-"href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">programari"
-" lliure</a>. Fes-lo servir, estudia-ho, comparteix-ho i millora-ho "
-"lliurement."
-
-#: template/index.html.j2:115
-msgid "Programming"
-msgstr "Programació"
-
-#: template/index.html.j2:120
-msgid "Multilingual"
-msgstr "Multilingüe"
-
-#: template/index.html.j2:122
-msgid ""
-"Available in <a href=\"https://hosted.weblate.org/engage/zrythm/\">multiple "
-"languages</a> including English, French, Spanish, Portuguese, Japanese and "
-"German."
-msgstr ""
-"Disponible en <a href=\"https://hosted.weblate.org/engage/zrythm/\">diversos"
-" idiomes</a> , incloent anglès, francès, espanyol, portuguès, japonès i "
-"alemany."
-
-#: template/index.html.j2:128
-msgid "Multi-language support"
-msgstr "Suport multiidioma"
-
-#: template/index.html.j2:133
+#: template/index.html.j2:63
 msgid "Showcase"
 msgstr "Vitrina"
 
-#: template/index.html.j2:142 template/index.html.j2:156
-#: template/index.html.j2:170 template/index.html.j2:184
-#: template/index.html.j2:198 template/index.html.j2:212
+#: template/index.html.j2:72 template/index.html.j2:86
+#: template/index.html.j2:100 template/index.html.j2:114
+#: template/index.html.j2:128 template/index.html.j2:142
 msgid "Your browser does not support HTML5 video."
 msgstr "El teu navegador no admet vídeo HTML5."
 
-#: template/index.html.j2:203
+#: template/index.html.j2:133
 msgid "Remake"
 msgstr "Refer"
 
-#: template/index.html.j2:225
+#: template/index.html.j2:155
 msgid "Testimonials"
 msgstr "Testimonis"
 
-#: template/index.html.j2:254
+#: template/index.html.j2:184
 msgid "Affiliates"
 msgstr "Afiliats"
 
@@ -1314,6 +1283,66 @@ msgstr "Complements Premium"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Darrera actualització de 4 d'agost de 2021"
+
+#~ msgid ""
+#~ "Zrythm is <a "
+#~ "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
+#~ "software</a>. Use, study, share and improve it freely."
+#~ msgstr ""
+#~ "Zrythm és un <a "
+#~ "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">programari"
+#~ " lliure</a>. Fes-lo servir, estudia-ho, comparteix-ho i millora-ho "
+#~ "lliurement."
+
+#~ msgid ""
+#~ "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
+#~ "experimental support for VST3, AU, SFZ and SF2."
+#~ msgstr ""
+#~ "Suport complet per a <a href=\"https://lv2plug.in/\">LV2</a> i VST2, i "
+#~ "suport experimental per a VST3, AU, SFZ i SF2."
+
+#~ msgid "Limitless automation"
+#~ msgstr "Automatització sense límits"
+
+#~ msgid "Automation curves"
+#~ msgstr "Corbes d'automatització"
+
+#~ msgid "Audio plugins"
+#~ msgstr "Complements d'àudio"
+
+#~ msgid "Multi-Backend Support"
+#~ msgstr "Suport tècnic de multibackend"
+
+#~ msgid ""
+#~ "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
+#~ "for <a href=\"https://pipewire.org/\">PipeWire</a>, JACK transport, ALSA, "
+#~ "PulseAudio, WASAPI, Windows MME, CoreMidi and CoreAudio."
+#~ msgstr ""
+#~ "Funciona completament amb <a href=\"https://jackaudio.org/\">Jack</a> , "
+#~ "incloent suport per a <a href=\"https://pipewire.org/\">PipeWire</a>, jack "
+#~ "transport, ALSA, PulseAudio, WASAPI, Windows MME, CoreMidi i CoreAudio."
+
+#~ msgid "Audio backends"
+#~ msgstr "Backends d'àudio"
+
+#~ msgid ""
+#~ "Featuring a chord pad for quickly trying out chords in a scale and a chord "
+#~ "track to assist with chord progressions."
+#~ msgstr ""
+#~ "Inclou un pad d'acords per a provar ràpidament acords en una escala i en una"
+#~ " pista d'acords per a ajudar amb les progressions d'acords."
+
+#~ msgid "Chord highlighting"
+#~ msgstr "Ressaltat d'acords"
+
+#~ msgid "Programming"
+#~ msgstr "Programació"
+
+#~ msgid "Multilingual"
+#~ msgstr "Multilingüe"
+
+#~ msgid "Multi-language support"
+#~ msgstr "Suport multiidioma"
 
 #~ msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
 #~ msgstr ""

@@ -36,10 +36,9 @@ GNU Affero General Public License for more details.
 
 {% for group in feature_groups %}
 <h3 class="header--underline">{{ group.title }}</h3>
-<section>
+<section class="highlights" id="highlights">
 
 {% for feature in group.features %}
-<section class="highlights" id="highlights">
   <div class="highlights__row{{ loop.cycle ('', ' highlights__row--alt') }}">
         <div class="highlights__content">
             <h3 class="highlights__header">{{ feature.title }}</h3>
@@ -49,9 +48,7 @@ GNU Affero General Public License for more details.
         </div>
         <div class="highlights__screenshot"><img class="highlights__image" src="{{ feature.img if 'https' in feature.img else url('static/images/' + feature.img) }}"></div>
     </div>
-</section>
 {% endfor %}
-
 </section>
 {% endfor %}
 
