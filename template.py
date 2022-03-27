@@ -226,7 +226,7 @@ if fetch_orders:
                     if 'fee_amound' in tx:
                         amount += float(tx['fee_amount']['value'])
                     if tx['transaction_amount']['currency_code'] == 'USD':
-                        amount *= usd_to_gbp
+                        amount = amount / currency_rates['USD']
                     if amount > 0:
                         print ('adding {} paypal subscription earnings'.format(amount))
                         monthly_earning += amount
@@ -235,9 +235,9 @@ if fetch_orders:
                     if 'fee_amound' in tx:
                         amount += float(tx['fee_amount']['value'])
                     if tx['transaction_amount']['currency_code'] == 'USD':
-                        amount *= usd_to_gbp
+                        amount = amount / currency_rates['USD']
                     elif tx['transaction_amount']['currency_code'] == 'EUR':
-                        amount *= eur_to_gbp
+                        amount = amount / currency_rates['EUR']
                     if amount > 0:
                         print ('adding {} paypal custom donation earnings'.format(amount))
                         monthly_earning += amount
