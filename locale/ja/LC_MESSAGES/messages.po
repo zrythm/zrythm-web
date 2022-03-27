@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-24 23:02+0000\n"
-"PO-Revision-Date: 2021-10-23 08:18+0000\n"
+"PO-Revision-Date: 2022-03-27 20:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -74,51 +75,54 @@ msgstr "シングル・ノブでデチューンを調整"
 
 #: template.py:422 template.py:664
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "直感的な編集"
 
 #: template.py:425
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "柔軟な選択ツール"
 
 #: template.py:426
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "single tool."
-msgstr ""
+msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を1"
+"つのツールで行うことができる。"
 
 #: template.py:428
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "豊富なツールボックス"
 
 #: template.py:429
 msgid ""
 "Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp "
 "or Audition tools."
-msgstr ""
+msgstr "編集、カット、消去、ランプ、オーディションツールに切り替えることで、セレクト"
+"ツールの機能を拡張することができる。"
 
 #: template.py:431
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "アダプティブスナップ"
 
 #: template.py:432
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "スナップ動作は、現在のズームレベルに合わせて調整される。"
 
 #: template.py:434
 msgid "Looping"
-msgstr ""
+msgstr "ループ"
 
 #: template.py:435
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "オーディオ、MIDI、オートメーション、コードクリップをループさせることができる"
+"。"
 
 #: template.py:438 template.py:679
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "機能豊富なタイムライン"
 
 #: template.py:441
 msgid "Track Lanes"
-msgstr ""
+msgstr "トラックレーン"
 
 #: template.py:442
 msgid "Add multiple layers of audio/MIDI to the same track using track lanes."
@@ -134,11 +138,11 @@ msgstr "選択したものを素早くオーディオ化する。"
 
 #: template.py:447
 msgid "Stretching"
-msgstr ""
+msgstr "ストレッチ"
 
 #: template.py:448
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "あらゆるタイプのリージョンをストレッチ"
 
 #: template.py:451
 msgid "Powerful Editors"
@@ -737,7 +741,7 @@ msgstr "プロジェクト"
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
 msgid "Features"
-msgstr "特長"
+msgstr "機能"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
