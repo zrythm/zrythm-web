@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-24 23:02+0000\n"
-"PO-Revision-Date: 2022-03-06 09:46+0000\n"
+"PO-Revision-Date: 2022-03-15 18:54+0000\n"
 "Last-Translator: Anthony V. <batmanplayer123@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/zrythm/web/el/>\n"
 "Language: el\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.6.0\n"
 "X-Generator: Weblate 4.12-dev\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -849,7 +849,7 @@ msgstr "Εγγραφείτε στην ανάπτυξη"
 #: template/community.html.j2:47
 msgid ""
 "Send an email to our development mailing list for development discussion"
-msgstr ""
+msgstr "Στείλτε ένα email στην λίστα ανάπτυξης για συζήτηση ανάπτυξης"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
@@ -925,7 +925,7 @@ msgstr ""
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "Εγγραφτείτε στην Λίστα Αλληλογραφίας Ενημέρωσης"
 
 #: template/community.html.j2:117
 msgid ""
