@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2022-02-16 21:16+0000\n"
 "Last-Translator: Muhammed YILMAZ <yilmazmu15@itu.edu.tr>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
@@ -818,8 +818,8 @@ msgstr "Eklentiler"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "Öğren"
+msgid "Guide"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1261,6 +1261,9 @@ msgstr "Premium Eklentiler"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Son güncelleme: 4 Ağustos 2021"
+
+#~ msgid "Learn"
+#~ msgstr "Öğren"
 
 #~ msgid ""
 #~ "Zrythm is <a "

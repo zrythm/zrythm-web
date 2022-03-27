@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2022-03-27 20:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -85,8 +84,7 @@ msgstr "柔軟な選択ツール"
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "single tool."
-msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を1"
-"つのツールで行うことができる。"
+msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を1つのツールで行うことができる。"
 
 #: template.py:428
 msgid "Extensive Toolbox"
@@ -96,8 +94,7 @@ msgstr "豊富なツールボックス"
 msgid ""
 "Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp "
 "or Audition tools."
-msgstr "編集、カット、消去、ランプ、オーディションツールに切り替えることで、セレクト"
-"ツールの機能を拡張することができる。"
+msgstr "編集、カット、消去、ランプ、オーディションツールに切り替えることで、セレクトツールの機能を拡張することができる。"
 
 #: template.py:431
 msgid "Adaptive Snapping"
@@ -113,8 +110,7 @@ msgstr "ループ"
 
 #: template.py:435
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr "オーディオ、MIDI、オートメーション、コードクリップをループさせることができる"
-"。"
+msgstr "オーディオ、MIDI、オートメーション、コードクリップをループさせることができる。"
 
 #: template.py:438 template.py:679
 msgid "Featureful Timeline"
@@ -822,8 +818,8 @@ msgstr "プラグイン"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "学ぶ"
+msgid "Guide"
+msgstr "手引き"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1250,6 +1246,9 @@ msgstr "プレミアムプラグイン"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "最終更新日：2021年8月4日"
+
+#~ msgid "Learn"
+#~ msgstr "手引き"
 
 #~ msgid ""
 #~ "Zrythm is <a "

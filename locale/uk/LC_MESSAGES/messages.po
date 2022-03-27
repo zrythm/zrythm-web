@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2021-11-25 22:50+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -825,8 +825,8 @@ msgstr "Розширення"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "Навчання"
+msgid "Guide"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1274,6 +1274,9 @@ msgstr "Преміальні розширення"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Останнє оновлення: 4 серп 2021"
+
+#~ msgid "Learn"
+#~ msgstr "Навчання"
 
 #~ msgid ""
 #~ "Zrythm is <a "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2022-01-18 18:52+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
@@ -821,8 +821,8 @@ msgstr "Suplementos"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "Aprender"
+msgid "Guide"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1269,6 +1269,9 @@ msgstr "Suplementos de luxo"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Última atualização em 4 Ago 2021"
+
+#~ msgid "Learn"
+#~ msgstr "Aprender"
 
 #~ msgid ""
 #~ "Zrythm is <a "

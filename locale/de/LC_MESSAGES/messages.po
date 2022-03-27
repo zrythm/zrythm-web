@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2022-01-30 17:55+0000\n"
 "Last-Translator: Ulrich <drulli@airmail.cc>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -822,8 +822,8 @@ msgstr "Plugins"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "Lernen"
+msgid "Guide"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1268,6 +1268,9 @@ msgstr ""
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
+
+#~ msgid "Learn"
+#~ msgstr "Lernen"
 
 #~ msgid ""
 #~ "Zrythm is <a "

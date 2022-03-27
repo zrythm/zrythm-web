@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2021-10-28 18:44+0000\n"
 "Last-Translator: Alaa alden Aldroubi <alaa.aldroubi@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/zrythm/web/ar/>\n"
@@ -814,8 +814,8 @@ msgstr "الإضافات"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "تعلم"
+msgid "Guide"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1230,6 +1230,9 @@ msgstr ""
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr ""
+
+#~ msgid "Learn"
+#~ msgstr "تعلم"
 
 #~ msgid ""
 #~ "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "

@@ -25,7 +25,7 @@ GNU Affero General Public License for more details.
         <div class="navbar__links">
           <a class="navbar__link" href="{{ url(lang + '/features.html') }}">{{ _('Features') }}</a>
           <a class="navbar__link" href="{{ url(lang + '/plugins.html') }}">{{ _('Plugins') }}</a>
-          <a class="navbar__link" href="{{ url(lang + '/learn.html') }}">{{ _('Learn') }}</a>
+          <a class="navbar__link" href="{{ url(lang + '/learn.html') }}">{{ _('Guide') }}</a>
           <a class="navbar__link" href="{{ url(lang + '/community.html') }}">{{ _('Get Involved') }}</a>
           <a class="navbar__link ml-auto navbar__btn btn--primary" href="{{ url(lang + '/download.html') }}">{{ _('Download') }}</a>
             <a class="navbar__link navbar__btn" href="#langmodal">{{ lang_full[0] }} {{ lang_full[1] }}</a>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 23:02+0000\n"
+"POT-Creation-Date: 2022-03-27 21:10+0100\n"
 "PO-Revision-Date: 2022-01-04 11:52+0000\n"
 "Last-Translator: tommyliu313 <liuchaktin@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
@@ -814,8 +814,8 @@ msgstr "外掛"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
-msgid "Learn"
-msgstr "學習資源"
+msgid "Guide"
+msgstr ""
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1234,6 +1234,9 @@ msgstr ""
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "最近一次更新於2021年8月4日"
+
+#~ msgid "Learn"
+#~ msgstr "學習資源"
 
 #~ msgid ""
 #~ "Zrythm is <a "
