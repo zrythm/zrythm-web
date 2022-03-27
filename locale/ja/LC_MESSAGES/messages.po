@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-27 21:10+0100\n"
-"PO-Revision-Date: 2022-03-27 20:03+0000\n"
+"PO-Revision-Date: 2022-03-29 22:10+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.12-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -122,7 +123,8 @@ msgstr "トラックレーン"
 
 #: template.py:442
 msgid "Add multiple layers of audio/MIDI to the same track using track lanes."
-msgstr ""
+msgstr "トラックレーンを使用して、オーディオ/MIDIの複数のレイヤーを同じトラックに追加"
+"できる。"
 
 #: template.py:444
 msgid "Bounce in Place"
@@ -142,7 +144,7 @@ msgstr "あらゆるタイプのリージョンをストレッチ"
 
 #: template.py:451
 msgid "Powerful Editors"
-msgstr ""
+msgstr "強力なエディタ"
 
 #: template.py:454
 msgid "Piano Roll"
@@ -152,25 +154,26 @@ msgstr "ピアノロール"
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
-msgstr ""
+msgstr "コード機能を統合した専用のピアノロールでMIDIイベントを作成、編集、アレンジ。"
 
 #: template.py:457
 msgid "Drum View"
-msgstr ""
+msgstr "ドラムビュー"
 
 #: template.py:458
 msgid "One-click switch to drum view for editing single-hit instruments."
-msgstr ""
+msgstr "シングルヒット音源を編集するためのドラムビューへのワンクリックスイッチ。"
 
 #: template.py:460
 msgid "Velocity Editor"
-msgstr ""
+msgstr "ベロシティエディタ"
 
 #: template.py:461
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
-msgstr ""
+msgstr "選択ツールで複数のベロシティを同時に編集したり、鉛筆ツールやランプツールで描"
+"画することができる。"
 
 #: template.py:463
 msgid "Audio Editor"
@@ -180,98 +183,105 @@ msgstr "オーディオエディタ"
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
-msgstr ""
+msgstr "フェード/ゲインを調整し、オーディオエディタ内のオーディオ関数を使用してオーデ"
+"ィオクリップの一部を編集する。"
 
 #: template.py:466
 msgid "List Editors"
-msgstr ""
+msgstr "リスト編集"
 
 #: template.py:467
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "イベントビューワでオブジェクトのパラメータを手動で編集する。"
 
 #: template.py:469
 msgid "Editor Functions"
-msgstr ""
+msgstr "エディタ関数"
 
 #: template.py:470
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
-msgstr ""
+msgstr "選択したオブジェクトに、レガート、インバート、フェードアウトなどの関数をすば"
+"やく適用できる。"
 
 #: template.py:472
 msgid "External App Integration"
-msgstr ""
+msgstr "外部アプリとの連携"
 
 #: template.py:473
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "選択したオーディオパートを外部アプリで編集する。"
 
 #: template.py:476
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "録音機能"
 
 #: template.py:479
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "オーディオ/MIDIレコーディング"
 
 #: template.py:480
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
-msgstr ""
+msgstr "JACKを使用して、任意のデバイスから、または他のアプリからでもオーディオ/MIDIを"
+"録音する。"
 
 #: template.py:482
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "包括的な録画設定"
 
 #: template.py:483
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
-msgstr ""
+msgstr "パンチイン/パンチアウトを使用したり、MIDI入力で録音を開始したり、オプションで"
+"複数のテイクを録音する。"
 
 #: template.py:485
+#, fuzzy
 msgid "Automation Recording"
-msgstr ""
+msgstr "オートメーション・レコーディング"
 
 #: template.py:486
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "ラッチ／タッチモードでオートメーションを記録する。"
 
 #: template.py:488
 msgid "Device Controls"
-msgstr ""
+msgstr "デバイスコントロール"
 
 #: template.py:489
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
-msgstr ""
+msgstr "デバイスのノブをZrythmのコントロールにバインドして、アクションを記録すること"
+"ができる。"
 
 #: template.py:492 template.py:670
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "ミキシング機能"
 
 #: template.py:495
 msgid "Group Tracks"
-msgstr ""
+msgstr "グループトラック"
 
 #: template.py:496
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "オーディオ/MIDI信号のグループをグループトラックで整理する。"
 
 #: template.py:498
 msgid "Aux Sends"
-msgstr ""
+msgstr "Auxセンド"
 
 #: template.py:499
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
-msgstr ""
+msgstr "FXトラックやプラグインのサイドチェイン入力に簡単に信号をルーティングできる。"
 
 #: template.py:501
+#, fuzzy
 msgid "In-Context Listening"
-msgstr ""
+msgstr "In-Context リスニング"
 
 #: template.py:502
 msgid ""
@@ -281,16 +291,16 @@ msgstr ""
 
 #: template.py:504
 msgid "Monitor Section"
-msgstr ""
+msgstr "モニターセクション"
 
 #: template.py:505
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
-msgstr ""
+msgstr "リッスン/ミュート/ソロの動作を変更し、スピーカーに送られる信号を調整する。"
 
 #: template.py:508
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "無制限のオートメーション"
 
 #: template.py:511
 msgid "Anywhere-to-Anywhere Connections"
@@ -308,35 +318,37 @@ msgstr "オートメーションカーブ"
 msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
-msgstr ""
+msgstr "指数関数曲線や楕円曲線など、複数の曲線アルゴリズムから選択し、直線や曲線でパ"
+"ラメータをオートメートできる。"
 
 #: template.py:517
 msgid "Envelopes"
-msgstr ""
+msgstr "エンベロープ"
 
 #: template.py:518
 msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
-msgstr ""
+msgstr "マクロノブやZLFOなどのLFOプラグインなど、CV信号またはエンベロープを使用してパ"
+"ラメーターをオートメイトする。"
 
 #: template.py:520
 msgid "Automate Anything"
-msgstr ""
+msgstr "何でもオートメイトする"
 
 #: template.py:521
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
-msgstr ""
+msgstr "プロジェクトのBPMや拍子記号など、可能な限りのパラメータをオートメイトする。"
 
 #: template.py:524
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "直感的なUI"
 
 #: template.py:527
 msgid "Detachable Views"
-msgstr ""
+msgstr "取り外し可能なビュー"
 
 #: template.py:528
 msgid ""
@@ -345,45 +357,46 @@ msgstr ""
 
 #: template.py:530
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "検索可能な設定"
 
 #: template.py:531
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "入力を開始して、探している設定を見つける。"
 
 #: template.py:533
 msgid "Inspector Pages"
-msgstr ""
+msgstr "インスペクタページ"
 
 #: template.py:534
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "インスペクタですべてのトラックとプラグインのパラメータを編集する。"
 
 #: template.py:537
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "プラグイン機能"
 
 #: template.py:540
 msgid "Plugin Support"
-msgstr ""
+msgstr "プラグイン対応"
 
 #: template.py:541
 msgid ""
 "Thanks to Carla, Zrythm supports a variety of plugin formats including LV2, "
 "VST2, VST3 and AU."
-msgstr ""
+msgstr "Carlaのおかげで、ZrythmはLV2、VST2、VST3、AUなど様々なプラグインフォーマット"
+"に対応しています。"
 
 #: template.py:543
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "SoundFontをプラグイン扱いする"
 
 #: template.py:544
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr ""
+msgstr "SFZ、SF2のSoundFontをインストゥルメントプラグインとして使用できる。"
 
 #: template.py:546
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "柔軟なプラグインブラウザ"
 
 #: template.py:547
 msgid ""
