@@ -677,7 +677,7 @@ for in_file in glob.glob("template/*.j2"):
                 _('Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, VST3 and AU, with additional support for SFZ and SF2 soundfonts and sandboxing thanks to {carla_ref}Carla{endref}.').format (lv2_ref = '<a href="https://lv2plug.in/">', carla_ref = '<a href="https://kx.studio/Applications:Carla">', endref = '</a>')),
             Feature(
                 _('Featureful Timeline'), 'https://manual.zrythm.org/en/_images/track-lanes.png',
-                _('Organize your work into multiple layers in the same track using track lanes, quickly bounce anything to audio, import/export a wide variety of audio and MIDI formats, stretch or loop any kind of region and select from an array of track types for every purpose.')),
+                _('Organize your work into multiple layers in the same track using track lanes, quickly bounce anything to audio, import/export a wide variety of audio and MIDI formats, stretch or loop any region and select from an array of track types for every purpose.')),
             Feature(
                 _('Never Lose Work'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
                 _('Recover your work with automatic project backups, undo almost any user action and even save your undo history with projects.')),

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-24 08:18+0000\n"
+"POT-Creation-Date: 2022-03-24 23:02+0000\n"
 "PO-Revision-Date: 2021-10-04 01:40+0000\n"
 "Last-Translator: Vinicius Monego <monego@posteo.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -703,8 +703,8 @@ msgstr ""
 msgid ""
 "Organize your work into multiple layers in the same track using track lanes,"
 " quickly bounce anything to audio, import/export a wide variety of audio and"
-" MIDI formats, stretch or loop any kind of region and select from an array "
-"of track types for every purpose."
+" MIDI formats, stretch or loop any region and select from an array of track "
+"types for every purpose."
 msgstr ""
 
 #: template.py:683
@@ -1150,7 +1150,7 @@ msgid "Walkthroughs"
 msgstr ""
 
 #: template/learn.html.j2:132
-msgid "Send us your video"
+msgid "Your video here"
 msgstr ""
 
 #: template/learn.html.j2:138
