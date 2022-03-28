@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-27 21:10+0100\n"
-"PO-Revision-Date: 2022-01-18 18:52+0000\n"
+"PO-Revision-Date: 2022-03-29 22:10+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.11-dev\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -890,11 +891,15 @@ msgid "Chat with us on IRC"
 msgstr "Converse conosco no IRC"
 
 #: template/community.html.j2:90
+#, fuzzy
 msgid ""
 "Our IRC channel is #zrythm on Libera.Chat "
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"O nosso canal IRC é #zrythm no Libera.Chat (<code>irc://irc.libera.chat/"
+"zrythm</code>). Sinta-se livre de pingar um operador para um cloak <code>"
+"zrythm/user/*</code>."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
