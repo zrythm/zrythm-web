@@ -91,9 +91,6 @@ msgid "Extensive Toolbox"
 msgstr "豊富なツールボックス"
 
 #: template.py:435
-#| msgid ""
-#| "Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp "
-#| "or Audition tools."
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
@@ -572,9 +569,6 @@ msgid "SIMD-optimized DSP"
 msgstr "SIMDによる最適化されたDSP"
 
 #: template.py:627
-#| msgid ""
-#| "Zrythm uses lsp-dsp-lib which implements SIMD extensions such as SSE, AVX "
-#| "and FMA when available to speed up audio processing and minimize DSP usage."
 msgid ""
 "Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such "
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
@@ -633,7 +627,6 @@ msgid "Easily Add Translations"
 msgstr "簡単に翻訳を追加できる"
 
 #: template.py:650
-#| msgid "Add missing translations and locales on Weblate."
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
 

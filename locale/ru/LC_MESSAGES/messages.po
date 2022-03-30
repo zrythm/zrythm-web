@@ -92,9 +92,6 @@ msgid "Extensive Toolbox"
 msgstr "Обширный набор инструментов"
 
 #: template.py:435
-#| msgid ""
-#| "Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp "
-#| "or Audition tools."
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
