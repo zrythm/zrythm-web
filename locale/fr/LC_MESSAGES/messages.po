@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-27 21:10+0100\n"
-"PO-Revision-Date: 2022-03-14 09:56+0000\n"
+"PO-Revision-Date: 2022-03-29 22:10+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.12-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -75,7 +75,7 @@ msgstr "Un seul bouton pour contrôler le désaccord"
 
 #: template.py:422 template.py:664
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Édition intuitive"
 
 #: template.py:425
 msgid "Flexible Select Tool"

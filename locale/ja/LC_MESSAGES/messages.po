@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-27 21:10+0100\n"
-"PO-Revision-Date: 2022-03-27 20:03+0000\n"
+"PO-Revision-Date: 2022-03-30 09:39+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.12-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -84,7 +85,8 @@ msgstr "柔軟な選択ツール"
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "single tool."
-msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を1つのツールで行うことができる。"
+msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を1"
+"つのツールで行うことができます。"
 
 #: template.py:428
 msgid "Extensive Toolbox"
@@ -94,7 +96,8 @@ msgstr "豊富なツールボックス"
 msgid ""
 "Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp "
 "or Audition tools."
-msgstr "編集、カット、消去、ランプ、オーディションツールに切り替えることで、セレクトツールの機能を拡張することができる。"
+msgstr "編集、カット、消去、ランプ、オーディションツールに切り替えることで、セレクト"
+"ツールの機能を拡張することができます。"
 
 #: template.py:431
 msgid "Adaptive Snapping"
@@ -102,7 +105,7 @@ msgstr "アダプティブスナップ"
 
 #: template.py:432
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr "スナップ動作は、現在のズームレベルに合わせて調整される。"
+msgstr "スナップ動作は、現在のズームレベルに合わせて調整されます。"
 
 #: template.py:434
 msgid "Looping"
@@ -110,7 +113,8 @@ msgstr "ループ"
 
 #: template.py:435
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr "オーディオ、MIDI、オートメーション、コードクリップをループさせることができる。"
+msgstr "オーディオ、MIDI、オートメーション、コードクリップをループさせることができま"
+"す。"
 
 #: template.py:438 template.py:679
 msgid "Featureful Timeline"
@@ -122,7 +126,8 @@ msgstr "トラックレーン"
 
 #: template.py:442
 msgid "Add multiple layers of audio/MIDI to the same track using track lanes."
-msgstr ""
+msgstr "トラックレーンを使用して、オーディオ/MIDIの複数のレイヤーを同じトラックに追加"
+"できます。"
 
 #: template.py:444
 msgid "Bounce in Place"
@@ -130,7 +135,7 @@ msgstr "バウンス・イン・プレース"
 
 #: template.py:445
 msgid "Quickly bounce selected material to audio."
-msgstr "選択したものを素早くオーディオ化する。"
+msgstr "選択したものを素早くオーディオ化できます。"
 
 #: template.py:447
 msgid "Stretching"
@@ -142,7 +147,7 @@ msgstr "あらゆるタイプのリージョンをストレッチ"
 
 #: template.py:451
 msgid "Powerful Editors"
-msgstr ""
+msgstr "強力なエディタ"
 
 #: template.py:454
 msgid "Piano Roll"
@@ -152,25 +157,26 @@ msgstr "ピアノロール"
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
-msgstr ""
+msgstr "コード機能を統合した専用のピアノロールでMIDIイベントを作成、編集、アレンジ。"
 
 #: template.py:457
 msgid "Drum View"
-msgstr ""
+msgstr "ドラムビュー"
 
 #: template.py:458
 msgid "One-click switch to drum view for editing single-hit instruments."
-msgstr ""
+msgstr "シングルヒット音源を編集するためのドラムビューへのワンクリックスイッチ。"
 
 #: template.py:460
 msgid "Velocity Editor"
-msgstr ""
+msgstr "ベロシティエディタ"
 
 #: template.py:461
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
-msgstr ""
+msgstr "選択ツールで複数のベロシティを同時に編集したり、鉛筆ツールやランプツールで描"
+"画することができます。"
 
 #: template.py:463
 msgid "Audio Editor"
@@ -180,121 +186,125 @@ msgstr "オーディオエディタ"
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
-msgstr ""
+msgstr "フェード/ゲインを調整し、オーディオエディタ内のオーディオ関数を使用してオーデ"
+"ィオクリップの一部を編集。"
 
 #: template.py:466
 msgid "List Editors"
-msgstr ""
+msgstr "リスト編集"
 
 #: template.py:467
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "イベントビューワでオブジェクトのパラメータを手動で編集。"
 
 #: template.py:469
 msgid "Editor Functions"
-msgstr ""
+msgstr "エディタ関数"
 
 #: template.py:470
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
-msgstr ""
+msgstr "選択したオブジェクトに、レガート、インバート、フェードアウトなどの関数をすば"
+"やく適用。"
 
 #: template.py:472
 msgid "External App Integration"
-msgstr ""
+msgstr "外部アプリとの連携"
 
 #: template.py:473
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "選択したオーディオパートを外部アプリで編集。"
 
 #: template.py:476
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "録音機能"
 
 #: template.py:479
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "オーディオ/MIDIレコーディング"
 
 #: template.py:480
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
-msgstr ""
+msgstr "JACKを使用して、任意のデバイスから、または他のアプリからでもオーディオ/MIDIを"
+"録音。"
 
 #: template.py:482
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "包括的な録画設定"
 
 #: template.py:483
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
-msgstr ""
+msgstr "パンチイン/パンチアウトを使用したり、MIDI入力で録音を開始したり、オプションで"
+"複数のテイクを録音。"
 
 #: template.py:485
 msgid "Automation Recording"
-msgstr ""
+msgstr "オートメーション記録"
 
 #: template.py:486
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "ラッチ／タッチモードでオートメーションを記録。"
 
 #: template.py:488
 msgid "Device Controls"
-msgstr ""
+msgstr "デバイスコントロール"
 
 #: template.py:489
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
-msgstr ""
+msgstr "デバイスのノブをZrythmのコントロールにバインドして、アクションを記録。"
 
 #: template.py:492 template.py:670
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "ミキシング機能"
 
 #: template.py:495
 msgid "Group Tracks"
-msgstr ""
+msgstr "グループトラック"
 
 #: template.py:496
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "オーディオ/MIDI信号のグループをグループトラックで整理。"
 
 #: template.py:498
 msgid "Aux Sends"
-msgstr ""
+msgstr "Auxセンド"
 
 #: template.py:499
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
-msgstr ""
+msgstr "FXトラックやプラグインのサイドチェイン入力に簡単に信号をルーティング。"
 
 #: template.py:501
 msgid "In-Context Listening"
-msgstr ""
+msgstr "In-Context リスニング"
 
 #: template.py:502
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
-msgstr ""
+msgstr "他のトラックの音を小さくして、ミックスの文脈で特定のトラックを試聴。"
 
 #: template.py:504
 msgid "Monitor Section"
-msgstr ""
+msgstr "モニターセクション"
 
 #: template.py:505
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
-msgstr ""
+msgstr "リッスン/ミュート/ソロの動作を変更し、スピーカーに送られる信号を調整。"
 
 #: template.py:508
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "無制限のオートメーション"
 
 #: template.py:511
 msgid "Anywhere-to-Anywhere Connections"
-msgstr "どこからでもどこへでも接続可"
+msgstr "どこからでもどこへでも接続可能"
 
 #: template.py:512
 msgid "Connect anything to anything."
@@ -308,145 +318,155 @@ msgstr "オートメーションカーブ"
 msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
-msgstr ""
+msgstr "指数関数曲線や楕円曲線など、複数の曲線アルゴリズムから選択し、直線や曲線でパ"
+"ラメータをオートメイト。"
 
 #: template.py:517
 msgid "Envelopes"
-msgstr ""
+msgstr "エンベロープ"
 
 #: template.py:518
 msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
-msgstr ""
+msgstr "マクロノブやZLFOなどのLFOプラグインなど、CV信号またはエンベロープを使用してパ"
+"ラメーターをオートメイト。"
 
 #: template.py:520
 msgid "Automate Anything"
-msgstr ""
+msgstr "何でもオートメイトする"
 
 #: template.py:521
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
-msgstr ""
+msgstr "プロジェクトのBPMや拍子記号など、可能な限りのパラメータをオートメイト。"
 
 #: template.py:524
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "直感的なUI"
 
 #: template.py:527
 msgid "Detachable Views"
-msgstr ""
+msgstr "取り外し可能なビュー"
 
 #: template.py:528
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
-msgstr ""
+msgstr "パネルからビューを切り離し、マルチモニター環境で効率的に作業できます。"
 
 #: template.py:530
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "検索可能な設定"
 
 #: template.py:531
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "入力を開始し、お探しの設定を見つけます。"
 
 #: template.py:533
 msgid "Inspector Pages"
-msgstr ""
+msgstr "インスペクタページ"
 
 #: template.py:534
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "インスペクタですべてのトラックとプラグインのパラメータを編集。"
 
 #: template.py:537
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "プラグイン機能"
 
 #: template.py:540
 msgid "Plugin Support"
-msgstr ""
+msgstr "プラグイン対応"
 
 #: template.py:541
 msgid ""
 "Thanks to Carla, Zrythm supports a variety of plugin formats including LV2, "
 "VST2, VST3 and AU."
-msgstr ""
+msgstr "Carlaのおかげで、ZrythmはLV2、VST2、VST3、AUなど様々なプラグインフォーマット"
+"に対応しています。"
 
 #: template.py:543
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "SoundFontをプラグイン扱いする"
 
 #: template.py:544
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr ""
+msgstr "SFZ、SF2のSoundFontをインストゥルメントプラグインとして使用できます。"
 
 #: template.py:546
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "柔軟なプラグインブラウザ"
 
 #: template.py:547
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
-msgstr ""
+msgstr "プラグインを作者、形式、カテゴリで簡単にフィルタリングしたり、プラグインコレ"
+"クションでお気に入りのプラグインを整理することができます。"
 
 #: template.py:549
 msgid "Plugin Bridging"
-msgstr ""
+msgstr "プラグインブリッジ"
 
 #: template.py:550
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr ""
+msgstr "ブリッジモードで開くことによるサンドボックス。"
 
 #: template.py:552
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "自動化可能なバイパスモード"
 
 #: template.py:553
 msgid "Easily bypass plugins in the signal chain with an automatable control."
-msgstr ""
+msgstr "自動化可能なコントロールにより、シグナルチェーン内のプラグインを簡単にバイパ"
+"スできます。"
 
 #: template.py:556
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "包括的なインポート/エクスポート"
 
 #: template.py:559
 msgid "File Browser"
-msgstr ""
+msgstr "ファイルブラウザ"
 
 #: template.py:560
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
-msgstr ""
+msgstr "MIDIやオーディオファイルをブラウズして試聴したり、お気に入りのパスをfavorites"
+"で整理することができます。"
 
 #: template.py:562
 msgid "Audio Files"
-msgstr ""
+msgstr "オーディオファイル"
 
 #: template.py:563
 msgid ""
 "Import or export any format supported by libsndfile, with additional MP3 "
 "import support."
-msgstr ""
+msgstr "libsndfile "
+"がサポートするあらゆるフォーマットのインポート/エクスポートが可能で、さらに "
+"MP3 のインポートもサポートしています。"
 
 #: template.py:565
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:566
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
-msgstr ""
+msgstr "プロジェクトの任意の部分をMIDI Type 0またはType "
+"1のフォーマットでインポートまたはエクスポートすることができます。"
 
 #: template.py:568
 msgid "Stem Export"
-msgstr ""
+msgstr "ステムエクスポート"
 
 #: template.py:569
 msgid "Export stems for specific tracks and share them with other producers."
-msgstr ""
+msgstr "特定のトラックのステムをエクスポートして、他のプロデューサーと共有することが"
+"できます。"
 
 #: template.py:572 template.py:673
 msgid "Chord Assistance"
@@ -454,161 +474,173 @@ msgstr "コードアシスタンス"
 
 #: template.py:575
 msgid "Chord Audition"
-msgstr ""
+msgstr "コードオーディション"
 
 #: template.py:576
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
-msgstr ""
+msgstr "パッドをクリックしたり、MIDIキーボードのキーを押したりしてコードを素早く聞き"
+"取り、タイムラインにドラッグ＆ドロップすることが可能。"
 
 #: template.py:578
 msgid "Chord Editing"
-msgstr ""
+msgstr "コード編集"
 
 #: template.py:579
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
+"ワンクリックでコードをインバートさせたり、コードセレクターを使用して任意のコ"
+"ードを選択したり、現在のスケール内のコードにフィルタリングしたりできます。"
 
 #: template.py:581
 msgid "Recordable Chord Track"
-msgstr ""
+msgstr "録音可能なコードトラック"
 
 #: template.py:582
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
-msgstr ""
+msgstr "プロジェクトのスケールとコード進行を指定または録音し、オプションでその出力を"
+"音源にルーティング。"
 
 #: template.py:584
 msgid "Chord Presets"
-msgstr ""
+msgstr "コードプリセット"
 
 #: template.py:585
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
-msgstr ""
+msgstr "幅広いスケールからコードを生成したり、さまざまなジャンルのコードプリセットを"
+"読み込んだり、自分で作成したコードを保存することができます。"
 
 #: template.py:588 template.py:682
 msgid "Never Lose Work"
-msgstr ""
+msgstr "作業を失わない"
 
 #: template.py:591
 msgid "Project Backups"
-msgstr ""
+msgstr "プロジェクトのバックアップ"
 
 #: template.py:592
 msgid "Backups taken automatically at user-specified intervals."
-msgstr ""
+msgstr "ユーザーが指定した間隔で自動的にバックアップします。"
 
 #: template.py:594
 msgid "Undoable Actions"
-msgstr ""
+msgstr "元に戻せる操作"
 
 #: template.py:595
 msgid "Almost every user action is undoable."
-msgstr ""
+msgstr "ほとんどすべてのユーザーアクションは取り消すことができます。"
 
 #: template.py:597
 msgid "Serializable Undo History"
-msgstr ""
+msgstr "シリアライズ可能なUndo履歴"
 
 #: template.py:598
 msgid "Keep your undo history when saving projects."
-msgstr ""
+msgstr "プロジェクト保存時にUndoの履歴が保持されます。"
 
 #: template.py:601
 msgid "Scripting"
-msgstr ""
+msgstr "スクリプティング"
 
 #: template.py:604
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Zrythmを拡張する"
 
 #: template.py:605
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using GNU Guile "
 "scripts."
-msgstr ""
+msgstr "GNU Guileスクリプトを使ってZrythmの状態を編集し、Zrythmの機能を拡張することが"
+"できます。"
 
 #: template.py:607
 msgid "Custom Editor Functions"
-msgstr ""
+msgstr "カスタムなエディタ関数"
 
 #: template.py:608
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
-msgstr ""
+msgstr "独自のMIDI/オーディオ/オートメーション関数を実装（近日公開予定）。"
 
 #: template.py:610
 msgid "Project Generation"
-msgstr ""
+msgstr "プロジェクト生成"
 
 #: template.py:611
 msgid "Generate projects with GNU Guile scripts."
-msgstr ""
+msgstr "GNUGuileスクリプトを使用してプロジェクトを生成。"
 
 #: template.py:614
 msgid "Optimized Performance"
-msgstr ""
+msgstr "最適化されたパフォーマンス"
 
 #: template.py:617
 msgid "Hardware accelerated UI"
-msgstr ""
+msgstr "ハードウェアアクセラレーションによるUI"
 
 #: template.py:618
 msgid "Most of the user interface is drawn on the GPU thanks to GTK4."
-msgstr ""
+msgstr "GTK4により、ユーザーインターフェースのほとんどがGPU上で描画されます。"
 
 #: template.py:620
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMDによる最適化されたDSP"
 
 #: template.py:621
 msgid ""
 "Zrythm uses lsp-dsp-lib which implements SIMD extensions such as SSE, AVX "
 "and FMA when available to speed up audio processing and minimize DSP usage."
 msgstr ""
+"Zrythm は lsp-dsp-lib を使用しており、SSE、AVX、FMA などの SIMD "
+"拡張を実装して、オーディオ処理を高速化し、DSP の使用を最小限に抑えます。"
 
 #: template.py:623
 msgid "Extensive Caching"
-msgstr ""
+msgstr "広範なキャッシング"
 
 #: template.py:624
 msgid ""
 "Expensive computations are pre-calculated and the result is re-used during "
 "processing."
-msgstr ""
+msgstr "負荷のかかる計算を事前に行い、その結果を処理中に再利用。"
 
 #: template.py:627
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "クロスプラットフォーム対応"
 
 #: template.py:630
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "マルチプラットフォーム"
 
 #: template.py:631
 msgid ""
 "Zrythm is designed to run on a wide variety of platforms and architectures "
 "including x86 architectures, PowerPC, RISC-V, ARMv7 and ARMv8."
 msgstr ""
+"Zrythmは、x86、PowerPC、RISC-V、ARMv7、ARMv8など、さまざまなプラットフォーム"
+"やアーキテクチャで動作するように設計されています。"
 
 #: template.py:633
 msgid "Multiple Backends"
-msgstr ""
+msgstr "複数のバックエンド"
 
 #: template.py:634
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"JACK/PipeWire, Windows MME, WASAPI, Core Audio/MIDIなど、主要なオーディオおよ"
+"びMIDIバックエンドのほとんどをサポートしています。"
 
 #: template.py:637
 msgid "Localization"
-msgstr ""
+msgstr "ローカライゼーション"
 
 #: template.py:640
 msgid "Localized UI"
@@ -616,47 +648,49 @@ msgstr "ローカライズされたUI"
 
 #: template.py:641
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "Zrythmをお好みの言語で使用することができます。"
 
 #: template.py:643
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "簡単に翻訳を追加できる"
 
 #: template.py:644
 msgid "Add missing translations and locales on Weblate."
-msgstr ""
+msgstr "Weblateに不足している翻訳とロケールを追加できます。"
 
 #: template.py:647
 msgid "User Liberty"
-msgstr ""
+msgstr "ユーザーの自由"
 
 #: template.py:650
 msgid "Free Software"
-msgstr ""
+msgstr "自由なソフトウェア"
 
 #: template.py:651
 msgid ""
 "With all source code released as copyleft free software, Zrythm is committed"
 " to ensuring the freedom of computer users."
-msgstr ""
+msgstr "Zrythmは、すべてのソースコードをコピーレフトのフリーソフトウェアとして公開し"
+"、ユーザーの自由を確保しています。"
 
 #: template.py:653
 msgid "Open Standards"
-msgstr ""
+msgstr "オープンスタンダード"
 
 #: template.py:654
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
-msgstr ""
+msgstr "Zrythmは、MIDI、LV2、FLAC、OGGなどのオープンスタンダードに対応しています。"
 
 #: template.py:656
 msgid "Cooperation"
-msgstr ""
+msgstr "協力"
 
 #: template.py:657
 msgid ""
 "We work with the free software community to ensure Zrythm works without "
 "issues on all libre platforms."
-msgstr ""
+msgstr "私たちはフリーソフトウェアコミュニティと協力し、Zrythmがすべての自由なプラッ"
+"トフォームで問題なく動作することを保証しています。"
 
 #: template.py:665
 msgid ""
@@ -664,10 +698,13 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を1"
+"つのツールで簡単にしたり、専用ツールで機能を拡張したり、すべてのアレンジャー"
+"でアダプティブスナップを使用したりできます。"
 
 #: template.py:667
 msgid "Limitless Automation"
-msgstr ""
+msgstr "無制限のオートメーション"
 
 #: template.py:668
 msgid ""
@@ -680,6 +717,9 @@ msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
+"In-contextリスニング、シグナルグループ、FXトラック、MIDIエフェクトとインサー"
+"トスロット、プリ/ポストフェーダーAuxセンド、どこからでもルーティングが可能な"
+"ど。"
 
 #: template.py:674
 msgid ""
@@ -687,6 +727,9 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
+"コードパッドで音階からコードを生成したり、コードを試聴またはインバートしたり"
+"、独自のコードプリセットを保存したり、コードトラックでコード進行を管理したり"
+"、ピアノロールでコードをハイライトしたりできます。"
 
 #: template.py:676
 msgid "Audio Plugins"
@@ -698,6 +741,9 @@ msgid ""
 "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
 "sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"{lv2_ref}LV2{endref}、VST2、VST3、AUを含む主要なプラグインフォーマットに対応"
+"し、SFZとSF2サウンドフォントを追加でサポートし、{carla_ref}Carla{endref}によ"
+"るサンドボックス化も可能です。"
 
 #: template.py:680
 msgid ""
@@ -706,12 +752,18 @@ msgid ""
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
+"トラックレーンを使って同じトラックで複数のレイヤーを構成したり、あらゆるもの"
+"をすばやくオーディオにバウンスしたり、さまざまなオーディオおよびMIDIフォーマ"
+"ットをインポート/エクスポートしたり、任意のリージョンをストレッチまたはループ"
+"したり、あらゆる目的に応じたトラックタイプの中から選択することができます。"
 
 #: template.py:683
 msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr ""
+"プロジェクトの自動バックアップによる作業の復元、ほとんどすべてのユーザーアク"
+"ションの取り消し、さらにプロジェクトでの取り消し履歴の保存が可能です。"
 
 #: template.py:685
 msgid "Liberating"
@@ -723,12 +775,15 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
+"Zrythmは{copyleft_ref}copyleft{endref}な{free_software_ref}フリーソフトウェア"
+"</a>で、完全に監査可能なソースコードを提供しています。自由に使用、研究、共有"
+"、改良してください。"
 
 #: common/footer.j2.inc:26
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
-msgstr ""
+msgstr "ZrythmおよびZrythmのロゴは{ref}Alexandros Theodotouの商標です{endref}。"
 
 #: common/footer.j2.inc:30
 msgid "Project"
@@ -749,7 +804,7 @@ msgstr "リリース"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
@@ -761,7 +816,7 @@ msgstr "チャット"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
-msgstr ""
+msgstr "ユーザーメーリングリスト"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
@@ -769,11 +824,11 @@ msgstr "貢献する"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
-msgstr "支援する"
+msgstr "寄付する"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "このサイトについて"
 
 #: common/footer.j2.inc:67 template/download.html.j2:124
 msgid "Source Code"
@@ -781,7 +836,7 @@ msgstr "ソースコード"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "法的情報"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
@@ -790,7 +845,7 @@ msgstr "プライバシー・ポリシー"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
-msgstr ""
+msgstr "問題を報告する"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
@@ -984,11 +1039,11 @@ msgstr "無料"
 
 #: template/download.html.j2:64
 msgid "Bundled plugins (basic)"
-msgstr "同梱プラグイン(基本)"
+msgstr "基本プラグイン"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
-msgstr "保存/読込無効"
+msgstr "保存/読込が無効"
 
 #: template/download.html.j2:72
 msgid "Single"
@@ -1002,7 +1057,7 @@ msgstr "全機能"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Bundled plugins (all)"
-msgstr "同梱プラグイン(全)"
+msgstr "全プラグイン"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
@@ -1019,7 +1074,7 @@ msgstr "バンドル"
 
 #: template/download.html.j2:90
 msgid "Access to all v1 releases"
-msgstr "すべての v1 リリースへのアクセス"
+msgstr "全 v1 リリースへのアクセス"
 
 #: template/download.html.j2:96
 msgid "Nightly"
@@ -1027,15 +1082,15 @@ msgstr "ナイトリー"
 
 #: template/download.html.j2:97
 msgid "year"
-msgstr ""
+msgstr "年"
 
 #: template/download.html.j2:102
 msgid "Access to all releases"
-msgstr ""
+msgstr "すべてのリリースへのアクセス"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr "デイリー・ビルドへアクセス"
+msgstr "ナイトリー・ビルドへのアクセス"
 
 #: template/download.html.j2:105
 msgid "Subscribe"
@@ -1055,7 +1110,7 @@ msgstr "GPG鍵"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr "機能の一覧。"
+msgstr "機能一覧。"
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
@@ -1156,7 +1211,7 @@ msgstr "ウォークスルー"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "あなたの動画はこちら"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
@@ -1185,6 +1240,9 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"Zrythmの著作権は、Alexandros Theodotouとその他の貢献者にあります。Zrythmは<a "
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>の下でリリースされています。"
 
 #: template/legal.html.j2:50
 msgid ""
