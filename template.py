@@ -501,7 +501,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('In-Context Listening'), 'https://manual.zrythm.org/en/_images/channel.png',
                         _('Listen to specified tracks in the context of the mix by dimming down every other track.')),
                     Feature(
-                        _('Monitor Section'), 'https://manual.zrythm.org/en/_images/monitor-out-knob.png',
+                        _('Monitor Section'), 'https://manual.zrythm.org/en/_images/monitor-section.png',
                         _('Change listen/mute/solo behavior and adjust what goes to your speakers.')),
                 ]),
             FeatureGroup(
@@ -581,7 +581,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Recordable Chord Track'), 'https://manual.zrythm.org/en/_images/chord-track.png',
                         _('Dictate or record the scale and chord progression of the project, and optionally route the output to an instrument.')),
                     Feature(
-                        _('Chord Presets'), 'piano-roll.gif',
+                        _('Chord Presets'), 'https://manual.zrythm.org/en/_images/chord-preset-selection.png',
                         _('Generate chords from a wide range of scales, load included chord presets for various genres, or save your own.')),
                 ]),
             FeatureGroup(
@@ -601,7 +601,7 @@ for in_file in glob.glob("template/*.j2"):
                 _('Scripting'),
                 [
                     Feature(
-                        _('Extend Zrythm'), 'piano-roll.gif',
+                        _('Extend Zrythm'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
                         _('Extend the capabilities of Zrythm by editing its state using GNU Guile scripts.')),
                     Feature(
                         _('Custom Editor Functions'), 'piano-roll.gif',
