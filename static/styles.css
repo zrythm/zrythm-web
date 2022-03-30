@@ -722,7 +722,11 @@ svg {
 
 .highlights__image {
   max-width: 100%;
-  border-radius: 8px; }
+  border-radius: 8px;
+  max-height: 480px; }
+
+.highlights__image[src$='.svg'] {
+  min-height: 250px; }
 
 .highlights__content {
   flex-basis: 400px; }
@@ -735,11 +739,11 @@ svg {
     flex-basis: 95%; }
 
   .highlights__row--alt .highlights__screenshot {
-    margin-right: -15%;
+    margin-right: 5%;
     margin-left: 0px; }
 
   .highlights__screenshot {
-    margin-left: -15%; } }
+    margin-left: 5%; } }
 .showcase {
   display: flex;
   justify-content: center;

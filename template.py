@@ -417,6 +417,11 @@ for in_file in glob.glob("template/*.j2"):
                     _('Single knob to control detune') ]),
             ]
 
+        def get_manual_ref(_manual_url):
+            return '<a href="https://manual.zrythm.org/' + locale + '/' + _manual_url + '">'
+
+        endref = '</a>'
+
         # features
         feature_groups = [
             FeatureGroup(
@@ -424,10 +429,10 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Flexible Select Tool'), 'piano-roll.gif',
-                        _('Select, move, resize, clone, link, loop, delete and cut objects with a single tool.')),
+                        _('Select, move, resize, clone, link, loop, delete and cut objects with a {ref}single tool{endref}.').format (ref = get_manual_ref ('editing/edit-tools.html#select-stretch-tool'), endref = endref)),
                     Feature(
                         _('Extensive Toolbox'), 'https://manual.zrythm.org/en/_images/toolbox.png',
-                        _('Extend select tool functionality by switching to the Edit, Cut, Erase, Ramp or Audition tools.')),
+                        _('Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, Ramp or Audition tools{endref}.').format (ref = get_manual_ref ('editing/edit-tools.html#edit-tool'), endref = endref)),
                     Feature(
                         _('Adaptive Snapping'), 'https://manual.zrythm.org/en/_images/snap-grid-options.png',
                         _('Snapping behavior adjusts to the current zoom level.')),
@@ -445,7 +450,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Bounce in Place'), 'bounce-in-place.gif',
                         _('Quickly bounce selected material to audio.')),
                     Feature(
-                        _('Stretching'), 'piano-roll.gif',
+                        _('Stretching'), 'stretch-regions.gif',
                         _('Stretch any type of region')),
                 ]),
             FeatureGroup(
@@ -467,7 +472,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('List Editors'), 'https://manual.zrythm.org/en/_images/timeline-event-viewer.png',
                         _('Edit object parameters manually in the event viewer.')),
                     Feature(
-                        _('Editor Functions'), 'piano-roll.gif',
+                        _('Editor Functions'), 'audio-fade-out.gif',
                         _('Quickly apply functions like Legato, Invert and Fade Out to the selected objects.')),
                     Feature(
                         _('External App Integration'), 'https://manual.zrythm.org/en/_images/edit-audio-external-app.png',
@@ -541,7 +546,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Plugin Support'), 'plugin-showcase.png',
                         _('Thanks to Carla, Zrythm supports a variety of plugin formats including LV2, VST2, VST3 and AU.')),
                     Feature(
-                        _('SoundFonts as Plugins'), 'piano-roll.gif',
+                        _('SoundFonts as Plugins'), 'Sfz_file_format_logo.png',
                         _('Use SFZ and SF2 soundfonts as instrument plugins.')),
                     Feature(
                         _('Flexible Plugin Browser'), 'https://manual.zrythm.org/en/_images/plugin-browser.png',
@@ -550,7 +555,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Plugin Bridging'), 'https://manual.zrythm.org/en/_images/open-plugin-bridged.png',
                         _('Sandbox plugins by opening them in bridge mode.')),
                     Feature(
-                        _('Automatable Bypass Mode'), 'piano-roll.gif',
+                        _('Automatable Bypass Mode'), 'automatable-plugin-enabled.png',
                         _('Easily bypass plugins in the signal chain with an automatable control.')),
                 ]),
             FeatureGroup(
@@ -563,7 +568,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Audio Files'), 'https://manual.zrythm.org/en/_images/file-filter-buttons.png',
                         _('Import or export any format supported by libsndfile, with additional MP3 import support.')),
                     Feature(
-                        _('MIDI'), 'piano-roll.gif',
+                        _('MIDI'), 'file-browser-midi-files.png',
                         _('Import or export any part of the project in MIDI Type 0 or Type 1 formats.')),
                     Feature(
                         _('Stem Export'), 'https://manual.zrythm.org/en/_images/export-dialog.png',
@@ -589,13 +594,13 @@ for in_file in glob.glob("template/*.j2"):
                 _('Never Lose Work'),
                 [
                     Feature(
-                        _('Project Backups'), 'piano-roll.gif',
+                        _('Project Backups'), 'backup-saved-notification.png',
                         _('Backups taken automatically at user-specified intervals.')),
                     Feature(
                         _('Undoable Actions'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
                         _('Almost every user action is undoable.')),
                     Feature(
-                        _('Serializable Undo History'), 'piano-roll.gif',
+                        _('Serializable Undo History'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
                         _('Keep your undo history when saving projects.')),
                 ]),
             FeatureGroup(
@@ -605,10 +610,10 @@ for in_file in glob.glob("template/*.j2"):
                         _('Extend Zrythm'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
                         _('Extend the capabilities of Zrythm by editing its state using GNU Guile scripts.')),
                     Feature(
-                        _('Custom Editor Functions'), 'piano-roll.gif',
+                        _('Custom Editor Functions'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
                         _('Implement your own MIDI/audio/automation functions (coming soon).')),
                     Feature(
-                        _('Project Generation'), 'piano-roll.gif',
+                        _('Project Generation'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
                         _('Generate projects with GNU Guile scripts.')),
                 ]),
             FeatureGroup(
@@ -618,10 +623,10 @@ for in_file in glob.glob("template/*.j2"):
                         _('Hardware accelerated UI'), 'https://manual.zrythm.org/en/_images/first-run-interface.png',
                         _('Most of the user interface is drawn on the GPU thanks to GTK4.')),
                     Feature(
-                        _('SIMD-optimized DSP'), 'piano-roll.gif',
-                        _('Zrythm uses lsp-dsp-lib which implements SIMD extensions such as SSE, AVX and FMA when available to speed up audio processing and minimize DSP usage.')),
+                        _('SIMD-optimized DSP'), 'LSP_logo_hover.png',
+                        _('Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such as SSE, AVX and FMA when available to speed up audio processing and minimize DSP usage.').format (ref = '<a href="https://github.com/lsp-plugins/lsp-dsp-lib">', endref = endref)),
                     Feature(
-                        _('Extensive Caching'), 'piano-roll.gif',
+                        _('Extensive Caching'), 'xfce4-cpugraph-plugin.svg',
                         _('Expensive computations are pre-calculated to save processing time.')),
                 ]),
             FeatureGroup(
@@ -641,21 +646,21 @@ for in_file in glob.glob("template/*.j2"):
                         _('Localized UI'), 'localized-ui.png',
                         _('Use Zrythm in your preferred language.')),
                     Feature(
-                        _('Easily Add Translations'), 'piano-roll.gif',
-                        _('Add missing translations and locales on Weblate.')),
+                        _('Easily Add Translations'), 'weblate-logo-darktext-borders.png',
+                        _('Add missing translations and locales on {ref}Weblate{endref}.').format (ref = '<a href="https://hosted.weblate.org/engage/zrythm/">', endref = endref)),
                 ]),
             FeatureGroup(
-                _('User Liberty'),
+                _('User Freedom'),
                 [
                     Feature(
                         _('Free Software'), 'programming.png',
-                        _('With all source code released as copyleft free software, Zrythm is committed to ensuring the freedom of computer users.')),
+                        _('All source code is released as copyleft free software.')),
                     Feature(
-                        _('Open Standards'), 'piano-roll.gif',
+                        _('Open Standards'), 'FLAC_logo_vector.svg',
                         _('Zrythm supports open standards such as MIDI, LV2, FLAC and OGG.')),
                     Feature(
-                        _('Cooperation'), 'piano-roll.gif',
-                        _('We work with the free software community to ensure Zrythm works without issues on all libre platforms.')),
+                        _('Cooperation'), 'gnu-and-penguin-color-1024x946-trnsprnt.png',
+                        _('We work with the free software community to ensure Zrythm builds and runs without issues on all platforms.')),
                 ]),
             ]
 
