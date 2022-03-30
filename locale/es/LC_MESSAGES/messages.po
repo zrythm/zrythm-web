@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-27 21:10+0100\n"
+"POT-Creation-Date: 2022-03-30 10:45+0100\n"
 "PO-Revision-Date: 2022-01-18 18:52+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
@@ -577,9 +577,7 @@ msgid "Extensive Caching"
 msgstr ""
 
 #: template.py:624
-msgid ""
-"Expensive computations are pre-calculated and the result is re-used during "
-"processing."
+msgid "Expensive computations are pre-calculated to save processing time."
 msgstr ""
 
 #: template.py:627

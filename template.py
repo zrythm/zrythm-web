@@ -621,7 +621,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Zrythm uses lsp-dsp-lib which implements SIMD extensions such as SSE, AVX and FMA when available to speed up audio processing and minimize DSP usage.')),
                     Feature(
                         _('Extensive Caching'), 'piano-roll.gif',
-                        _('Expensive computations are pre-calculated and the result is re-used during processing.')),
+                        _('Expensive computations are pre-calculated to save processing time.')),
                 ]),
             FeatureGroup(
                 _('Cross-Platform Support'),
