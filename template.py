@@ -445,7 +445,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Track Lanes'), 'https://manual.zrythm.org/en/_images/track-lanes.png',
-                        _('Add multiple layers of audio/MIDI to the same track using track lanes.')),
+                        _('Add multiple layers of audio/MIDI to the same track using {ref}track lanes{endref}.').format (ref = get_manual_ref ('tracks/track-lanes.html'), endref = endref)),
                     Feature(
                         _('Bounce in Place'), 'bounce-in-place.gif',
                         _('Quickly bounce selected material to audio.')),
@@ -544,7 +544,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Plugin Support'), 'plugin-showcase.png',
-                        _('Thanks to Carla, Zrythm supports a variety of plugin formats including LV2, VST2, VST3 and AU.')),
+                        _('Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats including LV2, VST2, VST3 and AU.').format (ref = '<a href="https://github.com/falkTX/Carla/">', endref = endref)),
                     Feature(
                         _('SoundFonts as Plugins'), 'Sfz_file_format_logo.png',
                         _('Use SFZ and SF2 soundfonts as instrument plugins.')),
@@ -566,7 +566,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Browse and audition MIDI and audio files, and organize your favorite paths with favorites.')),
                     Feature(
                         _('Audio Files'), 'https://manual.zrythm.org/en/_images/file-filter-buttons.png',
-                        _('Import or export any format supported by libsndfile, with additional MP3 import support.')),
+                        _('Import or export any format supported by {ref}libsndfile{endref}, with additional MP3 import support.').format (ref = '<a href="https://github.com/libsndfile/libsndfile">', endref = endref)),
                     Feature(
                         _('MIDI'), 'file-browser-midi-files.png',
                         _('Import or export any part of the project in MIDI Type 0 or Type 1 formats.')),
@@ -608,7 +608,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Extend Zrythm'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
-                        _('Extend the capabilities of Zrythm by editing its state using GNU Guile scripts.')),
+                        _('Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile scripts{endref}.').format (ref = get_manual_ref ('scripting/overview.html'), endref = endref)),
                     Feature(
                         _('Custom Editor Functions'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
                         _('Implement your own MIDI/audio/automation functions (coming soon).')),
@@ -621,7 +621,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Hardware accelerated UI'), 'https://manual.zrythm.org/en/_images/first-run-interface.png',
-                        _('Most of the user interface is drawn on the GPU thanks to GTK4.')),
+                        _('Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}.').format (ref = '<a href="https://gtk.org/">', endref = endref)),
                     Feature(
                         _('SIMD-optimized DSP'), 'LSP_logo_hover.png',
                         _('Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such as SSE, AVX and FMA when available to speed up audio processing and minimize DSP usage.').format (ref = '<a href="https://github.com/lsp-plugins/lsp-dsp-lib">', endref = endref)),
@@ -634,7 +634,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Multiple Platforms'), 'piano-roll.gif',
-                        _('Zrythm is designed to run on a wide variety of platforms and architectures including x86 architectures, PowerPC, RISC-V, ARMv7 and ARMv8.')),
+                        _('Zrythm is designed to run on a {ref}wide variety of platforms and architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 and ARMv8.').format (ref = get_manual_ref ('getting-started/system-requirements.html'), endref = endref)),
                     Feature(
                         _('Multiple Backends'), 'audio-backend-selection.png',
                         _('Support for almost all major audio and MIDI backends, including JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI.')),
@@ -654,7 +654,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Free Software'), 'programming.png',
-                        _('All source code is released as copyleft free software.')),
+                        _('All source code is released as {ref}copyleft free software{endref}.').format (ref = '<a href="https://www.gnu.org/licenses/copyleft.en.html">', endref = endref)),
                     Feature(
                         _('Open Standards'), 'FLAC_logo_vector.svg',
                         _('Zrythm supports open standards such as MIDI, LV2, FLAC and OGG.')),

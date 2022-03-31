@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-30 23:45+0100\n"
+"POT-Creation-Date: 2022-03-31 12:28+0100\n"
 "PO-Revision-Date: 2021-11-25 22:50+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
@@ -122,7 +122,9 @@ msgid "Track Lanes"
 msgstr ""
 
 #: template.py:448
-msgid "Add multiple layers of audio/MIDI to the same track using track lanes."
+msgid ""
+"Add multiple layers of audio/MIDI to the same track using {ref}track "
+"lanes{endref}."
 msgstr ""
 
 #: template.py:450
@@ -370,8 +372,8 @@ msgstr ""
 
 #: template.py:547
 msgid ""
-"Thanks to Carla, Zrythm supports a variety of plugin formats including LV2, "
-"VST2, VST3 and AU."
+"Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
+"including LV2, VST2, VST3 and AU."
 msgstr ""
 
 #: template.py:549
@@ -428,8 +430,8 @@ msgstr ""
 
 #: template.py:569
 msgid ""
-"Import or export any format supported by libsndfile, with additional MP3 "
-"import support."
+"Import or export any format supported by {ref}libsndfile{endref}, with "
+"additional MP3 import support."
 msgstr ""
 
 #: template.py:571
@@ -531,8 +533,8 @@ msgstr ""
 
 #: template.py:611
 msgid ""
-"Extend the capabilities of Zrythm by editing its state using GNU Guile "
-"scripts."
+"Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
+"scripts{endref}."
 msgstr ""
 
 #: template.py:613
@@ -560,7 +562,8 @@ msgid "Hardware accelerated UI"
 msgstr ""
 
 #: template.py:624
-msgid "Most of the user interface is drawn on the GPU thanks to GTK4."
+msgid ""
+"Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr ""
 
 #: template.py:626
@@ -592,8 +595,9 @@ msgstr ""
 
 #: template.py:637
 msgid ""
-"Zrythm is designed to run on a wide variety of platforms and architectures "
-"including x86 architectures, PowerPC, RISC-V, ARMv7 and ARMv8."
+"Zrythm is designed to run on a {ref}wide variety of platforms and "
+"architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
+"and ARMv8."
 msgstr ""
 
 #: template.py:639
@@ -635,7 +639,7 @@ msgid "Free Software"
 msgstr ""
 
 #: template.py:657
-msgid "All source code is released as copyleft free software."
+msgid "All source code is released as {ref}copyleft free software{endref}."
 msgstr ""
 
 #: template.py:659
