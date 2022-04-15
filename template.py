@@ -322,7 +322,7 @@ def url(x):
     # TODO: check if file exists
     return "../" + x
 
-screenshot = url('static/images/screenshots/mar-16-2022.png')
+screenshot = url('static/images/screenshots/apr-14-2022.png')
 
 class Plugin:
     def __init__(self,name,is_img_static,img,summary,features):
@@ -394,7 +394,24 @@ for in_file in glob.glob("template/*.j2"):
         env.install_gettext_translations(tr, newstyle=True)
 
         # plugins
-        plugins = [
+        basic_plugins = [
+            Plugin(
+                'Compressor', True, 'compressor.png',
+                _('Stereo dynamic range compressor'), None),
+            Plugin(
+                'Cubic Distortion', True, 'cubic-distortion.png',
+                _('Cubic nonlinearity distortion'), None),
+            Plugin(
+                'Gate Stereo', True, 'gate-stereo.png',
+                _('Stereo signal gate'), None),
+            Plugin(
+                'Smooth Delay', True, 'smooth-delay.png',
+                _("Delay that doesn't click and doesn't transpose when the delay time is changed"), None),
+            Plugin(
+                'Zita Rev1', True, 'zita-rev1.png',
+                _('8x8 late-reverberation FDN reverb'), None),
+            ]
+        z_plugins = [
             Plugin(
                 'ZChordz', True, 'zchordz-mar-21-2020.png',
                 _('ZChordz maps the chords of a minor or major scale to white keys'),
@@ -736,7 +753,8 @@ for in_file in glob.glob("template/*.j2"):
                               feature_tracker=feature_tracker,
                               bug_tracker=bug_tracker,
                               highlights=highlights,
-                              plugins=plugins,
+                              basic_plugins=basic_plugins,
+                              z_plugins=z_plugins,
                               feature_groups=feature_groups,
                               version=version,
                               pronunciation=pronunciation,

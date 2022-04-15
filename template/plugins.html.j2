@@ -38,7 +38,33 @@ GNU Affero General Public License for more details.
     <h3 class="header--underline">{{ _('Basic Plugins') }}</h3>
     <section class="plugins__group container">
 
-        {% for pl in plugins %}
+        {% for pl in basic_plugins %}
+        <div class="plugins__card">
+            <img src="{{ url('static/images/' + pl.img) if pl.is_img_static else pl.img }}" class="plugins__thumbnail" alt="{{ _('{} screenshot').format(pl.name) }}">
+            <div class="plugins__content">
+                <div class="plugins__text">
+                    <h4 class="plugins__title">{{ pl.name }}</h4>
+                    <p class="plugins__description">
+                      {{ pl.summary }}
+                    </p>
+                    <ul class="plugins__specs">
+                      {% if pl.features %}
+                        {% for feature in pl.features %}
+                          <li class="plugins__spec">{{ feature }}</li>
+                        {% endfor %}
+                      {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </section>
+
+    <h3 class="header--underline">{{ _('Z Series') }}</h3>
+    <section class="plugins__group container">
+
+        {% for pl in z_plugins %}
         <div class="plugins__card">
             <img src="{{ url('static/images/' + pl.img) if pl.is_img_static else pl.img }}" class="plugins__thumbnail" alt="{{ _('{} screenshot').format(pl.name) }}">
             <div class="plugins__content">
@@ -58,32 +84,6 @@ GNU Affero General Public License for more details.
             </div>
         </div>
         {% endfor %}
-
-    </section>
-
-    <h3 class="header--underline">{{ _('Premium Plugins') }}</h3>
-    <section class="plugins__group container">
-
-        <div class="plugins__card">
-            <img src="#" class="plugins__thumbnail">
-            <div class="plugins__content">
-                <div class="plugins__text">
-                    <h4 class="plugins__title">Coming Soon</h4>
-                    <p class="plugins__description">
-                      Coming Soon
-                    </p>
-                    <ul class="plugins__specs">
-                        <li class="plugins__spec">Spec #1</li>
-                        <li class="plugins__spec">Spec #2</li>
-
-                    </ul>
-                </div>
-
-                <a href="#">More specs</a>
-            </div>
-
-        </div>
-
 
     </section>
 
