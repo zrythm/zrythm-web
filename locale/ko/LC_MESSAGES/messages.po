@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-31 12:28+0100\n"
-"PO-Revision-Date: 2022-02-28 18:13+0000\n"
+"PO-Revision-Date: 2022-04-08 15:09+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/zrythm/web/ko/>\n"
 "Language: ko\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.11.1-dev\n"
 
 #: template.py:400
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZCordz는 단음계 또는 장음계의 코드를 흰색 키에 매핑합니다"
 
 #: template.py:401
 msgid "Major or minor scale"
