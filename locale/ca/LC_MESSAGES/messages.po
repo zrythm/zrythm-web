@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-15 17:43+0100\n"
-"PO-Revision-Date: 2022-04-11 15:11+0000\n"
+"PO-Revision-Date: 2022-04-17 16:06+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,30 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.12-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "Compressor d'extensió dinàmic estèreo"
 
 #: template.py:403
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "Distorsió de no linealitat cúbica"
 
 #: template.py:406
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Porta de senyal estèreo"
 
 #: template.py:409
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
 msgstr ""
+"Retard que no fa clic i no es transposa quan es canvia el temps de retard"
 
 #: template.py:412
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "Reverberació FDN de reverberació tardana de 8x8"
 
 #: template.py:417
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -77,7 +78,7 @@ msgstr "Mode de pas"
 
 #: template.py:428
 msgid "Editable range"
-msgstr "Interval modificable"
+msgstr "Extensió modificable"
 
 #: template.py:429
 msgid "Sync to host or free-form"
@@ -184,8 +185,8 @@ msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
-"Crear, editar i organitzar esdeveniments MIDI en un rotlle de pianola "
-"dedicat amb integració d'acords."
+"Crear, editar i arranjar esdeveniments MIDI en un rotlle de pianola dedicat "
+"amb integració d'acords."
 
 #: template.py:480
 msgid "Drum View"
@@ -576,7 +577,7 @@ msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr ""
-"Generar acords a partir d'una àmplia gamma d'escales, carregar els acords "
+"Generar acords a partir d'una àmplia extensió d'escales, carregar els acords "
 "predefinits inclosos per a diversos gèneres o desar els vostres."
 
 #: template.py:611 template.py:705
@@ -1147,7 +1148,7 @@ msgstr "Lliure"
 
 #: template/download.html.j2:64
 msgid "Basic plugins"
-msgstr ""
+msgstr "Complements bàsics"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
@@ -1165,7 +1166,7 @@ msgstr "Compilat amb totes les funcionalitats"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Basic & Z Series plugins"
-msgstr ""
+msgstr "Complements bàsics de la sèrie Z"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
@@ -1421,7 +1422,7 @@ msgstr "{} captura de pantalla"
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
-msgstr ""
+msgstr "Z Sèries"
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
