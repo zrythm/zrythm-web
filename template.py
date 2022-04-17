@@ -222,7 +222,7 @@ if fetch_orders:
         if r.status_code == 200:
             for _tx in r.json()['transaction_details']:
                 tx = _tx['transaction_info']
-                if 'transaction_subject' in tx and tx['transaction_subject'] == 'Zrythm subscription':
+                if 'transaction_subject' in tx and tx['transaction_subject'] == 'Subscription':
                     amount = float(tx['transaction_amount']['value'])
                     if 'fee_amound' in tx:
                         amount += float(tx['fee_amount']['value'])
