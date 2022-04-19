@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-15 17:43+0100\n"
-"PO-Revision-Date: 2022-04-17 16:06+0000\n"
+"PO-Revision-Date: 2022-04-19 19:15+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
-msgstr "Compressor d'extensió dinàmic estèreo"
+msgstr "Compressor d'interval dinàmic estèreo"
 
 #: template.py:403
 msgid "Cubic nonlinearity distortion"
@@ -78,7 +78,7 @@ msgstr "Mode de pas"
 
 #: template.py:428
 msgid "Editable range"
-msgstr "Extensió modificable"
+msgstr "Interval modificable"
 
 #: template.py:429
 msgid "Sync to host or free-form"
@@ -109,7 +109,7 @@ msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
-"Selecciona, mou, canvia la mida, clona, vincula, fer bucles, eliminar i "
+"Selecciona, mou, canvia la mida, clona, vincula, fer bucles, suprimir i "
 "tallar objectes amb una {ref}sola eina{endref}."
 
 #: template.py:451
@@ -134,7 +134,7 @@ msgstr "El comportament d'ajust s'ajusta al nivell de zoom actual."
 
 #: template.py:457
 msgid "Looping"
-msgstr "Bucle"
+msgstr "Fent bucle"
 
 #: template.py:458
 msgid "Loop audio, MIDI, automation and chord clips."
@@ -334,7 +334,7 @@ msgstr ""
 
 #: template.py:527
 msgid "Monitor Section"
-msgstr "Secció de monitors"
+msgstr "Secció del monitor"
 
 #: template.py:528
 msgid ""
@@ -377,7 +377,7 @@ msgid ""
 "LFO plugins such as ZLFO."
 msgstr ""
 "Automatitzar els paràmetres amb senyals CV o envolupants, inclosos els "
-"botons macro i els connectors LFO com ZLFO."
+"botons macro i els complements LFO i ZLFO."
 
 #: template.py:543
 msgid "Automate Anything"
@@ -456,16 +456,16 @@ msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr ""
-"Filtrar fàcilment els connectors per autor, format o categoria i organitzar "
+"Filtrar fàcilment els complements per autor, format o categoria i organitzar "
 "els vostres complements preferits amb col·leccions de complements."
 
 #: template.py:572
 msgid "Plugin Bridging"
-msgstr "Pont de complements"
+msgstr "Pontar complements"
 
 #: template.py:573
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr "Complements Sandbox obrint-los en mode pont."
+msgstr "Complements Sandbox per a obrir-los en mode pont."
 
 #: template.py:575
 msgid "Automatable Bypass Mode"
@@ -490,8 +490,8 @@ msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
-"Exploreu i audicioneu fitxers d'àudio i MIDI, i organitzeu els vostres "
-"camins preferits amb els preferits."
+"Navega i escolta fitxers d'àudio i MIDI, i organitza els teus camins "
+"preferits amb els preferits."
 
 #: template.py:585
 msgid "Audio Files"
@@ -577,7 +577,7 @@ msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr ""
-"Generar acords a partir d'una àmplia extensió d'escales, carregar els acords "
+"Generar acords a partir d'un ampli interval d'escales, carregar els acords "
 "predefinits inclosos per a diversos gèneres o desar els vostres."
 
 #: template.py:611 template.py:705
@@ -616,7 +616,7 @@ msgstr "Guió"
 
 #: template.py:627
 msgid "Extend Zrythm"
-msgstr "Amplia Zrythm"
+msgstr "Ampliar Zrythm"
 
 #: template.py:628
 msgid ""
@@ -782,14 +782,14 @@ msgstr ""
 
 #: template.py:690
 msgid "Limitless Automation"
-msgstr "Automatització il·limitada"
+msgstr "Automatització sense límits"
 
 #: template.py:691
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
-"Automatitza gairebé qualsevol cosa amb esdeveniments d'automatització "
+"Automatitzar gairebé qualsevol cosa amb esdeveniments d'automatització "
 "mitjançant rectes, rampes i corbes, o amb LFO i envolupants."
 
 #: template.py:694
@@ -822,7 +822,7 @@ msgid ""
 "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
 "sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
-"Compatibilitat amb tots els formats de connectors principals, inclosos "
+"Compatibilitat amb tots els formats de complements principals, inclosos "
 "{lv2_ref}LV2{endref}, VST2, VST3 i AU, amb suport addicional per a fonts "
 "sonores SFZ i SF2 i de món obert gràcies a {carla_ref}Carla{endref}."
 
