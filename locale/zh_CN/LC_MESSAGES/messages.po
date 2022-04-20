@@ -8,20 +8,21 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-15 17:43+0100\n"
-"PO-Revision-Date: 2022-03-30 09:39+0000\n"
-"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2022-04-19 19:15+0000\n"
+"Last-Translator: InvalidTricycle <trz1118@126.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.12-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "立体声动态范围压缩器"
 
 #: template.py:403
 msgid "Cubic nonlinearity distortion"
@@ -95,47 +96,48 @@ msgstr "单旋钮控制失谐"
 
 #: template.py:445 template.py:687
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "直观编辑"
 
 #: template.py:448
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "灵活的选择工具"
 
 #: template.py:449
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
-msgstr ""
+msgstr "用{ref}同一种工具{endref}来完成选择、移动、调整大小、复制、链接、循环、删除和"
+"切分。"
 
 #: template.py:451
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "丰富的工具箱"
 
 #: template.py:452
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
-msgstr ""
+msgstr "通过切换到{ref}编辑、剪切、擦除、斜线或试听工具{endref}来扩展选择工具的功能。"
 
 #: template.py:454
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "自适应吸附"
 
 #: template.py:455
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "吸附行为会根据当前的缩放级别进行调整。"
 
 #: template.py:457
 msgid "Looping"
-msgstr ""
+msgstr "循环"
 
 #: template.py:458
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "循环音频、MIDI、自动化和和弦片段。"
 
 #: template.py:461 template.py:702
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "富有特色的时间轴"
 
 #: template.py:464
 msgid "Track Lanes"
@@ -145,7 +147,7 @@ msgstr "音轨 Lanes"
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
-msgstr ""
+msgstr "使用{ref}轨道分层{endref}向同一轨道添加多层音频/MIDI。"
 
 #: template.py:467
 msgid "Bounce in Place"
@@ -286,7 +288,7 @@ msgstr ""
 
 #: template.py:521
 msgid "Aux Sends"
-msgstr ""
+msgstr "辅助发送"
 
 #: template.py:522
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
@@ -567,28 +569,28 @@ msgstr ""
 
 #: template.py:633
 msgid "Project Generation"
-msgstr ""
+msgstr "项目生成"
 
 #: template.py:634
 msgid "Generate projects with GNU Guile scripts."
-msgstr ""
+msgstr "用GNU Guile脚本生成项目。"
 
 #: template.py:637
 msgid "Optimized Performance"
-msgstr ""
+msgstr "优化的性能"
 
 #: template.py:640
 msgid "Hardware accelerated UI"
-msgstr ""
+msgstr "硬件加速的 UI"
 
 #: template.py:641
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
-msgstr ""
+msgstr "由于 {ref}GTK4{endref}，大部分用户界面都在 GPU 上绘制。"
 
 #: template.py:643
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMD 优化的 DSP"
 
 #: template.py:644
 msgid ""
@@ -596,6 +598,8 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
+"Zrythm 使用 {ref}lsp-dsp-lib{endref}，在可用时实现 SIMD 扩展，如 SSE、AVX 和 "
+"FMA，以加快音频处理速度并最大限度地减少 DSP 的使用。"
 
 #: template.py:646
 msgid "Extensive Caching"
@@ -607,11 +611,11 @@ msgstr ""
 
 #: template.py:650
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "跨平台支持"
 
 #: template.py:653
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "多平台"
 
 #: template.py:654
 msgid ""
@@ -619,20 +623,24 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythm 旨在在{ref}各种平台和架构{endref} 上运行，包括 x86 "
+"架构、PowerPC、RISC-V、ARMv7 和 ARMv8。"
 
 #: template.py:656
 msgid "Multiple Backends"
-msgstr ""
+msgstr "多个后端"
 
 #: template.py:657
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"支持几乎所有主要的音频和 MIDI 后端，包括 JACK/PipeWire、Windows MME、WASAPI "
+"和 Core Audio/MIDI。"
 
 #: template.py:660
 msgid "Localization"
-msgstr ""
+msgstr "本地化"
 
 #: template.py:663
 msgid "Localized UI"
@@ -640,27 +648,27 @@ msgstr "本地化用户界面"
 
 #: template.py:664
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "以您喜欢的语言使用 Zrythm。"
 
 #: template.py:666
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "轻松添加翻译"
 
 #: template.py:667
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
-msgstr ""
+msgstr "在{ref}Weblate{endref}上添加缺失的翻译和地方语言。"
 
 #: template.py:670
 msgid "User Freedom"
-msgstr ""
+msgstr "用户自由"
 
 #: template.py:673
 msgid "Free Software"
-msgstr ""
+msgstr "自由软件"
 
 #: template.py:674
 msgid "All source code is released as {ref}copyleft free software{endref}."
-msgstr ""
+msgstr "所有源代码均以 {ref}无版权自由软件{endref} 的形式发布。"
 
 #: template.py:676
 msgid "Open Standards"
