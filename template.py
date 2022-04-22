@@ -325,9 +325,8 @@ def url(x):
 screenshot = url('static/images/screenshots/apr-14-2022.png')
 
 class Plugin:
-    def __init__(self,name,is_img_static,img,summary,features):
+    def __init__(self,name,img,summary,features):
         self.name = name
-        self.is_img_static = is_img_static
         self.img = img
         self.summary = summary
         self.features = features
@@ -396,30 +395,56 @@ for in_file in glob.glob("template/*.j2"):
         # plugins
         basic_plugins = [
             Plugin(
-                'Compressor', True, 'compressor.png',
+                'Compressor', 'compressor.png',
                 _('Stereo dynamic range compressor'), None),
             Plugin(
-                'Cubic Distortion', True, 'cubic-distortion.png',
+                'Cubic Distortion', 'cubic-distortion.png',
                 _('Cubic nonlinearity distortion'), None),
             Plugin(
-                'Gate Stereo', True, 'gate-stereo.png',
+                'Flanger', 'flanger.png',
+                _('Stereo flanging effect'), None),
+            Plugin(
+                'Gate Stereo', 'gate-stereo.png',
                 _('Stereo signal gate'), None),
             Plugin(
-                'Smooth Delay', True, 'smooth-delay.png',
+                'Highpass Filter', 'highpass-filter.png',
+                _('2nd-order Butterworth highpass filter'), None),
+            Plugin(
+                'Lowpass Filter', 'lowpass-filter.png',
+                _('2nd-order Butterworth lowpass filter'), None),
+            Plugin(
+                'Parametric EQ', 'parametric-eq.png',
+                _('Parametric equalizer'), None),
+            Plugin(
+                'Peak Limiter', 'peak-limiter.png',
+                _('Dynamic range compressor modelled after the 1176 peak limiter'), None),
+            Plugin(
+                'Phaser', 'phaser.png',
+                _('Phasing effect'), None),
+            Plugin(
+                'Triple Synth', 'triple-synth.png',
+                _('Polyphonic synthesizer with 3 detuned oscillator voices'), None),
+            Plugin(
+                'Smooth Delay', 'smooth-delay.png',
                 _("Delay that doesn't click and doesn't transpose when the delay time is changed"), None),
             Plugin(
-                'Zita Rev1', True, 'zita-rev1.png',
+                'Wah4', 'wah4.png',
+                _('Wah pedal effect to the 4th order'), None),
+            Plugin(
+                'White Noise', 'white-noise.png',
+                _('White noise generator'), None),
+            Plugin(
+                'Zita Rev1', 'zita-rev1.png',
                 _('8x8 late-reverberation FDN reverb'), None),
             ]
         z_plugins = [
             Plugin(
-                'ZChordz', True, 'zchordz-mar-21-2020.png',
+                'ZChordz', 'zchordz.png',
                 _('ZChordz maps the chords of a minor or major scale to white keys'),
                 [ _('Major or minor scale'),
                     _('Velocity multiplier per note') ]),
             Plugin(
-                'ZLFO', False,
-                'https://git.zrythm.org/alex/ZLFO/raw/branch/master/screenshots/2020_feb_12_zlfo.png',
+                'ZLFO', 'zlfo.png',
                 _('ZLFO is a fully featured LFO for CV-based automation'),
                 [ _('Multi-oscillator with custom wave'),
                     _('Phase shift'),
@@ -428,7 +453,7 @@ for in_file in glob.glob("template/*.j2"):
                     _('Editable range'),
                     _('Sync to host or free-form') ]),
             Plugin(
-                'ZSaw', True, 'zsaw-mar-21-2020.png',
+                'ZSaw', 'zsaw.png',
                 _('ZSaw is a supersaw synth with 1 parameter'),
                 [ _('7 sawtooth oscillators'),
                     _('Single knob to control detune') ]),
