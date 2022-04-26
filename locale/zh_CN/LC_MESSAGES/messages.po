@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-04-19 19:15+0000\n"
-"Last-Translator: InvalidTricycle <trz1118@126.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2022-04-28 00:12+0000\n"
+"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -340,7 +341,7 @@ msgstr ""
 
 #: template.py:552
 msgid "Monitor Section"
-msgstr "监视选区"
+msgstr "监视器部分"
 
 #: template.py:553
 msgid ""
