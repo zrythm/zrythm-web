@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-04-28 00:12+0000\n"
-"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
+"PO-Revision-Date: 2022-05-01 04:12+0000\n"
+"Last-Translator: 王晨旭 <wcxu21@126.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
@@ -26,57 +26,57 @@ msgstr "立体声动态范围压缩器"
 
 #: template.py:402
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "三次非线性失真"
 
 #: template.py:405
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "立体翻边效果"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "立体声信号闸门"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "2 阶巴特沃斯高通滤波器"
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "2 阶巴特沃斯低通滤波器"
 
 #: template.py:417
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "参数均衡器"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "以 1176 峰值限制器为模型的动态范围压缩器"
 
 #: template.py:423
 msgid "Phasing effect"
-msgstr ""
+msgstr "相位效果"
 
 #: template.py:426
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "具有 3 个失谐振荡器声音的复音合成器"
 
 #: template.py:429
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr ""
+msgstr "延迟时间改变时不点击也不转置的延迟"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "哇音踏板效果到四阶"
 
 #: template.py:435
 msgid "White noise generator"
-msgstr ""
+msgstr "白噪声发生器"
 
 #: template.py:438
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "8x8 后期混响 FDN 混响"
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -186,7 +186,7 @@ msgstr "使用{ref}轨道分层{endref}向同一轨道添加多层音频/MIDI。
 
 #: template.py:492
 msgid "Bounce in Place"
-msgstr ""
+msgstr "原地弹跳"
 
 #: template.py:493
 msgid "Quickly bounce selected material to audio."
@@ -194,11 +194,11 @@ msgstr "快速将选定的材料弹回到音频。"
 
 #: template.py:495
 msgid "Stretching"
-msgstr ""
+msgstr "拉伸"
 
 #: template.py:496
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "拉伸任何类型的区域"
 
 #: template.py:499
 msgid "Powerful Editors"
