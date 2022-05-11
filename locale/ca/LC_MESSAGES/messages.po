@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-04-23 18:10+0000\n"
+"PO-Revision-Date: 2022-05-12 11:19+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: template.py:399
@@ -80,7 +80,7 @@ msgstr "Reverberació FDN de reverberació tardana de 8x8"
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "Editar ginys i integracions"
+msgstr "ZChordz assigna els acords d'una escala menor o major a tecles blanques"
 
 #: template.py:444
 msgid "Major or minor scale"
@@ -647,7 +647,7 @@ msgstr "Conservar l'historial de desfer en desar projectes."
 
 #: template.py:649
 msgid "Scripting"
-msgstr "Guió"
+msgstr "Crear scripts"
 
 #: template.py:652
 msgid "Extend Zrythm"
