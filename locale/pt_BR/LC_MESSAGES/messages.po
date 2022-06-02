@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-05-06 16:13+0000\n"
-"Last-Translator: Vinicius Monego <monego@posteo.net>\n"
+"PO-Revision-Date: 2022-06-03 21:19+0000\n"
+"Last-Translator: Vitor Sabino Cardoso da SIlva <vitorcsilva180396@gmail.com>"
+"\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: template.py:399
@@ -30,19 +31,19 @@ msgstr "Distorção de não linearidade cúbica"
 
 #: template.py:405
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Efeito de flange estéreo"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr "Portão de sinal estéreo"
+msgstr "Gate de sinal estéreo"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Filtro highpass Butterworth de 2ª ordem"
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Filtro lowpass Butterworth de 2ª ordem"
 
 #: template.py:417
 msgid "Parametric equalizer"
@@ -64,11 +65,11 @@ msgstr "Sintetizador polifônico com 3 vozes de oscilador desafinadas"
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr ""
+msgstr "Delay que não clica e não transpõe quando o tempo de delay é alterado"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Efeito de pedal Wah até a 4ª ordem"
 
 #: template.py:435
 msgid "White noise generator"
@@ -76,7 +77,7 @@ msgstr "Gerador de ruído branco"
 
 #: template.py:438
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "Reverb FDN de reverberação tardia 8x8"
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -121,7 +122,7 @@ msgstr "Sincronizar com host ou de forma livre"
 
 #: template.py:457
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw é um sintetizador supersaw com 1 parâmetro"
 
 #: template.py:458
 msgid "7 sawtooth oscillators"
@@ -175,11 +176,11 @@ msgstr ""
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Linha do tempo cheia de recursos"
 
 #: template.py:489
 msgid "Track Lanes"
-msgstr ""
+msgstr "Faixas de Pista"
 
 #: template.py:490
 msgid ""
@@ -216,6 +217,8 @@ msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Crie, edite e organize eventos MIDI em um piano roll dedicado com integração "
+"de acordes."
 
 #: template.py:505
 msgid "Drum View"
@@ -224,16 +227,20 @@ msgstr "Visualização da bateria"
 #: template.py:506
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
+"Alternância de um clique para visualização de bateria para edição de "
+"instrumentos de um único acerto."
 
 #: template.py:508
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Editor de Velocidade"
 
 #: template.py:509
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Edite várias velocidades simultaneamente com a ferramenta de seleção ou "
+"desenhe com a ferramenta de lápis ou rampa."
 
 #: template.py:511
 msgid "Audio Editor"
@@ -244,6 +251,8 @@ msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Ajuste fades/ganhos e edite partes de clipes de áudio usando funções de "
+"áudio dentro do editor de áudio."
 
 #: template.py:514
 msgid "List Editors"
@@ -275,11 +284,11 @@ msgstr ""
 
 #: template.py:524
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Capacidades de Gravação"
 
 #: template.py:527
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "Gravação de Áudio/MIDI"
 
 #: template.py:528
 msgid ""
@@ -289,7 +298,7 @@ msgstr ""
 
 #: template.py:530
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Configurações Abrangentes de Gravação"
 
 #: template.py:531
 msgid ""
@@ -313,6 +322,8 @@ msgstr "Controles do Dispositivo"
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
+"Ligue os botões do seu dispositivo aos controles dentro do Zrythm e registre "
+"suas ações."
 
 #: template.py:540 template.py:718
 msgid "Mixing Capabilities"
@@ -320,19 +331,21 @@ msgstr "Capacidades de Mixagem"
 
 #: template.py:543
 msgid "Group Tracks"
-msgstr ""
+msgstr "Faixas de grupo"
 
 #: template.py:544
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "Organize grupos de sinal de áudio/MIDI com faixas de grupo."
 
 #: template.py:546
 msgid "Aux Sends"
-msgstr ""
+msgstr "Envios Aux"
 
 #: template.py:547
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr ""
+"Encaminhe facilmente os sinais para faixas FX e entradas de sidechain do "
+"plug-in."
 
 #: template.py:549
 msgid "In-Context Listening"
@@ -346,16 +359,18 @@ msgstr ""
 
 #: template.py:552
 msgid "Monitor Section"
-msgstr ""
+msgstr "Seção de Monitoramento"
 
 #: template.py:553
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
+"Altere o comportamento de ouvir/mudo/solo e ajuste o que vai para seus alto-"
+"falantes."
 
 #: template.py:556
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "Automação ilimitada"
 
 #: template.py:559
 msgid "Anywhere-to-Anywhere Connections"
@@ -367,7 +382,7 @@ msgstr "Conecte qualquer coisa a qualquer coisa."
 
 #: template.py:562
 msgid "Automation Curves"
-msgstr ""
+msgstr "Curvas de Automação"
 
 #: template.py:563
 msgid ""
@@ -377,7 +392,7 @@ msgstr ""
 
 #: template.py:565
 msgid "Envelopes"
-msgstr ""
+msgstr "Envelopes"
 
 #: template.py:566
 msgid ""
@@ -394,10 +409,12 @@ msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
 msgstr ""
+"Automatize qualquer parâmetro possível, incluindo BPM do projeto e "
+"assinatura de tempo."
 
 #: template.py:572
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "Interface de Usuário Intuitiva"
 
 #: template.py:575
 msgid "Detachable Views"
@@ -410,27 +427,27 @@ msgstr ""
 
 #: template.py:578
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "Preferências Pesquisáveis"
 
 #: template.py:579
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "Comece a digitar para localizar a preferência que está procurando."
 
 #: template.py:581
 msgid "Inspector Pages"
-msgstr ""
+msgstr "Páginas do Inspetor"
 
 #: template.py:582
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "Edite todos os parâmetros de faixa e plugin no inspetor."
 
 #: template.py:585
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "Recursos de Plugin"
 
 #: template.py:588
 msgid "Plugin Support"
-msgstr ""
+msgstr "Suporte a Plugins"
 
 #: template.py:589
 msgid ""
@@ -442,7 +459,7 @@ msgstr ""
 
 #: template.py:591
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "SoundFonts como plugins"
 
 #: template.py:592
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
@@ -450,13 +467,15 @@ msgstr ""
 
 #: template.py:594
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "Navegador de Plugins Flexível"
 
 #: template.py:595
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr ""
+"Filtre plugins facilmente por autor, formato ou categoria e organize seus "
+"plugins favoritos com coleções de plugins."
 
 #: template.py:597
 msgid "Plugin Bridging"
@@ -468,39 +487,45 @@ msgstr ""
 
 #: template.py:600
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "Modo de Bypass Automatizado"
 
 #: template.py:601
 msgid "Easily bypass plugins in the signal chain with an automatable control."
 msgstr ""
+"Coloque em modo bypass facilmente os plugins na cadeia de sinal com um "
+"controle automatizado."
 
 #: template.py:604
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "Abrangente Importação/Exportação"
 
 #: template.py:607
 msgid "File Browser"
-msgstr ""
+msgstr "Navegador de arquivos"
 
 #: template.py:608
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
+"Navegue e ouça arquivos MIDI e de áudio e organize seus caminhos preferidos "
+"com favoritos."
 
 #: template.py:610
 msgid "Audio Files"
-msgstr ""
+msgstr "Arquivos de Áudio"
 
 #: template.py:611
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
+"Importe ou exporte qualquer formato suportado por {ref}libsndfile{endref}, "
+"com suporte adicional de importação de MP3."
 
 #: template.py:613
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:614
 msgid ""
@@ -511,11 +536,13 @@ msgstr ""
 
 #: template.py:616
 msgid "Stem Export"
-msgstr ""
+msgstr "Exportação de haste"
 
 #: template.py:617
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
+"Exporte hastes para faixas específicas e compartilhe-as com outros "
+"produtores."
 
 #: template.py:620 template.py:721
 msgid "Chord Assistance"
