@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-06-02 21:06+0000\n"
-"Last-Translator: Azelven <azelven@pm.me>\n"
+"PO-Revision-Date: 2022-06-03 21:19+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,6 @@ msgid "Cubic nonlinearity distortion"
 msgstr "Distorsion de non-linéarité cubique"
 
 #: template.py:405
-#, fuzzy
 msgid "Stereo flanging effect"
 msgstr "Effet de flanger stéréo"
 
@@ -38,12 +37,10 @@ msgid "Stereo signal gate"
 msgstr "Porte de signal stéréo"
 
 #: template.py:411
-#, fuzzy
 msgid "2nd-order Butterworth highpass filter"
 msgstr "Filtre passe-haut Butterworth de 2ème ordre"
 
 #: template.py:414
-#, fuzzy
 msgid "2nd-order Butterworth lowpass filter"
 msgstr "Filtre passe-bas Butterworth de 2ème ordre"
 
@@ -52,7 +49,6 @@ msgid "Parametric equalizer"
 msgstr "Égaliseur paramétrique"
 
 #: template.py:420
-#, fuzzy
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
 msgstr "Compresseur de gamme dynamique modelé après le limiteur de crêtes 1176"
 
@@ -61,7 +57,6 @@ msgid "Phasing effect"
 msgstr "Effet de phase"
 
 #: template.py:426
-#, fuzzy
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
 msgstr "Synthétiseur polyphonique avec 3 voix désaccordées d'oscillateur"
 
@@ -106,7 +101,6 @@ msgid "Multi-oscillator with custom wave"
 msgstr "Multi-oscillateur avec onde personnalisée"
 
 #: template.py:450
-#, fuzzy
 msgid "Phase shift"
 msgstr "Décalage de phase"
 
@@ -143,12 +137,10 @@ msgid "Intuitive Editing"
 msgstr "Édition intuitive"
 
 #: template.py:473
-#, fuzzy
 msgid "Flexible Select Tool"
 msgstr "Outil de sélection flexible"
 
 #: template.py:474
-#, fuzzy
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
@@ -157,7 +149,6 @@ msgstr ""
 "et découpez des objets avec un {ref}outil unique{endref}."
 
 #: template.py:476
-#, fuzzy
 msgid "Extensive Toolbox"
 msgstr "Boîte à outils étendue"
 
@@ -210,13 +201,12 @@ msgid "Stretching"
 msgstr "Étirement"
 
 #: template.py:496
-#, fuzzy
 msgid "Stretch any type of region"
 msgstr "Étirer tout type de région"
 
 #: template.py:499
 msgid "Powerful Editors"
-msgstr "Éditeurs Puissants"
+msgstr "Éditeurs puissants"
 
 #: template.py:502
 msgid "Piano Roll"
@@ -288,7 +278,7 @@ msgstr ""
 
 #: template.py:527
 msgid "Audio/MIDI Recording"
-msgstr "Enregistrement Audio/MIDI"
+msgstr "Enregistrement audio/MIDI"
 
 #: template.py:528
 msgid ""
