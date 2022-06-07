@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -32,9 +32,8 @@ msgid "Stereo flanging effect"
 msgstr "Effet de flanger stéréo"
 
 #: template.py:408
-#, fuzzy
 msgid "Stereo signal gate"
-msgstr "Porte de signal stéréo"
+msgstr ""
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
@@ -50,7 +49,8 @@ msgstr "Égaliseur paramétrique"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr "Compresseur de gamme dynamique modelé après le limiteur de crêtes 1176"
+msgstr ""
+"Compresseur de gamme dynamique modelé après le limiteur de crêtes 1176"
 
 #: template.py:423
 msgid "Phasing effect"

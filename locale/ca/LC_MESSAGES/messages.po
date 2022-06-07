@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -49,7 +49,8 @@ msgstr "Equalitzador paramètric"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr "Compressor d'interval dinàmic modelat després del limitador de pic 1176"
+msgstr ""
+"Compressor d'interval dinàmic modelat després del limitador de pic 1176"
 
 #: template.py:423
 msgid "Phasing effect"
@@ -80,7 +81,8 @@ msgstr "Reverberació FDN de reverberació tardana de 8x8"
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz assigna els acords d'una escala menor o major a tecles blanques"
+msgstr ""
+"ZChordz assigna els acords d'una escala menor o major a tecles blanques"
 
 #: template.py:444
 msgid "Major or minor scale"
@@ -331,8 +333,8 @@ msgstr "Controls del dispositiu"
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
-"Vincular els botons del dispositiu als controls de Zrythm i gravar les teves "
-"accions."
+"Vincular els botons del dispositiu als controls de Zrythm i gravar les teves"
+" accions."
 
 #: template.py:540 template.py:718
 msgid "Mixing Capabilities"
@@ -492,8 +494,8 @@ msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr ""
-"Filtrar fàcilment els complements per autor, format o categoria i organitzar "
-"els teus complements preferits amb col·leccions de complements."
+"Filtrar fàcilment els complements per autor, format o categoria i organitzar"
+" els teus complements preferits amb col·leccions de complements."
 
 #: template.py:597
 msgid "Plugin Bridging"
@@ -871,8 +873,8 @@ msgstr ""
 "Organitzar el teu treball en diverses capes a la mateixa pista utilitzant "
 "els carrils de les pistes, rebotar ràpidament qualsevol cosa a l'àudio, "
 "importar/exportar una gran varietat de formats d'àudio i MIDI, estirar o "
-"recórrer qualsevol regió i seleccionar entre una varietat de tipus de pistes "
-"per a cada propòsit."
+"recórrer qualsevol regió i seleccionar entre una varietat de tipus de pistes"
+" per a cada propòsit."
 
 #: template.py:731
 msgid ""

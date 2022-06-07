@@ -11,20 +11,18 @@ msgstr ""
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
 "PO-Revision-Date: 2022-06-03 21:19+0000\n"
 "Last-Translator: KokiOgawa <mupimupicandy@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: template.py:399
-#, fuzzy
 msgid "Stereo dynamic range compressor"
-msgstr "ステレオダイナミックレンジコンプレッサー"
+msgstr ""
 
 #: template.py:402
 msgid "Cubic nonlinearity distortion"
@@ -144,8 +142,7 @@ msgstr "柔軟な選択ツール"
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
-msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を{"
-"ref}1つのツール{endref}で行うことができます。"
+msgstr "オブジェクトの選択、移動、サイズ変更、クローン、リンク、ループ、削除、切断を{ref}1つのツール{endref}で行うことができます。"
 
 #: template.py:476
 msgid "Extensive Toolbox"
@@ -1292,12 +1289,10 @@ msgstr ""
 "(http://utopiqdream.deviantart.com) によって作成された CC-BY-ND 3.0 の下の図面。"
 
 #: template/legal.html.j2:66
-#, fuzzy
 msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
-msgstr "本サイトに掲載されている画像のライセンスは、{ref}このREADMEファイル{endref}に"
-"記載されています。"
+msgstr ""
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
@@ -1320,9 +1315,8 @@ msgid "{} screenshot"
 msgstr "{} スクリーンショット"
 
 #: template/plugins.html.j2:64
-#, fuzzy
 msgid "Z Series"
-msgstr "Zシリーズ"
+msgstr ""
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
