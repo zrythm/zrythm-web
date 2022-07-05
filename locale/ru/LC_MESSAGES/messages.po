@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-03-29 22:10+0000\n"
-"Last-Translator: ANIGO R. (AR) <franigoyt@gmail.com>\n"
+"PO-Revision-Date: 2022-07-06 16:15+0000\n"
+"Last-Translator: Viktor <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -45,7 +46,7 @@ msgstr ""
 
 #: template.py:417
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Параметрический эквалайзер"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
@@ -53,7 +54,7 @@ msgstr ""
 
 #: template.py:423
 msgid "Phasing effect"
-msgstr ""
+msgstr "Фазовый эффект"
 
 #: template.py:426
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
@@ -161,7 +162,7 @@ msgstr "Адаптивная привязка"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr "Привязки поведение подстраивается под текущий уровень масштабирования"
+msgstr "Поведение привязки подстраивается под текущий уровень масштабирования."
 
 #: template.py:482
 msgid "Looping"
@@ -312,7 +313,7 @@ msgstr ""
 
 #: template.py:540 template.py:718
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "Возможности микширования"
 
 #: template.py:543
 msgid "Group Tracks"
@@ -678,15 +679,15 @@ msgstr "Локализованный пользовательский интер
 
 #: template.py:689
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "Используйте Zrythm на предпочитаемом языке."
 
 #: template.py:691
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "Легкое добавление переводов"
 
 #: template.py:692
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
-msgstr ""
+msgstr "Добавьте отсутствующие переводы и локали на {ref}Weblate{endref}."
 
 #: template.py:695
 msgid "User Freedom"
@@ -702,21 +703,24 @@ msgstr ""
 
 #: template.py:701
 msgid "Open Standards"
-msgstr ""
+msgstr "Открытые стандарты"
 
 #: template.py:702
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
 msgstr ""
+"Zrythm поддерживает открытые стандарты, такие как MIDI, LV2, FLAC и OGG."
 
 #: template.py:704
 msgid "Cooperation"
-msgstr ""
+msgstr "Сотрудничество"
 
 #: template.py:705
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr ""
+"Мы работаем с сообществом бесплатного программного обеспечения, чтобы Zrythm "
+"работал без проблем на всех платформах."
 
 #: template.py:713
 msgid ""
@@ -727,7 +731,7 @@ msgstr ""
 
 #: template.py:715
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Безграничная автоматизация"
 
 #: template.py:716
 msgid ""
@@ -812,7 +816,7 @@ msgstr "Выпуски"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
@@ -824,7 +828,7 @@ msgstr "Чат (Chat)"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
-msgstr ""
+msgstr "Пользовательская рассылка"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
@@ -836,7 +840,7 @@ msgstr ""
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "Об этом сайте"
 
 #: common/footer.j2.inc:67 template/download.html.j2:124
 msgid "Source Code"
@@ -844,7 +848,7 @@ msgstr "Исходный код"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "Юридическая информация"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
@@ -853,7 +857,7 @@ msgstr "Политика конфиденциальности"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
-msgstr ""
+msgstr "Сообщить о проблеме"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
@@ -866,12 +870,18 @@ msgstr ""
 " станция."
 
 #: common/header.j2.inc:32
+#, fuzzy
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, цифровая звуковая рабочая станция, производство музыки, аудио, "
+"профессиональное аудио, Linux, GNU/Linux, бесплатное программное "
+"обеспечение, свободное программное обеспечение, редактор звука, composition, "
+"MIDI, LV2, JACK, VST, аудио плагин, запись, редактирование, аранжировка, "
+"аранжировщик, смешивание, обработка"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -881,12 +891,12 @@ msgstr "Плагины (Plugins)"
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Guide"
-msgstr ""
+msgstr "Руководство"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr "Примите участие"
+msgstr "Принять участие"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:68 template/index.html.j2:38
@@ -912,11 +922,11 @@ msgstr ""
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "Отправить запросы функций"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
-msgstr ""
+msgstr "Просмотрите наш трекер функций и отправьте запросы на функции."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
@@ -924,7 +934,7 @@ msgstr "Отправить сообщение об ошибке"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
+msgstr "Просмотрите наш трекер ошибок и отправьте отчеты об ошибках."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
@@ -935,6 +945,8 @@ msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
+"Переведите Zrythm DAW, руководство пользователя и наши веб-сайты на свой "
+"язык."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
@@ -983,7 +995,7 @@ msgstr ""
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Подписаться на нас в Mastodon"
 
 #: template/community.html.j2:126
 msgid ""
@@ -993,15 +1005,15 @@ msgstr ""
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "Донат в криптовалюте"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Отправьте нам Bitcoin (BTC), Litecoin (LTC) или Monero (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "Донат на LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
@@ -1035,7 +1047,7 @@ msgstr "Установщики"
 
 #: template/download.html.j2:61
 msgid "Basic"
-msgstr ""
+msgstr "Базовый"
 
 #: template/download.html.j2:62
 msgid "Free"
@@ -1070,7 +1082,7 @@ msgstr "Руководство в PDF"
 
 #: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
-msgstr ""
+msgstr "Покупка"
 
 #: template/download.html.j2:84
 msgid "Bundle"
@@ -1078,7 +1090,7 @@ msgstr "Пакет"
 
 #: template/download.html.j2:90
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Доступ ко всем релизам v1"
 
 #: template/download.html.j2:96
 msgid "Nightly"
@@ -1086,7 +1098,7 @@ msgstr ""
 
 #: template/download.html.j2:97
 msgid "year"
-msgstr ""
+msgstr "год"
 
 #: template/download.html.j2:102
 msgid "Access to all releases"
@@ -1102,11 +1114,11 @@ msgstr "Подписаться"
 
 #: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
-msgstr ""
+msgstr "* Цены в этой валюте ориентировочные"
 
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
+msgstr "Поддержите Zrythm, купив установщик. В этом месяце мы получили:"
 
 #: template/download.html.j2:128
 msgid "GPG Key"
@@ -1114,7 +1126,7 @@ msgstr "Ключи GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Список функций."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
@@ -1147,7 +1159,7 @@ msgstr ""
 #: template/index.html.j2:100 template/index.html.j2:114
 #: template/index.html.j2:128 template/index.html.j2:142
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Ваш браузер не поддерживает видео HTML5."
 
 #: template/index.html.j2:133
 msgid "Remake"
@@ -1167,7 +1179,7 @@ msgstr "Справка - Пользовательское руководство
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "Обучение"
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -1210,7 +1222,7 @@ msgstr "FX Отправки"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
-msgstr "Маршрутизация порта (Port Routing)"
+msgstr "Маршрутизация порта"
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
@@ -1218,7 +1230,7 @@ msgstr "Руководства"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "Ваше видео здесь"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
@@ -1247,6 +1259,10 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"Авторские права на Zrythm принадлежат Александросу Теодоту и другим "
+"участникам. Zrythm выпущен под <a href=\"https://git.sr.ht/~alextee/zrythm/"
+"tree/master/item/COPYING\">Стандартной общественной лицензией GNU Affero, "
+"версия 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1283,6 +1299,8 @@ msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
+"Лицензии на изображения, размещенные на этом веб-сайте, можно найти в {ref}"
+"этом файле README{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
