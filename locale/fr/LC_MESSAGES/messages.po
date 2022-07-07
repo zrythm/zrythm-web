@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-06-03 21:19+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2022-07-09 05:51+0000\n"
+"Last-Translator: Alexandre Dhooge <alexandre.dhooge@zaclys.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.13-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -64,11 +64,11 @@ msgstr "Synthétiseur polyphonique avec 3 voix désaccordées d'oscillateur"
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr ""
+msgstr "Délai sans clic ni transposition lorsque la durée du délai est modifiée"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Pédale d'effet Wah-wah au 4ème ordre"
 
 #: template.py:435
 msgid "White noise generator"
@@ -168,11 +168,11 @@ msgstr ""
 
 #: template.py:482
 msgid "Looping"
-msgstr ""
+msgstr "Bouclage"
 
 #: template.py:483
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Boucler des segments audio, MIDI, d'automatisation ou d'accords."
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
