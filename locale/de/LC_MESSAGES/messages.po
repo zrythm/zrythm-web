@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-03-29 22:10+0000\n"
+"PO-Revision-Date: 2022-07-11 12:19+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -36,16 +36,18 @@ msgid "Stereo signal gate"
 msgstr ""
 
 #: template.py:411
+#, fuzzy
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Butterworth-Hochpassfilter 2. Ordnung"
 
 #: template.py:414
+#, fuzzy
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Butterworth-Tiefpassfilter 2. Ordnung"
 
 #: template.py:417
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Parametrischer Equalizer"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
@@ -71,7 +73,7 @@ msgstr ""
 
 #: template.py:435
 msgid "White noise generator"
-msgstr ""
+msgstr "Generator für weißes Rauschen"
 
 #: template.py:438
 msgid "8x8 late-reverberation FDN reverb"
@@ -80,11 +82,12 @@ msgstr ""
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mappt die Akkorde einer Dur- oder Mollskala auf die weißen Tasten"
+"ZChordz ordnet die Akkorde einer Dur- oder Molltonleiter weißen Tasten zu"
 
 #: template.py:444
+#, fuzzy
 msgid "Major or minor scale"
-msgstr "Dur- oder Mollskala"
+msgstr "Dur- oder Molltonleiter"
 
 #: template.py:445
 msgid "Velocity multiplier per note"
@@ -137,7 +140,7 @@ msgstr ""
 
 #: template.py:473
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "Flexibles Auswahlwerkzeug"
 
 #: template.py:474
 msgid ""
@@ -147,7 +150,7 @@ msgstr ""
 
 #: template.py:476
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "Umfangreicher Werkzeugkasten"
 
 #: template.py:477
 msgid ""
@@ -157,11 +160,11 @@ msgstr ""
 
 #: template.py:479
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Adaptives Einrasten"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Das Einrastverhalten passt sich an die aktuelle Zoomstufe an."
 
 #: template.py:482
 msgid "Looping"
@@ -1332,7 +1335,7 @@ msgstr "Technische Spezifikationen"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Zuletzt aktualisiert am 4. Aug 2021"
 
 #~ msgid "Bundled plugins (basic)"
 #~ msgstr "Mitgelieferte Plugins (Basis)"
