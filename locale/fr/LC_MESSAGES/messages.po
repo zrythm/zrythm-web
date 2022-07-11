@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-10 06:19+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2022-07-12 05:23+0000\n"
+"Last-Translator: cwulveryck <cwulveryck@online.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
@@ -1102,7 +1102,7 @@ msgstr "Manuel utilisateur PDF"
 
 #: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
-msgstr "Acheter"
+msgstr "Achat"
 
 #: template/download.html.j2:84
 msgid "Bundle"
