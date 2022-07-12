@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-11 12:19+0000\n"
-"Last-Translator: Cris Q <qygw@outlook.com>\n"
+"PO-Revision-Date: 2022-07-12 06:29+0000\n"
+"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -874,7 +874,6 @@ msgid "A highly automated and intuitive digital audio workstation."
 msgstr "一个高度自动化且直观的数字音频工作站。"
 
 #: common/header.j2.inc:32
-#, fuzzy
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
