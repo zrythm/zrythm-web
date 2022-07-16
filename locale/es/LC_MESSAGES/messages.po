@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-05-21 21:17+0000\n"
+"PO-Revision-Date: 2022-07-17 15:19+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.13-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -33,19 +33,19 @@ msgstr "Efecto de flanging estéreo"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Puerta de señal estéreo"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Filtro paso alto Butterworth de 2º orden"
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Filtro paso bajo Butterworth de 2º orden"
 
 #: template.py:417
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Ecualizador paramétrico"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
