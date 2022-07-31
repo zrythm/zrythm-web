@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -64,7 +64,8 @@ msgstr "Synthétiseur polyphonique avec 3 voix désaccordées d'oscillateur"
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr "Délai sans clic ni transposition lorsque la durée du délai est modifiée"
+msgstr ""
+"Délai sans clic ni transposition lorsque la durée du délai est modifiée"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"

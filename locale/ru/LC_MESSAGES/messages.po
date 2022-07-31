@@ -15,10 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -162,7 +161,8 @@ msgstr "Адаптивная привязка"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr "Поведение привязки подстраивается под текущий уровень масштабирования."
+msgstr ""
+"Поведение привязки подстраивается под текущий уровень масштабирования."
 
 #: template.py:482
 msgid "Looping"
@@ -719,8 +719,8 @@ msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr ""
-"Мы работаем с сообществом бесплатного программного обеспечения, чтобы Zrythm "
-"работал без проблем на всех платформах."
+"Мы работаем с сообществом бесплатного программного обеспечения, чтобы Zrythm"
+" работал без проблем на всех платформах."
 
 #: template.py:713
 msgid ""
@@ -876,10 +876,10 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-"DAW, цифровая аудио-станция, создание музыки, аудио, профессиональное аудио, "
-"Linux, GNU/Linux, бесплатное программное обеспечение, свободное программное "
-"обеспечение, редактор звука, сочинение, MIDI, LV2, JACK, VST, аудио плагин, "
-"запись, редактирование, аранжировка, аранжировщик, смешивание, обработка"
+"DAW, цифровая аудио-станция, создание музыки, аудио, профессиональное аудио,"
+" Linux, GNU/Linux, бесплатное программное обеспечение, свободное программное"
+" обеспечение, редактор звука, сочинение, MIDI, LV2, JACK, VST, аудио плагин,"
+" запись, редактирование, аранжировка, аранжировщик, смешивание, обработка"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -1257,9 +1257,9 @@ msgid ""
 "Affero General Public License, version 3</a>."
 msgstr ""
 "Авторские права на Zrythm принадлежат Александросу Теодоту и другим "
-"участникам. Zrythm выпущен под <a href=\"https://git.sr.ht/~alextee/zrythm/"
-"tree/master/item/COPYING\">Стандартной общественной лицензией GNU Affero, "
-"версия 3</a>."
+"участникам. Zrythm выпущен под <a "
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">Стандартной"
+" общественной лицензией GNU Affero, версия 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1286,9 +1286,9 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
-"Благодарности: Рисунки под CC-BY-ND 3.0 созданы Кристианом Ногаредой ("
-"Christian Nogareda) (Kwis, https://kwis.tumblr.com), Валентином Паскье ("
-"Valentin Pasquier) (https://utopiqdream.deviantart.com) на основе идей "
+"Благодарности: Рисунки под CC-BY-ND 3.0 созданы Кристианом Ногаредой "
+"(Christian Nogareda) (Kwis, https://kwis.tumblr.com), Валентином Паскье "
+"(Valentin Pasquier) (https://utopiqdream.deviantart.com) на основе идей "
 "Ричарда Столлмана (Richard Stallman), им самим и фондом Ynternet.org."
 
 #: template/legal.html.j2:66
@@ -1296,8 +1296,8 @@ msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
-"Лицензии на изображения, размещенные на этом веб-сайте, можно найти в {ref}"
-"этом файле README{endref}."
+"Лицензии на изображения, размещенные на этом веб-сайте, можно найти в "
+"{ref}этом файле README{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"

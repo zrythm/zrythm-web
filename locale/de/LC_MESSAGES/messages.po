@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -36,14 +36,12 @@ msgid "Stereo signal gate"
 msgstr ""
 
 #: template.py:411
-#, fuzzy
 msgid "2nd-order Butterworth highpass filter"
-msgstr "Butterworth-Hochpassfilter 2. Ordnung"
+msgstr ""
 
 #: template.py:414
-#, fuzzy
 msgid "2nd-order Butterworth lowpass filter"
-msgstr "Butterworth-Tiefpassfilter 2. Ordnung"
+msgstr ""
 
 #: template.py:417
 msgid "Parametric equalizer"
@@ -85,9 +83,8 @@ msgstr ""
 "ZChordz ordnet die Akkorde einer Dur- oder Molltonleiter weißen Tasten zu"
 
 #: template.py:444
-#, fuzzy
 msgid "Major or minor scale"
-msgstr "Dur- oder Molltonleiter"
+msgstr ""
 
 #: template.py:445
 msgid "Velocity multiplier per note"
