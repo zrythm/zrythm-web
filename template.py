@@ -79,7 +79,7 @@ get_version = os.getenv ('GET_VERSION') == 'YES'
 langs_full = {
     'af_ZA': ['🇿🇦', 'Afrikaans', 'USD'],
     'ar': ['🇦🇪', 'العربية', 'USD'],
-    'ca': ['🇦🇩', 'Català', 'EUR'],
+    'ca': ['🇪🇸', 'Català', 'EUR'],
     'cs': ['🇨🇿', 'Czech', 'EUR'],
     'da': ['🇩🇰', 'Dansk', 'EUR'],
     'de': ['🇩🇪', 'Deutsch', 'EUR'],
