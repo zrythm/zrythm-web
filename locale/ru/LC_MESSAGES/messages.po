@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-31 04:51+0000\n"
+"PO-Revision-Date: 2022-08-01 12:14+0000\n"
 "Last-Translator: Vik <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"Generated-By: Babel 2.4.0\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.14-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -556,7 +557,7 @@ msgstr ""
 
 #: template.py:636 template.py:730
 msgid "Never Lose Work"
-msgstr ""
+msgstr "Никогда не теряйте проделанное"
 
 #: template.py:639
 msgid "Project Backups"
@@ -646,7 +647,7 @@ msgstr ""
 
 #: template.py:675
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "Кроссплатформенная поддержка"
 
 #: template.py:678
 msgid "Multiple Platforms"
@@ -671,7 +672,7 @@ msgstr ""
 
 #: template.py:685
 msgid "Localization"
-msgstr ""
+msgstr "Локализация"
 
 #: template.py:688
 msgid "Localized UI"
@@ -691,15 +692,17 @@ msgstr "Добавьте отсутствующие переводы и лока
 
 #: template.py:695
 msgid "User Freedom"
-msgstr ""
+msgstr "Свобода для пользователя"
 
 #: template.py:698
 msgid "Free Software"
-msgstr ""
+msgstr "Свободное программное обеспечение"
 
 #: template.py:699
 msgid "All source code is released as {ref}copyleft free software{endref}."
 msgstr ""
+"Весь исходный код выпускается как {ref}свободное программное обеспечение с "
+"авторским левом{endref}."
 
 #: template.py:701
 msgid "Open Standards"
@@ -719,8 +722,8 @@ msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr ""
-"Мы работаем с сообществом бесплатного программного обеспечения, чтобы Zrythm"
-" работал без проблем на всех платформах."
+"Мы работаем с сообществом открытого программного обеспечения, чтобы Zrythm "
+"работал без проблем на всех платформах."
 
 #: template.py:713
 msgid ""
@@ -728,6 +731,10 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"Легко выбирайте, перемещайте, изменяйте размер, клонируйте, соединяйте, "
+"зацикливайте, удаляйте и вырезайте объекты с помощью одного инструмента или "
+"расширьте его функциональность с помощью дополнительных специализированных "
+"инструментов и наслаждайтесь адаптивной привязкой в каждом аранжировщике."
 
 #: template.py:715
 msgid "Limitless Automation"
@@ -808,7 +815,7 @@ msgstr "Функции"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "Пользовательское руководство"
+msgstr "Руководство пользователя"
 
 #: common/footer.j2.inc:39 template/download.html.j2:127
 msgid "Releases"
@@ -824,11 +831,11 @@ msgstr "Сообщество"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr "Чат (Chat)"
+msgstr "Чат"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
-msgstr "Пользовательская рассылка"
+msgstr "Список рассылки"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
@@ -836,7 +843,7 @@ msgstr "Внести вклад"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "Пожертвовать"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
@@ -952,7 +959,7 @@ msgstr "Связаться с нами"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "Общайтесь с нами в IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -963,7 +970,7 @@ msgstr ""
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Общайтесь с нами в Matrix"
 
 #: template/community.html.j2:99
 msgid ""
@@ -973,13 +980,15 @@ msgstr ""
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "Присоединяйтесь к нашему списку рассылки общения пользователей"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
 msgstr ""
+"Присоединяйтесь к нашему списку рассылки общения пользователей и поделитесь "
+"своим опытом с остальным сообществом."
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
@@ -1018,14 +1027,16 @@ msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
 msgstr ""
+"Станьте спонсором на LiberaPay. Вы можете пожертвовать с помощью PayPal или "
+"оплатить с банковского счета в Европе."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Донат на Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Пожертвуйте на Open Collective и просмотрите наши расходы."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -1053,7 +1064,7 @@ msgstr "Бесплатно"
 
 #: template/download.html.j2:64
 msgid "Basic plugins"
-msgstr ""
+msgstr "Основные плагины"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
@@ -1071,7 +1082,7 @@ msgstr "Полный функционал"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Basic & Z Series plugins"
-msgstr ""
+msgstr "Основные и плагины Z серии"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
@@ -1088,11 +1099,11 @@ msgstr "Пакет"
 
 #: template/download.html.j2:90
 msgid "Access to all v1 releases"
-msgstr "Доступ ко всем релизам v1"
+msgstr "Доступ ко всем выпускам v1"
 
 #: template/download.html.j2:96
 msgid "Nightly"
-msgstr ""
+msgstr "Ежедневная"
 
 #: template/download.html.j2:97
 msgid "year"
@@ -1100,11 +1111,11 @@ msgstr "год"
 
 #: template/download.html.j2:102
 msgid "Access to all releases"
-msgstr ""
+msgstr "Доступ ко всем выпускам"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr "Доступ к сборкам nigthly"
+msgstr "Доступ к ежедневным сборкам"
 
 #: template/download.html.j2:105
 msgid "Subscribe"
@@ -1120,7 +1131,7 @@ msgstr "Поддержите Zrythm, купив установщик. В это�
 
 #: template/download.html.j2:128
 msgid "GPG Key"
-msgstr "Ключи GPG"
+msgstr "Ключ GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
@@ -1136,13 +1147,14 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythm — это цифровая звуковая рабочая станция, функциональная и простая в "
+"Zrythm — это цифровая звуковая станция, функциональная и простая в "
 "использовании. Она обеспечивает безграничную автоматизацию, поддерживает "
 "плагины LV2, работает с аудио-бэкэндом JACK и помогает в работе с аккордами."
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
 msgstr ""
+"Высокоавтоматизированная и интуитивно понятная цифровая звуковая станция"
 
 #: template/index.html.j2:39
 msgid "Learn More"
@@ -1150,7 +1162,7 @@ msgstr "Узнать больше"
 
 #: template/index.html.j2:63
 msgid "Showcase"
-msgstr ""
+msgstr "Демонстрация"
 
 #: template/index.html.j2:72 template/index.html.j2:86
 #: template/index.html.j2:100 template/index.html.j2:114
@@ -1160,19 +1172,19 @@ msgstr "Ваш браузер не поддерживает видео HTML5."
 
 #: template/index.html.j2:133
 msgid "Remake"
-msgstr "Обновленный"
+msgstr "Преобразование"
 
 #: template/index.html.j2:155
 msgid "Testimonials"
-msgstr ""
+msgstr "Отзывы"
 
 #: template/index.html.j2:184
 msgid "Affiliates"
-msgstr ""
+msgstr "Партнеры"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr "Справка - Пользовательское руководство - Уроки"
+msgstr "Справка Zrythm - Руководство пользователя - Уроки"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
@@ -1180,7 +1192,7 @@ msgstr "Обучение"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr "Редактирование (Editing)"
+msgstr "Редактирование"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
