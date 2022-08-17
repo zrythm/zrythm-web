@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-23 15:17+0000\n"
+"PO-Revision-Date: 2022-08-18 16:16+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.14-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -372,7 +372,7 @@ msgstr ""
 
 #: template.py:552
 msgid "Monitor Section"
-msgstr "Secció del monitor"
+msgstr "Secció monitor"
 
 #: template.py:553
 msgid ""
@@ -1056,7 +1056,7 @@ msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
-"Tradueix Zrythm DAW, el manual d'usuari i els nostres llocs web al teu "
+"Tradueix la DAW Zrythm, el manual d'usuari i els nostres llocs web al teu "
 "idioma."
 
 #: template/community.html.j2:81
@@ -1224,7 +1224,7 @@ msgstr "Accés a totes les versions v1"
 
 #: template/download.html.j2:96
 msgid "Nightly"
-msgstr "Nightly"
+msgstr "Nocturn"
 
 #: template/download.html.j2:97
 msgid "year"
@@ -1236,7 +1236,7 @@ msgstr "Accés a totes les versions"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr "Accés a construccions nightly"
+msgstr "Accés a nightly builds"
 
 #: template/download.html.j2:105
 msgid "Subscribe"
