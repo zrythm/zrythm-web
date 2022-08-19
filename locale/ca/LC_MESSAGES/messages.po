@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-08-18 16:16+0000\n"
-"Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
+"PO-Revision-Date: 2022-08-19 17:59+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -760,16 +760,16 @@ msgstr "IU local"
 
 #: template.py:689
 msgid "Use Zrythm in your preferred language."
-msgstr "Utilitzar Zrythm en el teu idioma preferit."
+msgstr "Utilitzeu el Zrythm en la vostra llengua preferida."
 
 #: template.py:691
 msgid "Easily Add Translations"
-msgstr "Afegir traduccions fàcilment"
+msgstr "Afegiu traduccions fàcilment"
 
 #: template.py:692
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
-"Afegir les traduccions i les configuracions locals que falten a "
+"Afegiu les traduccions i les configuracions locals que falten al "
 "{ref}Weblate{endref}."
 
 #: template.py:695
@@ -778,7 +778,7 @@ msgstr "Llibertat de l'usuari"
 
 #: template.py:698
 msgid "Free Software"
-msgstr "Programari Lliure"
+msgstr "Programari lliure"
 
 #: template.py:699
 msgid "All source code is released as {ref}copyleft free software{endref}."
