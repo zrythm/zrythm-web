@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
 "PO-Revision-Date: 2022-08-23 16:35+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"Last-Translator: rene-coty <irenee.thirion@e.email>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -161,11 +161,11 @@ msgstr ""
 
 #: template.py:479
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Accrochage adaptatif"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Le comportement d’accrochage s’adapte au niveau de zoom actuel."
 
 #: template.py:482
 msgid "Looping"
@@ -177,17 +177,19 @@ msgstr "Boucler des segments audio, MIDI, des automatisations ou des accords."
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Ligne temporelle détaillée"
 
 #: template.py:489
 msgid "Track Lanes"
-msgstr ""
+msgstr "Lignes de piste"
 
 #: template.py:490
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Ajoutez plusieurs couches d’audio / MIDI à la même piste en utilisant les "
+"{ref}couloirs de piste{endref}."
 
 #: template.py:492
 msgid "Bounce in Place"
