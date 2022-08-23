@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-29 14:34+0000\n"
-"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2022-08-26 09:16+0000\n"
+"Last-Translator: Hugel <qihu@nfschina.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.14-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -269,11 +270,11 @@ msgstr "使用任意的外部应用程序编辑选定的音频片段。"
 
 #: template.py:524
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "记录的功能"
 
 #: template.py:527
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "音频/MIDI记录"
 
 #: template.py:528
 msgid ""
@@ -283,7 +284,7 @@ msgstr ""
 
 #: template.py:530
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "全面的记录设置"
 
 #: template.py:531
 msgid ""
@@ -293,7 +294,7 @@ msgstr ""
 
 #: template.py:533
 msgid "Automation Recording"
-msgstr ""
+msgstr "自动记录"
 
 #: template.py:534
 msgid "Record automation in latch/touch mode."
@@ -301,7 +302,7 @@ msgstr ""
 
 #: template.py:536
 msgid "Device Controls"
-msgstr ""
+msgstr "设备控制"
 
 #: template.py:537
 msgid ""
