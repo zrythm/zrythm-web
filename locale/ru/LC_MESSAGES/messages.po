@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-08-01 12:14+0000\n"
+"PO-Revision-Date: 2022-08-26 09:16+0000\n"
 "Last-Translator: Vik <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
@@ -175,7 +175,7 @@ msgstr "Циклическое аудио, MIDI, автоматизация и �
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Функциональная шкала времени"
 
 #: template.py:489
 msgid "Track Lanes"
@@ -513,7 +513,7 @@ msgstr ""
 
 #: template.py:620 template.py:721
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Помощь в работе с аккордами"
 
 #: template.py:623
 msgid "Chord Audition"
@@ -873,8 +873,8 @@ msgstr "Дизайнер: Эндрю Хартер"
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
-"Высокоавтоматизированная и простая в использовании цифровая звуковая рабочая"
-" станция."
+"Высокоавтоматизированная и интуитивно понятная цифровая звуковая рабочая "
+"станция."
 
 #: common/header.j2.inc:32
 msgid ""
@@ -1012,7 +1012,7 @@ msgstr ""
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr "Донат в криптовалюте"
+msgstr "Пожертвовать в криптовалюте"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
@@ -1020,7 +1020,7 @@ msgstr "Отправьте нам Bitcoin (BTC), Litecoin (LTC) или Monero (X
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr "Донат на LiberaPay"
+msgstr "Пожертвовать на LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr "Донат на Open Collective"
+msgstr "Пожертвовать на Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
