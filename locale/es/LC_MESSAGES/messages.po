@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-09-07 07:06+0000\n"
-"Last-Translator: Floure <s.alonsomza@gmail.com>\n"
+"PO-Revision-Date: 2022-09-08 07:15+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -941,11 +941,11 @@ msgstr ""
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "Póngase en contacto"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "Charle con nosotros en IRC"
 
 #: template/community.html.j2:90
 msgid ""
@@ -956,7 +956,7 @@ msgstr ""
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Charle con nosotros en Matrix"
 
 #: template/community.html.j2:99
 msgid ""
@@ -986,7 +986,7 @@ msgstr ""
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Síganos en Mastodon"
 
 #: template/community.html.j2:126
 msgid ""
@@ -996,15 +996,15 @@ msgstr ""
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "Donar con criptomoneda"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Envíenos bitcóin (BTC), litecóin (LTC) o monero (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "Donar en Liberapay"
 
 #: template/community.html.j2:151
 msgid ""
@@ -1014,7 +1014,7 @@ msgstr ""
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Donar en Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
@@ -1023,10 +1023,12 @@ msgstr ""
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr ""
+"Descargue el código fuente de Zrythm o compre un instalador de paquete "
+"binario."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Seleccione la plataforma"
 
 #: template/download.html.j2:50
 msgid "Downloads"
@@ -1034,7 +1036,7 @@ msgstr "Descargas"
 
 #: template/download.html.j2:56
 msgid "Installers"
-msgstr ""
+msgstr "Instaladores"
 
 #: template/download.html.j2:61
 msgid "Basic"
@@ -1046,7 +1048,7 @@ msgstr ""
 
 #: template/download.html.j2:64
 msgid "Basic plugins"
-msgstr ""
+msgstr "Complementos básicos"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
@@ -1069,11 +1071,11 @@ msgstr ""
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
 msgid "PDF user manual"
-msgstr "Manual del usuario en PDF"
+msgstr "Manual de utilización en PDF"
 
 #: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
-msgstr ""
+msgstr "Comprar"
 
 #: template/download.html.j2:84
 msgid "Bundle"
@@ -1105,7 +1107,7 @@ msgstr "Suscribirse"
 
 #: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
-msgstr "* Los precios en esta divisa son estimados"
+msgstr "* Los precios en esta moneda son estimados"
 
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
@@ -1294,11 +1296,11 @@ msgstr ""
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr "Plugins incluidos con Zrythm"
+msgstr "Complementos incluidos con Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Complementos básicos"
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
@@ -1306,7 +1308,7 @@ msgstr "{} captura de pantalla"
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
-msgstr ""
+msgstr "Serie Z"
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
@@ -1314,7 +1316,7 @@ msgstr "Especificaciones técnicas"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "Última actualización el 4 de agosto de 2021"
 
 #~ msgid "Bundled plugins (basic)"
 #~ msgstr "Plugins incluidos (básicos)"
