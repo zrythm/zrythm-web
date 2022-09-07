@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-08-30 17:14+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2022-09-07 07:06+0000\n"
+"Last-Translator: Floure <s.alonsomza@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1105,7 +1105,7 @@ msgstr "Suscribirse"
 
 #: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
-msgstr ""
+msgstr "* Los precios en esta divisa son estimados"
 
 #: template/download.html.j2:115
 msgid "Support Zrythm by purchasing an installer. This month we received:"
