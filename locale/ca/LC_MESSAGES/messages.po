@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
-"PO-Revision-Date: 2022-08-30 17:14+0000\n"
+"PO-Revision-Date: 2022-09-14 04:42+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Generated-By: Babel 2.8.0\n"
 "X-Generator: Weblate 4.14.1-dev\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -1185,7 +1185,7 @@ msgstr "Lliure"
 
 #: template/download.html.j2:64
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "Fins a 25 pistes"
 
 #: template/download.html.j2:65
 msgid "Basic plugins"
@@ -1193,7 +1193,7 @@ msgstr "Complements bàsics"
 
 #: template/download.html.j2:66
 msgid "Web user manual"
-msgstr ""
+msgstr "Manual d'usuari web"
 
 #: template/download.html.j2:73
 msgid "Single"
@@ -1202,7 +1202,7 @@ msgstr "Senzilla"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Pistes il·limitades"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
@@ -1212,7 +1212,7 @@ msgstr "Complements bàsics de la sèrie Z"
 #: template/download.html.j2:78 template/download.html.j2:90
 #: template/download.html.j2:102
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "Manual d'usuari web i PDF"
 
 #: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
