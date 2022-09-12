@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-11 12:19+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2022-09-12 16:19+0000\n"
+"Last-Translator: leochras <leo@traussnigg.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.14-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -49,15 +49,15 @@ msgstr "Parametrischer Equalizer"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Dynamikumfang Kompressor modelliert nach dem 1176 Spitzenwertbegrenzer"
 
 #: template.py:423
 msgid "Phasing effect"
-msgstr ""
+msgstr "Phaser"
 
 #: template.py:426
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "Mehrstimmiger Synthesizer mit 3 verstimmten Oszillatoren"
 
 #: template.py:429
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Wah-Pedal Effekt vierter Ordnung"
 
 #: template.py:435
 msgid "White noise generator"
@@ -78,13 +78,14 @@ msgid "8x8 late-reverberation FDN reverb"
 msgstr ""
 
 #: template.py:443
+#, fuzzy
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz ordnet die Akkorde einer Dur- oder Molltonleiter weißen Tasten zu"
+"ZChordz ordnet die Akkorde einer Moll- oder Durtonleiter den weißen Tasten zu"
 
 #: template.py:444
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Dur- oder Moll Tonleiter"
 
 #: template.py:445
 msgid "Velocity multiplier per note"
@@ -133,7 +134,7 @@ msgstr "Ein einziger Knopf zum Kontrollieren der Stimmung"
 
 #: template.py:470 template.py:712
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Intuitive Bearbeitung"
 
 #: template.py:473
 msgid "Flexible Select Tool"
@@ -164,38 +165,47 @@ msgid "Snapping behavior adjusts to the current zoom level."
 msgstr "Das Einrastverhalten passt sich an die aktuelle Zoomstufe an."
 
 #: template.py:482
+#, fuzzy
 msgid "Looping"
-msgstr ""
+msgstr "Dauerschleife"
 
 #: template.py:483
+#, fuzzy
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Spiele Audio, MIDI, Automationen und Akkorde in Dauerschleife."
 
 #: template.py:486 template.py:727
+#, fuzzy
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Umfangreiche Zeitleiste"
 
 #: template.py:489
+#, fuzzy
 msgid "Track Lanes"
-msgstr ""
+msgstr "Spuren"
 
 #: template.py:490
+#, fuzzy
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Füge mit {ref}track lanes{endref} mehrere Ebenen von Audio/MIDI Spuren zur "
+"gleichen Spur hinzu."
 
 #: template.py:492
+#, fuzzy
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Vor Ort in Audio konvertieren"
 
 #: template.py:493
 msgid "Quickly bounce selected material to audio."
 msgstr "Schnell und einfach ausgewählte Bereiche bouncen."
 
 #: template.py:495
+#, fuzzy
 msgid "Stretching"
-msgstr ""
+msgstr "Strecken"
 
 #: template.py:496
 msgid "Stretch any type of region"
@@ -203,67 +213,85 @@ msgstr ""
 
 #: template.py:499
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Mächtige Bearbeitungswerkzeuge"
 
 #: template.py:502
 msgid "Piano Roll"
 msgstr "Notenrolle"
 
 #: template.py:503
+#, fuzzy
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Erstelle, bearbeite und arrangiere MIDI-Ereignissen in einer eigenen "
+"Klaviatur mit Akkord-Integration."
 
 #: template.py:505
 msgid "Drum View"
 msgstr ""
 
 #: template.py:506
+#, fuzzy
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
+"Ein-Klick wechsel zur Schlagzeug-Ansicht um Einschlägige Instrumente zu "
+"bearbeiten"
 
 #: template.py:508
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Anschlaggeschwindigkeit bearbeiten"
 
 #: template.py:509
+#, fuzzy
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Bearbeite mehrere Anschlagsgeschwindigkeiten zeitgleich mit dem "
+"Auswahlwerkzeug oder zeichne sie mit dem Stift- oder Rampenwerkzeug."
 
 #: template.py:511
 msgid "Audio Editor"
 msgstr ""
 
 #: template.py:512
+#, fuzzy
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Bearbeite Blenden/Verstärkung und bearbeite Teile von Audio-Clips mit den "
+"Audio-Funktionen im Audio-Editor."
 
 #: template.py:514
+#, fuzzy
 msgid "List Editors"
-msgstr ""
+msgstr "Liste mit Bearbeitungsmöglichkeiten"
 
 #: template.py:515
+#, fuzzy
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Bearbeite Objektparameter manuell im Ereignisfenster"
 
 #: template.py:517
+#, fuzzy
 msgid "Editor Functions"
-msgstr ""
+msgstr "Bearbeitungsfunktionen"
 
 #: template.py:518
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Schnelles anwenden von Funktionen wie Legato, Invertieren und Ausblenden auf "
+"die ausgewählten Objekte."
 
 #: template.py:520
+#, fuzzy
 msgid "External App Integration"
-msgstr ""
+msgstr "Externe App Integration"
 
 #: template.py:521
 msgid "Edit selected audio parts in any external app."
