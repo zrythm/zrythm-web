@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-22 16:55+0100\n"
+"POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-08-26 09:16+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -188,8 +188,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Ajouter plusieurs couches d’audio/MIDI à la même piste en utilisant les {ref}"
-"lignes de piste{endref}."
+"Ajouter plusieurs couches d’audio/MIDI à la même piste en utilisant les "
+"{ref}lignes de piste{endref}."
 
 #: template.py:492
 msgid "Bounce in Place"
@@ -812,7 +812,7 @@ msgstr "Fonctionnalités"
 msgid "User Manual"
 msgstr "Manuel utilisateur"
 
-#: common/footer.j2.inc:39 template/download.html.j2:127
+#: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
 msgstr "Sorties"
 
@@ -844,7 +844,7 @@ msgstr "Faire un don"
 msgid "About this Site"
 msgstr ""
 
-#: common/footer.j2.inc:67 template/download.html.j2:124
+#: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
 msgstr "Code source"
 
@@ -898,7 +898,7 @@ msgid "Get Involved"
 msgstr "Participez"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:68 template/index.html.j2:38
+#: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
 msgstr "Télécharger"
 
@@ -1077,74 +1077,78 @@ msgid "Free"
 msgstr "Gratuit"
 
 #: template/download.html.j2:64
-msgid "Basic plugins"
+msgid "Up to 25 tracks"
 msgstr ""
 
 #: template/download.html.j2:65
-msgid "Save/load disabled"
-msgstr "Enregistrement/chargement désactivé"
+msgid "Basic plugins"
+msgstr ""
 
-#: template/download.html.j2:72
+#: template/download.html.j2:66
+msgid "Web user manual"
+msgstr ""
+
+#: template/download.html.j2:73
 msgid "Single"
 msgstr "Simple"
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:99
-msgid "Compiled with all features"
-msgstr "Compilé avec toutes les fonctionnalités"
-
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
-msgid "Basic & Z Series plugins"
+msgid "Unlimited tracks"
 msgstr ""
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
-msgid "PDF user manual"
-msgstr "Manuel utilisateur PDF"
+msgid "Basic & Z Series plugins"
+msgstr ""
 
-#: template/download.html.j2:80 template/download.html.j2:92
+#: template/download.html.j2:78 template/download.html.j2:90
+#: template/download.html.j2:102
+msgid "Web & PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
 msgstr "Achat"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:85
 msgid "Bundle"
 msgstr "Offre groupée"
 
-#: template/download.html.j2:90
+#: template/download.html.j2:91
 msgid "Access to all v1 releases"
 msgstr "Accès à toutes nos versions v1"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:97
 msgid "Nightly"
 msgstr "Nocturne"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "year"
 msgstr ""
 
-#: template/download.html.j2:102
+#: template/download.html.j2:103
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "Accès aux constructions nocturnes"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "S'abonner"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
 msgstr "* Les prix dans cette devise sont estimés"
 
-#: template/download.html.j2:115
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 "Soutenir Zrythm en achetant un installateur. Ce mois ci, nous avons reçu :"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "Clé GPG"
 
@@ -1353,6 +1357,12 @@ msgstr "Spécifications techniques"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Dernière mise à jour le 4 août 2021"
+
+#~ msgid "Save/load disabled"
+#~ msgstr "Enregistrement/chargement désactivé"
+
+#~ msgid "Compiled with all features"
+#~ msgstr "Compilé avec toutes les fonctionnalités"
 
 #~ msgid "Premium Plugins"
 #~ msgstr "Greffons premium"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-22 16:55+0100\n"
+"POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2021-11-24 12:42+0000\n"
 "Last-Translator: moshe <shinmem58@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/zrythm/web/he/>\n"
@@ -803,7 +803,7 @@ msgstr "פיצ'רים"
 msgid "User Manual"
 msgstr "מדריך למשתמש"
 
-#: common/footer.j2.inc:39 template/download.html.j2:127
+#: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
 msgstr "מהדורות"
 
@@ -835,7 +835,7 @@ msgstr "תרום"
 msgid "About this Site"
 msgstr ""
 
-#: common/footer.j2.inc:67 template/download.html.j2:124
+#: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
 msgstr "קוד מקור"
 
@@ -887,7 +887,7 @@ msgid "Get Involved"
 msgstr "קח חלק בפרוייקט"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:68 template/index.html.j2:38
+#: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
 msgstr "הורדה"
 
@@ -1051,73 +1051,77 @@ msgid "Free"
 msgstr "חינם"
 
 #: template/download.html.j2:64
-msgid "Basic plugins"
+msgid "Up to 25 tracks"
 msgstr ""
 
 #: template/download.html.j2:65
-msgid "Save/load disabled"
-msgstr "שמור/טען מושבתות"
+msgid "Basic plugins"
+msgstr ""
 
-#: template/download.html.j2:72
+#: template/download.html.j2:66
+msgid "Web user manual"
+msgstr ""
+
+#: template/download.html.j2:73
 msgid "Single"
 msgstr "יחיד"
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:99
-msgid "Compiled with all features"
-msgstr "מהודר עם כל הפיצ'רים"
-
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
-msgid "Basic & Z Series plugins"
+msgid "Unlimited tracks"
 msgstr ""
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
-msgid "PDF user manual"
-msgstr "מדריך למשתמש בפורמט PDF"
+msgid "Basic & Z Series plugins"
+msgstr ""
 
-#: template/download.html.j2:80 template/download.html.j2:92
+#: template/download.html.j2:78 template/download.html.j2:90
+#: template/download.html.j2:102
+msgid "Web & PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
 msgstr "רכישה"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:85
 msgid "Bundle"
 msgstr "חבילה"
 
-#: template/download.html.j2:90
+#: template/download.html.j2:91
 msgid "Access to all v1 releases"
 msgstr "גישה לכל מהדורת גרסת 1"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:97
 msgid "Nightly"
 msgstr "ליילי"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "year"
 msgstr ""
 
-#: template/download.html.j2:102
+#: template/download.html.j2:103
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "גישה לבניות לייליות"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "הירשם"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:115
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr "תמכו ב-Zrythm על ידי רכישת מתקין. החודש קיבלנו:"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "מפתח GPG"
 
@@ -1323,6 +1327,12 @@ msgstr "מפרט טכני"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "עודכן לאחרונה ב-4 לאוגוסט 2021"
+
+#~ msgid "Save/load disabled"
+#~ msgstr "שמור/טען מושבתות"
+
+#~ msgid "Compiled with all features"
+#~ msgstr "מהודר עם כל הפיצ'רים"
 
 #~ msgid "Premium Plugins"
 #~ msgstr "תוספים פרימיום"

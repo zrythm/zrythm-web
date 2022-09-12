@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-22 16:55+0100\n"
+"POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-09-12 16:19+0000\n"
 "Last-Translator: leochras <leo@traussnigg.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -49,7 +49,8 @@ msgstr "Parametrischer Equalizer"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr "Dynamikumfang Kompressor modelliert nach dem 1176 Spitzenwertbegrenzer"
+msgstr ""
+"Dynamikumfang Kompressor modelliert nach dem 1176 Spitzenwertbegrenzer"
 
 #: template.py:423
 msgid "Phasing effect"
@@ -78,10 +79,8 @@ msgid "8x8 late-reverberation FDN reverb"
 msgstr ""
 
 #: template.py:443
-#, fuzzy
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz ordnet die Akkorde einer Moll- oder Durtonleiter den weißen Tasten zu"
 
 #: template.py:444
 msgid "Major or minor scale"
@@ -165,47 +164,38 @@ msgid "Snapping behavior adjusts to the current zoom level."
 msgstr "Das Einrastverhalten passt sich an die aktuelle Zoomstufe an."
 
 #: template.py:482
-#, fuzzy
 msgid "Looping"
-msgstr "Dauerschleife"
+msgstr ""
 
 #: template.py:483
-#, fuzzy
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr "Spiele Audio, MIDI, Automationen und Akkorde in Dauerschleife."
+msgstr ""
 
 #: template.py:486 template.py:727
-#, fuzzy
 msgid "Featureful Timeline"
-msgstr "Umfangreiche Zeitleiste"
+msgstr ""
 
 #: template.py:489
-#, fuzzy
 msgid "Track Lanes"
-msgstr "Spuren"
+msgstr ""
 
 #: template.py:490
-#, fuzzy
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Füge mit {ref}track lanes{endref} mehrere Ebenen von Audio/MIDI Spuren zur "
-"gleichen Spur hinzu."
 
 #: template.py:492
-#, fuzzy
 msgid "Bounce in Place"
-msgstr "Vor Ort in Audio konvertieren"
+msgstr ""
 
 #: template.py:493
 msgid "Quickly bounce selected material to audio."
 msgstr "Schnell und einfach ausgewählte Bereiche bouncen."
 
 #: template.py:495
-#, fuzzy
 msgid "Stretching"
-msgstr "Strecken"
+msgstr ""
 
 #: template.py:496
 msgid "Stretch any type of region"
@@ -220,78 +210,62 @@ msgid "Piano Roll"
 msgstr "Notenrolle"
 
 #: template.py:503
-#, fuzzy
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
-"Erstelle, bearbeite und arrangiere MIDI-Ereignissen in einer eigenen "
-"Klaviatur mit Akkord-Integration."
 
 #: template.py:505
 msgid "Drum View"
 msgstr ""
 
 #: template.py:506
-#, fuzzy
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
-"Ein-Klick wechsel zur Schlagzeug-Ansicht um Einschlägige Instrumente zu "
-"bearbeiten"
 
 #: template.py:508
 msgid "Velocity Editor"
 msgstr "Anschlaggeschwindigkeit bearbeiten"
 
 #: template.py:509
-#, fuzzy
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
-"Bearbeite mehrere Anschlagsgeschwindigkeiten zeitgleich mit dem "
-"Auswahlwerkzeug oder zeichne sie mit dem Stift- oder Rampenwerkzeug."
 
 #: template.py:511
 msgid "Audio Editor"
 msgstr ""
 
 #: template.py:512
-#, fuzzy
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
-"Bearbeite Blenden/Verstärkung und bearbeite Teile von Audio-Clips mit den "
-"Audio-Funktionen im Audio-Editor."
 
 #: template.py:514
-#, fuzzy
 msgid "List Editors"
-msgstr "Liste mit Bearbeitungsmöglichkeiten"
+msgstr ""
 
 #: template.py:515
-#, fuzzy
 msgid "Edit object parameters manually in the event viewer."
-msgstr "Bearbeite Objektparameter manuell im Ereignisfenster"
+msgstr ""
 
 #: template.py:517
-#, fuzzy
 msgid "Editor Functions"
-msgstr "Bearbeitungsfunktionen"
+msgstr ""
 
 #: template.py:518
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
-"Schnelles anwenden von Funktionen wie Legato, Invertieren und Ausblenden auf "
-"die ausgewählten Objekte."
+"Schnelles anwenden von Funktionen wie Legato, Invertieren und Ausblenden auf"
+" die ausgewählten Objekte."
 
 #: template.py:520
-#, fuzzy
 msgid "External App Integration"
-msgstr "Externe App Integration"
+msgstr ""
 
 #: template.py:521
 msgid "Edit selected audio parts in any external app."
@@ -833,7 +807,7 @@ msgstr "Funktionen"
 msgid "User Manual"
 msgstr "Benutzerhandbuch"
 
-#: common/footer.j2.inc:39 template/download.html.j2:127
+#: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
 msgstr "Releases"
 
@@ -865,7 +839,7 @@ msgstr "Spenden"
 msgid "About this Site"
 msgstr ""
 
-#: common/footer.j2.inc:67 template/download.html.j2:124
+#: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
 msgstr "Sourcecode"
 
@@ -918,7 +892,7 @@ msgid "Get Involved"
 msgstr "Engagieren Sie sich"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:68 template/index.html.j2:38
+#: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
 msgstr "Herunterladen"
 
@@ -1092,75 +1066,79 @@ msgid "Free"
 msgstr "Kostenlos"
 
 #: template/download.html.j2:64
-msgid "Basic plugins"
+msgid "Up to 25 tracks"
 msgstr ""
 
 #: template/download.html.j2:65
-msgid "Save/load disabled"
-msgstr "Speichern/Laden deaktiviert"
+msgid "Basic plugins"
+msgstr ""
 
-#: template/download.html.j2:72
+#: template/download.html.j2:66
+msgid "Web user manual"
+msgstr ""
+
+#: template/download.html.j2:73
 msgid "Single"
 msgstr "Einmalig"
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:99
-msgid "Compiled with all features"
-msgstr "Mit allen Funktionen kompiliert"
-
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
-msgid "Basic & Z Series plugins"
+msgid "Unlimited tracks"
 msgstr ""
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
-msgid "PDF user manual"
-msgstr "PDF-Benutzerhandbuch"
+msgid "Basic & Z Series plugins"
+msgstr ""
 
-#: template/download.html.j2:80 template/download.html.j2:92
+#: template/download.html.j2:78 template/download.html.j2:90
+#: template/download.html.j2:102
+msgid "Web & PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
 msgstr "Kaufen"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:85
 msgid "Bundle"
 msgstr "Bundle"
 
-#: template/download.html.j2:90
+#: template/download.html.j2:91
 msgid "Access to all v1 releases"
 msgstr "Zugriff auf alle V1 Releases"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:97
 msgid "Nightly"
 msgstr "Nightly"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "year"
 msgstr ""
 
-#: template/download.html.j2:102
+#: template/download.html.j2:103
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "Zugriff auf Nightly Builds"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "Abonnieren"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:115
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 "Unterstützen Sie Zrythm, indem Sie ein Installationsprogramm kaufen. Diesen "
 "Monat erhielten wir:"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "GPG-Schlüssel"
 
@@ -1361,6 +1339,12 @@ msgstr "Technische Spezifikationen"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Zuletzt aktualisiert am 4. Aug 2021"
+
+#~ msgid "Save/load disabled"
+#~ msgstr "Speichern/Laden deaktiviert"
+
+#~ msgid "Compiled with all features"
+#~ msgstr "Mit allen Funktionen kompiliert"
 
 #~ msgid "Bundled plugins (basic)"
 #~ msgstr "Mitgelieferte Plugins (Basis)"

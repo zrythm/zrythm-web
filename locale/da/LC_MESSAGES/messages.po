@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-22 16:55+0100\n"
+"POT-Creation-Date: 2022-09-13 01:20+0900\n"
 "PO-Revision-Date: 2020-12-30 23:03+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/zrythm/web/da/>\n"
@@ -801,7 +801,7 @@ msgstr ""
 msgid "User Manual"
 msgstr ""
 
-#: common/footer.j2.inc:39 template/download.html.j2:127
+#: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
 msgstr ""
 
@@ -833,7 +833,7 @@ msgstr ""
 msgid "About this Site"
 msgstr ""
 
-#: common/footer.j2.inc:67 template/download.html.j2:124
+#: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
 msgstr ""
 
@@ -882,7 +882,7 @@ msgid "Get Involved"
 msgstr ""
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:68 template/index.html.j2:38
+#: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
 msgstr ""
 
@@ -1035,73 +1035,77 @@ msgid "Free"
 msgstr ""
 
 #: template/download.html.j2:64
-msgid "Basic plugins"
+msgid "Up to 25 tracks"
 msgstr ""
 
 #: template/download.html.j2:65
-msgid "Save/load disabled"
+msgid "Basic plugins"
 msgstr ""
 
-#: template/download.html.j2:72
+#: template/download.html.j2:66
+msgid "Web user manual"
+msgstr ""
+
+#: template/download.html.j2:73
 msgid "Single"
-msgstr ""
-
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:99
-msgid "Compiled with all features"
 msgstr ""
 
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
-msgid "Basic & Z Series plugins"
+msgid "Unlimited tracks"
 msgstr ""
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
-msgid "PDF user manual"
+msgid "Basic & Z Series plugins"
 msgstr ""
 
-#: template/download.html.j2:80 template/download.html.j2:92
+#: template/download.html.j2:78 template/download.html.j2:90
+#: template/download.html.j2:102
+msgid "Web & PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
 msgstr ""
 
-#: template/download.html.j2:84
+#: template/download.html.j2:85
 msgid "Bundle"
 msgstr ""
 
-#: template/download.html.j2:90
+#: template/download.html.j2:91
 msgid "Access to all v1 releases"
 msgstr ""
 
-#: template/download.html.j2:96
+#: template/download.html.j2:97
 msgid "Nightly"
 msgstr ""
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "year"
 msgstr ""
 
-#: template/download.html.j2:102
+#: template/download.html.j2:103
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr ""
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr ""
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:115
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:128
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr ""
 

@@ -7,19 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-22 16:55+0100\n"
+"POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-09-09 20:19+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
-"\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -158,8 +156,9 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
-"Розширте функціональність засобу виділення, перемкнувшись на засоби {ref}"
-"Редагування, Вирізання, Стирання, Налаштування або Прослуховування{endref}."
+"Розширте функціональність засобу виділення, перемкнувшись на засоби "
+"{ref}Редагування, Вирізання, Стирання, Налаштування або "
+"Прослуховування{endref}."
 
 #: template.py:479
 msgid "Adaptive Snapping"
@@ -190,8 +189,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Додавання декількох шарів аудіо/MIDI до однієї доріжки за допомогою {ref}"
-"смуг доріжок{endref}."
+"Додавання декількох шарів аудіо/MIDI до однієї доріжки за допомогою "
+"{ref}смуг доріжок{endref}."
 
 #: template.py:492
 msgid "Bounce in Place"
@@ -244,8 +243,8 @@ msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
-"Редагуйте кілька швидкостей одночасно за допомогою вибраного інструмента або "
-"малюйте олівцем чи інструментом темпу."
+"Редагуйте кілька швидкостей одночасно за допомогою вибраного інструмента або"
+" малюйте олівцем чи інструментом темпу."
 
 #: template.py:511
 msgid "Audio Editor"
@@ -300,8 +299,8 @@ msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
-"Записуйте аудіо/MIDI з будь-якого пристрою або навіть з інших застосунків за "
-"допомогою роз'єму JACK."
+"Записуйте аудіо/MIDI з будь-якого пристрою або навіть з інших застосунків за"
+" допомогою роз'єму JACK."
 
 #: template.py:530
 msgid "Comprehensive Recording Settings"
@@ -344,7 +343,8 @@ msgstr "Групові доріжки"
 
 #: template.py:544
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr "Організуйте групи аудіо / MIDI сигналів за допомогою групових доріжок."
+msgstr ""
+"Організуйте групи аудіо / MIDI сигналів за допомогою групових доріжок."
 
 #: template.py:546
 msgid "Aux Sends"
@@ -498,7 +498,8 @@ msgstr "Бріджинг плагінів"
 
 #: template.py:598
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr "Працюйте з плагінами в режимі пісочниці, відкриваючи їх в режимі моста."
+msgstr ""
+"Працюйте з плагінами в режимі пісочниці, відкриваючи їх в режимі моста."
 
 #: template.py:600
 msgid "Automatable Bypass Mode"
@@ -570,8 +571,8 @@ msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
 msgstr ""
-"Швидко прослуховуйте акорди, клацаючи по педалям або натискаючи ноти на MIDI-"
-"клавіатурі, а також перетягуйте акорди на шкалу часу."
+"Швидко прослуховуйте акорди, клацаючи по педалям або натискаючи ноти на "
+"MIDI-клавіатурі, а також перетягуйте акорди на шкалу часу."
 
 #: template.py:626
 msgid "Chord Editing"
@@ -582,8 +583,8 @@ msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
-"Інвертуйте акорди одним клацанням миші або використовуйте вибір акордів, щоб "
-"вибрати будь-який акорд, з можливістю фільтрації акордів в поточній гамі."
+"Інвертуйте акорди одним клацанням миші або використовуйте вибір акордів, щоб"
+" вибрати будь-який акорд, з можливістю фільтрації акордів в поточній гамі."
 
 #: template.py:629
 msgid "Recordable Chord Track"
@@ -695,8 +696,8 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
-"Zrythm використовує {ref}lsp-dsp-lib{endref}, який реалізує розширення SIMD, "
-"такі як SSE, AVX та FMA, коли вони доступні, щоб пришвидшити обробку звуку "
+"Zrythm використовує {ref}lsp-dsp-lib{endref}, який реалізує розширення SIMD,"
+" такі як SSE, AVX та FMA, коли вони доступні, щоб пришвидшити обробку звуку "
 "та мінімізувати використання DSP."
 
 #: template.py:671
@@ -734,8 +735,8 @@ msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
-"Підтримка майже всіх основних аудіо та MIDI інтерфейсів, включаючи JACK/"
-"PipeWire, Windows MME, WASAPI та Core Audio/MIDI."
+"Підтримка майже всіх основних аудіо та MIDI інтерфейсів, включаючи "
+"JACK/PipeWire, Windows MME, WASAPI та Core Audio/MIDI."
 
 #: template.py:685
 msgid "Localization"
@@ -788,8 +789,8 @@ msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr ""
-"Ми співпрацюємо зі спільнотою розробників вільного програмного забезпечення, "
-"щоб гарантувати, що Zrythm збирається і працює без проблем на всіх "
+"Ми співпрацюємо зі спільнотою розробників вільного програмного забезпечення,"
+" щоб гарантувати, що Zrythm збирається і працює без проблем на всіх "
 "платформах."
 
 #: template.py:713
@@ -831,9 +832,9 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
-"Створюйте акорди з гам на панелі акордів, прослуховуйте та інвертуйте акорди "
-"або зберігайте власні акорди, керуйте прогресією акордів на доріжці акордів "
-"і насолоджуйтеся підсвічуванням акордів на фортепіанній доріжці."
+"Створюйте акорди з гам на панелі акордів, прослуховуйте та інвертуйте акорди"
+" або зберігайте власні акорди, керуйте прогресією акордів на доріжці акордів"
+" і насолоджуйтеся підсвічуванням акордів на фортепіанній доріжці."
 
 #: template.py:724
 msgid "Audio Plugins"
@@ -888,7 +889,8 @@ msgstr ""
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
-msgstr "Zrythm та логотип Zrythm є торговельними марками Александроса Теодоту."
+msgstr ""
+"Zrythm та логотип Zrythm є торговельними марками Александроса Теодоту."
 
 #: common/footer.j2.inc:30
 msgid "Project"
@@ -903,7 +905,7 @@ msgstr "Можливості"
 msgid "User Manual"
 msgstr "Посібник користувача"
 
-#: common/footer.j2.inc:39 template/download.html.j2:127
+#: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
 msgstr "Випуски"
 
@@ -935,7 +937,7 @@ msgstr "Пожертвування"
 msgid "About this Site"
 msgstr "Про цей сайт"
 
-#: common/footer.j2.inc:67 template/download.html.j2:124
+#: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
 msgstr "Джерельний код"
 
@@ -990,7 +992,7 @@ msgid "Get Involved"
 msgstr "Візьміть участь"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:68 template/index.html.j2:38
+#: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
 msgstr "Завантажити"
 
@@ -1162,73 +1164,77 @@ msgid "Free"
 msgstr "Безплатна"
 
 #: template/download.html.j2:64
+msgid "Up to 25 tracks"
+msgstr ""
+
+#: template/download.html.j2:65
 msgid "Basic plugins"
 msgstr "Основні плагіни"
 
-#: template/download.html.j2:65
-msgid "Save/load disabled"
-msgstr "Збереження/завантаження вимкнено"
+#: template/download.html.j2:66
+msgid "Web user manual"
+msgstr ""
 
-#: template/download.html.j2:72
+#: template/download.html.j2:73
 msgid "Single"
 msgstr "Один"
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:99
-msgid "Compiled with all features"
-msgstr "Складено з усіма можливостями"
-
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
-msgid "Basic & Z Series plugins"
-msgstr "Основні плагіни та плагіни серії Z"
+msgid "Unlimited tracks"
+msgstr ""
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
-msgid "PDF user manual"
-msgstr "Посібник у PDF"
+msgid "Basic & Z Series plugins"
+msgstr "Основні плагіни та плагіни серії Z"
 
-#: template/download.html.j2:80 template/download.html.j2:92
+#: template/download.html.j2:78 template/download.html.j2:90
+#: template/download.html.j2:102
+msgid "Web & PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
 msgstr "Придбати"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:85
 msgid "Bundle"
 msgstr "Набір"
 
-#: template/download.html.j2:90
+#: template/download.html.j2:91
 msgid "Access to all v1 releases"
 msgstr "Доступ до всіх випусків v1"
 
-#: template/download.html.j2:96
+#: template/download.html.j2:97
 msgid "Nightly"
 msgstr "Нічна"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "year"
 msgstr "рік"
 
-#: template/download.html.j2:102
+#: template/download.html.j2:103
 msgid "Access to all releases"
 msgstr "Доступ до всіх випусків"
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "Доступ до нічних складань"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "Підписатися"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
 msgstr "* Ціни в даній валюті є орієнтовними"
 
-#: template/download.html.j2:115
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr "Підтримайте Zrythm, придбавши установник. Цього місяця ми отримали:"
 
-#: template/download.html.j2:128
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "Ключі GPG"
 
@@ -1369,8 +1375,9 @@ msgid ""
 "Affero General Public License, version 3</a>."
 msgstr ""
 "Авторське право на Zrythm належить Александросу Теодоту та іншим учасникам. "
-"Zrythm випускається на умовах <a href=\"https://git.sr.ht/~alextee/zrythm/"
-"tree/master/item/COPYING\">GNU Affero General Public License, версія 3</a>."
+"Zrythm випускається на умовах <a "
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, версія 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1407,8 +1414,8 @@ msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
-"Ліцензії на зображення, розміщені на цьому вебсайті, можна знайти в {ref}"
-"цьому файлі README{endref}."
+"Ліцензії на зображення, розміщені на цьому вебсайті, можна знайти в "
+"{ref}цьому файлі README{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
@@ -1441,6 +1448,12 @@ msgstr "Технічні характеристики"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Останнє оновлення: 4 серп 2021"
+
+#~ msgid "Save/load disabled"
+#~ msgstr "Збереження/завантаження вимкнено"
+
+#~ msgid "Compiled with all features"
+#~ msgstr "Складено з усіма можливостями"
 
 #~ msgid "Premium Plugins"
 #~ msgstr "Преміальні розширення"

@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-22 16:55+0100\n"
+"POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-09-02 14:15+0000\n"
 "Last-Translator: Neko Nekowazarashi <kodra@nekoweb.my.id>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/"
-">\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -802,7 +801,7 @@ msgstr "Fitur"
 msgid "User Manual"
 msgstr "Panduan pengguna"
 
-#: common/footer.j2.inc:39 template/download.html.j2:127
+#: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
 msgstr "Rilis"
 
@@ -834,7 +833,7 @@ msgstr ""
 msgid "About this Site"
 msgstr ""
 
-#: common/footer.j2.inc:67 template/download.html.j2:124
+#: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
 msgstr ""
 
@@ -883,7 +882,7 @@ msgid "Get Involved"
 msgstr "Ikut terlibat"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:68 template/index.html.j2:38
+#: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
 msgstr "Unduh"
 
@@ -1036,73 +1035,77 @@ msgid "Free"
 msgstr ""
 
 #: template/download.html.j2:64
-msgid "Basic plugins"
+msgid "Up to 25 tracks"
 msgstr ""
 
 #: template/download.html.j2:65
-msgid "Save/load disabled"
-msgstr "Simpan/muat dinonaktifkan"
+msgid "Basic plugins"
+msgstr ""
 
-#: template/download.html.j2:72
+#: template/download.html.j2:66
+msgid "Web user manual"
+msgstr ""
+
+#: template/download.html.j2:73
 msgid "Single"
 msgstr ""
 
-#: template/download.html.j2:75 template/download.html.j2:87
-#: template/download.html.j2:99
-msgid "Compiled with all features"
-msgstr "Dikompilasi dengan semua fitur"
-
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
-msgid "Basic & Z Series plugins"
+msgid "Unlimited tracks"
 msgstr ""
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
-msgid "PDF user manual"
-msgstr "Panduan pengguna PDF"
+msgid "Basic & Z Series plugins"
+msgstr ""
 
-#: template/download.html.j2:80 template/download.html.j2:92
+#: template/download.html.j2:78 template/download.html.j2:90
+#: template/download.html.j2:102
+msgid "Web & PDF user manual"
+msgstr ""
+
+#: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
 msgstr "Beli"
 
-#: template/download.html.j2:84
+#: template/download.html.j2:85
 msgid "Bundle"
 msgstr ""
 
-#: template/download.html.j2:90
+#: template/download.html.j2:91
 msgid "Access to all v1 releases"
 msgstr ""
 
-#: template/download.html.j2:96
+#: template/download.html.j2:97
 msgid "Nightly"
 msgstr ""
 
-#: template/download.html.j2:97
+#: template/download.html.j2:98
 msgid "year"
 msgstr ""
 
-#: template/download.html.j2:102
+#: template/download.html.j2:103
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:103
+#: template/download.html.j2:104
 msgid "Access to nightly builds"
 msgstr "Akses ke nightly builds"
 
-#: template/download.html.j2:105
+#: template/download.html.j2:106
 msgid "Subscribe"
 msgstr "Berlangganan"
 
-#: template/download.html.j2:110
+#: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:115
+#: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
 msgstr ""
 
-#: template/download.html.j2:128
+#: template/download.html.j2:129
 msgid "GPG Key"
 msgstr "Kunci GPG"
 
@@ -1305,6 +1308,12 @@ msgstr "Spesifikasi teknis"
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
 msgstr "Pembaruan terakhir 4 Agu 2021"
+
+#~ msgid "Save/load disabled"
+#~ msgstr "Simpan/muat dinonaktifkan"
+
+#~ msgid "Compiled with all features"
+#~ msgstr "Dikompilasi dengan semua fitur"
 
 #~ msgid "Bundled plugins (basic)"
 #~ msgstr "Plugin yang dibundel (dasar)"
