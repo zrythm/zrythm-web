@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-07-12 06:29+0000\n"
+"PO-Revision-Date: 2022-08-26 09:16+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.14-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -33,7 +33,7 @@ msgstr "Effet de flanger stéréo"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Gate de signal stéréo"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
@@ -161,11 +161,11 @@ msgstr ""
 
 #: template.py:479
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Accrochage adaptatif"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Le comportement d’accrochage s’adapte au niveau de zoom actuel."
 
 #: template.py:482
 msgid "Looping"
@@ -177,17 +177,19 @@ msgstr "Boucler des segments audio, MIDI, des automatisations ou des accords."
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Ligne temporelle détaillée"
 
 #: template.py:489
 msgid "Track Lanes"
-msgstr ""
+msgstr "Lignes de piste"
 
 #: template.py:490
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Ajouter plusieurs couches d’audio/MIDI à la même piste en utilisant les {ref}"
+"lignes de piste{endref}."
 
 #: template.py:492
 msgid "Bounce in Place"
@@ -1107,7 +1109,7 @@ msgstr "Achat"
 
 #: template/download.html.j2:84
 msgid "Bundle"
-msgstr "Paquet"
+msgstr "Offre groupée"
 
 #: template/download.html.j2:90
 msgid "Access to all v1 releases"
