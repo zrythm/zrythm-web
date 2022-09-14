@@ -11,15 +11,14 @@ msgstr ""
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-09-14 04:42+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
-"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -62,25 +61,22 @@ msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
 msgstr ""
 
 #: template.py:429
-#, fuzzy
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr "ディレイタイムを変えてもクリック感がなく、トランスポーズしないディレイ"
+msgstr ""
 
 #: template.py:432
-#, fuzzy
 msgid "Wah pedal effect to the 4th order"
-msgstr "4次までのワウペダル効果"
+msgstr ""
 
 #: template.py:435
 msgid "White noise generator"
 msgstr "ホワイトノイズジェネレータ"
 
 #: template.py:438
-#, fuzzy
 msgid "8x8 late-reverberation FDN reverb"
-msgstr "8x8 後期残響型FDNリバーブ"
+msgstr ""
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -695,9 +691,8 @@ msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
 
 #: template.py:695
-#, fuzzy
 msgid "User Freedom"
-msgstr "ユーザーの自由"
+msgstr ""
 
 #: template.py:698
 msgid "Free Software"
@@ -1062,9 +1057,8 @@ msgid "Up to 25 tracks"
 msgstr "最大25トラックまで"
 
 #: template/download.html.j2:65
-#, fuzzy
 msgid "Basic plugins"
-msgstr "基本プラグイン"
+msgstr ""
 
 #: template/download.html.j2:66
 msgid "Web user manual"
