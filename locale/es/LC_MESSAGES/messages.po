@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
-"PO-Revision-Date: 2022-09-08 07:15+0000\n"
+"PO-Revision-Date: 2022-09-17 22:15+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -240,7 +240,7 @@ msgstr ""
 
 #: template.py:511
 msgid "Audio Editor"
-msgstr ""
+msgstr "Editor de audio"
 
 #: template.py:512
 msgid ""
@@ -268,11 +268,11 @@ msgstr ""
 
 #: template.py:520
 msgid "External App Integration"
-msgstr ""
+msgstr "Integración de aplicaciones externas"
 
 #: template.py:521
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "Edite partes determinadas del audio en cualquier programa externo."
 
 #: template.py:524
 msgid "Recording Capabilities"
@@ -1048,7 +1048,7 @@ msgstr ""
 
 #: template/download.html.j2:64
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "25 pistas como máximo"
 
 #: template/download.html.j2:65
 msgid "Basic plugins"
@@ -1056,7 +1056,7 @@ msgstr "Complementos básicos"
 
 #: template/download.html.j2:66
 msgid "Web user manual"
-msgstr ""
+msgstr "Manual de uso en la web"
 
 #: template/download.html.j2:73
 msgid "Single"
@@ -1065,7 +1065,7 @@ msgstr "Sencillo"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Pistas ilimitadas"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
