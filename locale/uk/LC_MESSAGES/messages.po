@@ -8,16 +8,18 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
-"PO-Revision-Date: 2022-09-09 20:19+0000\n"
+"PO-Revision-Date: 2022-09-21 09:16+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
+"\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -1165,7 +1167,7 @@ msgstr "Безплатна"
 
 #: template/download.html.j2:64
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "До 25 доріжок"
 
 #: template/download.html.j2:65
 msgid "Basic plugins"
@@ -1173,7 +1175,7 @@ msgstr "Основні плагіни"
 
 #: template/download.html.j2:66
 msgid "Web user manual"
-msgstr ""
+msgstr "Вебінструкція користувача"
 
 #: template/download.html.j2:73
 msgid "Single"
@@ -1182,7 +1184,7 @@ msgstr "Один"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Необмежені доріжки"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
@@ -1192,7 +1194,7 @@ msgstr "Основні плагіни та плагіни серії Z"
 #: template/download.html.j2:78 template/download.html.j2:90
 #: template/download.html.j2:102
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "Посібник у форматі Web та PDF"
 
 #: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
