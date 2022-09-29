@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
-"PO-Revision-Date: 2022-09-26 08:16+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2022-09-29 18:20+0000\n"
+"Last-Translator: Samuel K. <mrsosaki@posteo.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: template.py:505
 msgid "Drum View"
-msgstr ""
+msgstr "Vue de Percussion"
 
 #: template.py:506
 msgid "One-click switch to drum view for editing single-hit instruments."
