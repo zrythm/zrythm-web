@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-09-29 18:20+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"Last-Translator: Samuel K. <mrsosaki@posteo.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -213,7 +213,7 @@ msgstr "Éditeurs puissants"
 
 #: template.py:502
 msgid "Piano Roll"
-msgstr "Piano Roll"
+msgstr "Rouleau de Piano"
 
 #: template.py:503
 msgid ""
