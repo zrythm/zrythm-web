@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
 "PO-Revision-Date: 2022-10-03 04:27+0000\n"
-"Last-Translator: blockcrafter21 <d3m3t3r@gmx.net>\n"
+"Last-Translator: leochras <leo@traussnigg.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr "Stereo Signal Gate"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Butterworth Hochpassfilter zweiter Ordnung"
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
