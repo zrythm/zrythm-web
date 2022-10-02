@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:22+0900\n"
-"PO-Revision-Date: 2022-09-12 16:19+0000\n"
-"Last-Translator: leochras <leo@traussnigg.com>\n"
+"PO-Revision-Date: 2022-10-03 04:27+0000\n"
+"Last-Translator: blockcrafter21 <d3m3t3r@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "Dynamik-Kompressor (Stereo)"
 
 #: template.py:402
 msgid "Cubic nonlinearity distortion"
@@ -29,11 +29,11 @@ msgstr ""
 
 #: template.py:405
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Stereo-Flanger"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Stereo Signal Gate"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Butterworth Tiefpassfilter zweiter Ordnung"
 
 #: template.py:417
 msgid "Parametric equalizer"
@@ -65,6 +65,8 @@ msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
 msgstr ""
+"Delay, welches keine Klickgeräusche erzeugt und nicht transponiert wenn die "
+"Delay-Zeit verstellt wird"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
@@ -81,6 +83,7 @@ msgstr ""
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
+"ZChordz ordnet die Akkorde einer Moll- oder Durtonleiter den weißen Tasten zu"
 
 #: template.py:444
 msgid "Major or minor scale"
@@ -140,10 +143,14 @@ msgid "Flexible Select Tool"
 msgstr "Flexibles Auswahlwerkzeug"
 
 #: template.py:474
+#, fuzzy
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
+"Auswählen, bewegen, vergrößern/-kleinern, duplizieren, verbinden, loopen, "
+"löschen und ausschneiden von Objekte mithilfe eines {ref}single tool{endref} "
+"."
 
 #: template.py:476
 msgid "Extensive Toolbox"
