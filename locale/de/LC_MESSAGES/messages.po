@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -83,7 +83,8 @@ msgstr ""
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz ordnet die Akkorde einer Moll- oder Durtonleiter den weißen Tasten zu"
+"ZChordz ordnet die Akkorde einer Moll- oder Durtonleiter den weißen Tasten "
+"zu"
 
 #: template.py:444
 msgid "Major or minor scale"
@@ -143,14 +144,10 @@ msgid "Flexible Select Tool"
 msgstr "Flexibles Auswahlwerkzeug"
 
 #: template.py:474
-#, fuzzy
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
-"Auswählen, bewegen, vergrößern/-kleinern, duplizieren, verbinden, loopen, "
-"löschen und ausschneiden von Objekte mithilfe eines {ref}single tool{endref} "
-"."
 
 #: template.py:476
 msgid "Extensive Toolbox"
