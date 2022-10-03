@@ -187,7 +187,7 @@ if fetch_orders:
                 continue
             amount = float (product['price_gbp'])
             amount -= (amount * 0.05)
-            print ('adding {} zrythm accounts earnings'.format(amount))
+            print ('adding {} zrythm accounts earnings (Order {})'.format(amount, order['id']))
             monthly_earning += amount
             num_monthly_orders += 1
     else:
@@ -248,10 +248,11 @@ if fetch_orders:
         print (r.json())
 
 # get liberapay earnings
-    for lp_account in [ 'Zrythm', 'alextee' ]:
+    for lp_account in [ 'alextee' ]:
         r = requests.get('https://liberapay.com/' + lp_account + '/public.json')
         if r.status_code == 200:
             amount = float(r.json()['receiving']['amount']) * 4.0
+            amount = amount / currency_rates['JPY']
             amount = float('%.2f' % amount)
             print ('adding {} liberapay earnings'.format(amount))
             monthly_earning += amount
