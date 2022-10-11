@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-11 19:50+0900\n"
-"PO-Revision-Date: 2022-10-11 10:46+0000\n"
+"PO-Revision-Date: 2022-10-12 15:52+0000\n"
 "Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/zrythm/web/ko/>\n"
 "Language: ko\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.14.1\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -79,7 +79,7 @@ msgstr "8x8 후기 잔향 FDN 리버브"
 
 #: template.py:444
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZCordz는 단음계 또는 장음계의 코드를 흰색 키에 매핑합니다"
+msgstr "ZCordz는 단음계 또는 장음계의 화음을 흰색 키에 매핑"
 
 #: template.py:445
 msgid "Major or minor scale"
@@ -167,7 +167,7 @@ msgstr "루프"
 
 #: template.py:484
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr "루프 오디오, MIDI, 자동화 및 코드 클립입니다."
+msgstr "루프 오디오, MIDI, 자동화 및 화음 클립입니다."
 
 #: template.py:487 template.py:728
 msgid "Featureful Timeline"
@@ -211,7 +211,7 @@ msgstr "피아노 롤"
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
-msgstr "코드 통합이 있는 전용 피아노 롤에서 MIDI 이벤트를 생성, 편집 및 정렬합니다."
+msgstr "화음 통합이 있는 전용 피아노 롤에서 MIDI 이벤트를 생성, 편집 및 정렬합니다."
 
 #: template.py:506
 msgid "Drum View"
@@ -427,21 +427,20 @@ msgid "Plugin Support"
 msgstr "플러그인 지원"
 
 #: template.py:590
-#| msgid ""
-#| "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
-#| "including LV2, VST2, VST3 and AU."
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"{ref}Carla{endref} 덕분에 Zrythm은 LV2, VST2, VST3, AU, CLAP 및 JSFX를 "
+"포함한 다양한 플러그인 형식을 지원합니다."
 
 #: template.py:592
 msgid "SoundFonts as Plugins"
-msgstr "플러그인으로서의 SoundFont"
+msgstr "플러그인으로서의 사운드폰트"
 
 #: template.py:593
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr "악기 플러그인으로 SFZ 및 SF2 soundfont를 사용합니다."
+msgstr "악기 플러그인으로 SFZ 및 SF2 사운드폰트를 사용합니다."
 
 #: template.py:595
 msgid "Flexible Plugin Browser"
@@ -513,48 +512,51 @@ msgstr "특정 트랙의 stem을 내보내고 다른 제작자와 공유합니�
 
 #: template.py:621 template.py:722
 msgid "Chord Assistance"
-msgstr "코드 지원"
+msgstr "화음 지원"
 
 #: template.py:624
 msgid "Chord Audition"
-msgstr "코드 오디션"
+msgstr "화음 오디션"
 
 #: template.py:625
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
-msgstr "패드를 클릭하거나 MIDI 키보드의 음을 눌러 코드를 빠르게 듣고 코드를 타임라인으로 끌어다 놓습니다."
+msgstr "패드를 클릭하거나 MIDI 키보드의 음을 눌러 화음을 빠르게 듣고 화음을 "
+"타임라인으로 끌어다 놓습니다."
 
 #: template.py:627
 msgid "Chord Editing"
-msgstr "코드 편집"
+msgstr "화음 편집"
 
 #: template.py:628
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
-msgstr ""
-"한 번의 클릭으로 코드를 반전시키거나 현재 스케일에서 코드를 필터링하는 옵션과 함께 코드 선택기를 사용하여 코드를 선택합니다."
+msgstr "한 번의 클릭으로 화음을 반전시키거나 현재 음계에서 화음을 필터링하는 옵션과 "
+"함께 화음 선택기를 사용하여 화음을 선택합니다."
 
 #: template.py:630
 msgid "Recordable Chord Track"
-msgstr "녹음 가능한 코드 트랙"
+msgstr "녹음 가능한 화음 트랙"
 
 #: template.py:631
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
-msgstr "프로젝트의 음계와 코드 진행을 지시하거나 녹음하고 선택적으로 출력을 악기로 라우팅합니다."
+msgstr "프로젝트의 음계와 화음 진행을 지시하거나 녹음하고 선택적으로 출력을 악기로 "
+"라우팅합니다."
 
 #: template.py:633
 msgid "Chord Presets"
-msgstr "코드 사전 설정"
+msgstr "화음 사전 설정"
 
 #: template.py:634
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
-msgstr "다양한 음계에서 코드를 생성하고 다양한 장르에 대해 포함된 코드 사전 설정을 로드하거나 자신의 코드를 저장합니다."
+msgstr "다양한 음계에서 화음을 생성하고 다양한 장르에 대해 포함된 화음사전 설정을 "
+"불러오거나 자신의 화음을 저장합니다."
 
 #: template.py:637 template.py:731
 msgid "Never Lose Work"
@@ -744,14 +746,15 @@ msgstr "무한 자동화"
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
-msgstr "직선, 램프 및 곡선을 사용하거나 LFO 및 봉투를 사용하는 자동화 이벤트로 거의 모든 것을 자동화합니다."
+msgstr "직선, 램프, 곡선을 사용하거나 LFO 및 봉투를 사용하는 자동화 이벤트로 거의 "
+"모든 것을 자동화합니다."
 
 #: template.py:720
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
-msgstr ""
-"상황에 맞는 청취, 신호 그룹, FX 트랙, MIDI 효과 및 삽입 슬롯, 프리 및 포스트 페이더 aux 센드 및 어디서나 라우팅합니다."
+msgstr "상황에 맞는 청취, 신호 그룹, FX 트랙, MIDI 효과, 삽입 슬롯, 전/후 페이더 aux "
+"보내기 및 어디서나 라우팅합니다."
 
 #: template.py:723
 msgid ""
@@ -759,23 +762,23 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
-"코드 패드의 스케일에서 코드를 생성하고, 코드를 오디션 및 반전하거나, 코드 사전 설정을 저장하고, 코드 트랙에서 코드 진행을 관리하고,"
-" 피아노 롤에서 코드 강조 표시를 즐기세요."
+"화음 패드의 음계에서 화음을 생성하고, 화음을 오디션 및 반전하거나, 화음 사전 "
+"설정을 저장하고, 화음 트랙에서 화음 진행을 관리하고, 피아노 롤에서 화음 강조 "
+"표시를 즐기세요."
 
 #: template.py:725
 msgid "Audio Plugins"
 msgstr "오디오 플러그인"
 
 #: template.py:726
-#| msgid ""
-#| "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
-#| "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
-#| "sandboxing thanks to {carla_ref}Carla{endref}."
 msgid ""
 "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"{lv2_ref}LV2{endref}, VST2, VST3, AU, CLAP 및 JSFX를 포함한 모든 주요 "
+"플러그인 형식을 지원하고 {carla_ref}Carla{endref} 덕분에 SFZ 및 SF2 "
+"사운드폰트와 샌드박싱을 추가로 지원합니다."
 
 #: template.py:729
 msgid ""
@@ -804,8 +807,9 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
-"Zrythm은 완전히 감사 가능한 소스 코드가 포함된 {copyleft_ref}copyleft{endref} "
-"{free_software_ref}자유 소프트웨어</a>입니다. 자유롭게 사용, 연구, 공유 및 개선하세요."
+"Zrythm은 완전히 감사 가능한 소스 코드가 포함된 "
+"{copyleft_ref}카피레프트{endref} {free_software_ref}자유 소프트웨어</"
+"a>입니다. 자유롭게 사용, 연구, 공유 및 개선하세요."
 
 #: common/footer.j2.inc:26
 msgid ""
@@ -1155,8 +1159,9 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythm은 기능적이고 사용하기 쉽도록 설계된 디지털 오디오 워크스테이션입니다. 무한한 자동화를 허용하고, LV2 플러그인을 지원하고,"
-" JACK 오디오 백엔드와 함께 작동하고, 코드 지원을 제공합니다."
+"Zrythm은 기능적이고 사용하기 쉽도록 설계된 디지털 오디오 워크스테이션입니다. "
+"무한한 자동화 허용, LV2 플러그인 지원, JACK 오디오 백엔드와 함께 작동, 화음 "
+"지원을 제공합니다."
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
@@ -1342,9 +1347,8 @@ msgid "Technical specs"
 msgstr "기술 사양"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
-msgstr ""
+msgstr "2022년 10월 3일 마지막으로 업데이트됨"
 
 #~ msgid ""
 #~ "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
