@@ -587,7 +587,7 @@ for in_file in glob.glob("template/*.j2"):
                 [
                     Feature(
                         _('Plugin Support'), 'plugin-showcase.png',
-                        _('Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats including LV2, VST2, VST3 and AU.').format (ref = '<a href="https://github.com/falkTX/Carla/">', endref = endref)),
+                        _('Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats including LV2, VST2, VST3, AU, CLAP and JSFX.').format (ref = '<a href="https://github.com/falkTX/Carla/">', endref = endref)),
                     Feature(
                         _('SoundFonts as Plugins'), 'Sfz_file_format_logo.png',
                         _('Use SFZ and SF2 soundfonts as instrument plugins.')),
@@ -723,7 +723,7 @@ for in_file in glob.glob("template/*.j2"):
                 _('Generate chords from scales in the chord pad, audition and invert chords or save your own chord presets, manage your chord progression in the chord track and enjoy chord highlighting in the piano roll.')),
             Feature(
                 _('Audio Plugins'), 'plugin-showcase.png',
-                _('Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, VST3 and AU, with additional support for SFZ and SF2 soundfonts and sandboxing thanks to {carla_ref}Carla{endref}.').format (lv2_ref = '<a href="https://lv2plug.in/">', carla_ref = '<a href="https://kx.studio/Applications:Carla">', endref = '</a>')),
+                _('Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts and sandboxing thanks to {carla_ref}Carla{endref}.').format (lv2_ref = '<a href="https://lv2plug.in/">', carla_ref = '<a href="https://kx.studio/Applications:Carla">', endref = '</a>')),
             Feature(
                 _('Featureful Timeline'), 'https://manual.zrythm.org/en/_images/track-lanes.png',
                 _('Organize your work into multiple layers in the same track using track lanes, quickly bounce anything to audio, import/export a wide variety of audio and MIDI formats, stretch or loop any region and select from an array of track types for every purpose.')),
