@@ -8,74 +8,74 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-13 01:20+0900\n"
-"PO-Revision-Date: 2022-04-08 15:09+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"PO-Revision-Date: 2022-10-11 10:46+0000\n"
+"Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/zrythm/web/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.12-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "스테레오 다이내믹 레인지 컴프레서"
 
 #: template.py:402
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "3 차원 비선형성 왜곡"
 
 #: template.py:405
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "스테레오 플랜징 효과"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "스테레오 시그널 게이트"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "2 차 버터워스 하이패스 필터"
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "2 차 버터워스 로우패스 필터"
 
 #: template.py:417
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "파라메트릭 이퀄라이저"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "1176 피크 리미터를 모델로 한 다이내믹 레인지 컴프레서"
 
 #: template.py:423
 msgid "Phasing effect"
-msgstr ""
+msgstr "페이징 효과"
 
 #: template.py:426
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "3 개의 디튠된 오실레이터 보이스가 있는 폴리포닉 신디사이저"
 
 #: template.py:429
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr ""
+msgstr "지연 타임이 변경될 때 클릭하지 않고 조옮김하지 않는 지연"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "4 차까지의 와 페달 효과"
 
 #: template.py:435
 msgid "White noise generator"
-msgstr ""
+msgstr "백색 잡음 발생기"
 
 #: template.py:438
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "8x8 후기 잔향 FDN 리버브"
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -87,544 +87,562 @@ msgstr "장음계 또는 단음계"
 
 #: template.py:445
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "음당 속도 승수"
 
 #: template.py:448
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO는 CV 기반 자동화를 위한 모든 기능을 갖춘 LFO"
 
 #: template.py:449
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "커스텀 웨이브가 있는 다중 오실레이터"
 
 #: template.py:450
 msgid "Phase shift"
-msgstr ""
+msgstr "위상 변이"
 
 #: template.py:451
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "수직/수평 반전"
 
 #: template.py:452
 msgid "Step mode"
-msgstr ""
+msgstr "단계 모드"
 
 #: template.py:453
 msgid "Editable range"
-msgstr ""
+msgstr "편집 가능한 범위"
 
 #: template.py:454
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "호스트 또는 자유 형식에 동기화"
 
 #: template.py:457
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw는 1개의 매개변수가 있는 슈퍼쏘 신디사이저"
 
 #: template.py:458
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 개의 톱니파 오실레이터"
 
 #: template.py:459
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "디튠을 제어하는 단일 노브"
 
 #: template.py:470 template.py:712
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "직관적인 편집"
 
 #: template.py:473
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "유연한 선택 도구"
 
 #: template.py:474
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
-msgstr ""
+msgstr "{ref}단일 도구{endref}를 사용하여 객체를 선택, 이동, 크기 조정, 복제, 연결, "
+"반복, 삭제 및 잘라냅니다."
 
 #: template.py:476
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "광범위한 도구 상자"
 
 #: template.py:477
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
-msgstr ""
+msgstr "{ref}편집, 잘라내기, 지우기, 램프 또는 오디션 도구{endref}로 전환하여 선택 "
+"도구 기능을 확장합니다."
 
 #: template.py:479
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "적응형 스냅"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "스냅핑 동작은 현재 확대/축소 수준으로 조정됩니다."
 
 #: template.py:482
 msgid "Looping"
-msgstr ""
+msgstr "루프"
 
 #: template.py:483
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "루프 오디오, MIDI, 자동화 및 코드 클립입니다."
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "기능적 타임라인"
 
 #: template.py:489
 msgid "Track Lanes"
-msgstr ""
+msgstr "트랙 레인"
 
 #: template.py:490
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
-msgstr ""
+msgstr "{ref}트랙 레인{endref}을 사용하여 동일한 트랙에 오디오/MIDI의 여러 레이어를 "
+"추가합니다."
 
 #: template.py:492
 msgid "Bounce in Place"
-msgstr ""
+msgstr "바운스 유지"
 
 #: template.py:493
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "선택한 자료를 오디오로 빠르게 바운스합니다."
 
 #: template.py:495
 msgid "Stretching"
-msgstr ""
+msgstr "스트레칭"
 
 #: template.py:496
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "영역의 모든 유형 늘이기"
 
 #: template.py:499
 msgid "Powerful Editors"
-msgstr ""
+msgstr "강력한 편집기"
 
 #: template.py:502
 msgid "Piano Roll"
-msgstr ""
+msgstr "피아노 롤"
 
 #: template.py:503
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
-msgstr ""
+msgstr "코드 통합이 있는 전용 피아노 롤에서 MIDI 이벤트를 생성, 편집 및 정렬합니다."
 
 #: template.py:505
 msgid "Drum View"
-msgstr ""
+msgstr "드럼 보기"
 
 #: template.py:506
 msgid "One-click switch to drum view for editing single-hit instruments."
-msgstr ""
+msgstr "한 번의 클릭으로 단일 히트 악기를 편집할 수 있는 드럼 보기로 전환합니다."
 
 #: template.py:508
 msgid "Velocity Editor"
-msgstr ""
+msgstr "속도 편집기"
 
 #: template.py:509
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
-msgstr ""
+msgstr "선택 도구로 여러 속도를 동시에 편집하거나 연필 또는 램프 도구로 그립니다."
 
 #: template.py:511
 msgid "Audio Editor"
-msgstr ""
+msgstr "오디오 편집기"
 
 #: template.py:512
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
-msgstr ""
+msgstr "오디오 편집기 내에서 오디오 기능을 사용하여 페이드/게인을 조정하고 오디오 "
+"클립의 일부를 편집합니다."
 
 #: template.py:514
 msgid "List Editors"
-msgstr ""
+msgstr "목록 편집기"
 
 #: template.py:515
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "이벤트 뷰어에서 수동으로 개체 매개변수를 편집합니다."
 
 #: template.py:517
 msgid "Editor Functions"
-msgstr ""
+msgstr "편집기 기능"
 
 #: template.py:518
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
-msgstr ""
+msgstr "레가토, 반전 및 페이드 아웃과 같은 기능을 선택한 객체에 빠르게 적용합니다."
 
 #: template.py:520
 msgid "External App Integration"
-msgstr ""
+msgstr "외부 앱 통합"
 
 #: template.py:521
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "외부 앱에서 선택한 오디오 부분을 편집합니다."
 
 #: template.py:524
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "녹음 기능"
 
 #: template.py:527
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "오디오/MIDI 녹음"
 
 #: template.py:528
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
-msgstr ""
+msgstr "모든 장치에서 또는 JACK을 사용하여 다른 앱에서 오디오/MIDI를 녹음합니다."
 
 #: template.py:530
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "포괄적인 녹화 설정"
 
 #: template.py:531
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
-msgstr ""
+msgstr "펀치 인/펀치 아웃을 사용하고 MIDI 입력에 녹음하고 선택적으로 다중 테이크를 "
+"만듭니다."
 
 #: template.py:533
 msgid "Automation Recording"
-msgstr ""
+msgstr "자동화 녹음"
 
 #: template.py:534
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "래치/터치 모드에서 자동화를 기록합니다."
 
 #: template.py:536
 msgid "Device Controls"
-msgstr ""
+msgstr "장치 제어"
 
 #: template.py:537
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
-msgstr ""
+msgstr "장치 손잡이를 Zrythm 내부의 컨트롤에 연결하고 작업을 기록합니다."
 
 #: template.py:540 template.py:718
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "믹싱 기능"
 
 #: template.py:543
 msgid "Group Tracks"
-msgstr ""
+msgstr "그룹 트랙"
 
 #: template.py:544
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "그룹 트랙으로 오디오/MIDI 신호 그룹을 구성합니다."
 
 #: template.py:546
 msgid "Aux Sends"
-msgstr ""
+msgstr "Aux 보내기"
 
 #: template.py:547
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
-msgstr ""
+msgstr "신호를 FX 트랙 및 플러그인 사이드체인 입력으로 쉽게 라우팅합니다."
 
 #: template.py:549
 msgid "In-Context Listening"
-msgstr ""
+msgstr "상황에 맞는 듣기"
 
 #: template.py:550
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
-msgstr ""
+msgstr "다른 모든 트랙을 흐리게 하여 믹스의 컨텍스트에서 지정된 트랙을 듣습니다."
 
 #: template.py:552
 msgid "Monitor Section"
-msgstr ""
+msgstr "모니터 섹션"
 
 #: template.py:553
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
-msgstr ""
+msgstr "듣기/음소거/솔로 동작을 변경하고 스피커로 전달되는 항목을 조정합니다."
 
 #: template.py:556
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "무제한 자동화"
 
 #: template.py:559
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "어디서나 연결"
 
 #: template.py:560
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "어떤 것이든 연결하세요."
 
 #: template.py:562
 msgid "Automation Curves"
-msgstr ""
+msgstr "자동화 곡선"
 
 #: template.py:563
 msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
-msgstr ""
+msgstr "지수 및 타원 곡선과 같은 여러 곡선 알고리즘에서 선택하여 직선 또는 곡선으로 "
+"매개변수를 자동화합니다."
 
 #: template.py:565
 msgid "Envelopes"
-msgstr ""
+msgstr "봉투"
 
 #: template.py:566
 msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
-msgstr ""
+msgstr "매크로 노브 및 ZLFO와 같은 LFO 플러그인을 포함하여 CV 신호 또는 엔벨로프를 "
+"사용하여 매개변수를 자동화합니다."
 
 #: template.py:568
 msgid "Automate Anything"
-msgstr ""
+msgstr "무엇이든 자동화"
 
 #: template.py:569
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
-msgstr ""
+msgstr "프로젝트의 BPM 및 박자를 포함하여 가능한 모든 매개변수를 자동화합니다."
 
 #: template.py:572
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "직관적인 사용자 인터페이스"
 
 #: template.py:575
 msgid "Detachable Views"
-msgstr ""
+msgstr "분리 가능한 보기"
 
 #: template.py:576
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
-msgstr ""
+msgstr "모든 패널에서 보기를 분리하고 다중 모니터 설정으로 효율적으로 작업합니다."
 
 #: template.py:578
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "검색 가능한 기본 설정"
 
 #: template.py:579
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "원하는 기본 설정을 찾으려면 입력을 시작하세요."
 
 #: template.py:581
 msgid "Inspector Pages"
-msgstr ""
+msgstr "검사기 페이지"
 
 #: template.py:582
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "검사기에서 모든 트랙 및 플러그인 매개변수를 편집합니다."
 
 #: template.py:585
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "플러그인 기능"
 
 #: template.py:588
 msgid "Plugin Support"
-msgstr ""
+msgstr "플러그인 지원"
 
 #: template.py:589
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3 and AU."
 msgstr ""
+"{ref}Carla{endref} 덕분에 Zrythm은 LV2, VST2, VST3 및 AU를 포함한 다양한 "
+"플러그인 형식을 지원합니다."
 
 #: template.py:591
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "플러그인으로서의 SoundFont"
 
 #: template.py:592
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr ""
+msgstr "악기 플러그인으로 SFZ 및 SF2 soundfont를 사용합니다."
 
 #: template.py:594
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "유연한 플러그인 탐색기"
 
 #: template.py:595
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
-msgstr ""
+msgstr "작성자, 형식 또는 범주별로 플러그인을 쉽게 필터링하고 플러그인 컬렉션으로 "
+"즐겨찾는 플러그인을 구성하세요."
 
 #: template.py:597
 msgid "Plugin Bridging"
-msgstr ""
+msgstr "플러그인 브리징"
 
 #: template.py:598
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr ""
+msgstr "브리지 모드에서 그것들이 열림에 의한 샌드박스 플러그인입니다."
 
 #: template.py:600
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "자동 우회 모드"
 
 #: template.py:601
 msgid "Easily bypass plugins in the signal chain with an automatable control."
-msgstr ""
+msgstr "자동화 가능한 제어를 통해 신호 체인의 플러그인을 쉽게 우회합니다."
 
 #: template.py:604
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "포괄적인 가져오기/내보내기"
 
 #: template.py:607
 msgid "File Browser"
-msgstr ""
+msgstr "파일 탐색기"
 
 #: template.py:608
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
-msgstr ""
+msgstr "MIDI 및 오디오 파일을 탐색 및 오디션하고 즐겨찾는 경로를 즐겨찾기로 "
+"구성합니다."
 
 #: template.py:610
 msgid "Audio Files"
-msgstr ""
+msgstr "오디오 파일"
 
 #: template.py:611
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
+"추가 MP3 가져오기 지원과 함께 {ref}libsndfile{endref}에서 지원하는 모든 "
+"형식을 가져오거나 내보낼 수 있습니다."
 
 #: template.py:613
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:614
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
-msgstr ""
+msgstr "MIDI 유형 0 또는 유형 1 형식으로 프로젝트의 일부를 가져오거나 내보냅니다."
 
 #: template.py:616
 msgid "Stem Export"
-msgstr ""
+msgstr "Stem 내보내기"
 
 #: template.py:617
 msgid "Export stems for specific tracks and share them with other producers."
-msgstr ""
+msgstr "특정 트랙의 stem을 내보내고 다른 제작자와 공유합니다."
 
 #: template.py:620 template.py:721
 msgid "Chord Assistance"
-msgstr ""
+msgstr "코드 지원"
 
 #: template.py:623
 msgid "Chord Audition"
-msgstr ""
+msgstr "코드 오디션"
 
 #: template.py:624
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
-msgstr ""
+msgstr "패드를 클릭하거나 MIDI 키보드의 음을 눌러 코드를 빠르게 듣고 코드를 "
+"타임라인으로 끌어다 놓습니다."
 
 #: template.py:626
 msgid "Chord Editing"
-msgstr ""
+msgstr "코드 편집"
 
 #: template.py:627
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
-msgstr ""
+msgstr "한 번의 클릭으로 코드를 반전시키거나 현재 스케일에서 코드를 필터링하는 "
+"옵션과 함께 코드 선택기를 사용하여 코드를 선택합니다."
 
 #: template.py:629
 msgid "Recordable Chord Track"
-msgstr ""
+msgstr "녹음 가능한 코드 트랙"
 
 #: template.py:630
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
-msgstr ""
+msgstr "프로젝트의 음계와 코드 진행을 지시하거나 녹음하고 선택적으로 출력을 악기로 "
+"라우팅합니다."
 
 #: template.py:632
 msgid "Chord Presets"
-msgstr ""
+msgstr "코드 사전 설정"
 
 #: template.py:633
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
-msgstr ""
+msgstr "다양한 음계에서 코드를 생성하고 다양한 장르에 대해 포함된 코드 사전 설정을 "
+"로드하거나 자신의 코드를 저장합니다."
 
 #: template.py:636 template.py:730
 msgid "Never Lose Work"
-msgstr ""
+msgstr "절대 작업을 잃지 않음"
 
 #: template.py:639
 msgid "Project Backups"
-msgstr ""
+msgstr "프로젝트 백업"
 
 #: template.py:640
 msgid "Backups taken automatically at user-specified intervals."
-msgstr ""
+msgstr "사용자가 지정한 간격으로 자동으로 백업을 수행합니다."
 
 #: template.py:642
 msgid "Undoable Actions"
-msgstr ""
+msgstr "취소할 수 없는 작업"
 
 #: template.py:643
 msgid "Almost every user action is undoable."
-msgstr ""
+msgstr "거의 모든 사용자 작업은 실행 취소할 수 있습니다."
 
 #: template.py:645
 msgid "Serializable Undo History"
-msgstr ""
+msgstr "직렬화 가능한 실행 취소 이력"
 
 #: template.py:646
 msgid "Keep your undo history when saving projects."
-msgstr ""
+msgstr "프로젝트를 저장할 때 실행 취소 이력을 유지하세요."
 
 #: template.py:649
 msgid "Scripting"
-msgstr ""
+msgstr "스크립팅"
 
 #: template.py:652
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Zrythm 확장"
 
 #: template.py:653
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
-msgstr ""
+msgstr "{ref}GNU Guile 스크립트{endref}를 사용하여 상태를 편집하여 Zrythm의 기능을 "
+"확장합니다."
 
 #: template.py:655
 msgid "Custom Editor Functions"
-msgstr ""
+msgstr "커스텀 편집기 기능"
 
 #: template.py:656
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
-msgstr ""
+msgstr "자신의 MIDI/오디오/자동화 기능을 구현하세요 (곧 제공 예정)."
 
 #: template.py:658
 msgid "Project Generation"
-msgstr ""
+msgstr "프로젝트 생성"
 
 #: template.py:659
 msgid "Generate projects with GNU Guile scripts."
-msgstr ""
+msgstr "GNU Guile 스크립트로 프로젝트를 생성하세요."
 
 #: template.py:662
 msgid "Optimized Performance"
-msgstr ""
+msgstr "최적화된 성능"
 
 #: template.py:665
 msgid "Hardware accelerated UI"
-msgstr ""
+msgstr "하드웨어 가속 UI"
 
 #: template.py:666
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
-msgstr ""
+msgstr "대부분의 사용자 인터페이스는 {ref}GTK4{endref} 덕분에 GPU에 그려집니다."
 
 #: template.py:668
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMD 최적화 DSP"
 
 #: template.py:669
 msgid ""
@@ -632,22 +650,24 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
+"Zrythm은 오디오 처리 속도를 높이고 DSP 사용을 최소화하기 위해 SSE, AVX 및 "
+"FMA와 같은 SIMD 확장을 구현하는 {ref}lsp-dsp-lib{endref}를 사용합니다."
 
 #: template.py:671
 msgid "Extensive Caching"
-msgstr ""
+msgstr "광범위한 캐싱"
 
 #: template.py:672
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "처리 시간을 절약하기 위해 고가의 계산이 미리 계산됩니다."
 
 #: template.py:675
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "플랫폼 간 지원"
 
 #: template.py:678
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "다중 플랫폼"
 
 #: template.py:679
 msgid ""
@@ -655,66 +675,71 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythm은 x86 아키텍처, PowerPC, RISC-V, ARMv7 및 ARMv8을 포함한 {ref} 다양한 "
+"플랫폼 및 아키텍처{endref}에서 실행되도록 설계되었습니다."
 
 #: template.py:681
 msgid "Multiple Backends"
-msgstr ""
+msgstr "다중 백엔드"
 
 #: template.py:682
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"JACK/PipeWire, 윈도우즈 MME, WASAPI 및 코어 오디오/MIDI를 포함한 거의 모든 "
+"주요 오디오 및 MIDI 백엔드를 지원합니다."
 
 #: template.py:685
 msgid "Localization"
-msgstr ""
+msgstr "현지화"
 
 #: template.py:688
 msgid "Localized UI"
-msgstr ""
+msgstr "현지화된 UI"
 
 #: template.py:689
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "원하는 언어로 Zrythm을 사용하세요."
 
 #: template.py:691
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "쉽게 번역 추가"
 
 #: template.py:692
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
-msgstr ""
+msgstr "{ref}Weblate{endref}에서 누락된 번역 및 로케일을 추가하세요."
 
 #: template.py:695
 msgid "User Freedom"
-msgstr ""
+msgstr "사용자 자유"
 
 #: template.py:698
 msgid "Free Software"
-msgstr ""
+msgstr "무료 소프트웨어"
 
 #: template.py:699
 msgid "All source code is released as {ref}copyleft free software{endref}."
-msgstr ""
+msgstr "모든 소스 코드는 {ref}카피레프트 자유 소프트웨어{endref}로 출시됩니다."
 
 #: template.py:701
 msgid "Open Standards"
-msgstr ""
+msgstr "개방형 표준"
 
 #: template.py:702
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
-msgstr ""
+msgstr "Zrythm은 MIDI, LV2, FLAC 및 OGG와 같은 개방형 표준을 지원합니다."
 
 #: template.py:704
 msgid "Cooperation"
-msgstr ""
+msgstr "협력"
 
 #: template.py:705
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
-msgstr ""
+msgstr "우리는 Zrythm이 모든 플랫폼에서 문제 없이 빌드되고 실행될 수 있도록 무료 "
+"소프트웨어 커뮤니티와 협력합니다."
 
 #: template.py:713
 msgid ""
@@ -722,22 +747,28 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"단일 도구로 객체를 쉽게 선택, 이동, 크기 조정, 복제, 연결, 루프, 삭제 및 "
+"자르거나 추가 특수 도구로 기능을 확장하고 모든 편곡기에서 적응형 스냅을 즐길 "
+"수 있습니다."
 
 #: template.py:715
 msgid "Limitless Automation"
-msgstr ""
+msgstr "무한 자동화"
 
 #: template.py:716
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
-msgstr ""
+msgstr "직선, 램프 및 곡선을 사용하거나 LFO 및 봉투를 사용하는 자동화 이벤트로 거의 "
+"모든 것을 자동화합니다."
 
 #: template.py:719
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
+"상황에 맞는 청취, 신호 그룹, FX 트랙, MIDI 효과 및 삽입 슬롯, 프리 및 포스트 "
+"페이더 aux 센드 및 어디서나 라우팅합니다."
 
 #: template.py:722
 msgid ""
@@ -745,10 +776,13 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
+"코드 패드의 스케일에서 코드를 생성하고, 코드를 오디션 및 반전하거나, 코드 "
+"사전 설정을 저장하고, 코드 트랙에서 코드 진행을 관리하고, 피아노 롤에서 코드 "
+"강조 표시를 즐기세요."
 
 #: template.py:724
 msgid "Audio Plugins"
-msgstr ""
+msgstr "오디오 플러그인"
 
 #: template.py:725
 msgid ""
@@ -756,6 +790,9 @@ msgid ""
 "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
 "sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"{lv2_ref}LV2{endref}, VST2, VST3 및 AU를 포함한 모든 주요 플러그인 형식에 "
+"대한 지원과 {carla_ref}Carla{endref} 덕분에 SFZ 및 SF2 사운드 글꼴 및 "
+"샌드박싱에 대한 추가 지원이 포함됩니다."
 
 #: template.py:728
 msgid ""
@@ -764,16 +801,22 @@ msgid ""
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
+"트랙 레인을 사용하여 동일한 트랙의 여러 레이어로 작업을 구성하고, 무엇이든 "
+"빠르게 오디오로 바운스하고, 다양한 오디오 및 MIDI 형식을 가져오거나 "
+"내보내고, 영역을 늘리거나 반복하고, 모든 목적에 맞는 다양한 트랙 유형 중에서 "
+"선택합니다."
 
 #: template.py:731
 msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr ""
+"자동 프로젝트 백업으로 작업을 복구하고 거의 모든 사용자 작업을 실행 취소하고 "
+"프로젝트와 함께 실행 취소 이력을 저장할 수도 있습니다."
 
 #: template.py:733
 msgid "Liberating"
-msgstr ""
+msgstr "자유화"
 
 #: template.py:734
 msgid ""
@@ -781,16 +824,19 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
+"Zrythm은 완전히 감사 가능한 소스 코드가 포함된 {copyleft_ref}copyleft{endref}"
+" {free_software_ref}자유 소프트웨어</a>입니다. 자유롭게 사용, 연구, 공유 및 "
+"개선하세요."
 
 #: common/footer.j2.inc:26
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
-msgstr ""
+msgstr "Zrythm 및 Zrythm 로고는 {ref}Alexandros Theodotou{endref}의 상표입니다."
 
 #: common/footer.j2.inc:30
 msgid "Project"
-msgstr ""
+msgstr "프로젝트"
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
@@ -799,64 +845,64 @@ msgstr "특징 설명"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr ""
+msgstr "사용자 설명서"
 
 #: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
-msgstr ""
+msgstr "개정"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr ""
+msgstr "커뮤니티"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr ""
+msgstr "채팅"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
-msgstr ""
+msgstr "사용자 메일링 목록"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "기여"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "기부"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "이 사이트 정보"
 
 #: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
-msgstr ""
+msgstr "소스 코드"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "법률 정보"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "개인 정보 정책"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
-msgstr ""
+msgstr "문제 보고"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Andrew Harter에 의해 디자인"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "고도로 자동화되고 직관적인 디지털 오디오 워크스테이션입니다."
 
 #: common/header.j2.inc:32
 msgid ""
@@ -865,21 +911,24 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, 디지털 오디오 워크스테이션, 음악 제작, 오디오, 프로 오디오, 리눅스, GNU/"
+"리눅스, 자유 소프트웨어, 무료 소프트웨어, 사운드 편집기, 작곡, MIDI, LV2, "
+"JACK, VST, 오디오 플러그인, 녹음, 편집, 편곡, 편곡자, 믹싱, 마스터링"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "플러그인"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Guide"
-msgstr ""
+msgstr "안내"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "참여"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:69 template/index.html.j2:38
@@ -888,36 +937,36 @@ msgstr "다운로드"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
-msgstr ""
+msgstr "언어 선택"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Zrythm의 커뮤니티 페이지 및 커뮤니케이션 채널"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "개발 참여"
 
 #: template/community.html.j2:47
 msgid ""
 "Send an email to our development mailing list for development discussion"
-msgstr ""
+msgstr "개발 토론을 위해 개발 메일링 리스트로 이메일 보내기"
 
 #: template/community.html.j2:53
 msgid "Submit Feature Requests"
-msgstr ""
+msgstr "기능 요청 제출"
 
 #: template/community.html.j2:56
 msgid "Browse our feature tracker and submit feature requests."
-msgstr ""
+msgstr "기능 추적기를 탐색하고 기능 요청을 제출하세요."
 
 #: template/community.html.j2:62
 msgid "Submit Bug Reports"
-msgstr ""
+msgstr "버그 보고서 제출"
 
 #: template/community.html.j2:65
 msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
+msgstr "버그 추적기를 탐색하고 버그 보고서를 제출하세요."
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
@@ -931,11 +980,11 @@ msgstr "Zrythm DAW, 사용 설명서 및 웹 사이트를 해당 언어로 번�
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "연락하기"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "IRC에서 채팅"
 
 #: template/community.html.j2:90
 msgid ""
@@ -943,80 +992,90 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"IRC 채널은 Libera.Chat의 #zrythm입니다. 채팅 (<code>irc://irc.libera.chat/"
+"zrythm</code>) 입니다. <code>zrythm/user/*</code> 비공개에 대해 운영자에게 "
+"자유롭게 ping을 보내세요."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Matrix에서 채팅"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix는 안전하고 분산된 통신을 위한 개방형 표준입니다. 매트릭스 채널은 "
+"#zrythmdaw:matrix.org이며 IRC와 연결되어 있습니다."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
-msgstr ""
+msgstr "사용자 토론 메일링 목록에 가입"
 
 #: template/community.html.j2:108
 msgid ""
 "Join our user discussion mailing list and share your experience with the "
 "rest of the community."
-msgstr ""
+msgstr "우리의 사용자 토론 메일링 목록에 가입하고 커뮤니티의 나머지 사람들과 경험을 "
+"공유하세요."
 
 #: template/community.html.j2:114
 msgid "Subscribe to the Announce Mailing List"
-msgstr ""
+msgstr "메일링 목록 발표 구독하기"
 
 #: template/community.html.j2:117
 msgid ""
 "Subscribe to our read-only and low volume Announce mailing list to stay up "
 "to date with important announcements."
-msgstr ""
+msgstr "읽기 전용이고 소량인 발표 메일링 목록에 가입하여 중요한 공지 사항을 최신 "
+"상태로 유지하세요."
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Mastodon에서 팔로우"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
-msgstr ""
+msgstr "Mastodon에서 우리를 팔로우하여 새로운 개정에 대한 업데이트를 받고 새로운 "
+"기능을 살짝 엿보고 투표에 참여하세요."
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "CryptoCurrency 기부"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "비트코인(BTC), 라이트코인(LTC) 또는 모네로(XMR)를 보내주세요."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "LiberaPay에 기부"
 
 #: template/community.html.j2:151
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
 "bank account in Europe."
-msgstr ""
+msgstr "LiberaPay의 후원자가 되세요. 페이팔을 사용하여 기부하거나 유럽의 은행 계좌로 "
+"지불할 수 있습니다."
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Open Collective에 기부"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Open Collective에 기부하고 공공 지출을 확인하세요."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
-msgstr ""
+msgstr "Zrythm의 소스 코드를 다운로드하거나 바이너리 패키지 설치 프로그램을 "
+"구입하세요."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "플랫폼 선택"
 
 #: template/download.html.j2:50
 msgid "Downloads"
@@ -1024,27 +1083,27 @@ msgstr "다운로드"
 
 #: template/download.html.j2:56
 msgid "Installers"
-msgstr ""
+msgstr "설치 프로그램"
 
 #: template/download.html.j2:61
 msgid "Basic"
-msgstr ""
+msgstr "기본"
 
 #: template/download.html.j2:62
 msgid "Free"
-msgstr ""
+msgstr "무료"
 
 #: template/download.html.j2:64
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "최대 25 개 트랙"
 
 #: template/download.html.j2:65
 msgid "Basic plugins"
-msgstr ""
+msgstr "기본 플러그인"
 
 #: template/download.html.j2:66
 msgid "Web user manual"
-msgstr ""
+msgstr "웹 사용자 설명서"
 
 #: template/download.html.j2:73
 msgid "Single"
@@ -1053,17 +1112,17 @@ msgstr "단일"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "무제한 트랙"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
 msgid "Basic & Z Series plugins"
-msgstr ""
+msgstr "기본 및 Z 시리즈 플러그인"
 
 #: template/download.html.j2:78 template/download.html.j2:90
 #: template/download.html.j2:102
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "웹 및 PDF 사용자 설명서"
 
 #: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
@@ -1075,47 +1134,47 @@ msgstr "번들"
 
 #: template/download.html.j2:91
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "모든 v1 개정에 대한 접속"
 
 #: template/download.html.j2:97
 msgid "Nightly"
-msgstr "나이틀리"
+msgstr "야간 빌드"
 
 #: template/download.html.j2:98
 msgid "year"
-msgstr ""
+msgstr "년도"
 
 #: template/download.html.j2:103
 msgid "Access to all releases"
-msgstr ""
+msgstr "모든 개정 접속"
 
 #: template/download.html.j2:104
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "야간 빌드 접속"
 
 #: template/download.html.j2:106
 msgid "Subscribe"
-msgstr ""
+msgstr "구독"
 
 #: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
-msgstr ""
+msgstr "* 이 통화의 가격은 추정치"
 
 #: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
+msgstr "설치 프로그램을 구입하여 Zrythm을 지원하세요. 이번 달에 받은 내용:"
 
 #: template/download.html.j2:129
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG 키"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "기능 목록입니다."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "디지털 오디오 워크스테이션"
 
 #: template/index.html.j2:23
 msgid ""
@@ -1123,115 +1182,118 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm은 기능적이고 사용하기 쉽도록 설계된 디지털 오디오 워크스테이션입니다. "
+"무한한 자동화를 허용하고, LV2 플러그인을 지원하고, JACK 오디오 백엔드와 함께 "
+"작동하고, 코드 지원을 제공합니다."
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "고도로 자동화되고 직관적인 디지털 오디오 워크스테이션"
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "더 알아보기"
 
 #: template/index.html.j2:63
 msgid "Showcase"
-msgstr ""
+msgstr "쇼케이스"
 
 #: template/index.html.j2:72 template/index.html.j2:86
 #: template/index.html.j2:100 template/index.html.j2:114
 #: template/index.html.j2:128 template/index.html.j2:142
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "탐색기는 HTML5 비디오를 지원하지 않습니다."
 
 #: template/index.html.j2:133
 msgid "Remake"
-msgstr ""
+msgstr "리메이크"
 
 #: template/index.html.j2:155
 msgid "Testimonials"
-msgstr ""
+msgstr "사용후기"
 
 #: template/index.html.j2:184
 msgid "Affiliates"
-msgstr ""
+msgstr "계열사"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Zrythm 참조 페이지 - 사용자 설명서 - 사용 지침서"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "사용 지침서"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "편집"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "탐색기는 HTML5 비디오를 지원하지 않음"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "선택/늘이기 도구"
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "편집 도구"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
-msgstr ""
+msgstr "자르기 도구"
 
 #: template/learn.html.j2:81
 msgid "Ramp Tool"
-msgstr ""
+msgstr "램프 도구"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "반복 영역"
 
 #: template/learn.html.j2:96
 msgid "Routing"
-msgstr ""
+msgstr "라우팅"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr ""
+msgstr "FX 보내기"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
-msgstr ""
+msgstr "포트 라우팅"
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
-msgstr ""
+msgstr "연습"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "동영상은 여기"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
-msgstr ""
+msgstr "문서"
 
 #: template/learn.html.j2:141
 msgid "Developer Reference"
-msgstr ""
+msgstr "개발자 참조"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "법률 정보"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "법률, 라이센스 및 상표 정보"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "라이센스"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -1240,6 +1302,9 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"Zrythm의 저작권은 Alexandros Theodotou 및 기타 기여자에게 있습니다. Zrythm은 "
+"<a href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"아페로 일반 공중 사용 허가서, 버전 3</a>에 따라 출시되었습니다."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1247,12 +1312,17 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"달리 명시되지 않는 한 Zrythm 웹사이트에서 찾은 동영상은 <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">크리에이티브 커먼즈 저작자표시-"
+"동일조건변경허락 4.0 국제</a>에 따라 공개됩니다."
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"<em>Richard Stallman: 자유 소프트웨어, 자유 사회</em> 비디오는 크리에이티브 "
+"커먼즈 BY-SA-ND 3.0에 따라 사용이 허가되었습니다."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -1261,44 +1331,48 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"크레딧: Christian Nogareda(Kwis, Http://kwis.tumblr.com), Valentin "
+"Pasquier(http://utopiqdream.deviantart.com)가 Richard Stallman 자신과 "
+"Ynternet.org의 아이디어를 기반으로 만든 CC-BY-ND 3.0 아래 그림."
 
 #: template/legal.html.j2:66
 msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
-msgstr ""
+msgstr "이 웹사이트에 있는 이미지에 대한 라이센스는 {ref}이 README 파일{endref}에서 "
+"찾을 수 있습니다."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
-msgstr ""
+msgstr "상표"
 
 #: template/legal.html.j2:77
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm와 Zrythm 로고는 Alexandros Theodotou의 상표로 입니다."
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Zrythm과 함께 번들로 제공되는 플러그인"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "기본 플러그인"
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} 스크린샷"
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
-msgstr ""
+msgstr "Z 시리즈"
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
-msgstr ""
+msgstr "기술 사양"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
-msgstr ""
+msgstr "2021년 8월 4일 최종 업데이트"
 
 #~ msgid ""
 #~ "Fully <a href=\"https://jackaudio.org/\">JACK</a> aware, including support "
