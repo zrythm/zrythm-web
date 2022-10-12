@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-11 19:50+0900\n"
+"POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2022-09-14 04:42+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
@@ -759,10 +759,6 @@ msgid "Audio Plugins"
 msgstr "オーディオプラグイン"
 
 #: template.py:726
-#| msgid ""
-#| "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
-#| "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
-#| "sandboxing thanks to {carla_ref}Carla{endref}."
 msgid ""
 "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
@@ -1330,7 +1326,6 @@ msgid "Technical specs"
 msgstr "技術仕様"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
 msgstr ""
 

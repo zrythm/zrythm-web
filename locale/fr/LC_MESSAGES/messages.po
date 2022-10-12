@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-11 19:50+0900\n"
+"POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2022-10-12 15:52+0000\n"
 "Last-Translator: Nicolas <23nicosa@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -236,13 +236,10 @@ msgid "Velocity Editor"
 msgstr "Éditeur de vélocité"
 
 #: template.py:510
-#, fuzzy
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
-"Éditer plusieurs vélocités en même temps avec l'outils sélectionné ou "
-"dessiner avec l'outils crayon ou l'outils de rampage."
 
 #: template.py:512
 msgid "Audio Editor"
@@ -259,11 +256,8 @@ msgid "List Editors"
 msgstr "Liste d'Éditeurs"
 
 #: template.py:516
-#, fuzzy
 msgid "Edit object parameters manually in the event viewer."
 msgstr ""
-"Éditer les paramètres d'un object manuellement dans la vue d'edition "
-"d'évènement."
 
 #: template.py:518
 msgid "Editor Functions"
@@ -1363,7 +1357,6 @@ msgid "Technical specs"
 msgstr "Spécifications techniques"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
 msgstr ""
 

@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -614,7 +614,8 @@ msgstr "Generación de proyectos"
 
 #: template.py:660
 msgid "Generate projects with GNU Guile scripts."
-msgstr "Genere proyectos mediante secuencias de órdenes escritas en GNU Guile."
+msgstr ""
+"Genere proyectos mediante secuencias de órdenes escritas en GNU Guile."
 
 #: template.py:663
 msgid "Optimized Performance"
@@ -1256,10 +1257,10 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
-"La titularidad de los derechos de copia de Zrythm es de Alexandros Theodotou "
-"y otros contribuyentes. Zrythm está disponible en virtud de la <a href="
-"\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">Licencia "
-"Pública General «Affero» de GNU, versión 3</a>."
+"La titularidad de los derechos de copia de Zrythm es de Alexandros Theodotou"
+" y otros contribuyentes. Zrythm está disponible en virtud de la <a "
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">Licencia"
+" Pública General «Affero» de GNU, versión 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1291,8 +1292,8 @@ msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
-"Las licencias de las imágenes utilizadas en este sitio se encuentran en {ref}"
-"este archivo LÉAME{endref}."
+"Las licencias de las imágenes utilizadas en este sitio se encuentran en "
+"{ref}este archivo LÉAME{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"

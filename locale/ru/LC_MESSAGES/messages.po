@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-11 19:50+0900\n"
+"POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2022-08-26 09:16+0000\n"
 "Last-Translator: Vik <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
@@ -1345,7 +1345,6 @@ msgid "Technical specs"
 msgstr "Технические характеристики"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
 msgstr ""
 

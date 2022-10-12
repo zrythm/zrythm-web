@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-11 19:50+0900\n"
+"POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2022-06-25 18:14+0000\n"
 "Last-Translator: Savio Fialho <saviofialhoan@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
@@ -448,9 +448,6 @@ msgid "Plugin Support"
 msgstr "Suporte a Plugins"
 
 #: template.py:590
-#| msgid ""
-#| "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
-#| "including LV2, VST2, VST3 and AU."
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
@@ -811,10 +808,6 @@ msgid "Audio Plugins"
 msgstr "Plugins de Áudio"
 
 #: template.py:726
-#| msgid ""
-#| "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
-#| "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
-#| "sandboxing thanks to {carla_ref}Carla{endref}."
 msgid ""
 "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
@@ -1392,7 +1385,6 @@ msgid "Technical specs"
 msgstr "Especificações técnicas"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
 msgstr ""
 

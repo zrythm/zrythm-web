@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-11 19:50+0900\n"
+"POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2022-10-10 18:22+0000\n"
 "Last-Translator: Magnitudee <bdls_unbecoming@aleeas.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
@@ -1309,7 +1309,6 @@ msgid "Technical specs"
 msgstr "Spesifikasi teknis"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
 msgstr ""
 
