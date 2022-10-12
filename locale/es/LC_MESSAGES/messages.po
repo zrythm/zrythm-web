@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-11 19:50+0900\n"
-"PO-Revision-Date: 2022-09-17 22:15+0000\n"
+"PO-Revision-Date: 2022-10-12 15:52+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.14.1\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -258,7 +258,7 @@ msgstr ""
 
 #: template.py:518
 msgid "Editor Functions"
-msgstr ""
+msgstr "Funciones del editor"
 
 #: template.py:519
 msgid ""
@@ -479,7 +479,7 @@ msgstr ""
 
 #: template.py:608
 msgid "File Browser"
-msgstr ""
+msgstr "Navegador de archivos"
 
 #: template.py:609
 msgid ""
@@ -610,15 +610,15 @@ msgstr ""
 
 #: template.py:659
 msgid "Project Generation"
-msgstr ""
+msgstr "Generación de proyectos"
 
 #: template.py:660
 msgid "Generate projects with GNU Guile scripts."
-msgstr ""
+msgstr "Genere proyectos mediante secuencias de órdenes escritas en GNU Guile."
 
 #: template.py:663
 msgid "Optimized Performance"
-msgstr ""
+msgstr "Desempeño optimizado"
 
 #: template.py:666
 msgid "Hardware accelerated UI"
@@ -654,7 +654,7 @@ msgstr ""
 
 #: template.py:679
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "Varias plataformas"
 
 #: template.py:680
 msgid ""
@@ -675,7 +675,7 @@ msgstr ""
 
 #: template.py:686
 msgid "Localization"
-msgstr ""
+msgstr "Regionalización"
 
 #: template.py:689
 msgid "Localized UI"
@@ -828,7 +828,7 @@ msgstr "Chat"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
-msgstr ""
+msgstr "Lista de correo para usuarios"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
@@ -1070,7 +1070,7 @@ msgstr "Pistas ilimitadas"
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
 msgid "Basic & Z Series plugins"
-msgstr ""
+msgstr "Complementos básicos y de la serie Z"
 
 #: template/download.html.j2:78 template/download.html.j2:90
 #: template/download.html.j2:102
@@ -1099,11 +1099,11 @@ msgstr ""
 
 #: template/download.html.j2:103
 msgid "Access to all releases"
-msgstr ""
+msgstr "Acceso a todas las versiones"
 
 #: template/download.html.j2:104
 msgid "Access to nightly builds"
-msgstr "Acceso a nightly builds"
+msgstr "Acceso a compilaciones diarias"
 
 #: template/download.html.j2:106
 msgid "Subscribe"
@@ -1115,7 +1115,7 @@ msgstr "* Los precios en esta moneda son estimados"
 
 #: template/download.html.j2:116
 msgid "Support Zrythm by purchasing an installer. This month we received:"
-msgstr ""
+msgstr "Apoye a Zrythm comprando un instalador. Este mes hemos recaudado:"
 
 #: template/download.html.j2:129
 msgid "GPG Key"
@@ -1123,7 +1123,7 @@ msgstr "Clave GPG"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Lista de funcionalidades."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
@@ -1146,7 +1146,7 @@ msgstr ""
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "Conocer más"
 
 #: template/index.html.j2:63
 msgid "Showcase"
@@ -1176,7 +1176,7 @@ msgstr "Páginas de referencia de Zrythm: manual de usuario, tutoriales…"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriales"
 
 #: template/learn.html.j2:41
 msgid "Editing"
@@ -1256,6 +1256,10 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"La titularidad de los derechos de copia de Zrythm es de Alexandros Theodotou "
+"y otros contribuyentes. Zrythm está disponible en virtud de la <a href="
+"\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">Licencia "
+"Pública General «Affero» de GNU, versión 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1287,6 +1291,8 @@ msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
+"Las licencias de las imágenes utilizadas en este sitio se encuentran en {ref}"
+"este archivo LÉAME{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
@@ -1308,7 +1314,7 @@ msgstr "Complementos básicos"
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
-msgstr "{} captura de pantalla"
+msgstr "Captura de pantalla de {}"
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
@@ -1319,9 +1325,8 @@ msgid "Technical specs"
 msgstr "Especificaciones técnicas"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
-msgstr ""
+msgstr "Actualizado por última vez el 3 de octubre de 2022"
 
 #~ msgid "Compiled with all features"
 #~ msgstr "Compilado con todas las funciones"
