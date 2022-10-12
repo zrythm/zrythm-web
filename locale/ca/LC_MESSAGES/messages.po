@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-11 19:50+0900\n"
-"PO-Revision-Date: 2022-09-14 04:42+0000\n"
+"PO-Revision-Date: 2022-10-12 15:52+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -470,13 +470,12 @@ msgid "Plugin Support"
 msgstr "Suport de complements"
 
 #: template.py:590
-#| msgid ""
-#| "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
-#| "including LV2, VST2, VST3 and AU."
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"Gràcies a {ref}Carla{endref}, Zrythm admet una varietat de formats de "
+"complements, inclosos LV2, VST2, VST3, AU, CLAP i JSFX."
 
 #: template.py:592
 msgid "SoundFonts as Plugins"
@@ -855,15 +854,15 @@ msgid "Audio Plugins"
 msgstr "Complements d'àudio"
 
 #: template.py:726
-#| msgid ""
-#| "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
-#| "VST3 and AU, with additional support for SFZ and SF2 soundfonts and "
-#| "sandboxing thanks to {carla_ref}Carla{endref}."
 msgid ""
 "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"Compatibilitat amb tots els formats de complements principals, inclosos "
+"{lv2_ref}LV2{endref}, VST2, VST3, AU, CLAP i JSFX, amb compatibilitat "
+"addicional per a fonts sonores SFZ i SF2 i sandboxing gràcies a "
+"{carla_ref}Carla{endref}."
 
 #: template.py:729
 msgid ""
@@ -1472,9 +1471,8 @@ msgid "Technical specs"
 msgstr "Especificacions tècniques"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 4 Aug 2021"
 msgid "Last updated on 3 Oct 2022"
-msgstr ""
+msgstr "Última actualització el 3 d'octubre de 2022"
 
 #~ msgid "Save/load disabled"
 #~ msgstr "Desar / carregar inhabilitat"
