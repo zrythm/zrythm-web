@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2022-10-12 15:52+0000\n"
-"Last-Translator: Nicolas <23nicosa@gmail.com>\n"
+"PO-Revision-Date: 2022-10-17 00:42+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.15-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -240,6 +240,8 @@ msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Éditer plusieurs vélocités en même temps avec l’outil de sélection ou "
+"dessiner avec l’outil crayon ou l’outil de rampe."
 
 #: template.py:512
 msgid "Audio Editor"
@@ -253,15 +255,15 @@ msgstr ""
 
 #: template.py:515
 msgid "List Editors"
-msgstr "Liste d'Éditeurs"
+msgstr "Éditeurs de liste"
 
 #: template.py:516
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Éditer manuellement les paramètres d'un objet dans la vue d'évènement."
 
 #: template.py:518
 msgid "Editor Functions"
-msgstr "Fonctions d'Éditeur"
+msgstr "Fonctions d'édition"
 
 #: template.py:519
 msgid ""
@@ -271,7 +273,7 @@ msgstr ""
 
 #: template.py:521
 msgid "External App Integration"
-msgstr "Intégration d'App Externe"
+msgstr "Intégration d'app externe"
 
 #: template.py:522
 msgid "Edit selected audio parts in any external app."
