@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-11 19:50+0900\n"
-"PO-Revision-Date: 2022-10-12 15:52+0000\n"
+"PO-Revision-Date: 2022-10-28 16:00+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.15-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -82,7 +82,7 @@ msgstr "Reverberació FDN de reverberació tardana de 8x8"
 #: template.py:444
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz assigna els acords d'una escala menor o major a tecles blanques"
+"ZChordz mapeja els acords d'una escala menor o major a les tecles blanques"
 
 #: template.py:445
 msgid "Major or minor scale"
