@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2022-10-17 00:42+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2022-11-06 09:18+0000\n"
+"Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:400
@@ -230,6 +230,8 @@ msgstr "Vue de percussion"
 #: template.py:507
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
+"Passage en un clic à la vue batterie pour éditer les instruments à frappe "
+"unique."
 
 #: template.py:509
 msgid "Velocity Editor"
@@ -252,6 +254,8 @@ msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Ajustez les fondus/gains et éditez des parties de clips audio en utilisant "
+"les fonctions audio de l'éditeur audio."
 
 #: template.py:515
 msgid "List Editors"
@@ -270,6 +274,8 @@ msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Appliquez rapidement des fonctions telles que Legato, Inverser et Fondu "
+"sortant aux objets sélectionnés."
 
 #: template.py:521
 msgid "External App Integration"
@@ -278,10 +284,12 @@ msgstr "Intégration d'app externe"
 #: template.py:522
 msgid "Edit selected audio parts in any external app."
 msgstr ""
+"Modifiez les parties audio sélectionnées dans n'importe quelle application "
+"externe."
 
 #: template.py:525
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Capacités d'enregistrement"
 
 #: template.py:528
 msgid "Audio/MIDI Recording"
@@ -292,76 +300,88 @@ msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
+"Enregistrez de l'audio/MIDI à partir de n'importe lequel de vos appareils, "
+"ou même à partir d'autres applications en utilisant JACK."
 
 #: template.py:531
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Paramètres d'enregistrement complets"
 
 #: template.py:532
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
+"Utilisez la fonction punch in/punch out, enregistrez sur l'entrée MIDI et "
+"créez éventuellement plusieurs prises."
 
 #: template.py:534
 msgid "Automation Recording"
-msgstr ""
+msgstr "Enregistrement de l'automatisation"
 
 #: template.py:535
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "Enregistrement de l'automatisation en mode latch/touch."
 
 #: template.py:537
 msgid "Device Controls"
-msgstr ""
+msgstr "Contrôles de périphérique"
 
 #: template.py:538
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
+"Liez les boutons de votre appareil aux commandes de Zrythm et enregistrez "
+"vos actions."
 
 #: template.py:541 template.py:719
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "Capacités de mélange"
 
 #: template.py:544
 msgid "Group Tracks"
-msgstr ""
+msgstr "Pistes de groupe"
 
 #: template.py:545
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "Organisez des groupes de signaux audio/MIDI avec des pistes de groupe."
 
 #: template.py:547
 msgid "Aux Sends"
-msgstr ""
+msgstr "Envois auxiliaires"
 
 #: template.py:548
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr ""
+"Acheminez facilement les signaux vers les pistes FX et les entrées latérales "
+"des greffons."
 
 #: template.py:550
 msgid "In-Context Listening"
-msgstr ""
+msgstr "Écoute contextuelle"
 
 #: template.py:551
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
 msgstr ""
+"Écoutez les pistes spécifiées dans le contexte du mixage en atténuant toutes "
+"les autres pistes."
 
 #: template.py:553
 msgid "Monitor Section"
-msgstr ""
+msgstr "Section moniteur"
 
 #: template.py:554
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
+"Modifiez le comportement d'écoute/muet/solo et ajustez ce qui va à vos haut-"
+"parleurs."
 
 #: template.py:557
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "Automatisation illimitée"
 
 #: template.py:560
 msgid "Anywhere-to-Anywhere Connections"
