@@ -277,6 +277,7 @@ if fetch_orders:
                 print ('No response from OpenCollective')
 
 monthly_earning_str = '{0:.2f}'.format(monthly_earning)
+print ('monthly earning amt: {}'.format (monthly_earning_str))
 prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)
 prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_month_earning))
 
@@ -323,7 +324,8 @@ def url(x):
     # TODO: check if file exists
     return "../" + x
 
-screenshot = url('static/images/screenshots/apr-14-2022.png')
+screenshot = url('static/images/screenshots/screenshot-20221015.png')
+logo = url('static/icons/zrythm/z_frame_8.svg')
 
 class Plugin:
     def __init__(self,name,img,summary,features):
@@ -392,6 +394,10 @@ for in_file in glob.glob("template/*.j2"):
         _ = tr.gettext
 
         env.install_gettext_translations(tr, newstyle=True)
+
+        # global
+        keywords = _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing, mastering')
+        slogan = _('A highly automated and intuitive digital audio workstation.')
 
         # plugins
         basic_plugins = [
@@ -788,6 +794,9 @@ for in_file in glob.glob("template/*.j2"):
                               url_localized=url_localized,
                               svg_localized=svg_localized,
                               screenshot=screenshot,
+                              keywords=keywords,
+                              logo=logo,
+                              slogan=slogan,
                               filename=name + "." + ext)
         out_name = "./rendered/" + locale + "/" + in_file.replace('template/', '').rstrip(".j2")
         os.makedirs("./rendered/" + locale, exist_ok=True)

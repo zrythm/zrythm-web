@@ -27,6 +27,20 @@ GNU Affero General Public License for more details.
       audio backend and provides chord assistance.
       {% endtrans %}" />
 <link rel="canonical" href="https://www.zrythm.org/{{ lang }}/index.html">
+
+<!-- JSON-LD schema -->
+<script type="application/ld+json">
+{
+"@context" : "http://schema.org",
+"@type" : "Organization",
+"name" : "Zrythm",
+"url" : "https://www.zrythm.org/{{ lang }}/index.html",
+"image": "{{ screenshot }}",
+"logo": "{{ logo }}",
+"slogan": "{{ slogan }}",
+"keywords": "{{ keywords }}"
+}
+</script>
 {% endblock head_content %}
 
 {% block body_content %}

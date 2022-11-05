@@ -24,6 +24,19 @@ GNU Affero General Public License for more details.
       package installer.
       {% endtrans %}" />
 <link rel="canonical" href="https://www.zrythm.org/{{ lang }}/download.html">
+
+<!-- JSON-LD schema -->
+<script type="application/ld+json">
+{
+"@context" : "http://schema.org",
+"@type" : "Product",
+"name" : "Zrythm DAW",
+"url" : "https://www.zrythm.org/{{ lang }}/download.html",
+"image": "{{ screenshot }}",
+"logo": "{{ logo }}",
+"slogan": "{{ slogan }}",
+}
+</script>
 {% endblock head_content %}
 
 {% block body_content %}

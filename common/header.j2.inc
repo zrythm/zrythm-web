@@ -21,7 +21,7 @@ GNU Affero General Public License for more details.
 
 <!-- OpenGraph -->
 <meta name="og:title" content="Zrythm DAW">
-<meta property="og:description" content="{{ _('A highly automated and intuitive digital audio workstation.') }}" />
+<meta property="og:description" content="{{ slogan }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.zrythm.org/en/index.html" />
 <meta property="og:image" content="{{ screenshot }}" />
@@ -29,11 +29,8 @@ GNU Affero General Public License for more details.
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Alexandros Theodotou">
-<meta name="keywords" content="{{ _('DAW, digital audio workstation, music production, audio, pro audio, Linux, GNU/Linux, free software, libre software, sound editor, composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing, mastering') }}">
+<meta name="keywords" content="{{ keywords }}">
 <link rel="icon" href="{{ url('static/favicon.ico') }}">
-
-<!-- mini.css -->
-{#<link href="{{ url('dist/mini.css/mini-dark.css') }}" rel="stylesheet">#}
 
 <!-- Custom styles for this template -->
 <link href="{{ url('static/styles.css?v=202203302022') }}" rel="stylesheet">
