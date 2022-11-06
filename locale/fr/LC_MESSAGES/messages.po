@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2022-11-06 09:18+0000\n"
-"Last-Translator: Nicolas FAURE <sub26nico@laposte.net>\n"
+"PO-Revision-Date: 2022-11-07 10:02+0000\n"
+"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -274,8 +274,8 @@ msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
-"Appliquez rapidement des fonctions telles que Legato, Inverser et Fondu "
-"sortant aux objets sélectionnés."
+"Appliquez rapidement des fonctions telles que Legato, Inverser et Fondu en "
+"fermeture aux objets sélectionnés."
 
 #: template.py:521
 msgid "External App Integration"
@@ -301,11 +301,11 @@ msgid ""
 "JACK."
 msgstr ""
 "Enregistrez de l'audio/MIDI à partir de n'importe lequel de vos appareils, "
-"ou même à partir d'autres applications en utilisant JACK."
+"ou même à partir d'autres applications utilisant JACK."
 
 #: template.py:531
 msgid "Comprehensive Recording Settings"
-msgstr "Paramètres d'enregistrement complets"
+msgstr "Paramètres d'enregistrement détaillés"
 
 #: template.py:532
 msgid ""
@@ -353,8 +353,8 @@ msgstr "Envois auxiliaires"
 #: template.py:548
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr ""
-"Acheminez facilement les signaux vers les pistes FX et les entrées latérales "
-"des greffons."
+"Acheminez facilement les signaux vers les pistes d'effets et les entrées "
+"latérales des greffons."
 
 #: template.py:550
 msgid "In-Context Listening"
