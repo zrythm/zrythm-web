@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2022-12-01 21:22+0000\n"
-"Last-Translator: leochras <leo@traussnigg.com>\n"
+"Last-Translator: Ludwig <ludwig-o@freenet.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Dynamik-Kompressor (Stereo)"
 
 #: template.py:403
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "Kubische nichtlineare Verzerrung"
 
 #: template.py:406
 msgid "Stereo flanging effect"
@@ -148,6 +148,8 @@ msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
+"Wähle aus, bewege, ändere die Größe, vervielfache, verknüpfe, lösche und "
+"schneide Objekte aus mit einem {ref}einzelnen Werkzeug{endref}."
 
 #: template.py:477
 msgid "Extensive Toolbox"
