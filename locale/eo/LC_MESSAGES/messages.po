@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-20 22:56+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/zrythm/web/eo/>"
+"\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: template.py:400
@@ -129,7 +132,7 @@ msgstr ""
 
 #: template.py:471 template.py:713
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Intuicia redaktado"
 
 #: template.py:474
 msgid "Flexible Select Tool"
@@ -169,7 +172,7 @@ msgstr ""
 
 #: template.py:487 template.py:728
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Funkciplena Templinio"
 
 #: template.py:490
 msgid "Track Lanes"
@@ -307,7 +310,7 @@ msgstr ""
 
 #: template.py:541 template.py:719
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "Kapablo Miksi"
 
 #: template.py:544
 msgid "Group Tracks"
@@ -387,7 +390,7 @@ msgstr ""
 
 #: template.py:573
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "Intuicia fasado"
 
 #: template.py:576
 msgid "Detachable Views"
@@ -505,7 +508,7 @@ msgstr ""
 
 #: template.py:621 template.py:722
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Akorda helpo"
 
 #: template.py:624
 msgid "Chord Audition"
@@ -549,7 +552,7 @@ msgstr ""
 
 #: template.py:637 template.py:731
 msgid "Never Lose Work"
-msgstr ""
+msgstr "Neniam perdu laboron"
 
 #: template.py:640
 msgid "Project Backups"
@@ -722,7 +725,7 @@ msgstr ""
 
 #: template.py:716
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Senlima aŭtomatigo"
 
 #: template.py:717
 msgid ""
@@ -745,7 +748,7 @@ msgstr ""
 
 #: template.py:725
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Kromprogramoj"
 
 #: template.py:726
 msgid ""
@@ -770,7 +773,7 @@ msgstr ""
 
 #: template.py:734
 msgid "Liberating"
-msgstr ""
+msgstr "Libera"
 
 #: template.py:735
 msgid ""
@@ -787,12 +790,12 @@ msgstr ""
 
 #: common/footer.j2.inc:30
 msgid "Project"
-msgstr ""
+msgstr "Projekto"
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
 msgid "Features"
-msgstr ""
+msgstr "Funkcioj"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
@@ -800,19 +803,19 @@ msgstr ""
 
 #: common/footer.j2.inc:39 template/download.html.j2:128
 msgid "Releases"
-msgstr ""
+msgstr "Versioj"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr ""
+msgstr "Komunumo"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr ""
+msgstr "Babili"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
@@ -820,11 +823,11 @@ msgstr ""
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Kontribui"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "Donaci"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
@@ -853,7 +856,7 @@ msgstr ""
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Aŭtomatega kaj intuicia bita sonlaborstacio."
 
 #: common/header.j2.inc:32
 msgid ""
@@ -881,7 +884,7 @@ msgstr ""
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:69 template/index.html.j2:38
 msgid "Download"
-msgstr ""
+msgstr "Elŝuti"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
@@ -1016,11 +1019,11 @@ msgstr ""
 
 #: template/download.html.j2:50
 msgid "Downloads"
-msgstr ""
+msgstr "Elŝutoj"
 
 #: template/download.html.j2:56
 msgid "Installers"
-msgstr ""
+msgstr "Instaliloj"
 
 #: template/download.html.j2:61
 msgid "Basic"
@@ -1028,7 +1031,7 @@ msgstr ""
 
 #: template/download.html.j2:62
 msgid "Free"
-msgstr ""
+msgstr "Senpaga"
 
 #: template/download.html.j2:64
 msgid "Up to 25 tracks"
@@ -1063,7 +1066,7 @@ msgstr ""
 
 #: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
-msgstr ""
+msgstr "Aĉeti"
 
 #: template/download.html.j2:85
 msgid "Bundle"
@@ -1091,7 +1094,7 @@ msgstr ""
 
 #: template/download.html.j2:106
 msgid "Subscribe"
-msgstr ""
+msgstr "Aboni"
 
 #: template/download.html.j2:111
 msgid "* Prices in this currency are estimates"
@@ -1103,11 +1106,11 @@ msgstr ""
 
 #: template/download.html.j2:129
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG-ŝlosilo"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Listo de funkcioj."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
@@ -1122,15 +1125,15 @@ msgstr ""
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "Aŭtomatega kaj intuicia bita sonlaborstacio"
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "Lerni plu"
 
 #: template/index.html.j2:63
 msgid "Showcase"
-msgstr ""
+msgstr "Ekzemploj"
 
 #: template/index.html.j2:72 template/index.html.j2:86
 #: template/index.html.j2:100 template/index.html.j2:114
@@ -1144,11 +1147,11 @@ msgstr ""
 
 #: template/index.html.j2:155
 msgid "Testimonials"
-msgstr ""
+msgstr "Atestoj"
 
 #: template/index.html.j2:184
 msgid "Affiliates"
-msgstr ""
+msgstr "Subtenantoj"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -1160,7 +1163,7 @@ msgstr ""
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "Redaktado"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
