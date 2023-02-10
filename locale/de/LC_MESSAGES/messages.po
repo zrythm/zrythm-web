@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2023-02-02 10:38+0000\n"
+"PO-Revision-Date: 2023-02-13 10:39+0000\n"
 "Last-Translator: Hartmut Wagener <hartmut.w.wagener@t-online.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -453,11 +453,11 @@ msgstr "Einfach tippen, um die Präferenz zu finden nach der Sie suchen."
 
 #: template.py:582
 msgid "Inspector Pages"
-msgstr ""
+msgstr "Inspektions-Seiten"
 
 #: template.py:583
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "Bearbeiten aller Spur- und Plugin-Parameter im Inspektor."
 
 #: template.py:586
 msgid "Plugin Capabilities"
@@ -526,6 +526,8 @@ msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
+"Durchsuchen und Vorhören von MIDI und Audio-Dateien, zusätzlich Pfade als "
+"Favoriten festlegen."
 
 #: template.py:611
 msgid "Audio Files"
@@ -552,11 +554,13 @@ msgstr ""
 
 #: template.py:617
 msgid "Stem Export"
-msgstr ""
+msgstr "Export als mehrere Einzeldateien"
 
 #: template.py:618
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
+"Exportieren bestimmter Spuren als Einzeldateien, um sie mit anderen "
+"Produzenten zu teilen."
 
 #: template.py:621 template.py:722
 msgid "Chord Assistance"
@@ -626,7 +630,7 @@ msgstr "Sicherungen werden automatisch in einstellbaren Zeiträumen erstellt."
 
 #: template.py:643
 msgid "Undoable Actions"
-msgstr ""
+msgstr "Nicht zurücknehmbare Aktionen"
 
 #: template.py:644
 msgid "Almost every user action is undoable."
@@ -801,10 +805,14 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"Einfaches Selektieren, Bewegen, Skalieren, Klonen, Linken, Loopen, Löschen "
+"und Ausschneiden von Objekten mit einem einzigen Werkzeug, oder Erweitern "
+"der Funktionalität mit weiteren Spezial-Werkzeugen, und dabei das adaptive "
+"Snappen in jedem Arrangier-Bereich genießen."
 
 #: template.py:716
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Unbegrenzte Automation"
 
 #: template.py:717
 msgid ""
