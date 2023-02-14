@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2023-02-14 09:39+0000\n"
+"PO-Revision-Date: 2023-02-15 10:39+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -716,19 +716,19 @@ msgstr ""
 
 #: template.py:672
 msgid "Extensive Caching"
-msgstr ""
+msgstr "Mise en cache étendue"
 
 #: template.py:673
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "Les calculs coûteux sont pré-calculés pour gagner du temps."
 
 #: template.py:676
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "Support multi-plateforme"
 
 #: template.py:679
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "Plateformes multiple"
 
 #: template.py:680
 msgid ""
@@ -736,20 +736,25 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythm est conçu pour fonctionner sur une {ref}grande variété de plateformes "
+"et d'architectures{endref}, notamment les architectures x86, PowerPC, RISC-"
+"V, ARMv7 et ARMv8."
 
 #: template.py:682
 msgid "Multiple Backends"
-msgstr ""
+msgstr "Dorsaux multiples"
 
 #: template.py:683
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"Prise en charge de presque tous les principaux dorsaux audio et MIDI, "
+"notamment JACK/PipeWire, Windows MME, WASAPI et Core Audio/MIDI."
 
 #: template.py:686
 msgid "Localization"
-msgstr ""
+msgstr "Localisation"
 
 #: template.py:689
 msgid "Localized UI"
@@ -757,45 +762,50 @@ msgstr "Interface graphique localisée"
 
 #: template.py:690
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "Utilisez Zrythm dans votre langue préférée."
 
 #: template.py:692
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "Ajouter facilement des traductions"
 
 #: template.py:693
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
+"Ajouter les traductions et les locales manquantes sur {ref}Weblate{endref}."
 
 #: template.py:696
 msgid "User Freedom"
-msgstr ""
+msgstr "Liberté de l'utilisateur"
 
 #: template.py:699
 msgid "Free Software"
-msgstr ""
+msgstr "Logiciel libre"
 
 #: template.py:700
 msgid "All source code is released as {ref}copyleft free software{endref}."
 msgstr ""
+"Tout le code source est publié comme {ref}copyleft free software{endref}."
 
 #: template.py:702
 msgid "Open Standards"
-msgstr ""
+msgstr "Standards ouverts"
 
 #: template.py:703
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
 msgstr ""
+"Zrythm prend en charge les standards ouverts tels que MIDI, LV2, FLAC et OGG."
 
 #: template.py:705
 msgid "Cooperation"
-msgstr ""
+msgstr "Coopération"
 
 #: template.py:706
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr ""
+"Nous travaillons avec la communauté des logiciels libres pour garantir que "
+"Zrythm se construit et fonctionne sans problème sur toutes les plateformes."
 
 #: template.py:714
 msgid ""
@@ -803,10 +813,14 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"Sélectionnez, déplacez, redimensionnez, clonez, reliez, bouclez, supprimez "
+"et coupez facilement des objets avec un seul outil ou étendez ses "
+"fonctionnalités avec des outils spécialisés supplémentaires, et profitez "
+"d'un accrochage adaptatif dans chaque arrangeur."
 
 #: template.py:716
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Automatisation sans limite"
 
 #: template.py:717
 msgid ""
@@ -822,6 +836,9 @@ msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
+"Écoute en contexte, groupes de signaux, pistes d'effets, emplacements "
+"d'effets et d'insertions MIDI, départs auxiliaires pré et post-fader et "
+"routage de partout-à-partout."
 
 #: template.py:723
 msgid ""
@@ -829,6 +846,10 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
+"Générez des accords à partir de gammes dans le pavé d'accords, auditionnez "
+"et inversez des accords ou sauvegardez vos propres présélections d'accords, "
+"gérez votre progression d'accords dans la piste d'accords et profitez de la "
+"mise en évidence des accords dans le rouleau de piano."
 
 #: template.py:725
 msgid "Audio Plugins"
@@ -840,6 +861,10 @@ msgid ""
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"Prise en charge de tous les principaux formats de greffons, notamment "
+"{lv2_ref}LV2{endref}, VST2, VST3, AU, CLAP et JSFX, avec prise en charge "
+"supplémentaire des banques de sons SFZ et SF2 et du sandboxing grâce à "
+"{carla_ref}Carla{endref}."
 
 #: template.py:729
 msgid ""
@@ -848,6 +873,11 @@ msgid ""
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
+"Organisez votre travail en plusieurs couches dans la même piste à l'aide des "
+"lignes de piste, convertissez rapidement n'importe quoi en audio, importez/"
+"exportez une grande variété de formats audio et MIDI, étirez ou bouclez "
+"n'importe quelle région et sélectionnez parmi un éventail de types de piste "
+"pour chaque besoin."
 
 #: template.py:732
 msgid ""
