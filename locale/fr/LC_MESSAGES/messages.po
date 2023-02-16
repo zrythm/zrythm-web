@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2023-02-15 10:39+0000\n"
+"PO-Revision-Date: 2023-02-17 20:39+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: template.py:493
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Exporter sur place"
 
 #: template.py:494
 msgid "Quickly bounce selected material to audio."
@@ -884,6 +884,9 @@ msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr ""
+"Récupérez votre travail grâce aux sauvegardes automatiques des projets, "
+"annulez presque toutes les actions-utilisateur et sauvegardez même votre "
+"historique d'annulation dans les projets."
 
 #: template.py:734
 msgid "Liberating"
@@ -895,12 +898,17 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
+"Zrythm est un {free_software_ref}logiciel libre</a> "
+"{copyleft_ref}copyleft{endref} avec un code source entièrement vérifiable. "
+"Utilisez, étudiez, partagez et améliorez-le librement."
 
 #: common/footer.j2.inc:26
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
 msgstr ""
+"Zrythm et le logo Zrythm sont des {ref}marques commerciales d'Alexandros "
+"Theodotou{endref}."
 
 #: common/footer.j2.inc:30
 msgid "Project"
@@ -921,7 +929,7 @@ msgstr "Sorties"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
@@ -933,7 +941,7 @@ msgstr "Tchat"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
-msgstr ""
+msgstr "Liste de diffusion utilisateur"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
@@ -945,7 +953,7 @@ msgstr "Faire un don"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "À propos de ce site"
 
 #: common/footer.j2.inc:67 template/download.html.j2:125
 msgid "Source Code"
@@ -953,7 +961,7 @@ msgstr "Code source"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "Informations légales"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
@@ -962,7 +970,7 @@ msgstr "Politique de confidentialité"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
-msgstr ""
+msgstr "Signaler un problème"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
@@ -993,7 +1001,7 @@ msgstr "Greffons"
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Guide"
-msgstr ""
+msgstr "Guide"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -1181,15 +1189,15 @@ msgstr "Gratuit"
 
 #: template/download.html.j2:64
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "Jusqu'à 25 pistes"
 
 #: template/download.html.j2:65
 msgid "Basic plugins"
-msgstr ""
+msgstr "Greffons basiques"
 
 #: template/download.html.j2:66
 msgid "Web user manual"
-msgstr ""
+msgstr "Manuel de l'utilisateur Web"
 
 #: template/download.html.j2:73
 msgid "Single"
@@ -1198,17 +1206,17 @@ msgstr "Simple"
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Nombre de pistes illimité"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
 msgid "Basic & Z Series plugins"
-msgstr ""
+msgstr "Suite de greffons basique et Z"
 
 #: template/download.html.j2:78 template/download.html.j2:90
 #: template/download.html.j2:102
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "Manuel d'utilisation web et PDF"
 
 #: template/download.html.j2:81 template/download.html.j2:93
 msgid "Purchase"
@@ -1228,11 +1236,11 @@ msgstr "Nocturne"
 
 #: template/download.html.j2:98
 msgid "year"
-msgstr ""
+msgstr "année"
 
 #: template/download.html.j2:103
 msgid "Access to all releases"
-msgstr ""
+msgstr "Accès à toutes les versions"
 
 #: template/download.html.j2:104
 msgid "Access to nightly builds"
@@ -1361,7 +1369,7 @@ msgstr "Procédures pas à pas"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "Votre vidéo ici"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
@@ -1390,6 +1398,10 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"Zrythm est protégé par les droits d'auteur d'Alexandros Theodotou et des "
+"autres contributeurs. Zrythm est publié sous la licence <a href=\"https://git"
+".sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU Affero General Public, "
+"version 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1427,6 +1439,8 @@ msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
+"Les licences pour les images trouvées sur ce site web peuvent être trouvées "
+"dans {ref}ce fichier README{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
@@ -1451,7 +1465,7 @@ msgstr "{} capture d'écran"
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
-msgstr ""
+msgstr "Suite Z"
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
@@ -1459,7 +1473,7 @@ msgstr "Spécifications techniques"
 
 #: template/privacy.html.j2:354
 msgid "Last updated on 3 Oct 2022"
-msgstr ""
+msgstr "Dernière mise à jour le 3 octobre 2022"
 
 #~ msgid "Save/load disabled"
 #~ msgstr "Enregistrement/chargement désactivé"
