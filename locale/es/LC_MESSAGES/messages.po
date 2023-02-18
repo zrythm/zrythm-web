@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -83,7 +83,8 @@ msgstr "Reverberación FDN de reverberación tardía 8x8"
 
 #: template.py:444
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz asigna los acordes de una escala menor o mayor a teclas blancas"
+msgstr ""
+"ZChordz asigna los acordes de una escala menor o mayor a teclas blancas"
 
 #: template.py:445
 msgid "Major or minor scale"
@@ -158,8 +159,8 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
-"Amplíe la funcionalidad de la herramienta de selección cambiando a las {ref}"
-"Editar, cortar, borrar, aumentar o Herramientas de audición{endref}."
+"Amplíe la funcionalidad de la herramienta de selección cambiando a las "
+"{ref}Editar, cortar, borrar, aumentar o Herramientas de audición{endref}."
 
 #: template.py:480
 msgid "Adaptive Snapping"

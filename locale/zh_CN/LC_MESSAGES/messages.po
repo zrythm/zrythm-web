@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
 "PO-Revision-Date: 2023-01-09 13:48+0000\n"
 "Last-Translator: Erdong Zhang <takato3000@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"zrythm/web/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -330,9 +329,8 @@ msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr "轻松将信号路由到FX轨或插件的侧链输入中。"
 
 #: template.py:550
-#, fuzzy
 msgid "In-Context Listening"
-msgstr "情境聆听"
+msgstr ""
 
 #: template.py:551
 msgid ""
@@ -413,14 +411,12 @@ msgid "Start typing to locate the preference you're looking for."
 msgstr "输入关键词定位你需要的设置项。"
 
 #: template.py:582
-#, fuzzy
 msgid "Inspector Pages"
-msgstr "检查器页面"
+msgstr ""
 
 #: template.py:583
-#, fuzzy
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr "在检查器中编辑所有轨道和插件参数。"
+msgstr ""
 
 #: template.py:586
 msgid "Plugin Capabilities"
@@ -431,11 +427,10 @@ msgid "Plugin Support"
 msgstr "插件支持"
 
 #: template.py:590
-#, fuzzy
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
-msgstr "感谢 Carla，Zrythm 支持多种插件格式，包括 LV2、VST2、VST3、AU、CLAP 和 JSFX。"
+msgstr ""
 
 #: template.py:592
 msgid "SoundFonts as Plugins"

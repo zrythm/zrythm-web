@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -148,8 +148,8 @@ msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
-"Selektieren, Bewegen, Ändern, Duplizieren, Loopen, Löschen und Schneiden von "
-"Objekten mit einem {ref}einzigen Werkzeug{endref}."
+"Selektieren, Bewegen, Ändern, Duplizieren, Loopen, Löschen und Schneiden von"
+" Objekten mit einem {ref}einzigen Werkzeug{endref}."
 
 #: template.py:477
 msgid "Extensive Toolbox"
@@ -377,8 +377,8 @@ msgstr "Monitor-Bereich"
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
-"Ändern des Mithör/Stumm/Solo-Verhaltens, einstellen, was an die Lautsprecher "
-"kommt."
+"Ändern des Mithör/Stumm/Solo-Verhaltens, einstellen, was an die Lautsprecher"
+" kommt."
 
 #: template.py:557
 msgid "Unlimited Automation"
@@ -701,8 +701,8 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
-"Zrythm nutzt {ref}lsp-dsk-lib{endref}, diese erstellt SIMD-Erweiterungen wie "
-"SSE, AVX und FMA falls möglich, um die Audio-Bearbeitung zu beschleunigen "
+"Zrythm nutzt {ref}lsp-dsk-lib{endref}, diese erstellt SIMD-Erweiterungen wie"
+" SSE, AVX und FMA falls möglich, um die Audio-Bearbeitung zu beschleunigen "
 "und die DSP-Benutzung zu minimieren."
 
 #: template.py:672
@@ -764,7 +764,8 @@ msgstr "Einfaches Hinzufügen von Übersetzungen"
 #: template.py:693
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
-"Fügen Sie fehlende Übersetzungen und Sprachen auf {ref}Weblate{endref} hinzu."
+"Fügen Sie fehlende Übersetzungen und Sprachen auf {ref}Weblate{endref} "
+"hinzu."
 
 #: template.py:696
 msgid "User Freedom"

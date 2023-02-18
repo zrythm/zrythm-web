@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -158,8 +158,8 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
-"Étendez la fonctionnalité des outils de sélection en passant aux outils {ref}"
-"Éditer, Couper, Effacer, Faire une rampe ou Audition{endref}."
+"Étendez la fonctionnalité des outils de sélection en passant aux outils "
+"{ref}Éditer, Couper, Effacer, Faire une rampe ou Audition{endref}."
 
 #: template.py:480
 msgid "Adaptive Snapping"
@@ -265,7 +265,8 @@ msgstr "Éditeurs de liste"
 
 #: template.py:516
 msgid "Edit object parameters manually in the event viewer."
-msgstr "Éditer manuellement les paramètres d'un objet dans la vue d'évènement."
+msgstr ""
+"Éditer manuellement les paramètres d'un objet dans la vue d'évènement."
 
 #: template.py:518
 msgid "Editor Functions"
@@ -346,7 +347,8 @@ msgstr "Pistes de groupe"
 
 #: template.py:545
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr "Organisez des groupes de signaux audio/MIDI avec des pistes de groupe."
+msgstr ""
+"Organisez des groupes de signaux audio/MIDI avec des pistes de groupe."
 
 #: template.py:547
 msgid "Aux Sends"
@@ -367,8 +369,8 @@ msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
 msgstr ""
-"Écoutez les pistes spécifiées dans le contexte du mixage en atténuant toutes "
-"les autres pistes."
+"Écoutez les pistes spécifiées dans le contexte du mixage en atténuant toutes"
+" les autres pistes."
 
 #: template.py:553
 msgid "Monitor Section"
@@ -442,8 +444,8 @@ msgstr "Affichages détachables"
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr ""
-"Détachez les affichages de n'importe quel panneau et travaillez efficacement "
-"avec des configurations à plusieurs moniteurs."
+"Détachez les affichages de n'importe quel panneau et travaillez efficacement"
+" avec des configurations à plusieurs moniteurs."
 
 #: template.py:579
 msgid "Searchable Preferences"
@@ -475,8 +477,8 @@ msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
-"Grâce à {ref}Carla{endref}, Zrythm prend en charge une variété de formats de "
-"greffons, notamment LV2, VST2, VST3, AU, CLAP et JSFX."
+"Grâce à {ref}Carla{endref}, Zrythm prend en charge une variété de formats de"
+" greffons, notamment LV2, VST2, VST3, AU, CLAP et JSFX."
 
 #: template.py:592
 msgid "SoundFonts as Plugins"
@@ -541,8 +543,8 @@ msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
-"Importez ou exportez tout format pris en charge par {ref}libsndfile{endref}, "
-"avec un support supplémentaire pour l'importation de MP3."
+"Importez ou exportez tout format pris en charge par {ref}libsndfile{endref},"
+" avec un support supplémentaire pour l'importation de MP3."
 
 #: template.py:614
 msgid "MIDI"
@@ -552,8 +554,8 @@ msgstr "MIDI"
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
 msgstr ""
-"Importez ou exportez n'importe quelle partie du projet dans les formats MIDI "
-"Type 0 ou Type 1."
+"Importez ou exportez n'importe quelle partie du projet dans les formats MIDI"
+" Type 0 ou Type 1."
 
 #: template.py:617
 msgid "Stem Export"
@@ -562,8 +564,8 @@ msgstr "Export stem"
 #: template.py:618
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
-"Exportez des stems pour des pistes spécifiques et partagez-les avec d'autres "
-"producteurs."
+"Exportez des stems pour des pistes spécifiques et partagez-les avec d'autres"
+" producteurs."
 
 #: template.py:621 template.py:722
 msgid "Chord Assistance"
@@ -579,8 +581,8 @@ msgid ""
 " keyboard, and drag-and-drop chords to the timeline."
 msgstr ""
 "Écoutez rapidement les accords en cliquant sur les pads ou en appuyant sur "
-"les notes de votre clavier MIDI, et glissez-déposez les accords sur la ligne "
-"temporelle."
+"les notes de votre clavier MIDI, et glissez-déposez les accords sur la ligne"
+" temporelle."
 
 #: template.py:627
 msgid "Chord Editing"
@@ -592,8 +594,8 @@ msgid ""
 "chord, with an option to filter chords in the current scale."
 msgstr ""
 "Inversez les accords d'un simple clic ou utilisez le sélecteur d'accords "
-"pour choisir n'importe quel accord, avec une option pour filtrer les accords "
-"dans la gamme actuelle."
+"pour choisir n'importe quel accord, avec une option pour filtrer les accords"
+" dans la gamme actuelle."
 
 #: template.py:630
 msgid "Recordable Chord Track"
@@ -649,7 +651,8 @@ msgstr "Historique d'annulation sérialisable"
 #: template.py:647
 msgid "Keep your undo history when saving projects."
 msgstr ""
-"Conserver votre historique des annulations lors de la sauvegarde des projets."
+"Conserver votre historique des annulations lors de la sauvegarde des "
+"projets."
 
 #: template.py:650
 msgid "Scripting"
@@ -664,8 +667,8 @@ msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
-"Étendez les capacités de Zrythm en modifiant son état à l'aide de {ref}"
-"scripts GNU Guile{endref}."
+"Étendez les capacités de Zrythm en modifiant son état à l'aide de "
+"{ref}scripts GNU Guile{endref}."
 
 #: template.py:656
 msgid "Custom Editor Functions"
@@ -710,8 +713,8 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
-"Zrythm utilise {ref}lsp-dsp-lib{endref} qui met en œuvre des extensions SIMD "
-"telles que SSE, AVX et FMA lorsqu'elles sont disponibles pour accélérer le "
+"Zrythm utilise {ref}lsp-dsp-lib{endref} qui met en œuvre des extensions SIMD"
+" telles que SSE, AVX et FMA lorsqu'elles sont disponibles pour accélérer le "
 "traitement audio et minimiser l'utilisation du DSP."
 
 #: template.py:672
@@ -736,9 +739,9 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
-"Zrythm est conçu pour fonctionner sur une {ref}grande variété de plateformes "
-"et d'architectures{endref}, notamment les architectures x86, PowerPC, RISC-"
-"V, ARMv7 et ARMv8."
+"Zrythm est conçu pour fonctionner sur une {ref}grande variété de plateformes"
+" et d'architectures{endref}, notamment les architectures x86, PowerPC, "
+"RISC-V, ARMv7 et ARMv8."
 
 #: template.py:682
 msgid "Multiple Backends"
@@ -793,7 +796,8 @@ msgstr "Standards ouverts"
 #: template.py:703
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
 msgstr ""
-"Zrythm prend en charge les standards ouverts tels que MIDI, LV2, FLAC et OGG."
+"Zrythm prend en charge les standards ouverts tels que MIDI, LV2, FLAC et "
+"OGG."
 
 #: template.py:705
 msgid "Cooperation"
@@ -873,11 +877,11 @@ msgid ""
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
-"Organisez votre travail en plusieurs couches dans la même piste à l'aide des "
-"lignes de piste, convertissez rapidement n'importe quoi en audio, importez/"
-"exportez une grande variété de formats audio et MIDI, étirez ou bouclez "
-"n'importe quelle région et sélectionnez parmi un éventail de types de piste "
-"pour chaque besoin."
+"Organisez votre travail en plusieurs couches dans la même piste à l'aide des"
+" lignes de piste, convertissez rapidement n'importe quoi en audio, "
+"importez/exportez une grande variété de formats audio et MIDI, étirez ou "
+"bouclez n'importe quelle région et sélectionnez parmi un éventail de types "
+"de piste pour chaque besoin."
 
 #: template.py:732
 msgid ""
@@ -1399,9 +1403,9 @@ msgid ""
 "Affero General Public License, version 3</a>."
 msgstr ""
 "Zrythm est protégé par les droits d'auteur d'Alexandros Theodotou et des "
-"autres contributeurs. Zrythm est publié sous la licence <a href=\"https://git"
-".sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU Affero General Public, "
-"version 3</a>."
+"autres contributeurs. Zrythm est publié sous la licence <a "
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public, version 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""

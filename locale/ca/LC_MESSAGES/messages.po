@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: template.py:400
 msgid "Stereo dynamic range compressor"
@@ -159,8 +159,8 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
-"Amplia la funcionalitat de l'eina de selecció canviant a les eines {ref}"
-"Editar, Retallar, Esborrar, Rampa o Audició{endref}."
+"Amplia la funcionalitat de l'eina de selecció canviant a les eines "
+"{ref}Editar, Retallar, Esborrar, Rampa o Audició{endref}."
 
 #: template.py:480
 msgid "Adaptive Snapping"
@@ -191,8 +191,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Pots afegir diverses capes d'àudio/MIDI a la mateixa pista mitjançant {ref}"
-"carrils de pista{endref}."
+"Pots afegir diverses capes d'àudio/MIDI a la mateixa pista mitjançant "
+"{ref}carrils de pista{endref}."
 
 #: template.py:493
 msgid "Bounce in Place"
@@ -265,7 +265,8 @@ msgstr "Editors de llista"
 
 #: template.py:516
 msgid "Edit object parameters manually in the event viewer."
-msgstr "Edita els paràmetres de l'objecte manualment al visor d'esdeveniments."
+msgstr ""
+"Edita els paràmetres de l'objecte manualment al visor d'esdeveniments."
 
 #: template.py:518
 msgid "Editor Functions"
@@ -353,8 +354,8 @@ msgstr "Enviaments auxiliars"
 #: template.py:548
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr ""
-"Encamina fàcilment els senyals a les pistes FX i a les entrades de la cadena "
-"lateral del complement."
+"Encamina fàcilment els senyals a les pistes FX i a les entrades de la cadena"
+" lateral del complement."
 
 #: template.py:550
 msgid "In-Context Listening"
@@ -412,8 +413,8 @@ msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
 msgstr ""
-"Automatitza els paràmetres amb senyals CV o envolupants, inclosos els botons "
-"macro i els complements LFO i ZLFO."
+"Automatitza els paràmetres amb senyals CV o envolupants, inclosos els botons"
+" macro i els complements LFO i ZLFO."
 
 #: template.py:569
 msgid "Automate Anything"
@@ -574,8 +575,8 @@ msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
 msgstr ""
-"Escolta els acords ràpidament fent clic als pads o prement les notes del teu "
-"teclat MIDI i arrossega i deixa anar els acords a la línia de temps."
+"Escolta els acords ràpidament fent clic als pads o prement les notes del teu"
+" teclat MIDI i arrossega i deixa anar els acords a la línia de temps."
 
 #: template.py:627
 msgid "Chord Editing"
@@ -657,8 +658,8 @@ msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
-"Amplia les capacitats de Zrythm editant el seu estat mitjançant {ref}scripts "
-"GNU Guile{endref}."
+"Amplia les capacitats de Zrythm editant el seu estat mitjançant {ref}scripts"
+" GNU Guile{endref}."
 
 #: template.py:656
 msgid "Custom Editor Functions"
