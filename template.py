@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 #
-# Copyright (C) 2019-2022 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2019-2023 Alexandros Theodotou <alex at zrythm dot org>
 #
 # This file is part of Zrythm
 #
@@ -326,6 +326,7 @@ def url(x):
 
 screenshot = url('static/images/screenshots/screenshot-20221015.png')
 logo = url('static/icons/zrythm/z_frame_8.svg')
+logo_png = url('static/icons/zrythm/z_frame_8.png')
 
 class Plugin:
     def __init__(self,name,img,summary,features):
@@ -747,16 +748,19 @@ for in_file in glob.glob("template/*.j2"):
         bundle_price_for_locale = round (28 * currency_rates[currency_for_locale])
         subscription_price_for_locale = round (42 * currency_rates[currency_for_locale])
         monthly_earning_for_locale = round (monthly_earning * currency_rates[currency_for_locale])
+        local_salary_for_locale = round (2625 * currency_rates[currency_for_locale])
         # if JPY, round again to 100s
         if currency_for_locale == 'JPY' or currency_for_locale == 'RUB':
             single_price_for_locale = round (single_price_for_locale, -2)
             bundle_price_for_locale = round (bundle_price_for_locale, -2)
             subscription_price_for_locale = round (subscription_price_for_locale, -2)
             monthly_earning_for_locale = round (monthly_earning_for_locale, -2)
+            local_salary_for_locale = round (local_salary_for_locale, -2)
         single_price_for_locale = '{}{}'.format (currency_sym_for_locale, single_price_for_locale)
         bundle_price_for_locale = '{}{}'.format (currency_sym_for_locale, bundle_price_for_locale)
         subscription_price_for_locale = '{}{}'.format (currency_sym_for_locale, subscription_price_for_locale)
         monthly_earning_str = '{}{}'.format (currency_sym_for_locale, monthly_earning_for_locale)
+        local_salary_str = '{}{}'.format (currency_sym_for_locale, local_salary_for_locale)
 
         content = tmpl.render(lang=locale,
                               lang_for_accounts=locale_for_accounts,
@@ -780,6 +784,7 @@ for in_file in glob.glob("template/*.j2"):
                               num_monthly_orders=num_monthly_orders,
                               monthly_earning=monthly_earning,
                               monthly_earning_str=monthly_earning_str,
+                              local_salary_str=local_salary_str,
                               prev_month_earning_str=prev_month_earning_str,
                               prev_month_comparison_perc=prev_month_comparison_perc,
                               feature_tracker=feature_tracker,
@@ -796,6 +801,7 @@ for in_file in glob.glob("template/*.j2"):
                               screenshot=screenshot,
                               keywords=keywords,
                               logo=logo,
+                              logo_png=logo_png,
                               slogan=slogan,
                               filename=name + "." + ext)
         out_name = "./rendered/" + locale + "/" + in_file.replace('template/', '').rstrip(".j2")

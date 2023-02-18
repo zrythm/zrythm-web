@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019, 2023 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -27,8 +27,8 @@ GNU Affero General Public License for more details.
       <div id="banner-content">
         <center>
     <i><b>
-        {{ _('The {tag1_start}FundOSS campaign{tag_end} is over. Thank you for your support!').format (
-        tag1_start = '<a href="https://fundoss.org/collective/zrythm">', tag_end = '</a>') }}
+        {{ _('The average monthly software developer salary at our location is {loc_salary}. This month we received {monthly_amt}.<br>The amount we receive directly affects the amount of time we can spend on development, so if you want to see this project grow please donate or make a purchase.').format (
+        loc_salary = local_salary_str, monthly_amt = monthly_earning_str,tag1_start = '<a href="https://fundoss.org/collective/zrythm">', tag_end = '</a>') }}
     </b></i>
         </center>
       </div>
