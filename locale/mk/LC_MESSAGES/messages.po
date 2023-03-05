@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-03-06 13:38+0000\n"
+"Last-Translator: AND <andrejdam@protonmail.com>\n"
+"Language-Team: Macedonian <https://hosted.weblate.org/projects/zrythm/web/mk/"
+">\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: template.py:400
@@ -77,7 +80,7 @@ msgstr ""
 
 #: template.py:444
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChords ги мапира акордите од молска или дурска скала на белите клавиши"
 
 #: template.py:445
 msgid "Major or minor scale"
@@ -489,7 +492,7 @@ msgstr ""
 
 #: template.py:614
 msgid "MIDI"
-msgstr ""
+msgstr "МИДИ"
 
 #: template.py:615
 msgid "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
