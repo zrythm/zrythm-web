@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2023-03-06 13:38+0000\n"
+"PO-Revision-Date: 2023-03-09 13:39+0000\n"
 "Last-Translator: AND <andrejdam@protonmail.com>\n"
 "Language-Team: Macedonian <https://hosted.weblate.org/projects/zrythm/web/mk/"
 ">\n"
@@ -340,7 +340,7 @@ msgstr ""
 
 #: template.py:553
 msgid "Monitor Section"
-msgstr ""
+msgstr "Оддел на монитори"
 
 #: template.py:554
 msgid "Change listen/mute/solo behavior and adjust what goes to your speakers."
@@ -472,7 +472,7 @@ msgstr ""
 
 #: template.py:608
 msgid "File Browser"
-msgstr ""
+msgstr "Прелистувач на датотеки"
 
 #: template.py:609
 msgid ""
@@ -827,7 +827,7 @@ msgstr ""
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "Донирај"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
