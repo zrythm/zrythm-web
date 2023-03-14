@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-13 00:52+0900\n"
-"PO-Revision-Date: 2023-03-09 13:39+0000\n"
+"PO-Revision-Date: 2023-03-15 17:37+0000\n"
 "Last-Translator: AND <andrejdam@protonmail.com>\n"
 "Language-Team: Macedonian <https://hosted.weblate.org/projects/zrythm/web/mk/"
 ">\n"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: template.py:483
 msgid "Looping"
-msgstr ""
+msgstr "Повторување"
 
 #: template.py:484
 msgid "Loop audio, MIDI, automation and chord clips."
@@ -206,7 +206,7 @@ msgstr ""
 
 #: template.py:503
 msgid "Piano Roll"
-msgstr ""
+msgstr "Нотен запис (пиано ролна)"
 
 #: template.py:504
 msgid ""
@@ -580,7 +580,7 @@ msgstr ""
 
 #: template.py:650
 msgid "Scripting"
-msgstr ""
+msgstr "Скриптирање"
 
 #: template.py:653
 msgid "Extend Zrythm"
@@ -790,7 +790,7 @@ msgstr ""
 
 #: common/footer.j2.inc:30
 msgid "Project"
-msgstr ""
+msgstr "Проект"
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
@@ -869,7 +869,7 @@ msgstr ""
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Приклучоци"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
@@ -1114,7 +1114,7 @@ msgstr ""
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Работна станица за дигитално аудио"
 
 #: template/index.html.j2:23
 msgid ""
@@ -1163,7 +1163,7 @@ msgstr ""
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "Уредување"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
