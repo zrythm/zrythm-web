@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-10-13 00:52+0900\n"
+"POT-Creation-Date: 2023-03-20 21:41+0900\n"
 "PO-Revision-Date: 2023-01-09 13:48+0000\n"
 "Last-Translator: Erdong Zhang <takato3000@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
@@ -19,614 +19,627 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: template.py:400
+#: template.py:401
+msgid ""
+"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
+"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
+"LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
+" mastering"
+msgstr ""
+"DAW，数字音频工作站，音乐制作，音频，专业音频，Linux，GNU/Linux，自由软件，自由软件，声音编辑器，作曲，MIDI，LV2，JACK，VST，音频插件，录音，编辑，安排，编曲，混音，母带制作"
+
+#: template.py:402
+msgid "A highly automated and intuitive digital audio workstation."
+msgstr "一个高度自动化且直观的数字音频工作站。"
+
+#: template.py:408
 msgid "Stereo dynamic range compressor"
 msgstr "立体声动态范围压缩器"
 
-#: template.py:403
+#: template.py:411
 msgid "Cubic nonlinearity distortion"
 msgstr "三次非线性失真"
 
-#: template.py:406
+#: template.py:414
 msgid "Stereo flanging effect"
 msgstr "立体翻边效果"
 
-#: template.py:409
+#: template.py:417
 msgid "Stereo signal gate"
 msgstr "立体声信号闸门"
 
-#: template.py:412
+#: template.py:420
 msgid "2nd-order Butterworth highpass filter"
 msgstr "2 阶巴特沃斯高通滤波器"
 
-#: template.py:415
+#: template.py:423
 msgid "2nd-order Butterworth lowpass filter"
 msgstr "2 阶巴特沃斯低通滤波器"
 
-#: template.py:418
+#: template.py:426
 msgid "Parametric equalizer"
 msgstr "参数均衡器"
 
-#: template.py:421
+#: template.py:429
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
 msgstr "以 1176 峰值限制器为模型的动态范围压缩器"
 
-#: template.py:424
+#: template.py:432
 msgid "Phasing effect"
 msgstr "相位效果"
 
-#: template.py:427
+#: template.py:435
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
 msgstr "具有 3 个失谐振荡器声音的复音合成器"
 
-#: template.py:430
+#: template.py:438
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
 msgstr "延迟时间改变时不点击也不转置的延迟"
 
-#: template.py:433
+#: template.py:441
 msgid "Wah pedal effect to the 4th order"
 msgstr "哇音踏板效果到四阶"
 
-#: template.py:436
+#: template.py:444
 msgid "White noise generator"
 msgstr "白噪声发生器"
 
-#: template.py:439
+#: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
 msgstr "8x8 后期混响 FDN 混响"
 
-#: template.py:444
+#: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr "ZChordz 将小调或大调的和弦映射到白键上"
 
-#: template.py:445
+#: template.py:453
 msgid "Major or minor scale"
 msgstr "大调音阶或小调音阶"
 
-#: template.py:446
+#: template.py:454
 msgid "Velocity multiplier per note"
 msgstr "每个音符的速度乘数"
 
-#: template.py:449
+#: template.py:457
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr "ZLFO 是一款功能齐全的基于 CV 自动化的 LFO"
 
-#: template.py:450
+#: template.py:458
 msgid "Multi-oscillator with custom wave"
 msgstr "带自定义波的多振荡器"
 
-#: template.py:451
+#: template.py:459
 msgid "Phase shift"
 msgstr "相移"
 
-#: template.py:452
+#: template.py:460
 msgid "Vertical/horizontal inversion"
 msgstr "垂直/水平反演"
 
-#: template.py:453
+#: template.py:461
 msgid "Step mode"
 msgstr "步进模式"
 
-#: template.py:454
+#: template.py:462
 msgid "Editable range"
 msgstr "可编辑范围"
 
-#: template.py:455
+#: template.py:463
 msgid "Sync to host or free-form"
 msgstr "同步到主机或自由格式"
 
-#: template.py:458
+#: template.py:466
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw 是一个带有 1 个参数的 supersaw 合成器"
 
-#: template.py:459
+#: template.py:467
 msgid "7 sawtooth oscillators"
 msgstr "7 锯齿振荡器"
 
-#: template.py:460
+#: template.py:468
 msgid "Single knob to control detune"
 msgstr "单旋钮控制失谐"
 
-#: template.py:471 template.py:713
+#: template.py:479 template.py:721
 msgid "Intuitive Editing"
 msgstr "直观编辑"
 
-#: template.py:474
+#: template.py:482
 msgid "Flexible Select Tool"
 msgstr "灵活的选择工具"
 
-#: template.py:475
+#: template.py:483
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr "用{ref}同一种工具{endref}来完成选择、移动、调整大小、复制、链接、循环、删除和切分。"
 
-#: template.py:477
+#: template.py:485
 msgid "Extensive Toolbox"
 msgstr "丰富的工具箱"
 
-#: template.py:478
+#: template.py:486
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr "通过切换到{ref}编辑、剪切、擦除、斜线或试听工具{endref}来扩展选择工具的功能。"
 
-#: template.py:480
+#: template.py:488
 msgid "Adaptive Snapping"
 msgstr "自适应吸附"
 
-#: template.py:481
+#: template.py:489
 msgid "Snapping behavior adjusts to the current zoom level."
 msgstr "吸附行为会根据当前的缩放级别进行调整。"
 
-#: template.py:483
+#: template.py:491
 msgid "Looping"
 msgstr "循环"
 
-#: template.py:484
+#: template.py:492
 msgid "Loop audio, MIDI, automation and chord clips."
 msgstr "循环音频、MIDI、自动化和和弦片段。"
 
-#: template.py:487 template.py:728
+#: template.py:495 template.py:736
 msgid "Featureful Timeline"
 msgstr "富有特色的时间轴"
 
-#: template.py:490
+#: template.py:498
 msgid "Track Lanes"
 msgstr "音轨 Lanes"
 
-#: template.py:491
+#: template.py:499
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr "使用{ref}轨道分层{endref}向同一轨道添加多层音频/MIDI。"
 
-#: template.py:493
+#: template.py:501
 msgid "Bounce in Place"
 msgstr "原地弹跳"
 
-#: template.py:494
+#: template.py:502
 msgid "Quickly bounce selected material to audio."
 msgstr "快速将选定的材料弹回到音频。"
 
-#: template.py:496
+#: template.py:504
 msgid "Stretching"
 msgstr "拉伸"
 
-#: template.py:497
+#: template.py:505
 msgid "Stretch any type of region"
 msgstr "拉伸任何类型的区域"
 
-#: template.py:500
+#: template.py:508
 msgid "Powerful Editors"
 msgstr "强大的编辑器"
 
-#: template.py:503
+#: template.py:511
 msgid "Piano Roll"
 msgstr "钢琴卷帘"
 
-#: template.py:504
+#: template.py:512
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr "在带有和弦集成的独立钢琴卷帘中创建，编辑和排列MIDI事件。"
 
-#: template.py:506
+#: template.py:514
 msgid "Drum View"
 msgstr "鼓视图"
 
-#: template.py:507
+#: template.py:515
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr "一键切换至鼓视图以编辑打击乐器。"
 
-#: template.py:509
+#: template.py:517
 msgid "Velocity Editor"
 msgstr "速度编辑"
 
-#: template.py:510
+#: template.py:518
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
 
-#: template.py:512
+#: template.py:520
 msgid "Audio Editor"
 msgstr "音频编辑器"
 
-#: template.py:513
+#: template.py:521
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr "使用音频编辑器中的音频操作功能调整淡入淡出/增益或编辑音频片段。"
 
-#: template.py:515
+#: template.py:523
 msgid "List Editors"
 msgstr "列表编辑器"
 
-#: template.py:516
+#: template.py:524
 msgid "Edit object parameters manually in the event viewer."
 msgstr "在事件视图中手动编辑对象参数。"
 
-#: template.py:518
+#: template.py:526
 msgid "Editor Functions"
 msgstr "编辑器操作"
 
-#: template.py:519
+#: template.py:527
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr "快速在选定对象中应用连奏、反转和淡出等操作。"
 
-#: template.py:521
+#: template.py:529
 msgid "External App Integration"
 msgstr "外部应用集成"
 
-#: template.py:522
+#: template.py:530
 msgid "Edit selected audio parts in any external app."
 msgstr "使用任意的外部应用程序编辑选定的音频片段。"
 
-#: template.py:525
+#: template.py:533
 msgid "Recording Capabilities"
 msgstr "记录的功能"
 
-#: template.py:528
+#: template.py:536
 msgid "Audio/MIDI Recording"
 msgstr "音频/MIDI记录"
 
-#: template.py:529
+#: template.py:537
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
 
-#: template.py:531
+#: template.py:539
 msgid "Comprehensive Recording Settings"
 msgstr "全面的记录设置"
 
-#: template.py:532
+#: template.py:540
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
 
-#: template.py:534
+#: template.py:542
 msgid "Automation Recording"
 msgstr "自动记录"
 
-#: template.py:535
+#: template.py:543
 msgid "Record automation in latch/touch mode."
 msgstr ""
 
-#: template.py:537
+#: template.py:545
 msgid "Device Controls"
 msgstr "设备控制"
 
-#: template.py:538
+#: template.py:546
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
 
-#: template.py:541 template.py:719
+#: template.py:549 template.py:727
 msgid "Mixing Capabilities"
 msgstr "混音功能"
 
-#: template.py:544
+#: template.py:552
 msgid "Group Tracks"
 msgstr "组音轨"
 
-#: template.py:545
+#: template.py:553
 msgid "Organize audio/MIDI signal groups with group tracks."
 msgstr "使用组音轨来组织音频/MIDI信号组。"
 
-#: template.py:547
+#: template.py:555
 msgid "Aux Sends"
 msgstr "辅助发送"
 
-#: template.py:548
+#: template.py:556
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr "轻松将信号路由到FX轨或插件的侧链输入中。"
 
-#: template.py:550
+#: template.py:558
 msgid "In-Context Listening"
 msgstr ""
 
-#: template.py:551
+#: template.py:559
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
 msgstr "通过降低其它音轨的音量来清楚聆听选定音轨在混音环境中的表现。"
 
-#: template.py:553
+#: template.py:561
 msgid "Monitor Section"
 msgstr "监视器部分"
 
-#: template.py:554
+#: template.py:562
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
 
-#: template.py:557
+#: template.py:565
 msgid "Unlimited Automation"
 msgstr "随心所欲的自动化"
 
-#: template.py:560
+#: template.py:568
 msgid "Anywhere-to-Anywhere Connections"
 msgstr "无处不可的连接"
 
-#: template.py:561
+#: template.py:569
 msgid "Connect anything to anything."
 msgstr "连接任何东西。"
 
-#: template.py:563
+#: template.py:571
 msgid "Automation Curves"
 msgstr "自动化曲线"
 
-#: template.py:564
+#: template.py:572
 msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
 msgstr "使用直线或曲线自动化参数，有例如指数曲线和椭圆曲线等多种曲线算法可供选择。"
 
-#: template.py:566
+#: template.py:574
 msgid "Envelopes"
 msgstr "包络"
 
-#: template.py:567
+#: template.py:575
 msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
 msgstr "使用CV信号或包络来自动化参数，包括宏旋钮和ZLFO等LFO插件。"
 
-#: template.py:569
+#: template.py:577
 msgid "Automate Anything"
 msgstr "自动化一切"
 
-#: template.py:570
+#: template.py:578
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
 msgstr "自动化任何可用的参数，包括工程的BPM和拍号。"
 
-#: template.py:573
+#: template.py:581
 msgid "Intuitive User Interface"
 msgstr "直观的用户界面"
 
-#: template.py:576
+#: template.py:584
 msgid "Detachable Views"
 msgstr "可分离的视图"
 
-#: template.py:577
+#: template.py:585
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr "将视图从任何面板上分离出来，并在多显示器设置下高效工作。"
 
-#: template.py:579
+#: template.py:587
 msgid "Searchable Preferences"
 msgstr "可搜索的首选项"
 
-#: template.py:580
+#: template.py:588
 msgid "Start typing to locate the preference you're looking for."
 msgstr "输入关键词定位你需要的设置项。"
 
-#: template.py:582
+#: template.py:590
 msgid "Inspector Pages"
 msgstr ""
 
-#: template.py:583
+#: template.py:591
 msgid "Edit all track and plugin parameters in the inspector."
 msgstr ""
 
-#: template.py:586
+#: template.py:594
 msgid "Plugin Capabilities"
 msgstr "插件功能"
 
-#: template.py:589
+#: template.py:597
 msgid "Plugin Support"
 msgstr "插件支持"
 
-#: template.py:590
+#: template.py:598
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
 
-#: template.py:592
+#: template.py:600
 msgid "SoundFonts as Plugins"
 msgstr "将Soundfont作为插件"
 
-#: template.py:593
+#: template.py:601
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
 msgstr "将SFZ和SF2格式的soundfont文件作为乐器插件使用。"
 
-#: template.py:595
+#: template.py:603
 msgid "Flexible Plugin Browser"
 msgstr "灵活的插件浏览器"
 
-#: template.py:596
+#: template.py:604
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr "通过作者，格式或分类来筛选插件，并通过插件集来组织你最爱的插件。"
 
-#: template.py:598
+#: template.py:606
 msgid "Plugin Bridging"
 msgstr "插件桥接"
 
-#: template.py:599
+#: template.py:607
 msgid "Sandbox plugins by opening them in bridge mode."
 msgstr "通过使用桥接模式打开插件，使它们运行在沙箱环境中。"
 
-#: template.py:601
+#: template.py:609
 msgid "Automatable Bypass Mode"
 msgstr ""
 
-#: template.py:602
+#: template.py:610
 msgid "Easily bypass plugins in the signal chain with an automatable control."
 msgstr ""
 
-#: template.py:605
+#: template.py:613
 msgid "Comprehensive Import/Export"
 msgstr ""
 
-#: template.py:608
+#: template.py:616
 msgid "File Browser"
 msgstr "文件浏览器"
 
-#: template.py:609
+#: template.py:617
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr "浏览并试听MIDI和音频文件，通过收藏夹来组织您的常用路径。"
 
-#: template.py:611
+#: template.py:619
 msgid "Audio Files"
 msgstr "音频文件"
 
-#: template.py:612
+#: template.py:620
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr "导入或导出任何被{ref}libsndfile{endref}所支持的文件格式，支持在导入时试听MP3文件。"
 
-#: template.py:614
+#: template.py:622
 msgid "MIDI"
 msgstr "MIDI"
 
-#: template.py:615
+#: template.py:623
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
 msgstr ""
 
-#: template.py:617
+#: template.py:625
 msgid "Stem Export"
 msgstr ""
 
-#: template.py:618
+#: template.py:626
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
 
-#: template.py:621 template.py:722
+#: template.py:629 template.py:730
 msgid "Chord Assistance"
 msgstr "和弦辅助"
 
-#: template.py:624
+#: template.py:632
 msgid "Chord Audition"
 msgstr "和弦试听"
 
-#: template.py:625
+#: template.py:633
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
 msgstr "通过点击和弦垫或在MIDI键盘上按键来快速试听和弦，使用拖拽将和弦放置到时间线上。"
 
-#: template.py:627
+#: template.py:635
 msgid "Chord Editing"
 msgstr "和弦编辑"
 
-#: template.py:628
+#: template.py:636
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
 
-#: template.py:630
+#: template.py:638
 msgid "Recordable Chord Track"
 msgstr "可录制的和弦轨"
 
-#: template.py:631
+#: template.py:639
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
 msgstr ""
 
-#: template.py:633
+#: template.py:641
 msgid "Chord Presets"
 msgstr "和弦预制"
 
-#: template.py:634
+#: template.py:642
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr "从各种音阶生成和弦，加载包含的各种流派的和弦预设，或保存您自己的预设。"
 
-#: template.py:637 template.py:731
+#: template.py:645 template.py:739
 msgid "Never Lose Work"
 msgstr "永不丢失的数据"
 
-#: template.py:640
+#: template.py:648
 msgid "Project Backups"
 msgstr "项目备份"
 
-#: template.py:641
+#: template.py:649
 msgid "Backups taken automatically at user-specified intervals."
 msgstr "在用户指定的时间间隔内自动备份项目。"
 
-#: template.py:643
+#: template.py:651
 msgid "Undoable Actions"
 msgstr "可撤销的操作"
 
-#: template.py:644
+#: template.py:652
 msgid "Almost every user action is undoable."
 msgstr "几乎所有用户操作都是可撤销的。"
 
-#: template.py:646
+#: template.py:654
 msgid "Serializable Undo History"
 msgstr "有序的撤销历史"
 
-#: template.py:647
+#: template.py:655
 msgid "Keep your undo history when saving projects."
 msgstr "在保存工程时保留您的撤销历史。"
 
-#: template.py:650
+#: template.py:658
 msgid "Scripting"
 msgstr "脚本"
 
-#: template.py:653
+#: template.py:661
 msgid "Extend Zrythm"
 msgstr ""
 
-#: template.py:654
+#: template.py:662
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
 
-#: template.py:656
+#: template.py:664
 msgid "Custom Editor Functions"
 msgstr "自定义编辑器操作"
 
-#: template.py:657
+#: template.py:665
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
 msgstr "实现您自己的MIDI/音频/自动化操作（即将到来）。"
 
-#: template.py:659
+#: template.py:667
 msgid "Project Generation"
 msgstr "项目生成"
 
-#: template.py:660
+#: template.py:668
 msgid "Generate projects with GNU Guile scripts."
 msgstr "用GNU Guile脚本生成项目。"
 
-#: template.py:663
+#: template.py:671
 msgid "Optimized Performance"
 msgstr "优化的性能"
 
-#: template.py:666
+#: template.py:674
 msgid "Hardware accelerated UI"
 msgstr "硬件加速的 UI"
 
-#: template.py:667
+#: template.py:675
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr "由于 {ref}GTK4{endref}，大部分用户界面都在 GPU 上绘制。"
 
-#: template.py:669
+#: template.py:677
 msgid "SIMD-optimized DSP"
 msgstr "SIMD 优化的 DSP"
 
-#: template.py:670
+#: template.py:678
 msgid ""
 "Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such "
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
@@ -635,23 +648,23 @@ msgstr ""
 "Zrythm 使用 {ref}lsp-dsp-lib{endref}，在可用时实现 SIMD 扩展，如 SSE、AVX 和 "
 "FMA，以加快音频处理速度并最大限度地减少 DSP 的使用。"
 
-#: template.py:672
+#: template.py:680
 msgid "Extensive Caching"
 msgstr ""
 
-#: template.py:673
+#: template.py:681
 msgid "Expensive computations are pre-calculated to save processing time."
 msgstr ""
 
-#: template.py:676
+#: template.py:684
 msgid "Cross-Platform Support"
 msgstr "跨平台支持"
 
-#: template.py:679
+#: template.py:687
 msgid "Multiple Platforms"
 msgstr "多平台"
 
-#: template.py:680
+#: template.py:688
 msgid ""
 "Zrythm is designed to run on a {ref}wide variety of platforms and "
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
@@ -659,109 +672,109 @@ msgid ""
 msgstr ""
 "Zrythm 旨在在{ref}各种平台和架构{endref} 上运行，包括 x86 架构、PowerPC、RISC-V、ARMv7 和 ARMv8。"
 
-#: template.py:682
+#: template.py:690
 msgid "Multiple Backends"
 msgstr "多个后端"
 
-#: template.py:683
+#: template.py:691
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
 "支持几乎所有主要的音频和 MIDI 后端，包括 JACK/PipeWire、Windows MME、WASAPI 和 Core Audio/MIDI。"
 
-#: template.py:686
+#: template.py:694
 msgid "Localization"
 msgstr "本地化"
 
-#: template.py:689
+#: template.py:697
 msgid "Localized UI"
 msgstr "本地化用户界面"
 
-#: template.py:690
+#: template.py:698
 msgid "Use Zrythm in your preferred language."
 msgstr "以您喜欢的语言使用 Zrythm。"
 
-#: template.py:692
+#: template.py:700
 msgid "Easily Add Translations"
 msgstr "轻松添加翻译"
 
-#: template.py:693
+#: template.py:701
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr "在{ref}Weblate{endref}上添加缺失的翻译和地方语言。"
 
-#: template.py:696
+#: template.py:704
 msgid "User Freedom"
 msgstr "用户自由"
 
-#: template.py:699
+#: template.py:707
 msgid "Free Software"
 msgstr "自由软件"
 
-#: template.py:700
+#: template.py:708
 msgid "All source code is released as {ref}copyleft free software{endref}."
 msgstr "所有源代码均以 {ref}无版权自由软件{endref} 的形式发布。"
 
-#: template.py:702
+#: template.py:710
 msgid "Open Standards"
 msgstr "开放标准"
 
-#: template.py:703
+#: template.py:711
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
 msgstr "Zrythm支持MIDI、LV2、FLAC、OGG等开放标准。"
 
-#: template.py:705
+#: template.py:713
 msgid "Cooperation"
 msgstr "合作"
 
-#: template.py:706
+#: template.py:714
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr "我们与自由软件社区合作，确保Zrythm可在所有平台上正常构建和运行。"
 
-#: template.py:714
+#: template.py:722
 msgid ""
 "Easily select, move, resize, clone, link, loop, delete and cut objects with "
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr "轻松地选择、移动、调整大小、克隆、链接、循环、删除和切割对象，或用额外的专门工具扩展其功能，在每个编辑器中享受自适应吸附。"
 
-#: template.py:716
+#: template.py:724
 msgid "Limitless Automation"
 msgstr "无所限制的自动化"
 
-#: template.py:717
+#: template.py:725
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr "通过使用直线、坡道和曲线的自动化事件或 LFO 和包络来自动化几乎所有的事情。"
 
-#: template.py:720
+#: template.py:728
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
 
-#: template.py:723
+#: template.py:731
 msgid ""
 "Generate chords from scales in the chord pad, audition and invert chords or "
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr "在和弦垫中从音阶生成和弦，试听和反转和弦，或保存你自己的和弦预设，在和弦轨中管理你的和弦进行，并在钢琴卷帘中享受和弦高亮。"
 
-#: template.py:725
+#: template.py:733
 msgid "Audio Plugins"
 msgstr "音频插件"
 
-#: template.py:726
+#: template.py:734
 msgid ""
 "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
 
-#: template.py:729
+#: template.py:737
 msgid ""
 "Organize your work into multiple layers in the same track using track lanes,"
 " quickly bounce anything to audio, import/export a wide variety of audio and"
@@ -769,17 +782,17 @@ msgid ""
 "types for every purpose."
 msgstr ""
 
-#: template.py:732
+#: template.py:740
 msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr "从自动备份中恢复您的项目，撤销几乎任意一个用户操作，将撤销历史与您的项目一起保存。"
 
-#: template.py:734
+#: template.py:742
 msgid "Liberating"
 msgstr "自由"
 
-#: template.py:735
+#: template.py:743
 msgid ""
 "Zrythm is {copyleft_ref}copyleft{endref} {free_software_ref}free "
 "software</a> with fully auditable source code. Use, study, share and improve"
@@ -807,7 +820,7 @@ msgstr "功能"
 msgid "User Manual"
 msgstr "用户手册"
 
-#: common/footer.j2.inc:39 template/download.html.j2:128
+#: common/footer.j2.inc:39 template/download.html.j2:141
 msgid "Releases"
 msgstr "发布"
 
@@ -839,7 +852,7 @@ msgstr "捐赠"
 msgid "About this Site"
 msgstr "关于本站"
 
-#: common/footer.j2.inc:67 template/download.html.j2:125
+#: common/footer.j2.inc:67 template/download.html.j2:138
 msgid "Source Code"
 msgstr "源代码"
 
@@ -860,19 +873,6 @@ msgstr "报告一个问题"
 msgid "Designed by Andrew Harter"
 msgstr "由Andrew Harter设计"
 
-#: common/header.j2.inc:24
-msgid "A highly automated and intuitive digital audio workstation."
-msgstr "一个高度自动化且直观的数字音频工作站。"
-
-#: common/header.j2.inc:32
-msgid ""
-"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
-"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
-" mastering"
-msgstr ""
-"DAW，数字音频工作站，音乐制作，音频，专业音频，Linux，GNU/Linux，自由软件，自由软件，声音编辑器，作曲，MIDI，LV2，JACK，VST，音频插件，录音，编辑，安排，编曲，混音，母带制作"
-
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
@@ -889,7 +889,7 @@ msgid "Get Involved"
 msgstr "参与"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:69 template/index.html.j2:38
+#: template/download.html.j2:82 template/index.html.j2:52
 msgid "Download"
 msgstr "下载"
 
@@ -1023,98 +1023,100 @@ msgstr "在 Open Collective 上捐款并查看我们的公共开支。"
 msgid "Download Zrythm's source code or purchase a binary package installer."
 msgstr "下载 Zrythm 的源代码或购买二进制软件包安装程序。"
 
-#: template/download.html.j2:33
+#: template/download.html.j2:46
 msgid "Select Platform"
 msgstr "选择平台"
 
-#: template/download.html.j2:50
+#: template/download.html.j2:63
 msgid "Downloads"
 msgstr "下载"
 
-#: template/download.html.j2:56
+#: template/download.html.j2:69
 msgid "Installers"
 msgstr "安装文件"
 
-#: template/download.html.j2:61
+#: template/download.html.j2:74
 msgid "Basic"
 msgstr "基本"
 
-#: template/download.html.j2:62
+#: template/download.html.j2:75
 msgid "Free"
 msgstr "免费"
 
-#: template/download.html.j2:64
+#: template/download.html.j2:77
 msgid "Up to 25 tracks"
 msgstr ""
 
-#: template/download.html.j2:65
+#: template/download.html.j2:78
 msgid "Basic plugins"
 msgstr "基本插件"
 
-#: template/download.html.j2:66
+#: template/download.html.j2:79
 msgid "Web user manual"
 msgstr ""
 
-#: template/download.html.j2:73
+#: template/download.html.j2:86
 msgid "Single"
 msgstr "单独版本"
 
-#: template/download.html.j2:76 template/download.html.j2:88
-#: template/download.html.j2:100
+#: template/download.html.j2:89 template/download.html.j2:101
+#: template/download.html.j2:113
 msgid "Unlimited tracks"
 msgstr ""
 
-#: template/download.html.j2:77 template/download.html.j2:89
-#: template/download.html.j2:101
+#: template/download.html.j2:90 template/download.html.j2:102
+#: template/download.html.j2:114
 msgid "Basic & Z Series plugins"
 msgstr "Basic & Z 系列插件"
 
-#: template/download.html.j2:78 template/download.html.j2:90
-#: template/download.html.j2:102
+#: template/download.html.j2:91 template/download.html.j2:103
+#: template/download.html.j2:115
 msgid "Web & PDF user manual"
 msgstr ""
 
-#: template/download.html.j2:81 template/download.html.j2:93
+#: template/download.html.j2:94 template/download.html.j2:106
 msgid "Purchase"
 msgstr "购买"
 
-#: template/download.html.j2:85
+#: template/download.html.j2:98
 msgid "Bundle"
 msgstr "合集"
 
-#: template/download.html.j2:91
+#: template/download.html.j2:104
 msgid "Access to all v1 releases"
 msgstr "获得所有 v1 版本"
 
-#: template/download.html.j2:97
+#: template/download.html.j2:110
 msgid "Nightly"
 msgstr "每夜版"
 
-#: template/download.html.j2:98
+#: template/download.html.j2:111
 msgid "year"
 msgstr "年"
 
-#: template/download.html.j2:103
+#: template/download.html.j2:116
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:104
+#: template/download.html.j2:117
 msgid "Access to nightly builds"
 msgstr "访问夜间构建"
 
-#: template/download.html.j2:106
+#: template/download.html.j2:119
 msgid "Subscribe"
 msgstr "订阅"
 
-#: template/download.html.j2:111
+#: template/download.html.j2:124
 msgid "* Prices in this currency are estimates"
 msgstr ""
 
-#: template/download.html.j2:116
-msgid "Support Zrythm by purchasing an installer. This month we received:"
+#: template/download.html.j2:129
+msgid ""
+"Zrythm relies on donations and purchases to sustain development. This month "
+"we received:"
 msgstr ""
 
-#: template/download.html.j2:129
+#: template/download.html.j2:142
 msgid "GPG Key"
 msgstr "GPG 密钥"
 
@@ -1134,33 +1136,34 @@ msgid ""
 msgstr ""
 "Zrythm 是一个数字音频工作站，设计得很有特色，操作很简便它允许无限的自动化，支持 LV2 插件，与 JACK 音频后端相连并提供和弦帮助。"
 
-#: template/index.html.j2:36
+#: template/index.html.j2:50
 msgid "A highly automated and intuitive digital audio workstation"
 msgstr "一个高度自动化且直观的数字音频工作站"
 
-#: template/index.html.j2:39
+#: template/index.html.j2:53
 msgid "Learn More"
 msgstr "了解更多信息"
 
-#: template/index.html.j2:63
+#: template/index.html.j2:77
 msgid "Showcase"
 msgstr "展示台"
 
-#: template/index.html.j2:72 template/index.html.j2:86
-#: template/index.html.j2:100 template/index.html.j2:114
-#: template/index.html.j2:128 template/index.html.j2:142
+#: template/index.html.j2:86 template/index.html.j2:100
+#: template/index.html.j2:114 template/index.html.j2:128
+#: template/index.html.j2:142 template/index.html.j2:156
+#: template/index.html.j2:170
 msgid "Your browser does not support HTML5 video."
 msgstr "您的浏览器不支持 HTML5 视频。"
 
-#: template/index.html.j2:133
+#: template/index.html.j2:147
 msgid "Remake"
 msgstr ""
 
-#: template/index.html.j2:155
+#: template/index.html.j2:183
 msgid "Testimonials"
 msgstr "荐语"
 
-#: template/index.html.j2:184
+#: template/index.html.j2:212
 msgid "Affiliates"
 msgstr ""
 
