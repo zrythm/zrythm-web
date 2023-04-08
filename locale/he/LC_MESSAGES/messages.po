@@ -1118,8 +1118,6 @@ msgid "* Prices in this currency are estimates"
 msgstr ""
 
 #: template/download.html.j2:129
-#| msgid ""
-#| "Support Zrythm by purchasing an installer. This month we received:"
 msgid ""
 "Zrythm relies on donations and purchases to sustain development. This month "
 "we received:"

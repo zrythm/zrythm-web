@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: template.py:401
 msgid ""
@@ -1133,8 +1133,7 @@ msgstr "* 이 통화의 가격은 추정치"
 msgid ""
 "Zrythm relies on donations and purchases to sustain development. This month "
 "we received:"
-msgstr "Zrythm은 개발을 지속하기 위해 기부와 구매에 의존합니다. 이번 달에 우리는 "
-"다음을 받았습니다:"
+msgstr "Zrythm은 개발을 지속하기 위해 기부와 구매에 의존합니다. 이번 달에 우리는 다음을 받았습니다:"
 
 #: template/download.html.j2:142
 msgid "GPG Key"

@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: template.py:401
 msgid ""
@@ -1263,8 +1263,8 @@ msgid ""
 "Zrythm relies on donations and purchases to sustain development. This month "
 "we received:"
 msgstr ""
-"Zrythm compte sur les dons et les achats pour soutenir son développement. Ce "
-"mois-ci, nous avons reçu :"
+"Zrythm compte sur les dons et les achats pour soutenir son développement. Ce"
+" mois-ci, nous avons reçu :"
 
 #: template/download.html.j2:142
 msgid "GPG Key"
