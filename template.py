@@ -313,7 +313,6 @@ def check_url(url):
 if verify_trial_package_urls:
     print ('verifying release and trial packages...')
     check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz')
-    check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.AppImage')
     check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.flatpak')
     check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
     check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
