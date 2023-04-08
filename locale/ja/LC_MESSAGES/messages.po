@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2022-09-14 04:42+0000\n"
+"PO-Revision-Date: 2023-04-08 23:31+0000\n"
 "Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:401
 msgid ""
@@ -41,7 +42,7 @@ msgstr "ステレオダイナミックレンジコンプレッサー"
 
 #: template.py:411
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "3 次非線形ディストーション"
 
 #: template.py:414
 msgid "Stereo flanging effect"
@@ -73,17 +74,18 @@ msgstr "フェージング効果"
 
 #: template.py:435
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "3つのデチューンされたオシレーターボイスを備えたポリフォニックシンセサイザー"
 
 #: template.py:438
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr ""
+msgstr "ディレイタイムを変えてもクリックもトランスポーズもしないディレイ"
 
 #: template.py:441
+#, fuzzy
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "4次までのワウペダル効果"
 
 #: template.py:444
 msgid "White noise generator"
@@ -91,7 +93,7 @@ msgstr "ホワイトノイズジェネレータ"
 
 #: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "8x8後期残響FDNリバーブ"
 
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -167,7 +169,8 @@ msgstr "豊富なツールボックス"
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
-msgstr ""
+msgstr "{ref}編集、カット、消去、ランプ、オーディションツール{endref}に切り替えて、セ"
+"レクトツールの機能を拡張できます。"
 
 #: template.py:488
 msgid "Adaptive Snapping"
@@ -197,7 +200,8 @@ msgstr "トラックレーン"
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
-msgstr ""
+msgstr "{ref}トラックレーン{endref}を使用して、同じトラックに複数のオーディオ/MIDIレ"
+"イヤーを追加できます。"
 
 #: template.py:501
 msgid "Bounce in Place"
@@ -447,6 +451,8 @@ msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"{ref}Carla{endref}のおかげで、ZrythmはLV2、VST2、VST3、AU、CLAP、JSFXなど様々"
+"なプラグインフォーマットに対応しています。"
 
 #: template.py:600
 msgid "SoundFonts as Plugins"
@@ -635,9 +641,11 @@ msgid "Hardware accelerated UI"
 msgstr "ハードウェアアクセラレーションによるUI"
 
 #: template.py:675
+#, fuzzy
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
-msgstr ""
+msgstr "{ref}GTK4{endref} のおかげで、ほとんどのユーザー インターフェイスは GPU "
+"で描画されます。"
 
 #: template.py:677
 msgid "SIMD-optimized DSP"
@@ -655,8 +663,9 @@ msgid "Extensive Caching"
 msgstr "広範なキャッシング"
 
 #: template.py:681
+#, fuzzy
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "負荷の高い計算をあらかじめ計算することで、処理時間を短縮しています。"
 
 #: template.py:684
 msgid "Cross-Platform Support"
@@ -703,11 +712,12 @@ msgstr "簡単に翻訳を追加できる"
 
 #: template.py:701
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
-msgstr ""
+msgstr "{ref}Weblate{endref}で不足している翻訳とロケールを追加できます。"
 
 #: template.py:704
+#, fuzzy
 msgid "User Freedom"
-msgstr ""
+msgstr "ユーザーの自由"
 
 #: template.py:707
 msgid "Free Software"
@@ -715,7 +725,8 @@ msgstr "自由なソフトウェア"
 
 #: template.py:708
 msgid "All source code is released as {ref}copyleft free software{endref}."
-msgstr ""
+msgstr "すべてのソースコードは{ref}copyleft "
+"なフリーソフトウェア{endref}として公開されています。"
 
 #: template.py:710
 msgid "Open Standards"
@@ -733,7 +744,8 @@ msgstr "協力"
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
-msgstr ""
+msgstr "Zrythmがすべてのプラットフォームで問題なくビルドされ、動作するよう、フリーソ"
+"フトウェアのコミュニティと協力しています。"
 
 #: template.py:722
 msgid ""
@@ -1057,7 +1069,7 @@ msgstr "最大25トラックまで"
 
 #: template/download.html.j2:78
 msgid "Basic plugins"
-msgstr ""
+msgstr "基本プラグイン"
 
 #: template/download.html.j2:79
 msgid "Web user manual"
@@ -1119,12 +1131,11 @@ msgid "* Prices in this currency are estimates"
 msgstr "※円建ての価格は概算です"
 
 #: template/download.html.j2:129
-#| msgid ""
-#| "Support Zrythm by purchasing an installer. This month we received:"
 msgid ""
 "Zrythm relies on donations and purchases to sustain development. This month "
 "we received:"
-msgstr ""
+msgstr "Zrythmは、開発を維持するために寄付と購入に頼っています。今月は、以下の金額を"
+"いただきました："
 
 #: template/download.html.j2:142
 msgid "GPG Key"
@@ -1332,7 +1343,7 @@ msgstr "技術仕様"
 
 #: template/privacy.html.j2:354
 msgid "Last updated on 3 Oct 2022"
-msgstr ""
+msgstr "最終更新日：2022年10月3日"
 
 #~ msgid "Save/load disabled"
 #~ msgstr "保存/読込が無効"
