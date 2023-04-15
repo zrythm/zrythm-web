@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2021-10-22 09:45+0000\n"
-"Last-Translator: Klára Jánošová <klarajanosova0@gmail.com>\n"
+"PO-Revision-Date: 2023-04-16 11:48+0000\n"
+"Last-Translator: \"Filip Oščádal (Fred Brooker)\" <f@mxd.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/zrythm/web/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: template.py:401
 msgid ""
@@ -29,73 +29,73 @@ msgstr ""
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Vysoce automatizovaná a intuitivní digitální zvuková pracovní stanice."
 
 #: template.py:408
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "Stereofonní kompresor dynamického rozsahu"
 
 #: template.py:411
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "Kubické nelineární zkreslení"
 
 #: template.py:414
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Stereofonní flanging efekt"
 
 #: template.py:417
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Stereofonní signálová brána"
 
 #: template.py:420
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Butterworthova horní propust 2. řádu"
 
 #: template.py:423
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Butterworthova dolní propust 2. řádu"
 
 #: template.py:426
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Parametrický ekvalizér"
 
 #: template.py:429
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Kompresor dynamického rozsahu modelovaný podle 1176 Peak Limiteru"
 
 #: template.py:432
 msgid "Phasing effect"
-msgstr ""
+msgstr "Phasing efekt"
 
 #: template.py:435
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "Polyfonní syntezátor se 3 rozladěnými oscilátory"
 
 #: template.py:438
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr ""
+msgstr "Delay, který nekliká a netransponuje se při změně doby zpoždění"
 
 #: template.py:441
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Efekt kvákadla 4. řádu"
 
 #: template.py:444
 msgid "White noise generator"
-msgstr ""
+msgstr "Generátor bílého šumu"
 
 #: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "8x8 pozdní dozvuk typu FDN reverb"
 
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz mapuje akordy mollové nebo durové stupnice na bílé klávesy"
 
 #: template.py:453
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Durová nebo molová stupnice"
 
 #: template.py:454
 msgid "Velocity multiplier per note"
@@ -115,15 +115,15 @@ msgstr "Fázový posun"
 
 #: template.py:460
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Vertikální/horizontální inverze"
 
 #: template.py:461
 msgid "Step mode"
-msgstr ""
+msgstr "Krokový režim"
 
 #: template.py:462
 msgid "Editable range"
-msgstr ""
+msgstr "Editovatelný rozsah"
 
 #: template.py:463
 msgid "Sync to host or free-form"
@@ -131,23 +131,24 @@ msgstr ""
 
 #: template.py:466
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw je syntezátor typu supersaw s 1 parametrem"
 
 #: template.py:467
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 pilových oscilátorů"
 
 #: template.py:468
+#, fuzzy
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Jediný knoflík pro ovládání rozladění"
 
 #: template.py:479 template.py:721
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Intuitivní editace"
 
 #: template.py:482
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "Flexibilní nástroj pro výběr"
 
 #: template.py:483
 msgid ""
