@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2022-02-16 21:16+0000\n"
-"Last-Translator: Muhammed YILMAZ <yilmazmu15@itu.edu.tr>\n"
+"PO-Revision-Date: 2023-05-14 20:51+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/zrythm/web/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Weblate 4.11-dev\n"
 
 #: template.py:401
 msgid ""
@@ -95,7 +95,7 @@ msgstr ""
 
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz, minör veya majör gamın akorlarını beyaz tuşlara eşler"
+msgstr "ZChordz, bir minör veya majör ölçeğin akorlarını beyaz tuşlara eşler"
 
 #: template.py:453
 msgid "Major or minor scale"
