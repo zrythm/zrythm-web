@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2022-01-24 20:56+0000\n"
-"Last-Translator: G R <gradaellig@gmail.com>\n"
+"PO-Revision-Date: 2023-06-10 11:48+0000\n"
+"Last-Translator: Luigi <work@luigibarbato.digital>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.11-dev\n"
 
 #: template.py:401
 msgid ""
@@ -29,7 +29,7 @@ msgstr ""
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Una digital audio workstation altamente automatizzata e intuitiva."
 
 #: template.py:408
 msgid "Stereo dynamic range compressor"
@@ -92,7 +92,7 @@ msgstr ""
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mappa gli accordi di una scala minore o maggiore ai tasti bianchi"
+"ZChordz mappa gli accordi di una scala minore o maggiore sui tasti bianchi"
 
 #: template.py:453
 msgid "Major or minor scale"
