@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-05-07 02:50+0000\n"
-"Last-Translator: Clxff Heraldo <123844876+clxf12@users.noreply.github.com>\n"
+"PO-Revision-Date: 2023-06-30 07:49+0000\n"
+"Last-Translator: Gold Master <goldmaster739@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/"
 ">\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: template.py:401
@@ -96,8 +96,9 @@ msgid "8x8 late-reverberation FDN reverb"
 msgstr "8x8 gema akhir FDN reverb"
 
 #: template.py:452
+#, fuzzy
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz memetakan akor dari skala minor atau mayor ke kunci putih"
+msgstr "ZChordz maps the chords of a minor or major scale to white keys"
 
 #: template.py:453
 msgid "Major or minor scale"
