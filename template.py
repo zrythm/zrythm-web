@@ -137,7 +137,7 @@ currency_symbols = {
     'TWD': 'NT$',
     'RUB': '₽',
     }
-forex_url = 'https://open.er-api.com/v6/latest/GBP'
+forex_url = 'https://open.er-api.com/v6/latest/JPY'
 headers = {
     'Accept': 'application/json',
     'Content-type': 'application/json',
@@ -158,6 +158,36 @@ else:
 prev_month_earning = 100
 monthly_earning = 0
 num_monthly_orders = 0
+
+# fetch products
+single_price = float(0)
+bundle_price = float(0)
+subscription_price = float(0)
+if fetch_orders:
+    products_url = 'https://accounts.zrythm.org/api/v1/products/'
+    headers = {
+        'Accept': 'application/json',
+        'Content-type': 'application/json',
+        'Accept-Charset': 'UTF-8',
+        'Authorization': 'Token %s' % os.getenv ('ZRYTHM_ACCOUNTS_TOKEN'),
+        }
+    payload = {
+        'limit': '100',
+        'status': 'Completed',
+        'ordering': '-created_at',
+        }
+    print ('getting zrythm-accounts products...')
+    r = requests.get(products_url, params=payload, headers=headers)
+    if r.status_code == 200:
+        for product in r.json()['results']:
+            if product['type'] == 'Single':
+                single_price = float(product['price_jpy'])
+                break;
+        for product in r.json()['results']:
+            if product['type'] == 'Bundle':
+                bundle_price = float(product['price_jpy'])
+            elif product['type'] == 'Subscription':
+                subscription_price = float(product['price_jpy'])
 
 # get monthly orders
 if fetch_orders:
@@ -186,7 +216,7 @@ if fetch_orders:
             created_at = dateutil.parser.isoparse (order['created_at'])
             if created_at < start_datetime:
                 continue
-            amount = float (product['price_gbp'])
+            amount = float (product['price_jpy'])
             amount -= (amount * 0.05)
             print ('adding {} zrythm accounts earnings (Order {})'.format(amount, order['id']))
             monthly_earning += amount
@@ -229,6 +259,8 @@ if fetch_orders:
                         amount += float(tx['fee_amount']['value'])
                     if tx['transaction_amount']['currency_code'] == 'USD':
                         amount = amount / currency_rates['USD']
+                    elif tx['transaction_amount']['currency_code'] == 'GBP':
+                        amount = amount / currency_rates['GBP']
                     if amount > 0:
                         print ('adding {} paypal subscription earnings'.format(amount))
                         monthly_earning += amount
@@ -240,6 +272,8 @@ if fetch_orders:
                         amount = amount / currency_rates['USD']
                     elif tx['transaction_amount']['currency_code'] == 'EUR':
                         amount = amount / currency_rates['EUR']
+                    elif tx['transaction_amount']['currency_code'] == 'GBP':
+                        amount = amount / currency_rates['GBP']
                     if amount > 0:
                         print ('adding {} paypal custom donation earnings'.format(amount))
                         monthly_earning += amount
@@ -253,7 +287,6 @@ if fetch_orders:
         r = requests.get('https://liberapay.com/' + lp_account + '/public.json')
         if r.status_code == 200:
             amount = float(r.json()['receiving']['amount']) * 4.0
-            amount = amount / currency_rates['JPY']
             amount = float('%.2f' % amount)
             print ('adding {} liberapay earnings'.format(amount))
             monthly_earning += amount
@@ -744,9 +777,9 @@ for in_file in glob.glob("template/*.j2"):
 
         currency_for_locale = langs_full[locale][2]
         currency_sym_for_locale = currency_symbols[currency_for_locale]
-        single_price_for_locale = round (12 * currency_rates[currency_for_locale])
-        bundle_price_for_locale = round (28 * currency_rates[currency_for_locale])
-        subscription_price_for_locale = round (42 * currency_rates[currency_for_locale])
+        single_price_for_locale = round (single_price * currency_rates[currency_for_locale])
+        bundle_price_for_locale = round (bundle_price * currency_rates[currency_for_locale])
+        subscription_price_for_locale = round (subscription_price * currency_rates[currency_for_locale])
         monthly_earning_for_locale = round (monthly_earning * currency_rates[currency_for_locale])
         local_salary_for_locale = round (2625 * currency_rates[currency_for_locale])
         # if JPY, round again to 100s
@@ -756,11 +789,11 @@ for in_file in glob.glob("template/*.j2"):
             subscription_price_for_locale = round (subscription_price_for_locale, -2)
             monthly_earning_for_locale = round (monthly_earning_for_locale, -2)
             local_salary_for_locale = round (local_salary_for_locale, -2)
-        single_price_for_locale = '{}{}'.format (currency_sym_for_locale, single_price_for_locale)
-        bundle_price_for_locale = '{}{}'.format (currency_sym_for_locale, bundle_price_for_locale)
-        subscription_price_for_locale = '{}{}'.format (currency_sym_for_locale, subscription_price_for_locale)
-        monthly_earning_str = '{}{}'.format (currency_sym_for_locale, monthly_earning_for_locale)
-        local_salary_str = '{}{}'.format (currency_sym_for_locale, local_salary_for_locale)
+        single_price_for_locale = '{}{:,}'.format (currency_sym_for_locale, single_price_for_locale)
+        bundle_price_for_locale = '{}{:,}'.format (currency_sym_for_locale, bundle_price_for_locale)
+        subscription_price_for_locale = '{}{:,}'.format (currency_sym_for_locale, subscription_price_for_locale)
+        monthly_earning_str = '{}{:,}'.format (currency_sym_for_locale, monthly_earning_for_locale)
+        local_salary_str = '{}{:,}'.format (currency_sym_for_locale, local_salary_for_locale)
 
         content = tmpl.render(lang=locale,
                               lang_for_accounts=locale_for_accounts,
