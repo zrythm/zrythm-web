@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-08-07 16:46+0000\n"
+"PO-Revision-Date: 2023-08-08 17:46+0000\n"
 "Last-Translator: Ivar <ivar@ivarbjerling.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
 "Language: sv\n"
@@ -49,7 +49,6 @@ msgid "Stereo flanging effect"
 msgstr "Stereo flanging effekt"
 
 #: template.py:417
-#, fuzzy
 msgid "Stereo signal gate"
 msgstr "Stereo signal gate"
 
@@ -63,11 +62,11 @@ msgstr "2:a ordningens Butterworth lågpassfilter"
 
 #: template.py:426
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Parametrisk equalizer"
 
 #: template.py:429
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Kompressor för dynamiskt omfång modellerad efter 1176 peak limitern"
 
 #: template.py:432
 msgid "Phasing effect"
@@ -85,11 +84,11 @@ msgstr ""
 
 #: template.py:441
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Wah pedal effekt till den 4:e ordningen"
 
 #: template.py:444
 msgid "White noise generator"
-msgstr ""
+msgstr "Vitt brus generator"
 
 #: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
@@ -822,7 +821,7 @@ msgstr "Användarmanual"
 
 #: common/footer.j2.inc:39 template/download.html.j2:141
 msgid "Releases"
-msgstr ""
+msgstr "Utgåvor"
 
 #: common/footer.j2.inc:42
 msgid "Git"
@@ -842,7 +841,7 @@ msgstr ""
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Bidra"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
@@ -990,6 +989,8 @@ msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Följ oss på Mastodon för att få uppdateringar gällande nya utgåvor och få "
+"tjuvtitta på nya funktioner, rösta i omröstningar med mera."
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -1082,7 +1083,7 @@ msgstr "Bunt"
 
 #: template/download.html.j2:104
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Tillgång till alla v1 utgåvor"
 
 #: template/download.html.j2:110
 msgid "Nightly"
@@ -1094,7 +1095,7 @@ msgstr ""
 
 #: template/download.html.j2:116
 msgid "Access to all releases"
-msgstr ""
+msgstr "Tillgång till alla utgåvor"
 
 #: template/download.html.j2:117
 msgid "Access to nightly builds"
