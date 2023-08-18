@@ -1,35 +1,33 @@
 # Translations template for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
+# Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-06-10 11:48+0000\n"
-"Last-Translator: Luigi <work@luigibarbato.digital>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
-"Language: it\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ms\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: template.py:401
 msgid ""
-"DAW, digital audio workstation, music production, audio, pro audio, Linux, "
-"GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
-"LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
-" mastering"
+"DAW, digital audio workstation, music production, audio, pro audio, "
+"Linux, GNU/Linux, free software, libre software, sound editor, "
+"composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, "
+"arrange, arranger, mixing, mastering"
 msgstr ""
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr "Una digital audio workstation altamente automatizzata e intuitiva."
+msgstr ""
 
 #: template.py:408
 msgid "Stereo dynamic range compressor"
@@ -92,23 +90,22 @@ msgstr ""
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mappa gli accordi di una scala minore o maggiore sui tasti bianchi"
 
 #: template.py:453
 msgid "Major or minor scale"
-msgstr "Scala maggiore o minore"
+msgstr ""
 
 #: template.py:454
 msgid "Velocity multiplier per note"
-msgstr "Moltiplicatore di velocità per nota"
+msgstr ""
 
 #: template.py:457
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "ZLFO è un LFO completo per l'automazione basata su CV"
+msgstr ""
 
 #: template.py:458
 msgid "Multi-oscillator with custom wave"
-msgstr "Multi-oscillatore con onda personalizzata"
+msgstr ""
 
 #: template.py:459
 msgid "Phase shift"
@@ -116,7 +113,7 @@ msgstr ""
 
 #: template.py:460
 msgid "Vertical/horizontal inversion"
-msgstr "Inversione verticale/orizzontale"
+msgstr ""
 
 #: template.py:461
 msgid "Step mode"
@@ -124,7 +121,7 @@ msgstr ""
 
 #: template.py:462
 msgid "Editable range"
-msgstr "Intervallo modificabile"
+msgstr ""
 
 #: template.py:463
 msgid "Sync to host or free-form"
@@ -140,7 +137,7 @@ msgstr ""
 
 #: template.py:468
 msgid "Single knob to control detune"
-msgstr "Singola manopola per controllare la disintonazione"
+msgstr ""
 
 #: template.py:479 template.py:721
 msgid "Intuitive Editing"
@@ -162,8 +159,8 @@ msgstr ""
 
 #: template.py:486
 msgid ""
-"Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
-"Ramp or Audition tools{endref}."
+"Extend select tool functionality by switching to the {ref}Edit, Cut, "
+"Erase, Ramp or Audition tools{endref}."
 msgstr ""
 
 #: template.py:488
@@ -222,8 +219,8 @@ msgstr ""
 
 #: template.py:512
 msgid ""
-"Create, edit and arrange MIDI events in a dedicated piano roll with chord "
-"integration."
+"Create, edit and arrange MIDI events in a dedicated piano roll with chord"
+" integration."
 msgstr ""
 
 #: template.py:514
@@ -240,8 +237,8 @@ msgstr ""
 
 #: template.py:518
 msgid ""
-"Edit multiple velocities simultaneously with the select tool or draw with "
-"the pencil or ramp tool."
+"Edit multiple velocities simultaneously with the select tool or draw with"
+" the pencil or ramp tool."
 msgstr ""
 
 #: template.py:520
@@ -250,8 +247,8 @@ msgstr ""
 
 #: template.py:521
 msgid ""
-"Adjust fades/gain and edit parts of audio clips using audio functions inside"
-" the audio editor."
+"Adjust fades/gain and edit parts of audio clips using audio functions "
+"inside the audio editor."
 msgstr ""
 
 #: template.py:523
@@ -290,8 +287,8 @@ msgstr ""
 
 #: template.py:537
 msgid ""
-"Record audio/MIDI from any of your devices, or even from other apps using "
-"JACK."
+"Record audio/MIDI from any of your devices, or even from other apps using"
+" JACK."
 msgstr ""
 
 #: template.py:539
@@ -300,8 +297,8 @@ msgstr ""
 
 #: template.py:540
 msgid ""
-"Use punch in/punch out, record on MIDI input, and optionally create multiple"
-" takes."
+"Use punch in/punch out, record on MIDI input, and optionally create "
+"multiple takes."
 msgstr ""
 
 #: template.py:542
@@ -317,8 +314,7 @@ msgid "Device Controls"
 msgstr ""
 
 #: template.py:546
-msgid ""
-"Bind your device knobs to controls inside Zrythm and record your actions."
+msgid "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
 
 #: template.py:549 template.py:727
@@ -347,8 +343,8 @@ msgstr ""
 
 #: template.py:559
 msgid ""
-"Listen to specified tracks in the context of the mix by dimming down every "
-"other track."
+"Listen to specified tracks in the context of the mix by dimming down "
+"every other track."
 msgstr ""
 
 #: template.py:561
@@ -356,8 +352,7 @@ msgid "Monitor Section"
 msgstr ""
 
 #: template.py:562
-msgid ""
-"Change listen/mute/solo behavior and adjust what goes to your speakers."
+msgid "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
 
 #: template.py:565
@@ -370,7 +365,7 @@ msgstr ""
 
 #: template.py:569
 msgid "Connect anything to anything."
-msgstr "Collega qualsiasi cosa a qualsiasi cosa."
+msgstr ""
 
 #: template.py:571
 msgid "Automation Curves"
@@ -378,8 +373,8 @@ msgstr ""
 
 #: template.py:572
 msgid ""
-"Automate parameters with straight lines or curves, choosing from multiple "
-"curve algorithms, such as Exponential and Elliptic curves."
+"Automate parameters with straight lines or curves, choosing from multiple"
+" curve algorithms, such as Exponential and Elliptic curves."
 msgstr ""
 
 #: template.py:574
@@ -388,8 +383,8 @@ msgstr ""
 
 #: template.py:575
 msgid ""
-"Automate parameters with CV signals or envelopes, including macro knobs and "
-"LFO plugins such as ZLFO."
+"Automate parameters with CV signals or envelopes, including macro knobs "
+"and LFO plugins such as ZLFO."
 msgstr ""
 
 #: template.py:577
@@ -412,7 +407,8 @@ msgstr ""
 
 #: template.py:585
 msgid ""
-"Detach views from any panel and work efficiently with multi-monitor setups."
+"Detach views from any panel and work efficiently with multi-monitor "
+"setups."
 msgstr ""
 
 #: template.py:587
@@ -441,8 +437,8 @@ msgstr ""
 
 #: template.py:598
 msgid ""
-"Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
-"including LV2, VST2, VST3, AU, CLAP and JSFX."
+"Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats"
+" including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
 
 #: template.py:600
@@ -489,8 +485,8 @@ msgstr ""
 
 #: template.py:617
 msgid ""
-"Browse and audition MIDI and audio files, and organize your favorite paths "
-"with favorites."
+"Browse and audition MIDI and audio files, and organize your favorite "
+"paths with favorites."
 msgstr ""
 
 #: template.py:619
@@ -508,8 +504,7 @@ msgid "MIDI"
 msgstr ""
 
 #: template.py:623
-msgid ""
-"Import or export any part of the project in MIDI Type 0 or Type 1 formats."
+msgid "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
 msgstr ""
 
 #: template.py:625
@@ -530,8 +525,8 @@ msgstr ""
 
 #: template.py:633
 msgid ""
-"Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
-" keyboard, and drag-and-drop chords to the timeline."
+"Quickly listen to chords by clicking the pads or pressing notes on your "
+"MIDI keyboard, and drag-and-drop chords to the timeline."
 msgstr ""
 
 #: template.py:635
@@ -540,8 +535,8 @@ msgstr ""
 
 #: template.py:636
 msgid ""
-"Invert chords with a single click or use the chord selector to choose any "
-"chord, with an option to filter chords in the current scale."
+"Invert chords with a single click or use the chord selector to choose any"
+" chord, with an option to filter chords in the current scale."
 msgstr ""
 
 #: template.py:638
@@ -560,8 +555,8 @@ msgstr ""
 
 #: template.py:642
 msgid ""
-"Generate chords from a wide range of scales, load included chord presets for"
-" various genres, or save your own."
+"Generate chords from a wide range of scales, load included chord presets "
+"for various genres, or save your own."
 msgstr ""
 
 #: template.py:645 template.py:739
@@ -602,8 +597,8 @@ msgstr ""
 
 #: template.py:662
 msgid ""
-"Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
-"scripts{endref}."
+"Extend the capabilities of Zrythm by editing its state using {ref}GNU "
+"Guile scripts{endref}."
 msgstr ""
 
 #: template.py:664
@@ -632,7 +627,8 @@ msgstr ""
 
 #: template.py:675
 msgid ""
-"Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
+"Most of the user interface is drawn on the GPU thanks to "
+"{ref}GTK4{endref}."
 msgstr ""
 
 #: template.py:677
@@ -641,9 +637,9 @@ msgstr ""
 
 #: template.py:678
 msgid ""
-"Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such "
-"as SSE, AVX and FMA when available to speed up audio processing and minimize"
-" DSP usage."
+"Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions "
+"such as SSE, AVX and FMA when available to speed up audio processing and "
+"minimize DSP usage."
 msgstr ""
 
 #: template.py:680
@@ -665,8 +661,8 @@ msgstr ""
 #: template.py:688
 msgid ""
 "Zrythm is designed to run on a {ref}wide variety of platforms and "
-"architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
-"and ARMv8."
+"architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7"
+" and ARMv8."
 msgstr ""
 
 #: template.py:690
@@ -725,15 +721,15 @@ msgstr ""
 
 #: template.py:714
 msgid ""
-"We work with the free software community to ensure Zrythm builds and runs "
-"without issues on all platforms."
+"We work with the free software community to ensure Zrythm builds and runs"
+" without issues on all platforms."
 msgstr ""
 
 #: template.py:722
 msgid ""
-"Easily select, move, resize, clone, link, loop, delete and cut objects with "
-"a single tool or extend its functionality with additional specialized tools,"
-" and enjoy adaptive snapping in every arranger."
+"Easily select, move, resize, clone, link, loop, delete and cut objects "
+"with a single tool or extend its functionality with additional "
+"specialized tools, and enjoy adaptive snapping in every arranger."
 msgstr ""
 
 #: template.py:724
@@ -742,8 +738,8 @@ msgstr ""
 
 #: template.py:725
 msgid ""
-"Automate almost anything with automation events using straight lines, ramps "
-"and curves, or with LFOs and envelopes."
+"Automate almost anything with automation events using straight lines, "
+"ramps and curves, or with LFOs and envelopes."
 msgstr ""
 
 #: template.py:728
@@ -754,9 +750,9 @@ msgstr ""
 
 #: template.py:731
 msgid ""
-"Generate chords from scales in the chord pad, audition and invert chords or "
-"save your own chord presets, manage your chord progression in the chord "
-"track and enjoy chord highlighting in the piano roll."
+"Generate chords from scales in the chord pad, audition and invert chords "
+"or save your own chord presets, manage your chord progression in the "
+"chord track and enjoy chord highlighting in the piano roll."
 msgstr ""
 
 #: template.py:733
@@ -765,17 +761,17 @@ msgstr ""
 
 #: template.py:734
 msgid ""
-"Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
-"VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
-"and sandboxing thanks to {carla_ref}Carla{endref}."
+"Support for every major plugin format including {lv2_ref}LV2{endref}, "
+"VST2, VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 "
+"soundfonts and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
 
 #: template.py:737
 msgid ""
-"Organize your work into multiple layers in the same track using track lanes,"
-" quickly bounce anything to audio, import/export a wide variety of audio and"
-" MIDI formats, stretch or loop any region and select from an array of track "
-"types for every purpose."
+"Organize your work into multiple layers in the same track using track "
+"lanes, quickly bounce anything to audio, import/export a wide variety of "
+"audio and MIDI formats, stretch or loop any region and select from an "
+"array of track types for every purpose."
 msgstr ""
 
 #: template.py:740
@@ -791,8 +787,8 @@ msgstr ""
 #: template.py:743
 msgid ""
 "Zrythm is {copyleft_ref}copyleft{endref} {free_software_ref}free "
-"software</a> with fully auditable source code. Use, study, share and improve"
-" it freely."
+"software</a> with fully auditable source code. Use, study, share and "
+"improve it freely."
 msgstr ""
 
 #: common/footer.j2.inc:26
@@ -803,20 +799,20 @@ msgstr ""
 
 #: common/footer.j2.inc:30
 msgid "Project"
-msgstr "Progetto"
+msgstr ""
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
 msgid "Features"
-msgstr "Funzionalità"
+msgstr ""
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "Manuale utente"
+msgstr ""
 
 #: common/footer.j2.inc:39 template/download.html.j2:141
 msgid "Releases"
-msgstr "Rilasci"
+msgstr ""
 
 #: common/footer.j2.inc:42
 msgid "Git"
@@ -824,7 +820,7 @@ msgstr ""
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr "Comunità"
+msgstr ""
 
 #: common/footer.j2.inc:50
 msgid "Chat"
@@ -857,7 +853,7 @@ msgstr ""
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr "Politica sul trattamento dei dati personali"
+msgstr ""
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
@@ -885,7 +881,7 @@ msgstr ""
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:82 template/index.html.j2:52
 msgid "Download"
-msgstr "Scarica"
+msgstr ""
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
@@ -893,15 +889,14 @@ msgstr ""
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr "Pagine della comunità e canali di comunicazione di Zrythm"
+msgstr ""
 
 #: template/community.html.j2:44
 msgid "Join Development"
 msgstr ""
 
 #: template/community.html.j2:47
-msgid ""
-"Send an email to our development mailing list for development discussion"
+msgid "Send an email to our development mailing list for development discussion"
 msgstr ""
 
 #: template/community.html.j2:53
@@ -941,8 +936,8 @@ msgstr ""
 #: template/community.html.j2:90
 msgid ""
 "Our IRC channel is #zrythm on Libera.Chat "
-"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
-"for a <code>zrythm/user/*</code> cloak."
+"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an "
+"operator for a <code>zrythm/user/*</code> cloak."
 msgstr ""
 
 #: template/community.html.j2:96
@@ -951,8 +946,8 @@ msgstr ""
 
 #: template/community.html.j2:99
 msgid ""
-"Matrix is an open standard for secure and decentralized communication. Our "
-"Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
+"Matrix is an open standard for secure and decentralized communication. "
+"Our Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
 
 #: template/community.html.j2:105
@@ -971,8 +966,8 @@ msgstr ""
 
 #: template/community.html.j2:117
 msgid ""
-"Subscribe to our read-only and low volume Announce mailing list to stay up "
-"to date with important announcements."
+"Subscribe to our read-only and low volume Announce mailing list to stay "
+"up to date with important announcements."
 msgstr ""
 
 #: template/community.html.j2:123
@@ -981,8 +976,8 @@ msgstr ""
 
 #: template/community.html.j2:126
 msgid ""
-"Follow us on Mastodon to get updates on new releases and get sneak peeks at "
-"new features, vote in polls, and more."
+"Follow us on Mastodon to get updates on new releases and get sneak peeks "
+"at new features, vote in polls, and more."
 msgstr ""
 
 #: template/community.html.j2:139
@@ -1092,11 +1087,11 @@ msgstr ""
 
 #: template/download.html.j2:117
 msgid "Access to nightly builds"
-msgstr "Accesso alle nightly build"
+msgstr ""
 
 #: template/download.html.j2:119
 msgid "Subscribe"
-msgstr "Iscriviti"
+msgstr ""
 
 #: template/download.html.j2:124
 msgid "* Prices in this currency are estimates"
@@ -1104,13 +1099,13 @@ msgstr ""
 
 #: template/download.html.j2:129
 msgid ""
-"Zrythm relies on donations and purchases to sustain development. This month "
-"we received:"
+"Zrythm relies on donations and purchases to sustain development. This "
+"month we received:"
 msgstr ""
 
 #: template/download.html.j2:142
 msgid "GPG Key"
-msgstr "Chiave GPG"
+msgstr ""
 
 #: template/features.html.j2:23
 msgid "List of features."
@@ -1122,14 +1117,10 @@ msgstr ""
 
 #: template/index.html.j2:23
 msgid ""
-"Zrythm is a digital audio workstation designed to be featureful and easy to "
-"use. It allows limitless automation, supports LV2 plugins, works with the "
-"JACK audio backend and provides chord assistance."
+"Zrythm is a digital audio workstation designed to be featureful and easy "
+"to use. It allows limitless automation, supports LV2 plugins, works with "
+"the JACK audio backend and provides chord assistance."
 msgstr ""
-"Zrythm è una digital audio workstation progettata per essere ricca di "
-"funzionalità e facile da usare. Consente un'automazione illimitata, supporta"
-" i plugin LV2, funziona con il backend audio JACK e fornisce assistenza per "
-"gli accordi."
 
 #: template/index.html.j2:50
 msgid "A highly automated and intuitive digital audio workstation"
@@ -1164,7 +1155,7 @@ msgstr ""
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr "Pagine di riferimento di Zrythm - manuale utente - guide"
+msgstr ""
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
@@ -1179,7 +1170,7 @@ msgstr ""
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr "Il tuo browser non supporta i video HTML5"
+msgstr ""
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
@@ -1223,7 +1214,7 @@ msgstr ""
 
 #: template/learn.html.j2:138
 msgid "Documentation"
-msgstr "Documentazione"
+msgstr ""
 
 #: template/learn.html.j2:141
 msgid "Developer Reference"
@@ -1231,7 +1222,7 @@ msgstr ""
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr "Informazione legale"
+msgstr ""
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
@@ -1243,8 +1234,8 @@ msgstr ""
 
 #: template/legal.html.j2:43
 msgid ""
-"Zrythm is copyrighted by Alexandros Theodotou and other contributors. Zrythm"
-" is released under the <a "
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
+"Zrythm is released under the <a "
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
@@ -1252,45 +1243,41 @@ msgstr ""
 #: template/legal.html.j2:50
 msgid ""
 "Unless otherwise stated, Videos found on the Zrythm website are released "
-"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
-"Commons Attribution-ShareAlike 4.0 International</a>."
-msgstr ""
-"Salvo dove diversamente specificato, i video presenti sul sito di Zrythm "
-"sono rilasciati sotto <a href=\"https://creativecommons.org/licenses/by-"
+"under <a href=\"https://creativecommons.org/licenses/by-"
 "sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+msgstr ""
 
 #: template/legal.html.j2:56
 msgid ""
-"The <em>Richard Stallman: Free software, free society</em> video is licensed"
-" under Creative Commons BY-SA-ND 3.0."
+"The <em>Richard Stallman: Free software, free society</em> video is "
+"licensed under Creative Commons BY-SA-ND 3.0."
 msgstr ""
 
 #: template/legal.html.j2:60
 msgid ""
-"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis, "
-"Http://kwis.tumblr.com), Valentin Pasquier "
-"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
-"himself and Ynternet.org foundation."
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis,"
+" Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
+"by himself and Ynternet.org foundation."
 msgstr ""
 
 #: template/legal.html.j2:66
 msgid ""
-"Licenses for images found on this website can be found in {ref}this README "
-"file{endref}."
+"Licenses for images found on this website can be found in {ref}this "
+"README file{endref}."
 msgstr ""
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
-msgstr "Marchi"
+msgstr ""
 
 #: template/legal.html.j2:77
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
 msgstr ""
-"Zrythm e il logo di Zrythm sono marchi registrati di Alexandros Theodotou."
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr "Plugin allegati con Zrythm"
+msgstr ""
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
@@ -1298,7 +1285,7 @@ msgstr ""
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
-msgstr "{} schermata"
+msgstr ""
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
@@ -1306,292 +1293,8 @@ msgstr ""
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
-msgstr "Specifiche tecniche"
+msgstr ""
 
 #: template/privacy.html.j2:354
 msgid "Last updated on 3 Oct 2022"
 msgstr ""
-
-#~ msgid "Compiled with all features"
-#~ msgstr "Compilato con tutte le funzionalità"
-
-#~ msgid "Bundled plugins (basic)"
-#~ msgstr "Plugin inclusi (di base)"
-
-#~ msgid "Learn"
-#~ msgstr "Impara"
-
-#~ msgid ""
-#~ "Zrythm is <a "
-#~ "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">free "
-#~ "software</a>. Use, study, share and improve it freely."
-#~ msgstr ""
-#~ "Zrythm è un <a "
-#~ "href=\"https://www.zrythm.org/videos/TEDxGE2014_Stallman05_LQ.webm\">programma"
-#~ " libero</a>. Usalo, studialo, condividilo e miglioralo liberamente."
-
-#~ msgid ""
-#~ "Complete support for <a href=\"https://lv2plug.in/\">LV2</a> and VST2, with "
-#~ "experimental support for VST3, AU, SFZ and SF2."
-#~ msgstr ""
-#~ "Supporto completo per <a href=\"https://lv2plug.in/\">LV2</a> e VST2, con "
-#~ "supporto sperimentale per VST3, AU, SFZ e SF2."
-
-#~ msgid "Limitless automation"
-#~ msgstr "Automazione illimitata"
-
-#~ msgid "Automation curves"
-#~ msgstr "Curve di automazione"
-
-#~ msgid "Multilingual"
-#~ msgstr "Multilingue"
-
-#~ msgid "Create, edit and arrange MIDI events in a dedicated piano roll."
-#~ msgstr "Crea, modifica e arrangia eventi MIDI in un piano roll dedicato."
-
-#~ msgid "Automate parameters with straight lines or curves."
-#~ msgstr "Automatizza i parametri con linee rette o curve."
-
-#~ msgid "The Zrythm contributors"
-#~ msgstr "I contributori di Zrythm"
-
-#~ msgid "Legal"
-#~ msgstr "Informazioni legali"
-
-#~ msgid "Try Now"
-#~ msgstr "Prova adesso"
-
-#~ msgid ""
-#~ "This is a trial version with limited functionality. Please select your "
-#~ "operating system."
-#~ msgstr ""
-#~ "Questa è una versione di prova con funzionalità limitate. Per favore "
-#~ "seleziona il tuo sistema operativo."
-
-#~ msgid "Windows 64-bit"
-#~ msgstr "Windows 64-bit"
-
-#~ msgid "Buy Now"
-#~ msgstr "Compra adesso"
-
-#~ msgid "Support Zrythm by purchasing an installer."
-#~ msgstr "Supporta Zrythm comprando il pacchetto per l'installazione."
-
-#~ msgid "This month we received £{amount}."
-#~ msgstr "Questo mese abbiamo ricevuto £{amount}."
-
-#~ msgid ""
-#~ "This includes donations from LiberaPay, PayPal, OpenCollective, downloads "
-#~ "and subscriptions"
-#~ msgstr ""
-#~ "Include donazioni tramite LiberaPay, PayPal, OpenCollective, scaricamenti e "
-#~ "iscrizioni."
-
-#~ msgid "Installer"
-#~ msgstr "Installatore"
-
-#~ msgid "full"
-#~ msgstr "versione completa"
-
-#~ msgid "<b>£0</b>"
-#~ msgstr "<b>£0</b>"
-
-#~ msgid "<b>£5</b> single version"
-#~ msgstr "<b>£5</b> singola versione"
-
-#~ msgid "Full version"
-#~ msgstr "Versione completa"
-
-#~ msgid "<b>£5/month</b>"
-#~ msgstr "<b>£5/mese</b>"
-
-#~ msgid "Mail"
-#~ msgstr "Posta elettronica"
-
-#~ msgid "Explore"
-#~ msgstr "Esplora"
-
-#~ msgid "List of features, functionality, and reviews"
-#~ msgstr "Elenco di caratteristiche, funzionalità e recensioni"
-
-#~ msgid "Screenshots"
-#~ msgstr "Schermate"
-
-#~ msgid "Screenshot"
-#~ msgstr "Schermata"
-
-#~ msgid "Screenshot by"
-#~ msgstr "Schermata da"
-
-#~ msgid "Reviews"
-#~ msgstr "Recensioni"
-
-#~ msgid "Article from Issue 229/2019 of Linux Magazine"
-#~ msgstr "Articolo tratto dal numero 229/2019 di Linux Magazine"
-
-#~ msgid "Overview"
-#~ msgstr "Visione d’insieme"
-
-#~ msgid "Zrythm works on GNU/Linux, FreeBSD, MacOS and Windows"
-#~ msgstr "Zrythm funziona su GNU/Linux, FreeBSD, MacOs e Windows"
-
-#~ msgid ""
-#~ "A DAW is used for composing, recording, editing, arranging, mixing and "
-#~ "mastering music"
-#~ msgstr ""
-#~ "Una DAW viene utilizzata per comporre, registrare, modificare, arrangiare, "
-#~ "mixare e masterizzare la musica"
-
-#~ msgid "Home"
-#~ msgstr "Pagina principale"
-
-#~ msgid "Thank You"
-#~ msgstr "Grazie"
-
-#~ msgid ""
-#~ "Thank you for supporting development! You will receive an email soon with "
-#~ "instructions to download your installer."
-#~ msgstr ""
-#~ "Grazie per il sostegno allo sviluppo! Riceverai presto un'e-mail con le "
-#~ "istruzioni per scaricare il tuo installatore."
-
-#~ msgid ""
-#~ "Once you download the zip file, extract it and run "
-#~ "<code>./installer.sh</code> in a terminal. If you experience any problems, "
-#~ "please contact us."
-#~ msgstr ""
-#~ "Una volta scaricato il file zip, estrailo ed esegui "
-#~ "<code>./installer.sh</code> in un terminale. In caso di problemi non esitare"
-#~ " a contattarci."
-
-#~ msgid "Go back to home page"
-#~ msgstr "Torna alla pagina iniziale"
-
-#~ msgid "Forum"
-#~ msgstr "Forum"
-
-#~ msgid "Users"
-#~ msgstr "Utenti"
-
-#~ msgid "Video by <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-#~ msgstr "Video di <a href=\"https://sonomu.club/@rghvdberg\">Rob van den Berg</a>"
-
-#~ msgid "Video by <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-#~ msgstr "Video di <a href=\"https://mastodon.social/@unfa\">unfa</a>"
-
-#~ msgid "Video by <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-#~ msgstr "Video di <a href=\"https://mamot.fr/@tillparisot\">Till Parisot</a>"
-
-#~ msgid "git repositories"
-#~ msgstr "Repository git"
-
-#~ msgid "GPG signing key"
-#~ msgstr "Chiave di firma GPG"
-
-#~ msgid "IRC"
-#~ msgstr "IRC"
-
-#~ msgid "#zrythm on irc.freenode.net"
-#~ msgstr "#zrythm su irc.freenode.net"
-
-#~ msgid "Matrix"
-#~ msgstr "Matrix"
-
-#~ msgid "zrythm project"
-#~ msgstr "progetto Zrythm"
-
-#~ msgid "Contact"
-#~ msgstr "Contatto"
-
-#~ msgid "online manual"
-#~ msgstr "manuale in linea"
-
-#~ msgid "Debian (unofficial)"
-#~ msgstr "Debian (non ufficiale)"
-
-#~ msgid "Fedora (unofficial)"
-#~ msgstr "Fedora (non ufficiale)"
-
-#~ msgid "FreeBSD (Freshports)"
-#~ msgstr "FreeBSD (Freshports)"
-
-#~ msgid "Frequently Asked Questions"
-#~ msgstr "Domande frequenti"
-
-#~ msgid "What's the current development status?"
-#~ msgstr "Qual è lo stato attuale dello sviluppo?"
-
-#~ msgid ""
-#~ "Zrythm is in the early alpha stage. Many essential features are already "
-#~ "implemented but we do not recommend it for production yet. You are welcome "
-#~ "to test each release and provide us with feedback if you would like to help "
-#~ "speed things up."
-#~ msgstr ""
-#~ "Zrythm è nella fase iniziale alfa. Molte funzionalità essenziali sono già "
-#~ "implementate ma non lo consigliamo ancora per la produzione. Puoi testare "
-#~ "ogni versione e fornirci retroazione e commenti se desideri contribuire ad "
-#~ "accelerare le cose."
-
-#~ msgid "What plugin protocols are supported?"
-#~ msgstr "Quali protocolli di componente aggiuntivo sono supportati?"
-
-#~ msgid "I'm building from source and I want to run Zrythm without installing"
-#~ msgstr "Sto costruendo dalla fonte e voglio eseguire Zrythm senza installare"
-
-#~ msgid "Enable the universe repository:"
-#~ msgstr "Abilita il repository dell'universo:"
-
-#~ msgid ""
-#~ "Zrythm is a native GNU/Linux application built using C and the GTK+3 toolkit"
-#~ " and borrows ideas, concepts and code from other projects such as Ardour and"
-#~ " Jalv. It is designed to be intuitive to use and is built with the intention"
-#~ " to provide GNU/Linux users a full-featured alternative to proprietary DAWs,"
-#~ " while offering a unique approach to workflow that other GNU/Linux DAWs "
-#~ "lack."
-#~ msgstr ""
-#~ "Zrythm è un’applicazione nativa GNU/Linux creata utilizzando C e il kit GTK "
-#~ "3 e prende in prestito idee, concetti e codice da altri progetti come Ardour"
-#~ " e Jalv. È progettato per essere intuitivo da usare ed è costruito con "
-#~ "l’intenzione di fornire agli utenti GNU/Linux un’alternativa completa alle "
-#~ "postazioni di lavoro audio digitale (PLAD) proprietarie, offrendo un "
-#~ "approccio unico al flusso di lavoro che mancano ad altre PLAD GNU/Linux."
-
-#~ msgid "First Commit"
-#~ msgstr "Primo impegno"
-
-#~ msgid ""
-#~ "The first commit was made on <code>Wed Jul 25 22:35:01 2018 +0900</code>."
-#~ msgstr ""
-#~ "Il primo impegno fu fatto <code>mercoledì 25 luglio 2018 22:35:01 "
-#~ "+0900</code>."
-
-#~ msgid ""
-#~ "Early alpha. Somewhat functional but has unimplemented features and crashes "
-#~ "a lot."
-#~ msgstr ""
-#~ "Alfa precoce. Abbastanza funzionale, ma ha caratteristiche non implementate "
-#~ "e si blocca molto."
-
-#~ msgid "Savannah"
-#~ msgstr "Savannah"
-
-#~ msgid "releases at Savannah"
-#~ msgstr "pubblicazioni su Savannah"
-
-#~ msgid "Communication"
-#~ msgstr "Comunicazione"
-
-#~ msgid "Mageia (unofficial)"
-#~ msgstr "Mageia (non ufficiale)"
-
-#~ msgid "Ubuntu (unofficial)"
-#~ msgstr "Ubuntu (non ufficiale)"
-
-#~ msgid "FAQ"
-#~ msgstr "FAQ"
-
-#~ msgid "Join Us"
-#~ msgstr "Unisciti a Noi"
-
-#~ msgid "Glossary"
-#~ msgstr "Glossario"

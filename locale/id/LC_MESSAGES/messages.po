@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2022-10-10 18:22+0000\n"
-"Last-Translator: Magnitudee <bdls_unbecoming@aleeas.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/>\n"
+"PO-Revision-Date: 2023-08-13 12:51+0000\n"
+"Last-Translator: Clxff H3r4ld0 <123844876+clxf12@users.noreply.github.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/zrythm/web/id/"
+">\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.14.1\n"
 
 #: template.py:401
 msgid ""
@@ -26,6 +27,10 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, stasiun kerja audio digital, produksi musik, audio, audio pro, Linux, "
+"GNU/Linux, perangkat lunak bebas, perangkat lunak libre, editor suara, "
+"komposisi, MIDI, LV2, JACK, VST, plugin audio, perekaman, pengeditan, "
+"pengaturan, pencampuran, penguasaan"
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
@@ -41,7 +46,7 @@ msgstr "Distorsi nonlinier kubik"
 
 #: template.py:414
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Efek flanging stereo"
 
 #: template.py:417
 msgid "Stereo signal gate"
@@ -61,7 +66,7 @@ msgstr "Equalizer parametrik"
 
 #: template.py:429
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Kompresor rentang dinamis dimodelkan setelah 1176 puncak limiter"
 
 #: template.py:432
 msgid "Phasing effect"
@@ -69,7 +74,7 @@ msgstr "Efek pentahapan"
 
 #: template.py:435
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "Synthesizer polifonik dengan 3 suara osilator detuned"
 
 #: template.py:438
 msgid ""
@@ -84,15 +89,15 @@ msgstr "Wah efek pedal ke urutan ke 4"
 
 #: template.py:444
 msgid "White noise generator"
-msgstr ""
+msgstr "Penghasil kebisingan putih"
 
 #: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "8x8 gema akhir FDN reverb"
 
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "ZChordz memetakan akor dari skala minor atau mayor ke kunci putih"
+msgstr "ZChordz memetakan akor dari tangga nada minor atau mayor ke tuts putih"
 
 #: template.py:453
 msgid "Major or minor scale"
@@ -160,21 +165,23 @@ msgstr ""
 
 #: template.py:485
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "Kotak Alat Luas"
 
 #: template.py:486
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
+"Perluas fungsionalitas alat pilihan dengan beralih ke {ref}alat Edit, "
+"Potong, Hapus, Ramp, atau Audisi{endref}."
 
 #: template.py:488
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Gertakan Adaptif"
 
 #: template.py:489
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Perilaku gertakan menyesuaikan dengan tingkat zoom saat ini."
 
 #: template.py:491
 msgid "Looping"
@@ -182,15 +189,16 @@ msgstr "Perulangan"
 
 #: template.py:492
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Loop audio, MIDI, otomatisasi, dan klip akor."
 
 #: template.py:495 template.py:736
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Timeline yang Menarik"
 
 #: template.py:498
+#, fuzzy
 msgid "Track Lanes"
-msgstr ""
+msgstr "Track Lanes"
 
 #: template.py:499
 msgid ""
@@ -207,16 +215,18 @@ msgid "Quickly bounce selected material to audio."
 msgstr ""
 
 #: template.py:504
+#, fuzzy
 msgid "Stretching"
-msgstr ""
+msgstr "…"
 
 #: template.py:505
 msgid "Stretch any type of region"
 msgstr ""
 
 #: template.py:508
+#, fuzzy
 msgid "Powerful Editors"
-msgstr ""
+msgstr "info"
 
 #: template.py:511
 msgid "Piano Roll"

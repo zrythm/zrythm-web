@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-01-07 16:49+0000\n"
-"Last-Translator: Ivar <ivar.bjerling@protonmail.com>\n"
+"PO-Revision-Date: 2023-08-08 17:46+0000\n"
+"Last-Translator: Ivar <ivar@ivarbjerling.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.15.1-dev\n"
 
 #: template.py:401
 msgid ""
@@ -26,42 +26,47 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, digital ljudarbetsstation, musikproduktion, ljud, proffsljud, Linux, "
+"GNU/Linux, fri mjukvara, libre mjukvara, ljudredigerare, komposition, MIDI, "
+"LV2, JACK, VST, ljud-plugin, inspelning, redigering, arrangera, arrangör, "
+"mixning, mastering"
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "En mycket automatiserad och intuitiv digital ljudarbetsstation."
 
 #: template.py:408
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "Kompressor för stereodynamiskt omfång"
 
 #: template.py:411
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "Kubisk icke-linjär distorsion"
 
 #: template.py:414
+#, fuzzy
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Stereo flanging effekt"
 
 #: template.py:417
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Stereo signal gate"
 
 #: template.py:420
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "2:a ordningens Butterworth högpassfilter"
 
 #: template.py:423
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "2:a ordningens Butterworth lågpassfilter"
 
 #: template.py:426
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Parametrisk equalizer"
 
 #: template.py:429
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Kompressor för dynamiskt omfång modellerad efter 1176 peak limitern"
 
 #: template.py:432
 msgid "Phasing effect"
@@ -79,11 +84,11 @@ msgstr ""
 
 #: template.py:441
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Wah pedal effekt till den 4:e ordningen"
 
 #: template.py:444
 msgid "White noise generator"
-msgstr ""
+msgstr "Vitt brus generator"
 
 #: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
@@ -816,7 +821,7 @@ msgstr "Användarmanual"
 
 #: common/footer.j2.inc:39 template/download.html.j2:141
 msgid "Releases"
-msgstr ""
+msgstr "Utgåvor"
 
 #: common/footer.j2.inc:42
 msgid "Git"
@@ -836,7 +841,7 @@ msgstr ""
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Bidra"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
@@ -984,6 +989,8 @@ msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Följ oss på Mastodon för att få uppdateringar gällande nya utgåvor och få "
+"tjuvtitta på nya funktioner, rösta i omröstningar med mera."
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
@@ -1049,7 +1056,7 @@ msgstr ""
 
 #: template/download.html.j2:86
 msgid "Single"
-msgstr ""
+msgstr "Ensam"
 
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113
@@ -1072,15 +1079,15 @@ msgstr ""
 
 #: template/download.html.j2:98
 msgid "Bundle"
-msgstr ""
+msgstr "Bunt"
 
 #: template/download.html.j2:104
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Tillgång till alla v1 utgåvor"
 
 #: template/download.html.j2:110
 msgid "Nightly"
-msgstr ""
+msgstr "Nattliga"
 
 #: template/download.html.j2:111
 msgid "year"
@@ -1088,7 +1095,7 @@ msgstr ""
 
 #: template/download.html.j2:116
 msgid "Access to all releases"
-msgstr ""
+msgstr "Tillgång till alla utgåvor"
 
 #: template/download.html.j2:117
 msgid "Access to nightly builds"
