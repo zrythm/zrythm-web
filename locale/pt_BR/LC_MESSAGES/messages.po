@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
 "PO-Revision-Date: 2023-04-22 04:47+0000\n"
 "Last-Translator: Filipe Motta <luiz_filipe_motta@hotmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
-"zrythm/web/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: template.py:401
 msgid ""
@@ -28,9 +27,9 @@ msgid ""
 " mastering"
 msgstr ""
 "DAW, estação de trabalho de áudio digital, produção musical, áudio, áudio "
-"profissional, Linux, GNU/Linux, software gratuito, software livre, editor de "
-"áudio, composição, MIDI, LV2, JACK, VST, plugin de áudio, gravação, edição, "
-"arranjo, mixagem, masterização"
+"profissional, Linux, GNU/Linux, software gratuito, software livre, editor de"
+" áudio, composição, MIDI, LV2, JACK, VST, plugin de áudio, gravação, edição,"
+" arranjo, mixagem, masterização"
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
@@ -99,7 +98,8 @@ msgstr "Reverb FDN de reverberação tardia 8x8"
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz mapeia os acordes de uma escala menor ou maior para as teclas brancas"
+"ZChordz mapeia os acordes de uma escala menor ou maior para as teclas "
+"brancas"
 
 #: template.py:453
 msgid "Major or minor scale"
@@ -206,8 +206,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Adicione múltiplas camadas de áudio/MIDI à mesma pista usando {ref}faixas de "
-"pista{endref}."
+"Adicione múltiplas camadas de áudio/MIDI à mesma pista usando {ref}faixas de"
+" pista{endref}."
 
 #: template.py:501
 msgid "Bounce in Place"
@@ -301,7 +301,8 @@ msgstr "Integração com aplicativos externos"
 
 #: template.py:530
 msgid "Edit selected audio parts in any external app."
-msgstr "Edite os trechos de áudio selecionados em qualquer aplicativo externo."
+msgstr ""
+"Edite os trechos de áudio selecionados em qualquer aplicativo externo."
 
 #: template.py:533
 msgid "Recording Capabilities"
@@ -416,8 +417,8 @@ msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
 msgstr ""
-"Automatize parâmetros com linhas retas ou curvas, escolhendo entre múltiplos "
-"algoritmos de curva, como curvas Exponenciais ou Elípticas."
+"Automatize parâmetros com linhas retas ou curvas, escolhendo entre múltiplos"
+" algoritmos de curva, como curvas Exponenciais ou Elípticas."
 
 #: template.py:574
 msgid "Envelopes"
@@ -574,7 +575,8 @@ msgstr "Exportação de Stem"
 #: template.py:626
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
-"Exporte stems para faixas específicas e compartilhe-as com outros produtores."
+"Exporte stems para faixas específicas e compartilhe-as com outros "
+"produtores."
 
 #: template.py:629 template.py:730
 msgid "Chord Assistance"
@@ -625,8 +627,8 @@ msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr ""
-"Gere acordes a partir de uma ampla variedade de escalas, carregue presets de "
-"acordes incluídos para vários gêneros, ou salve seus próprios."
+"Gere acordes a partir de uma ampla variedade de escalas, carregue presets de"
+" acordes incluídos para vários gêneros, ou salve seus próprios."
 
 #: template.py:645 template.py:739
 msgid "Never Lose Work"
@@ -899,9 +901,9 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
-"Zrythm é {free_software_ref}software livre</a> {copyleft_ref}copyleft{endref}"
-" com código-fonte totalmente auditável. Use, estude, compartilhe e melhore "
-"livremente."
+"Zrythm é {free_software_ref}software livre</a> "
+"{copyleft_ref}copyleft{endref} com código-fonte totalmente auditável. Use, "
+"estude, compartilhe e melhore livremente."
 
 #: common/footer.j2.inc:26
 msgid ""
@@ -1059,9 +1061,9 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
-"Nosso canal IRC é #zrythm no Libera.Chat (<code>irc://irc.libera.chat/"
-"zrythm</code>). Fique à vontade para pedir um cloak <code>zrythm/user/*</"
-"code> para um operador."
+"Nosso canal IRC é #zrythm no Libera.Chat "
+"(<code>irc://irc.libera.chat/zrythm</code>). Fique à vontade para pedir um "
+"cloak <code>zrythm/user/*</code> para um operador."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"

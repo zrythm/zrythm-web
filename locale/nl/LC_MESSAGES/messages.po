@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: template.py:401
 msgid ""
@@ -92,8 +92,8 @@ msgstr ""
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"Zchordz  transformeert de akkoorden van een mineur of majeur toonladder naar "
-"witte toetsen"
+"Zchordz  transformeert de akkoorden van een mineur of majeur toonladder naar"
+" witte toetsen"
 
 #: template.py:453
 msgid "Major or minor scale"
@@ -1049,9 +1049,8 @@ msgid "Web user manual"
 msgstr ""
 
 #: template/download.html.j2:86
-#, fuzzy
 msgid "Single"
-msgstr "Enkele"
+msgstr ""
 
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113

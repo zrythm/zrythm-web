@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: template.py:401
 msgid ""
@@ -29,7 +29,8 @@ msgstr ""
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr "Vysoce automatizovaná a intuitivní digitální zvuková pracovní stanice."
+msgstr ""
+"Vysoce automatizovaná a intuitivní digitální zvuková pracovní stanice."
 
 #: template.py:408
 msgid "Stereo dynamic range compressor"
@@ -138,9 +139,8 @@ msgid "7 sawtooth oscillators"
 msgstr "7 pilových oscilátorů"
 
 #: template.py:468
-#, fuzzy
 msgid "Single knob to control detune"
-msgstr "Jediný knoflík pro ovládání rozladění"
+msgstr ""
 
 #: template.py:479 template.py:721
 msgid "Intuitive Editing"
