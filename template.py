@@ -42,12 +42,14 @@ import os
 import os.path
 import sys
 import re
+import base64
 import gettext
 import glob
 import codecs
 import jinja2
 import i18nfix
 import urllib3
+from pathlib import Path
 import polib
 import requests
 import semver
@@ -172,7 +174,7 @@ if fetch_orders:
         'Authorization': 'Token %s' % os.getenv ('ZRYTHM_ACCOUNTS_TOKEN'),
         }
     payload = {
-        'limit': '100',
+        'limit': '300',
         'status': 'Completed',
         'ordering': '-created_at',
         }
@@ -188,6 +190,10 @@ if fetch_orders:
                 bundle_price = float(product['price_jpy'])
             elif product['type'] == 'Subscription':
                 subscription_price = float(product['price_jpy'])
+
+assert (single_price > 0)
+assert (bundle_price > 0)
+assert (subscription_price > 0)
 
 # get monthly orders
 if fetch_orders:
@@ -330,26 +336,36 @@ else:
     version = '1'
 
 def check_url(url):
+    cache_file_path_ok = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ok'
+    cache_file_path_ng = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ng'
+    if os.path.isfile(cache_file_path_ok):
+        return True
+    if os.path.isfile(cache_file_path_ng):
+        return False
     print ('checking ' + url + '...')
     try:
         with requests.get(url, stream=True) as response:
             try:
                 response.raise_for_status()
-            except requests.exceptions.HTTPError:
-                print ('error fetching ' + url + ': ' + str (status))
-                exit (1)
-    except requests.exceptions.ConnectionError:
-        print ('error fetching ' + url + ': ' + str (status))
-        exit (1)
+            except requests.exceptions.HTTPError as e:
+                print ('error fetching ' + url + ': ', e)
+                Path(cache_file_path_ng).touch()
+                return False
+        Path(cache_file_path_ok).touch()
+        return True
+    except requests.exceptions.ConnectionError as e:
+        print ('error fetching ' + url + ': ', e)
+        Path(cache_file_path_ng).touch()
+        return False
 
 # verify that tarball and trials exist
 if verify_trial_package_urls:
     print ('verifying release and trial packages...')
-    check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz')
-    check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.flatpak')
-    check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip')
-    check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe')
-    check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip')
+    assert (check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz'))
+    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.flatpak'))
+    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip'))
+    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe'))
+    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip'))
     print ('done')
 
 def url(x):
@@ -794,6 +810,9 @@ for in_file in glob.glob("template/*.j2"):
         subscription_price_for_locale = '{}{:,}'.format (currency_sym_for_locale, subscription_price_for_locale)
         monthly_earning_str = '{}{:,}'.format (currency_sym_for_locale, monthly_earning_for_locale)
         local_salary_str = '{}{:,}'.format (currency_sym_for_locale, local_salary_for_locale)
+        localized_accounts_url = "https://accounts.zrythm.org/" + locale
+        if not check_url (localized_accounts_url):
+            localized_accounts_url = "https://accounts.zrythm.org/en"
 
         content = tmpl.render(lang=locale,
                               lang_for_accounts=locale_for_accounts,
@@ -803,6 +822,7 @@ for in_file in glob.glob("template/*.j2"):
                               single_price_for_locale=single_price_for_locale,
                               bundle_price_for_locale=bundle_price_for_locale,
                               subscription_price_for_locale=subscription_price_for_locale,
+                              localized_accounts_url=localized_accounts_url,
                               url=url,
                               git_url=git_url,
                               aur_git_url=aur_git_url,

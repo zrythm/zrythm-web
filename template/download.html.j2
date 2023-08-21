@@ -90,7 +90,7 @@ GNU Affero General Public License for more details.
                 <li class="downloads__feature">{{ _('Web & PDF user manual') }}</li>
                 <li class="downloads__feature">v{{ version }}</li>
             </ul>
-            <a href="https://accounts.zrythm.org/en/products/single/view" class="downloads__btn btn btn--tertiary">{{ _('Purchase') }}</a>
+            <a href="{{ localized_accounts_url }}/products/single/view" class="downloads__btn btn btn--tertiary">{{ _('Purchase') }}</a>
         </div>
 
         <div class="downloads__card">
@@ -102,7 +102,7 @@ GNU Affero General Public License for more details.
                 <li class="downloads__feature">{{ _('Web & PDF user manual') }}</li>
                 <li class="downloads__feature">{{ _('Access to all v1 releases') }}</li>
             </ul>
-            <a href="https://accounts.zrythm.org/en/products/bundle/view" class="downloads__btn btn btn--primary">{{ _('Purchase') }}</a>
+            <a href="{{ localized_accounts_url }}/products/bundle/view" class="downloads__btn btn btn--primary">{{ _('Purchase') }}</a>
         </div>
 
         <div class="downloads__card">
@@ -115,7 +115,7 @@ GNU Affero General Public License for more details.
                 <li class="downloads__feature">{{ _('Access to all releases') }}</li>
                 <li class="downloads__feature">{{ _('Access to nightly builds') }}</li>
             </ul>
-            <a href="https://accounts.zrythm.org/en/products/subscription/view" class="downloads__btn btn btn--secondary">{{ _('Subscribe') }}</a>
+            <a href="{{ localized_accounts_url }}/products/subscription/view" class="downloads__btn btn btn--secondary">{{ _('Subscribe') }}</a>
         </div>
     </div>
     {% if currency_for_locale != 'GBP' %}
