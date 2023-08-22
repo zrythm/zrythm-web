@@ -798,8 +798,8 @@ for in_file in glob.glob("template/*.j2"):
         subscription_price_for_locale = round (subscription_price * currency_rates[currency_for_locale])
         monthly_earning_for_locale = round (monthly_earning * currency_rates[currency_for_locale])
         local_salary_for_locale = round (2625 * currency_rates[currency_for_locale])
-        # if JPY, round again to 100s
-        if currency_for_locale == 'JPY' or currency_for_locale == 'RUB':
+        # if RUB, round again to 100s
+        if currency_for_locale == 'RUB':
             single_price_for_locale = round (single_price_for_locale, -2)
             bundle_price_for_locale = round (bundle_price_for_locale, -2)
             subscription_price_for_locale = round (subscription_price_for_locale, -2)
