@@ -123,6 +123,7 @@ bug_tracker = 'https://todo.sr.ht/~alextee/zrythm-bug'
 pronunciation = 'ziˈrɪðəm'
 releases_url = 'https://www.zrythm.org/releases/'
 downloads_url = 'https://www.zrythm.org/downloads/'
+github_release_asset_url = 'https://github.com/zrythm/zrythm/releases/download/'
 s3_bucket_url = 'https://sendowl-bucket.s3.amazonaws.com'
 aur_git_url = 'https://aur.archlinux.org/packages/zrythm-git/'
 aur_stable_url = 'https://aur.archlinux.org/packages/zrythm/'
@@ -324,7 +325,7 @@ prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_mont
 if get_version:
 # get latest version
     from subprocess import check_output
-    versions = check_output('git ls-remote --tags https://git.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-beta\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
+    versions = check_output('git ls-remote --tags https://gitlab.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-beta\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
     latest_ver = "0.0.0"
     for ver in versions.split('\n'):
         if (semver.compare(ver, latest_ver) > 0):
@@ -362,10 +363,9 @@ def check_url(url):
 if verify_trial_package_urls:
     print ('verifying release and trial packages...')
     assert (check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz'))
-    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-x86_64.flatpak'))
-    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-installer.zip'))
-    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-ms-setup.exe'))
-    assert (check_url (downloads_url + 'zrythm-trial-' + version + '-osx-installer.zip'))
+    # for suffix in ['-x86_64.flatpak','-installer.zip','-ms-setup.exe','-osx-installer.zip']:
+    for suffix in ['-installer.zip','-ms-setup.exe','-osx-installer.zip']:
+        assert (check_url (github_release_asset_url + 'v' + latest_ver + '/zrythm-trial-' + version + suffix))
     print ('done')
 
 def url(x):
@@ -832,6 +832,7 @@ for in_file in glob.glob("template/*.j2"):
                               copr_package_url=copr_package_url,
                               releases_url=releases_url,
                               downloads_url=downloads_url,
+                              github_release_asset_url=github_release_asset_url,
                               s3_bucket_url=s3_bucket_url,
                               datetime_parse=parse,
                               num_monthly_orders=num_monthly_orders,
@@ -847,6 +848,7 @@ for in_file in glob.glob("template/*.j2"):
                               z_plugins=z_plugins,
                               feature_groups=feature_groups,
                               version=version,
+                              latest_ver=latest_ver,
                               pronunciation=pronunciation,
                               self_localized=self_localized,
                               url_localized=url_localized,
@@ -861,3 +863,6 @@ for in_file in glob.glob("template/*.j2"):
         os.makedirs("./rendered/" + locale, exist_ok=True)
         with codecs.open(out_name, "w", encoding='utf-8') as f:
             f.write(content)
+
+with codecs.open('./rendered/zrythm-version.txt', "w", encoding='utf-8') as f:
+    f.write(latest_ver)
