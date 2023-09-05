@@ -117,9 +117,9 @@ langs_full = {
     'zh_CN': ['🇨🇳', '简体中文', 'CNY'],
     'zh_TW': ['🇹🇼', '繁體中文', 'TWD'],
     }
-git_url = 'https://git.sr.ht/~alextee/zrythm'
-feature_tracker = 'https://todo.sr.ht/~alextee/zrythm-feature'
-bug_tracker = 'https://todo.sr.ht/~alextee/zrythm-bug'
+git_url = 'https://gitlab.zrythm.org/zrythm/zrythm'
+issue_tracker = 'https://gitlab.zrythm.org/zrythm/zrythm/-/issues'
+forum_url  = 'https://forum.zrythm.org'
 pronunciation = 'ziˈrɪðəm'
 releases_url = 'https://www.zrythm.org/releases/'
 downloads_url = 'https://www.zrythm.org/downloads/'
@@ -841,8 +841,8 @@ for in_file in glob.glob("template/*.j2"):
                               local_salary_str=local_salary_str,
                               prev_month_earning_str=prev_month_earning_str,
                               prev_month_comparison_perc=prev_month_comparison_perc,
-                              feature_tracker=feature_tracker,
-                              bug_tracker=bug_tracker,
+                              issue_tracker=issue_tracker,
+                              forum_url=forum_url,
                               highlights=highlights,
                               basic_plugins=basic_plugins,
                               z_plugins=z_plugins,

@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019-2021 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2021, 2023 Alexandros Theodotou <alex at zrythm dot org>
 Copyright (C) 2021 Andrew Harter <andrewhharter@gmail.com>
 
 This file is part of Zrythm
@@ -27,6 +27,7 @@ GNU Affero General Public License for more details.
           <a class="navbar__link" href="{{ url(lang + '/plugins.html') }}">{{ _('Plugins') }}</a>
           <a class="navbar__link" href="{{ url(lang + '/learn.html') }}">{{ _('Guide') }}</a>
           <a class="navbar__link" href="{{ url(lang + '/community.html') }}">{{ _('Get Involved') }}</a>
+          <a class="navbar__link" href="{{ forum_url }}">{{ _('Forum') }}</a>
           <a class="navbar__link ml-auto navbar__btn btn--primary" href="{{ url(lang + '/download.html') }}">{{ _('Download') }}</a>
             <a class="navbar__link navbar__btn" href="#langmodal">{{ lang_full[0] }} {{ lang_full[1] }}</a>
         </div>

@@ -1,5 +1,5 @@
 {#
-Copyright (C) 2019-2020 Alexandros Theodotou <alex at zrythm dot org>
+Copyright (C) 2019-2023 Alexandros Theodotou <alex at zrythm dot org>
 
 This file is part of Zrythm
 
@@ -39,30 +39,21 @@ GNU Affero General Public License for more details.
     <div class="container">
         <div class="community__grid">
 
-            <a href="https://lists.sr.ht/~alextee/zrythm-devel" class="community__card btn">
+            <a href="{{ git_url }}" class="community__card btn">
                 <div class="community__header">
                     <h4 class="community__title">{{ _('Join Development') }}</h4>
                 </div>
                 <div class="community__content">
-                    <p>{{ _('Send an email to our development mailing list for development discussion') }}</p>
+                    <p>{{ _('Start contributing code on our GitLab instance.') }}</p>
                 </div>
             </a>
 
-            <a href="{{ feature_tracker }}" class="community__card btn">
+            <a href="{{ issue_tracker }}" class="community__card btn">
                 <div class="community__header">
-                    <h4 class="community__title">{{ _('Submit Feature Requests') }}</h4>
+                    <h4 class="community__title">{{ _('Submit Bug Reports/Feature Requests') }}</h4>
                 </div>
                 <div class="community__content">
-                    <p>{{ _('Browse our feature tracker and submit feature requests.') }}</p>
-                </div>
-            </a>
-
-            <a href="{{ bug_tracker }}" class="community__card btn">
-                <div class="community__header">
-                    <h4 class="community__title">{{ _('Submit Bug Reports') }}</h4>
-                </div>
-                <div class="community__content">
-                    <p>{{ _('Browse our bug tracker and submit bug reports.') }}</p>
+                    <p>{{ _('Browse our issue tracker and submit feature requests and bug reports.') }}</p>
                 </div>
             </a>
 
@@ -82,6 +73,15 @@ GNU Affero General Public License for more details.
     <div class="container">
         <div class="community__grid">
 
+            <a href="https://forum.zrythm.org" class="community__card btn">
+                <div class="community__header">
+                    <h4 class="community__title">{{ _('Join our Forum') }}</h4>
+                </div>
+                <div class="community__content">
+                    <p>{{ _('Join our forum and share your experience with the rest of the community.') }}</p>
+                </div>
+            </a>
+
             <a href="https://web.libera.chat/#zrythm" class="community__card btn">
                 <div class="community__header">
                     <h4 class="community__title">{{ _('Chat with us on IRC') }}</h4>
@@ -97,24 +97,6 @@ GNU Affero General Public License for more details.
                 </div>
                 <div class="community__content">
                   <p>{{ _('Matrix is an open standard for secure and decentralized communication. Our Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC.') }}</p>
-                </div>
-            </a>
-
-            <a href="https://lists.sr.ht/~alextee/zrythm-discuss" class="community__card btn">
-                <div class="community__header">
-                    <h4 class="community__title">{{ _('Join our User Discussion Mailing List') }}</h4>
-                </div>
-                <div class="community__content">
-                    <p>{{ _('Join our user discussion mailing list and share your experience with the rest of the community.') }}</p>
-                </div>
-            </a>
-
-            <a href="https://lists.sr.ht/~alextee/zrythm-announce" class="community__card btn">
-                <div class="community__header">
-                    <h4 class="community__title">{{ _('Subscribe to the Announce Mailing List') }}</h4>
-                </div>
-                <div class="community__content">
-                    <p>{{ _('Subscribe to our read-only and low volume Announce mailing list to stay up to date with important announcements.') }}</p>
                 </div>
             </a>
 
@@ -134,7 +116,7 @@ GNU Affero General Public License for more details.
     <div class="container">
         <div class="community__grid">
 
-            <a href="https://git.zrythm.org/zrythm/zrythm#support" class="community__card btn">
+            <a href="{{ git_url }}#support" class="community__card btn">
                 <div class="community__header">
                     <h4 class="community__title">{{ _('Donate CryptoCurrency') }}</h4>
                 </div>
@@ -148,7 +130,7 @@ GNU Affero General Public License for more details.
                     <h4 class="community__title">{{ _('Donate on LiberaPay') }}</h4>
                 </div>
                 <div class="community__content">
-                    <p>{{ _('Become a patron on LiberaPay. You can donate using PayPal, or pay with a bank account in Europe.') }}</p>
+                    <p>{{ _('Become a patron on LiberaPay. You can donate using PayPal, credit card, or a European bank account.') }}</p>
                 </div>
             </a>
 
