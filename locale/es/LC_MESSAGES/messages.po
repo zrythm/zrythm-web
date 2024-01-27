@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-07-04 03:51+0000\n"
-"Last-Translator: Daniel “Gula” GoodAir <danielcebeats97@gmail.com>\n"
+"PO-Revision-Date: 2024-01-28 04:01+0000\n"
+"Last-Translator: David González <iwisp360@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.0-dev\n"
 
 #: template.py:401
 msgid ""
@@ -208,6 +208,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Agregue múltiples capas de audio/MIDI a la misma pista usando {ref}líneas de "
+"pista{endref}"
 
 #: template.py:501
 msgid "Bounce in Place"
@@ -223,11 +225,11 @@ msgstr ""
 
 #: template.py:505
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "Agrandar cualquier tipo de región"
 
 #: template.py:508
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Editores Potentes"
 
 #: template.py:511
 msgid "Piano Roll"
