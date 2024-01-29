@@ -8,25 +8,29 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-03-22 08:37+0000\n"
-"Last-Translator: Martin LYU <my2605070493@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2024-01-30 04:01+0000\n"
+"Last-Translator: 雪と葉 <vescrity@foxmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.16.2-dev\n"
 
 #: template.py:401
+#, fuzzy
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-"DAW，数字音频工作站，音乐制作，音频，专业音频，Linux，GNU/Linux，自由软件，自由软件，声音编辑器，作曲，MIDI，LV2，JACK，VST，音频插件，录音，编辑，安排，编曲，混音，母带制作"
+"DAW，数字音频工作站，音乐制作，音频，专业音频，Linux，GNU/Linux，免费软件，自"
+"由软件，声音编辑器，作曲，MIDI，LV2，JACK，VST，音频插件，录音，编辑，安排，"
+"编曲，混音，母带制作"
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
@@ -292,7 +296,7 @@ msgstr "音频/MIDI记录"
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
-msgstr ""
+msgstr "从你的任意设备甚至其他使用 JACK 的应用录制音频/MIDI。"
 
 #: template.py:539
 msgid "Comprehensive Recording Settings"
@@ -302,15 +306,16 @@ msgstr "全面的记录设置"
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
-msgstr ""
+msgstr "使用 Punch In/Punch Out 功能录制 MIDI 输入，并可创建多个音轨。"
 
 #: template.py:542
 msgid "Automation Recording"
 msgstr "自动记录"
 
 #: template.py:543
+#, fuzzy
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "以 latch/touch 模式录制自动化。"
 
 #: template.py:545
 msgid "Device Controls"
@@ -319,7 +324,7 @@ msgstr "设备控制"
 #: template.py:546
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
-msgstr ""
+msgstr "将您的设备旋钮与 Zrythm 内部的控件绑定，并记录您的操作。"
 
 #: template.py:549 template.py:727
 msgid "Mixing Capabilities"
@@ -342,8 +347,9 @@ msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr "轻松将信号路由到FX轨或插件的侧链输入中。"
 
 #: template.py:558
+#, fuzzy
 msgid "In-Context Listening"
-msgstr ""
+msgstr "情境聆听"
 
 #: template.py:559
 msgid ""
@@ -358,7 +364,7 @@ msgstr "监视器部分"
 #: template.py:562
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
-msgstr ""
+msgstr "改变监听/静音/独奏行为，并调整进入你的扬声器的内容。"
 
 #: template.py:565
 msgid "Unlimited Automation"
@@ -425,11 +431,11 @@ msgstr "输入关键词定位你需要的设置项。"
 
 #: template.py:590
 msgid "Inspector Pages"
-msgstr ""
+msgstr "监视器页面"
 
 #: template.py:591
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "在监视器中编辑所有音轨和插件参数。"
 
 #: template.py:594
 msgid "Plugin Capabilities"
@@ -444,6 +450,8 @@ msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"感谢 {ref}Carla{endref} "
+"的支持，现在Zrythm可以支持包括LV2、VST2、VST3、AU、CLAP和JSFX的多种插件格式。"
 
 #: template.py:600
 msgid "SoundFonts as Plugins"
@@ -472,8 +480,9 @@ msgid "Sandbox plugins by opening them in bridge mode."
 msgstr "通过使用桥接模式打开插件，使它们运行在沙箱环境中。"
 
 #: template.py:609
+#, fuzzy
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "自动化旁路状态"
 
 #: template.py:610
 msgid "Easily bypass plugins in the signal chain with an automatable control."
@@ -481,7 +490,7 @@ msgstr ""
 
 #: template.py:613
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "全面的导入/导出功能"
 
 #: template.py:616
 msgid "File Browser"
@@ -510,7 +519,7 @@ msgstr "MIDI"
 #: template.py:623
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
-msgstr ""
+msgstr "以 MIDI Type 0 或 MIDI Type 1 格式导入/导出项目的任意部分。"
 
 #: template.py:625
 msgid "Stem Export"
@@ -598,7 +607,7 @@ msgstr "脚本"
 
 #: template.py:661
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "拓展 Zrythm"
 
 #: template.py:662
 msgid ""
@@ -834,7 +843,7 @@ msgstr "社区"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr "聊天"
+msgstr "交流讨论"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
@@ -871,7 +880,7 @@ msgstr "报告一个问题"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
-msgstr "由Andrew Harter设计"
+msgstr "由 Andrew Harter 设计"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -1045,7 +1054,7 @@ msgstr "免费"
 
 #: template/download.html.j2:77
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "最多 25 个轨道"
 
 #: template/download.html.j2:78
 msgid "Basic plugins"
@@ -1053,7 +1062,7 @@ msgstr "基本插件"
 
 #: template/download.html.j2:79
 msgid "Web user manual"
-msgstr ""
+msgstr "网页版用户手册"
 
 #: template/download.html.j2:86
 msgid "Single"
@@ -1062,7 +1071,7 @@ msgstr "单独版本"
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "不限数量的轨道"
 
 #: template/download.html.j2:90 template/download.html.j2:102
 #: template/download.html.j2:114
@@ -1072,7 +1081,7 @@ msgstr "Basic & Z 系列插件"
 #: template/download.html.j2:91 template/download.html.j2:103
 #: template/download.html.j2:115
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "网页与 PDF 版本的用户手册"
 
 #: template/download.html.j2:94 template/download.html.j2:106
 msgid "Purchase"
@@ -1096,7 +1105,7 @@ msgstr "年"
 
 #: template/download.html.j2:116
 msgid "Access to all releases"
-msgstr ""
+msgstr "能够获取所有的发行版本"
 
 #: template/download.html.j2:117
 msgid "Access to nightly builds"
@@ -1108,13 +1117,13 @@ msgstr "订阅"
 
 #: template/download.html.j2:124
 msgid "* Prices in this currency are estimates"
-msgstr ""
+msgstr "* 当前呈现的价格仅为估计值"
 
 #: template/download.html.j2:129
 msgid ""
 "Zrythm relies on donations and purchases to sustain development. This month "
 "we received:"
-msgstr ""
+msgstr "Zrythm 依赖捐赠和购买以维持其开发。本月我们收到了："
 
 #: template/download.html.j2:142
 msgid "GPG Key"
@@ -1318,7 +1327,7 @@ msgstr "技术规范"
 
 #: template/privacy.html.j2:354
 msgid "Last updated on 3 Oct 2022"
-msgstr ""
+msgstr "上次更新在 2022年10月3日"
 
 #~ msgid "Save/load disabled"
 #~ msgstr "无法使用保存与加载"
