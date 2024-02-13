@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2019-05-09 09:52+0000\n"
-"Last-Translator: Weblate Admin <weblate.admin@zrythm.org>\n"
-"Language-Team: Hindi <https://translate.zrythm.org/projects/zrythm/website/hi/>\n"
+"PO-Revision-Date: 2024-02-15 17:02+0000\n"
+"Last-Translator: Nitin Khalia <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/zrythm/web/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 3.6.1\n"
 
 #: template.py:401
 msgid ""
@@ -91,7 +91,7 @@ msgstr ""
 
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr ""
+msgstr "ZChordz छोटे या बड़े पैमाने के कॉर्ड्स को सफेद कुंजी में मैप करता है"
 
 #: template.py:453
 msgid "Major or minor scale"
@@ -823,7 +823,7 @@ msgstr ""
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr "कम्युनिटी"
+msgstr "समुदाय"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
