@@ -8,26 +8,29 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-09-25 23:42+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-03-03 16:01+0000\n"
+"Last-Translator: Javad Rajaei <javadrajaei1@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/zrythm/web/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: template.py:390
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
+"زد کوردز مقادیر بسیار کوچک و بسیار بزرگ را به مقیاس یه کلید کوچک می چیند"
 
 #: template.py:391
 msgid "Major or minor scale"
-msgstr ""
+msgstr "مقیاس بسیار کوچک یا بسیار بزرگ"
 
 #: template.py:392
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "ضرب کننده سرعت در هر نت"
 
 #: template.py:396
 msgid "ZLFO is a fully featured LFO for CV-based automation"
@@ -35,23 +38,23 @@ msgstr ""
 
 #: template.py:397
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "نوسان ساز چندگانه با موج سفارشی"
 
 #: template.py:398
 msgid "Phase shift"
-msgstr ""
+msgstr "تغییر بخش"
 
 #: template.py:399
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "وارونگی افقی و عمودی"
 
 #: template.py:400
 msgid "Step mode"
-msgstr ""
+msgstr "حالت مرحله ای"
 
 #: template.py:401
 msgid "Editable range"
-msgstr ""
+msgstr "محدوده قابل ویرایش"
 
 #: template.py:402
 msgid "Sync to host or free-form"
