@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2023-07-27 03:07+0000\n"
-"Last-Translator: Yury Verpatov <inaunius@gmail.com>\n"
+"PO-Revision-Date: 2024-03-03 16:01+0000\n"
+"Last-Translator: Макар Разин <makarrazin14@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.0-dev\n"
 
 #: template.py:401
 msgid ""
@@ -43,7 +44,7 @@ msgstr "Стереокомпрессор"
 
 #: template.py:411
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "Кубическое нелинейное искажение"
 
 #: template.py:414
 msgid "Stereo flanging effect"
@@ -51,15 +52,15 @@ msgstr "Эффект стереофланжера"
 
 #: template.py:417
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Стереосигнальный гейт"
 
 #: template.py:420
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Фильтр верхних частот Баттерворта 2-го порядка"
 
 #: template.py:423
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Фильтр нижних частот Баттерворта 2-го порядка"
 
 #: template.py:426
 msgid "Parametric equalizer"
@@ -75,7 +76,7 @@ msgstr "Фазовый эффект"
 
 #: template.py:435
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "Полифонический синтезатор с 3 расстроенными голосами осциллятора"
 
 #: template.py:438
 msgid ""
@@ -87,7 +88,7 @@ msgstr ""
 
 #: template.py:441
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Эффект педали Ваха до 4-го порядка"
 
 #: template.py:444
 msgid "White noise generator"
@@ -95,7 +96,7 @@ msgstr "Генератор белого шума"
 
 #: template.py:447
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "FDN реверберация 8x8 с поздней реверберацией"
 
 #: template.py:452
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -164,6 +165,9 @@ msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
+"Выделяйте, передвигайте, изменяйте размер, клонируйте, связывайте, "
+"зацикливайте, удаляйте и вырезайте объекты с помощью {ref}единого "
+"инструмента{endref}."
 
 #: template.py:485
 msgid "Extensive Toolbox"
@@ -174,6 +178,9 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
+"Расширьте функциональность инструмента Выделения, переключившись на "
+"инструмент {ref}Редактирование, Вырезание, Стирание, Настройка или "
+"Прослушивание{endref}."
 
 #: template.py:488
 msgid "Adaptive Snapping"
@@ -198,17 +205,19 @@ msgstr "Функциональная шкала времени"
 
 #: template.py:498
 msgid "Track Lanes"
-msgstr ""
+msgstr "Полосы дорожек"
 
 #: template.py:499
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Добавление нескольких слоёв аудио/MIDI к одной дорожке с помощью {ref}полос "
+"дорожек{endref}."
 
 #: template.py:501
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Отскок на месте (Bounce in Place)"
 
 #: template.py:502
 msgid "Quickly bounce selected material to audio."
@@ -216,43 +225,49 @@ msgstr "Быстро и удобно конвертируйте выбранны
 
 #: template.py:504
 msgid "Stretching"
-msgstr ""
+msgstr "Растягивание"
 
 #: template.py:505
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "Растягивайте регионы любого типа"
 
 #: template.py:508
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Мощные редакторы"
 
 #: template.py:511
 msgid "Piano Roll"
-msgstr ""
+msgstr "Пиано Ролл"
 
 #: template.py:512
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Создавайте, редактируйте и аранжируйте MIDI-события в специальном "
+"фортепианном ролике с интеграцией аккордов."
 
 #: template.py:514
 msgid "Drum View"
-msgstr ""
+msgstr "Барабанный вид"
 
 #: template.py:515
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
+"Переключение одним нажатием на барабанный вид для редактирования одноударных "
+"инструментов."
 
 #: template.py:517
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Редактор скоростей"
 
 #: template.py:518
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Редактируйте несколько скоростей одновременно с помощью выбранного "
+"инструмента или рисуйте карандашом или инструментом темпа."
 
 #: template.py:520
 msgid "Audio Editor"
@@ -263,68 +278,76 @@ msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Настройка затухания/усиления и редактирования частей аудиоклипов с помощью "
+"аудиофункций в аудиоредакторе."
 
 #: template.py:523
 msgid "List Editors"
-msgstr ""
+msgstr "Редакторы списков"
 
 #: template.py:524
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Измените параметры объектов вручную в средстве просмотра событий."
 
 #: template.py:526
 msgid "Editor Functions"
-msgstr ""
+msgstr "Функции редактора"
 
 #: template.py:527
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Быстро применяйте к выделенным объектам такие функции, как «Легато», "
+"Инвертирование и Затухание."
 
 #: template.py:529
 msgid "External App Integration"
-msgstr ""
+msgstr "Интеграция с внешними приложениями"
 
 #: template.py:530
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "Редактируйте выбранные аудиофрагменты в любом внешнем приложении."
 
 #: template.py:533
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Возможности записи"
 
 #: template.py:536
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "Запись аудио/MIDI"
 
 #: template.py:537
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
+"Записывайте аудио/MIDI с любого устройства или даже других приложений с "
+"помощью разъёма JACK."
 
 #: template.py:539
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Комплексные настройки записи"
 
 #: template.py:540
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
+"Используйте функцию вставки/удаления, записывайте на MIDI-вход и, по "
+"желанию, создавайте несколько дублей."
 
 #: template.py:542
 msgid "Automation Recording"
-msgstr ""
+msgstr "Автоматическая запись"
 
 #: template.py:543
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "Автоматизация записи в режиме фиксации/прикосновения."
 
 #: template.py:545
 msgid "Device Controls"
-msgstr ""
+msgstr "Элементы управления устройством"
 
 #: template.py:546
 msgid ""
