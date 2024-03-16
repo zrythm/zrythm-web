@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2021-12-21 11:52+0000\n"
-"Last-Translator: Oftox <oftox@protonmail.com>\n"
+"PO-Revision-Date: 2024-03-17 17:02+0000\n"
+"Last-Translator: Roosa Huovinen <roosa.h@proton.me>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/zrythm/web/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.10\n"
 
 #: template.py:401
 msgid ""
@@ -352,7 +352,7 @@ msgstr ""
 
 #: template.py:561
 msgid "Monitor Section"
-msgstr ""
+msgstr "Kuuntele valintaa"
 
 #: template.py:562
 msgid ""
@@ -484,7 +484,7 @@ msgstr ""
 
 #: template.py:616
 msgid "File Browser"
-msgstr ""
+msgstr "Tiedostoselain"
 
 #: template.py:617
 msgid ""
@@ -504,7 +504,7 @@ msgstr ""
 
 #: template.py:622
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:623
 msgid ""
@@ -1117,7 +1117,7 @@ msgstr ""
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Digitaalinen äänityöasema"
 
 #: template/index.html.j2:23
 msgid ""
