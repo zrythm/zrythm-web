@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
-"PO-Revision-Date: 2024-03-16 00:53+0000\n"
+"PO-Revision-Date: 2024-03-17 17:02+0000\n"
 "Last-Translator: Neil van der Merwe <neilvdmerwe09@gmail.com>\n"
 "Language-Team: Afrikaans <https://hosted.weblate.org/projects/zrythm/web/af/>"
 "\n"
@@ -443,236 +443,263 @@ msgstr "Intuïtiewe Gebruikerskoppelvlak"
 
 #: template.py:584
 msgid "Detachable Views"
-msgstr ""
+msgstr "Ontkoppelbare Uitsigte"
 
 #: template.py:585
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr ""
+"Ontkoppel uitsigte van enige paneel en werk doeltreffend met meervoudige "
+"monitor opstelle."
 
 #: template.py:587
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "Soekbare Voorkeure"
 
 #: template.py:588
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "Begin tik om die voorkeur waarvoor jy soek op te spoor."
 
 #: template.py:590
 msgid "Inspector Pages"
-msgstr ""
+msgstr "Inspekteerder Blaaie"
 
 #: template.py:591
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "Redigeer alle lied en inprop parameters in die inspekteerder."
 
 #: template.py:594
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "Inprop Vermoë"
 
 #: template.py:597
 msgid "Plugin Support"
-msgstr ""
+msgstr "Inprop Ondersteuning"
 
 #: template.py:598
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"Te Danke aan {ref}Carla{endref}, Zrythm ondersteun 'n verskeidenheid "
+"inpropformate insluitend LV2, VST2, VST3, AU, CLAP en JSFX."
 
 #: template.py:600
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "SoundFonts as Inproppe"
 
 #: template.py:601
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr ""
+msgstr "Gebruik SFZ en SF2 soundfonts as instrument inproppe."
 
 #: template.py:603
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "Buigsame Inprop Blaaier"
 
 #: template.py:604
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr ""
+"Filter inproppe maklik deur outeur, formaat of kategorie, en organiseer jou "
+"gunsteling inproppe met inprop versamelings."
 
 #: template.py:606
 msgid "Plugin Bridging"
-msgstr ""
+msgstr "Inprop Oorbrugging"
 
 #: template.py:607
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr ""
+msgstr "Sandbox inproppe deur hul in brug modus oop te maak."
 
 #: template.py:609
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "Outomatiseerbare Omseil Modus"
 
 #: template.py:610
 msgid "Easily bypass plugins in the signal chain with an automatable control."
 msgstr ""
+"Omseil inproppe in die sein ketting maklik met 'n outomatiseerbare kontrole."
 
 #: template.py:613
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "Omvattende Invoer/Uitvoer"
 
 #: template.py:616
 msgid "File Browser"
-msgstr ""
+msgstr "Lêer Blaaier"
 
 #: template.py:617
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
+"Deurblaai en oudiseer MIDI en oudio lêers, en organiseer jou gunsteling "
+"paaie met gunstelinge."
 
 #: template.py:619
 msgid "Audio Files"
-msgstr ""
+msgstr "Oudio Lêers"
 
 #: template.py:620
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
+"Voer in of voer uit enige formaat ondersteun deur {ref}libsndfile{endref}, "
+"met addisionele MP3 invoer ondersteuning."
 
 #: template.py:622
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:623
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
 msgstr ""
+"Voer in of voer uit enige deel van die projek in MIDI Tipe 0 of Tipe 1 "
+"formate."
 
 #: template.py:625
 msgid "Stem Export"
-msgstr ""
+msgstr "Stam Uitvoer"
 
 #: template.py:626
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
+"Voer stamme uit vir gespesifiseerde verlopings en deel hulle met ander "
+"vervaardigers."
 
 #: template.py:629 template.py:730
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Koord Hulp"
 
 #: template.py:632
 msgid "Chord Audition"
-msgstr ""
+msgstr "Koord Oudisie"
 
 #: template.py:633
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
 msgstr ""
+"Luister vinnig na koorde deur die pads te klik of note te druk op jou MIDI "
+"sleutelbord, en sleep-en-los koorde na die tydlyn."
 
 #: template.py:635
 msgid "Chord Editing"
-msgstr ""
+msgstr "Koord Redigering"
 
 #: template.py:636
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
+"Keer koorde om met 'n enkele klik of gebruik die koord selekteerder om enige "
+"koord te kies, met 'n opsie om koorde te filter in die huidige skaal."
 
 #: template.py:638
 msgid "Recordable Chord Track"
-msgstr ""
+msgstr "Opneembare Koord Verloping"
 
 #: template.py:639
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
 msgstr ""
+"Dikteer of neem die skaal en koord progressie van die projek op, en roteer "
+"die uitset opsioneel na 'n instrument."
 
 #: template.py:641
 msgid "Chord Presets"
-msgstr ""
+msgstr "Koord Voorafinstellings"
 
 #: template.py:642
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr ""
+"Genereer koorde van 'n wye reeks van skale, laai ingesluite koord "
+"voorafinstellings vir verskeie genres, of stoor jou eie."
 
 #: template.py:645 template.py:739
 msgid "Never Lose Work"
-msgstr ""
+msgstr "Verloor Nooit Werk Nie"
 
 #: template.py:648
 msgid "Project Backups"
-msgstr ""
+msgstr "Projek Rugsteunings"
 
 #: template.py:649
 msgid "Backups taken automatically at user-specified intervals."
-msgstr ""
+msgstr "Rugsteunings outomaties gevat by gebruikers-gespesifiseerde intervalle."
 
 #: template.py:651
 msgid "Undoable Actions"
-msgstr ""
+msgstr "Ontdoenbare Aksies"
 
 #: template.py:652
 msgid "Almost every user action is undoable."
-msgstr ""
+msgstr "Amper elke gebruiker aksie is ontdoenbaar."
 
 #: template.py:654
 msgid "Serializable Undo History"
-msgstr ""
+msgstr "Serialiseerbare Ontdoen Geskiedenis"
 
 #: template.py:655
 msgid "Keep your undo history when saving projects."
-msgstr ""
+msgstr "Hou jou ontdoen geskiedenis wanneer projekte gestoor word."
 
 #: template.py:658
 msgid "Scripting"
-msgstr ""
+msgstr "Skriptering"
 
 #: template.py:661
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Brei Uit Zrythm"
 
 #: template.py:662
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
+"Brei uit die vermoë van Zrythm deur sy staat te redigeer deur {ref}GNU Guile "
+"scripts{endref} te gebruik."
 
 #: template.py:664
 msgid "Custom Editor Functions"
-msgstr ""
+msgstr "Pasgemaakte Redigeerder Funksies"
 
 #: template.py:665
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
-msgstr ""
+msgstr "Implementeer jou eie MIDI/oudio/outomasie funksies (kom binnekort)."
 
 #: template.py:667
 msgid "Project Generation"
-msgstr ""
+msgstr "Projek Generasie"
 
 #: template.py:668
 msgid "Generate projects with GNU Guile scripts."
-msgstr ""
+msgstr "Genereer projekte met GNU Guile skripte."
 
 #: template.py:671
 msgid "Optimized Performance"
-msgstr ""
+msgstr "Geoptimaliseerde Verrigting"
 
 #: template.py:674
 msgid "Hardware accelerated UI"
-msgstr ""
+msgstr "Hardeware-versnelde GK"
 
 #: template.py:675
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr ""
+"Meeste van die gebruikerskoppelvlak is geteken op die GPU te danke aan "
+"{ref}GTK4{endref}."
 
 #: template.py:677
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMD-geoptimaliseerde DSP"
 
 #: template.py:678
 msgid ""
@@ -680,22 +707,25 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
+"Zrythm gebruik {ref}lsp-dsp-lib{endref} wat SIMD uitbreidings implementeer "
+"soos SSE, AVX en FMA wanneer beskikbaar om oudio verwerking te versnel en "
+"DSP gebruik te minimaliseer."
 
 #: template.py:680
 msgid "Extensive Caching"
-msgstr ""
+msgstr "Uitgebreide Kasering"
 
 #: template.py:681
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "Duur berekeninge is vooraf-bereken om verwerkingtyd te spaar."
 
 #: template.py:684
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "Kruis-Platform Ondersteuning"
 
 #: template.py:687
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "Meervoudige Platforms"
 
 #: template.py:688
 msgid ""
@@ -703,16 +733,21 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythm is ontwerp om te hardloop op 'n {ref}wye verskeidenheid platforms en "
+"argitekture{endref} insluitend x86 argitekture, PowerPC, RISC-V, ARMv7 en "
+"ARMv8."
 
 #: template.py:690
 msgid "Multiple Backends"
-msgstr ""
+msgstr "Meervoudige Agterkante"
 
 #: template.py:691
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"Ondersteuning vir amper alle meerdere oudio en MIDI agterkante, insluitend "
+"JACK/PipeWire, Windows MME, WASAPI en Core Audio/MIDI."
 
 #: template.py:694
 msgid "Localization"
