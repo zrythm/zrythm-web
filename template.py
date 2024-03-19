@@ -373,7 +373,7 @@ def url(x):
     # TODO: check if file exists
     return "../" + x
 
-screenshot = url('static/images/screenshots/screenshot-20221015.png')
+screenshot = url('static/images/screenshots/screenshot-20240208.png')
 logo = url('static/icons/zrythm/z_frame_8.svg')
 logo_png = url('static/icons/zrythm/z_frame_8.png')
 
@@ -533,7 +533,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Extensive Toolbox'), 'https://manual.zrythm.org/en/_images/toolbox.png',
                         _('Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, Ramp or Audition tools{endref}.').format (ref = get_manual_ref ('editing/edit-tools.html#edit-tool'), endref = endref)),
                     Feature(
-                        _('Adaptive Snapping'), 'https://manual.zrythm.org/en/_images/snap-grid-options.png',
+                        _('Adaptive Snapping'), 'snapping.png',
                         _('Snapping behavior adjusts to the current zoom level.')),
                     Feature(
                         _('Looping'), 'https://manual.zrythm.org/en/_images/looping-regions.png',
@@ -699,7 +699,7 @@ for in_file in glob.glob("template/*.j2"):
                         _('Undoable Actions'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
                         _('Almost every user action is undoable.')),
                     Feature(
-                        _('Serializable Undo History'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
+                        _('Serializable Undo History'), 'undoing.png',
                         _('Keep your undo history when saving projects.')),
                 ]),
             FeatureGroup(
@@ -772,7 +772,7 @@ for in_file in glob.glob("template/*.j2"):
                 _('Limitless Automation'), 'automation-curves.gif',
                 _('Automate almost anything with automation events using straight lines, ramps and curves, or with LFOs and envelopes.')),
             Feature(
-                _('Mixing Capabilities'), 'https://manual.zrythm.org/en/_images/mixer.png',
+                _('Mixing Capabilities'), 'mixing.png',
                 _('In-context listening, signal groups, FX tracks, MIDI effect and insert slots, pre and post-fader aux sends and anywhere-to-anywhere routing.')),
             Feature(
                 _('Chord Assistance'), 'chord-highlighting.png',
@@ -784,7 +784,7 @@ for in_file in glob.glob("template/*.j2"):
                 _('Featureful Timeline'), 'https://manual.zrythm.org/en/_images/track-lanes.png',
                 _('Organize your work into multiple layers in the same track using track lanes, quickly bounce anything to audio, import/export a wide variety of audio and MIDI formats, stretch or loop any region and select from an array of track types for every purpose.')),
             Feature(
-                _('Never Lose Work'), 'https://manual.zrythm.org/en/_images/undo-multiple.png',
+                _('Never Lose Work'), 'undoing.png',
                 _('Recover your work with automatic project backups, undo almost any user action and even save your undo history with projects.')),
             Feature(
                 _('Liberating'), 'programming.png',
