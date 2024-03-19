@@ -82,13 +82,13 @@ GNU Affero General Public License for more details.
         </div>
 
         <div class="downloads__card">
-            <h4 class="downloads__title header--tertiary">{{ _('Single') }}</h4>
+            <h4 class="downloads__title header--tertiary">{{ _('Snapshot') }}</h4>
             <h2 class="downloads__price">{{ single_price_for_locale }}</h2>
             <ul class="downloads__features">
                 <li class="downloads__feature">{{ _('Unlimited tracks') }}</li>
                 <li class="downloads__feature">{{ _('Basic & Z Series plugins') }}</li>
                 <li class="downloads__feature">{{ _('Web & PDF user manual') }}</li>
-                <li class="downloads__feature">v{{ version }}</li>
+                <li class="downloads__feature">{{ _('Access to v{} only').format (version) }}</li>
             </ul>
             <a href="{{ localized_accounts_url }}/products/selection" class="downloads__btn btn btn--tertiary">{{ _('Purchase') }}</a>
         </div>
@@ -106,7 +106,7 @@ GNU Affero General Public License for more details.
         </div>
 
         <div class="downloads__card">
-            <h4 class="downloads__title header--secondary">{{ _('Nightly') }}</h4>
+            <h4 class="downloads__title header--secondary">{{ _('Subscription') }}</h4>
             <h2 class="downloads__price">{{ subscription_price_for_locale }}<p style="display: inline;">/{{ _('year') }}</p></h2>
             <ul class="downloads__features">
                 <li class="downloads__feature">{{ _('Unlimited tracks') }}</li>
@@ -120,7 +120,7 @@ GNU Affero General Public License for more details.
     </div>
     {% if currency_for_locale != 'JPY' %}
     <div class="downloads__funds-container container">
-      <small>{{ _('* Prices in this currency are estimates') }}</small>
+      <small>{{ _('* Prices in this currency are estimates. All purchases are in Japanese Yen.') }}</small>
     </div>
     {% endif %}
     <div class="downloads__funds-container container">
