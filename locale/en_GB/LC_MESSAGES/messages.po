@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
 "PO-Revision-Date: 2024-02-05 13:01+0000\n"
 "Last-Translator: Nancy Sophia <nancysophia694@gmail.com>\n"
-"Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
-"zrythm/web/en_GB/>\n"
+"Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/zrythm/web/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:401
 msgid ""
@@ -33,24 +32,18 @@ msgstr ""
 " mastering"
 
 #: template.py:402
-#, fuzzy
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr ""
-"A highly automated and intuitive digital audio workstation.DAW, digital "
-"audio workstation, music production, audio, pro audio, Linux, GNU/Linux, "
-"free software, libre software, sound editor, composition, MIDI, LV2, JACK, "
-"VST, audio plugin, recording, editing, arrange, arranger, mixing, mastering"
 
 #: template.py:408
 msgid "Stereo dynamic range compressor"
 msgstr ""
-"Stereo dynamic range comprehttps://hosted.weblate.org/translate/zrythm/web/"
-"en_GB/?checksum=4115f1356229a047ssor"
+"Stereo dynamic range "
+"comprehttps://hosted.weblate.org/translate/zrythm/web/en_GB/?checksum=4115f1356229a047ssor"
 
 #: template.py:411
-#, fuzzy
 msgid "Cubic nonlinearity distortion"
-msgstr "https://fogsham.com/y6zb372e9?key=e15869a2ce71ff730b49e279f0abd1e3"
+msgstr ""
 
 #: template.py:414
 msgid "Stereo flanging effect"

@@ -10,15 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
 "PO-Revision-Date: 2024-03-17 17:02+0000\n"
 "Last-Translator: Neil van der Merwe <neilvdmerwe09@gmail.com>\n"
-"Language-Team: Afrikaans <https://hosted.weblate.org/projects/zrythm/web/af/>"
-"\n"
+"Language-Team: Afrikaans <https://hosted.weblate.org/projects/zrythm/web/af/>\n"
 "Language: af_ZA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: template.py:401
 msgid ""
@@ -28,8 +27,8 @@ msgid ""
 " mastering"
 msgstr ""
 "DOW, digitale oudio werkstasie, musiekproduksie, oudio, pro oudio, Linux, "
-"GNU/Linux, gratis sagteware, vrye sagteware, klankredigeerder, samestelling, "
-"MIDI, LV2, JACK, VST, oudio inprop, opname, redigering, rangskik, "
+"GNU/Linux, gratis sagteware, vrye sagteware, klankredigeerder, samestelling,"
+" MIDI, LV2, JACK, VST, oudio inprop, opname, redigering, rangskik, "
 "rangskikker, meng, bemeestering"
 
 #: template.py:402
@@ -258,8 +257,8 @@ msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
-"Redigeer meervoudige snelhede gelyktydig met die geselekteerde gereedskap of "
-"teken met die potlood of oprit gereedskap."
+"Redigeer meervoudige snelhede gelyktydig met die geselekteerde gereedskap of"
+" teken met die potlood of oprit gereedskap."
 
 #: template.py:520
 msgid "Audio Editor"
@@ -290,8 +289,8 @@ msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
-"Pas funksies vinnig toe soos Legato, Omkeer en Vaag Uit na die geselekteerde "
-"voorwerpe."
+"Pas funksies vinnig toe soos Legato, Omkeer en Vaag Uit na die geselekteerde"
+" voorwerpe."
 
 #: template.py:529
 msgid "External App Integration"
@@ -387,7 +386,8 @@ msgstr "Monitor Seksie"
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
-"Verander luister/demp/alleen optrede en pas aan wat na jou luidsprekers gaan."
+"Verander luister/demp/alleen optrede en pas aan wat na jou luidsprekers "
+"gaan."
 
 #: template.py:565
 msgid "Unlimited Automation"
@@ -410,8 +410,8 @@ msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
 msgstr ""
-"Outomatiseer parameters met reguitlyne of kurwes, deur van meervoudige kurwe "
-"algoritmes te kies, soos Eksponensiëel en Elliptiese kurwes."
+"Outomatiseer parameters met reguitlyne of kurwes, deur van meervoudige kurwe"
+" algoritmes te kies, soos Eksponensiëel en Elliptiese kurwes."
 
 #: template.py:574
 msgid "Envelopes"
@@ -595,8 +595,8 @@ msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
-"Keer koorde om met 'n enkele klik of gebruik die koord selekteerder om enige "
-"koord te kies, met 'n opsie om koorde te filter in die huidige skaal."
+"Keer koorde om met 'n enkele klik of gebruik die koord selekteerder om enige"
+" koord te kies, met 'n opsie om koorde te filter in die huidige skaal."
 
 #: template.py:638
 msgid "Recordable Chord Track"
@@ -632,7 +632,8 @@ msgstr "Projek Rugsteunings"
 
 #: template.py:649
 msgid "Backups taken automatically at user-specified intervals."
-msgstr "Rugsteunings outomaties gevat by gebruikers-gespesifiseerde intervalle."
+msgstr ""
+"Rugsteunings outomaties gevat by gebruikers-gespesifiseerde intervalle."
 
 #: template.py:651
 msgid "Undoable Actions"
@@ -663,8 +664,8 @@ msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
-"Brei uit die vermoë van Zrythm deur sy staat te redigeer deur {ref}GNU Guile "
-"scripts{endref} te gebruik."
+"Brei uit die vermoë van Zrythm deur sy staat te redigeer deur {ref}GNU Guile"
+" scripts{endref} te gebruik."
 
 #: template.py:664
 msgid "Custom Editor Functions"

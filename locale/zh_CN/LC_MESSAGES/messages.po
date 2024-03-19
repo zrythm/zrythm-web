@@ -10,27 +10,22 @@ msgstr ""
 "POT-Creation-Date: 2023-03-20 21:41+0900\n"
 "PO-Revision-Date: 2024-01-30 04:01+0000\n"
 "Last-Translator: 雪と葉 <vescrity@foxmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"zrythm/web/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:401
-#, fuzzy
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
-"DAW，数字音频工作站，音乐制作，音频，专业音频，Linux，GNU/Linux，免费软件，自"
-"由软件，声音编辑器，作曲，MIDI，LV2，JACK，VST，音频插件，录音，编辑，安排，"
-"编曲，混音，母带制作"
 
 #: template.py:402
 msgid "A highly automated and intuitive digital audio workstation."
@@ -313,9 +308,8 @@ msgid "Automation Recording"
 msgstr "自动记录"
 
 #: template.py:543
-#, fuzzy
 msgid "Record automation in latch/touch mode."
-msgstr "以 latch/touch 模式录制自动化。"
+msgstr ""
 
 #: template.py:545
 msgid "Device Controls"
@@ -347,9 +341,8 @@ msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr "轻松将信号路由到FX轨或插件的侧链输入中。"
 
 #: template.py:558
-#, fuzzy
 msgid "In-Context Listening"
-msgstr "情境聆听"
+msgstr ""
 
 #: template.py:559
 msgid ""
@@ -450,8 +443,7 @@ msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
-"感谢 {ref}Carla{endref} "
-"的支持，现在Zrythm可以支持包括LV2、VST2、VST3、AU、CLAP和JSFX的多种插件格式。"
+"感谢 {ref}Carla{endref} 的支持，现在Zrythm可以支持包括LV2、VST2、VST3、AU、CLAP和JSFX的多种插件格式。"
 
 #: template.py:600
 msgid "SoundFonts as Plugins"
@@ -480,9 +472,8 @@ msgid "Sandbox plugins by opening them in bridge mode."
 msgstr "通过使用桥接模式打开插件，使它们运行在沙箱环境中。"
 
 #: template.py:609
-#, fuzzy
 msgid "Automatable Bypass Mode"
-msgstr "自动化旁路状态"
+msgstr ""
 
 #: template.py:610
 msgid "Easily bypass plugins in the signal chain with an automatable control."

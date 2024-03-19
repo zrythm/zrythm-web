@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.4.0\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:401
 msgid ""
@@ -208,8 +208,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Agregue múltiples capas de audio/MIDI a la misma pista usando {ref}líneas de "
-"pista{endref}"
+"Agregue múltiples capas de audio/MIDI a la misma pista usando {ref}líneas de"
+" pista{endref}"
 
 #: template.py:501
 msgid "Bounce in Place"

@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.7.0\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:401
 msgid ""
@@ -94,10 +94,8 @@ msgid "8x8 late-reverberation FDN reverb"
 msgstr ""
 
 #: template.py:452
-#, fuzzy
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
-"ZChordz översätter ackorden från en moll- eller durskala till vita tangenter"
 
 #: template.py:453
 msgid "Major or minor scale"
