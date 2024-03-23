@@ -40,7 +40,6 @@ build:
     - echo "ZRYTHM_ACCOUNTS_TOKEN=$ZRYTHM_ACCOUNTS_TOKEN" >> .credentials
     - echo "VERIFY_TRIAL_PACKAGE_URLS=YES" >> .credentials
     - echo "GET_VERSION=YES" >> .credentials
-    - make locale
     - make
 
 #test:

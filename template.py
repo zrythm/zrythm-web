@@ -76,6 +76,7 @@ ZRYTHM_ACCOUNTS_TOKEN = os.getenv ('ZRYTHM_ACCOUNTS_TOKEN')
 fetch_orders = PAYPAL_CLIENT_ID and PAYPAL_SECRET and ZRYTHM_ACCOUNTS_TOKEN
 verify_trial_package_urls = os.getenv ('VERIFY_TRIAL_PACKAGE_URLS') == 'YES'
 get_version = os.getenv ('GET_VERSION') == 'YES'
+print (os.getenv ('GET_VERSION'))
 
 # Note: also edit the Makefile when adding languages
 langs_full = {
@@ -322,10 +323,10 @@ print ('monthly earning amt: {}'.format (monthly_earning_str))
 prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)
 prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_month_earning))
 
+print ('get version: ' get_version)
 if get_version:
 # get latest version
     from subprocess import check_output
-    print ('getting latest version...')
     versions = check_output('git ls-remote --tags https://gitlab.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-beta\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
     latest_ver = "0.0.0"
     for ver in versions.split('\n'):
