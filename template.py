@@ -323,7 +323,7 @@ print ('monthly earning amt: {}'.format (monthly_earning_str))
 prev_month_earning_str = '{0:.2f}'.format(prev_month_earning)
 prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_month_earning))
 
-print ('get version: ' get_version)
+print ('get version: ' + get_version)
 if get_version:
 # get latest version
     from subprocess import check_output
