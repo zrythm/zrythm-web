@@ -35,11 +35,8 @@ configure:
 build:
   stage: build
   script:
-    - echo "PAYPAL_CLIENT_ID=$PAYPAL_CLIENT_ID" >> .credentials
-    - echo "PAYPAL_SECRET=$PAYPAL_SECRET" >> .credentials
-    - echo "ZRYTHM_ACCOUNTS_TOKEN=$ZRYTHM_ACCOUNTS_TOKEN" >> .credentials
-    - echo "VERIFY_TRIAL_PACKAGE_URLS=YES" >> .credentials
-    - echo "GET_VERSION=YES" >> .credentials
+    - echo "export VERIFY_TRIAL_PACKAGE_URLS=YES" >> .credentials
+    - echo "export GET_VERSION=YES" >> .credentials
     - make
 
 #test:
