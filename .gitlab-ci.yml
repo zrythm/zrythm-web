@@ -13,7 +13,7 @@ stages:
 default:
   cache:
     # this number must be bumped every time the dependencies are updated
-    - key: configured-cache-1
+    - key: configured-cache-2
       paths:
         - venv
     - key: $CI_COMMIT_TIMESTAMP
