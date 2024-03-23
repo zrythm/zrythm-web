@@ -325,6 +325,7 @@ prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_mont
 if get_version:
 # get latest version
     from subprocess import check_output
+    print ('getting latest version...')
     versions = check_output('git ls-remote --tags https://gitlab.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[0-9]*\.[0-9]*\.[0-9]*-beta\.[0-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
     latest_ver = "0.0.0"
     for ver in versions.split('\n'):
