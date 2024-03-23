@@ -5,11 +5,13 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 stages:
+  - setup
   - build
   - test
   - deploy
 
 default:
+  cache:
     # this number must be bumped every time the dependencies are updated
     - key: configured-cache-1
       paths:
@@ -24,10 +26,11 @@ default:
 
 configure:
   stage: setup
+  script:
+    - python3 -m pip install -r requirements.txt
   before_script:
     - python3 -m venv venv
     - source ./venv/bin/activate
-    - python3 -m pip install -r requirements.txt
 
 build:
   stage: build
