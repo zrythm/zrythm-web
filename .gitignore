@@ -34,3 +34,6 @@ futility_engine_loader.sh
 
 # css
 .sass-cache
+
+# venv
+venv
