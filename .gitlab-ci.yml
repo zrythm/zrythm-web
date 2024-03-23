@@ -1,21 +1,5 @@
-# Copyright (C) 2019 Alexandros Theodotou <alex at zrythm dot org>
-#
-# This file is part of Zrythm
-#
-# Zrythm is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# Zrythm is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with Zrythm.  If not, see <https://www.gnu.org/licenses/>.
-
-image: "alextee12/arch-yaourt"
+# SPDX-FileCopyrightText: © 2019, 2024 Alexandros Theodotou <alex@zrythm.org>
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -23,6 +7,27 @@ variables:
 stages:
   - build
   - test
+  - deploy
+
+default:
+    # this number must be bumped every time the dependencies are updated
+    - key: configured-cache-1
+      paths:
+        - venv
+    - key: $CI_COMMIT_TIMESTAMP
+      paths:
+        - rendered
+  tags:
+    - archlinux
+  before_script:
+    - source ./venv/bin/activate
+
+configure:
+  stage: setup
+  before_script:
+    - python3 -m venv venv
+    - source ./venv/bin/activate
+    - python3 -m pip install -r requirements.txt
 
 build:
   stage: build
@@ -30,9 +35,23 @@ build:
     - make locale
     - make
 
-test:
-  stage: test
+#test:
+  #stage: test
+  #script:
+    #- make locale
+    #- make
+    #- linkchecker --ignore-url .*team.html --ignore-url .*join-us.html rendered
+
+deploy-site:
+  stage: deploy
+  only:
+    - master
+    - tags
   script:
-    - make locale
-    - make
-    - linkchecker --ignore-url .*team.html --ignore-url .*join-us.html rendered
+    - rsync -av --chown $REMOTE_CI_USER:www-data rendered/* $REMOTE_CI_USER@www.zrythm.org:$REMOTE_WWW_SITE_UPLOAD_PATH
+  before_script:
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+    - mkdir -p ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - source ./venv/bin/activate
