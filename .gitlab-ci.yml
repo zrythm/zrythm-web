@@ -13,7 +13,7 @@ stages:
 default:
   cache:
     # this number must be bumped every time the dependencies are updated
-    - key: configured-cache-2
+    - key: configured-cache-3
       paths:
         - venv
     - key: $CI_COMMIT_TIMESTAMP
@@ -52,7 +52,7 @@ deploy-site:
     - master
     - tags
   script:
-    - rsync -av --chown $REMOTE_CI_USER:www-data rendered/* $REMOTE_CI_USER@www.zrythm.org:$REMOTE_WWW_SITE_UPLOAD_PATH
+    - rsync -av --no-group --omit-dir-times rendered/* $REMOTE_CI_USER@www.zrythm.org:$REMOTE_WWW_SITE_UPLOAD_PATH
   before_script:
     - eval $(ssh-agent -s)
     - ssh-add <(echo "$SSH_PRIVATE_KEY")
