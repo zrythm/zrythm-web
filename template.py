@@ -336,12 +336,12 @@ if get_version:
 else:
     version = '1'
 
-def check_url(url):
+def check_url(url, use_ng_cache):
     cache_file_path_ok = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ok'
     cache_file_path_ng = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ng'
     if os.path.isfile(cache_file_path_ok):
         return True
-    if os.path.isfile(cache_file_path_ng):
+    if use_ng_cache and os.path.isfile(cache_file_path_ng):
         return False
     print ('checking ' + url + '...')
     try:
@@ -362,10 +362,10 @@ def check_url(url):
 # verify that tarball and trials exist
 if verify_trial_package_urls:
     print ('verifying release and trial packages...')
-    assert (check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz'))
+    assert (check_url (releases_url + 'zrythm-' + latest_ver + '.tar.xz', False))
     # for suffix in ['-x86_64.flatpak','-installer.zip','-ms-setup.exe','-osx-installer.zip']:
     for suffix in ['-installer.zip','-ms-setup.exe','-osx-installer.zip']:
-        assert (check_url (github_release_asset_url + 'v' + latest_ver + '/zrythm-trial-' + version + suffix))
+        assert (check_url (github_release_asset_url + 'v' + latest_ver + '/zrythm-trial-' + version + suffix, False))
     print ('done')
 
 def url(x):
@@ -811,7 +811,7 @@ for in_file in glob.glob("template/*.j2"):
         monthly_earning_str = '{}{:,}'.format (currency_sym_for_locale, monthly_earning_for_locale)
         local_salary_str = '{}{:,}'.format (currency_sym_for_locale, local_salary_for_locale)
         localized_accounts_url = "https://accounts.zrythm.org/" + locale
-        if not check_url (localized_accounts_url):
+        if not check_url (localized_accounts_url, True):
             localized_accounts_url = "https://accounts.zrythm.org/en"
 
         content = tmpl.render(lang=locale,
