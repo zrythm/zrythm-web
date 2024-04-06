@@ -55,7 +55,8 @@ deploy-site:
     - rsync -av --no-group --omit-dir-times rendered/* $REMOTE_CI_USER@www.zrythm.org:$REMOTE_WWW_SITE_UPLOAD_PATH
   before_script:
     - eval $(ssh-agent -s)
-    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+    #- ssh-add <(echo "$SSH_PRIVATE_KEY")
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
     - mkdir -p ~/.ssh
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
     - source ./venv/bin/activate
