@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-20 21:41+0900\n"
+"POT-Creation-Date: 2024-04-06 09:28+0900\n"
 "PO-Revision-Date: 2023-02-13 10:39+0000\n"
 "Last-Translator: Hartmut Wagener <hartmut.w.wagener@t-online.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 4.16-dev\n"
 
-#: template.py:401
+#: template.py:449
 msgid ""
 "DAW, digital audio workstation, music production, audio, pro audio, Linux, "
 "GNU/Linux, free software, libre software, sound editor, composition, MIDI, "
@@ -31,52 +31,52 @@ msgstr ""
 "komponieren, MIDI, LV2, JACK, VST, audio plugin, recording, Aufnahme, "
 "editing, Bearbeitung, Musikbearbeitung, Arrangieren, mixing, mastering"
 
-#: template.py:402
+#: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
 msgstr "Eine hochautomatisierte und intuitive digitale Audio-Workstation."
 
-#: template.py:408
+#: template.py:456
 msgid "Stereo dynamic range compressor"
 msgstr "Stereo-Dynamik-Kompressor"
 
-#: template.py:411
+#: template.py:459
 msgid "Cubic nonlinearity distortion"
 msgstr "Kubische nichtlineare Verzerrung"
 
-#: template.py:414
+#: template.py:462
 msgid "Stereo flanging effect"
 msgstr "Stereo Flanging-Effekt"
 
-#: template.py:417
+#: template.py:465
 msgid "Stereo signal gate"
 msgstr "Stereo Signal Gate"
 
-#: template.py:420
+#: template.py:468
 msgid "2nd-order Butterworth highpass filter"
 msgstr "Butterworth Hochpassfilter zweiter Ordnung"
 
-#: template.py:423
+#: template.py:471
 msgid "2nd-order Butterworth lowpass filter"
 msgstr "Butterworth Tiefpassfilter zweiter Ordnung"
 
-#: template.py:426
+#: template.py:474
 msgid "Parametric equalizer"
 msgstr "Parametrischer Equalizer"
 
-#: template.py:429
+#: template.py:477
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
 msgstr ""
 "Dynamikumfang Kompressor modelliert nach dem 1176 Spitzenwertbegrenzer"
 
-#: template.py:432
+#: template.py:480
 msgid "Phasing effect"
 msgstr "Phaser"
 
-#: template.py:435
+#: template.py:483
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
 msgstr "Mehrstimmiger Synthesizer mit 3 verstimmten Oszillatoren"
 
-#: template.py:438
+#: template.py:486
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
@@ -84,82 +84,82 @@ msgstr ""
 "Delay, welches keine Klickgeräusche erzeugt und nicht transponiert wenn die "
 "Delay-Zeit verstellt wird"
 
-#: template.py:441
+#: template.py:489
 msgid "Wah pedal effect to the 4th order"
 msgstr "Wah-Pedal Effekt vierter Ordnung"
 
-#: template.py:444
+#: template.py:492
 msgid "White noise generator"
 msgstr "Generator für weißes Rauschen"
 
-#: template.py:447
+#: template.py:495
 msgid "8x8 late-reverberation FDN reverb"
 msgstr "8x8 FDN-Hall mit später Reflektion"
 
-#: template.py:452
+#: template.py:500
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
 "ZChordz ordnet die Akkorde einer Moll- oder Durtonleiter den weißen Tasten "
 "zu"
 
-#: template.py:453
+#: template.py:501
 msgid "Major or minor scale"
 msgstr "Dur- oder Moll Tonleiter"
 
-#: template.py:454
+#: template.py:502
 msgid "Velocity multiplier per note"
 msgstr "Anpassung der Anschlagsdynamik pro Note"
 
-#: template.py:457
+#: template.py:505
 msgid "ZLFO is a fully featured LFO for CV-based automation"
 msgstr ""
 "ZLFO ist ein voll funktionsumfänglicher LFO für CV-basierte Automation"
 
-#: template.py:458
+#: template.py:506
 msgid "Multi-oscillator with custom wave"
 msgstr "Multi-Oszillator mit eigener Welle"
 
-#: template.py:459
+#: template.py:507
 msgid "Phase shift"
 msgstr "Phasenverschiebung"
 
-#: template.py:460
+#: template.py:508
 msgid "Vertical/horizontal inversion"
 msgstr "Vertikale/horizontale Inversion"
 
-#: template.py:461
+#: template.py:509
 msgid "Step mode"
 msgstr "Stufen-Modus"
 
-#: template.py:462
+#: template.py:510
 msgid "Editable range"
 msgstr "Editierbarer Bereich"
 
-#: template.py:463
+#: template.py:511
 msgid "Sync to host or free-form"
 msgstr "Synchronisiere zum Host oder Freiform"
 
-#: template.py:466
+#: template.py:514
 msgid "ZSaw is a supersaw synth with 1 parameter"
 msgstr "ZSaw ist ein Supersaw-Synth mit einem Parameter"
 
-#: template.py:467
+#: template.py:515
 msgid "7 sawtooth oscillators"
 msgstr "7 Sägezahn-Oszillatoren"
 
-#: template.py:468
+#: template.py:516
 msgid "Single knob to control detune"
 msgstr "Ein einziger Knopf zum Kontrollieren der Stimmung"
 
-#: template.py:479 template.py:721
+#: template.py:527 template.py:769
 msgid "Intuitive Editing"
 msgstr "Intuitive Bearbeitung"
 
-#: template.py:482
+#: template.py:530
 msgid "Flexible Select Tool"
 msgstr "Flexibles Auswahlwerkzeug"
 
-#: template.py:483
+#: template.py:531
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
@@ -167,11 +167,11 @@ msgstr ""
 "Selektieren, Bewegen, Ändern, Duplizieren, Loopen, Löschen und Schneiden von"
 " Objekten mit einem {ref}einzigen Werkzeug{endref}."
 
-#: template.py:485
+#: template.py:533
 msgid "Extensive Toolbox"
 msgstr "Umfangreicher Werkzeugkasten"
 
-#: template.py:486
+#: template.py:534
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
@@ -179,31 +179,31 @@ msgstr ""
 "Erweitere das Auswahlwerkzeug indem du zum {ref}Bearbeiten, Ausschneiden, "
 "Löschen, Rampen oder Audition Werkzeug{endref} wechselst."
 
-#: template.py:488
+#: template.py:536
 msgid "Adaptive Snapping"
 msgstr "Adaptives Einrasten"
 
-#: template.py:489
+#: template.py:537
 msgid "Snapping behavior adjusts to the current zoom level."
 msgstr "Das Einrastverhalten passt sich an die aktuelle Zoomstufe an."
 
-#: template.py:491
+#: template.py:539
 msgid "Looping"
 msgstr "Schleifen setzen"
 
-#: template.py:492
+#: template.py:540
 msgid "Loop audio, MIDI, automation and chord clips."
 msgstr "Wiederhole Audio, MIDI, Automatisierungen und Akkorde."
 
-#: template.py:495 template.py:736
+#: template.py:543 template.py:784
 msgid "Featureful Timeline"
 msgstr "Featuregeladene Zeitleiste"
 
-#: template.py:498
+#: template.py:546
 msgid "Track Lanes"
 msgstr "Nebenspuren"
 
-#: template.py:499
+#: template.py:547
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
@@ -211,31 +211,31 @@ msgstr ""
 "Fügt mehrere Lagen für Audio/Midi der selben Spur zu {ref}track "
 "lanes{endref}."
 
-#: template.py:501
+#: template.py:549
 msgid "Bounce in Place"
 msgstr "Direkt als Audio exportieren"
 
-#: template.py:502
+#: template.py:550
 msgid "Quickly bounce selected material to audio."
 msgstr "Schnell und einfach ausgewählte Bereiche bouncen."
 
-#: template.py:504
+#: template.py:552
 msgid "Stretching"
 msgstr "Stauchen/Dehnen"
 
-#: template.py:505
+#: template.py:553
 msgid "Stretch any type of region"
 msgstr "Jede Art von Region stauchen/dehnen"
 
-#: template.py:508
+#: template.py:556
 msgid "Powerful Editors"
 msgstr "Mächtige Bearbeitungswerkzeuge"
 
-#: template.py:511
+#: template.py:559
 msgid "Piano Roll"
 msgstr "Notenrolle"
 
-#: template.py:512
+#: template.py:560
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
@@ -243,21 +243,21 @@ msgstr ""
 "Erzeugen, editieren und arrangieren von MIDI-Ereignissen in einem "
 "zugehörigen Klaviatur-Editor mit Akkord-Integration."
 
-#: template.py:514
+#: template.py:562
 msgid "Drum View"
 msgstr "Schlagzeug-Ansicht"
 
-#: template.py:515
+#: template.py:563
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
 "Ein Klick wechselt zur Schlagzeug-Ansicht, um perkussive Instrumente zu "
 "editieren."
 
-#: template.py:517
+#: template.py:565
 msgid "Velocity Editor"
 msgstr "Anschlaggeschwindigkeit bearbeiten"
 
-#: template.py:518
+#: template.py:566
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
@@ -265,11 +265,11 @@ msgstr ""
 "Mehrere Anschlagstärken gleichzeitig durch Selektion bearbeiten oder durch "
 "den Stift- oder das Rampen-Tool zeichnen."
 
-#: template.py:520
+#: template.py:568
 msgid "Audio Editor"
 msgstr "Audio-Editor"
 
-#: template.py:521
+#: template.py:569
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
@@ -277,19 +277,19 @@ msgstr ""
 "Ein/Ausklingen einstellen und Teile von Audio-Clips im Audio-Editor "
 "bearbeiten."
 
-#: template.py:523
+#: template.py:571
 msgid "List Editors"
 msgstr "Auflistung der Editoren"
 
-#: template.py:524
+#: template.py:572
 msgid "Edit object parameters manually in the event viewer."
 msgstr "Objekt-Parameter manuell in der Ereignis-Anzeige bearbeiten."
 
-#: template.py:526
+#: template.py:574
 msgid "Editor Functions"
 msgstr "Funktionen des Editors"
 
-#: template.py:527
+#: template.py:575
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
@@ -297,23 +297,23 @@ msgstr ""
 "Schnelles anwenden von Funktionen wie Legato, Invertieren und Ausblenden auf"
 " die ausgewählten Objekte."
 
-#: template.py:529
+#: template.py:577
 msgid "External App Integration"
 msgstr "Integration von externen Apps"
 
-#: template.py:530
+#: template.py:578
 msgid "Edit selected audio parts in any external app."
 msgstr "Ausgewählte Audio-Teile in jeder beliebigen externen App bearbeiten."
 
-#: template.py:533
+#: template.py:581
 msgid "Recording Capabilities"
 msgstr "Aufnahme-Funktionalitäten"
 
-#: template.py:536
+#: template.py:584
 msgid "Audio/MIDI Recording"
 msgstr "Audio/Midi-Aufnahme"
 
-#: template.py:537
+#: template.py:585
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
@@ -321,11 +321,11 @@ msgstr ""
 "Aufnehmen von Audio/Midi von Ihren Geräten, oder gar von anderen JACK-"
 "Applikationen."
 
-#: template.py:539
+#: template.py:587
 msgid "Comprehensive Recording Settings"
 msgstr "Umfassende Aufnahme-Einstellungen"
 
-#: template.py:540
+#: template.py:588
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
@@ -333,51 +333,51 @@ msgstr ""
 "Mit Punch in/Punch out, den MIDI-Input Aufnehmen, optional mit mehreren "
 "Versuchen."
 
-#: template.py:542
+#: template.py:590
 msgid "Automation Recording"
 msgstr "Aufnahme von Automations-Spuren"
 
-#: template.py:543
+#: template.py:591
 msgid "Record automation in latch/touch mode."
 msgstr "Aufnahme von Automationen im Latch/Touch-Modus."
 
-#: template.py:545
+#: template.py:593
 msgid "Device Controls"
 msgstr "Geräte-Steuerungen"
 
-#: template.py:546
+#: template.py:594
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
 "Verbinden Ihrer Geräte-Knöpfe mit Steuerungen innerhalb ZRythm und Aufnahme "
 "Ihrer Betätigungen."
 
-#: template.py:549 template.py:727
+#: template.py:597 template.py:775
 msgid "Mixing Capabilities"
 msgstr "Abmisch-Resourcen"
 
-#: template.py:552
+#: template.py:600
 msgid "Group Tracks"
 msgstr "Gruppen-Spuren"
 
-#: template.py:553
+#: template.py:601
 msgid "Organize audio/MIDI signal groups with group tracks."
 msgstr "Organisieren von Audio/Midi-Signalen innerhalb von Gruppen-Spuren."
 
-#: template.py:555
+#: template.py:603
 msgid "Aux Sends"
 msgstr "Aux-Sends"
 
-#: template.py:556
+#: template.py:604
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr ""
 "Einfaches Umleiten von FX-Spuren und zusätzlichen Eingängen von Plugins."
 
-#: template.py:558
+#: template.py:606
 msgid "In-Context Listening"
 msgstr "Mithören mit allen Spuren"
 
-#: template.py:559
+#: template.py:607
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
@@ -385,34 +385,34 @@ msgstr ""
 "Anhören von gewählten Spuren im Mix-Kontext durch Abschwächen aller anderer "
 "Spuren."
 
-#: template.py:561
+#: template.py:609
 msgid "Monitor Section"
 msgstr "Monitor-Bereich"
 
-#: template.py:562
+#: template.py:610
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
 "Ändern des Mithör/Stumm/Solo-Verhaltens, einstellen, was an die Lautsprecher"
 " kommt."
 
-#: template.py:565
+#: template.py:613
 msgid "Unlimited Automation"
 msgstr "Automation ohne Begrenzungen"
 
-#: template.py:568
+#: template.py:616
 msgid "Anywhere-to-Anywhere Connections"
 msgstr "Verbindungen von Überall nach Überall"
 
-#: template.py:569
+#: template.py:617
 msgid "Connect anything to anything."
 msgstr "Verbinde alles mit allem."
 
-#: template.py:571
+#: template.py:619
 msgid "Automation Curves"
 msgstr "Automations-Kurven"
 
-#: template.py:572
+#: template.py:620
 msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
@@ -420,11 +420,11 @@ msgstr ""
 "Automatisieren von Parametern, mit graden Linien oder Kurven, mit "
 "verschiedenen Kurven-Algorithmen, wie z.B. exponentell oder elliptisch."
 
-#: template.py:574
+#: template.py:622
 msgid "Envelopes"
 msgstr "Hüllkurven"
 
-#: template.py:575
+#: template.py:623
 msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
@@ -432,11 +432,11 @@ msgstr ""
 "Parameter-Automation mit CV-Signalen oder Hüllkurven, auch durch Macro-"
 "Knöpfe und LFO-Plugins wie z.B. ZLFO."
 
-#: template.py:577
+#: template.py:625
 msgid "Automate Anything"
 msgstr "Automatisiere Alles"
 
-#: template.py:578
+#: template.py:626
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
@@ -444,46 +444,46 @@ msgstr ""
 "Automatisieren jedes möglichen Parameters, auch die Abspielgeschwindigkeit "
 "des Projektes und die Zeit-Signatur."
 
-#: template.py:581
+#: template.py:629
 msgid "Intuitive User Interface"
 msgstr "Intuitive Benutzer-Oberfläche"
 
-#: template.py:584
+#: template.py:632
 msgid "Detachable Views"
 msgstr "Lösbare Anzeigen"
 
-#: template.py:585
+#: template.py:633
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr ""
 "Lösen von Anzeigen jeder Tafel, um effektiver mit Mehrmonitor-Setups zu "
 "arbeiten."
 
-#: template.py:587
+#: template.py:635
 msgid "Searchable Preferences"
 msgstr "Durchsuchbare Präferenzen"
 
-#: template.py:588
+#: template.py:636
 msgid "Start typing to locate the preference you're looking for."
 msgstr "Einfach tippen, um die Präferenz zu finden nach der Sie suchen."
 
-#: template.py:590
+#: template.py:638
 msgid "Inspector Pages"
 msgstr "Inspektions-Seiten"
 
-#: template.py:591
+#: template.py:639
 msgid "Edit all track and plugin parameters in the inspector."
 msgstr "Bearbeiten aller Spur- und Plugin-Parameter im Inspektor."
 
-#: template.py:594
+#: template.py:642
 msgid "Plugin Capabilities"
 msgstr "Plugin-Möglichkeiten"
 
-#: template.py:597
+#: template.py:645
 msgid "Plugin Support"
 msgstr "Plugin-Unterstützung"
 
-#: template.py:598
+#: template.py:646
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
@@ -491,19 +491,19 @@ msgstr ""
 "Durch Nutzung von {ref}Carla{endref} unterstützt Zrythm ein Sammelsurium an "
 "Plugin-Formaten, wie LV2, VST2, VST3 AU, CLAP und JSFX."
 
-#: template.py:600
+#: template.py:648
 msgid "SoundFonts as Plugins"
 msgstr "SoundFonts als Plugins"
 
-#: template.py:601
+#: template.py:649
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
 msgstr "Benutzung von SFZ und SF2-Soundfonts als Instrumenten-Plugins."
 
-#: template.py:603
+#: template.py:651
 msgid "Flexible Plugin Browser"
 msgstr "Flexibler Plugin-Browser"
 
-#: template.py:604
+#: template.py:652
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
@@ -511,33 +511,33 @@ msgstr ""
 "Einfach Plugins ausfiktern, nach Autor, Format oder Kategorie, und "
 "Organisation der Lieblings-Plugins innerhalb von Kollektionen."
 
-#: template.py:606
+#: template.py:654
 msgid "Plugin Bridging"
 msgstr "Überbrückung von Plugins"
 
-#: template.py:607
+#: template.py:655
 msgid "Sandbox plugins by opening them in bridge mode."
 msgstr "Austesten von Plugins im Überbrückungs-Modus."
 
-#: template.py:609
+#: template.py:657
 msgid "Automatable Bypass Mode"
 msgstr "Automatisierbarer Umleitungs-Modus"
 
-#: template.py:610
+#: template.py:658
 msgid "Easily bypass plugins in the signal chain with an automatable control."
 msgstr ""
 "Einfach Plugins in der Signalkette umleiten durch eine automatisierbare "
 "Steuerung."
 
-#: template.py:613
+#: template.py:661
 msgid "Comprehensive Import/Export"
 msgstr "Umfangreicher Import/Export"
 
-#: template.py:616
+#: template.py:664
 msgid "File Browser"
 msgstr "Datei-Browser"
 
-#: template.py:617
+#: template.py:665
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
@@ -545,11 +545,11 @@ msgstr ""
 "Durchsuchen und Vorhören von MIDI und Audio-Dateien, zusätzlich Pfade als "
 "Favoriten festlegen."
 
-#: template.py:619
+#: template.py:667
 msgid "Audio Files"
 msgstr "Audio-Dateien"
 
-#: template.py:620
+#: template.py:668
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
@@ -557,36 +557,36 @@ msgstr ""
 "Import und Export jeglichen Formats, welches von {ref}libsndfile{endref} "
 "unterstützt wird, mit zusätzlicher MP3-Import-Unterstützung."
 
-#: template.py:622
+#: template.py:670
 msgid "MIDI"
 msgstr "MIDI"
 
-#: template.py:623
+#: template.py:671
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
 msgstr ""
 "Import oder Export jeden beliebigen Teil des Projektes als MIDI-Typ 0 oder "
 "Typ 1-Format."
 
-#: template.py:625
+#: template.py:673
 msgid "Stem Export"
 msgstr "Export als mehrere Einzeldateien"
 
-#: template.py:626
+#: template.py:674
 msgid "Export stems for specific tracks and share them with other producers."
 msgstr ""
 "Exportieren bestimmter Spuren als Einzeldateien, um sie mit anderen "
 "Produzenten zu teilen."
 
-#: template.py:629 template.py:730
+#: template.py:677 template.py:778
 msgid "Chord Assistance"
 msgstr "Akkord-Unterstützung"
 
-#: template.py:632
+#: template.py:680
 msgid "Chord Audition"
 msgstr "Akkord-Vorschau"
 
-#: template.py:633
+#: template.py:681
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
@@ -595,11 +595,11 @@ msgstr ""
 "dem MIDI-Keyboard, Ablegen von Akkorden durch drag-and drop auf der "
 "Zeitleiste."
 
-#: template.py:635
+#: template.py:683
 msgid "Chord Editing"
 msgstr "Akkord-Bearbeitung"
 
-#: template.py:636
+#: template.py:684
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
@@ -608,11 +608,11 @@ msgstr ""
 "Wählers, um einen beliebigen Akkord zu wählen, mit der Option, Akkorde zu "
 "filtern, die zur aktuellen Tonleiter passen."
 
-#: template.py:638
+#: template.py:686
 msgid "Recordable Chord Track"
 msgstr "Aufnehmbare Akkord-Spur"
 
-#: template.py:639
+#: template.py:687
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
@@ -620,11 +620,11 @@ msgstr ""
 "Festlegung oder Aufnahme der Tonleiter und Akkord-Progressionen, auf Wunsch "
 "mit Ausgabe der Noten an ein Instrument."
 
-#: template.py:641
+#: template.py:689
 msgid "Chord Presets"
 msgstr "Akkord-Vorgaben"
 
-#: template.py:642
+#: template.py:690
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
@@ -632,86 +632,86 @@ msgstr ""
 "Erzeugen von Akkorden aus einer großen Anzahl von Tonleitern, laden von "
 "Akkord-Vorgaben für verschiedene Genres, oder Erzeugen der eigenen Vorgaben."
 
-#: template.py:645 template.py:739
+#: template.py:693 template.py:787
 msgid "Never Lose Work"
 msgstr "Verliere niemals Dein Werk"
 
-#: template.py:648
+#: template.py:696
 msgid "Project Backups"
 msgstr "Projekt-Sicherungen"
 
-#: template.py:649
+#: template.py:697
 msgid "Backups taken automatically at user-specified intervals."
 msgstr "Sicherungen werden automatisch in einstellbaren Zeiträumen erstellt."
 
-#: template.py:651
+#: template.py:699
 msgid "Undoable Actions"
 msgstr "Nicht zurücknehmbare Aktionen"
 
-#: template.py:652
+#: template.py:700
 msgid "Almost every user action is undoable."
 msgstr "Nahezu jede Benutzeraktion kann zurückgenommen werden."
 
-#: template.py:654
+#: template.py:702
 msgid "Serializable Undo History"
 msgstr ""
 
-#: template.py:655
+#: template.py:703
 msgid "Keep your undo history when saving projects."
 msgstr "Die Undo-Historie bleibt beim Speichern erhalten."
 
-#: template.py:658
+#: template.py:706
 msgid "Scripting"
 msgstr "Scripting (Code)"
 
-#: template.py:661
+#: template.py:709
 msgid "Extend Zrythm"
 msgstr "Erweitern von Zrythm"
 
-#: template.py:662
+#: template.py:710
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
 
-#: template.py:664
+#: template.py:712
 msgid "Custom Editor Functions"
 msgstr "Benutzerdefinierte Editor-Funktionen"
 
-#: template.py:665
+#: template.py:713
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
 msgstr ""
 "Bald verfügbar: Richten Sie Ihre eigenen Midi/Audio/Automations-Funktionen "
 "ein."
 
-#: template.py:667
+#: template.py:715
 msgid "Project Generation"
 msgstr "Projekt-Erzeugung"
 
-#: template.py:668
+#: template.py:716
 msgid "Generate projects with GNU Guile scripts."
 msgstr "Erzeugen von Projekten mit GNU Guile-Skripten."
 
-#: template.py:671
+#: template.py:719
 msgid "Optimized Performance"
 msgstr "Optimierte Performance"
 
-#: template.py:674
+#: template.py:722
 msgid "Hardware accelerated UI"
 msgstr "Hardware-beschleunigte Benutzeroberfläche"
 
-#: template.py:675
+#: template.py:723
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr ""
 "Der Großteil des Benutzerinterfaces ist durch die GPU erzeugt, Dank "
 "{ref}GTK4{endref}."
 
-#: template.py:677
+#: template.py:725
 msgid "SIMD-optimized DSP"
 msgstr ""
 
-#: template.py:678
+#: template.py:726
 msgid ""
 "Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such "
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
@@ -721,25 +721,25 @@ msgstr ""
 " SSE, AVX und FMA falls möglich, um die Audio-Bearbeitung zu beschleunigen "
 "und die DSP-Benutzung zu minimieren."
 
-#: template.py:680
+#: template.py:728
 msgid "Extensive Caching"
 msgstr "Umfassendes Caching"
 
-#: template.py:681
+#: template.py:729
 msgid "Expensive computations are pre-calculated to save processing time."
 msgstr ""
 "Aufwändige Berechnungen werden im Voraus berechnet, um Bearbeitungszeit zu "
 "sparen."
 
-#: template.py:684
+#: template.py:732
 msgid "Cross-Platform Support"
 msgstr "Plattformübergreifender Support"
 
-#: template.py:687
+#: template.py:735
 msgid "Multiple Platforms"
 msgstr "Für viele Plattformen"
 
-#: template.py:688
+#: template.py:736
 msgid ""
 "Zrythm is designed to run on a {ref}wide variety of platforms and "
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
@@ -749,11 +749,11 @@ msgstr ""
 "Plattformen und Architekturen{endref} läuft, incl. x86-Architekturen, "
 "PowerPC, RISC-V, ARMv7 und ARMv8."
 
-#: template.py:690
+#: template.py:738
 msgid "Multiple Backends"
 msgstr ""
 
-#: template.py:691
+#: template.py:739
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
@@ -761,54 +761,54 @@ msgstr ""
 "Nahezu alle bekannten Audio- und MIDI-Backends werden unterstützt, incl. "
 "JACK/Pipewire, Windows MMW WASAPI und Core Audio/MIDI."
 
-#: template.py:694
+#: template.py:742
 msgid "Localization"
 msgstr "Lokalisation"
 
-#: template.py:697
+#: template.py:745
 msgid "Localized UI"
 msgstr "Lokalisiertes Benutzer-Interface"
 
-#: template.py:698
+#: template.py:746
 msgid "Use Zrythm in your preferred language."
 msgstr "Benutzen Sie Zrythm in ihrere gewünschten Sprache."
 
-#: template.py:700
+#: template.py:748
 msgid "Easily Add Translations"
 msgstr "Einfaches Hinzufügen von Übersetzungen"
 
-#: template.py:701
+#: template.py:749
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
 "Fügen Sie fehlende Übersetzungen und Sprachen auf {ref}Weblate{endref} "
 "hinzu."
 
-#: template.py:704
+#: template.py:752
 msgid "User Freedom"
 msgstr "Freiheit für den Benutzer"
 
-#: template.py:707
+#: template.py:755
 msgid "Free Software"
 msgstr "Freie Software"
 
-#: template.py:708
+#: template.py:756
 msgid "All source code is released as {ref}copyleft free software{endref}."
 msgstr ""
 "Jeder Sourcetext ist als{ref}copyleft free software{endref} veröffentlicht."
 
-#: template.py:710
+#: template.py:758
 msgid "Open Standards"
 msgstr "Offene Standards"
 
-#: template.py:711
+#: template.py:759
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
 msgstr "Zrythm unterstützt offene Standards wie MIDI, LV2, FLAC und OGG."
 
-#: template.py:713
+#: template.py:761
 msgid "Cooperation"
 msgstr "Mitarbeit"
 
-#: template.py:714
+#: template.py:762
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
@@ -816,7 +816,7 @@ msgstr ""
 "Wir arbeiten mit der freien Software-Gemeinschaft, um sicherzustellen, dass "
 "Zrythm ohne Probleme auf allen Plattformen läuft."
 
-#: template.py:722
+#: template.py:770
 msgid ""
 "Easily select, move, resize, clone, link, loop, delete and cut objects with "
 "a single tool or extend its functionality with additional specialized tools,"
@@ -827,11 +827,11 @@ msgstr ""
 "der Funktionalität mit weiteren Spezial-Werkzeugen, und dabei das adaptive "
 "Snappen in jedem Arrangier-Bereich genießen."
 
-#: template.py:724
+#: template.py:772
 msgid "Limitless Automation"
 msgstr "Unbegrenzte Automation"
 
-#: template.py:725
+#: template.py:773
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
@@ -839,31 +839,31 @@ msgstr ""
 "Automatisiere so gut wie alles mit Automationsereignissen, die gerade "
 "Linien, Rampen, und Kurven benutzen, oder mit LFOs und Hüllkurven."
 
-#: template.py:728
+#: template.py:776
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
 
-#: template.py:731
+#: template.py:779
 msgid ""
 "Generate chords from scales in the chord pad, audition and invert chords or "
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
 
-#: template.py:733
+#: template.py:781
 msgid "Audio Plugins"
 msgstr ""
 
-#: template.py:734
+#: template.py:782
 msgid ""
 "Support for every major plugin format including {lv2_ref}LV2{endref}, VST2, "
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
 
-#: template.py:737
+#: template.py:785
 msgid ""
 "Organize your work into multiple layers in the same track using track lanes,"
 " quickly bounce anything to audio, import/export a wide variety of audio and"
@@ -871,17 +871,17 @@ msgid ""
 "types for every purpose."
 msgstr ""
 
-#: template.py:740
+#: template.py:788
 msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr ""
 
-#: template.py:742
+#: template.py:790
 msgid "Liberating"
 msgstr "Befreiend"
 
-#: template.py:743
+#: template.py:791
 msgid ""
 "Zrythm is {copyleft_ref}copyleft{endref} {free_software_ref}free "
 "software</a> with fully auditable source code. Use, study, share and improve"
@@ -907,7 +907,7 @@ msgstr "Funktionen"
 msgid "User Manual"
 msgstr "Benutzerhandbuch"
 
-#: common/footer.j2.inc:39 template/download.html.j2:141
+#: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
 msgstr "Releases"
 
@@ -923,15 +923,15 @@ msgstr "Gemeinschaft"
 msgid "Chat"
 msgstr "Chat"
 
-#: common/footer.j2.inc:53
-msgid "User Mailing List"
-msgstr ""
+#: common/footer.j2.inc:53 common/navigation.j2.inc:30
+msgid "Forum"
+msgstr "Forum"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
 msgstr "Beitragen"
 
-#: common/footer.j2.inc:59 template/community.html.j2:133
+#: common/footer.j2.inc:59 template/community.html.j2:115
 msgid "Donate"
 msgstr "Spenden"
 
@@ -939,7 +939,7 @@ msgstr "Spenden"
 msgid "About this Site"
 msgstr ""
 
-#: common/footer.j2.inc:67 template/download.html.j2:138
+#: common/footer.j2.inc:67 template/download.html.j2:137
 msgid "Source Code"
 msgstr "Sourcecode"
 
@@ -975,12 +975,12 @@ msgstr ""
 msgid "Get Involved"
 msgstr "Engagieren Sie sich"
 
-#: common/navigation.j2.inc:30 template/download.html.j2:19
-#: template/download.html.j2:82 template/index.html.j2:52
+#: common/navigation.j2.inc:31 template/download.html.j2:19
+#: template/download.html.j2:81 template/index.html.j2:52
 msgid "Download"
 msgstr "Herunterladen"
 
-#: common/navigation.j2.inc:40
+#: common/navigation.j2.inc:41
 msgid "Select Language"
 msgstr "Sprache auswählen"
 
@@ -993,33 +993,24 @@ msgid "Join Development"
 msgstr "Beteiligen Sie sich an der Entwicklung"
 
 #: template/community.html.j2:47
-msgid ""
-"Send an email to our development mailing list for development discussion"
-msgstr "Senden Sie eine E-Mail an unsere Entwicklungs-Mailingliste"
+msgid "Start contributing code on our GitLab instance."
+msgstr ""
 
 #: template/community.html.j2:53
-msgid "Submit Feature Requests"
-msgstr "Fragen Sie Features an"
+#| msgid "Submit Feature Requests"
+msgid "Submit Bug Reports/Feature Requests"
+msgstr ""
 
 #: template/community.html.j2:56
-msgid "Browse our feature tracker and submit feature requests."
+#| msgid "Browse our feature tracker and submit feature requests."
+msgid "Browse our issue tracker and submit feature requests and bug reports."
 msgstr ""
-"Durchsuchen Sie unseren Feature-Tracker und senden Sie Feature-Anfragen."
 
 #: template/community.html.j2:62
-msgid "Submit Bug Reports"
-msgstr "Fehlerberichte einreichen"
-
-#: template/community.html.j2:65
-msgid "Browse our bug tracker and submit bug reports."
-msgstr ""
-"Durchsuchen Sie unseren Bug-Tracker und reichen Sie Fehlerberichte ein."
-
-#: template/community.html.j2:71
 msgid "Translate Zrythm"
 msgstr "Übersetzen Sie Zrythm"
 
-#: template/community.html.j2:74
+#: template/community.html.j2:65
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
@@ -1027,9 +1018,21 @@ msgstr ""
 "Übersetzen Sie den Zrythm DAW, das Benutzerhandbuch und unsere Webseite in "
 "Ihre Sprache."
 
-#: template/community.html.j2:81
+#: template/community.html.j2:72
 msgid "Get in Touch"
 msgstr "Kontaktieren Sie uns"
+
+#: template/community.html.j2:78
+msgid "Join our Forum"
+msgstr ""
+
+#: template/community.html.j2:81
+#| msgid ""
+#| "Join our user discussion mailing list and share your experience with the "
+#| "rest of the community."
+msgid ""
+"Join our forum and share your experience with the rest of the community."
+msgstr ""
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1058,34 +1061,10 @@ msgstr ""
 "Channel ist #zrythmdaw:matrix.org und ist an IRC gekoppelt."
 
 #: template/community.html.j2:105
-msgid "Join our User Discussion Mailing List"
-msgstr "Treten Sie unserer Mailingliste für Benutzerdiskussionen bei"
-
-#: template/community.html.j2:108
-msgid ""
-"Join our user discussion mailing list and share your experience with the "
-"rest of the community."
-msgstr ""
-"Treten Sie unserer Mailingliste für Benutzerdiskussionen bei und teilen Sie "
-"Ihre Erfahrungen mit der Community."
-
-#: template/community.html.j2:114
-msgid "Subscribe to the Announce Mailing List"
-msgstr "Abonnieren Sie die Mailingliste für Ankündigungen"
-
-#: template/community.html.j2:117
-msgid ""
-"Subscribe to our read-only and low volume Announce mailing list to stay up "
-"to date with important announcements."
-msgstr ""
-"Tragen Sie sich in unsere Mailingliste für (seltene) Ankündigungen ein, um "
-"über wichtige Ereignisse informiert zu werden."
-
-#: template/community.html.j2:123
 msgid "Follow us on Mastodon"
 msgstr "Folgen Sie uns auf Mastodon"
 
-#: template/community.html.j2:126
+#: template/community.html.j2:108
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
@@ -1093,31 +1072,32 @@ msgstr ""
 "Folgen Sie uns auf Mastodon für Updates zu neuen Releases und Featurs, um an"
 " Umfragen teilzunehmen und vieles mehr."
 
-#: template/community.html.j2:139
+#: template/community.html.j2:121
 msgid "Donate CryptoCurrency"
 msgstr "Krypto-Währung spenden"
 
-#: template/community.html.j2:142
+#: template/community.html.j2:124
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
 msgstr "Senden Sie uns Bitcoin (BTC), Litecoin (LTC) oder Monero (XMR)."
 
-#: template/community.html.j2:148
+#: template/community.html.j2:130
 msgid "Donate on LiberaPay"
 msgstr "Spenden Sie über LiberaPay"
 
-#: template/community.html.j2:151
+#: template/community.html.j2:133
+#| msgid ""
+#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
+#| "bank account in Europe."
 msgid ""
-"Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-"bank account in Europe."
+"Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
+" European bank account."
 msgstr ""
-"Werden Sie Mäzen auf LiberaPay. Sie können mittels PayPal spenden oder von "
-"einem europäischen Bankkonto."
 
-#: template/community.html.j2:157
+#: template/community.html.j2:139
 msgid "Donate on Open Collective"
 msgstr "Spenden Sie auf Open Collective"
 
-#: template/community.html.j2:160
+#: template/community.html.j2:142
 msgid "Donate on Open Collective and view our public expenses."
 msgstr ""
 "Spenden Sie auf Open Collective und sehen Sie unsere öffentlichen Ausgaben "
@@ -1133,96 +1113,104 @@ msgstr ""
 msgid "Select Platform"
 msgstr "Wählen Sie Ihre Plattform aus"
 
-#: template/download.html.j2:63
+#: template/download.html.j2:62
 msgid "Downloads"
 msgstr "Downloads"
 
-#: template/download.html.j2:69
+#: template/download.html.j2:68
 msgid "Installers"
 msgstr "Installationsprogramme"
 
-#: template/download.html.j2:74
+#: template/download.html.j2:73
 msgid "Basic"
 msgstr "Basic"
 
-#: template/download.html.j2:75
+#: template/download.html.j2:74
 msgid "Free"
 msgstr "Kostenlos"
 
-#: template/download.html.j2:77
+#: template/download.html.j2:76
 msgid "Up to 25 tracks"
 msgstr ""
 
-#: template/download.html.j2:78
+#: template/download.html.j2:77
 msgid "Basic plugins"
 msgstr ""
 
-#: template/download.html.j2:79
+#: template/download.html.j2:78
 msgid "Web user manual"
 msgstr ""
 
-#: template/download.html.j2:86
-msgid "Single"
-msgstr "Einmalig"
+#: template/download.html.j2:85
+#| msgid "Screenshot"
+msgid "Snapshot"
+msgstr ""
+
+#: template/download.html.j2:88 template/download.html.j2:100
+#: template/download.html.j2:112
+msgid "Unlimited tracks"
+msgstr ""
 
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113
-msgid "Unlimited tracks"
+msgid "Basic & Z Series plugins"
 msgstr ""
 
 #: template/download.html.j2:90 template/download.html.j2:102
 #: template/download.html.j2:114
-msgid "Basic & Z Series plugins"
-msgstr ""
-
-#: template/download.html.j2:91 template/download.html.j2:103
-#: template/download.html.j2:115
 msgid "Web & PDF user manual"
 msgstr ""
 
-#: template/download.html.j2:94 template/download.html.j2:106
+#: template/download.html.j2:91
+#| msgid "Access to nightly builds"
+msgid "Access to v{} only"
+msgstr ""
+
+#: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
 msgstr "Kaufen"
 
-#: template/download.html.j2:98
+#: template/download.html.j2:97
 msgid "Bundle"
 msgstr "Bundle"
 
-#: template/download.html.j2:104
+#: template/download.html.j2:103
 msgid "Access to all v1 releases"
 msgstr "Zugriff auf alle V1 Releases"
 
-#: template/download.html.j2:110
-msgid "Nightly"
-msgstr "Nightly"
+#: template/download.html.j2:109
+#| msgid "Scripting"
+msgid "Subscription"
+msgstr ""
 
-#: template/download.html.j2:111
+#: template/download.html.j2:110
 msgid "year"
 msgstr ""
 
-#: template/download.html.j2:116
+#: template/download.html.j2:115
 msgid "Access to all releases"
 msgstr ""
 
-#: template/download.html.j2:117
+#: template/download.html.j2:116
 msgid "Access to nightly builds"
 msgstr "Zugriff auf Nightly Builds"
 
-#: template/download.html.j2:119
+#: template/download.html.j2:118
 msgid "Subscribe"
 msgstr "Abonnieren"
 
-#: template/download.html.j2:124
-msgid "* Prices in this currency are estimates"
+#: template/download.html.j2:123
+msgid ""
+"* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr ""
 
-#: template/download.html.j2:129
+#: template/download.html.j2:128
 msgid ""
 "Zrythm relies on donations and purchases to sustain development. This month "
 "we received:"
 msgstr ""
 
-#: template/download.html.j2:142
+#: template/download.html.j2:141
 msgid "GPG Key"
 msgstr "GPG-Schlüssel"
 
@@ -1422,8 +1410,38 @@ msgid "Technical specs"
 msgstr "Technische Spezifikationen"
 
 #: template/privacy.html.j2:354
-msgid "Last updated on 3 Oct 2022"
+msgid "Last updated on 7 Sep 2023"
 msgstr ""
+
+#~ msgid ""
+#~ "Send an email to our development mailing list for development discussion"
+#~ msgstr "Senden Sie eine E-Mail an unsere Entwicklungs-Mailingliste"
+
+#~ msgid "Submit Bug Reports"
+#~ msgstr "Fehlerberichte einreichen"
+
+#~ msgid "Browse our bug tracker and submit bug reports."
+#~ msgstr ""
+#~ "Durchsuchen Sie unseren Bug-Tracker und reichen Sie Fehlerberichte ein."
+
+#~ msgid "Join our User Discussion Mailing List"
+#~ msgstr "Treten Sie unserer Mailingliste für Benutzerdiskussionen bei"
+
+#~ msgid "Subscribe to the Announce Mailing List"
+#~ msgstr "Abonnieren Sie die Mailingliste für Ankündigungen"
+
+#~ msgid ""
+#~ "Subscribe to our read-only and low volume Announce mailing list to stay up "
+#~ "to date with important announcements."
+#~ msgstr ""
+#~ "Tragen Sie sich in unsere Mailingliste für (seltene) Ankündigungen ein, um "
+#~ "über wichtige Ereignisse informiert zu werden."
+
+#~ msgid "Single"
+#~ msgstr "Einmalig"
+
+#~ msgid "Nightly"
+#~ msgstr "Nightly"
 
 #~ msgid "Save/load disabled"
 #~ msgstr "Speichern/Laden deaktiviert"
@@ -1562,9 +1580,6 @@ msgstr ""
 #~ msgid "Screenshots"
 #~ msgstr "Bildschirmfotos"
 
-#~ msgid "Screenshot"
-#~ msgstr "Bildschirmfoto"
-
 #~ msgid "Screenshot by"
 #~ msgstr "Bildschirmfoto von"
 
@@ -1625,9 +1640,6 @@ msgstr ""
 
 #~ msgid "Sponsors"
 #~ msgstr "Sponsoren"
-
-#~ msgid "Forum"
-#~ msgstr "Forum"
 
 #~ msgid ""
 #~ "No public sponsors. <a href=\"mailto:sponsor_AT_zrythm.org\">Contact us</a> "
