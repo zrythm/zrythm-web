@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-04-05 23:54+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"PO-Revision-Date: 2024-04-17 12:10+0000\n"
+"Last-Translator: alex <alex+2@zrythm.org>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.4.0\n"
 "X-Generator: Weblate 5.5-dev\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
 msgid ""
@@ -83,7 +84,7 @@ msgstr "ディレイタイムを変えてもクリックもトランスポーズ
 
 #: template.py:489
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "4次ワウペダルエフェクト"
 
 #: template.py:492
 msgid "White noise generator"
@@ -943,7 +944,7 @@ msgstr "連絡する"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "フォーラムに参加する"
 
 #: template/community.html.j2:81
 #| msgid ""
@@ -1073,9 +1074,8 @@ msgid "Web & PDF user manual"
 msgstr "Web & PDF版ユーザーマニュアル"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "v{} のみにアクセス"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1327,9 +1327,8 @@ msgid "Technical specs"
 msgstr "技術仕様"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "最終更新日　2023年9月7日"
 
 #~ msgid "User Mailing List"
 #~ msgstr "ユーザーメーリングリスト"
