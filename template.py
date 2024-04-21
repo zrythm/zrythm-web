@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 #
-# Copyright (C) 2019-2023 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2019-2024 Alexandros Theodotou <alex at zrythm dot org>
 #
 # This file is part of Zrythm
 #
@@ -702,19 +702,19 @@ for in_file in glob.glob("template/*.j2"):
                         _('Serializable Undo History'), 'undoing.png',
                         _('Keep your undo history when saving projects.')),
                 ]),
-            FeatureGroup(
-                _('Scripting'),
-                [
-                    Feature(
-                        _('Extend Zrythm'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
-                        _('Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile scripts{endref}.').format (ref = get_manual_ref ('scripting/overview.html'), endref = endref)),
-                    Feature(
-                        _('Custom Editor Functions'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
-                        _('Implement your own MIDI/audio/automation functions (coming soon).')),
-                    Feature(
-                        _('Project Generation'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
-                        _('Generate projects with GNU Guile scripts.')),
-                ]),
+            # FeatureGroup(
+                # _('Scripting'),
+                # [
+                    # Feature(
+                        # _('Extend Zrythm'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
+                        # _('Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile scripts{endref}.').format (ref = get_manual_ref ('scripting/overview.html'), endref = endref)),
+                    # Feature(
+                        # _('Custom Editor Functions'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
+                        # _('Implement your own MIDI/audio/automation functions (coming soon).')),
+                    # Feature(
+                        # _('Project Generation'), 'https://manual.zrythm.org/en/_images/scripting-interface.png',
+                        # _('Generate projects with GNU Guile scripts.')),
+                # ]),
             FeatureGroup(
                 _('Optimized Performance'),
                 [
