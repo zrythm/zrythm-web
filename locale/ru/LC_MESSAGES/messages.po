@@ -8,16 +8,18 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-03-07 14:01+0000\n"
-"Last-Translator: Alexandr Glazko <lenify@skiff.com>\n"
+"PO-Revision-Date: 2024-05-11 04:00+0000\n"
+"Last-Translator: Evgeniy Khramov <65224669+thejenja@users.noreply.github.com>"
+"\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5.4\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.5-dev\n"
 
 #: template.py:449
 msgid ""
@@ -365,11 +367,11 @@ msgstr "Групповые задачи"
 
 #: template.py:601
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "Организуйте группы сигналов аудио/MIDI с групповыми треками."
 
 #: template.py:603
 msgid "Aux Sends"
-msgstr ""
+msgstr "Aux отправки"
 
 #: template.py:604
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
@@ -396,7 +398,7 @@ msgstr ""
 
 #: template.py:613
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "Безлимитная автоматизация"
 
 #: template.py:616
 msgid "Anywhere-to-Anywhere Connections"
@@ -408,7 +410,7 @@ msgstr "Соединяйте между собой всё что угодно."
 
 #: template.py:619
 msgid "Automation Curves"
-msgstr ""
+msgstr "Автоматизация кривых"
 
 #: template.py:620
 msgid ""
@@ -438,7 +440,7 @@ msgstr ""
 
 #: template.py:629
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "Интуитивный пользовательский интерфейс"
 
 #: template.py:632
 msgid "Detachable Views"
@@ -451,7 +453,7 @@ msgstr ""
 
 #: template.py:635
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "Поисковые предпочтения"
 
 #: template.py:636
 msgid "Start typing to locate the preference you're looking for."
@@ -459,7 +461,7 @@ msgstr ""
 
 #: template.py:638
 msgid "Inspector Pages"
-msgstr ""
+msgstr "Инспектор страниц"
 
 #: template.py:639
 msgid "Edit all track and plugin parameters in the inspector."
@@ -467,17 +469,19 @@ msgstr ""
 
 #: template.py:642
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "Возможности плагина"
 
 #: template.py:645
 msgid "Plugin Support"
-msgstr ""
+msgstr "Поддержка плагина"
 
 #: template.py:646
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"Благодаря {ref}Carla{endref}, Zrythm поддерживает различные форматы "
+"плагинов, включая LV2, VST2, VST3, AU, CLAP и JSFX."
 
 #: template.py:648
 msgid "SoundFonts as Plugins"
@@ -515,11 +519,11 @@ msgstr ""
 
 #: template.py:661
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "Комплексный импорт/экспорт"
 
 #: template.py:664
 msgid "File Browser"
-msgstr ""
+msgstr "Браузер файлов"
 
 #: template.py:665
 msgid ""
@@ -529,7 +533,7 @@ msgstr ""
 
 #: template.py:667
 msgid "Audio Files"
-msgstr ""
+msgstr "Аудио файлы"
 
 #: template.py:668
 msgid ""
@@ -539,7 +543,7 @@ msgstr ""
 
 #: template.py:670
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:671
 msgid ""
@@ -548,7 +552,7 @@ msgstr ""
 
 #: template.py:673
 msgid "Stem Export"
-msgstr ""
+msgstr "Экспорт стемов"
 
 #: template.py:674
 msgid "Export stems for specific tracks and share them with other producers."
@@ -570,7 +574,7 @@ msgstr ""
 
 #: template.py:683
 msgid "Chord Editing"
-msgstr ""
+msgstr "Редактирование аккорда"
 
 #: template.py:684
 msgid ""
@@ -628,11 +632,11 @@ msgstr ""
 
 #: template.py:706
 msgid "Scripting"
-msgstr ""
+msgstr "Скрипты"
 
 #: template.py:709
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Расширение Zrythm"
 
 #: template.py:710
 msgid ""
@@ -658,7 +662,7 @@ msgstr ""
 
 #: template.py:719
 msgid "Optimized Performance"
-msgstr ""
+msgstr "Оптимизированная производительность"
 
 #: template.py:722
 msgid "Hardware accelerated UI"
@@ -671,7 +675,7 @@ msgstr ""
 
 #: template.py:725
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMD-оптимизированный DSP"
 
 #: template.py:726
 msgid ""
@@ -694,7 +698,7 @@ msgstr "Кроссплатформенная поддержка"
 
 #: template.py:735
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "Несколько платформ"
 
 #: template.py:736
 msgid ""
@@ -1084,14 +1088,13 @@ msgid "Web user manual"
 msgstr ""
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "Снапшот"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Неограниченные треки"
 
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113
@@ -1121,9 +1124,8 @@ msgid "Access to all v1 releases"
 msgstr "Доступ ко всем выпускам v1"
 
 #: template/download.html.j2:109
-#| msgid "Subscribe"
 msgid "Subscription"
-msgstr ""
+msgstr "Подписка"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1244,7 +1246,7 @@ msgstr "Инструмент Рамп (Ramp Tool)"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Области зацикливания"
 
 #: template/learn.html.j2:96
 msgid "Routing"
