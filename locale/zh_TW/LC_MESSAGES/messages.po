@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2022-01-04 11:52+0000\n"
-"Last-Translator: tommyliu313 <liuchaktin@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/zrythm/web/zh_Hant/>\n"
+"PO-Revision-Date: 2024-05-31 10:09+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.10.1\n"
 
 #: template.py:449
 msgid ""
@@ -157,7 +158,7 @@ msgstr ""
 
 #: template.py:533
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "豐富的工具箱"
 
 #: template.py:534
 msgid ""
@@ -217,7 +218,7 @@ msgstr ""
 
 #: template.py:559
 msgid "Piano Roll"
-msgstr ""
+msgstr "鋼琴捲簾"
 
 #: template.py:560
 msgid ""
@@ -373,7 +374,7 @@ msgstr "串接、連接任何訊號。"
 
 #: template.py:619
 msgid "Automation Curves"
-msgstr ""
+msgstr "自動化曲線"
 
 #: template.py:620
 msgid ""
@@ -504,7 +505,7 @@ msgstr ""
 
 #: template.py:670
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:671
 msgid ""
@@ -521,7 +522,7 @@ msgstr ""
 
 #: template.py:677 template.py:778
 msgid "Chord Assistance"
-msgstr ""
+msgstr "和弦協助"
 
 #: template.py:680
 msgid "Chord Audition"
@@ -593,7 +594,7 @@ msgstr ""
 
 #: template.py:706
 msgid "Scripting"
-msgstr ""
+msgstr "腳本編寫"
 
 #: template.py:709
 msgid "Extend Zrythm"
@@ -680,7 +681,7 @@ msgstr ""
 
 #: template.py:742
 msgid "Localization"
-msgstr ""
+msgstr "本地化"
 
 #: template.py:745
 msgid "Localized UI"
@@ -720,7 +721,7 @@ msgstr ""
 
 #: template.py:761
 msgid "Cooperation"
-msgstr ""
+msgstr "合作"
 
 #: template.py:762
 msgid ""
@@ -760,7 +761,7 @@ msgstr ""
 
 #: template.py:781
 msgid "Audio Plugins"
-msgstr ""
+msgstr "音訊外掛程式"
 
 #: template.py:782
 msgid ""
@@ -819,7 +820,7 @@ msgstr "發行版 (Releases)"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
@@ -847,7 +848,7 @@ msgstr ""
 
 #: common/footer.j2.inc:67 template/download.html.j2:137
 msgid "Source Code"
-msgstr ""
+msgstr "原始碼"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
@@ -879,7 +880,7 @@ msgstr ""
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "參與其中"
 
 #: common/navigation.j2.inc:31 template/download.html.j2:19
 #: template/download.html.j2:81 template/index.html.j2:52
@@ -967,7 +968,7 @@ msgstr ""
 
 #: template/community.html.j2:121
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "捐贈加密貨幣"
 
 #: template/community.html.j2:124
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
@@ -1005,7 +1006,7 @@ msgstr "下載"
 
 #: template/download.html.j2:68
 msgid "Installers"
-msgstr ""
+msgstr "安裝程式"
 
 #: template/download.html.j2:73
 msgid "Basic"
@@ -1029,7 +1030,7 @@ msgstr ""
 
 #: template/download.html.j2:85
 msgid "Snapshot"
-msgstr ""
+msgstr "快照"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1064,13 +1065,12 @@ msgid "Access to all v1 releases"
 msgstr ""
 
 #: template/download.html.j2:109
-#| msgid "Subscribe"
 msgid "Subscription"
-msgstr ""
+msgstr "訂閱"
 
 #: template/download.html.j2:110
 msgid "year"
-msgstr ""
+msgstr "年"
 
 #: template/download.html.j2:115
 msgid "Access to all releases"
@@ -1122,11 +1122,11 @@ msgstr ""
 
 #: template/index.html.j2:53
 msgid "Learn More"
-msgstr ""
+msgstr "瞭解更多"
 
 #: template/index.html.j2:77
 msgid "Showcase"
-msgstr ""
+msgstr "展示櫃"
 
 #: template/index.html.j2:86 template/index.html.j2:100
 #: template/index.html.j2:114 template/index.html.j2:128
@@ -1141,11 +1141,11 @@ msgstr ""
 
 #: template/index.html.j2:183
 msgid "Testimonials"
-msgstr ""
+msgstr "感言"
 
 #: template/index.html.j2:212
 msgid "Affiliates"
-msgstr ""
+msgstr "聯盟"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -1153,11 +1153,11 @@ msgstr "Zrythm 參考頁-使用者手冊-教學"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "教學"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "正在編輯"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
@@ -1172,11 +1172,11 @@ msgstr ""
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "編輯工具"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
-msgstr ""
+msgstr "切割工具"
 
 #: template/learn.html.j2:81
 msgid "Ramp Tool"
@@ -1200,7 +1200,7 @@ msgstr ""
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
-msgstr ""
+msgstr "演練"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
@@ -1277,7 +1277,7 @@ msgstr "Zrythm 內建的外掛程式"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "基本外掛程式"
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
