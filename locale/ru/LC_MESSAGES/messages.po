@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-05-11 04:00+0000\n"
-"Last-Translator: Evgeniy Khramov <65224669+thejenja@users.noreply.github.com>"
-"\n"
+"PO-Revision-Date: 2024-06-02 15:54+0000\n"
+"Last-Translator: John Johnson <oksenepta@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.6-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -147,11 +146,11 @@ msgstr "ZSaw — это синтезатор supersaw с одним параме
 
 #: template.py:515
 msgid "7 sawtooth oscillators"
-msgstr "7 осцилляторов sawtooth"
+msgstr "7 осцилляторов пилы"
 
 #: template.py:516
 msgid "Single knob to control detune"
-msgstr "Одна ручка для управления detune"
+msgstr "Одна ручка для управления расстройки"
 
 #: template.py:527 template.py:769
 msgid "Intuitive Editing"
@@ -198,7 +197,7 @@ msgstr "Зацикливание"
 
 #: template.py:540
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr "Циклическое аудио, MIDI, автоматизация и аккордовые клипсы."
+msgstr "Зациклить аудио, MIDI, автоматизацию и аккордовые клипы."
 
 #: template.py:543 template.py:784
 msgid "Featureful Timeline"
@@ -213,24 +212,24 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"Добавление нескольких слоёв аудио/MIDI к одной дорожке с помощью {ref}полос "
+"Добавляйте нескольких слоёв аудио/MIDI к одной дорожке с помощью {ref}полос "
 "дорожек{endref}."
 
 #: template.py:549
 msgid "Bounce in Place"
-msgstr "Отскок на месте (Bounce in Place)"
+msgstr "Зарендерить на месте"
 
 #: template.py:550
 msgid "Quickly bounce selected material to audio."
-msgstr "Быстро и удобно конвертируйте выбранные элементы в аудиоформат."
+msgstr "Быстро и удобно рендерьте выбранные элементы в аудиоформат."
 
 #: template.py:552
 msgid "Stretching"
-msgstr "Растягивание"
+msgstr "Растяжение"
 
 #: template.py:553
 msgid "Stretch any type of region"
-msgstr "Растягивайте регионы любого типа"
+msgstr "Растягивайте любые клипы"
 
 #: template.py:556
 msgid "Powerful Editors"
@@ -238,19 +237,19 @@ msgstr "Мощные редакторы"
 
 #: template.py:559
 msgid "Piano Roll"
-msgstr "Пиано Ролл"
+msgstr "Редактор Нот"
 
 #: template.py:560
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
-"Создавайте, редактируйте и аранжируйте MIDI-события в специальном "
-"фортепианном ролике с интеграцией аккордов."
+"Создавайте, редактируйте и аранжируйте MIDI-события в специальном редакторе "
+"нот с интеграцией аккордов."
 
 #: template.py:562
 msgid "Drum View"
-msgstr "Барабанный вид"
+msgstr "Режим ударных"
 
 #: template.py:563
 msgid "One-click switch to drum view for editing single-hit instruments."
@@ -260,27 +259,27 @@ msgstr ""
 
 #: template.py:565
 msgid "Velocity Editor"
-msgstr "Редактор скоростей"
+msgstr "Редактор скорости нажатия"
 
 #: template.py:566
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
-"Редактируйте несколько скоростей одновременно с помощью выбранного "
-"инструмента или рисуйте карандашом или инструментом темпа."
+"Редактируйте сразу несколько скоростей нажатия нот одновременно с помощью "
+"выбранного инструмента или рисуйте карандашом или инструментом темпа."
 
 #: template.py:568
 msgid "Audio Editor"
-msgstr "Звуковой редактор"
+msgstr "Редактор звука"
 
 #: template.py:569
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
-"Настройка затухания/усиления и редактирования частей аудиоклипов с помощью "
-"аудиофункций в аудиоредакторе."
+"Настройка затухания/усиления и редактирования частей аудио клипов с помощью "
+"аудио-функций в аудио редакторе."
 
 #: template.py:571
 msgid "List Editors"
@@ -288,7 +287,7 @@ msgstr "Редакторы списков"
 
 #: template.py:572
 msgid "Edit object parameters manually in the event viewer."
-msgstr "Измените параметры объектов вручную в средстве просмотра событий."
+msgstr "Изменяйте параметры объектов вручную в меню просмотра событий."
 
 #: template.py:574
 msgid "Editor Functions"
@@ -308,7 +307,7 @@ msgstr "Интеграция с внешними приложениями"
 
 #: template.py:578
 msgid "Edit selected audio parts in any external app."
-msgstr "Редактируйте выбранные аудиофрагменты в любом внешнем приложении."
+msgstr "Редактируйте выбранные фрагменты аудио в любом внешнем приложении."
 
 #: template.py:581
 msgid "Recording Capabilities"
@@ -324,7 +323,7 @@ msgid ""
 "JACK."
 msgstr ""
 "Записывайте аудио/MIDI с любого устройства или даже других приложений с "
-"помощью разъёма JACK."
+"помощью JACK."
 
 #: template.py:587
 msgid "Comprehensive Recording Settings"
@@ -339,8 +338,9 @@ msgstr ""
 "желанию, создавайте несколько дублей."
 
 #: template.py:590
+#, fuzzy
 msgid "Automation Recording"
-msgstr "Автоматическая запись"
+msgstr "Запись автоматизации"
 
 #: template.py:591
 msgid "Record automation in latch/touch mode."
@@ -354,7 +354,7 @@ msgstr "Элементы управления устройством"
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
-"Свяжите кнопки вашего устройства с управлением в Zrythm и записывайте ваши "
+"Привяжите ручки вашего устройства с управлением в Zrythm и записывайте ваши "
 "действия."
 
 #: template.py:597 template.py:775
@@ -379,7 +379,7 @@ msgstr ""
 
 #: template.py:606
 msgid "In-Context Listening"
-msgstr ""
+msgstr "Прослушивание в контексте"
 
 #: template.py:607
 msgid ""
