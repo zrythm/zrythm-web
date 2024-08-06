@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-01-30 04:01+0000\n"
-"Last-Translator: 雪と葉 <vescrity@foxmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2024-08-07 07:09+0000\n"
+"Last-Translator: 王晨旭 <wcxu21@126.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:449
 msgid ""
@@ -26,6 +27,9 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW、数字音频工作站、音乐制作、音频、专业音频、Linux、GNU/Linux、免费软件、自"
+"由软件、声音编辑器、作曲、MIDI、LV2、JACK、VST、音频插件、录音、编辑、编曲、"
+"编曲者、混音、母带制作"
 
 #: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
@@ -309,7 +313,7 @@ msgstr "自动记录"
 
 #: template.py:591
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "以锁存/触摸模式记录自动化。"
 
 #: template.py:593
 msgid "Device Controls"
@@ -342,7 +346,7 @@ msgstr "轻松将信号路由到FX轨或插件的侧链输入中。"
 
 #: template.py:606
 msgid "In-Context Listening"
-msgstr ""
+msgstr "情景聆听"
 
 #: template.py:607
 msgid ""
@@ -473,11 +477,11 @@ msgstr "通过使用桥接模式打开插件，使它们运行在沙箱环境中
 
 #: template.py:657
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "自动旁路模式"
 
 #: template.py:658
 msgid "Easily bypass plugins in the signal chain with an automatable control."
-msgstr ""
+msgstr "通过自动化控制轻松绕过信号链中的插件。"
 
 #: template.py:661
 msgid "Comprehensive Import/Export"
