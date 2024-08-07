@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-06-03 05:02+0000\n"
-"Last-Translator: John Johnson <oksenepta@yandex.ru>\n"
+"PO-Revision-Date: 2024-08-08 10:09+0000\n"
+"Last-Translator: Evgeniy Khramov <65224669+thejenja@users.noreply.github.com>"
+"\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -338,9 +339,8 @@ msgstr ""
 "желанию, создавайте несколько дублей."
 
 #: template.py:590
-#, fuzzy
 msgid "Automation Recording"
-msgstr "Запись автоматизации"
+msgstr "Автоматизация Записи"
 
 #: template.py:591
 msgid "Record automation in latch/touch mode."
@@ -543,13 +543,12 @@ msgid "File Browser"
 msgstr "Поисковик файлов"
 
 #: template.py:665
-#, fuzzy
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
-"Находите и прослушивайте MIDI и звуковые файла, а также сохраняйте любимые "
-"папки с помощью функции в \"любимые\"."
+"Находите и прослушивайте MIDI и звуковые файлы, а также сохраняйте любимые "
+"папки с помощью функции в \"Любимые\"."
 
 #: template.py:667
 msgid "Audio Files"
@@ -618,20 +617,18 @@ msgid "Recordable Chord Track"
 msgstr "Записываемый трек аккордов"
 
 #: template.py:687
-#, fuzzy
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
 msgstr ""
 "Диктуйте или записывайте прогрессию тональности и аккордов в проекте, и "
-"опцианально привязывайте вывод к инструменту."
+"опционально привязывайте вывод к инструменту."
 
 #: template.py:689
 msgid "Chord Presets"
 msgstr "Пресеты аккордов"
 
 #: template.py:690
-#, fuzzy
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
@@ -685,7 +682,6 @@ msgstr ""
 "скриптов GNU Guile{endref}."
 
 #: template.py:712
-#, fuzzy
 msgid "Custom Editor Functions"
 msgstr "Кастомные функции редактора"
 
@@ -721,7 +717,6 @@ msgid "SIMD-optimized DSP"
 msgstr "SIMD-оптимизированный DSP"
 
 #: template.py:726
-#, fuzzy
 msgid ""
 "Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions such "
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
@@ -748,7 +743,6 @@ msgid "Multiple Platforms"
 msgstr "Несколько платформ"
 
 #: template.py:736
-#, fuzzy
 msgid ""
 "Zrythm is designed to run on a {ref}wide variety of platforms and "
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
@@ -849,17 +843,25 @@ msgstr ""
 "огибающих."
 
 #: template.py:776
+#, fuzzy
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
+"Инконтекстное прослушивание, сигнальные группы, FX-треки, эффект MIDI и "
+"вставка слотов, предварительные и пост-Fair aux отправки и в любом месте "
+"маршрутизации."
 
 #: template.py:779
+#, fuzzy
 msgid ""
 "Generate chords from scales in the chord pad, audition and invert chords or "
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
+"Получайте аккорды из Панели Аккордов, прослушивание и инвертные аккорды или "
+"сохраняйте свои собственные аккорды, управляйте прогрессией аккорда в "
+"аккорде и наслаждайтесь аккордом, выделяющим в рояле."
 
 #: template.py:781
 msgid "Audio Plugins"
@@ -876,14 +878,13 @@ msgstr ""
 "SF2 а также песочниц благодаря {carla_ref}Carla{endref}."
 
 #: template.py:785
-#, fuzzy
 msgid ""
 "Organize your work into multiple layers in the same track using track lanes,"
 " quickly bounce anything to audio, import/export a wide variety of audio and"
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
-"Обьеденяйте вашу работу во множественные слои в одном треки используя полосы "
+"Объединяйте вашу работу во множественные слои в одном треки используя полосы "
 "треков, эффективно рендерьте что угодно в аудио, импортируйте/экспортируйте "
 "широкий ассортимент аудио и MIDI форматов, растягивайте и зацикливайте любой "
 "фрагмент и используйте множество типов треков для любой цели."
@@ -912,12 +913,11 @@ msgstr ""
 "изучать, улучшать, и делится исходным кодом программы."
 
 #: common/footer.j2.inc:26
-#, fuzzy
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
 msgstr ""
-"Zrythm и лого Zrythm это товарный знак пренадлежащий {ref}Alexandros "
+"Zrythm и лого Zrythm это товарный знак принадлежащий {ref}Alexandros "
 "Theodotou{endref}."
 
 #: common/footer.j2.inc:30
@@ -926,7 +926,6 @@ msgstr "Проект"
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
-#, fuzzy
 msgid "Features"
 msgstr "Особенности"
 
@@ -1020,7 +1019,6 @@ msgid "Join Development"
 msgstr "Присоединиться к разработке"
 
 #: template/community.html.j2:47
-#, fuzzy
 msgid "Start contributing code on our GitLab instance."
 msgstr "Начните участвовать в разработке в нашей вариации GitLab."
 
@@ -1029,12 +1027,9 @@ msgid "Submit Bug Reports/Feature Requests"
 msgstr "Присылайте отчёты об ошибках или идеи для фишек"
 
 #: template/community.html.j2:56
-#, fuzzy
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
 msgstr ""
-"На нашем трекере проблем вы можете присылать отчёты об ошибках и идеи для "
-"фишек."
+"На нашем трекере проблем вы можете присылать отчёты об ошибках и свои идеи."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -1219,8 +1214,6 @@ msgid "Subscribe"
 msgstr "Подписаться"
 
 #: template/download.html.j2:123
-#, fuzzy
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr "* Цены в данной валюте являются оценочными. Все покупки в Японских Йен."
