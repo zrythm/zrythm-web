@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-08-08 10:09+0000\n"
-"Last-Translator: Evgeniy Khramov <65224669+thejenja@users.noreply.github.com>"
-"\n"
+"PO-Revision-Date: 2024-08-19 10:09+0000\n"
+"Last-Translator: Макар Разин <makarrazin14@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/zrythm/web/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -843,25 +842,23 @@ msgstr ""
 "огибающих."
 
 #: template.py:776
-#, fuzzy
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
-"Инконтекстное прослушивание, сигнальные группы, FX-треки, эффект MIDI и "
-"вставка слотов, предварительные и пост-Fair aux отправки и в любом месте "
-"маршрутизации."
+"Прослушивание в контексте, группы сигналов, FX-треки, слоты для MIDI-"
+"эффектов и вставок, пре- и постфейдерные AUX-отправки и маршрутизация из "
+"любого места в любое место."
 
 #: template.py:779
-#, fuzzy
 msgid ""
 "Generate chords from scales in the chord pad, audition and invert chords or "
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
-"Получайте аккорды из Панели Аккордов, прослушивание и инвертные аккорды или "
-"сохраняйте свои собственные аккорды, управляйте прогрессией аккорда в "
-"аккорде и наслаждайтесь аккордом, выделяющим в рояле."
+"Создавайте аккорды на панели аккордов, прослушивайте и инвертируйте аккорды "
+"или сохраняйте собственные аккорды, управляйте прогрессией аккордов на "
+"дорожке аккордов и наслаждайтесь подсветкой аккордов на фортепианной дорожке."
 
 #: template.py:781
 msgid "Audio Plugins"
