@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2022-08-27 20:19+0000\n"
-"Last-Translator: Marko Milic <hae.marko@gmail.com>\n"
+"PO-Revision-Date: 2024-09-08 23:09+0000\n"
+"Last-Translator: Reno Tx <renotx@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/zrythm/web/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Weblate 4.14.1-dev\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
@@ -87,344 +88,377 @@ msgstr "Major i minor skala"
 
 #: template.py:445
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "Множитељ брзине по ноти"
 
 #: template.py:448
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO је потпуно опремљен LFO за аутоматизацију засновану на CV-у"
 
 #: template.py:449
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Мулти-осцилатор са прилагођеним таласом"
 
 #: template.py:450
 msgid "Phase shift"
-msgstr ""
+msgstr "Фазни помак"
 
 #: template.py:451
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Вертикална/хоризонтална инверзија"
 
 #: template.py:452
 msgid "Step mode"
-msgstr ""
+msgstr "Корак режим"
 
 #: template.py:453
 msgid "Editable range"
-msgstr ""
+msgstr "Опсег који се може уређивати"
 
 #: template.py:454
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Синхронизација са домаћином или слободни облик"
 
 #: template.py:457
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw је supersaw синт са 1 параметром"
 
 #: template.py:458
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 осцилатора са тестера таласом"
 
 #: template.py:459
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Један дугме за контролу детуна"
 
 #: template.py:470 template.py:712
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Интуитивно уређивање"
 
 #: template.py:473
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "Флексибилан алат за избор"
 
 #: template.py:474
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
+"Изаберите, померите, промените величину, клонирајте, повежите, петљајте, "
+"избришите и исеците објекте са {ref}једним алатом{endref}."
 
 #: template.py:476
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "Обиман алатник"
 
 #: template.py:477
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
+"Проширите функционалност алата за избор преласком на {ref}алате за "
+"уређивање, сечење, брисање, рампу или аудицију{endref}."
 
 #: template.py:479
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Адаптивно снаповање"
 
 #: template.py:480
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Понашање снаповања се прилагођава тренутном нивоу зумирања."
 
 #: template.py:482
 msgid "Looping"
-msgstr ""
+msgstr "Петљање"
 
 #: template.py:483
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Петљајте аудио, MIDI, аутоматизацију и клипове акорда."
 
 #: template.py:486 template.py:727
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Функционална временска линија"
 
 #: template.py:489
 msgid "Track Lanes"
-msgstr ""
+msgstr "Страна трака"
 
 #: template.py:490
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Додајте више слојева аудио/MIDI на исту траку користећи {ref}стране "
+"трака{endref}."
 
 #: template.py:492
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Бунц у месту"
 
 #: template.py:493
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "Брзо бунцујте одабрани материјал у аудио."
 
 #: template.py:495
 msgid "Stretching"
-msgstr ""
+msgstr "Растезање"
 
 #: template.py:496
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "Растегните било коју врсту региона"
 
 #: template.py:499
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Моћни уређивачи"
 
 #: template.py:502
 msgid "Piano Roll"
-msgstr ""
+msgstr "Пијано рол"
 
 #: template.py:503
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Креирајте, уређујте и организујте MIDI догађаје у посвећеном пијано ролу са "
+"интеграцијом акорда."
 
 #: template.py:505
 msgid "Drum View"
-msgstr ""
+msgstr "Поглед на бубњеве"
 
 #: template.py:506
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
+"Пребаците се на поглед на бубњеве једним кликом за уређивање инструмената са "
+"једним ударцем."
 
 #: template.py:508
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Уређивач брзине"
 
 #: template.py:509
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Уређујте више брзина истовремено са алатом за избор или цртајте оловком или "
+"алатом за рампу."
 
 #: template.py:511
 msgid "Audio Editor"
-msgstr ""
+msgstr "Аудио уређивач"
 
 #: template.py:512
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Подесите бледење/појачање и уређујте делове аудио клипова користећи аудио "
+"функције унутар аудио уређивача."
 
 #: template.py:514
 msgid "List Editors"
-msgstr ""
+msgstr "Уређивачи листе"
 
 #: template.py:515
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Ручно уређујте параметре објеката у прегледачу догађаја."
 
 #: template.py:517
 msgid "Editor Functions"
-msgstr ""
+msgstr "Функције уређивача"
 
 #: template.py:518
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Брзо примените функције као што су Легато, Инверт и Фаде Оут на одабране "
+"објекте."
 
 #: template.py:520
 msgid "External App Integration"
-msgstr ""
+msgstr "Интеграција са спољним апликацијама"
 
 #: template.py:521
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "Уређујте одабране делове аудио записа у било којој спољној апликацији."
 
 #: template.py:524
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Снимање могућности"
 
 #: template.py:527
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "Аудио/MIDI снимање"
 
 #: template.py:528
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
+"Снимајте аудио/MIDI са било ког вашег уређаја, или чак из других апликација "
+"користећи JACK."
 
 #: template.py:530
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Свеобухватна подешавања снимања"
 
 #: template.py:531
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
+"Користите punch in/punch out, снимајте на MIDI улазу и опционално креирајте "
+"више покушаја."
 
 #: template.py:533
 msgid "Automation Recording"
-msgstr ""
+msgstr "Снимање аутоматизације"
 
 #: template.py:534
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "Снимајте аутоматизацију у latch/touch режиму."
 
 #: template.py:536
 msgid "Device Controls"
-msgstr ""
+msgstr "Контроле уређаја"
 
 #: template.py:537
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
+"Вежите дугмад вашег уређаја за контроле унутар Zrythm-а и снимајте ваше "
+"акције."
 
 #: template.py:540 template.py:718
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "Могућности миксања"
 
 #: template.py:543
 msgid "Group Tracks"
-msgstr ""
+msgstr "Групне траке"
 
 #: template.py:544
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "Организујте групе аудио/MIDI сигнала са групним тракама."
 
 #: template.py:546
 msgid "Aux Sends"
-msgstr ""
+msgstr "Аукс слања"
 
 #: template.py:547
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
-msgstr ""
+msgstr "Лако усмеравајте сигнале на FX траке и улазе сајдчејн додатака."
 
 #: template.py:549
 msgid "In-Context Listening"
-msgstr ""
+msgstr "Слушање у контексту"
 
 #: template.py:550
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
 msgstr ""
+"Слушајте одређене траке у контексту микса тако што ћете пригушити све друге "
+"траке."
 
 #: template.py:552
 msgid "Monitor Section"
-msgstr ""
+msgstr "Секција за мониторинг"
 
 #: template.py:553
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
+"Промените понашање слушања/мутирања/соло и подесите шта иде на ваше звучнике."
 
 #: template.py:556
 msgid "Unlimited Automation"
-msgstr ""
+msgstr "Неограничена аутоматизација"
 
 #: template.py:559
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "Повезивања било где-било где"
 
 #: template.py:560
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "Повежите било шта са било чим."
 
 #: template.py:562
 msgid "Automation Curves"
-msgstr ""
+msgstr "Криве аутоматизације"
 
 #: template.py:563
 msgid ""
 "Automate parameters with straight lines or curves, choosing from multiple "
 "curve algorithms, such as Exponential and Elliptic curves."
 msgstr ""
+"Аутоматизујте параметре са правим линијама или кривама, бирајући између више "
+"алгоритама кривих, као што су експоненцијалне и елиптичне криве."
 
 #: template.py:565
 msgid "Envelopes"
-msgstr ""
+msgstr "Омоти"
 
 #: template.py:566
 msgid ""
 "Automate parameters with CV signals or envelopes, including macro knobs and "
 "LFO plugins such as ZLFO."
 msgstr ""
+"Аутоматизујте параметре са CV сигналима или омотима, укључујући макро дугмад "
+"и LFO додатке као што је ZLFO."
 
 #: template.py:568
 msgid "Automate Anything"
-msgstr ""
+msgstr "Аутоматизујте било шта"
 
 #: template.py:569
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
 msgstr ""
+"Аутоматизујте било који могући параметар, укључујући BPM и временски потпис "
+"пројекта."
 
 #: template.py:572
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "Интуитивни кориснички интерфејс"
 
 #: template.py:575
 msgid "Detachable Views"
-msgstr ""
+msgstr "Одвојиви прикази"
 
 #: template.py:576
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr ""
+"Одвојите приказе са било ког панела и радите ефикасно са подешавањима са "
+"више монитора."
 
 #: template.py:578
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "Претраживе преференције"
 
 #: template.py:579
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "Почните да куцате да бисте пронашли преференцију коју тражите."
 
 #: template.py:581
 msgid "Inspector Pages"
-msgstr ""
+msgstr "Странице инспектора"
 
 #: template.py:582
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "Уређујте све параметре трака и додатака у инспектору."
 
 #: template.py:585
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "Могућности додатака"
 
 #: template.py:588
 msgid "Plugin Support"
-msgstr ""
+msgstr "Подршка за додатке"
 
 #: template.py:589
 msgid ""
@@ -434,197 +468,217 @@ msgstr ""
 
 #: template.py:591
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "SoundFonts као додаци"
 
 #: template.py:592
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr ""
+msgstr "Користите SFZ и SF2 soundfont-ове као инструмент додатке."
 
 #: template.py:594
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "Флексибилан прегледач додатака"
 
 #: template.py:595
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr ""
+"Лако филтрирајте додатке по аутору, формату или категорији, и организујте "
+"ваше омиљене додатке са колекцијама додатака."
 
 #: template.py:597
 msgid "Plugin Bridging"
-msgstr ""
+msgstr "Мостирање додатака"
 
 #: template.py:598
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr ""
+msgstr "Сандбоксујте додатке тако што ћете их отворити у мост режиму."
 
 #: template.py:600
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "Аутоматизовани режим заобилажења"
 
 #: template.py:601
 msgid "Easily bypass plugins in the signal chain with an automatable control."
-msgstr ""
+msgstr "Лако заобиђите додатке у ланцу сигнала са аутоматизованом контролом."
 
 #: template.py:604
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "Свеобухватан увоз/извоз"
 
 #: template.py:607
 msgid "File Browser"
-msgstr ""
+msgstr "Прегледач датотека"
 
 #: template.py:608
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
+"Прегледајте и слушајте MIDI и аудио датотеке, и организујте ваше омиљене "
+"путање са омиљеним."
 
 #: template.py:610
 msgid "Audio Files"
-msgstr ""
+msgstr "Аудио датотеке"
 
 #: template.py:611
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
+"Увезите или извозите било који формат подржан од {ref}libsndfile{endref}, са "
+"додатном подршком за MP3 увоз."
 
 #: template.py:613
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:614
 msgid ""
 "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
 msgstr ""
+"Увезите или извозите било који део пројекта у MIDI Type 0 или Type 1 "
+"форматима."
 
 #: template.py:616
 msgid "Stem Export"
-msgstr ""
+msgstr "Извоз стабала"
 
 #: template.py:617
 msgid "Export stems for specific tracks and share them with other producers."
-msgstr ""
+msgstr "Извезите стабла за одређене траке и поделите их са другим продуцентима."
 
 #: template.py:620 template.py:721
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Помоћ за акорде"
 
 #: template.py:623
 msgid "Chord Audition"
-msgstr ""
+msgstr "Аудиција акорда"
 
 #: template.py:624
 msgid ""
 "Quickly listen to chords by clicking the pads or pressing notes on your MIDI"
 " keyboard, and drag-and-drop chords to the timeline."
 msgstr ""
+"Брзо слушајте акорде кликом на падове или притиском на ноте на вашем MIDI "
+"клавијатури, и превуците и испустите акорде на временску линију."
 
 #: template.py:626
 msgid "Chord Editing"
-msgstr ""
+msgstr "Уређивање акорда"
 
 #: template.py:627
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
+"Инвертујте акорде једним кликом или користите селектор акорда да изаберете "
+"било који акорд, са опцијом да филтрирате акорде у тренутној скали."
 
 #: template.py:629
 msgid "Recordable Chord Track"
-msgstr ""
+msgstr "Снимајућа трака акорда"
 
 #: template.py:630
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
 msgstr ""
+"Диктирајте или снимите скалу и прогресију акорда пројекта, и опционално "
+"усмерите излаз на инструмент."
 
 #: template.py:632
 msgid "Chord Presets"
-msgstr ""
+msgstr "Пресети акорда"
 
 #: template.py:633
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr ""
+"Генеришите акорде из широког спектра скала, учитајте укључене пресете акорда "
+"за различите жанрове, или сачувајте своје."
 
 #: template.py:636 template.py:730
 msgid "Never Lose Work"
-msgstr ""
+msgstr "Никада не изгубите рад"
 
 #: template.py:639
 msgid "Project Backups"
-msgstr ""
+msgstr "Резервне копије пројекта"
 
 #: template.py:640
 msgid "Backups taken automatically at user-specified intervals."
-msgstr ""
+msgstr "Резервне копије се праве аутоматски у интервалима које корисник одреди."
 
 #: template.py:642
 msgid "Undoable Actions"
-msgstr ""
+msgstr "Поништиве акције"
 
 #: template.py:643
 msgid "Almost every user action is undoable."
-msgstr ""
+msgstr "Скоро свака корисничка акција је поништива."
 
 #: template.py:645
 msgid "Serializable Undo History"
-msgstr ""
+msgstr "Серијализована историја поништавања"
 
 #: template.py:646
 msgid "Keep your undo history when saving projects."
-msgstr ""
+msgstr "Сачувајте историју поништавања када чувате пројекте."
 
 #: template.py:649
 msgid "Scripting"
-msgstr ""
+msgstr "Скриптовање"
 
 #: template.py:652
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Проширите Zrythm"
 
 #: template.py:653
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
+"Проширите могућности Zrythm-а уређивањем његовог стања користећи {ref}GNU "
+"Guile скрипте{endref}."
 
 #: template.py:655
 msgid "Custom Editor Functions"
-msgstr ""
+msgstr "Прилагођене функције уређивача"
 
 #: template.py:656
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
-msgstr ""
+msgstr "Имплементирајте своје MIDI/аудио/аутоматизационе функције (ускоро)."
 
 #: template.py:658
 msgid "Project Generation"
-msgstr ""
+msgstr "Генерација пројекта"
 
 #: template.py:659
 msgid "Generate projects with GNU Guile scripts."
-msgstr ""
+msgstr "Генеришите пројекте са GNU Guile скриптама."
 
 #: template.py:662
 msgid "Optimized Performance"
-msgstr ""
+msgstr "Оптимизоване перформансе"
 
 #: template.py:665
 msgid "Hardware accelerated UI"
-msgstr ""
+msgstr "Хардверски убрзан кориснички интерфејс"
 
 #: template.py:666
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr ""
+"Већина корисничког интерфејса је нацртана на GPU захваљујући "
+"{ref}GTK4{endref}."
 
 #: template.py:668
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMD-оптимизован DSP"
 
 #: template.py:669
 msgid ""
@@ -632,22 +686,25 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
+"Zrythm користи {ref}lsp-dsp-lib{endref} који имплементира SIMD екстензије "
+"као што су SSE, AVX и FMA када су доступне, да убрза аудио обраду и "
+"минимизира коришћење DSP-а."
 
 #: template.py:671
 msgid "Extensive Caching"
-msgstr ""
+msgstr "Обимно кеширање"
 
 #: template.py:672
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "Скупи прорачуни се унапред израчунавају да би се уштедело време обраде."
 
 #: template.py:675
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "Подршка за више платформи"
 
 #: template.py:678
 msgid "Multiple Platforms"
-msgstr ""
+msgstr "Више платформи"
 
 #: template.py:679
 msgid ""
@@ -655,66 +712,73 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythm је дизајниран да ради на {ref}широком спектру платформи и "
+"архитектура{endref} укључујући x86 архитектуре, PowerPC, RISC-V, ARMv7 и "
+"ARMv8."
 
 #: template.py:681
 msgid "Multiple Backends"
-msgstr ""
+msgstr "Више позадинских система"
 
 #: template.py:682
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"Подршка за скоро све главне аудио и MIDI позадинске системе, укључујући JACK/"
+"PipeWire, Windows MME, WASAPI и Core Audio/MIDI."
 
 #: template.py:685
 msgid "Localization"
-msgstr ""
+msgstr "Локализација"
 
 #: template.py:688
 msgid "Localized UI"
-msgstr ""
+msgstr "Локализован кориснички интерфејс"
 
 #: template.py:689
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "Користите Zrythm на свом омиљеном језику."
 
 #: template.py:691
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "Лако додајте преводе"
 
 #: template.py:692
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
-msgstr ""
+msgstr "Додајте недостајуће преводе и локале на {ref}Weblate{endref}."
 
 #: template.py:695
 msgid "User Freedom"
-msgstr ""
+msgstr "Корисничка слобода"
 
 #: template.py:698
 msgid "Free Software"
-msgstr ""
+msgstr "Слободан софтвер"
 
 #: template.py:699
 msgid "All source code is released as {ref}copyleft free software{endref}."
-msgstr ""
+msgstr "Сав изворни код је објављен као {ref}копилефт слободан софтвер{endref}."
 
 #: template.py:701
 msgid "Open Standards"
-msgstr ""
+msgstr "Отворени стандарди"
 
 #: template.py:702
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
-msgstr ""
+msgstr "Zrythm подржава отворене стандарде као што су MIDI, LV2, FLAC и OGG."
 
 #: template.py:704
 msgid "Cooperation"
-msgstr ""
+msgstr "Сарадња"
 
 #: template.py:705
 msgid ""
 "We work with the free software community to ensure Zrythm builds and runs "
 "without issues on all platforms."
 msgstr ""
+"Сарађујемо са заједницом слободног софтвера да бисмо осигурали да Zrythm "
+"ради без проблема на свим платформама."
 
 #: template.py:713
 msgid ""
@@ -722,22 +786,31 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"Лако изаберите, померите, промените величину, клонирајте, повежите, "
+"петљајте, обришите и исеците објекте са једним алатом или проширите његову "
+"функционалност додатним специјализованим алатима, и уживајте у адаптивном "
+"снаповању у сваком аранжеру."
 
 #: template.py:715
 msgid "Limitless Automation"
-msgstr ""
+msgstr "Неограничена аутоматизација"
 
 #: template.py:716
 msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
+"Аутоматизујте скоро све са аутоматизационим догађајима користећи праве "
+"линије, рампе и криве, или са LFO-има и омотачима."
 
 #: template.py:719
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
+"Слушање у контексту, групе сигнала, FX траке, MIDI ефекти и уметање слотова, "
+"пре и после фејдера аукс слања и рутирање са било ког места на било које "
+"место."
 
 #: template.py:722
 msgid ""
@@ -745,10 +818,13 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
+"Генеришите акорде из скала у подлози акорда, преслушајте и инвертујте акорде "
+"или сачувајте своје пресете акорда, управљајте својом прогресијом акорда у "
+"траци акорда и уживајте у истицању акорда у клавирском ролу."
 
 #: template.py:724
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Аудио додаци"
 
 #: template.py:725
 msgid ""
@@ -764,16 +840,23 @@ msgid ""
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
+"Организујте свој рад у више слојева у истој траци користећи стране траке, "
+"брзо пребаците било шта у аудио, увезите/извезите широк спектар аудио и MIDI "
+"формата, растегните или петљајте било који регион и изаберите из низа типова "
+"трака за сваку сврху."
 
 #: template.py:731
 msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr ""
+"Вратите свој рад са аутоматским резервним копијама пројекта, поништавајте "
+"скоро сваку корисничку акцију и чак сачувајте историју поништавања са "
+"пројектима."
 
 #: template.py:733
 msgid "Liberating"
-msgstr ""
+msgstr "Ослобађајуће"
 
 #: template.py:734
 msgid ""
@@ -781,41 +864,45 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
+"Zrythm је {copyleft_ref}копилефт{endref} {free_software_ref}слободан "
+"софтвер</a> са потпуно проверљивим изворним кодом. Користите, проучавајте, "
+"делите и побољшавајте га слободно."
 
 #: common/footer.j2.inc:26
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
 msgstr ""
+"Zrythm и Zrythm лого су {ref}заштитни знаци Александроса Теодоту{endref}."
 
 #: common/footer.j2.inc:30
 msgid "Project"
-msgstr ""
+msgstr "Пројекат"
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
 msgid "Features"
-msgstr ""
+msgstr "Карактеристике"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr ""
+msgstr "Корисничко упутство"
 
 #: common/footer.j2.inc:39 template/download.html.j2:127
 msgid "Releases"
-msgstr ""
+msgstr "Издања"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr ""
+msgstr "Заједница"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr ""
+msgstr "Ћаскање"
 
 #: common/footer.j2.inc:53
 msgid "User Mailing List"
@@ -823,40 +910,40 @@ msgstr ""
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "Допринос"
 
 #: common/footer.j2.inc:59 template/community.html.j2:133
 msgid "Donate"
-msgstr ""
+msgstr "Донација"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "О овом сајту"
 
 #: common/footer.j2.inc:67 template/download.html.j2:124
 msgid "Source Code"
-msgstr ""
+msgstr "Изворни код"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "Правне информације"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Политика приватности"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
-msgstr ""
+msgstr "Пријавите проблем"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
-msgstr ""
+msgstr "Дизајнирао Ендру Хартер"
 
 #: common/header.j2.inc:24
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Високо аутоматизована и интуитивна дигитална аудио радна станица."
 
 #: common/header.j2.inc:32
 msgid ""
@@ -865,38 +952,42 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, дигитална аудио радна станица, музичка продукција, аудио, про аудио, "
+"Линукс, GNU/Линукс, слободан софтвер, либре софтвер, уређивач звука, "
+"композиција, MIDI, LV2, JACK, VST, аудио додатак, снимање, уређивање, "
+"аранжирање, миксовање, мастеринг"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "Додаци"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Guide"
-msgstr ""
+msgstr "Водич"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "Укључите се"
 
 #: common/navigation.j2.inc:30 template/download.html.j2:19
 #: template/download.html.j2:68 template/index.html.j2:38
 msgid "Download"
-msgstr ""
+msgstr "Преузимање"
 
 #: common/navigation.j2.inc:40
 msgid "Select Language"
-msgstr ""
+msgstr "Изаберите језик"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Странице заједнице и канали комуникације Zrythm-а"
 
 #: template/community.html.j2:44
 msgid "Join Development"
-msgstr ""
+msgstr "Придружите се развоју"
 
 #: template/community.html.j2:47
 msgid ""
@@ -921,21 +1012,22 @@ msgstr ""
 
 #: template/community.html.j2:71
 msgid "Translate Zrythm"
-msgstr ""
+msgstr "Преведите Zrythm"
 
 #: template/community.html.j2:74
 msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
+"Преведите Zrythm DAW, корисничко упутство и наше веб странице на свој језик."
 
 #: template/community.html.j2:81
 msgid "Get in Touch"
-msgstr ""
+msgstr "Контактирајте нас"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
-msgstr ""
+msgstr "Ћаскајте са нама на IRC-у"
 
 #: template/community.html.j2:90
 msgid ""
@@ -943,16 +1035,21 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"Наш IRC канал је #zrythm на Libera.Chat (<code>irc://irc.libera.chat/"
+"zrythm</code>). Слободно контактирајте оператера за <code>zrythm/user/*</"
+"code> маску."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
-msgstr ""
+msgstr "Ћаскајте са нама на Matrix-у"
 
 #: template/community.html.j2:99
 msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix је отворени стандард за сигурну и децентрализовану комуникацију. Наш "
+"Matrix канал је #zrythmdaw:matrix.org и повезан је са IRC-ом."
 
 #: template/community.html.j2:105
 msgid "Join our User Discussion Mailing List"
@@ -976,25 +1073,27 @@ msgstr ""
 
 #: template/community.html.j2:123
 msgid "Follow us on Mastodon"
-msgstr ""
+msgstr "Пратите нас на Mastodon-у"
 
 #: template/community.html.j2:126
 msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Пратите нас на Mastodon-у да бисте добијали ажурирања о новим издањима и "
+"добијали прегледе нових функција, гласали у анкетама и још много тога."
 
 #: template/community.html.j2:139
 msgid "Donate CryptoCurrency"
-msgstr ""
+msgstr "Донирајте криптовалуту"
 
 #: template/community.html.j2:142
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Пошаљите нам Bitcoin (BTC), Litecoin (LTC) или Monero (XMR)."
 
 #: template/community.html.j2:148
 msgid "Donate on LiberaPay"
-msgstr ""
+msgstr "Донирајте на LiberaPay"
 
 #: template/community.html.j2:151
 msgid ""
@@ -1004,39 +1103,39 @@ msgstr ""
 
 #: template/community.html.j2:157
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Донирајте на Open Collective"
 
 #: template/community.html.j2:160
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Донирајте на Open Collective и погледајте наше јавне трошкове."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
-msgstr ""
+msgstr "Преузмите изворни код Zrythm-а или купите инсталер бинарног пакета."
 
 #: template/download.html.j2:33
 msgid "Select Platform"
-msgstr ""
+msgstr "Изаберите платформу"
 
 #: template/download.html.j2:50
 msgid "Downloads"
-msgstr ""
+msgstr "Преузимања"
 
 #: template/download.html.j2:56
 msgid "Installers"
-msgstr ""
+msgstr "Инсталери"
 
 #: template/download.html.j2:61
 msgid "Basic"
-msgstr ""
+msgstr "Основни"
 
 #: template/download.html.j2:62
 msgid "Free"
-msgstr ""
+msgstr "Бесплатно"
 
 #: template/download.html.j2:64
 msgid "Basic plugins"
-msgstr ""
+msgstr "Основни додаци"
 
 #: template/download.html.j2:65
 msgid "Save/load disabled"
@@ -1054,7 +1153,7 @@ msgstr ""
 #: template/download.html.j2:76 template/download.html.j2:88
 #: template/download.html.j2:100
 msgid "Basic & Z Series plugins"
-msgstr ""
+msgstr "Основни и Z серија додаци"
 
 #: template/download.html.j2:77 template/download.html.j2:89
 #: template/download.html.j2:101
@@ -1063,15 +1162,15 @@ msgstr ""
 
 #: template/download.html.j2:80 template/download.html.j2:92
 msgid "Purchase"
-msgstr ""
+msgstr "Куповина"
 
 #: template/download.html.j2:84
 msgid "Bundle"
-msgstr ""
+msgstr "Пакет"
 
 #: template/download.html.j2:90
 msgid "Access to all v1 releases"
-msgstr ""
+msgstr "Приступ свим v1 издањима"
 
 #: template/download.html.j2:96
 msgid "Nightly"
@@ -1079,19 +1178,19 @@ msgstr ""
 
 #: template/download.html.j2:97
 msgid "year"
-msgstr ""
+msgstr "година"
 
 #: template/download.html.j2:102
 msgid "Access to all releases"
-msgstr ""
+msgstr "Приступ свим издањима"
 
 #: template/download.html.j2:103
 msgid "Access to nightly builds"
-msgstr ""
+msgstr "Приступ ноћним верзијама"
 
 #: template/download.html.j2:105
 msgid "Subscribe"
-msgstr ""
+msgstr "Претплати се"
 
 #: template/download.html.j2:110
 msgid "* Prices in this currency are estimates"
@@ -1103,15 +1202,15 @@ msgstr ""
 
 #: template/download.html.j2:128
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG Кључ"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Листа функција."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Дигитална аудио радна станица"
 
 #: template/index.html.j2:23
 msgid ""
@@ -1119,115 +1218,118 @@ msgid ""
 "use. It allows limitless automation, supports LV2 plugins, works with the "
 "JACK audio backend and provides chord assistance."
 msgstr ""
+"Zrythm је дигитална аудио радна станица дизајнирана да буде функционална и "
+"лака за коришћење. Омогућава неограничену аутоматизацију, подржава LV2 "
+"додатке, ради са JACK аудио позадином и пружа помоћ при акордима."
 
 #: template/index.html.j2:36
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "Високо аутоматизована и интуитивна дигитална аудио радна станица"
 
 #: template/index.html.j2:39
 msgid "Learn More"
-msgstr ""
+msgstr "Сазнај више"
 
 #: template/index.html.j2:63
 msgid "Showcase"
-msgstr ""
+msgstr "Изложба"
 
 #: template/index.html.j2:72 template/index.html.j2:86
 #: template/index.html.j2:100 template/index.html.j2:114
 #: template/index.html.j2:128 template/index.html.j2:142
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Ваш прегледач не подржава HTML5 видео."
 
 #: template/index.html.j2:133
 msgid "Remake"
-msgstr ""
+msgstr "Прерада"
 
 #: template/index.html.j2:155
 msgid "Testimonials"
-msgstr ""
+msgstr "Тестимонијали"
 
 #: template/index.html.j2:184
 msgid "Affiliates"
-msgstr ""
+msgstr "Партнери"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Zrythm референтне странице - корисничко упутство - туторијали"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "Туторијали"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "Уређивање"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "Ваш прегледач не подржава HTML5 видео"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "Алат за избор/истезање"
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "Алат за уређивање"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
-msgstr ""
+msgstr "Алат за сечење"
 
 #: template/learn.html.j2:81
 msgid "Ramp Tool"
-msgstr ""
+msgstr "Алат за рампу"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Петљање региона"
 
 #: template/learn.html.j2:96
 msgid "Routing"
-msgstr ""
+msgstr "Рутање"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr ""
+msgstr "FX Сендови"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
-msgstr ""
+msgstr "Порт рутање"
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
-msgstr ""
+msgstr "Водичи"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "Ваш видео овде"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
-msgstr ""
+msgstr "Документација"
 
 #: template/learn.html.j2:141
 msgid "Developer Reference"
-msgstr ""
+msgstr "Референца за програмере"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr ""
+msgstr "Правне информације"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
-msgstr ""
+msgstr "Правне, лиценцне и информације о заштитним знаковима"
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "Лиценцирање"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -1236,6 +1338,10 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"Zrythm је заштићен ауторским правима Александроса Теодотуа и других "
+"сарадника. Zrythm је објављен под <a href=\"https://git.sr.ht/~alextee/"
+"zrythm/tree/master/item/COPYING\">GNU Affero општом јавном лиценцом, верзија "
+"3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1243,12 +1349,17 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Осим ако није другачије наведено, Видео снимци на Zrythm вебсајту су "
+"објављени под <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\""
+">Creative Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"Видео <em>Richard Stallman: Free software, free society</em> је лиценциран "
+"под Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -1257,40 +1368,46 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Кредити: Цртежи под CC-BY-ND 3.0 креирани од стране Кристијана Ногареде ("
+"Kwis, Http://kwis.tumblr.com), Валентина Паскијеа (http://utopiqdream."
+"deviantart.com) на основу идеја Ричарда Сталмана, од њега самог и фондације "
+"Ynternet.org."
 
 #: template/legal.html.j2:66
 msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
+"Лиценце за слике на овом вебсајту могу се наћи у {ref}овом README "
+"фајлу{endref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
-msgstr ""
+msgstr "Заштитни знакови"
 
 #: template/legal.html.j2:77
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
-msgstr ""
+msgstr "Zrythm и Zrythm лого су заштитни знакови Александроса Теодотуа."
 
 #: template/plugins.html.j2:23
 msgid "Plugins bundled with Zrythm"
-msgstr ""
+msgstr "Додаци укључени у Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr ""
+msgstr "Основни додаци"
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
-msgstr ""
+msgstr "{} снимак екрана"
 
 #: template/plugins.html.j2:64
 msgid "Z Series"
-msgstr ""
+msgstr "Z серија"
 
 #: template/plugins.html.j2:83
 msgid "Technical specs"
-msgstr ""
+msgstr "Техничке спецификације"
 
 #: template/privacy.html.j2:355
 msgid "Last updated on 4 Aug 2021"
