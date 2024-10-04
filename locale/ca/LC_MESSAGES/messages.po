@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
 "PO-Revision-Date: 2024-10-04 20:39+0000\n"
-"Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
+"Last-Translator: Roger Pueyo Centelles <roger.pueyo@guifi.net>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -66,8 +66,7 @@ msgstr "Equalitzador paramètric"
 
 #: template.py:477
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
-"Compressor d'interval dinàmic modelat després del limitador de pic 1176"
+msgstr "Compressor de rang dinàmic modelat a partir del Peak Limiter 1176"
 
 #: template.py:480
 msgid "Phasing effect"
