@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2023-04-22 04:47+0000\n"
+"PO-Revision-Date: 2024-10-04 20:39+0000\n"
 "Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.18-dev\n"
 
 #: template.py:449
 msgid ""
@@ -1023,17 +1023,17 @@ msgstr "Uneix-te al desenvolupament"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "Inicia el codi de contribució a la nostra instància de GitLab."
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "Envia informes d'errors/Sol·licituds de funcions"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
 msgstr ""
+"Explora el nostre rastrejador de problemes i envieu sol·licituds de "
+"funcionalitat i informes d'errors."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -1053,15 +1053,14 @@ msgstr "Posar-se en contacte"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "Uneix-te al nostre Fòrum"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
 msgstr ""
+"Uneix-te al fòrum i comparteix la teva experiència amb la resta de la "
+"comunitat."
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1116,13 +1115,12 @@ msgid "Donate on LiberaPay"
 msgstr "Dona amb LiberaPay"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
 msgstr ""
+"Fes-te mecenes a LiberaPay. Pots donar mitjançant PayPal, targeta de crèdit "
+"o un compte bancari europeu."
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1173,9 +1171,8 @@ msgid "Web user manual"
 msgstr "Manual d'usuari web"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "Instantània"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1193,9 +1190,8 @@ msgid "Web & PDF user manual"
 msgstr "Manual d'usuari web i PDF"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "Accés només a v{}"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1210,9 +1206,8 @@ msgid "Access to all v1 releases"
 msgstr "Accés a totes les versions v1"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "Subcripció"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1231,10 +1226,11 @@ msgid "Subscribe"
 msgstr "Subscriu-te"
 
 #: template/download.html.j2:123
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr ""
+"* Els preus en aquesta moneda són estimacions. Totes les compres són en Yen "
+"japonès."
 
 #: template/download.html.j2:128
 msgid ""
@@ -1459,9 +1455,8 @@ msgid "Technical specs"
 msgstr "Especificacions tècniques"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "Darrera modificació el 7 set 2023"
 
 #~ msgid "User Mailing List"
 #~ msgstr "Llista de correu d'usuari"
