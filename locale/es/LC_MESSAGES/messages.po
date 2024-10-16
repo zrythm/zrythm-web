@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-04-23 09:07+0000\n"
-"Last-Translator: Janna L <j.lhocine@gmail.com>\n"
+"PO-Revision-Date: 2024-10-17 11:16+0000\n"
+"Last-Translator: Gonzalo García <g.garciac.2022@alumnos.urjc.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -222,7 +222,7 @@ msgstr "Realiza un bounce rápidamente del material seleccionado en audio."
 
 #: template.py:552
 msgid "Stretching"
-msgstr ""
+msgstr "Estiramiento"
 
 #: template.py:553
 msgid "Stretch any type of region"
