@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2022-07-03 11:16+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/>\n"
+"PO-Revision-Date: 2024-11-15 11:00+0000\n"
+"Last-Translator: Cleverson Cândido <optimuspraimu@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/zrythm/web/pt/"
+">\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.13.1-dev\n"
 
 #: template.py:449
 msgid ""
@@ -171,18 +172,21 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
+"Amplie a funcionalidade da ferramenta de seleção alternando para as "
+"ferramentas {ref}Editar, Cortar, Apagar, Rampa ou Audição{endref}."
 
 #: template.py:536
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Snap Adaptativo"
 
 #: template.py:537
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "O comportamento de ajuste se ajusta ao nível de zoom atual."
 
 #: template.py:539
+#, fuzzy
 msgid "Looping"
-msgstr ""
+msgstr "Looping"
 
 #: template.py:540
 msgid "Loop audio, MIDI, automation and chord clips."
