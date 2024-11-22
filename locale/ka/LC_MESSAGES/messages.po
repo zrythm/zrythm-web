@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-23 10:00+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/zrythm/web/ka/>"
+"\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: template.py:449
@@ -109,7 +112,7 @@ msgstr ""
 
 #: template.py:507
 msgid "Phase shift"
-msgstr ""
+msgstr "ფაზის წანაცვლება"
 
 #: template.py:508
 msgid "Vertical/horizontal inversion"
@@ -243,7 +246,7 @@ msgstr ""
 
 #: template.py:568
 msgid "Audio Editor"
-msgstr ""
+msgstr "აუდიორედაქტორი"
 
 #: template.py:569
 msgid ""
@@ -311,7 +314,7 @@ msgstr ""
 
 #: template.py:593
 msgid "Device Controls"
-msgstr ""
+msgstr "მოწყობილობის კონტროლი"
 
 #: template.py:594
 msgid "Bind your device knobs to controls inside Zrythm and record your actions."
@@ -379,7 +382,7 @@ msgstr ""
 
 #: template.py:622
 msgid "Envelopes"
-msgstr ""
+msgstr "კონვერტები"
 
 #: template.py:623
 msgid ""
@@ -481,7 +484,7 @@ msgstr ""
 
 #: template.py:664
 msgid "File Browser"
-msgstr ""
+msgstr "ფაილის ბრაუზერი"
 
 #: template.py:665
 msgid ""
@@ -491,7 +494,7 @@ msgstr ""
 
 #: template.py:667
 msgid "Audio Files"
-msgstr ""
+msgstr "აუდიო ფაილები"
 
 #: template.py:668
 msgid ""
@@ -501,7 +504,7 @@ msgstr ""
 
 #: template.py:670
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:671
 msgid "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
@@ -589,7 +592,7 @@ msgstr ""
 
 #: template.py:706
 msgid "Scripting"
-msgstr ""
+msgstr "სკრიპტები"
 
 #: template.py:709
 msgid "Extend Zrythm"
@@ -611,7 +614,7 @@ msgstr ""
 
 #: template.py:715
 msgid "Project Generation"
-msgstr ""
+msgstr "პროექტის გენერაცია"
 
 #: template.py:716
 msgid "Generate projects with GNU Guile scripts."
@@ -677,7 +680,7 @@ msgstr ""
 
 #: template.py:742
 msgid "Localization"
-msgstr ""
+msgstr "ლოკალიზაცია"
 
 #: template.py:745
 msgid "Localized UI"
@@ -799,44 +802,44 @@ msgstr ""
 
 #: common/footer.j2.inc:30
 msgid "Project"
-msgstr ""
+msgstr "პროექტი"
 
 #: common/footer.j2.inc:33 common/navigation.j2.inc:26
 #: template/features.html.j2:20 template/features.html.j2:32
 msgid "Features"
-msgstr ""
+msgstr "მახასიათებლები"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr ""
+msgstr "მომხმარებლის სახელმძღვანელო"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
-msgstr ""
+msgstr "რელიზი"
 
 #: common/footer.j2.inc:42
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr ""
+msgstr "საზოგადოება"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr ""
+msgstr "ჩატი"
 
 #: common/footer.j2.inc:53 common/navigation.j2.inc:30
 msgid "Forum"
-msgstr ""
+msgstr "ფორუმი"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
-msgstr ""
+msgstr "შემოგვწირეთ"
 
 #: common/footer.j2.inc:59 template/community.html.j2:115
 msgid "Donate"
-msgstr ""
+msgstr "შემოწირულობა"
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
@@ -844,16 +847,16 @@ msgstr ""
 
 #: common/footer.j2.inc:67 template/download.html.j2:137
 msgid "Source Code"
-msgstr ""
+msgstr "საწყისი კოდი"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "იურიდიული ინფორმაცია"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
 msgid "Privacy Policy"
-msgstr ""
+msgstr "კონფიდენციალობის პოლიტიკა"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
@@ -866,26 +869,26 @@ msgstr ""
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
 msgid "Plugins"
-msgstr ""
+msgstr "დამატებები"
 
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Guide"
-msgstr ""
+msgstr "გიდი"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
 msgid "Get Involved"
-msgstr ""
+msgstr "შემოგვიერთდით"
 
 #: common/navigation.j2.inc:31 template/download.html.j2:19
 #: template/download.html.j2:81 template/index.html.j2:52
 msgid "Download"
-msgstr ""
+msgstr "გადმოწერა"
 
 #: common/navigation.j2.inc:41
 msgid "Select Language"
-msgstr ""
+msgstr "აირჩიეთ ენა"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
@@ -996,7 +999,7 @@ msgstr ""
 
 #: template/download.html.j2:62
 msgid "Downloads"
-msgstr ""
+msgstr "გადმოწერები"
 
 #: template/download.html.j2:68
 msgid "Installers"
@@ -1004,11 +1007,11 @@ msgstr ""
 
 #: template/download.html.j2:73
 msgid "Basic"
-msgstr ""
+msgstr "საწყისი"
 
 #: template/download.html.j2:74
 msgid "Free"
-msgstr ""
+msgstr "უფასო"
 
 #: template/download.html.j2:76
 msgid "Up to 25 tracks"
@@ -1024,7 +1027,7 @@ msgstr ""
 
 #: template/download.html.j2:85
 msgid "Snapshot"
-msgstr ""
+msgstr "სწრაფი ასლი"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1051,7 +1054,7 @@ msgstr ""
 
 #: template/download.html.j2:97
 msgid "Bundle"
-msgstr ""
+msgstr "ნაკრები"
 
 #: template/download.html.j2:103
 msgid "Access to all v1 releases"
@@ -1059,11 +1062,11 @@ msgstr ""
 
 #: template/download.html.j2:109
 msgid "Subscription"
-msgstr ""
+msgstr "გამოწერა"
 
 #: template/download.html.j2:110
 msgid "year"
-msgstr ""
+msgstr "წელი"
 
 #: template/download.html.j2:115
 msgid "Access to all releases"
@@ -1075,7 +1078,7 @@ msgstr ""
 
 #: template/download.html.j2:118
 msgid "Subscribe"
-msgstr ""
+msgstr "გამოწერა"
 
 #: template/download.html.j2:123
 msgid ""
@@ -1091,7 +1094,7 @@ msgstr ""
 
 #: template/download.html.j2:141
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG გასაღები"
 
 #: template/features.html.j2:23
 msgid "List of features."
@@ -1114,7 +1117,7 @@ msgstr ""
 
 #: template/index.html.j2:53
 msgid "Learn More"
-msgstr ""
+msgstr "დაწვრილებით"
 
 #: template/index.html.j2:77
 msgid "Showcase"
@@ -1145,11 +1148,11 @@ msgstr ""
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
-msgstr ""
+msgstr "სახელმძღვანელოები"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "ჩასწორება"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
@@ -1164,7 +1167,7 @@ msgstr ""
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "რედაქტორის ხელსაწყო"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
@@ -1180,7 +1183,7 @@ msgstr ""
 
 #: template/learn.html.j2:96
 msgid "Routing"
-msgstr ""
+msgstr "რაუტინგი"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
@@ -1200,7 +1203,7 @@ msgstr ""
 
 #: template/learn.html.j2:138
 msgid "Documentation"
-msgstr ""
+msgstr "დოკუმენტაცია"
 
 #: template/learn.html.j2:141
 msgid "Developer Reference"
@@ -1216,7 +1219,7 @@ msgstr ""
 
 #: template/legal.html.j2:37
 msgid "Licensing"
-msgstr ""
+msgstr "ლიცენზირება"
 
 #: template/legal.html.j2:43
 msgid ""
@@ -1255,7 +1258,7 @@ msgstr ""
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
-msgstr ""
+msgstr "სავაჭრო ნიშნები"
 
 #: template/legal.html.j2:77
 msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
