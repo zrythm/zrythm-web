@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2023-02-13 10:39+0000\n"
-"Last-Translator: Hartmut Wagener <hartmut.w.wagener@t-online.de>\n"
+"PO-Revision-Date: 2024-11-28 19:00+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 4.16-dev\n"
 
 #: template.py:449
 msgid ""
@@ -658,11 +658,13 @@ msgstr ""
 
 #: template.py:703
 msgid "Keep your undo history when saving projects."
-msgstr "Die Undo-Historie bleibt beim Speichern erhalten."
+msgstr ""
+"Der Verlauf der Rückgängigmachung bleibt beim Speichern von Projekten "
+"erhalten."
 
 #: template.py:706
 msgid "Scripting"
-msgstr "Scripting (Code)"
+msgstr "Skripting"
 
 #: template.py:709
 msgid "Extend Zrythm"
@@ -709,7 +711,7 @@ msgstr ""
 
 #: template.py:725
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "SIMD-optimierter DSP"
 
 #: template.py:726
 msgid ""
@@ -751,7 +753,7 @@ msgstr ""
 
 #: template.py:738
 msgid "Multiple Backends"
-msgstr ""
+msgstr "Mehrere Backends"
 
 #: template.py:739
 msgid ""
@@ -854,7 +856,7 @@ msgstr ""
 
 #: template.py:781
 msgid "Audio Plugins"
-msgstr ""
+msgstr "Audio-Plugins"
 
 #: template.py:782
 msgid ""
@@ -887,6 +889,9 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
+"Zrythm ist {copyleft_ref}copyleft{endref} {free_software_ref}freie Software</"
+"a> mit vollständig überprüfbarem Quellcode. Verwenden, studieren, teilen und "
+"verbessern Sie ihn nach Belieben."
 
 #: common/footer.j2.inc:26
 msgid ""
@@ -945,7 +950,7 @@ msgstr "Sourcecode"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr ""
+msgstr "Rechtliche Informationen"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
@@ -954,7 +959,7 @@ msgstr "Datenschutzerklärung"
 
 #: common/footer.j2.inc:76
 msgid "Report an Issue"
-msgstr ""
+msgstr "Problem melden"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
@@ -968,7 +973,7 @@ msgstr "Plugins"
 #: common/navigation.j2.inc:28 template/learn.html.j2:20
 #: template/learn.html.j2:32
 msgid "Guide"
-msgstr ""
+msgstr "Leitfaden"
 
 #: common/navigation.j2.inc:29 template/community.html.j2:19
 #: template/community.html.j2:31
@@ -997,9 +1002,8 @@ msgid "Start contributing code on our GitLab instance."
 msgstr ""
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "Fehlerberichte/Funktionswünsche einreichen"
 
 #: template/community.html.j2:56
 #| msgid "Browse our feature tracker and submit feature requests."
@@ -1131,25 +1135,24 @@ msgstr "Kostenlos"
 
 #: template/download.html.j2:76
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "Bis zu 25 Spuren"
 
 #: template/download.html.j2:77
 msgid "Basic plugins"
-msgstr ""
+msgstr "Grundlegende Plugins"
 
 #: template/download.html.j2:78
 msgid "Web user manual"
-msgstr ""
+msgstr "Web-Benutzerhandbuch"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "Schnappschuss"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Unbegrenzte Anzahl von Spuren"
 
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113
@@ -1159,7 +1162,7 @@ msgstr ""
 #: template/download.html.j2:90 template/download.html.j2:102
 #: template/download.html.j2:114
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "Web- & PDF-Benutzerhandbuch"
 
 #: template/download.html.j2:91
 #| msgid "Access to nightly builds"
@@ -1179,13 +1182,12 @@ msgid "Access to all v1 releases"
 msgstr "Zugriff auf alle V1 Releases"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "Abonnement"
 
 #: template/download.html.j2:110
 msgid "year"
-msgstr ""
+msgstr "Jahr"
 
 #: template/download.html.j2:115
 msgid "Access to all releases"
@@ -1239,18 +1241,18 @@ msgstr "Eine stark automatisierte und intuitive Digitale Audio Workstation"
 
 #: template/index.html.j2:53
 msgid "Learn More"
-msgstr ""
+msgstr "Mehr erfahren"
 
 #: template/index.html.j2:77
 msgid "Showcase"
-msgstr ""
+msgstr "Schaukasten"
 
 #: template/index.html.j2:86 template/index.html.j2:100
 #: template/index.html.j2:114 template/index.html.j2:128
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Ihr Browser unterstützt kein HTML5-Video."
 
 #: template/index.html.j2:147
 msgid "Remake"
@@ -1258,7 +1260,7 @@ msgstr ""
 
 #: template/index.html.j2:183
 msgid "Testimonials"
-msgstr ""
+msgstr "Erfahrungsberichte"
 
 #: template/index.html.j2:212
 msgid "Affiliates"
@@ -1274,7 +1276,7 @@ msgstr "Tutoriais"
 
 #: template/learn.html.j2:41
 msgid "Editing"
-msgstr ""
+msgstr "Bearbeitung"
 
 #: template/learn.html.j2:47 template/learn.html.j2:57
 #: template/learn.html.j2:67 template/learn.html.j2:77
@@ -1289,7 +1291,7 @@ msgstr ""
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "Bearbeitungswerkzeug"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
@@ -1321,7 +1323,7 @@ msgstr ""
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "Ihr Video hier"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
