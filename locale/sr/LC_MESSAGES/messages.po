@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-22 16:55+0100\n"
-"PO-Revision-Date: 2024-09-08 23:09+0000\n"
+"PO-Revision-Date: 2024-11-28 19:00+0000\n"
 "Last-Translator: Reno Tx <renotx@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/zrythm/web/sr/>\n"
 "Language: sr\n"
@@ -17,74 +17,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: template.py:399
 msgid "Stereo dynamic range compressor"
-msgstr "Dinamicni stereo kompresor"
+msgstr "Стерео динамички опсег компресора"
 
 #: template.py:402
 msgid "Cubic nonlinearity distortion"
-msgstr "Kubicna nelinearna distorzija"
+msgstr "Кубна нелинеарна дисторзија"
 
 #: template.py:405
 msgid "Stereo flanging effect"
-msgstr "Stereo flanger efekat"
+msgstr "Стерео флангирајући ефекат"
 
 #: template.py:408
 msgid "Stereo signal gate"
-msgstr "Stereo signalni propusnik"
+msgstr "Стерео сигнална капија"
 
 #: template.py:411
 msgid "2nd-order Butterworth highpass filter"
-msgstr "2 Butterworh Visokopropusni filter"
+msgstr "Butterworth високопропусни филтер 2. реда"
 
 #: template.py:414
 msgid "2nd-order Butterworth lowpass filter"
-msgstr "2 Butterworth niskopropusni filter"
+msgstr "Butterworth нископропусни филтер 2. реда"
 
 #: template.py:417
 msgid "Parametric equalizer"
-msgstr "Parametarski ekvilajzer"
+msgstr "Параметарски еквализер"
 
 #: template.py:420
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr "Kompresor dinamicnog opsega pravljen po 1176 peak limiteru"
+msgstr "Динамички опсег компресора моделован по 1176 лимитеру врха"
 
 #: template.py:423
 msgid "Phasing effect"
-msgstr "Efekat faziranja"
+msgstr "Фазни ефекат"
 
 #: template.py:426
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr "Polifoni sintisajzer sa 3 detuned oscilatora"
+msgstr "Полифонични синтезатор са 3 детунирана осцилатора"
 
 #: template.py:429
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
-msgstr "Odlaganje koje ne pucka niti transpose-a kada se vreme istog promeni"
+msgstr "Кашњење без кликова и транспозиције када се време кашњења промени"
 
 #: template.py:432
 msgid "Wah pedal effect to the 4th order"
-msgstr "Wah pedal efekat 4 po redu"
+msgstr "Ефекат Вах педале 4. реда"
 
 #: template.py:435
 msgid "White noise generator"
-msgstr "Generator suma"
+msgstr "Генератор белог шума"
 
 #: template.py:438
 msgid "8x8 late-reverberation FDN reverb"
-msgstr "8x8 kasni-reverberation FDN reverb"
+msgstr "8x8 касна-рееверберација ФДН реверб"
 
 #: template.py:443
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
-msgstr "Z-akord mapira akorde minor ili major skale na bele dirke"
+msgstr "ZChordz мапира акорде мале или велике лествице на беле дирке"
 
 #: template.py:444
 msgid "Major or minor scale"
-msgstr "Major i minor skala"
+msgstr "Велика или мала лествица"
 
 #: template.py:445
 msgid "Velocity multiplier per note"
@@ -793,7 +793,7 @@ msgstr ""
 
 #: template.py:715
 msgid "Limitless Automation"
-msgstr "Неограничена аутоматизација"
+msgstr "Безгранична аутоматизација"
 
 #: template.py:716
 msgid ""
