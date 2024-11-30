@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-07-31 21:09+0000\n"
-"Last-Translator: Prefex <dczip89@gmail.com>\n"
+"PO-Revision-Date: 2024-12-01 13:00+0000\n"
+"Last-Translator: marcin mikołajczak <me@mkljczk.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: template.py:449
@@ -30,7 +30,7 @@ msgstr ""
 
 #: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Wysoce zautomatyzowana i intuicyjna cyfrowa stacja robocza."
 
 #: template.py:456
 msgid "Stereo dynamic range compressor"
@@ -404,7 +404,7 @@ msgstr ""
 
 #: template.py:629
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "Intuicyjny interfejs użytkownika"
 
 #: template.py:632
 msgid "Detachable Views"
