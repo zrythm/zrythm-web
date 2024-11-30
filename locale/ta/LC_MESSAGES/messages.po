@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-06-16 18:09+0000\n"
+"PO-Revision-Date: 2024-12-01 13:00+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/zrythm/web/ta/>\n"
 "Language: ta\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: template.py:449
@@ -26,9 +26,8 @@ msgid ""
 "composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, "
 "arrange, arranger, mixing, mastering"
 msgstr ""
-"DAW, டிசிட்டல் ஆடியோ பணிநிலையம், இசை தயாரிப்பு, ஆடியோ, புரோ ஆடியோ, லினக்ச், "
-"குனு/லினக்ச், இலவச மென்பொருள், லிப்ரே மென்பொருள், ஒலி எடிட்டர், கலவை, மிடி, "
-"எல்வி 2, சாக், விஎச்டி, ஆடியோ சொருகி, பதிவு, திருத்துதல், ஏற்பாடு, ஏற்பாடு, "
+"DAW, டிசிட்டல் ஆடியோ பணிநிலையம், இசை தயாரிப்பு, ஆடியோ, புரோ ஆடியோ, லினக்ச், குனு/லினக்ச், இலவச மென்பொருள், லிப்ரே "
+"மென்பொருள், ஒலி எடிட்டர், கலவை, மிடி, எல்வி 2, சாக், விஎச்டி, ஆடியோ சொருகி, பதிவு, திருத்துதல், அடுக்கு, அடுக்கி, "
 "கலவை, மாச்டரிங்"
 
 #: template.py:450
@@ -112,7 +111,7 @@ msgstr "ஒரு குறிப்புக்கு விரைவு பெ
 
 #: template.py:505
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr "சி.வி. அடிப்படையிலான ஆட்டோமேசனுக்கான முழுமையான இடம்பெற்ற எல்.எஃப்.ஓ."
+msgstr "சிவி அடிப்படையிலான ஆட்டோமேசனுக்கான முழுமையான இடம்பெற்ற எல்எஃப்ஓ"
 
 #: template.py:506
 msgid "Multi-oscillator with custom wave"
@@ -163,8 +162,8 @@ msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
-"{Ref} ஒற்றை கருவி {எண்ட்ரெஃப் with உடன் பொருள்களைத் தேர்ந்தெடுக்கவும், "
-"நகர்த்தவும், மறுஅளவிடவும், நகலி, இணைப்பு, லூப், நீக்கவும், வெட்டவும்."
+"{ref} ஒற்றை கருவி {எண்ட்ரெஃப் with உடன் பொருள்களைத் தேர்ந்தெடுக்கவும், நகர்த்தவும், மறுஅளவிடவும், நகலி, இணைப்பு"
+", லூப், நீக்கவும், வெட்டவும்."
 
 #: template.py:533
 msgid "Extensive Toolbox"
@@ -175,9 +174,8 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, "
 "Erase, Ramp or Audition tools{endref}."
 msgstr ""
-"{Ref} திருத்து, வெட்டு, அழித்தல், வளைவு அல்லது தணிக்கை கருவிகள் {endref "
-"பெறுநர் க்கு மாறுவதன் மூலம் தேர்ந்தெடுக்கப்பட்ட கருவி செயல்பாட்டை "
-"நீட்டிக்கவும்."
+"{ref} திருத்து, வெட்டு, அழித்தல், வளைவு அல்லது தணிக்கை கருவிகள் {endref பெறுநர் க்கு மாறுவதன் மூலம் "
+"தேர்ந்தெடுக்கப்பட்ட கருவி செயல்பாட்டை நீட்டிக்கவும்."
 
 #: template.py:536
 msgid "Adaptive Snapping"
@@ -201,15 +199,14 @@ msgstr "நற்பொருத்தம் காலவரிசை"
 
 #: template.py:546
 msgid "Track Lanes"
-msgstr "பாதைகள் பாதைகள்"
+msgstr "ஓடும் பாதைகள்"
 
 #: template.py:547
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
-"{Ref} ட்ராக் லேன்ச் {எண்ட்ரெஃப் full ஐப் பயன்படுத்தி ஒரே பாதையில் "
-"ஆடியோ/மிடியின் பல அடுக்குகளைச் சேர்க்கவும்."
+"{ref} ட்ராக் லேன்ச் {எண்ட்ரெஃப் full ஐப் பயன்படுத்தி ஒரே பாதையில் ஆடியோ/மிடியின் பல அடுக்குகளைச் சேர்க்கவும்."
 
 #: template.py:549
 msgid "Bounce in Place"
@@ -407,7 +404,7 @@ msgstr "எங்கிருந்தும் எங்கிருந்த�
 
 #: template.py:617
 msgid "Connect anything to anything."
-msgstr "எதையும் எதையும் இணைக்கவும்."
+msgstr "எதையும் எதற்கும் இணை."
 
 #: template.py:619
 msgid "Automation Curves"
@@ -491,9 +488,8 @@ msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats"
 " including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
-"{Ref} கார்லா {எண்ட்ரெஃப்} க்கு நன்றி, எல்வி 2, விஎச்டி 2, விஎச்டி 3, ஏயூ, "
-"கிளாப் மற்றும் சேஎச்எஃப்எக்ச் உள்ளிட்ட பல்வேறு சொருகி வடிவங்களை சிரித்ம் "
-"ஆதரிக்கிறது."
+"{ref} கார்லா {endref} க்கு நன்றி, எல்வி 2, விஎச்டி 2, விஎச்டி 3, ஏயூ, கிளாப் மற்றும் சேஎச்எஃப்எக்ச் உள்ளிட்"
+"ட பல்வேறு சொருகி வடிவங்களை சிரித்ம் ஆதரிக்கிறது."
 
 #: template.py:648
 msgid "SoundFonts as Plugins"
@@ -678,8 +674,8 @@ msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU "
 "Guile scripts{endref}."
 msgstr ""
-"{Ref} குனு கெயில் ச்கிரிப்ட்கள் {endref ஃப்யூர் ஐப் பயன்படுத்தி அதன் நிலையைத்"
-" திருத்துவதன் மூலம் சிரித்மின் திறன்களை நீட்டிக்கவும்."
+"{ref} குனு கெயில் ச்கிரிப்ட்கள் {endref ஃப்யூர் ஐப் பயன்படுத்தி அதன் நிலையைத் திருத்துவதன் மூலம் சிரித்மின் திறன்களை"
+" நீட்டிக்கவும்."
 
 #: template.py:712
 msgid "Custom Editor Functions"
@@ -716,7 +712,7 @@ msgstr ""
 
 #: template.py:725
 msgid "SIMD-optimized DSP"
-msgstr "சிம்ட்-உகந்த டி.எச்.பி."
+msgstr "சிம்ட்-உகந்த டிஎச்பி"
 
 #: template.py:726
 msgid ""
@@ -878,10 +874,9 @@ msgid ""
 "VST2, VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 "
 "soundfonts and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
-"SFZ மற்றும் SF2 சவுண்ட்ஃபோன்ட்ச் மற்றும் சாண்ட்பாக்சிங் நன்றி {கார்லா_ரேஃப்} "
-"கார்லா {எண்ட்ரெஃப் {எண்ட்ரெஃப் {எண்ட்ரெஃப்} க்கு கூடுதல் ஆதரவுடன் {lv2_ref} "
-"lv2 {endref}, VST3, AU, AU, கிளாப் மற்றும் JSFX உள்ளிட்ட ஒவ்வொரு பெரிய சொருகி"
-" வடிவத்திற்கும் உதவி."
+"SFZ மற்றும் SF2 சவுண்ட்ஃபோன்ட்ச் மற்றும் சாண்ட்பாக்சிங் நன்றி {carla_ref} கார்லா {endref} கூடுதல் ஆதரவுடன் "
+"{lv2_ref} lv2 {endref}, VST2, VST3, AU, கிளாப் மற்றும் JSFX உள்ளிட்ட ஒவ்வொரு பெரிய சொருகி "
+"வடிவத்திற்கும் உதவி."
 
 #: template.py:785
 msgid ""
@@ -979,7 +974,7 @@ msgstr "மூலக் குறியீடு"
 
 #: common/footer.j2.inc:70
 msgid "Legal Information"
-msgstr "சட்ட செய்தி"
+msgstr "சட்ட தகவல்"
 
 #: common/footer.j2.inc:73 template/privacy.html.j2:19
 #: template/privacy.html.j2:22 template/privacy.html.j2:31
@@ -1367,7 +1362,7 @@ msgstr "உருவாக்குபவர் குறிப்பு"
 
 #: template/legal.html.j2:19 template/legal.html.j2:31
 msgid "Legal information"
-msgstr "சட்ட செய்தி"
+msgstr "சட்ட தகவல்"
 
 #: template/legal.html.j2:22
 msgid "Legal, licensing and trademark information"
@@ -1384,10 +1379,9 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
-"அலெக்சாண்ட்ரோச் தியோடோட்டோ மற்றும் பிற பங்களிப்பாளர்களால் சிரித்ம் "
-"பதிப்புரிமை பெற்றார். Zrythm <a href=\"https://git.sr.ht/~alexte/zrythm/tree/"
-"master/item/coping\"> குனு அஃபெரோ பொது பொது உரிமம், பதிப்பு 3 </a> இன் கீழ் "
-"வெளியிடப்பட்டது."
+"அலெக்சாண்ட்ரோச் தியோடோட்டோ மற்றும் பிற பங்களிப்பாளர்களால் சிரித்ம் பதிப்புரிமை பெற்றார். Zrythm <a href=\"https"
+"://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\"> குனு அஃபெரோ பொது பொது உரிமம், "
+"பதிப்பு 3 </a> இன் கீழ் வெளியிடப்பட்டது."
 
 #: template/legal.html.j2:50
 msgid ""
