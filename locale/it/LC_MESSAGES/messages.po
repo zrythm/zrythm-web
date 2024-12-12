@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-12-11 07:00+0000\n"
+"PO-Revision-Date: 2024-12-12 09:43+0000\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
@@ -173,30 +173,32 @@ msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
+"Estendi la funzionalità dello strumento di selezione passando agli strumenti "
+"{ref}Modifica, Taglia, Cancella, Rampa o Audition{endref}."
 
 #: template.py:536
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Aggancio adattivo"
 
 #: template.py:537
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Il comportamento di aggancio si adatta al livello dello zoom corrente."
 
 #: template.py:539
 msgid "Looping"
-msgstr ""
+msgstr "Ciclazione"
 
 #: template.py:540
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Cicli audio, MIDI, automazione e clip di accordi."
 
 #: template.py:543 template.py:784
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Linea temporale con funzionalità"
 
 #: template.py:546
 msgid "Track Lanes"
-msgstr ""
+msgstr "Corsie delle tracce"
 
 #: template.py:547
 msgid ""
