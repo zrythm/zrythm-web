@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-11-28 19:00+0000\n"
+"PO-Revision-Date: 2025-03-09 11:15+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/zrythm/web/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -654,7 +654,7 @@ msgstr "Nahezu jede Benutzeraktion kann zurückgenommen werden."
 
 #: template.py:702
 msgid "Serializable Undo History"
-msgstr ""
+msgstr "Serialisierbarer Rückgängig-Verlauf"
 
 #: template.py:703
 msgid "Keep your undo history when saving projects."
