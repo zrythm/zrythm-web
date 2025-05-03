@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2025-03-18 10:24+0000\n"
-"Last-Translator: Haruki Shimauchi <tontonkirikiri@gmail.com>\n"
+"PO-Revision-Date: 2025-05-04 08:22+0000\n"
+"Last-Translator: Y_NOIZ <timemachine.liesin@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
 "\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -827,7 +827,7 @@ msgstr "機能"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "マニュアル"
+msgstr "ユーザーマニュアル"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
