@@ -22,7 +22,7 @@ GNU Affero General Public License for more details.
         <img class="footer__image" src="{{ url('static/icons/zrythm/z_frame_8.svg') }}">
         <p class="footer__logo--text">Zrythm DAW</p>
       </a>
-      <p>&copy; 2019-2024, The Zrythm contributors.</p>
+      <p>&copy; 2019-2025, The Zrythm contributors.</p>
       <p>{{ _('Zrythm and the Zrythm logo are {ref}trademarks of Alexandros Theodotou{endref}.').format (
         ref = '<a href="{{ git_url }}/-/blob/master/TRADEMARKS.md">', endref = '</a>') }}</p>
     </div>
