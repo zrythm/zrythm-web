@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-08 22:01+0000\n"
+"Last-Translator: John Rosacroce <papyinc@yahoo.co.uk>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/zrythm/web/ro/>"
+"\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: template.py:449
@@ -29,213 +31,229 @@ msgstr ""
 
 #: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "O statie de productie audio  inalt automatizata si intuitiva"
 
 #: template.py:456
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "Compresor stereo cu interval dinamic"
 
 #: template.py:459
 msgid "Cubic nonlinearity distortion"
-msgstr ""
+msgstr "Distors de non-liniaritate cubica"
 
 #: template.py:462
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Efect stereo flanger"
 
 #: template.py:465
 msgid "Stereo signal gate"
-msgstr ""
+msgstr "Poarta de semnal stereo"
 
 #: template.py:468
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Filtru Butterworth de trecere inalta de grad 2"
 
 #: template.py:471
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Filtru Butterworth de trecere joasa de grad 2"
 
 #: template.py:474
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Egalizator parametric"
 
 #: template.py:477
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Compresor cu domeniu dinamic modelat dupa limitatorul de varfuri 1176"
 
 #: template.py:480
 msgid "Phasing effect"
-msgstr ""
+msgstr "Efect de modificare faza"
 
 #: template.py:483
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
-msgstr ""
+msgstr "Sintetizator polifonic cu 3 oscilatoare diferite"
 
 #: template.py:486
 msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
 msgstr ""
+"Efect de intarziere care nu produce clickuri sonore si nu se transpozeaza "
+"cand intervalul intarzierii este modificata"
 
 #: template.py:489
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "Efect de pedala WAH de grad 4"
 
 #: template.py:492
 msgid "White noise generator"
-msgstr ""
+msgstr "Generator de zgomot de fond"
 
 #: template.py:495
+#, fuzzy
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "Efect de Reverb tardiv cu 8x8 bucle de retea de raspuns"
 
 #: template.py:500
+#, fuzzy
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
 msgstr ""
+"ZHordz cartografiază acordurile unei game minore sau game majore la clapele "
+"albe"
 
 #: template.py:501
 msgid "Major or minor scale"
-msgstr ""
+msgstr "Gama majora sau minora"
 
 #: template.py:502
 msgid "Velocity multiplier per note"
-msgstr ""
+msgstr "Multiplicator de volum pe nota"
 
 #: template.py:505
+#, fuzzy
 msgid "ZLFO is a fully featured LFO for CV-based automation"
-msgstr ""
+msgstr "ZLFO este un LFO complet compus  pentru automatizarea bazată pe CV"
 
 #: template.py:506
 msgid "Multi-oscillator with custom wave"
-msgstr ""
+msgstr "Multi-oscilator cu unda personalizata"
 
 #: template.py:507
 msgid "Phase shift"
-msgstr ""
+msgstr "Decalaj de faza"
 
 #: template.py:508
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Inversiune verticala/orizontala"
 
 #: template.py:509
 msgid "Step mode"
-msgstr ""
+msgstr "Mod pas cu pas"
 
 #: template.py:510
 msgid "Editable range"
-msgstr ""
+msgstr "interval configurabil"
 
 #: template.py:511
 msgid "Sync to host or free-form"
-msgstr ""
+msgstr "Sincronizare catre GAZDA sau liberă"
 
 #: template.py:514
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw este un sintetizator supersaw cu 1 parametru"
 
 #: template.py:515
 msgid "7 sawtooth oscillators"
-msgstr ""
+msgstr "7 oscilatoare de tip zimtat"
 
 #: template.py:516
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Un singur buton pentru a controla dezacordul"
 
 #: template.py:527 template.py:769
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Editare intuitiva"
 
 #: template.py:530
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "Unealta de selectie flexibila"
 
 #: template.py:531
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
+"Selectaţi, mutaţi, redimensionaţi, clonaţi, legaţi, faceţi click, ştergeţi "
+"şi tăiaţi obiecte cu {ref}o singura unealta{endref}."
 
 #: template.py:533
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "Grup de unelte extinse"
 
 #: template.py:534
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, "
 "Erase, Ramp or Audition tools{endref}."
 msgstr ""
+"Extindeți funcționalitatea de selectare a uneltei prin trecerea la "
+"instrumentele {ref}Modifica, Taie, Sterge, Rampă sau Audiție{endref}."
 
 #: template.py:536
+#, fuzzy
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Atașament adaptativ"
 
 #: template.py:537
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Comportamentul de atasare se ajustează la nivelul actual de zoom."
 
 #: template.py:539
 msgid "Looping"
-msgstr ""
+msgstr "buclare ciclica"
 
 #: template.py:540
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Buclare ciclica audio,MIDI ,de automatizare si a acordurilor"
 
 #: template.py:543 template.py:784
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Cronologie detaliata"
 
 #: template.py:546
 msgid "Track Lanes"
-msgstr ""
+msgstr "Linii de piste"
 
 #: template.py:547
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Adăugați mai multe straturi de audio / MIDI la aceeași pistă folosind {ref}"
+"Linii de piste{endref}."
 
 #: template.py:549
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Exportare in loc"
 
 #: template.py:550
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "Exportare rapida in audio a selectiei."
 
 #: template.py:552
 msgid "Stretching"
-msgstr ""
+msgstr "Largire"
 
 #: template.py:553
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "Detaliati orice tip al regiunii"
 
 #: template.py:556
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Editoare puternice"
 
 #: template.py:559
 msgid "Piano Roll"
-msgstr ""
+msgstr "Rulou de pian"
 
 #: template.py:560
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord"
 " integration."
 msgstr ""
+"Creați, editați și aranjați evenimente MIDI într-o rolă de pian dedicată, cu "
+"integrare de acorduri."
 
 #: template.py:562
 msgid "Drum View"
-msgstr ""
+msgstr "Vedere a percutiei"
 
 #: template.py:563
 msgid "One-click switch to drum view for editing single-hit instruments."
-msgstr ""
+msgstr "Comutator la Percutie pentru editarea instrumentelor cu un singur atac."
 
 #: template.py:565
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Editor de volum"
 
 #: template.py:566
 msgid ""
