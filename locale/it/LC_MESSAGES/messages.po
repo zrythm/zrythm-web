@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-12-12 09:43+0000\n"
-"Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
+"PO-Revision-Date: 2025-09-15 22:01+0000\n"
+"Last-Translator: Fabiano Caputo <fabiano.caputo@outlook.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/zrythm/web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -205,6 +205,8 @@ msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Aggiungi vari livelli di audio/MIDI alla stessa traccia con le "
+"{ref}corsie{endref}."
 
 #: template.py:549
 msgid "Bounce in Place"
@@ -216,103 +218,117 @@ msgstr ""
 
 #: template.py:552
 msgid "Stretching"
-msgstr ""
+msgstr "Stiramento"
 
 #: template.py:553
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "Stira ogni tipo di regione"
 
 #: template.py:556
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Editor potenti"
 
 #: template.py:559
 msgid "Piano Roll"
-msgstr ""
+msgstr "Piano Roll"
 
 #: template.py:560
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Crea, modifica e organizza eventi MIDI in un piano roll dedicato con accordi "
+"integrati."
 
 #: template.py:562
 msgid "Drum View"
-msgstr ""
+msgstr "Vista Percussioni"
 
 #: template.py:563
 msgid "One-click switch to drum view for editing single-hit instruments."
 msgstr ""
+"Passa alla visuale percussioni con un clic per comporre con strumenti a "
+"colpo singolo."
 
 #: template.py:565
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Editor velocità"
 
 #: template.py:566
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Modifica contemporaneamente più velocità con lo strumento selezione o "
+"disegnale con la matita o la rampa."
 
 #: template.py:568
 msgid "Audio Editor"
-msgstr ""
+msgstr "Editor audio"
 
 #: template.py:569
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Regola dissolvenze/guadagno e modifica clip sonore grazie alle funzioni "
+"dell'editor audio."
 
 #: template.py:571
 msgid "List Editors"
-msgstr ""
+msgstr "Editor a lista"
 
 #: template.py:572
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Modifica manualmente i parametri nel visualizzatore eventi."
 
 #: template.py:574
 msgid "Editor Functions"
-msgstr ""
+msgstr "Funzioni dell'editor"
 
 #: template.py:575
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Applica velocemente funzioni come legato, inversione e dissolvenza in uscita "
+"agli oggetti selezionati."
 
 #: template.py:577
 msgid "External App Integration"
-msgstr ""
+msgstr "Integrazione con app esterne"
 
 #: template.py:578
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "Modifica parti audio selezionate in qualsiasi app esterna."
 
 #: template.py:581
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Capacità di registrazione"
 
 #: template.py:584
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "Registra audio/MIDI"
 
 #: template.py:585
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
+"Registra audio/MIDI da qualsiasi dei tuoi dispositivi, o perfino da altre "
+"app attraverso JACK."
 
 #: template.py:587
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Impostazioni di registrazione complete"
 
 #: template.py:588
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
+"Usa punch in/punch out, registra su ingressi MIDI e salva varie prove dello "
+"stesso pezzo."
 
 #: template.py:590
 msgid "Automation Recording"
@@ -1011,7 +1027,7 @@ msgstr ""
 
 #: template/download.html.j2:62
 msgid "Downloads"
-msgstr ""
+msgstr "Downloads"
 
 #: template/download.html.j2:68
 msgid "Installers"
