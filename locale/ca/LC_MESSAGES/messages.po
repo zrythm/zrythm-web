@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
 "PO-Revision-Date: 2026-01-05 01:01+0000\n"
-"Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
+"Last-Translator: \"Josep M. Ferrer\" <txemaq@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -282,7 +282,8 @@ msgstr "Editors de llista"
 #: template.py:572
 msgid "Edit object parameters manually in the event viewer."
 msgstr ""
-"Edita els paràmetres de l'objecte manualment al visor d'esdeveniments."
+"Edita els paràmetres de l'objecte manualment al visualitzador "
+"d'esdeveniments."
 
 #: template.py:574
 msgid "Editor Functions"
