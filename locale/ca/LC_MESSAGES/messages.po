@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-10-04 20:39+0000\n"
-"Last-Translator: Roger Pueyo Centelles <roger.pueyo@guifi.net>\n"
+"PO-Revision-Date: 2026-01-05 01:01+0000\n"
+"Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/zrythm/web/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: template.py:449
@@ -933,7 +933,7 @@ msgstr "Funcionalitats"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "Manual d'usuari"
+msgstr "Manual d'Usuari"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
@@ -1206,7 +1206,7 @@ msgstr "Accés a totes les versions v1"
 
 #: template/download.html.j2:109
 msgid "Subscription"
-msgstr "Subcripció"
+msgstr "Subscripció"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1439,7 +1439,7 @@ msgstr "Complements inclosos amb Zrythm"
 
 #: template/plugins.html.j2:38
 msgid "Basic Plugins"
-msgstr "Complements bàsics"
+msgstr "Complements Bàsics"
 
 #: template/plugins.html.j2:43 template/plugins.html.j2:69
 msgid "{} screenshot"
