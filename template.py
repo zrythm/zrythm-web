@@ -192,6 +192,8 @@ if fetch_orders:
                 bundle_price = float(product['price_jpy'])
             elif product['type'] == 'Subscription':
                 subscription_price = float(product['price_jpy'])
+    else:
+        print(r)
 
 assert (single_price > 0)
 assert (bundle_price > 0)
