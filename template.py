@@ -75,9 +75,6 @@ ZRYTHM_ACCOUNTS_TOKEN = os.getenv ('ZRYTHM_ACCOUNTS_TOKEN')
 
 fetch_orders = PAYPAL_CLIENT_ID and PAYPAL_SECRET and ZRYTHM_ACCOUNTS_TOKEN
 
-# FIXME: temporarily disable fetching orders
-fetch_orders = False
-
 verify_trial_package_urls = os.getenv ('VERIFY_TRIAL_PACKAGE_URLS') == 'YES'
 get_version = os.getenv ('GET_VERSION') == 'YES'
 
