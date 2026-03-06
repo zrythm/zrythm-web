@@ -53,6 +53,7 @@ deploy-site:
     - tags
   script:
     - rsync -av --no-group --omit-dir-times rendered/* $REMOTE_CI_USER@www.zrythm.org:$REMOTE_WWW_SITE_UPLOAD_PATH
+    - chmod 600 "$SSH_PRIVATE_KEY"
   before_script:
     ##
     ## Run ssh-agent (inside the build environment)
