@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2019, 2024 Alexandros Theodotou <alex@zrythm.org>
+# SPDX-FileCopyrightText: © 2019, 2024, 2026 Alexandros Theodotou <alex@zrythm.org>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 variables:
@@ -13,7 +13,7 @@ stages:
 default:
   cache:
     # this number must be bumped every time the dependencies are updated
-    - key: configured-cache-3
+    - key: configured-cache-4
       paths:
         - venv
     - key: $CI_COMMIT_TIMESTAMP
@@ -54,9 +54,20 @@ deploy-site:
   script:
     - rsync -av --no-group --omit-dir-times rendered/* $REMOTE_CI_USER@www.zrythm.org:$REMOTE_WWW_SITE_UPLOAD_PATH
   before_script:
+    ##
+    ## Run ssh-agent (inside the build environment)
+    ##
     - eval $(ssh-agent -s)
-    #- ssh-add <(echo "$SSH_PRIVATE_KEY")
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    ##
+    ## Give the right permissions, otherwise ssh-add will refuse to add files
+    ## Add the SSH key stored in SSH_PRIVATE_KEY file type CI/CD variable to the agent store
+    ##
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    ##
+    ## Create the SSH directory and give it the right permissions
+    ##
     - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
     - source ./venv/bin/activate
