@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2026-03-31 13:45+0000\n"
+"PO-Revision-Date: 2026-04-01 14:09+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/zrythm/web/sv/>\n"
 "Language: sv\n"
@@ -45,7 +45,7 @@ msgstr "Kubisk icke-linjär distorsion"
 
 #: template.py:462
 msgid "Stereo flanging effect"
-msgstr ""
+msgstr "Stereo flanger-effekt"
 
 #: template.py:465
 msgid "Stereo signal gate"
@@ -69,7 +69,7 @@ msgstr "Kompressor för dynamiskt omfång modellerad efter 1176 peak limitern"
 
 #: template.py:480
 msgid "Phasing effect"
-msgstr ""
+msgstr "Phasing-effekt"
 
 #: template.py:483
 msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
@@ -80,6 +80,7 @@ msgid ""
 "Delay that doesn't click and doesn't transpose when the delay time is "
 "changed"
 msgstr ""
+"Delay that doesn't klicka and doesn't transpose when the delay time is ändrad"
 
 #: template.py:489
 msgid "Wah pedal effect to the 4th order"
@@ -91,7 +92,7 @@ msgstr "Vitt brus generator"
 
 #: template.py:495
 msgid "8x8 late-reverberation FDN reverb"
-msgstr ""
+msgstr "8x8 FDN reverb med sen reverb"
 
 #: template.py:500
 msgid "ZChordz maps the chords of a minor or major scale to white keys"
@@ -120,7 +121,7 @@ msgstr "Fasförskjutning"
 
 #: template.py:508
 msgid "Vertical/horizontal inversion"
-msgstr ""
+msgstr "Vertikal/horisontell inversion"
 
 #: template.py:509
 msgid "Step mode"
@@ -128,7 +129,7 @@ msgstr "Stegläge"
 
 #: template.py:510
 msgid "Editable range"
-msgstr ""
+msgstr "Redigeraabell range"
 
 #: template.py:511
 msgid "Sync to host or free-form"
@@ -136,7 +137,7 @@ msgstr ""
 
 #: template.py:514
 msgid "ZSaw is a supersaw synth with 1 parameter"
-msgstr ""
+msgstr "ZSaw is a suppersaw synth with 1 parameter"
 
 #: template.py:515
 msgid "7 sawtooth oscillators"
@@ -144,186 +145,205 @@ msgstr "7 sågtandsoscillatorer"
 
 #: template.py:516
 msgid "Single knob to control detune"
-msgstr ""
+msgstr "Single knejb to kontroll detune"
 
 #: template.py:527 template.py:769
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Intuitive Redigeraing"
 
 #: template.py:530
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "Flexible Välj Verktyg"
 
 #: template.py:531
 msgid ""
 "Select, move, resize, clone, link, loop, delete and cut objects with a "
 "{ref}single tool{endref}."
 msgstr ""
+"Välj, move, restorlek, clone, länk, loop, delete and cut objekts with a {ref}"
+"single verktyg{slutref}."
 
 #: template.py:533
 msgid "Extensive Toolbox"
-msgstr ""
+msgstr "Extensive Verktygbox"
 
 #: template.py:534
 msgid ""
 "Extend select tool functionality by switching to the {ref}Edit, Cut, Erase, "
 "Ramp or Audition tools{endref}."
 msgstr ""
+"Extslut välj verktyg funktionality by switching to the {ref}Redigera, Klipp "
+"ut, Erase, Ramp or Audition verktygs{endref}."
 
 #: template.py:536
 msgid "Adaptive Snapping"
-msgstr ""
+msgstr "Adaptiv Snapping"
 
 #: template.py:537
 msgid "Snapping behavior adjusts to the current zoom level."
-msgstr ""
+msgstr "Snapping behavior adbaras to the current zoom nivå."
 
 #: template.py:539
 msgid "Looping"
-msgstr ""
+msgstr "Slingaing"
 
 #: template.py:540
 msgid "Loop audio, MIDI, automation and chord clips."
-msgstr ""
+msgstr "Slinga ljud, MIDI, automation and ackord clips."
 
 #: template.py:543 template.py:784
 msgid "Featureful Timeline"
-msgstr ""
+msgstr "Featureful Tidslinje"
 
 #: template.py:546
 msgid "Track Lanes"
-msgstr ""
+msgstr "Spår Lanes"
 
 #: template.py:547
 msgid ""
 "Add multiple layers of audio/MIDI to the same track using {ref}track "
 "lanes{endref}."
 msgstr ""
+"Lägg till multiple layers of ljud/MIDI to the samma spår using {ref}spår "
+"lanes{slutref}."
 
 #: template.py:549
 msgid "Bounce in Place"
-msgstr ""
+msgstr "Renderaa in Place"
 
 #: template.py:550
 msgid "Quickly bounce selected material to audio."
-msgstr ""
+msgstr "Quickly bounce väljed material to ljud."
 
 #: template.py:552
 msgid "Stretching"
-msgstr ""
+msgstr "Sträckning"
 
 #: template.py:553
 msgid "Stretch any type of region"
-msgstr ""
+msgstr "Stretch vilken som helst typ of region"
 
 #: template.py:556
 msgid "Powerful Editors"
-msgstr ""
+msgstr "Powerful Redigeraors"
 
 #: template.py:559
 msgid "Piano Roll"
-msgstr ""
+msgstr "Pianej Roll"
 
 #: template.py:560
 msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Skapa, edit and arrange MIDI events in a dedicated pianej roll with ackord "
+"integration."
 
 #: template.py:562
 msgid "Drum View"
-msgstr ""
+msgstr "Drum Visa"
 
 #: template.py:563
 msgid "One-click switch to drum view for editing single-hit instruments."
-msgstr ""
+msgstr "One-klicka switch to drum view for editing single-hit instruments."
 
 #: template.py:565
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Velocity Redigeraor"
 
 #: template.py:566
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Redigera multiple velocities simultaneously with the välj verktyg or draw "
+"with the pencil or ramp verktyg."
 
 #: template.py:568
 msgid "Audio Editor"
-msgstr ""
+msgstr "Ljud Redigeraor"
 
 #: template.py:569
 msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Adbara fades/gain and edit parts of ljud clips using ljud funktions inside "
+"the ljud editor."
 
 #: template.py:571
 msgid "List Editors"
-msgstr ""
+msgstr "Lista Redigeraors"
 
 #: template.py:572
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Redigera objekt parameters manuelllay in the event viewer."
 
 #: template.py:574
 msgid "Editor Functions"
-msgstr ""
+msgstr "Redigeraor Funktions"
 
 #: template.py:575
 msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Quickly apply funktions like Legato, Invert and Fade Out to the väljed "
+"objekts."
 
 #: template.py:577
 msgid "External App Integration"
-msgstr ""
+msgstr "Extern App Integration"
 
 #: template.py:578
 msgid "Edit selected audio parts in any external app."
-msgstr ""
+msgstr "Redigera väljed ljud parts in vilken som helst extern app."
 
 #: template.py:581
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Spela ining Capabilities"
 
 #: template.py:584
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "Ljud/MIDI Spela ining"
 
 #: template.py:585
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
+"Spela in ljud/MIDI from vilken som helst of your devices, or even from annan "
+"apps using JACK."
 
 #: template.py:587
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Comprehensive Spela ining Inställningar"
 
 #: template.py:588
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
+"Use punch in/punch out, record on MIDI inmatning, and alternativallay create "
+"multiple takes."
 
 #: template.py:590
 msgid "Automation Recording"
-msgstr ""
+msgstr "Automation Spela ining"
 
 #: template.py:591
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "Spela in automation in latch/touch mode."
 
 #: template.py:593
 msgid "Device Controls"
-msgstr ""
+msgstr "Device Kontrolls"
 
 #: template.py:594
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
+"Bind your device knejbs to kontrolls inside Zrythm and record your åtgärds."
 
 #: template.py:597 template.py:775
 msgid "Mixing Capabilities"
@@ -331,29 +351,32 @@ msgstr ""
 
 #: template.py:600
 msgid "Group Tracks"
-msgstr ""
+msgstr "Grupppera Spårs"
 
 #: template.py:601
 msgid "Organize audio/MIDI signal groups with group tracks."
-msgstr ""
+msgstr "Organize ljud/MIDI signal gruppperas with grupppera spårs."
 
 #: template.py:603
 msgid "Aux Sends"
-msgstr ""
+msgstr "Aux Ssluts"
 
 #: template.py:604
 msgid "Easily route signals to FX tracks and plugin sidechain inputs."
 msgstr ""
+"Easily route signals to FX spårs and insticksmodul sidechain inmatnings."
 
 #: template.py:606
 msgid "In-Context Listening"
-msgstr ""
+msgstr "In-Context Listaening"
 
 #: template.py:607
 msgid ""
 "Listen to specified tracks in the context of the mix by dimming down every "
 "other track."
 msgstr ""
+"Listaen to specified spårs in the context of the mix by dimming ner varje "
+"annan spår."
 
 #: template.py:609
 msgid "Monitor Section"
@@ -363,6 +386,7 @@ msgstr ""
 msgid ""
 "Change listen/mute/solo behavior and adjust what goes to your speakers."
 msgstr ""
+"Change listaen/tysta/solo behavior and adbara what goes to your speakers."
 
 #: template.py:613
 msgid "Unlimited Automation"
@@ -370,11 +394,11 @@ msgstr ""
 
 #: template.py:616
 msgid "Anywhere-to-Anywhere Connections"
-msgstr ""
+msgstr "Vilken som helstwhere-to-Vilken som helstwhere Connections"
 
 #: template.py:617
 msgid "Connect anything to anything."
-msgstr ""
+msgstr "Connect vilken som helstthing to vilken som helstthing."
 
 #: template.py:619
 msgid "Automation Curves"
@@ -398,13 +422,15 @@ msgstr ""
 
 #: template.py:625
 msgid "Automate Anything"
-msgstr ""
+msgstr "Automate Vilken som helstthing"
 
 #: template.py:626
 msgid ""
 "Automate any possible parameter, including the project's BPM and time "
 "signature."
 msgstr ""
+"Automate vilken som helst possible parameter, including the project's BPM "
+"and time signature."
 
 #: template.py:629
 msgid "Intuitive User Interface"
@@ -412,20 +438,22 @@ msgstr ""
 
 #: template.py:632
 msgid "Detachable Views"
-msgstr ""
+msgstr "Detachable Visas"
 
 #: template.py:633
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr ""
+"Detach views from vilken som helst panoreringel and work efficiently with "
+"multi-monitor setupps."
 
 #: template.py:635
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "Sökable Preferences"
 
 #: template.py:636
 msgid "Start typing to locate the preference you're looking for."
-msgstr ""
+msgstr "Starta typing to locate the preference you're looking for."
 
 #: template.py:638
 msgid "Inspector Pages"
@@ -433,15 +461,15 @@ msgstr ""
 
 #: template.py:639
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "Redigera alla spår and insticksmodul parameters in the inspector."
 
 #: template.py:642
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "Insticksmodul Capabilities"
 
 #: template.py:645
 msgid "Plugin Support"
-msgstr ""
+msgstr "Insticksmodul Suppport"
 
 #: template.py:646
 msgid ""
@@ -459,7 +487,7 @@ msgstr ""
 
 #: template.py:651
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "Flexible Insticksmodul Bläddrar"
 
 #: template.py:652
 msgid ""
@@ -469,7 +497,7 @@ msgstr ""
 
 #: template.py:654
 msgid "Plugin Bridging"
-msgstr ""
+msgstr "Insticksmodul Bridging"
 
 #: template.py:655
 msgid "Sandbox plugins by opening them in bridge mode."
@@ -477,7 +505,7 @@ msgstr ""
 
 #: template.py:657
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "Automatabell Bypass Mode"
 
 #: template.py:658
 msgid "Easily bypass plugins in the signal chain with an automatable control."
@@ -485,21 +513,23 @@ msgstr ""
 
 #: template.py:661
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "Comprehensive Importera/Exportera"
 
 #: template.py:664
 msgid "File Browser"
-msgstr ""
+msgstr "Fil Bläddrar"
 
 #: template.py:665
 msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
+"Bläddra and audition MIDI and ljud fils, and organize your favorite sökvägs "
+"with favorites."
 
 #: template.py:667
 msgid "Audio Files"
-msgstr ""
+msgstr "Ljud Fils"
 
 #: template.py:668
 msgid ""
@@ -518,19 +548,19 @@ msgstr ""
 
 #: template.py:673
 msgid "Stem Export"
-msgstr ""
+msgstr "Stem Exportera"
 
 #: template.py:674
 msgid "Export stems for specific tracks and share them with other producers."
-msgstr ""
+msgstr "Exportera stems for specific spårs and share them with annan producers."
 
 #: template.py:677 template.py:778
 msgid "Chord Assistance"
-msgstr ""
+msgstr "Ackord Assistance"
 
 #: template.py:680
 msgid "Chord Audition"
-msgstr ""
+msgstr "Ackord Audition"
 
 #: template.py:681
 msgid ""
@@ -540,57 +570,64 @@ msgstr ""
 
 #: template.py:683
 msgid "Chord Editing"
-msgstr ""
+msgstr "Ackord Redigeraing"
 
 #: template.py:684
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
 msgstr ""
+"Invert ackords with a single klicka or use the ackord väljor to välj vilken "
+"som helst ackord, with an alternativ to filtrera ackords in the current "
+"skala."
 
 #: template.py:686
 msgid "Recordable Chord Track"
-msgstr ""
+msgstr "Spela inable Ackord Spår"
 
 #: template.py:687
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
 msgstr ""
+"Dictate or record the skala and ackord progression of the project, and "
+"alternativallay route the utmatning to an instrument."
 
 #: template.py:689
 msgid "Chord Presets"
-msgstr ""
+msgstr "Ackord Påterställs"
 
 #: template.py:690
 msgid ""
 "Generate chords from a wide range of scales, load included chord presets for"
 " various genres, or save your own."
 msgstr ""
+"Generate ackords from a wide range of skalas, load included ackord "
+"påterställs for various genres, or save your own."
 
 #: template.py:693 template.py:787
 msgid "Never Lose Work"
-msgstr ""
+msgstr "Aldrig Lose Work"
 
 #: template.py:696
 msgid "Project Backups"
-msgstr ""
+msgstr "Projekt Bakupps"
 
 #: template.py:697
 msgid "Backups taken automatically at user-specified intervals."
-msgstr ""
+msgstr "Bakupps taken automatiskallay at user-specified intervals."
 
 #: template.py:699
 msgid "Undoable Actions"
-msgstr ""
+msgstr "Ångraable Åtgärds"
 
 #: template.py:700
 msgid "Almost every user action is undoable."
-msgstr ""
+msgstr "Almost varje user åtgärd is undoable."
 
 #: template.py:702
 msgid "Serializable Undo History"
-msgstr ""
+msgstr "Serializable Ångra History"
 
 #: template.py:703
 msgid "Keep your undo history when saving projects."
@@ -602,25 +639,27 @@ msgstr ""
 
 #: template.py:709
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Extslut Zrythm"
 
 #: template.py:710
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
+"Extslut the capabilities of Zrythm by editing its state using {ref}GNU Guile "
+"scripts{slutref}."
 
 #: template.py:712
 msgid "Custom Editor Functions"
-msgstr ""
+msgstr "Anpassad Redigeraor Funktions"
 
 #: template.py:713
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
-msgstr ""
+msgstr "Implement your own MIDI/ljud/automation funktions (coming soon)."
 
 #: template.py:715
 msgid "Project Generation"
-msgstr ""
+msgstr "Projekt Generation"
 
 #: template.py:716
 msgid "Generate projects with GNU Guile scripts."
@@ -638,6 +677,7 @@ msgstr ""
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr ""
+"Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 
 #: template.py:725
 msgid "SIMD-optimized DSP"
@@ -649,6 +689,9 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
+"Zrythm uses {ref}lsp-dsp-lib{slutref} which implements SIMD extensions such "
+"as SSE, AVX and FMA when tillgänglig to speed upp ljud bearbetar and "
+"minimize DSP usage."
 
 #: template.py:728
 msgid "Extensive Caching"
@@ -656,7 +699,7 @@ msgstr ""
 
 #: template.py:729
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "Expensive computations are pre-calculated to save bearbetar time."
 
 #: template.py:732
 msgid "Cross-Platform Support"
@@ -675,21 +718,23 @@ msgstr ""
 
 #: template.py:738
 msgid "Multiple Backends"
-msgstr ""
+msgstr "Multiple Baksluts"
 
 #: template.py:739
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"Suppport for almost alla major ljud and MIDI baksluts, including JACK/"
+"PipeWire, Windows MME, WASAPI and Core Ljud/MIDI."
 
 #: template.py:742
 msgid "Localization"
-msgstr ""
+msgstr "Lokalization"
 
 #: template.py:745
 msgid "Localized UI"
-msgstr ""
+msgstr "Lokalized UI"
 
 #: template.py:746
 msgid "Use Zrythm in your preferred language."
@@ -697,11 +742,11 @@ msgstr ""
 
 #: template.py:748
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "Easily Lägg till Translations"
 
 #: template.py:749
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
-msgstr ""
+msgstr "Lägg till missing translations and lokales on {ref}Weblate{slutref}."
 
 #: template.py:752
 msgid "User Freedom"
@@ -709,19 +754,20 @@ msgstr ""
 
 #: template.py:755
 msgid "Free Software"
-msgstr ""
+msgstr "Free Programvara"
 
 #: template.py:756
 msgid "All source code is released as {ref}copyleft free software{endref}."
 msgstr ""
+"Alla source code is released as {ref}copyvänster free programvara{slutref}."
 
 #: template.py:758
 msgid "Open Standards"
-msgstr ""
+msgstr "Öppna Standards"
 
 #: template.py:759
 msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
-msgstr ""
+msgstr "Zrythm suppports open standards such as MIDI, LV2, FLAC and OGG."
 
 #: template.py:761
 msgid "Cooperation"
@@ -739,6 +785,9 @@ msgid ""
 "a single tool or extend its functionality with additional specialized tools,"
 " and enjoy adaptive snapping in every arranger."
 msgstr ""
+"Easily välj, move, restorlek, clone, länk, loop, delete and cut objekts with "
+"a single verktyg or extslut its funktionality with additional speciellized "
+"verktygs, and enjoy adaptiv snapping in varje arranger."
 
 #: template.py:772
 msgid "Limitless Automation"
@@ -749,12 +798,17 @@ msgid ""
 "Automate almost anything with automation events using straight lines, ramps "
 "and curves, or with LFOs and envelopes."
 msgstr ""
+"Automate almost vilken som helstthing with automation events using straight "
+"lines, ramps and curves, or with LFOs and envelopes."
 
 #: template.py:776
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
 msgstr ""
+"In-context listaening, signal gruppperas, FX spårs, MIDI effect and insert "
+"slots, pre and post-fader aux ssluts and vilken som helstwhere-to-vilken som "
+"helstwhere routing."
 
 #: template.py:779
 msgid ""
@@ -762,6 +816,9 @@ msgid ""
 "save your own chord presets, manage your chord progression in the chord "
 "track and enjoy chord highlighting in the piano roll."
 msgstr ""
+"Generate ackords from skalas in the ackord pad, audition and invert ackords "
+"or save your own ackord påterställs, manage your ackord progression in the "
+"ackord spår and enjoy ackord highlighting in the pianej roll."
 
 #: template.py:781
 msgid "Audio Plugins"
@@ -787,6 +844,8 @@ msgid ""
 "Recover your work with automatic project backups, undo almost any user "
 "action and even save your undo history with projects."
 msgstr ""
+"Recover your work with automatisk project bakupps, undo almost vilken som "
+"helst user åtgärd and even save your undo history with projects."
 
 #: template.py:790
 msgid "Liberating"
@@ -798,12 +857,17 @@ msgid ""
 "software</a> with fully auditable source code. Use, study, share and improve"
 " it freely."
 msgstr ""
+"Zrythm is {copyvänster_ref}copyvänster{slutref} {free_programvara_ref}free "
+"programvara</a> with fully auditabell source code. Use, study, share and "
+"improve it freely."
 
 #: common/footer.j2.inc:26
 msgid ""
 "Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
 "Theodotou{endref}."
 msgstr ""
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros Theodotou"
+"{endref}."
 
 #: common/footer.j2.inc:30
 msgid "Project"
@@ -816,7 +880,7 @@ msgstr "Funktioner"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "Användarmanual"
+msgstr "Användarmanuell"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
@@ -848,7 +912,7 @@ msgstr ""
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "Om this Site"
 
 #: common/footer.j2.inc:67 template/download.html.j2:137
 msgid "Source Code"
@@ -893,11 +957,11 @@ msgstr "Hämta"
 
 #: common/navigation.j2.inc:41
 msgid "Select Language"
-msgstr ""
+msgstr "Välj Language"
 
 #: template/community.html.j2:22
 msgid "Zrythm's community pages and communication channels"
-msgstr ""
+msgstr "Zrythm's community pages and communication kanals"
 
 #: template/community.html.j2:44
 msgid "Join Development"
@@ -905,15 +969,15 @@ msgstr ""
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "Starta contributing code on our GitLab instans."
 
 #: template/community.html.j2:53
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "Skicka Bug Reports/Feature Requests"
 
 #: template/community.html.j2:56
 msgid "Browse our issue tracker and submit feature requests and bug reports."
-msgstr ""
+msgstr "Bläddra our issue spårer and skicka feature requests and bug reports."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -924,6 +988,8 @@ msgid ""
 "Translate the Zrythm DAW, the user manual and our websites into your "
 "language."
 msgstr ""
+"Translate the Zrythm DAW, the user manuell and our websites into your "
+"language."
 
 #: template/community.html.j2:72
 msgid "Get in Touch"
@@ -948,6 +1014,8 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"Our IRC kanal is #zrythm on Libera.Chat (<code>irc://irc.libera.chat/zrythm</"
+"code>). Feel free to ping an operator for a <code>zrythm/user/*</code> cloak."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -958,6 +1026,8 @@ msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix is an open standard for säker and decentralized communication. Our "
+"Matrix kanal is #zrythmdaw:matrix.org and is bridged with IRC."
 
 #: template/community.html.j2:105
 msgid "Follow us on Mastodon"
@@ -977,7 +1047,7 @@ msgstr ""
 
 #: template/community.html.j2:124
 msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
-msgstr ""
+msgstr "Sslut us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
 
 #: template/community.html.j2:130
 msgid "Donate on LiberaPay"
@@ -991,11 +1061,11 @@ msgstr ""
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
-msgstr ""
+msgstr "Donate on Öppna Collective"
 
 #: template/community.html.j2:142
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Donate on Öppna Collective and view our offentlig expenses."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -1007,7 +1077,7 @@ msgstr ""
 
 #: template/download.html.j2:62
 msgid "Downloads"
-msgstr ""
+msgstr "Nedladdningar"
 
 #: template/download.html.j2:68
 msgid "Installers"
@@ -1015,7 +1085,7 @@ msgstr ""
 
 #: template/download.html.j2:73
 msgid "Basic"
-msgstr ""
+msgstr "Grundläggande"
 
 #: template/download.html.j2:74
 msgid "Free"
@@ -1023,7 +1093,7 @@ msgstr ""
 
 #: template/download.html.j2:76
 msgid "Up to 25 tracks"
-msgstr ""
+msgstr "Upp to 25 spårs"
 
 #: template/download.html.j2:77
 msgid "Basic plugins"
@@ -1031,7 +1101,7 @@ msgstr ""
 
 #: template/download.html.j2:78
 msgid "Web user manual"
-msgstr ""
+msgstr "Web user manuell"
 
 #: template/download.html.j2:85
 #| msgid "Screenshot"
@@ -1041,7 +1111,7 @@ msgstr ""
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
 msgid "Unlimited tracks"
-msgstr ""
+msgstr "Unlimited spårs"
 
 #: template/download.html.j2:89 template/download.html.j2:101
 #: template/download.html.j2:113
@@ -1051,12 +1121,11 @@ msgstr ""
 #: template/download.html.j2:90 template/download.html.j2:102
 #: template/download.html.j2:114
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "Web & PDF user manuell"
 
 #: template/download.html.j2:91
-#| msgid "Access to all v1 releases"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "Access to v{} endast"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1071,9 +1140,8 @@ msgid "Access to all v1 releases"
 msgstr "Tillgång till alla v1 utgåvor"
 
 #: template/download.html.j2:109
-#| msgid "Subscribe"
 msgid "Subscription"
-msgstr ""
+msgstr "Prenumeration"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1089,12 +1157,14 @@ msgstr ""
 
 #: template/download.html.j2:118
 msgid "Subscribe"
-msgstr "Prenumerera"
+msgstr "Prenumeration"
 
 #: template/download.html.j2:123
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr ""
+"* Prices in this currency are estimates. Alla purchases are in "
+"Japanoreringese Yen."
 
 #: template/download.html.j2:128
 msgid ""
@@ -1108,7 +1178,7 @@ msgstr "GPG-nyckel"
 
 #: template/features.html.j2:23
 msgid "List of features."
-msgstr ""
+msgstr "Lista of features."
 
 #: template/index.html.j2:20
 msgid "Digital Audio Workstation"
@@ -1123,7 +1193,7 @@ msgstr ""
 
 #: template/index.html.j2:50
 msgid "A highly automated and intuitive digital audio workstation"
-msgstr ""
+msgstr "A highly automated and intuitive digital ljud workstation"
 
 #: template/index.html.j2:53
 msgid "Learn More"
@@ -1131,14 +1201,14 @@ msgstr ""
 
 #: template/index.html.j2:77
 msgid "Showcase"
-msgstr ""
+msgstr "Visacase"
 
 #: template/index.html.j2:86 template/index.html.j2:100
 #: template/index.html.j2:114 template/index.html.j2:128
 #: template/index.html.j2:142 template/index.html.j2:156
 #: template/index.html.j2:170
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Your bläddrar does nejt suppport HTML5 video."
 
 #: template/index.html.j2:147
 msgid "Remake"
@@ -1154,7 +1224,7 @@ msgstr ""
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
-msgstr ""
+msgstr "Zrythm reference pages - user manuell - tutorials"
 
 #: template/learn.html.j2:39
 msgid "Tutorials"
@@ -1169,27 +1239,27 @@ msgstr "Redigering"
 #: template/learn.html.j2:87 template/learn.html.j2:102
 #: template/learn.html.j2:112
 msgid "Your browser does not support HTML5 video"
-msgstr ""
+msgstr "Your bläddrar does nejt suppport HTML5 video"
 
 #: template/learn.html.j2:51
 msgid "Select/Stretch Tool"
-msgstr ""
+msgstr "Välj/Stretch Verktyg"
 
 #: template/learn.html.j2:61
 msgid "Edit Tool"
-msgstr ""
+msgstr "Redigera Verktyg"
 
 #: template/learn.html.j2:71
 msgid "Cut Tool"
-msgstr ""
+msgstr "Klipp ut Verktyg"
 
 #: template/learn.html.j2:81
 msgid "Ramp Tool"
-msgstr ""
+msgstr "Ramp Verktyg"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
-msgstr ""
+msgstr "Slingaing Regions"
 
 #: template/learn.html.j2:96
 msgid "Routing"
@@ -1197,7 +1267,7 @@ msgstr ""
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr ""
+msgstr "FX Ssluts"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
@@ -1238,6 +1308,9 @@ msgid ""
 "href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
 "Affero General Public License, version 3</a>."
 msgstr ""
+"Zrythm is copyrätted by Alexandros Theodotou and annan contributors. Zrythm "
+"is released under the <a href=\"https://git.sr.ht/~alextee/zrythm/tree/"
+"master/objekt/COPYING\">GNU Affero General Offentlig License, version 3</a>."
 
 #: template/legal.html.j2:50
 msgid ""
@@ -1245,12 +1318,17 @@ msgid ""
 "under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
 "Commons Attribution-ShareAlike 4.0 International</a>."
 msgstr ""
+"Unless annanwise stated, Videos found on the Zrythm website are released "
+"under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0 International</a>."
 
 #: template/legal.html.j2:56
 msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"The <em>Richard Stallaman: Free programvara, free society</em> video is "
+"licensed under Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -1259,12 +1337,18 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Credits: Drawings under CC-BY-ND 3.0 skapad by Christian Nejgareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier (http://"
+"uöverstiqdream.deviantart.com) based on ideas of Richard Stallaman, by "
+"himself and Ynternet.org foundation."
 
 #: template/legal.html.j2:66
 msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
 msgstr ""
+"Licenses for bilds found on this website can be found in {ref}this README fil"
+"{slutref}."
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
@@ -1296,7 +1380,7 @@ msgstr "Teknisk specifikation"
 
 #: template/privacy.html.j2:354
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "Sista upppdaterad on 7 Sep 2023"
 
 #~ msgid "Single"
 #~ msgstr "Ensam"
