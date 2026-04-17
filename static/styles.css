@@ -984,7 +984,12 @@ svg {
 .affiliates__grid {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem; }
+  .affiliates__grid img {
+    max-height: 90px;
+    width: auto; }
 
 .community__title {
   margin-top: 1rem; }

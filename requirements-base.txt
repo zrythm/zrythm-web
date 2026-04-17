@@ -1,0 +1,7 @@
+Babel
+Jinja2
+polib==1.2.0
+python-dateutil
+requests
+semver
+urllib3

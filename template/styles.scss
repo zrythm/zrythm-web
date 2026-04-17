@@ -1216,7 +1216,14 @@ svg {
 .affiliates__grid {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 3rem;
+
+  img {
+    max-height: 90px;
+    width: auto;
+  }
 }
 
 .community__title {
