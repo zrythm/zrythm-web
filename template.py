@@ -255,8 +255,8 @@ if fetch_orders:
             'Authorization': 'Bearer ' + access_token,
             }
         payload = {
-            'start_date': datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
-            'end_date': datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
+            'start_date': datetime.datetime.now(datetime.timezone.utc).replace(day=1).astimezone().replace(microsecond=0).isoformat(),
+            'end_date': datetime.datetime.now(datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
             'transaction_status': 'S',
             }
         r = requests.get(transactions_url, params=payload, headers=headers)
@@ -351,6 +351,8 @@ if get_version:
         alpha_version = latest_alpha_ver.replace ('-', '.')
         alpha_available = True
         print ('alpha version: ' + alpha_ver)
+    # hardcode it for now... (FIXME)
+    alpha_ver = '2.0.0-alpha.0+350.73647fd03326'
 else:
     version = '1'
     alpha_ver = ""
@@ -391,9 +393,8 @@ if verify_trial_package_urls:
 
 if verify_trial_package_urls and alpha_available:
     print ('verifying alpha packages...')
-    alpha_pkg_ver = '2.0.0-alpha.0+268.bf275e7d6ba9'
-    for suffix in ['-Linux-Runtime.tar.xz', '-win64.exe', '-MacOS.dmg']:
-        assert (check_url (downloads_url + 'Zrythm-' + alpha_pkg_ver + suffix, False))
+    for suffix in ['-Linux.AppImage', '-win64.exe', '-MacOS.dmg']:
+        assert (check_url (downloads_url + 'Zrythm-' + alpha_ver + suffix, False))
     print ('done')
 
 def url(x):

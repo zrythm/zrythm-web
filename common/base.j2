@@ -21,6 +21,11 @@ GNU Affero General Public License for more details.
   </head>
   <body id="mybody">
     {% include "common/navigation.j2.inc" %}
+    {% if alpha_available %}
+    <div style="background-color: var(--color-primary-400); text-align: center; padding: 0.5rem 1rem;">
+      <a style="color: var(--color-grayscale-900); font-size: 0.85rem; text-decoration: none;" href="{{ url(lang + '/download-v2-alpha.html') }}">{{ _('v2 Alpha available for testing') }} &rarr;</a>
+    </div>
+    {% endif %}
 
     {#
     <div id="banner">

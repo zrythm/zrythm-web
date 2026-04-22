@@ -1,0 +1,90 @@
+{#
+Copyright (C) 2026 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+#}
+
+{% extends "common/base.j2" %}
+{% block head_content %}
+<title>Zrythm - {{ _('v2 Alpha Download') }}</title>
+<meta name="description"
+      content=
+      "{% trans %}
+      Download Zrythm v2 alpha for testing purposes.
+      {% endtrans %}" />
+{% endblock head_content %}
+
+{% block body_content %}
+<section class="hero">
+    <section class="hero__container container">
+        <h2 class="hero__title">{{ _('v2 Alpha Download') }}</h2>
+    </section>
+</section>
+
+<section>
+    <div class="container" style="text-align: center;">
+        <p>{% trans %}Zrythm v2 is a major rewrite that brings improved cross-platform support and stability.{% endtrans %}</p>
+        <p>{% trans %}These builds are being made available for a limited time so everyone can try v2 and give feedback before the official release.{% endtrans %}</p>
+        <p>{{ _('Version') }}: v{{ alpha_ver }}</p>
+    </div>
+</section>
+
+<h3 class="header--underline">{{ _('Downloads') }}</h3>
+<section>
+    <div class="container" style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; padding: 1rem 0;">
+        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-Linux.AppImage">GNU/Linux (AppImage)</a>
+        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-win64.exe">Windows (64-bit)</a>
+        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-MacOS.dmg">MacOS (Apple Silicon & Intel)</a>
+        <a class="btn" href="{{ git_url }}">{{ _('Source Code') }}</a>
+    </div>
+    <div class="container" style="text-align: center;">
+        <p style="font-style: italic;">{{ _('This is pre-release software intended for testing only. Not suitable for production use. Use at your own risk.') }}</p>
+    </div>
+</section>
+
+<h3 class="header--underline">{{ _('Installation Instructions') }}</h3>
+<section>
+    <div class="container" style="text-align: center;">
+        <p>{{ _('For Windows and MacOS, double click the installer and follow the instructions. For GNU/Linux, make the AppImage executable and run it.') }}</p>
+    </div>
+</section>
+
+<h3 class="header--underline">{{ _('System Requirements') }}</h3>
+<section>
+    <div class="container" style="text-align: center;">
+        <ul style="display: inline-block; text-align: left; padding-left: 1.5rem;">
+            <li>{{ _('GNU/Linux: GNU libc 2.31 or higher, X11/Xwayland, CPU with SSE4.2 support') }}</li>
+            <li>{{ _('Windows: Windows 10 (1809 or later) or 11, CPU with AVX support') }}</li>
+            <li>{{ _('MacOS: macOS 13 or higher') }}</li>
+        </ul>
+    </div>
+</section>
+
+<h3 class="header--underline">{{ _('What to Expect') }}</h3>
+<section>
+    <div class="container" style="text-align: center;">
+        <ul style="display: inline-block; text-align: left; padding-left: 1.5rem;">
+            <li>{{ _('Projects saved in v2 are not compatible with v1 and vice versa') }}</li>
+            <li>{{ _('Some features from v1 may not yet be available') }}</li>
+            <li>{{ _('There may be crashes, data loss, or other issues') }}</li>
+            <li>{% trans url=issue_tracker %}Please report bugs on the <a href="{{ url }}">issue tracker</a>{% endtrans %}</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="container" style="text-align: center; margin-top: 2rem;">
+        <a href="{{ url(lang + '/download.html') }}">{{ _('Looking for the stable version?') }}</a>
+    </div>
+</section>
+{% endblock body_content %}
