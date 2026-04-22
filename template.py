@@ -336,8 +336,26 @@ if get_version:
     print ('normal version: ' + latest_ver)
     version = latest_ver.replace ('-', '.')
     print ('version: ' + version)
+
+    # get latest v2 alpha version
+    alpha_versions = check_output('git ls-remote --tags https://gitlab.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v2\\.[0-9]*\\.0-alpha\\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\\/]*$"', shell=True).decode("utf-8").strip ()
+    alpha_ver = ""
+    alpha_version = ""
+    alpha_available = False
+    if alpha_versions:
+        latest_alpha_ver = "0.0.0"
+        for ver in alpha_versions.split('\n'):
+            if (semver.compare(ver, latest_alpha_ver) > 0):
+                latest_alpha_ver = ver
+        alpha_ver = latest_alpha_ver
+        alpha_version = latest_alpha_ver.replace ('-', '.')
+        alpha_available = True
+        print ('alpha version: ' + alpha_ver)
 else:
     version = '1'
+    alpha_ver = ""
+    alpha_version = ""
+    alpha_available = False
 
 def check_url(url, use_ng_cache):
     cache_file_path_ok = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ok'
@@ -369,6 +387,13 @@ if verify_trial_package_urls:
     # for suffix in ['-x86_64.flatpak','-installer.zip','-ms-setup.exe','-osx-installer.zip']:
     for suffix in ['-installer.zip','-ms-setup.exe','-osx-installer.zip']:
         assert (check_url (github_release_asset_url + 'v' + latest_ver + '/zrythm-trial-' + version + suffix, False))
+    print ('done')
+
+if verify_trial_package_urls and alpha_available:
+    print ('verifying alpha packages...')
+    alpha_pkg_ver = '2.0.0-alpha.0+268.bf275e7d6ba9'
+    for suffix in ['-Linux-Runtime.tar.xz', '-win64.exe', '-MacOS.dmg']:
+        assert (check_url (downloads_url + 'Zrythm-' + alpha_pkg_ver + suffix, False))
     print ('done')
 
 def url(x):
@@ -852,6 +877,9 @@ for in_file in glob.glob("template/*.j2"):
                               feature_groups=feature_groups,
                               version=version,
                               latest_ver=latest_ver,
+                              alpha_ver=alpha_ver,
+                              alpha_version=alpha_version,
+                              alpha_available=alpha_available,
                               pronunciation=pronunciation,
                               self_localized=self_localized,
                               url_localized=url_localized,
