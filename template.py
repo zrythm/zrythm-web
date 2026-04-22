@@ -45,7 +45,6 @@ import re
 import base64
 import gettext
 import glob
-import codecs
 import jinja2
 import i18nfix
 import urllib3
@@ -216,7 +215,7 @@ if fetch_orders:
     print ('getting zrythm-accounts orders...')
     r = requests.get(orders_url, params=payload, headers=headers)
     if r.status_code == 200:
-        start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
+        start_datetime = datetime.datetime.now(datetime.timezone.utc).replace(day=1).astimezone().replace(microsecond=0)
         # TODO change to following next month
         # start_datetime = datetime.datetime.utcnow().replace(day=1,tzinfo=datetime.timezone.utc).astimezone().replace(microsecond=0)
         for order in r.json()['results']:
@@ -328,7 +327,7 @@ prev_month_comparison_perc = '{0:.0f}'.format(100 * (monthly_earning / prev_mont
 if get_version:
 # get latest version
     from subprocess import check_output
-    versions = check_output('git ls-remote --tags https://gitlab.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[1-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
+    versions = check_output(r'git ls-remote --tags https://gitlab.zrythm.org/zrythm/zrythm | grep -o "refs/tags/v[1-9]*\.[0-9]*\.[0-9]*$" | sed -e "s/v//" | sort -r | grep -o "[^\/]*$"', shell=True).decode("utf-8").strip ()
     latest_ver = "0.0.0"
     for ver in versions.split('\n'):
         if (semver.compare(ver, latest_ver) > 0):
@@ -893,8 +892,8 @@ for in_file in glob.glob("template/*.j2"):
                               filename=name + "." + ext)
         out_name = "./rendered/" + locale + "/" + in_file.replace('template/', '').rstrip(".j2")
         os.makedirs("./rendered/" + locale, exist_ok=True)
-        with codecs.open(out_name, "w", encoding='utf-8') as f:
+        with open(out_name, "w", encoding='utf-8') as f:
             f.write(content)
 
-with codecs.open('./rendered/zrythm-version.txt', "w", encoding='utf-8') as f:
+with open('./rendered/zrythm-version.txt', "w", encoding='utf-8') as f:
     f.write(latest_ver)

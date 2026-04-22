@@ -24,7 +24,7 @@ GNU Affero General Public License for more details.
       </a>
       <p>&copy; 2019-2026, The Zrythm contributors.</p>
       <p>{{ _('Zrythm and the Zrythm logo are {ref}trademarks of Alexandros Theodotou{endref}.').format (
-        ref = '<a href="{{ git_url }}/-/blob/master/TRADEMARKS.md">', endref = '</a>') }}</p>
+        ref = '<a href="' + git_url + '/-/blob/master/TRADEMARKS.md">', endref = '</a>') }}</p>
     </div>
     <div class="footer__section">
       <h4 class="footer__title">{{ _('Project') }}</h4>
