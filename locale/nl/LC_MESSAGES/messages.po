@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-04-14 07:02+0000\n"
-"Last-Translator: Antoon Stessels <antoon.stessels@gmail.com>\n"
+"PO-Revision-Date: 2026-05-14 19:14+0000\n"
+"Last-Translator: cheese <deanlemans5646@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/zrythm/web/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: template.py:449
@@ -29,11 +29,11 @@ msgstr ""
 
 #: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Een hoog geautomatiseerd en intuïtief digitaal audio werkstation."
 
 #: template.py:456
 msgid "Stereo dynamic range compressor"
-msgstr ""
+msgstr "Stereo dynamisch bereik compressor"
 
 #: template.py:459
 msgid "Cubic nonlinearity distortion"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: template.py:477
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
-msgstr ""
+msgstr "Dynamische compressor gemodelleerd naar de 1176 piek limiet"
 
 #: template.py:480
 msgid "Phasing effect"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: template.py:492
 msgid "White noise generator"
-msgstr ""
+msgstr "Wit geluid generator"
 
 #: template.py:495
 msgid "8x8 late-reverberation FDN reverb"
@@ -813,7 +813,7 @@ msgstr ""
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr ""
+msgstr "gebruiks-handleiding"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
@@ -825,11 +825,11 @@ msgstr ""
 
 #: common/footer.j2.inc:47
 msgid "Community"
-msgstr ""
+msgstr "Gemeenschap"
 
 #: common/footer.j2.inc:50
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: common/footer.j2.inc:53 common/navigation.j2.inc:30
 msgid "Forum"
@@ -845,7 +845,7 @@ msgstr ""
 
 #: common/footer.j2.inc:64
 msgid "About this Site"
-msgstr ""
+msgstr "Over deze Site"
 
 #: common/footer.j2.inc:67 template/download.html.j2:137
 msgid "Source Code"
@@ -1053,7 +1053,7 @@ msgstr ""
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
-msgstr ""
+msgstr "Aankoop"
 
 #: template/download.html.j2:97
 msgid "Bundle"
