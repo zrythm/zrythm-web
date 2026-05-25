@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2026-05-24 17:11+0000\n"
+"PO-Revision-Date: 2026-05-26 15:11+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -240,10 +240,13 @@ msgid ""
 "Create, edit and arrange MIDI events in a dedicated piano roll with chord "
 "integration."
 msgstr ""
+"Crear, editar y organizar eventos MIDI en un piano roll dedicado con "
+"integración de acordes."
 
 #: template.py:562
+#, fuzzy
 msgid "Drum View"
-msgstr ""
+msgstr "Vista del tambor"
 
 #: template.py:563
 msgid "One-click switch to drum view for editing single-hit instruments."
