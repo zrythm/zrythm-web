@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2026-05-26 15:11+0000\n"
+"PO-Revision-Date: 2026-07-06 16:01+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: template.py:449
@@ -254,13 +254,15 @@ msgstr ""
 
 #: template.py:565
 msgid "Velocity Editor"
-msgstr ""
+msgstr "Editor de Velocidad"
 
 #: template.py:566
 msgid ""
 "Edit multiple velocities simultaneously with the select tool or draw with "
 "the pencil or ramp tool."
 msgstr ""
+"Edite varias velocidades simultáneamente con la herramienta seleccionar o "
+"dibuje con la herramienta lápiz o rampa."
 
 #: template.py:568
 msgid "Audio Editor"
@@ -271,14 +273,16 @@ msgid ""
 "Adjust fades/gain and edit parts of audio clips using audio functions inside"
 " the audio editor."
 msgstr ""
+"Ajustar los fundidos/ganancia y editar partes de clips de audio utilizando "
+"funciones de audio dentro del editor de audio."
 
 #: template.py:571
 msgid "List Editors"
-msgstr ""
+msgstr "Editores de Listas"
 
 #: template.py:572
 msgid "Edit object parameters manually in the event viewer."
-msgstr ""
+msgstr "Edite los parámetros del objeto manualmente en el visor de eventos."
 
 #: template.py:574
 msgid "Editor Functions"
@@ -289,6 +293,8 @@ msgid ""
 "Quickly apply functions like Legato, Invert and Fade Out to the selected "
 "objects."
 msgstr ""
+"Aplicar rápidamente funciones como Legato, Invertir y Desvanecer a los "
+"objetos seleccionados."
 
 #: template.py:577
 msgid "External App Integration"
@@ -300,52 +306,58 @@ msgstr "Edite partes determinadas del audio en cualquier programa externo."
 
 #: template.py:581
 msgid "Recording Capabilities"
-msgstr ""
+msgstr "Capacidades de Grabación"
 
 #: template.py:584
 msgid "Audio/MIDI Recording"
-msgstr ""
+msgstr "Grabación de Audio/MIDI"
 
 #: template.py:585
 msgid ""
 "Record audio/MIDI from any of your devices, or even from other apps using "
 "JACK."
 msgstr ""
+"Grabar audio/MIDI desde cualquiera de los dispositivos, o incluso desde "
+"otras aplicaciones con JACK."
 
 #: template.py:587
 msgid "Comprehensive Recording Settings"
-msgstr ""
+msgstr "Ajustes de Grabación Completos"
 
 #: template.py:588
 msgid ""
 "Use punch in/punch out, record on MIDI input, and optionally create multiple"
 " takes."
 msgstr ""
+"Utilizar punch in/punch out, grabar en la entrada MIDI y, opcionalmente, "
+"crear varias tomas."
 
 #: template.py:590
 msgid "Automation Recording"
-msgstr ""
+msgstr "Grabación Automatizada"
 
 #: template.py:591
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "Automatización de registros en modo latch/touch."
 
 #: template.py:593
 msgid "Device Controls"
-msgstr ""
+msgstr "Controles del Dispositivo"
 
 #: template.py:594
 msgid ""
 "Bind your device knobs to controls inside Zrythm and record your actions."
 msgstr ""
+"Vincula los interruptores de tu dispositivo a los controles dentro de Zrythm "
+"y graba tus acciones."
 
 #: template.py:597 template.py:775
 msgid "Mixing Capabilities"
-msgstr ""
+msgstr "Capacidades de Mezcla"
 
 #: template.py:600
 msgid "Group Tracks"
-msgstr ""
+msgstr "Pistas de Grupos"
 
 #: template.py:601
 msgid "Organize audio/MIDI signal groups with group tracks."
