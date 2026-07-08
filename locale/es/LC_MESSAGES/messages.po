@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2026-07-06 16:01+0000\n"
+"PO-Revision-Date: 2026-07-09 16:01+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -444,10 +444,12 @@ msgstr ""
 msgid ""
 "Detach views from any panel and work efficiently with multi-monitor setups."
 msgstr ""
+"Separe las vistas de cualquier panel y trabaje de manera eficiente con "
+"configuraciones de varios monitores."
 
 #: template.py:635
 msgid "Searchable Preferences"
-msgstr ""
+msgstr "Preferencias de Búsqueda"
 
 #: template.py:636
 msgid "Start typing to locate the preference you're looking for."
@@ -455,63 +457,69 @@ msgstr ""
 
 #: template.py:638
 msgid "Inspector Pages"
-msgstr ""
+msgstr "Páginas de Inspector"
 
 #: template.py:639
 msgid "Edit all track and plugin parameters in the inspector."
-msgstr ""
+msgstr "Edite todos los parámetros de pista y complemento en el inspector."
 
 #: template.py:642
 msgid "Plugin Capabilities"
-msgstr ""
+msgstr "Capacidades del Complemento"
 
 #: template.py:645
 msgid "Plugin Support"
-msgstr ""
+msgstr "Soporte de Complementos"
 
 #: template.py:646
 msgid ""
 "Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats "
 "including LV2, VST2, VST3, AU, CLAP and JSFX."
 msgstr ""
+"Gracias a {ref}Carla {endref}, Zrythm admite una variedad de formatos de "
+"complementos, incluidos LV2, VST2, VST3, AU, CLAP y JSFX."
 
 #: template.py:648
 msgid "SoundFonts as Plugins"
-msgstr ""
+msgstr "Fuentes de sonido como Complementos"
 
 #: template.py:649
 msgid "Use SFZ and SF2 soundfonts as instrument plugins."
-msgstr ""
+msgstr "Utilice fuentes de sonido SFZ y SF2 como complementos de instrumentos."
 
 #: template.py:651
 msgid "Flexible Plugin Browser"
-msgstr ""
+msgstr "Navegador de Complementos Flexible"
 
 #: template.py:652
 msgid ""
 "Easily filter plugins by author, format or category, and organize your "
 "favorite plugins with plugin collections."
 msgstr ""
+"Filtra fácilmente los complementos por autor, formato o categoría, y "
+"organiza tus complementos favoritos con colecciones de complementos."
 
 #: template.py:654
 msgid "Plugin Bridging"
-msgstr ""
+msgstr "Puente de Plugins"
 
 #: template.py:655
 msgid "Sandbox plugins by opening them in bridge mode."
-msgstr ""
+msgstr "Complementos de Sandbox abriéndolos en modo puente."
 
 #: template.py:657
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "Modo de Derivación Automatizable"
 
 #: template.py:658
 msgid "Easily bypass plugins in the signal chain with an automatable control."
 msgstr ""
+"Omita fácilmente los complementos en la cadena de señales con un control "
+"automatizable."
 
 #: template.py:661
 msgid "Comprehensive Import/Export"
-msgstr ""
+msgstr "Importación/Exportación Integral"
 
 #: template.py:664
 msgid "File Browser"
@@ -522,16 +530,20 @@ msgid ""
 "Browse and audition MIDI and audio files, and organize your favorite paths "
 "with favorites."
 msgstr ""
+"Explorar y escuchar archivos MIDI y de audio, y organizar las rutas "
+"favoritas con favoritos."
 
 #: template.py:667
 msgid "Audio Files"
-msgstr ""
+msgstr "Archivos de Audio"
 
 #: template.py:668
 msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
+"Importar o exportar cualquier formato compatible con {ref}libsndfile{endref}"
+", con soporte adicional de importación de MP3."
 
 #: template.py:670
 msgid "MIDI"
