@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2026-07-09 16:01+0000\n"
+"PO-Revision-Date: 2026-07-10 18:01+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -632,29 +632,34 @@ msgstr ""
 
 #: template.py:703
 msgid "Keep your undo history when saving projects."
-msgstr ""
+msgstr "Mantenga su historial de deshacer al guardar proyectos."
 
 #: template.py:706
+#, fuzzy
 msgid "Scripting"
-msgstr ""
+msgstr "Crear scripts"
 
 #: template.py:709
+#, fuzzy
 msgid "Extend Zrythm"
-msgstr ""
+msgstr "Ampliar Zrythm"
 
 #: template.py:710
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
 msgstr ""
+"Amplíe las capacidades de Zrythm editando su estado usando {ref}scripts GNU "
+"Guile{endref}."
 
 #: template.py:712
 msgid "Custom Editor Functions"
-msgstr ""
+msgstr "Funciones de Editor Personalizadas"
 
 #: template.py:713
 msgid "Implement your own MIDI/audio/automation functions (coming soon)."
 msgstr ""
+"Implemente sus propias funciones MIDI/audio/automatización (próximamente)."
 
 #: template.py:715
 msgid "Project Generation"
@@ -671,16 +676,18 @@ msgstr "Desempeño optimizado"
 
 #: template.py:722
 msgid "Hardware accelerated UI"
-msgstr ""
+msgstr "Interfaz de usuario acelerada por hardware"
 
 #: template.py:723
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
 msgstr ""
+"La mayor parte de la interfaz de usuario se dibuja en la GPU gracias a {ref}"
+"GTK4{endref}."
 
 #: template.py:725
 msgid "SIMD-optimized DSP"
-msgstr ""
+msgstr "DSP optimizado para SIMD"
 
 #: template.py:726
 msgid ""
@@ -688,18 +695,23 @@ msgid ""
 "as SSE, AVX and FMA when available to speed up audio processing and minimize"
 " DSP usage."
 msgstr ""
+"Zrythm usa {ref} lsp-dsp-lib{endref} que implementa extensiones SIMD como "
+"SSE, AVX y FMA cuando están disponibles para acelerar el procesamiento de "
+"audio y minimizar el uso de DSP."
 
 #: template.py:728
 msgid "Extensive Caching"
-msgstr ""
+msgstr "Amplia memoria caché"
 
 #: template.py:729
 msgid "Expensive computations are pre-calculated to save processing time."
 msgstr ""
+"Las tareas costosas se calculan de antemano para ahorrar tiempo de "
+"procesamiento."
 
 #: template.py:732
 msgid "Cross-Platform Support"
-msgstr ""
+msgstr "Soporte Multiplataforma"
 
 #: template.py:735
 msgid "Multiple Platforms"
@@ -711,36 +723,44 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythm está diseñado para ejecutarse en una {ref}amplia variedad de "
+"plataformas y arquitecturas {endref}, incluidas las arquitecturas x86, "
+"PowerPC, RISC-V, ARMv7 y ARMv8."
 
 #: template.py:738
 msgid "Multiple Backends"
-msgstr ""
+msgstr "Múltiples Backends"
 
 #: template.py:739
 msgid ""
 "Support for almost all major audio and MIDI backends, including "
 "JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
 msgstr ""
+"Soporte para casi todos los principales backends de audio y MIDI, incluidos "
+"JACK / PipeWire, Windows MME, WASAPI y Core Audio / MIDI."
 
 #: template.py:742
 msgid "Localization"
 msgstr "Regionalización"
 
 #: template.py:745
+#, fuzzy
 msgid "Localized UI"
-msgstr ""
+msgstr "IU local"
 
 #: template.py:746
 msgid "Use Zrythm in your preferred language."
-msgstr ""
+msgstr "Utiliza Zrythm en tu idioma preferido."
 
 #: template.py:748
 msgid "Easily Add Translations"
-msgstr ""
+msgstr "Agregar Traducciones Fácilmente"
 
 #: template.py:749
 msgid "Add missing translations and locales on {ref}Weblate{endref}."
 msgstr ""
+"Agregar traducciones y configuraciones regionales que falten en{ref}Weblate"
+"{endref}."
 
 #: template.py:752
 msgid "User Freedom"
