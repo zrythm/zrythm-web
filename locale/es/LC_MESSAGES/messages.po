@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2026-07-10 18:01+0000\n"
+"PO-Revision-Date: 2026-07-12 18:01+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/zrythm/web/es/>\n"
 "Language: es\n"
@@ -992,12 +992,13 @@ msgstr "Póngase en contacto"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "Únete a nuestro Foro"
 
 #: template/community.html.j2:81
 msgid ""
 "Join our forum and share your experience with the rest of the community."
 msgstr ""
+"Únete a nuestro foro y comparte tu experiencia con el resto de la comunidad."
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1009,6 +1010,9 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"Nuestro canal de IRC es #zrythm en Libera.Chat (<code>irc://irc.libera.chat/"
+"zrythm</code>). Siéntase libre de hacer ping a un operador para obtener una "
+"capa <code>zrythm/user/*</code>."
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -1019,6 +1023,8 @@ msgid ""
 "Matrix is an open standard for secure and decentralized communication. Our "
 "Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
 msgstr ""
+"Matrix es un estándar abierto para la comunicación segura y descentralizada. "
+"Nuestro canal Matrix es #zrythmdaw:matrix.org y está conectado con IRC."
 
 #: template/community.html.j2:105
 msgid "Follow us on Mastodon"
@@ -1029,6 +1035,8 @@ msgid ""
 "Follow us on Mastodon to get updates on new releases and get sneak peeks at "
 "new features, vote in polls, and more."
 msgstr ""
+"Síguenos en Mastodon para recibir actualizaciones sobre nuevos lanzamientos "
+"y adelantos de nuevas funciones, votar en encuestas y más."
 
 #: template/community.html.j2:121
 msgid "Donate CryptoCurrency"
@@ -1047,6 +1055,8 @@ msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
 msgstr ""
+"Conviértase en patrocinador de LiberaPay. Puedes donar usando PayPal, "
+"tarjeta de crédito o una cuenta bancaria europea."
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1054,7 +1064,7 @@ msgstr "Donar en Open Collective"
 
 #: template/community.html.j2:142
 msgid "Donate on Open Collective and view our public expenses."
-msgstr ""
+msgstr "Dona en Open Collective y consulta nuestros gastos públicos."
 
 #: template/download.html.j2:22
 msgid "Download Zrythm's source code or purchase a binary package installer."
@@ -1076,11 +1086,11 @@ msgstr "Instaladores"
 
 #: template/download.html.j2:73
 msgid "Basic"
-msgstr ""
+msgstr "Básico"
 
 #: template/download.html.j2:74
 msgid "Free"
-msgstr ""
+msgstr "Libre"
 
 #: template/download.html.j2:76
 msgid "Up to 25 tracks"
@@ -1096,7 +1106,7 @@ msgstr "Manual de uso en la web"
 
 #: template/download.html.j2:85
 msgid "Snapshot"
-msgstr ""
+msgstr "Instantánea"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1111,7 +1121,7 @@ msgstr "Complementos básicos y de la serie Z"
 #: template/download.html.j2:90 template/download.html.j2:102
 #: template/download.html.j2:114
 msgid "Web & PDF user manual"
-msgstr ""
+msgstr "Manual web y PDF de usuario"
 
 #: template/download.html.j2:91
 #| msgid "Access to nightly builds"
@@ -1262,19 +1272,19 @@ msgstr "Enrutamiento"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr ""
+msgstr "Envíos FX"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
-msgstr ""
+msgstr "Enrutamiento de Puertos"
 
 #: template/learn.html.j2:122
 msgid "Walkthroughs"
-msgstr ""
+msgstr "Paso a paso"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "Tu video aquí"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
@@ -1324,6 +1334,8 @@ msgid ""
 "The <em>Richard Stallman: Free software, free society</em> video is licensed"
 " under Creative Commons BY-SA-ND 3.0."
 msgstr ""
+"El video <em> Richard Stallman: Software libre, sociedad libre </em> está "
+"licenciado bajo Creative Commons BY-SA-ND 3.0."
 
 #: template/legal.html.j2:60
 msgid ""
@@ -1332,6 +1344,10 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"Créditos: Dibujos bajo CC-BY - ND 3.0 creados por Christian Nogareda (Kwis, "
+"Http://kwis.tumblr.com), Valentin Pasquier (http://"
+"utopiqdream.deviantart.com) basado en ideas de Richard Stallman, por él "
+"mismo e Ynternet.org fundación."
 
 #: template/legal.html.j2:66
 msgid ""
@@ -1372,9 +1388,8 @@ msgid "Technical specs"
 msgstr "Especificaciones técnicas"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "Última actualización el 7 de septiembre de 2023"
 
 #~ msgid "User Mailing List"
 #~ msgstr "Lista de correo para usuarios"
