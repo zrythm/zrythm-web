@@ -351,7 +351,7 @@ if get_version:
         alpha_available = True
         print ('alpha version: ' + alpha_ver)
     # hardcode it for now... (FIXME)
-    alpha_ver = '2.0.0-alpha.0+472.42834b0d15c3'
+    alpha_ver = '2.0.0-alpha.1+100.e43a2502e410'
 else:
     version = '1'
     alpha_ver = ""
