@@ -35,21 +35,42 @@ GNU Affero General Public License for more details.
     <div class="container" style="text-align: center;">
         <p>{% trans %}Zrythm v2 is a major rewrite that brings improved cross-platform support and stability.{% endtrans %}</p>
         <p>{% trans %}These builds are being made available for a limited time so everyone can try v2 and give feedback before the official release.{% endtrans %}</p>
-        <p>{{ _('Version') }}: v{{ alpha_ver }}</p>
+        <p>{{ _('Version') }}: v{{ alpha_ver.split('+')[0] }}
+            {%- if '+' in alpha_ver %}
+            <small style="color: var(--color-grayscale-700);">+{{ alpha_ver.split('+')[1] }}</small>
+            {%- endif %}
+        </p>
     </div>
 </section>
 
 <h3 class="header--underline">{{ _('Downloads') }}</h3>
 <section>
+    <div class="container" style="text-align: center;">
+        <p style="display: inline-block; padding: 0.5rem 1rem; border: 1px solid var(--color-primary-400); border-radius: 0.25rem; color: var(--color-primary-200);">{{ _('This is pre-release software intended for testing only. Not suitable for production use. Use at your own risk.') }}</p>
+    </div>
+    {% set alpha_artifacts = [('GNU/Linux (AppImage)', '-Linux.AppImage'), ('Windows (64-bit)', '-win64.exe'), ('MacOS (Apple Silicon & Intel)', '-MacOS.dmg')] %}
     <div class="container" style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; padding: 1rem 0;">
-        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-Linux.AppImage">GNU/Linux (AppImage)</a>
-        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-win64.exe">Windows (64-bit)</a>
-        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-MacOS.dmg">MacOS (Apple Silicon & Intel)</a>
+        {% for label, suffix in alpha_artifacts %}
+        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}{{ suffix }}">{{ label }}</a>
+        {% endfor %}
         <a class="btn" href="{{ git_url }}">{{ _('Source Code') }}</a>
     </div>
-    <div class="container" style="text-align: center;">
-        <p style="font-style: italic;">{{ _('This is pre-release software intended for testing only. Not suitable for production use. Use at your own risk.') }}</p>
+    {% if alpha_sha256sums %}
+    <div class="container" style="display: flex; justify-content: center; padding-bottom: 1rem;">
+        <details style="font-size: 0.85rem; color: var(--color-grayscale-700); max-width: 100%;">
+            <summary style="cursor: pointer;">{{ _('SHA-256 checksums') }}</summary>
+            <ul style="list-style: none; padding: 0.5rem 0 0; margin: 0; font-family: monospace; font-size: 0.75rem; text-align: left;">
+                {% for label, suffix in alpha_artifacts %}
+                {% set fname = 'Zrythm-' + alpha_ver + suffix %}
+                {% if fname in alpha_sha256sums %}
+                <li style="word-break: break-all; padding: 0.15rem 0;">{{ label }}<br>{{ alpha_sha256sums[fname] }}</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <p style="font-size: 0.8rem;">{% trans sums_url=downloads_url + 'SHA256SUMS-' + alpha_ver + '.txt' %}Verify your download against <a href="{{ sums_url }}">SHA256SUMS</a> (<code>sha256sum -c</code>){% endtrans %}</p>
+        </details>
     </div>
+    {% endif %}
 </section>
 
 <h3 class="header--underline">{{ _('Installation Instructions') }}</h3>
@@ -63,7 +84,7 @@ GNU Affero General Public License for more details.
 <section>
     <div class="container" style="text-align: center;">
         <ul style="display: inline-block; text-align: left; padding-left: 1.5rem;">
-            <li>{{ _('GNU/Linux: GNU libc 2.31 or higher, X11/Xwayland, CPU with SSE4.2 support') }}</li>
+            <li>{{ _('GNU/Linux: GNU libc 2.31 or higher, X11/Xwayland, CPU with AVX support') }}</li>
             <li>{{ _('Windows: Windows 10 (1809 or later) or 11, CPU with AVX support') }}</li>
             <li>{{ _('MacOS: macOS 13 or higher') }}</li>
         </ul>

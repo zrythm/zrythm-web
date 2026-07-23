@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 #
-# Copyright (C) 2019-2024 Alexandros Theodotou <alex at zrythm dot org>
+# Copyright (C) 2019-2026 Alexandros Theodotou <alex at zrythm dot org>
 #
 # This file is part of Zrythm
 #
@@ -358,6 +358,20 @@ else:
     alpha_version = ""
     alpha_available = False
 
+alpha_sha256sums = {}
+if alpha_available:
+    sha256sums_url = downloads_url + 'SHA256SUMS-' + alpha_ver + '.txt'
+    print ('fetching alpha checksums from ' + sha256sums_url)
+    try:
+        response = requests.get (sha256sums_url)
+        response.raise_for_status ()
+        for line in response.text.splitlines ():
+            parts = line.split ()
+            if len (parts) == 2:
+                alpha_sha256sums[parts[1]] = parts[0]
+    except requests.exceptions.RequestException as e:
+        print ('error fetching alpha checksums: ', e)
+
 def check_url(url, use_ng_cache):
     cache_file_path_ok = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ok'
     cache_file_path_ng = '/tmp/zrythm-accounts-url-' + str(base64.urlsafe_b64encode(url.encode('utf-8'))) + '-ng'
@@ -394,6 +408,7 @@ if verify_trial_package_urls and alpha_available:
     print ('verifying alpha packages...')
     for suffix in ['-Linux.AppImage', '-win64.exe', '-MacOS.dmg']:
         assert (check_url (downloads_url + 'Zrythm-' + alpha_ver + suffix, False))
+    assert (check_url (downloads_url + 'SHA256SUMS-' + alpha_ver + '.txt', False))
     print ('done')
 
 def url(x):
@@ -880,6 +895,7 @@ for in_file in glob.glob("template/*.j2"):
                               alpha_ver=alpha_ver,
                               alpha_version=alpha_version,
                               alpha_available=alpha_available,
+                              alpha_sha256sums=alpha_sha256sums,
                               pronunciation=pronunciation,
                               self_localized=self_localized,
                               url_localized=url_localized,
