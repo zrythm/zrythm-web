@@ -73,7 +73,7 @@ locale: locale-update locale-compile
 template: locale-compile .credentials template/styles.scss
 	. ./.credentials && \
 	$(PYTHON) ./template.py && \
-	sass --sourcemap=none template/styles.scss static/styles.css
+	sass --no-source-map template/styles.scss static/styles.css
 
 it: template
 
