@@ -9,16 +9,18 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-04-05 23:54+0000\n"
-"Last-Translator: Alexandros Theodotou <alex@zrythm.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>\n"
+"PO-Revision-Date: 2025-08-19 03:02+0000\n"
+"Last-Translator: rainy_sunset <rainy_sunset@users.noreply.hosted.weblate.org>"
+"\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/zrythm/web/ja/>"
+"\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.5-dev\n"
 
 #: template.py:449
 msgid ""
@@ -83,7 +85,7 @@ msgstr "ディレイタイムを変えてもクリックもトランスポーズ
 
 #: template.py:489
 msgid "Wah pedal effect to the 4th order"
-msgstr ""
+msgstr "4次ワウペダルエフェクト"
 
 #: template.py:492
 msgid "White noise generator"
@@ -506,6 +508,9 @@ msgid ""
 "Import or export any format supported by {ref}libsndfile{endref}, with "
 "additional MP3 import support."
 msgstr ""
+"{ref}libsndfile{endref}でサポートされている任意のフォーマットをインポートまた"
+"はエクスポートすることができます。MP3のインポートが追加でサポートされています"
+"。"
 
 #: template.py:670
 msgid "MIDI"
@@ -609,7 +614,9 @@ msgstr "Zrythmを拡張する"
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
-msgstr ""
+msgstr "{ref}GNU Guile "
+"スクリプト{endref}を使ってZrythmの状態を操作することで、Zrythmの能力を拡張で"
+"きます。"
 
 #: template.py:712
 msgid "Custom Editor Functions"
@@ -638,7 +645,8 @@ msgstr "ハードウェアアクセラレーションによるUI"
 #: template.py:723
 msgid ""
 "Most of the user interface is drawn on the GPU thanks to {ref}GTK4{endref}."
-msgstr ""
+msgstr "{ref}GTK4{endref}のおかげで、ほとんどのユーザインターフェースはGPUで描画され"
+"ます。"
 
 #: template.py:725
 msgid "SIMD-optimized DSP"
@@ -657,7 +665,7 @@ msgstr "広範なキャッシング"
 
 #: template.py:729
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "コストの高い計算処理は、処理にかかる時間を節約するため事前に計算されます。"
 
 #: template.py:732
 msgid "Cross-Platform Support"
@@ -673,6 +681,9 @@ msgid ""
 "architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7 "
 "and ARMv8."
 msgstr ""
+"Zrythmはx86 "
+"アーキテクチャ、PowerPC、RISC-V、ARMv7、ARMv8を含む{ref}幅広い種類のプラット"
+"フォームとアーキテクチャ{endref}上で実行するために設計されています。"
 
 #: template.py:738
 msgid "Multiple Backends"
@@ -780,6 +791,10 @@ msgid ""
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"{lv2_ref}LV2{endref}、VST2、VST3、AU、CLAP、JSFXを含むあらゆるメジャーなプラ"
+"グインフォーマットに対応し、SFZ形式やSF2形式のサウンドフォントへの追加のサポ"
+"ートを提供します。これらは{carla_ref}Carla{endref}によってサンドボックス化さ"
+"れています。"
 
 #: template.py:785
 msgid ""
@@ -826,7 +841,7 @@ msgstr "機能"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "マニュアル"
+msgstr "ユーザーマニュアル"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
@@ -915,17 +930,15 @@ msgstr "開発に参加する"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "私たちのGitLabインスタンスでコードへのコントリビューションを始める。"
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "バグ報告/機能リクエストを送信する"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
-msgstr ""
+msgstr "私たちのIssueトラッカーを閲覧し、機能リクエストやバグ報告を送信する。"
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -943,15 +956,13 @@ msgstr "連絡する"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "フォーラムに参加する"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
-msgstr ""
+msgstr "私たちのフォーラムに参加して、コミュニティの人々とあなたの体験を共有できます"
+"。"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1000,13 +1011,11 @@ msgid "Donate on LiberaPay"
 msgstr "LiberaPayで寄付する"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
-msgstr ""
+msgstr "LiberaPay上でPatronになりましょう。PayPal、クレジットカードまたはヨーロッパの"
+"銀行口座を使って寄付することができます。"
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1053,9 +1062,8 @@ msgid "Web user manual"
 msgstr "ウェブ版ユーザーマニュアル"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "スナップショット"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1073,9 +1081,8 @@ msgid "Web & PDF user manual"
 msgstr "Web & PDF版ユーザーマニュアル"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "v{} のみにアクセス"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1090,9 +1097,8 @@ msgid "Access to all v1 releases"
 msgstr "全 v1 リリースへのアクセス"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "サブスクリプション"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1296,7 +1302,8 @@ msgstr ""
 msgid ""
 "Licenses for images found on this website can be found in {ref}this README "
 "file{endref}."
-msgstr ""
+msgstr "このウェブサイト上で見ることのできる画像のライセンスは、{ref}このREADMEファイ"
+"ル{endref}で見つけることができます。"
 
 #: template/legal.html.j2:71
 msgid "Trademarks"
@@ -1327,9 +1334,8 @@ msgid "Technical specs"
 msgstr "技術仕様"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "最終更新日　2023年9月7日"
 
 #~ msgid "User Mailing List"
 #~ msgstr "ユーザーメーリングリスト"

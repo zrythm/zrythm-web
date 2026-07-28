@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2023-04-22 04:47+0000\n"
-"Last-Translator: Filipe Motta <luiz_filipe_motta@hotmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/zrythm/web/pt_BR/>\n"
+"PO-Revision-Date: 2024-04-06 15:10+0000\n"
+"Last-Translator: Jose Delvani <delvani.eletricista@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"zrythm/web/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.18-dev\n"
 
 #: template.py:449
 msgid ""
@@ -924,7 +925,7 @@ msgstr "Recursos"
 
 #: common/footer.j2.inc:36 template/learn.html.j2:140
 msgid "User Manual"
-msgstr "Manual do Usuário"
+msgstr "Manual do usuário"
 
 #: common/footer.j2.inc:39 template/download.html.j2:140
 msgid "Releases"
@@ -944,7 +945,7 @@ msgstr "Chat"
 
 #: common/footer.j2.inc:53 common/navigation.j2.inc:30
 msgid "Forum"
-msgstr ""
+msgstr "Fórum"
 
 #: common/footer.j2.inc:56 template/community.html.j2:38
 msgid "Contribute"
@@ -977,7 +978,7 @@ msgstr "Reportar um problema"
 
 #: common/footer.j2.inc:79
 msgid "Designed by Andrew Harter"
-msgstr "Feito por Andrew Harter"
+msgstr "Desenhado por Andrew Harter"
 
 #: common/navigation.j2.inc:27 template/plugins.html.j2:20
 #: template/plugins.html.j2:32
@@ -997,7 +998,7 @@ msgstr "Se Envolva"
 #: common/navigation.j2.inc:31 template/download.html.j2:19
 #: template/download.html.j2:81 template/index.html.j2:52
 msgid "Download"
-msgstr "Baixar"
+msgstr "Download"
 
 #: common/navigation.j2.inc:41
 msgid "Select Language"
@@ -1013,17 +1014,17 @@ msgstr "Junte-se ao desenvolvimento"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "Comece a contribuir com código em nossa instância do GitLab."
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "Enviar relatórios de bugs/solicitações de recursos"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
 msgstr ""
+"Navegue em nosso rastreador de problemas e envie solicitações de recursos e "
+"relatórios de bugs."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -1043,15 +1044,14 @@ msgstr "Entre em contato"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "Participe do nosso Fórum"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
 msgstr ""
+"Participe do nosso fórum e compartilhe sua experiência com o resto da "
+"comunidade."
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1104,13 +1104,12 @@ msgid "Donate on LiberaPay"
 msgstr "Doe pelo LiberaPay"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
 msgstr ""
+"Torne-se um patrono do LiberaPay. Você pode doar usando PayPal, cartão de "
+"crédito ou uma conta bancária europeia."
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1158,9 +1157,8 @@ msgid "Web user manual"
 msgstr "Manual de usuário na web"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "Instantâneo"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1178,13 +1176,12 @@ msgid "Web & PDF user manual"
 msgstr "Manual de usuário na web e em PDF"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "Acesso somente a v{}"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
-msgstr "Compre"
+msgstr "Comprar"
 
 #: template/download.html.j2:97
 msgid "Bundle"
@@ -1195,9 +1192,8 @@ msgid "Access to all v1 releases"
 msgstr "Acesso a todos os lançamentos v1"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "Assinatura"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1216,10 +1212,11 @@ msgid "Subscribe"
 msgstr "Assinar"
 
 #: template/download.html.j2:123
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr ""
+"* Os preços nesta moeda são estimativas. Todas as compras são em ienes "
+"japoneses."
 
 #: template/download.html.j2:128
 msgid ""
@@ -1258,7 +1255,7 @@ msgstr ""
 
 #: template/index.html.j2:53
 msgid "Learn More"
-msgstr "Saiba Mais"
+msgstr "Saiba mais"
 
 #: template/index.html.j2:77
 msgid "Showcase"
@@ -1442,9 +1439,8 @@ msgid "Technical specs"
 msgstr "Especificações técnicas"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "Última atualização em 7 de setembro de 2023"
 
 #~ msgid "User Mailing List"
 #~ msgstr "Lista de Mailing para Usuários"

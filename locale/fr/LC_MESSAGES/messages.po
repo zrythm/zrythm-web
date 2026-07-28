@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-01-17 12:06+0000\n"
+"PO-Revision-Date: 2024-10-18 20:00+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/zrythm/web/fr/>\n"
 "Language: fr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.8-rc\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:449
 msgid ""
@@ -1031,17 +1031,17 @@ msgstr "Rejoindre le développement"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "Commencez à contribuer au code sur notre instance GitLab."
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "Soumettre des rapports de bogues/demandes de fonctionnalités"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
 msgstr ""
+"Consultez notre outil de suivi des problèmes et soumettez des demandes de "
+"fonctionnalités et des rapports de bogues."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -1061,15 +1061,14 @@ msgstr "Contactez-nous"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "Rejoignez notre Forum"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
 msgstr ""
+"Rejoignez notre forum et partagez votre expérience avec le reste de la "
+"communauté."
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1125,13 +1124,12 @@ msgid "Donate on LiberaPay"
 msgstr "Donnez sur LiberaPay"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
 msgstr ""
+"Devenez un mécène sur LiberaPay. Vous pouvez faire un don en utilisant "
+"PayPal, une carte de crédit ou un compte bancaire européen."
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1180,9 +1178,8 @@ msgid "Web user manual"
 msgstr "Manuel de l'utilisateur Web"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "Instantané"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1200,9 +1197,8 @@ msgid "Web & PDF user manual"
 msgstr "Manuel d'utilisation web et PDF"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "Accès à v{} uniquement"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1217,9 +1213,8 @@ msgid "Access to all v1 releases"
 msgstr "Accès à toutes nos versions v1"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "Abonnement"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1238,10 +1233,11 @@ msgid "Subscribe"
 msgstr "Abonnement"
 
 #: template/download.html.j2:123
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr ""
+"* Les prix dans cette devise sont des estimations. Tous les achats sont "
+"effectués en yens japonais."
 
 #: template/download.html.j2:128
 msgid ""
@@ -1465,9 +1461,8 @@ msgid "Technical specs"
 msgstr "Spécifications techniques"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "Dernière mise à jour le 7 septembre 2023"
 
 #~ msgid "User Mailing List"
 #~ msgstr "Liste de diffusion utilisateur"

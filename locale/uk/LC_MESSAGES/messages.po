@@ -8,16 +8,18 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2023-05-02 19:49+0000\n"
-"Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>\n"
+"PO-Revision-Date: 2025-07-25 16:05+0000\n"
+"Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/zrythm/web/uk/>"
+"\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13-dev\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Weblate 4.18-dev\n"
 
 #: template.py:449
 msgid ""
@@ -1010,17 +1012,17 @@ msgstr "Приєднатися до розробки"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "Почніть вносити код на наш майданчик GitLab."
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "Надсилайте звіти про помилки/запити на доопрацювання"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
 msgstr ""
+"Переглядайте наш відстежувач проблем і надсилайте запити на розробку та "
+"повідомлення про помилки."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -1039,15 +1041,14 @@ msgstr "Зв'яжіться з нами"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "Приєднуйтесь до нашого форуму"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
 msgstr ""
+"Приєднуйтесь до нашого форуму та діліться своїм досвідом з іншими членами "
+"спільноти."
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1100,13 +1101,12 @@ msgid "Donate on LiberaPay"
 msgstr "Пожертвуйте на LiberaPay"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
 msgstr ""
+"Станьте меценатом на LiberaPay. Ви можете зробити пожертву за допомогою "
+"PayPal, кредитної картки або рахунку в європейському банку."
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1156,9 +1156,8 @@ msgid "Web user manual"
 msgstr "Вебінструкція користувача"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "Снапшот"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1176,9 +1175,8 @@ msgid "Web & PDF user manual"
 msgstr "Посібник у форматі Web та PDF"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "Доступ тільки до v{}"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1193,9 +1191,8 @@ msgid "Access to all v1 releases"
 msgstr "Доступ до всіх випусків v1"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "Підписка"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1214,10 +1211,11 @@ msgid "Subscribe"
 msgstr "Підписатися"
 
 #: template/download.html.j2:123
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
 msgstr ""
+"* Ціни в цій валюті є орієнтовними. Всі купівлі здійснюються в японських "
+"єнах."
 
 #: template/download.html.j2:128
 msgid ""
@@ -1327,7 +1325,7 @@ msgstr "Маршрутизація (Routing)"
 
 #: template/learn.html.j2:106
 msgid "FX Sends"
-msgstr "Посилані сигнали FX (FX Sends)"
+msgstr "FX Надсилає"
 
 #: template/learn.html.j2:116
 msgid "Port Routing"
@@ -1440,9 +1438,8 @@ msgid "Technical specs"
 msgstr "Технічні характеристики"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "Останнє оновлення 7 вересня 2023 року"
 
 #~ msgid "User Mailing List"
 #~ msgstr "Список розсилки користувачів"

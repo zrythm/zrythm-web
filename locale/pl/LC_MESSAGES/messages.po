@@ -8,16 +8,18 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2023-02-22 13:38+0000\n"
-"Last-Translator: Marcin Krystian Błaszczyk <gothicdarksky@linux.pl>\n"
+"PO-Revision-Date: 2025-11-23 11:51+0000\n"
+"Last-Translator: \"Maciej \\\"thesonofanxiety\\\" Michalski\" "
+"<weblate.bullfrog473@passmail.net>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/zrythm/web/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Weblate 4.16-dev\n"
 
 #: template.py:449
 msgid ""
@@ -26,10 +28,14 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW, cyfrowa stacja robocza, produkcja muzyki, audio, profesjonalne audio, "
+"Linux, GNU/Linux, darmowe oprogramowanie, wolne oprogramowanie, edytor "
+"audio, kompozycja, MIDI, LV2, JACK, VST, plugin audio, nagranie, edytowanie, "
+"aranżowanie, program do edycji audio, mixing, mastering"
 
 #: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
-msgstr ""
+msgstr "Wysoce zautomatyzowana i intuicyjna cyfrowa stacja robocza."
 
 #: template.py:456
 msgid "Stereo dynamic range compressor"
@@ -49,15 +55,15 @@ msgstr "Bramka sygnału stereo"
 
 #: template.py:468
 msgid "2nd-order Butterworth highpass filter"
-msgstr ""
+msgstr "Filtr górnoprzepustowy Butterwortha drugiego rzędu"
 
 #: template.py:471
 msgid "2nd-order Butterworth lowpass filter"
-msgstr ""
+msgstr "Filtr dolnoprzepustowy Butterwortha drugiego rzędu"
 
 #: template.py:474
 msgid "Parametric equalizer"
-msgstr ""
+msgstr "Korektor parametryczny"
 
 #: template.py:477
 msgid "Dynamic range compressor modelled after the 1176 peak limiter"
@@ -143,11 +149,11 @@ msgstr ""
 
 #: template.py:527 template.py:769
 msgid "Intuitive Editing"
-msgstr ""
+msgstr "Intuicyjne Edytowanie"
 
 #: template.py:530
 msgid "Flexible Select Tool"
-msgstr ""
+msgstr "Elastyczne Narzędzie Zaznaczania"
 
 #: template.py:531
 msgid ""
@@ -403,7 +409,7 @@ msgstr ""
 
 #: template.py:629
 msgid "Intuitive User Interface"
-msgstr ""
+msgstr "Intuicyjny interfejs użytkownika"
 
 #: template.py:632
 msgid "Detachable Views"
@@ -504,7 +510,7 @@ msgstr ""
 
 #: template.py:670
 msgid "MIDI"
-msgstr ""
+msgstr "MIDI"
 
 #: template.py:671
 msgid ""

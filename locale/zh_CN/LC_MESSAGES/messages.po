@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2024-01-30 04:01+0000\n"
-"Last-Translator: 雪と葉 <vescrity@foxmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/zrythm/web/zh_Hans/>\n"
+"PO-Revision-Date: 2025-03-11 15:47+0000\n"
+"Last-Translator: 王晨旭 <wcxu21@126.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/zrythm/web/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Generator: Weblate 5.4-dev\n"
 
 #: template.py:449
 msgid ""
@@ -26,6 +27,9 @@ msgid ""
 "LV2, JACK, VST, audio plugin, recording, editing, arrange, arranger, mixing,"
 " mastering"
 msgstr ""
+"DAW、数字音频工作站、音乐制作、音频、专业音频、Linux、GNU/Linux、免费软件、自"
+"由软件、声音编辑器、作曲、MIDI、LV2、JACK、VST、音频插件、录音、编辑、编曲、"
+"编曲者、混音、母带制作"
 
 #: template.py:450
 msgid "A highly automated and intuitive digital audio workstation."
@@ -309,7 +313,7 @@ msgstr "自动记录"
 
 #: template.py:591
 msgid "Record automation in latch/touch mode."
-msgstr ""
+msgstr "以锁存/触摸模式记录自动化。"
 
 #: template.py:593
 msgid "Device Controls"
@@ -342,7 +346,7 @@ msgstr "轻松将信号路由到FX轨或插件的侧链输入中。"
 
 #: template.py:606
 msgid "In-Context Listening"
-msgstr ""
+msgstr "情景聆听"
 
 #: template.py:607
 msgid ""
@@ -473,11 +477,11 @@ msgstr "通过使用桥接模式打开插件，使它们运行在沙箱环境中
 
 #: template.py:657
 msgid "Automatable Bypass Mode"
-msgstr ""
+msgstr "自动旁路模式"
 
 #: template.py:658
 msgid "Easily bypass plugins in the signal chain with an automatable control."
-msgstr ""
+msgstr "通过自动化控制轻松绕过信号链中的插件。"
 
 #: template.py:661
 msgid "Comprehensive Import/Export"
@@ -514,11 +518,11 @@ msgstr "以 MIDI Type 0 或 MIDI Type 1 格式导入/导出项目的任意部分
 
 #: template.py:673
 msgid "Stem Export"
-msgstr ""
+msgstr "Stem 导出"
 
 #: template.py:674
 msgid "Export stems for specific tracks and share them with other producers."
-msgstr ""
+msgstr "导出特定曲目的词干并与其他制作人分享。"
 
 #: template.py:677 template.py:778
 msgid "Chord Assistance"
@@ -542,7 +546,7 @@ msgstr "和弦编辑"
 msgid ""
 "Invert chords with a single click or use the chord selector to choose any "
 "chord, with an option to filter chords in the current scale."
-msgstr ""
+msgstr "单击即可反转和弦或使用和弦选择器选择任何和弦，并可选择过滤当前音阶中的和弦。"
 
 #: template.py:686
 msgid "Recordable Chord Track"
@@ -552,7 +556,7 @@ msgstr "可录制的和弦轨"
 msgid ""
 "Dictate or record the scale and chord progression of the project, and "
 "optionally route the output to an instrument."
-msgstr ""
+msgstr "听写或记录项目的音阶和和弦进行，并可选择将输出路由到乐器。"
 
 #: template.py:689
 msgid "Chord Presets"
@@ -604,7 +608,7 @@ msgstr "拓展 Zrythm"
 msgid ""
 "Extend the capabilities of Zrythm by editing its state using {ref}GNU Guile "
 "scripts{endref}."
-msgstr ""
+msgstr "通过使用 {ref}GNU Guile 脚本{endref} 编辑 Zrythm 的状态来扩展其功能。"
 
 #: template.py:712
 msgid "Custom Editor Functions"
@@ -650,11 +654,11 @@ msgstr ""
 
 #: template.py:728
 msgid "Extensive Caching"
-msgstr ""
+msgstr "广泛缓存"
 
 #: template.py:729
 msgid "Expensive computations are pre-calculated to save processing time."
-msgstr ""
+msgstr "预先计算昂贵的计算以节省处理时间。"
 
 #: template.py:732
 msgid "Cross-Platform Support"
@@ -754,7 +758,8 @@ msgstr "通过使用直线、坡道和曲线的自动化事件或 LFO 和包络�
 msgid ""
 "In-context listening, signal groups, FX tracks, MIDI effect and insert "
 "slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
-msgstr ""
+msgstr "上下文聆听、信号组、FX 轨道、MIDI "
+"效果和插入槽、推子前和推子后辅助发送以及任意位置到任意位置的路由。"
 
 #: template.py:779
 msgid ""
@@ -773,6 +778,9 @@ msgid ""
 "VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 soundfonts "
 "and sandboxing thanks to {carla_ref}Carla{endref}."
 msgstr ""
+"支持所有主要插件格式，包括 {lv2_ref}LV2{endref}、VST2、VST3、AU、CLAP 和 "
+"JSFX，并且由于 {carla_ref}Carla{endref} 而额外支持 SFZ 和 SF2 "
+"声音字体和沙盒。"
 
 #: template.py:785
 msgid ""
@@ -781,6 +789,9 @@ msgid ""
 " MIDI formats, stretch or loop any region and select from an array of track "
 "types for every purpose."
 msgstr ""
+"使用轨道通道将您的工作组织到同一轨道的多个层中，快速将任何内容弹回到音频，导"
+"入/导出各种音频和 MIDI "
+"格式，拉伸或循环任何区域，并从各种轨道类型中进行选择以满足各种用途。"
 
 #: template.py:788
 msgid ""
@@ -907,17 +918,15 @@ msgstr "加入开发"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "开始在我们的 GitLab 实例上贡献代码。"
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "提交错误报告/功能请求"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
-msgstr ""
+msgstr "浏览我们的问题跟踪器并提交功能请求和错误报告。"
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -935,15 +944,12 @@ msgstr "联系我们"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "加入我们的论坛"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
-msgstr ""
+msgstr "加入我们的论坛并与社区其他成员分享您的经验。"
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -955,6 +961,8 @@ msgid ""
 "(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an operator "
 "for a <code>zrythm/user/*</code> cloak."
 msgstr ""
+"我们的 IRC 频道是 Libera.Chat 上的 #zrythm (<code>irc://irc.libera.chat/"
+"zrythm</code>)。欢迎随时联系操作员获取 <code>zrythm/user/*</code> 斗篷。"
 
 #: template/community.html.j2:96
 msgid "Chat with us on Matrix"
@@ -991,13 +999,10 @@ msgid "Donate on LiberaPay"
 msgstr "通过 LibraPay 捐赠"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
-msgstr ""
+msgstr "成为 LiberaPay 的赞助人。您可以使用 PayPal、信用卡或欧洲银行账户进行捐赠。"
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1044,9 +1049,8 @@ msgid "Web user manual"
 msgstr "网页版用户手册"
 
 #: template/download.html.j2:85
-#| msgid "Screenshot"
 msgid "Snapshot"
-msgstr ""
+msgstr "截图"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1064,9 +1068,8 @@ msgid "Web & PDF user manual"
 msgstr "网页与 PDF 版本的用户手册"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "仅可访问 v{}"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1081,9 +1084,8 @@ msgid "Access to all v1 releases"
 msgstr "获得所有 v1 版本"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "订阅"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1102,10 +1104,9 @@ msgid "Subscribe"
 msgstr "订阅"
 
 #: template/download.html.j2:123
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
-msgstr ""
+msgstr "* 此货币的价格为估算值。所有购买均以日元计算。"
 
 #: template/download.html.j2:128
 msgid ""
@@ -1154,7 +1155,7 @@ msgstr "您的浏览器不支持 HTML5 视频。"
 
 #: template/index.html.j2:147
 msgid "Remake"
-msgstr ""
+msgstr "重制版"
 
 #: template/index.html.j2:183
 msgid "Testimonials"
@@ -1162,7 +1163,7 @@ msgstr "荐语"
 
 #: template/index.html.j2:212
 msgid "Affiliates"
-msgstr ""
+msgstr "关联公司"
 
 #: template/learn.html.j2:23
 msgid "Zrythm reference pages - user manual - tutorials"
@@ -1197,7 +1198,7 @@ msgstr "切割工具"
 
 #: template/learn.html.j2:81
 msgid "Ramp Tool"
-msgstr ""
+msgstr "斜坡工具"
 
 #: template/learn.html.j2:91
 msgid "Looping Regions"
@@ -1221,7 +1222,7 @@ msgstr "工程走带"
 
 #: template/learn.html.j2:132
 msgid "Your video here"
-msgstr ""
+msgstr "您的视频在这里"
 
 #: template/learn.html.j2:138
 msgid "Documentation"
@@ -1278,6 +1279,10 @@ msgid ""
 "(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, by "
 "himself and Ynternet.org foundation."
 msgstr ""
+"鸣谢：CC-BY-ND 3.0 下的绘图由 Christian "
+"Nogareda（Kwis，Http://kwis.tumblr.com）、Valentin "
+"Pasquier（http://utopiqdream.deviantart.com）基于 Richard Stallman 的想法、"
+"由他本人和 Ynternet.org 基金会创作。"
 
 #: template/legal.html.j2:66
 msgid ""
@@ -1314,9 +1319,8 @@ msgid "Technical specs"
 msgstr "技术规范"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "最后更新于 2023 年 9 月 7 日"
 
 #~ msgid "User Mailing List"
 #~ msgstr "用户邮件列表"

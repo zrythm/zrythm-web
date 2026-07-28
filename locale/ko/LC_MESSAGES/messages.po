@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-06 09:28+0900\n"
-"PO-Revision-Date: 2023-03-27 09:40+0000\n"
+"PO-Revision-Date: 2024-09-02 01:09+0000\n"
 "Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/zrythm/web/ko/>\n"
 "Language: ko\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Weblate 4.17-dev\n"
 
 #: template.py:449
 msgid ""
@@ -923,17 +923,15 @@ msgstr "개발 참여"
 
 #: template/community.html.j2:47
 msgid "Start contributing code on our GitLab instance."
-msgstr ""
+msgstr "GitLab 인스턴스에서 코드 기여를 시작하세요."
 
 #: template/community.html.j2:53
-#| msgid "Submit Feature Requests"
 msgid "Submit Bug Reports/Feature Requests"
-msgstr ""
+msgstr "버그 리포트/기능 요청 제출"
 
 #: template/community.html.j2:56
-#| msgid "Browse our feature tracker and submit feature requests."
 msgid "Browse our issue tracker and submit feature requests and bug reports."
-msgstr ""
+msgstr "이슈 추적기를 탐색하여 기능 요청과 버그 보고서를 제출해 보세요."
 
 #: template/community.html.j2:62
 msgid "Translate Zrythm"
@@ -951,15 +949,12 @@ msgstr "연락하기"
 
 #: template/community.html.j2:78
 msgid "Join our Forum"
-msgstr ""
+msgstr "포럼에 참여"
 
 #: template/community.html.j2:81
-#| msgid ""
-#| "Join our user discussion mailing list and share your experience with the "
-#| "rest of the community."
 msgid ""
 "Join our forum and share your experience with the rest of the community."
-msgstr ""
+msgstr "우리 포럼에 참여하여 여러분의 경험을 커뮤니티의 다른 사람들과 공유해 보세요."
 
 #: template/community.html.j2:87
 msgid "Chat with us on IRC"
@@ -1010,13 +1005,11 @@ msgid "Donate on LiberaPay"
 msgstr "LiberaPay에 기부"
 
 #: template/community.html.j2:133
-#| msgid ""
-#| "Become a patron on LiberaPay. You can donate using PayPal, or pay with a "
-#| "bank account in Europe."
 msgid ""
 "Become a patron on LiberaPay. You can donate using PayPal, credit card, or a"
 " European bank account."
-msgstr ""
+msgstr "LiberaPay에서 후원자가 되세요. PayPal, 신용카드 또는 유럽 은행 계좌를 "
+"사용하여 기부할 수 있습니다."
 
 #: template/community.html.j2:139
 msgid "Donate on Open Collective"
@@ -1064,7 +1057,7 @@ msgstr "웹 사용자 설명서"
 
 #: template/download.html.j2:85
 msgid "Snapshot"
-msgstr ""
+msgstr "스냅샷"
 
 #: template/download.html.j2:88 template/download.html.j2:100
 #: template/download.html.j2:112
@@ -1082,9 +1075,8 @@ msgid "Web & PDF user manual"
 msgstr "웹 및 PDF 사용자 설명서"
 
 #: template/download.html.j2:91
-#| msgid "Access to nightly builds"
 msgid "Access to v{} only"
-msgstr ""
+msgstr "v{}에만 접속"
 
 #: template/download.html.j2:93 template/download.html.j2:105
 msgid "Purchase"
@@ -1099,9 +1091,8 @@ msgid "Access to all v1 releases"
 msgstr "모든 v1 개정에 대한 접속"
 
 #: template/download.html.j2:109
-#| msgid "Scripting"
 msgid "Subscription"
-msgstr ""
+msgstr "구독"
 
 #: template/download.html.j2:110
 msgid "year"
@@ -1120,10 +1111,9 @@ msgid "Subscribe"
 msgstr "구독"
 
 #: template/download.html.j2:123
-#| msgid "* Prices in this currency are estimates"
 msgid ""
 "* Prices in this currency are estimates. All purchases are in Japanese Yen."
-msgstr ""
+msgstr "* 이 통화로 표시된 가격은 추정치입니다. 모든 구매는 일본 엔화로 이루어집니다."
 
 #: template/download.html.j2:128
 msgid ""
@@ -1337,9 +1327,8 @@ msgid "Technical specs"
 msgstr "기술 사양"
 
 #: template/privacy.html.j2:354
-#| msgid "Last updated on 3 Oct 2022"
 msgid "Last updated on 7 Sep 2023"
-msgstr ""
+msgstr "2023년 9월 7일 마지막 업데이트"
 
 #~ msgid "User Mailing List"
 #~ msgstr "사용자 메일링 목록"

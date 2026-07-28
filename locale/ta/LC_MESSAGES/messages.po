@@ -1,0 +1,1456 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-06 09:28+0900\n"
+"PO-Revision-Date: 2025-05-02 01:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/zrythm/web/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: template.py:449
+msgid ""
+"DAW, digital audio workstation, music production, audio, pro audio, "
+"Linux, GNU/Linux, free software, libre software, sound editor, "
+"composition, MIDI, LV2, JACK, VST, audio plugin, recording, editing, "
+"arrange, arranger, mixing, mastering"
+msgstr ""
+"DAW, டிசிட்டல் ஆடியோ பணிநிலையம், இசை தயாரிப்பு, ஆடியோ, புரோ ஆடியோ, லினக்ச், குனு/லினக்ச், இலவச மென்பொருள், லிப்ரே "
+"மென்பொருள், ஒலி எடிட்டர், கலவை, மிடி, எல்வி 2, சாக், விஎச்டி, ஆடியோ சொருகி, பதிவு, திருத்துதல், அடுக்கு, அடுக்கி, "
+"கலவை, மாச்டரிங்"
+
+#: template.py:450
+msgid "A highly automated and intuitive digital audio workstation."
+msgstr "மிகவும் தானியங்கி மற்றும் உள்ளுணர்வு டிசிட்டல் ஆடியோ பணிநிலையம்."
+
+#: template.py:456
+msgid "Stereo dynamic range compressor"
+msgstr "ச்டீரியோ மாறும் ரேஞ்ச் அமுக்கி"
+
+#: template.py:459
+msgid "Cubic nonlinearity distortion"
+msgstr "கன நேர்கோட்டுத்தன்மை விலகல்"
+
+#: template.py:462
+msgid "Stereo flanging effect"
+msgstr "ச்டீரியோ ஃப்ளாங்கிங் எஃபெக்ட்"
+
+#: template.py:465
+msgid "Stereo signal gate"
+msgstr "ச்டீரியோ சிக்னல் கேட்"
+
+#: template.py:468
+msgid "2nd-order Butterworth highpass filter"
+msgstr "2-வரிசை பட்டர்வொர்த் ஐபாச் வடிகட்டி"
+
+#: template.py:471
+msgid "2nd-order Butterworth lowpass filter"
+msgstr "2-வரிசை பட்டர்வொர்த் லோபாச் வடிகட்டி"
+
+#: template.py:474
+msgid "Parametric equalizer"
+msgstr "அளவுரு சமநிலைப்படுத்தி"
+
+#: template.py:477
+msgid "Dynamic range compressor modelled after the 1176 peak limiter"
+msgstr ""
+"மாறும் ரேஞ்ச் அமுக்கி 1176 உச்ச வரம்பிற்குப் பிறகு வடிவமைக்கப்பட்டுள்ளது"
+
+#: template.py:480
+msgid "Phasing effect"
+msgstr "கட்ட விளைவு"
+
+#: template.py:483
+msgid "Polyphonic synthesizer with 3 detuned oscillator voices"
+msgstr "3 கொல்லப்பட்ட ஆசிலேட்டர் குரல்களுடன் பாலிஃபோனிக் சின்தசைசர்"
+
+#: template.py:486
+msgid ""
+"Delay that doesn't click and doesn't transpose when the delay time is "
+"changed"
+msgstr ""
+"தாமத நேரம் மாற்றப்படும்போது சொடுக்கு செய்யாத மற்றும் இடமாற்றம் செய்யாத "
+"நேரந்தவறுகை"
+
+#: template.py:489
+msgid "Wah pedal effect to the 4th order"
+msgstr "4 வது வரிசையில் வா மிதி விளைவு"
+
+#: template.py:492
+msgid "White noise generator"
+msgstr "வெள்ளை ஒலி செனரேட்டர்"
+
+#: template.py:495
+msgid "8x8 late-reverberation FDN reverb"
+msgstr "8x8 பிற்பகுதியில் மறுவாழ்வு FDN REVERB"
+
+#: template.py:500
+msgid "ZChordz maps the chords of a minor or major scale to white keys"
+msgstr ""
+"சிகார்ட்சு ஒரு சிறிய அல்லது பெரிய அளவிலான நாண்களை வெள்ளை விசைகளுக்கு "
+"வரைபடமாக்குகிறது"
+
+#: template.py:501
+msgid "Major or minor scale"
+msgstr "பெரிய அல்லது சிறிய அளவு"
+
+#: template.py:502
+msgid "Velocity multiplier per note"
+msgstr "ஒரு குறிப்புக்கு விரைவு பெருக்கி"
+
+#: template.py:505
+msgid "ZLFO is a fully featured LFO for CV-based automation"
+msgstr "சிவி அடிப்படையிலான ஆட்டோமேசனுக்கான முழுமையான இடம்பெற்ற எல்எஃப்ஓ"
+
+#: template.py:506
+msgid "Multi-oscillator with custom wave"
+msgstr "தனிப்பயன் அலை கொண்ட மல்டி-ஆச்கிலேட்டர்"
+
+#: template.py:507
+msgid "Phase shift"
+msgstr "கட்ட மாற்றம்"
+
+#: template.py:508
+msgid "Vertical/horizontal inversion"
+msgstr "செங்குத்து/கிடைமட்ட தலைகீழ்"
+
+#: template.py:509
+msgid "Step mode"
+msgstr "படி பயன்முறை"
+
+#: template.py:510
+msgid "Editable range"
+msgstr "திருத்தக்கூடிய வரம்பு"
+
+#: template.py:511
+msgid "Sync to host or free-form"
+msgstr "புரவலன் அல்லது இலவச வடிவத்திற்கு ஒத்திசைக்கவும்"
+
+#: template.py:514
+msgid "ZSaw is a supersaw synth with 1 parameter"
+msgstr "Zsaw என்பது 1 அளவுருவுடன் ஒரு சூப்பர்சா சின்த் ஆகும்"
+
+#: template.py:515
+msgid "7 sawtooth oscillators"
+msgstr "7 மரத்தூள் ஆசிலேட்டர்கள்"
+
+#: template.py:516
+msgid "Single knob to control detune"
+msgstr "டிடூன் கட்டுப்படுத்த ஒற்றை குமிழ்"
+
+#: template.py:527 template.py:769
+msgid "Intuitive Editing"
+msgstr "உள்ளுணர்வு திருத்துதல்"
+
+#: template.py:530
+msgid "Flexible Select Tool"
+msgstr "நெகிழ்வான தேர்ந்தெடுக்கப்பட்ட கருவி"
+
+#: template.py:531
+msgid ""
+"Select, move, resize, clone, link, loop, delete and cut objects with a "
+"{ref}single tool{endref}."
+msgstr ""
+"{ref} ஒற்றை கருவி {எண்ட்ரெஃப் with உடன் பொருள்களைத் தேர்ந்தெடுக்கவும், நகர்த்தவும், மறுஅளவிடவும், நகலி, இணைப்பு"
+", லூப், நீக்கவும், வெட்டவும்."
+
+#: template.py:533
+msgid "Extensive Toolbox"
+msgstr "விரிவான கருவிப்பெட்டி"
+
+#: template.py:534
+msgid ""
+"Extend select tool functionality by switching to the {ref}Edit, Cut, "
+"Erase, Ramp or Audition tools{endref}."
+msgstr ""
+"{ref} திருத்து, வெட்டு, அழித்தல், வளைவு அல்லது தணிக்கை கருவிகள் {endref பெறுநர் க்கு மாறுவதன் மூலம் "
+"தேர்ந்தெடுக்கப்பட்ட கருவி செயல்பாட்டை நீட்டிக்கவும்."
+
+#: template.py:536
+msgid "Adaptive Snapping"
+msgstr "தகவமைப்பு ச்னாப்பிங்"
+
+#: template.py:537
+msgid "Snapping behavior adjusts to the current zoom level."
+msgstr "ச்னாப்பிங் நடத்தை தற்போதைய சூம் மட்டத்துடன் சரிசெய்கிறது."
+
+#: template.py:539
+msgid "Looping"
+msgstr "லூப்பிங்"
+
+#: template.py:540
+msgid "Loop audio, MIDI, automation and chord clips."
+msgstr "லூப் ஆடியோ, மிடி, ஆட்டோமேசன் மற்றும் நாண் கிளிப்புகள்."
+
+#: template.py:543 template.py:784
+msgid "Featureful Timeline"
+msgstr "நற்பொருத்தம் காலவரிசை"
+
+#: template.py:546
+msgid "Track Lanes"
+msgstr "ஓடும் பாதைகள்"
+
+#: template.py:547
+msgid ""
+"Add multiple layers of audio/MIDI to the same track using {ref}track "
+"lanes{endref}."
+msgstr ""
+"{ref} ட்ராக் லேன்ச் {எண்ட்ரெஃப் full ஐப் பயன்படுத்தி ஒரே பாதையில் ஆடியோ/மிடியின் பல அடுக்குகளைச் சேர்க்கவும்."
+
+#: template.py:549
+msgid "Bounce in Place"
+msgstr "இடத்தில் பவுன்ச்"
+
+#: template.py:550
+msgid "Quickly bounce selected material to audio."
+msgstr "தேர்ந்தெடுக்கப்பட்ட பொருளை விரைவாக ஆடியோவுக்கு மாற்றவும்."
+
+#: template.py:552
+msgid "Stretching"
+msgstr "நீட்சி"
+
+#: template.py:553
+msgid "Stretch any type of region"
+msgstr "எந்த வகையான பகுதியையும் நீட்டவும்"
+
+#: template.py:556
+msgid "Powerful Editors"
+msgstr "சக்திவாய்ந்த ஆசிரியர்கள்"
+
+#: template.py:559
+msgid "Piano Roll"
+msgstr "பியானோ ரோல்"
+
+#: template.py:560
+msgid ""
+"Create, edit and arrange MIDI events in a dedicated piano roll with chord"
+" integration."
+msgstr ""
+"நாண் ஒருங்கிணைப்புடன் ஒரு பிரத்யேக பியானோ ரோலில் மிடி நிகழ்வுகளை உருவாக்கவும்"
+", திருத்தவும் மற்றும் ஏற்பாடு செய்யவும்."
+
+#: template.py:562
+msgid "Drum View"
+msgstr "டிரம் பார்வை"
+
+#: template.py:563
+msgid "One-click switch to drum view for editing single-hit instruments."
+msgstr ""
+"ஒற்றை-வெற்றி கருவிகளைத் திருத்துவதற்கு டிரம் பார்வைக்கு ஒரு சொடுக்கு "
+"சுவிட்ச்."
+
+#: template.py:565
+msgid "Velocity Editor"
+msgstr "விரைவு ஆசிரியர்"
+
+#: template.py:566
+msgid ""
+"Edit multiple velocities simultaneously with the select tool or draw with"
+" the pencil or ramp tool."
+msgstr ""
+"தேர்ந்தெடுக்கப்பட்ட கருவியுடன் ஒரே நேரத்தில் பல வேகங்களைத் திருத்தவும் அல்லது"
+" பென்சில் அல்லது வளைவு கருவி மூலம் வரையவும்."
+
+#: template.py:568
+msgid "Audio Editor"
+msgstr "ஆடியோ ஆசிரியர்"
+
+#: template.py:569
+msgid ""
+"Adjust fades/gain and edit parts of audio clips using audio functions "
+"inside the audio editor."
+msgstr ""
+"ஆடியோ எடிட்டருக்குள் ஆடியோ செயல்பாடுகளைப் பயன்படுத்தி ஆடியோ கிளிப்களின் "
+"பகுதிகளை மங்கல்கள்/ஆதாயத்தை சரிசெய்யவும் திருத்தவும்."
+
+#: template.py:571
+msgid "List Editors"
+msgstr "பட்டியல் ஆசிரியர்கள்"
+
+#: template.py:572
+msgid "Edit object parameters manually in the event viewer."
+msgstr "நிகழ்வு பார்வையாளரில் பொருள் அளவுருக்களை கைமுறையாகத் திருத்தவும்."
+
+#: template.py:574
+msgid "Editor Functions"
+msgstr "ஆசிரியர் செயல்பாடுகள்"
+
+#: template.py:575
+msgid ""
+"Quickly apply functions like Legato, Invert and Fade Out to the selected "
+"objects."
+msgstr ""
+"லெகாடோ போன்ற செயல்பாடுகளை விரைவாகப் பயன்படுத்துங்கள், தேர்ந்தெடுக்கப்பட்ட "
+"பொருள்களுக்கு தலைகீழ் மற்றும் மங்கிவிடும்."
+
+#: template.py:577
+msgid "External App Integration"
+msgstr "வெளிப்புற பயன்பாட்டு ஒருங்கிணைப்பு"
+
+#: template.py:578
+msgid "Edit selected audio parts in any external app."
+msgstr ""
+"எந்தவொரு வெளிப்புற பயன்பாட்டிலும் தேர்ந்தெடுக்கப்பட்ட ஆடியோ பகுதிகளைத் "
+"திருத்தவும்."
+
+#: template.py:581
+msgid "Recording Capabilities"
+msgstr "பதிவு திறன்கள்"
+
+#: template.py:584
+msgid "Audio/MIDI Recording"
+msgstr "ஆடியோ/மிடி பதிவு"
+
+#: template.py:585
+msgid ""
+"Record audio/MIDI from any of your devices, or even from other apps using"
+" JACK."
+msgstr ""
+"உங்கள் எந்தவொரு சாதனத்திலிருந்தும் அல்லது சாக் பயன்படுத்தும் பிற "
+"பயன்பாடுகளிலிருந்தும் ஆடியோ/மிடியை பதிவு செய்யுங்கள்."
+
+#: template.py:587
+msgid "Comprehensive Recording Settings"
+msgstr "விரிவான பதிவு அமைப்புகள்"
+
+#: template.py:588
+msgid ""
+"Use punch in/punch out, record on MIDI input, and optionally create "
+"multiple takes."
+msgstr ""
+"பஞ்ச் இன்/பஞ்ச் அவுட் பயன்படுத்தவும், மிடி உள்ளீட்டில் பதிவு செய்யவும், "
+"விருப்பமாக பல எடுப்புகளை உருவாக்கவும்."
+
+#: template.py:590
+msgid "Automation Recording"
+msgstr "ஆட்டோமேசன் பதிவு"
+
+#: template.py:591
+msgid "Record automation in latch/touch mode."
+msgstr "தாழ்ப்பாளை/தொடு பயன்முறையில் ஆட்டோமேசன் பதிவு செய்யுங்கள்."
+
+#: template.py:593
+msgid "Device Controls"
+msgstr "சாதன கட்டுப்பாடுகள்"
+
+#: template.py:594
+msgid "Bind your device knobs to controls inside Zrythm and record your actions."
+msgstr ""
+"ZrythM க்குள் கட்டுப்படுத்த உங்கள் சாதன கைப்பிடிகளை பிணைத்து உங்கள் "
+"செயல்களைப் பதிவுசெய்க."
+
+#: template.py:597 template.py:775
+msgid "Mixing Capabilities"
+msgstr "கலப்பு திறன்கள்"
+
+#: template.py:600
+msgid "Group Tracks"
+msgstr "குழு தடங்கள்"
+
+#: template.py:601
+msgid "Organize audio/MIDI signal groups with group tracks."
+msgstr "குழு தடங்களுடன் ஆடியோ/மிடி சிக்னல் குழுக்களை ஒழுங்கமைக்கவும்."
+
+#: template.py:603
+msgid "Aux Sends"
+msgstr "அனுப்புதலில்"
+
+#: template.py:604
+msgid "Easily route signals to FX tracks and plugin sidechain inputs."
+msgstr ""
+"எஃப்எக்ச் தடங்கள் மற்றும் சொருகி பக்கவாட்டு உள்ளீடுகளுக்கு எளிதாக பாதை "
+"சமிக்ஞைகள்."
+
+#: template.py:606
+msgid "In-Context Listening"
+msgstr "இன்-சூழல் கேட்பது"
+
+#: template.py:607
+msgid ""
+"Listen to specified tracks in the context of the mix by dimming down "
+"every other track."
+msgstr ""
+"மற்ற எல்லா தடங்களையும் மங்கச் செய்வதன் மூலம் கலவையின் சூழலில் குறிப்பிட்ட "
+"தடங்களைக் கேளுங்கள்."
+
+#: template.py:609
+msgid "Monitor Section"
+msgstr "கண்காணிப்பு பிரிவு"
+
+#: template.py:610
+msgid "Change listen/mute/solo behavior and adjust what goes to your speakers."
+msgstr ""
+"கேளுங்கள்/முடக்கு/தனி நடத்தை மாற்றவும், உங்கள் பேச்சாளர்களுக்கு என்ன "
+"நடக்கிறது என்பதை சரிசெய்யவும்."
+
+#: template.py:613
+msgid "Unlimited Automation"
+msgstr "வரம்பற்ற ஆட்டோமேசன்"
+
+#: template.py:616
+msgid "Anywhere-to-Anywhere Connections"
+msgstr "எங்கிருந்தும் எங்கிருந்தாலும் இணைப்புகள்"
+
+#: template.py:617
+msgid "Connect anything to anything."
+msgstr "எதையும் எதற்கும் இணை."
+
+#: template.py:619
+msgid "Automation Curves"
+msgstr "ஆட்டோமேசன் வளைவுகள்"
+
+#: template.py:620
+msgid ""
+"Automate parameters with straight lines or curves, choosing from multiple"
+" curve algorithms, such as Exponential and Elliptic curves."
+msgstr ""
+"நேர் கோடுகள் அல்லது வளைவுகளுடன் அளவுருக்களை தானியங்குங்கள், அதிவேக மற்றும் "
+"நீள்வட்ட வளைவுகள் போன்ற பல வளைவு வழிமுறைகளிலிருந்து தேர்வு செய்கின்றன."
+
+#: template.py:622
+msgid "Envelopes"
+msgstr "உறைகள்"
+
+#: template.py:623
+msgid ""
+"Automate parameters with CV signals or envelopes, including macro knobs "
+"and LFO plugins such as ZLFO."
+msgstr ""
+"சி.வி சிக்னல்கள் அல்லது உறைகளுடன் அளவுருக்களை தானியங்குங்கள், மேக்ரோ "
+"கைப்பிடிகள் மற்றும் ZLFO போன்ற எல்.எஃப்.ஓ செருகுநிரல்கள் உள்ளிட்டவை."
+
+#: template.py:625
+msgid "Automate Anything"
+msgstr "எதையும் தானியங்குபடுத்துங்கள்"
+
+#: template.py:626
+msgid ""
+"Automate any possible parameter, including the project's BPM and time "
+"signature."
+msgstr ""
+"திட்டத்தின் பிபிஎம் மற்றும் நேர கையொப்பம் உள்ளிட்ட சாத்தியமான அளவுருவை "
+"தானியங்குபடுத்துங்கள்."
+
+#: template.py:629
+msgid "Intuitive User Interface"
+msgstr "உள்ளுணர்வு பயனர் இடைமுகம்"
+
+#: template.py:632
+msgid "Detachable Views"
+msgstr "பிரிக்கக்கூடிய காட்சிகள்"
+
+#: template.py:633
+msgid ""
+"Detach views from any panel and work efficiently with multi-monitor "
+"setups."
+msgstr ""
+"எந்தவொரு குழுவிலிருந்தும் பார்க்கவும், மல்டி மானிட்டர் அமைப்போடு திறமையாகச் "
+"செயல்படவும்."
+
+#: template.py:635
+msgid "Searchable Preferences"
+msgstr "தேடக்கூடிய விருப்பத்தேர்வுகள்"
+
+#: template.py:636
+msgid "Start typing to locate the preference you're looking for."
+msgstr "நீங்கள் தேடும் விருப்பத்தை கண்டுபிடிக்க தட்டச்சு செய்யத் தொடங்குங்கள்."
+
+#: template.py:638
+msgid "Inspector Pages"
+msgstr "இன்ச்பெக்டர் பக்கங்கள்"
+
+#: template.py:639
+msgid "Edit all track and plugin parameters in the inspector."
+msgstr ""
+"இன்ச்பெக்டரில் உள்ள அனைத்து தட மற்றும் சொருகி அளவுருக்களையும் திருத்தவும்."
+
+#: template.py:642
+msgid "Plugin Capabilities"
+msgstr "சொருகி திறன்கள்"
+
+#: template.py:645
+msgid "Plugin Support"
+msgstr "சொருகி உதவி"
+
+#: template.py:646
+msgid ""
+"Thanks to {ref}Carla{endref}, Zrythm supports a variety of plugin formats"
+" including LV2, VST2, VST3, AU, CLAP and JSFX."
+msgstr ""
+"{ref} கார்லா {endref} க்கு நன்றி, எல்வி 2, விஎச்டி 2, விஎச்டி 3, ஏயூ, கிளாப் மற்றும் சேஎச்எஃப்எக்ச் உள்ளிட்"
+"ட பல்வேறு சொருகி வடிவங்களை சிரித்ம் ஆதரிக்கிறது."
+
+#: template.py:648
+msgid "SoundFonts as Plugins"
+msgstr "செருகுநிரல்களாக சவுண்ட்ஃபோன்ட்ச்"
+
+#: template.py:649
+msgid "Use SFZ and SF2 soundfonts as instrument plugins."
+msgstr ""
+"SFZ மற்றும் SF2 சவுண்ட்ஃபாண்ட்களை கருவி செருகுநிரல்களாகப் பயன்படுத்தவும்."
+
+#: template.py:651
+msgid "Flexible Plugin Browser"
+msgstr "நெகிழ்வான சொருகி உலாவி"
+
+#: template.py:652
+msgid ""
+"Easily filter plugins by author, format or category, and organize your "
+"favorite plugins with plugin collections."
+msgstr ""
+"ஆசிரியர், வடிவம் அல்லது வகை மூலம் செருகுநிரல்களை எளிதாக வடிகட்டவும், "
+"உங்களுக்கு பிடித்த செருகுநிரல்களை சொருகி சேகரிப்புகளுடன் ஒழுங்கமைக்கவும்."
+
+#: template.py:654
+msgid "Plugin Bridging"
+msgstr "சொருகி பாலம்"
+
+#: template.py:655
+msgid "Sandbox plugins by opening them in bridge mode."
+msgstr ""
+"சாண்ட்பாக்ச் செருகுநிரல்கள் அவற்றை பிரிட்ச் பயன்முறையில் திறப்பதன் மூலம்."
+
+#: template.py:657
+msgid "Automatable Bypass Mode"
+msgstr "தானியங்கி பைபாச் பயன்முறை"
+
+#: template.py:658
+msgid "Easily bypass plugins in the signal chain with an automatable control."
+msgstr ""
+"தானியங்கி கட்டுப்பாட்டுடன் சமிக்ஞை சங்கிலியில் செருகுநிரல்களை எளிதில் பைபாச் "
+"செய்யுங்கள்."
+
+#: template.py:661
+msgid "Comprehensive Import/Export"
+msgstr "விரிவான இறக்குமதி/ஏற்றுமதி"
+
+#: template.py:664
+msgid "File Browser"
+msgstr "கோப்பு உலாவி"
+
+#: template.py:665
+msgid ""
+"Browse and audition MIDI and audio files, and organize your favorite "
+"paths with favorites."
+msgstr ""
+"மிடி மற்றும் ஆடியோ கோப்புகளை உலாவவும் ஆடிசன் செய்யவும், உங்களுக்கு பிடித்த "
+"பாதைகளை பிடித்தவைகளுடன் ஒழுங்கமைக்கவும்."
+
+#: template.py:667
+msgid "Audio Files"
+msgstr "ஆடியோ கோப்புகள்"
+
+#: template.py:668
+msgid ""
+"Import or export any format supported by {ref}libsndfile{endref}, with "
+"additional MP3 import support."
+msgstr ""
+"கூடுதல் எம்பி 3 இறக்குமதி ஆதரவுடன் {ref} libsndfile {endref fy ஆல் "
+"ஆதரிக்கப்படும் எந்த வடிவத்தையும் இறக்குமதி செய்யுங்கள் அல்லது ஏற்றுமதி செய்க."
+
+#: template.py:670
+msgid "MIDI"
+msgstr "மிடி"
+
+#: template.py:671
+msgid "Import or export any part of the project in MIDI Type 0 or Type 1 formats."
+msgstr ""
+"திட்டத்தின் எந்த பகுதியையும் மிடி வகை 0 அல்லது வகை 1 வடிவங்களில் இறக்குமதி "
+"செய்யுங்கள்."
+
+#: template.py:673
+msgid "Stem Export"
+msgstr "STEM ஏற்றுமதி"
+
+#: template.py:674
+msgid "Export stems for specific tracks and share them with other producers."
+msgstr ""
+"குறிப்பிட்ட தடங்களுக்கான தண்டுகளை ஏற்றுமதி செய்து அவற்றை மற்ற "
+"தயாரிப்பாளர்களுடன் பகிர்ந்து கொள்ளுங்கள்."
+
+#: template.py:677 template.py:778
+msgid "Chord Assistance"
+msgstr "நாண் உதவி"
+
+#: template.py:680
+msgid "Chord Audition"
+msgstr "நாண் ஆடிசன்"
+
+#: template.py:681
+msgid ""
+"Quickly listen to chords by clicking the pads or pressing notes on your "
+"MIDI keyboard, and drag-and-drop chords to the timeline."
+msgstr ""
+"பேட்களைக் சொடுக்கு செய்வதன் மூலமோ அல்லது உங்கள் மிடி விசைப்பலகையில் "
+"குறிப்புகளை அழுத்துவதன் மூலமோ, காலவரிசைக்கு இழுத்துச் செல்லவும்."
+
+#: template.py:683
+msgid "Chord Editing"
+msgstr "நாண் திருத்துதல்"
+
+#: template.py:684
+msgid ""
+"Invert chords with a single click or use the chord selector to choose any"
+" chord, with an option to filter chords in the current scale."
+msgstr ""
+"ஒற்றை கிளிக்குடன் தலைகீழ் வளையங்கள் அல்லது எந்த நாண் தேர்வு செய்ய நாண் "
+"தேர்வாளரைப் பயன்படுத்தவும், தற்போதைய அளவில் வளையல்களை வடிகட்ட ஒரு "
+"விருப்பத்துடன்."
+
+#: template.py:686
+msgid "Recordable Chord Track"
+msgstr "பதிவு செய்யக்கூடிய நாண் டிராக்"
+
+#: template.py:687
+msgid ""
+"Dictate or record the scale and chord progression of the project, and "
+"optionally route the output to an instrument."
+msgstr ""
+"திட்டத்தின் அளவு மற்றும் நாண் முன்னேற்றத்தை ஆணையிடவும் அல்லது பதிவு செய்யவும்"
+", மற்றும் விருப்பத்தை ஒரு கருவிக்கு விருப்பமாக வழிநடத்துங்கள்."
+
+#: template.py:689
+msgid "Chord Presets"
+msgstr "நாண் முன்னமைவுகள்"
+
+#: template.py:690
+msgid ""
+"Generate chords from a wide range of scales, load included chord presets "
+"for various genres, or save your own."
+msgstr ""
+"பரந்த அளவிலான செதில்களிலிருந்து வளையங்களை உருவாக்குங்கள், சுமை பல்வேறு "
+"வகைகளுக்கான நாண் முன்னமைவுகளை உள்ளடக்கியது அல்லது உங்கள் சொந்த சேமிப்பை "
+"சேர்க்கவும்."
+
+#: template.py:693 template.py:787
+msgid "Never Lose Work"
+msgstr "ஒருபோதும் வேலையை இழக்காதீர்கள்"
+
+#: template.py:696
+msgid "Project Backups"
+msgstr "திட்ட காப்புப்பிரதிகள்"
+
+#: template.py:697
+msgid "Backups taken automatically at user-specified intervals."
+msgstr "பயனர் குறிப்பிட்ட இடைவெளியில் தானாக எடுக்கப்பட்ட காப்புப்பிரதிகள்."
+
+#: template.py:699
+msgid "Undoable Actions"
+msgstr "செயல்தவிர்க்க முடியாத செயல்கள்"
+
+#: template.py:700
+msgid "Almost every user action is undoable."
+msgstr "கிட்டத்தட்ட ஒவ்வொரு பயனர் செயலும் செயல்தவிர்க்க முடியாதது."
+
+#: template.py:702
+msgid "Serializable Undo History"
+msgstr "சீரியலைசபிள் வரலாற்றை செயல்தவிர்க்கவும்"
+
+#: template.py:703
+msgid "Keep your undo history when saving projects."
+msgstr "திட்டங்களைச் சேமிக்கும்போது உங்கள் வரலாற்றை செயல்தவிர்க்கவும்."
+
+#: template.py:706
+msgid "Scripting"
+msgstr "ச்கிரிப்டிங்"
+
+#: template.py:709
+msgid "Extend Zrythm"
+msgstr "Zrythm ஐ நீட்டிக்கவும்"
+
+#: template.py:710
+msgid ""
+"Extend the capabilities of Zrythm by editing its state using {ref}GNU "
+"Guile scripts{endref}."
+msgstr ""
+"{ref} குனு கெயில் ச்கிரிப்ட்கள் {endref ஃப்யூர் ஐப் பயன்படுத்தி அதன் நிலையைத் திருத்துவதன் மூலம் சிரித்மின் திறன்களை"
+" நீட்டிக்கவும்."
+
+#: template.py:712
+msgid "Custom Editor Functions"
+msgstr "தனிப்பயன் எடிட்டர் செயல்பாடுகள்"
+
+#: template.py:713
+msgid "Implement your own MIDI/audio/automation functions (coming soon)."
+msgstr ""
+"உங்கள் சொந்த மிடி/ஆடியோ/ஆட்டோமேசன் செயல்பாடுகளை செயல்படுத்தவும் (விரைவில்)."
+
+#: template.py:715
+msgid "Project Generation"
+msgstr "திட்ட உருவாக்கம்"
+
+#: template.py:716
+msgid "Generate projects with GNU Guile scripts."
+msgstr "குனு கெயில் ச்கிரிப்டுகளுடன் திட்டங்களை உருவாக்குங்கள்."
+
+#: template.py:719
+msgid "Optimized Performance"
+msgstr "உகந்த செயல்திறன்"
+
+#: template.py:722
+msgid "Hardware accelerated UI"
+msgstr "வன்பொருள் துரிதப்படுத்தப்பட்டது இடைமுகம்"
+
+#: template.py:723
+msgid ""
+"Most of the user interface is drawn on the GPU thanks to "
+"{ref}GTK4{endref}."
+msgstr ""
+"பயனர் இடைமுகத்தின் பெரும்பகுதி GPU இல் {ref} gtk4 {endref that க்கு நன்றி "
+"செலுத்தப்படுகிறது."
+
+#: template.py:725
+msgid "SIMD-optimized DSP"
+msgstr "சிம்ட்-உகந்த டிஎச்பி"
+
+#: template.py:726
+msgid ""
+"Zrythm uses {ref}lsp-dsp-lib{endref} which implements SIMD extensions "
+"such as SSE, AVX and FMA when available to speed up audio processing and "
+"minimize DSP usage."
+msgstr ""
+"ஆடியோ செயலாக்கத்தை விரைவுபடுத்துவதற்கும் டிஎச்பி பயன்பாட்டைக் குறைப்பதற்கும் "
+"கிடைக்கும்போது SSE, AVX மற்றும் FMA போன்ற SIMD நீட்டிப்புகளை "
+"செயல்படுத்துகிறது {ref} lsp-dsp-lib {endref} zrythm பயன்படுத்துகிறது."
+
+#: template.py:728
+msgid "Extensive Caching"
+msgstr "விரிவான கேச்சிங்"
+
+#: template.py:729
+msgid "Expensive computations are pre-calculated to save processing time."
+msgstr ""
+"செயலாக்க நேரத்தை மிச்சப்படுத்த விலையுயர்ந்த கணக்கீடுகள் முன் "
+"கணக்கிடப்படுகின்றன."
+
+#: template.py:732
+msgid "Cross-Platform Support"
+msgstr "குறுக்கு-தளம் உதவி"
+
+#: template.py:735
+msgid "Multiple Platforms"
+msgstr "பல தளங்கள்"
+
+#: template.py:736
+msgid ""
+"Zrythm is designed to run on a {ref}wide variety of platforms and "
+"architectures{endref} including x86 architectures, PowerPC, RISC-V, ARMv7"
+" and ARMv8."
+msgstr ""
+"Xrythm x86 கட்டமைப்புகள், பவர்பிசி, RISC-V, ARMV7 மற்றும் ARMV8 உள்ளிட்ட "
+"{ref} பலவிதமான தளங்கள் மற்றும் கட்டமைப்புகள் {endref on இல் இயங்க "
+"வடிவமைக்கப்பட்டுள்ளது."
+
+#: template.py:738
+msgid "Multiple Backends"
+msgstr "பல பின்தளத்தில்"
+
+#: template.py:739
+msgid ""
+"Support for almost all major audio and MIDI backends, including "
+"JACK/PipeWire, Windows MME, WASAPI and Core Audio/MIDI."
+msgstr ""
+"சாக்/பைப்வைர், சாளரங்கள் எம்எம்இ, வசாபி மற்றும் கோர் ஆடியோ/மிடி உள்ளிட்ட "
+"கிட்டத்தட்ட அனைத்து முக்கிய ஆடியோ மற்றும் மிடி பின்தளத்தில் உதவி."
+
+#: template.py:742
+msgid "Localization"
+msgstr "உள்ளகமாக்கல்"
+
+#: template.py:745
+msgid "Localized UI"
+msgstr "உள்ளூர்மயமாக்கப்பட்ட இடைமுகம்"
+
+#: template.py:746
+msgid "Use Zrythm in your preferred language."
+msgstr "உங்களுக்கு விருப்பமான மொழியில் Zrythm ஐப் பயன்படுத்தவும்."
+
+#: template.py:748
+msgid "Easily Add Translations"
+msgstr "மொழிபெயர்ப்புகளை எளிதாக சேர்க்கவும்"
+
+#: template.py:749
+msgid "Add missing translations and locales on {ref}Weblate{endref}."
+msgstr ""
+"காணாமல் போன மொழிபெயர்ப்புகள் மற்றும் இடங்களை {ref} வலைபெயர்ப்பு {endref on "
+"இல் சேர்க்கவும்."
+
+#: template.py:752
+msgid "User Freedom"
+msgstr "பயனர் விடுதலை"
+
+#: template.py:755
+msgid "Free Software"
+msgstr "இலவச மென்பொருள்"
+
+#: template.py:756
+msgid "All source code is released as {ref}copyleft free software{endref}."
+msgstr ""
+"அனைத்து மூலக் குறியீடும் {ref} copyleft இலவச மென்பொருள் {endref அச் என "
+"வெளியிடப்படுகிறது."
+
+#: template.py:758
+msgid "Open Standards"
+msgstr "திறந்த தரநிலைகள்"
+
+#: template.py:759
+msgid "Zrythm supports open standards such as MIDI, LV2, FLAC and OGG."
+msgstr ""
+"மிடி, எல்வி 2, ஃப்ளாக் மற்றும் ஓக் போன்ற திறந்த தரங்களை சிரித்ம் ஆதரிக்கிறது."
+
+#: template.py:761
+msgid "Cooperation"
+msgstr "ஒத்துழைப்பு"
+
+#: template.py:762
+msgid ""
+"We work with the free software community to ensure Zrythm builds and runs"
+" without issues on all platforms."
+msgstr ""
+"அனைத்து தளங்களிலும் சிக்கல்கள் இல்லாமல் Zrythm உருவாக்கி இயங்குவதை உறுதிசெய்"
+"ய இலவச மென்பொருள் சமூகத்துடன் நாங்கள் பணியாற்றுகிறோம்."
+
+#: template.py:770
+msgid ""
+"Easily select, move, resize, clone, link, loop, delete and cut objects "
+"with a single tool or extend its functionality with additional "
+"specialized tools, and enjoy adaptive snapping in every arranger."
+msgstr ""
+"ஒற்றை கருவியுடன் எளிதாகத் தேர்ந்தெடுக்கவும், நகர்த்தவும், மறுஅளவிடவும், நகலி"
+", இணைப்பு, லூப், நீக்கவும், வெட்டவும் அல்லது கூடுதல் சிறப்பு கருவிகளுடன் அதன்"
+" செயல்பாட்டை நீட்டிக்கவும், ஒவ்வொரு ஏற்பாட்டிலும் தகவமைப்பு ச்னாப்பிங்கை "
+"அனுபவிக்கவும்."
+
+#: template.py:772
+msgid "Limitless Automation"
+msgstr "வரம்பற்ற ஆட்டோமேசன்"
+
+#: template.py:773
+msgid ""
+"Automate almost anything with automation events using straight lines, "
+"ramps and curves, or with LFOs and envelopes."
+msgstr ""
+"நேர் கோடுகள், வளைவுகள் மற்றும் வளைவுகள் அல்லது எல்.எஃப்.ஓக்கள் மற்றும் "
+"உறைகளுடன் ஆட்டோமேசன் நிகழ்வுகளுடன் கிட்டத்தட்ட எதையும் தானியங்குபடுத்துங்கள்."
+
+#: template.py:776
+msgid ""
+"In-context listening, signal groups, FX tracks, MIDI effect and insert "
+"slots, pre and post-fader aux sends and anywhere-to-anywhere routing."
+msgstr ""
+"இன்-சூழல் கேட்பது, சமிக்ஞை குழுக்கள், எஃப்எக்ச் தடங்கள், மிடி எஃபெக்ட் "
+"மற்றும் செருகும் இடங்கள், முன் மற்றும் பிந்தைய மங்கலான ஆக்ச் அனுப்புதல் "
+"மற்றும் எங்கும் எங்கிருந்தும் ரூட்டிங்."
+
+#: template.py:779
+msgid ""
+"Generate chords from scales in the chord pad, audition and invert chords "
+"or save your own chord presets, manage your chord progression in the "
+"chord track and enjoy chord highlighting in the piano roll."
+msgstr ""
+"நாண் பேட், ஆடிசன் மற்றும் தலைகீழ் வளையங்களில் செதில்களிலிருந்து வளையங்களை "
+"உருவாக்குங்கள் அல்லது உங்கள் சொந்த நாண் முன்னமைவுகளைச் சேமிக்கவும், உங்கள் "
+"நாண் முன்னேற்றத்தை நாண் பாதையில் நிர்வகிக்கவும், பியானோ ரோலில் நாண் "
+"சிறப்பம்சத்தை அனுபவிக்கவும்."
+
+#: template.py:781
+msgid "Audio Plugins"
+msgstr "ஆடியோ செருகுநிரல்கள்"
+
+#: template.py:782
+msgid ""
+"Support for every major plugin format including {lv2_ref}LV2{endref}, "
+"VST2, VST3, AU, CLAP and JSFX, with additional support for SFZ and SF2 "
+"soundfonts and sandboxing thanks to {carla_ref}Carla{endref}."
+msgstr ""
+"SFZ மற்றும் SF2 சவுண்ட்ஃபோன்ட்ச் மற்றும் சாண்ட்பாக்சிங் நன்றி {carla_ref} கார்லா {endref} கூடுதல் ஆதரவுடன் "
+"{lv2_ref} lv2 {endref}, VST2, VST3, AU, கிளாப் மற்றும் JSFX உள்ளிட்ட ஒவ்வொரு பெரிய சொருகி "
+"வடிவத்திற்கும் உதவி."
+
+#: template.py:785
+msgid ""
+"Organize your work into multiple layers in the same track using track "
+"lanes, quickly bounce anything to audio, import/export a wide variety of "
+"audio and MIDI formats, stretch or loop any region and select from an "
+"array of track types for every purpose."
+msgstr ""
+"ட்ராக் லேன்சைப் பயன்படுத்தி உங்கள் வேலையை ஒரே பாதையில் பல அடுக்குகளாக "
+"ஒழுங்கமைக்கவும், ஆடியோவை விரைவாக ஆடியோ, இறக்குமதி/ஏற்றுமதி செய்தல், பலவிதமான "
+"ஆடியோ மற்றும் மிடி வடிவங்களை இறக்குமதி செய்தல்/ஏற்றுமதி செய்தல், எந்தவொரு "
+"பிராந்தியத்தையும் நீட்டவும் அல்லது வளையவும் மற்றும் ஒவ்வொரு நோக்கத்திற்கும் "
+"பாதையின் வகைகளிலிருந்து தேர்ந்தெடுக்கவும்."
+
+#: template.py:788
+msgid ""
+"Recover your work with automatic project backups, undo almost any user "
+"action and even save your undo history with projects."
+msgstr ""
+"தானியங்கி திட்ட காப்புப்பிரதிகளுடன் உங்கள் வேலையை மீட்டெடுக்கவும், எந்தவொரு "
+"பயனர் செயலையும் செயல்தவிர்க்கவும், உங்கள் செயல்தவிர் வரலாற்றை திட்டங்களுடன் "
+"சேமிக்கவும்."
+
+#: template.py:790
+msgid "Liberating"
+msgstr "விடுதலையானது"
+
+#: template.py:791
+msgid ""
+"Zrythm is {copyleft_ref}copyleft{endref} {free_software_ref}free "
+"software</a> with fully auditable source code. Use, study, share and "
+"improve it freely."
+msgstr ""
+"Zrythm என்பது {copyleft_ref} copyleft {endref} {free_software_ref} இலவச "
+"மென்பொருள் </a> முழுமையாக தணிக்கை செய்யக்கூடிய மூலக் குறியீட்டைக் கொண்டுள்ளது"
+". அதைப் பயன்படுத்தவும், படிக்கவும், பகிர்ந்து கொள்ளவும், சுதந்திரமாக "
+"மேம்படுத்தவும்."
+
+#: common/footer.j2.inc:26
+msgid ""
+"Zrythm and the Zrythm logo are {ref}trademarks of Alexandros "
+"Theodotou{endref}."
+msgstr ""
+"Zrythm மற்றும் Zrythm loco ஆகியவை அலெக்சாண்ட்ரோச் தியோடோடோ {endref of இன் "
+"வர்த்தக முத்திரைகள்."
+
+#: common/footer.j2.inc:30
+msgid "Project"
+msgstr "திட்டம்"
+
+#: common/footer.j2.inc:33 common/navigation.j2.inc:26
+#: template/features.html.j2:20 template/features.html.j2:32
+msgid "Features"
+msgstr "நற்பொருத்தங்கள்"
+
+#: common/footer.j2.inc:36 template/learn.html.j2:140
+msgid "User Manual"
+msgstr "பயனர் கையேடு"
+
+#: common/footer.j2.inc:39 template/download.html.j2:140
+msgid "Releases"
+msgstr "வெளியீடுகள்"
+
+#: common/footer.j2.inc:42
+msgid "Git"
+msgstr "அறிவிலி"
+
+#: common/footer.j2.inc:47
+msgid "Community"
+msgstr "சமூக"
+
+#: common/footer.j2.inc:50
+msgid "Chat"
+msgstr "அரட்டை"
+
+#: common/footer.j2.inc:53 common/navigation.j2.inc:30
+msgid "Forum"
+msgstr "மன்றம்"
+
+#: common/footer.j2.inc:56 template/community.html.j2:38
+msgid "Contribute"
+msgstr "பங்களிப்பு"
+
+#: common/footer.j2.inc:59 template/community.html.j2:115
+msgid "Donate"
+msgstr "நன்கொடை"
+
+#: common/footer.j2.inc:64
+msgid "About this Site"
+msgstr "இந்த தளம் பற்றி"
+
+#: common/footer.j2.inc:67 template/download.html.j2:137
+msgid "Source Code"
+msgstr "மூலக் குறியீடு"
+
+#: common/footer.j2.inc:70
+msgid "Legal Information"
+msgstr "சட்ட தகவல்"
+
+#: common/footer.j2.inc:73 template/privacy.html.j2:19
+#: template/privacy.html.j2:22 template/privacy.html.j2:31
+msgid "Privacy Policy"
+msgstr "தனியுரிமைக் கொள்கை"
+
+#: common/footer.j2.inc:76
+msgid "Report an Issue"
+msgstr "ஒரு சிக்கலைப் புகாரளிக்கவும்"
+
+#: common/footer.j2.inc:79
+msgid "Designed by Andrew Harter"
+msgstr "ஆண்ட்ரூ ஆர்ட்டர் வடிவமைத்தார்"
+
+#: common/navigation.j2.inc:27 template/plugins.html.j2:20
+#: template/plugins.html.j2:32
+msgid "Plugins"
+msgstr "செருகுநிரல்கள்"
+
+#: common/navigation.j2.inc:28 template/learn.html.j2:20
+#: template/learn.html.j2:32
+msgid "Guide"
+msgstr "வழிகாட்டி"
+
+#: common/navigation.j2.inc:29 template/community.html.j2:19
+#: template/community.html.j2:31
+msgid "Get Involved"
+msgstr "ஈடுபடுங்கள்"
+
+#: common/navigation.j2.inc:31 template/download.html.j2:19
+#: template/download.html.j2:81 template/index.html.j2:52
+msgid "Download"
+msgstr "பதிவிறக்கம்"
+
+#: common/navigation.j2.inc:41
+msgid "Select Language"
+msgstr "மொழியை தேர்ந்தெடுங்கள்"
+
+#: template/community.html.j2:22
+msgid "Zrythm's community pages and communication channels"
+msgstr "சிரித்மின் சமூக பக்கங்கள் மற்றும் செய்தி தொடர்பு சேனல்கள்"
+
+#: template/community.html.j2:44
+msgid "Join Development"
+msgstr "வளர்ச்சியில் சேரவும்"
+
+#: template/community.html.j2:47
+msgid "Start contributing code on our GitLab instance."
+msgstr "எங்கள் அறிவிலிஆய்வு நிகழ்வில் பங்களிப்பு குறியீட்டைத் தொடங்குங்கள்."
+
+#: template/community.html.j2:53
+msgid "Submit Bug Reports/Feature Requests"
+msgstr "பிழை அறிக்கைகள்/அம்ச கோரிக்கைகளை சமர்ப்பிக்கவும்"
+
+#: template/community.html.j2:56
+msgid "Browse our issue tracker and submit feature requests and bug reports."
+msgstr ""
+"எங்கள் வெளியீட்டு டிராக்கரை உலாவவும், அம்ச கோரிக்கைகள் மற்றும் பிழை "
+"அறிக்கைகளை சமர்ப்பிக்கவும்."
+
+#: template/community.html.j2:62
+msgid "Translate Zrythm"
+msgstr "Zrythm ஐ மொழிபெயர்க்கவும்"
+
+#: template/community.html.j2:65
+msgid ""
+"Translate the Zrythm DAW, the user manual and our websites into your "
+"language."
+msgstr ""
+"Zrythm DAW, பயனர் கையேடு மற்றும் எங்கள் வலைத்தளங்களை உங்கள் மொழியில் "
+"மொழிபெயர்க்கவும்."
+
+#: template/community.html.j2:72
+msgid "Get in Touch"
+msgstr "தொடர்பில் இருங்கள்"
+
+#: template/community.html.j2:78
+msgid "Join our Forum"
+msgstr "எங்கள் மன்றத்தில் சேரவும்"
+
+#: template/community.html.j2:81
+msgid "Join our forum and share your experience with the rest of the community."
+msgstr ""
+"எங்கள் மன்றத்தில் சேர்ந்து, உங்கள் அனுபவத்தை சமூகத்தின் மற்ற பகுதிகளுடன் "
+"பகிர்ந்து கொள்ளுங்கள்."
+
+#: template/community.html.j2:87
+msgid "Chat with us on IRC"
+msgstr "ஐ.ஆர்.சி.யில் எங்களுடன் அரட்டையடிக்கவும்"
+
+#: template/community.html.j2:90
+msgid ""
+"Our IRC channel is #zrythm on Libera.Chat "
+"(<code>irc://irc.libera.chat/zrythm</code>). Feel free to ping an "
+"operator for a <code>zrythm/user/*</code> cloak."
+msgstr ""
+"எங்கள் ஐ.ஆர்.சி சேனல் லிபரா.சாட்டில் #Zrythm (<code> irc: //irc.libera.chat/"
+"zrythm </code>). ஒரு <code> zrythm/USER/*</code> ஆடைகளுக்கு ஒரு ஆபரேட்டரை "
+"பிங் செய்ய தயங்க."
+
+#: template/community.html.j2:96
+msgid "Chat with us on Matrix"
+msgstr "மேட்ரிக்சில் எங்களுடன் அரட்டையடிக்கவும்"
+
+#: template/community.html.j2:99
+msgid ""
+"Matrix is an open standard for secure and decentralized communication. "
+"Our Matrix channel is #zrythmdaw:matrix.org and is bridged with IRC."
+msgstr ""
+"மேட்ரிக்ச் என்பது பாதுகாப்பான மற்றும் பரவலாக்கப்பட்ட தகவல்தொடர்புக்கான திறந்"
+"த தரமாகும். எங்கள் மேட்ரிக்ச் சேனல் #zrythmdaw: மேட்ரிக்ச்.ஆர்ச் மற்றும் ஐ."
+"ஆர்.சி."
+
+#: template/community.html.j2:105
+msgid "Follow us on Mastodon"
+msgstr "மாச்டோடனில் எங்களைப் பின்தொடரவும்"
+
+#: template/community.html.j2:108
+msgid ""
+"Follow us on Mastodon to get updates on new releases and get sneak peeks "
+"at new features, vote in polls, and more."
+msgstr ""
+"புதிய வெளியீடுகளைப் பற்றிய புதுப்பிப்புகளைப் பெறவும், புதிய அம்சங்களில் "
+"பதுங்குவதையும், வாக்கெடுப்புகளில் வாக்களிக்கவும் மற்றும் பலவற்றைப் பெறவும் "
+"மாச்டோடனில் எங்களைப் பின்தொடரவும்."
+
+#: template/community.html.j2:121
+msgid "Donate CryptoCurrency"
+msgstr "கிரிப்டோகரன்சியை நன்கொடையாக வழங்கவும்"
+
+#: template/community.html.j2:124
+msgid "Send us Bitcoin (BTC), Litecoin (LTC) or Monero (XMR)."
+msgstr ""
+"எங்களுக்கு பிட்காயின் (பி.டி.சி), லிட்காயின் (எல்.டி.சி) அல்லது மோனெரோ "
+"(எக்ச்எம்ஆர்) அனுப்பவும்."
+
+#: template/community.html.j2:130
+msgid "Donate on LiberaPay"
+msgstr "லிபராபேயில் நன்கொடை"
+
+#: template/community.html.j2:133
+msgid ""
+"Become a patron on LiberaPay. You can donate using PayPal, credit card, "
+"or a European bank account."
+msgstr ""
+"லிபராபேயில் ஒரு புரவலராகுங்கள். நீங்கள் பேபால், கடன் அட்டை அல்லது ஐரோப்பிய "
+"வங்கி கணக்கைப் பயன்படுத்தி நன்கொடை அளிக்கலாம்."
+
+#: template/community.html.j2:139
+msgid "Donate on Open Collective"
+msgstr "திறந்த கூட்டு மீது நன்கொடை"
+
+#: template/community.html.j2:142
+msgid "Donate on Open Collective and view our public expenses."
+msgstr "திறந்த கூட்டுக்கு நன்கொடை அளித்து, எங்கள் பொது செலவுகளைக் காண்க."
+
+#: template/download.html.j2:22
+msgid "Download Zrythm's source code or purchase a binary package installer."
+msgstr ""
+"Zrythm இன் மூலக் குறியீட்டைப் பதிவிறக்கவும் அல்லது பைனரி தொகுப்பு நிறுவியை "
+"வாங்கவும்."
+
+#: template/download.html.j2:46
+msgid "Select Platform"
+msgstr "தளத்தைத் தேர்ந்தெடுக்கவும்"
+
+#: template/download.html.j2:62
+msgid "Downloads"
+msgstr "பதிவிறக்கங்கள்"
+
+#: template/download.html.j2:68
+msgid "Installers"
+msgstr "நிறுவிகள்"
+
+#: template/download.html.j2:73
+msgid "Basic"
+msgstr "அடிப்படை"
+
+#: template/download.html.j2:74
+msgid "Free"
+msgstr "இலவசம்"
+
+#: template/download.html.j2:76
+msgid "Up to 25 tracks"
+msgstr "25 தடங்கள் வரை"
+
+#: template/download.html.j2:77
+msgid "Basic plugins"
+msgstr "அடிப்படை செருகுநிரல்கள்"
+
+#: template/download.html.j2:78
+msgid "Web user manual"
+msgstr "வலை பயனர் கையேடு"
+
+#: template/download.html.j2:85
+msgid "Snapshot"
+msgstr "ச்னாப்சாட்"
+
+#: template/download.html.j2:88 template/download.html.j2:100
+#: template/download.html.j2:112
+msgid "Unlimited tracks"
+msgstr "வரம்பற்ற தடங்கள்"
+
+#: template/download.html.j2:89 template/download.html.j2:101
+#: template/download.html.j2:113
+msgid "Basic & Z Series plugins"
+msgstr "அடிப்படை & சட் தொடர் செருகுநிரல்கள்"
+
+#: template/download.html.j2:90 template/download.html.j2:102
+#: template/download.html.j2:114
+msgid "Web & PDF user manual"
+msgstr "வலை & PDF பயனர் கையேடு"
+
+#: template/download.html.j2:91
+msgid "Access to v{} only"
+msgstr "V {for க்கு அணுகல் மட்டுமே"
+
+#: template/download.html.j2:93 template/download.html.j2:105
+msgid "Purchase"
+msgstr "வாங்க"
+
+#: template/download.html.j2:97
+msgid "Bundle"
+msgstr "மூட்டை"
+
+#: template/download.html.j2:103
+msgid "Access to all v1 releases"
+msgstr "அனைத்து வி 1 வெளியீடுகளுக்கும் அணுகல்"
+
+#: template/download.html.j2:109
+msgid "Subscription"
+msgstr "சந்தா"
+
+#: template/download.html.j2:110
+msgid "year"
+msgstr "ஆண்டு"
+
+#: template/download.html.j2:115
+msgid "Access to all releases"
+msgstr "அனைத்து வெளியீடுகளுக்கும் அணுகல்"
+
+#: template/download.html.j2:116
+msgid "Access to nightly builds"
+msgstr "இரவு கட்டமைப்பிற்கான அணுகல்"
+
+#: template/download.html.j2:118
+msgid "Subscribe"
+msgstr "பதிவு"
+
+#: template/download.html.j2:123
+msgid ""
+"* Prices in this currency are estimates. All purchases are in Japanese "
+"Yen."
+msgstr ""
+"* இந்த நாணயத்தின் விலைகள் மதிப்பீடுகள். அனைத்து வாங்குதல்களும் சப்பானிய யென்."
+
+#: template/download.html.j2:128
+msgid ""
+"Zrythm relies on donations and purchases to sustain development. This "
+"month we received:"
+msgstr ""
+"வளர்ச்சியைத் தக்கவைக்க Zrythm நன்கொடைகள் மற்றும் கொள்முதல் ஆகியவற்றை "
+"நம்பியுள்ளது. நாங்கள் பெற்ற இந்த மாதம்:"
+
+#: template/download.html.j2:141
+msgid "GPG Key"
+msgstr "சிபிசி விசை"
+
+#: template/features.html.j2:23
+msgid "List of features."
+msgstr "அம்சங்களின் பட்டியல்."
+
+#: template/index.html.j2:20
+msgid "Digital Audio Workstation"
+msgstr "டிசிட்டல் ஆடியோ பணிநிலையம்"
+
+#: template/index.html.j2:23
+msgid ""
+"Zrythm is a digital audio workstation designed to be featureful and easy "
+"to use. It allows limitless automation, supports LV2 plugins, works with "
+"the JACK audio backend and provides chord assistance."
+msgstr ""
+"சிரித்ம் என்பது டிசிட்டல் ஆடியோ பணிநிலையமாகும், இது அம்சமாகவும் பயன்படுத்த "
+"எளிதாகவும் வடிவமைக்கப்பட்டுள்ளது. இது வரம்பற்ற ஆட்டோமேசனை அனுமதிக்கிறது, "
+"எல்வி 2 செருகுநிரல்களை ஆதரிக்கிறது, சாக் ஆடியோ பின்தளத்தில் வேலை செய்கிறது "
+"மற்றும் நாண் உதவியை வழங்குகிறது."
+
+#: template/index.html.j2:50
+msgid "A highly automated and intuitive digital audio workstation"
+msgstr "மிகவும் தானியங்கி மற்றும் உள்ளுணர்வு டிசிட்டல் ஆடியோ பணிநிலையம்"
+
+#: template/index.html.j2:53
+msgid "Learn More"
+msgstr "மேலும் அறிக"
+
+#: template/index.html.j2:77
+msgid "Showcase"
+msgstr "காட்சி பெட்டி"
+
+#: template/index.html.j2:86 template/index.html.j2:100
+#: template/index.html.j2:114 template/index.html.j2:128
+#: template/index.html.j2:142 template/index.html.j2:156
+#: template/index.html.j2:170
+msgid "Your browser does not support HTML5 video."
+msgstr "உங்கள் உலாவி HTML5 வீடியோவை ஆதரிக்காது."
+
+#: template/index.html.j2:147
+msgid "Remake"
+msgstr "மறு ஆக்கம்"
+
+#: template/index.html.j2:183
+msgid "Testimonials"
+msgstr "சான்றுகள்"
+
+#: template/index.html.j2:212
+msgid "Affiliates"
+msgstr "துணை நிறுவனங்கள்"
+
+#: template/learn.html.j2:23
+msgid "Zrythm reference pages - user manual - tutorials"
+msgstr "Zrythm குறிப்பு பக்கங்கள் - பயனர் கையேடு - பயிற்சிகள்"
+
+#: template/learn.html.j2:39
+msgid "Tutorials"
+msgstr "பயிற்சிகள்"
+
+#: template/learn.html.j2:41
+msgid "Editing"
+msgstr "திருத்துதல்"
+
+#: template/learn.html.j2:47 template/learn.html.j2:57
+#: template/learn.html.j2:67 template/learn.html.j2:77
+#: template/learn.html.j2:87 template/learn.html.j2:102
+#: template/learn.html.j2:112
+msgid "Your browser does not support HTML5 video"
+msgstr "உங்கள் உலாவி HTML5 வீடியோவை ஆதரிக்காது"
+
+#: template/learn.html.j2:51
+msgid "Select/Stretch Tool"
+msgstr "கருவியைத் தேர்ந்தெடுக்கவும்"
+
+#: template/learn.html.j2:61
+msgid "Edit Tool"
+msgstr "கருவியைத் திருத்து"
+
+#: template/learn.html.j2:71
+msgid "Cut Tool"
+msgstr "வெட்டு கருவி"
+
+#: template/learn.html.j2:81
+msgid "Ramp Tool"
+msgstr "வளைவு கருவி"
+
+#: template/learn.html.j2:91
+msgid "Looping Regions"
+msgstr "நெரிசல் பகுதிகள்"
+
+#: template/learn.html.j2:96
+msgid "Routing"
+msgstr "ரூட்டிங்"
+
+#: template/learn.html.j2:106
+msgid "FX Sends"
+msgstr "எஃப்எக்ச் அனுப்புகிறது"
+
+#: template/learn.html.j2:116
+msgid "Port Routing"
+msgstr "துறைமுக ரூட்டிங்"
+
+#: template/learn.html.j2:122
+msgid "Walkthroughs"
+msgstr "ஒத்திகைகள்"
+
+#: template/learn.html.j2:132
+msgid "Your video here"
+msgstr "உங்கள் வீடியோ இங்கே"
+
+#: template/learn.html.j2:138
+msgid "Documentation"
+msgstr "ஆவணப்படுத்துதல்"
+
+#: template/learn.html.j2:141
+msgid "Developer Reference"
+msgstr "உருவாக்குபவர் குறிப்பு"
+
+#: template/legal.html.j2:19 template/legal.html.j2:31
+msgid "Legal information"
+msgstr "சட்ட தகவல்"
+
+#: template/legal.html.j2:22
+msgid "Legal, licensing and trademark information"
+msgstr "சட்ட, உரிமம் மற்றும் வர்த்தக முத்திரை செய்தி"
+
+#: template/legal.html.j2:37
+msgid "Licensing"
+msgstr "உரிமம்"
+
+#: template/legal.html.j2:43
+msgid ""
+"Zrythm is copyrighted by Alexandros Theodotou and other contributors. "
+"Zrythm is released under the <a "
+"href=\"https://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\">GNU "
+"Affero General Public License, version 3</a>."
+msgstr ""
+"அலெக்சாண்ட்ரோச் தியோடோட்டோ மற்றும் பிற பங்களிப்பாளர்களால் சிரித்ம் பதிப்புரிமை பெற்றார். Zrythm <a href=\"https"
+"://git.sr.ht/~alextee/zrythm/tree/master/item/COPYING\"> குனு அஃபெரோ பொது பொது உரிமம், "
+"பதிப்பு 3 </a> இன் கீழ் வெளியிடப்பட்டது."
+
+#: template/legal.html.j2:50
+msgid ""
+"Unless otherwise stated, Videos found on the Zrythm website are released "
+"under <a href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International</a>."
+msgstr ""
+"வேறுவிதமாகக் கூறப்படாவிட்டால், Zrythm இணையதளத்தில் காணப்படும் வீடியோக்கள் <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> கிரியேட்டிவ் "
+"காமன்ச் பண்புக்கூறு-சரேலைக் 4.0 பன்னாட்டு </a> இன் கீழ் வெளியிடப்படுகின்றன."
+
+#: template/legal.html.j2:56
+msgid ""
+"The <em>Richard Stallman: Free software, free society</em> video is "
+"licensed under Creative Commons BY-SA-ND 3.0."
+msgstr ""
+"<em> ரிச்சர்ட் ச்டால்மேன்: இலவச மென்பொருள், ஃப்ரீ சொசைட்டி </em> வீடியோ "
+"கிரியேட்டிவ் காமன்ச் பை-எச்ஏ-என்.டி 3.0 இன் கீழ் உரிமம் பெற்றது."
+
+#: template/legal.html.j2:60
+msgid ""
+"Credits: Drawings under CC-BY-ND 3.0 created by Christian Nogareda (Kwis,"
+" Http://kwis.tumblr.com), Valentin Pasquier "
+"(http://utopiqdream.deviantart.com) based on ideas of Richard Stallman, "
+"by himself and Ynternet.org foundation."
+msgstr ""
+"வரவு: CC-BY-ND 3.0 இன் கீழ் உள்ள வரைபடங்கள் கிறிச்டியன் நோகரேடா (KWIS, "
+"http://kwis.tumblr.com), வாலண்டின் பாச்கியர் (http://utopiqdream.deviantart."
+"com) ரிச்சர்ட் ச்டால்மேனின் கருத்துக்களின் அடிப்படையில், தானே மற்றும் "
+"ynternet.org அறக்கட்டளை."
+
+#: template/legal.html.j2:66
+msgid ""
+"Licenses for images found on this website can be found in {ref}this "
+"README file{endref}."
+msgstr ""
+"இந்த இணையதளத்தில் காணப்படும் படங்களுக்கான உரிமங்களை {ref} இந்த README "
+"கோப்பில் காணலாம் {endref}."
+
+#: template/legal.html.j2:71
+msgid "Trademarks"
+msgstr "வர்த்தக முத்திரைகள்"
+
+#: template/legal.html.j2:77
+msgid "Zrythm and the Zrythm logo are trademarks of Alexandros Theodotou."
+msgstr ""
+"சிரித்ம் மற்றும் சிரித்ம் லோகோ ஆகியவை அலெக்சாண்ட்ரோச் தியோடோட்டோவின் வர்த்தக "
+"முத்திரைகள்."
+
+#: template/plugins.html.j2:23
+msgid "Plugins bundled with Zrythm"
+msgstr "சிரித்ம் உடன் தொகுக்கப்பட்ட செருகுநிரல்கள்"
+
+#: template/plugins.html.j2:38
+msgid "Basic Plugins"
+msgstr "அடிப்படை செருகுநிரல்கள்"
+
+#: template/plugins.html.j2:43 template/plugins.html.j2:69
+msgid "{} screenshot"
+msgstr "{} திரைக்காட்சி"
+
+#: template/plugins.html.j2:64
+msgid "Z Series"
+msgstr "சட் தொடர்"
+
+#: template/plugins.html.j2:83
+msgid "Technical specs"
+msgstr "தொழில்நுட்ப விவரக்குறிப்புகள்"
+
+#: template/privacy.html.j2:354
+msgid "Last updated on 7 Sep 2023"
+msgstr "கடைசியாக 7 செப்டம்பர் 2023 இல் புதுப்பிக்கப்பட்டது"
