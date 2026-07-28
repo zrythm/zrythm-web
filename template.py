@@ -475,7 +475,7 @@ for in_file in glob.glob("template/*.j2"):
 
     for l in langs_full.keys():
         locale = l
-        locale_for_accounts = l.lower().replace ('_', '-').replace ('zh-cn', 'zh-hans').replace ('zh-tw', 'zh-hant')
+        locale_for_accounts = l.lower().replace ('_', '-')
 
         tr = gettext.translation("messages",
                                  localedir="locale",
@@ -853,7 +853,7 @@ for in_file in glob.glob("template/*.j2"):
         subscription_price_for_locale = '{}{:,}'.format (currency_sym_for_locale, subscription_price_for_locale)
         monthly_earning_str = '{}{:,}'.format (currency_sym_for_locale, monthly_earning_for_locale)
         local_salary_str = '{}{:,}'.format (currency_sym_for_locale, local_salary_for_locale)
-        localized_accounts_url = "https://accounts.zrythm.org/" + locale
+        localized_accounts_url = "https://accounts.zrythm.org/" + locale_for_accounts
         if not check_url (localized_accounts_url, True):
             localized_accounts_url = "https://accounts.zrythm.org/en"
 
