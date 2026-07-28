@@ -20,7 +20,7 @@ default:
       paths:
         - rendered
   tags:
-    - archlinux
+    - ubuntu22
   before_script:
     - source ./venv/bin/activate
 
