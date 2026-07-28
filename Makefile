@@ -20,6 +20,8 @@
 
 include config.mk
 
+SHELL := /bin/bash
+
 LANGUAGES = af_ZA ar ca en en_GB gd de es el fr gl he id it mk nl ja pt pt_BR ru hi hu ko nb_NO cs pl da et fi sl sv th tr uk vi zh_Hans zh_Hant
 
 all: locale/messages.pot locale template
