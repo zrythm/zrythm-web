@@ -29,7 +29,7 @@ GNU Affero General Public License for more details.
           <a class="navbar__link" href="{{ url(lang + '/community.html') }}">{{ _('Get Involved') }}</a>
           <a class="navbar__link" href="{{ forum_url }}">{{ _('Forum') }}</a>
           <a class="navbar__link ml-auto navbar__btn btn--primary" href="{{ url(lang + '/download.html') }}">{{ _('Download') }}</a>
-            <a class="navbar__link navbar__btn" href="#langmodal">{{ lang_full[0] }} {{ lang_full[1] }}</a>
+            <a class="navbar__link navbar__btn" href="#langmodal">{{ lang_full[0] }}</a>
         </div>
     </div>
 </header>
@@ -45,7 +45,7 @@ GNU Affero General Public License for more details.
         </div>
         <div class="modal__list">
             {% for key in langs_full.keys() %}
-              <a class="modal__list-item" href="{{ self_localized(key) }}">{{ langs_full[key][0] }} {{ langs_full[key][1] }}</a>
+              <a class="modal__list-item" href="{{ self_localized(key) }}">{{ langs_full[key][0] }}</a>
             {% endfor %}
         </div>
     </div>
