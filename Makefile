@@ -68,12 +68,20 @@ locale-compile:
 # Process everything related to gettext translations.
 locale: locale-update locale-compile
 
+# Dart Sass (used in CI) and Ruby Sass (some local setups) use different
+# flags to disable source maps -- pick the right one for the installed sass.
+ifeq ($(shell sass --version 2>&1 | grep -qi ruby && echo yes),yes)
+  SASS_NO_SOURCE_MAP = --sourcemap=none
+else
+  SASS_NO_SOURCE_MAP = --no-source-map
+endif
+
 # Run the jinja2 templating engine to expand templates to HTML
 # incorporating translations.
 template: locale-compile .credentials template/styles.scss
 	. ./.credentials && \
 	$(PYTHON) ./template.py && \
-	sass --no-source-map template/styles.scss static/styles.css
+	sass $(SASS_NO_SOURCE_MAP) template/styles.scss static/styles.css
 
 it: template
 
