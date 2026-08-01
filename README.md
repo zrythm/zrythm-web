@@ -13,8 +13,6 @@ https://git.gnunet.org/www.git/
 Create a file called `.credentials` with the following
 content:
 ```
-export PAYPAL_CLIENT_ID=
-export PAYPAL_SECRET=
 export ZRYTHM_ACCOUNTS_TOKEN=
 export VERIFY_TRIAL_PACKAGE_URLS=
 export GET_VERSION=

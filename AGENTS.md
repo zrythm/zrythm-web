@@ -85,7 +85,7 @@ rendered/          # Build output (gitignored) — generated HTML per locale
 - Data classes defined inline (`Plugin`, `FeatureGroup`, `Feature`)
 - Feature/plugin data hardcoded in Python dicts/lists
 - Fuzzy translation entries auto-cleared before rendering
-- API data fetched at build time (forex rates, product info, PayPal transactions)
+- API data fetched at build time (forex rates, product/order info)
 
 ### i18n
 - Custom Babel extractor in `i18nfix.py` normalizes whitespace
@@ -99,8 +99,6 @@ rendered/          # Build output (gitignored) — generated HTML per locale
 The `.credentials` file (gitignored) is sourced by the Makefile. Leave values empty to skip API fetches (site still builds):
 
 ```bash
-export PAYPAL_CLIENT_ID=       # PayPal API (optional)
-export PAYPAL_SECRET=          # PayPal API (optional)
 export ZRYTHM_ACCOUNTS_TOKEN=  # accounts.zrythm.org API (optional)
 export VERIFY_TRIAL_PACKAGE_URLS=  # "YES" to verify download URLs
 export GET_VERSION=            # "YES" to fetch latest Zrythm version

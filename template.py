@@ -68,11 +68,9 @@ env = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__
 if (os.getenv("DEBUG")):
     print(sys.path)
 
-PAYPAL_CLIENT_ID = os.getenv ('PAYPAL_CLIENT_ID')
-PAYPAL_SECRET = os.getenv ('PAYPAL_SECRET')
 ZRYTHM_ACCOUNTS_TOKEN = os.getenv ('ZRYTHM_ACCOUNTS_TOKEN')
 
-fetch_orders = PAYPAL_CLIENT_ID and PAYPAL_SECRET and ZRYTHM_ACCOUNTS_TOKEN
+fetch_orders = ZRYTHM_ACCOUNTS_TOKEN
 
 verify_trial_package_urls = os.getenv ('VERIFY_TRIAL_PACKAGE_URLS') == 'YES'
 get_version = os.getenv ('GET_VERSION') == 'YES'
@@ -230,64 +228,6 @@ if fetch_orders:
             print ('adding {} zrythm accounts earnings (Order {})'.format(amount, order['id']))
             monthly_earning += amount
             num_monthly_orders += 1
-    else:
-        print (r.json())
-
-# get paypal earnings
-    access_token_url = 'https://{}:{}@api.paypal.com/v1/oauth2/token'.format(
-            os.getenv('PAYPAL_CLIENT_ID'), os.getenv('PAYPAL_SECRET'))
-    headers = {
-        'Accept': 'application/json',
-        'Accept-Language': 'en_US',
-        }
-    payload = {
-        'grant_type': 'client_credentials',
-        }
-    r = requests.post(access_token_url, params=payload, headers=headers)
-    if r.status_code == 200:
-        access_token = r.json()['access_token']
-        transactions_url = 'https://api.paypal.com/v1/reporting/transactions'
-        headers = {
-            'Accept': 'application/json',
-            'Content-type': 'application/json',
-            'Accept-Charset': 'UTF-8',
-            'Authorization': 'Bearer ' + access_token,
-            }
-        payload = {
-            'start_date': datetime.datetime.now(datetime.timezone.utc).replace(day=1).astimezone().replace(microsecond=0).isoformat(),
-            'end_date': datetime.datetime.now(datetime.timezone.utc).astimezone().replace(microsecond=0).isoformat(),
-            'transaction_status': 'S',
-            }
-        r = requests.get(transactions_url, params=payload, headers=headers)
-        if r.status_code == 200:
-            for _tx in r.json()['transaction_details']:
-                tx = _tx['transaction_info']
-                if 'transaction_subject' in tx and tx['transaction_subject'] == 'Subscription':
-                    amount = float(tx['transaction_amount']['value'])
-                    if 'fee_amound' in tx:
-                        amount += float(tx['fee_amount']['value'])
-                    if tx['transaction_amount']['currency_code'] == 'USD':
-                        amount = amount / currency_rates['USD']
-                    elif tx['transaction_amount']['currency_code'] == 'GBP':
-                        amount = amount / currency_rates['GBP']
-                    if amount > 0:
-                        print ('adding {} paypal subscription earnings'.format(amount))
-                        monthly_earning += amount
-                elif 'invoice_id' not in tx and tx['transaction_event_code'] == 'T0000':
-                    amount = float(tx['transaction_amount']['value'])
-                    if 'fee_amound' in tx:
-                        amount += float(tx['fee_amount']['value'])
-                    if tx['transaction_amount']['currency_code'] == 'USD':
-                        amount = amount / currency_rates['USD']
-                    elif tx['transaction_amount']['currency_code'] == 'EUR':
-                        amount = amount / currency_rates['EUR']
-                    elif tx['transaction_amount']['currency_code'] == 'GBP':
-                        amount = amount / currency_rates['GBP']
-                    if amount > 0:
-                        print ('adding {} paypal custom donation earnings'.format(amount))
-                        monthly_earning += amount
-        else:
-            print (r.json())
     else:
         print (r.json())
 
