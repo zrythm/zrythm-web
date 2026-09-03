@@ -1,3 +1,3 @@
 [submodule "css/zrythm-css"]
 	path = css/zrythm-css
-	url = git@gitlab.zrythm.org:zrythm/zrythm-css.git
+	url = ../zrythm-css
