@@ -1,4 +1,22 @@
 /*
+Copyright (C) 2019-2026 Alexandros Theodotou <alex at zrythm dot org>
+
+This file is part of Zrythm
+
+Zrythm is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+Zrythm is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+*/
+/* Shared Zrythm website stylesheet (zrythm-css). Bump the
+   submodule and the ?v= query in common/header.j2.inc to pick up
+   changes. */
+/*
 Copyright (C) 2019, 2021 Alexandros Theodotou <alex at zrythm dot org>
 Copyright (C) 2021-2022 Andrew Harter <andrewhharter@gmail.com>
 
@@ -375,6 +393,10 @@ svg {
     /*-webkit-box-shadow: 0px 0px 0px 4px var(--color-grayscale-100) 0px 0px 0px 8px var(--color-primary-300); */
     box-shadow: 0 0 0 2px var(--color-grayscale-100), 0 0 0 4px var(--color-primary-300);
     outline: 0px; }
+  .btn.disabled {
+    opacity: .5;
+    pointer-events: none;
+    cursor: default; }
 
 .btn.btn--primary {
   color: var(--color-grayscale-100);

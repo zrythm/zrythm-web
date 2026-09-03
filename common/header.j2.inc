@@ -33,7 +33,7 @@ GNU Affero General Public License for more details.
 <link rel="icon" href="{{ url('static/favicon.ico') }}">
 
 <!-- Custom styles for this template -->
-<link href="{{ url('static/styles.css?v=20260903') }}" rel="stylesheet">
+<link href="{{ url('static/styles.css?v=1.0.0') }}" rel="stylesheet">
 
 <!-- Umami -->
 <script async src="https://analytics.zrythm.org/script.js" data-website-id="3ce24de1-a63b-4094-a9a3-887edfc2238f"></script>
