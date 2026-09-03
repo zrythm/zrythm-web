@@ -291,7 +291,7 @@ if get_version:
         alpha_available = True
         print ('alpha version: ' + alpha_ver)
     # hardcode it for now... (FIXME)
-    alpha_ver = '2.0.0-alpha.2'
+    alpha_ver = '2.0.0-alpha.3'
 else:
     version = '1'
     alpha_ver = ""
@@ -346,7 +346,7 @@ if verify_trial_package_urls:
 
 if verify_trial_package_urls and alpha_available:
     print ('verifying alpha packages...')
-    for suffix in ['-Linux.AppImage', '-win64.exe', '-MacOS.dmg']:
+    for suffix in ['-Linux.AppImage', '-win64.exe', '-win-arm64ec.exe', '-MacOS.dmg']:
         assert (check_url (downloads_url + 'Zrythm-' + alpha_ver + suffix, False))
     assert (check_url (downloads_url + 'SHA256SUMS-' + alpha_ver + '.txt', False))
     print ('done')

@@ -51,12 +51,28 @@ GNU Affero General Public License for more details.
     <div class="container" style="text-align: center;">
         <p style="display: inline-block; padding: 0.5rem 1rem; border: 1px solid var(--color-primary-400); border-radius: 0.25rem; color: var(--color-primary-200);">{{ _('This is pre-release software intended for testing only. Not suitable for production use. Use at your own risk.') }}</p>
     </div>
-    {% set alpha_artifacts = [('GNU/Linux (AppImage)', '-Linux.AppImage'), ('Windows (64-bit)', '-win64.exe'), ('MacOS (Apple Silicon & Intel)', '-MacOS.dmg')] %}
+    {% set alpha_artifacts = [('GNU/Linux (AppImage)', '-Linux.AppImage'), ('Windows (x64)', '-win64.exe'), ('Windows (ARM64EC, experimental)', '-win-arm64ec.exe'), ('MacOS (Apple Silicon & Intel)', '-MacOS.dmg')] %}
+    {% set win_artifacts = [(_('x64'), '-win64.exe'), (_('ARM64EC (experimental)'), '-win-arm64ec.exe')] %}
     <div class="container" style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; padding: 1rem 0;">
-        {% for label, suffix in alpha_artifacts %}
-        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}{{ suffix }}">{{ label }}</a>
-        {% endfor %}
+        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-Linux.AppImage">GNU/Linux</a>
+        <a class="btn" href="#winmodal" aria-haspopup="dialog">Windows</a>
+        <a class="btn" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}-MacOS.dmg">MacOS</a>
         <a class="btn" href="{{ git_url }}">{{ _('Source Code') }}</a>
+    </div>
+    <div class="modal" id="winmodal">
+        <div class="modal__dialog">
+            <div class="modal__header">
+                <h4 class="modal__title">{{ _('Select Architecture') }}</h4>
+                <a href="#" class="modal__close-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </a>
+            </div>
+            <div class="modal__list">
+                {% for label, suffix in win_artifacts %}
+                <a class="modal__list-item" href="{{ downloads_url }}Zrythm-{{ alpha_ver }}{{ suffix }}">{{ label }}</a>
+                {% endfor %}
+            </div>
+        </div>
     </div>
     {% if alpha_sha256sums %}
     <div class="container" style="display: flex; justify-content: center; padding-bottom: 1rem;">
